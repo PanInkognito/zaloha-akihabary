@@ -1,0 +1,622 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Odd,Open Sans Semibold,26,&H004A4F54,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Sugar,Open Sans Semibold,29,&H00342D33,&H000000FF,&H00D0E4E9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Welcome,Open Sans Semibold,29,&H00342D33,&H000000FF,&H00D0E4E9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,0,40,0
+Style: Cry,Open Sans Semibold,29,&H00FCFCF4,&H000000FF,&H007C3626,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,27,0
+Style: Cry2,Open Sans Semibold,38,&H00FCFCF4,&H000000FF,&H007C3626,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Snack,Open Sans Semibold,32,&H00243231,&H000000FF,&H006F9CB8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,233,160,0
+Style: Odd2,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,0,0,0,0
+Style: Odd3,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Snob,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,420,13,160,0
+Style: Throb,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,104,0,160,0
+Style: Judy,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,200,160,0
+Style: And,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,207,0,160,0
+Style: Snob Small,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,133,67,0
+Style: Throb Small,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,427,160,0
+Style: Slob Small,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,133,173,0
+Style: Odd4,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,107,0
+Style: Judy Small,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,213,67,0
+Style: And Small,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,240,0,173,0
+Style: Marie Small,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,227,183,0
+Style: Love,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,120,100,0
+Style: Beeeeeeee,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,27,20,0
+Style: eeeeest,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,27,213,0
+Style: Workers,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,0,27,0
+Style: Workers2,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,13,93,0
+Style: iiiiiiiit,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,27,213,0
+Style: Workers Small,Open Sans Semibold,21,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,0,160,0
+Style: Meeting,Open Sans Semibold,29,&H00342D33,&H000000FF,&H00F6FAF5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Whiteboard,Open Sans Semibold,29,&H00363835,&H000000FF,&H00F1F3E9,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,0,0,53,0
+Style: Whiteboard2,Open Sans Semibold,21,&H00363835,&H000000FF,&H00F1F3E9,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,27,13,187,0
+Style: Whiteboard3,Open Sans Semibold,21,&H00363835,&H000000FF,&H00F1F3E9,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,189,27,144,0
+Style: Name,Open Sans Semibold,32,&H00FCFEFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,27,27,0
+Style: Name2,Open Sans Semibold,32,&H00FCFEFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Station,Open Sans Semibold,32,&H00B6A19B,&H000000FF,&H003D3D40,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Ashtrays,Open Sans Semibold,24,&H00191919,&H000000FF,&H00CFD1CC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,27,0,27,0
+Style: Morning,Open Sans Semibold,29,&H0075CC57,&H000000FF,&H00FCF1BA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Cat,Open Sans Semibold,29,&H0081A6A2,&H000000FF,&H00E5FFFE,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,0,0,80,0
+Style: Boxes,Open Sans Semibold,32,&H00443B36,&H000000FF,&H005B8FA3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0,0,80,0
+Style: Note,Open Sans Semibold,24,&H00000000,&H000000FF,&H00F1EBDA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,27,27,27,0
+Style: Preview Green,Open Sans Semibold,32,&H00FEFDFD,&H000000FF,&H000E8308,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Sugar Smaller,Open Sans Semibold,26,&H00342D33,&H000000FF,&H00D0E4E9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,40,0
+Style: Sugar Smallest,Open Sans Semibold,24,&H00342D33,&H000000FF,&H00D0E4E9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,120,0
+Style: Snob Higher,Open Sans Semibold,24,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,133,27,0
+Style: Slob Lower,Open Sans Semibold,21,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,133,167,0
+Style: Odd5,Open Sans Semibold,32,&H00191919,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,99,0
+Style: podpis jeeeej,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00FF843A,&H00000000,-1,0,0,0,100,100,0,0,1,2.4,0,8,0,0,41,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.83,0:00:03.48,Main,Shin,0000,0000,0000,,Hm? Plakát?
+Dialogue: 0,0:00:03.48,0:00:04.43,Main,Gin,0000,0000,0000,,Jo.
+Dialogue: 0,0:00:03.48,0:00:06.65,Sugar,Sign,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:00:04.43,0:00:06.65,Main,Gin,0000,0000,0000,,Bylo by fajn udělat nějakou\Nreklamu na Yorozuyu.
+Dialogue: 0,0:00:07.16,0:00:08.78,Main,Shin,0000,0000,0000,,Co tak najednou?
+Dialogue: 0,0:00:08.78,0:00:10.80,Main,Gin,0000,0000,0000,,Business nám jde do háje hlavně proto,
+Dialogue: 0,0:00:10.80,0:00:13.15,Main,Gin,0000,0000,0000,,že jsme o sobě nedávali vědět veřejnosti.
+Dialogue: 0,0:00:13.70,0:00:16.79,Main,Gin,0000,0000,0000,,Naše práce je přece prvotřídní, ne?
+Dialogue: 0,0:00:16.79,0:00:17.91,Main,Shin,0000,0000,0000,,Fakt myslíš?
+Dialogue: 0,0:00:17.91,0:00:18.78,Main,Gin,0000,0000,0000,,Jasně.
+Dialogue: 0,0:00:18.78,0:00:21.65,Main,Gin,0000,0000,0000,,Doteď jsme nebrali propagaci vůbec vážně.
+Dialogue: 0,0:00:21.65,0:00:22.37,Main,Gin,0000,0000,0000,,Jinými slovy
+Dialogue: 0,0:00:23.18,0:00:25.88,Main,Gin,0000,0000,0000,,jsme nebrali vážně\NShigesatovy nosní dírky!
+Dialogue: 0,0:00:25.88,0:00:26.93,Main,Shin,0000,0000,0000,,Mluv za sebe!
+Dialogue: 0,0:00:26.93,0:00:29.42,Main,Shin,0000,0000,0000,,Já dohrál celou sérii Mother!
+Dialogue: 0,0:00:29.66,0:00:32.52,Main,Gin,0000,0000,0000,,Možná to je slavnej reklamní textař,\Nco vytvořil Mother,
+Dialogue: 0,0:00:32.52,0:00:35.60,Main,Gin,0000,0000,0000,,ale nikdo přece nechce lízt do\Nnosních dírek starýho chlapa.
+Dialogue: 0,0:00:35.60,0:00:38.21,Main,Gin,0000,0000,0000,,Reklama je víceméně brána do businessu!
+Dialogue: 0,0:00:36.95,0:00:39.93,Welcome,Sign,0000,0000,0000,,Vítejte.
+Dialogue: 0,0:00:38.21,0:00:39.93,Main,Shin,0000,0000,0000,,Nosní dírky nejsou žádný brány krucinál!
+Dialogue: 0,0:00:40.50,0:00:41.43,Main,Gin,0000,0000,0000,,Každopádně...!
+Dialogue: 0,0:00:41.90,0:00:43.49,Main,Gin,0000,0000,0000,,Tohle anime vysílá svou třetí sérii
+Dialogue: 0,0:00:43.49,0:00:45.12,Main,Gin,0000,0000,0000,,a dokonce jsme udělali i dva filmy.
+Dialogue: 0,0:00:45.12,0:00:47.91,Main,Gin,0000,0000,0000,,Potřebujem druhej dech.
+Dialogue: 0,0:00:47.91,0:00:51.94,Main,Gin,0000,0000,0000,,Jsme v bodě, kde musíme ukázat,\Njak bezva a super Yorozuya je
+Dialogue: 0,0:00:51.94,0:00:54.84,Main,Gin,0000,0000,0000,,a nalákat nový zákazníky.
+Dialogue: 0,0:00:54.84,0:00:57.35,Main,Shin,0000,0000,0000,,O arku z minulosti a druhym dechu jsme už mluvili.
+Dialogue: 0,0:00:57.35,0:00:59.20,Main,Shin,0000,0000,0000,,Fakt seš tak nervózní?
+Dialogue: 0,0:01:00.26,0:01:01.59,Main,Gin,0000,0000,0000,,A proto se ptám
+Dialogue: 0,0:01:01.59,0:01:04.21,Main,Gin,0000,0000,0000,,jestli nemáte\Nnějaký nápady na plakát.
+Dialogue: 0,0:01:04.64,0:01:08.13,Main,Gin,0000,0000,0000,,Jako příklad vám dám tenhle plakát na jednu známou hru.
+Dialogue: 0,0:01:09.10,0:01:19.14,Cry,Sign,0000,0000,0000,,Neplačte, dokud nepřijde konec
+Dialogue: 0,0:01:12.88,0:01:15.75,Main,Shin,0000,0000,0000,,Seš v jeho nosních dírkách až po uši!
+Dialogue: 0,0:01:15.75,0:01:19.14,Main,Shin,0000,0000,0000,,Jeho chlupy z nosu se kompletně\Nomotaly kolem tvojeho sdrce!
+Dialogue: 0,0:01:19.14,0:01:22.64,Cry2,Sign,0000,0000,0000,,Neplačte, dokud nepřijde konec
+Dialogue: 0,0:01:19.46,0:01:21.85,Main,Gin,0000,0000,0000,,"Neplačte, dokud nepřijde konec."
+Dialogue: 0,0:01:22.64,0:01:26.64,Cry,Sign,0000,0000,0000,,Neplačte, dokud nepřijde konec
+Dialogue: 0,0:01:22.87,0:01:24.43,Main,Gin,0000,0000,0000,,Tady máte fakt dobrej slogan.
+Dialogue: 0,0:01:24.43,0:01:29.45,Main,Gin,0000,0000,0000,,A sami můžete vidět, jak ten reklamní obrázek perfektně odráží...
+Dialogue: 0,0:01:30.92,0:01:32.70,Main,Gin,0000,0000,0000,,obsah produktu...
+Dialogue: 0,0:01:33.94,0:01:34.86,Main,Gin,0000,0000,0000,,Už nemůžu!
+Dialogue: 0,0:01:35.40,0:01:39.28,Cry,Sign,0000,0000,0000,,Neplačte, dokud nepřijde konec
+Dialogue: 0,0:01:36.86,0:01:37.75,Main,Gin,0000,0000,0000,,Dejte mi chvilku.
+Dialogue: 0,0:01:37.75,0:01:39.28,Main,Shin,0000,0000,0000,,Nemáš brečet, dokud nepřijde konec!
+Dialogue: 0,0:01:39.28,0:01:43.32,Main,Kag,0000,0000,0000,,Takže máme předvíst Yorozuyu\Njen obrázkem a textem?
+Dialogue: 0,0:01:43.32,0:01:44.43,Main,Gin,0000,0000,0000,,Jo.
+Dialogue: 0,0:01:46.18,0:01:47.71,Main,Shin,0000,0000,0000,,To nebude nic lehkýho.
+Dialogue: 0,0:01:47.71,0:01:49.21,Main,Shin,0000,0000,0000,,Hlavně ten slogan.
+Dialogue: 0,0:01:49.21,0:01:52.71,Sugar,Sign,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:01:49.21,0:01:52.71,Main,Kag,0000,0000,0000,,Můžem se odpíchnout od Mother.
+Dialogue: 0,0:01:53.64,0:01:55.46,Main,Kag,0000,0000,0000,,Co třeba tohle?
+Dialogue: 0,0:01:59.74,0:02:01.48,Main,Kag,0000,0000,0000,,"Kdy konečně přijde opening?"
+Dialogue: 0,0:01:59.86,0:02:02.97,Cry,Sign,0000,0000,0000,,Kdy konečně přijde opening?
+Dialogue: 0,0:02:01.48,0:02:02.97,Main,Shin,0000,0000,0000,,Co je tohle za slogan?!
+Dialogue: 0,0:03:29.55,0:03:32.55,podpis jeeeej,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:03:32.98,0:03:38.90,Ep Title,Title,0000,0000,0000,,{\fad(400.,1)}Lidi s Velkými Nosními Dírkami Mají i Velkou Představivost
+Dialogue: 0,0:03:38.90,0:03:41.72,Snack,Sign,0000,0000,0000,,Bar Otose
+Dialogue: 0,0:03:38.90,0:03:44.91,Odd,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:03:40.16,0:03:43.10,Main,Gin,0000,0000,0000,,Slogan musí ve zkratce říct, co děláme,
+Dialogue: 0,0:03:43.10,0:03:46.54,Main,Gin,0000,0000,0000,,a zároveň přilákat potenciální zákazníky.
+Dialogue: 0,0:03:47.49,0:03:49.33,Main,Kag,0000,0000,0000,,Takže jim podstrčíme, o čem je naše práce?
+Dialogue: 0,0:03:49.93,0:03:51.79,Main,Gin,0000,0000,0000,,Například něco takovýhleho.
+Dialogue: 0,0:03:52.14,0:03:58.71,Cry,Sign,0000,0000,0000,,Trocha pe**ingu nemůže uškodit
+Dialogue: 0,0:03:52.15,0:03:58.71,Default,,0,0,0,,{\an8\c&H80ffff&}[Pegging- druh análního sexu, kde si žena vymění roli s mužem]
+Dialogue: 0,0:03:55.82,0:03:57.98,Main,W,0000,0000,0000,,"Trocha pe**ingu nemůže uškodit."
+Dialogue: 0,0:03:57.98,0:03:59.30,Main,Shin,0000,0000,0000,,Co jsme to sakra za podnik?!
+Dialogue: 0,0:03:59.30,0:04:01.34,Main,Shin,0000,0000,0000,,Je to jen leták pro bordel!
+Dialogue: 0,0:04:01.34,0:04:03.63,Main,Shin,0000,0000,0000,,Od kdy poskytuje Yorozuya pe**ing?!
+Dialogue: 0,0:04:03.63,0:04:05.68,Main,Gin,0000,0000,0000,,To ukazuje, že i v chladný moderní době
+Dialogue: 0,0:04:06.07,0:04:08.56,Main,Gin,0000,0000,0000,,můžeme nabídnout i duševní pe**ing.
+Dialogue: 0,0:04:08.56,0:04:10.43,Main,Shin,0000,0000,0000,,Půjdou po nás JARO!
+Dialogue: 0,0:04:10.43,0:04:12.92,Main,Shin,0000,0000,0000,,A mohl bys už konečně přestat\Nvšade cpát Mother?!
+Dialogue: 0,0:04:12.92,0:04:14.51,Main,Shin,0000,0000,0000,,Seš jak posedlej!
+Dialogue: 0,0:04:14.51,0:04:16.83,Main,Kag,0000,0000,0000,,Všichni muži mají mateřský komplexy.
+Dialogue: 0,0:04:16.83,0:04:18.16,Main,Shin,0000,0000,0000,,Takhle jsem to nemyslel!
+Dialogue: 0,0:04:18.15,0:04:22.65,Sugar,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:04:18.79,0:04:19.91,Main,Gin,0000,0000,0000,,Fajn.
+Dialogue: 0,0:04:19.91,0:04:21.61,Main,Gin,0000,0000,0000,,Změníme téma.
+Dialogue: 0,0:04:21.61,0:04:22.65,Main,Gin,0000,0000,0000,,Yorozuyu strčíme stranou
+Dialogue: 0,0:04:23.35,0:04:24.90,Main,Gin,0000,0000,0000,,a uděláme reklamu na anime.
+Dialogue: 0,0:04:24.90,0:04:26.68,Main,Gin,0000,0000,0000,,Budem prodávat DVDýčka a Blu-raye.
+Dialogue: 0,0:04:26.68,0:04:28.49,Main,Shin,0000,0000,0000,,Vážně budem používat tuhle přímou metodu?
+Dialogue: 0,0:04:28.79,0:04:31.53,Main,Gin,0000,0000,0000,,Když chceš rozjet business,\Nmusíš si trochu ušpinit ruce.
+Dialogue: 0,0:04:31.53,0:04:33.04,Main,Gin,0000,0000,0000,,Musíš bejt bezprostřední.
+Dialogue: 0,0:04:33.04,0:04:34.71,Main,Shin,0000,0000,0000,,Ale tohle není tvá práce!
+Dialogue: 0,0:04:34.71,0:04:36.55,Main,Shin,0000,0000,0000,,To má na starosti Aniplex!
+Dialogue: 0,0:04:36.55,0:04:38.50,Main,Kag,0000,0000,0000,,Tak co třeba tohle?
+Dialogue: 0,0:04:38.86,0:04:44.51,Cry,Sign,0000,0000,0000,,Pořád mě nenapadá, jak to ukončit
+Dialogue: 0,0:04:42.07,0:04:43.55,Main,Sor,0000,0000,0000,,"Pořád mě nenapadá, jak to ukončit."
+Dialogue: 0,0:04:43.55,0:04:44.51,Main,Shin,0000,0000,0000,,Tohle je až moc bezprostřední!
+Dialogue: 0,0:04:44.74,0:04:46.72,Main,Shin,0000,0000,0000,,A s reklamou to nemá co dočinění!
+Dialogue: 0,0:04:46.72,0:04:48.98,Main,Shin,0000,0000,0000,,Akorát jsme ukázali mangakovo smutný tajemství!
+Dialogue: 0,0:04:48.98,0:04:53.09,Main,Kag,0000,0000,0000,,Přišel čas vysvětlit, proč se tohle\Nanime táhne celejch 9 let s tím,
+Dialogue: 0,0:04:53.09,0:04:55.56,Main,Kag,0000,0000,0000,,že dokola končí a začíná.
+Dialogue: 0,0:04:55.56,0:04:56.43,Main,Gin,0000,0000,0000,,Kaguro...
+Dialogue: 0,0:04:56.43,0:05:01.76,Main,Gin,0000,0000,0000,,Teď by bylo asi lepší říct, že byl konec vymyšlenej už na začátku.
+Dialogue: 0,0:05:01.76,0:05:04.82,Main,Gin,0000,0000,0000,,Jinak by si mohli lidi myslet, že\Nposlední díl skončí prvoplánově.
+Dialogue: 0,0:05:04.93,0:05:10.83,Cry,Sign,0000,0000,0000,,Pořád mě nenapadá, jak to ukončit
+Dialogue: 0,0:05:05.81,0:05:08.51,Main,Kag,0000,0000,0000,,Takže je dobrý, když je hotovej konec?
+Dialogue: 0,0:05:08.51,0:05:10.83,Main,Shin,0000,0000,0000,,Konec anime, ne konec mangaky!
+Dialogue: 0,0:05:11.29,0:05:13.69,Main,Shin,0000,0000,0000,,Hoďte se do klidu!
+Dialogue: 0,0:05:13.69,0:05:15.55,Main,Shin,0000,0000,0000,,Nekomplikujme to tolik
+Dialogue: 0,0:05:15.55,0:05:18.08,Main,Shin,0000,0000,0000,,a radši si promluvme o dobrejch věcech na tomhle anime.
+Dialogue: 0,0:05:18.08,0:05:24.09,Sugar,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:05:24.09,0:05:29.09,Sugar Smaller,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:05:29.09,0:05:33.10,Sugar Smallest,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:05:33.54,0:05:40.86,Cry,Sign,0000,0000,0000,,Nic nás nenapadlo.
+Dialogue: 0,0:05:35.06,0:05:36.08,Main,All,0000,0000,0000,,"Nic nás nenapadlo."
+Dialogue: 0,0:05:36.08,0:05:36.84,Main,Shin,0000,0000,0000,,To je fakt smutný!
+Dialogue: 0,0:05:36.84,0:05:37.90,Main,Shin,0000,0000,0000,,To snad není pravda!
+Dialogue: 0,0:05:37.90,0:05:40.86,Main,Shin,0000,0000,0000,,Dotáhli jsme to až k 274. dílu, \Nmusí tu bejt aspoň jedna věc!
+Dialogue: 0,0:05:41.29,0:05:47.61,Cry,Sign,0000,0000,0000,,Nejsou tu žádné brýle
+Dialogue: 0,0:05:42.02,0:05:43.47,Main,Bo,0000,0000,0000,,"Nejsou tu žádné brýle."
+Dialogue: 0,0:05:43.47,0:05:44.98,Main,Shin,0000,0000,0000,,Jak jako žádné brýle?!
+Dialogue: 0,0:05:44.98,0:05:45.53,Main,Shin,0000,0000,0000,,Jsou přímo tady!
+Dialogue: 0,0:05:45.53,0:05:47.61,Main,Shin,0000,0000,0000,,Září mi na očích jako diamanty!
+Dialogue: 0,0:05:47.97,0:05:54.87,Cry,Sign r,0000,0000,0000,,Vážně mě začíná srát.\NProč radši něco nenavrhne namísto\Ntoho, aby si furt jen stěžoval?
+Dialogue: 0,0:05:49.22,0:05:50.53,Main,Gin,0000,0000,0000,,"Vážně mě začíná srát."
+Dialogue: 0,0:05:50.53,0:05:53.31,Main,Kag,0000,0000,0000,,"Proč radši něco nenavrhne namísto toho,\Naby si furt jen stěžoval?"
+Dialogue: 0,0:05:53.31,0:05:54.87,Main,Shin,0000,0000,0000,,Proč spolu mluvíte skrz slogany?!
+Dialogue: 0,0:05:55.22,0:06:00.38,Cry,Sign,0000,0000,0000,,Nikdo v brýlích až do konce
+Dialogue: 0,0:05:56.14,0:05:58.09,Main,Bo,0000,0000,0000,,"Nikdo v brýlích až do konce.."
+Dialogue: 0,0:05:58.09,0:06:00.38,Main,Shin,0000,0000,0000,,Dokonce i kluk s brejlema dostal svůj konec!
+Dialogue: 0,0:06:01.08,0:06:03.27,Main,Shin,0000,0000,0000,,Hele, už by stačilo!
+Dialogue: 0,0:06:03.27,0:06:05.17,Main,Shin,0000,0000,0000,,Tomuhle říkáte reklama?!
+Dialogue: 0,0:06:05.17,0:06:07.88,Main,Shin,0000,0000,0000,,Tímhle tempem ten plakát nikdy nedokončíme!
+Dialogue: 0,0:06:07.88,0:06:13.14,Odd2,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:06:08.61,0:06:10.37,Main,Shin,0000,0000,0000,,Teď úplně vypustíme Mother.
+Dialogue: 0,0:06:10.37,0:06:11.60,Main,Shin,0000,0000,0000,,Přemejšlejte s nadhledem.
+Dialogue: 0,0:06:12.04,0:06:13.63,Main,Shin,0000,0000,0000,,Prvně zkusíme vymyslit obrázek
+Dialogue: 0,0:06:13.14,0:06:19.65,Sugar,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:06:13.63,0:06:16.39,Main,Shin,0000,0000,0000,,a tomu pak přizpůsobíme slogan.
+Dialogue: 0,0:06:16.39,0:06:19.65,Main,Gin,0000,0000,0000,,To je fakt, nemáme čas na takový záseky.
+Dialogue: 0,0:06:20.64,0:06:22.90,Main,Shin,0000,0000,0000,,Podíváme se do našich starejch fotek.
+Dialogue: 0,0:06:23.43,0:06:25.53,Main,Shin,0000,0000,0000,,Takhle si nás lidi spíš zapamatujou.
+Dialogue: 0,0:06:28.83,0:06:31.33,Main,Shin,0000,0000,0000,,Nejdřív se dohodnem, jaký fotky použijeme.
+Dialogue: 0,0:06:32.86,0:06:34.44,Main,Shin,0000,0000,0000,,Fajn, tyhle tři budou dobrý.
+Dialogue: 0,0:06:34.44,0:06:37.87,Main,Gin,0000,0000,0000,,A jak chceš tyhle 3 rozdílný fotky\Nzakomponovat do jednoho plakátu?
+Dialogue: 0,0:06:37.87,0:06:42.38,Sugar,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:06:38.32,0:06:39.47,Main,Shin,0000,0000,0000,,Takhle.
+Dialogue: 0,0:06:41.00,0:06:42.89,Main,Gin,0000,0000,0000,,Jasně, rozumím.
+Dialogue: 0,0:06:42.38,0:06:47.09,Odd3,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:06:42.89,0:06:44.29,Main,Gin,0000,0000,0000,,Něco podobnýho jsem už viděl.
+Dialogue: 0,0:06:44.29,0:06:46.61,Main,Kag,0000,0000,0000,,Hádám, že to bude fungovat.
+Dialogue: 0,0:06:46.61,0:06:48.13,Main,Shin,0000,0000,0000,,Největší problém bude ten slogan.
+Dialogue: 0,0:06:48.72,0:06:52.13,Main,Gin,0000,0000,0000,,Máme tam tři volný místa, takže je můžeme nějak využít.
+Dialogue: 0,0:06:52.59,0:06:53.89,Main,Shin,0000,0000,0000,,Co třeba takhle?
+Dialogue: 0,0:06:55.20,0:06:56.14,Snob,Sign,0000,0000,0000,,Cynický pecivál
+Dialogue: 0,0:06:55.20,0:06:56.14,Main,Gin,0000,0000,0000,,"Cynický pecivál"
+Dialogue: 0,0:06:57.48,0:06:58.39,Throb,Sign,0000,0000,0000,,Pracovitý občan
+Dialogue: 0,0:06:57.48,0:06:58.39,Main,Shin,0000,0000,0000,,"Pracovitý občan."
+Dialogue: 0,0:06:59.69,0:07:01.15,Snob,Sign,0000,0000,0000,,Malá stydlivka
+Dialogue: 0,0:06:59.69,0:07:01.15,Main,Kag,0000,0000,0000,,"Malá stydlivka."
+Dialogue: 0,0:07:01.15,0:07:03.69,Snob Small,Sign,0000,0000,0000,,Cynický pecivál
+Dialogue: 0,0:07:01.15,0:07:03.69,Throb Small,Sign,0000,0000,0000,,Pracovitý občan
+Dialogue: 0,0:07:01.15,0:07:03.69,Slob Small,Sign,0000,0000,0000,,Malá stydlivka
+Dialogue: 0,0:07:01.15,0:07:03.69,Odd4,Sign,0000,0000,0000,,To je Yorozuya Gin-chan
+Dialogue: 0,0:07:02.07,0:07:03.69,Main,All,0000,0000,0000,,"To je Yorozuya Gin-chan!"
+Dialogue: 0,0:07:04.06,0:07:05.67,Main,Gin,0000,0000,0000,,Pěkně zastaralý.
+Dialogue: 0,0:07:05.67,0:07:07.06,Main,Kag,0000,0000,0000,,A otřepaný.
+Dialogue: 0,0:07:07.06,0:07:08.92,Main,Shin,0000,0000,0000,,Ale rýmuje se to!
+Dialogue: 0,0:07:08.92,0:07:10.92,Main,Gin,0000,0000,0000,,Tenhle způsob myšlení je sám o sobě zastaralej.
+Dialogue: 0,0:07:10.92,0:07:14.24,Main,Gin,0000,0000,0000,,Seš jak starej chlap, kterej si myslí, že když\Nse chová jako rapper, je trendy.
+Dialogue: 0,0:07:14.24,0:07:16.50,Main,Kag,0000,0000,0000,,A proč ses jako jedinej popsal tak hezky jako
+Dialogue: 0,0:07:16.50,0:07:18.12,Main,Kag,0000,0000,0000,,"pracovitý občan"?
+Dialogue: 0,0:07:18.12,0:07:19.13,Main,Kag,0000,0000,0000,,Ty zatracenej brejloune!
+Dialogue: 0,0:07:19.13,0:07:20.68,Main,Shin,0000,0000,0000,,Nic jinýho mě nenapadlo!
+Dialogue: 0,0:07:20.68,0:07:21.75,Main,Shin,0000,0000,0000,,Si to zkus sama!
+Dialogue: 0,0:07:23.48,0:07:26.49,Main,Kag,0000,0000,0000,,V dnešní době je potřeba s každým zacházet rovnocenně.
+Dialogue: 0,0:07:26.49,0:07:28.26,Main,Kag,0000,0000,0000,,Co říkáš na tohle?
+Dialogue: 0,0:07:29.57,0:07:30.51,Judy,Sign,0000,0000,0000,,Judy
+Dialogue: 0,0:07:29.70,0:07:30.51,Main,Gin,0000,0000,0000,,"Judy"
+Dialogue: 0,0:07:31.86,0:07:32.76,And,Sign,0000,0000,0000,,a
+Dialogue: 0,0:07:31.86,0:07:32.76,Main,Shin,0000,0000,0000,,"a"
+Dialogue: 0,0:07:34.07,0:07:35.01,Judy,Sign,0000,0000,0000,,Marie
+Dialogue: 0,0:07:34.07,0:07:35.01,Main,Kag,0000,0000,0000,,"Marie!"
+Dialogue: 0,0:07:35.01,0:07:39.68,Judy Small,Sign,0000,0000,0000,,Judy
+Dialogue: 0,0:07:35.01,0:07:39.68,And Small,Sign,0000,0000,0000,,a
+Dialogue: 0,0:07:35.01,0:07:39.68,Marie Small,Sign,0000,0000,0000,,Marie
+Dialogue: 0,0:07:35.01,0:07:39.68,Odd4,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:07:36.60,0:07:37.98,Main,All,0000,0000,0000,,"Yorozuya Gin-chan!"
+Dialogue: 0,0:07:37.98,0:07:39.68,Main,Shin,0000,0000,0000,,Tohle je podle tebe dobrý?!
+Dialogue: 0,0:07:39.92,0:07:41.72,Main,Shin,0000,0000,0000,,Ty to máš dobrý, prorože seš Mary!
+Dialogue: 0,0:07:41.72,0:07:42.73,Main,Shin,0000,0000,0000,,Ale proč jsem já "a"?!
+Dialogue: 0,0:07:42.73,0:07:43.92,Main,Shin,0000,0000,0000,,Můj život nemá žádnej smysl?!
+Dialogue: 0,0:07:43.92,0:07:47.58,Main,Kag,0000,0000,0000,,Původně jsem chtěla použít"Ch*ge a\N"As*a," ale nebyla vhodná doba!
+Dialogue: 0,0:07:47.58,0:07:48.19,Main,Shin,0000,0000,0000,,To by bylo zlý!
+Dialogue: 0,0:07:48.19,0:07:49.93,Main,Shin,0000,0000,0000,,Nemůžem to udělat ve vysílání!
+Dialogue: 0,0:07:49.93,0:07:50.37,Main,Shin,0000,0000,0000,,Počkat.
+Dialogue: 0,0:07:50.37,0:07:51.90,Main,Shin,0000,0000,0000,,Stajně bych byl jen "a"!
+Dialogue: 0,0:07:52.26,0:07:53.74,Main,Gin,0000,0000,0000,,Hoďdte se vy dva do klidu.
+Dialogue: 0,0:07:53.74,0:07:56.16,Main,Gin,0000,0000,0000,,Bože, řešíte naprostou pitomost.
+Dialogue: 0,0:07:56.16,0:07:57.65,Main,Gin,0000,0000,0000,,Přesně proto nemůžu vystát děcka.
+Dialogue: 0,0:07:58.07,0:08:00.41,Main,Gin,0000,0000,0000,,Nechtě dospělýho, aby to rovnocenně rozdělil.
+Dialogue: 0,0:08:00.41,0:08:02.62,Main,Gin,0000,0000,0000,,"Láska, žal, odol"
+Dialogue: 0,0:08:00.68,0:08:02.62,Love,Sign,0000,0000,0000,,Láska, Žal, Odol
+Dialogue: 0,0:08:02.62,0:08:03.35,Main,Shin,0000,0000,0000,,"nost"
+Dialogue: 0,0:08:02.77,0:08:03.35,And,Sign,0000,0000,0000,,nost
+Dialogue: 0,0:08:03.35,0:08:04.06,Main,Kag,0000,0000,0000,,"a"
+Dialogue: 0,0:08:03.48,0:08:04.06,Judy,Sign,0000,0000,0000,,a
+Dialogue: 0,0:08:04.06,0:08:07.63,Snob Higher,Sign,0000,0000,0000,,Láska, \NŽal,\NOdol
+Dialogue: 0,0:08:04.06,0:08:07.63,And Small,Sign,0000,0000,0000,,nost
+Dialogue: 0,0:08:04.06,0:08:07.63,Marie Small,Sign,0000,0000,0000,,a
+Dialogue: 0,0:08:04.06,0:08:07.63,Odd4,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:08:04.90,0:08:06.19,Main,All,0000,0000,0000,,"Yorozuya Gin-chan!"
+Dialogue: 0,0:08:06.19,0:08:07.63,Main,Shin,0000,0000,0000,,Jsi chamtivej!
+Dialogue: 0,0:08:07.63,0:08:11.15,Main,Shin,0000,0000,0000,,Nebylo by fér, kdybysme měli {\i1}my{\i0} žal a odolnost?!
+Dialogue: 0,0:08:11.15,0:08:14.18,Main,Kag,0000,0000,0000,,Seš neskutečnej! Takhle se podle\Ntebe chovaj dospěláci?!
+Dialogue: 0,0:08:14.18,0:08:16.34,Main,Gin,0000,0000,0000,,Jste ještě moc mladý.
+Dialogue: 0,0:08:16.34,0:08:18.51,Main,Gin,0000,0000,0000,,Tímhle vám nabízím, že ponesu\Nvšechny vaše břemena.
+Dialogue: 0,0:08:18.51,0:08:25.52,Sugar,Sign,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:08:19.57,0:08:20.49,Main,Gin,0000,0000,0000,,A co říkáte na to
+Dialogue: 0,0:08:20.49,0:08:22.89,Main,Gin,0000,0000,0000,,že bysme si každej napsali vlastní slogan?
+Dialogue: 0,0:08:22.89,0:08:25.52,Main,Shin,0000,0000,0000,,Jenže pak to nebude vůbec sourodý.
+Dialogue: 0,0:08:25.52,0:08:32.03,Sugar,,0000,0000,0000,,Hladina cukru
+Dialogue: 0,0:08:25.93,0:08:27.71,Main,Gin,0000,0000,0000,,V tom případě můžem určit téma.
+Dialogue: 0,0:08:27.71,0:08:29.78,Main,Gin,0000,0000,0000,,Třeba zapálení, co vkládáme do\Nsvý práce.
+Dialogue: 0,0:08:29.78,0:08:31.17,Main,Shin,0000,0000,0000,,Jo, to zní dobře.
+Dialogue: 0,0:08:31.17,0:08:32.03,Main,Shin,0000,0000,0000,,Budem se tím řídit.
+Dialogue: 0,0:08:32.34,0:08:34.53,Beeeeeeee,Sign,0000,0000,0000,,Vydám ze sebe to nejlepšííííííííííííííííííííííííííííííííííííííí\Nííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííí\Nííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííííí
+Dialogue: 0,0:08:32.34,0:08:38.28,Main,Gin,0000,0000,0000,,"Vydám ze sebe to nejlepší!"
+Dialogue: 0,0:08:34.59,0:08:38.39,eeeeest,,0000,0000,0000,,ííííííííííííííííííííííííííííííííííííííííí!
+Dialogue: 0,0:08:34.84,0:08:39.55,Workers,Sign,0000,0000,0000,,Pracují tu samí milí lidé\Ntakže se klidně zastavte
+Dialogue: 0,0:08:35.00,0:08:38.30,Main,Shin,0000,0000,0000,,"Pracují tu samí milí lidé, takže se klidně zastavte."
+Dialogue: 0,0:08:38.30,0:08:41.54,Main,Kag,0000,0000,0000,,"Do toho!"
+Dialogue: 0,0:08:38.39,0:08:39.55,iiiiiiiit,Sign,0000,0000,0000,,ííííííííííííííííííííííííííííííííííííííííí!\N\NDo tohoooooooooooooooooooooooooooooooooooo
+Dialogue: 0,0:08:39.55,0:08:41.54,Workers2,,0000,0000,0000,,takže se klidně zastavte.
+Dialogue: 0,0:08:39.55,0:08:41.54,Beeeeeeee,,0000,0000,0000,,Do tohoooooooooooooooooooo!
+Dialogue: 0,0:08:42.20,0:08:44.92,Snob Higher,Sign,0000,0000,0000,,{\fs14}Vydám se sebe to\Nnejlepšíííííííííííííííííííííííííí\Níííííííííííííííííííííííííííííííííííííííí\Níííííííííííííííííííííííííííííííííííííííí\Níííííííííííííííííííííííííííííííííííííííí!
+Dialogue: 0,0:08:42.20,0:08:44.92,Workers Small,Sign,0000,0000,0000,,Pracují tu samí milí lidé,\Ntakže se klidně zastavte.
+Dialogue: 0,0:08:42.20,0:08:44.92,Slob Lower,Sign,0000,0000,0000,,Do tohooooooooo\Noooooooooooooo\Noooooooooooooo!
+Dialogue: 0,0:08:42.20,0:08:44.92,Odd5,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:08:42.98,0:08:44.92,Main,Shin,0000,0000,0000,,Není tam tolik místa, krucinál!
+Dialogue: 0,0:08:44.92,0:08:47.74,Main,Shin,0000,0000,0000,,Jen se snažíte napsat něco dlouhýho!
+Dialogue: 0,0:08:47.74,0:08:49.42,Main,Shin,0000,0000,0000,,Chtěli jste překrejt můj obličej!
+Dialogue: 0,0:08:49.77,0:08:50.53,Main,Shin,0000,0000,0000,,Já končím!
+Dialogue: 0,0:08:50.53,0:08:52.49,Main,Shin,0000,0000,0000,,Mám vás dvou plný zuby!
+Dialogue: 0,0:08:52.49,0:08:54.46,Main,Gin,0000,0000,0000,,My tebe taky, debile!
+Dialogue: 0,0:08:54.46,0:08:56.07,Main,Gin,0000,0000,0000,,Vůbec na tohle nemáte talent!
+Dialogue: 0,0:08:56.07,0:08:59.26,Main,Kag,0000,0000,0000,,Uvařte si Shigesatovy chlupy z nosu ve vodě a vypijte ji, vy budižkničemové!
+Dialogue: 0,0:08:59.47,0:09:00.85,Main,Gin,0000,0000,0000,,Cos to právě řekla?!
+Dialogue: 0,0:09:00.85,0:09:03.06,Main,Gin,0000,0000,0000,,Mám ten slogan napsat tvou krví?!
+Dialogue: 0,0:09:03.06,0:09:03.98,Main,Kag,0000,0000,0000,,Fajn!
+Dialogue: 0,0:09:03.98,0:09:07.20,Main,Kag,0000,0000,0000,,Urvu ti ču**ka, nechám ho natisknout\Na vytvořím z toho plakáty!
+Dialogue: 0,0:09:07.20,0:09:08.29,Main,Shin,0000,0000,0000,,Tak do toho!
+Dialogue: 0,0:09:09.56,0:09:10.93,Main,Shin,0000,0000,0000,,Ne, promiňte!
+Dialogue: 0,0:09:10.93,0:09:12.40,Main,Shin,0000,0000,0000,,Nechal jsem se unýst!
+Dialogue: 0,0:09:12.40,0:09:14.69,Main,Shin,0000,0000,0000,,P-Počkejte, Gin-sane, Kaguro-cha—
+Dialogue: 0,0:09:15.64,0:09:17.26,Main,Shin,0000,0000,0000,,Mýlil jsem se!
+Dialogue: 0,0:09:17.26,0:09:19.41,Main,Shin,0000,0000,0000,,Neměl jsem nic říkat!
+Dialogue: 0,0:09:30.11,0:09:35.01,Odd3,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:09:37.46,0:09:41.12,Main,G,0000,0000,0000,,Dnes jsme se tu sešli z jednoho prostého důvodu.
+Dialogue: 0,0:09:39.89,0:09:43.89,Meeting,Sign,0000,0000,0000,,Setkání Asociace Kabukicho
+Dialogue: 0,0:09:41.12,0:09:43.89,Main,G,0000,0000,0000,,V nedávných sociálních průzkumech\Npořádaných vládou se zjistilo,
+Dialogue: 0,0:09:44.13,0:09:45.65,Main,G,0000,0000,0000,,že Kabukicho vyhrálo
+Dialogue: 0,0:09:45.65,0:09:50.93,Main,G,0000,0000,0000,,trojitou korunu "nejhoršího místa k životu,"\N"nejděsivějšího města" a "nejneoblíbenějšího města."
+Dialogue: 0,0:09:48.90,0:09:53.11,Whiteboard,Sign,0000,0000,0000,,
+Dialogue: 0,0:09:48.90,0:09:53.11,Whiteboard2,Sign,0000,0000,0000,,
+Dialogue: 0,0:09:48.90,0:09:53.11,Whiteboard3,Sign,0000,0000,0000,,
+Dialogue: 0,0:09:50.93,0:09:53.11,Main,G,0000,0000,0000,,Proto bych chtěl navrhnout,
+Dialogue: 0,0:09:53.32,0:09:59.11,Main,G,0000,0000,0000,,abychom tu udělali torchu pořádek, posbírali odpad\Na pozdvihli městskou image...
+Dialogue: 0,0:09:57.51,0:09:59.54,Main,Ago,0000,0000,0000,,{\an8}Um, promiň,
+Dialogue: 0,0:10:00.07,0:10:01.45,Main,Ago,0000,0000,0000,,{\an8}ale táhni.
+Dialogue: 0,0:10:01.45,0:10:03.08,Main,G,0000,0000,0000,,Na shledanou!
+Dialogue: 0,0:10:03.65,0:10:05.71,Main,Ago,0000,0000,0000,,Pozdvihnout image Kabukicha?
+Dialogue: 0,0:10:05.71,0:10:07.08,Main,Ago,0000,0000,0000,,To je hračka.
+Dialogue: 0,0:10:07.08,0:10:10.08,Main,Ago,0000,0000,0000,,Jen stačí, když se zbavíme yakuzy.
+Dialogue: 0,0:10:07.64,0:10:10.08,Name,Sign,0000,0000,0000,,{\fad(717,1)}Zástupce Čtyř dev Kabukicha \NKrál pěstí \NAgo
+Dialogue: 0,0:10:10.44,0:10:13.15,Main,73,0000,0000,0000,,Jedině příšery jako vy kazí celkovej obrázek.
+Dialogue: 0,0:10:13.15,0:10:15.37,Main,73,0000,0000,0000,,Tohle není Universal Japan.
+Dialogue: 0,0:10:15.07,0:10:17.47,Name2,Sign,0000,0000,0000,,{\fad(670,1)}Zástupce Čtyř dev Kabukicha \N Kurogoma Katsuo
+Dialogue: 0,0:10:15.37,0:10:17.47,Main,73,0000,0000,0000,,Nikdo nechce, aby za každým\Nrohem strašila něčí brada.
+Dialogue: 0,0:10:17.47,0:10:20.47,Main,Ago,0000,0000,0000,,Podle tebe je má brada 3D atrakce?
+Dialogue: 0,0:10:21.41,0:10:25.97,Main,73,0000,0000,0000,,Po tom konfliktu se Čtyři devy\Nrozsypaly jak domeček z karet.
+Dialogue: 0,0:10:26.44,0:10:28.00,Main,73,0000,0000,0000,,Náš šéf odešel do důchodu,
+Dialogue: 0,0:10:28.00,0:10:29.16,Main,73,0000,0000,0000,,Kada se vypařila
+Dialogue: 0,0:10:29.16,0:10:32.48,Main,73,0000,0000,0000,,a Otose se Saigem jsou najednou poslušní jak psíci.
+Dialogue: 0,0:10:35.36,0:10:40.24,Main,73,0000,0000,0000,,Chtěl jsem se podívat na novou generaci\NČtyř dev, kterejm budu konkurovat,
+Dialogue: 0,0:10:40.54,0:10:44.79,Main,73,0000,0000,0000,,ale zdá se, že klidně můžu sám bez námahy\Npřevzít vládu nad tímhle městem.
+Dialogue: 0,0:10:45.16,0:10:46.67,Main,73,0000,0000,0000,,Já mizím.
+Dialogue: 0,0:10:46.67,0:10:50.25,Main,73,0000,0000,0000,,Klidně si běžte sbírat odpad nebo si\Npředělejte brady, mně to je fuk.
+Dialogue: 0,0:10:51.37,0:10:52.51,Main,Ago,0000,0000,0000,,Katsuo,
+Dialogue: 0,0:10:52.51,0:10:56.05,Main,Ago,0000,0000,0000,,tys ještě neslyšel o novém členovi Čtyř dev?
+Dialogue: 0,0:10:56.50,0:10:59.56,Main,Ago,0000,0000,0000,,Podle Mamy a Otose
+Dialogue: 0,0:10:59.56,0:11:02.80,Main,Ago,0000,0000,0000,,je to prej super nováček schopný\Npřevzít vládu nad Kabukichem
+Dialogue: 0,0:11:03.37,0:11:05.61,Main,73,0000,0000,0000,,Super nováček?
+Dialogue: 0,0:11:05.61,0:11:07.04,Main,73,0000,0000,0000,,Myslíš snad...
+Dialogue: 0,0:11:07.04,0:11:08.06,Main,73,0000,0000,0000,,Jeho?
+Dialogue: 0,0:11:10.23,0:11:11.66,Main,73,0000,0000,0000,,Co to...?!
+Dialogue: 0,0:11:12.76,0:11:15.36,Main,73,0000,0000,0000,,T-Ty seš...
+Dialogue: 0,0:11:15.36,0:11:18.32,Name2,Sign,0000,0000,0000,,{\fad(690,1)}Zástupce Čtyř dev Kabukicha\NNEETovský Samuraj\NSakata Gintoki
+Dialogue: 0,0:11:18.71,0:11:19.93,Main,Ago,0000,0000,0000,,Pako!
+Dialogue: 0,0:11:19.93,0:11:22.66,Main,73,0000,0000,0000,,Ten super nováček to právě od někoho schytal!
+Dialogue: 0,0:11:22.66,0:11:23.52,Main,Ago,0000,0000,0000,,Co meleš?
+Dialogue: 0,0:11:23.52,0:11:25.22,Main,Ago,0000,0000,0000,,Pako je prostě Pako.
+Dialogue: 0,0:11:25.22,0:11:26.25,Main,73,0000,0000,0000,,P-Pověz...
+Dialogue: 0,0:11:26.25,0:11:27.83,Main,Ago,0000,0000,0000,,Kdo ti to udělal?
+Dialogue: 0,0:11:28.13,0:11:30.39,Main,Gin,0000,0000,0000,,Z-Zdrhejte!
+Dialogue: 0,0:11:30.39,0:11:31.99,Main,Gin,0000,0000,0000,,Ten super nováček...
+Dialogue: 0,0:11:31.99,0:11:36.75,Main,Gin,0000,0000,0000,,Čtyři devy to maj nadobro spočítaný...
+Dialogue: 0,0:11:37.66,0:11:38.89,Main,Ago,0000,0000,0000,,Co tím chceš říct?
+Dialogue: 0,0:11:38.89,0:11:41.88,Main,Ago,0000,0000,0000,,D-Dej se do kupy, Pako!
+Dialogue: 0,0:11:41.88,0:11:43.84,Main,73,0000,0000,0000,,To je útok!
+Dialogue: 0,0:11:43.84,0:11:45.93,Main,73,0000,0000,0000,,Nová deva zahajuje útok!
+Dialogue: 0,0:11:46.26,0:11:47.89,Main,G,0000,0000,0000,,Posilte obranu!
+Dialogue: 0,0:11:47.89,0:11:50.02,Main,G,0000,0000,0000,,Nedovolte mu cloumat s naším městem!
+Dialogue: 0,0:11:55.50,0:11:56.73,Main,73,0000,0000,0000,,Co—
+Dialogue: 0,0:12:00.89,0:12:02.74,Main,Tae,0000,0000,0000,,Božínku, takhle by to nešlo.
+Dialogue: 0,0:12:03.45,0:12:05.71,Main,Tae,0000,0000,0000,,Jsme uprostřed důležité schůzky.
+Dialogue: 0,0:12:05.71,0:12:09.75,Main,Tae,0000,0000,0000,,Jakmile z vás člověk spustí oči,\Nuž děláte nepořádek a flákáte se.
+Dialogue: 0,0:12:10.75,0:12:13.75,Main,Tae,0000,0000,0000,,Otose-san a ostatní za nás přeci nemůžou\Ndo nekonečna dělat naši práci.
+Dialogue: 0,0:12:13.75,0:12:16.73,Main,Tae,0000,0000,0000,,Odteď musíme coby nová generace
+Dialogue: 0,0:12:16.73,0:12:19.76,Main,Tae,0000,0000,0000,,udržovat Kabukicho v bezpečí.
+Dialogue: 0,0:12:20.49,0:12:21.22,Main,Tae,0000,0000,0000,,Nemám pravdu?
+Dialogue: 0,0:12:21.07,0:12:24.26,Name2,Sign,0000,0000,0000,,{\fad(420,1)}Nová deva Kabukicha\NKrálovna Kabukicha\NShimura Tae
+Dialogue: 0,0:12:24.26,0:12:30.27,Ep Title,Title,0000,0000,0000,,{\fad(485,1)}Na Začátku Nikdy Nemůžete \NPřijmout Novou Sérii Sentai,\NAle s Příchodem Posledního Dílu \NVám Je Líto, že To už Končí
+Dialogue: 0,0:12:30.27,0:12:34.27,Odd3,Sign,0000,0000,0000,,Opatření pro vylepšení image Kabukicha
+Dialogue: 0,0:12:30.85,0:12:34.27,Main,Tae,0000,0000,0000,,Když už jsme tu všichni, můžeme začít.
+Dialogue: 0,0:12:34.91,0:12:39.19,Main,Tae,0000,0000,0000,,Dnešním tématem je: Jak vylepšit image Kabukicha.
+Dialogue: 0,0:12:39.19,0:12:40.78,Main,Tae,0000,0000,0000,,{\an8}Jak všichni víte,
+Dialogue: 0,0:12:41.11,0:12:44.55,Main,Tae,0000,0000,0000,,{\an8}získali jsme trojitou korunu "nejhoršího místa k životu,"\N"nejděsivějšího města"
+Dialogue: 0,0:12:41.37,0:12:42.36,Main,73,0000,0000,0000,,Hej.
+Dialogue: 0,0:12:42.36,0:12:46.28,Main,73,0000,0000,0000,,Jak se krucinál dostala nějaká\Nhosteska až na pozici jedný ze Čtyř dev?
+Dialogue: 0,0:12:44.55,0:12:46.28,Main,Tae,0000,0000,0000,,{\an8} a "nejneoblíbenějšího města."
+Dialogue: 0,0:12:46.28,0:12:50.33,Main,Gin,0000,0000,0000,,Otose a Saigo jí z nějakýho důvodu podporujou.
+Dialogue: 0,0:12:50.33,0:12:53.09,Main,Gin,0000,0000,0000,,Dokonce mě donutili se přidat.
+Dialogue: 0,0:12:53.09,0:12:55.01,Main,Gin,0000,0000,0000,,Teď kašlete na Čtyři devy,
+Dialogue: 0,0:12:53.09,0:12:58.32,Main,Tae,0000,0000,0000,,{\an8}a pojďme se zamyslet, jak\Nvytvořit Kabukichu lepší image.
+Dialogue: 0,0:12:55.01,0:12:56.85,Main,Gin,0000,0000,0000,,tímhle tempem přijde tyranská gorilí vláda.
+Dialogue: 0,0:12:56.85,0:12:58.32,Main,73,0000,0000,0000,,To si děláš prdel.
+Dialogue: 0,0:12:58.32,0:13:01.55,Main,73,0000,0000,0000,,Nebudem poslušně vrtět ocáskama kvůli nějaký holce z kabaretu!
+Dialogue: 0,0:13:01.95,0:13:02.95,Main,73,0000,0000,0000,,Ale hlavně
+Dialogue: 0,0:13:02.95,0:13:04.34,Main,73,0000,0000,0000,,nedokážu tolerovat novou generaci Čtyř dev
+Dialogue: 0,0:13:04.34,0:13:05.91,Main,73,0000,0000,0000,,sestavenou z yakuzy, NEETovskýho samuraje,
+Dialogue: 0,0:13:05.91,0:13:08.67,Main,73,0000,0000,0000,,hostesky a bagety!
+Dialogue: 0,0:13:08.67,0:13:10.56,Main,Ago,0000,0000,0000,,Čí brada je u tebe bageta?
+Dialogue: 0,0:13:10.81,0:13:13.48,Main,73,0000,0000,0000,,Slečno, sice nevím, jaký změny připravuješ,
+Dialogue: 0,0:13:13.48,0:13:15.81,Main,73,0000,0000,0000,,ale naše město má spoustu různejch tváří.
+Dialogue: 0,0:13:16.59,0:13:21.40,Main,73,0000,0000,0000,,A mně se líbí všechny, včetně těch špinavejch a nebezpečnejch!
+Dialogue: 0,0:13:21.86,0:13:23.80,Main,Tae,0000,0000,0000,,Máš pravdu, Katsuo-san.
+Dialogue: 0,0:13:24.92,0:13:27.78,Main,Tae,0000,0000,0000,,Kdyby měl jít každý na botox a plastikou operaci,
+Dialogue: 0,0:13:27.78,0:13:31.08,Main,Tae,0000,0000,0000,,všichni skončí se stejnou\Nhezkou neosobitou tvářičkou.
+Dialogue: 0,0:13:31.32,0:13:32.88,Main,Tae,0000,0000,0000,,Ráda bych zvolila přístup,
+Dialogue: 0,0:13:32.88,0:13:35.83,Main,Tae,0000,0000,0000,,se kterým můžeme při\Nbližším pohledu dokázat,
+Dialogue: 0,0:13:35.83,0:13:38.34,Main,Tae,0000,0000,0000,,že je to tu docela divoké,\Nale i přes to moc hezké.
+Dialogue: 0,0:13:39.04,0:13:41.21,Main,Tae,0000,0000,0000,,Víš, také mám tohle město ráda.
+Dialogue: 0,0:13:42.09,0:13:43.66,Main,G,0000,0000,0000,,Hej, ta holka...
+Dialogue: 0,0:13:43.66,0:13:47.34,Main,G,0000,0000,0000,,Prvá jsem myslel, že to je jen násilná gorila,\Nale vážně ví, o čem mluví.
+Dialogue: 0,0:13:47.34,0:13:48.64,Main,73,0000,0000,0000,,Nenechte se jí tak unášet!
+Dialogue: 0,0:13:48.98,0:13:50.98,Main,73,0000,0000,0000,,Uznávám, že máš srdce na pravym místě,
+Dialogue: 0,0:13:50.98,0:13:53.27,Main,73,0000,0000,0000,,ale jak to hodláš zrealizovat?
+Dialogue: 0,0:13:53.57,0:13:56.02,Main,73,0000,0000,0000,,Odklízet odpad? \NOdklízet bagety?!
+Dialogue: 0,0:13:56.02,0:13:57.59,Main,73,0000,0000,0000,,Tímhle nás neošálíš!
+Dialogue: 0,0:13:57.59,0:13:59.52,Main,Ago,0000,0000,0000,,Já nejsem bageta!
+Dialogue: 0,0:14:01.22,0:14:03.50,Main,Tae,0000,0000,0000,,Mám jeden takový nápad.
+Dialogue: 0,0:14:03.50,0:14:07.01,Main,Tae,0000,0000,0000,,Co kdybychom vytvořili pro Kabukicho maskota?
+Dialogue: 0,0:14:07.81,0:14:08.97,Main,G,0000,0000,0000,,Maskota?
+Dialogue: 0,0:14:08.97,0:14:10.31,Main,G,0000,0000,0000,,O tom jsem už zaslechl!
+Dialogue: 0,0:14:10.31,0:14:13.00,Main,G,0000,0000,0000,,Jako třeba Sento-kun v Naře, \Nnebo Kumamon v Kumamoto,
+Dialogue: 0,0:14:13.00,0:14:15.00,Main,O,0000,0000,0000,,a takový to skákací pískavý cosi!
+Dialogue: 0,0:14:15.00,0:14:19.12,Main,O,0000,0000,0000,,Jsou to podivné postavičky\Nsymbolizující svou lokalitu, že?
+Dialogue: 0,0:14:18.54,0:14:25.03,Station,Sign,0000,0000,0000,,Nádraží Kabukicho
+Dialogue: 0,0:14:19.12,0:14:23.25,Main,Tae,0000,0000,0000,,Díky nějakému takovému maskotovi bychom\Nmohli lidi nalákat do našeho města.
+Dialogue: 0,0:14:23.25,0:14:27.30,Main,Tae,0000,0000,0000,,A pokud by vše šlo dobře, dokonce bychom\Ni mohli vydělat prodáváním merche.
+Dialogue: 0,0:14:27.30,0:14:31.05,Main,Tae,0000,0000,0000,,Takhle můžeme lidem ukázat\NKabukicho i z té druhé strany.
+Dialogue: 0,0:14:31.05,0:14:32.09,Main,73,0000,0000,0000,,Seš na hlavu?!
+Dialogue: 0,0:14:32.09,0:14:35.97,Main,73,0000,0000,0000,,Ve čtvrti chuligánů se žádný takový\Nvěci prodávat nebudou!
+Dialogue: 0,0:14:35.97,0:14:37.85,Main,73,0000,0000,0000,,A čím je vlastně Kabukicho osobitý?
+Dialogue: 0,0:14:37.85,0:14:41.15,Main,73,0000,0000,0000,,Nebudeš snad prezentovat kabarety nebo erotický masáže, ne?!
+Dialogue: 0,0:14:41.53,0:14:45.35,Main,Ago,0000,0000,0000,,Stačí, když tohle shrneme jako "noční život"
+Dialogue: 0,0:14:45.35,0:14:48.33,Main,Ago,0000,0000,0000,,a dovdně to propojíme se jménem města.
+Dialogue: 0,0:14:48.33,0:14:50.18,Main,Gin,0000,0000,0000,,Noční život a Kabukicho...
+Dialogue: 0,0:14:51.16,0:14:52.65,Main,Gin,0000,0000,0000,,Co tohle?
+Dialogue: 0,0:14:52.84,0:15:00.46,Odd3,Sign,0000,0000,0000,,Kabuki-kun
+Dialogue: 0,0:14:53.91,0:14:55.11,Main,Gin,0000,0000,0000,,Kabuki-kun.
+Dialogue: 0,0:14:55.11,0:14:57.24,Main,73,0000,0000,0000,,Tohle je ale jinej Kabuki!
+Dialogue: 0,0:14:57.24,0:14:58.60,Main,73,0000,0000,0000,,Ani nepřipomíná maskota!
+Dialogue: 0,0:14:58.60,0:15:00.46,Main,73,0000,0000,0000,,Čumí jak vrah!
+Dialogue: 0,0:15:00.46,0:15:03.96,Ashtrays,Sign,0000,0000,0000,,Popelník s místním\Nmaskotem Kabuki-kunem!
+Dialogue: 0,0:15:00.81,0:15:03.96,Main,Gin,0000,0000,0000,,Už od pohledu vidíš, že se to tu v noci rozjíždí.
+Dialogue: 0,0:15:05.61,0:15:08.35,Main,Ago,0000,0000,0000,,Je to fajn chlap a ani to není špatný nápad...
+Dialogue: 0,0:15:08.35,0:15:10.97,Main,Ago,0000,0000,0000,,Ale moc mi nesedí to jméno "Kabuki-kun."
+Dialogue: 0,0:15:11.26,0:15:14.81,Main,Ago,0000,0000,0000,,Neměli bysme vymyslet něco poutavějšího?
+Dialogue: 0,0:15:14.81,0:15:16.56,Main,Ago,0000,0000,0000,,Jako třeba Kumamon.
+Dialogue: 0,0:15:16.56,0:15:17.23,Main,Gin,0000,0000,0000,,Fajn.
+Dialogue: 0,0:15:17.66,0:15:18.73,Main,Gin,0000,0000,0000,,Tak co tohle?
+Dialogue: 0,0:15:18.91,0:15:24.52,Odd3,Sign,0000,0000,0000,,Kaburimon
+Dialogue: 0,0:15:20.26,0:15:21.38,Main,Gin,0000,0000,0000,,Kaburimon.
+Dialogue: 0,0:15:21.38,0:15:24.52,Main,73,0000,0000,0000,,Tím děláš reklamu úplně jinýmu městu!
+Dialogue: 0,0:15:24.87,0:15:27.60,Main,Gin,0000,0000,0000,,Není tohle lepší, než mít obřízku?
+Dialogue: 0,0:15:27.60,0:15:28.49,Main,73,0000,0000,0000,,Jdi někam!
+Dialogue: 0,0:15:28.88,0:15:31.57,Main,73,0000,0000,0000,,Akorát jste dali Kabukimu-kun vrstvu navíc!
+Dialogue: 0,0:15:31.97,0:15:33.21,Main,Gin,0000,0000,0000,,Takže...
+Dialogue: 0,0:15:33.21,0:15:35.33,Main,Gin,0000,0000,0000,,mu to mám sundat?
+Dialogue: 0,0:15:35.51,0:15:41.83,Odd3,Sign,0000,0000,0000,,Kaburimon
+Dialogue: 0,0:15:35.96,0:15:37.14,Main,O,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:15:37.14,0:15:40.33,Main,73,0000,0000,0000,,Proč má najednou úplně jinej účes?
+Dialogue: 0,0:15:40.33,0:15:41.66,Main,73,0000,0000,0000,,Jakto, že mu narostly vlasy?
+Dialogue: 0,0:15:41.66,0:15:42.66,Main,Gin,0000,0000,0000,,Nenarostly.
+Dialogue: 0,0:15:41.98,0:15:46.34,Morning,Sign,0000,0000,0000,,Oh! Tokudana!
+Dialogue: 0,0:15:42.66,0:15:44.35,Main,73,0000,0000,0000,,Nenarostly?! Vždyť je najednou má!
+Dialogue: 0,0:15:44.35,0:15:46.34,Main,73,0000,0000,0000,,Předstírá, že mu narostly!
+Dialogue: 0,0:15:46.56,0:15:48.40,Main,Gin,0000,0000,0000,,Mám mu je taky sundat?
+Dialogue: 0,0:15:48.40,0:15:50.77,Main,73,0000,0000,0000,,Ne! To fakt není potřeba!
+Dialogue: 0,0:15:53.32,0:15:54.76,Main,O,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:15:54.36,0:16:04.85,Odd3,Sign,0000,0000,0000,,Kaburimon
+Dialogue: 0,0:15:54.76,0:15:57.96,Main,Gin,0000,0000,0000,,V Kaburimonovi se bude ukrývat menší Kaburimon.
+Dialogue: 0,0:15:57.96,0:15:59.98,Main,Gin,0000,0000,0000,,A v menším Kaburimonovi...
+Dialogue: 0,0:15:59.98,0:16:01.40,Main,O,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:16:02.10,0:16:03.32,Main,O,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:16:03.32,0:16:04.85,Main,73,0000,0000,0000,,To má bejt matrioška?!
+Dialogue: 0,0:16:03.73,0:16:04.85,Main,O,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:16:05.16,0:16:08.21,Main,Ago,0000,0000,0000,,No, teď už to spíš vypadá jako něco\Ntypického pro Kabukicho...
+Dialogue: 0,0:16:08.21,0:16:09.08,Main,73,0000,0000,0000,,To myslíš vážně?!
+Dialogue: 0,0:16:09.08,0:16:11.85,Main,73,0000,0000,0000,,Spíš je to něco typickýho pro Rusko!
+Dialogue: 0,0:16:11.85,0:16:14.61,Main,Ago,0000,0000,0000,,Ale na maskota je zbytečně ulízaný.
+Dialogue: 0,0:16:14.61,0:16:19.74,Odd3,Sign,0000,0000,0000,,Kaburimon
+Dialogue: 0,0:16:14.90,0:16:18.78,Main,Ago,0000,0000,0000,,Vypadá tak upraveně, že nepůsobí přirozeně.
+Dialogue: 0,0:16:18.78,0:16:20.33,Main,73,0000,0000,0000,,Už dost s Kaburimonem!
+Dialogue: 0,0:16:20.89,0:16:24.38,Main,Ago,0000,0000,0000,,Kouzlo maskotů spočívá v tom, že vypadají amatérsky
+Dialogue: 0,0:16:24.38,0:16:26.33,Main,Ago,0000,0000,0000,,a nedokonale.
+Dialogue: 0,0:16:26.80,0:16:30.10,Main,Ago,0000,0000,0000,,Spíš jako když násilně smícháš\Nzvířátko a městskou specialitu.
+Dialogue: 0,0:16:30.10,0:16:32.11,Main,Gin,0000,0000,0000,,Jo, chápu, kam tím míříš.
+Dialogue: 0,0:16:32.11,0:16:36.34,Main,Ago,0000,0000,0000,,Proč se teda neodpíchneme od nějakýho zvířátka?
+Dialogue: 0,0:16:36.34,0:16:38.60,Main,Ago,0000,0000,0000,,Třeba nějak takhle.
+Dialogue: 0,0:16:38.60,0:16:45.87,Cat,Sign,0000,0000,0000,,Kabukočka
+Dialogue: 0,0:16:39.19,0:16:42.34,Main,Ago,0000,0000,0000,,Jako základ použijeme kočičku a oblíkneme ji jako hostesku.
+Dialogue: 0,0:16:42.34,0:16:44.39,Main,Gin,0000,0000,0000,,Jo, to by mohlo fungovat.
+Dialogue: 0,0:16:44.39,0:16:46.02,Main,73,0000,0000,0000,,Ta brada je moc dlouhá!
+Dialogue: 0,0:16:45.87,0:16:49.63,Cat,Sign,0000,0000,0000,,Kabužirafa
+Dialogue: 0,0:16:46.02,0:16:48.25,Main,Ago,0000,0000,0000,,Nebo žirafa oblečená jako hostitel.
+Dialogue: 0,0:16:48.25,0:16:49.63,Main,73,0000,0000,0000,,Ta brada je fakt přes čáru!
+Dialogue: 0,0:16:49.63,0:16:54.11,Cat,Sign,0000,0000,0000,,Inoki
+Dialogue: 0,0:16:50.52,0:16:53.19,Main,Ago,0000,0000,0000,,Nebo brada oblečená jako profesionální wrestler.
+Dialogue: 0,0:16:53.72,0:16:55.32,Main,73,0000,0000,0000,,Všude cpeš jen tu bradu!
+Dialogue: 0,0:16:55.32,0:16:57.23,Main,73,0000,0000,0000,,Ty máš problémy se zrakem?!
+Dialogue: 0,0:16:57.23,0:17:00.18,Main,73,0000,0000,0000,,Připadá ti, že má všechno kolem tebe kilometrovou bradu?!
+Dialogue: 0,0:17:00.18,0:17:01.65,Main,Ago,0000,0000,0000,,Co? Tohle není normální velikost?
+Dialogue: 0,0:17:01.65,0:17:03.37,Main,73,0000,0000,0000,,Máš pošahaný standardy!
+Dialogue: 0,0:17:03.37,0:17:06.39,Main,73,0000,0000,0000,,Víš, svět se netočí kolem brad!
+Dialogue: 0,0:17:06.39,0:17:09.38,Main,Gin,0000,0000,0000,,A do tý brady můžeme schovat...
+Dialogue: 0,0:17:11.09,0:17:12.33,Main,Ino,0000,0000,0000,,Jedna!
+Dialogue: 0,0:17:12.82,0:17:13.86,Main,Ino,0000,0000,0000,,Dva!
+Dialogue: 0,0:17:14.73,0:17:15.69,Main,Ino,0000,0000,0000,,Tři!
+Dialogue: 0,0:17:27.25,0:17:29.40,Main,73,0000,0000,0000,,Přestaň všechno řešit matrioškama!
+Dialogue: 0,0:17:30.63,0:17:32.60,Main,Tae,0000,0000,0000,,Když vás tak poslouchám, připadá mi,
+Dialogue: 0,0:17:32.60,0:17:35.40,Main,Tae,0000,0000,0000,,že se zbytečně moc vážeme na Kabukicho.
+Dialogue: 0,0:17:35.84,0:17:40.16,Main,Tae,0000,0000,0000,,Zapomeňme na čtvrť a zkusme myslet víc svobodně.
+Dialogue: 0,0:17:40.60,0:17:41.89,Main,Ina,0000,0000,0000,,Baby!
+Dialogue: 0,0:17:41.89,0:17:44.55,Main,Tae,0000,0000,0000,,Takže to bude Inaba-san z B'z!
+Dialogue: 0,0:17:44.55,0:17:45.38,Main,Ina,0000,0000,0000,,Baby!
+Dialogue: 0,0:17:45.38,0:17:46.64,Main,73,0000,0000,0000,,Myslíš až moc svobodně!
+Dialogue: 0,0:17:46.64,0:17:49.06,Main,73,0000,0000,0000,,S Kabukichem nemá nic společnýho!
+Dialogue: 0,0:17:49.06,0:17:50.86,Main,73,0000,0000,0000,,Jen ho máš ráda!
+Dialogue: 0,0:17:50.86,0:17:53.88,Main,Tae,0000,0000,0000,,Jsem si jistá, že Kabukicho nejméně jednou navštívil.
+Dialogue: 0,0:17:53.88,0:17:55.92,Main,73,0000,0000,0000,,Ale to není žádná spojitost s městem!
+Dialogue: 0,0:17:55.92,0:17:58.71,Main,Gin,0000,0000,0000,,Když máme nějak spojit Inabu s Kabukichem,
+Dialogue: 0,0:17:58.71,0:18:00.65,Main,Gin,0000,0000,0000,,začněme s jeho žhavýma kalhotama.
+Dialogue: 0,0:18:01.15,0:18:03.39,Main,73,0000,0000,0000,,Proč z Inaby vylezla Kuniko?!
+Dialogue: 0,0:18:04.13,0:18:05.67,Main,Gin,0000,0000,0000,,Kuniko mi připomíná...
+Dialogue: 0,0:18:05.67,0:18:06.60,Main,Kun,0000,0000,0000,,Bradu.
+Dialogue: 0,0:18:06.60,0:18:08.79,Main,73,0000,0000,0000,,Vážně teď hrajete Magický banán?!
+Dialogue: 0,0:18:09.26,0:18:11.51,Main,Gin,0000,0000,0000,,Brada mi připomíná bradu.
+Dialogue: 0,0:18:13.22,0:18:15.59,Main,Ago,0000,0000,0000,,Brada mi připomíná bradu.
+Dialogue: 0,0:18:17.67,0:18:20.01,Main,Gin,0000,0000,0000,,Brada mi připomíná bradu.
+Dialogue: 0,0:18:21.70,0:18:24.18,Main,Ago,0000,0000,0000,,Brada mi připomíná bradu.
+Dialogue: 0,0:18:24.82,0:18:26.71,Main,73,0000,0000,0000,,Na bradě jste se zasekli už sakra dlouho!
+Dialogue: 0,0:18:26.71,0:18:29.03,Main,Ago,0000,0000,0000,,Brada mi připomíná délku.
+Dialogue: 0,0:18:30.22,0:18:32.50,Main,Gin,0000,0000,0000,,Délka mi připomíná vlasy.
+Dialogue: 0,0:18:32.50,0:18:33.86,Main,O,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:18:33.86,0:18:35.86,Main,Ago,0000,0000,0000,,Vlasy mi připomínají paruku.
+Dialogue: 0,0:18:35.86,0:18:37.29,Main,O,0000,0000,0000,,{\an8}Dobré ráno!
+Dialogue: 0,0:18:36.19,0:18:38.21,Main,Gin,0000,0000,0000,,Paruka mi připomíná paruku.
+Dialogue: 0,0:18:38.21,0:18:39.51,Main,O,0000,0000,0000,,{\an8}Dobré ráno!
+Dialogue: 0,0:18:38.66,0:18:40.49,Main,Ago,0000,0000,0000,,
+Dialogue: 0,0:18:38.66,0:18:41.36,Main,73,0000,0000,0000,,Jste zpátky u Kaburimona!
+Dialogue: 0,0:18:40.49,0:18:41.36,Main,O,0000,0000,0000,,{\an8}Dobré ráno!
+Dialogue: 0,0:18:41.36,0:18:42.95,Main,73,0000,0000,0000,,Už dost!
+Dialogue: 0,0:18:42.95,0:18:44.51,Main,73,0000,0000,0000,,Mám týhle pitomosti po krk!
+Dialogue: 0,0:18:44.51,0:18:46.13,Main,73,0000,0000,0000,,Jdu pryč!
+Dialogue: 0,0:18:46.13,0:18:48.22,Main,Tae,0000,0000,0000,,A co bys navrhoval ty, Katsuo-san?
+Dialogue: 0,0:18:49.07,0:18:50.27,Main,73,0000,0000,0000,,Co bych navrhoval?
+Dialogue: 0,0:18:50.54,0:18:53.80,Main,73,0000,0000,0000,,Celou dobu jsem byl proti maskotovi.
+Dialogue: 0,0:18:53.80,0:18:55.96,Main,Tae,0000,0000,0000,,Co přesně proti té myšlence máš?
+Dialogue: 0,0:18:56.37,0:18:58.29,Main,Tae,0000,0000,0000,,Ráda bych slyšela tvůj názor.
+Dialogue: 0,0:18:59.80,0:19:01.33,Main,Tae,0000,0000,0000,,I kdyby měl být příšerný.
+Dialogue: 0,0:19:02.82,0:19:03.95,Main,Tae,0000,0000,0000,,Tak do toho.
+Dialogue: 0,0:19:06.79,0:19:10.50,Main,73,0000,0000,0000,,No, když bych chtěl nějak symbolizovat tvář Kabukicha,
+Dialogue: 0,0:19:10.50,0:19:13.71,Main,73,0000,0000,0000,,neomezoval bych se jen na hostesky a hostitele.
+Dialogue: 0,0:19:14.21,0:19:15.50,Main,73,0000,0000,0000,,Jsou tu hostesky,
+Dialogue: 0,0:19:15.50,0:19:16.59,Main,73,0000,0000,0000,,transky,
+Dialogue: 0,0:19:16.59,0:19:18.49,Main,73,0000,0000,0000,,samurajové
+Dialogue: 0,0:19:18.49,0:19:19.72,Main,73,0000,0000,0000,,a grázlové.
+Dialogue: 0,0:19:20.06,0:19:22.47,Main,73,0000,0000,0000,,Chaotická směs protikladů...
+Dialogue: 0,0:19:23.01,0:19:26.53,Main,73,0000,0000,0000,,To je to, co tvoří opravdové Kabukicho.
+Dialogue: 0,0:19:28.36,0:19:29.75,Main,73,0000,0000,0000,,Jednoduše řečeno
+Dialogue: 0,0:19:29.75,0:19:34.02,Main,73,0000,0000,0000,,je tady potřeba mít víc, než jen roztomilou tvářičku.
+Dialogue: 0,0:19:34.55,0:19:38.59,Main,Tae,0000,0000,0000,,Protiklady...
+Dialogue: 0,0:19:38.59,0:19:39.34,Main,73,0000,0000,0000,,Mizíme.
+Dialogue: 0,0:19:39.34,0:19:41.30,Main,Tae,0000,0000,0000,,Um, Katsuo-san!
+Dialogue: 0,0:19:45.22,0:19:46.99,Main,Tae,0000,0000,0000,,Děkuji.
+Dialogue: 0,0:19:47.64,0:19:52.57,Main,Tae,0000,0000,0000,,Ráda slyším, že máš tohle město rád.
+Dialogue: 0,0:19:53.69,0:19:58.69,Main,Tae,0000,0000,0000,,Určitě vytvoříme takového maskota,\Nkterého schválíš i ty.
+Dialogue: 0,0:20:03.51,0:20:08.81,Main,G,0000,0000,0000,,Brácho, prvá jsem myslel, že je ta holka jen agresivní gorila,
+Dialogue: 0,0:20:08.81,0:20:12.52,Main,G,0000,0000,0000,,ale vážně se snaží ze všech sil pomoct městu...
+Dialogue: 0,0:20:12.52,0:20:14.06,Main,73,0000,0000,0000,,Sklapni!
+Dialogue: 0,0:20:16.05,0:20:17.32,Main,73,0000,0000,0000,,Nikdy ji nebudu uznávat.
+Dialogue: 0,0:20:17.81,0:20:19.25,Main,73,0000,0000,0000,,Takováhle holka
+Dialogue: 0,0:20:20.15,0:20:22.57,Main,73,0000,0000,0000,,že má být jednou ze čtyř dev?
+Dialogue: 0,0:20:23.56,0:20:25.45,Main,73,0000,0000,0000,,Nic takovýho nehodlám uznávat.
+Dialogue: 0,0:20:27.78,0:20:28.58,Main,G,0000,0000,0000,,Brácho!
+Dialogue: 0,0:20:29.01,0:20:31.41,Main,G,0000,0000,0000,,Dostali jsme pro tebe balík.
+Dialogue: 0,0:20:32.14,0:20:33.08,Main,73,0000,0000,0000,,Od koho?
+Dialogue: 0,0:20:33.08,0:20:36.58,Boxes,Sign,0000,0000,0000,,Asociace Kabukicho
+Dialogue: 0,0:20:33.97,0:20:36.58,Main,G,0000,0000,0000,,Od Asociace Kabukicho.
+Dialogue: 0,0:20:36.58,0:20:42.59,Note,Sign,0000,0000,0000,,S tvou pomocí se nám podařilo vytvořit místního maskota. \NMáš náš dík. \N- Asociace Kabukicho \N\NP.S. Vracíme laskavost v poměru 7:3. \NSedm šlo Kabukichu a tři tobě,\NKatsuo-san. Dělej s nimi to, co uznáš za vhodné.
+Dialogue: 0,0:20:38.18,0:20:41.83,Main,Tae,0000,0000,0000,,S tvou pomocí se nám podařilo vytvořit místního maskota.
+Dialogue: 0,0:20:42.34,0:20:44.30,Main,Tae,0000,0000,0000,,Máš náš dík.
+Dialogue: 0,0:20:45.73,0:20:46.74,Main,73,0000,0000,0000,,Taková blbost.
+Dialogue: 0,0:20:47.49,0:20:52.93,Main,73,0000,0000,0000,,Ale musím uznat, že musí mít Kabukicho opravdu ráda.
+Dialogue: 0,0:20:53.57,0:20:54.38,Main,73,0000,0000,0000,,Hej, vy paka!
+Dialogue: 0,0:20:54.38,0:20:57.09,Main,73,0000,0000,0000,,Běžte to rozprodat po Kabukichu!
+Dialogue: 0,0:20:57.09,0:20:59.80,Main,73,0000,0000,0000,,A všechen profit poteče k Jirochově rodině!
+Dialogue: 0,0:20:59.80,0:21:00.61,Main,G,0000,0000,0000,,J-Jo!
+Dialogue: 0,0:21:01.37,0:21:04.61,Main,73,0000,0000,0000,,To by mě zajímalo, s čím ty pitomci nakonec přišli.
+Dialogue: 0,0:21:04.93,0:21:07.12,Main,G,0000,0000,0000,,Tohle bude vynášet jak něco.
+Dialogue: 0,0:21:07.12,0:21:09.86,Main,G,0000,0000,0000,,Nikdy předtím jsem neviděl tak roztomilýho maskota.
+Dialogue: 0,0:21:09.86,0:21:10.57,Main,G,0000,0000,0000,,Dívej!
+Dialogue: 0,0:21:12.04,0:21:13.35,Main,G,0000,0000,0000,,Jmenuje se to Burakkuma.
+Dialogue: 0,0:21:13.35,0:21:14.95,Main,73,0000,0000,0000,,Já ho teda určitě už někde viděl!
+Dialogue: 0,0:21:14.95,0:21:16.87,Main,73,0000,0000,0000,,Tohle je merch z černýho trhu!
+Dialogue: 0,0:21:17.26,0:21:18.64,Main,G,0000,0000,0000,,Co to povídáš?
+Dialogue: 0,0:21:18.64,0:21:20.67,Main,G,0000,0000,0000,,Je to perfektní přívěšek na mobil!
+Dialogue: 0,0:21:20.67,0:21:22.88,Main,73,0000,0000,0000,,Ne, v tom není ten problém.
+Dialogue: 0,0:21:22.88,0:21:24.47,Main,73,0000,0000,0000,,Porušujem autorský práva!
+Dialogue: 0,0:21:23.91,0:21:25.51,Main,C,0000,0000,0000,,Promiňte.
+Dialogue: 0,0:21:27.85,0:21:31.80,Main,C,0000,0000,0000,,Dostalo se nám, že tu nelegálně progáváte Rila*kumy.
+Dialogue: 0,0:21:31.80,0:21:35.17,Main,73,0000,0000,0000,,Ta mrcha!
+Dialogue: 0,0:21:33.74,0:21:36.27,Main,73,0000,0000,0000,,
+Dialogue: 0,0:21:37.45,0:21:38.64,Main,Tae,0000,0000,0000,,Je mi to líto,
+Dialogue: 0,0:21:38.64,0:21:41.77,Main,Tae,0000,0000,0000,,ale potřebuju se zbavit lidí, kteří dělají\Nmému Kabukichu špatnou tvář.
+Dialogue: 0,0:21:42.89,0:21:46.15,Main,Tae,0000,0000,0000,,Je to tak, jak jsi řekl, Katsuo-san.
+Dialogue: 0,0:21:46.97,0:21:52.01,Main,Tae,0000,0000,0000,,V tomhle městě je potřeba mít víc, než jen roztomilou tvářičku.
+Dialogue: 0,0:21:52.01,0:21:54.00,Main,73,0000,0000,0000,,Za tohle zaplatíš,
+Dialogue: 0,0:21:54.24,0:21:58.19,Main,73,0000,0000,0000,,ty zpropadená mrcho!
+Dialogue: 0,0:23:29.92,0:23:34.01,Preview Green,Sign,0000,0000,0000,,Příště uvidíte:
+Dialogue: 0,0:23:31.08,0:23:34.01,Main,FT,0000,0000,0000,,Chtěla bys znát svůj osud?
+Dialogue: 0,0:23:34.01,0:23:35.26,Name2,Sign,0000,0000,0000,,Záhadná věštkyně osloví Kyubei.
+Dialogue: 0,0:23:35.26,0:23:39.48,Preview Green,Sign,0000,0000,0000,,Příště uvidíte:
+Dialogue: 0,0:23:35.26,0:23:39.92,Main,FT,0000,0000,0000,,Lidé musí čelit pohlaví, které jim bylo uděleno.
+Dialogue: 0,0:23:40.58,0:23:42.71,Name2,Sign,0000,0000,0000,,{\fad(675,1)}A pak...
+Dialogue: 0,0:23:43.02,0:23:46.52,Ep Title,Title,0000,0000,0000,,{\fad(485,1)}9 + 1 = Yagyu Jyubei
+Dialogue: 0,0:23:46.52,0:23:48.68,Main,Gin,0000,0000,0000,,He? Co to krucinál?
+Dialogue: 0,0:23:49.94,0:23:55.20,Side Bar Top,Text r,0000,0000,0000,,He? Co to?
+Dialogue: 0,0:23:49.94,0:23:55.20,Side Bar Bottom,Text l,0000,0000,0000,,Muži jsou ženy? Ženy jsou muži??
+Dialogue: 0,0:23:55.20,0:24:00.50,Side Bar Top,Text r,0000,0000,0000,,Příští týden
+Dialogue: 0,0:23:55.20,0:24:00.50,Side Bar Bottom,Text l,0000,0000,0000,,přichází ark "Změna pohlaví"!

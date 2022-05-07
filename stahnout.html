@@ -1,0 +1,33 @@
+<script src="./dist/js-file-downloader.min.js"></script>
+<script>
+    let searchParams = new URLSearchParams(location.search);
+    var nazev = searchParams.get('nazev');
+    var odkaz = searchParams.get('odkaz');
+    var web = searchParams.get('web');
+    if (odkaz !== null && nazev !== null) {
+        new jsFileDownloader({
+                url: odkaz,
+                filename: nazev,
+                autoStart: true
+            })
+            .then(function() {
+                document.write("Za 2 sekundy dojde k zavření stránky!")
+                setTimeout(() => {
+                    window.close();
+                }, 2000);
+            })
+            .catch(function(error) {
+                document.write("Za 2 sekundy dojde k zavření stránky!")
+                setTimeout(() => {
+                    window.close();
+                }, 2000);
+            });
+    } else if (web !== null) {
+        window.location.replace(web);
+    } else {
+        document.write("Za 2 sekundy dojde k zavření stránky!")
+        setTimeout(() => {
+            window.close();
+        }, 2000);
+    }
+</script>

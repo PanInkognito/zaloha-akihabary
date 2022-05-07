@@ -1,0 +1,502 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: podpod,Open Sans Semibold,38,&H00000000,&H000000FF,&H00B3D5FF,&H00000000,-1,0,0,0,100,100,0,0,1,1.1,0,2,0,0,44,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Sponsor,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,20,1
+Style: Sponsor2,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,209,1
+Style: News,Open Sans Semibold,24,&H00090909,&H000000FF,&H00F1F3F5,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0,20,113,1
+Style: News2,Open Sans Semibold,26,&H00090909,&H000000FF,&H00F1F3F5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,173,0,147,1
+Style: Caution,Open Sans Semibold,24,&H00090909,&H000000FF,&H00E8E8E8,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,0,60,107,1
+Style: News3,Open Sans Semibold,29,&H00090909,&H000000FF,&H00F1F3F5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,180,0,133,1
+Style: Elizabeth,Open Sans Semibold,32,&H00090909,&H000000FF,&H00F1F3F5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,1
+Style: Welcome,Open Sans Semibold,32,&H00090909,&H000000FF,&H0038AFCC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0,0,27,1
+Style: Sho,Open Sans Semibold,38,&H00FEFEFE,&H000000FF,&H0009050A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,1
+Style: News4,Open Sans Semibold,24,&H00090909,&H000000FF,&H00F1F3F5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,261,0,173,1
+Style: Insult1,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H00322A22,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,40,0,40,1
+Style: Insult2,Open Sans Semibold,29,&H001E190E,&H000000FF,&H00F3F2EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,40,40,40,1
+Style: Insult3,Open Sans Semibold,29,&H001E190E,&H000000FF,&H00F3F2EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,40,40,0,1
+Style: Insult4,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H00322A22,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,40,40,0,1
+Style: DVD,Open Sans Semibold,26,&H00754E3E,&H000000FF,&H00F5EFEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,0,0,27,1
+Style: Sponsor3,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,139,1
+Style: Sho-chan,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,13,13,29,1
+Style: Insult5,Open Sans Semibold,26,&H001E190E,&H000000FF,&H00F3F2EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,187,13,133,1
+Style: Insult6,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H00322A22,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,67,133,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.05,0:00:15.59,Sponsor,Sign,0000,0000,0000,,{\fad(213,1)}Program přináší: \N{\fs24}Oedo Pharma
+Dialogue: 0,0:00:14.12,0:00:16.41,Main,A,0000,0000,0000,,Tento program vám přináší tito sponzoři.
+Dialogue: 0,0:00:15.59,0:00:17.99,Sponsor,Sign,0000,0000,0000,,Sponzorováno:
+Dialogue: 0,0:00:15.59,0:00:17.99,Sponsor2,Sign,0000,0000,0000,,Matel
+Dialogue: 0,0:00:15.59,0:00:17.99,Sponsor3,Sign,0000,0000,0000,,Promits
+Dialogue: 0,0:00:17.99,0:00:22.37,News,Sign,0000,0000,0000,,Shogun Tokugawa Shigeshige\Nse stále pohřešuje \N\N\NZamilovaný pár sériových útočníků se vyskytuje pouze na místech konání večerních ohňostrojů \N\N\NStěhuje se Amarao Daisaku \Ndo cizího klubu? \N\N\N{\i1} Celý svět až na Kabukicho klesá ke dnu.{\i0}\NVyhrává Zlatou malinu
+Dialogue: 0,0:00:18.41,0:00:19.91,Main,A,0000,0000,0000,,{\an8}Zde máme hlavní zprávu dne.
+Dialogue: 0,0:00:20.37,0:00:23.08,Main,A,0000,0000,0000,,{\an8}Tokugawa Shigeshige-sama, shogun,
+Dialogue: 0,0:00:22.37,0:00:25.37,News2,Sign,0000,0000,0000,,Shogun\N{\fs22} Tokugawa Shigeshige se stále pohřešuje
+Dialogue: 0,0:00:23.08,0:00:25.88,Main,A,0000,0000,0000,,{\an8}se od minulého dílu pohřešuje.
+Dialogue: 0,0:00:25.88,0:00:30.00,Main,A,0000,0000,0000,,Nedávné zprávy potvrzují, že se\Ninkognito procházel mimo zámecké prostory.
+Dialogue: 0,0:00:30.00,0:00:37.22,News2,Sign,0000,0000,0000,,Národní policejní agentura \N {\fs20}Generalní komisař Matsudaira Katakuriko
+Dialogue: 0,0:00:30.38,0:00:34.55,Main,A,0000,0000,0000,,{\an8}Muž, který působil jako jeho průvodce, \Ngenerální komisař Matsudaira Katakuriko,
+Dialogue: 0,0:00:34.55,0:00:37.22,Main,A,0000,0000,0000,,{\an8}popřel jakoukoliv účast na tomto případě.
+Dialogue: 0,0:00:37.22,0:00:42.89,Caution,Sign,0000,0000,0000,,Pozor: \NKamerové blesky
+Dialogue: 0,0:00:37.22,0:00:42.89,News3,Sign,0000,0000,0000,,Nezaměstnaný podezřelý {\fs24}Sakata Gintoki
+Dialogue: 0,0:00:37.80,0:00:42.89,Main,A,0000,0000,0000,,{\an8}Prohlásil, že se jedná o práci Sakata Gintokiho,
+Dialogue: 0,0:00:42.89,0:00:45.23,Internal,A,0000,0000,0000,,{\an8}který byl následně zadržen za ohrožování spravedlnosti.
+Dialogue: 0,0:00:43.18,0:00:45.23,Main,J,0000,0000,0000,,D-Dobrý bože.
+Dialogue: 0,0:00:45.23,0:00:46.69,Main,J,0000,0000,0000,,Nikdy by mě nenapadlo, že by Gintoki-dono...
+Dialogue: 0,0:00:46.98,0:00:50.69,Main,J,0000,0000,0000,,To je přesně ten Joi rebel,\Nkterý býval obávaný jako Bílý démon!
+Dialogue: 0,0:00:50.69,0:00:54.49,Main,J,0000,0000,0000,,Neměl jsem tušení, že jeho vlastenecký\Nplamen pořád tak jasně hoří!
+Dialogue: 0,0:00:56.36,0:00:58.87,Main,Zu,0000,0000,0000,,Je vskutku zosobněním rozsvícené\Nlapmičky za bílého dne.
+Dialogue: 0,0:00:59.49,0:01:00.53,Main,J,0000,0000,0000,,Katsuro-san!
+Dialogue: 0,0:01:00.53,0:01:02.58,Main,Zu,0000,0000,0000,,Ve světě prosvětleným sluncem
+Dialogue: 0,0:01:02.58,0:01:07.17,Main,Zu,0000,0000,0000,,je jeho světlo jenom hlouplý plamínek,\Nkterý zbytečně plápolá.
+Dialogue: 0,0:01:07.17,0:01:11.34,Main,Zu,0000,0000,0000,,Ale když temné mraky zahalí krajinu\Na stíny se začnou nejasně rýsovat,
+Dialogue: 0,0:01:11.34,0:01:15.03,Main,Zu,0000,0000,0000,,stane se obrovským plamenem, který odežene temnotu!
+Dialogue: 0,0:01:15.26,0:01:16.47,Main,Zu,0000,0000,0000,,Dnes večer se bude slavit!
+Dialogue: 0,0:01:16.47,0:01:19.35,Main,Zu,0000,0000,0000,,Oslavíme triumfální návrat Bílého démona!
+Dialogue: 0,0:01:19.35,0:01:20.76,Main,J,0000,0000,0000,,Ale Katsuro-san,
+Dialogue: 0,0:01:20.76,0:01:22.97,Main,J,0000,0000,0000,,Gintoki-dono byl zajat nepřáteli.
+Dialogue: 0,0:01:25.10,0:01:27.27,Main,Zu,0000,0000,0000,,A co si myslíte, že je zač?
+Dialogue: 0,0:01:27.27,0:01:31.19,Main,Zu,0000,0000,0000,,Pro znovuprobuzeného démona jsou železné\Nmříže stejně chabé jako Bretz.
+Dialogue: 0,0:01:31.19,0:01:32.61,Main,Zu,0000,0000,0000,,Ty s příchutí salátu.
+Dialogue: 0,0:01:32.94,0:01:36.15,Main,Zu,0000,0000,0000,,Honem do práce. Všechno připravte, než se stihne vrátit.
+Dialogue: 0,0:01:36.15,0:01:36.86,Main,All,0000,0000,0000,,Provedeme!
+Dialogue: 0,0:01:41.45,0:01:43.83,Main,Zu,0000,0000,0000,,Ale víš, Elizabeth,
+Dialogue: 0,0:01:43.83,0:01:46.50,Main,Zu,0000,0000,0000,,na jednu stranu mi je tak trochu líto,
+Dialogue: 0,0:01:46.50,0:01:48.54,Main,Zu,0000,0000,0000,,že někdo jen tak ulovil kořist,
+Dialogue: 0,0:01:48.54,0:01:50.38,Main,Zu,0000,0000,0000,,po které jsem celá léta šel.
+Dialogue: 0,0:01:50.38,0:01:52.57,Elizabeth,Sign,0000,0000,0000,,Nevíme jistě, \Njestli je shogun mrtvý...
+Dialogue: 0,0:01:53.96,0:01:55.67,Main,Zu,0000,0000,0000,,Hloupost.
+Dialogue: 0,0:01:55.67,0:01:58.88,Main,Zu,0000,0000,0000,,Myslíš, že by nechal svou kořist uniknout?
+Dialogue: 0,0:01:58.88,0:02:06.31,Welcome,Sign,0000,0000,0000,,Vítej zpět, {\c&Hcdd7da&}Bílý démone
+Dialogue: 0,0:01:59.84,0:02:03.68,Main,Zu,0000,0000,0000,,V bakufu musí být velký zmatek,\Nkdyž přišli o svého velitele.
+Dialogue: 0,0:02:03.68,0:02:06.31,Main,Zu,0000,0000,0000,,Teď je nejlepší vhodná doba\Nvybudovat úplně nový svět!
+Dialogue: 0,0:02:06.60,0:02:08.19,Main,Zu,0000,0000,0000,,Musíme stát pevně na nohou.
+Dialogue: 0,0:02:08.19,0:02:09.69,Main,Zu,0000,0000,0000,,Že, Sho-chan?
+Dialogue: 0,0:02:09.69,0:02:11.44,Main,Sho,0000,0000,0000,,Jistě, Katsuro-san.
+Dialogue: 0,0:03:42.88,0:03:44.88,podpod,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:03:44.91,0:03:48.87,Ep Title,Title,0000,0000,0000,,{\fad(441,1)}Vůdcovství Není Procházka Růžovým Sadem
+Dialogue: 0,0:03:49.16,0:03:50.70,Main,J,0000,0000,0000,,{\a6}Um, Katsuro-san...
+Dialogue: 0,0:03:49.37,0:03:56.42,Sho-chan,Sign,0000,0000,0000,,{\fad(835,455)}Sho-chan žádá: Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV!!!
+Dialogue: 0,0:03:51.08,0:03:52.58,Main,J,0000,0000,0000,,{\a6}Kdo je to?
+Dialogue: 0,0:03:52.83,0:03:53.92,Main,Zu,0000,0000,0000,,{\a6}Sho-chan, proč?
+Dialogue: 0,0:03:53.92,0:03:55.08,Main,J,0000,0000,0000,,{\a6}Takhle jsem to nemyslel.
+Dialogue: 0,0:03:55.08,0:03:57.04,Main,J,0000,0000,0000,,{\a6}Ptal jsem se, kdo je Sho-chan.
+Dialogue: 0,0:03:57.04,0:04:00.17,Main,Zu,0000,0000,0000,,Oh, ještě jsem vás nepředstavil.
+Dialogue: 0,0:04:00.17,0:04:01.34,Main,Zu,0000,0000,0000,,Tohle je Sho-chan.
+Dialogue: 0,0:04:01.34,0:04:02.84,Main,Sho,0000,0000,0000,,Jsem Sho-chan. Rád vás poznávám.
+Dialogue: 0,0:04:02.84,0:04:05.39,Main,J,0000,0000,0000,,Konverzace se pořád nikam neposunula!
+Dialogue: 0,0:04:05.39,0:04:08.60,Main,Zu,0000,0000,0000,,Nedávno jsem ho našel, jak leží na silnici,\Ntak jsem mu nabídl pomoc.
+Dialogue: 0,0:04:09.10,0:04:13.10,Main,Zu,0000,0000,0000,,Ale po silném úderu do hlavy ztratil paměť.
+Dialogue: 0,0:04:13.10,0:04:15.27,Main,Zu,0000,0000,0000,,Neměl kam jít
+Dialogue: 0,0:04:15.27,0:04:18.44,Main,Zu,0000,0000,0000,,tak jsem se ho zeptal, jestli by\Ns námi nechtěl svrhnout vládu.
+Dialogue: 0,0:04:20.07,0:04:23.74,Main,Zu,0000,0000,0000,,Oslňující aura důstojnosti kolem něj dostatečně\Nukazuje, že to není obyčejný muž.
+Dialogue: 0,0:04:23.99,0:04:27.45,Main,Zu,0000,0000,0000,,Rozhodně má všechny předpoklady,\Naby se z něj jednoho dne stal skvělý vůdce
+Dialogue: 0,0:04:27.45,0:04:30.54,Main,Zu,0000,0000,0000,,a pod jeho vedením svrhnou Joi rebelové celou vládu.
+Dialogue: 0,0:04:30.54,0:04:33.52,Sho,Sign,0000,0000,0000,,Sho-chan.
+Dialogue: 0,0:04:30.91,0:04:33.52,Main,Zu,0000,0000,0000,,A proto jsem mu dal jméno Sho-chan.
+Dialogue: 0,0:04:33.52,0:04:37.63,Main,J,0000,0000,0000,,Tím si nejsem úplně jistý, Katsuro-san.
+Dialogue: 0,0:04:37.63,0:04:40.86,News4,Sign,0000,0000,0000,,Shogun \N{\fs18}Tokugawa Shigeshige se pořád pohřešuje
+Dialogue: 0,0:04:37.92,0:04:41.42,Main,J,0000,0000,0000,,Není už to takhle náhodou něčí vůdce?
+Dialogue: 0,0:04:41.42,0:04:44.22,Main,Zu,0000,0000,0000,,Ah, ano, takže vy také cítíte jeho ambice.
+Dialogue: 0,0:04:44.22,0:04:47.89,Main,Zu,0000,0000,0000,,Přestože je to nováček, jeho mocná aura vás nutí se před ním poklonit.
+Dialogue: 0,0:04:47.89,0:04:49.56,Main,J,0000,0000,0000,,Zrovna takhle jsem to nemyslel...
+Dialogue: 0,0:04:50.39,0:04:53.06,Main,J,0000,0000,0000,,Není až moc podobný jednomu určitému člověku?
+Dialogue: 0,0:04:53.06,0:04:56.02,Main,Zu,0000,0000,0000,,Ah, takže vy jste si také všimli.
+Dialogue: 0,0:04:56.02,0:04:57.48,Main,Zu,0000,0000,0000,,V tomto anime,
+Dialogue: 0,0:04:57.48,0:05:01.90,Main,Zu,0000,0000,0000,,vypadají všichni s účesem mage úplně stejně!
+Dialogue: 0,0:05:01.90,0:05:03.21,Main,J,0000,0000,0000,,Ani tohle jsem nemyslel!
+Dialogue: 0,0:05:03.21,0:05:08.72,Main,Zu,0000,0000,0000,,V každém případě se určitě stane nevídaným\NJoi rebelem, který jednoho dne změní svět.
+Dialogue: 0,0:05:08.87,0:05:12.49,Main,Zu,0000,0000,0000,,Než ten den přijde, chtěl bych, abyste ho podporovali.
+Dialogue: 0,0:05:12.49,0:05:14.23,Main,Zu,0000,0000,0000,,Počítám s vámi.
+Dialogue: 0,0:05:14.91,0:05:16.96,Main,J,0000,0000,0000,,Tohle je špatný.
+Dialogue: 0,0:05:16.96,0:05:19.15,Main,J,0000,0000,0000,,Stopro je to pohřešovanej shogun.
+Dialogue: 0,0:05:19.15,0:05:22.59,Main,J,0000,0000,0000,,Takže se s náma bude bouřit i shogun?!
+Dialogue: 0,0:05:22.59,0:05:24.92,Main,J,0000,0000,0000,,To by bylo fakt odporný! \NA ve všech směrech špatný!
+Dialogue: 0,0:05:24.92,0:05:27.34,Main,J,0000,0000,0000,,Jak pro shoguna, tak pro nás!
+Dialogue: 0,0:05:28.84,0:05:30.10,Main,Zu,0000,0000,0000,,Poslouchej, Sho-chan.
+Dialogue: 0,0:05:30.39,0:05:35.08,Main,Zu,0000,0000,0000,,Máš přirozený talent vůdcovství.
+Dialogue: 0,0:05:35.56,0:05:37.73,Main,Zu,0000,0000,0000,,Rád bych, abys svoje schopnosti zdokonalil
+Dialogue: 0,0:05:37.73,0:05:40.94,Main,Zu,0000,0000,0000,,a byl tu pro naše lidi jako záložní vůdce.
+Dialogue: 0,0:05:41.27,0:05:45.92,Main,Zu,0000,0000,0000,,Proto tě naučím všechny vůdcovské dovednosti, \Nkteré jsem za svůj život nastřádal.
+Dialogue: 0,0:05:46.15,0:05:48.86,Main,J,0000,0000,0000,,On právě řekl, že chce naučit\Nvůdce národa vůdcovský dovednosti.
+Dialogue: 0,0:05:48.86,0:05:49.70,Main,J,0000,0000,0000,,Někdo ho zastavte!
+Dialogue: 0,0:05:49.70,0:05:51.33,Main,J,0000,0000,0000,,To nepůjde. Je do toho úplně vžitej.
+Dialogue: 0,0:05:51.33,0:05:54.12,Main,J,0000,0000,0000,,V takovém stavu nebude nikoho poslouchat.
+Dialogue: 0,0:05:54.37,0:05:56.16,Main,Zu,0000,0000,0000,,Za prvé:
+Dialogue: 0,0:05:56.16,0:05:59.13,Main,Zu,0000,0000,0000,,Vůdce musí být vždy za každých\Nokolností naprosto vyrovnaný.
+Dialogue: 0,0:05:59.83,0:06:00.79,Main,Zu,0000,0000,0000,,Tudíž,
+Dialogue: 0,0:06:01.29,0:06:05.21,Main,Zu,0000,0000,0000,,abychom tvou mysl dostali do bodu naprostého klidu,\Nkterý je nutný pro chod organizace,
+Dialogue: 0,0:06:05.21,0:06:07.72,Main,Zu,0000,0000,0000,,si se mnou teď zahraješ Jengu.
+Dialogue: 0,0:06:07.72,0:06:09.86,Main,J,0000,0000,0000,,Co má tohle společnýho s vedením organizace?
+Dialogue: 0,0:06:10.26,0:06:14.24,Main,Zu,0000,0000,0000,,Vůdcovství vyžaduje jednu stejnou\Nvěc jako Jenga- smysl pro rovnováhu.
+Dialogue: 0,0:06:14.77,0:06:17.89,Main,Zu,0000,0000,0000,,Je potřeba se zbavit zbytečných podřízených,
+Dialogue: 0,0:06:17.89,0:06:19.81,Main,Zu,0000,0000,0000,,ale abys zabránil tomu, že se ti vše zřítí,
+Dialogue: 0,0:06:19.81,0:06:23.02,Main,Zu,0000,0000,0000,,musíš jim kupovat kafe\Nv plechovce a udržet na vrchu klid.
+Dialogue: 0,0:06:23.02,0:06:25.48,Main,Zu,0000,0000,0000,,Tohle si zapamatuj a tvoje organizace pošlape jako hodinky.
+Dialogue: 0,0:06:25.48,0:06:28.32,Main,J,0000,0000,0000,,Takže on na nás praktikoval tuhle svou teorii?!
+Dialogue: 0,0:06:28.90,0:06:31.45,Main,Zu,0000,0000,0000,,Ale to pořád nestačí.
+Dialogue: 0,0:06:31.45,0:06:33.66,Main,Zu,0000,0000,0000,,Zatímco budeme hrát Jengu,
+Dialogue: 0,0:06:33.66,0:06:36.37,Main,Zu,0000,0000,0000,,Elizabeth na nás bude házet míče.
+Dialogue: 0,0:06:36.83,0:06:39.46,Main,Zu,0000,0000,0000,,A v televizi za námi bude učitelka neustále opakovat...
+Dialogue: 0,0:06:39.46,0:06:40.83,Internal,TIB,0000,0000,0000,,Hlupáku!
+Dialogue: 0,0:06:41.83,0:06:43.46,Main,Zu,0000,0000,0000,,Dokola a dokola.
+Dialogue: 0,0:06:42.00,0:06:43.46,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:43.46,0:06:46.88,Main,Zu,0000,0000,0000,,Důležité je zachovat v této obtížné situaci naprostou duševní vyrovnanost
+Dialogue: 0,0:06:43.88,0:06:45.05,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:45.63,0:06:46.88,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:46.88,0:06:49.13,Main,Zu,0000,0000,0000,,a zároveň nedopustit, aby se Jenga zřitila na zem.
+Dialogue: 0,0:06:47.34,0:06:48.47,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:49.13,0:06:50.34,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:49.13,0:06:51.41,Main,J,0000,0000,0000,,Ta myšlenka je sama o sobě vratká!
+Dialogue: 0,0:06:50.84,0:06:51.94,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:51.80,0:06:54.22,Main,Zu,0000,0000,0000,,Začněme. Půjdu jako první.
+Dialogue: 0,0:06:52.55,0:06:54.22,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:54.22,0:06:55.56,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:54.22,0:06:57.60,Main,Zu,0000,0000,0000,,Teď sleduj, jak umí být pravý vůdce vyrovnaný!
+Dialogue: 0,0:06:56.01,0:06:57.35,Internal,TIB,0000,0000,0000,,{\an8}Hlupáku!
+Dialogue: 0,0:06:58.68,0:07:01.40,Main,J,0000,0000,0000,,Hned na začátku vyrovnaně napadla organizaci!
+Dialogue: 0,0:07:01.40,0:07:03.02,Main,J,0000,0000,0000,,To ona je tu nejvyrovnanější!
+Dialogue: 0,0:07:03.02,0:07:04.91,Main,J,0000,0000,0000,,Máš naprostou pravdu!
+Dialogue: 0,0:07:05.52,0:07:08.36,Main,Zu,0000,0000,0000,,Chápu. Začínáme znovu od nuly.
+Dialogue: 0,0:07:08.36,0:07:10.70,Main,Zu,0000,0000,0000,,Ale to pořád není dost na to, abych ztratil trpělivost.
+Dialogue: 0,0:07:10.70,0:07:12.10,Main,J,0000,0000,0000,,Hej, ani to s ním nezacloumalo.
+Dialogue: 0,0:07:12.10,0:07:14.55,Main,J,0000,0000,0000,,Zůstává v klidu, přestože se mu hroutí organizace.
+Dialogue: 0,0:07:14.55,0:07:16.08,Main,Zu,0000,0000,0000,,Vůdce nebojuje
+Dialogue: 0,0:07:16.08,0:07:18.29,Main,Zu,0000,0000,0000,,proti meči, který na něj míří,
+Dialogue: 0,0:07:18.29,0:07:22.31,Main,Zu,0000,0000,0000,,ani proti míčům, které na něj letí...
+Dialogue: 0,0:07:22.31,0:07:23.42,Internal,TIB,0000,0000,0000,,Hlupáku!
+Dialogue: 0,0:07:23.71,0:07:26.67,Main,Zu,0000,0000,0000,,Nejsem hlupák! Jsem Katsura!
+Dialogue: 0,0:07:25.79,0:07:27.59,Main,J,0000,0000,0000,,Tak proti tomuhle vůdce bojuje?!
+Dialogue: 0,0:07:27.59,0:07:30.05,Main,Zu,0000,0000,0000,,Vážně sis myslela, že se něco takového uchytí?!
+Dialogue: 0,0:07:30.05,0:07:31.63,Main,Zu,0000,0000,0000,,Leda tak ve snu!
+Dialogue: 0,0:07:31.63,0:07:33.34,Main,J,0000,0000,0000,,Ztratil svou vyrovnanost hned v prním kole!
+Dialogue: 0,0:07:33.34,0:07:34.80,Main,J,0000,0000,0000,,Dočista zapomněl na organizaci!
+Dialogue: 0,0:07:35.47,0:07:37.01,Main,Sho,0000,0000,0000,,Nyní je řada na mně.
+Dialogue: 0,0:07:38.29,0:07:41.02,Main,Sho,0000,0000,0000,,Mám vytěžit z této krize profit?
+Dialogue: 0,0:07:42.02,0:07:43.52,Main,Sho,0000,0000,0000,,Pokud ano,
+Dialogue: 0,0:07:44.61,0:07:45.11,Main,Sho,0000,0000,0000,,udělám toto.
+Dialogue: 0,0:07:45.11,0:07:46.82,Main,J,0000,0000,0000,,Takhle jako fungujou pravidla Jengy?!
+Dialogue: 0,0:07:47.15,0:07:48.44,Main,J,0000,0000,0000,,Není to spíš domino?
+Dialogue: 0,0:07:48.44,0:07:51.65,Main,J,0000,0000,0000,,Hra, ve který nakonec všechno spadne?!
+Dialogue: 0,0:07:52.07,0:07:55.51,Main,Zu,0000,0000,0000,,Oh? Namísto budování hierarchie je\Nvšechny umisťuješ na stejnou úroveň?
+Dialogue: 0,0:07:55.78,0:07:59.29,Main,Zu,0000,0000,0000,,Máš v úmyslu zrušit hierarchii a založit \Norganizaci na rovnosti mezi členy?
+Dialogue: 0,0:07:59.29,0:08:01.02,Main,J,0000,0000,0000,,Až moc nad tím přemejšlíš!
+Dialogue: 0,0:08:01.46,0:08:05.33,Main,Zu,0000,0000,0000,,Ale pokud se nenajde nikdo, kdo bude\Nstát na vrchu a určí směr,
+Dialogue: 0,0:08:05.33,0:08:07.13,Main,Zu,0000,0000,0000,,organizace bude ztracená.
+Dialogue: 0,0:08:07.75,0:08:10.17,Main,Zu,0000,0000,0000,,I kdybychom měli použít mrtvoly svých lidí jako schody,
+Dialogue: 0,0:08:10.17,0:08:12.01,Main,Zu,0000,0000,0000,,vůdce musí stát pevně na nohou
+Dialogue: 0,0:08:12.38,0:08:13.63,Main,Zu,0000,0000,0000,,a udržet organizaci v bezp—
+Dialogue: 0,0:08:14.01,0:08:17.64,Main,J,0000,0000,0000,,Kašlat na nějaký bezpečí, vůdce tu organizaci právě zničil!
+Dialogue: 0,0:08:20.64,0:08:21.64,Main,J,0000,0000,0000,,Zastavilo to?
+Dialogue: 0,0:08:22.18,0:08:25.06,Main,Sho,0000,0000,0000,,Nikdy jsem neměl v úmyslu skoncovat s hierarchií.
+Dialogue: 0,0:08:25.73,0:08:27.90,Main,Sho,0000,0000,0000,,Ale pokud bude vůdce na své vysoké pozici příliš lpět,
+Dialogue: 0,0:08:27.90,0:08:30.15,Main,Sho,0000,0000,0000,,pak čím výš se organizace dostane,
+Dialogue: 0,0:08:30.15,0:08:32.61,Main,Sho,0000,0000,0000,,tím méně ho budou zajímat pocity jeho podřízených.
+Dialogue: 0,0:08:33.07,0:08:35.82,Main,Sho,0000,0000,0000,,Budou-li si všichni rovni, všichni také společně spadnou.
+Dialogue: 0,0:08:36.53,0:08:40.93,Main,Sho,0000,0000,0000,,Takže chci svou organizaci podpořit jako její základ.
+Dialogue: 0,0:08:44.54,0:08:46.67,Main,J,0000,0000,0000,,Katsuro-san!
+Dialogue: 0,0:08:46.67,0:08:49.00,Main,J,0000,0000,0000,,To snad ne! On to projel!
+Dialogue: 0,0:08:49.00,0:08:53.05,Main,J,0000,0000,0000,,Chtěl ho naučit vůdčí schopnosti,\Nale nakonec dostal lekci on!
+Dialogue: 0,0:08:57.09,0:09:00.39,Main,Zu,0000,0000,0000,,N-No, velice zajímavý úhel pohledu.
+Dialogue: 0,0:09:00.39,0:09:02.14,Main,Zu,0000,0000,0000,,Oba máme pravdu, nebo, no,
+Dialogue: 0,0:09:02.14,0:09:04.89,Main,Zu,0000,0000,0000,,existuje vícero správných odpovědí.
+Dialogue: 0,0:09:04.89,0:09:08.56,Main,Zu,0000,0000,0000,,V takovýhlech věcech nemá smysl vybírat vítěze.
+Dialogue: 0,0:09:08.56,0:09:09.73,Internal,TIB,0000,0000,0000,,Hlupáku!
+Dialogue: 0,0:09:09.98,0:09:11.53,Main,Zu,0000,0000,0000,,Drž už tu nevymáchanou hubu!
+Dialogue: 0,0:09:11.53,0:09:12.65,Main,J,0000,0000,0000,,Zešílel!
+Dialogue: 0,0:09:12.65,0:09:15.45,Main,J,0000,0000,0000,,Nemluvil náhodou ještě před chvílí o vyrovnanosti?!
+Dialogue: 0,0:09:16.66,0:09:21.58,Main,Zu,0000,0000,0000,,No, už od začátku jsem tušil, že chováš takovýto postoj.
+Dialogue: 0,0:09:22.04,0:09:24.01,Main,Zu,0000,0000,0000,,Ale teď už půjde do tuhého, Sho-chan.
+Dialogue: 0,0:09:24.50,0:09:28.52,Main,Zu,0000,0000,0000,,Za druhé: Vůdce nesmí za žádnou\Ncenu projevit své slabé stránky.
+Dialogue: 0,0:09:29.00,0:09:33.19,Main,Zu,0000,0000,0000,,Vždy musí jít svým lidem příkladem\Na zachovat si perfektní tvář.
+Dialogue: 0,0:09:33.55,0:09:34.55,Main,Zu,0000,0000,0000,,Proto,
+Dialogue: 0,0:09:35.01,0:09:39.39,Main,Zu,0000,0000,0000,,abys rozvinul svou houževnatost potřebnou k \Nzakrytí svých slabin a vyobrazení tvého perfektního já,
+Dialogue: 0,0:09:39.39,0:09:41.51,Main,Zu,0000,0000,0000,,si se mnou zahraješ Reversi.
+Dialogue: 0,0:09:41.51,0:09:42.95,Main,J,0000,0000,0000,,Jako vážně? Další hra?!
+Dialogue: 0,0:09:42.95,0:09:46.39,Main,Zu,0000,0000,0000,,Tyto figurky na sobě mají napsané urážky.
+Dialogue: 0,0:09:42.95,0:09:59.05,Insult1,Sign,0000,0000,0000,,Ty obtáhlý slipe
+Dialogue: 0,0:09:42.95,0:09:59.05,Insult2,Sign,0000,0000,0000,,Tvé dlouhé vlasy jsou nesnesitelné
+Dialogue: 0,0:09:42.95,0:09:59.05,Insult3,Sign,0000,0000,0000,,Tupá hlavo
+Dialogue: 0,0:09:42.95,0:09:59.05,Insult4,Sign,0000,0000,0000,,Vypadáš jako vedlejší postava
+Dialogue: 0,0:09:46.39,0:09:48.44,Main,Zu,0000,0000,0000,,Prostřednictvím bílých figurek urážíš ty mě
+Dialogue: 0,0:09:48.44,0:09:50.40,Main,Zu,0000,0000,0000,,a prostřednictvím černých já tebe.
+Dialogue: 0,0:09:50.40,0:09:52.19,Main,Zu,0000,0000,0000,,Pokud nechceš ukázat žádnou slabinu,
+Dialogue: 0,0:09:52.19,0:09:54.74,Main,Zu,0000,0000,0000,,musíš otočit tolik soupeřových figurek, kolik jen dokážeš.
+Dialogue: 0,0:09:54.74,0:09:56.40,Main,J,0000,0000,0000,,A jak tohle souvisí s rozvíjením dovedností?
+Dialogue: 0,0:09:56.40,0:09:59.05,Main,J,0000,0000,0000,,Taková hra z vás jenom udělá debily!
+Dialogue: 0,0:09:59.41,0:10:03.24,Main,Zu,0000,0000,0000,,Myslíš si, že dokážeš odkrýt slabiny vůdce Katsury?
+Dialogue: 0,0:10:03.24,0:10:04.79,Main,Zu,0000,0000,0000,,Tak si to zkus!
+Dialogue: 0,0:10:05.29,0:10:07.64,Main,Zu,0000,0000,0000,,Jdeme na to!
+Dialogue: 0,0:10:09.40,0:10:18.11,Insult2,Zu,0000,0000,0000,,{\an8\fs18}Přespříliš vážný
+Dialogue: 0,0:10:09.40,0:10:18.11,Insult3,Zu,0000,0000,0000,,{\fs18\an5}Ty obtáhlý slipe     Máš chlupy v nose     Nedávno sis uprdnul
+Dialogue: 0,0:10:09.40,0:10:18.11,Insult5,Zu,0000,0000,0000,,Tupá hlavo
+Dialogue: 0,0:10:09.40,0:10:18.11,Insult6,Zu,0000,0000,0000,,Vypadáš jako vedlejší postava
+Dialogue: 0,0:10:09.40,0:10:18.11,Insult1,Zu,0000,0000,0000,,{\fs18}Táhne ti z úst
+Dialogue: 0,0:10:11.13,0:10:12.67,Main,Zu,0000,0000,0000,,Copak copak?
+Dialogue: 0,0:10:12.67,0:10:15.05,Main,Zu,0000,0000,0000,,Tvoje slabiny se začínají drát na povrch!
+Dialogue: 0,0:10:15.05,0:10:18.55,Main,J,0000,0000,0000,,Na povrch se spíš dere tvoje zkažená povaha!
+Dialogue: 0,0:10:18.55,0:10:20.09,Main,J,0000,0000,0000,,Copak to, copak to.
+Dialogue: 0,0:10:20.09,0:10:23.10,Main,J,0000,0000,0000,,Zbírám si celičký roh.
+Dialogue: 0,0:10:23.10,0:10:26.52,Main,J,0000,0000,0000,,Nevadí ti to? \NMěl bys tu figurku otočit, ne?
+Dialogue: 0,0:10:26.52,0:10:28.69,Main,J,0000,0000,0000,,Svým chováním sám ukazuje svý slabiny!
+Dialogue: 0,0:10:30.58,0:10:33.11,Main,Zu,0000,0000,0000,,Vypadá to, že je hra u konce.
+Dialogue: 0,0:10:33.11,0:10:34.11,Main,J,0000,0000,0000,,Je to celý černý!
+Dialogue: 0,0:10:34.11,0:10:36.83,Main,J,0000,0000,0000,,Nikdy jsem nevěděl, že může být hrací \Ndeska nebo lidská duše tak černá!
+Dialogue: 0,0:10:37.74,0:10:39.83,Main,Sho,0000,0000,0000,,Dostal jsi mě. Prohrál jsem.
+Dialogue: 0,0:10:40.28,0:10:42.45,Main,Zu,0000,0000,0000,,To bylo příliš špatné, Sho-chan.
+Dialogue: 0,0:10:42.45,0:10:43.53,Main,Zu,0000,0000,0000,,Dělal jsi, cos mohl,
+Dialogue: 0,0:10:43.53,0:10:46.09,Main,Zu,0000,0000,0000,,ale tohle ukazuje rozdíl mezi našimi\Nvůdcovskými zkušenostmi.
+Dialogue: 0,0:10:46.45,0:10:48.87,Main,Sho,0000,0000,0000,,Ano, máš pravdu.
+Dialogue: 0,0:10:49.41,0:10:53.00,Main,Sho,0000,0000,0000,,Popravdě jsem na tebe chtěl napsat více urážek,
+Dialogue: 0,0:10:53.00,0:10:56.55,Main,Sho,0000,0000,0000,,ale na tak perfektním vůdci, jako jsi ty, \Njsem nemohl najít skoro žádné slabiny.
+Dialogue: 0,0:10:57.80,0:11:02.62,Main,Sho,0000,0000,0000,,Tak jsem přebarvil bílé strany na černo\Na napsal na ně své vlastní chyby.
+Dialogue: 0,0:11:04.76,0:11:09.12,Main,Sho,0000,0000,0000,,To však posloužilo jako skvělý způsob,\Njak čelit svým nedostatkům.
+Dialogue: 0,0:11:10.02,0:11:13.54,Main,Sho,0000,0000,0000,,Ať už svým slabinám čelíš, nebo je skrýváš,
+Dialogue: 0,0:11:14.40,0:11:17.02,Main,Sho,0000,0000,0000,,prvně je musíš uvidět.
+Dialogue: 0,0:11:18.09,0:11:20.09,Main,J,0000,0000,0000,,Katsuro-san!
+Dialogue: 0,0:11:20.09,0:11:22.70,Main,J,0000,0000,0000,,Vyhrál bitvu, ale totálně projel souboj lidskosti!
+Dialogue: 0,0:11:22.70,0:11:24.66,Main,J,0000,0000,0000,,Náš šéf prohrál dvakrát za sebou!
+Dialogue: 0,0:11:24.66,0:11:26.45,Main,J,0000,0000,0000,,Zase se od něj musel přiučit!
+Dialogue: 0,0:11:26.74,0:11:28.54,Main,J,0000,0000,0000,,A shogun jede!
+Dialogue: 0,0:11:28.54,0:11:32.21,Main,J,0000,0000,0000,,Možná ztratil paměť, ale rozhodně\Nneztratil ani kouska ušlechtilosti!
+Dialogue: 0,0:11:32.21,0:11:37.00,Main,J,0000,0000,0000,,Poslyšte, shogun třeba není tak špatnej,\Njak jsme si mysleli.
+Dialogue: 0,0:11:37.00,0:11:39.38,Main,J,0000,0000,0000,,Možná by byl ještě lepší šéf než Kats—
+Dialogue: 0,0:11:39.38,0:11:40.08,Main,J,0000,0000,0000,,Skopová hlavo!
+Dialogue: 0,0:11:44.09,0:11:46.30,Main,Zu,0000,0000,0000,,Jsi dobrý, Sho-chan.
+Dialogue: 0,0:11:46.30,0:11:49.06,Main,Zu,0000,0000,0000,,Netušil jsem, že budeš až takhle schopný.
+Dialogue: 0,0:11:49.77,0:11:54.13,Main,Zu,0000,0000,0000,,Jo, poznání svých slabin je také jistá forma síly.
+Dialogue: 0,0:11:54.27,0:11:55.23,Internal,TIB,0000,0000,0000,,Hlupáku!
+Dialogue: 0,0:11:55.52,0:11:58.23,Main,Zu,0000,0000,0000,,Přesně tak! Jsem hlupák!
+Dialogue: 0,0:11:59.03,0:12:01.72,Main,Zu,0000,0000,0000,,A teď naše třetí a poslední lekce!
+Dialogue: 0,0:12:02.11,0:12:06.53,Main,Zu,0000,0000,0000,,Vůdce musí využít všechny možné prostředky,\Naby dosáhl se svými lidmi vítězství.
+Dialogue: 0,0:12:06.53,0:12:09.58,Main,Zu,0000,0000,0000,,A proto si se mnou zahraješ Uno!
+Dialogue: 0,0:12:09.58,0:12:11.58,Main,Zu,0000,0000,0000,,Protože mi Uno jde!
+Dialogue: 0,0:12:11.58,0:12:13.71,Main,J,0000,0000,0000,,Nakonec s tím učením seknul!
+Dialogue: 0,0:12:16.04,0:12:16.73,Main,Sho,0000,0000,0000,,Lízni si 4.
+Dialogue: 0,0:12:16.73,0:12:18.96,Main,J,0000,0000,0000,,Projel to na plný čáře!
+Dialogue: 0,0:12:20.46,0:12:22.47,Main,J,0000,0000,0000,,Shogune!
+Dialogue: 0,0:12:22.67,0:12:24.47,Main,J,0000,0000,0000,,Jsi úžasný!
+Dialogue: 0,0:12:24.47,0:12:26.43,Main,J,0000,0000,0000,,Na tvojí minulosti ani pozici už nezáleží!
+Dialogue: 0,0:12:26.43,0:12:29.47,Main,J,0000,0000,0000,,Ty jsi pravý vůdce!
+Dialogue: 0,0:12:30.06,0:12:32.98,Main,J,0000,0000,0000,,I my zahodíme svou minulost! Přesně, jako ty!
+Dialogue: 0,0:12:32.98,0:12:35.52,Main,J,0000,0000,0000,,Tak nám prosím ukaž nový směr!
+Dialogue: 0,0:12:35.52,0:12:38.32,Main,J,0000,0000,0000,,S tebou na své straně určitě\Nvybudujeme lepší zemi!
+Dialogue: 0,0:12:38.32,0:12:39.98,Main,Sho,0000,0000,0000,,Ale Katsura-san...
+Dialogue: 0,0:12:39.98,0:12:41.44,Main,J,0000,0000,0000,,Toho vypusť z hlavy.
+Dialogue: 0,0:12:41.44,0:12:44.38,Main,J,0000,0000,0000,,Potřebuje čas, aby mohl trochu vychladnout.
+Dialogue: 0,0:12:49.53,0:12:50.79,Main,Zu,0000,0000,0000,,Elizabe—
+Dialogue: 0,0:12:50.79,0:12:52.82,Elizabeth,Sign,0000,0000,0000,,Hlupáku!
+Dialogue: 0,0:13:00.15,0:13:08.12,Welcome,Sign,0000,0000,0000,,{\fad(675,1)}Vítej zpátky, {\c&Hcdd7da&}Bílý démone
+Dialogue: 0,0:13:01.92,0:13:03.67,Main,Zu,0000,0000,0000,,Poslouchejte!
+Dialogue: 0,0:13:03.67,0:13:08.12,Main,Zu,0000,0000,0000,,Už je to několik dní, co náš přítel \NSakata Gintoki připravil shoguna o hlavu.
+Dialogue: 0,0:13:08.80,0:13:11.35,Main,Zu,0000,0000,0000,,Ale stále se ještě nevrátil.
+Dialogue: 0,0:13:11.35,0:13:15.56,Main,Zu,0000,0000,0000,,Myslel jsem, že pro něj nebude těžké\Nuniknout přes mříže vládní věznice,
+Dialogue: 0,0:13:16.06,0:13:18.77,Main,Zu,0000,0000,0000,,ale zřejmě se musel dostat do nějakých nečekaných potíží.
+Dialogue: 0,0:13:18.77,0:13:23.96,Main,Zu,0000,0000,0000,,A abychom osvobodili Gintokiho, který je vězněn\Nv Zámku Edo za vážný zločin páchaný proti vládě,
+Dialogue: 0,0:13:24.28,0:13:28.91,Main,Zu,0000,0000,0000,,jsem se rozhodl vtrhnout do zámku!
+Dialogue: 0,0:13:31.99,0:13:35.41,Main,Zu,0000,0000,0000,,Vím, že se jedná o velice nebezpečnou věc.
+Dialogue: 0,0:13:36.21,0:13:40.54,Main,Zu,0000,0000,0000,,Ale nemohu jen sedět a přihlížet, jak můj kamarád umírá.
+Dialogue: 0,0:13:41.21,0:13:42.75,Main,Zu,0000,0000,0000,,Takže mě nechte jít.
+Dialogue: 0,0:13:43.71,0:13:45.30,Main,Zu,0000,0000,0000,,A nepokoušejte se jít se mnou.
+Dialogue: 0,0:13:47.34,0:13:49.01,Main,Zu,0000,0000,0000,,Povím to ještě jednou:
+Dialogue: 0,0:13:49.01,0:13:50.55,Main,Zu,0000,0000,0000,,Nepokoušejte se jít se mnou.
+Dialogue: 0,0:13:52.06,0:13:53.27,Main,Zu,0000,0000,0000,,Povím to ješt—
+Dialogue: 0,0:13:53.27,0:13:57.94,Main,J,0000,0000,0000,,Um promiň, ale rušíš nás při hře.\NMohl bys trochu ztlumit?
+Dialogue: 0,0:14:06.95,0:14:09.36,Elizabeth,Sign,0000,0000,0000,,Kam jdeš, Katsuro-san?
+Dialogue: 0,0:14:09.36,0:14:11.87,Elizabeth,Sign,0000,0000,0000,,Není od tebe příliš hezké, \Nže odcházíš, aniž bys cokoliv řekl. \NNezapomněl jsi na něco?
+Dialogue: 0,0:14:14.12,0:14:15.37,Main,Zu,0000,0000,0000,,Elizabeth!
+Dialogue: 0,0:14:15.62,0:14:17.18,Elizabeth,Sign,0000,0000,0000,,Jestli jdeš ven, vrať za mě prosím tohle DVD.
+Dialogue: 0,0:14:17.18,0:14:18.75,DVD,Sign,0000,0000,0000,,Joshima už nechce být vůdcem
+Dialogue: 0,0:14:18.96,0:14:21.46,Elizabeth,Sign,0000,0000,0000,,Přestaň se už chovat jako kdybys byl šéf, \Nty utřinose.
+Dialogue: 0,0:14:24.84,0:14:27.05,Main,Zu,0000,0000,0000,,Nejsem Joshima! Jsem Katsura!
+Dialogue: 0,0:14:27.05,0:14:29.22,Main,Zu,0000,0000,0000,,Fajn! Přestanu! Už nebudu šéf!
+Dialogue: 0,0:14:29.22,0:14:32.51,Main,Zu,0000,0000,0000,,Na vůdcovství stejně není nic dobrého!
+Dialogue: 0,0:14:32.51,0:14:35.54,Main,Zu,0000,0000,0000,,Vůdce už stejně nikdo neposlouchá!
+Dialogue: 0,0:14:35.72,0:14:38.94,Main,Zu,0000,0000,0000,,Matsuoka na ně zvysoka sere!
+Dialogue: 0,0:14:39.44,0:14:41.52,Main,Zu,0000,0000,0000,,Každej vystupuje v různých dramatech a TV show,
+Dialogue: 0,0:14:41.52,0:14:43.36,Main,Zu,0000,0000,0000,,jen chudák vůdce musí \Npracovat na ostrově Dash!
+Dialogue: 0,0:14:43.77,0:14:48.07,Main,Zu,0000,0000,0000,,Co kdybychom přestali s rebelováním a \Nzaložili novou organizaci s názvem OED?
+Dialogue: 0,0:14:48.53,0:14:51.03,Main,Gin,0000,0000,0000,,Nepamatuju se, že bych někdy byl Joi rebel.
+Dialogue: 0,0:14:52.12,0:14:54.87,Main,Gin,0000,0000,0000,,A kde si sakra myslíš, že seš, že tady takhle kňučíš?!
+Dialogue: 0,0:14:54.87,0:14:57.29,Main,Gin,0000,0000,0000,,Přišel jsi mě zachránit, nebo otravovat?!
+Dialogue: 0,0:14:57.29,0:14:59.16,Main,Zu,0000,0000,0000,,Přišel jsem, abys mě zachránil.
+Dialogue: 0,0:14:59.16,0:15:02.25,Main,Gin,0000,0000,0000,,Chceš pomoc od někoho, kdo momentálně trčí v pekle?
+Dialogue: 0,0:15:02.25,0:15:03.88,Main,Gin,0000,0000,0000,,Dělej a otevři ty dveře!
+Dialogue: 0,0:15:03.88,0:15:08.65,Main,Gin,0000,0000,0000,,Plaveme v tom jen kvůli tomu,\Nže sis s sebou domů přitáhl shoguna!
+Dialogue: 0,0:15:08.97,0:15:10.84,Main,Zu,0000,0000,0000,,Není to shogun. Je to Sho-chan.
+Dialogue: 0,0:15:10.84,0:15:12.18,Main,Gin,0000,0000,0000,,Pane bože!
+Dialogue: 0,0:15:12.18,0:15:15.14,Main,Gin,0000,0000,0000,,Každopádně sem koukej toho tvýho Sho-chana dotáhnout,
+Dialogue: 0,0:15:15.14,0:15:16.85,Main,Gin,0000,0000,0000,,aby ze mě stáhli obvinění
+Dialogue: 0,0:15:16.85,0:15:18.85,Main,Gin,0000,0000,0000,,a ty ses mohl vrátit zpátky k šéfování.
+Dialogue: 0,0:15:18.85,0:15:20.77,Main,G,0000,0000,0000,,Hej, co tu děláš?!
+Dialogue: 0,0:15:23.23,0:15:23.86,Main,G,0000,0000,0000,,Vetřelec!
+Dialogue: 0,0:15:24.11,0:15:24.69,Main,Zu,0000,0000,0000,,Zatraceně!
+Dialogue: 0,0:15:29.36,0:15:30.53,Main,Sho,0000,0000,0000,,Promiň mi to zpoždění,
+Dialogue: 0,0:15:31.91,0:15:32.82,Main,Sho,0000,0000,0000,,Katsuro-san.
+Dialogue: 0,0:15:33.37,0:15:34.84,Main,Sho,0000,0000,0000,,Jsem tu, protože jsem o tebe měl strach.
+Dialogue: 0,0:15:35.16,0:15:36.79,Main,Sho,0000,0000,0000,,Jste oba v pořádku?
+Dialogue: 0,0:15:36.79,0:15:39.47,Internal,Gin,0000,0000,0000,,Shogun se vloupal do vlastního domu!
+Dialogue: 0,0:15:40.00,0:15:41.87,Main,Sho,0000,0000,0000,,Výborně. Já se postarám o Katsuru-san.
+Dialogue: 0,0:15:43.29,0:15:45.79,Main,Sho,0000,0000,0000,,Oddíly 1 a 2 zamíří k hlavní bráně, \Njak jsme se domluvili.
+Dialogue: 0,0:15:45.79,0:15:47.50,Main,Sho,0000,0000,0000,,Udržte nepřítele v rozrušení.
+Dialogue: 0,0:15:47.50,0:15:50.42,Main,Sho,0000,0000,0000,,Oddíly 3 a 4, zajistěte cestu ven.
+Dialogue: 0,0:15:50.42,0:15:52.61,Main,Sho,0000,0000,0000,,Oddíl 5 bude poskytovat podporu.
+Dialogue: 0,0:15:52.61,0:15:53.39,Main,All,0000,0000,0000,,Ano, pane!
+Dialogue: 0,0:15:53.39,0:15:54.89,Internal,Gin,0000,0000,0000,,Má je všechny v malíku!
+Dialogue: 0,0:15:54.89,0:15:57.60,Internal,Gin,0000,0000,0000,,Ovládá je, jakoby to byly jeho ruce a nohy!
+Dialogue: 0,0:15:57.60,0:15:58.56,Main,Sho,0000,0000,0000,,Hlavně se vraťte živí.
+Dialogue: 0,0:15:58.56,0:15:59.47,Main,All,0000,0000,0000,,Ty taky, Sho-chan!
+Dialogue: 0,0:15:59.47,0:16:03.00,Internal,Gin,0000,0000,0000,,Je ještě víc zapálenej, než když byl shogun!
+Dialogue: 0,0:16:04.44,0:16:05.81,Main,Gin,0000,0000,0000,,Uklidni se, Sho-chan!
+Dialogue: 0,0:16:05.81,0:16:07.40,Main,Gin,0000,0000,0000,,Nemusíš zacházet takhle daleko!
+Dialogue: 0,0:16:07.40,0:16:09.23,Main,Gin,0000,0000,0000,,Neudělej žádnou blbost!
+Dialogue: 0,0:16:09.78,0:16:11.36,Main,Gin,0000,0000,0000,,Přestaň dělat rozruch!
+Dialogue: 0,0:16:11.36,0:16:12.99,Main,Gin,0000,0000,0000,,Tohle je tvůj barák, víš!
+Dialogue: 0,0:16:12.99,0:16:15.41,Main,Sho,0000,0000,0000,,Bitevní pole je vždy bojovníkův domov.
+Dialogue: 0,0:16:15.41,0:16:17.62,Main,Sho,0000,0000,0000,,Pěkný způsob myšlení, Gintoki-san.
+Dialogue: 0,0:16:17.62,0:16:19.20,Main,Gin,0000,0000,0000,,Takhle jsem to nemyslel!
+Dialogue: 0,0:16:19.20,0:16:22.96,Main,Gin,0000,0000,0000,,Neměl bys tu blbnout s těma idiotama!
+Dialogue: 0,0:16:22.96,0:16:25.33,Main,Gin,0000,0000,0000,,Celej tenhle problém můžeš vyřešit jedním slovem!
+Dialogue: 0,0:16:25.33,0:16:26.35,Main,Gin,0000,0000,0000,,Rozumíš?!
+Dialogue: 0,0:16:26.67,0:16:29.13,Main,Sho,0000,0000,0000,,Chceš, abych zničil tento prohnilý stát
+Dialogue: 0,0:16:29.13,0:16:31.51,Main,Sho,0000,0000,0000,,a osvobodil lid z pozice nového vůdce?
+Dialogue: 0,0:16:31.51,0:16:34.09,Main,Gin,0000,0000,0000,,A nechceš, abych prvně\Nzničil tvou prohnilou palici?!
+Dialogue: 0,0:16:34.34,0:16:35.64,Main,Sho,0000,0000,0000,,Rozumím.
+Dialogue: 0,0:16:35.64,0:16:39.01,Main,Sho,0000,0000,0000,,Už jsem se rozhodl, že v sobě ponesu jak\Ntvého, tak i ducha Katsury-san.
+Dialogue: 0,0:16:39.01,0:16:40.60,Main,Gin,0000,0000,0000,,Ne! Nerozumíš ničemu!
+Dialogue: 0,0:16:40.85,0:16:42.31,Main,Zu,0000,0000,0000,,Zapomeň na to, Gintoki.
+Dialogue: 0,0:16:42.31,0:16:43.81,Main,Zu,0000,0000,0000,,Neplýtvej dechem.
+Dialogue: 0,0:16:43.81,0:16:46.60,Main,Zu,0000,0000,0000,,Bylo by nejlepší prostě zajít za princeznou.
+Dialogue: 0,0:16:46.86,0:16:47.94,Main,Gin,0000,0000,0000,,Pravda!
+Dialogue: 0,0:16:47.94,0:16:50.28,Main,Gin,0000,0000,0000,,Princezně Soyo by to mohlo dojít.
+Dialogue: 0,0:16:50.28,0:16:51.94,Main,Zu,0000,0000,0000,,O tomhle nemluvím.
+Dialogue: 0,0:16:53.61,0:16:57.12,Main,Zu,0000,0000,0000,,Co kdyby se vůdce rozhodl podle toho, \Nkdo přinese princezninu hlavu jako první?
+Dialogue: 0,0:16:57.12,0:16:58.50,Main,Zu,0000,0000,0000,,Co tím jako dohajzlu mysíš?!
+Dialogue: 0,0:16:59.45,0:17:00.45,Main,Sho,0000,0000,0000,,Chápu.
+Dialogue: 0,0:17:00.45,0:17:03.66,Main,Sho,0000,0000,0000,,Pro bakufu by to byl obrovský šok. \NDo jednoho by ztratili svou tvář.
+Dialogue: 0,0:17:03.66,0:17:06.62,Main,Gin,0000,0000,0000,,Hele, spíš to bude tak, že si ty svou\Ntvář zamažeš ve sračkách!
+Dialogue: 0,0:17:06.62,0:17:09.29,Main,Zu,0000,0000,0000,,Tohle je tvá poslední zkouška, Sho-chan.
+Dialogue: 0,0:17:09.29,0:17:12.80,Main,Zu,0000,0000,0000,,Ukaž mi svůj vůdcovský potenciál!
+Dialogue: 0,0:17:13.67,0:17:14.59,Main,Zu,0000,0000,0000,,Připravit...
+Dialogue: 0,0:17:14.59,0:17:15.51,Main,Zu,0000,0000,0000,,Teď!
+Dialogue: 0,0:17:15.51,0:17:16.89,Main,Gin,0000,0000,0000,,Počkat!
+Dialogue: 0,0:17:16.89,0:17:18.30,Main,Gin,0000,0000,0000,,Někdo je zastavte!
+Dialogue: 0,0:17:18.30,0:17:21.23,Main,Gin,0000,0000,0000,,Zastavte ty dva debily!
+Dialogue: 0,0:17:25.35,0:17:26.98,Main,G,0000,0000,0000,,Hej! Dívejte támhle!
+Dialogue: 0,0:17:26.98,0:17:28.40,Main,G,0000,0000,0000,,Vetřelci!
+Dialogue: 0,0:17:28.40,0:17:30.71,Main,G,0000,0000,0000,,Vetřelci se dostali dovnitř do zámku!
+Dialogue: 0,0:17:30.71,0:17:31.61,Main,Gin,0000,0000,0000,,Počkat!
+Dialogue: 0,0:17:31.61,0:17:32.65,Main,Gin,0000,0000,0000,,Nesmíte střílet!
+Dialogue: 0,0:17:32.65,0:17:34.47,Main,Gin,0000,0000,0000,,To je Sho-chan!
+Dialogue: 0,0:17:34.47,0:17:35.58,Main,Gin,0000,0000,0000,,Pozor!
+Dialogue: 0,0:17:36.57,0:17:38.24,Main,Zu,0000,0000,0000,,Pravidlo vůdcovství číslo 1:
+Dialogue: 0,0:17:38.24,0:17:40.72,Main,Zu,0000,0000,0000,,Vůdce musí být vždy
+Dialogue: 0,0:17:43.45,0:17:45.21,Main,Zu,0000,0000,0000,,naprosto vyrovnaný.
+Dialogue: 0,0:17:46.04,0:17:48.63,Main,Zu,0000,0000,0000,,Bez ohledu na to, v jak závažných potížích se nachází,
+Dialogue: 0,0:17:48.63,0:17:52.77,Main,Zu,0000,0000,0000,,v klidu se musí plně soustředit a\Nudržet své lidi v bezpečí.
+Dialogue: 0,0:17:53.13,0:17:54.96,Main,Sho,0000,0000,0000,,K-Katsuro-san...
+Dialogue: 0,0:17:54.96,0:17:56.65,Main,Zu,0000,0000,0000,,Proč panikaříš?
+Dialogue: 0,0:17:57.01,0:17:58.84,Main,Zu,0000,0000,0000,,Jsi jedním z nás.
+Dialogue: 0,0:17:58.84,0:18:00.85,Main,Zu,0000,0000,0000,,Vůdce přirozeně chrání svoje lidi.
+Dialogue: 0,0:18:01.30,0:18:03.47,Main,Zu,0000,0000,0000,,Proto musí být vždy vyrovnaný.
+Dialogue: 0,0:18:03.97,0:18:04.62,Main,Zu,0000,0000,0000,,Nemám pravdu?
+Dialogue: 0,0:18:05.85,0:18:08.65,Main,Sho,0000,0000,0000,,Ano. Máš.
+Dialogue: 0,0:18:11.90,0:18:13.78,Main,Sho,0000,0000,0000,,Výborně. Půjdeme?
+Dialogue: 0,0:18:13.78,0:18:16.40,Main,Gin,0000,0000,0000,,Ty ho radši nechraň! Způsobils mu větší\Nzranění, než by dokázaly šípy!
+Dialogue: 0,0:18:16.65,0:18:19.95,Main,Zu,0000,0000,0000,,N-Nemožné! Jak může být v tomhle\Nstavu tak vyrovnaný?
+Dialogue: 0,0:18:19.95,0:18:21.03,Main,Zu,0000,0000,0000,,To je pravý muž!
+Dialogue: 0,0:18:21.03,0:18:23.83,Main,Gin,0000,0000,0000,,Vyrovnanej přestal bejt v momentě,\Nco mu začal ze zadku trčet ocas!
+Dialogue: 0,0:18:23.83,0:18:26.16,Main,Zu,0000,0000,0000,,Zatraceně! Přece s ním nemůžu prohrát!
+Dialogue: 0,0:18:26.16,0:18:27.83,Main,Zu,0000,0000,0000,,Pravidlo vůdcovství číslo 2:
+Dialogue: 0,0:18:27.83,0:18:30.75,Main,Zu,0000,0000,0000,,Vůdce nesmí nikdy dát najevo svoje slabiny.
+Dialogue: 0,0:18:30.75,0:18:33.13,Main,Zu,0000,0000,0000,,Všechny je musí zastřít
+Dialogue: 0,0:18:33.13,0:18:36.30,Main,Zu,0000,0000,0000,,a chovat se důstojně!
+Dialogue: 0,0:18:37.09,0:18:38.47,Main,Gin,0000,0000,0000,,Kdyby jen slabiny,
+Dialogue: 0,0:18:38.47,0:18:42.28,Main,Gin,0000,0000,0000,,tys světu ukázal jeho lásku, smutek i utrpení!
+Dialogue: 0,0:18:45.22,0:18:47.31,Main,W,0000,0000,0000,,Úchyl!
+Dialogue: 0,0:18:47.31,0:18:49.96,Main,Gin,0000,0000,0000,,Už to není ani Joi rebel, natož shogun!
+Dialogue: 0,0:18:50.23,0:18:51.60,Main,Zu,0000,0000,0000,,N-Nemožné!
+Dialogue: 0,0:18:51.60,0:18:55.73,Main,Zu,0000,0000,0000,,Tím, že tam leží bez oblečení, opustil\Nsamotnou myšlenku bytí silným?!
+Dialogue: 0,0:18:56.73,0:18:59.49,Main,Zu,0000,0000,0000,,Nikdy by mě nenapadlo,\Nže může být i takový vůdce!
+Dialogue: 0,0:18:59.49,0:19:01.07,Main,Gin,0000,0000,0000,,Z většiny to je tvá práce!
+Dialogue: 0,0:19:01.87,0:19:04.66,Main,Zu,0000,0000,0000,,Jsi bezpochybně tvrdý oříšek.
+Dialogue: 0,0:19:05.37,0:19:09.87,Main,Zu,0000,0000,0000,,Kdo z nás dvou by byl lepší vůdce, \Nkterý by otevřel brány do nového světa...
+Dialogue: 0,0:19:09.87,0:19:12.46,Main,Zu,0000,0000,0000,,O tom tady jednou provždy rozhodneme.
+Dialogue: 0,0:19:13.08,0:19:14.25,Main,Zu,0000,0000,0000,,Připravit...
+Dialogue: 0,0:19:14.25,0:19:15.34,Main,Zu,0000,0000,0000,,Teď!
+Dialogue: 0,0:19:15.34,0:19:16.09,Main,Gin,0000,0000,0000,,Počkejte!
+Dialogue: 0,0:19:16.09,0:19:17.51,Main,Gin,0000,0000,0000,,Není o čem rozhodovat!
+Dialogue: 0,0:19:17.51,0:19:19.51,Main,Gin,0000,0000,0000,,Ani jeden z vás nesmí bejt vůdce!
+Dialogue: 0,0:19:19.72,0:19:21.84,Main,Zu,0000,0000,0000,,Princeznina hlava bude moje!
+Dialogue: 0,0:19:24.26,0:19:25.93,Main,Gin,0000,0000,0000,,T-To jsou...
+Dialogue: 0,0:19:28.68,0:19:30.69,Main,Zu,0000,0000,0000,,Zdá se, že jste na to přišel.
+Dialogue: 0,0:19:32.19,0:19:34.94,Main,Sho,0000,0000,0000,,A nenaučil jsi mě to ty sám?
+Dialogue: 0,0:19:34.94,0:19:37.32,Main,Sho,0000,0000,0000,,Pravidlo vůdcovství číslo 3:
+Dialogue: 0,0:19:37.32,0:19:43.45,Main,Sho,0000,0000,0000,,Vůdce musí využít všechny možné prostředky,\Naby dosáhl se svou organizací vítězství.
+Dialogue: 0,0:19:44.03,0:19:47.95,Main,Sho,0000,0000,0000,,Naneštěstí se zdá, že naše malá hra \Ns podvody skončila nerozhodně.
+Dialogue: 0,0:19:48.29,0:19:49.45,Main,Gin,0000,0000,0000,,H-Hej!
+Dialogue: 0,0:19:49.45,0:19:50.71,Main,Gin,0000,0000,0000,,Neříkejte mi, že...
+Dialogue: 0,0:19:50.96,0:19:54.46,Main,Gin,0000,0000,0000,,Oba jste věděli, co je ten druhej zač, ale hráli jste divadlo,
+Dialogue: 0,0:19:54.46,0:19:56.96,Main,Gin,0000,0000,0000,,abyste se dostali blíž k nepříteli?
+Dialogue: 0,0:19:58.42,0:20:00.80,Main,Sho,0000,0000,0000,,Hra pokračuje,
+Dialogue: 0,0:20:00.80,0:20:02.01,Main,Sho,0000,0000,0000,,že, Katsuro?
+Dialogue: 0,0:20:02.47,0:20:07.22,Main,Sho,0000,0000,0000,,Kdybys opravdu dychtil po mé hlavě, \Nměl jsi nespočet příležitostí si ji vzít.
+Dialogue: 0,0:20:07.43,0:20:10.35,Main,Zu,0000,0000,0000,,To samé platí pro vás, Shigeshige.
+Dialogue: 0,0:20:10.35,0:20:14.23,Main,Zu,0000,0000,0000,,Není přece možné, aby byl zámek \Nvždy tak extrémně nechráněný.
+Dialogue: 0,0:20:14.81,0:20:19.07,Main,Sho,0000,0000,0000,,Oba jsme měli možnost vzít nepříteli hlavu, \Nkdykoliv se nám zachtělo,
+Dialogue: 0,0:20:19.90,0:20:22.40,Main,Sho,0000,0000,0000,,ale přesto jsme tak neučinili.
+Dialogue: 0,0:20:22.40,0:20:25.11,Main,Sho,0000,0000,0000,,Chtěl jsem poznat, jaký je vůdce mých nepřátel,
+Dialogue: 0,0:20:25.82,0:20:28.86,Main,Sho,0000,0000,0000,,ještě když mu hlava sedí na krku.
+Dialogue: 0,0:20:29.54,0:20:31.70,Main,Sho,0000,0000,0000,,Co si myslíš o vůdci svých nepřátel?
+Dialogue: 0,0:20:31.70,0:20:34.12,Main,Zu,0000,0000,0000,,Opravdový hlupák.
+Dialogue: 0,0:20:34.12,0:20:35.88,Main,Zu,0000,0000,0000,,Ani jsem si ho nemusel nijak zkoumat.
+Dialogue: 0,0:20:36.75,0:20:39.34,Main,Zu,0000,0000,0000,,Ať už to je vláda nebo Joi rebelové,
+Dialogue: 0,0:20:39.34,0:20:41.87,Main,Zu,0000,0000,0000,,vůdcové jsou všude stejní.
+Dialogue: 0,0:20:42.84,0:20:44.84,Main,Zu,0000,0000,0000,,Všichni mají zvrásčené čelo.
+Dialogue: 0,0:20:55.10,0:20:55.94,Main,Sho,0000,0000,0000,,Katsuro.
+Dialogue: 0,0:20:58.36,0:21:00.02,Main,Sho,0000,0000,0000,,Až se příště znovu potkáme,
+Dialogue: 0,0:21:00.02,0:21:02.69,Main,Sho,0000,0000,0000,,jeden z nás zemře...
+Dialogue: 0,0:21:02.69,0:21:05.61,Main,Zu,0000,0000,0000,,...ale ten druhý zůstane a vybuduje nový svět.
+Dialogue: 0,0:21:06.24,0:21:07.37,Main,Zu,0000,0000,0000,,O tom není pochyb.
+Dialogue: 0,0:21:07.91,0:21:09.58,Main,Zu,0000,0000,0000,,Jdeme, Elizabeth.
+Dialogue: 0,0:21:09.58,0:21:12.16,Main,Zu,0000,0000,0000,,Dokud je stráž ještě oslabená.
+Dialogue: 0,0:21:12.50,0:21:14.25,Main,So,0000,0000,0000,,Um, omluvte mě.
+Dialogue: 0,0:21:14.96,0:21:17.33,Main,So,0000,0000,0000,,Můžete mluvit potišeji?
+Dialogue: 0,0:21:17.33,0:21:20.92,Main,So,0000,0000,0000,,Přespává u mě kamarádka a zrovna před chvílí usnula.
+Dialogue: 0,0:21:20.92,0:21:22.30,Main,Gin,0000,0000,0000,,Omlouváme se.
+Dialogue: 0,0:21:22.30,0:21:25.01,Main,Gin,0000,0000,0000,,Em, Shogune-sama, já taky můžu jít, že?
+Dialogue: 0,0:21:25.01,0:21:26.13,Main,Sho,0000,0000,0000,,Jistě. Promiň mi to.
+Dialogue: 0,0:21:26.13,0:21:28.09,Main,Sho,0000,0000,0000,,Způsobil jsem ti spoustu potíží.
+Dialogue: 0,0:21:28.09,0:21:29.18,Main,Gin,0000,0000,0000,,S tím si hlavu nelamte.
+Dialogue: 0,0:21:29.18,0:21:32.10,Main,Gin,0000,0000,0000,,Prostě mi někde kupte něco\Nk jídlu a bude to za náma.
+Dialogue: 0,0:21:32.10,0:21:33.14,Main,Gin,0000,0000,0000,,Nebo by stačilo pár peněz.
+Dialogue: 0,0:21:34.48,0:21:36.02,Main,Gin,0000,0000,0000,,Hejbni zadkem, Zuro.
+Dialogue: 0,0:21:37.06,0:21:39.69,Main,Gin,0000,0000,0000,,Měl bys být vděčnej, že ještě pořád žiješ.
+Dialogue: 0,0:21:39.69,0:21:40.86,Main,Zu,0000,0000,0000,,Nech mě na pokoji!
+Dialogue: 0,0:21:44.69,0:21:46.40,Main,Kag,0000,0000,0000,,Copak vám neříkala, ať držíte huby?
+Dialogue: 0,0:21:46.65,0:21:48.91,Main,Zu,0000,0000,0000,,He? Š-Šéfko?
+Dialogue: 0,0:21:49.37,0:21:50.41,Main,Gin,0000,0000,0000,,Co ty tady?
+Dialogue: 0,0:21:50.41,0:21:53.91,Main,Kag,0000,0000,0000,,Už držte huby s tím svým nesmyslem o šéfování!
+Dialogue: 0,0:22:07.22,0:22:09.18,Main,Kag,0000,0000,0000,,Konečně se můžu pořádně vyspat.
+Dialogue: 0,0:22:12.18,0:22:14.89,Main,So,0000,0000,0000,,Hádám, že ty jsi ten pravý vůdce, Kaguro-chan.
+Dialogue: 0,0:23:44.94,0:23:49.84,Ep Title,Title,0000,0000,0000,,{\fad(402,1)}Láska Je Past na Šváby
+Dialogue: 0,0:23:45.97,0:23:47.32,Main,Title,0000,0000,0000,,Příští díl: "Láska je...
+Dialogue: 0,0:23:47.32,0:23:48.67,Main,,0000,0000,0000,,...pas na šváby."
+Dialogue: 0,0:23:49.84,0:23:54.89,Side Bar Top,text r,0000,0000,0000,,Všechny odporné milenecké páry mizí!
+Dialogue: 0,0:23:49.84,0:23:54.89,Side Bar Bottom,text l,0000,0000,0000,,Přichází Maskovaný švabí král černý RX!
+Dialogue: 0,0:23:54.89,0:24:00.20,Side Bar Top,text r,0000,0000,0000,,Anime štáb má také pořádně černé srdce,\Ntakže jsou s ním za jedno!
+Dialogue: 0,0:23:54.89,0:24:00.20,Side Bar Bottom,text l,0000,0000,0000,,Co? Rande na festivalu? Vážně? Fuj!

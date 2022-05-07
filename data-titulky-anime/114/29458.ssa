@@ -1,0 +1,198 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Dialog,Arial,32,&Hffffff,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,20,20,20,0,1
+Style: Nadpis,Arial,40,&HD9F014 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,190,190,190,0,1
+Style: Podnadpis,Arial,40,&H14D9F0 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,80,80,80,0,1
+Style: Vysvet,Arial,40,&Hffaa00 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,190,190,190,0,1
+Style: Uvod,Arial,32,&H14DAEC ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,500,20,190,0,1
+Style: Jednic,Arial,32,&H54D436 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,20,20,20,0,1
+Style: Episod,Arial,45,&HEEF7C6 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,10,200,444,0,1
+
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:00.79,0:00:05.53,Podnadpis,,0000,0000,0000,,Pøeklad: Shinji\NKorektury: Xellos 
+Dialogue: Marked=0,0:00:08.76,0:00:23.13,Uvod,,0000,0000,0000,,"Vdy doba\Ndeseti miliard let\Nje tak køehká,\Ntak prchavá...\NVyvolává\Nsladkohoøkou,\Nskoro srdceryvnou\Nnìnost"
+Dialogue: Marked=0,0:00:26.80,0:00:28.56,Dialog,,0000,0000,0000,,Uteè s námi.
+Dialogue: Marked=0,0:00:30.07,0:00:32.80,Dialog,,0000,0000,0000,,Pojï s námi, Nabuco.
+Dialogue: Marked=0,0:00:33.50,0:00:36.47,Dialog,,0000,0000,0000,,Vezmi Booa a kadého,\Nkdo bude chtít.
+Dialogue: Marked=0,0:00:37.21,0:00:40.61,Dialog,,0000,0000,0000,,Mùeš se vrátit zpátky\Ndo své vesnice.
+Dialogue: Marked=0,0:00:45.98,0:00:50.92,Dialog,,0000,0000,0000,,Nebudeš muset vradit.\NNebudou ádné další únosy.
+Dialogue: Marked=0,0:01:06.07,0:01:07.70,Dialog,,0000,0000,0000,,Nejdu s vámi.
+Dialogue: Marked=0,0:03:01.63,0:03:13.31,Nadpis,,0000,0000,0000,,iju tady a teï
+Dialogue: Marked=0,0:04:23.19,0:04:28.30,Podnadpis,,0000,0000,0000,,{\pos(245,474)}Dvì opuštìné duše
+Dialogue: Marked=0,0:04:44.59,0:04:46.32,Dialog,,0000,0000,0000,,Promiòte, pane.
+Dialogue: Marked=0,0:04:48.52,0:04:51.62,Dialog,,0000,0000,0000,,Králi Hamdo...\NJak se cítíte, pane?
+Dialogue: Marked=0,0:04:52.59,0:04:56.12,Dialog,,0000,0000,0000,,Jsi dost troufalá,\Ne se pøede mnou ukazuješ.
+Dialogue: Marked=0,0:04:56.20,0:05:00.90,Dialog,,0000,0000,0000,,Nechala jsi utéct Lala Ru, ztratila\Npøívìsek a nepovedlo se ti je chytit.
+Dialogue: Marked=0,0:05:00.97,0:05:03.23,Dialog,,0000,0000,0000,,Kdo k èertu je to\Nabnormální dìcko?
+Dialogue: Marked=0,0:05:03.31,0:05:04.97,Dialog,,0000,0000,0000,,Proè jsi ho nezabila?
+Dialogue: Marked=0,0:05:05.04,0:05:06.56,Dialog,,0000,0000,0000,,Je mi to líto, pane.
+Dialogue: Marked=0,0:05:06.74,0:05:08.21,Dialog,,0000,0000,0000,,Jsi k nièemu...
+Dialogue: Marked=0,0:05:09.04,0:05:10.41,Dialog,,0000,0000,0000,,Ty neuiteèná krávo!
+Dialogue: Marked=0,0:05:10.48,0:05:13.92,Dialog,,0000,0000,0000,,Kvùli tvım chybám jsem opìt v bodì nula\Na musím vymyslet novı plán!
+Dialogue: Marked=0,0:05:13.98,0:05:17.75,Dialog,,0000,0000,0000,,Pane, ohlednì vašich plánù -\Nmohla bych mít nìkolik návrhù?
+Dialogue: Marked=0,0:05:17.82,0:05:18.95,Dialog,,0000,0000,0000,,Poslouchám.
+Dialogue: Marked=0,0:05:19.02,0:05:21.18,Dialog,,0000,0000,0000,,Je pravda, e jsme dopustili,\Naby nám Lala Ru proklouzla.
+Dialogue: Marked=0,0:05:21.26,0:05:25.69,Dialog,,0000,0000,0000,,Nicménì se nám podaøilo získat\Nvelkı objem vody, kterı tu po ní zùstal.
+Dialogue: Marked=0,0:05:25.76,0:05:29.06,Dialog,,0000,0000,0000,,Právì teï se voda hromadí\Nv podzemních úrovních Hellywoodu.
+Dialogue: Marked=0,0:05:29.13,0:05:32.79,Dialog,,0000,0000,0000,,Kdy ji vyuijeme jako palivo,\Nbudeme schopni rozpohybovat Hellywood.
+Dialogue: Marked=0,0:05:33.10,0:05:34.09,Dialog,,0000,0000,0000,,Je to moné?
+Dialogue: Marked=0,0:05:34.20,0:05:35.57,Dialog,,0000,0000,0000,,Teoreticky ano.
+Dialogue: Marked=0,0:05:35.64,0:05:38.83,Dialog,,0000,0000,0000,,Bohuel voda teï prosakuje\Ntrhlinami do zemì, take...
+Dialogue: Marked=0,0:05:38.91,0:05:41.43,Dialog,,0000,0000,0000,,Udìlej to hned!\NOkamitì se dej do práce!
+Dialogue: Marked=0,0:05:41.51,0:05:46.14,Dialog,,0000,0000,0000,,Nasaï celou posádku a pumpuje\Nvodu! Ach, má skvìlá Abelio!
+Dialogue: Marked=0,0:05:47.18,0:05:50.52,Dialog,,0000,0000,0000,,Jsi úplnì úasná!\NNádherné!
+Dialogue: Marked=0,0:05:50.85,0:05:54.38,Dialog,,0000,0000,0000,,Jakmile bude Hellywood opìt v pohybu,\Nvrátí se jeho minulá sláva!
+Dialogue: Marked=0,0:05:54.56,0:05:57.65,Dialog,,0000,0000,0000,,Svìt bude mùj!
+Dialogue: Marked=0,0:06:05.30,0:06:06.73,Dialog,,0000,0000,0000,,Pøipraveno!
+Dialogue: Marked=0,0:06:18.18,0:06:20.31,Dialog,,0000,0000,0000,,Udìlejme si krátkou pøestávku.
+Dialogue: Marked=0,0:06:22.92,0:06:23.98,Dialog,,0000,0000,0000,,Jsi v poøádku?
+Dialogue: Marked=0,0:06:24.05,0:06:25.49,Dialog,,0000,0000,0000,,To nic není.
+Dialogue: Marked=0,0:06:28.49,0:06:29.58,Dialog,,0000,0000,0000,,Nabuco.
+Dialogue: Marked=0,0:06:29.66,0:06:31.09,Dialog,,0000,0000,0000,,Copak?
+Dialogue: Marked=0,0:06:32.16,0:06:35.69,Dialog,,0000,0000,0000,,Nebudeš to hlásit?
+Dialogue: Marked=0,0:06:40.17,0:06:43.66,Dialog,,0000,0000,0000,,Teï u je pøíliš pozdì.\NAle nedìlej to znova.
+Dialogue: Marked=0,0:06:44.17,0:06:46.37,Dialog,,0000,0000,0000,,Nechci to zaít ještì jednou.
+Dialogue: Marked=0,0:06:48.01,0:06:49.44,Dialog,,0000,0000,0000,,Nikdy více...
+Dialogue: Marked=0,0:06:50.71,0:06:53.34,Dialog,,0000,0000,0000,,Myslíš, e je ještì naivu?
+Dialogue: Marked=0,0:06:54.28,0:06:55.77,Dialog,,0000,0000,0000,,Musí bıt mrtvı.
+Dialogue: Marked=0,0:07:45.33,0:07:46.77,Dialog,,0000,0000,0000,,Mrzne!
+Dialogue: Marked=0,0:07:50.81,0:07:55.94,Dialog,,0000,0000,0000,,A bìhem dne bylo takové vedro!\NTohle je ale pro pochod stejnì lepší.
+Dialogue: Marked=0,0:07:56.51,0:07:57.88,Dialog,,0000,0000,0000,,Kolo!
+Dialogue: Marked=0,0:07:59.58,0:08:01.74,Dialog,,0000,0000,0000,,Pro boha! Je zasypané.
+Dialogue: Marked=0,0:08:05.99,0:08:07.78,Dialog,,0000,0000,0000,,V poøádku, funguje.
+Dialogue: Marked=0,0:08:08.72,0:08:11.78,Dialog,,0000,0000,0000,,Lala Ru, teï je vhodná doba,\Nabychom se vydali dál.
+Dialogue: Marked=0,0:08:14.96,0:08:16.06,Dialog,,0000,0000,0000,,Lala Ru?
+Dialogue: Marked=0,0:08:18.60,0:08:20.97,Dialog,,0000,0000,0000,,Pojï, pospìšme si.
+Dialogue: Marked=0,0:08:31.58,0:08:33.98,Dialog,,0000,0000,0000,,Jsi ještì unavená?
+Dialogue: Marked=0,0:08:37.95,0:08:39.89,Dialog,,0000,0000,0000,,Naskoè. Odnesu tì.
+Dialogue: Marked=0,0:08:41.19,0:08:45.06,Dialog,,0000,0000,0000,,Nedìlej si o mì starosti.\NMám v zásobì ještì trochu energie.
+Dialogue: Marked=0,0:09:11.09,0:09:12.82,Dialog,,0000,0000,0000,,Tak jedem.
+Dialogue: Marked=0,0:09:31.67,0:09:34.11,Dialog,,0000,0000,0000,,Po tomhle úseku si dáme\Ndalší pauzu.
+Dialogue: Marked=0,0:09:34.44,0:09:36.74,Dialog,,0000,0000,0000,,Vydr ještì chvíli.
+Dialogue: Marked=0,0:09:41.12,0:09:44.68,Dialog,,0000,0000,0000,,Máš hlad?\NJá teda jo.
+Dialogue: Marked=0,0:09:44.99,0:09:47.01,Dialog,,0000,0000,0000,,No nic, musím to potlaèit!
+Dialogue: Marked=0,0:10:22.92,0:10:24.82,Dialog,,0000,0000,0000,,Co to je?
+Dialogue: Marked=0,0:10:28.03,0:10:31.02,Dialog,,0000,0000,0000,,Tady jsou nìjaká zvíøata!\NPodívej! Hele!
+Dialogue: Marked=0,0:10:35.20,0:10:36.53,Dialog,,0000,0000,0000,,Nìkoho vidím!
+Dialogue: Marked=0,0:10:39.84,0:10:41.60,Dialog,,0000,0000,0000,,Jste v poøádku?
+Dialogue: Marked=0,0:10:49.95,0:10:51.21,Dialog,,0000,0000,0000,,Co kèertu?
+Dialogue: Marked=0,0:10:57.13,0:10:58.39,Dialog,,0000,0000,0000,,Lala Ru!
+Dialogue: Marked=0,0:11:08.77,0:11:10.40,Dialog,,0000,0000,0000,,Co...?
+Dialogue: Marked=0,0:11:12.64,0:11:13.73,Dialog,,0000,0000,0000,,Do háje!
+Dialogue: Marked=0,0:11:47.88,0:11:49.81,Dialog,,0000,0000,0000,,Tudy! Vylez nahoru.
+Dialogue: Marked=0,0:11:49.88,0:11:50.87,Dialog,,0000,0000,0000,,Pospìš si!
+Dialogue: Marked=0,0:12:43.06,0:12:44.62,Dialog,,0000,0000,0000,,Co udìláme teï?
+Dialogue: Marked=0,0:12:44.70,0:12:49.10,Dialog,,0000,0000,0000,,Kolo nìkam zmizelo,\Na tobì navíc chybí bota.
+Dialogue: Marked=0,0:12:50.61,0:12:54.47,Dialog,,0000,0000,0000,,Hej... Co myslíš, e byla\Nta zrùdnost zaè?
+Dialogue: Marked=0,0:12:56.28,0:12:58.04,Dialog,,0000,0000,0000,,Tohle...
+Dialogue: Marked=0,0:12:59.21,0:13:02.95,Dialog,,0000,0000,0000,,Chtìlo to tohle.\NTím jsem si jistá.
+Dialogue: Marked=0,0:13:12.63,0:13:17.16,Dialog,,0000,0000,0000,,Povìz mi... Udìlal ti Hamdo\Nnìco ošklivého?
+Dialogue: Marked=0,0:13:19.13,0:13:21.36,Dialog,,0000,0000,0000,,Mnì teda urèitì jo!
+Dialogue: Marked=0,0:13:21.44,0:13:25.07,Dialog,,0000,0000,0000,,Mlátili mì, kopali,\Na dokonce i povìsili za provaz.
+Dialogue: Marked=0,0:13:25.61,0:13:27.63,Dialog,,0000,0000,0000,,Co se mu proboha stalo?
+Dialogue: Marked=0,0:13:27.71,0:13:31.61,Dialog,,0000,0000,0000,,Stále øíkal: „Dej mi pøívìsek!“\NNikdy by toho nenechal.
+Dialogue: Marked=0,0:13:35.95,0:13:38.85,Dialog,,0000,0000,0000,,Dokáeš úasné vìci,\NLala Ru.
+Dialogue: Marked=0,0:13:38.92,0:13:43.79,Dialog,,0000,0000,0000,,Kdy se pøivalila všechna ta voda, tak jsem dostal\Nšílenı strach z toho, e se utopím!
+Dialogue: Marked=0,0:13:46.46,0:13:49.36,Dialog,,0000,0000,0000,,Nìco mì napadlo.
+Dialogue: Marked=0,0:13:49.43,0:13:53.33,Dialog,,0000,0000,0000,,Proè nepouiješ moc toho pøívìsku\Na na rùzná místa nepøivedeš vodu?
+Dialogue: Marked=0,0:13:53.40,0:13:55.39,Dialog,,0000,0000,0000,,Lidé by byli urèitì rádi.
+Dialogue: Marked=0,0:13:55.50,0:13:56.49,Dialog,,0000,0000,0000,,Ne.
+Dialogue: Marked=0,0:13:56.57,0:13:59.54,Dialog,,0000,0000,0000,,Proè ne? Jsem si jistı,\Ne kadı by ti za to podìkoval.
+Dialogue: Marked=0,0:13:59.64,0:14:01.13,Dialog,,0000,0000,0000,,Ne.
+Dialogue: Marked=0,0:14:04.05,0:14:07.34,Dialog,,0000,0000,0000,,Mohou mi øíci milión díkù.\NPro mì to nic neznamená.
+Dialogue: Marked=0,0:14:07.55,0:14:11.18,Dialog,,0000,0000,0000,,Coe? Nejsi šastná,\Nkdy si tì váí?
+Dialogue: Marked=0,0:14:11.69,0:14:16.12,Dialog,,0000,0000,0000,,Ne. Kromì toho to stejnì\Nnemyslí vánì.
+Dialogue: Marked=0,0:14:18.83,0:14:21.66,Dialog,,0000,0000,0000,,Nejdøív mi všichni dìkují.
+Dialogue: Marked=0,0:14:21.96,0:14:25.56,Dialog,,0000,0000,0000,,Pak to ale zaènou\Npovaovat za samozøejmé.
+Dialogue: Marked=0,0:14:25.77,0:14:29.07,Dialog,,0000,0000,0000,,Brzy zaènou mít zlost, kdy jim\Nnedám vodu, kdykoliv o ni poádají.
+Dialogue: Marked=0,0:14:31.74,0:14:34.67,Dialog,,0000,0000,0000,,Nakonec mì uzamknou.
+Dialogue: Marked=0,0:14:35.91,0:14:39.78,Dialog,,0000,0000,0000,,Pokadé, kdy pouiju tenhle pøívìsek,\Ntak stále více slábnu.
+Dialogue: Marked=0,0:14:40.28,0:14:43.74,Dialog,,0000,0000,0000,,Ale nikoho nikdy nezajímá,\Nco se stane mnì.
+Dialogue: Marked=0,0:14:46.35,0:14:48.72,Dialog,,0000,0000,0000,,A víš co dìlají potom?
+Dialogue: Marked=0,0:14:48.79,0:14:49.78,Dialog,,0000,0000,0000,,No... eh...
+Dialogue: Marked=0,0:14:50.26,0:14:52.12,Dialog,,0000,0000,0000,,Zabíjejí jeden druhého.
+Dialogue: Marked=0,0:14:54.86,0:14:58.70,Dialog,,0000,0000,0000,,Takhle je to pokadé...\Nkdekoliv, kdykoliv.
+Dialogue: Marked=0,0:14:59.23,0:15:03.26,Dialog,,0000,0000,0000,,Kdy se sejde dostateèné mnoství lidí,\Ntak vdy mezi sebou bojují.
+Dialogue: Marked=0,0:15:03.34,0:15:06.10,Dialog,,0000,0000,0000,,V jeden okamik\Nprosí o své ivoty...
+Dialogue: Marked=0,0:15:06.17,0:15:09.20,Dialog,,0000,0000,0000,,a v dalším se zabíjí navzájem,\Ndokud nejsou všichni mrtví.
+Dialogue: Marked=0,0:15:09.28,0:15:11.01,Dialog,,0000,0000,0000,,Vdy je to stejné.
+Dialogue: Marked=0,0:15:12.75,0:15:15.24,Dialog,,0000,0000,0000,,Takoví lidé mùou existovat.
+Dialogue: Marked=0,0:15:15.32,0:15:18.38,Dialog,,0000,0000,0000,,Ale vìtšina je hodná.\NTím jsem si jist.
+Dialogue: Marked=0,0:15:19.42,0:15:23.62,Dialog,,0000,0000,0000,,Všichni hodní lidé tohoto svìta\Njsou u dávno mrtví.
+Dialogue: Marked=0,0:15:27.13,0:15:31.12,Dialog,,0000,0000,0000,,Nechci dál krátit svùj ivot\Npro lidi.
+Dialogue: Marked=0,0:15:34.74,0:15:38.67,Dialog,,0000,0000,0000,,Nicménì si myslím, e všichni\Nsi tì váí.
+Dialogue: Marked=0,0:15:40.11,0:15:41.63,Dialog,,0000,0000,0000,,Ne.
+Dialogue: Marked=0,0:16:08.17,0:16:10.03,Dialog,,0000,0000,0000,,Dobré ráno, Lala Ru!
+Dialogue: Marked=0,0:16:20.68,0:16:24.55,Dialog,,0000,0000,0000,,Právì se mi zdálo, e jsem\Nporazil v kendu svého pøítele Odu.
+Dialogue: Marked=0,0:16:24.62,0:16:27.35,Dialog,,0000,0000,0000,,A víš co?\NTím úasem jsem se probudil.
+Dialogue: Marked=0,0:16:27.49,0:16:29.68,Dialog,,0000,0000,0000,,Šel jsem za ní a...
+Dialogue: Marked=0,0:16:40.20,0:16:42.29,Dialog,,0000,0000,0000,,Máš ráda slunce?
+Dialogue: Marked=0,0:16:43.50,0:16:45.60,Dialog,,0000,0000,0000,,Nenávidím slunce.
+Dialogue: Marked=0,0:16:45.71,0:16:48.64,Dialog,,0000,0000,0000,,Kdy jsem tì poprvé potkal,\Ntak jsi se dívala na západ slunce.
+Dialogue: Marked=0,0:16:48.71,0:16:50.70,Dialog,,0000,0000,0000,,A dneska je to svítání,\Ntak jsem myslel...
+Dialogue: Marked=0,0:16:50.81,0:16:52.61,Dialog,,0000,0000,0000,,Mám ráda západ slunce.
+Dialogue: Marked=0,0:16:52.68,0:16:54.48,Dialog,,0000,0000,0000,,Ale ne vıchod?
+Dialogue: Marked=0,0:16:54.55,0:17:00.22,Dialog,,0000,0000,0000,,Já se vdycky tìším na to,\Nco pøijde nového.
+Dialogue: Marked=0,0:17:04.83,0:17:09.39,Dialog,,0000,0000,0000,,Ty asi ne. A co se ti\Ntak líbí na západu slunce?
+Dialogue: Marked=0,0:17:10.57,0:17:14.97,Dialog,,0000,0000,0000,,Západ slunce mi pøipomíná\Nmnoho vìcí.
+Dialogue: Marked=0,0:17:21.74,0:17:23.34,Dialog,,0000,0000,0000,,Nechápu.
+Dialogue: Marked=0,0:17:26.91,0:17:30.65,Dialog,,0000,0000,0000,,Podívám se po tom kole.\NZùstaò tady nahoøe.
+Dialogue: Marked=0,0:17:45.73,0:17:48.46,Dialog,,0000,0000,0000,,Tohle není dobré. Fuj!
+Dialogue: Marked=0,0:17:59.78,0:18:01.48,Dialog,,0000,0000,0000,,Pus ten nù.
+Dialogue: Marked=0,0:18:06.29,0:18:07.55,Dialog,,0000,0000,0000,,Rychle!
+Dialogue: Marked=0,0:18:08.56,0:18:09.72,Dialog,,0000,0000,0000,,Blíí se!
+Dialogue: Marked=0,0:18:27.41,0:18:29.64,Dialog,,0000,0000,0000,,Díky, Lala Ru.
+Dialogue: Marked=0,0:18:31.05,0:18:34.64,Dialog,,0000,0000,0000,,A nejenom to øíkám!
+Dialogue: Marked=0,0:18:34.72,0:18:38.68,Dialog,,0000,0000,0000,,Myslím to vánì\Nz celého svého srdce.
+Dialogue: Marked=0,0:18:56.14,0:18:57.93,Dialog,,0000,0000,0000,,Je mi vedro!
+Dialogue: Marked=0,0:19:02.64,0:19:04.87,Dialog,,0000,0000,0000,,Mnì nevadí.
+Dialogue: Marked=0,0:19:06.31,0:19:07.65,Dialog,,0000,0000,0000,,Jsem v poøádku.
+Dialogue: Marked=0,0:19:09.92,0:19:12.89,Dialog,,0000,0000,0000,,Stále jsme tu jako v pasti.
+Dialogue: Marked=0,0:19:12.95,0:19:16.95,Dialog,,0000,0000,0000,,Pøesto nemyslím, e bych mohl\Ntu vìc porazit svou holí...
+Dialogue: Marked=0,0:19:19.86,0:19:20.99,Dialog,,0000,0000,0000,,Co to je?
+Dialogue: Marked=0,0:19:21.06,0:19:25.12,Dialog,,0000,0000,0000,,Jdu pro batoh.\NNìco by v nìm mohlo bıt.
+Dialogue: Marked=0,0:19:48.09,0:19:49.15,Dialog,,0000,0000,0000,,To je panenka?
+Dialogue: Marked=0,0:19:49.66,0:19:52.13,Dialog,,0000,0000,0000,,Co kèertu mùe tohle bıt?
+Dialogue: Marked=0,0:19:53.49,0:19:54.93,Dialog,,0000,0000,0000,,Hele, tohle upadlo.
+Dialogue: Marked=0,0:20:04.51,0:20:05.67,Dialog,,0000,0000,0000,,Co?
+Dialogue: Marked=0,0:20:24.19,0:20:25.52,Dialog,,0000,0000,0000,,Lala Ru!
+Dialogue: Marked=0,0:20:29.73,0:20:30.86,Dialog,,0000,0000,0000,,To bylo tìsnı.
+Dialogue: Marked=0,0:20:33.73,0:20:35.17,Dialog,,0000,0000,0000,,Lala Ru!
+Dialogue: Marked=0,0:21:02.90,0:21:04.73,Dialog,,0000,0000,0000,,Lala Ru.
+Dialogue: Marked=0,0:21:06.80,0:21:08.70,Dialog,,0000,0000,0000,,Ale to tì...
+Dialogue: Marked=0,0:21:12.01,0:21:14.91,Dialog,,0000,0000,0000,,Díky, Lala Ru.
+Dialogue: Marked=0,0:21:26.72,0:21:28.09,Dialog,,0000,0000,0000,,Tam to je!
+Dialogue: Marked=0,0:21:38.43,0:21:39.59,Dialog,,0000,0000,0000,,Co je to?
+Dialogue: Marked=0,0:21:39.67,0:21:43.40,Dialog,,0000,0000,0000,,Co? Aha... To je hrob.\NZvyk mého svìta.
+Dialogue: Marked=0,0:21:57.15,0:21:59.38,Dialog,,0000,0000,0000,,Ztratil jsem jednu botu.
+Dialogue: Marked=0,0:21:59.45,0:22:00.89,Dialog,,0000,0000,0000,,Já taky.
+Dialogue: Marked=0,0:22:07.19,0:22:13.19,Dialog,,0000,0000,0000,,Lala Ru... Stále si myslím, e\Nv tomhle svìtì zùstali hodní lidé.
+Dialogue: Marked=0,0:22:13.70,0:22:15.46,Dialog,,0000,0000,0000,,Zcela urèitì.
+Dialogue: Marked=0,0:22:15.64,0:22:20.16,Dialog,,0000,0000,0000,,Ne všichni lidé chtìjí bojovat\Nve válce. Tím jsem si jist.
+Dialogue: Marked=0,0:22:50.10,0:23:00.34,Dialog,,0000,0000,0000,,Vdy, po všechen èas,\Ntì budu opatrovat.
+Dialogue: Marked=0,0:23:00.41,0:23:11.52,Dialog,,0000,0000,0000,,Tak se upokoj\Na jdi spát.
+Dialogue: Marked=0,0:23:31.85,0:23:49.16,Dialog,,0000,0000,0000,,Tento svìt, kde jsme vyrostli\Nnavyklí ubliovat jeden druhému...
+Dialogue: Marked=0,0:23:52.63,0:24:04.64,Dialog,,0000,0000,0000,,Tady jsme se narodili a dospìli.
+Dialogue: Marked=0,0:24:39.81,0:24:44.31,Episod,,0000,0000,0000,,{\pos(233,220)}V pøíštím díle...
+Dialogue: Marked=0,0:24:42.28,0:24:44.62,Dialog,,0000,0000,0000,,Jarní kvìtiny,\Nletní energie,...
+Dialogue: Marked=0,0:24:44.69,0:24:47.62,Dialog,,0000,0000,0000,,zlatá sklizeò podzimu,\Nstøíbrnı sníh zimy...
+Dialogue: Marked=0,0:24:47.69,0:24:50.78,Dialog,,0000,0000,0000,,To jsou obrazy obnovené zemì,\No nich hlupáci sní.
+Dialogue: Marked=0,0:24:50.86,0:24:52.88,Dialog,,0000,0000,0000,,Lidé, já je udìlám skuteènımi!
+Dialogue: Marked=0,0:24:52.96,0:24:56.09,Dialog,,0000,0000,0000,,Jene já kvìtiny i sníh\Nnesnáším.
+Dialogue: Marked=0,0:24:54.24,0:24:59.83,Podnadpis,,0000,0000,0000,,{\pos(466,468)}V rokli

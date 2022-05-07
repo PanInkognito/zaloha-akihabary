@@ -1,0 +1,269 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: NORMAL,Comic Sans MS,30,&H00790072,&H0080FFFF,&H00FFFFFF,&H82FFFFFF,-1,0,0,0,100,100,0,0,1,3,2,2,10,10,12,238
+Style: ITALIC,Comic Sans MS,30,&H00790072,&H0080FFFF,&H00FFFFFF,&H82FFFFFF,-1,-1,0,0,100,100,0,0,1,3,2,2,10,10,12,238
+Style: KA,Monotype Corsiva,35,&H0018E6E9,&H0000FFFF,&H00000000,&H82000000,-1,-1,0,0,100,100,0,0,1,2,2,2,10,10,10,238
+Style: przedstawia,Monotype Corsiva,30,&H0018E6E9,&H0000FFFF,&H00000000,&H82000000,-1,-1,0,0,100,100,0,0,1,2,2,2,10,10,10,238
+Style: Kenichi_title,Bookman Old Style,28,&H003435EC,&H0000FFFF,&H00000000,&H82000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,238
+Style: KA02,Monotype Corsiva,35,&H00FFFFFF,&H0000FFFF,&H00B41708,&H82B41708,0,-1,0,0,100,100,0,0,1,2,2,2,10,10,10,238
+Style: WHO,Monotype Corsiva,30,&H00B41708,&H0000FFFF,&H00FFFFFF,&H82FFFFFF,0,-1,0,0,100,100,0,0,1,2,2,2,10,10,10,238
+Style: Tytu³ odcinka,Arial Black,29,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.4,2.4,2,100,10,170,238
+Style: INFO,Arial,20,&H00CCCCCD,&H0000FFFF,&H00000000,&H82000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,238
+Style: INFOa,Arial,35,&H00FFFFFF,&H00000000,&H00000000,&H82000000,-1,0,0,0,100,100,0,0,1,3,2,8,30,10,15,238
+Style: Tytu³ odcinkaa,Arial,25,&H00000000,&H00000000,&H00FFFFFF,&H82000000,-1,0,0,0,100,100,0,0,1,3,2,3,40,10,170,238
+Style: NORMALa,Comic Sans MS,28,&H00FF0000,&H0000FFFF,&H00FFFFFF,&H82FFFFFF,-1,0,0,0,100,100,0,0,1,2,2,8,10,10,10,238
+Style: Italic 2,Comic Sans MS,32,&H0080FFFF,&H00000000,&H00000000,&H82000000,-1,0,0,0,100,100,0,0,1,2,2,8,20,20,4,238
+Style: OpeningKen1,Georgia,25,&H00C0FFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,3,2,2,20,20,12,238
+Style: openingKen2,Georgia,25,&H0056B04F,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,3,2,2,20,20,12,238
+Style: ending,Trebuchet MS,25,&H00FF8080,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,3,2,2,20,20,10,238
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.62,0:00:07.29,Kenichi_title,00,0000,0000,0000,,www.animetym.eu
+Dialogue: 0,0:00:03.62,0:00:07.29,przedstawia,00,0000,0000,0000,,Pøeklad : Brook
+Dialogue: 0,0:00:03.62,0:00:07.29,przedstawia,00,0000,0000,0000,,Korektutra : Kejta
+Dialogue: 0,0:01:54.35,0:01:55.31,NORMAL,00,0000,0000,0000,,Take pøece jen jsi to ty!
+Dialogue: 0,0:01:59.81,0:02:01.90,NORMAL,00,0000,0000,0000,,Kde je Honoka, Hermite?
+Dialogue: 0,0:02:04.04,0:02:07.79,NORMAL,00,0000,0000,0000,,Tohle je poprvé v ivotì co nìkoho tak nenávidím.
+Dialogue: 0,0:02:08.21,0:02:10.33,NORMAL,00,0000,0000,0000,,Jestli ublííš Honoce,
+Dialogue: 0,0:02:10.83,0:02:12.71,NORMAL,00,0000,0000,0000,,tak ti nikdy neodpustím!
+Dialogue: 0,0:02:15.55,0:02:20.30,Tytu³ odcinka,00,0000,0000,0000,,SUNDEJ HO KENICHI!  NECH MLUVIT SVOJE PÌSTI!
+Dialogue: 0,0:02:33.93,0:02:35.81,NORMAL,00,0000,0000,0000,,Vypadá to, e to zachvíli zaène.
+Dialogue: 0,0:02:35.97,0:02:38.65,NORMAL,00,0000,0000,0000,,Co ty na to? Chci získat trošku toho štìstí po tom pachinku,
+Dialogue: 0,0:02:38.81,0:02:40.65,NORMAL,00,0000,0000,0000,,tak co vsadíme se o to kdo vyhraje?
+Dialogue: 0,0:02:40.94,0:02:42.06,NORMAL,00,0000,0000,0000,,Jak nevhodné.
+Dialogue: 0,0:02:45.58,0:02:47.37,NORMAL,00,0000,0000,0000,,Ty seš tak upjatej.
+Dialogue: 0,0:02:48.00,0:02:49.33,NORMAL,00,0000,0000,0000,,Tak ty mi neodpustíš?
+Dialogue: 0,0:02:50.50,0:02:51.58,NORMAL,00,0000,0000,0000,,To je jedinì dobøe.
+Dialogue: 0,0:02:51.75,0:02:53.66,NORMAL,00,0000,0000,0000,,Musíš nepøítelem naprosto pohrdat.
+Dialogue: 0,0:02:55.80,0:02:57.37,NORMAL,00,0000,0000,0000,,Hnìv je síla.
+Dialogue: 0,0:02:58.12,0:02:59.25,NORMAL,00,0000,0000,0000,,Mùj mistr...
+Dialogue: 0,0:03:01.55,0:03:04.30,NORMAL,00,0000,0000,0000,,Ma Sougetsu tohle vdycky øíkal.
+Dialogue: 0,0:03:06.18,0:03:07.77,ITALIC,00,0000,0000,0000,,Sougetsu...
+Dialogue: 0,0:03:08.72,0:03:12.18,NORMAL,00,0000,0000,0000,,Bojová umìní existují vıhradnì pro zabijení lidí, které nemáš rád.
+Dialogue: 0,0:03:12.65,0:03:13.81,NORMAL,00,0000,0000,0000,,A navíc...
+Dialogue: 0,0:03:25.58,0:03:27.33,NORMAL,00,0000,0000,0000,,Hej, poèkej Takedo!
+Dialogue: 0,0:03:29.37,0:03:33.62,NORMAL,00,0000,0000,0000,,Dìlej, Ukito! Kenichi-kun se nám naprosto ztratil!
+Dialogue: 0,0:03:34.08,0:03:36.28,NORMAL,00,0000,0000,0000,,Ve kterı ulici je ten starej kostel?
+Dialogue: 0,0:03:36.87,0:03:38.75,NORMAL,00,0000,0000,0000,,Nepamatuju si to!
+Dialogue: 0,0:03:41.87,0:03:46.13,NORMAL,00,0000,0000,0000,,To si dìláš srandu! Tak kam máme sakra jít?
+Dialogue: 0,0:03:46.30,0:03:46.34,NORMAL,00,0000,0000,0000,,Je tu nìkdo kdo to ví?
+Dialogue: 0,0:03:46.50,0:03:47.71,NORMAL,00,0000,0000,0000,,Já to nevím,
+Dialogue: 0,0:03:48.13,0:03:49.09,NORMAL,00,0000,0000,0000,,tak se mì neptej!
+Dialogue: 0,0:03:50.59,0:03:55.61,NORMAL,00,0000,0000,0000,,Na další køiovatce zahnìte doleva, je to na tøetím bloku!
+Dialogue: 0,0:03:56.93,0:03:58.18,NORMAL,00,0000,0000,0000,,Niijimo...
+Dialogue: 0,0:03:59.40,0:04:04.06,NORMAL,00,0000,0000,0000,,Opravdu, beze mì jste úplnì nahranı?
+Dialogue: 0,0:04:04.56,0:04:07.08,NORMAL,00,0000,0000,0000,,Shinpaku Aliance vpøed!
+Dialogue: 0,0:04:10.87,0:04:12.37,NORMAL,00,0000,0000,0000,,Sakra!
+Dialogue: 0,0:04:12.65,0:04:17.00,NORMAL,00,0000,0000,0000,,Je to pravda, e Honoka byla unesena?
+Dialogue: 0,0:04:17.17,0:04:21.75,NORMAL,00,0000,0000,0000,,Jo, ten zmetek Loki je schopnej èehokoliv aby vyhrál.
+Dialogue: 0,0:04:26.13,0:04:30.14,NORMAL,00,0000,0000,0000,,To je ale nezdvoøilost. Je to spíš elegantní, ne špinavé.
+Dialogue: 0,0:04:30.31,0:04:32.23,NORMAL,00,0000,0000,0000,,Prosím øíkejte tomu "strategie".
+Dialogue: 0,0:04:32.48,0:04:33.48,NORMAL,00,0000,0000,0000,,Loki!
+Dialogue: 0,0:04:34.18,0:04:37.64,NORMAL,00,0000,0000,0000,,Sorry, ale nemùu vás pustit dál.
+Dialogue: 0,0:04:46.74,0:04:48.74,NORMAL,00,0000,0000,0000,,Co to?
+Dialogue: 0,0:04:58.25,0:04:59.92,NORMAL,00,0000,0000,0000,,Sedm Lokù?
+Dialogue: 0,0:05:01.05,0:05:01.95,NORMAL,00,0000,0000,0000,,Ne.
+Dialogue: 0,0:05:02.45,0:05:06.30,NORMAL,00,0000,0000,0000,,Ten nalevo rozhodnì není Loki.
+Dialogue: 0,0:05:07.08,0:05:09.13,NORMAL,00,0000,0000,0000,,Máš pravdu...
+Dialogue: 0,0:05:10.47,0:05:12.63,NORMAL,00,0000,0000,0000,,Nevšímejte si takovejch malejch detailù.
+Dialogue: 0,0:05:20.98,0:05:22.93,NORMAL,00,0000,0000,0000,,Ochutnejte mùj teleskopák!
+Dialogue: 0,0:05:29.81,0:05:32.41,NORMAL,00,0000,0000,0000,,Taková krásná práce nohou.
+Dialogue: 0,0:05:34.19,0:05:35.25,NORMAL,00,0000,0000,0000,,Coe?!
+Dialogue: 0,0:05:36.95,0:05:38.37,NORMAL,00,0000,0000,0000,,On utíká?!
+Dialogue: 0,0:05:39.00,0:05:39.92,NORMAL,00,0000,0000,0000,,U jdou.
+Dialogue: 0,0:05:50.68,0:05:51.50,NORMAL,00,0000,0000,0000,,Tady máš!
+Dialogue: 0,0:05:59.26,0:06:00.43,NORMAL,00,0000,0000,0000,,Co je s touhle enskou?
+Dialogue: 0,0:06:38.60,0:06:40.98,ITALIC,00,0000,0000,0000,,Honoko-chan buï prosím v poøádku.
+Dialogue: 0,0:06:41.14,0:06:42.73,ITALIC,00,0000,0000,0000,,Budu tam za chvilièku.
+Dialogue: 0,0:07:07.62,0:07:10.17,NORMAL,00,0000,0000,0000,,Ohh... Jak jsem si myslel, vypadá to, e Kenichi vyhraje.
+Dialogue: 0,0:07:10.33,0:07:13.34,NORMAL,00,0000,0000,0000,,Kdyby jsme se jen vsadili, tak jsem mohl vyhrát.
+Dialogue: 0,0:07:13.50,0:07:15.81,NORMAL,00,0000,0000,0000,,Tak co kdybysme se vsadili teï?
+Dialogue: 0,0:07:16.25,0:07:19.81,NORMAL,00,0000,0000,0000,,Hej, hej,  kdy oba vsadíme na Kenichiho tak to nebude ádná sázka.
+Dialogue: 0,0:07:20.60,0:07:23.98,NORMAL,00,0000,0000,0000,,Ne, ja sázím na toho kluka s kapucí.
+Dialogue: 0,0:07:24.36,0:07:26.23,NORMAL,00,0000,0000,0000,,Co kdyby jsme se vsadili o dnešní dezert?
+Dialogue: 0,0:07:27.93,0:07:30.02,NORMAL,00,0000,0000,0000,,Co ty na to, Hermite?
+Dialogue: 0,0:07:30.49,0:07:33.52,NORMAL,00,0000,0000,0000,,Kenichi je v tomto boji v nevıhodì.
+Dialogue: 0,0:07:37.94,0:07:39.16,NORMAL,00,0000,0000,0000,,Má to, ale smolnej den.
+Dialogue: 0,0:07:40.37,0:07:41.87,NORMAL,00,0000,0000,0000,,Take sis toho všimnul, co?
+Dialogue: 0,0:07:44.04,0:07:46.70,NORMAL,00,0000,0000,0000,,Dobøe, tak tedy pøijímám sázku!
+Dialogue: 0,0:07:47.17,0:07:49.08,NORMAL,00,0000,0000,0000,,Tak dìlej, rychle mi vra Honoku!
+Dialogue: 0,0:07:49.30,0:07:51.67,NORMAL,00,0000,0000,0000,,Take ty navrhuješ boj na blízko, jo?
+Dialogue: 0,0:07:51.83,0:07:55.30,NORMAL,00,0000,0000,0000,,To sis myslel, e moje bojové umìní se specialuje jen na boj na dlouhé vzdálenosti?
+Dialogue: 0,0:08:00.98,0:08:03.64,NORMAL,00,0000,0000,0000,,Neuèil jsem se jen Haken od mistra Sougetsa.
+Dialogue: 0,0:08:03.81,0:08:06.76,NORMAL,00,0000,0000,0000,,Taky jsem se uèil Hakkyokuuken na blízkou vzdálenost.
+Dialogue: 0,0:08:16.12,0:08:19.99,NORMAL,00,0000,0000,0000,,Debile! Ten kdo chtìl bojovat na blízko jsem byl já!
+Dialogue: 0,0:08:20.16,0:08:23.00,NORMAL,00,0000,0000,0000,,To proto jsem se nechal zablokovat.
+Dialogue: 0,0:08:26.29,0:08:27.83,NORMAL,00,0000,0000,0000,,Jak stupidní.
+Dialogue: 0,0:08:55.24,0:08:56.95,ITALIC,00,0000,0000,0000,,Stáhnul ruku s kterou útoèil?.
+Dialogue: 0,0:08:57.12,0:08:58.40,ITALIC,00,0000,0000,0000,,To byl jen klamnej vıpad!
+Dialogue: 0,0:08:58.74,0:09:01.83,ITALIC,00,0000,0000,0000,,Všimnul sis toho pøíliš pozdì! Tvoje obrana je naprosto dìravá!
+Dialogue: 0,0:09:02.00,0:09:04.62,NORMAL,00,0000,0000,0000,,Tvım útokùm naprosto chybí zkušenost!
+Dialogue: 0,0:09:17.04,0:09:20.17,NORMAL,00,0000,0000,0000,,Bylo jich sedm, take u zbıvá jen jeden.
+Dialogue: 0,0:09:24.38,0:09:25.85,NORMAL,00,0000,0000,0000,,To je poslední.
+Dialogue: 0,0:09:26.38,0:09:27.64,NORMAL,00,0000,0000,0000,,Je to ten pravej?
+Dialogue: 0,0:09:28.26,0:09:29.69,NORMAL,00,0000,0000,0000,,Zdá se tak.
+Dialogue: 0,0:09:29.89,0:09:31.48,NORMAL,00,0000,0000,0000,,Nechte to na mnì.
+Dialogue: 0,0:09:31.82,0:09:35.19,NORMAL,00,0000,0000,0000,,Zapomeò na to. Byl si jen pouhá pravá ruka Kisary.
+Dialogue: 0,0:09:35.36,0:09:37.61,NORMAL,00,0000,0000,0000,,Nemùeš se rovnat Osmy Pìstím!
+Dialogue: 0,0:09:37.77,0:09:41.27,NORMAL,00,0000,0000,0000,,To si myslíš, e se moje síla od té doby nezmìnila?
+Dialogue: 0,0:09:41.52,0:09:43.75,NORMAL,00,0000,0000,0000,,Jestli si tohle myslíš, tak u si dávno prohrál.
+Dialogue: 0,0:09:44.75,0:09:49.96,NORMAL,00,0000,0000,0000,,Pot a krev a velká dávka tréninku to je to co dìlá èlovìka silnìjším.
+Dialogue: 0,0:09:50.25,0:09:52.79,NORMAL,00,0000,0000,0000,,Pøesnì tak a navíc s géniem jako jsem já,
+Dialogue: 0,0:09:52.96,0:09:55.04,NORMAL,00,0000,0000,0000,,staèí jedno rèení a dokáu kontrolovat obrovskou skupinu silnejch lidí.
+Dialogue: 0,0:09:55.59,0:09:57.47,NORMAL,00,0000,0000,0000,,Sundej ho více kapitáne.
+Dialogue: 0,0:09:58.63,0:10:00.04,NORMAL,00,0000,0000,0000,,Já tì praštím.
+Dialogue: 0,0:10:02.25,0:10:04.30,NORMAL,00,0000,0000,0000,,Chcípni, zrádèe!
+Dialogue: 0,0:10:10.76,0:10:12.76,NORMAL,00,0000,0000,0000,,Extra spodní úder!
+Dialogue: 0,0:10:23.95,0:10:26.62,NORMAL,00,0000,0000,0000,,Hej, nemyslíš si, e to bylo moc jednoduchı?
+Dialogue: 0,0:10:32.75,0:10:34.42,NORMAL,00,0000,0000,0000,,Tenhle je taky falešnej...
+Dialogue: 0,0:10:34.59,0:10:37.62,NORMAL,00,0000,0000,0000,,Musíme si pospíšit, jdu napøed.
+Dialogue: 0,0:10:44.38,0:10:46.67,NORMAL,00,0000,0000,0000,,Já jsem ten pravej.
+Dialogue: 0,0:10:51.64,0:10:54.44,NORMAL,00,0000,0000,0000,,Doprdele! Všichni jsou falešnı!
+Dialogue: 0,0:10:54.61,0:10:57.24,NORMAL,00,0000,0000,0000,,Pøevezli nás! Jen chtìli získat trochu èasu!
+Dialogue: 0,0:10:58.61,0:11:02.74,NORMAL,00,0000,0000,0000,,Hej, poèkejte! Nemùete soudit èlovìka jen podle vzhledu!
+Dialogue: 0,0:11:04.62,0:11:07.75,NORMAL,00,0000,0000,0000,,No asi jo... Je to tak jak øíkáte.
+Dialogue: 0,0:11:22.63,0:11:23.80,NORMAL,00,0000,0000,0000,,O tomhle je bojování..
+Dialogue: 0,0:11:23.97,0:11:26.89,NORMAL,00,0000,0000,0000,,Kdy bojují mistøi tak musíš poèítat se vším.
+Dialogue: 0,0:11:27.05,0:11:31.52,NORMAL,00,0000,0000,0000,,Kdy vidím idiota jako seš ty, tak jsem peknì nasranej.
+Dialogue: 0,0:11:31.69,0:11:33.69,NORMAL,00,0000,0000,0000,,Spravedlnost? Pravda?
+Dialogue: 0,0:11:33.86,0:11:37.44,NORMAL,00,0000,0000,0000,,Tenhle druh vìcí je jen bøemenem pro lidi ijící na tomto svìtì.
+Dialogue: 0,0:11:37.86,0:11:42.24,NORMAL,00,0000,0000,0000,,Vìc kterou skuteènì potøebuješ, je umìt vyuít svojí sílu aby jsi dominoval nad ostatními!
+Dialogue: 0,0:11:45.20,0:11:48.37,NORMAL,00,0000,0000,0000,,Kdy... máš tyhle dvì.
+Dialogue: 0,0:12:21.36,0:12:25.32,NORMAL,00,0000,0000,0000,,A do šesti let jsem il v sirotèinci.
+Dialogue: 0,0:12:27.77,0:12:31.12,NORMAL,00,0000,0000,0000,,A do té doby ne pøišel mu, kterı mì chtìl adoptovat za svého syna.
+Dialogue: 0,0:12:37.59,0:12:41.75,NORMAL,00,0000,0000,0000,,I kdy to byl bezcitnı mu, tak jsme kvùli mé nemocné sestøe k nìmu museli jít.
+Dialogue: 0,0:12:41.91,0:12:45.22,NORMAL,00,0000,0000,0000,,Opravdu jsme potøebovali bohatou rodinu, která by sehnala dobrého doktora pro mojí sestøièku.
+Dialogue: 0,0:12:48.72,0:12:51.92,NORMAL,00,0000,0000,0000,,Choval jsem se jako robot, abych byl dobrım synem.
+Dialogue: 0,0:13:02.07,0:13:08.45,NORMAL,00,0000,0000,0000,,Nemohl jsem cítit hnìv nebo úzkost. Musel jsem bıt hodnı syn, kterı udìlá všechno oè ho poádají.
+Dialogue: 0,0:13:10.99,0:13:13.65,NORMAL,00,0000,0000,0000,,Ale i pøesto ten èlovìk nebyl poøád šastnı.
+Dialogue: 0,0:13:14.75,0:13:15.71,NORMAL,00,0000,0000,0000,,Poslouchej dobøe.
+Dialogue: 0,0:13:16.16,0:13:19.96,NORMAL,00,0000,0000,0000,,Za pár let se staneš hlavou Tanimoto Enterprise.
+Dialogue: 0,0:13:20.59,0:13:23.84,NORMAL,00,0000,0000,0000,,Dùvod proè jsem tì adoptoval nebyl ten, e bych chtìl hrát nìjakou hru na rodinu.
+Dialogue: 0,0:13:25.29,0:13:25.92,NORMAL,00,0000,0000,0000,,Ano.
+Dialogue: 0,0:13:31.47,0:13:36.19,NORMAL,00,0000,0000,0000,,Ale jednoho dne se udála drastická zmìna...
+Dialogue: 0,0:13:39.61,0:13:40.73,NORMAL,00,0000,0000,0000,,Byla to láska
+Dialogue: 0,0:13:54.03,0:13:59.12,NORMAL,00,0000,0000,0000,,Ten mu se zamiloval do doktorky, která pracovala v jeho nemocnici.
+Dialogue: 0,0:14:06.79,0:14:10.29,NORMAL,00,0000,0000,0000,,Po tøi roky byl kadı den jako sen.
+Dialogue: 0,0:14:11.72,0:14:14.47,NORMAL,00,0000,0000,0000,,Kaede ty musíš mít opravdu ráda Kosmose.
+Dialogue: 0,0:14:14.63,0:14:16.63,NORMAL,00,0000,0000,0000,,Kaede miluje Kosmose.
+Dialogue: 0,0:14:17.13,0:14:18.10,NORMAL,00,0000,0000,0000,,Natsu.
+Dialogue: 0,0:14:22.07,0:14:25.82,NORMAL,00,0000,0000,0000,,Omlouvám se, zmılil jsem se.
+Dialogue: 0,0:14:27.14,0:14:29.52,NORMAL,00,0000,0000,0000,,V ten okamik se ten bezcitnı mu...
+Dialogue: 0,0:14:29.82,0:14:30.82,NORMAL,00,0000,0000,0000,,usmál!
+Dialogue: 0,0:14:32.87,0:14:37.33,NORMAL,00,0000,0000,0000,,Ale to bylo jen krátkodobé štìstí zaloeno na li.
+Dialogue: 0,0:14:40.16,0:14:43.84,NORMAL,00,0000,0000,0000,,Krátce na to ten mu záhadnì zemøel.
+Dialogue: 0,0:14:47.91,0:14:50.29,NORMAL,00,0000,0000,0000,,Bratøièku...
+Dialogue: 0,0:14:56.10,0:15:03.48,NORMAL,00,0000,0000,0000,,A já zjistil, e moje sestra, která mìla bıt léèena, vlastnì ve zkuteènosti nikdy ádné léky nedostala.
+Dialogue: 0,0:15:03.64,0:15:05.94,NORMAL,00,0000,0000,0000,,Proè? Proè?
+Dialogue: 0,0:15:07.74,0:15:10.07,NORMAL,00,0000,0000,0000,,Proè... Proè...
+Dialogue: 0,0:15:12.02,0:15:15.58,NORMAL,00,0000,0000,0000,,To, protoe ta enská chtìla získat rodinnı bohatství.
+Dialogue: 0,0:15:16.90,0:15:19.12,NORMAL,00,0000,0000,0000,,Já ho neotrávila!
+Dialogue: 0,0:15:19.58,0:15:21.33,NORMAL,00,0000,0000,0000,,Vìø své matce!
+Dialogue: 0,0:15:21.50,0:15:23.41,NORMAL,00,0000,0000,0000,,Natsu!
+Dialogue: 0,0:15:23.87,0:15:27.96,NORMAL,00,0000,0000,0000,,A tak jsem ztratil toho mue a svojí sestru.
+Dialogue: 0,0:15:31.22,0:15:34.79,NORMAL,00,0000,0000,0000,,Její hraní bylo tak dokonalı, e by si zasloušila Oskara.
+Dialogue: 0,0:15:44.55,0:15:45.98,NORMAL,00,0000,0000,0000,,Celkem zábavnı, ne?
+Dialogue: 0,0:15:46.77,0:15:48.64,NORMAL,00,0000,0000,0000,,Co se dìje? Mìl by ses smát taky.
+Dialogue: 0,0:15:59.70,0:16:02.16,NORMAL,00,0000,0000,0000,,Ale právì teï, jsem jí celkem vdìènej.
+Dialogue: 0,0:16:02.83,0:16:05.71,NORMAL,00,0000,0000,0000,,Protoe mì ukázala pravou podstatu tohoto svìta.
+Dialogue: 0,0:16:07.37,0:16:09.41,NORMAL,00,0000,0000,0000,,A to jsou li a síla.
+Dialogue: 0,0:16:13.88,0:16:15.72,NORMAL,00,0000,0000,0000,,Konec vástù.
+Dialogue: 0,0:16:15.88,0:16:18.60,NORMAL,00,0000,0000,0000,,Nejspíš u nemáš ani sílu se postavit.
+Dialogue: 0,0:16:21.69,0:16:23.05,NORMAL,00,0000,0000,0000,,Chcípni!
+Dialogue: 0,0:16:23.48,0:16:24.35,NORMAL,00,0000,0000,0000,,Coe?
+Dialogue: 0,0:16:27.19,0:16:28.48,NORMAL,00,0000,0000,0000,,Právì jsem si to urovnal v hlavì.
+Dialogue: 0,0:16:29.14,0:16:34.15,NORMAL,00,0000,0000,0000,,Musím skonèit tenhle nesmyslnı boj,
+Dialogue: 0,0:16:35.70,0:16:36.78,NORMAL,00,0000,0000,0000,,svıma rukama!
+Dialogue: 0,0:16:36.95,0:16:37.90,NORMAL,00,0000,0000,0000,,Nemonı!
+Dialogue: 0,0:16:43.46,0:16:45.58,NORMAL,00,0000,0000,0000,,I kdy jak se zdá trénuješ pod velmi dobrımi mistry,
+Dialogue: 0,0:16:45.75,0:16:48.54,NORMAL,00,0000,0000,0000,,ale díky tvımu pozérství je ti to prd platnı!
+Dialogue: 0,0:16:52.37,0:16:55.42,NORMAL,00,0000,0000,0000,,Ten chlapík s kapucou øíká pìknì hnusnı vìci.
+Dialogue: 0,0:16:56.50,0:17:02.51,NORMAL,00,0000,0000,0000,,Nicménì, pro Kenichiho, kterı nedokáe pøedvídat klamné vıpady je tohle obrovská nevıhoda.
+Dialogue: 0,0:17:11.10,0:17:12.02,NORMAL,00,0000,0000,0000,,Tak co?
+Dialogue: 0,0:17:12.19,0:17:16.27,NORMAL,00,0000,0000,0000,,I extrémnì odolnej chlapík jako ty by po tomhle nemìl u vstát!
+Dialogue: 0,0:17:27.17,0:17:28.46,NORMAL,00,0000,0000,0000,,To by mìlo bıt ono.
+Dialogue: 0,0:17:29.50,0:17:31.33,NORMAL,00,0000,0000,0000,,Buï opatrná, medvídku..
+Dialogue: 0,0:17:31.50,0:17:32.25,NORMAL,00,0000,0000,0000,,Vím.
+Dialogue: 0,0:17:32.92,0:17:35.29,NORMAL,00,0000,0000,0000,,Nejspíš tu budou další pasti.
+Dialogue: 0,0:17:36.79,0:17:37.89,NORMAL,00,0000,0000,0000,,Je to ono?
+Dialogue: 0,0:17:39.68,0:17:41.93,NORMAL,00,0000,0000,0000,,Co se dìje? U nemùeš Nijimo?
+Dialogue: 0,0:17:46.26,0:17:53.65,NORMAL,00,0000,0000,0000,,Ne, vdycky mi je nevolno, kdy jdu do kostela nebo svatynì.
+Dialogue: 0,0:17:54.19,0:17:55.95,NORMAL,00,0000,0000,0000,,To seš, skøet nebo co?
+Dialogue: 0,0:18:01.61,0:18:02.82,NORMAL,00,0000,0000,0000,,Promiò, Ukito.
+Dialogue: 0,0:18:02.99,0:18:04.78,NORMAL,00,0000,0000,0000,,Ne, to je v pohodì.
+Dialogue: 0,0:18:05.36,0:18:06.71,NORMAL,00,0000,0000,0000,,Ale mìl bys mi øíkat senpai.
+Dialogue: 0,0:18:07.11,0:18:08.21,NORMAL,00,0000,0000,0000,, Jsem tvùj senpai jestli to náhodou nevíš.
+Dialogue: 0,0:18:08.75,0:18:10.92,NORMAL,00,0000,0000,0000,,I kdy jsi mùj senpai, tak stejnì seš poøád mùj podøízenej.
+Dialogue: 0,0:18:12.25,0:18:13.63,NORMAL,00,0000,0000,0000,,Zabiju tì.
+Dialogue: 0,0:18:23.51,0:18:25.14,NORMAL,00,0000,0000,0000,,O vítìzi je rozhodnuto.
+Dialogue: 0,0:18:26.39,0:18:27.85,NORMAL,00,0000,0000,0000,,Síla a li,
+Dialogue: 0,0:18:28.01,0:18:30.94,NORMAL,00,0000,0000,0000,,jakmile máš tyhlety dvì vìci tak si schopnı pøeít.
+Dialogue: 0,0:18:34.48,0:18:35.69,NORMAL,00,0000,0000,0000,,Pleteš se.
+Dialogue: 0,0:18:40.66,0:18:43.24,NORMAL,00,0000,0000,0000,,Jestli budeš ít jen na základì lí a síly,
+Dialogue: 0,0:18:43.41,0:18:47.07,NORMAL,00,0000,0000,0000,,tak jediné co tì èeká je utrpení a smutek.
+Dialogue: 0,0:18:51.50,0:18:54.58,NORMAL,00,0000,0000,0000,,Mùj... Mùj mistr karate mi jednou øekl,
+Dialogue: 0,0:18:54.75,0:18:58.97,NORMAL,00,0000,0000,0000,,e slova, která jsou vyøèena tvımi pìstmi jsou mnohem silnìjší ne slova vyøèená z úst.
+Dialogue: 0,0:18:59.75,0:19:05.09,NORMAL,00,0000,0000,0000,,Nezáleí na tom, e je to šílenec, kdy proti nìmu bojuješ, tak porozumíš jeho srdci.
+Dialogue: 0,0:19:05.89,0:19:08.94,NORMAL,00,0000,0000,0000,,Opravu jsem tohle øekl?
+Dialogue: 0,0:19:11.94,0:19:14.23,NORMAL,00,0000,0000,0000,,Nejspíš si byl zase totálnì nalámanej.
+Dialogue: 0,0:19:16.02,0:19:18.56,NORMAL,00,0000,0000,0000,,Zdá se, e ty nejsi ten kdo unesl Honoku.
+Dialogue: 0,0:19:19.15,0:19:25.53,NORMAL,00,0000,0000,0000,,Ty nejsi typ èlovìka, kterı by drel nìèí sestru aby vyhrál.
+Dialogue: 0,0:19:26.53,0:19:29.25,NORMAL,00,0000,0000,0000,,Teï u tomu rozumím
+Dialogue: 0,0:19:32.53,0:19:37.46,NORMAL,00,0000,0000,0000,,To není monı! Ty mùeš poøád stát po tom co jsi dostal tolik zásahù?
+Dialogue: 0,0:19:37.63,0:19:42.13,NORMAL,00,0000,0000,0000,,Lidé, kteøí ijí spolu, musí mít srdce, které vìøí v ostatní!
+Dialogue: 0,0:19:42.29,0:19:45.68,NORMAL,00,0000,0000,0000,,Taky by si to u mìl vedìt, jene si pøedtím poøád utíkal!
+Dialogue: 0,0:19:48.59,0:19:51.31,NORMAL,00,0000,0000,0000,,Srdce, které vìøí v tvé mistry a pøátelé,
+Dialogue: 0,0:19:51.48,0:19:54.44,NORMAL,00,0000,0000,0000,,také vìøí v sebe samo! To je pravá síla!
+Dialogue: 0,0:19:55.44,0:19:57.69,NORMAL,00,0000,0000,0000,,Srdce, které vìøí v ostatní?
+Dialogue: 0,0:19:58.65,0:20:00.81,NORMAL,00,0000,0000,0000,,Kvùli takovım vìcem...
+Dialogue: 0,0:20:01.77,0:20:03.65,NORMAL,00,0000,0000,0000,,moje sestra...
+Dialogue: 0,0:20:03.81,0:20:07.37,NORMAL,00,0000,0000,0000,,Honoka ve mnì taky vìøí a èeká na mì!
+Dialogue: 0,0:20:07.53,0:20:11.50,NORMAL,00,0000,0000,0000,,Opravdu si myslíš, e tvoje naivní myšlení jí dokáe ochránit?
+Dialogue: 0,0:20:22.47,0:20:24.25,NORMAL,00,0000,0000,0000,,Soutenshu!
+Dialogue: 0,0:20:32.30,0:20:34.18,NORMAL,00,0000,0000,0000,,To bylo tìsné.
+Dialogue: 0,0:20:34.34,0:20:37.94,NORMAL,00,0000,0000,0000,,Soutenshu? Nechce se mi vìøit, e znáš neco z Hakkyoukenu.
+Dialogue: 0,0:20:38.10,0:20:43.02,NORMAL,00,0000,0000,0000,,Avšak, útok bez podstaty lze lehce prohlídnout, a se mi z toho chce zívat.
+Dialogue: 0,0:21:17.65,0:21:20.11,NORMAL,00,0000,0000,0000,,Taková síla...
+Dialogue: 0,0:21:20.27,0:21:23.06,NORMAL,00,0000,0000,0000,,Ovládnutí tohodle útoku je mnohem silnìjší ne u tìch ostatních!
+Dialogue: 0,0:21:23.70,0:21:25.32,NORMAL,00,0000,0000,0000,,Nikdy to nevzdám... Ne...
+Dialogue: 0,0:21:25.49,0:21:29.66,NORMAL,00,0000,0000,0000,,Dokud tvoje duše není ztrhaná, tak tvé kyoujitsu taky není vypotøebované!
+Dialogue: 0,0:21:31.70,0:21:36.96,NORMAL,00,0000,0000,0000,,Proè seš tak spokojenej? Nezapomeò, e si vsadil na toho kluka s kapucí.
+Dialogue: 0,0:21:40.29,0:21:41.29,NORMAL,00,0000,0000,0000,,Nerozumím tomu.
+Dialogue: 0,0:21:41.46,0:21:44.55,NORMAL,00,0000,0000,0000,,Nejdøív karate, pak Jujitsu a teïka Kenpo.
+Dialogue: 0,0:21:44.72,0:21:47.17,NORMAL,00,0000,0000,0000,,A navíc se zdá, e toho umí mnohem víc.
+Dialogue: 0,0:21:47.33,0:21:49.29,NORMAL,00,0000,0000,0000,,Kdo sakra seš?
+Dialogue: 0,0:21:50.34,0:21:54.55,NORMAL,00,0000,0000,0000,,Jsem prvním uèedníkem nejsilnìjších mistrù v historii!
+Dialogue: 0,0:22:00.35,0:22:03.94,NORMAL,00,0000,0000,0000,,Netuším o èem to mluvíš, ale myslím si, e u je na èase tohle vyøešit.
+Dialogue: 0,0:22:09.06,0:22:10.49,NORMAL,00,0000,0000,0000,,Zadrte hoši.
+Dialogue: 0,0:22:13.78,0:22:17.03,NORMAL,00,0000,0000,0000,,To bylo okouzlujcí. Takovı nádhernı souboj.
+Dialogue: 0,0:22:18.11,0:22:21.63,NORMAL,00,0000,0000,0000,,Jen škoda toho poèasí.
+Dialogue: 0,0:22:36.23,0:22:40.69,NORMAL,00,0000,0000,0000,Ten kdo vdycky nakonec vyhraje je Ragnarok.
+Dialogue: 0,0:22:42.48,0:22:44.31,NORMAL,00,0000,0000,0000,,Bratøíèku!
+Dialogue: 0,0:22:44.60,0:22:46.24,NORMAL,00,0000,0000,0000,,Honoko!

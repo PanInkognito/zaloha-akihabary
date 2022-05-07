@@ -1,0 +1,479 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Warning,Open Sans Semibold,26,&H00FAFAFA,&H000000FF,&H00617572,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,13,13,29,1
+Style: Preview,Open Sans Semibold,32,&H00E1FFDE,&H000000FF,&H0026922C,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Smith,Open Sans Semibold,35,&H004B4F44,&H000000FF,&H00E0E4E0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,40,40,187,0
+Style: Box,Open Sans Semibold,35,&H00C5C9CC,&H000000FF,&H00080808,&H00000000,0,0,0,0,100,100,0,0,1,4,0,1,133,0,51,0
+Style: Smith2,Open Sans Semibold,32,&H004B4F44,&H000000FF,&H00E0E4E0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,120,0,113,0
+Style: Overlord,Open Sans Semibold,32,&H00F4F5F2,&H000000FF,&H00151613,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0,0,40,0
+Style: Box2,Open Sans Semibold,35,&H00C5C9CC,&H000000FF,&H00080808,&H00000000,0,0,0,0,100,100,0,0,1,4,0,1,231,0,51,0
+Style: Box3,Open Sans Semibold,35,&H00C5C9CC,&H000000FF,&H00080808,&H00000000,0,0,0,0,100,100,0,0,1,4,0,1,293,0,51,0
+Style: Box4,Open Sans Semibold,35,&H00C5C9CC,&H000000FF,&H00080808,&H00000000,0,0,0,0,100,100,0,0,1,4,0,1,133,0,44,0
+Style: Oil,Open Sans Semibold,35,&H00FDFDFD,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,27,0
+Style: Cigarettes,Open Sans Semibold,35,&H0011110A,&H000000FF,&H00454536,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,280,0,27,0
+Style: Cigarettes Small,Open Sans Semibold,29,&H0011110A,&H000000FF,&H0064695B,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,60,0,27,0
+Style: Note,Open Sans Semibold,26,&H00494B3C,&H000000FF,&H008C897C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,27,0,0,0
+Style: Snack,Open Sans Semibold,29,&H002E3428,&H000000FF,&H00516053,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,27,107,0
+Style: Book,Open Sans Semibold,32,&H00242B1C,&H000000FF,&H00B2B385,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Cigarettes2,Open Sans Semibold,35,&H001A231B,&H000000FF,&H00758477,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,67,0
+Style: Fair,Open Sans Semibold,32,&H00614E4F,&H000000FF,&H00CAC184,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Sold,Open Sans Semibold,32,&H00BBC5F0,&H000000FF,&H00515250,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Sign,Open Sans Semibold,32,&H00252526,&H000000FF,&H00D3D0D1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Snack Sun,Open Sans Semibold,29,&H002D2F2E,&H000000FF,&H007C8C97,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,27,107,0
+Style: Side Bar Top Bl,Open Sans Semibold,38,&H00020202,&H004B31E3,&H00F6F9F6,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom Bl,Open Sans Semibold,38,&H00020202,&H000102EF,&H00F6F9F6,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: peaches,Open Sans Semibold,29,&H004500BD,&H000000FF,&H00EEF1EF,&H0085403C,1,0,0,0,100,100,0,0,1,2,2,8,0,0,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:28.00,0:01:30.00,Default,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:01:30.17,0:01:31.90,Smith,Sign,0000,0000,0000,,{\fad(504,2)}Kovář
+Dialogue: 0,0:01:30.58,0:01:34.67,Main,Te,0000,0000,0000,,{\an8}Na jedné vzdálené planetě prý objevili nový druh kovu.
+Dialogue: 0,0:01:31.94,0:01:37.03,Warning,Sign,0000,0000,0000,,{\fad(150,1)}Tetsuko žádá: Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV.
+Dialogue: 0,0:01:34.67,0:01:37.03,Main,Te,0000,0000,0000,,{\an8}Jako kovář bych ho chtěla mít aspoň trochu ve sbírce.
+Dialogue: 0,0:01:37.33,0:01:39.24,Main,Te,0000,0000,0000,,Takže se postarejte o obchod, zatímco budu pryč.
+Dialogue: 0,0:01:39.88,0:01:41.89,Main,Te,0000,0000,0000,,Počítám s vámi.
+Dialogue: 0,0:01:43.94,0:01:46.05,Main,Gin,0000,0000,0000,,Je divná.
+Dialogue: 0,0:01:46.05,0:01:48.71,Default,,0,0,0,,{\c&H80ffff&\an8}[orichalcum = bájný kov]
+Dialogue: 0,0:01:46.05,0:01:48.71,Main,Gin,0000,0000,0000,,V době zákazu mečů se\N žene na lov orichalca?
+Dialogue: 0,0:01:49.02,0:01:51.88,Main,Shin,0000,0000,0000,,Ale nezdá se, že by postrádala zákazníky.
+Dialogue: 0,0:01:51.88,0:01:53.59,Main,Shin,0000,0000,0000,,Zajímalo by mě, jací jsou.
+Dialogue: 0,0:01:53.59,0:01:54.96,Main,Gin,0000,0000,0000,,Tak se jukneme...
+Dialogue: 0,0:01:57.21,0:02:00.76,Main,Gin,0000,0000,0000,,Tohle je fakt dobrej meč, ale nemá\N absolutně žádný známky použití.
+Dialogue: 0,0:02:00.76,0:02:04.77,Main,Gin,0000,0000,0000,,Musí ho vlastnit nějakej úředník v bakufu, \Nkterej si ho u pasu nosí jen jako doplněk.
+Dialogue: 0,0:02:05.00,0:02:08.10,Main,Gin,0000,0000,0000,,Tenhle nemá žádnou značku, \Nale už byl několikrát překovávanej.
+Dialogue: 0,0:02:08.76,0:02:11.27,Main,Gin,0000,0000,0000,,Zřejmě ho vlastní nějakej Joi rebel.
+Dialogue: 0,0:02:11.60,0:02:13.15,Main,Kag,0000,0000,0000,,V tom případě, Gin-chane...
+Dialogue: 0,0:02:13.15,0:02:16.53,Main,Kag,0000,0000,0000,,Kdo podle tebe nosil tenhle meč?
+Dialogue: 0,0:02:16.53,0:02:19.28,Main,Gin,0000,0000,0000,,Podle všeho se jedná o meč destrukce,\N kterej našel nějakej voják,
+Dialogue: 0,0:02:19.28,0:02:21.79,Main,Gin,0000,0000,0000,,aniž by věděl o jeho kletbě, takže ho nemohl upustit.
+Dialogue: 0,0:02:21.79,0:02:23.05,Main,Gin,0000,0000,0000,,Tím pádem ho musí navěky držet.
+Dialogue: 0,0:02:23.56,0:02:25.91,Main,Shin,0000,0000,0000,,Přišel s ním i vlastník!
+Dialogue: 0,0:02:25.91,0:02:28.25,Main,Kag,0000,0000,0000,,Co? Není to rukojeť?
+Dialogue: 0,0:02:28.25,0:02:30.54,Main,Shin,0000,0000,0000,,Kdo by sakra používal mrtvolu jako rukojeť?!
+Dialogue: 0,0:02:30.54,0:02:31.35,Main,Shin,0000,0000,0000,,Kdo normání by—
+Dialogue: 0,0:02:31.35,0:02:32.48,Main,H,0000,0000,0000,,Promiňte, že vyrušuji.
+Dialogue: 0,0:02:33.49,0:02:36.42,Main,H,0000,0000,0000,,Dal jsem si sem opravit meč. Už je hotov?
+Dialogue: 0,0:02:37.94,0:02:41.04,Main,Shin,0000,0000,0000,,Ukázal se zákazník z naprosto jinýho světa!
+Dialogue: 0,0:02:38.67,0:02:41.68,Ep Title,Sign,0000,0000,0000,,{\fad(490,1)}Kuj, Dokud Je Železo i Vládce Zla Žhavý
+Dialogue: 0,0:02:41.68,0:02:43.14,Smith,Sign,0000,0000,0000,,Kovář
+Dialogue: 0,0:02:42.27,0:02:43.14,Main,H,0000,0000,0000,,Chápu.
+Dialogue: 0,0:02:43.41,0:02:44.97,Main,H,0000,0000,0000,,Takže Tetsuko-dono je pryč.
+Dialogue: 0,0:02:45.53,0:02:46.79,Main,H,0000,0000,0000,,Promiňte mé opožděné představení.
+Dialogue: 0,0:02:47.33,0:02:51.94,Overlord,H,0000,0000,0000,,{\fad(319,311)}Hrdina Lotosix
+Dialogue: 0,0:02:47.39,0:02:50.89,Main,H,0000,0000,0000,,Jsem hrdina Lotosix z planety Hrdina.
+Dialogue: 0,0:02:51.32,0:02:54.06,Main,H,0000,0000,0000,,Galaktický vládce zla Tiramisu ohrožuje vesmírný mír,
+Dialogue: 0,0:02:54.06,0:02:55.65,Main,H,0000,0000,0000,,tudíž se chystám svrhnout jeho moc.
+Dialogue: 0,0:02:56.15,0:02:57.62,Main,H,0000,0000,0000,,Avšak uprostřed cesty
+Dialogue: 0,0:02:57.62,0:03:01.53,Main,H,0000,0000,0000,,našel náš voják Takeshi zakletou zbraň, \Nkterá ho přivedla do tohoto stavu.
+Dialogue: 0,0:03:02.08,0:03:03.96,Main,Shin,0000,0000,0000,,{\an8}Um, nebylo by místo kováře lepší
+Dialogue: 0,0:03:03.96,0:03:06.49,Main,Shin,0000,0000,0000,,{\an8}navštívit spíš kostel a prolomit kletbu?
+Dialogue: 0,0:03:04.41,0:03:06.49,Box,Sign,0257,0001,0041,,Prolomení kletby\NOživení
+Dialogue: 0,0:03:07.08,0:03:10.74,Main,H,0000,0000,0000,,Meč destrukce je možná prokletá,\Navšak velice mocná zbraň.
+Dialogue: 0,0:03:10.74,0:03:13.74,Main,H,0000,0000,0000,,Chtěl jsem z něj nechat odstranit \Ntu mrtvolu, aby se mohl dál používat.
+Dialogue: 0,0:03:13.74,0:03:16.25,Main,Shin,0000,0000,0000,,{\i1}Tohle{\i0} byl tvůj záměr? \NA to si říkáš hrdina?!
+Dialogue: 0,0:03:16.51,0:03:19.14,Main,Gin,0000,0000,0000,,Ale meč destrukce se dá používat i takhle.
+Dialogue: 0,0:03:19.85,0:03:23.05,Main,Gin,0000,0000,0000,,Těla se zbavit můžete, jenže kletba zůstane.
+Dialogue: 0,0:03:23.75,0:03:26.08,Main,Gin,0000,0000,0000,,Takže kašlete na přímý používání
+Dialogue: 0,0:03:26.08,0:03:27.92,Main,Gin,0000,0000,0000,,a Takeshiho berte jako část výzbroje.
+Dialogue: 0,0:03:27.92,0:03:29.52,Main,Shin,0000,0000,0000,,Takeshi tě prokleje!
+Dialogue: 0,0:03:29.52,0:03:30.48,Main,H,0000,0000,0000,,Chápu!
+Dialogue: 0,0:03:31.04,0:03:33.03,Main,H,0000,0000,0000,,I takto může Takeshi odpočívat v pokoji!
+Dialogue: 0,0:03:36.02,0:03:38.11,Main,Shin,0000,0000,0000,,Momentálně mácháš jen Takeshim!
+Dialogue: 0,0:03:38.11,0:03:41.19,Main,H,0000,0000,0000,,Není divu, že je tato kovárna proslulá po celé galaxii.
+Dialogue: 0,0:03:41.19,0:03:44.20,Main,H,0000,0000,0000,,Prosím, projevte znovu svou nemalou schopnost\Na vyhověte mi i při mé další žádosti.
+Dialogue: 0,0:03:45.11,0:03:47.99,Main,H,0000,0000,0000,,Jediná zbraň schopna porazit Galaktického vládce zla Tiramisu
+Dialogue: 0,0:03:47.99,0:03:50.33,Main,H,0000,0000,0000,,je meč, jenž může tasit jedině hrdina z legendy,
+Dialogue: 0,0:03:51.35,0:03:53.65,Main,H,0000,0000,0000,,Svatý galaktický meč, Cosmos.
+Dialogue: 0,0:03:53.65,0:03:57.35,Main,H,0000,0000,0000,,Jenomže velice dlouhou dobu dřímal,\Ncož ho značně poškodilo.
+Dialogue: 0,0:03:58.41,0:04:00.18,Main,H,0000,0000,0000,,Chtěl bych ho dát překovat.
+Dialogue: 0,0:04:00.18,0:04:01.47,Main,Shin,0000,0000,0000,,Ani jsi ho nevytáhnul!
+Dialogue: 0,0:04:01.86,0:04:03.71,Main,Shin,0000,0000,0000,,Tohle z tebe hrdinu fakt nedělá!
+Dialogue: 0,0:04:03.71,0:04:05.88,Main,Shin,0000,0000,0000,,Meč jsi vyrval spolu s šutrem!
+Dialogue: 0,0:04:05.88,0:04:07.85,Main,H,0000,0000,0000,,Hrozba Tiramisua se rychle blíží.
+Dialogue: 0,0:04:08.31,0:04:10.68,Main,H,0000,0000,0000,,Kvůli nedostatku času jsme \Nho museli vyhrabat bagrem.
+Dialogue: 0,0:04:10.68,0:04:11.64,Main,Shin,0000,0000,0000,,Co seš krucifix za hrdinu?!
+Dialogue: 0,0:04:11.64,0:04:13.77,Main,Shin,0000,0000,0000,,Běž si vládce zla porazit tím bagrem!
+Dialogue: 0,0:04:14.11,0:04:15.51,Main,H,0000,0000,0000,,Závěrečná bitva je za dveřmi.
+Dialogue: 0,0:04:15.51,0:04:16.90,Main,H,0000,0000,0000,,Pospěšte, prosím.
+Dialogue: 0,0:04:16.90,0:04:20.03,Smith2,Sign,0000,0000,0000,,Kovář
+Dialogue: 0,0:04:17.47,0:04:19.90,Main,H,0000,0000,0000,,Zhotovte ho do doby, co si \Nstihnu odpočinout v hostinci.
+Dialogue: 0,0:04:19.90,0:04:20.88,Main,Shin,0000,0000,0000,,Tak moment!
+Dialogue: 0,0:04:20.88,0:04:22.57,Main,Shin,0000,0000,0000,,Vezměte si s sebou Takeshiho!
+Dialogue: 0,0:04:24.17,0:04:25.37,Main,Shin,0000,0000,0000,,Co budem dělat, Gin-sane?
+Dialogue: 0,0:04:25.37,0:04:27.33,Main,Kag,0000,0000,0000,,Osud celýho vesmíru závisí na tomhle.
+Dialogue: 0,0:04:27.33,0:04:28.80,Main,Kag,0000,0000,0000,,Nemůžem se na to vybodnout.
+Dialogue: 0,0:04:28.80,0:04:32.41,Main,Gin,0000,0000,0000,,Pokud to stačí jen vyvlíct z toho šutru, dokážem to i sami.
+Dialogue: 0,0:04:32.41,0:04:35.08,Main,Shin,0000,0000,0000,,Ale tohle je legendární meč, \Nkterej nevyvlíknul ani hrdina.
+Dialogue: 0,0:04:35.86,0:04:37.96,Main,Gin,0000,0000,0000,,No, máme tu legendární sado-maso královny.
+Dialogue: 0,0:04:37.96,0:04:39.34,Main,Shin,0000,0000,0000,,Vyvlíknout, ne vysvlíknout!
+Dialogue: 0,0:04:42.15,0:04:44.64,Main,Shin,0000,0000,0000,,Nehl se ani o cenťák.
+Dialogue: 0,0:04:44.64,0:04:47.43,Main,Kag,0000,0000,0000,,Nepřemýšlejte o tom jako o tahání meče ze skály.
+Dialogue: 0,0:04:47.84,0:04:50.50,Main,Kag,0000,0000,0000,,Stačí odstranit šutr!
+Dialogue: 0,0:04:50.50,0:04:51.89,Main,Shin,0000,0000,0000,,Rozbila to!
+Dialogue: 0,0:04:51.89,0:04:53.92,Main,Shin,0000,0000,0000,,Rozbila legendární meč!
+Dialogue: 0,0:04:54.65,0:04:57.28,Main,Kag,0000,0000,0000,,Takže tohle je legendární kapesní nůž...
+Dialogue: 0,0:04:57.28,0:04:58.31,Main,Shin,0000,0000,0000,,O tom jsem nikdy neslyšel!
+Dialogue: 0,0:04:59.01,0:05:02.43,Main,Kag,0000,0000,0000,,S kapesním nožem by se hrdlo vládce zla řezalo jedna báseň.
+Dialogue: 0,0:05:02.43,0:05:05.03,Main,Shin,0000,0000,0000,,Za Boha jsem neslyšel, že \Nby hrdina překonal vládce zla kapesním nožem!
+Dialogue: 0,0:05:05.46,0:05:06.64,Main,Shin,0000,0000,0000,,Co teď s tím?
+Dialogue: 0,0:05:06.64,0:05:08.78,Main,Shin,0000,0000,0000,,S takovou hrdina proti vládci zla prohraje!
+Dialogue: 0,0:05:08.78,0:05:10.16,Main,O,0000,0000,0000,,Omluvte nás!
+Dialogue: 0,0:05:10.61,0:05:12.66,Main,Shin,0000,0000,0000,,C-Co jste zač?!
+Dialogue: 0,0:05:13.81,0:05:17.44,Main,O,0000,0000,0000,,Vy jste ti tak zvaní nejlepší kováři v galaxii?
+Dialogue: 0,0:05:19.04,0:05:20.52,Main,O,0000,0000,0000,,Ehm, mám tu schůzku.
+Dialogue: 0,0:05:20.52,0:05:22.47,Main,O,0000,0000,0000,,Jsem galaktický vládce zla Tiramisu.
+Dialogue: 0,0:05:20.52,0:05:24.80,Overlord,Sign,0000,0000,0000,,{\fad(300,1)}Galaktický vládce zla Tiramisu
+Dialogue: 0,0:05:22.47,0:05:24.80,Main,O,0000,0000,0000,,Rozbil se mi meč. Mohli byste \Nse na něj kouknout?
+Dialogue: 0,0:05:25.59,0:05:26.47,Main,Shin,0000,0000,0000,,Ty...
+Dialogue: 0,0:05:26.68,0:05:28.34,Main,Shin,0000,0000,0000,,Ty taky?!
+Dialogue: 0,0:05:28.57,0:05:29.80,Main,O,0000,0000,0000,,Věc se má takhle...
+Dialogue: 0,0:05:29.80,0:05:32.73,Main,O,0000,0000,0000,,Plánuji převzít moc nad vesmírem,
+Dialogue: 0,0:05:32.73,0:05:34.93,Main,O,0000,0000,0000,,ale v cestě mi stojí jeden hrdina.
+Dialogue: 0,0:05:35.58,0:05:39.09,Main,O,0000,0000,0000,,Jediná zbraň, jež může pohřbít hrdinu,\N je galaktický meč zla, Machinas,
+Dialogue: 0,0:05:39.09,0:05:41.51,Main,O,0000,0000,0000,,který smí tasit pouze pravý vládce zla.
+Dialogue: 0,0:05:41.51,0:05:44.94,Main,O,0000,0000,0000,,Legendární meč zla se mi podařilo \Ndostat do mých rukou, což je opravdu skvělé,
+Dialogue: 0,0:05:45.48,0:05:49.53,Main,O,0000,0000,0000,,ale celých 10 000 let dřímal a kompletně zrezivěl.
+Dialogue: 0,0:05:49.53,0:05:50.95,Main,Shin,0000,0000,0000,,Kam jsi ho k čertu strkal?
+Dialogue: 0,0:05:49.53,0:05:52.14,peaches,Shin,0000,0000,0000,,Broskve
+Dialogue: 0,0:05:50.95,0:05:52.37,Main,Shin,0000,0000,0000,,Otvíral jsi s ním plechovku?
+Dialogue: 0,0:05:52.37,0:05:55.63,Main,O,0000,0000,0000,,S mečem v takovém stavu nemohu vyzvat hrdinu k duelu.
+Dialogue: 0,0:05:55.63,0:05:57.78,Main,O,0000,0000,0000,,Chci ho dát překovat.
+Dialogue: 0,0:05:57.78,0:05:59.46,Main,O,0000,0000,0000,,Na pomoc
+Dialogue: 0,0:06:00.21,0:06:03.46,Main,O,0000,0000,0000,,{\an8} vám tu nechám jednoho ze svých mužů. Hnilobného Kiyoshiho.
+Dialogue: 0,0:06:01.36,0:06:03.46,Box,Sign,0000,0000,0000,,Hnilobný Kiyoshi se objevil!
+Dialogue: 0,0:06:03.82,0:06:06.48,Main,Sign,0000,0000,0000,,Dokončete ho, dokud Kiyoshi kompletně neshnije.
+Dialogue: 0,0:06:06.48,0:06:07.29,Main,Sign,0000,0000,0000,,Počítám s vámi.
+Dialogue: 0,0:06:07.29,0:06:08.84,Main,Shin,0000,0000,0000,,Bude nám totálně k ničemu!
+Dialogue: 0,0:06:08.84,0:06:10.47,Main,Shin,0000,0000,0000,,Tohle už je moc!
+Dialogue: 0,0:06:11.59,0:06:12.87,Main,Shin,0000,0000,0000,,Nejdřív hrdina
+Dialogue: 0,0:06:12.87,0:06:15.22,Main,Shin,0000,0000,0000,,a teď si u nás chce nechat překovat meč i vládce zla.
+Dialogue: 0,0:06:15.75,0:06:17.35,Main,Shin,0000,0000,0000,,Ty ničíš i tenhle?!
+Dialogue: 0,0:06:17.35,0:06:18.88,Main,Gin,0000,0000,0000,,Si piš.
+Dialogue: 0,0:06:18.88,0:06:21.65,Main,Gin,0000,0000,0000,,Když bude jeden z mečů kratší, \Nvšimnou si, že jsme ho rozbili.
+Dialogue: 0,0:06:22.18,0:06:24.10,Main,Gin,0000,0000,0000,,Ale pokud budou mít stejnou délku,
+Dialogue: 0,0:06:24.10,0:06:26.68,Main,Gin,0000,0000,0000,,budou si myslet, že takhle to chodí \Nv legendách a nechaj to bejt.
+Dialogue: 0,0:06:26.68,0:06:27.35,Main,Shin,0000,0000,0000,,To určitě!
+Dialogue: 0,0:06:27.35,0:06:28.65,Main,Shin,0000,0000,0000,,Co myslíš, že jsou zač? Legendární idioti?!
+Dialogue: 0,0:06:28.65,0:06:32.22,Main,Shin,0000,0000,0000,,Jestli na to přijdou, budou vyžadovat legendární množství kompenzace!
+Dialogue: 0,0:06:32.22,0:06:34.76,Main,Gin,0000,0000,0000,,Hej, není ten hrdinův o něco delší?
+Dialogue: 0,0:06:34.76,0:06:37.65,Main,Kag,0000,0000,0000,,Měli bysme hrdinovi zajistit výhodu.
+Dialogue: 0,0:06:37.65,0:06:40.86,Main,Gin,0000,0000,0000,,Blbko! Kováři jsou nestranný!
+Dialogue: 0,0:06:40.86,0:06:43.58,Main,Gin,0000,0000,0000,,Kovář veškerou svou sílu \Nzaměřuje jen na kov, co má před sebou!
+Dialogue: 0,0:06:43.58,0:06:46.13,Main,Shin,0000,0000,0000,,Že to říká zrovna někdo, \Nkdo svou veškerou silou ničí meče.
+Dialogue: 0,0:06:46.13,0:06:48.38,Main,Gin,0000,0000,0000,,Krapet uber tomu hrdinově meči.
+Dialogue: 0,0:06:50.26,0:06:51.04,Main,Kag,0000,0000,0000,,He?
+Dialogue: 0,0:06:51.04,0:06:53.24,Main,Kag,0000,0000,0000,,Teď je delší ten vládce zla.
+Dialogue: 0,0:06:55.01,0:06:56.18,Main,Gin,0000,0000,0000,,Zase je delší hrdinův.
+Dialogue: 0,0:06:58.05,0:06:59.51,Main,Kag,0000,0000,0000,,Teď zas vládcův.
+Dialogue: 0,0:07:00.90,0:07:02.70,Main,Gin,0000,0000,0000,,Je to těžší, než jsem předpokládal.
+Dialogue: 0,0:07:05.83,0:07:06.73,Main,Gin,0000,0000,0000,,Tak toto jsou...
+Dialogue: 0,0:07:07.30,0:07:09.11,Main,Bo,0000,0000,0000,,...legendární světelný meče!
+Dialogue: 0,0:07:09.11,0:07:10.36,Main,Shin,0000,0000,0000,,Tohle vám nikdo nesežere!
+Dialogue: 0,0:07:10.61,0:07:13.41,Main,Shin,0000,0000,0000,,To už byly užitečnější, když byly zaseklý \Nv šutru nebo plechovce!
+Dialogue: 0,0:07:13.90,0:07:14.97,Main,Gin,0000,0000,0000,,To je nápad!
+Dialogue: 0,0:07:14.97,0:07:17.29,Main,Gin,0000,0000,0000,,Zase je do něčeho vrazíme a \Nzakryjem jejich délku.
+Dialogue: 0,0:07:20.03,0:07:23.54,Main,Gin,0000,0000,0000,,Nakecáme jim, že když jsme je dostali ven z šutru a\Nplechovky, byly už zapíchlý v hrdinovi a vládci zla.
+Dialogue: 0,0:07:23.54,0:07:25.25,Main,Shin,0000,0000,0000,,To je Takeshi a Kiyoshi!
+Dialogue: 0,0:07:25.25,0:07:25.99,Main,Kag,0000,0000,0000,,Fajn.
+Dialogue: 0,0:07:25.99,0:07:28.08,Main,Kag,0000,0000,0000,,Dáme mrtvolu vládce zla hrdinovi
+Dialogue: 0,0:07:28.08,0:07:31.27,Main,Kag,0000,0000,0000,,a hrdinovu mrtvolu vládci zla a všechno bude v cajku.
+Dialogue: 0,0:07:31.27,0:07:33.54,Main,Gin,0000,0000,0000,,Ale máme jeden problém.
+Dialogue: 0,0:07:35.46,0:07:37.79,Main,Gin,0000,0000,0000,,Máme tu meč jak hrdiny, tak i vládce,
+Dialogue: 0,0:07:37.79,0:07:39.64,Main,Gin,0000,0000,0000,,ale kterej byl čí?
+Dialogue: 0,0:07:39.93,0:07:41.94,Main,H,0000,0000,0000,,Kolikrát to mám ještě opakovat, idioti?!
+Dialogue: 0,0:07:41.94,0:07:45.69,Box2,Sign,0000,0000,0000,,Hrdina se objevil! \NKouzelník se objevil! \NBojovník se objevil!
+Dialogue: 0,0:07:42.49,0:07:45.26,Main,H,0000,0000,0000,,{\an8}Nechoďte v řadě! Padejte na strany!
+Dialogue: 0,0:07:46.41,0:07:48.50,Main,G,0000,0000,0000,,Od doby, co se vyzbrojil legendárním mečem,
+Dialogue: 0,0:07:48.50,0:07:51.40,Main,G,0000,0000,0000,,se v něm probudila obrovská agresivita. Je jako vyměněný.
+Dialogue: 0,0:07:51.89,0:07:53.89,Main,G,0000,0000,0000,,Jeho dech páchne rozkladem
+Dialogue: 0,0:07:53.89,0:07:56.03,Main,G,0000,0000,0000,,a každou chvíli vyzařuje ledové vlny.
+Dialogue: 0,0:07:56.35,0:07:59.16,Main,O,0000,0000,0000,,Kolikrát se budu muset opakovat?!
+Dialogue: 0,0:07:59.16,0:08:00.85,Main,O,0000,0000,0000,,Choďte v řadě!
+Dialogue: 0,0:08:00.85,0:08:03.25,Main,O,0000,0000,0000,,Každý, kdo vystoupí z lajny, potáhne do vozíku!
+Dialogue: 0,0:08:03.75,0:08:06.75,Main,G,0000,0000,0000,,Všechno je jinak od chvíle, co vzal do ruky ten meč.
+Dialogue: 0,0:08:07.35,0:08:10.01,Main,G,0000,0000,0000,,Dokonce nás začal nazývat svým týmem,
+Dialogue: 0,0:08:10.47,0:08:12.79,Main,G,0000,0000,0000,,a bez povolení otvírá cizí truhly.
+Dialogue: 0,0:08:13.43,0:08:15.22,Smith,Sign,0000,0000,0000,,Kovář
+Dialogue: 0,0:08:13.43,0:08:15.56,Main,Shin,0000,0000,0000,,Vyměnili se!
+Dialogue: 0,0:08:15.56,0:08:17.53,Main,Shin,0000,0000,0000,,Hned to musíme napravit!
+Dialogue: 0,0:08:17.53,0:08:19.44,Main,Kag,0000,0000,0000,,Záleží na tom vůbec?
+Dialogue: 0,0:08:19.44,0:08:21.56,Main,Kag,0000,0000,0000,,Hrdinové a vládci zla od sebe ani tak daleko nemaj.
+Dialogue: 0,0:08:21.56,0:08:23.58,Main,Gin,0000,0000,0000,,Je to přesně jako na konci lidského života,
+Dialogue: 0,0:08:23.58,0:08:27.32,Main,Gin,0000,0000,0000,,nedovedeš určit, jestli jsou \Ndědové s babičkama muži, nebo ženy.
+Dialogue: 0,0:08:27.32,0:08:29.05,Main,Shin,0000,0000,0000,,To s tím nemá nic společnýho!
+Dialogue: 0,0:08:29.05,0:08:32.23,Main,Shin,0000,0000,0000,,V každém případě bysme měli vrátit meče jejich původním vlastníkům.
+Dialogue: 0,0:08:32.71,0:08:34.22,Main,Gin,0000,0000,0000,,Ne, že by mi to nějak vadilo,
+Dialogue: 0,0:08:34.22,0:08:38.49,Main,Gin,0000,0000,0000,,ale na čí straně byli Takeshi a Kiyoshi?
+Dialogue: 0,0:08:38.90,0:08:40.33,Main,Ki,0000,0000,0000,,Hej, hrdino.
+Dialogue: 0,0:08:41.88,0:08:43.76,Main,Ki,0000,0000,0000,,Táhni do vozíku.
+Dialogue: 0,0:08:43.76,0:08:46.45,Main,Ki,0000,0000,0000,,Zapomněl jsi, že tvou prací je porazit vládce zla.
+Dialogue: 0,0:08:46.45,0:08:48.49,Main,Ki,0000,0000,0000,,Nemáš žádné právo vést tým!
+Dialogue: 0,0:08:48.49,0:08:49.09,Main,Ki,0000,0000,0000,,Ztrať se!
+Dialogue: 0,0:08:50.18,0:08:51.75,Main,W,0000,0000,0000,,Náš skvělý hrdina Kiyoshi-sama!
+Dialogue: 0,0:08:51.75,0:08:53.50,Main,Ki,0000,0000,0000,,Nejsem hrdina.
+Dialogue: 0,0:08:54.30,0:08:56.15,Main,Ki,0000,0000,0000,,V minulosti jsem byl poražen vládcem zla.
+Dialogue: 0,0:08:56.15,0:08:58.28,Main,Ki,0000,0000,0000,,Bylo se mnou manipulováno, ale nemohl jsem zemřít.
+Dialogue: 0,0:08:58.28,0:08:59.65,Main,Ki,0000,0000,0000,,Nejsem víc než špinavá loutka!
+Dialogue: 0,0:09:00.12,0:09:01.93,Main,Ki,0000,0000,0000,,Nic víc než hnilobný Kiyoshi.
+Dialogue: 0,0:09:02.68,0:09:06.98,Main,Ki,0000,0000,0000,,Ale nyní, když jsem se díky svatému \Nmeči znovu zrodil, plně rozumím.
+Dialogue: 0,0:09:07.37,0:09:10.11,Main,Ki,0000,0000,0000,,To, co je doopravdy špinavé a prohnilé,
+Dialogue: 0,0:09:10.43,0:09:13.15,Main,Ki,0000,0000,0000,,je tvé srdce, vládče zla!
+Dialogue: 0,0:09:14.82,0:09:16.72,Main,Ta,0000,0000,0000,,Co se děje, Tiramisu?
+Dialogue: 0,0:09:16.72,0:09:17.53,Main,O,0000,0000,0000,,Nic...
+Dialogue: 0,0:09:18.22,0:09:19.78,Main,Ta,0000,0000,0000,,Bolí tě jizvy?
+Dialogue: 0,0:09:20.35,0:09:21.56,Main,Ta,0000,0000,0000,,Mě také.
+Dialogue: 0,0:09:21.56,0:09:23.33,Main,Ta,0000,0000,0000,,Kletba skrytá uvnitř mě
+Dialogue: 0,0:09:23.33,0:09:25.50,Main,Ta,0000,0000,0000,,a tento meč destrukce hladoví po krvi hrdiny,
+Dialogue: 0,0:09:25.93,0:09:32.50,Main,Ta,0000,0000,0000,, jenž mě nechal skonat, protože byl příliš \Nlakomý na zaplacení církevního poplatku.
+Dialogue: 0,0:09:32.50,0:09:34.22,Main,Ta,0000,0000,0000,,Konečný souboj se blíží.
+Dialogue: 0,0:09:34.22,0:09:35.98,Main,Ta,0000,0000,0000,,Hlavně, aby byly tvé zbraně v kondici.
+Dialogue: 0,0:09:35.98,0:09:38.36,Main,O,0000,0000,0000,,Jistě, mocný vládče Takeshi-sama!
+Dialogue: 0,0:09:39.19,0:09:40.63,Main,Ki,0000,0000,0000,,Vrátil jsem se.
+Dialogue: 0,0:09:39.19,0:09:40.63,Main,Ta,0000,0000,0000,,Vrátil jsem se.
+Dialogue: 0,0:09:40.63,0:09:42.06,Main,Shin,0000,0000,0000,,Co jste zač?!
+Dialogue: 0,0:09:42.06,0:09:45.44,Main,Shin,0000,0000,0000,,Legendární meče oživily něco nepřijatelnýho!
+Dialogue: 0,0:09:45.44,0:09:47.61,Main,Gin,0000,0000,0000,,Takže, kterej je Takeshi a kterej Kiyoshi?
+Dialogue: 0,0:09:47.61,0:09:48.56,Main,Shin,0000,0000,0000,,Záleží na tom?!
+Dialogue: 0,0:09:49.16,0:09:51.41,Main,Gin,0000,0000,0000,,Nejsou nějak větší, co jsme je neviděli?
+Dialogue: 0,0:09:51.41,0:09:53.65,Main,Kag,0000,0000,0000,,Tenhle je o něco delší.
+Dialogue: 0,0:09:53.65,0:09:54.65,Main,Kag,0000,0000,0000,,Není to fér.
+Dialogue: 0,0:09:57.07,0:09:57.81,Main,Gin,0000,0000,0000,,Špatně.
+Dialogue: 0,0:09:57.81,0:09:59.63,Main,Gin,0000,0000,0000,,Teď je větší tenhle.
+Dialogue: 0,0:10:00.83,0:10:02.05,Main,Shin,0000,0000,0000,,Počkej, Gin-sane...
+Dialogue: 0,0:10:02.05,0:10:04.05,Main,Kag,0000,0000,0000,,Teď je zas větší tenhle.
+Dialogue: 0,0:10:08.19,0:10:09.04,Main,Gin,0000,0000,0000,,Tak tohle jsou...
+Dialogue: 0,0:10:09.53,0:10:11.45,Main,Bo,0000,0000,0000,,... legendární světelný meče!
+Dialogue: 0,0:10:11.45,0:10:13.30,Main,Shin,0000,0000,0000,,A jsme zas na začátku!
+Dialogue: 0,0:10:13.30,0:10:16.73,Main,Shin,0000,0000,0000,,To musíte pokaždý kout do doby, co zmizí celá čepel?!
+Dialogue: 0,0:10:16.73,0:10:17.84,Main,Gin,0000,0000,0000,,Přece jsem říkal,
+Dialogue: 0,0:10:17.84,0:10:20.02,Main,Gin,0000,0000,0000,,že se kovář soustředí pouze na \Nkutí kovu celou svou silou.
+Dialogue: 0,0:10:20.02,0:10:20.96,Main,Shin,0000,0000,0000,,Jo, už rozumím.
+Dialogue: 0,0:10:20.96,0:10:22.49,Main,Shin,0000,0000,0000,,Vy dva kovářema prostě bejt nesmíte!
+Dialogue: 0,0:10:22.49,0:10:24.92,Main,Te,0000,0000,0000,,Ne, možná by vám to překvapivě dobře sedlo.
+Dialogue: 0,0:10:25.70,0:10:27.04,Main,Shin,0000,0000,0000,,Tetsuko-san!
+Dialogue: 0,0:10:27.04,0:10:28.44,Main,Shin,0000,0000,0000,,Dík, že jste dohlídli na obchod.
+Dialogue: 0,0:10:28.90,0:10:32.23,Main,Shin,0000,0000,0000,,Naneštěstí jsem nenašla ani kouska legendárního kovu,
+Dialogue: 0,0:10:32.79,0:10:35.11,Main,Shin,0000,0000,0000,,ale díky vám jsem nalezla něco ještě lepšího.
+Dialogue: 0,0:10:37.13,0:10:40.23,Main,Shin,0000,0000,0000,,Tyto meče byly stvořeny, aby se předešlo konfliktu.
+Dialogue: 0,0:10:40.23,0:10:42.32,Main,Shin,0000,0000,0000,,Nevyhnutelně se jedná o legendární meče.
+Dialogue: 0,0:10:42.78,0:10:44.57,Main,Shin,0000,0000,0000,,Zkuste jim je dát.
+Dialogue: 0,0:10:45.27,0:10:47.80,Main,Shin,0000,0000,0000,,Jsem si jístá, že je dostihnou city.
+Dialogue: 0,0:10:52.10,0:10:55.48,Main,O,0000,0000,0000,,Nyní není čas mezi sebou bojovat.
+Dialogue: 0,0:10:55.48,0:10:56.21,Main,H,0000,0000,0000,,Ano.
+Dialogue: 0,0:10:56.75,0:10:59.72,Main,H,0000,0000,0000,,Máme důležitější věci na práci.
+Dialogue: 0,0:11:00.68,0:11:03.40,Main,O,0000,0000,0000,,{\an8}Změna plánu, muži!
+Dialogue: 0,0:11:03.24,0:11:05.24,Box3,Sign,0000,0000,0000,,Boj            Přepnout \N\N\N\NÚtěk           Taktiky
+Dialogue: 0,0:11:03.40,0:11:06.22,Main,H,0000,0000,0000,,{\an8}Hrdinův tým a armáda vládce zla budou spolupracovat,
+Dialogue: 0,0:11:05.24,0:11:08.98,Box4,Sign,0244,0001,0030,,Nešetřit je \NŠetřit Je\NJít Naplno\NDát Rotkaz
+Dialogue: 0,0:11:06.22,0:11:08.98,Main,H,0000,0000,0000,,{\an8}aby nabyli své kompenzace!
+Dialogue: 0,0:11:09.62,0:11:11.48,Box3,Sign,0000,0000,0000,,Boj            Přepnout \N\N\N\NÚtěk           Taktiky
+Dialogue: 0,0:11:14.18,0:11:16.73,Internal,Te,0000,0000,0000,,Tenhle konflikt je ale asi výjimkou.
+Dialogue: 0,0:11:31.83,0:11:33.20,Main,Ta,0000,0000,0000,,Promiňte.
+Dialogue: 0,0:11:33.20,0:11:37.34,Main,Ta,0000,0000,0000,,Vadilo by, kdybych se s vámi v tomto dešti skryla pod střechu?
+Dialogue: 0,0:11:37.88,0:11:40.01,Main,Ta,0000,0000,0000,,Oba to máme těžké, že?
+Dialogue: 0,0:11:40.01,0:11:42.97,Main,Ta,0000,0000,0000,,Vlhkost je přirozený nepřítel nás, strojů.
+Dialogue: 0,0:11:43.55,0:11:47.31,Main,Ta,0000,0000,0000,,Kdyby jen pršel olej,
+Dialogue: 0,0:11:47.31,0:11:49.98,Main,Ta,0000,0000,0000,,i my bychom mohli být volní.
+Dialogue: 0,0:11:51.32,0:11:53.20,Main,Ta,0000,0000,0000,,Oh, zdá se, že přestalo.
+Dialogue: 0,0:11:54.17,0:11:55.98,Main,Ta,0000,0000,0000,,V tom případě odcházím.
+Dialogue: 0,0:11:56.52,0:11:59.51,Main,Ta,0000,0000,0000,,Oba při své práci dělejme, co zmůžeme.
+Dialogue: 0,0:12:02.45,0:12:05.45,Ep Title,Title,0000,0000,0000,,Olejový Déšť
+Dialogue: 0,0:12:05.45,0:12:06.95,Cigarettes,Sign,0000,0000,0000,,Cigarety
+Dialogue: 0,0:12:05.86,0:12:06.95,Main,Tam,0000,0000,0000,,Promiňte.
+Dialogue: 0,0:12:07.32,0:12:09.32,Main,Tam,0000,0000,0000,,Prosila bych jednu krabičku Seiten cigaret.
+Dialogue: 0,0:12:10.85,0:12:11.87,Main,BB,0000,0000,0000,,Tamo-chan?
+Dialogue: 0,0:12:12.23,0:12:15.48,Main,BB,0000,0000,0000,,Dnes tady nejspíš nakupuješ naposledy.
+Dialogue: 0,0:12:15.48,0:12:19.65,Main,BB,0000,0000,0000,,Využij té šance a řekni \NTose, ať sekne s kouřením.
+Dialogue: 0,0:12:19.65,0:12:23.21,Main,Tam,0000,0000,0000,,Takže vy zavíráte obchod?
+Dialogue: 0,0:12:23.21,0:12:27.55,Main,BB,0000,0000,0000,,Nikdy by mě nenapadlo, že mě přežije ta kouřová čarodějnice.
+Dialogue: 0,0:12:28.03,0:12:32.29,Main,Tam,0000,0000,0000,,Otose-sama říká, že počká na vaše uzdravení.
+Dialogue: 0,0:12:32.29,0:12:35.44,Main,Tam,0000,0000,0000,,Bez vašeho obchůdku a bez Seiten by byla velice smutná.
+Dialogue: 0,0:12:35.44,0:12:38.30,Main,Tam,0000,0000,0000,,Počká na vás, i kdybyste se měla vrátit jako automat.
+Dialogue: 0,0:12:39.00,0:12:40.53,Main,BB,0000,0000,0000,,I kdybych tento omšelý obchod znova otevřela,
+Dialogue: 0,0:12:40.53,0:12:44.78,Main,BB,0000,0000,0000,,moji jediní zákazníci by byly staré čarodějnice.
+Dialogue: 0,0:12:44.99,0:12:47.98,Main,BB,0000,0000,0000,,Já i můj partner jsme oba příliš staří.
+Dialogue: 0,0:12:47.98,0:12:50.12,Main,BB,0000,0000,0000,,Je nejvyšší čas skončit.
+Dialogue: 0,0:12:50.12,0:12:51.04,Main,Tam,0000,0000,0000,,Partner?
+Dialogue: 0,0:12:51.29,0:12:52.36,Main,BB,0000,0000,0000,,Jo.
+Dialogue: 0,0:12:52.36,0:12:54.40,Main,BB,0000,0000,0000,,Ta kopa šrotu se mnou léta pracovala
+Dialogue: 0,0:12:54.40,0:12:57.04,Main,BB,0000,0000,0000,,a skončila ještě hůř než já.
+Dialogue: 0,0:12:57.27,0:13:00.09,Main,BB,0000,0000,0000,,Teď je to jen hromada kovu, \Nkterá se pod střechou ukrývá před deštěm.
+Dialogue: 0,0:13:00.35,0:13:01.64,Main,Hij,0000,0000,0000,,Hej, Babi.
+Dialogue: 0,0:13:01.64,0:13:04.81,Main,Hij,0000,0000,0000,,Vrazil jsem tam prachy, ale nedostal jsem \Nžádný cigarety ani peníze nazpátek.
+Dialogue: 0,0:13:04.81,0:13:05.63,Main,Hij,0000,0000,0000,,Co s tim je?
+Dialogue: 0,0:13:05.63,0:13:07.30,Main,BB,0000,0000,0000,,Kolikrát ti to mám ještě opakovat?
+Dialogue: 0,0:13:07.30,0:13:09.43,Main,BB,0000,0000,0000,,Ten stroj neumí počítat,
+Dialogue: 0,0:13:09.43,0:13:11.61,Main,BB,0000,0000,0000,,takže mu musíš dát přesně!
+Dialogue: 0,0:13:11.61,0:13:14.37,Main,Hij,0000,0000,0000,,Jak je možný, že automat neumí počítat?
+Dialogue: 0,0:13:14.37,0:13:16.14,Main,BB,0000,0000,0000,,Tam ne! Semhle!
+Dialogue: 0,0:13:17.09,0:13:18.22,Main,Hij,0000,0000,0000,,Oh, něco vylezlo.
+Dialogue: 0,0:13:19.45,0:13:21.11,Main,Hij,0000,0000,0000,,Není tohle moje?
+Dialogue: 0,0:13:22.69,0:13:23.91,Main,Hij,0000,0000,0000,,No to brzdi!
+Dialogue: 0,0:13:23.91,0:13:26.15,Main,Hij,0000,0000,0000,,Proč mi automat hulí moje cigára?!
+Dialogue: 0,0:13:26.43,0:13:29.65,Main,BB,0000,0000,0000,,Nejspíš se kvůli tobě cítí mizerě, \Nkdyž jsi ho kopl do špatného místa.
+Dialogue: 0,0:13:29.65,0:13:31.48,Main,Hij,0000,0000,0000,,Automat přece nemůže trucovat!
+Dialogue: 0,0:13:31.48,0:13:33.31,Main,Hij,0000,0000,0000,,Naval mi moje cigára a prachy!
+Dialogue: 0,0:13:33.31,0:13:35.78,Main,BB,0000,0000,0000,,Opovaž se mu dát nějaký prachy nazpátek, kupo šrotu!
+Dialogue: 0,0:13:35.78,0:13:37.92,Main,Hij,0000,0000,0000,,Takže vy jste se proti mně spikli, nemám pravdu?!
+Dialogue: 0,0:13:37.92,0:13:39.59,Main,Tam,0000,0000,0000,,Prosím, přestaňte se chovat násilnicky.
+Dialogue: 0,0:13:42.25,0:13:44.41,Main,Tam,0000,0000,0000,,Žádný stroj není kupa šrotu.
+Dialogue: 0,0:13:45.11,0:13:48.76,Main,Tam,0000,0000,0000,,Jeho tělo už nestačí jeho srdci, toť vše.
+Dialogue: 0,0:13:49.23,0:13:50.68,Main,Tam,0000,0000,0000,,Vše je v pořádku.
+Dialogue: 0,0:13:50.68,0:13:52.68,Main,Tam,0000,0000,0000,,Dnes to ze sebe můžete dostat.
+Dialogue: 0,0:13:53.01,0:13:55.16,Main,Tam,0000,0000,0000,,Vyslechnu vás.
+Dialogue: 0,0:13:57.48,0:14:00.34,Main,BB,0000,0000,0000,,Dostalo to ze sebe něco jiného!
+Dialogue: 0,0:14:00.34,0:14:02.49,Main,Tam,0000,0000,0000,,Zdá se, že to bude kocovina.
+Dialogue: 0,0:14:02.49,0:14:05.40,Main,BB,0000,0000,0000,,V jakým automatě sehnal ten alkohol?!
+Dialogue: 0,0:14:05.64,0:14:07.62,Main,Hij,0000,0000,0000,,Takže když chce, pořád může konat svou práci.
+Dialogue: 0,0:14:07.62,0:14:10.47,Main,Hij,0000,0000,0000,,Teď si nebudu muset nějakej čas kupovat cigarety.
+Dialogue: 0,0:14:10.47,0:14:12.27,Main,BB,0000,0000,0000,,Zloději!
+Dialogue: 0,0:14:12.27,0:14:14.07,Main,BB,0000,0000,0000,,Zavolejte někdo policii!
+Dialogue: 0,0:14:14.07,0:14:16.25,Main,Hij,0000,0000,0000,,Já jsem policie. Potřebuješ něco?
+Dialogue: 0,0:14:20.25,0:14:22.54,Cigarettes Small,Sign,0000,0000,0000,,Cigarety
+Dialogue: 0,0:14:26.25,0:14:26.80,Main,Tam,0000,0000,0000,,He?
+Dialogue: 0,0:14:27.41,0:14:30.31,Main,Tam,0000,0000,0000,,Najednou mi nejde rozevřít deštník.
+Dialogue: 0,0:14:30.31,0:14:31.38,Main,Tam,0000,0000,0000,,Co mám dělat?
+Dialogue: 0,0:14:31.38,0:14:33.47,Main,Tam,0000,0000,0000,,Všechny ingredience se promočí.
+Dialogue: 0,0:14:34.20,0:14:34.81,Main,Tam,0000,0000,0000,,Promiňte.
+Dialogue: 0,0:14:35.29,0:14:38.48,Main,Tam,0000,0000,0000,,Vadilo by, kdybych se s vámi v\Ntomto dešti skryla pod střechu?
+Dialogue: 0,0:14:39.70,0:14:43.78,Main,Tam,0000,0000,0000,,Nepočítá se to jako ulívání z práce, že?
+Dialogue: 0,0:14:48.07,0:14:52.93,Note,Sign,0000,0000,0000,,{\fad(1,705)}Z osobních důvodů \Nbudeme mít nějaký čas zavřeno. \N- Majitelka
+Dialogue: 0,0:14:48.63,0:14:49.71,Main,Tam,0000,0000,0000,,Nemějte obavy.
+Dialogue: 0,0:14:49.71,0:14:52.38,Main,Tam,0000,0000,0000,,Určitě se co nevidět uzdraví.
+Dialogue: 0,0:14:52.93,0:14:56.20,Main,Tam,0000,0000,0000,,Tak si prosím nemyslete, že jste opuštěný.
+Dialogue: 0,0:14:56.20,0:14:58.77,Main,Tam,0000,0000,0000,,Nejste kupa šrotu.
+Dialogue: 0,0:15:00.14,0:15:01.75,Main,Tam,0000,0000,0000,,Konec konců
+Dialogue: 0,0:15:03.27,0:15:06.67,Main,Tam,0000,0000,0000,,tu máte zákaznáka, který vás potřebuje.
+Dialogue: 0,0:15:08.05,0:15:12.35,Main,Tam,0000,0000,0000,,Ale celá hromada za 500 yenů je přespříliš štědrá.
+Dialogue: 0,0:15:13.09,0:15:15.22,Main,Tam,0000,0000,0000,,Pro příště prodávejte jen po jedné krabičce.
+Dialogue: 0,0:15:15.81,0:15:19.17,Main,Tam,0000,0000,0000,,Takto budu moci přijít každý den.
+Dialogue: 0,0:15:22.79,0:15:25.22,Main,Tam,0000,0000,0000,,Vy pláčete?
+Dialogue: 0,0:15:28.90,0:15:31.99,Main,Tam,0000,0000,0000,,Oba při své práci dělejme, co zmůžeme.
+Dialogue: 0,0:15:31.99,0:15:33.74,Snack,Sign,0000,0000,0000,,Bar Otose
+Dialogue: 0,0:15:33.19,0:15:33.74,Main,Gin,0000,0000,0000,,He?
+Dialogue: 0,0:15:34.23,0:15:36.24,Main,Gin,0000,0000,0000,,Tama má kluka?
+Dialogue: 0,0:15:36.75,0:15:38.18,Main,Gin,0000,0000,0000,,Kluk...
+Dialogue: 0,0:15:38.18,0:15:40.98,Main,Gin,0000,0000,0000,,Počkej, stroje můžou mít pohlaví?
+Dialogue: 0,0:15:41.75,0:15:44.35,Main,Oto,0000,0000,0000,,Vy chlapi jste opravdu zabedněnci.
+Dialogue: 0,0:15:44.35,0:15:47.06,Main,Oto,0000,0000,0000,,Oči nás žen se nikdy nemýlí.
+Dialogue: 0,0:15:47.06,0:15:48.57,Main,Gin,0000,0000,0000,,Ženy...
+Dialogue: 0,0:15:48.57,0:15:51.01,Main,Gin,0000,0000,0000,,Počkat, i starý čarodějnice mají pohlaví?
+Dialogue: 0,0:15:53.45,0:15:55.76,Main,Oto,0000,0000,0000,,Pokaždé, co jí v poslední době pošlu pro cigarety,
+Dialogue: 0,0:15:56.13,0:15:58.10,Main,Oto,0000,0000,0000,,se domů vrátí pozdě.
+Dialogue: 0,0:15:58.60,0:16:00.54,Main,Oto,0000,0000,0000,,Dokonce se špatnou značkou.
+Dialogue: 0,0:16:00.54,0:16:01.57,Main,Oto,0000,0000,0000,,A taky...
+Dialogue: 0,0:16:01.45,0:16:02.52,Book,Sign,0000,0000,0000,,Jak mluvit k tichým lidem
+Dialogue: 0,0:16:03.03,0:16:06.40,Main,Oto,0000,0000,0000,,Když má čas, vstřebává nějaká podivná data.
+Dialogue: 0,0:16:06.40,0:16:08.32,Main,Gin,0000,0000,0000,,Jen si oprašuje zákaznickej servis.
+Dialogue: 0,0:16:08.32,0:16:10.54,Main,Gin,0000,0000,0000,,Moc nad tím přemýšlíš.
+Dialogue: 0,0:16:10.54,0:16:13.85,Main,Oto,0000,0000,0000,,Jen mám obavy, že si \Nvybrala někoho nesprávného.
+Dialogue: 0,0:16:13.85,0:16:15.99,Main,Oto,0000,0000,0000,, \NA mimoto, nemyslíš si, že je divné,
+Dialogue: 0,0:16:15.99,0:16:19.33,Main,Oto,0000,0000,0000,,že si někdo tak opatrný jako ona zapomene doma svůj deštník?
+Dialogue: 0,0:16:20.55,0:16:21.79,Main,Gin,0000,0000,0000,,Co já vím.
+Dialogue: 0,0:16:22.50,0:16:25.82,Main,Gin,0000,0000,0000,,Nejspíš si před deštěm zalízá někam pod střechu.
+Dialogue: 0,0:16:29.48,0:16:31.53,Main,G,0000,0000,0000,,Cože? Zavřeno?
+Dialogue: 0,0:16:31.53,0:16:34.34,Main,G,0000,0000,0000,,No, asi budu nejspíš muset použít ten šmejdskej automat.
+Dialogue: 0,0:16:37.17,0:16:39.39,Main,Tam,0000,0000,0000,,Jedna krabička cigaret. 90 yenů nazpět.
+Dialogue: 0,0:16:41.18,0:16:43.89,Main,G,0000,0000,0000,,To je divný. Ono to funguje!
+Dialogue: 0,0:16:43.89,0:16:45.69,Cigarettes2,Sign,0000,0000,0000,,Cigarety
+Dialogue: 0,0:16:49.88,0:16:52.82,Main,Tam,0000,0000,0000,,Dvě krabičky cigaret. 180 yenů nazpět.
+Dialogue: 0,0:16:54.57,0:16:57.26,Main,Has,0000,0000,0000,,Konečně se mi podařilo dát \Ndohromady několik drobáků...
+Dialogue: 0,0:16:57.26,0:16:58.69,Main,Tam,0000,0000,0000,,Jeden vajgl.
+Dialogue: 0,0:16:59.36,0:17:01.05,Main,Hij,0000,0000,0000,,Jestlipak budu mít zase štěstí.
+Dialogue: 0,0:17:01.05,0:17:02.02,Main,Tam,0000,0000,0000,,Jeden bod.
+Dialogue: 0,0:17:02.50,0:17:04.45,Main,Has,0000,0000,0000,,Proč se k nám chováte naspravedlivě?!
+Dialogue: 0,0:17:04.45,0:17:06.89,Main,Hij,0000,0000,0000,,Nenašeptávej mu tam ty podivný příkazy!
+Dialogue: 0,0:17:06.89,0:17:08.21,Main,Tam,0000,0000,0000,,O čem to mluvíte?
+Dialogue: 0,0:17:08.21,0:17:10.50,Main,Tam,0000,0000,0000,,Já se jen skrývám před deštěm.
+Dialogue: 0,0:17:11.30,0:17:13.00,Main,Bo,0000,0000,0000,,Za tohle zaplatíš!
+Dialogue: 0,0:17:14.76,0:17:16.63,Main,G,0000,0000,0000,,Takhle to je vždycky.
+Dialogue: 0,0:17:17.09,0:17:20.45,Main,G,0000,0000,0000,,V dešti si dojde bez deštníku koupit cigarety,
+Dialogue: 0,0:17:20.45,0:17:22.82,Main,G,0000,0000,0000,,stoupne si vedle automatu a začne k němu mluvit.
+Dialogue: 0,0:17:23.32,0:17:25.88,Main,G,0000,0000,0000,,Dokonce tomu dala přezdívku "Tobako-san."
+Dialogue: 0,0:17:26.97,0:17:28.61,Main,Gin,0000,0000,0000,,Tobako, hm?
+Dialogue: 0,0:17:29.23,0:17:31.45,Main,Gin,0000,0000,0000,,Dík, moc jste mi pomohl.
+Dialogue: 0,0:17:31.45,0:17:32.48,Main,G,0000,0000,0000,,Zadržte, šéfe!
+Dialogue: 0,0:17:32.82,0:17:34.39,Main,G,0000,0000,0000,,Co se vlastně děje?
+Dialogue: 0,0:17:35.48,0:17:36.74,Main,Gin,0000,0000,0000,,Není to jasný?
+Dialogue: 0,0:17:37.70,0:17:39.25,Main,Gin,0000,0000,0000,,Jsou jen kámoši.
+Dialogue: 0,0:17:44.04,0:17:46.73,Main,Tam,0000,0000,0000,,Oh, přestalo pršet.
+Dialogue: 0,0:17:46.73,0:17:49.35,Main,Tam,0000,0000,0000,,V tom případě musím jít.
+Dialogue: 0,0:17:54.78,0:17:55.84,Main,Tam,0000,0000,0000,,Tobako-san?
+Dialogue: 0,0:17:56.58,0:17:58.04,Main,Tam,0000,0000,0000,,Nebojte.
+Dialogue: 0,0:17:58.04,0:18:02.28,Main,Tam,0000,0000,0000,,Zítra se sem znovu vrátím pro cigarety.
+Dialogue: 0,0:18:02.28,0:18:02.97,Main,Tam,0000,0000,0000,,Ne...
+Dialogue: 0,0:18:04.12,0:18:06.68,Main,Tam,0000,0000,0000,,Cigarety necigarety, vrátím se,
+Dialogue: 0,0:18:06.68,0:18:07.77,Main,Tam,0000,0000,0000,,abych se ukryla před deštěm.
+Dialogue: 0,0:18:14.00,0:18:14.48,Main,Tam,0000,0000,0000,,Hm?
+Dialogue: 0,0:18:14.48,0:18:16.19,Fair,Sign,0000,0000,0000,,Seiten
+Dialogue: 0,0:18:15.42,0:18:16.19,Main,Tam,0000,0000,0000,,To jsou...
+Dialogue: 0,0:18:16.64,0:18:23.13,Main,Tam,0000,0000,0000,,Tobako-san, schovával jste je přede mnou, protože \Njste si myslel, že kdybych je dostala,
+Dialogue: 0,0:18:23.13,0:18:24.20,Main,Tam,0000,0000,0000,,přestala bych vás navštěvovat?
+Dialogue: 0,0:18:24.88,0:18:26.96,Main,Tam,0000,0000,0000,,Otose-sama z nich určitě bude mít radost.
+Dialogue: 0,0:18:27.75,0:18:29.98,Main,Tam,0000,0000,0000,,Zdá se, že my oba už nejsme jen kupa šrotu.
+Dialogue: 0,0:18:40.03,0:18:43.60,Sold,Sign,0000,0000,0000,,Vyprodáno
+Dialogue: 0,0:18:46.08,0:18:48.23,Main,Tam,0000,0000,0000,,Je něco špatně, Tobako-san?
+Dialogue: 0,0:18:49.78,0:18:51.60,Main,Tam,0000,0000,0000,,Podívám se na vás...
+Dialogue: 0,0:18:55.07,0:18:59.15,Main,Gen,0000,0000,0000,,Nerad to říkám, ale \Nten už opravit nepůjde.
+Dialogue: 0,0:18:59.43,0:19:02.78,Main,Gen,0000,0000,0000,,Tamo, svou práci už splnil.
+Dialogue: 0,0:19:03.33,0:19:07.33,Main,Gen,0000,0000,0000,,Ta stařenka se sem nevrátí, že?
+Dialogue: 0,0:19:08.37,0:19:11.27,Main,Gen,0000,0000,0000,,Tenhle obchod s cigaretama to má za sebou.
+Dialogue: 0,0:19:15.56,0:19:17.76,Main,G,0000,0000,0000,,Je to na spadnutí.
+Dialogue: 0,0:19:17.76,0:19:19.84,Main,G,0000,0000,0000,,Celé by se to mohlo najednou zřítit.
+Dialogue: 0,0:19:20.29,0:19:21.27,Main,G,0000,0000,0000,,Dávejte si pozor.
+Dialogue: 0,0:19:21.81,0:19:22.84,Main,G,0000,0000,0000,,He?
+Dialogue: 0,0:19:22.84,0:19:24.53,Main,G,0000,0000,0000,,Nestál tady...
+Dialogue: 0,0:19:30.55,0:19:31.68,Main,Tam,0000,0000,0000,,Vše je v pořádku.
+Dialogue: 0,0:19:32.57,0:19:36.26,Main,Tam,0000,0000,0000,,Nejste hromada šrotu.
+Dialogue: 0,0:19:37.59,0:19:38.45,Main,Tam,0000,0000,0000,,Konec konců
+Dialogue: 0,0:19:39.13,0:19:43.45,Main,Tam,0000,0000,0000,,tu máte někoho, kdo vás potřebuje.
+Dialogue: 0,0:19:44.30,0:19:45.48,Main,Tam,0000,0000,0000,,Máte mě,
+Dialogue: 0,0:19:45.89,0:19:47.54,Main,Tam,0000,0000,0000,,svou kamarádku!
+Dialogue: 0,0:19:53.98,0:19:55.97,Main,Tam,0000,0000,0000,,I když už nemůžete prodávat cigarety,
+Dialogue: 0,0:19:56.81,0:19:59.10,Main,Tam,0000,0000,0000,,nebo být nápomocný lidem...
+Dialogue: 0,0:19:59.65,0:20:03.74,Sign,Sign,0000,0000,0000,,{\fad(566,479)}Haraburdí! Už ten \Nšrot konečně odvezte!
+Dialogue: 0,0:20:00.47,0:20:02.47,Main,Tam,0000,0000,0000,,Záleží na tom vůbec?
+Dialogue: 0,0:20:17.96,0:20:26.99,Main,Tam,0000,0000,0000,,Proč nemohou stroje existovat pro to, \Naby se s nimi mohli lidé schovat před deštěm?
+Dialogue: 0,0:20:41.38,0:20:43.30,Main,Gin,0000,0000,0000,,Zapomněl jsem si deštník.
+Dialogue: 0,0:20:43.97,0:20:46.26,Main,Gin,0000,0000,0000,,Schovám se tu s váma.
+Dialogue: 0,0:20:46.90,0:20:50.14,Main,Tam,0000,0000,0000,,Už tu není žádná střecha, \Npod kterou bychom se mohli ukrýt.
+Dialogue: 0,0:20:51.16,0:20:52.21,Main,Gin,0000,0000,0000,,V pohodě.
+Dialogue: 0,0:20:53.53,0:20:58.27,Main,Gin,0000,0000,0000,,Našel jsem stroj, se kterým jsem \Nse chtěl schovat před deštěm.
+Dialogue: 0,0:20:59.97,0:21:02.92,Main,Gin,0000,0000,0000,,Mimoto přestalo pršet.
+Dialogue: 0,0:21:04.15,0:21:05.66,Fair,Sign,0000,0000,0000,,Seiten{\c&H80ffff&} [Seiten = Jasná Obloha]
+Dialogue: 0,0:21:06.30,0:21:09.41,Main,Gin,0000,0000,0000,,Nemusíš se ničeho bát.
+Dialogue: 0,0:21:10.45,0:21:13.04,Main,Gin,0000,0000,0000,,Můžeš zapomenout na svou práci.
+Dialogue: 0,0:21:13.75,0:21:15.20,Main,Gin,0000,0000,0000,,Aspoň na konci
+Dialogue: 0,0:21:15.20,0:21:16.56,Main,Gin,0000,0000,0000,,mu usuš slzy.
+Dialogue: 0,0:21:16.56,0:21:21.18,Main,Gin,0000,0000,0000,,Ne jako stroj, ale jako kámoška.
+Dialogue: 0,0:21:22.58,0:21:24.60,Main,Tam,0000,0000,0000,,Tobako-san...
+Dialogue: 0,0:21:25.89,0:21:27.88,Main,Gin,0000,0000,0000,,Pokud ho nezastavíš,
+Dialogue: 0,0:21:28.31,0:21:30.90,Main,Gin,0000,0000,0000,,zreziví a vážně se z něj stane kupa šrotu.
+Dialogue: 0,0:21:35.78,0:21:37.89,Main,Tam,0000,0000,0000,,Vy se nepoučíte.
+Dialogue: 0,0:21:37.89,0:21:39.75,Main,Tam,0000,0000,0000,,Kolikrát jsem vám říkala...
+Dialogue: 0,0:21:42.31,0:21:47.17,Main,Tam,0000,0000,0000,,Že ať už pláčete, nebo prodáváte cigarety, \Nvždy vypusťte jen jeden balíček.
+Dialogue: 0,0:21:50.29,0:21:54.33,Main,Tam,0000,0000,0000,,Ale jsem si jistá, že dnes na to nikdo nepřijde.
+Dialogue: 0,0:21:58.99,0:22:01.19,Main,Tam,0000,0000,0000,,Protože prší olej.
+Dialogue: 0,0:22:05.84,0:22:08.84,Snack Sun,Sign,0000,0000,0000,,Bar Otose
+Dialogue: 0,0:22:14.87,0:22:16.06,Main,Oto,0000,0000,0000,,No co to...
+Dialogue: 0,0:22:17.22,0:22:18.49,Main,Oto,0000,0000,0000,,Jsou promočené.
+Dialogue: 0,0:23:49.86,0:23:53.57,Side Bar Top,text r,0000,0000,0000,,Next episode is finally the 300th.
+Dialogue: 0,0:23:49.86,0:23:53.57,Side Bar Bottom,text l,0000,0000,0000,,And finally...
+Dialogue: 0,0:23:53.57,0:24:00.50,Side Bar Top Bl,text r,0000,0000,0000,,The Shogun Assassination Arc
+Dialogue: 0,0:23:53.57,0:24:00.50,Side Bar Bottom Bl,text l,0000,0000,0000,,kicks off.

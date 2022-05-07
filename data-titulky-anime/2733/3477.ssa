@@ -1,0 +1,313 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: Tsubasa Chronicle
+Original Script: Shibetsudake Translations
+Original Translation: re5pect
+Original Timing: drobek87
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 864
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Arial,50,16777215,8421631,16777215,8404992,-1,-1,1,3,0,2,30,30,30,0,238
+Style: Karaoke,Papyrus,75,16777215,9174748,65535,8421440,-1,-1,1,2,1,6,30,30,30,0,0
+Style: Karaoke_cz,Arial,50,16381411,1421411,255,13649425,-1,-1,1,2,0,2,30,30,30,0,238
+Style: Karaoke_cz2,Arial,50,16381411,1421411,255,13649425,-1,-1,1,2,0,2,30,30,30,0,238
+Style: Top,Papyrus,100,14544383,16777215,8935592,9408399,-1,-1,1,1,1,2,30,30,30,0,0
+Style: Top2,Papyrus,100,14544383,16777215,8935592,9408399,-1,-1,1,1,1,6,30,30,30,0,0
+Style: Translations,Times New Roman,60,13158394,4945927,16744448,64,-1,-1,1,1,0,6,30,30,30,0,238
+Style: Translations_stred,Papyrus,300,14544383,16777215,8935592,9408399,-1,-1,1,4,2,10,30,30,30,0,0
+Style: nazevepizody,Times New Roman,150,15463676,4945927,16744448,9175110,-1,-1,1,1,0,10,30,30,30,0,238
+Style: nazevepizody2,Times New Roman,150,15463676,4945927,16744448,9175110,-1,-1,1,1,0,10,30,30,30,0,238
+Style: vysvetlivky,Arial,50,16777215,65535,65535,128,-1,-1,1,3,0,6,30,30,30,0,238
+Style: vysvetlivky2,Arial,50,16777215,65535,65535,128,-1,-1,1,3,0,6,30,30,30,0,238
+Style: Pozadi,Arial,48,16777215,8421631,0,2645793,-1,-1,1,3.00,0.00,2,30,30,30,0,238
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:02.29,0:00:09.84,Karaoke,,0000,0000,0000,,{\fad(375,375)}{\K26}Ha{\K50}te{\K0} {\K36}na{\K38}ki {\K64}yu{\K45}me {\K21}mo{\K19}to{\K50}me{\K26}ru {\K23}shi{\K47}ru{\K20}be {\K48}na{\K16}ki {\K33}se{\K46}kai {\K132}de
+Dialogue: Marked=0,0:00:02.29,0:00:09.84,Karaoke_cz,,0000,0000,0000,,{\fad(375,375)}Ve svìtì, kde nás nic nevede, stíháme nekoneènı sen.
+Dialogue: Marked=0,0:00:12.00,0:00:20.84,Top2,,0000,0000,0000,,{\pos(500,240)}Shibetsudake Translations
+Dialogue: Marked=0,0:00:12.00,0:00:20.84,Top,,0000,0000,0000,,{\pos(630,730)\fs150}Tsubasa Chronicle
+Dialogue: Marked=0,0:00:21.02,0:00:27.19,Karaoke,,0000,0000,0000,,{\fad(375,375)}{\K20}ka{\K32}sa{\K20}na{\K21}ru {\K21}o{\K26}mo{\K110}i {\K30}ko{\K30}ko{\K25}ro {\K28}tsu{\K9}ki{\K17}sa{\K82}su {\K41}{\K34}ko{\K66}dou
+Dialogue: Marked=0,0:00:21.02,0:00:27.19,Translations,,0000,0000,0000,,{\pos(250,200)}{\fad(375,375)}Pøeklad : re5pect
+Dialogue: Marked=0,0:00:21.02,0:00:27.19,Karaoke_cz,,0000,0000,0000,,{\fad(375,375)}Naše vzpomínky se pøekrıvají a údery srdce znìjí naší duší
+Dialogue: Marked=0,0:00:28.20,0:00:34.29,Karaoke,,0000,0000,0000,,{\fad(375,375)}{\K28}shi{\K24}zu{\K23}ka {\K19}ni {\K12}tsu{\K27}zu{\K150}ku {\K23}ta{\K23}me{\K23}ra{\K22}i {\K14}mo {\K30}na{\K101}i {\K14}{\K22}u{\K58}ta
+Dialogue: Marked=0,0:00:28.20,0:00:34.29,Translations,,0000,0000,0000,,{\fad(584,459)}{\pos(750,600)}Korektury : chiki, t_gon, ravalah, michigan
+Dialogue: Marked=0,0:00:28.20,0:00:34.29,Karaoke_cz,,0000,0000,0000,,{\fad(584,459)}a píseò tiše, bez váhání, pokraèuje.
+Dialogue: Marked=0,0:00:35.27,0:00:42.61,Karaoke,,0000,0000,0000,,{\fad(584,459)}{\K23}to{\K22}o{\K24}ku {\K40}so{\K25}ra {\K32}no {\K33}ka{\K25}na{\K68}ta {\K22}ka{\K36}ra {\K19}ma{\K28}za{\K21}ri{\K71}at{\K41}ta {\K25}bo{\K23}ku{\K24}ra {\K39}no {\K29}ka{\K39}ge
+Dialogue: Marked=0,0:00:35.27,0:00:42.61,Translations,,0000,0000,0000,,{\fad(667,542)}{\pos(275,600)}{\c&HEFEFEF&}Èasování : drobek87
+Dialogue: Marked=0,0:00:35.27,0:00:42.61,Karaoke_cz,,0000,0000,0000,,{\fad(667,542)}Naše stíny se prolínají a za vzdálenou oblohou,
+Dialogue: Marked=0,0:00:42.71,0:00:50.23,Karaoke,,0000,0000,0000,,{\fad(667,542)}{\K19}hi{\K21}tsu{\K63}zen {\K25}to {\K49}ki{\K21}ma{\K28}gu{\K46}re {\K22}no {\K19}na{\K69}ka {\K30}shi{\K31}ru{\K37}sa{\K41}re{\K50}ta {\K45}ki{\K24}o{\K68}ku
+Dialogue: Marked=0,0:00:42.71,0:00:50.23,Translations,,0000,0000,0000,,{\fad(960,375)}{\pos(850,200)}Typesetting : re5pect
+Dialogue: Marked=0,0:00:42.71,0:00:50.23,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}tak v tom osudném rozmaru se zapsaly naše vzpomínky
+Dialogue: Marked=0,0:00:50.42,0:01:01.40,Karaoke,,0000,0000,0000,,{\fad(960,375)}{\K32}su{\K37}re{\K34}chi{\K42}gat{\K43}ta {\K22}to{\K46}ki {\K21}no {\K46}u{\K47}zu {\K17}ku{\K40}chi{\K30}ha{\K46}te{\K23}te{\K18}mo {\K46}ki{\K24}mi {\K38}no {\K30}ko{\K36}e {\K69}wo {\K17}{\K46}shin{\K48}ji{\K194}te
+Dialogue: Marked=0,0:00:50.42,0:01:01.40,Translations,,0000,0000,0000,,{\fad(960,375)}{\pos(570,200)}Cz OP & ED : mJezdec, marek14, tsusaku
+Dialogue: Marked=0,0:00:50.42,0:01:01.40,Karaoke_cz,,0000,0000,0000,,{\fad(375,375)}i ve víru èasu, budu já vìøit tvému hlasu.
+Dialogue: Marked=0,0:01:03.08,0:01:09.93,Karaoke,,0000,0000,0000,,{\fad(375,375)}{\K34}ha{\K44}te {\K45}na{\K45}ki {\K47}yu{\K47}me {\K21}mo{\K21}to{\K49}me{\K29}ru {\K26}shi{\K47}ru{\K23}be {\K41}na{\K25}ki {\K21}mi{\K49}rai {\K61}de
+Dialogue: Marked=0,0:01:03.08,0:01:09.93,Translations,,0000,0000,0000,,{\fad(584,459)}{\pos(150,200)}{\a9}Karaoke : re5pect
+Dialogue: Marked=0,0:01:03.08,0:01:09.93,Karaoke_cz2,,0000,0000,0000,,{\fad(584,459)}A v této budoucnosti, kde nás nic nevede, stíháme nekoneènı sen.
+Dialogue: Marked=0,0:01:10.36,0:01:17.16,Karaoke,,0000,0000,0000,,{\fad(584,459)}{\K22}bo{\K24}ku {\K39}ga {\K20}hi{\K32}ka{\K56}ri {\K51}na{\K31}ku{\K59}shi{\K43}te {\K73}mo {\K23}{\K36}i{\K56}tsu{\K92}ka
+Dialogue: Marked=0,0:01:10.36,0:01:17.16,Translations,,0000,0000,0000,,{\fad(667,542)}{\pos(850,200)}{\c&HEFEFEF&}Tahaè rawù : drobek87
+Dialogue: Marked=0,0:01:10.36,0:01:17.16,Karaoke_cz,,0000,0000,0000,,{\fad(667,542)}Vím, e pokud ztratím své svìtlo,
+Dialogue: Marked=0,0:01:17.95,0:01:24.41,Karaoke,,0000,0000,0000,,{\fad(667,542)}{\K19}ki{\K51}mi {\K34}ga {\K11}{\K45}to{\K29}mo{\K62}shi{\K20}te {\K24}ku{\K45}re{\K46}ta {\K20}ki{\K26}ra{\K23}me{\K17}ku {\K51}mu{\K21}ne {\K24}no {\K47}ho{\K33}noo
+Dialogue: Marked=0,0:01:17.95,0:01:24.41,Translations,,0000,0000,0000,,{\fad(960,375)}{\pos(275,200)}Encoding : andrejka
+Dialogue: Marked=0,0:01:17.95,0:01:24.41,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}plamen, co jsi zaehla v mém srdci
+Dialogue: Marked=0,0:01:24.41,0:01:32.60,Karaoke,,0000,0000,0000,,{\fad(960,375)}{\K29}tsu{\K44}ba{\K32}sa {\K39}ni {\K26}ka{\K23}wa{\K170}ru {\K26}ki{\K44}bou {\K20}no {\K25}ka{\K45}ke{\K347}ra
+Dialogue: Marked=0,0:01:24.41,0:01:32.60,Translations,,0000,0000,0000,,{\fad(960,375)}{\pos(600,300)}Zvláštní podìkování : newman, marek14, cynebeald, tesa
+Dialogue: Marked=0,0:01:24.41,0:01:32.60,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}z pramínkù nadìje se v køídla promìní.
+Dialogue: Marked=0,0:01:47.35,0:01:47.77,Default,,0000,0000,0000,,Na nìj!
+Dialogue: Marked=0,0:01:50.11,0:01:50.65,Default,,0000,0000,0000,,Kdo to je?
+Dialogue: Marked=0,0:01:55.61,0:01:57.07,Default,,0000,0000,0000,,To jsou lidé z mìsta...
+Dialogue: Marked=0,0:01:58.20,0:02:03.79,Default,,0000,0000,0000,,... kteøí sem pøišli aby mì zastavili.
+Dialogue: Marked=0,0:02:05.50,0:02:10.71,Default,,0000,0000,0000,,Pouil jsem na ty blázny svoje Hijutsu, take \Nodteï to jsou jen loutky, které poslouchají moje pøíkazy.
+Dialogue: Marked=0,0:02:11.88,0:02:14.13,Default,,0000,0000,0000,,Mùeš se je zkusit porazit...
+Dialogue: Marked=0,0:02:15.13,0:02:16.13,Default,,0000,0000,0000,,... skrèku.
+Dialogue: Marked=0,0:02:30.22,0:02:33.05,nazevepizody,,0000,0000,0000,,{\fad(275,275)}{\a5}11
+Dialogue: Marked=0,0:02:30.22,0:02:33.05,nazevepizody,,0000,0000,0000,,{\fad(275,275)}{\a3}11
+Dialogue: Marked=0,0:02:30.22,0:02:33.05,nazevepizody,,0000,0000,0000,,{\fad(275,275)}{\a7}11
+Dialogue: Marked=0,0:02:30.22,0:02:33.05,nazevepizody,,0000,0000,0000,,{\fad(275,275)}{\a1}11
+Dialogue: Marked=0,0:02:30.22,0:02:33.05,nazevepizody,,0000,0000,0000,,{\fad(275,275)}{\pos(570,300)\fs100}{\fad(275,275)}Vysnìné {\1c&H00B3AA0D&}ráno
+Dialogue: Marked=0,0:02:47.25,0:02:50.17,Default,,0000,0000,0000,,Jestli-e zaútoèíš na lidi z mìsta...
+Dialogue: Marked=0,0:02:50.17,0:02:54.63,Default,,0000,0000,0000,,... pocítí ty dívky dvojnásobek bolesti, co zpùsobíš.
+Dialogue: Marked=0,0:02:55.38,0:02:56.13,Default,,0000,0000,0000,,Zachraò nás.
+Dialogue: Marked=0,0:02:59.34,0:02:59.93,Default,,0000,0000,0000,,Zabte ho!
+Dialogue: Marked=0,0:03:18.44,0:03:20.28,Default,,0000,0000,0000,,Sna se trochu, skrèku.
+Dialogue: Marked=0,0:03:26.37,0:03:28.37,Default,,0000,0000,0000,,Co je? U nemùeš?
+Dialogue: Marked=0,0:03:29.37,0:03:30.60,Default,,0000,0000,0000,,Shaorane!
+Dialogue: Marked=0,0:03:38.46,0:03:40.09,Default,,0000,0000,0000,,Šup, šup, pospìš si, Kuropone.
+Dialogue: Marked=0,0:03:40.51,0:03:42.30,Default,,0000,0000,0000,,Co to meleš, vdy bìíš za mnou!
+Dialogue: Marked=0,0:03:57.32,0:04:00.78,Default,,0000,0000,0000,,Nemá to cenu, dokud mám tohle, jsem nepøemoitelnı.
+Dialogue: Marked=0,0:04:03.20,0:04:03.95,Default,,0000,0000,0000,,Shaorane!
+Dialogue: Marked=0,0:04:03.95,0:04:05.70,Default,,0000,0000,0000,,Shaorane! Vstávej!
+Dialogue: Marked=0,0:04:07.41,0:04:08.24,Default,,0000,0000,0000,,Zachraò nás.
+Dialogue: Marked=0,0:04:10.87,0:04:12.75,Default,,0000,0000,0000,,Zachraò nás...
+Dialogue: Marked=0,0:04:12.75,0:04:13.75,Default,,0000,0000,0000,,... Shaorane.
+Dialogue: Marked=0,0:04:18.92,0:04:23.51,Default,,0000,0000,0000,,Hele, mùu ti øíkat Shaorane?
+Dialogue: Marked=0,0:04:26.18,0:04:27.39,Default,,0000,0000,0000,,Jasnı, Shaorane?
+Dialogue: Marked=0,0:04:31.06,0:04:34.06,Default,,0000,0000,0000,,Shaorane, dostaò nás odtud.
+Dialogue: Marked=0,0:04:42.86,0:04:44.45,Default,,0000,0000,0000,,To je další tvé Hijutsu.
+Dialogue: Marked=0,0:04:44.99,0:04:46.07,Default,,0000,0000,0000,,Coe?
+Dialogue: Marked=0,0:04:47.78,0:04:49.74,Default,,0000,0000,0000,,Ty dvì jsou jen iluze.
+Dialogue: Marked=0,0:04:50.20,0:04:53.16,Default,,0000,0000,0000,,O èem to mluvíš? Jsou skuteèné.
+Dialogue: Marked=0,0:04:54.79,0:04:56.88,Default,,0000,0000,0000,,Pravá princezna...
+Dialogue: Marked=0,0:05:05.59,0:05:09.22,Default,,0000,0000,0000,,... mi nemùe øíkat Shaorane.
+Dialogue: Marked=0,0:05:07.50,0:05:12.31,vysvetlivky,,0000,0000,0000,,{\fad(375,375)}Sakura mu nemùe øíkat Shaorane, protoe \Nby ho oslovovala jako osobu sobì blízkou...
+Dialogue: Marked=0,0:05:12.31,0:05:17.25,vysvetlivky,,0000,0000,0000,,{\fad(375,375)}... a ona si na Shaorana pøece nepamatuje, proto Shaoran \Nvìdìl, e je to iluze. Spravnì mu má øíkat Shaoran-kun. 
+Dialogue: Marked=0,0:05:13.31,0:05:14.43,Default,,0000,0000,0000,,T-To není moné.
+Dialogue: Marked=0,0:05:21.40,0:05:22.43,Default,,0000,0000,0000,,Shaorane!?
+Dialogue: Marked=0,0:05:26.41,0:05:30.24,Default,,0000,0000,0000,,Vy všichni, zabte hned toho spratka.
+Dialogue: Marked=0,0:05:39.84,0:05:40.50,Default,,0000,0000,0000,,Pøestaòte!
+Dialogue: Marked=0,0:05:42.75,0:05:44.13,Default,,0000,0000,0000,,Proberte se!
+Dialogue: Marked=0,0:05:52.68,0:05:53.35,Default,,0000,0000,0000,,Co to...
+Dialogue: Marked=0,0:06:11.78,0:06:13.41,Default,,0000,0000,0000,,Co? Kde to jsem?
+Dialogue: Marked=0,0:06:14.41,0:06:16.71,Default,,0000,0000,0000,,Co tady všichni dìláme?
+Dialogue: Marked=0,0:06:17.00,0:06:17.70,Default,,0000,0000,0000,,Chuan Hyang.
+Dialogue: Marked=0,0:06:22.10,0:06:22.70,Default,,0000,0000,0000,,Sakuro.
+Dialogue: Marked=0,0:06:23.09,0:06:26.88,Default,,0000,0000,0000,,Všichni jsme byli zakleti pomocí Hijutsu.
+Dialogue: Marked=0,0:06:28.01,0:06:30.59,Default,,0000,0000,0000,,Ale Chuan Hyang ho prolomila.
+Dialogue: Marked=0,0:06:31.35,0:06:32.47,Default,,0000,0000,0000,,Nedokázala jsem to sama...
+Dialogue: Marked=0,0:06:33.26,0:06:34.31,Default,,0000,0000,0000,,... ale s maminèinou pomocí.
+Dialogue: Marked=0,0:06:34.89,0:06:38.19,Default,,0000,0000,0000,,Maminka mi dala toto zrcadlo opatøené Hijutsu.
+Dialogue: Marked=0,0:06:38.81,0:06:39.65,Default,,0000,0000,0000,,Coe?
+Dialogue: Marked=0,0:06:40.73,0:06:42.81,Default,,0000,0000,0000,,Moná jsem ještì slabá...
+Dialogue: Marked=0,0:06:43.77,0:06:49.36,Default,,0000,0000,0000,,... ale s pomocí tohoto zrcadla vám zabráním pùsobit lidem utrpení.
+Dialogue: Marked=0,0:06:49.78,0:06:51.03,Default,,0000,0000,0000,,Ty jedna...
+Dialogue: Marked=0,0:06:52.28,0:06:54.66,Default,,0000,0000,0000,,Jdeme, jeho stráe jsou na druhé stranì.
+Dialogue: Marked=0,0:06:54.75,0:06:55.33,Default,,0000,0000,0000,,Dobøe.
+Dialogue: Marked=0,0:06:57.41,0:06:58.54,Default,,0000,0000,0000,,Necháme to tu na tobì.
+Dialogue: Marked=0,0:07:00.17,0:07:00.87,Default,,0000,0000,0000,,Jdeme!
+Dialogue: Marked=0,0:07:04.25,0:07:05.50,Default,,0000,0000,0000,,Má síla je pryè.
+Dialogue: Marked=0,0:07:06.30,0:07:08.76,Default,,0000,0000,0000,,Och, to slyším opravdu nerada.
+Dialogue: Marked=0,0:07:11.39,0:07:13.51,Default,,0000,0000,0000,,T-Ten hlas.
+Dialogue: Marked=0,0:07:36.24,0:07:37.95,Default,,0000,0000,0000,,Och, tak tady jsou.
+Dialogue: Marked=0,0:07:37.95,0:07:41.00,Default,,0000,0000,0000,,Jdete pozdì!
+Dialogue: Marked=0,0:07:41.00,0:07:43.96,Default,,0000,0000,0000,,Promiò... zabloudili jsme.
+Dialogue: Marked=0,0:07:45.96,0:07:47.63,Default,,0000,0000,0000,,Vrate mi to pírko!
+Dialogue: Marked=0,0:07:53.68,0:07:55.60,Default,,0000,0000,0000,,Je to vzpomínka princezny Sakury.
+Dialogue: Marked=0,0:07:57.43,0:07:57.89,Default,,0000,0000,0000,,Vrate ho.
+Dialogue: Marked=0,0:07:58.55,0:07:59.55,Default,,0000,0000,0000,,Shaorane.
+Dialogue: Marked=0,0:08:02.81,0:08:03.73,Default,,0000,0000,0000,,P-Poèkej...
+Dialogue: Marked=0,0:08:05.69,0:08:09.82,Default,,0000,0000,0000,,Pokud mám tohle, mohu oivit matku Chuan Hyang.
+Dialogue: Marked=0,0:08:14.66,0:08:17.53,Default,,0000,0000,0000,,Ale jestli mì zabiješ, tak u nikdy neoivne.
+Dialogue: Marked=0,0:08:21.21,0:08:23.62,Default,,0000,0000,0000,,Co ty na to, Chuan Hyang? Urèitì ti matka chybí?
+Dialogue: Marked=0,0:08:23.87,0:08:25.42,Default,,0000,0000,0000,,Chceš jí pøece vidìt.
+Dialogue: Marked=0,0:08:27.29,0:08:34.47,Default,,0000,0000,0000,,Pomocí této ohromné sily... mohu... mohu tvojí matku oivit.
+Dialogue: Marked=0,0:08:36.68,0:08:38.39,Default,,0000,0000,0000,,Ona je mrtvá.
+Dialogue: Marked=0,0:08:38.89,0:08:40.85,Default,,0000,0000,0000,,Ty sám jsi mojí mamaninku zabil.
+Dialogue: Marked=0,0:08:41.89,0:08:43.02,Default,,0000,0000,0000,,Pøedtím ne maminka odešla...
+Dialogue: Marked=0,0:08:43.94,0:08:47.90,Default,,0000,0000,0000,,... øekla, e ivot nemùe bıt vrácen tìm, kteøí ho ztratili.
+Dialogue: Marked=0,0:08:50.98,0:08:52.28,Default,,0000,0000,0000,,Bez ohledu na to, jak moc mi chybí...
+Dialogue: Marked=0,0:08:52.86,0:08:54.24,Default,,0000,0000,0000,,... a jak moc ji chci vidìt...
+Dialogue: Marked=0,0:08:55.53,0:08:57.24,Default,,0000,0000,0000,,... jí u nikdy nemohu vidìt.
+Dialogue: Marked=0,0:08:57.99,0:08:59.70,Default,,0000,0000,0000,,Ale nikdy nezapomeò...
+Dialogue: Marked=0,0:08:59.70,0:09:04.25,Default,,0000,0000,0000,,... e tvoje matka bude vdy na tvé stranì a pozornì tì sledovat.
+Dialogue: Marked=0,0:09:06.29,0:09:11.59,Default,,0000,0000,0000,,A ty... ty mi to... ještì navrhuješ?!
+Dialogue: Marked=0,0:09:12.30,0:09:17.47,Default,,0000,0000,0000,,Chceš se pomstít, Chuan Hyang?
+Dialogue: Marked=0,0:09:21.93,0:09:23.48,Default,,0000,0000,0000,,To je v poøádku.
+Dialogue: Marked=0,0:09:25.19,0:09:25.77,Default,,0000,0000,0000,,Ale...
+Dialogue: Marked=0,0:09:27.02,0:09:30.11,Default,,0000,0000,0000,,... tenhle èlovìk ti za to vùbec nestojí, Chuan Hyang.
+Dialogue: Marked=0,0:09:33.69,0:09:37.57,Default,,0000,0000,0000,,Hijutsu má pøinášet lidem štìstí.
+Dialogue: Marked=0,0:09:46.30,0:09:47.10,Default,,0000,0000,0000,,Nechci...
+Dialogue: Marked=0,0:09:48.20,0:09:49.84,Default,,0000,0000,0000,,... si s ním špinit ruce.
+Dialogue: Marked=0,0:10:00.10,0:10:01.35,Default,,0000,0000,0000,,N-Nepøibliuj se!
+Dialogue: Marked=0,0:10:02.06,0:10:03.56,Default,,0000,0000,0000,,N-Nedotıkej se mì!
+Dialogue: Marked=0,0:10:14.40,0:10:15.24,Default,,0000,0000,0000,,To u staèí.
+Dialogue: Marked=0,0:10:58.15,0:11:05.46,Translations_stred,,0000,0000,0000,,{\q2\alpha&Hff&\fscx1000\fscy100\t(0,50,1,\3a&H5f&\4a&H9f&\1a&H00&)\t(20,80,1,\fscx80\fscy80)\t(4000,4350,1,\alpha&Hff&)\t(4250,4300,1,\fscx1000\fscy100)}Shibetsudake \NTranslations{\fad(375,375)}
+Dialogue: Marked=0,0:11:10.25,0:11:13.46,Default,,0000,0000,0000,,To je v poøádku, té dámì mùeme vìøit.
+Dialogue: Marked=0,0:11:14.59,0:11:16.51,Default,,0000,0000,0000,,Já se o nìj postarám.
+Dialogue: Marked=0,0:11:17.01,0:11:18.76,Default,,0000,0000,0000,,Musím mu dùkladnì podìkovat...
+Dialogue: Marked=0,0:11:20.34,0:11:23.30,Default,,0000,0000,0000,,... za dobu, po kterou mì tu drel.
+Dialogue: Marked=0,0:11:24.35,0:11:29.18,Default,,0000,0000,0000,,Vezmu tebe i tvého syna do svého \Nkrálovství a oplatím vám vaší pohostinnost.
+Dialogue: Marked=0,0:11:30.23,0:11:32.15,Default,,0000,0000,0000,,Ne!
+Dialogue: Marked=0,0:11:32.90,0:11:34.52,Default,,0000,0000,0000,,Ty jsi Chuan Hyang?
+Dialogue: Marked=0,0:11:35.32,0:11:35.94,Default,,0000,0000,0000,,Ano.
+Dialogue: Marked=0,0:11:37.61,0:11:40.07,Default,,0000,0000,0000,,Tvá matka byla vynikající èarodìjka.
+Dialogue: Marked=0,0:11:40.49,0:11:43.70,Default,,0000,0000,0000,,Bohuel, zahynula v jedné z pastí, pøipravenıch Ryoshim.
+Dialogue: Marked=0,0:11:44.87,0:11:47.33,Default,,0000,0000,0000,,Ale kdy jsme já a ona splolu bojovali... 
+Dialogue: Marked=0,0:11:47.83,0:11:54.17,Default,,0000,0000,0000,,... øekla mi, jak je na tebe pyšná \Na jak talentovanou èarodìjkou jsi.
+Dialogue: Marked=0,0:12:01.01,0:12:02.72,Default,,0000,0000,0000,,Buï silná Chuan Hyang.
+Dialogue: Marked=0,0:12:03.01,0:12:06.72,Default,,0000,0000,0000,,Tak silná jako ona, abys mohla \Njednou svım Hijutsu ochraòovat ostatní.
+Dialogue: Marked=0,0:12:08.77,0:12:09.18,Default,,0000,0000,0000,,Budu.
+Dialogue: Marked=0,0:12:13.94,0:12:14.65,Default,,0000,0000,0000,,To mi vìøte.
+Dialogue: Marked=0,0:12:17.94,0:12:19.11,Default,,0000,0000,0000,,Ne!
+Dialogue: Marked=0,0:12:20.15,0:12:22.99,Default,,0000,0000,0000,,Ne!
+Dialogue: Marked=0,0:12:23.70,0:12:26.74,Default,,0000,0000,0000,,Mìjte se, mùj rozkošnı malinkı hmyze.
+Dialogue: Marked=0,0:12:43.88,0:12:44.84,Default,,0000,0000,0000,,Jsme zase normální!
+Dialogue: Marked=0,0:12:46.35,0:12:48.26,Default,,0000,0000,0000,,Je konec.
+Dialogue: Marked=0,0:12:48.81,0:12:49.60,Default,,0000,0000,0000,,Ano.
+Dialogue: Marked=0,0:12:56.06,0:12:57.06,Default,,0000,0000,0000,,Dìkujeme!
+Dialogue: Marked=0,0:13:24.59,0:13:27.76,Default,,0000,0000,0000,,Všechno nejlepší k narozeninám, princezno Sakuro.
+Dialogue: Marked=0,0:13:28.05,0:13:29.97,Default,,0000,0000,0000,,Dìkuji, Yukito.
+Dialogue: Marked=0,0:13:30.56,0:13:34.27,Default,,0000,0000,0000,,Nejsem jsem si jist, jestli máme \Ndost jídla pro takovıho routa, jako jsi ty.
+Dialogue: Marked=0,0:13:34.52,0:13:36.35,Default,,0000,0000,0000,,Nejím tak moc!
+Dialogue: Marked=0,0:13:36.56,0:13:38.15,Default,,0000,0000,0000,,No, já nevím.
+Dialogue: Marked=0,0:13:38.73,0:13:40.40,Default,,0000,0000,0000,,Pøestaò lhát, brácho!
+Dialogue: Marked=0,0:13:40.86,0:13:42.82,Default,,0000,0000,0000,,Nejím tak moc! Opravdu!
+Dialogue: Marked=0,0:13:43.19,0:13:44.07,Default,,0000,0000,0000,,Kecko.
+Dialogue: Marked=0,0:13:44.32,0:13:45.11,Default,,0000,0000,0000,,Vaše vısosti...
+Dialogue: Marked=0,0:13:45.65,0:13:47.32,Default,,0000,0000,0000,,V kadém pøípadì tu máme spousty skvìlého jídla.
+Dialogue: Marked=0,0:13:47.78,0:13:48.49,Default,,0000,0000,0000,,Pojïme jíst.
+Dialogue: Marked=0,0:13:49.91,0:13:53.50,Default,,0000,0000,0000,,Hlavní kuchaø øíkal, e dneska to jsou samé speciality.
+Dialogue: Marked=0,0:13:53.91,0:13:57.08,Default,,0000,0000,0000,,A to se nezmiòuji o tom, e si dal \Nextra záleet, protoe máš narozeniny.
+Dialogue: Marked=0,0:13:57.58,0:13:58.46,Default,,0000,0000,0000,,Opravdu?
+Dialogue: Marked=0,0:13:59.38,0:14:03.55,Default,,0000,0000,0000,,Sladkosti, které dìlá hlavní kuchaø jsou nejlepší na svìtì.
+Dialogue: Marked=0,0:14:07.76,0:14:11.68,Default,,0000,0000,0000,,Dìkuji ti, e jsi sem dnes pøišel.
+Dialogue: Marked=0,0:14:12.68,0:14:13.52,Default,,0000,0000,0000,,Já...
+Dialogue: Marked=0,0:14:16.02,0:14:21.06,Default,,0000,0000,0000,,Jsem opravdu, opravdu šastná, \Ne mohu své narozeniny strávit s tebou.
+Dialogue: Marked=0,0:14:34.29,0:14:37.54,Default,,0000,0000,0000,,Proè... proè tam nikdo nebyl?
+Dialogue: Marked=0,0:14:50.47,0:14:55.47,Default,,0000,0000,0000,,Koneènì... jsme získali, další pírko.
+Dialogue: Marked=0,0:15:17.75,0:15:22.08,Default,,0000,0000,0000,,Pošlu vás do svìta, kde ijí jiní lidé.
+Dialogue: Marked=0,0:15:27.45,0:15:28.15,Default,,0000,0000,0000,,Sakuro.
+Dialogue: Marked=0,0:15:31.55,0:15:35.60,Default,,0000,0000,0000,,Dobrá, je èas jít... k èarodìjce.
+Dialogue: Marked=0,0:15:43.98,0:15:45.32,Default,,0000,0000,0000,,Co to k èertu dìláš?
+Dialogue: Marked=0,0:15:45.65,0:15:47.82,Default,,0000,0000,0000,,Øíkal jsi, e se chceš stát silnìjším.
+Dialogue: Marked=0,0:15:48.53,0:15:52.74,Default,,0000,0000,0000,,Ale v mé zemi není nikdo silnìjší ne ty.
+Dialogue: Marked=0,0:15:53.45,0:15:55.87,Default,,0000,0000,0000,,Proto tì posílám do jiného svìta.
+Dialogue: Marked=0,0:15:56.37,0:15:58.75,Default,,0000,0000,0000,,Kecy, jen se mì chceš zbavit!
+Dialogue: Marked=0,0:16:01.46,0:16:03.96,Default,,0000,0000,0000,,Dobrá tedy, prosím, opatruj se.
+Dialogue: Marked=0,0:16:04.42,0:16:07.09,Default,,0000,0000,0000,,Já se vrátím... ty dìv...!
+Dialogue: Marked=0,0:16:10.55,0:16:15.01,Default,,0000,0000,0000,,Ten jen má sílu, umoòující \Ncestovat rùznımi svìty, je naivu.
+Dialogue: Marked=0,0:16:16.22,0:16:22.60,Default,,0000,0000,0000,,Nicménì ten, kterı je pohøben hluboko v \Nkrálovství Clow, má sílu, která to mnohonásobnì pøekoná.
+Dialogue: Marked=0,0:16:23.81,0:16:28.90,Default,,0000,0000,0000,,Síla, která zmìní tento svìt, se u brzy probudí.
+Dialogue: Marked=0,0:16:30.90,0:16:34.91,Default,,0000,0000,0000,,Èekal jsem dlouho dobu, abych tu sílu mohl získat.
+Dialogue: Marked=0,0:16:47.00,0:16:49.13,Default,,0000,0000,0000,,A také si ji vezmu.
+Dialogue: Marked=0,0:17:00.72,0:17:03.94,Default,,0000,0000,0000,,Tvá chvíle ještì pøijde.
+Dialogue: Marked=0,0:17:05.73,0:17:06.75,Default,,0000,0000,0000,,Ale...
+Dialogue: Marked=0,0:17:08.11,0:17:14.66,Default,,0000,0000,0000,,... nejsem si jistá, jestli probuzení bude pro tebe... to nejlepší.
+Dialogue: Marked=0,0:17:19.66,0:17:20.83,Default,,0000,0000,0000,,Poslouchejte!
+Dialogue: Marked=0,0:17:21.25,0:17:23.54,Default,,0000,0000,0000,,Tahle oslava je na poèest vítìzství nad Ryoshim.
+Dialogue: Marked=0,0:17:23.96,0:17:26.04,Default,,0000,0000,0000,,Pojïme to poøádnì oslavit!
+Dialogue: Marked=0,0:17:38.05,0:17:40.89,Default,,0000,0000,0000,,Dìkuji ti, e jsi nám pomohl Ryoshiho porazit.
+Dialogue: Marked=0,0:17:41.52,0:17:43.10,Default,,0000,0000,0000,,Ale já nic neudìlal.
+Dialogue: Marked=0,0:17:43.39,0:17:45.44,Default,,0000,0000,0000,,Kdyby jsi neprolomil Hijutsu chránící hrad...
+Dialogue: Marked=0,0:17:45.44,0:17:47.44,Default,,0000,0000,0000,,... nebyli bychom schopni dostat se dovnitø.
+Dialogue: Marked=0,0:17:47.98,0:17:49.65,Default,,0000,0000,0000,,Za to všechno ti chci podìkovat.
+Dialogue: Marked=0,0:17:50.07,0:17:51.90,Default,,0000,0000,0000,,Ale já opravdu nic neudìlal.
+Dialogue: Marked=0,0:17:52.40,0:17:54.70,Default,,0000,0000,0000,,Kuropin byl také hodnì dobrı.
+Dialogue: Marked=0,0:17:55.03,0:17:55.57,Default,,0000,0000,0000,,No, jen tak trochu.
+Dialogue: Marked=0,0:17:56.49,0:17:58.32,Default,,0000,0000,0000,,Opravdu sis musel dát hodnì práce, abys opravil tu støechu.
+Dialogue: Marked=0,0:17:58.49,0:17:59.12,Default,,0000,0000,0000,,Coe?
+Dialogue: Marked=0,0:18:04.71,0:18:09.46,Default,,0000,0000,0000,,Od chvíle, co jsme získali další pírko vypadá Sakura šastnìjší.
+Dialogue: Marked=0,0:18:09.75,0:18:10.21,Default,,0000,0000,0000,,Ano.
+Dialogue: Marked=0,0:18:11.50,0:18:15.13,Default,,0000,0000,0000,,Ten lék, co jsi nám dala, funguje skìle, Chuan Hyang.
+Dialogue: Marked=0,0:18:15.67,0:18:18.55,Default,,0000,0000,0000,,Ten lék dìlala moje maminka.
+Dialogue: Marked=0,0:18:19.26,0:18:21.18,Default,,0000,0000,0000,,Sama ho ještì udìlat nedokáu.
+Dialogue: Marked=0,0:18:21.60,0:18:25.00,Default,,0000,0000,0000,,Ale budu se snait, abych byla stejnì tak dobrá jako maminka.
+Dialogue: Marked=0,0:18:29.98,0:18:31.77,Default,,0000,0000,0000,,Vím, e to dokáeš.
+Dialogue: Marked=0,0:18:38.57,0:18:40.53,Default,,0000,0000,0000,,Koneènì jsme tu.
+Dialogue: Marked=0,0:18:41.49,0:18:42.24,Default,,0000,0000,0000,,Kdo jste?
+Dialogue: Marked=0,0:18:46.41,0:18:47.37,Default,,0000,0000,0000,,Miteshu.
+Dialogue: Marked=0,0:18:48.37,0:18:49.29,Default,,0000,0000,0000,,To není moné.
+Dialogue: Marked=0,0:18:49.79,0:18:53.13,Default,,0000,0000,0000,,Nevìøím, e by úøady poslaly vás jako Miteshu.
+Dialogue: Marked=0,0:18:53.13,0:18:54.84,Default,,0000,0000,0000,,To je Mito Koumon!
+Dialogue: Marked=0,0:18:55.80,0:18:58.68,Default,,0000,0000,0000,,Hele, hele, kdo z vás je Suke a kdo Kaku?
+Dialogue: Marked=0,0:18:58.72,0:18:59.76,Default,,0000,0000,0000,,A kde je Yashichi?
+Dialogue: Marked=0,0:18:59.80,0:19:01.22,Default,,0000,0000,0000,,Ach, a co Kagerou Hachibei?
+Dialogue: Marked=0,0:19:01.30,0:19:03.06,Default,,0000,0000,0000,,A Kazaguruma no Ogin?
+Dialogue: Marked=0,0:19:01.97,0:19:03.06,Pozadi,,0000,0000,0000,,O èem to mluví?
+Dialogue: Marked=0,0:19:03.06,0:19:04.10,Default,,0000,0000,0000,,Kdo ví?
+Dialogue: Marked=0,0:19:04.10,0:19:06.81,Default,,0000,0000,0000,,A co symbol, kterého se bojí všichni darebáci?
+Dialogue: Marked=0,0:19:07.39,0:19:08.48,Default,,0000,0000,0000,,To mluvíš o tomhle?
+Dialogue: Marked=0,0:19:10.73,0:19:12.52,Default,,0000,0000,0000,,To je symbol Miteshu!
+Dialogue: Marked=0,0:19:17.28,0:19:18.82,Default,,0000,0000,0000,,To není jako v Aoi no Gomon.
+Dialogue: Marked=0,0:19:19.36,0:19:22.95,Default,,0000,0000,0000,,Co to k èertu vyvádí? Nejdøív je nadšenej a pak hned zase zkleslej.
+Dialogue: Marked=0,0:19:22.95,0:19:24.70,Default,,0000,0000,0000,,Mokona je prostì takovı.
+Dialogue: Marked=0,0:19:25.79,0:19:28.46,Default,,0000,0000,0000,,Oni... oni jimi opravdu jsou.
+Dialogue: Marked=0,0:19:29.04,0:19:32.42,Default,,0000,0000,0000,,Zdá se, e Ryoshi pouil svou \Nohromnou sílu, kterou náhle získal...
+Dialogue: Marked=0,0:19:32.42,0:19:35.50,Default,,0000,0000,0000,,... k vytvoøení nepropustné bariéry kolem mìsta.
+Dialogue: Marked=0,0:19:36.76,0:19:43.39,Default,,0000,0000,0000,,Bariéra bránila kadému, kdo \Nneovládá Hijutsu, ve vstupu do mìsta.
+Dialogue: Marked=0,0:19:44.81,0:19:46.60,Default,,0000,0000,0000,,Ale bariéra padla...
+Dialogue: Marked=0,0:19:46.60,0:19:48.73,Default,,0000,0000,0000,,... a my mohli vstoupit do mìsta.
+Dialogue: Marked=0,0:19:54.48,0:19:57.73,Default,,0000,0000,0000,,Je nám opravdu líto, e jste museli èekat tak dlouho.
+Dialogue: Marked=0,0:20:00.86,0:20:05.78,Default,,0000,0000,0000,,Ty rány... zkoušeli jste se dostat do mìsta, e ano?
+Dialogue: Marked=0,0:20:07.24,0:20:09.87,Default,,0000,0000,0000,,Ve srovnání s vaší bolestí a utrpením...
+Dialogue: Marked=0,0:20:10.29,0:20:11.79,Default,,0000,0000,0000,,... to nic není.
+Dialogue: Marked=0,0:20:14.63,0:20:17.13,Default,,0000,0000,0000,,Dìkuji vám, e jste pøišli.
+Dialogue: Marked=0,0:20:18.13,0:20:21.51,Default,,0000,0000,0000,,Vypadá to, e ten Ryoshi nìkam zmizel.
+Dialogue: Marked=0,0:20:22.01,0:20:23.76,Default,,0000,0000,0000,,Budeme muset vybrat nového Ryoshiho.
+Dialogue: Marked=0,0:20:29.06,0:20:30.64,Default,,0000,0000,0000,,Nepotøebujeme nového vládce!
+Dialogue: Marked=0,0:20:34.48,0:20:39.69,Default,,0000,0000,0000,,My všichni udìláme z Ryongi krásné mìsto vlastníma rukama.
+Dialogue: Marked=0,0:20:47.16,0:20:49.45,Default,,0000,0000,0000,,Mohu se vás na nìco zeptat?
+Dialogue: Marked=0,0:20:53.12,0:20:58.21,Default,,0000,0000,0000,,Proè jste riskovali své ivoty pro záchranu tohoto mìsta?
+Dialogue: Marked=0,0:21:01.51,0:21:05.09,Default,,0000,0000,0000,,Upravíme to tady tak, aby tu byl \Ndostatek místa, pro zasazení kvìtin.
+Dialogue: Marked=0,0:21:08.72,0:21:11.14,Default,,0000,0000,0000,,Kdo ví... ale tohle bych rád vidìl!
+Dialogue: Marked=0,0:21:11.93,0:21:12.60,Default,,0000,0000,0000,,Já bych vìdìl.
+Dialogue: Marked=0,0:21:17.98,0:21:20.23,Default,,0000,0000,0000,,Musíme u jít.
+Dialogue: Marked=0,0:21:41.59,0:21:42.84,Default,,0000,0000,0000,,Dìkuji ti, Chuan Hyang.
+Dialogue: Marked=0,0:21:43.84,0:21:45.80,Default,,0000,0000,0000,,Bohuel, musíme u jít.
+Dialogue: Marked=0,0:21:46.47,0:21:48.80,Default,,0000,0000,0000,,Coe? Kam chcete jít?
+Dialogue: Marked=0,0:21:53.60,0:21:55.60,Default,,0000,0000,0000,,Mokona Modoki se u nemùe doèkat.
+Dialogue: Marked=0,0:22:02.11,0:22:03.40,Default,,0000,0000,0000,,Co to dìlá?
+Dialogue: Marked=0,0:22:03.40,0:22:04.86,Default,,0000,0000,0000,,A proè má ty køídla?
+Dialogue: Marked=0,0:22:08.62,0:22:10.12,Default,,0000,0000,0000,,Vdy jste sem zrovna pøišli.
+Dialogue: Marked=0,0:22:10.99,0:22:13.25,Default,,0000,0000,0000,,Máme ještì nìjaké vìci, které musíme udìlat.
+Dialogue: Marked=0,0:22:15.33,0:22:17.08,Default,,0000,0000,0000,,Opatruj se, Chuan Hyang.
+Dialogue: Marked=0,0:22:35.73,0:22:36.45,Default,,0000,0000,0000,,Sakuro.
+Dialogue: Marked=0,0:22:37.50,0:22:38.40,Default,,0000,0000,0000,,Shaorane.
+Dialogue: Marked=0,0:22:42.36,0:22:45.94,Default,,0000,0000,0000,,Ještì se... uvidíme... vím to.
+Dialogue: Marked=0,0:22:53.16,0:22:55.29,Default,,0000,0000,0000,,Dìkuji vám.
+Dialogue: Marked=0,0:23:00.58,0:23:10.43,Karaoke,,0000,0000,0000,,{\fad(960,375)}Nee kono machi ga yuuyami ni somaru toki wa
+Dialogue: Marked=0,0:23:00.58,0:23:10.43,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Víš, kdy se toto mìsto propadá do soumraku,
+Dialogue: Marked=0,0:23:10.93,0:23:17.64,Karaoke,,0000,0000,0000,,{\fad(960,375)}chiisa na tane wo otosu darou
+Dialogue: Marked=0,0:23:10.93,0:23:17.64,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}nìkde asi vypadne malé semínko.
+Dialogue: Marked=0,0:23:19.31,0:23:29.03,Karaoke,,0000,0000,0000,,{\fad(960,375)}fumikatamerareta tsuchi wo michi da to yobu no naraba
+Dialogue: Marked=0,0:23:19.31,0:23:29.03,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Kdy se udupané pùdì øíká cesta,
+Dialogue: Marked=0,0:23:29.94,0:23:37.62,Karaoke,,0000,0000,0000,,{\fad(960,375)}me wo tojiru koto demo ai ka na
+Dialogue: Marked=0,0:23:29.94,0:23:37.62,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}mùe se zavøení mıch oèí nazıvat láskou.
+Dialogue: Marked=0,0:23:38.70,0:23:48.80,Karaoke,,0000,0000,0000,,{\fad(960,375)}kono hoshi ga taira nara futari deaetenakatta
+Dialogue: Marked=0,0:23:38.70,0:23:48.80,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Kdyby byla Zemì plochá, nikdy bychom se nesetkali.
+Dialogue: Marked=0,0:23:48.80,0:23:57.35,Karaoke,,0000,0000,0000,,{\fad(960,375)}otagai wo toozakeru you ni hashitteita
+Dialogue: Marked=0,0:23:48.80,0:23:57.35,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Utíkali jsme od sebe pryè.
+Dialogue: Marked=0,0:23:57.35,0:24:07.69,Karaoke,,0000,0000,0000,,{\fad(960,375)}supiido wo yumuzu ni ima wa donna ni hanarete mo
+Dialogue: Marked=0,0:23:57.35,0:24:07.69,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Nezpomalujeme, i kdy u jsme tak daleko.
+Dialogue: Marked=0,0:24:07.69,0:24:18.95,Karaoke,,0000,0000,0000,,{\fad(960,375)}meguru kiseki no tochuu ni mata mukaiau no darou
+Dialogue: Marked=0,0:24:07.69,0:24:18.95,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Bìíme v kruhu a opìt se setkáme tváøí v tváø.
+Dialogue: Marked=0,0:24:18.95,0:24:25.92,Karaoke,,0000,0000,0000,,{\fad(960,375)}mukaiau no darou
+Dialogue: Marked=0,0:24:18.95,0:24:25.92,Karaoke_cz,,0000,0000,0000,,{\fad(960,375)}Opìt se setkáme tváøí v tváø.

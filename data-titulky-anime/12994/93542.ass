@@ -1,0 +1,423 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,27,187,0
+Style: Next Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,53,160,0
+Style: RightSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,533,160,53,0
+Style: LeftSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,160,533,53,0
+Style: EpNum,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,533,333,0
+Style: LeftSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,133,560,160,0
+Style: RightSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,560,107,160,0
+Style: CenterSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,307,307,160,0
+Style: DefaultLeftH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: DefaultRightH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,9,0,0,28,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: RightSignL2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,560,107,133,0
+Style: LeftSignL2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,107,560,133,0
+Style: DefaultLow2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: DefaultLef2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: DefaultLeftM,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: OnTop,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,320,160,67,0
+Style: SMR,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,147,27,27,0
+Style: LeftSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,40,547,160,0
+Style: RightSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,547,27,160,0
+Style: CenterSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,320,320,160,0
+Style: DefaultC,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: 3rd,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,267,160,53,0
+Style: RightSignL3,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,560,213,213,0
+Style: RightSignMC,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,53,160,0
+Style: DefaultLeftHLower,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: RightSignLS,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,560,107,107,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:32.38,0:01:34.51,Default,NTP,0000,0000,0000,,{\a6}Být tady
+Dialogue: 0,0:01:35.47,0:01:37.76,Default,NTP,0000,0000,0000,,Tak udělejme experiment.
+Dialogue: 0,0:01:38.01,0:01:39.39,DefaultC,NTP,0000,0000,0000,,Nejlepší kvalita rafinované rýžové mouky \N Domácí mokrá lepkavá rýže 100%
+Dialogue: 0,0:01:39.89,0:01:43.52,Default,NTP,0000,0000,0000,,Měli bychom začít s 200 gramy \N pro lepkavé rýžové moučné knedlíky?
+Dialogue: 0,0:01:43.77,0:01:44.77,Default,NTP,0000,0000,0000,,Ano!
+Dialogue: 0,0:01:44.77,0:01:45.60,SMR,NTP,0000,0000,0000,,KÝVNUTÍ
+Dialogue: 0,0:01:47.10,0:01:50.19,Default,NTP,0000,0000,0000,,Měli bychom to nazvat \N "chlazeným sirupem shiratama"?
+Dialogue: 0,0:01:50.19,0:01:52.23,Default,NTP,0000,0000,0000,,Určitě, to je opravdu roztomilé!
+Dialogue: 0,0:01:53.57,0:01:56.95,Default,NTP,0000,0000,0000,,{\i1}Půlměsíc měl na ročním letním\N festivalu stánek s jídlem{\i0}
+Dialogue: 0,0:01:56.95,0:01:59.24,Default,NTP,0000,0000,0000,,{\i1}v nákupní čtvrti.{\i0}
+Dialogue: 0,0:01:59.78,0:02:04.87,Default,NTP,0000,0000,0000,,{\i1}Letos se děda rozhodl, \N co bude v nabídce.{\i0}
+Dialogue: 0,0:01:59.78,0:02:04.87,Default,NTP,0000,0000,0000,,{\a6}Nákupní čtvrť \NFestival \NNeděle 28. července
+Dialogue: 0,0:02:05.41,0:02:08.96,Default,NTP,0000,0000,0000,,Jednoduše to vysvětlíme tak,\N jak děláš knedlíky z rýžové mouky...
+Dialogue: 0,0:02:09.50,0:02:11.96,Default,NTP,0000,0000,0000,,Krok první. Rýžovou mouku\N promíchejte ve studené vodě.
+Dialogue: 0,0:02:12.63,0:02:14.34,Default,NTP,0000,0000,0000,,Krok dva. Udělejte kuličky\N a vařte v horké vodě.
+Dialogue: 0,0:02:14.92,0:02:15.84,Default,NTP,0000,0000,0000,,To je vše.
+Dialogue: 0,0:02:15.84,0:02:18.47,RightSign,NTP,0000,0000,0000,,HIHŇAT SE
+Dialogue: 0,0:02:15.84,0:02:18.47,Default,NTP,0000,0000,0000,,{\a10}AHAHA
+Dialogue: 0,0:02:16.88,0:02:18.47,Default,NTP,0000,0000,0000,,Vidíš? Jednoduše, dobře?
+Dialogue: 0,0:02:19.34,0:02:23.52,Default,NTP,0000,0000,0000,,Cože? "Jednoduše, dobře?"\N Je to příliš jednoduché!
+Dialogue: 0,0:02:21.89,0:02:23.52,Default,NTP,0000,0000,0000,,{\a6}EHHH
+Dialogue: 0,0:02:24.14,0:02:28.77,Default,NTP,0000,0000,0000,,Myslím, že začneme s 200 gramy rýžové mouky \N a asi 160 ml studené vody.
+Dialogue: 0,0:02:25.98,0:02:28.77,Default,NTP,0000,0000,0000,,{\a6}Rýžová mouka se prodává v každém obchodě.
+Dialogue: 0,0:02:29.44,0:02:33.78,Default,NTP,0000,0000,0000,,Dejte mouku do mísy a zalijte ji vodou\Na zamíchejte.
+Dialogue: 0,0:02:35.40,0:02:38.57,Default,NTP,0000,0000,0000,,Jakmile je dobře promícháno, \N namáhejte nějaké svaly při hnětení.
+Dialogue: 0,0:02:40.37,0:02:43.95,Default,NTP,0000,0000,0000,,Pokud dáte příliš mnoho vody, bude to lepkavé\N a bude obtížné formovat koule,
+Dialogue: 0,0:02:43.95,0:02:46.16,Default,NTP,0000,0000,0000,,takže zastavte, když těsto dostane tvar.
+Dialogue: 0,0:02:47.46,0:02:49.83,Default,NTP,0000,0000,0000,,Pak těsto rozválejte \N do tvaru válce rukama
+Dialogue: 0,0:02:51.79,0:02:54.13,Default,NTP,0000,0000,0000,,a rozdělte je na kusy\N akorát ke kousnutí.
+Dialogue: 0,0:02:55.05,0:02:56.76,Default,NTP,0000,0000,0000,,Chápu to!
+Dialogue: 0,0:02:56.76,0:02:58.88,Default,NTP,0000,0000,0000,,{\a10}HNĚTE\NHNĚTE
+Dialogue: 0,0:02:56.76,0:02:58.88,Default,NTP,0000,0000,0000,,{\a6}VÁLÍ\NVÁLÍ
+Dialogue: 0,0:02:57.22,0:02:58.51,Default,NTP,0000,0000,0000,,Tohle je legrace!
+Dialogue: 0,0:02:58.97,0:03:01.14,Default,NTP,0000,0000,0000,,Rýžové moučné knedlíky! Tenhle je od Momo!
+Dialogue: 0,0:03:01.34,0:03:02.30,Default,NTP,0000,0000,0000,,{\a6}FWHAAA
+Dialogue: 0,0:03:02.30,0:03:03.72,Default,NTP,0000,0000,0000,,{\a10}TLAČIT\NTLAČIT
+Dialogue: 0,0:03:03.01,0:03:03.72,Default,NTP,0000,0000,0000,,{\a6}ROZMÁČKNOUT\NROZMÁČKNOUT
+Dialogue: 0,0:03:04.01,0:03:06.10,Default,NTP,0000,0000,0000,,Ano, děláš to dobře, Momo.
+Dialogue: 0,0:03:06.10,0:03:08.06,Default,NTP,0000,0000,0000,,Ale možná je to trochu velké.
+Dialogue: 0,0:03:08.44,0:03:10.31,Default,NTP,0000,0000,0000,,Sestřičko, asi této velikosti?
+Dialogue: 0,0:03:10.73,0:03:11.56,Default,NTP,0000,0000,0000,,Je to příliš malé?
+Dialogue: 0,0:03:11.86,0:03:13.61,Default,NTP,0000,0000,0000,,{\a6}MALIČKÝ
+Dialogue: 0,0:03:12.44,0:03:13.61,Default,NTP,0000,0000,0000,,Více kroužit?
+Dialogue: 0,0:03:14.27,0:03:18.19,Default,NTP,0000,0000,0000,,Neboj se. Když je uvaříme, trochu nabydou,\N takže tento je perfektní.
+Dialogue: 0,0:03:18.70,0:03:23.20,Default,NTP,0000,0000,0000,,Když děláte velké knedlíky z rýžové mouky,\N byste je takhle trochu zmáčknout,
+Dialogue: 0,0:03:23.70,0:03:25.08,Default,NTP,0000,0000,0000,,ale dnes vyrábíme menší.
+Dialogue: 0,0:03:26.66,0:03:29.54,Default,NTP,0000,0000,0000,,Potom je dáme do vroucí vody.
+Dialogue: 0,0:03:30.00,0:03:32.75,Default,NTP,0000,0000,0000,,Po dvou nebo třech minutách vyplavou nahoru.
+Dialogue: 0,0:03:34.96,0:03:36.25,Default,NTP,0000,0000,0000,,Možná trochu víc.
+Dialogue: 0,0:03:36.25,0:03:37.34,Default,NTP,0000,0000,0000,,Trochu víc?
+Dialogue: 0,0:03:37.80,0:03:40.22,Default,NTP,0000,0000,0000,,Pak je necháte ve vroucí vodě \N další minutu.
+Dialogue: 0,0:03:44.64,0:03:47.31,Default,NTP,0000,0000,0000,,Pak je přendáte do ledové vody, \N která je zpevní.
+Dialogue: 0,0:03:47.64,0:03:48.60,Default,NTP,0000,0000,0000,,A...
+Dialogue: 0,0:03:48.60,0:03:50.14,Default,NTP,0000,0000,0000,,Jsou hotové!
+Dialogue: 0,0:03:48.60,0:03:50.14,Default,NTP,0000,0000,0000,,{\a6}TA-DAA
+Dialogue: 0,0:03:50.27,0:03:51.56,Default,NTP,0000,0000,0000,,{\a6}Voila!
+Dialogue: 0,0:03:50.77,0:03:52.02,Default,NTP,0000,0000,0000,,PRUŽNÝ
+Dialogue: 0,0:03:52.15,0:03:54.06,Default,NTP,0000,0000,0000,,T-To bylo tak rychlé! A jednoduché!
+Dialogue: 0,0:03:54.23,0:03:55.23,Default,NTP,0000,0000,0000,,Nádhera!
+Dialogue: 0,0:03:57.11,0:03:59.90,Default,NTP,0000,0000,0000,,Nejprve to zkusíme \N s cukrem a sojovou omáčkou.
+Dialogue: 0,0:04:09.54,0:04:11.25,Default,NTP,0000,0000,0000,,Mňam!
+Dialogue: 0,0:04:11.25,0:04:13.46,Default,NTP,0000,0000,0000,,Je to tak žvýkací!
+Dialogue: 0,0:04:13.88,0:04:17.38,Default,NTP,0000,0000,0000,,Knedlíky z rýžové mouky \N projdou testem chuti,
+Dialogue: 0,0:04:17.38,0:04:19.42,Default,NTP,0000,0000,0000,,ale výzvou je sirup.
+Dialogue: 0,0:04:19.71,0:04:22.93,Default,NTP,0000,0000,0000,,Máme matchu, že? Švestkový sirup,\N chlazená sladká polévka z červených fazolí...
+Dialogue: 0,0:04:24.64,0:04:26.64,Default,NTP,0000,0000,0000,,Je to tak vynikající s matchou!
+Dialogue: 0,0:04:27.18,0:04:29.22,Default,NTP,0000,0000,0000,,Ale prášková matcha je drahá.
+Dialogue: 0,0:04:29.47,0:04:32.35,Default,NTP,0000,0000,0000,,{\a6}Nechci, aby byl každý šálek \N dražší než 300 jenů.
+Dialogue: 0,0:04:33.90,0:04:39.94,Default,NTP,0000,0000,0000,,{\a6}Pokud můžeme získat asi 60 malých knedlíčků \N z 200 gramů rýžové mouky...
+Dialogue: 0,0:04:40.32,0:04:41.90,Default,NTP,0000,0000,0000,,Uvidíme...
+Dialogue: 0,0:04:42.20,0:04:42.95,RightSign,NTP,0000,0000,0000,,HMMM
+Dialogue: 0,0:04:45.07,0:04:45.45,DefaultC,NTP,0000,0000,0000,,OH
+Dialogue: 0,0:04:45.70,0:04:48.28,Default,NTP,0000,0000,0000,,Mám to! A co studený čaj s mlékem?
+Dialogue: 0,0:04:48.62,0:04:49.79,Default,NTP,0000,0000,0000,,Je to bohaté a sladké!
+Dialogue: 0,0:04:50.58,0:04:51.75,Default,NTP,0000,0000,0000,,To by mohlo být dobré!
+Dialogue: 0,0:04:51.75,0:04:54.46,Default,NTP,0000,0000,0000,,Pravda, lístky černého čaje\N by byly mnohem levnější!
+Dialogue: 0,0:04:54.79,0:04:59.80,Default,NTP,0000,0000,0000,,Proč také nevložíme černou perlovou tapioku? \N Byly by to pěkné barevné akcenty!
+Dialogue: 0,0:04:59.80,0:05:01.51,Default,NTP,0000,0000,0000,,To je skvělý nápad!
+Dialogue: 0,0:05:01.92,0:05:05.93,Default,NTP,0000,0000,0000,,{\a6}Chcete-li uhradit náklady na tapioku, \N místo použití jednorázových misek a lžiček,
+Dialogue: 0,0:05:05.93,0:05:09.68,Default,NTP,0000,0000,0000,,{\a6}můžeme sebrat lžíce a misky z našeho domu,\NPůlměsíce a baru tety Misaki
+Dialogue: 0,0:05:09.68,0:05:12.73,Default,NTP,0000,0000,0000,,{\a6}a pořád je umývat, \N i když to by mohl být problém.
+Dialogue: 0,0:05:12.73,0:05:15.60,Default,NTP,0000,0000,0000,,{\a6}- Můžeme nechat Kiriyamu umývat nádobí! \N- Co?
+Dialogue: 0,0:05:15.60,0:05:17.69,Default,NTP,0000,0000,0000,,{\a6}Dobrý nápad! Pojďme se ho zeptat!
+Dialogue: 0,0:05:18.11,0:05:21.11,Default,NTP,0000,0000,0000,,{\a6}PŮLMĚSÍC
+Dialogue: 0,0:05:29.66,0:05:32.83,Default,NTP,0000,0000,0000,,U knedlíků jste odvedly skvělou práci.
+Dialogue: 0,0:05:32.83,0:05:35.58,Default,NTP,0000,0000,0000,,Dáte je do ledové vody, \Nabyste je zpevnily, správně?
+Dialogue: 0,0:05:36.17,0:05:39.21,Default,NTP,0000,0000,0000,,A tapioka?
+Dialogue: 0,0:05:39.42,0:05:41.55,Default,NTP,0000,0000,0000,,Další skvělá věc, hm?
+Dialogue: 0,0:05:44.55,0:05:47.09,Default,NTP,0000,0000,0000,,Hej, je to docela pevné.
+Dialogue: 0,0:05:47.09,0:05:49.10,Default,NTP,0000,0000,0000,,To je druh škrobu, správně?
+Dialogue: 0,0:05:49.47,0:05:50.76,Default,NTP,0000,0000,0000,,Dědečku.
+Dialogue: 0,0:05:50.76,0:05:52.85,Default,NTP,0000,0000,0000,,C-Co si myslíš?
+Dialogue: 0,0:05:51.85,0:05:52.85,Default,NTP,0000,0000,0000,,{\a6}BUŠÍ BUŠÍ
+Dialogue: 0,0:05:55.44,0:05:56.98,Default,NTP,0000,0000,0000,,Myslím, že to uděláme.
+Dialogue: 0,0:05:57.27,0:05:59.48,Default,NTP,0000,0000,0000,,{\i1}Sakra, je to vlastně opravdu dobré.{\i0}
+Dialogue: 0,0:05:59.94,0:06:02.48,Default,NTP,0000,0000,0000,,Mám pocit, že se budou mládeži opravdu líbit.
+Dialogue: 0,0:06:02.65,0:06:06.32,Default,NTP,0000,0000,0000,,Mělo by se to dobře prodávat na stánku s jídlem.\N Koneckonců je to festival.
+Dialogue: 0,0:06:07.36,0:06:10.33,LeftSign,NTP,0000,0000,0000,,JASNÝ
+Dialogue: 0,0:06:08.16,0:06:09.91,Default,NTP,0000,0000,0000,,Jé!
+Dialogue: 0,0:06:10.49,0:06:12.66,Default,NTP,0000,0000,0000,,Tenhle byl obzvlášť dobrý.
+Dialogue: 0,0:06:12.66,0:06:14.25,Default,NTP,0000,0000,0000,,Švestkový sirup?
+Dialogue: 0,0:06:14.25,0:06:16.67,Default,NTP,0000,0000,0000,,Je to osvěžující a chutné.
+Dialogue: 0,0:06:17.92,0:06:21.46,Default,NTP,0000,0000,0000,,Ten švestkový sirup vyrobila Chiho.
+Dialogue: 0,0:06:23.88,0:06:27.80,Default,NTP,0000,0000,0000,,Ano? To je pěkná švestková vůně.
+Dialogue: 0,0:06:30.97,0:06:32.72,Default,NTP,0000,0000,0000,,{\a6}{\i1}Jakmile začaly letní prázdniny,{\i0}
+Dialogue: 0,0:06:36.31,0:06:38.40,Default,NTP,0000,0000,0000,,{\a6}{\i1}jely jsme se podívat na Chiho.{\i0}
+Dialogue: 0,0:06:39.81,0:06:41.23,Default,NTP,0000,0000,0000,,{\a6}Chiho!
+Dialogue: 0,0:06:42.69,0:06:43.98,Default,NTP,0000,0000,0000,,{\a6}Hino.
+Dialogue: 0,0:06:49.78,0:06:52.08,Default,NTP,0000,0000,0000,,{\a6}{\i1}Vzala mě kolem farmy.{\i0}
+Dialogue: 0,0:06:52.08,0:06:53.08,Default,NTP,0000,0000,0000,,ŠPRÝMAŘ ŠPRÝMAŘ
+Dialogue: 0,0:06:53.37,0:06:54.58,Default,NTP,0000,0000,0000,,{\a10}WAHH
+Dialogue: 0,0:06:54.79,0:06:55.91,Default,NTP,0000,0000,0000,,{\i1}Mám tě rád!{\i0}
+Dialogue: 0,0:06:56.37,0:06:58.16,Default,NTP,0000,0000,0000,,{\i1}Hraj si se mnou. Haf-haf!{\i0}
+Dialogue: 0,0:06:58.33,0:06:59.79,Default,NTP,0000,0000,0000,,{\i1}Pojď si hrát!{\i0}
+Dialogue: 0,0:07:00.63,0:07:04.17,Default,NTP,0000,0000,0000,,{\a6}{\i1}Ukázala mi Hanu a její štěňátka.{\i0}
+Dialogue: 0,0:07:04.63,0:07:07.42,Default,NTP,0000,0000,0000,,{\a6}{\i1}Mám tě ráda! Já tě mám ráda!{\i0}
+Dialogue: 0,0:07:14.22,0:07:20.77,Default,NTP,0000,0000,0000,,{\i1}Někdy, když jsme mluvily, \N Chiho zmlkla a stáhla se do sebe.{\i0}
+Dialogue: 0,0:07:24.02,0:07:33.20,Default,NTP,0000,0000,0000,,{\i1}Paní Satou řekla, že i dnes Chiho zamrzne,\Nkdyž uvidí dívku ze střední školy.{\i0}
+Dialogue: 0,0:07:35.33,0:07:41.58,Default,NTP,0000,0000,0000,,{\i1}Když někdy uvidí někoho stejného věku,\N všechny její bolestivé vzpomínky{\i0}
+Dialogue: 0,0:07:41.58,0:07:46.25,Default,NTP,0000,0000,0000,,{\i1}zaplaví její srdce a mysl.{\i0}
+Dialogue: 0,0:07:48.97,0:07:53.64,Default,NTP,0000,0000,0000,,{\i1}Její tělo tomu zřejmě odolává vší silou.{\i0}
+Dialogue: 0,0:07:57.18,0:08:00.06,Default,NTP,0000,0000,0000,,{\i1}Ale Chiho tady tvrdě pracuje,{\i0}
+Dialogue: 0,0:08:00.39,0:08:03.06,Default,NTP,0000,0000,0000,,{\i1}takže kousek po kousku,{\i0}
+Dialogue: 0,0:08:03.65,0:08:07.98,Default,NTP,0000,0000,0000,,{\i1}bude schopna mluvit \N a chovat se tak, jako dřív.{\i0}
+Dialogue: 0,0:08:07.98,0:08:10.07,Default,NTP,0000,0000,0000,,{\i1}To je to, co mi řekla paní Satou.{\i0}
+Dialogue: 0,0:08:10.07,0:08:11.95,Default,NTP,0000,0000,0000,,{\a10}CHIHO
+Dialogue: 0,0:08:12.53,0:08:15.20,Default,NTP,0000,0000,0000,,{\i1}Večer se u Chiho objevila horečka,{\i0}
+Dialogue: 0,0:08:15.70,0:08:19.70,Default,NTP,0000,0000,0000,,{\i1}tak její máma odvezla sestřičku \Na mne na stanici.{\i0}
+Dialogue: 0,0:08:20.83,0:08:25.34,Default,NTP,0000,0000,0000,,{\i1}"Mockrát ti děkuji za podporu Chiho."{\i0}
+Dialogue: 0,0:08:25.34,0:08:30.34,Default,NTP,0000,0000,0000,,{\i1}Její matka to řekla, když mi sevřela ruce.{\i0}
+Dialogue: 0,0:08:31.51,0:08:35.26,Default,NTP,0000,0000,0000,,{\i1}Řekla: „Chiho a já zde budeme dělat,\N co bude v našich silách."{\i0}
+Dialogue: 0,0:08:43.77,0:08:47.52,Default,NTP,0000,0000,0000,,{\i1}Prvním krokem je spřátelení se zvířaty.{\i0}
+Dialogue: 0,0:08:48.27,0:08:51.19,Default,NTP,0000,0000,0000,,{\i1}Další je, že si dělá přátele \Nmezi lidmi staršími než je sama.{\i0}
+Dialogue: 0,0:08:52.03,0:08:56.53,Default,NTP,0000,0000,0000,,{\i1}Třetím krokem je spřátelení s lidmi\N blízkými vašemu věku.{\i0}
+Dialogue: 0,0:09:03.04,0:09:07.42,Default,NTP,0000,0000,0000,,{\i1}Dokonce i teď Chiho bojuje.{\i0}
+Dialogue: 0,0:09:09.96,0:09:12.76,Default,NTP,0000,0000,0000,,{\i1}Pošlu jí fotografie z letního festivalu.{\i0}
+Dialogue: 0,0:09:13.55,0:09:17.30,Default,NTP,0000,0000,0000,,{\i1}Fotografie každého, kdo si užívá\N její švestkový sirup.{\i0}
+Dialogue: 0,0:09:18.43,0:09:23.02,Default,NTP,0000,0000,0000,,{\i1}A poté ji znovu navštívím.{\i0}
+Dialogue: 0,0:09:25.69,0:09:27.56,Default,NTP,0000,0000,0000,,Dobře, půjdeme?
+Dialogue: 0,0:09:27.90,0:09:29.23,Default,NTP,0000,0000,0000,,Začněme.
+Dialogue: 0,0:09:30.48,0:09:31.48,Default,NTP,0000,0000,0000,,{\a6}PŮLMĚSÍC
+Dialogue: 0,0:09:33.07,0:09:36.61,Default,NTP,0000,0000,0000,,Vítejte! Půlměsíc zde!
+Dialogue: 0,0:09:36.61,0:09:37.82,Default,NTP,0000,0000,0000,,{\a6}PŮLMĚSÍC
+Dialogue: 0,0:09:38.16,0:09:42.87,Default,NTP,0000,0000,0000,,A co nějaký sladký, chlazený knedlík\Nz rýžové mouky a sirup?
+Dialogue: 0,0:09:41.62,0:09:42.87,Default,NTP,0000,0000,0000,,{\a5}Chlazený\Nknedlík z rýžové mouky\N300 jenů
+Dialogue: 0,0:09:41.62,0:09:42.87,Default,NTP,0000,0000,0000,,{\a10}Čaj s mlékem\NŠvestkový sirup\NSladké fazole
+Dialogue: 0,0:09:42.87,0:09:44.12,Default,NTP,0000,0000,0000,,{\a10}Chlazený zázvorový nápoj\N100 jenů
+Dialogue: 0,0:09:45.71,0:09:48.08,Default,NTP,0000,0000,0000,,Sladký a studený knedlík z rýžové mouky a sirup!
+Dialogue: 0,0:09:48.54,0:09:50.21,Default,NTP,0000,0000,0000,,Je to hezké a studené!
+Dialogue: 0,0:09:55.51,0:09:57.59,Default,NTP,0000,0000,0000,,Tady je váš švestkový sirup.
+Dialogue: 0,0:09:58.01,0:09:58.72,Default,NTP,0000,0000,0000,,Děkuji.
+Dialogue: 0,0:10:00.35,0:10:01.51,Default,NTP,0000,0000,0000,,Vypadá to opravdu dobře.
+Dialogue: 0,0:10:02.39,0:10:04.23,Default,NTP,0000,0000,0000,,Tady je několik čistých talířů.
+Dialogue: 0,0:10:04.93,0:10:06.35,Default,NTP,0000,0000,0000,,A vezmu si špinavé zpět.
+Dialogue: 0,0:10:06.52,0:10:08.06,Default,NTP,0000,0000,0000,,Děkuji ti, Kiriyamo!
+Dialogue: 0,0:10:08.06,0:10:11.69,Default,NTP,0000,0000,0000,,{\a6}HBITÝ HBITÝ
+Dialogue: 0,0:10:08.40,0:10:11.69,Default,NTP,0000,0000,0000,,Tady jsou 100 jenové mince. \N Vyprázdním zde dvě role pro rozměnění.
+Dialogue: 0,0:10:12.11,0:10:14.99,Default,NTP,0000,0000,0000,,{\a6}HBITÝ HBITÝ
+Dialogue: 0,0:10:12.44,0:10:14.99,Default,NTP,0000,0000,0000,,A utěrky na nádobí. \N Zavěsím ty, které jsou mokré.
+Dialogue: 0,0:10:15.40,0:10:18.07,Default,NTP,0000,0000,0000,,Kiriyama je nejlepší! Je tak všímavý!
+Dialogue: 0,0:10:18.07,0:10:19.49,Default,NTP,0000,0000,0000,,To je vážně velká pomoc!
+Dialogue: 0,0:10:19.82,0:10:22.41,Default,NTP,0000,0000,0000,,Promiň, že tě nechám tak tvrdě pracovat, dítě.
+Dialogue: 0,0:10:22.87,0:10:25.08,Default,NTP,0000,0000,0000,,Tady si alespoň dej chladný zázvorový nápoj.
+Dialogue: 0,0:10:25.50,0:10:27.08,Default,NTP,0000,0000,0000,,Děkuji.
+Dialogue: 0,0:10:27.62,0:10:29.96,Default,NTP,0000,0000,0000,,Je tu tolik lidí.
+Dialogue: 0,0:10:31.88,0:10:32.88,Default,NTP,0000,0000,0000,,Tohle je dobré.
+Dialogue: 0,0:10:33.09,0:10:37.05,Default,NTP,0000,0000,0000,,Festival je úspěšný.\N A my také prodáváme dost.
+Dialogue: 0,0:10:37.59,0:10:43.43,Default,NTP,0000,0000,0000,,Teď je to poprvé, co dělám něco podobného,\N ​​takže jsem trochu překvapený.
+Dialogue: 0,0:10:44.06,0:10:45.06,Default,NTP,0000,0000,0000,,Je to docela zábavné.
+Dialogue: 0,0:10:45.56,0:10:47.14,Default,NTP,0000,0000,0000,,Kiriyamo! Kiriyamo!
+Dialogue: 0,0:10:47.14,0:10:49.81,Default,NTP,0000,0000,0000,,{\a6}- Hej...\N- Co se děje?
+Dialogue: 0,0:10:50.19,0:10:51.94,Default,NTP,0000,0000,0000,,{\a6}Čau. Jak se máš?
+Dialogue: 0,0:10:52.94,0:10:54.15,Default,NTP,0000,0000,0000,,{\a6}Takahashi.
+Dialogue: 0,0:10:54.15,0:10:58.41,Default,NTP,0000,0000,0000,,{\a6}Cože? To už jsi zase vyrostl?
+Dialogue: 0,0:10:59.57,0:11:02.66,Default,NTP,0000,0000,0000,,Chiho dělala tenhle švestkový sirup.
+Dialogue: 0,0:11:03.33,0:11:04.37,Default,NTP,0000,0000,0000,,Díky.
+Dialogue: 0,0:11:04.66,0:11:06.41,Default,NTP,0000,0000,0000,,{\i1}Je obrovský.{\i0}
+Dialogue: 0,0:11:06.87,0:11:07.79,Default,NTP,0000,0000,0000,,{\a10}WHOA
+Dialogue: 0,0:11:10.13,0:11:12.67,Default,NTP,0000,0000,0000,,Babi. Mikako.
+Dialogue: 0,0:11:13.09,0:11:15.96,Default,NTP,0000,0000,0000,,{\i1}Vynikající tříbarevné \N knedlíky z rýžové mouky!{\i0}
+Dialogue: 0,0:11:15.96,0:11:17.42,Default,NTP,0000,0000,0000,,{\i1}Chtěli byste nějaké?{\i0}
+Dialogue: 0,0:11:17.42,0:11:19.34,Default,NTP,0000,0000,0000,,{\i1}Vítejte!{\i0}
+Dialogue: 0,0:11:20.05,0:11:24.93,Default,NTP,0000,0000,0000,,Vše je v pořádku. Dělají skvělou práci.
+Dialogue: 0,0:11:40.53,0:11:42.41,Default,NTP,0000,0000,0000,,{\a6}Je to hezká noc.
+Dialogue: 0,0:11:43.53,0:11:44.66,Default,NTP,0000,0000,0000,,Reii.
+Dialogue: 0,0:11:46.49,0:11:50.92,Default,NTP,0000,0000,0000,,Moc se mi to líbí.
+Dialogue: 0,0:11:57.26,0:12:00.72,Default,NTP,0000,0000,0000,,Myslím, že miluji tu náladu.
+Dialogue: 0,0:12:06.56,0:12:07.68,Default,NTP,0000,0000,0000,,Ano.
+Dialogue: 0,0:12:09.60,0:12:10.77,Default,NTP,0000,0000,0000,,{\a6}KA-CHING
+Dialogue: 0,0:12:10.77,0:12:12.02,Default,NTP,0000,0000,0000,,PLNÝ
+Dialogue: 0,0:12:12.02,0:12:17.03,RightSign,NTP,0000,0000,0000,,CHVĚNÍ\NCHVĚNÍ
+Dialogue: 0,0:12:12.60,0:12:17.03,Default,NTP,0000,0000,0000,,Skvělé! Není ani 19 hodin. \N Prodali jsme to všechno v mžiku!
+Dialogue: 0,0:12:18.44,0:12:23.87,Default,NTP,0000,0000,0000,,Při této rychlosti si myslím, že můžeme\N snadno prodat kari, které je na sporáku na večeři!
+Dialogue: 0,0:12:23.87,0:12:25.53,Default,NTP,0000,0000,0000,,S-Sestřičko, uklidni se!
+Dialogue: 0,0:12:25.78,0:12:28.04,Default,NTP,0000,0000,0000,,Kari není dobré! Jsme cukrárna!
+Dialogue: 0,0:12:29.91,0:12:31.21,Default,NTP,0000,0000,0000,,Ale ne, sestřičko!
+Dialogue: 0,0:12:31.21,0:12:35.00,Default,NTP,0000,0000,0000,,Máme méně než jednu krabici knedlíků!\N I když jsme jich vyrobily tunu!
+Dialogue: 0,0:12:35.00,0:12:37.09,Default,NTP,0000,0000,0000,,Okamžitě nějaké uvaříme!
+Dialogue: 0,0:12:38.05,0:12:40.55,Default,NTP,0000,0000,0000,,Nemůžeme! Také nám už chybí sirup!
+Dialogue: 0,0:12:40.13,0:12:40.88,Default,NTP,0000,0000,0000,,{\a10}PRÁZDNÝ
+Dialogue: 0,0:12:40.88,0:12:43.89,Default,NTP,0000,0000,0000,,Co? Teď, když jsme na prodejním maximu?
+Dialogue: 0,0:12:44.59,0:12:45.35,Default,NTP,0000,0000,0000,,FWIP
+Dialogue: 0,0:12:45.51,0:12:47.10,Default,NTP,0000,0000,0000,,Hlupáci!
+Dialogue: 0,0:12:45.51,0:12:47.10,Default,NTP,0000,0000,0000,,{\a6}PRODAVAČ
+Dialogue: 0,0:12:47.10,0:12:51.73,Default,NTP,0000,0000,0000,,{\a6}PRASKÁNÍ
+Dialogue: 0,0:12:47.85,0:12:50.39,Default,NTP,0000,0000,0000,,Stále máme sójovou mouku \N a sirup z hnědého cukru, ne?
+Dialogue: 0,0:12:50.39,0:12:51.73,Default,NTP,0000,0000,0000,,D-Dědečku!
+Dialogue: 0,0:12:52.02,0:12:53.35,Default,NTP,0000,0000,0000,,Akari, dej vařit trochu vody!
+Dialogue: 0,0:12:53.65,0:12:54.48,Default,NTP,0000,0000,0000,,Dobře!
+Dialogue: 0,0:12:54.48,0:12:56.23,Default,NTP,0000,0000,0000,,Hino, myslíš na obchod! \N- Dobře!
+Dialogue: 0,0:12:56.23,0:13:00.40,Default,NTP,0000,0000,0000,,Dítě, kup nám trochu ledu. Zeptej se\N Takahashiho a on ti řekne kde.
+Dialogue: 0,0:13:00.40,0:13:01.36,Default,NTP,0000,0000,0000,,D-Dobře!
+Dialogue: 0,0:13:01.53,0:13:03.78,Default,NTP,0000,0000,0000,,Budu dělat knedlíky!
+Dialogue: 0,0:13:03.78,0:13:07.53,Default,NTP,0000,0000,0000,,Dobře! Rodino Kawamoto, bojujme!
+Dialogue: 0,0:13:07.53,0:13:08.99,Default,NTP,0000,0000,0000,,Ano!
+Dialogue: 0,0:13:08.99,0:13:12.00,Default,NTP,0000,0000,0000,,Být tady
+Dialogue: 0,0:13:12.00,0:13:16.00,Default,NTP,0000,0000,0000,,{\a6}Letní prázdniny (část první)
+Dialogue: 0,0:13:19.00,0:13:22.76,Default,NTP,0000,0000,0000,,{\a6}PŮLMĚSÍC
+Dialogue: 0,0:13:21.42,0:13:25.09,Default,NTP,0000,0000,0000,,Festival v naší čtvrti byl tak zábavný.
+Dialogue: 0,0:13:25.09,0:13:26.47,OnTop,NTP,0000,0000,0000,,ÚTULNÝ
+Dialogue: 0,0:13:28.51,0:13:31.89,Default,NTP,0000,0000,0000,,Měli jsme si připravit více sirupu, ne?
+Dialogue: 0,0:13:31.89,0:13:36.69,Default,NTP,0000,0000,0000,,Nikdy jsem si nemyslela, že bychom měly\N vyprodáno v 19 hodin. Taková smůla.
+Dialogue: 0,0:13:36.69,0:13:40.65,Default,NTP,0000,0000,0000,,Když už mluvíme o smůle, strávily jste na tom\N příliš času a byly s porcemi příliš velkorysé.
+Dialogue: 0,0:13:40.98,0:13:43.86,Default,NTP,0000,0000,0000,,Po tak tvrdé práci, kdy jsme byli\Npromočení potem, tohle je náš čistý zisk.
+Dialogue: 0,0:13:44.11,0:13:46.99,Default,NTP,0000,0000,0000,,To je to, čemu říkají\N "marně prožívat velké bolesti"!
+Dialogue: 0,0:13:47.66,0:13:48.74,Default,NTP,0000,0000,0000,,Ale...
+Dialogue: 0,0:13:50.45,0:13:56.58,Default,NTP,0000,0000,0000,,Je to opravdu moje srdeční záležitost,\N když jsme obklopeni zákazníky.
+Dialogue: 0,0:13:56.08,0:13:57.08,Default,NTP,0000,0000,0000,,{\a6}ANO
+Dialogue: 0,0:13:57.38,0:14:01.67,Default,NTP,0000,0000,0000,,Díky všem lidem, kteří se zastavili,\N jsme prodali také spoustu našich obvyklých sladkostí.
+Dialogue: 0,0:14:01.67,0:14:05.22,Default,NTP,0000,0000,0000,,Myslím, že ztráta je v pořádku,\N pokud jde o přilákání zákazníků.
+Dialogue: 0,0:14:05.38,0:14:10.47,Default,NTP,0000,0000,0000,,Je to jako když jdeš do obchodu,\Nkdyž mají mléko za 128 jenů, že?
+Dialogue: 0,0:14:10.89,0:14:15.77,Default,NTP,0000,0000,0000,,Nebo 100 gramů šunky za 68 jenů \N nebo plechovku rajčat za 78 jenů.
+Dialogue: 0,0:14:15.77,0:14:18.65,Default,NTP,0000,0000,0000,,Ale samozřejmě si koupíš i jiné věci, ne?
+Dialogue: 0,0:14:23.28,0:14:28.95,Default,NTP,0000,0000,0000,,Vaše máma a babička \N byly obě přirozené prodavačky.
+Dialogue: 0,0:14:29.41,0:14:33.08,Default,NTP,0000,0000,0000,,Ať už udělaly něco sladkého nebo kyselého,\N nezáleželo na tom.
+Dialogue: 0,0:14:33.41,0:14:36.08,Default,NTP,0000,0000,0000,,Vždy tady byla fronta lidí.
+Dialogue: 0,0:14:36.33,0:14:40.29,Default,NTP,0000,0000,0000,,Bylo to opravdu něco. \N Myslel jsem pokaždé, že se koná festival.
+Dialogue: 0,0:14:40.63,0:14:42.67,Default,NTP,0000,0000,0000,,Přál bych si, aby to i vy dívky viděly.
+Dialogue: 0,0:14:43.13,0:14:44.17,LeftSign,NTP,0000,0000,0000,,ZÁŘE
+Dialogue: 0,0:14:44.55,0:14:48.05,Default,NTP,0000,0000,0000,,Pamatuji si. \N Smažené kuře a lucerny.
+Dialogue: 0,0:14:48.30,0:14:51.43,Default,NTP,0000,0000,0000,,Tašky s dlouhými stužkami byly tak roztomilé.
+Dialogue: 0,0:14:53.18,0:14:56.94,Default,NTP,0000,0000,0000,,Často říkaly: \N "Vynakládejte úsilí, ne peníze."
+Dialogue: 0,0:14:59.27,0:15:01.44,Default,NTP,0000,0000,0000,,Pomáhala jsem s plněním tašek.
+Dialogue: 0,0:15:02.02,0:15:03.78,Default,NTP,0000,0000,0000,,Byla to taková legrace.
+Dialogue: 0,0:15:04.19,0:15:08.49,Default,NTP,0000,0000,0000,,Už napoprvé tady jste odvedly skvělou práci.
+Dialogue: 0,0:15:08.66,0:15:12.95,Default,NTP,0000,0000,0000,,Stále však musíte pracovat na prodeji a musíte\N mít způsoby, jak mít rozvahu a nadhled.
+Dialogue: 0,0:15:14.99,0:15:17.58,Default,NTP,0000,0000,0000,,Ale pokud to chcete, můžete příští rok\N mít další pokus.
+Dialogue: 0,0:15:18.08,0:15:20.58,Default,NTP,0000,0000,0000,,Co? Opravdu? Je to v pořádku?
+Dialogue: 0,0:15:20.88,0:15:21.58,Default,NTP,0000,0000,0000,,Já ze sebe dám všechno!
+Dialogue: 0,0:15:20.88,0:15:21.58,Default,NTP,0000,0000,0000,,{\a6}FWOHHH
+Dialogue: 0,0:15:21.71,0:15:25.09,Default,NTP,0000,0000,0000,,Budu mít zákazníky seřazené, \N stejně jako máma a babička!
+Dialogue: 0,0:15:25.09,0:15:26.97,Default,NTP,0000,0000,0000,,{\a6}OHHH
+Dialogue: 0,0:15:25.67,0:15:27.92,Default,NTP,0000,0000,0000,,Musím hned přemýšlet o nabídce!
+Dialogue: 0,0:15:27.55,0:15:27.92,Default,NTP,0000,0000,0000,,{\a10}PROTÁHNUTÍ
+Dialogue: 0,0:15:27.92,0:15:29.30,Default,NTP,0000,0000,0000,,{\a6}FWOHHH
+Dialogue: 0,0:15:29.30,0:15:30.80,Default,NTP,0000,0000,0000,,Hino! Uklidni se.
+Dialogue: 0,0:15:29.30,0:15:30.80,Default,NTP,0000,0000,0000,,{\a6}CHYCENÍ
+Dialogue: 0,0:15:31.26,0:15:33.93,Default,NTP,0000,0000,0000,,Nejprve máš přijímací zkoušky. \N Na které školy ses přihlásila?
+Dialogue: 0,0:15:33.93,0:15:35.31,Default,NTP,0000,0000,0000,,Ah ano.
+Dialogue: 0,0:15:35.56,0:15:36.43,Default,NTP,0000,0000,0000,,Tak je to správně.
+Dialogue: 0,0:15:36.85,0:15:39.94,Default,NTP,0000,0000,0000,,Zítra máte letní test. \N Přes letní prázdniny je to školní den.
+Dialogue: 0,0:15:40.40,0:15:42.19,Default,NTP,0000,0000,0000,,Učila ses?
+Dialogue: 0,0:15:42.81,0:15:47.24,Default,NTP,0000,0000,0000,,Uh, ano, učila.\NAle stejně musím studovat trochu víc.
+Dialogue: 0,0:15:49.03,0:15:51.20,Default,NTP,0000,0000,0000,,Mám to, sestřičko, co želé?
+Dialogue: 0,0:15:51.20,0:15:52.07,Default,NTP,0000,0000,0000,,Hej!
+Dialogue: 0,0:15:52.07,0:15:59.21,Default,NTP,0000,0000,0000,,{\a6}PŮLMĚSÍC
+Dialogue: 0,0:15:52.45,0:15:53.66,Default,NTP,0000,0000,0000,,Vaše ruce se zastavily!
+Dialogue: 0,0:15:53.66,0:15:56.45,Default,NTP,0000,0000,0000,,Už to zabalte! \N Palačinky z červených fazolí vyschnou!
+Dialogue: 0,0:15:56.45,0:15:59.21,Default,NTP,0000,0000,0000,,Že jo! Promiň, dědo!
+Dialogue: 0,0:16:03.92,0:16:04.96,Default,NTP,0000,0000,0000,,Já nemůžu!
+Dialogue: 0,0:16:04.96,0:16:07.34,Default,NTP,0000,0000,0000,,N-N-Nemůžu to udělat!
+Dialogue: 0,0:16:07.34,0:16:09.22,Default,NTP,0000,0000,0000,,{\a6}CHVĚJE SE\NCHVĚJE SE
+Dialogue: 0,0:16:07.34,0:16:09.22,Default,NTP,0000,0000,0000,,{\a6}
+Dialogue: 0,0:16:07.76,0:16:09.22,Default,NTP,0000,0000,0000,,Nemůžu to prostě udělat!
+Dialogue: 0,0:16:09.72,0:16:12.80,Default,NTP,0000,0000,0000,,Je to nemožné! \N Nemohu být třídním učitelem 3A!
+Dialogue: 0,0:16:15.18,0:16:16.93,Default,NTP,0000,0000,0000,,Bude to v pořádku, v pořádku.
+Dialogue: 0,0:16:17.56,0:16:18.43,Default,NTP,0000,0000,0000,,Možná.
+Dialogue: 0,0:16:18.68,0:16:20.56,Default,NTP,0000,0000,0000,,Budu tady, jestli mě budeš potřebovat.
+Dialogue: 0,0:16:19.31,0:16:23.06,Default,NTP,0000,0000,0000,,{\a6}PANIKA
+Dialogue: 0,0:16:20.56,0:16:22.73,Default,NTP,0000,0000,0000,,Je toho příliš mnoho!
+Dialogue: 0,0:16:22.73,0:16:25.32,Default,NTP,0000,0000,0000,,Také jsi to viděl! \N Zlověstný pohled Takagiiny matky!
+Dialogue: 0,0:16:25.32,0:16:28.82,Default,NTP,0000,0000,0000,,Já-já nemám víru, že s ní nebudu zápasit!
+Dialogue: 0,0:16:29.82,0:16:31.15,Default,NTP,0000,0000,0000,,{\i1}Co? Cože?!{\i0}
+Dialogue: 0,0:16:31.78,0:16:33.45,Default,NTP,0000,0000,0000,,{\i1}Nový třídní učitel?{\i0}
+Dialogue: 0,0:16:34.95,0:16:39.45,Default,NTP,0000,0000,0000,,{\i1}Svůj vzácný poslední semestr třetího roku\N svěřujete takovému mladému učiteli?!{\i0}
+Dialogue: 0,0:16:39.79,0:16:42.46,Default,NTP,0000,0000,0000,,{\i1}Co si to ta škola myslí?!{\i0}
+Dialogue: 0,0:16:42.58,0:16:46.34,Default,NTP,0000,0000,0000,,{\a6}WAHHH
+Dialogue: 0,0:16:44.08,0:16:46.34,Default,NTP,0000,0000,0000,,Nemůžu to udělat! Jsem stále nováček!
+Dialogue: 0,0:16:46.54,0:16:49.34,Default,NTP,0000,0000,0000,,Možná jste nováček, ale já jsem starý muž!
+Dialogue: 0,0:16:49.34,0:16:53.34,Default,NTP,0000,0000,0000,,Nemohu být fyzicky třídním učitelem\N dvěma třídám!
+Dialogue: 0,0:16:53.64,0:16:55.97,Default,NTP,0000,0000,0000,,Nemohu sledovat 90 studentů sám!
+Dialogue: 0,0:16:56.51,0:16:59.35,Default,NTP,0000,0000,0000,,Navíc mám své povinnosti jako ředitel!
+Dialogue: 0,0:16:59.77,0:17:04.85,Default,NTP,0000,0000,0000,,{\a6}Kromě toho, jak dlouho potrvá tato \N probíhající diskuse s Takagi?
+Dialogue: 0,0:17:06.52,0:17:12.11,Default,NTP,0000,0000,0000,,Říkal jsem ti. Nechat ji pochopit,\N co udělala, je součástí tvé práce.
+Dialogue: 0,0:17:13.24,0:17:18.37,Default,NTP,0000,0000,0000,,Se vší úctou, bez ohledu na to,\N co jí ještě řekneme, nebude to k ničemu.
+Dialogue: 0,0:17:18.87,0:17:23.62,Default,NTP,0000,0000,0000,,Už se rozhodla, že necítí žádnou vinu.
+Dialogue: 0,0:17:23.96,0:17:26.79,Default,NTP,0000,0000,0000,,Proč na tom musíme trávit takovou dobu?
+Dialogue: 0,0:17:27.25,0:17:28.50,Default,NTP,0000,0000,0000,,To nedává žádný smysl.
+Dialogue: 0,0:17:28.88,0:17:33.72,Default,NTP,0000,0000,0000,,Věnujete veškerou pozornost \N osobě, která způsobila potíže,
+Dialogue: 0,0:17:34.09,0:17:37.39,Default,NTP,0000,0000,0000,,zatímco oběť, Chiho Sakura,\N nejen že kvůli tomu odešla,
+Dialogue: 0,0:17:37.39,0:17:40.68,Default,NTP,0000,0000,0000,,ale pořád ještě nechodí do školy.
+Dialogue: 0,0:17:44.14,0:17:49.02,Default,NTP,0000,0000,0000,,J-Jestli se nechce vzdát, \Ni když neexistoval důvod...
+Dialogue: 0,0:17:49.57,0:17:52.07,Default,NTP,0000,0000,0000,,Po tom, co se to táhne tak dlouho,
+Dialogue: 0,0:17:52.28,0:17:55.32,Default,NTP,0000,0000,0000,,nezáleží na tom, jestli to byla špatná věc nebo ne!
+Dialogue: 0,0:17:56.20,0:17:57.32,Default,NTP,0000,0000,0000,,Komigawo.
+Dialogue: 0,0:17:57.66,0:17:59.95,Default,NTP,0000,0000,0000,,Napíšu to do jejího záznamu.
+Dialogue: 0,0:18:00.41,0:18:03.58,Default,NTP,0000,0000,0000,,Zapíšu to jako její nový třídní učitel.
+Dialogue: 0,0:18:04.91,0:18:08.38,Default,NTP,0000,0000,0000,,Že si myslí, že má vždy pravdu \N a je vůči ostatním velmi agresivní.
+Dialogue: 0,0:18:09.21,0:18:14.34,Default,NTP,0000,0000,0000,,Že je dobrá jako vedoucí skupiny,\N ale způsobuje velké problémy ve třídě.
+Dialogue: 0,0:18:14.76,0:18:15.55,Default,NTP,0000,0000,0000,,A!
+Dialogue: 0,0:18:16.55,0:18:20.72,Default,NTP,0000,0000,0000,,Když někdo způsobí problém,\N musí za něj nést odpovědnost.
+Dialogue: 0,0:18:21.47,0:18:22.89,Default,NTP,0000,0000,0000,,To je čemu věřím.
+Dialogue: 0,0:18:23.43,0:18:24.98,Default,NTP,0000,0000,0000,,Musí být potrestána.
+Dialogue: 0,0:18:25.52,0:18:26.35,Default,NTP,0000,0000,0000,,V opačném případě...
+Dialogue: 0,0:18:27.35,0:18:28.73,Default,NTP,0000,0000,0000,,to je špatně, že?
+Dialogue: 0,0:18:46.58,0:18:48.21,Default,NTP,0000,0000,0000,,Ale, pane učiteli.
+Dialogue: 0,0:18:51.21,0:18:52.71,Default,NTP,0000,0000,0000,,Máte na to odpověď?
+Dialogue: 0,0:18:53.67,0:18:58.47,Default,NTP,0000,0000,0000,,Našel jste důvod, proč každý\N musí vynaložit úsilí a udělat maximum?
+Dialogue: 0,0:18:59.18,0:19:00.55,Default,NTP,0000,0000,0000,,Našel jste něco?
+Dialogue: 0,0:19:01.35,0:19:04.81,Default,NTP,0000,0000,0000,,Dobrá. Od chvíle, kdy to vyšlo najevo,\N jsem hodně přemýšlel.
+Dialogue: 0,0:19:08.52,0:19:09.73,Default,NTP,0000,0000,0000,,A...
+Dialogue: 0,0:19:13.19,0:19:15.19,Default,NTP,0000,0000,0000,,nemohl jsem najít odpověď.
+Dialogue: 0,0:19:23.62,0:19:25.50,Default,NTP,0000,0000,0000,,Nenašel jste ji?
+Dialogue: 0,0:19:26.12,0:19:28.12,Default,NTP,0000,0000,0000,,Co to, sakra, je?
+Dialogue: 0,0:19:28.12,0:19:32.54,Default,NTP,0000,0000,0000,,{\a6}ABSENCE\NZÁZNAMY
+Dialogue: 0,0:19:28.71,0:19:35.55,Default,NTP,0000,0000,0000,,Zavařil jsem si mozek, ale nakonec,\Nabych byl upřímný, nic mě nenapadlo.
+Dialogue: 0,0:19:36.42,0:19:38.51,Default,NTP,0000,0000,0000,,Je to zvláštní, že?
+Dialogue: 0,0:19:39.05,0:19:45.02,Default,NTP,0000,0000,0000,,A když jsem o tom přemýšlel, uvědomil jsem si,\N že o tom nikdy nepochybuji.
+Dialogue: 0,0:19:45.72,0:19:48.02,Default,NTP,0000,0000,0000,,Proč se to stalo?
+Dialogue: 0,0:19:49.81,0:19:54.15,Default,NTP,0000,0000,0000,,Je těžké vynakládat úsilí, ale vždy jsem\N předpokládal, že to lidé musí udělat.
+Dialogue: 0,0:19:56.03,0:20:01.28,Default,NTP,0000,0000,0000,,Celou tu dobu jsem si myslel, že úsilí \N je něco, co děláte pro své vlastní záměry.
+Dialogue: 0,0:20:04.58,0:20:06.91,Default,NTP,0000,0000,0000,,Každopádně mi to bylo říkáno velmi často,
+Dialogue: 0,0:20:06.91,0:20:12.04,Default,NTP,0000,0000,0000,,takže si ani nepamatuji, kdo to poprvé\N řekl nebo kde jsem ten nápad četl.
+Dialogue: 0,0:20:13.13,0:20:15.84,Default,NTP,0000,0000,0000,,Teď, když jsem dosáhl tohoto věku,
+Dialogue: 0,0:20:15.84,0:20:20.26,Default,NTP,0000,0000,0000,,cítím, že ta fráze byla pravdivá, \N z celého srdce.
+Dialogue: 0,0:20:21.18,0:20:24.14,Default,NTP,0000,0000,0000,,Nejdelší dobu jsem asi jen...
+Dialogue: 0,0:20:26.77,0:20:31.44,Default,NTP,0000,0000,0000,,jsem se chtěl stát lepším člověkem,\N než jsem tehdy byl.
+Dialogue: 0,0:20:34.77,0:20:37.32,Default,NTP,0000,0000,0000,,Takže najednou mluvíme o vás?
+Dialogue: 0,0:20:37.82,0:20:39.57,Default,NTP,0000,0000,0000,,Bude to trvat dlouho?
+Dialogue: 0,0:20:42.78,0:20:44.07,Default,NTP,0000,0000,0000,,Ne.
+Dialogue: 0,0:20:44.87,0:20:46.16,Default,NTP,0000,0000,0000,,Čas vypršel.
+Dialogue: 0,0:20:47.12,0:20:50.33,Default,NTP,0000,0000,0000,,Tohle byl můj poslední den \N jako vašeho dočasného třídního učitele.
+Dialogue: 0,0:20:51.37,0:20:52.75,Default,NTP,0000,0000,0000,,{\a6}Hej, Takagi.
+Dialogue: 0,0:20:53.17,0:20:58.21,Default,NTP,0000,0000,0000,,{\a6}Právě teď si myslím, že máš\N hodně úzkosti, že nevíš, co udělat.
+Dialogue: 0,0:20:59.30,0:21:04.09,Default,NTP,0000,0000,0000,,{\a6}Ve svém životě jsi ještě nic neudělala,\N takže neznáš své vlastní schopnosti.
+Dialogue: 0,0:21:04.84,0:21:06.97,Default,NTP,0000,0000,0000,,{\a6}To je pravá příčina tvé úzkosti.
+Dialogue: 0,0:21:09.10,0:21:10.35,Default,NTP,0000,0000,0000,,{\a6}Pane učiteli.
+Dialogue: 0,0:21:10.81,0:21:14.10,Default,NTP,0000,0000,0000,,Odmítáš vyvíjet úsilí s čímkoli
+Dialogue: 0,0:21:14.10,0:21:17.94,Default,NTP,0000,0000,0000,,protože se bojíš, že poznáš svou vlastní\N osobnost a budeš tím zklamaná.
+Dialogue: 0,0:21:21.07,0:21:22.45,Default,NTP,0000,0000,0000,,Ale Takagi...
+Dialogue: 0,0:21:22.95,0:21:24.74,Default,NTP,0000,0000,0000,,je v pořádku být zklamaná.
+Dialogue: 0,0:21:25.03,0:21:29.87,Default,NTP,0000,0000,0000,,Jakmile poznáš svou vlastní osobnost,\N konečně pochopíš, co bys měla dělat.
+Dialogue: 0,0:21:30.83,0:21:33.00,Default,NTP,0000,0000,0000,,Když pochopíš sama sebe,
+Dialogue: 0,0:21:34.75,0:21:37.88,Default,NTP,0000,0000,0000,,to, co chceš dělat bude také jasnější.
+Dialogue: 0,0:21:38.34,0:21:44.88,Default,NTP,0000,0000,0000,,Jakmile to uděláš, budeš alespoň schopná \N překonat svou neuvěřitelnou úzkost.
+Dialogue: 0,0:21:45.93,0:21:50.06,Default,NTP,0000,0000,0000,,Alespoň toto mohu zaručit.
+Dialogue: 0,0:21:56.23,0:22:00.94,Default,NTP,0000,0000,0000,,{\i1}Poté, co jsem tu zkoušku udělala, \Nv noci jsem udělala spoustu návrhů.{\i0}
+Dialogue: 0,0:22:02.03,0:22:08.07,Default,NTP,0000,0000,0000,,{\i1}V mé hlavě plavalo tolik barevných\N sladkostí a nedalo se to zastavit.{\i0}
+Dialogue: 0,0:22:11.95,0:22:15.00,Default,NTP,0000,0000,0000,,Hino, jak dlouho zůstaneš vzhůru?
+Dialogue: 0,0:22:15.12,0:22:16.71,Default,NTP,0000,0000,0000,,Jdi se vykoupat.
+Dialogue: 0,0:22:17.17,0:22:19.42,Default,NTP,0000,0000,0000,,Hej, nenechávej ten ventilátor zapnutý.
+Dialogue: 0,0:22:19.75,0:22:21.38,Default,NTP,0000,0000,0000,,Bože, nastydneš.
+Dialogue: 0,0:22:23.67,0:22:25.26,Default,NTP,0000,0000,0000,,Ah, Hino.
+Dialogue: 0,0:22:29.10,0:22:30.93,Default,NTP,0000,0000,0000,,Bože. Co to všechno je?
+Dialogue: 0,0:22:37.23,0:22:40.15,Default,NTP,0000,0000,0000,,Ale. Co je to?
+Dialogue: 0,0:22:45.45,0:22:46.53,Default,NTP,0000,0000,0000,,Rozkošné.
+Dialogue: 0,0:22:47.49,0:22:50.03,Default,NTP,0000,0000,0000,,Všechny vypadají chutně.
+Dialogue: 0,0:22:51.37,0:22:53.91,Default,NTP,0000,0000,0000,,Určitě. To je skvělé.
+Dialogue: 0,0:22:54.50,0:22:56.00,Default,NTP,0000,0000,0000,,Jsem nadšená!
+Dialogue: 0,0:22:57.29,0:23:00.04,Default,NTP,0000,0000,0000,,Letní prázdniny (část první)
+Dialogue: 0,0:24:30.01,0:24:32.01,Default,NTP,0000,0000,0000,,{\a6}V příští epizodě uvidíte
+Dialogue: 0,0:24:32.01,0:24:37.47,EpNum,NTP,0000,0000,0000,,Epizoda 42
+Dialogue: 0,0:24:32.39,0:24:35.51,Default,NTP,0000,0000,0000,,Jsou krásné a vypadají chutně.
+Dialogue: 0,0:24:35.51,0:24:37.47,Default,NTP,0000,0000,0000,,Reii, kolik ti bylo let, když jsi se poprvé
+Dialogue: 0,0:24:37.47,0:24:39.60,Default,NTP,0000,0000,0000,,chtěl stát profesionálním šógi hráčem?
+Dialogue: 0,0:24:39.60,0:24:43.27,Default,NTP,0000,0000,0000,,Kiriyamo! Je to krásný den, že?
+Dialogue: 0,0:24:43.27,0:24:45.82,Default,NTP,0000,0000,0000,,Mám ráda hladké věci!
+Dialogue: 0,0:24:47.07,0:24:50.03,Default,NTP,0000,0000,0000,,To je opravdu rozkošné!
+Dialogue: 0,0:24:50.03,0:24:59.04,DefaultLeftH,NTP,0000,0000,0000,,ILUSTRACE:\NAKIMAN \NPřeklad: TeamKira ;-)
+Dialogue: 0,0:24:51.15,0:24:53.82,Default,NTP,0000,0000,0000,,Dědečku, podívej se na sladkosti,\N které vymyslela Hina!
+Dialogue: 0,0:24:55.08,0:24:57.37,Default,NTP,0000,0000,0000,,Ty jsou dokonalé!

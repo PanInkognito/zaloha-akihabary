@@ -1,0 +1,428 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: poznamka,Myriad web,35,&H00ffffff,&H8000ffff,&Hf0000000,&H35000000,0,0,0,0,100,100,1,0.00,1,0,0,8,20,20,20,238
+Style: titulek2,Bookman Old Style,40,&H00ccccff,&H0000ffff,&H00303060,&Hb0101030,-1,-1,0,0,100,100,0,0.00,1,2,3,8,20,20,20,238
+Style: nazevdilu,comic sans ms,45,&H20eeeeee,&H6000ffff,&H00000000,&H50000000,-1,0,0,0,100,100,1,0.00,1,0,2,8,20,20,20,238
+Style: titulek,Arial,38,&H00e0f0f0,&H8000ffff,&H30000008,&H80000008,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,30,238
+Style: supesaru,Bookman Old Style,46,&H0060707f,&Hb000ffff,&Hb0b0f0f0,&H10001020,0,0,0,0,85,100,4,0.00,1,1,1,2,30,30,20,238
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: pelikan,tahoma,40,&H0098948d,&H8000ffff,&H3072635a,&H65000000,-1,0,0,0,100,100,1,0.00,1,3,2,8,20,20,20,238
+Style: nazev2,merlin,75,&H006400b5,&H8000ffff,&H30000008,&H0000b7c4,-1,0,0,0,100,100,0,0.00,1,0,3,2,30,30,30,238
+Style: nazev,verdana,48,&H006400b5,&H8000ffff,&H30000008,&H0000b7c4,-1,0,0,0,100,100,0,0.00,1,0,3,2,30,30,30,238
+Style: moe,Arial,38,&H00ffffff,&H8000ffff,&H00b0a0d0,&H008080b0,-1,0,0,0,100,100,0,0.00,1,4,2,2,30,30,30,238
+
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev,,0000,0000,0000,,{\be1\a6\move(403,60,303,105)\shad0\fad(400,0)}Magická obc
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev,,0000,0000,0000,,{\be1\a6\move(406,60,506,105)\shad0\fad(400,0)}hodní pasá
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(448,480,348,525)\fad(400,0)}Aben
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(359,480,459,525)\fad(400,0)}obaši
+Dialogue: 0,0:01:25.32,0:01:26.57,nazev,,0000,0000,0000,,{\be1\a6\move(403,105,1000,105,500,900)\shad0}Magická obchodní pasá
+Dialogue: 0,0:01:25.32,0:01:26.84,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(403,525,-150,525,500,900)}Abenobaši
+Dialogue: 0,0:01:26.49,0:01:30.29,nazev,,0000,0000,0000,,{\a6\pos(450,350)\fad(150,0)\shad0\3a&He0&\3c&H000000&\b1\1c&H000000&\fs40\fsp4\bord1\fscy80\fnBookman old style}MAGICKÁ  OBCHODNÍ  PASÁ
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a4\c&H000000&\fs28}pøeklad: Jarník
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a3\c&H000000&\fs28}raw: Yusaku
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a1\c&H000000&\fs28}typesetting: Jarník
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a7\c&H000000&\fs28}korektury: mike, B.E.M.
+
+
+Dialogue: 0,0:01:35.82,0:01:39.06,titulek,Comment,0000,0000,0000,,Poslednì jsme skonèili v obchodní pasái Abenobaši, ale o tisíc let zpátky...
+Dialogue: 0,0:01:39.06,0:01:41.79,titulek,Comment,0000,0000,0000,,I kdy tu vlastnì není ádná pasá, nato pak obchodní.
+Dialogue: 0,0:01:42.03,0:01:43.55,titulek,Comment,0000,0000,0000,,Je to prostì jen Abeno.
+Dialogue: 0,0:01:44.00,0:01:45.86,titulek,Comment,0000,0000,0000,,A Abeno znamená mue jménem Abeno Seimei.
+Dialogue: 0,0:01:46.06,0:01:49.40,titulek,Comment,0000,0000,0000,,Tenhle známı zaøíkávaè je toti sám Wutus.
+Dialogue: 0,0:01:49.70,0:01:51.40,titulek,Comment,0000,0000,0000,,Take, co jsme zatím zjistili?
+Dialogue: 0,0:01:51.40,0:01:55.96,titulek,Comment,0000,0000,0000,,Za prvé - všechny ty podivné události má na svìdomí Wutus.
+Dialogue: 0,0:01:56.21,0:01:59.34,titulek,Comment,0000,0000,0000,,Za druhé - Mune-mune je Sašiho babièka.
+Dialogue: 0,0:01:59.88,0:02:04.75,titulek,Comment,0000,0000,0000,,Za tøetí - kdyby se vrátili domù, tak dìda Masa zemøe. Páni!
+Dialogue: 0,0:02:04.75,0:02:06.58,titulek,Comment,0000,0000,0000,,Zvláš ten tøetí bod je poøádná pecka.
+Dialogue: 0,0:02:07.22,0:02:08.72,titulek,Comment,0000,0000,0000,,Co udìlá školák Saši
+Dialogue: 0,0:02:08.72,0:02:11.26,titulek,Comment,0000,0000,0000,,tváøí v tváø tak hrùzné pravdì?
+Dialogue: 0,0:02:11.26,0:02:12.88,titulek,Comment,0000,0000,0000,,Arumi to rozhodnì povìdìt nemùe.
+Dialogue: 0,0:02:35.95,0:02:37.35,titulek,Comment,0000,0000,0000,,Hola, poèkejte!
+Dialogue: 0,0:02:39.95,0:02:40.85,titulek,Comment,0000,0000,0000,,Sleèno Namiko...
+Dialogue: 0,0:02:40.85,0:02:41.82,titulek,Comment,0000,0000,0000,,Akiro...
+Dialogue: 0,0:02:45.56,0:02:46.68,titulek,Comment,0000,0000,0000,,To je nuda.
+Dialogue: 0,0:02:47.33,0:02:50.02,titulek,Comment,0000,0000,0000,,V té telce vùbec nic není.
+Dialogue: 0,0:02:50.60,0:02:53.03,titulek,Comment,0000,0000,0000,,Ha! Takonouši se zachytil na okraji ringu!
+Dialogue: 0,0:02:53.03,0:02:54.22,titulek,Comment,0000,0000,0000,,Ringu!
+Dialogue: 0,0:02:55.20,0:02:58.83,titulek,Comment,0000,0000,0000,,Dnešní téma zní: „Muská øemesla a ruèní práce“.
+Dialogue: 0,0:02:59.04,0:03:00.00,titulek,Comment,0000,0000,0000,,Ruèní práce?!
+Dialogue: 0,0:03:00.74,0:03:02.24,titulek,Comment,0000,0000,0000,,Take chcete øíct, e základem
+Dialogue: 0,0:03:02.24,0:03:03.71,titulek,Comment,0000,0000,0000,,všech forem umìní je imitace?
+Dialogue: 0,0:03:03.71,0:03:04.73,titulek,Comment,0000,0000,0000,,Imitace!
+Dialogue: 0,0:03:05.01,0:03:06.98,titulek,Comment,0000,0000,0000,,To je vopruz!
+Dialogue: 0,0:03:12.22,0:03:15.05,titulek,Comment,0000,0000,0000,,Né, telka byla moje jediná nadìje!
+Dialogue: 0,0:03:17.05,0:03:18.02,titulek,Comment,0000,0000,0000,,To je pech.
+Dialogue: 0,0:03:18.66,0:03:21.12,titulek,Comment,0000,0000,0000,,Teï tady umøu nudou.
+Dialogue: 0,0:03:28.30,0:03:30.46,titulek,Comment,0000,0000,0000,,Zdravíèko, Arumi!
+Dialogue: 0,0:03:31.07,0:03:32.43,titulek,Comment,0000,0000,0000,,Saši!
+Dialogue: 0,0:03:32.60,0:03:34.04,titulek,Comment,0000,0000,0000,,Jakpak se máš?
+Dialogue: 0,0:03:34.14,0:03:37.63,titulek,Comment,0000,0000,0000,,Co dìlá Saši v televizi? A navíc v tom praštìném kostımu?
+Dialogue: 0,0:03:38.11,0:03:40.63,titulek,Comment,0000,0000,0000,,Hola, hola, Arumi. Jsi nìjak špatnì naladìná.
+Dialogue: 0,0:03:40.98,0:03:42.41,titulek,Comment,0000,0000,0000,,Ty mì slyšíš?
+Dialogue: 0,0:03:42.68,0:03:45.31,titulek,Comment,0000,0000,0000,,Samozøejmì. To proto, e jsem...
+Dialogue: 0,0:03:47.05,0:03:49.02,titulek,Comment,0000,0000,0000,,Myslela jsem si, e jsem byla nespravedlivá,
+Dialogue: 0,0:03:49.02,0:03:53.18,titulek,Comment,0000,0000,0000,,ale kdy jsem se vrátila, nebyl tu ani ten chlápek, ani ty nebo ïáblík!
+Dialogue: 0,0:03:53.29,0:03:54.95,titulek,Comment,0000,0000,0000,,Máš ponìtí, jak to tady bylo dìsnı?!
+Dialogue: 0,0:03:55.83,0:03:57.56,titulek,Comment,0000,0000,0000,,Proto jsem...
+Dialogue: 0,0:03:58.06,0:04:01.27,titulek,Comment,0000,0000,0000,,Pøestaò se vymlouvat a radši u koneènì nìco udìlej!
+Dialogue: 0,0:04:01.27,0:04:03.83,titulek,Comment,0000,0000,0000,,No dobøe. Nebuï tak hrr.
+Dialogue: 0,0:04:03.94,0:04:05.27,titulek,Comment,0000,0000,0000,,To si piš, e budu hrr!
+Dialogue: 0,0:04:05.27,0:04:08.33,titulek,Comment,0000,0000,0000,,Celé dny jsem tu sama zavøená a není tu nic, èím bych se zabavila.
+Dialogue: 0,0:04:11.14,0:04:12.44,titulek,Comment,0000,0000,0000,,Jenom tahle telka!
+Dialogue: 0,0:04:12.91,0:04:13.88,titulek,Comment,0000,0000,0000,,Hoovo!
+Dialogue: 0,0:04:15.68,0:04:16.70,titulek,Comment,0000,0000,0000,,Hej!
+Dialogue: 0,0:04:17.55,0:04:20.02,titulek,Comment,0000,0000,0000,,Co to dìláš? Pøestaò s tím!
+Dialogue: 0,0:04:33.90,0:04:35.13,titulek,Comment,0000,0000,0000,,Šme na místì!
+Dialogue: 0,0:04:35.87,0:04:37.33,titulek,Comment,0000,0000,0000,,Cos to se mnou sakra provedl?!
+Dialogue: 0,0:04:46.35,0:04:51.32,nazevdilu,Comment,0000,0000,0110,,{\be1\1c&Hffffff&\4a&H20&\shad2\fad(1000,1000)}Epizoda desátá\N\N\N\N\N\N\N\N\N\N\NAbraka dabra! 
+
+Dialogue: 0,0:04:52.88,0:04:55.37,titulek,Comment,0000,0000,0000,,Co má tenhle uhozenı zámek zase znamenat?
+Dialogue: 0,0:04:55.62,0:04:56.99,titulek,Comment,0000,0000,0000,,Obchoïák s nádobím?
+Dialogue: 0,0:04:56.99,0:04:58.08,titulek,Comment,0000,0000,0000,,{\i1}Non, non, non.
+Dialogue: 0,0:04:59.46,0:05:01.32,titulek,Comment,0000,0000,0000,,U zase?
+Dialogue: 0,0:05:01.99,0:05:02.96,titulek,Comment,0000,0000,0000,,{\i1}Non, non.
+Dialogue: 0,0:05:03.39,0:05:08.09,titulek,Comment,0000,0000,0000,,Tohle je úasná pohádková zem jen pro vás, {\i1}mademoiselle.
+Dialogue: 0,0:05:08.47,0:05:09.87,titulek,Comment,0000,0000,0000,,Pohádková zemì?
+Dialogue: 0,0:05:09.13,0:05:10.13,titulek,Comment,0000,0000,0000,,{\i1}Oui.
+Dialogue: 0,0:05:10.70,0:05:11.69,titulek,Comment,0000,0000,0000,,Tudy prosím.
+Dialogue: 0,0:05:15.01,0:05:16.41,titulek,Comment,0000,0000,0000,,{\i1}Kjapirjun!
+Dialogue: 0,0:05:16.41,0:05:17.50,titulek,Comment,0000,0000,0000,,{\i1}Kjarirjun!
+Dialogue: 0,0:05:17.98,0:05:22.04,titulek,Comment,0000,0000,0000,,Blahopøejeme! Máte tu èest bıt prvním návštìvníkem Sašilandu!
+Dialogue: 0,0:05:23.98,0:05:25.07,titulek,Comment,0000,0000,0000,,Sašilandu?
+
+Dialogue: 0,0:05:26.92,0:05:28.95,poznamka,Comment,0000,0000,0000,,{\i1\bord3\3c&H000080&\3a&H60&\fad(300,0)}Blahopøejeme! Sašiland
+
+Dialogue: 0,0:05:30.52,0:05:32.09,titulek,Comment,0000,0000,0000,,Jako zvláštní cenu získáváte
+Dialogue: 0,0:05:32.09,0:05:33.58,titulek,Comment,0000,0000,0000,,roèní zásobu nejnovìjších konzolí!
+Dialogue: 0,0:05:34.36,0:05:39.16,titulek,Comment,0000,0000,0000,,Roèní zásobu? Mnì staèí jedna na celı ivot.
+Dialogue: 0,0:05:39.56,0:05:41.19,titulek,Comment,0000,0000,0000,,Roèní zásoba LCD obrazovek.
+Dialogue: 0,0:05:41.63,0:05:43.43,titulek,Comment,0000,0000,0000,,Roèní zásoba poèítaèù.
+Dialogue: 0,0:05:43.70,0:05:45.67,titulek,Comment,0000,0000,0000,,Roèní zásoba unikátních uniforem.
+Dialogue: 0,0:05:45.94,0:05:47.90,titulek,Comment,0000,0000,0000,,Roèní zásoba luxusních sporákù.
+Dialogue: 0,0:05:52.28,0:05:54.48,titulek,Comment,0000,0000,0000,,Roèní zásoba toho, roèní zásoba tamtoho...
+Dialogue: 0,0:05:54.48,0:05:55.81,titulek,Comment,0000,0000,0000,,Copak vám všem pøeskoèilo?
+Dialogue: 0,0:05:56.15,0:05:58.05,titulek,Comment,0000,0000,0000,,A kde vìzí ten òouma Saši?!
+Dialogue: 0,0:05:58.52,0:05:59.62,titulek,Comment,0000,0000,0000,,{\i1}Je ne sais pas.
+Dialogue: 0,0:05:59.62,0:06:01.25,titulek,Comment,0000,0000,0000,,Všechny ty holky tady!
+Dialogue: 0,0:06:01.25,0:06:03.25,titulek,Comment,0000,0000,0000,,Tenhle svìt vypadá pøesnì jako jeho dílo!
+Dialogue: 0,0:06:03.25,0:06:06.22,titulek,Comment,0000,0000,0000,,Tentokrát u ti to vánì jen tak neprojde!
+Dialogue: 0,0:06:08.06,0:06:09.62,titulek,Comment,0000,0000,0000,,Je naštvaná.
+Dialogue: 0,0:06:09.79,0:06:12.13,titulek,Comment,0000,0000,0000,,Myslel jsem, e bude ráda. Tohle všechno jsem udìlal jen pro ni.
+Dialogue: 0,0:06:12.50,0:06:14.87,titulek,Comment,0000,0000,0000,,Co ji jen mohlo tak rozzlobit?
+Dialogue: 0,0:06:14.87,0:06:16.83,titulek,Comment,0000,0000,0000,,Já ty enskı nechápu.
+Dialogue: 0,0:06:17.67,0:06:20.50,titulek,Comment,0000,0000,0000,,Co se dá dìlat. Proveïte plán H-6.
+Dialogue: 0,0:06:20.64,0:06:21.57,titulek,Comment,0000,0000,0000,,Rokaš!
+Dialogue: 0,0:06:24.94,0:06:28.04,titulek,Comment,0000,0000,0000,,Co to má všechno znamenat? To je dìs.
+Dialogue: 0,0:06:28.78,0:06:30.44,titulek,Comment,0000,0000,0000,,Srdeènì vás vítam, {\i1}pjon.
+Dialogue: 0,0:06:30.75,0:06:32.24,titulek,Comment,0000,0000,0000,,Pan Kóhei?
+Dialogue: 0,0:06:32.68,0:06:37.66,titulek,Comment,0000,0000,0000,,Mám slaïouèké bonbóny, slaïouèkou cukrovou vatu a slaïouèkou zmrzlinu.
+Dialogue: 0,0:06:37.66,0:06:39.29,titulek,Comment,0000,0000,0000,,Tak co si dáte, {\i1}pjon?
+Dialogue: 0,0:06:39.29,0:06:41.83,titulek,Comment,0000,0000,0000,,„{\i1}Pjon“? No nic...
+Dialogue: 0,0:06:41.83,0:06:44.56,titulek,Comment,0000,0000,0000,,Povìzte, pane Kóhei, nevidìl jste Sašiho?
+Dialogue: 0,0:06:44.93,0:06:45.90,titulek,Comment,0000,0000,0000,,Kacuru?
+Dialogue: 0,0:06:45.90,0:06:46.89,titulek,Comment,0000,0000,0000,,Sašiho!
+Dialogue: 0,0:06:47.00,0:06:48.49,titulek,Comment,0000,0000,0000,,Vítejte!
+Dialogue: 0,0:06:48.97,0:06:50.52,titulek,Comment,0000,0000,0000,,Ne, to nemusíte.
+
+Dialogue: 0,0:06:50.64,0:06:52.37,titulek,Comment,0350,0000,0000,,{\an8\fs35\i1}Veèernice
+
+Dialogue: 0,0:06:52.50,0:06:53.94,titulek,Comment,0000,0000,0000,,Vítejte!
+Dialogue: 0,0:06:56.07,0:06:58.54,titulek,Comment,0000,0000,0000,,Tohle je ještì køiklavìjší ne dùchodkynì z Ósaky.
+Dialogue: 0,0:06:59.11,0:07:00.60,titulek,Comment,0000,0000,0000,,Toèí se mi z toho hlava.
+Dialogue: 0,0:07:07.08,0:07:08.05,titulek,Comment,0000,0000,0000,,Ne!
+Dialogue: 0,0:07:08.05,0:07:09.54,titulek,Comment,0000,0000,0000,,Mìjte se!
+Dialogue: 0,0:07:09.69,0:07:12.92,titulek,Comment,0000,0000,0000,,Co to?! Øíkala jsem, e nikam nechci!
+Dialogue: 0,0:07:13.96,0:07:16.95,titulek,Comment,0000,0000,0000,,Tenhle svìt je ještì horší, ne ty, kde jsme zatím byli.
+Dialogue: 0,0:07:17.50,0:07:18.46,titulek,Comment,0000,0000,0000,,Myslíš?
+Dialogue: 0,0:07:19.53,0:07:22.63,titulek,Comment,0000,0000,0000,,Ale udìlám všechno pro to, aby ses odteï skvìle bavila!
+Dialogue: 0,0:07:22.63,0:07:23.87,titulek,Comment,0000,0000,0000,,U se tìšíš?
+Dialogue: 0,0:07:23.87,0:07:25.10,titulek,Comment,0000,0000,0000,,Tohle není zábavné.
+Dialogue: 0,0:07:25.54,0:07:27.10,titulek,Comment,0000,0000,0000,,Máš všech pìt pohromadì?
+Dialogue: 0,0:07:27.10,0:07:28.41,titulek,Comment,0000,0000,0000,,U døív jsi bıval pìkné ululum,
+Dialogue: 0,0:07:28.41,0:07:30.46,titulek,Comment,0000,0000,0000,,ale teï to vypadá, jako bys mìl v hlavì vánì vytøeno do sucha.
+Dialogue: 0,0:07:30.71,0:07:33.37,titulek,Comment,0000,0000,0000,,A to nemluvím o tom uhozenım kostımu a pøipitomìlım vırazu.
+Dialogue: 0,0:07:33.48,0:07:35.28,titulek,Comment,0000,0000,0000,,Já nevypadám pøipitomìle!
+Dialogue: 0,0:07:35.28,0:07:37.37,titulek,Comment,0000,0000,0000,,A kde teï vùbec jsi?
+Dialogue: 0,0:07:38.88,0:07:41.11,titulek,Comment,0000,0000,0000,,Na místì, odkud ovládám celı svìt!
+Dialogue: 0,0:07:41.52,0:07:42.58,titulek,Comment,0000,0000,0000,,Ovládáš?
+
+Dialogue: 0,0:07:43.69,0:07:47.80,titulek,Comment,0000,0000,0000,,{\1c&H404080&\bord3\3c&He0e0e0&\b1\3a&H40&\pos(250,100)\frz10\fad(100,300)}BEKAÈU
+
+Dialogue: 0,0:07:44.19,0:07:45.69,titulek,Comment,0000,0000,0000,,Hele! Jsi pøekvapená?!
+Dialogue: 0,0:07:46.09,0:07:47.16,titulek,Comment,0000,0000,0000,,Bekaèu?
+Dialogue: 0,0:07:47.16,0:07:48.12,titulek,Comment,0000,0000,0000,,Co?
+Dialogue: 0,0:07:48.23,0:07:50.96,titulek,Comment,0000,0000,0000,,Á, vedle! Tohle taky ne. Momentík...
+Dialogue: 0,0:07:51.43,0:07:52.66,titulek,Comment,0000,0000,0000,,Tady!
+Dialogue: 0,0:07:53.90,0:07:54.97,titulek,Comment,0000,0000,0000,,Nespi!
+Dialogue: 0,0:07:54.97,0:07:56.49,titulek,Comment,0000,0000,0000,,No? Co zase?
+Dialogue: 0,0:07:56.73,0:07:59.17,titulek,Comment,0000,0000,0000,,Tady, podívej! Prùkaz zaøíkávaèe!
+Dialogue: 0,0:07:59.17,0:08:02.91,titulek,Comment,0000,0000,0000,,Teï mùu èarovat pomocí papírovıch loutek, pøecházet mezi svìty,
+Dialogue: 0,0:08:02.91,0:08:05.81,titulek,Comment,0000,0000,0000,,a nebo dokonce vytváøet úplnì nové!
+Dialogue: 0,0:08:06.11,0:08:07.11,titulek,Comment,0000,0000,0000,,Vánì?
+Dialogue: 0,0:08:07.11,0:08:08.54,titulek,Comment,0000,0000,0000,,No? Jsi pøekvapená?
+Dialogue: 0,0:08:08.81,0:08:10.84,titulek,Comment,0000,0000,0000,,No, dìlej, jak myslíš.
+Dialogue: 0,0:08:11.32,0:08:13.02,titulek,Comment,0000,0000,0000,,Tohle mì moc nezajímá.
+Dialogue: 0,0:08:13.02,0:08:15.09,titulek,Comment,0000,0000,0000,,Jak to? Teï máš bıt pøekvapená!
+Dialogue: 0,0:08:15.09,0:08:16.28,titulek,Comment,0000,0000,0000,,Copak nechápeš?!
+Dialogue: 0,0:08:16.42,0:08:19.02,titulek,Comment,0000,0000,0000,,Máš zaèít køièet, e ten zaøíkávaè je prostì super.
+Dialogue: 0,0:08:19.02,0:08:20.96,titulek,Comment,0000,0000,0000,,Ten oblek vypadá pìknì pitomì.
+Dialogue: 0,0:08:21.76,0:08:23.36,titulek,Comment,0000,0000,0000,,Tenhle oblek není pitomı!
+Dialogue: 0,0:08:23.36,0:08:24.23,titulek,Comment,0000,0000,0000,,Teï poslouchej.
+Dialogue: 0,0:08:24.23,0:08:28.53,titulek,Comment,0000,0000,0000,,Tenhle kostım byl navren pøesnì podle poadavkù zaøíkávaèské fyziky a hvìzdopravy!
+Dialogue: 0,0:08:29.80,0:08:31.50,titulek,Comment,0000,0000,0000,,Jeho první ohromující vıhodou je
+Dialogue: 0,0:08:31.50,0:08:33.63,titulek,Comment,0000,0000,0000,,poèet papírovıch loutek, které se do nìj vejdou.
+Dialogue: 0,0:08:33.90,0:08:35.57,titulek,Comment,0000,0000,0000,,Celıch 50 kusù!
+Dialogue: 0,0:08:35.71,0:08:38.27,titulek,Comment,0000,0000,0000,,To je 1,5 krát více, ne pøedchozí verze!
+Dialogue: 0,0:08:38.58,0:08:42.54,titulek,Comment,0000,0000,0000,,Chápeš? 1,5 krát víc! A to není vše...
+Dialogue: 0,0:08:43.41,0:08:45.44,titulek,Comment,0000,0000,0000,,Navíc je k dispozici Pøední i Zadní brána duchù.
+Dialogue: 0,0:08:45.52,0:08:48.25,titulek,Comment,0000,0000,0000,,Tenhle vícesmìrnı gyroskop patøí ke standardní vıbavì!
+Dialogue: 0,0:08:48.32,0:08:51.05,titulek,Comment,0000,0000,0000,,Zároveò je moné mìnit velikost obleku.
+Dialogue: 0,0:08:51.16,0:08:53.56,titulek,Comment,0000,0000,0000,,A navíc obsahuje uretan, díky èemu je svìle vzduchotìsnı!
+Dialogue: 0,0:08:53.66,0:08:55.89,titulek,Comment,0000,0000,0000,,A vrcholem všeho je tohle!
+Dialogue: 0,0:08:57.29,0:08:58.85,titulek,Comment,0000,0000,0000,,Je oboustrannı.
+Dialogue: 0,0:09:01.13,0:09:02.72,titulek,Comment,0000,0000,0000,,Øíkal jsem ti, a nespíš!
+Dialogue: 0,0:09:03.60,0:09:05.07,titulek,Comment,0000,0000,0000,,No dobøe.
+Dialogue: 0,0:09:05.07,0:09:07.47,titulek,Comment,0000,0000,0000,,Take z tebe je teï opravdickı zaøíkávaè?
+Dialogue: 0,0:09:07.87,0:09:08.61,titulek,Comment,0000,0000,0000,,Pøesnì tak!
+Dialogue: 0,0:09:08.61,0:09:11.70,titulek,Comment,0000,0000,0000,,Tak co kdybys sebou hodil a dostal nás u koneènì domù?
+Dialogue: 0,0:09:11.88,0:09:14.40,titulek,Comment,0000,0000,0000,,No, to bych mohl, ale...
+Dialogue: 0,0:09:15.11,0:09:18.74,titulek,Comment,0000,0000,0000,,Ale nejdøív by sis mìla poøádnì uít v tomhle svìtì!
+Dialogue: 0,0:09:18.95,0:09:22.15,titulek,Comment,0000,0000,0000,,Vùbec si to neuívám! Hnusí se mi to tady!
+Dialogue: 0,0:09:22.42,0:09:26.19,titulek,Comment,0000,0000,0000,,Coo?! Ale vdy je to tak legraèní. Nebo ne?
+Dialogue: 0,0:09:26.79,0:09:29.09,titulek,Comment,0000,0000,0000,,Moná to poøád ještì nestaèí.
+Dialogue: 0,0:09:29.43,0:09:32.88,titulek,Comment,0000,0000,0000,,Dobøe, Arumi, ukáu ti ještì zábavnìjší svìt!
+Dialogue: 0,0:09:33.86,0:09:36.77,titulek,Comment,0000,0000,0000,,No tak, Saši! Øekla jsem pøece, e u nechci!
+
+Dialogue: 0,0:09:39.77,0:09:40.79,titulek,Comment,0000,0000,0000,,Co to?
+Dialogue: 0,0:09:41.57,0:09:44.63,titulek,Comment,0000,0000,0000,,Ne! Já nechci!
+Dialogue: 0,0:09:45.38,0:09:47.50,titulek,Comment,0000,0000,0000,,Co tu dìlá tahle holka?
+Dialogue: 0,0:09:48.18,0:09:51.08,titulek,Comment,0000,0000,0000,,A navíc v takovıch skvìlıch šatech!
+Dialogue: 0,0:09:51.38,0:09:52.85,titulek,Comment,0000,0000,0000,,Skvìlıch?
+Dialogue: 0,0:09:52.85,0:09:54.04,titulek,Comment,0000,0000,0000,,Pojï se mnou!
+Dialogue: 0,0:09:54.15,0:09:56.85,titulek,Comment,0000,0000,0000,,Hej... Co to...
+Dialogue: 0,0:09:59.22,0:10:02.75,titulek,Comment,0000,0000,0000,,Vypadá to, e budu muset pøipravit i plán N-3.
+
+Dialogue: 0,0:10:02.83,0:10:04.23,titulek,Comment,0000,0000,0000,,{\an8\1c&H4040a0&\i1\fad(300,0)}Prùvodce zaøíkáváním
+
+Dialogue: 0,0:10:04.63,0:10:06.65,titulek,Comment,0000,0000,0000,,Tak se na to podíváme...
+Dialogue: 0,0:10:08.00,0:10:08.97,titulek,Comment,0000,0000,0000,,Mám to!
+Dialogue: 0,0:10:08.97,0:10:11.83,titulek,Comment,0000,0000,0000,,„Provádìní rozliènıch kejklí pomocí papírovıch loutek“
+Dialogue: 0,0:10:13.20,0:10:15.87,titulek,Comment,0000,0000,0000,,Nejprve se rozhodnìte, jakou loutku pouít...
+Dialogue: 0,0:10:17.17,0:10:18.47,titulek,Comment,0000,0000,0000,,Pøipravte ji a ...
+Dialogue: 0,0:10:21.21,0:10:23.18,titulek,Comment,0000,0000,0000,,Aha, aha.
+Dialogue: 0,0:10:54.18,0:10:57.31,titulek,Comment,0000,0000,0000,,Je ti to jasné? Do veèera a je všude uklizeno!
+Dialogue: 0,0:10:57.31,0:11:00.44,titulek,Comment,0000,0000,0000,,No, e by se mi do toho zrovna dvakrát chtìlo...
+Dialogue: 0,0:11:02.52,0:11:04.76,titulek,Comment,0000,0000,0000,,Take tentokrát mám hrát Popelku?
+Dialogue: 0,0:11:04.76,0:11:06.72,titulek,Comment,0000,0000,0000,,Tak jedno po druhém...
+Dialogue: 0,0:11:11.63,0:11:14.03,titulek,Comment,0000,0000,0000,,Ach, ubohá Arumipelko.
+Dialogue: 0,0:11:14.20,0:11:16.47,titulek,Comment,0000,0000,0000,,Tvá krutá macecha ti zakázala
+Dialogue: 0,0:11:16.47,0:11:18.99,titulek,Comment,0000,0000,0000,,jít na slavnostní ples, e?
+Dialogue: 0,0:11:19.20,0:11:23.20,titulek,Comment,0000,0000,0000,,Díky mım kouzlùm tì tam ale dostanu!
+Dialogue: 0,0:11:23.27,0:11:24.57,titulek,Comment,0000,0000,0000,,Ne, dìkuju.
+Dialogue: 0,0:11:25.04,0:11:26.91,titulek,Comment,0000,0000,0000,,No tak, to neøíkej.
+Dialogue: 0,0:11:26.91,0:11:28.54,titulek,Comment,0000,0000,0000,,Øíkám jasnì, e nemám zájem!
+Dialogue: 0,0:11:29.38,0:11:32.62,titulek,Comment,0000,0000,0000,,Teï by ses pøece mìla rozplıvat štìstím.
+Dialogue: 0,0:11:32.62,0:11:33.88,titulek,Comment,0000,0000,0000,,Ha, u vím!
+Dialogue: 0,0:11:33.88,0:11:36.35,titulek,Comment,0000,0000,0000,,Kdy pùjdeš na ples, setkáš se s princem!
+Dialogue: 0,0:11:36.35,0:11:37.49,titulek,Comment,0000,0000,0000,,O to vùbec nestojím.
+Dialogue: 0,0:11:37.49,0:11:39.62,titulek,Comment,0000,0000,0000,,A obdríš roèní zásobu sklenìnıch støevíèkù!
+Dialogue: 0,0:11:40.49,0:11:41.63,titulek,Comment,0000,0000,0000,,Nepotøebuju.
+Dialogue: 0,0:11:41.63,0:11:45.96,titulek,Comment,0000,0000,0000,,Tak to je problém. Takhle se nikam nedostaneme.
+Dialogue: 0,0:11:46.63,0:11:48.40,titulek,Comment,0000,0000,0000,,No nic, tak já to balím.
+Dialogue: 0,0:11:48.40,0:11:49.43,titulek,Comment,0000,0000,0000,,Balíte to?!
+Dialogue: 0,0:11:49.43,0:11:50.56,titulek,Comment,0000,0000,0000,,Vy to pøece nemùete zabalit!
+Dialogue: 0,0:11:50.83,0:11:52.46,titulek,Comment,0000,0000,0000,,Co je to za ohoz?
+Dialogue: 0,0:11:52.90,0:11:57.36,titulek,Comment,0000,0000,0000,,Já jsem princ. Dokud za mnou nepøijdeš, tak se pøíbìh nepohne kupøedu!
+Dialogue: 0,0:11:58.24,0:12:01.08,titulek,Comment,0000,0000,0000,,A to si jako myslíš, e mì tahle kravina bude bavit?!
+Dialogue: 0,0:12:01.08,0:12:03.05,titulek,Comment,0000,0000,0000,,O co ti jde?!
+Dialogue: 0,0:12:03.48,0:12:06.45,titulek,Comment,0000,0000,0000,,Moná je to trochu pøihlouplı, ale...
+Dialogue: 0,0:12:06.88,0:12:10.82,titulek,Comment,0000,0000,0000,,Pøi školním pøedstavení jsi pøece chtìla hrát Popelku...
+Dialogue: 0,0:12:11.09,0:12:12.26,titulek,Comment,0000,0000,0000,,Zatracenì!
+Dialogue: 0,0:12:12.26,0:12:14.66,titulek,Comment,0000,0000,0000,,Všechny tyhle tvoje nápady jsou nám platnı,
+Dialogue: 0,0:12:14.66,0:12:17.59,titulek,Comment,0000,0000,0000,,asi jako mrtvımu deka!
+Dialogue: 0,0:12:17.76,0:12:20.26,titulek,Comment,0000,0000,0000,,Aha, aha.
+Dialogue: 0,0:12:20.26,0:12:21.25,titulek,Comment,0000,0000,0000,,Co to znamená?
+Dialogue: 0,0:12:22.83,0:12:25.86,titulek,Comment,0000,0000,0000,,Jestli s tím budeš pokraèovat, tak ti to u vánì spoèítám!
+Dialogue: 0,0:12:26.14,0:12:27.63,titulek,Comment,0000,0000,0000,,Toho se nemusím obávat.
+Dialogue: 0,0:12:27.87,0:12:30.47,titulek,Comment,0000,0000,0000,,Jsem teï pøece opravdickı zaøíkávaè.
+Dialogue: 0,0:12:30.71,0:12:34.07,titulek,Comment,0000,0000,0000,,No tak! Šípy, zbranì, plyšové medvídky, jen si øekni!
+Dialogue: 0,0:12:42.92,0:12:44.39,titulek,Comment,0000,0000,0000,,Co tu dìlá ten medvìd?
+Dialogue: 0,0:12:44.72,0:12:46.31,titulek,Comment,0000,0000,0000,,Au, to bolelo.
+Dialogue: 0,0:13:04.37,0:13:06.40,titulek,Comment,0000,0000,0000,,Co se to dìje? Saši?!
+Dialogue: 0,0:13:06.88,0:13:09.54,titulek,Comment,0000,0000,0000,,Take, „Pokud loutka zmrzne...“
+Dialogue: 0,0:13:09.95,0:13:10.81,titulek,Comment,0000,0000,0000,,To ne!
+Dialogue: 0,0:13:10.81,0:13:12.65,titulek,Comment,0000,0000,0000,,„Zapomnìl jste nìco?“
+Dialogue: 0,0:13:13.02,0:13:14.45,titulek,Comment,0000,0000,0000,,To taky ne!
+Dialogue: 0,0:13:14.69,0:13:17.86,titulek,Comment,0000,0000,0000,,„Jste s dívkou v parku a náhle vás nìkdo zezadu osloví...
+Dialogue: 1,0:13:16.85,0:13:19.72,titulek,Comment,0000,0000,0080,,{\1c&Hc0c0c0&}To se ti zase nìco povedlo...
+Dialogue: 0,0:13:17.86,0:13:20.22,titulek,Comment,0000,0000,0000,,a kdy se otoèíte, vidíte, e to je její otec...“
+Dialogue: 0,0:13:20.22,0:13:22.16,titulek,Comment,0000,0000,0000,,Ne, ne, ne!
+Dialogue: 0,0:13:22.36,0:13:24.29,titulek,Comment,0000,0000,0000,,Haló, zaøíkávaèská pomocná linka?
+Dialogue: 0,0:13:24.29,0:13:25.80,titulek,Comment,0000,0000,0000,,Mám problém!
+Dialogue: 0,0:13:25.80,0:13:28.16,titulek,Comment,0000,0000,0000,,Coe? Sériové èíslo?
+Dialogue: 0,0:13:29.87,0:13:31.87,titulek,Comment,0000,0000,0000,,Myslíte to na manuálu?
+Dialogue: 0,0:13:31.87,0:13:33.93,titulek,Comment,0000,0000,0000,,Na krabici?
+Dialogue: 0,0:13:34.10,0:13:35.97,titulek,Comment,0000,0000,0000,,Krabici jsem u dávno vyhodil!
+Dialogue: 0,0:13:41.35,0:13:42.87,titulek,Comment,0000,0000,0000,,Proè zase já?
+Dialogue: 0,0:13:43.38,0:13:45.37,titulek,Comment,0000,0000,0000,,Co udìláme s tím obøím medvìdem?
+Dialogue: 0,0:13:45.82,0:13:47.61,titulek,Comment,0000,0000,0000,,U vím! Plán H-7!
+Dialogue: 0,0:13:48.52,0:13:51.19,titulek,Comment,0000,0000,0000,,Arumi, jako zaøíkávaè u nìco vymyslím,
+Dialogue: 0,0:13:51.19,0:13:54.09,titulek,Comment,0000,0000,0000,,take bys ho zatím mohla nìjak zabavit, ne?
+Dialogue: 0,0:13:54.53,0:13:57.26,titulek,Comment,0000,0000,0000,,Vánì ti nic není? Mluvíš nìjak z cesty.
+Dialogue: 0,0:14:09.14,0:14:10.40,titulek,Comment,0000,0000,0000,,Uá, to je...
+Dialogue: 0,0:14:10.54,0:14:12.14,titulek,Comment,0000,0000,0000,,{\i1}Henja{\i0}, jsem zde!
+Dialogue: 0,0:14:12.14,0:14:13.23,titulek,Comment,0000,0000,0000,,Co to je?
+Dialogue: 0,0:14:13.34,0:14:15.45,titulek,Comment,0000,0000,0000,,To nic. Prostì dìlej všechno, co ti Henjaske øekne!
+Dialogue: 0,0:14:15.45,0:14:16.97,titulek,Comment,0000,0000,0000,,Tohle je Henjaske?
+Dialogue: 0,0:14:17.18,0:14:19.11,titulek,Comment,0000,0000,0000,,Arumi, promìò se, {\i1}piro!
+Dialogue: 0,0:14:19.25,0:14:20.22,titulek,Comment,0000,0000,0000,,Co?
+Dialogue: 0,0:14:21.49,0:14:23.09,titulek,Comment,0000,0000,0000,,Tak, vezmi si tuhle hùlku
+Dialogue: 0,0:14:23.09,0:14:26.89,titulek,Comment,0000,0000,0000,,a získáš magickou sílu z Království víl!
+Dialogue: 0,0:14:27.52,0:14:28.93,titulek,Comment,0000,0000,0000,,Magickou...
+Dialogue: 0,0:14:28.93,0:14:29.89,titulek,Comment,0000,0000,0000,,sílu?
+Dialogue: 0,0:14:30.56,0:14:34.46,titulek,Comment,0000,0000,0000,,Nic takového nechci! Rozumíš? Nechci!
+Dialogue: 0,0:14:34.46,0:14:36.99,titulek,Comment,0000,0000,0000,,Na celı obøad není èas, take to zkrátíme, {\i1}piro.
+Dialogue: 0,0:14:38.67,0:14:40.03,titulek,Comment,0000,0000,0000,,Promìna!
+Dialogue: 0,0:15:00.92,0:15:02.39,titulek,Comment,0000,0000,0000,,Arumièi!
+Dialogue: 0,0:15:03.16,0:15:06.60,titulek,Comment,0000,0000,0000,,No tak, pøestaò se mnou hıbat bez dovolení!
+Dialogue: 0,0:15:06.60,0:15:09.37,titulek,Comment,0000,0000,0000,,A co má znamenat tohle? Takové lehké šatièky.
+Dialogue: 0,0:15:09.37,0:15:11.10,titulek,Comment,0000,0000,0000,,Kde jsi je sehnal?
+Dialogue: 0,0:15:11.60,0:15:13.37,titulek,Comment,0000,0000,0000,,Koupil jsem je v jednom butiku,{\i1} piro.
+Dialogue: 0,0:15:13.37,0:15:15.63,titulek,Comment,0000,0000,0000,,To je jedno, teï si nastup!
+Dialogue: 0,0:15:16.31,0:15:18.11,titulek,Comment,0000,0000,0000,,Musíme si pospíšit a všechny zachránit,{\i1} piro!
+Dialogue: 0,0:15:18.11,0:15:20.24,titulek,Comment,0000,0000,0000,,U jsem ti pøece øíkala, e nechci!
+Dialogue: 0,0:15:20.48,0:15:21.77,titulek,Comment,0000,0000,0000,,Proè musím poøád...
+Dialogue: 0,0:15:33.16,0:15:34.62,titulek,Comment,0000,0000,0000,,Budu zvracet...
+Dialogue: 0,0:15:35.09,0:15:37.06,titulek,Comment,0000,0000,0000,,Teï musíš porazit toho medvìda!
+Dialogue: 0,0:15:37.46,0:15:39.99,titulek,Comment,0000,0000,0000,,Ani náhodou! Co mám dìlat?!
+Dialogue: 0,0:15:40.33,0:15:43.20,titulek,Comment,0000,0000,0000,,Staèí, kdy ho tady zadríš svımi kouzly,{\i1} piro!
+Dialogue: 0,0:15:43.20,0:15:44.33,titulek,Comment,0000,0000,0000,,Zaklínadlo zní...
+Dialogue: 0,0:15:45.84,0:15:48.24,titulek,Comment,0000,0000,0000,,Proè bych mìla dìlat takovou pitomost?
+Dialogue: 0,0:15:49.14,0:15:50.71,titulek,Comment,0000,0000,0000,,U s tím pøestaò!
+Dialogue: 0,0:15:50.71,0:15:56.17,moe,Comment,0000,0000,0000,,Tùdlnùdle, lama sem, lama tam, parirari puf!
+Dialogue: 0,0:15:59.82,0:16:01.84,titulek,Comment,0000,0000,0000,,Páni, Arumi, to bylo úasné!
+Dialogue: 0,0:16:02.05,0:16:04.11,titulek,Comment,0000,0000,0000,,Vdy jsi to všechno dìlal ty sám.
+Dialogue: 0,0:16:22.47,0:16:23.94,titulek,Comment,0000,0000,0000,,Bylo to k nièemu.
+Dialogue: 0,0:16:37.82,0:16:41.02,titulek,Comment,0000,0000,0000,,Tak co, Arumi? Líbilo se ti to, {\i1}piro?
+Dialogue: 0,0:16:43.59,0:16:45.49,titulek,Comment,0000,0000,0000,,Bylo to úasná legrace!
+Dialogue: 0,0:16:47.66,0:16:50.26,titulek,Comment,0000,0000,0000,,Kde to jen mùe bıt? Nìkde jsem to tu vidìl.
+Dialogue: 0,0:16:51.03,0:16:54.47,titulek,Comment,0000,0000,0000,,Aha, tady! Tady je to! „Kdy se loutka vymkne kontrole.“
+Dialogue: 0,0:16:54.60,0:16:56.04,titulek,Comment,0000,0000,0000,,Co tam píšou?
+Dialogue: 0,0:16:56.04,0:17:00.51,titulek,Comment,0000,0000,0000,,Pokud loutka opustí pánovu ruku a vymkne se kontrole,
+Dialogue: 0,0:17:00.51,0:17:03.14,titulek,Comment,0000,0000,0000,,není moné ji zastavit.
+Dialogue: 0,0:17:05.05,0:17:08.51,titulek,Comment,0000,0000,0000,,To je blbost! Co je to za pøíruèku?!
+Dialogue: 0,0:17:08.72,0:17:11.48,titulek,Comment,0000,0000,0000,,Pokud ji pøesto chcete zastavit za kadou cenu...
+Dialogue: 0,0:17:14.39,0:17:16.26,titulek,Comment,0000,0000,0000,,Co? Jak to?!
+Dialogue: 0,0:17:21.33,0:17:22.49,titulek,Comment,0000,0000,0000,,No dobøe!
+Dialogue: 0,0:17:29.51,0:17:31.30,titulek,Comment,0000,0000,0000,,Tak, všichni do práce!
+Dialogue: 0,0:17:31.74,0:17:33.21,titulek,Comment,0000,0000,0000,,Aòo, pane!
+Dialogue: 0,0:17:45.62,0:17:46.75,titulek,Comment,0000,0000,0000,,Héj, rup!
+Dialogue: 0,0:17:53.16,0:17:54.36,titulek,Comment,0000,0000,0000,,Hoovo!
+Dialogue: 0,0:17:54.36,0:17:55.33,titulek,Comment,0000,0000,0000,,Dobøe!
+Dialogue: 0,0:17:57.40,0:17:59.06,titulek,Comment,0000,0000,0000,,Všechny vìci jsoucí,
+Dialogue: 0,0:17:59.87,0:18:02.70,titulek,Comment,0000,0000,0000,,bohové nebes, bohové zemì, vrate vše prázdnotì.
+Dialogue: 0,0:18:04.67,0:18:06.14,titulek,Comment,0000,0000,0000,,Stani se.
+Dialogue: 0,0:18:30.60,0:18:32.66,titulek,Comment,0000,0000,0000,,Všechno je pryè.
+Dialogue: 0,0:18:36.31,0:18:38.04,titulek,Comment,0000,0000,0000,,To mám ale radost.
+Dialogue: 0,0:18:38.04,0:18:39.31,titulek,Comment,0000,0000,0000,,Nevím proè,
+Dialogue: 0,0:18:39.31,0:18:41.80,titulek,Comment,0000,0000,0000,,ale pøipadá mi, e nejdùleitìjší je, e jsme v poøádku.
+Dialogue: 0,0:18:42.61,0:18:44.91,titulek,Comment,0000,0000,0000,,Nepùjdeme u koneènì domù?
+Dialogue: 0,0:18:48.08,0:18:51.92,titulek,Comment,0000,0000,0000,,No... proè se vlastnì nechceš vrátit?
+Dialogue: 0,0:18:53.72,0:18:55.89,titulek,Comment,0000,0000,0000,,Je to kvùli tomu, e se stìhujeme?
+Dialogue: 0,0:18:55.89,0:18:57.52,titulek,Comment,0000,0000,0000,,Protoe bys byl sám?
+Dialogue: 0,0:18:59.33,0:19:02.73,titulek,Comment,0000,0000,0000,,Budu na tebe poøád myslet, i kdy budu na Hokkaidó.
+Dialogue: 0,0:19:02.73,0:19:05.87,titulek,Comment,0000,0000,0000,,U vím, budu ti psát! A taky volat.
+Dialogue: 0,0:19:05.87,0:19:09.74,titulek,Comment,0000,0000,0000,,A na letní a zimní prázdniny budu jezdit zpátky do Ósaky.
+Dialogue: 0,0:19:13.84,0:19:17.47,titulek,Comment,0000,0000,0000,,U toho nech! Proè u nìco koneènì neøekneš?
+Dialogue: 0,0:19:18.45,0:19:20.02,titulek,Comment,0000,0000,0000,,Je tu ještì jedna vìc.
+Dialogue: 0,0:19:20.02,0:19:20.98,titulek,Comment,0000,0000,0000,,Coe?
+Dialogue: 0,0:19:21.82,0:19:23.82,titulek,Comment,0000,0000,0000,,Ze zaèátku jsem kvùli tomu nechtìl zpátky.
+Dialogue: 0,0:19:23.82,0:19:27.22,titulek,Comment,0000,0000,0000,,Øíkala jsi, e se odstìhujete, a tak...
+Dialogue: 0,0:19:27.22,0:19:28.35,titulek,Comment,0000,0000,0000,,Ale...
+Dialogue: 0,0:19:29.23,0:19:30.85,titulek,Comment,0000,0000,0000,,Ale teï jde o nìco jiného...
+Dialogue: 0,0:19:31.49,0:19:34.62,titulek,Comment,0000,0000,0000,,Toti, kdy se vrátíme...
+Dialogue: 0,0:19:35.77,0:19:37.60,titulek,Comment,0000,0000,0000,,Kdybychom se vrátili...
+Dialogue: 0,0:19:37.60,0:19:39.03,titulek,Comment,0000,0000,0000,,Co se stane?
+Dialogue: 0,0:19:49.68,0:19:52.31,titulek,Comment,0000,0000,0000,,No tak, Saši, pojïme pøece domù.
+Dialogue: 0,0:19:52.78,0:19:56.34,titulek,Comment,0000,0000,0000,,A se stane cokoliv, je to náš osud.
+Dialogue: 0,0:19:56.79,0:19:59.35,titulek,Comment,0000,0000,0000,,Je to náš svìt a my tam patøíme, ne?
+Dialogue: 0,0:20:02.93,0:20:05.33,titulek,Comment,0000,0000,0000,,Vdy u pøece víš, jak na to.
+Dialogue: 0,0:20:05.33,0:20:07.30,titulek,Comment,0000,0000,0000,,Tak se prostì vrátíme domù.
+Dialogue: 0,0:20:11.13,0:20:12.26,titulek,Comment,0000,0000,0000,,Prosím.
+Dialogue: 0,0:20:19.21,0:20:20.23,titulek,Comment,0000,0000,0000,,Dobøe.
+Dialogue: 0,0:20:23.11,0:20:24.34,titulek,Comment,0000,0000,0000,,Udìlám to.
+Dialogue: 0,0:20:33.86,0:20:34.93,titulek,Comment,0000,0000,0000,,Tak, jdeme na vìc!
+Dialogue: 0,0:20:43.43,0:20:45.06,titulek,Comment,0000,0000,0000,,Všechny vìci jsoucí,
+Dialogue: 0,0:20:45.87,0:20:49.20,titulek,Comment,0000,0000,0000,,bohové nebes, bohové zemì, všechno a je, jak má bıt.
+Dialogue: 0,0:20:50.14,0:20:51.90,titulek,Comment,0000,0000,0000,,Všechny vìci jsoucí,
+Dialogue: 0,0:20:52.54,0:20:55.77,titulek,Comment,0000,0000,0000,,bohové nebes, bohové zemì, všechno a je, jak má bıt.
+Dialogue: 0,0:20:56.98,0:20:58.64,titulek,Comment,0000,0000,0000,,Všechny vìci jsoucí,
+Dialogue: 0,0:20:59.22,0:21:02.58,titulek,Comment,0000,0000,0000,,bohové nebes, bohové zemì, všechno a je, jak má bıt.
+Dialogue: 0,0:21:03.65,0:21:05.12,titulek,Comment,0000,0000,0000,,Stani se.
+Dialogue: 0,0:21:11.13,0:21:12.29,titulek,Comment,0000,0000,0000,,Poèkat...
+Dialogue: 0,0:21:13.16,0:21:16.22,titulek,Comment,0000,0000,0000,,Pøipadá mi, e tady jsme u byli...
+Dialogue: 0,0:21:18.44,0:21:19.49,titulek,Comment,0000,0000,0000,,Saši!
+Dialogue: 0,0:21:20.17,0:21:21.43,titulek,Comment,0000,0000,0000,,Hej, Saši!
+Dialogue: 0,0:21:21.81,0:21:23.27,titulek,Comment,0000,0000,0000,,Tak podívej se na mì!
+Dialogue: 0,0:21:25.11,0:21:26.78,titulek,Comment,0000,0000,0000,,Uá, co je zase tohle?!
+Dialogue: 0,0:21:26.78,0:21:28.61,titulek,Comment,0000,0000,0000,,Co se ti to odráí v oèích?!
+Dialogue: 0,0:21:29.01,0:21:30.18,titulek,Comment,0000,0000,0000,,Nevím...
+Dialogue: 0,0:21:30.18,0:21:33.12,titulek,Comment,0000,0000,0000,,Saši, ty u si zase nìco vymıšlíš, e jo?!
+Dialogue: 0,0:21:33.12,0:21:35.45,titulek,Comment,0000,0000,0000,,N... nevím, o èem mluvíš...
+Dialogue: 0,0:21:35.45,0:21:38.59,titulek,Comment,0000,0000,0000,,Ty lháøi! To mì poøád nechápeš?!
+Dialogue: 0,0:21:38.59,0:21:41.11,titulek,Comment,0000,0000,0000,,Moná by sis mìl zkusit párkrát zemøít!
+Dialogue: 0,0:21:41.59,0:21:43.23,titulek,Comment,0000,0000,0000,,Já...
+Dialogue: 0,0:21:43.23,0:21:45.10,titulek,Comment,0000,0000,0000,,Dìlám to kvùli tobì...
+Dialogue: 0,0:21:45.10,0:21:47.60,titulek,Comment,0000,0000,0000,,Kvùli mnì?! Ale takhle mi vùbec nepomùeš!
+Dialogue: 0,0:21:47.60,0:21:48.90,titulek,Comment,0000,0000,0000,,Nic nechápeš!
+Dialogue: 0,0:21:48.90,0:21:50.60,titulek,Comment,0000,0000,0000,,To ty nic nechápeš!
+Dialogue: 0,0:21:50.60,0:21:54.23,titulek,Comment,0000,0000,0000,,Copak v té hlavì nemáš nic jiného ne ty tvoje nesmysly?!
+Dialogue: 0,0:22:01.11,0:22:03.77,titulek,Comment,0000,0000,0000,,Uá, co to je? To je odporné.
+Dialogue: 0,0:22:04.11,0:22:06.74,titulek,Comment,0000,0000,0000,,Pøestaò se mi hrabat v hlavì bez dovolení!
+Dialogue: 0,0:22:12.26,0:22:15.26,titulek,Comment,0000,0000,0000,,{\1c&Hffffff&}Pokraèování pøíštì
+
+Dialogue: 0,0:23:46.18,0:23:47.02,titulek,Comment,0000,0000,0000,,Pøíštì, pøíštì...
+Dialogue: 0,0:23:47.02,0:23:48.52,titulek,Comment,0000,0000,0000,,Pøíštì uvidíte, pøíštì uvidíte...
+Dialogue: 1,0:23:47.32,0:23:49.49,titulek,Comment,0000,0000,0080,,{\1c&Hd0d0d0&}Co dìláš? Pìknì jsem se lekla.
+Dialogue: 0,0:23:49.49,0:23:51.62,titulek,Comment,0000,0000,0000,,Ne jsi sem vtrhla, tak jsem dìlal upoutávku!
+Dialogue: 0,0:23:51.62,0:23:52.52,titulek,Comment,0000,0000,0000,,Pro mì za mì.
+Dialogue: 0,0:23:52.52,0:23:54.16,titulek,Comment,0000,0000,0000,,No tak, dìlej, nebo to zase nestihneš.
+Dialogue: 0,0:23:54.16,0:23:54.79,titulek,Comment,0000,0000,0000,,No jo, máš pravdu.
+Dialogue: 0,0:23:54.79,0:23:57.03,titulek,Comment,0000,0000,0000,,Take, v pøíštím díle Magické obchodní pasáe Abeno...
+Dialogue: 1,0:23:56.33,0:23:59.13,titulek,Comment,0000,0000,0080,,{\1c&Hd0d0d0&}Ahojky, hlásí se Mune-mune!
+Dialogue: 0,0:23:58.03,0:23:59.13,titulek,Comment,0000,0000,0000,,Jejda.
+Dialogue: 0,0:23:59.13,0:24:01.73,titulek,Comment,0000,0000,0000,,Dlouho jsem tu nebyla, tak jsem chtìla na chvíli zaskoèit!
+Dialogue: 0,0:24:01.73,0:24:03.37,titulek,Comment,0000,0000,0000,,Ne, ne! Já teï dìlám upoutávku...
+Dialogue: 0,0:24:03.37,0:24:07.30,titulek,Comment,0000,0000,0000,,Upoutávku?! Já chci taky! Já chci taky dìlat upoutávku!
+Dialogue: 1,0:24:06.04,0:24:07.30,titulek,Comment,0000,0000,0080,,{\1c&Hd0d0d0&}Ne, øíkám pøece, e...
+Dialogue: 0,0:24:07.30,0:24:09.81,titulek,Comment,0000,0000,0000,,Tìšte se na další díl Magické obchodní pasáe Abenobaši!
+Dialogue: 0,0:24:09.81,0:24:12.38,titulek,Comment,0000,0000,0000,,Mìjte se! A nezapomeòte!
+Dialogue: 0,0:24:12.38,0:24:14.94,titulek,Comment,0000,0000,0000,,Tohle u je vánì moc!
+
+Dialogue: 0,0:24:10.18,0:24:15.25,nazevdilu,Comment,0000,0000,0100,,{\fad(1000,0)\1a&H00&\1c&Hffffff&\4a&H40&\shad3}Epizoda jedenáctá\N\N\N\N\N\N\N\N\N\N\N\N\NStøet!
+
+

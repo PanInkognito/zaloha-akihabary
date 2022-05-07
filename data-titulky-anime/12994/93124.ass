@@ -1,0 +1,406 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,27,187,0
+Style: Next Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,53,160,0
+Style: RightSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,400,27,107,0
+Style: LeftSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,160,533,53,0
+Style: EpNum,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,533,333,0
+Style: LeftSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,133,560,160,0
+Style: RightSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,560,107,160,0
+Style: CenterSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,307,307,160,0
+Style: DefaultLeftH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: DefaultRightH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,9,0,0,28,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: RightSignL2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,560,107,133,0
+Style: DefaultLow2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: DefaultLef2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: DefaultLeftM,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: OnTop,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,320,160,67,0
+Style: SMR,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,147,27,27,0
+Style: LeftSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,40,547,160,0
+Style: RightSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,547,27,160,0
+Style: CenterSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,320,320,160,0
+Style: DefaultC,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: 3rd,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,267,160,53,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:19.93,0:00:21.77,Default,NTP,0000,0000,0000,,Vítr je teplý.
+Dialogue: 0,0:00:28.65,0:00:35.62,Default,NTP,0000,0000,0000,,{\i1}Květen. Když se probudím a otevřu okno,\Nnemusím se už odvracet od větru.{\i0}
+Dialogue: 0,0:00:44.42,0:00:45.75,Default,NTP,0000,0000,0000,,{\i1}Rei Kiriyama.{\i0}
+Dialogue: 0,0:00:46.50,0:00:48.00,Default,NTP,0000,0000,0000,,{\i1}To je mé jméno.{\i0}
+Dialogue: 0,0:00:49.17,0:00:51.80,Default,NTP,0000,0000,0000,,{\i1}A malé město podél široké řeky{\i0}
+Dialogue: 0,0:00:52.17,0:00:53.72,Default,NTP,0000,0000,0000,,{\i1}je místo, kde žiji.{\i0}
+Dialogue: 0,0:00:55.09,0:00:59.22,Default,NTP,0000,0000,0000,,{\i1}Kategorie C-1, 5-dan. Je mi osmnáct let.{\i0}
+Dialogue: 0,0:01:01.27,0:01:03.98,Default,NTP,0000,0000,0000,,{\i1}Profese: Profesionální šógi hráč.{\i0}
+Dialogue: 0,0:02:35.65,0:02:38.03,Default,NTP,0000,0000,0000,,{\a6}Zapadající slunce
+Dialogue: 0,0:02:38.03,0:02:39.78,DefaultC,NTP,0000,0000,0000,,KOMAHASHI SOUKROMÁ STŘEDNÍ ŠKOLA
+Dialogue: 0,0:02:41.24,0:02:42.45,Default,NTP,0000,0000,0000,,{\i1}Květen.{\i0}
+Dialogue: 0,0:02:44.04,0:02:47.91,Default,NTP,0000,0000,0000,,{\i1}Aktivity vědeckého a šógi klubu\Nkonečně začaly.{\i0}
+Dialogue: 0,0:02:49.29,0:02:51.29,Default,NTP,0000,0000,0000,,{\a6}VĚDECKÁ LABORATOŘ
+Dialogue: 0,0:02:49.79,0:02:51.29,Default,NTP,0000,0000,0000,,Počkej, vydrž chvilku.
+Dialogue: 0,0:02:51.67,0:02:53.71,Default,NTP,0000,0000,0000,,Počkej vteřinku.
+Dialogue: 0,0:02:52.50,0:02:54.05,Default,NTP,0000,0000,0000,,{\an4}Eisaku Noguchi\Ntřetím rokem na střední škole
+Dialogue: 0,0:02:55.30,0:02:57.55,Default,NTP,0000,0000,0000,,Bude v pořádku, když se budu dívat do knihy?
+Dialogue: 0,0:02:55.80,0:02:57.55,Default,NTP,0000,0000,0000,,{\a6}Školní vědecký-šógi klub
+Dialogue: 0,0:02:57.76,0:02:58.80,Default,NTP,0000,0000,0000,,Do toho.
+Dialogue: 0,0:02:57.76,0:02:58.80,Default,NTP,0000,0000,0000,,{\a7}Rei Kiriyama\NProfese: Profesionální šógi hráč
+Dialogue: 0,0:02:58.80,0:03:03.05,LeftSignM2,NTP,0000,0000,0000,,Vědecký\Nšógi\Nklub
+Dialogue: 0,0:02:58.80,0:03:03.05,Default,NTP,0000,0000,0000,,{\a6}OOTA-KUN
+Dialogue: 0,0:03:00.72,0:03:03.05,Default,NTP,0000,0000,0000,,Příblížit se ke králi a obklíčit ho, co?
+Dialogue: 0,0:03:03.05,0:03:05.27,Default,NTP,0000,0000,0000,,{\a6}MUMLÁNÍ MUMLÁNÍ
+Dialogue: 0,0:03:03.05,0:03:05.27,LeftSignM2,NTP,0000,0000,0000,,Bývalý\Ntřídní\Nučitel
+Dialogue: 0,0:03:03.05,0:03:05.27,RightSignM2,NTP,0000,0000,0000,,Fakultní\Nporadce\NTakashi\NHayashida
+Dialogue: 0,0:03:05.56,0:03:08.77,Default,NTP,0000,0000,0000,,{\i1}Pro mě je tohle moje první\Nklubová aktivita.{\i0}
+Dialogue: 0,0:03:11.02,0:03:15.98,Default,NTP,0000,0000,0000,,Můžu udělat tohle, ale\Nsebere mi střelce, takže...
+Dialogue: 0,0:03:18.24,0:03:21.03,Default,NTP,0000,0000,0000,,Já... Já...
+Dialogue: 0,0:03:21.03,0:03:22.74,Default,NTP,0000,0000,0000,,Já prohrál.
+Dialogue: 0,0:03:22.74,0:03:24.99,Default,NTP,0000,0000,0000,,POVZDYCH
+Dialogue: 0,0:03:25.66,0:03:26.83,Default,NTP,0000,0000,0000,,{\a6}KRIZE
+Dialogue: 0,0:03:27.41,0:03:31.21,Default,NTP,0000,0000,0000,,Já-Já si neuvědomil, že prohra\Nbude tak bolestivá.
+Dialogue: 0,0:03:31.46,0:03:33.08,Default,NTP,0000,0000,0000,,Já-Já vyhrál.
+Dialogue: 0,0:03:34.54,0:03:39.05,Default,NTP,0000,0000,0000,,Je to tak, protože jsem nebyl nikdy v životě\N nevystaven tak vážným "výhrám" nebo "prohrám".
+Dialogue: 0,0:03:39.22,0:03:43.93,Default,NTP,0000,0000,0000,,A ještě horší je, že\Nmusím říct sám, že jsem "prohrál".
+Dialogue: 0,0:03:44.18,0:03:46.43,Default,NTP,0000,0000,0000,,{\an7}Se třemi pěšci posunovat\Na posunovat soupeřovy figurky
+Dialogue: 0,0:03:44.51,0:03:47.06,Default,NTP,0000,0000,0000,,I kdybych si přečetl knihu\Na vymyslel si strategii,
+Dialogue: 0,0:03:46.43,0:03:48.60,Default,NTP,0000,0000,0000,,{\an7}Hladový rytíř bude sežrán pěšákem
+Dialogue: 0,0:03:47.06,0:03:50.69,Default,NTP,0000,0000,0000,,můj soupeř by na mě pravděpodobně\Nzaútočil úplně jinak,
+Dialogue: 0,0:03:48.60,0:03:51.02,Default,NTP,0000,0000,0000,,{\an7}Pěšec pod Zlatým generálem\Nje pevnější, než kámen
+Dialogue: 0,0:03:50.69,0:03:52.94,Default,NTP,0000,0000,0000,,takže nevím, co dělat.
+Dialogue: 0,0:03:51.02,0:03:52.94,Default,NTP,0000,0000,0000,,{\an7}Zaútoč na věže a střelce z dálky
+Dialogue: 0,0:03:52.10,0:03:52.94,Default,NTP,0000,0000,0000,,{\an4}Šógi přísloví od Noguchiho
+Dialogue: 0,0:03:53.19,0:03:57.19,Default,NTP,0000,0000,0000,,Jak můžeš vidět,\Ndokonce jsem si udělal nápovědy na šógi.
+Dialogue: 0,0:03:58.03,0:04:02.91,Default,NTP,0000,0000,0000,,A jestli si vymyslím plán, můj protihráč\Nbude mít protiopatření k mému plánu,
+Dialogue: 0,0:04:02.91,0:04:07.33,Default,NTP,0000,0000,0000,,což mě donutí vymyslet protiopatření\Nproti jeho protiopatření proti mému plánu.
+Dialogue: 0,0:04:08.20,0:04:09.58,Default,NTP,0000,0000,0000,,Aaaaaaa!
+Dialogue: 0,0:04:09.75,0:04:12.46,Default,NTP,0000,0000,0000,,Ah! Není tomu konec, že? 
+Dialogue: 0,0:04:12.83,0:04:15.92,Default,NTP,0000,0000,0000,,{\a6}Tedy, ne, nemá to konec.
+Dialogue: 0,0:04:16.21,0:04:20.05,Default,NTP,0000,0000,0000,,Přirozeně, tvůj protihráč nepůjde\Npodle tvého plánu,
+Dialogue: 0,0:04:20.67,0:04:23.01,Default,NTP,0000,0000,0000,,takže buď opatrný.
+Dialogue: 0,0:04:23.01,0:04:24.89,Default,NTP,0000,0000,0000,,{\a6}VĚŽ
+Dialogue: 0,0:04:23.43,0:04:29.27,Default,NTP,0000,0000,0000,,Nejdřív, s postupujícím Stříbrným generálem je tvým cílem \N povýšení tvé věže, takže se soustřeď na to.
+Dialogue: 0,0:04:30.39,0:04:34.10,Default,NTP,0000,0000,0000,,Jakmile se o to budeš snažit,\Nnenech si vzít žádné figurky.
+Dialogue: 0,0:04:35.11,0:04:37.27,Default,NTP,0000,0000,0000,,A potom, když ho povýším?
+Dialogue: 0,0:04:37.65,0:04:41.57,Default,NTP,0000,0000,0000,,Konec hry je, když vezmeš protihráči krále,
+Dialogue: 0,0:04:41.57,0:04:45.37,Default,NTP,0000,0000,0000,,takže bys měl obklíčit krále\Ns co možná největším počtem figurek.
+Dialogue: 0,0:04:46.41,0:04:48.70,DefaultC,NTP,0000,0000,0000,,STŘÍBRNÝ GENERÁL
+Dialogue: 0,0:04:49.08,0:04:49.66,DefaultC,NTP,0000,0000,0000,,POVÝŠENÝ PĚŠEC
+Dialogue: 0,0:04:49.91,0:04:51.54,Default,NTP,0000,0000,0000,,Kryji vaše záda, Senpai!
+Dialogue: 0,0:04:51.54,0:04:52.62,Default,NTP,0000,0000,0000,,To je uklidňující.
+Dialogue: 0,0:04:52.62,0:04:58.38,Default,NTP,0000,0000,0000,,Ale jestli pohnu co největším počtem figurek,\Nzanechám svůj hrad otevřený.
+Dialogue: 0,0:04:53.12,0:04:53.71,RightSignM2,NTP,0000,0000,0000,,BENG
+Dialogue: 0,0:04:54.92,0:04:55.46,RightSignM2,NTP,0000,0000,0000,,BENG
+Dialogue: 0,0:04:56.63,0:04:57.21,RightSignM2,NTP,0000,0000,0000,,BENG
+Dialogue: 0,0:04:58.38,0:04:59.00,RightSignM2,NTP,0000,0000,0000,,BENG
+Dialogue: 0,0:04:59.13,0:05:02.38,Default,NTP,0000,0000,0000,,Takže sis toho všiml? Máš pravdu.
+Dialogue: 0,0:04:59.67,0:05:02.38,Default,NTP,0000,0000,0000,,{\an6}ZASTÉNÁNÍ
+Dialogue: 0,0:05:11.60,0:05:13.44,Default,NTP,0000,0000,0000,,Hej, hej, hej, mňau!
+Dialogue: 0,0:05:13.44,0:05:16.19,Default,NTP,0000,0000,0000,,Vydejte nám krále-mňau!
+Dialogue: 0,0:05:13.44,0:05:16.19,Default,NTP,0000,0000,0000,,{\a6}Kopiník - Pěšec - Stříbrný generál - Povýšený pěšec - Střelec
+Dialogue: 0,0:05:16.40,0:05:17.40,Default,NTP,0000,0000,0000,,Nikdy nedostanete...
+Dialogue: 0,0:05:17.40,0:05:18.65,Default,NTP,0000,0000,0000,,...našeho krále!
+Dialogue: 0,0:05:18.65,0:05:20.03,Default,NTP,0000,0000,0000,,{\a6}Kopiník - Zlatý generál - Král - Zlatý generál - Stříbrný generál
+Dialogue: 0,0:05:20.69,0:05:23.07,Default,NTP,0000,0000,0000,,Máš pouze limitovaný\Npočet figurek.
+Dialogue: 0,0:05:23.07,0:05:26.53,Default,NTP,0000,0000,0000,,Už jsem to říkal, jestli se pouze bráníš,\Nnebudeš efektivní v útoku.
+Dialogue: 0,0:05:26.53,0:05:27.53,Default,NTP,0000,0000,0000,,{\a10}SPRINT
+Dialogue: 0,0:05:26.53,0:05:28.12,Default,NTP,0000,0000,0000,,Nastala chvíle, kdy to dokážu!
+Dialogue: 0,0:05:28.12,0:05:31.20,Default,NTP,0000,0000,0000,,Stříbrný generále, počkej! Vrať se, vrať se!
+Dialogue: 0,0:05:31.20,0:05:32.95,Default,NTP,0000,0000,0000,,{\a6}PLÍŽENÍ PLÍŽENÍ PLÍŽENÍ
+Dialogue: 0,0:05:32.95,0:05:35.87,Default,NTP,0000,0000,0000,,{\a10}KLEPOT KLEPOT
+Dialogue: 0,0:05:33.79,0:05:35.87,Default,NTP,0000,0000,0000,,Běž pryč!
+Dialogue: 0,0:05:35.87,0:05:38.34,Default,NTP,0000,0000,0000,,Rovnováha mezi útokem a obranou je celé téma hry.
+Dialogue: 0,0:05:39.54,0:05:43.13,Default,NTP,0000,0000,0000,,Tedy, budeš prostě muset hrát hodně,\Naby sis takové věci zapamatoval.
+Dialogue: 0,0:05:43.59,0:05:47.30,Default,NTP,0000,0000,0000,,Nemusíš se jen učit, na internetu\Nje spousta možností hrát,
+Dialogue: 0,0:05:47.64,0:05:49.39,Default,NTP,0000,0000,0000,,takže můžeš zůstat doma\Nv pohodě a...
+Dialogue: 0,0:05:49.39,0:05:50.68,Default,NTP,0000,0000,0000,,Kiriyamo!
+Dialogue: 0,0:05:50.85,0:05:52.10,Default,NTP,0000,0000,0000,,{\a6}PÍCHNUTÍ
+Dialogue: 0,0:05:50.85,0:05:53.06,Default,NTP,0000,0000,0000,,Mohl by jsi pro mě vybít duši z tohohle týpka?
+Dialogue: 0,0:05:53.31,0:05:55.39,Default,NTP,0000,0000,0000,,Když to takhle půjde dál, prohraju!
+Dialogue: 0,0:05:55.39,0:05:57.40,Default,NTP,0000,0000,0000,,Jaký by měl být můj další pohyb?
+Dialogue: 0,0:05:57.40,0:05:59.56,Default,NTP,0000,0000,0000,,Chci donutit tohohle chlapa zaplatit!
+Dialogue: 0,0:06:00.77,0:06:02.69,Default,NTP,0000,0000,0000,,Prosím, myslete sám.
+Dialogue: 0,0:06:04.03,0:06:06.11,Default,NTP,0000,0000,0000,,Co to sakra? Jsi tak chladný Kiriyamo!
+Dialogue: 0,0:06:05.57,0:06:09.57,Default,NTP,0000,0000,0000,,{\a6}Jsi tak neústupný!
+Dialogue: 0,0:06:05.57,0:06:09.57,Default,NTP,0000,0000,0000,,{\a6}Neústupný!
+Dialogue: 0,0:06:06.11,0:06:08.07,Default,NTP,0000,0000,0000,,Jak tohle můžeš udělat svému starému učiteli?
+Dialogue: 0,0:06:08.07,0:06:09.57,Default,NTP,0000,0000,0000,,Podvádění je špatné.
+Dialogue: 0,0:06:09.57,0:06:11.83,Default,NTP,0000,0000,0000,,{\a6}RÁNA
+Dialogue: 0,0:06:09.57,0:06:11.83,Default,NTP,0000,0000,0000,,{\a6}RÁNA
+Dialogue: 0,0:06:09.57,0:06:12.54,Default,NTP,0000,0000,0000,,Dovolujete svým studentům podvádět u testů?
+Dialogue: 0,0:06:11.83,0:06:14.33,Default,NTP,0000,0000,0000,,{\a6}NE
+Dialogue: 0,0:06:11.83,0:06:14.33,Default,NTP,0000,0000,0000,,{\a6}NE
+Dialogue: 0,0:06:12.54,0:06:14.33,Default,NTP,0000,0000,0000,,Ne, že? Chápete?
+Dialogue: 0,0:06:14.50,0:06:17.50,Default,NTP,0000,0000,0000,,Nechci teď poslouchat tvé důvody!
+Dialogue: 0,0:06:17.50,0:06:20.84,Default,NTP,0000,0000,0000,,To není důvod, to je pravidlo. Nejste dítě, víte?
+Dialogue: 0,0:06:25.13,0:06:27.38,Default,NTP,0000,0000,0000,,Dobře, pojďme pokračovat ve hře.
+Dialogue: 0,0:06:27.38,0:06:29.47,Default,NTP,0000,0000,0000,,Neboj se prohry.
+Dialogue: 0,0:06:29.47,0:06:32.10,Default,NTP,0000,0000,0000,,Jestli nehraješ hodně, nedostaneš k tomu cit.
+Dialogue: 0,0:06:32.89,0:06:35.35,Default,NTP,0000,0000,0000,,Říkáš mi, abych si zvykl na prohru?
+Dialogue: 0,0:06:35.60,0:06:37.27,Default,NTP,0000,0000,0000,,Ne, nezvykej si na to.
+Dialogue: 0,0:06:37.27,0:06:40.90,Default,NTP,0000,0000,0000,,Jestli nebudeš frustrovaný prohrou,\Npřestaneš se učit.
+Dialogue: 0,0:06:41.11,0:06:45.61,Default,NTP,0000,0000,0000,,Otázka! Jak silný musím být,\N než se rozloučím s touto frustrací?
+Dialogue: 0,0:06:47.74,0:06:52.03,Default,NTP,0000,0000,0000,,I když budeš silný, ale budeš hrát s někým,\N kdo je lepší, prohraješ.
+Dialogue: 0,0:06:52.41,0:06:56.29,Default,NTP,0000,0000,0000,,Když se to stane, je to tak frustrující, že máš pocit\Njakoby se ti vnitřnosti protočily naruby.
+Dialogue: 0,0:06:56.50,0:06:58.50,Default,NTP,0000,0000,0000,,Nikdy to nekončí?
+Dialogue: 0,0:06:58.50,0:07:02.17,Default,NTP,0000,0000,0000,,Ne. Je to navždy frustrující a navždy bolestivé.
+Dialogue: 0,0:07:01.00,0:07:03.38,Default,NTP,0000,0000,0000,,{\a6}POTUPENÍ
+Dialogue: 0,0:07:02.50,0:07:03.84,Default,NTP,0000,0000,0000,,Kromě toho, když vyhraješ.
+Dialogue: 0,0:07:03.38,0:07:03.84,Default,NTP,0000,0000,0000,,{\a6}ŠEPOT
+Dialogue: 0,0:07:04.67,0:07:07.55,Default,NTP,0000,0000,0000,,Čím silnější budete,\Ntím více hořce bude chutnat vaše prohra.
+Dialogue: 0,0:07:07.88,0:07:10.93,Default,NTP,0000,0000,0000,,Vlastně, čím více času nad tím strávíte,\Ntím víc frustrující to bude.
+Dialogue: 0,0:07:11.18,0:07:13.10,Default,NTP,0000,0000,0000,,Čím více se zlepšíte,\Ntím více frustrovaní budete.
+Dialogue: 0,0:07:13.10,0:07:15.10,Default,NTP,0000,0000,0000,,Po-Počkej chvilku Kiriyamo!
+Dialogue: 0,0:07:15.47,0:07:18.44,Default,NTP,0000,0000,0000,,Bavíš se vůbec, když hraješ šógi?
+Dialogue: 0,0:07:18.56,0:07:19.69,DefaultC,NTP,0000,0000,0000,,ZAMRZNUTÍ
+Dialogue: 0,0:07:18.56,0:07:19.69,DefaultRightH,NTP,0000,0000,0000,,KLEPOT\NKLEPOT
+Dialogue: 0,0:07:20.15,0:07:21.15,Default,NTP,0000,0000,0000,,Z-Zábava?
+Dialogue: 0,0:07:22.23,0:07:23.23,Default,NTP,0000,0000,0000,,Co?
+Dialogue: 0,0:07:33.03,0:07:36.95,Default,NTP,0000,0000,0000,,*Toto pozadí obsahuje metaforické obrazy\Njako doprovod.
+Dialogue: 0,0:07:37.41,0:07:39.16,Default,NTP,0000,0000,0000,,ZAMRZNUTÍ
+Dialogue: 0,0:07:39.83,0:07:40.83,Default,NTP,0000,0000,0000,,Ale ne!
+Dialogue: 0,0:07:41.04,0:07:44.88,Default,NTP,0000,0000,0000,,To je v pořádku, Kiriyamo.\NCh-Chtěl by jsi trochu čaje?
+Dialogue: 0,0:07:44.88,0:07:49.67,Default,NTP,0000,0000,0000,,Je to slzovkový čaj vyrobený ze slzovkové\Ntrávy získané z pole za školou.
+Dialogue: 0,0:07:49.67,0:07:52.80,Default,NTP,0000,0000,0000,,Noguchi, ty to myslíš doopravdy vážně\N se soběstačností, že?
+Dialogue: 0,0:07:52.80,0:07:55.89,Default,NTP,0000,0000,0000,,Taky mám kávu vyrobenou z kořenů pampelišek.
+Dialogue: 0,0:07:55.89,0:07:58.68,Default,NTP,0000,0000,0000,,To už není věda, ale zemědělství.
+Dialogue: 0,0:08:02.48,0:08:04.98,Default,NTP,0000,0000,0000,,Jdu na toaletu.
+Dialogue: 0,0:08:03.69,0:08:04.98,Default,NTP,0000,0000,0000,,{\a10}POTÁCENÍ
+Dialogue: 0,0:08:05.11,0:08:11.74,RightSignM,NTP,0000,0000,0000,,KLEPOT\NKLEPOT
+Dialogue: 0,0:08:05.77,0:08:10.15,Default,NTP,0000,0000,0000,,Tvůj čaj!\NMá projímavé učinky. Hmm.
+Dialogue: 0,0:08:10.15,0:08:11.74,Default,NTP,0000,0000,0000,,Buď rychlý Kiriyamo!
+Dialogue: 0,0:08:12.03,0:08:15.16,Default,NTP,0000,0000,0000,,Mistrovský zápas v televizi začne ve čtyři!
+Dialogue: 0,0:08:15.16,0:08:17.08,Default,NTP,0000,0000,0000,,Dobře, budu rychlý!
+Dialogue: 0,0:08:18.12,0:08:20.66,Default,NTP,0000,0000,0000,,{\i1}To bylo před pěti lety.{\i0}
+Dialogue: 0,0:08:21.67,0:08:26.92,Default,NTP,0000,0000,0000,,{\i1}Kdyby nastoupil do vlaku bez přestrojení, byl by poznán.{\i0}
+Dialogue: 0,0:08:27.17,0:08:30.17,Default,NTP,0000,0000,0000,,{\i1}Samozřejmě ošálil i mě.{\i0}
+Dialogue: 0,0:08:30.88,0:08:32.88,Default,NTP,0000,0000,0000,,{\i1}A tak i 14 lidí...{\i0}
+Dialogue: 0,0:08:33.64,0:08:37.22,Default,NTP,0000,0000,0000,,{\a6}100 SLAVNÝCH JEZER JAPONSKA
+Dialogue: 0,0:08:34.34,0:08:38.64,Default,NTP,0000,0000,0000,,{\i1}Průsmyk Aburasaka se nachází mezi prefekturou\N Fukui a prefekturou Gifu.{\i0}
+Dialogue: 0,0:08:38.64,0:08:41.56,Default,NTP,0000,0000,0000,,Vůbec jsem to nevěděl.
+Dialogue: 0,0:08:41.94,0:08:46.56,Default,NTP,0000,0000,0000,,Kiriyama už žije svůj život\Njako profesionál?
+Dialogue: 0,0:08:47.44,0:08:54.32,Default,NTP,0000,0000,0000,,To už žije v tvrdém světě\N"vítězství" nebo "prohra," že?
+Dialogue: 0,0:08:57.12,0:09:01.25,Default,NTP,0000,0000,0000,,I nejlepší hráč Mistr Souya\Nmá 70% vítězství.
+Dialogue: 0,0:09:01.62,0:09:04.25,Default,NTP,0000,0000,0000,,Prohraje tři z deseti zápasů.
+Dialogue: 0,0:09:04.25,0:09:09.75,Default,NTP,0000,0000,0000,,{\a6}MEIJIN BITVA\NTOUJI VS KUMAKURA\NDRUHÝ ZÁPAS
+Dialogue: 0,0:09:05.50,0:09:07.17,Default,NTP,0000,0000,0000,,Oh, o něm jsem už slyšel.
+Dialogue: 0,0:09:07.17,0:09:09.75,Default,NTP,0000,0000,0000,,Vyhrál "Sedm korun," že?
+Dialogue: 0,0:09:10.38,0:09:13.76,Default,NTP,0000,0000,0000,,Takže oni vysílají\Njeho zápas živě, co?
+Dialogue: 0,0:09:13.76,0:09:16.76,Default,NTP,0000,0000,0000,,Ano. Tohle je druhý zápas\NMeijin bitvy.
+Dialogue: 0,0:09:16.76,0:09:19.64,Default,NTP,0000,0000,0000,,V prvním utkání prohrál vyzývatel Kumakura.
+Dialogue: 0,0:09:20.52,0:09:25.02,Default,NTP,0000,0000,0000,,Čím silnější budeš,\Ntím více hořká bude porážka, co?
+Dialogue: 0,0:09:25.65,0:09:29.27,Default,NTP,0000,0000,0000,,Když někdo jeho úrovně prohraje,
+Dialogue: 0,0:09:30.40,0:09:34.07,Default,NTP,0000,0000,0000,,zajímalo by mě, co se mu honí hlavou?
+Dialogue: 0,0:09:35.86,0:09:37.07,Default,NTP,0000,0000,0000,,Oh, už to začíná.
+Dialogue: 0,0:09:37.45,0:09:42.04,Default,NTP,0000,0000,0000,,{\i1}Tohle je druhý den \Ndevadesáté-šesté Meijin Bitvy.{\i0}
+Dialogue: 0,0:09:42.79,0:09:46.29,Default,NTP,0000,0000,0000,,{\a6}Začneme s příchodem hráčů.
+Dialogue: 0,0:09:42.79,0:09:46.29,Default,NTP,0000,0000,0000,,{\a1}Vyzývatel\NKengo Kumakura\N9-dan
+Dialogue: 0,0:09:47.21,0:09:53.01,Default,NTP,0000,0000,0000,,V 8:53 ráno vyzývatel\NKengo Kumakura 9-dan vešel do místnosti.
+Dialogue: 0,0:09:56.30,0:09:58.55,Default,NTP,0000,0000,0000,,{\a1}Touji Souya\NMistr
+Dialogue: 0,0:09:56.30,0:10:01.18,Default,NTP,0000,0000,0000,,{\a6}A poté v 8:55 ráno,\NMistr Souya vešel do místnosti.
+Dialogue: 0,0:10:09.56,0:10:11.90,Default,NTP,0000,0000,0000,,Zápas začal v 9:00 ráno.
+Dialogue: 0,0:10:13.15,0:10:15.78,Default,NTP,0000,0000,0000,,Už za chvilku druhý zápas začne.
+Dialogue: 0,0:10:21.28,0:10:25.00,Default,NTP,0000,0000,0000,,Souya vypadá, že se baví.\NZávidím mu.
+Dialogue: 0,0:10:25.29,0:10:27.37,Default,NTP,0000,0000,0000,,Tedy, jen vydrž.
+Dialogue: 0,0:10:27.96,0:10:30.88,Default,NTP,0000,0000,0000,,Souya si pro tebe přijde\Nv Kishou Turnaji.
+Dialogue: 0,0:10:31.17,0:10:33.13,Default,NTP,0000,0000,0000,,jako vyzývatel.
+Dialogue: 0,0:10:33.88,0:10:36.01,Default,NTP,0000,0000,0000,,Děsivé. Ale docela se na to těším.
+Dialogue: 0,0:10:36.76,0:10:40.30,Default,NTP,0000,0000,0000,,Souya má milou tvář,\Nale přijde mi zlámat kosti.
+Dialogue: 0,0:10:40.30,0:10:42.06,Default,NTP,0000,0000,0000,,Děsivé, děsivé.
+Dialogue: 0,0:10:42.43,0:10:46.77,Default,NTP,0000,0000,0000,,Tedy, to jsou základní pohyby,\Nkteré děláš, když chceš zesměšnit soupeře.
+Dialogue: 0,0:10:46.77,0:10:50.69,Default,NTP,0000,0000,0000,,Zesměšnit? Já jsem vždy vážný, když hraji.
+Dialogue: 0,0:10:50.69,0:10:54.57,Default,NTP,0000,0000,0000,,Oh, promiň. Myslel jsem,\Nže se opravdu vysměješ svému protihráči.
+Dialogue: 0,0:10:56.03,0:10:59.82,Default,NTP,0000,0000,0000,,Jestli vyhraji turnaj,\Npotom začnu rozdávat rány.
+Dialogue: 0,0:10:59.82,0:11:02.16,Default,NTP,0000,0000,0000,,Ale teď je to fyzicky těžké.
+Dialogue: 0,0:11:02.66,0:11:05.95,Default,NTP,0000,0000,0000,,Koneckonců, za chvíli mi bude 60.
+Dialogue: 0,0:11:05.95,0:11:07.91,Default,NTP,0000,0000,0000,,Pravděpodobně se budu v ringu kroutit.
+Dialogue: 0,0:11:09.67,0:11:12.38,Default,NTP,0000,0000,0000,,Když tvůj protihráč vytasí všechno,\Nneublíží ti.
+Dialogue: 0,0:11:12.67,0:11:16.80,Default,NTP,0000,0000,0000,,Když mu ublížíš vším, co máš,\Nnadzdvihne se a oplatí ti to.
+Dialogue: 0,0:11:17.42,0:11:21.18,Default,NTP,0000,0000,0000,,Souya by měl být šťastný\Nza protihráče, jako je Kumakura.
+Dialogue: 0,0:11:21.30,0:11:24.31,Default,NTP,0000,0000,0000,,A naopak, Kumakura se Soyou.
+Dialogue: 0,0:11:26.22,0:11:28.81,Default,NTP,0000,0000,0000,,Oba si myslí, že jejich protihráč 
+Dialogue: 0,0:11:28.81,0:11:34.57,Default,NTP,0000,0000,0000,,je hračka, která se nerozbije\Nani když s ní házíš a točíš dokola.
+Dialogue: 0,0:11:38.32,0:11:42.24,Default,NTP,0000,0000,0000,,Bože, oba dva jsou tak dobří.
+Dialogue: 0,0:11:43.32,0:11:44.74,Default,NTP,0000,0000,0000,,{\i1}Napadlo mě to.{\i0}
+Dialogue: 0,0:11:45.95,0:11:48.12,Default,NTP,0000,0000,0000,,{\i1}Právě teď se pan Shimada...{\i0}
+Dialogue: 0,0:11:49.08,0:11:52.13,Default,NTP,0000,0000,0000,,{\i1}na ně odněkud musí dívat.{\i0}
+Dialogue: 0,0:11:53.38,0:11:55.84,Default,NTP,0000,0000,0000,,{\i1}Z učebny obarvené červeně zapadajícím sluncem,{\i0}
+Dialogue: 0,0:11:57.51,0:11:59.47,Default,NTP,0000,0000,0000,,{\i1}se člověk na obrazovce...{\i0}
+Dialogue: 0,0:12:02.59,0:12:05.97,Default,NTP,0000,0000,0000,,{\i1}...jemně usmíval.{\i0}
+Dialogue: 0,0:12:05.97,0:12:07.97,Default,NTP,0000,0000,0000,,Zapadající slunce
+Dialogue: 0,0:12:07.97,0:12:11.98,Default,NTP,0000,0000,0000,,{\a6}Ramune
+Dialogue: 0,0:12:38.59,0:12:40.55,Default,NTP,0000,0000,0000,,J-Jí rukama!
+Dialogue: 0,0:12:59.48,0:13:02.28,Default,NTP,0000,0000,0000,,Bože, spolknul tři kusy dortu\Njen v pár vteřinách!
+Dialogue: 0,0:13:02.28,0:13:04.07,Default,NTP,0000,0000,0000,,Jen je spolknul, přesně tak.
+Dialogue: 0,0:13:04.32,0:13:06.83,Default,NTP,0000,0000,0000,,A jeho oči se od desky celou dobu nepohnuly!
+Dialogue: 0,0:13:07.24,0:13:09.08,Default,NTP,0000,0000,0000,,Taková nádhera.
+Dialogue: 0,0:13:10.08,0:13:13.08,Default,NTP,0000,0000,0000,,Pořád je to zajímavá scéna.
+Dialogue: 0,0:13:13.46,0:13:16.92,Default,NTP,0000,0000,0000,,Právě teď se uprostřed hry bojovníků v kimonech
+Dialogue: 0,0:13:16.92,0:13:18.84,Default,NTP,0000,0000,0000,,objevila svačina.
+Dialogue: 0,0:13:18.84,0:13:22.59,Default,NTP,0000,0000,0000,,A vysílá se pro celou zemi.
+Dialogue: 0,0:13:22.80,0:13:27.18,Default,NTP,0000,0000,0000,,Tedy, mozek je větší jedlík\Nnež všechny orgány v těle.
+Dialogue: 0,0:13:27.18,0:13:30.18,Default,NTP,0000,0000,0000,,A glukóza je jediná výživa, kterou může dostat.
+Dialogue: 0,0:13:30.35,0:13:34.48,Default,NTP,0000,0000,0000,,V šógi potřebuješ mozek jedoucí na všechny válce.
+Dialogue: 0,0:13:35.90,0:13:38.23,Default,NTP,0000,0000,0000,,A tak, kde je Souya...
+Dialogue: 0,0:13:58.38,0:14:00.84,Default,NTP,0000,0000,0000,,Dodává svému mozku\Nenergii přímo!
+Dialogue: 0,0:14:01.09,0:14:02.59,Default,NTP,0000,0000,0000,,Kolik kostek cukru v tom bylo?!
+Dialogue: 0,0:14:02.96,0:14:04.84,Default,NTP,0000,0000,0000,,A tři kousky citrónu?!
+Dialogue: 0,0:14:05.13,0:14:09.47,Default,NTP,0000,0000,0000,,Kyselina citronová\Na cukr dodávají mozku energii.
+Dialogue: 0,0:14:09.47,0:14:11.47,Default,NTP,0000,0000,0000,,Je to příliš rychlé!\NJak se také očekává od Mistra!
+Dialogue: 0,0:14:10.22,0:14:14.89,Default,NTP,0000,0000,0000,,{\a6}ACH ACH\NTAK COOL
+Dialogue: 0,0:14:11.47,0:14:12.81,Default,NTP,0000,0000,0000,,Je to tak efektivní.
+Dialogue: 0,0:14:12.81,0:14:15.89,Default,NTP,0000,0000,0000,,Tito dva jsou opravdová monstra!\NVe více významech, než v jednom ...
+Dialogue: 0,0:14:15.89,0:14:17.35,Default,NTP,0000,0000,0000,,To je to, co vás nejvíc zajímá?
+Dialogue: 0,0:14:17.35,0:14:20.36,Default,NTP,0000,0000,0000,,ŠÓGI HALA
+Dialogue: 0,0:14:18.98,0:14:20.36,Default,NTP,0000,0000,0000,,{\a6}Ach.
+Dialogue: 0,0:14:22.15,0:14:24.44,Default,NTP,0000,0000,0000,,Tři kusy dortu, snědené tak rychle.
+Dialogue: 0,0:14:24.61,0:14:27.24,Default,NTP,0000,0000,0000,,Kuma má apetit.
+Dialogue: 0,0:14:27.61,0:14:31.12,Default,NTP,0000,0000,0000,,Už je díky tomu slavný\Nna turnajových přenosech.
+Dialogue: 0,0:14:31.33,0:14:32.74,Default,NTP,0000,0000,0000,,Ten jeho apetit.
+Dialogue: 0,0:14:32.74,0:14:35.16,Default,NTP,0000,0000,0000,,Vždy ukážou "přestávku na svačinu."
+Dialogue: 0,0:14:35.16,0:14:39.88,Default,NTP,0000,0000,0000,,Kuma dokáže i rychle chlastat.
+Dialogue: 0,0:14:40.04,0:14:43.59,Default,NTP,0000,0000,0000,,Tohle je ten typ chlapa, co jí dorty,\Nzatímco dopíjí shochu ze sladkých brambor.
+Dialogue: 0,0:14:43.59,0:14:47.22,Default,NTP,0000,0000,0000,,Jde to vůbec dohromady? Vsadím se, že ne!
+Dialogue: 0,0:14:47.51,0:14:50.60,Default,NTP,0000,0000,0000,,A na druhé straně máme Souyu.
+Dialogue: 0,0:14:51.26,0:14:53.81,Default,NTP,0000,0000,0000,,Teď je tupý muž.
+Dialogue: 0,0:14:53.81,0:14:56.64,Default,NTP,0000,0000,0000,,Myslel sis, že to jsou\Nkostky cukru, že?
+Dialogue: 0,0:14:57.10,0:14:58.19,Default,NTP,0000,0000,0000,,A nejsou?
+Dialogue: 0,0:14:59.48,0:15:00.48,Default,NTP,0000,0000,0000,,Čistá glukóza.
+Dialogue: 0,0:15:00.48,0:15:05.57,Default,NTP,0000,0000,0000,,Co to sakra?\NPotom krmí pouze mozek.
+Dialogue: 0,0:15:05.57,0:15:07.65,Default,NTP,0000,0000,0000,,Jak nevýrazný ještě bude?
+Dialogue: 0,0:15:07.86,0:15:09.16,Default,NTP,0000,0000,0000,,I když, to je přesně jako on.
+Dialogue: 0,0:15:13.58,0:15:17.41,Default,NTP,0000,0000,0000,,Koukám, že to teď prodávají ve tvaru kostek.
+Dialogue: 0,0:15:17.41,0:15:19.08,Default,NTP,0000,0000,0000,,V lékárnách a supermarketech.
+Dialogue: 0,0:15:19.08,0:15:20.63,Default,NTP,0000,0000,0000,,Ukazuje to o něm hodně.
+Dialogue: 0,0:15:20.92,0:15:24.84,Default,NTP,0000,0000,0000,,Souya mě požádal, abych mu nějaké přinesl,\Nkdyž jsme byli v Kjótu.
+Dialogue: 0,0:15:24.84,0:15:28.01,Default,NTP,0000,0000,0000,,Řekl, že snědl to, co měl\Na zeptal se na další.
+Dialogue: 0,0:15:28.34,0:15:31.64,Default,NTP,0000,0000,0000,,Kjóto? Oh, Turnaj Lvího krále.
+Dialogue: 0,0:15:32.10,0:15:33.56,Default,NTP,0000,0000,0000,,Se Shimadou...
+Dialogue: 0,0:15:43.40,0:15:48.03,Default,NTP,0000,0000,0000,,Musel využít hodně síly\Na výdrže, aby shodil Shimadu na zem.
+Dialogue: 0,0:15:48.61,0:15:51.53,Default,NTP,0000,0000,0000,,I když skóre bylo 4-0 a zdálo se to lehké.
+Dialogue: 0,0:15:55.95,0:15:59.54,Default,NTP,0000,0000,0000,,Myslím, že i držitel titulu je zoufalý.
+Dialogue: 0,0:16:01.54,0:16:03.29,Default,NTP,0000,0000,0000,,{\a6}69 Meijin bitva\NDruhý zápas\NKonec
+Dialogue: 0,0:16:02.92,0:16:05.34,Default,NTP,0000,0000,0000,,Takže mozek je "největší jedlík," co?
+Dialogue: 0,0:16:05.80,0:16:10.01,Default,NTP,0000,0000,0000,,Kiriyamo, věděl si, z čeho\Nse dělá ramune?
+Dialogue: 0,0:16:10.01,0:16:12.22,Default,NTP,0000,0000,0000,,Cože? Uh, ne.
+Dialogue: 0,0:16:12.72,0:16:14.80,Default,NTP,0000,0000,0000,,Glukóza a škrob.
+Dialogue: 0,0:16:15.14,0:16:16.56,Default,NTP,0000,0000,0000,,{\a6}Glukóza?
+Dialogue: 0,0:16:16.85,0:16:20.89,Default,NTP,0000,0000,0000,,A je jednoduché je udělat.\NChtěl bys je zkusit udělat?
+Dialogue: 0,0:16:20.89,0:16:24.06,Default,NTP,0000,0000,0000,,První den vysílání už stejně skončil.
+Dialogue: 0,0:16:25.94,0:16:29.36,Default,NTP,0000,0000,0000,,Měli bychom tu mít nějaké zbytky ingrediencí.
+Dialogue: 0,0:16:29.36,0:16:31.15,Default,NTP,0000,0000,0000,,Proč to děláme?
+Dialogue: 0,0:16:31.15,0:16:34.32,Default,NTP,0000,0000,0000,,Minulý rok jsme dělali experimentální vzorky jídla do bazaru.
+Dialogue: 0,0:16:36.20,0:16:39.83,Default,NTP,0000,0000,0000,,K tomu natto, rýži, a čaj ze slzovky...
+Dialogue: 0,0:16:40.12,0:16:42.46,Default,NTP,0000,0000,0000,,Přísahám, jediné, co děláte je, že jíte.
+Dialogue: 0,0:16:44.00,0:16:47.46,Default,NTP,0000,0000,0000,,To je věda. Všechno je to součást vědy.
+Dialogue: 0,0:16:56.68,0:17:01.48,Default,NTP,0000,0000,0000,,DNEŠNÍ VĚDA
+Dialogue: 0,0:17:01.48,0:17:08.40,Default,NTP,0000,0000,0000,,{\a6}Věda ve dvaceti minutách
+Dialogue: 0,0:17:02.81,0:17:08.40,Default,NTP,0000,0000,0000,,Domácí Ramune
+Dialogue: 0,0:17:11.74,0:17:16.24,Default,NTP,0000,0000,0000,,Nejprve prosijeme jemně rozdrcenou glukózu.
+Dialogue: 0,0:17:17.16,0:17:19.91,Default,NTP,0000,0000,0000,,Pak vložíme bramborový škrob\Na vodu do kádinky.
+Dialogue: 0,0:17:20.20,0:17:23.50,Default,NTP,0000,0000,0000,,A aby to nebylo bez chuti,\Npřidáme malinko kyseliny citronové.
+Dialogue: 0,0:17:23.50,0:17:25.92,Default,NTP,0000,0000,0000,,Kyselá chuť je osvěžující.
+Dialogue: 0,0:17:26.25,0:17:28.92,Default,NTP,0000,0000,0000,,Kyselina citronová je také účinná proti únavě.
+Dialogue: 0,0:17:27.42,0:17:28.92,Default,NTP,0000,0000,0000,,{\a10}MALINKO
+Dialogue: 0,0:17:29.21,0:17:32.05,Default,NTP,0000,0000,0000,,Poté to zamícháš a trochu ohřeješ.
+Dialogue: 0,0:17:32.38,0:17:35.43,Default,NTP,0000,0000,0000,,To je všechna kyselina citronová, kterou potřebuješ?
+Dialogue: 0,0:17:35.43,0:17:39.01,Default,NTP,0000,0000,0000,,I nepatrné množství jako je toto\Nje velmi kyselé.
+Dialogue: 0,0:17:40.02,0:17:43.60,Default,NTP,0000,0000,0000,,Poté vmícháš po troškách glukózu.
+Dialogue: 0,0:17:40.64,0:17:41.56,Default,NTP,0000,0000,0000,,{\a10}GLUKÓZA
+Dialogue: 0,0:17:44.19,0:17:46.90,Default,NTP,0000,0000,0000,,Hněteme, hněteme a stiskneme!
+Dialogue: 0,0:17:48.02,0:17:49.77,Default,NTP,0000,0000,0000,,A máme hotovo!
+Dialogue: 0,0:17:48.73,0:17:49.77,Default,NTP,0000,0000,0000,,{\a10}BUUM
+Dialogue: 0,0:17:49.77,0:17:51.32,Default,NTP,0000,0000,0000,,- Cože?\N- To už?
+Dialogue: 0,0:17:53.36,0:17:55.49,Default,NTP,0000,0000,0000,,Nakrájíš to na malé kousky,
+Dialogue: 0,0:17:55.49,0:17:57.82,Default,NTP,0000,0000,0000,,necháš to přirozeně uschnout a poté to můžeš jíst.
+Dialogue: 0,0:18:02.87,0:18:06.37,Default,NTP,0000,0000,0000,,{\a6}Ještě to neztvrdlo, ale do toho.
+Dialogue: 0,0:18:16.13,0:18:18.30,Default,NTP,0000,0000,0000,,Opravdu to je ramune.
+Dialogue: 0,0:18:18.93,0:18:22.10,Default,NTP,0000,0000,0000,,Ano! Takže takhle se dělá ramune!
+Dialogue: 0,0:18:22.43,0:18:27.10,Default,NTP,0000,0000,0000,,Tvé povnášející nadšení\Ndělá celý experiment skvělým, Kiriyamo.
+Dialogue: 0,0:18:23.60,0:18:24.48,Default,NTP,0000,0000,0000,,{\a6}ANO
+Dialogue: 0,0:18:24.48,0:18:25.56,Default,NTP,0000,0000,0000,,{\a6}ANO COOL
+Dialogue: 0,0:18:25.56,0:18:27.60,Default,NTP,0000,0000,0000,,{\a6}ANO COOL ANO
+Dialogue: 0,0:18:27.60,0:18:29.23,Default,NTP,0000,0000,0000,,{\an4}HAHAHA
+Dialogue: 0,0:18:29.73,0:18:32.86,Default,NTP,0000,0000,0000,,Tak, chtěl bys udělat trochu s\Npráškem do pečiva?
+Dialogue: 0,0:18:33.15,0:18:33.99,Default,NTP,0000,0000,0000,,Prášek do pečiva?
+Dialogue: 0,0:18:34.24,0:18:37.28,Default,NTP,0000,0000,0000,,Hydrogenuhličitan sodný.\N Není to kyselina uhličitá.
+Dialogue: 0,0:18:37.28,0:18:39.74,Default,NTP,0000,0000,0000,,Můžeme to udělat šumivé jako cola.
+Dialogue: 0,0:18:39.99,0:18:42.45,Default,NTP,0000,0000,0000,,Můžu zkusit nějakou udělat?
+Dialogue: 0,0:18:42.74,0:18:44.50,Default,NTP,0000,0000,0000,,Do toho.
+Dialogue: 0,0:18:45.41,0:18:47.25,Default,NTP,0000,0000,0000,,Velmi pěkné, Kiriyamo.
+Dialogue: 0,0:18:47.25,0:18:50.59,Default,NTP,0000,0000,0000,,Zdá se, že si užíváš\Nkrásu vědy.
+Dialogue: 0,0:18:50.88,0:18:52.34,Default,NTP,0000,0000,0000,,Tohle je věda?
+Dialogue: 0,0:18:52.59,0:18:55.59,Default,NTP,0000,0000,0000,,Samozřejmě.\NCo jiného by to bylo?
+Dialogue: 0,0:19:03.31,0:19:06.89,Default,NTP,0000,0000,0000,,Tady máš.\NAh, nedávej tam příliš moc vody.
+Dialogue: 0,0:19:07.44,0:19:10.02,Default,NTP,0000,0000,0000,,Tady. Teď míchej, míchej...
+Dialogue: 0,0:19:10.02,0:19:13.36,Default,NTP,0000,0000,0000,,Um, nějak takhle?
+Dialogue: 0,0:19:13.36,0:19:16.95,Default,NTP,0000,0000,0000,,Kiriyamo, to jsi opravdu\Nnemotorný i v tomhle?
+Dialogue: 0,0:19:17.32,0:19:20.82,Default,NTP,0000,0000,0000,,{\a10}KYSELINA CITRONOVÁ
+Dialogue: 0,0:19:18.78,0:19:20.07,Default,NTP,0000,0000,0000,,To je možná trochu víc.
+Dialogue: 0,0:19:20.07,0:19:21.99,Default,NTP,0000,0000,0000,,- Co-Cože?\N- Dokážeš to!
+Dialogue: 0,0:19:22.53,0:19:25.20,Default,NTP,0000,0000,0000,,Bylo tohle hodně vody?
+Dialogue: 0,0:19:25.41,0:19:28.50,Default,NTP,0000,0000,0000,,Kiriyamo, jsi malé dítě?
+Dialogue: 0,0:19:28.67,0:19:32.21,Default,NTP,0000,0000,0000,,Proč se obě tvé ruce\Nhýbají ve stejném směru?
+Dialogue: 0,0:19:32.21,0:19:37.59,Default,NTP,0000,0000,0000,,Vsadím se, že nedokážeš nakreslit čtverec pravou\Nrukou, zatímco levou kreslíš trojúhelník.
+Dialogue: 0,0:19:40.34,0:19:42.18,Default,NTP,0000,0000,0000,,Já-Já to dokážu!
+Dialogue: 0,0:19:42.18,0:19:43.26,Default,NTP,0000,0000,0000,,Jsi si jistý?
+Dialogue: 0,0:19:43.81,0:19:47.77,Default,NTP,0000,0000,0000,,Nedělej si starosti, Kiriyamo.\NJediné, co teď musíš udělat je přidat glukózu.
+Dialogue: 0,0:19:47.77,0:19:49.52,Default,NTP,0000,0000,0000,,- Cože?\N- Zatím to můžeš zachránit.
+Dialogue: 0,0:19:59.57,0:20:00.57,Default,NTP,0000,0000,0000,,{\i1}Co?{\i0}
+Dialogue: 0,0:20:01.20,0:20:03.03,Default,NTP,0000,0000,0000,,{\i1}Co to je?{\i0}
+Dialogue: 0,0:20:05.66,0:20:08.79,Default,NTP,0000,0000,0000,,{\i1}Zkouším klubovou aktivitu.{\i0}
+Dialogue: 0,0:20:10.87,0:20:13.25,Default,NTP,0000,0000,0000,,{\i1}A směju se a mluvím...{\i0}
+Dialogue: 0,0:20:15.50,0:20:16.55,Default,NTP,0000,0000,0000,,{\i1}...ve škole.{\i0}
+Dialogue: 0,0:20:17.05,0:20:19.30,Default,NTP,0000,0000,0000,,Teď to ochutnáme.
+Dialogue: 0,0:20:20.22,0:20:21.38,Default,NTP,0000,0000,0000,,Kiriyamo.
+Dialogue: 0,0:20:27.14,0:20:29.93,Default,NTP,0000,0000,0000,,{\i1}To ramune je sladké...{\i0}
+Dialogue: 0,0:20:32.52,0:20:36.90,Default,NTP,0000,0000,0000,,{\i1}a když je vložím do úst, rozpadne se.{\i0}
+Dialogue: 0,0:20:42.28,0:20:44.66,Default,NTP,0000,0000,0000,,{\i1}Jakmile to zkapalnilo,\Nucítil jsem v krku bouli.{\i0}
+Dialogue: 0,0:20:49.87,0:20:53.79,Default,NTP,0000,0000,0000,,Kiriyamo, ty s práškem do pečiva\Njsou rozhodně nejlepší.
+Dialogue: 0,0:20:54.13,0:20:57.21,Default,NTP,0000,0000,0000,,Jak jsem čekal, jsou více osvěžující.
+Dialogue: 0,0:20:58.55,0:21:02.88,Default,NTP,0000,0000,0000,,{\i1}Kdybych nebyl opatrný, měl jsem pocit\Nže by mi něco uniklo z očí,{\i0}
+Dialogue: 0,0:21:02.88,0:21:05.10,Default,NTP,0000,0000,0000,,{\i1}tak jsem použil každý kousek vůle,\Nabych to vydržel.{\i0}
+Dialogue: 0,0:21:07.39,0:21:11.48,Default,NTP,0000,0000,0000,,Um, mohl bych si to vzít domů?
+Dialogue: 0,0:21:15.27,0:21:20.03,Default,NTP,0000,0000,0000,,{\i1}Zabalil jsem zbytek ramune\Ndo stránky ze sešitu{\i0}
+Dialogue: 0,0:21:26.28,0:21:27.62,Default,NTP,0000,0000,0000,,{\i1}a vložil je do tašky.{\i0}
+Dialogue: 0,0:21:32.25,0:21:36.92,Default,NTP,0000,0000,0000,,{\i1}Pomyslel jsem si, že Hině a Momo by chutnaly,\Nkdybych se s nimi rozdělil.{\i0}
+Dialogue: 0,0:21:39.88,0:21:41.01,Default,NTP,0000,0000,0000,,{\i1}Půjdu je navštívit.{\i0}
+Dialogue: 0,0:21:42.34,0:21:44.26,Default,NTP,0000,0000,0000,,{\i1}Půjdu skrz most...{\i0}
+Dialogue: 0,0:21:58.31,0:21:59.27,Default,NTP,0000,0000,0000,,{\i1}...a poté...{\i0}
+Dialogue: 0,0:22:00.65,0:22:01.90,Default,NTP,0000,0000,0000,,To je Rei!
+Dialogue: 0,0:22:01.90,0:22:03.49,Default,NTP,0000,0000,0000,,{\i1}Jak udělat ramune...{\i0}
+Dialogue: 0,0:22:03.49,0:22:04.57,Default,NTP,0000,0000,0000,,Oh, to je Rei!
+Dialogue: 0,0:22:04.57,0:22:06.16,Default,NTP,0000,0000,0000,,{\i1}Moje klubové aktivity...{\i0}
+Dialogue: 0,0:22:06.99,0:22:08.87,Default,NTP,0000,0000,0000,,{\i1}O Noguchi-senpai...{\i0}
+Dialogue: 0,0:22:09.83,0:22:11.54,Default,NTP,0000,0000,0000,,{\i1}O panu Hayashidovi...{\i0}
+Dialogue: 0,0:22:13.41,0:22:14.75,Default,NTP,0000,0000,0000,,Vítej!
+Dialogue: 0,0:22:15.08,0:22:16.75,Default,NTP,0000,0000,0000,,{\i1}Chtěl jsem jim to...{\i0}
+Dialogue: 0,0:22:19.09,0:22:20.38,Default,NTP,0000,0000,0000,,{\i1}...všechno říct.{\i0}
+Dialogue: 0,0:23:54.10,0:23:55.02,Default,NTP,0000,0000,0000,,Ah, bože.
+Dialogue: 0,0:24:05.78,0:24:08.99,Default,NTP,0000,0000,0000,,To šumí! Jaké to je, Momo?
+Dialogue: 0,0:24:10.49,0:24:12.45,Default,NTP,0000,0000,0000,,Rei a jeho kamarádi je udělali.
+Dialogue: 0,0:24:14.83,0:24:17.54,Default,NTP,0000,0000,0000,,Cože? Taky je chci udělat!
+Dialogue: 0,0:24:17.54,0:24:19.33,Default,NTP,0000,0000,0000,,Reii, mohl bys mě naučit jak?
+Dialogue: 0,0:24:19.33,0:24:21.29,Default,NTP,0000,0000,0000,,Jistě, samozřejmě.
+Dialogue: 0,0:24:23.79,0:24:25.80,Default,NTP,0000,0000,0000,,Šumí to!
+Dialogue: 0,0:24:27.01,0:24:30.01,Default,NTP,0000,0000,0000,,Ramune
+Dialogue: 0,0:24:30.01,0:24:32.01,Default,NTP,0000,0000,0000,,{\a6}V další epizodě uvidíte
+Dialogue: 0,0:24:32.01,0:24:38.18,EpNum,NTP,0000,0000,0000,,Epizoda 24
+Dialogue: 0,0:24:32.34,0:24:34.68,Default,NTP,0000,0000,0000,,Proč! Neuvěřitelné!
+Dialogue: 0,0:24:34.68,0:24:38.18,Default,NTP,0000,0000,0000,,Tohle je dobré. To není dobré.\NProč jsi ty ten, kdo o tom rozhoduje?
+Dialogue: 0,0:24:38.18,0:24:40.48,Default,NTP,0000,0000,0000,,Lidé jsou ztělesněním chaosu.
+Dialogue: 0,0:24:40.48,0:24:43.52,Default,NTP,0000,0000,0000,,Nechtěl bych ani jednoho z nich.
+Dialogue: 0,0:24:43.52,0:24:47.73,Default,NTP,0000,0000,0000,,Myslím si, že ani Souya\Nneví, co dělat.
+Dialogue: 0,0:24:47.73,0:24:50.03,Default,NTP,0000,0000,0000,,Ugh... Idiot.
+Dialogue: 0,0:24:51.03,0:24:53.82,Default,NTP,0000,0000,0000,,Prosím, těšte se na další epizodu\N"Sangatsu no lion". TeamKira ;-)
+Dialogue: 0,0:24:53.82,0:24:56.66,Default,NTP,0000,0000,0000,,Reii, děkuji ti!\NRamune je opravdu skvělé, že?
+Dialogue: 0,0:24:56.66,0:24:58.37,Default,NTP,0000,0000,0000,,Šumí to!

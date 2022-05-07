@@ -1,0 +1,263 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,27,187,0
+Style: Next Title,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,53,160,0
+Style: RightSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,533,160,53,0
+Style: LeftSign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,160,533,53,0
+Style: EpNum,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,533,333,0
+Style: LeftSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,133,560,160,0
+Style: RightSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,560,107,160,0
+Style: CenterSignM,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,307,307,160,0
+Style: DefaultLeftH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: DefaultRightH,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,9,0,0,28,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: RightSignL2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,560,107,133,0
+Style: DefaultLow2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: DefaultLef2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: DefaultLeftM,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,0
+Style: OnTop,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,320,160,67,0
+Style: SMR,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,147,27,27,0
+Style: LeftSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,40,547,160,0
+Style: RightSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,547,27,160,0
+Style: CenterSignM2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,320,320,160,0
+Style: DefaultC,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: 3rd,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,267,160,53,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:23.23,0:00:25.44,Default,NTP,0000,0000,0000,, VAROVÁNÍ: díl obsahuje zobrazení šikany! \NTady je.
+Dialogue: 0,0:00:25.77,0:00:27.32,Default,NTP,0000,0000,0000,,Vítej doma!
+Dialogue: 0,0:00:30.03,0:00:32.99,Default,NTP,0000,0000,0000,,Zajímalo by mě, co je špatně. Hino?\NJsi to ty, že?
+Dialogue: 0,0:00:39.62,0:00:40.79,Default,NTP,0000,0000,0000,,Hino?
+Dialogue: 0,0:00:46.00,0:00:47.54,Default,NTP,0000,0000,0000,,Reii...
+Dialogue: 0,0:00:48.92,0:00:50.92,Default,NTP,0000,0000,0000,,Sestřičko...
+Dialogue: 0,0:00:52.55,0:00:53.68,Default,NTP,0000,0000,0000,,Hino!
+Dialogue: 0,0:02:41.62,0:02:44.04,Default,NTP,0000,0000,0000,,{\a6}Beruškový keř (část druhá)
+Dialogue: 0,0:02:47.62,0:02:50.04,Default,NTP,0000,0000,0000,,{\i1}To byly ony okolnosti.{\i0}
+Dialogue: 0,0:02:52.04,0:02:54.30,Default,NTP,0000,0000,0000,,{\a6}{\i1}V Hinině třídě propukla šikana.{\i0}
+Dialogue: 0,0:02:56.55,0:02:59.43,Default,NTP,0000,0000,0000,,{\i1}Zničehonic začala v dubnu,\Nkdyž se měnily třídy třetího ročníku{\i0}
+Dialogue: 0,0:03:00.43,0:03:05.39,Default,NTP,0000,0000,0000,,{\i1}a všichni se začali shromažďovat do skupin\Nna základě jmen v abecedním pořadí.{\i0}
+Dialogue: 0,0:03:08.02,0:03:12.27,Default,NTP,0000,0000,0000,,Já. Ti. To. Řekla. Přestaň nás všude sledovat.
+Dialogue: 0,0:03:12.27,0:03:14.07,Default,NTP,0000,0000,0000,,Jsi taková otrava.
+Dialogue: 0,0:03:14.61,0:03:15.90,Default,NTP,0000,0000,0000,,Pr-proč?
+Dialogue: 0,0:03:19.32,0:03:21.41,Default,NTP,0000,0000,0000,,{\i1}Oběť se bála...{\i0}
+Dialogue: 0,0:03:22.16,0:03:23.20,Default,NTP,0000,0000,0000,,{\i1}...a byla zmatená.{\i0}
+Dialogue: 0,0:03:29.66,0:03:32.54,Default,NTP,0000,0000,0000,,{\i1}To vše odstartovalo zlověstný kruh.{\i0}
+Dialogue: 0,0:03:36.67,0:03:38.92,Default,NTP,0000,0000,0000,,{\a6}{\i1}Jméno oné dívky je Chiho.{\i0}
+Dialogue: 0,0:03:43.14,0:03:46.10,Default,NTP,0000,0000,0000,,{\i1}Ona a Hina byly spolužačkami\Nuž od základní školy{\i0}
+Dialogue: 0,0:03:46.10,0:03:48.10,Default,NTP,0000,0000,0000,,{\i1}a vždy spolu vycházely dobře.{\i0}
+Dialogue: 0,0:03:48.43,0:03:55.36,Default,NTP,0000,0000,0000,,{\i1}Chiho byla opravdu roztomilá, milá\Na tichá dívka, jež se vždy usmívala.{\i0}
+Dialogue: 0,0:03:57.40,0:03:59.94,Default,NTP,0000,0000,0000,,{\i1}Třetí ročník začal\Na brzy se blížily přijímací zkoušky.{\i0}
+Dialogue: 0,0:04:00.40,0:04:03.74,Default,NTP,0000,0000,0000,,{\i1}Když byli všichni v sevření\Nbezejmenné úzkosti,{\i0}
+Dialogue: 0,0:04:04.28,0:04:06.37,Default,NTP,0000,0000,0000,,{\i1}řekli, že začala flirtovat s chlapci{\i0}
+Dialogue: 0,0:04:06.70,0:04:08.87,Default,NTP,0000,0000,0000,,{\i1}nebo se chovala snaživě před učitelem.{\i0}
+Dialogue: 0,0:04:09.75,0:04:12.08,Default,NTP,0000,0000,0000,,{\i1}Z takových nejasných důvodů{\i0}
+Dialogue: 0,0:04:12.29,0:04:15.75,Default,NTP,0000,0000,0000,,{\i1}ji začaly vyhazovat ze svých partiček.{\i0}
+Dialogue: 0,0:04:17.05,0:04:21.88,Default,NTP,0000,0000,0000,,{\i1}Chiho ucouvla a v reakci na to\Nse jí dívky začaly ještě více vyhýbat.{\i0}
+Dialogue: 0,0:04:23.55,0:04:28.81,Default,NTP,0000,0000,0000,,{\i1}Všichni se té party báli\Na tak jen přihlíželi z dálky,{\i0}
+Dialogue: 0,0:04:28.97,0:04:32.56,Default,NTP,0000,0000,0000,,{\i1}ale samozřejmě,\Nže Hina něco takového udělat nemohla.{\i0}
+Dialogue: 0,0:04:33.35,0:04:38.07,Default,NTP,0000,0000,0000,,{\i1}Byla příliš blízká té dívce, se kterou\Nse přátelila od základní školy. {\ I0}
+Dialogue: 0,0:04:50.50,0:04:52.58,Default,NTP,0000,0000,0000,,Proč to tu uklízíš úplně sama?
+Dialogue: 0,0:04:52.58,0:04:53.92,Default,NTP,0000,0000,0000,,Kde jsou ostatní?
+Dialogue: 0,0:04:54.21,0:04:57.42,Default,NTP,0000,0000,0000,,Um, řekli, že mají příliš věcí na práci...
+Dialogue: 0,0:05:00.92,0:05:04.59,Default,NTP,0000,0000,0000,,Tohle jsou pyžama, které musíme udělat\Nna domácí ekonomiku.
+Dialogue: 0,0:05:04.97,0:05:07.89,Default,NTP,0000,0000,0000,,Proč neseš domů\Npyžama všech ostatních, Chiho?
+Dialogue: 0,0:05:08.18,0:05:09.39,Default,NTP,0000,0000,0000,,Pro šest lidí?
+Dialogue: 0,0:05:09.64,0:05:12.77,Default,NTP,0000,0000,0000,,Ne-není to to, co si myslíš.\NNabídla jsem se, že to udělám.
+Dialogue: 0,0:05:15.48,0:05:17.48,Default,NTP,0000,0000,0000,,Pojďme o tom říct učitelce.
+Dialogue: 0,0:05:17.90,0:05:19.65,Default,NTP,0000,0000,0000,,Nemůže to takhle pokračovat.
+Dialogue: 0,0:05:19.86,0:05:21.74,Default,NTP,0000,0000,0000,,Ne, neříkej to učitelce!
+Dialogue: 0,0:05:21.86,0:05:25.45,Default,NTP,0000,0000,0000,,Jestli to ostatní zjistí,\Nbudou mě šikanovat ještě víc!
+Dialogue: 0,0:05:25.74,0:05:28.12,Default,NTP,0000,0000,0000,,Hino, prosím! Nikomu to neříkej.  
+Dialogue: 0,0:05:54.64,0:05:58.15,Default,NTP,0000,0000,0000,,{\i1}Ale kousek po kousku situace eskalovala.{\i0}
+Dialogue: 0,0:05:58.69,0:06:00.15,Default,NTP,0000,0000,0000,,Chybí mi jedna bota...
+Dialogue: 0,0:06:01.19,0:06:02.53,Default,NTP,0000,0000,0000,,Můj batoh též...
+Dialogue: 0,0:06:03.74,0:06:05.74,Default,NTP,0000,0000,0000,,Ta druhá plave v záchodě.
+Dialogue: 0,0:06:12.16,0:06:15.79,Default,NTP,0000,0000,0000,,{\i1}Chiho poté velmi často\Nzameškávala hodiny.{\i0}
+Dialogue: 0,0:06:19.29,0:06:21.67,Default,NTP,0000,0000,0000,,Myslím, že to zveličujete, slečno Kawamoto.
+Dialogue: 0,0:06:21.67,0:06:24.05,Default,NTP,0000,0000,0000,,Ty dívky v oné skupině\Ndělají pouze neškodné pranky.
+Dialogue: 0,0:06:24.17,0:06:28.30,Default,NTP,0000,0000,0000,,Neměla byste stáčet každou\Nsituaci do špatné.
+Dialogue: 0,0:06:28.30,0:06:31.93,Default,NTP,0000,0000,0000,,Myslela jsem si,\Nže jste více pozitivní dívka, slečno Kawamoto.
+Dialogue: 0,0:06:34.89,0:06:36.18,Default,NTP,0000,0000,0000,,{\i1}Její učitelka též.{\i0}
+Dialogue: 0,0:06:36.89,0:06:40.40,Default,NTP,0000,0000,0000,,Hino, neměla bys kamarádit se Sakurou.
+Dialogue: 0,0:06:40.40,0:06:42.69,Default,NTP,0000,0000,0000,,Příště se možná zaměří na tebe.
+Dialogue: 0,0:06:43.78,0:06:45.65,Default,NTP,0000,0000,0000,,{\i1}A její spolužáci také.{\i0}
+Dialogue: 0,0:06:46.19,0:06:48.15,Default,NTP,0000,0000,0000,,- Cože?\N- My?
+Dialogue: 0,0:06:48.78,0:06:49.91,Default,NTP,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:06:50.07,0:06:54.04,Default,NTP,0000,0000,0000,,Mám plné ruce práce\Ns přípravou na zkoušky.
+Dialogue: 0,0:06:54.95,0:06:57.58,Default,NTP,0000,0000,0000,,{\i1}Všichni předstírali, že nic nevidí.{\i0}
+Dialogue: 0,0:07:00.88,0:07:03.04,Default,NTP,0000,0000,0000,,{\i1}A poté, konečně...{\i0}
+Dialogue: 0,0:07:03.71,0:07:07.80,Default,NTP,0000,0000,0000,,Je to náhlé, ale slečna Sakura přestupuje\Nna jinou školu kvůli rodinným záležitostem.
+Dialogue: 0,0:07:18.18,0:07:19.39,Default,NTP,0000,0000,0000,,Chiho!
+Dialogue: 0,0:07:19.56,0:07:20.69,Default,NTP,0000,0000,0000,,Hino!
+Dialogue: 0,0:07:23.23,0:07:25.61,Default,NTP,0000,0000,0000,,{\i1}Přestala chodit do školy,{\i0}
+Dialogue: 0,0:07:25.61,0:07:30.95,Default,NTP,0000,0000,0000,,{\i1}takže se její matka rozhodla, že se přestěhují\Ndo Iwate, kde pracoval její otec.{\i0}
+Dialogue: 0,0:07:31.53,0:07:33.41,Default,NTP,0000,0000,0000,,Omlouvám se, Hino.
+Dialogue: 0,0:07:33.41,0:07:35.66,Default,NTP,0000,0000,0000,,Omlouvám se. Omlouvám se.
+Dialogue: 0,0:07:36.24,0:07:39.54,Default,NTP,0000,0000,0000,,Potom všem, co jsi pro mě udělala...
+Dialogue: 0,0:07:59.27,0:08:00.23,Default,NTP,0000,0000,0000,,Co?
+Dialogue: 0,0:08:00.23,0:08:02.73,Default,NTP,0000,0000,0000,,Skupině B chybí jeden člověk.\NKde je Sakura?
+Dialogue: 0,0:08:03.06,0:08:06.69,Default,NTP,0000,0000,0000,,{\a6}Pane učiteli, Sakura změnila školu.
+Dialogue: 0,0:08:07.07,0:08:10.07,Default,NTP,0000,0000,0000,,Cože? Takhle pozdě ve školním roce?\NA tak náhle?
+Dialogue: 0,0:08:10.36,0:08:14.82,Default,NTP,0000,0000,0000,,Já vím. Slyšela jsem, že se musela přestěhovat.
+Dialogue: 0,0:08:15.16,0:08:18.79,Default,NTP,0000,0000,0000,,Myslím, vážně, kdo by šel takhle daleko?
+Dialogue: 0,0:08:22.42,0:08:25.46,Default,NTP,0000,0000,0000,,{\i1}Omlouvám se. Hino, omlouvám se.{\i0}
+Dialogue: 0,0:08:33.34,0:08:36.89,Default,NTP,0000,0000,0000,,Kawamoto!\NNech toho, Kawamoto!
+Dialogue: 0,0:09:00.87,0:09:02.04,Default,NTP,0000,0000,0000,,{\i1}A tak...{\i0}
+Dialogue: 0,0:09:03.58,0:09:05.25,Default,NTP,0000,0000,0000,,{\i1}další, na koho jim padl zrak...{\i0}
+Dialogue: 0,0:09:06.96,0:09:08.80,Default,NTP,0000,0000,0000,,{\i1}byla Hina.{\i0}
+Dialogue: 0,0:09:11.55,0:09:12.72,Default,NTP,0000,0000,0000,,Hina.
+Dialogue: 0,0:09:14.01,0:09:18.43,Default,NTP,0000,0000,0000,,Sestřičko, co mám dělat?
+Dialogue: 0,0:09:21.27,0:09:25.44,Default,NTP,0000,0000,0000,,{\a6}Chiho brečela. Řekla, že se bojí změnit školu.
+Dialogue: 0,0:09:26.31,0:09:31.44,Default,NTP,0000,0000,0000,,{\a6}Ona řekla, "Co když mi budou ubližovat i tam?"\NByla tak vyděšená!
+Dialogue: 0,0:09:32.40,0:09:34.95,Default,NTP,0000,0000,0000,,Sestřičko, já nemohla...
+Dialogue: 0,0:09:36.53,0:09:40.49,Default,NTP,0000,0000,0000,,udělat nic, co by mohlo pomoci Chiho!
+Dialogue: 0,0:09:41.83,0:09:42.95,Default,NTP,0000,0000,0000,,{\a6}Ani jednu věc!
+Dialogue: 0,0:10:02.56,0:10:03.85,Default,NTP,0000,0000,0000,,Omlouvám se, Momo.
+Dialogue: 0,0:10:04.93,0:10:06.35,Default,NTP,0000,0000,0000,,J-Já jsem v pořádku.
+Dialogue: 0,0:10:06.64,0:10:09.23,Default,NTP,0000,0000,0000,,Omlouvám se! J-já se jdu proběhnout!
+Dialogue: 0,0:10:09.48,0:10:11.98,Default,NTP,0000,0000,0000,,Ne, Hino! Nechoď ven! Je tam tma!
+Dialogue: 0,0:10:12.40,0:10:14.32,Default,NTP,0000,0000,0000,,- Nechoď!\N- Já...
+Dialogue: 0,0:11:00.45,0:11:01.57,Default,NTP,0000,0000,0000,,Hino!
+Dialogue: 0,0:11:06.96,0:11:07.96,Default,NTP,0000,0000,0000,,Hino!
+Dialogue: 0,0:11:24.47,0:11:27.98,Default,NTP,0000,0000,0000,,Proč se tohle stalo?
+Dialogue: 0,0:11:29.89,0:11:34.65,Default,NTP,0000,0000,0000,,Byla zábava chodit do školy,\Naž do druhého ročníku.
+Dialogue: 0,0:11:35.61,0:11:41.66,Default,NTP,0000,0000,0000,,Chiho byla vystresovaná úplně vším,\Ntak proč všichni...
+Dialogue: 0,0:11:43.66,0:11:48.91,Default,NTP,0000,0000,0000,,předstírali, že to nevadí anebo říkali,\N"Pokud ji ochráníš, zaměří se na tebe."
+Dialogue: 0,0:11:49.50,0:11:50.75,Default,NTP,0000,0000,0000,,Proč?
+Dialogue: 0,0:11:55.38,0:11:59.05,Default,NTP,0000,0000,0000,,Ale věci se staly přesně tak, jak řekli.
+Dialogue: 0,0:12:00.38,0:12:02.30,Default,NTP,0000,0000,0000,,Od zítřka budu sama.
+Dialogue: 0,0:12:10.31,0:12:12.77,Default,NTP,0000,0000,0000,,Budu sama...
+Dialogue: 0,0:12:12.77,0:12:14.19,Default,NTP,0000,0000,0000,,Já se tak bojím!
+Dialogue: 0,0:12:16.94,0:12:19.78,Default,NTP,0000,0000,0000,,Pravda je, že jsem se bála celou dobu.
+Dialogue: 0,0:12:22.07,0:12:24.41,Default,NTP,0000,0000,0000,,Ale... Ale...
+Dialogue: 0,0:12:25.37,0:12:28.83,Default,NTP,0000,0000,0000,,Nelituji absolutně ničeho! Nemůžu!
+Dialogue: 0,0:12:29.16,0:12:30.12,Default,NTP,0000,0000,0000,,Protože...
+Dialogue: 0,0:12:30.54,0:12:35.96,Default,NTP,0000,0000,0000,,...to, co jsem udělala rozhodně nebylo špatně!
+Dialogue: 0,0:12:41.72,0:12:47.35,Default,NTP,0000,0000,0000,,{\i1}V tu chvíli, když jsem ji viděl,\N jak to prohlašuje skrze slzy,{\i0}
+Dialogue: 0,0:12:48.31,0:12:52.23,Default,NTP,0000,0000,0000,,{\i1}jsem se cítil, jakoby do mě uhodil blesk.{\i0}
+Dialogue: 0,0:13:07.03,0:13:08.20,Default,NTP,0000,0000,0000,,{\i1}Je to divné.{\i0}
+Dialogue: 0,0:13:09.62,0:13:11.04,Default,NTP,0000,0000,0000,,{\i1}I poté...{\i0}
+Dialogue: 0,0:13:12.46,0:13:14.54,Default,NTP,0000,0000,0000,,{\i1}co uplynulo tolik času,{\i0}
+Dialogue: 0,0:13:19.25,0:13:21.05,Default,NTP,0000,0000,0000,,{\i1}vás může něco zachránit{\i0}
+Dialogue: 0,0:13:22.05,0:13:24.80,Default,NTP,0000,0000,0000,,{\i1}a přijít jako bouřka z úplně jiného směru.{\i0}
+Dialogue: 0,0:13:30.72,0:13:31.73,Default,NTP,0000,0000,0000,,Hino...
+Dialogue: 0,0:13:39.27,0:13:40.32,Default,NTP,0000,0000,0000,,Děkuji.
+Dialogue: 0,0:13:41.86,0:13:43.32,Default,NTP,0000,0000,0000,,Jsi ...
+Dialogue: 0,0:13:44.20,0:13:45.36,Default,NTP,0000,0000,0000,,můj zachránce.
+Dialogue: 0,0:13:47.66,0:13:48.83,Default,NTP,0000,0000,0000,,Já slibuji.
+Dialogue: 0,0:13:50.45,0:13:51.75,Default,NTP,0000,0000,0000,,Zůstanu s tebou.
+Dialogue: 0,0:13:55.29,0:13:56.42,Default,NTP,0000,0000,0000,,Reii...
+Dialogue: 0,0:13:58.50,0:14:03.72,Default,NTP,0000,0000,0000,,{\a6}I kdyby to stálo zbytek mého života,\Nvrátím ti vše zpět.
+Dialogue: 0,0:14:05.97,0:14:08.97,Default,NTP,0000,0000,0000,,Beruškový keř (část druhá)
+Dialogue: 0,0:14:08.97,0:14:12.97,Default,NTP,0000,0000,0000,,{\a6}Beruškový keř (část třetí)
+Dialogue: 0,0:14:21.98,0:14:23.19,Default,NTP,0000,0000,0000,,{\i1}Příští den,{\i0}
+Dialogue: 0,0:14:23.94,0:14:25.28,Default,NTP,0000,0000,0000,,{\i1}když jsem se vracela ze školy,{\i0}
+Dialogue: 0,0:14:28.32,0:14:30.28,Default,NTP,0000,0000,0000,,{\i1}Rei seděl na lavičce...{\i0}
+Dialogue: 0,0:14:32.04,0:14:33.87,Default,NTP,0000,0000,0000,,{\i1}naproti mostu.{\i0}
+Dialogue: 0,0:14:35.25,0:14:39.42,Default,NTP,0000,0000,0000,,{\i1}"Je tu něco, co jsem si chtěl najít\Na tak jsem doufal, že mě doprovodíš do knihovny."{\i0}
+Dialogue: 0,0:14:40.67,0:14:44.01,Default,NTP,0000,0000,0000,,{\i1}To bylo to, co Rei řekl a tak jsem ho doprovodila.{\i0}
+Dialogue: 0,0:15:15.66,0:15:18.12,Default,NTP,0000,0000,0000,,{\i1}Nebyla jsem v knihovně\Nod základní školy.{\i0}
+Dialogue: 0,0:15:20.46,0:15:22.75,Default,NTP,0000,0000,0000,,{\i1}Když jsem uviděla židličky v dětském koutku,{\i0}
+Dialogue: 0,0:15:29.63,0:15:33.68,Default,NTP,0000,0000,0000,,{\i1}přinutilo mě to si pomyslet\N "To jsme byli tak malí?"{\i0}
+Dialogue: 0,0:15:34.68,0:15:36.18,Default,NTP,0000,0000,0000,,{\i1}a v tu chvíli mi do očí vstoupily slzy.{\i0}
+Dialogue: 0,0:15:45.44,0:15:46.94,Default,NTP,0000,0000,0000,,{\a9}Kniha Manju\NJednoduché sladkosti\NZáklady tradičních sladkostí
+Dialogue: 0,0:15:46.44,0:15:48.11,Default,NTP,0000,0000,0000,,{\i1}"Měli všechny tyhle."{\i0}
+Dialogue: 0,0:15:48.61,0:15:56.62,Default,NTP,0000,0000,0000,,{\i1}Když to Rei řekl, přinesl mi\Nněkolik knih o nádherných sladkostech.{\i0}
+Dialogue: 0,0:15:52.20,0:15:56.95,Default,NTP,0000,0000,0000,,{\a5}Tradiční sladkosti\NDoporučené japonské sladkosti
+Dialogue: 0,0:15:59.41,0:16:03.21,Default,NTP,0000,0000,0000,,{\i1}Viděla jsem v nich několik dobrot,\Njež se prodávají i v dědečkově obchodě.{\i0}
+Dialogue: 0,0:16:04.04,0:16:08.21,Default,NTP,0000,0000,0000,,{\i1}Bylo tu ale také spousta nádherných sladkostí,\No kterých jsem nikdy nevěděla.{\i0}
+Dialogue: 0,0:16:10.47,0:16:16.97,Default,NTP,0000,0000,0000,,{\a6}{\i1}Rei si sedl vedle mě\Na prohlížel průvodce rostlinami a hmyzem.{\i0}
+Dialogue: 0,0:16:18.56,0:16:19.68,Default,NTP,0000,0000,0000,,Tady je.
+Dialogue: 0,0:16:21.23,0:16:22.44,Default,NTP,0000,0000,0000,,Chápu.
+Dialogue: 0,0:16:22.85,0:16:25.44,Default,NTP,0000,0000,0000,,5íkalo se tomu "Stříbrný trn".
+Dialogue: 0,0:16:25.90,0:16:29.61,Default,NTP,0000,0000,0000,,A to, čemu jsem vždy říkal beruška se dvěma\N tečkami se odborně jmenuje
+Dialogue: 0,0:16:30.49,0:16:32.78,Default,NTP,0000,0000,0000,,"Harmonia axyridis."
+Dialogue: 0,0:16:36.41,0:16:39.87,Default,NTP,0000,0000,0000,,{\a6}Znaky berušky jsou "Hmyz nebeské cesty"?
+Dialogue: 0,0:16:40.21,0:16:41.12,Default,NTP,0000,0000,0000,,{\a6}Zajímalo by mě proč.
+Dialogue: 0,0:16:42.33,0:16:44.00,Default,NTP,0000,0000,0000,,{\a6}{\i1}Když jsem to zamumlala...{\i0}
+Dialogue: 0,0:16:54.72,0:16:55.76,Default,NTP,0000,0000,0000,,Natáhni ruku.
+Dialogue: 0,0:17:03.02,0:17:04.23,Default,NTP,0000,0000,0000,,To lechtá.
+Dialogue: 0,0:17:04.60,0:17:05.90,Default,NTP,0000,0000,0000,,Pokračuje ve šplhání.
+Dialogue: 0,0:17:08.73,0:17:09.65,Default,NTP,0000,0000,0000,,Odletěla!
+Dialogue: 0,0:17:10.99,0:17:16.41,Default,NTP,0000,0000,0000,,{\i1}Když jsme sledovali, jak ona beruška odlétá,\NRei mi vysvětlil,{\i0}
+Dialogue: 0,0:17:17.74,0:17:25.29,Default,NTP,0000,0000,0000,,{\i1}že to japonské jméno je opravdu staré\Na když lidé viděli tuhle malou roztomilou bytost,{\i0}
+Dialogue: 0,0:17:28.96,0:17:31.84,Default,NTP,0000,0000,0000,,{\i1}jak letí k nebesům,{\i0}
+Dialogue: 0,0:17:34.63,0:17:36.68,Default,NTP,0000,0000,0000,,{\i1}vymysleli její jméno.{\i0}
+Dialogue: 0,0:17:40.89,0:17:42.89,Default,NTP,0000,0000,0000,,Beruškový keř (část třetí)
+Dialogue: 0,0:17:42.89,0:17:46.90,Default,NTP,0000,0000,0000,,{\a6}Pocity
+Dialogue: 0,0:17:50.19,0:17:54.90,Default,NTP,0000,0000,0000,,{\i1}Když se chytila mého rukávu a začala plakat,{\i0}
+Dialogue: 0,0:17:55.66,0:18:00.16,Default,NTP,0000,0000,0000,,{\i1}celé mé tělo pulzovalo,\Njako kdyby se stalo jejím srdcem.{\i0}
+Dialogue: 0,0:18:00.54,0:18:03.75,Default,NTP,0000,0000,0000,,{\i1}Bylo to tak bolestivé,\Njako kdyby mě někdo trhal na kusy.{\i0}
+Dialogue: 0,0:18:05.58,0:18:10.75,Default,NTP,0000,0000,0000,,{\i1}V té chvíli jsem chtěl najít lidi,\Nkteří jí ublížili{\i0}
+Dialogue: 0,0:18:11.00,0:18:13.05,Default,NTP,0000,0000,0000,,{\i1}a odtrhat jim končetinu za končetinou,{\i0}
+Dialogue: 0,0:18:13.97,0:18:16.55,Default,NTP,0000,0000,0000,,{\i1}ovšem, to by nevyřešilo žádný problém.{\i0}
+Dialogue: 0,0:18:17.09,0:18:19.55,Default,NTP,0000,0000,0000,,{\i1}To by vůbec ničemu nepomohlo.{\i0}
+Dialogue: 0,0:18:20.10,0:18:23.06,Default,NTP,0000,0000,0000,,{\i1}Takže mysli. Mysli.{\i0}
+Dialogue: 0,0:18:24.23,0:18:25.56,Default,NTP,0000,0000,0000,,{\i1}Co bych měl dělat?{\i0}
+Dialogue: 0,0:18:28.56,0:18:29.77,Default,NTP,0000,0000,0000,,{\i1}Mysli!{\i0}
+Dialogue: 0,0:18:34.32,0:18:36.32,Default,NTP,0000,0000,0000,,{\i1}Poté, když jsme se vrátili zpět k nim domů...{\i0}
+Dialogue: 0,0:18:43.29,0:18:44.45,Default,NTP,0000,0000,0000,,{\a6}Vítejte doma.
+Dialogue: 0,0:18:45.33,0:18:47.33,Default,NTP,0000,0000,0000,,Zrovna jsem dokončila přípravu večeře.
+Dialogue: 0,0:18:47.42,0:18:50.59,Default,NTP,0000,0000,0000,,Hino, Reii, vítejte doma!
+Dialogue: 0,0:18:57.51,0:19:01.35,Default,NTP,0000,0000,0000,,Šla jsi do knihovny?\NS Reiem? To je skvělé.
+Dialogue: 0,0:19:02.10,0:19:04.10,Default,NTP,0000,0000,0000,,Reii, připoj se k nám také!
+Dialogue: 0,0:19:06.18,0:19:10.11,Default,NTP,0000,0000,0000,,{\i1}Byla to Akari a Momo, stejné jako vždy,{\i0}
+Dialogue: 0,0:19:11.82,0:19:15.24,Default,NTP,0000,0000,0000,,{\i1}teplá večeře podávaná na nízkém jídelním stole{\i0}
+Dialogue: 0,0:19:16.95,0:19:19.82,Default,NTP,0000,0000,0000,,{\i1}a děsivě vyhlížející děda, který na ni čeká.{\i0}
+Dialogue: 0,0:19:20.03,0:19:22.99,Default,NTP,0000,0000,0000,,Hej. Hino, posaď se.
+Dialogue: 0,0:19:30.96,0:19:33.63,Default,NTP,0000,0000,0000,,{\a6}Akari mi vše řekla.
+Dialogue: 0,0:19:36.59,0:19:38.43,RightSignM,NTP,0000,0000,0000,,ŤUK ŤUK
+Dialogue: 0,0:19:39.76,0:19:41.01,Default,NTP,0000,0000,0000,,Hino...
+Dialogue: 0,0:19:43.43,0:19:44.76,Default,NTP,0000,0000,0000,,Jednala jsi skvěle!
+Dialogue: 0,0:19:48.39,0:19:50.15,Default,NTP,0000,0000,0000,,Dědo?
+Dialogue: 0,0:19:50.15,0:19:51.65,Default,NTP,0000,0000,0000,,{\a6}SEBEVRAŽDA, OBĚŤ BYLA ŠIKANOVANÁ
+Dialogue: 0,0:19:50.48,0:19:57.40,Default,NTP,0000,0000,0000,,I já vím, jak odporná šikana je, jelikož je to téměř\Njediná věc, co běží v televizi a píše se o ní v novinách.
+Dialogue: 0,0:19:51.65,0:19:52.65,Default,NTP,0000,0000,0000,,{\a6}ŠIKANOVÁNÍ ZVYŠUJE POČET SEBEVRAŽD
+Dialogue: 0,0:19:52.65,0:19:53.90,Default,NTP,0000,0000,0000,,{\a6}140,000 PŘÍPADŮ ŠIKANY
+Dialogue: 0,0:19:52.65,0:19:53.90,Default,NTP,0000,0000,0000,,{\a6}ŠKOLY JSOU LHOSTEJNÉ
+Dialogue: 0,0:19:53.90,0:19:54.90,Default,NTP,0000,0000,0000,,{\a9}Učitel odpovídá:\N"Nepotopte loď."\N"Cítíš se ohledně toho špatně?"\NTyran odpovídá:\NMlasknu na ně jazykem, když jdu kolem.
+Dialogue: 0,0:19:53.90,0:19:54.90,Default,NTP,0000,0000,0000,,{\a6}Když šikanovaný student promluví
+Dialogue: 0,0:19:54.90,0:19:55.90,Default,NTP,0000,0000,0000,,{\a10}"Házeli mi do jídla odpad."\NDívka mění školu kvůli šikaně
+Dialogue: 0,0:19:55.90,0:19:57.40,Default,NTP,0000,0000,0000,,{\a6}Komise šikany a protiopatření
+Dialogue: 0,0:19:57.78,0:20:01.53,Default,NTP,0000,0000,0000,,Kdykoli to vidím v televizi,\Nzlomí mě to.
+Dialogue: 0,0:20:02.53,0:20:08.79,Default,NTP,0000,0000,0000,,{\a6}A i tak jsi se snažila pomoci své kamarádce\Ndostat se z takové děsivé situace!
+Dialogue: 0,0:20:10.42,0:20:12.17,Default,NTP,0000,0000,0000,,K tomu potřebuješ pravou kuráž!
+Dialogue: 0,0:20:12.38,0:20:15.30,Default,NTP,0000,0000,0000,,Nevím, kolik dětí by to udělalo!
+Dialogue: 0,0:20:15.42,0:20:16.80,Default,NTP,0000,0000,0000,,Jsi úžasná!
+Dialogue: 0,0:20:18.21,0:20:20.22,Default,NTP,0000,0000,0000,,{\a6}Jsem na tebe hrdý, vnučko!
+Dialogue: 0,0:20:20.47,0:20:23.43,Default,NTP,0000,0000,0000,,Neudělala jsi jedinou věc špatně!
+Dialogue: 0,0:20:27.43,0:20:29.18,Default,NTP,0000,0000,0000,,Pomohla jsi své kamarádce!
+Dialogue: 0,0:20:29.31,0:20:30.94,Default,NTP,0000,0000,0000,,Buď na sebe hrdá!
+Dialogue: 0,0:20:34.81,0:20:37.15,Default,NTP,0000,0000,0000,,Dědo.
+Dialogue: 0,0:20:43.11,0:20:44.12,Default,NTP,0000,0000,0000,,Budu.
+Dialogue: 0,0:21:59.44,0:22:01.99,Default,NTP,0000,0000,0000,,{\i1}Po tom všem jsme společně snědli večeři.{\i0}
+Dialogue: 0,0:22:03.78,0:22:08.32,Default,NTP,0000,0000,0000,,{\i1}Děda mi řekl\N"Děkuji, že jsi za ní včera bežel."{\i0}
+Dialogue: 0,0:22:08.32,0:22:11.58,Default,NTP,0000,0000,0000,,{\i1}"Teď se najez"\N a poplácal mě po zádech.{\i0}
+Dialogue: 0,0:22:12.12,0:22:15.58,Default,NTP,0000,0000,0000,,{\i1}Hina toho snědla docela dost,\Ni když celou dobu brečela.{\i0}
+Dialogue: 0,0:22:17.42,0:22:21.17,Default,NTP,0000,0000,0000,,{\i1}Měli jsme smažené kuře,\Nbramborový salát a krémovou polévku.{\i0}
+Dialogue: 0,0:22:22.05,0:22:26.93,Default,NTP,0000,0000,0000,,{\i1}Akari udělala spoustu Hinina oblíbeného jídla.{\i0}
+Dialogue: 0,0:22:46.07,0:22:53.54,Default,NTP,0000,0000,0000,,{\i1}Jak jsem žvýkal, neustále jsem hledal v mozku\Nodpověď na to, co mám dělat.{\i0}
+Dialogue: 0,0:22:57.04,0:23:00.04,Default,NTP,0000,0000,0000,,Pocity
+Dialogue: 0,0:24:30.01,0:24:32.01,Default,NTP,0000,0000,0000,,{\a6}V další epizodě uvidíte
+Dialogue: 0,0:24:32.01,0:24:36.93,EpNum,NTP,0000,0000,0000,,Epizoda 27
+Dialogue: 0,0:24:32.34,0:24:36.93,Default,NTP,0000,0000,0000,,Dej tomu čas\Na trpělivě poslouchej jejich myšlenky.
+Dialogue: 0,0:24:36.93,0:24:40.94,Default,NTP,0000,0000,0000,,Musíte opravdu změnit své chování.\NTohle je cesta k lidskosti.
+Dialogue: 0,0:24:40.94,0:24:43.36,Default,NTP,0000,0000,0000,,Konečně jsi souhlasil s tím, že to uděláš!
+Dialogue: 0,0:24:43.36,0:24:44.86,Default,NTP,0000,0000,0000,,Mám z tebe radost, Nikaidou!
+Dialogue: 0,0:24:44.86,0:24:47.78,Default,NTP,0000,0000,0000,,Myslím tedy, koneckonců jsem kluk...
+Dialogue: 0,0:24:47.78,0:24:50.03,Default,NTP,0000,0000,0000,,Opravdu nejsem žádné dobro, že?
+Dialogue: 0,0:24:50.03,0:24:58.33,EpNum,NTP,0000,0000,0000,,ILLUSTRATOR:\NTSUNAMI UMINO
+Dialogue: 0,0:24:51.03,0:24:52.99,Default,NTP,0000,0000,0000,,Mám hlad-mňau.
+Dialogue: 0,0:24:52.99,0:24:55.20,Default,NTP,0000,0000,0000,,Chci nějaké smažené kuře-mňau.
+Dialogue: 0,0:24:55.20,0:24:57.91,Default,NTP,0000,0000,0000,,Bramborový salát je také dobrý-mňau. TeamKira ;-)

@@ -1,0 +1,420 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,1
+Style: Yowamushi-main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-internal/narrator,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-flashbackinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-NextEp,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00BD19BC,&H00B8D7FB,0,1,0,0,100,100,0,0,1,2,0,8,13,13,187,1
+Style: Yowamushi-EpTitle,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,0,3,13,80,69,1
+Style: Yowamushi-internal/overlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-flashbackannounce,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-titleoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,1,93,13,20,0
+Style: Yowamushi-blurb,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,13,13,67,0
+Style: Yowamushi-NextTime,Open Sans Semibold,36,&H000000EE,&H000000FF,&H0010CCF5,&H00C8A5B4,1,1,0,0,100,100,0,0,1,2,0,1,13,13,147,1
+Style: Yowamushi-HakoneBus,Open Sans Semibold,54,&H0020201A,&H000000FF,&H00FEFFFC,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,93,20,0
+Style: Yowamushi-Homework,Open Sans Semibold,36,&H0015180F,&H000000FF,&H00FCFAF2,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,147,13,40,1
+Style: Yowamushi-InterHigh,Open Sans Semibold,39,&H00F9F9FA,&H000000FF,&H001C1916,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,13,20,0
+Style: Yowamushi-KyotoFushimi,Open Sans Semibold,39,&H00000301,&H000000FF,&H00FFBDDE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,20,1
+Style: Yowamushi-announce,Open Sans Semibold,36,&H00E6F5FD,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Yowamushi-Buns,Open Sans Semibold,36,&H002E160D,&H000000FF,&H00D3F2F0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,13,13,120,0
+Style: Yowamushi-RoadClosed,Open Sans Semibold,36,&H001D09A1,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,40,347,267,0
+Style: Yowamushi-Hime,Open Sans Semibold,30,&H004115C7,&H000000FF,&H00FFE1FF,&H00B469FF,1,0,0,0,100,100,0,0,1,3,0,8,13,13,80,1
+Style: Yowamushi-LeaderBoard2,Open Sans Semibold,54,&H000916B7,&H000000FF,&H0015161A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,93,13,27,1
+Style: Yowamushi-internaltitleoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,1,100,100,28,0
+Style: Yowamushi-top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Yowamushi-signoverlapint,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,3,13,93,20,0
+Style: Yowamushi-LeaderBoard4,Open Sans Semibold,54,&H000916B7,&H000000FF,&H0015161A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,13,27,1
+Style: Yowamushi-Checkpoint,Open Sans Semibold,24,&H00000301,&H000000FF,&H00F9FBF6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,87,13,113,1
+Style: Yowamushi-Subjects3,Open Sans Semibold,39,&H00000301,&H000000FF,&H00F9FBF6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,60,13,100,1
+Style: Yowamushi-Wumph,Open Sans Semibold,45,&H00CBA476,&H000000FF,&H003A2620,&H00000000,1,0,0,0,100,100,0,0,1,4,0,5,13,13,13,1
+Style: Yowamushi-topflashinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Yowamushi-flashbackoverlap,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,100,100,28,0
+Style: Yowamushi-Hakone,Open Sans Semibold,39,&H0018333F,&H000000FF,&H00709CA9,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,13,187,120,1
+Style: Yowamushi-topinternal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:05.88,0:00:08.86,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Mami, zítra odjíždím, já...
+Dialogue: 0,0:00:09.28,0:00:11.00,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,N-na tři dny...
+Dialogue: 0,0:00:11.46,0:00:13.08,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,budu na závodech!
+Dialogue: 0,0:00:13.45,0:00:14.40,Yowamushi-flashback,MOM,0000,0000,0000,,Eeee?
+Dialogue: 0,0:00:15.76,0:00:18.79,Yowamushi-flashback,MOM,0000,0000,0000,,Anime kluby mají taky třídenní závody??
+Dialogue: 0,0:00:20.22,0:00:22.02,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,He? Je to závod na kole.
+Dialogue: 0,0:00:22.02,0:00:23.95,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Vysvětloval jsem ti to před nedávnem.
+Dialogue: 0,0:00:23.95,0:00:27.22,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Jsem v cyklistickém klubu.
+Dialogue: 0,0:00:28.32,0:00:31.33,Yowamushi-flashback,MOM,0000,0000,0000,,Teď když jsi to zmínil \Nbyl jsi v poslední době na pár dní pryč
+Dialogue: 0,0:00:31.33,0:00:34.86,Yowamushi-flashback,MOM,0000,0000,0000,,a já musela schválit nějaký výlet.
+Dialogue: 0,0:00:35.42,0:00:40.21,Yowamushi-flashback,MOM,0000,0000,0000,,V televizi říkali že cyklistika je pro tebe dobrá.
+Dialogue: 0,0:00:40.90,0:00:44.70,Yowamushi-flashback,MOM,0000,0000,0000,,Existují cyklistické závody?
+Dialogue: 0,0:00:46.24,0:00:49.08,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Říkal jsem ti že jsem v závodním klubu.
+Dialogue: 0,0:00:49.08,0:00:53.67,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Um, Jezdím jako silniční závodník,\N a je to soutěžní sport.
+Dialogue: 0,0:00:53.94,0:00:55.50,Yowamushi-flashback,MOM,0000,0000,0000,,Co? Silniční co?
+Dialogue: 0,0:00:55.50,0:00:57.50,Yowamushi-flashback,MOM,0000,0000,0000,,Očem to mluvíš? O anime?
+Dialogue: 0,0:00:57.72,0:00:58.84,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Ne!
+Dialogue: 0,0:01:00.64,0:01:02.04,Yowamushi-flashback,MOMO,0000,0000,0000,,Kam jdeš?
+Dialogue: 0,0:01:02.04,0:01:03.84,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Huh? Hakone.
+Dialogue: 0,0:01:03.84,0:01:08.28,Yowamushi-Hakone,SIGN,0000,0000,0000,,{\fad(0,463)}Hakone
+Dialogue: 0,0:01:04.36,0:01:06.13,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Podívej, můžeš to vidět v dálce.
+Dialogue: 0,0:01:06.13,0:01:08.31,Yowamushi-flashback,FRIEND,0000,0000,0000,,Pojďme si tam udělat přestávku.
+Dialogue: 0,0:01:08.88,0:01:10.60,Yowamushi-flashback,MOM,0000,0000,0000,,To zní zábavně.
+Dialogue: 0,0:01:12.44,0:01:14.34,Yowamushi-flashback,MOM,0000,0000,0000,,Přines mi odtamtud něco.
+Dialogue: 0,0:01:14.68,0:01:16.49,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Oh, ale...
+Dialogue: 0,0:01:19.12,0:01:20.12,Yowamushi-flashback,MOM,0000,0000,0000,,Oh, vlastně...
+Dialogue: 0,0:01:20.12,0:01:23.02,Yowamushi-flashback,MOM,0000,0000,0000,,Tvoji přátele co jsi mi ukázal \Nna fotce v telefonu...
+Dialogue: 0,0:01:24.63,0:01:27.78,Yowamushi-flashback,MOM,0000,0000,0000,,červenohlavý a úzko-oký jedou s tebou?
+Dialogue: 0,0:01:31.19,0:01:32.04,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Jop.
+Dialogue: 0,0:01:33.06,0:01:34.76,Yowamushi-flashback,MOM,0000,0000,0000,,Tak to je úleva.
+Dialogue: 0,0:01:34.76,0:01:35.66,Yowamushi-flashback,SAKAMICHI,0000,0000,0000,,Jop.
+Dialogue: 0,0:01:36.90,0:01:41.90,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Kluci, díky že jste mi dali tuhle šanci.
+Dialogue: 0,0:01:42.53,0:01:46.63,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,budu šlapat do pedálu tak, jak jen to půjde\N abych s vámi udržel krok.
+Dialogue: 0,0:01:49.43,0:01:55.50,Yowamushi-announce,ANNOUNCE,0000,0000,0000,,První den Kanagawského Inter-High\N mužského silničního závodu začal!
+Dialogue: 0,0:03:40.68,0:03:42.51,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Předek skupiny se pohnul.
+Dialogue: 0,0:03:43.50,0:03:44.95,Yowamushi-main,NARUKO,0000,0000,0000,,Je to tu, Je to tu.
+Dialogue: 0,0:03:45.54,0:03:46.96,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Tahle atmosféra je úžasná.
+Dialogue: 0,0:03:47.54,0:03:51.60,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Můžu cítit napětí a dech každého.
+Dialogue: 0,0:03:51.60,0:03:54.30,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,cítím to na své kůži.
+Dialogue: 0,0:03:58.24,0:03:59.14,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Co to?
+Dialogue: 0,0:03:59.74,0:04:02.13,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Myslel jsem že jsem se zahřál.
+Dialogue: 0,0:04:05.04,0:04:07.70,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,moje tělo se nehýbe jako obvykle.
+Dialogue: 0,0:04:09.59,0:04:11.89,Yowamushi-main,NARUKO,0000,0000,0000,,Jdi s proudem, Onoda-kun.
+Dialogue: 0,0:04:11.89,0:04:13.37,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Oh, dobře.
+Dialogue: 0,0:04:15.19,0:04:17.24,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Huh? Co se to děje?
+Dialogue: 0,0:04:17.24,0:04:19.92,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Někdo mě potlačil. Já jsem se vytáhl.
+Dialogue: 0,0:04:19.92,0:04:22.98,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Skupina se hýbe jako nějaké \Nobrovské ale klidné zvíře.
+Dialogue: 0,0:04:23.26,0:04:27.20,Yowamushi-EpTitle,EPITITLE,0000,0000,0000,,{\fad(461,0)}RIDE.23 Top Sprinter!!
+Dialogue: 0,0:04:23.70,0:04:26.91,Yowamushi-topinternal,SAKAMICHI,0000,0000,0000,,Tohle je skutčný závod... oficiální závod.
+Dialogue: 0,0:04:28.20,0:04:30.18,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Nepanikař, Onoda.
+Dialogue: 0,0:04:30.18,0:04:32.20,Yowamushi-main,IMAIZUMI,0000,0000,0000,,První dva kilometry jsou přehlídková jízda.
+Dialogue: 0,0:04:32.46,0:04:34.97,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Cože? Přehlídková jízda?
+Dialogue: 0,0:04:35.60,0:04:38.22,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Jedeme tak, aby si to užili diváci.
+Dialogue: 0,0:04:38.22,0:04:40.16,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Je to velká paráda před závodem,
+Dialogue: 0,0:04:40.16,0:04:42.80,Yowamushi-main,IMAIZUMI,0000,0000,0000,,která nemá nic společného se skutečným závodem.
+Dialogue: 0,0:04:44.64,0:04:48.26,Yowamushi-main,NARUKO,0000,0000,0000,,Pokud by jsem hned začali závodem, \Nněkdo by si mohl ublížit.
+Dialogue: 0,0:04:50.28,0:04:53.44,Yowamushi-main,NARUKO,0000,0000,0000,,Jakmile závod skutečně začne,\N bude to bitva o přežití.
+Dialogue: 0,0:04:53.97,0:04:56.94,Yowamushi-main,NARUKO,0000,0000,0000,,Shounan Kouenský nadjezd\N je zhruba dva kilometry před námi.
+Dialogue: 0,0:04:57.57,0:05:00.35,Yowamushi-main,NARUKO,0000,0000,0000,,Postup prvního dne je obtížný.
+Dialogue: 0,0:05:00.35,0:05:03.08,Yowamushi-main,NARUKO,0000,0000,0000,,Většina úseku podél pobřeží je plochá.
+Dialogue: 0,0:05:03.08,0:05:06.36,Yowamushi-main,NARUKO,0000,0000,0000,,Pokud jsi climber (vrchař),\N budeš čekat od začátku.
+Dialogue: 0,0:05:03.73,0:05:06.36,Yowamushi-RoadClosed,TEXT,0000,0000,0000,,{\fad(2200,0)}CÍL prvního dne
+Dialogue: 0,0:05:10.40,0:05:11.33,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Čekat...
+Dialogue: 0,0:05:12.78,0:05:14.91,Yowamushi-main,NARUKO,0000,0000,0000,,Ale pojďme do to toho všichni, Onoda-kun.
+Dialogue: 0,0:05:16.58,0:05:19.43,Yowamushi-main,NARUKO,0000,0000,0000,,Tyhle tři dny budou dlouhou bitvou,
+Dialogue: 0,0:05:19.99,0:05:23.02,Yowamushi-main,NARUKO,0000,0000,0000,,ale zůstaň silný, \Njeď naplno a přežij.
+Dialogue: 0,0:05:23.92,0:05:31.90,Yowamushi- main,NARUKO,0000,0000,0000,,Myslím že bych se cítil úžasně kdyby \Njsme finišovali všechny tři dny společně.
+Dialogue: 0,0:05:40.88,0:05:45.06,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Jak neobvyklé že počítáš i mě.
+Dialogue: 0,0:05:45.06,0:05:47.78,Yowamushi-main,NARUKO,0000,0000,0000,,Jo, ale ty jsi ten stranou.
+Dialogue: 0,0:05:47.78,0:05:49.82,Yowamushi-main,NARUKO,0000,0000,0000,,Pravděpodobne budeš brečet kdyby jsme tě opustili.
+Dialogue: 0,0:05:50.56,0:05:54.32,Yowamushi- main,NARUKO,0000,0000,0000,,Myslel jsem že bych se dočkal vidět tě brečet až budu finišovat.
+Dialogue: 0,0:05:55.09,0:05:58.00,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Podceňuješ mě. Říkal jsem ti přece předtím.
+Dialogue: 0,0:05:58.00,0:06:00.89,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Pouze jeden člověk může vyhrát závod.
+Dialogue: 0,0:06:00.89,0:06:04.71,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Takové sny a ideály jsou pouze fantazií.
+Dialogue: 0,0:06:05.97,0:06:06.82,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Ale...
+Dialogue: 0,0:06:08.15,0:06:09.94,Yowamushi-main,IMAIZUMI,0000,0000,0000,,není to špatná fantazie.
+Dialogue: 0,0:06:12.26,0:06:13.16,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Jop!
+Dialogue: 0,0:06:13.76,0:06:16.20,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,, Úžasné... úžasné, úžasné.
+Dialogue: 0,0:06:16.20,0:06:17.80,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Můžu cítit tu sílu.
+Dialogue: 0,0:06:18.22,0:06:20.85,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Pojďme. Přežít, a pak...
+Dialogue: 0,0:06:21.71,0:06:23.36,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,projet cílem společně.
+Dialogue: 0,0:06:24.26,0:06:28.58,Yowamushi-main,NARUKO,0000,0000,0000,,Oh, ale neříkej to třeťákům.
+Dialogue: 0,0:06:28.58,0:06:32.42,Yowamushi-main,NARUKO,0000,0000,0000,,Pokud zjistí že se pokoušíme dojet první, \NKapitán „sluneční brýle“ bude naštvanej.
+Dialogue: 0,0:06:34.44,0:06:38.54,Yowamushi-main,IMAIZUMI,0000,0000,0000,,První jsou rovinky, Onoda. \NUjisti se že nezůstaneš za námi.
+Dialogue: 0,0:06:41.60,0:06:42.66,Yowamushi-main,MAN 1,0000,0000,0000,,Co se děje??
+Dialogue: 0,0:06:42.66,0:06:43.92,Yowamushi-main,MAN 2,0000,0000,0000,,Někdo se vrací zpět.
+Dialogue: 0,0:06:43.92,0:06:44.76,Yowamushi-main,MAN 3,0000,0000,0000,,Je z Hakone!
+Dialogue: 0,0:06:47.53,0:06:48.84,Yowamushi-main,MANAMI,0000,0000,0000,,Nazdar, Sakamichi-kun.
+Dialogue: 0,0:06:49.55,0:06:50.47,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Manami-kun!
+Dialogue: 0,0:06:51.74,0:06:52.89,Yowamushi-internal/narrator,IMAIZUMI,0000,0000,0000,,Akademie Hakone?
+Dialogue: 0,0:06:53.23,0:06:54.56,Yowamushi-main,MANAMI,0000,0000,0000,,Závod začal.
+Dialogue: 0,0:06:54.56,0:06:56.34,Yowamushi-main,MANAMI,0000,0000,0000,,Ujisti se že dojedeš ke svahu.
+Dialogue: 0,0:06:56.34,0:06:59.56,Yowamushi-main,MANAMI,0000,0000,0000,,Pak začne pravá bitva.
+Dialogue: 0,0:07:02.58,0:07:03.48,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Dobře.
+Dialogue: 0,0:07:05.38,0:07:07.23,Yowamushi-main,MANAMI,0000,0000,0000,,S dovolením, promiňte.
+Dialogue: 0,0:07:07.89,0:07:11.24,Yowamushi-main,TADOKORO,0000,0000,0000,,On je teprve prvák \Nv týmu akademie Hakone.
+Dialogue: 0,0:07:11.72,0:07:13.30,Yowamushi-main,MAN 1,0000,0000,0000,,Podívej! Přijíždějí!
+Dialogue: 0,0:07:13.30,0:07:14.75,Yowamushi-main,MAN 2,0000,0000,0000,,Jsou tak rychlí!
+Dialogue: 0,0:07:15.14,0:07:16.89,Yowamushi-main,AUDIENCE 1,0000,0000,0000,,Jo, a to mají ještě teprve začít.
+Dialogue: 0,0:07:16.89,0:07:19.79,Yowamushi-main,AUDIENCE 1,0000,0000,0000,,Závod skutečně ještě nezačal dokud neminuli nadchod
+Dialogue: 0,0:07:19.79,0:07:21.67,Yowamushi-main,AUDIENCE 1,0000,0000,0000,,a rozhodčí nezamává vlajkou.
+Dialogue: 0,0:07:24.98,0:07:28.56,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Závod začal.\NInter-High je odstartován.
+Dialogue: 0,0:07:29.23,0:07:31.69,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Teď už není cesty zpět.
+Dialogue: 0,0:07:32.00,0:07:33.26,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Musím bojovat.
+Dialogue: 0,0:07:58.94,0:08:00.07,Yowamushi-main,AUDIENCE 1,0000,0000,0000,,je odstartováno!
+Dialogue: 0,0:08:00.07,0:08:02.72,Yowamushi-main,AUDIENCE 1,0000,0000,0000,,Teď neuvěřitelně zrychlí!
+Dialogue: 0,0:08:05.02,0:08:08.63,Yowamushi-main,AUDIENCE 2,0000,0000,0000,,Ti jsou rychlí! Jsi si jistý, \Nže ty kola nemají motory?
+Dialogue: 0,0:08:09.04,0:08:11.66,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Zrychlujeme. Všichni jedou tak rychle.
+Dialogue: 0,0:08:11.66,0:08:15.30,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Nikdy předtím jsem nezažil\Ntenhle zvuk, takový vítr.
+Dialogue: 0,0:08:15.30,0:08:16.89,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Ale můžu držet krok.
+Dialogue: 0,0:08:17.69,0:08:19.90,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,To musí být výsledky mého tréningu na soustředění.
+Dialogue: 0,0:08:24.44,0:08:26.79,Yowamushi-main,NARUKO,0000,0000,0000,,Jedu napřed, Onoda-kun.
+Dialogue: 0,0:08:28.14,0:08:29.53,Yowamushi-main,NARUKO,0000,0000,0000,,Promiň.
+Dialogue: 0,0:08:29.98,0:08:32.12,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Naruko-kun, Tadokoro-san.
+Dialogue: 0,0:08:32.38,0:08:34.78,Yowamushi-main,NARUKO,0000,0000,0000,,Teď je má chvíle abych zazářil.
+Dialogue: 0,0:08:34.78,0:08:36.82,Yowamushi-main,NARUKO,0000,0000,0000,,Jsem tak vzrušený, že bych si mohl zašpinit spodky.
+Dialogue: 0,0:08:37.02,0:08:40.24,Yowamushi-main,TADOKORO,0000,0000,0000,,Hou, hou.\N Neodjížděj dokud ti nedám signál.
+Dialogue: 0,0:08:40.86,0:08:43.75,Yowamushi-main,NARUKO,0000,0000,0000,,Úsek po startu je 50 kilometrů rovinek.
+Dialogue: 0,0:08:44.28,0:08:46.51,Yowamushi-main,NARUKO,0000,0000,0000,,Je to jako dělané pro mě.
+Dialogue: 0,0:08:46.78,0:08:48.88,Yowamushi-main,TADOKORO,0000,0000,0000,,Ne, je to pro mě.
+Dialogue: 0,0:08:50.49,0:08:53.86,Yowamushi-main,MAKISHIMA,0000,0000,0000,,No teda. Je odstartováno, Onoda.
+Dialogue: 0,0:08:53.86,0:08:56.38,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Budeš mít možnost vidět\N spoustu sprinterů z různých škol.
+Dialogue: 0,0:08:56.93,0:08:58.38,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Sprinteři...
+Dialogue: 0,0:09:03.46,0:09:05.74,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Sprinteři jsou hvězdy.
+Dialogue: 0,0:09:05.74,0:09:08.15,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Vzhledem k tomu, \Nže jsou přímočaří tak jednoduše
+Dialogue: 0,0:09:08.15,0:09:10.21,Yowamushi-main,MAKISHIMA,0000,0000,0000,,nejde popřít jejich talent.
+Dialogue: 0,0:09:10.21,0:09:12.11,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Všichni o tom nemluví, není to o štěstí.
+Dialogue: 0,0:09:12.90,0:09:15.53,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Vítěze a poražené \N určí jejich síla.
+Dialogue: 0,0:09:16.10,0:09:19.36,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Na začátku závodu, \N každý tým určí sprintera
+Dialogue: 0,0:09:19.74,0:09:22.51,Yowamushi-main,MAKISHIMA,0000,0000,0000,,který s ostatními porovná \Nsílu svých nohou.
+Dialogue: 0,0:09:23.16,0:09:25.28,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Ale proč?
+Dialogue: 0,0:09:25.76,0:09:29.30,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Drcení nepřítele \Na pohyb vpřed
+Dialogue: 0,0:09:29.30,0:09:31.88,Yowamushi-main,MAKISHIMA,0000,0000,0000,,je ukázka síly.
+Dialogue: 0,0:09:31.88,0:09:36.67,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Tato skutečnost zatlačí ostatní týmy\N a tvému dá výhodu.
+Dialogue: 0,0:09:37.26,0:09:39.38,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Je to kontrola průběhu závodu.
+Dialogue: 0,0:09:39.95,0:09:41.70,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Průběh závodu...
+Dialogue: 0,0:09:42.27,0:09:44.37,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Sleduj pozorně.
+Dialogue: 0,0:09:44.37,0:09:47.08,Yowamushi-main,MAKISHIMA,0000,0000,0000,,pouze nejsilnější top sprinteři
+Dialogue: 0,0:09:47.08,0:09:50.40,Yowamushi-main,MAKISHIMA,0000,0000,0000,,dokážou být ve předu v téhle úvodní bitvě.
+Dialogue: 0,0:09:51.44,0:09:52.44,Yowamushi-main,MAN 1,0000,0000,0000,,Začalo to.
+Dialogue: 0,0:09:52.73,0:09:54.12,Yowamushi-main,MAN 2,0000,0000,0000,,Jak rychle šlapou?
+Dialogue: 0,0:09:54.77,0:09:55.70,Yowamushi-main,MAN 1,0000,0000,0000,,Rychlej!
+Dialogue: 0,0:09:55.70,0:09:57.94,Yowamushi-main,MAN 2,0000,0000,0000,,Kanazawa Misaki a\NSanri akademie jede taky!
+Dialogue: 0,0:09:58.44,0:09:59.91,Yowamushi-main,NARUKO,0000,0000,0000,,Budem stále čekat dědulo?
+Dialogue: 0,0:09:59.91,0:10:01.62,Yowamushi-main,TADOKORO,0000,0000,0000,,Neříkej mi dědulo.
+Dialogue: 0,0:10:01.62,0:10:05.08,Yowamushi-main,TADOKORO,0000,0000,0000,,je efektivnější když \N jim dáš výhodu.
+Dialogue: 0,0:10:05.08,0:10:07.46,Yowamushi-main,TADOKORO,0000,0000,0000,,Velikost dopadu je důležitá.
+Dialogue: 0,0:10:08.37,0:10:10.38,Yowamushi-main,NARUKO,0000,0000,0000,,Ještě ne?
+Dialogue: 0,0:10:10.58,0:10:11.75,Yowamushi-main,TADOKORO,0000,0000,0000,, Ještě ne.
+Dialogue: 0,0:10:11.75,0:10:15.38,Yowamushi-main,TADOKORO,0000,0000,0000,,Nepojedem dokud se nerozhlédnou \Na nebudou si myslet že my nejdem.
+Dialogue: 0,0:10:16.17,0:10:17.92,Yowamushi-main,NARUKO,0000,0000,0000,,Začínám být netrpělivý!
+Dialogue: 0,0:10:18.14,0:10:20.39,Yowamushi-RoadClosed,TEXT,0000,0000,0000,,silnice uzavřena\N{\c&H39363C&}{\fs18} z důvodu silničních závodů
+Dialogue: 0,0:10:27.12,0:10:29.22,Yowamushi-main,MIKI,0000,0000,0000,,Promiň bráško. Díky že jsi počkal.
+Dialogue: 0,0:10:30.04,0:10:33.23,Yowamushi-main,TOJI,0000,0000,0000,,Rychle dovnitř. \N Jedem do občerstvovací stanice.
+Dialogue: 0,0:10:33.50,0:10:38.99,Yowamushi-main,SUGIMOTO,0000,0000,0000,,Pokračujem do občerstvovací stanice, \Nje hezké rozdávat lahve s vodou
+Dialogue: 0,0:10:38.99,0:10:42.90,Yowamushi-main,SUGIMOTO,0000,0000,0000,,ale nemůžeme vidět závod z auta.
+Dialogue: 0,0:10:43.24,0:10:49.05,Yowamushi-main,SUGIMOTO,0000,0000,0000,,Nebudeme vedet kdo je první\N nebo kde naši jezdci jsou.
+Dialogue: 0,0:10:49.05,0:10:50.86,Yowamushi-main,SUGIMOTO,0000,0000,0000,,bohužel ne jako na evropských závodech,
+Dialogue: 0,0:10:50.86,0:10:54.60,Yowamushi-main,SUGIMOTO,0000,0000,0000,,tady není kamera která by je sledovala.
+Dialogue: 0,0:10:54.60,0:10:55.30,Yowamushi-main,SUGIMOTO,0000,0000,0000,,Jaká škoda.
+Dialogue: 0,0:10:56.20,0:10:57.26,Yowamushi-main,TESHIMA,0000,0000,0000,,Pohyb.
+Dialogue: 0,0:10:59.78,0:11:00.86,Yowamushi-main,MIKI,0000,0000,0000,,Bez obav.
+Dialogue: 0,0:11:00.86,0:11:03.42,Yowamushi-main,MIKI,0000,0000,0000,,Trasa Inter-High je\Nrozdělena do několika částí,
+Dialogue: 0,0:11:03.42,0:11:05.60,Yowamushi-main,MIKI,0000,0000,0000,,a pozice se měří v každém úseku.
+Dialogue: 0,0:11:06.03,0:11:10.82,Yowamushi-main,MIKI,0000,0000,0000,,Každých 15 kilometrů je senzor \Npřesně jako na startovní čáře.
+Dialogue: 0,0:11:11.54,0:11:15.49,Yowamushi-main,MIKI,0000,0000,0000,,pokaždé když projedou,\N výsledek je okamžitě zaznamenán.
+Dialogue: 0,0:11:13.29,0:11:15.49,Yowamushi-Checkpoint,TEXT,0000,0000,0000,,{\fad(1100,0)}Průběžné výsledky (Checkpoint číslo X)
+Dialogue: 0,0:11:16.85,0:11:18.33,Yowamushi-main,SUGIMOTO,0000,0000,0000,,Jinými slovy, pokud se na ně podíváme,
+Dialogue: 0,0:11:18.33,0:11:21.50,Yowamushi-main,SUGIMOTO,0000,0000,0000,,Můžeme určit aktuální \Npozici a celkové tempo.
+Dialogue: 0,0:11:21.50,0:11:22.91,Yowamushi-main,SUGIMOTO,0000,0000,0000,,To je dobrý.
+Dialogue: 0,0:11:23.56,0:11:26.42,Yowamushi-main,MIKI,0000,0000,0000,,Tyto informace jsou předány účastníkům.
+Dialogue: 0,0:11:26.94,0:11:29.19,Yowamushi-main,MIKI,0000,0000,0000,,Ti pak dle pozice určují strategii.
+Dialogue: 0,0:11:29.19,0:11:32.80,Yowamushi-main,MIKI,0000,0000,0000,,Když získaš první místo \Nna prvním checkpointu,
+Dialogue: 0,0:11:32.80,0:11:35.43,Yowamushi-main,MIKI,0000,0000,0000,,získáš psychologickou výhodu.
+Dialogue: 0,0:11:36.02,0:11:38.76,Yowamushi-main,MIKI,0000,0000,0000,,tím že lidé si myslí, že vás nemůžou porazit,
+Dialogue: 0,0:11:38.76,0:11:41.06,Yowamushi-main,MIKI,0000,0000,0000,,můžeš ovládat celou skupinu.
+Dialogue: 0,0:11:41.50,0:11:45.06,Yowamushi-main,TESHIMA,0000,0000,0000,,To je důvod proč každá škola \Nposlala svého top sprintera.
+Dialogue: 0,0:11:46.11,0:11:47.94,Yowamushi-main,SUGIMOTO,0000,0000,0000,,Jaké strategie.
+Dialogue: 0,0:11:48.23,0:11:52.87,Yowamushi-main,MIKI,0000,0000,0000,,Ano, ale to je to \Nco sprinteři dělají pro jejich tým
+Dialogue: 0,0:11:52.87,0:11:54.42,Yowamushi-main,MIKI,0000,0000,0000,,A pro sebe.
+Dialogue: 0,0:11:54.92,0:11:55.90,Yowamushi-main,MIKI,0000,0000,0000,,Jejich boj o titul.
+Dialogue: 0,0:11:57.85,0:11:59.70,Yowamushi-main,MIKI,0000,0000,0000,,Předjet ostatní cyklisty
+Dialogue: 0,0:11:59.70,0:12:02.65,Yowamushi-main,MIKI,0000,0000,0000,,a dostat se do vedení jeden metr nebo deset centimetrů.
+Dialogue: 0,0:12:02.65,0:12:06.73,Yowamushi-main,MIKI,0000,0000,0000,,ve vteřině být na\Nnejvýhodnější pozici
+Dialogue: 0,0:12:06.73,0:12:09.42,Yowamushi-main,MIKI,0000,0000,0000,,a ve správnou chvíli vypustit svou sílu.
+Dialogue: 0,0:12:09.92,0:12:13.74,Yowamushi-main,MIKI,0000,0000,0000,,využít svůj instinkt ke čtení situace,\N a skončit první.
+Dialogue: 0,0:12:13.74,0:12:15.69,Yowamushi-main,MIKI,0000,0000,0000,,Sprinteři kteří touží porychlosti,
+Dialogue: 0,0:12:15.69,0:12:19.99,Yowamushi-main,MIKI,0000,0000,0000,,chtějí víc než ostatní\N být rychleší než kdokoliv jinej.
+Dialogue: 0,0:12:19.99,0:12:23.85,Yowamushi-main,MIKI,0000,0000,0000,,Oni závodí aby byli korunováni\N jako nejsilnější a nejrychlejší.
+Dialogue: 0,0:12:25.51,0:12:26.46,Yowamushi-main,MAN 4,0000,0000,0000,,Ti jsou rychlí.
+Dialogue: 0,0:12:27.48,0:12:29.94,Yowamushi-main,NARUKO,0000,0000,0000,,Už jsou tak daleko.\N Stále nejedem?
+Dialogue: 0,0:12:30.78,0:12:31.89,Yowamushi-main,TADOKORO,0000,0000,0000,,Ještě ne.
+Dialogue: 0,0:12:33.34,0:12:35.18,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Teď je to na nás.
+Dialogue: 0,0:12:37.71,0:12:38.91,Yowamushi-main,TADOKORO,0000,0000,0000,,Jedem, červená palice!
+Dialogue: 0,0:12:39.44,0:12:41.36,Yowamushi-main,NARUKO,0000,0000,0000,,Jupí! Na tohle jsem čekal!
+Dialogue: 0,0:12:41.36,0:12:43.78,Yowamushi-main,NARUKO,0000,0000,0000,,Naruko Shoukichi přichází!
+Dialogue: 0,0:12:48.17,0:12:49.47,Yowamushi-main,MAN 1,0000,0000,0000,,Teprve teď jedou?
+Dialogue: 0,0:12:49.47,0:12:52.12,Yowamushi-main,MAN 2,0000,0000,0000,,Oni poslali dva top sprintery?
+Dialogue: 0,0:12:52.12,0:12:55.66,Yowamushi-main,MAN 3,0000,0000,0000,,Moment, kdo je ten červenohlavej?\N Byl v Sohoku předtím?
+Dialogue: 0,0:12:57.98,0:12:58.98,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Ti jsou tak rychlí.
+Dialogue: 0,0:12:58.98,0:13:01.04,Yowamushi-internal/narrator,SAKAMICHI,0000,0000,0000,,Zrychlili jako motorky.
+Dialogue: 0,0:13:03.78,0:13:06.48,Yowamushi-main,FUKUTOMI,0000,0000,0000,,Jak to jde na tvém prvním Inter-High?
+Dialogue: 0,0:13:06.48,0:13:09.15,Yowamushi-main,FUKUTOMI,0000,0000,0000,,Jsi nervozní? Dokážeš to, Izumido?
+Dialogue: 0,0:13:09.52,0:13:13.48,Yowamushi-main,IZUMIDA,0000,0000,0000,,Mám pocit že mi praskne hruď,\N užívám si tolik legrace.
+Dialogue: 0,0:13:13.48,0:13:16.74,Yowamushi-main,IZUMIDA,0000,0000,0000,,Dám jim pořádný náskok.
+Dialogue: 0,0:13:16.74,0:13:20.96,Yowamushi-main,IZUMIDA,0000,0000,0000,,Budu kontrolovat tyhle rovinky.\N(kontrolovat ve smyslu že je vyhraje) 
+Dialogue: 0,0:13:25.30,0:13:27.92,Yowamushi-main,NUARKO,0000,0000,0000,,Tvé obří tělo mi stojí v cestě dědulo!
+Dialogue: 0,0:13:27.92,0:13:31.00,Yowamushi-main,TADOKORO,0000,0000,0000,,Zmlkni! Padej za mě ty malá červená fazolko!
+Dialogue: 0,0:13:31.00,0:13:32.54,Yowamushi-main,NARUKO,0000,0000,0000,,Nestrachuj se.
+Dialogue: 0,0:13:32.54,0:13:36.31,Yowamushi-main,NARUKO,0000,0000,0000,,Já projedu senzorem první \Na povedu průběžné výsledky...
+Dialogue: 0,0:13:36.31,0:13:37.26,Yowamushi-main,NARUKO,0000,0000,0000,,pro tým!
+Dialogue: 0,0:13:37.56,0:13:40.50,Yowamushi-main,TADOKORO,0000,0000,0000,,možná to zvládneš, \Nale tak za sto let. Ne, milion let!
+Dialogue: 0,0:13:40.50,0:13:42.10,Yowamushi-main,TADOKORO,0000,0000,0000,,Udělám to pro tým!
+Dialogue: 0,0:13:42.30,0:13:45.03,Yowamushi-main,NARUKO,0000,0000,0000,,Moje jméno bude znít napříč zemí!
+Dialogue: 0,0:13:45.03,0:13:45.98,Yowamushi-main,TADOKORO,0000,0000,0000,,NE, to bude moje!
+Dialogue: 0,0:13:46.47,0:13:47.64,Yowamushi-main,SPRINTER 1,0000,0000,0000,,Stále se přiblyžují.
+Dialogue: 0,0:13:47.64,0:13:49.17,Yowamushi-main,SPRINTER 2,0000,0000,0000,,Tihle jsou z Sohoku.
+Dialogue: 0,0:13:49.17,0:13:50.17,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Jsou z Chiby?
+Dialogue: 0,0:13:50.61,0:13:51.38,Yowamushi-main,SPRINTER 1,0000,0000,0000,,Tihle dva?
+Dialogue: 0,0:13:51.63,0:13:53.80,Yowamushi-main,SPRINTER 2,0000,0000,0000,,Oni poslali dva sprintery?
+Dialogue: 0,0:13:54.02,0:13:56.77,Yowamushi-main,SPRINTER 3,0000,0000,0000,,To je třeták Tadokoro, \N lidská střela lokomotiva.
+Dialogue: 0,0:13:56.77,0:13:58.57,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Je to běsnící lidská dělová koule.
+Dialogue: 0,0:13:58.57,0:14:01.65,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Ten druhý bude šetřit energii schovaný za Tadokorem
+Dialogue: 0,0:14:01.65,0:14:03.48,Yowamushi-main,SPRINTER 3,0000,0000,0000,,aby první vzal checkpoint.
+Dialogue: 0,0:14:03.86,0:14:04.76,Yowamushi-main,NARUKO,0000,0000,0000,,Uhni!
+Dialogue: 0,0:14:04.76,0:14:05.64,Yowamushi-main,TADOKORO,0000,0000,0000,,Ne, ty uhni!
+Dialogue: 0,0:14:05.64,0:14:06.72,Yowamushi-main,NARUKO,0000,0000,0000,,Tak to už stačí!
+Dialogue: 0,0:14:06.72,0:14:08.07,Yowamushi-main,TADOKORO,0000,0000,0000,,Netlač na sebe tak!
+Dialogue: 0,0:14:08.07,0:14:09.52,Yowamushi-main,NARUKO,0000,0000,0000,,Jsi starej!
+Dialogue: 0,0:14:09.52,0:14:10.58,Yowamushi-main,TADOKORO,0000,0000,0000,,Kdo je starej?!
+Dialogue: 0,0:14:10.86,0:14:13.07,Yowamushi-main,SPRINTER 1,0000,0000,0000,,On nakonec vůbec neblokuje vítr!
+Dialogue: 0,0:14:13.07,0:14:14.83,Yowamushi-main,SPRINTER 2,0000,0000,0000,,To je nějaká zvláštní strategie?
+Dialogue: 0,0:14:14.83,0:14:15.90,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Jsou to blázni?
+Dialogue: 0,0:14:16.75,0:14:19.82,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Divím se že postupují takhle.
+Dialogue: 0,0:14:22.17,0:14:23.22,Yowamushi-main,NARUKO,0000,0000,0000,,Uhni, uhni!
+Dialogue: 0,0:14:23.22,0:14:24.30,Yowamushi-main,SPRINTER 1,0000,0000,0000,,Přichazejí!
+Dialogue: 0,0:14:24.95,0:14:27.94,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Proč jedou bok po boku?
+Dialogue: 0,0:14:28.52,0:14:32.65,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Chápu. To je nějaký druh plánu.
+Dialogue: 0,0:14:32.65,0:14:36.01,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Mají v úmyslu nás zmást\N svou lhostejností k strategii
+Dialogue: 0,0:14:36.01,0:14:39.13,Yowamushi-internal/narrator,MAN,0000,0000,0000,,a najít příležitost \N ve výsledném zmatku.
+Dialogue: 0,0:14:39.78,0:14:41.52,Yowamushi-internal/narrator,MAN,0000,0000,0000,,taková jednoduchá myšlenka Sohoku.
+Dialogue: 0,0:14:41.52,0:14:45.12,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Teď je ale důležité zůstat v klidu.
+Dialogue: 0,0:14:45.12,0:14:48.77,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Jsem Kanazawa Misaki z Shibaty,\N neotřesitelný muž.
+Dialogue: 0,0:14:49.02,0:14:50.48,Yowamushi-internal/narrator,MAN,0000,0000,0000,,Jsem vichřice ze severu.
+Dialogue: 0,0:14:51.00,0:14:54.62,Yowamushi-main,SHIBATA,0000,0000,0000,,Zničím váš bluff!
+Dialogue: 0,0:14:55.11,0:14:56.75,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Kanazawa Misaki ujíždí!
+Dialogue: 0,0:14:59.09,0:15:01.84,Yowamushi-internal/narrator,SHIBATA,0000,0000,0000,,Ještě  čtyři kilometry na checkpoint.\N Paráda, bude můj.
+Dialogue: 0,0:15:02.03,0:15:03.92,Yowamushi-main,SPRINTER 4,0000,0000,0000,,Zatraceně, překvapivej útok!
+Dialogue: 0,0:15:03.92,0:15:06.55,Yowamushi-main,SPRINTER 5,0000,0000,0000,,Tajně si šetřil energii!
+Dialogue: 0,0:15:06.55,0:15:07.84,Yowamushi-main,SPRINTER 6,0000,0000,0000,,To je na prd! Nemůžu na to odpovědět!
+Dialogue: 0,0:15:08.10,0:15:10.35,Yowamushi-internal/narrator,SHIBATA,0000,0000,0000,,Pokus se mě dohnat, Sohoku.
+Dialogue: 0,0:15:10.76,0:15:12.54,Yowamushi-main,NARUKO,0000,0000,0000,,Co by jsme měli dělat dědulo?
+Dialogue: 0,0:15:12.54,0:15:15.06,Yowamushi-main,NARUKO,0000,0000,0000,,Nakonec jsme je dohnali, ale jeden nám utekl.
+Dialogue: 0,0:15:15.24,0:15:17.16,Yowamushi-main,TADOKORO,0000,0000,0000,,Neříkej mi dědulo.
+Dialogue: 0,0:15:17.16,0:15:18.52,Yowamushi-main,TADOKORO,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:15:18.52,0:15:21.06,Yowamushi-main,TADOKORO,0000,0000,0000,,Neměli by jsme tam jet společně.
+Dialogue: 0,0:15:21.72,0:15:24.56,Yowamushi-main,TADOKORO,0000,0000,0000,,Dobrá, zůstaň vzadu!
+Dialogue: 0,0:15:21.72,0:15:24.56,Yowamushi-main,NARUKO,0000,0000,0000,,Dobrá, zůstaň vzadu.
+Dialogue: 0,0:15:28.90,0:15:30.54,Yowamushi-internal/narrator,SHIBATA,0000,0000,0000,,Fajn prorazil jsem.
+Dialogue: 0,0:15:30.54,0:15:32.87,Yowamushi-internal/narrator,SHIBATA,0000,0000,0000,,První kontrolní bod patří mě.
+Dialogue: 0,0:15:37.16,0:15:39.42,Yowamushi-main,NARUKO,0000,0000,0000,,Zamýšlel jsi jít dopředu sám, nebo ne?
+Dialogue: 0,0:15:39.42,0:15:42.30,Yowamushi-main,TADOKORO,0000,0000,0000,,Říkal jsem ti nech mě to udělat!
+Dialogue: 0,0:15:42.30,0:15:43.72,Yowamushi-main,TADOKORO,0000,0000,0000,,Podpoř své starší kolegy, blbe!
+Dialogue: 0,0:15:45.50,0:15:46.45,Yowamushi-main,NARUKO,0000,0000,0000,,Nechci.
+Dialogue: 0,0:15:46.45,0:15:49.58,Yowamushi-main,TADOKORO,0000,0000,0000,,Nedám ti to! Nemáš ke mně respekt?
+Dialogue: 0,0:15:49.58,0:15:50.25,Yowamushi-main,NARUKO,0000,0000,0000,,Heh?
+Dialogue: 0,0:15:50.25,0:15:50.93,Yowamushi-main,TADOKORO,0000,0000,0000,,Zemři!
+Dialogue: 0,0:15:51.54,0:15:54.25,Yowamushi-internal/narrator,SHIBATA,0000,0000,0000,,Co to dělají?
+Dialogue: 0,0:15:54.25,0:15:56.52,Yowamushi-main,SHIBATA,0000,0000,0000,,Jak můžou jet tak rychle?!
+Dialogue: 0,0:16:01.58,0:16:04.94,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Tadokoro-san a Naruko-kun,\Nzajímalo by mě jak se jim daří.
+Dialogue: 0,0:16:05.18,0:16:06.78,Yowamushi-main,KINJOU,0000,0000,0000,,Ne, to je nemožné.
+Dialogue: 0,0:16:07.01,0:16:07.94,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Coo?!
+Dialogue: 0,0:16:08.64,0:16:11.32,Yowamushi-main,KINJOU,0000,0000,0000,,Víš proč jsem je poslal oba, Onoda?
+Dialogue: 0,0:16:12.37,0:16:15.33,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Aby jeden z nich mohl blokovat vítr. Spravně?
+Dialogue: 0,0:16:15.61,0:16:19.33,Yowamushi-main,KINJOU,0000,0000,0000,,Normálně ano. Ale oni jsou jiní.
+Dialogue: 0,0:16:20.26,0:16:21.70,Yowamushi-main,KINJOU,0000,0000,0000,,Kdyby jel některý znich sám,
+Dialogue: 0,0:16:21.70,0:16:25.33,Yowamushi-main,KINJOU,0000,0000,0000,,vše co by dokázli bylo,\N že by dohnali sprinterkou skupinu.
+Dialogue: 0,0:16:25.99,0:16:29.65,Yowamushi-main,KINJOU,0000,0000,0000,,Důvodem proč můžou udržet svou rychlost je,
+Dialogue: 0,0:16:30.33,0:16:31.97,Yowamushi-main,KINJOU,0000,0000,0000,,že si navzájem konkurují.
+Dialogue: 0,0:16:31.97,0:16:33.34,Yowamushi-main,NARUKO,0000,0000,0000,,Stojíš mi v cestě!
+Dialogue: 0,0:16:33.34,0:16:35.00,Yowamushi-main,TADOKORO,0000,0000,0000,,Jo ty!
+Dialogue: 0,0:16:35.41,0:16:38.10,Yowamushi-main,KINJOU,0000,0000,0000,,Ani jeden nechtějí pustit toho druhého dopředu,
+Dialogue: 0,0:16:38.10,0:16:39.86,Yowamushi-main,KINJOU,0000,0000,0000,,i když to jsou týmový kolegové.
+Dialogue: 0,0:16:40.44,0:16:42.85,Yowamushi-main,KINJOU,0000,0000,0000,,Takoví sprinteři zkrátka jsou.
+Dialogue: 0,0:16:43.88,0:16:48.93,Yowamushi-main,KINJOU,0000,0000,0000,,Ale jestli jeden z nich si bude myslet,\N že je poražen, nebude to fungovat.
+Dialogue: 0,0:16:48.93,0:16:54.87,Yowamushi-main,KINJOU,0000,0000,0000,,Mohou to udělat jenom protože věří, \Nnemůžou prohrát proti tomu druhému.
+Dialogue: 0,0:16:55.02,0:16:56.78,Yowamushi-main,NARUKO,0000,0000,0000,,Kontrolní bod bude můj!
+Dialogue: 0,0:16:56.78,0:16:57.78,Yowamushi-main,TADOKORO,0000,0000,0000,,Ne, bude můj!
+Dialogue: 0,0:16:57.78,0:16:59.16,Yowamushi-main,NARUKO,0000,0000,0000,,To už stačí dědulo!
+Dialogue: 0,0:17:00.24,0:17:01.04,Yowamushi-main,NARUKO,0000,0000,0000,,Kdo to je?
+Dialogue: 0,0:17:04.52,0:17:09.51,Yowamushi-main,IZUMIDA,0000,0000,0000,,Vypadáte že se dobře bavíte. \NNebude vadit když se připojím k vaší hře?
+Dialogue: 0,0:17:09.99,0:17:13.60,Yowamushi-main,TADOKORO,0000,0000,0000,,Takže jsi konečně tady, Hakonský sprintere.
+Dialogue: 0,0:17:13.99,0:17:17.52,Yowamushi-main,NARUKO,0000,0000,0000,,Myslel jsem že jsem cítil jak nás někdo dohání
+Dialogue: 0,0:17:17.52,0:17:18.76,Yowamushi-main,NARUKO,0000,0000,0000,,a to jsi byl ty Hakoneňáku.
+Dialogue: 0,0:17:19.31,0:17:21.23,Yowamushi-main,IZUMIDA,0000,0000,0000,,Rád vás poznávám.
+Dialogue: 0,0:17:21.23,0:17:24.08,Yowamushi-main,IZUMIDA,0000,0000,0000,,Jsem druhák Izumida Touichirou.
+Dialogue: 0,0:17:24.08,0:17:27.57,Yowamushi-main,IZUMIDA,0000,0000,0000,,Přezdívají mě nejrychlejším mužem v Kanagawě.
+Dialogue: 0,0:17:28.00,0:17:31.07,Yowamushi-main,NARUKO,0000,0000,0000,,Prošel jsi skupinou top sprinterů za námi?
+Dialogue: 0,0:17:31.42,0:17:34.08,Yowamushi-main,IZUMIDA,0000,0000,0000,,Pro někoho jako jsem já...
+Dialogue: 0,0:17:36.54,0:17:38.42,Yowamushi-main,IZUMIDA,0000,0000,0000,,to nebyl problém.
+Dialogue: 0,0:17:43.04,0:17:44.57,Yowamushi-main,SPRINTER 1,0000,0000,0000,,Už ho nevidím.
+Dialogue: 0,0:17:44.57,0:17:46.00,Yowamushi-main,SPRINTER 2,0000,0000,0000,,Prošel přes nás tak snadno.
+Dialogue: 0,0:17:46.14,0:17:47.47,Yowamushi-main,SPRINTER 2,0000,0000,0000,,Kdo to k čertu byl?
+Dialogue: 0,0:17:47.47,0:17:50.96,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Jsme taky celostátně uznávaní sprinteři!
+Dialogue: 0,0:17:51.26,0:17:54.10,Yowamushi-main,SPRINTER 3,0000,0000,0000,,Jakto že Hakone akademie má vždy \Ntak neuvěřitelně rychlé sprintery? Zatraceně!
+Dialogue: 0,0:17:55.18,0:17:56.49,Yowamushi-main,SHIBATA,0000,0000,0000,,Izumida...
+Dialogue: 0,0:17:56.49,0:17:57.52,Yowamushi-main,SPRINTER 4,0000,0000,0000,,Znáš ho?
+Dialogue: 0,0:17:57.90,0:18:03.43,Yowamushi-main,SHIBATA,0000,0000,0000,,Jo. Jednou jsem toho druháka viděl v šatně.
+Dialogue: 0,0:18:03.43,0:18:07.21,Yowamushi-main,SHIBATA,0000,0000,0000,,Od hlavy až k patě to je sprinterská mašina!
+Dialogue: 0,0:18:20.16,0:18:22.36,Yowamushi-internal/narrator,NARUKO,0000,0000,0000,,Dohnal nás. Zareagoval rychle.
+Dialogue: 0,0:18:22.36,0:18:24.38,Yowamushi-internal/narrator,NARUKO,0000,0000,0000,,On není ten o kom všichni mluví.
+Dialogue: 0,0:18:24.38,0:18:27.54,Yowamushi-internal/narrator,NARUKO,0000,0000,0000,,může snadno držet krok s naší rychlostí.
+Dialogue: 0,0:18:28.16,0:18:29.87,Yowamushi-main,NARUKO,0000,0000,0000,,Zajimavé.
+Dialogue: 0,0:18:31.98,0:18:34.86,Yowamushi-main,NARUKO,0000,0000,0000,,První kontrolní bod tři kilometry před námi.
+Dialogue: 0,0:18:34.86,0:18:36.54,Yowamushi-main,NARUKO,0000,0000,0000,,Předveď se, řaso!
+Dialogue: 0,0:18:38.80,0:18:39.60,Yowamushi-main,TADOKORO,0000,0000,0000,,Čekej!
+Dialogue: 0,0:18:46.32,0:18:49.74,Yowamushi-main,IZUMIDA,0000,0000,0000,,Co je? Ty nejdeš?
+Dialogue: 0,0:18:49.74,0:18:51.94,Yowamushi-main,IZUMIDA,0000,0000,0000,,Časování bylo pro mě perfektní.
+Dialogue: 0,0:18:52.44,0:18:56.64,Yowamushi-main,NARUKO,0000,0000,0000,,O co jde dědulo? \NMěl jsi jet taky!
+Dialogue: 0,0:18:56.64,0:18:58.52,Yowamushi-main,NARUKO,0000,0000,0000,,Pojďme mu ukázat co umíme!
+Dialogue: 0,0:18:58.88,0:19:01.22,Yowamushi-main,NARUKO,0000,0000,0000,,Sprintování je o správném načasování!
+Dialogue: 0,0:19:01.22,0:19:03.63,Yowamushi-main,NARUKO,0000,0000,0000,,Musíš jet když přijde správná chvíle!
+Dialogue: 0,0:19:04.64,0:19:07.00,Yowamushi-main,TADOKORO,0000,0000,0000,,Proč nemáš zapnutý svůj dres?
+Dialogue: 0,0:19:07.48,0:19:10.86,Yowamushi-main,IZUMIDA,0000,0000,0000,,Oh, pardon. Vadí ti to?
+Dialogue: 0,0:19:10.86,0:19:13.00,Yowamushi-main,IZUMIDA,0000,0000,0000,,Velmi dobře jsi si všiml\Ndetailu, nebo ne?
+Dialogue: 0,0:19:13.38,0:19:18.54,Yowamushi-main,TADOKORO,0000,0000,0000,,Slyšel jsem tvé jméno jen párkrát na závodech v Kantu.
+Dialogue: 0,0:19:18.54,0:19:24.46,Yowamushi-main,TADOKORO,0000,0000,0000,,Ale právě teď jsi prošel skupinou sprinterů\N aby jsi se sem dostal.
+Dialogue: 0,0:19:25.10,0:19:29.44,Yowamushi-main,TADOKORO,0000,0000,0000,,Tvé schopnosti a výsledky nesedí. Proč ne?
+Dialogue: 0,0:19:31.47,0:19:34.53,Yowamushi-main,IZUMIDA,0000,0000,0000,,Všímavý. Nic menšího bych od tebe nečekal.
+Dialogue: 0,0:19:34.53,0:19:37.64,Yowamushi-main,IZUMIDA,0000,0000,0000,,Nejsem překvapen protože Fukutomi-san\N se velmi zajímá o Sohoku.
+Dialogue: 0,0:19:38.58,0:19:43.10,Yowamushi-main,IZUMIDA,0000,0000,0000,,Dobře tedy. Vzhledem k tomu že jsme tady řeknu vám to.
+Dialogue: 0,0:19:44.62,0:19:46.24,Yowamushi-main,IZUMIDA,0000,0000,0000,,Dělal jsem úpravy.
+Dialogue: 0,0:19:47.50,0:19:48.67,Yowamushi-main,TADOKORO,0000,0000,0000,,Úpravy?
+Dialogue: 0,0:19:50.90,0:19:54.83,Yowamushi-main,IZUMIDA,0000,0000,0000,,Ano, s cílem dokázat to nejlepší na Inter-High.
+Dialogue: 0,0:19:55.60,0:19:58.25,Yowamushi-main,IZUMIDA,0000,0000,0000,,Bez přestávky, jsem jedl výživná jídla.
+Dialogue: 0,0:19:58.25,0:20:02.58,Yowamushi-main,IZUMIDA,0000,0000,0000,,Od začátku jara jsem kultivoval své tělo až do tohoto léta.
+Dialogue: 0,0:20:03.18,0:20:07.06,Yowamushi-main,IZUMIDA,0000,0000,0000,,Připravoval jsem se dlouho.
+Dialogue: 0,0:20:07.06,0:20:09.72,Yowamushi-main,IZUMIDA,0000,0000,0000,,To je důvod proč mé výsledky \Nnebyly nijak působivé.
+Dialogue: 0,0:20:10.76,0:20:14.36,Yowamushi-main,IZUMIDA,0000,0000,0000,,Tuk se pomalu rozplynul
+Dialogue: 0,0:20:14.36,0:20:18.99,Yowamushi-main,IZUMIDA,0000,0000,0000,,a svaly s křikem rozkvetly zpod něj.
+Dialogue: 0,0:20:20.56,0:20:22.11,Yowamushi-main,IZUMIDA,0000,0000,0000,,Byla to zábava.
+Dialogue: 0,0:20:22.61,0:20:25.65,Yowamushi-main,IZUMIDA,0000,0000,0000,,Mé smysly se stali ostřejšími,
+Dialogue: 0,0:20:25.65,0:20:27.62,Yowamushi-main,IZUMIDA,0000,0000,0000,,a mé tělo rostlo lehčí.
+Dialogue: 0,0:20:28.04,0:20:31.14,Yowamushi-main,IZUMIDA,0000,0000,0000,,Udělal jsem ze sebe svalnatou zbraň.
+Dialogue: 0,0:20:31.14,0:20:35.13,Yowamushi-main,IZUMIDA,0000,0000,0000,,odstarniljsem vše co nebylo podstatné. \NMinimalizace, redukce, uhlazení...
+Dialogue: 0,0:20:35.33,0:20:38.13,Yowamushi-main,IZUMIDA,0000,0000,0000,,Stal jsem se svalem.
+Dialogue: 0,0:20:42.20,0:20:44.01,Yowamushi-internal/narrator,NARUKO,0000,0000,0000,,Zatraceně, už to přichází.
+Dialogue: 0,0:20:44.95,0:20:45.86,Yowamushi-main,IZUMIDA,0000,0000,0000,,Abs!
+Dialogue: 0,0:20:51.18,0:20:52.18,Yowamushi-main,NARUKO,0000,0000,0000,,Je rychlej!
+Dialogue: 0,0:20:52.18,0:20:54.02,Yowamushi-main,TADOKORO,0000,0000,0000,,Neuvěřitelně zrychlil!
+Dialogue: 0,0:20:54.38,0:20:57.02,Yowamushi-internal/narrator,TADOKORO,0000,0000,0000,,Zkouší projet kontrolním bodem první?
+Dialogue: 0,0:20:57.78,0:20:59.29,Yowamushi-main,TADOKORO,0000,0000,0000,,Ty nikam nepujdeš!
+Dialogue: 0,0:20:57.78,0:20:59.29,Yowamushi-main,NARUKO,0000,0000,0000,,Ty nikam nepujdeš!
+Dialogue: 0,0:20:59.42,0:21:02.65,Yowamushi-main,IZUMIDA,0000,0000,0000,,Abs, abs, abs, abs, abs!
+Dialogue: 0,0:21:02.94,0:21:04.53,Yowamushi-internal/narrator,NARUKO,0000,0000,0000,,Sakra, je moc vepředu.
+Dialogue: 0,0:21:04.78,0:21:07.58,Yowamushi-main,NARUKO,0000,0000,0000,,Dědulo, možná by jsme měli šlapat víc!
+Dialogue: 0,0:21:07.58,0:21:09.16,Yowamushi-main,TADOKORO,0000,0000,0000,,Ty musíš víc šlapat!
+Dialogue: 0,0:21:10.14,0:21:11.16,Yowamushi-internal/narrator,TADOKORO,0000,0000,0000,,Tenhle kluk...
+Dialogue: 0,0:21:13.26,0:21:17.40,Yowamushi-main,IZUMIDA,0000,0000,0000,,Vlastně jsme ti neodpověděl na tvou otázku.
+Dialogue: 0,0:21:17.40,0:21:19.50,Yowamushi-main,IZUMIDA,0000,0000,0000,,Zapínám si dres jen když...
+Dialogue: 0,0:21:20.55,0:21:22.04,Yowamushi-main,IZUMIDA,0000,0000,0000,,se opravdu snažím.
+Dialogue: 0,0:21:24.79,0:21:28.40,Yowamushi-main,IZUMIDA,0000,0000,0000,,Ale nemyslím že pro teď si ho budu muset zapínat.
+Dialogue: 0,0:23:05.08,0:23:05.99,Yowamushi-main,KINJOU,0000,0000,0000,,Onoda.
+Dialogue: 0,0:23:06.68,0:23:08.63,Yowamushi-main,KINJOU,0000,0000,0000,,Tvá karta je...
+Dialogue: 0,0:23:10.99,0:23:11.79,Yowamushi-main,KINJOU,0000,0000,0000,,tahle.
+Dialogue: 0,0:23:11.79,0:23:14.34,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Wow, to je pravda.
+Dialogue: 0,0:23:17.59,0:23:21.04,Yowamushi-main,SAKAMICHI,0000,0000,0000,,Tenhle obrázek musí být \Nz loňské uvítací párty.
+Dialogue: 0,0:23:21.44,0:23:24.43,Yowamushi-main,MAKISHIMA,0000,0000,0000,,Každý kdo předváděl své schopnosti.
+Dialogue: 0,0:23:24.76,0:23:27.38,Yowamushi-main,KINJOU,0000,0000,0000,,je čas na druhé kolo.
+Dialogue: 0,0:23:27.38,0:23:28.94,Yowamushi-main,KINJOU,0000,0000,0000,,Imaizumi, pojď.
+Dialogue: 0,0:23:35.96,0:23:37.62,Yowamushi-main,IMAIZUMI,0000,0000,0000,,Co... Kinjou-san!
+
+

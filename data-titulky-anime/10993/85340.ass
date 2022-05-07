@@ -1,0 +1,465 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning1,Open Sans Semibold,26,&H00FAFAFA,&H000000FF,&H007721DB,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,13,1
+Style: Hero,Open Sans Semibold,38,&H00000100,&H000000FF,&H00FAF7FE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,27,0
+Style: Pink,Open Sans Semibold,32,&H008567F1,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,40,13,0
+Style: Names,Open Sans Semibold,32,&H00151515,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,40,13,0
+Style: Tokyo X,Open Sans Semibold,32,&H00EFFEFE,&H000000FF,&H00B4CECF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,91,0,133,0
+Style: Auth,Open Sans Semibold,26,&H00FDFDFC,&H000000FF,&H008D8C74,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,0,147,133,0
+Style: Unlocked,Open Sans Semibold,29,&H0091A586,&H000000FF,&H00D1FFCC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,0,147,173,0
+Style: Wei,Open Sans Semibold,29,&H00151515,&H000000FF,&H00FAF7FE,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0,240,120,0
+Style: Wu Shu,Open Sans Semibold,29,&H00151515,&H000000FF,&H00FAF7FE,&H00000000,1,0,0,0,100,100,0,0,1,0,0,4,140,0,0,0
+Style: Battle,Open Sans Semibold,26,&H002015B0,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,167,0,27,0
+Style: Pig,Open Sans Semibold,32,&H00CDD8F8,&H000000FF,&H006578CE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,40,40,13,0
+Style: Tsuzuku,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0,0,40,0
+Style: Teach,Open Sans Semibold,32,&H005619E8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,40,40,20,0
+Style: Note,Open Sans Semibold,26,&H00151515,&H000000FF,&H00FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,400,0,160,0
+Style: End,Open Sans Semibold,32,&H0036DC3F,&H000000FF,&H00151515,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,73,80,0
+Style: Preview,Open Sans Semibold,32,&H00FFF1FF,&H000000FF,&H00A447D0,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Names2,Open Sans Semibold,32,&H00151515,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,60,0,13,0
+Style: podpdopdo,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00E37634,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,33,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:27.00,0:01:30.00,podpdopdo,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:01:30.42,0:01:36.97,Warning1,Sign,0000,0000,0000,,{\fad(500,915)}Ginko doporučuje: Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV, okej?
+Dialogue: 0,0:01:30.69,0:01:34.18,Main,Shin,0000,0000,0000,,{\an8}Zužována rozpaky, jestli žít jako dívka nebo muž,
+Dialogue: 0,0:01:34.69,0:01:40.74,Main,Shin,0000,0000,0000,,{\an8}narazila Kyubei-san na podivnou \Nvěštkyni, která ji přeměnila v muže!
+Dialogue: 0,0:01:41.72,0:01:44.66,Main,Shin,0000,0000,0000,,A co víc, touto přeměnou si prošlo i celé Kabukicho.
+Dialogue: 0,0:01:45.27,0:01:46.75,Main,Shin,0000,0000,0000,,Z Gin-sana je holka,
+Dialogue: 0,0:01:46.75,0:01:47.43,Hero,Sign,0000,0000,0000,,Mužské tělo
+Dialogue: 0,0:01:47.15,0:01:48.64,Main,Shin,0000,0000,0000,,z Kagury-chan silný chlapák
+Dialogue: 0,0:01:47.43,0:01:48.62,Hero,Sign,0000,0000,0000,,Mužská podstata
+Dialogue: 0,0:01:49.35,0:01:51.75,Main,Shin,0000,0000,0000,,a já Shimura Shinpachi jsem skončil takhle:
+Dialogue: 0,0:01:51.75,0:01:53.38,Pink,Sign,0000,0000,0000,,Růžové brýle
+Dialogue: 0,0:01:51.99,0:01:53.38,Main,Shin,0000,0000,0000,,{\an8}Proč?!
+Dialogue: 0,0:01:54.19,0:01:57.13,Main,Shin,0000,0000,0000,,Na vině jsou extrémisté\Nnáboženské sekty Dekobokkoistů,
+Dialogue: 0,0:01:57.70,0:02:02.97,Main,Shin,0000,0000,0000,,kteří stíhají všechny, kdo nejsou svému novému pohlaví věrní.
+Dialogue: 0,0:02:02.97,0:02:05.98,Main,Shin,0000,0000,0000,,Násilně nám vnutili svou víru a\Nprosazují ji jako státní náboženství.
+Dialogue: 0,0:02:06.88,0:02:09.90,Main,Shin,0000,0000,0000,,Vinou gorilí krásky jak vystřižené z Takarazuka Revue
+Dialogue: 0,0:02:09.90,0:02:11.65,Main,Shin,0000,0000,0000,,jsme na sebe strhli pozornost
+Dialogue: 0,0:02:11.95,0:02:12.65,Main,Shin,0000,0000,0000,,a skončili v obklíčení.
+Dialogue: 0,0:02:13.21,0:02:16.28,Main,Shin,0000,0000,0000,,V tom se objevila ženská verze Shinsengumi, Femsengumi!
+Dialogue: 0,0:02:16.90,0:02:18.90,Main,Shin,0000,0000,0000,,{\an8}Není překvapením, že se Okita-san\Nzměnil na prvotřídní kočku,
+Dialogue: 0,0:02:18.05,0:02:18.90,Names,Sign,0000,0000,0000,,Okita Sogo (F)
+Dialogue: 0,0:02:19.85,0:02:21.24,Main,Shin,0000,0000,0000,,ale Hijikata-san...
+Dialogue: 0,0:02:21.76,0:02:23.28,Names,Sign,0000,0000,0000,,Hijikata Toshiro (F)
+Dialogue: 0,0:02:24.99,0:02:31.00,Ep Title,Title,0000,0000,0000,,{\fad(488,1)}Kalorie se Zpravidla Vrátí ve Chvíli, Kdy na Ně Zapomeneš
+Dialogue: 0,0:02:36.01,0:02:38.74,Main,D,0000,0000,0000,,Co jste zač?
+Dialogue: 0,0:02:39.16,0:02:39.97,Main,D,0000,0000,0000,,{\an8}Jen doufám,
+Dialogue: 0,0:02:40.73,0:02:44.39,Main,D,0000,0000,0000,,{\an8}že do tohoto města nepřišli čenichat vládní psi.
+Dialogue: 0,0:02:42.16,0:02:44.39,Names,Sign,0000,0000,0000,,Shinsengumi (F)
+Dialogue: 0,0:02:44.66,0:02:47.15,Main,Gin,0000,0000,0000,,He? To jsou psi, Pachie?
+Dialogue: 0,0:02:47.15,0:02:49.58,Main,Gin,0000,0000,0000,,Mně ten jeden spíš připomíná prase.
+Dialogue: 0,0:02:49.58,0:02:51.86,Main,Gin,0000,0000,0000,,Vypadá jako Tokyo X.
+Dialogue: 0,0:02:51.86,0:02:53.66,Main,Shin,0000,0000,0000,,Co je krucinál Tokyo X?
+Dialogue: 0,0:02:53.66,0:02:55.71,Main,Gin,0000,0000,0000,,Špičkový plemeno prasete z Tokya.
+Dialogue: 0,0:02:54.04,0:02:56.65,Tokyo X,Sign,0000,0000,0000,,{\fad(134,1)}Farma
+Dialogue: 0,0:02:56.65,0:02:58.35,Main,Shin,0000,0000,0000,,{\an8}On není žádný prase, ale démon!
+Dialogue: 0,0:02:58.35,0:03:00.69,Main,Shin,0000,0000,0000,,{\an8}Je to Hijikata Toshiro-san, \Ndémonický vice velitel!
+Dialogue: 0,0:03:00.30,0:03:02.13,Names,Sign,0000,0000,0000,,Hijikata Toshiro (F)
+Dialogue: 0,0:03:02.13,0:03:05.05,Main,Gin,0000,0000,0000,,{\an8}Myslíš spíš Tokyo-X-Shiro-san, ne?
+Dialogue: 0,0:03:02.13,0:03:12.08,Names,Sign,0000,0000,0000,,Tokyo-X-Shiro (F)
+Dialogue: 0,0:03:05.05,0:03:06.66,Main,Hij,0000,0000,0000,,{\an8}Kdo je u vás X-Shiro?!
+Dialogue: 0,0:03:06.66,0:03:09.19,Main,Oki,0000,0000,0000,,{\an8}Klidni hormon, Tenshiro-san.
+Dialogue: 0,0:03:09.19,0:03:10.62,Main,Hij,0000,0000,0000,,{\an8}Neříkej mi "Tenshiro"!
+Dialogue: 0,0:03:10.62,0:03:12.08,Main,Hij,0000,0000,0000,,{\an8}A co ta římská číslice?!
+Dialogue: 0,0:03:12.62,0:03:14.63,Main,Oki,0000,0000,0000,,Dej jí pokoj, šéfko.
+Dialogue: 0,0:03:15.42,0:03:18.34,Main,Oki,0000,0000,0000,,V momentě, kdy se z Tenshira-san stala žena,
+Dialogue: 0,0:03:18.34,0:03:22.11,Main,Oki,0000,0000,0000,,se na povrch prodraly veškerý \Nnahromaděný kalorie z majonézy.
+Dialogue: 0,0:03:22.11,0:03:23.68,Main,Oki,0000,0000,0000,,Proto vypadá tak, jak vypadá.
+Dialogue: 0,0:03:23.68,0:03:26.21,Main,Hij,0000,0000,0000,,Jakoby nebyla přeměna v ženskou sama o sobě dost!
+Dialogue: 0,0:03:26.21,0:03:27.84,Main,Hij,0000,0000,0000,,Proč jako jedinej vypadám takhle?!
+Dialogue: 0,0:03:27.84,0:03:29.83,Main,Kon,0000,0000,0000,,Žádnej strach, Tenko.
+Dialogue: 0,0:03:29.83,0:03:31.37,Main,Kon,0000,0000,0000,,Jsme v tom všichni spolu.
+Dialogue: 0,0:03:31.37,0:03:35.06,Main,Kon,0000,0000,0000,,I u mě se prodrala na povrch \Nveškerá má nahromaděná gorila.
+Dialogue: 0,0:03:35.06,0:03:37.60,Main,Kon,0000,0000,0000,,{\an8}Navzdory tomu, jak vypadám,\Nmi na prdeli bují plantáže chlupů.
+Dialogue: 0,0:03:37.17,0:03:40.99,Names,Sign,0000,0000,0000,,Kondo Isao (F)
+Dialogue: 0,0:03:37.60,0:03:39.36,Main,Hij,0000,0000,0000,,{\an8}Co do hajzlu znamená "nahromaděná gorila"?!
+Dialogue: 0,0:03:39.36,0:03:40.99,Main,Hij,0000,0000,0000,,{\an8}A to říkáš se svou pěkou tvářičkou?!
+Dialogue: 0,0:03:41.21,0:03:42.44,Main,Oki,0000,0000,0000,,{\an8}Má pravdu, Tenko.
+Dialogue: 0,0:03:42.44,0:03:45.91,Main,Oki,0000,0000,0000,,{\an8}Všechny holky se ve skutečnosti\Nfakt snažej a dbaj o sebe.
+Dialogue: 0,0:03:45.34,0:03:48.70,Names,Sign,0000,0000,0000,,Okita Sogo (F)
+Dialogue: 0,0:03:45.91,0:03:47.89,Main,Oki,0000,0000,0000,,{\an8}Jestli chceš držet dietu, jdem do toho s tebou.
+Dialogue: 0,0:03:47.89,0:03:49.47,Main,Oki,0000,0000,0000,,{\an8}Tak fajn, holky.
+Dialogue: 0,0:03:49.47,0:03:51.59,Main,Oki,0000,0000,0000,,Dneska budeme mít prase na ohni.
+Dialogue: 0,0:03:51.59,0:03:53.92,Main,Hij,0000,0000,0000,,U tebe se dere na povrch tvůj\N nahromaděnej sadismus!
+Dialogue: 0,0:03:53.92,0:03:56.61,Main,S,0000,0000,0000,,Bože, ani nepamatuju, kdy jsem \Nnaposled byla na grilovačce!
+Dialogue: 0,0:03:56.61,0:03:58.09,Main,S,0000,0000,0000,,Přežereme se k prasknutí!
+Dialogue: 0,0:03:58.09,0:04:00.39,Main,S,0000,0000,0000,,Ale musíme se ujistit, že \Nnám nebude smrdět z huby!
+Dialogue: 0,0:04:00.39,0:04:01.25,Main,Shin,0000,0000,0000,,Hej!
+Dialogue: 0,0:04:01.25,0:04:02.79,Main,Shin,0000,0000,0000,,Co děláte, vy transky?!
+Dialogue: 0,0:04:02.79,0:04:04.51,Main,Shin,0000,0000,0000,,Teď není vhodná chvíle na grilovačku!
+Dialogue: 0,0:04:05.36,0:04:08.05,Main,D,0000,0000,0000,,Pokud nám budete překážet v cestě,
+Dialogue: 0,0:04:08.91,0:04:11.27,Main,D,0000,0000,0000,,odstraníme vás spolu s kacíři.
+Dialogue: 0,0:04:11.54,0:04:16.77,Main,Kon,0000,0000,0000,,To je smůla. V našich očích jste kacíři vy.
+Dialogue: 0,0:04:16.77,0:04:20.53,Main,Kon,0000,0000,0000,,S tímhle městem si dál hrát nebudete!
+Dialogue: 0,0:04:23.78,0:04:24.77,Main,Kon,0000,0000,0000,,Vy...
+Dialogue: 0,0:04:24.77,0:04:25.99,Main,Kon,0000,0000,0000,,...zatracení kacíři!
+Dialogue: 0,0:04:28.37,0:04:31.09,Main,Kon,0000,0000,0000,,Bez obav, drazí Dekobokkoisté.
+Dialogue: 0,0:04:31.09,0:04:33.51,Main,Kon,0000,0000,0000,,Pokud najdeme někoho, kdo odporuje Pánu Dekobokkovi,
+Dialogue: 0,0:04:33.51,0:04:37.48,Main,Kon,0000,0000,0000,,postaráme se, aby navěky hnil v lochu!
+Dialogue: 0,0:04:39.24,0:04:40.88,Main,Shin,0000,0000,0000,,To si děláte srandu, že vy...
+Dialogue: 0,0:04:41.28,0:04:46.51,Main,Oki,0000,0000,0000,,Soráč, ale máme za úkol likvidovat\Nzrovna takový kacíře, jako jste vy.
+Dialogue: 0,0:04:46.93,0:04:51.17,Main,Oki,0000,0000,0000,,Vláda se už snaží prosadit\NDekobokkoismus jako státní náboženství.
+Dialogue: 0,0:04:51.17,0:04:52.52,Main,Shin,0000,0000,0000,,T-To snad ne!
+Dialogue: 0,0:04:52.92,0:04:58.73,Main,Oki,0000,0000,0000,,Máme povinnost zastavit každýho, kdo se proti němu staví.
+Dialogue: 0,0:04:59.04,0:05:02.42,Main,Kon,0000,0000,0000,,A jestli nedokážete pochopit,\Njak krásný je smýšlení téhle víry,
+Dialogue: 0,0:05:02.42,0:05:04.02,Main,Kon,0000,0000,0000,,je mi vás upřímně líto.
+Dialogue: 0,0:05:04.82,0:05:09.42,Main,Kon,0000,0000,0000,,Dokud se případ pořádně neprošetří,\Nbereme si je na starost.
+Dialogue: 0,0:05:09.42,0:05:11.37,Main,Kon,0000,0000,0000,,Nechte to na nás.
+Dialogue: 0,0:05:12.40,0:05:14.88,Main,D,0000,0000,0000,,Výborně, drahé sestry.
+Dialogue: 0,0:05:16.08,0:05:17.80,Main,D,0000,0000,0000,,Jaké to překrásné smýšlení.
+Dialogue: 0,0:05:17.80,0:05:21.17,Main,D,0000,0000,0000,,Jsem si jistá, že se na vás nyní vznešený\NDekobokko usmívá z nebes.
+Dialogue: 0,0:05:23.29,0:05:27.43,Main,D,0000,0000,0000,,Spojme své síly a dejme do pořádku \Nnestálé pozemské pohlavní role.
+Dialogue: 0,0:05:43.57,0:05:46.84,Auth,Sign,0000,0000,0000,,{\fad(1,245)}Ověřování
+Dialogue: 0,0:05:47.59,0:05:48.53,Unlocked,Sign,0000,0000,0000,,Odemčeno
+Dialogue: 0,0:05:49.64,0:05:51.58,Main,M,0000,0000,0000,,Hackování dokončeno.
+Dialogue: 0,0:05:52.07,0:05:55.02,Main,M,0000,0000,0000,,Teď by nám neměly sledovací\Nkamery dělat žádný potíže.
+Dialogue: 0,0:05:55.02,0:05:56.08,Main,Kon,0000,0000,0000,,Výborně.
+Dialogue: 0,0:05:56.57,0:05:58.21,Main,Gin,0000,0000,0000,,Co se to tu děje?
+Dialogue: 0,0:05:58.21,0:05:59.38,Main,Kon,0000,0000,0000,,Přesně to, co vidíš.
+Dialogue: 0,0:05:59.67,0:06:03.38,Main,Kon,0000,0000,0000,,Podařilo se jim nabourat síť sledovacích kamer v Kabukichu.
+Dialogue: 0,0:06:03.73,0:06:05.97,Main,Kon,0000,0000,0000,,Pokud vás uvidí dělat stejnej bordel, jako předtím,
+Dialogue: 0,0:06:05.97,0:06:07.88,Main,Kon,0000,0000,0000,,okamžitě vám půjdou po krku.
+Dialogue: 0,0:06:08.67,0:06:10.95,Main,Kon,0000,0000,0000,,Kdybysme se s nima předtím dostali do konfliktu,
+Dialogue: 0,0:06:10.95,0:06:14.89,Main,Kon,0000,0000,0000,,celá Země by dopadla jako Kabukicho.
+Dialogue: 0,0:06:14.89,0:06:16.74,Main,Gin,0000,0000,0000,,A tím chceš říct co?
+Dialogue: 0,0:06:16.74,0:06:21.55,Main,Oki,0000,0000,0000,,Jestli budete dál dělat kraviny, nebudem vás moct krýt.
+Dialogue: 0,0:06:21.55,0:06:24.42,Main,Gin,0000,0000,0000,,Aby bylo jasno, kdyby se váš debilní šéf nerozhodl srát na ulici,
+Dialogue: 0,0:06:24.42,0:06:26.13,Main,Gin,0000,0000,0000,,nic z toho by se nestalo.
+Dialogue: 0,0:06:26.13,0:06:28.93,Main,Kon,0000,0000,0000,,Nešel jsem srát na ulici! \NBylo to jen rozpustilé vyprazdňování—
+Dialogue: 0,0:06:28.93,0:06:29.91,Main,Gin,0000,0000,0000,,Takže sraní na ulici.
+Dialogue: 0,0:06:30.46,0:06:34.20,Main,Jyu,0000,0000,0000,,Sledovali jste je ještě předtím, \Nnež se situace vyhrotila?
+Dialogue: 0,0:06:34.94,0:06:38.68,Main,Hij,0000,0000,0000,,Dostalo se k nám, že nějaká trestně\Nstíhaná náboženská sekta
+Dialogue: 0,0:06:38.68,0:06:40.73,Main,Hij,0000,0000,0000,,plánovala vstoupit do kontaktu se Zemí.
+Dialogue: 0,0:06:41.22,0:06:45.05,Main,Hij,0000,0000,0000,,Když se nám podařilo vypátrat, že si základnu postavili v tomhle městě,
+Dialogue: 0,0:06:45.39,0:06:49.76,Main,Hij,0000,0000,0000,,nečekali jsme, že v týhle hře vytáhnou \Nsvýho boha už takhle rychle.
+Dialogue: 0,0:06:49.76,0:06:52.15,Main,Hij,0000,0000,0000,,A proto jsme v tomhle bordelu všichni až po uši.
+Dialogue: 0,0:06:52.15,0:06:53.05,Main,Jyu,0000,0000,0000,,Boha?
+Dialogue: 0,0:06:53.46,0:06:57.56,Main,Hij,0000,0000,0000,,Kolem Země obíhá ve vesmíru jejich satelit.
+Dialogue: 0,0:06:58.23,0:07:01.56,Main,Hij,0000,0000,0000,,To je ten "Bůh", kterýho uctívaj.
+Dialogue: 0,0:07:02.29,0:07:05.57,Main,Hij,0000,0000,0000,,Kvůli lepšímu šíření svýho učení\Nvyvíjeli Dekobokkoisti drogu,
+Dialogue: 0,0:07:05.57,0:07:09.07,Main,Hij,0000,0000,0000,,která dovede manipulovat s \Nhladinou hormonů v lidským těle.
+Dialogue: 0,0:07:09.61,0:07:16.51,Main,Hij,0000,0000,0000,,Ve zkratce jde o drogu, co dovede muže\Nudělat mužnější a ženy ženštější.
+Dialogue: 0,0:07:16.51,0:07:19.66,Main,Hij,0000,0000,0000,,Jenže nakonec vytvořili něco, co ani sami nečekali...
+Dialogue: 0,0:07:19.99,0:07:23.13,Main,Hij,0000,0000,0000,,A to je virus, kterým jsme momentálně nakažený.
+Dialogue: 0,0:07:23.57,0:07:25.23,Main,Jyu,0000,0000,0000,,My budeme také prasata?!
+Dialogue: 0,0:07:25.23,0:07:26.30,Main,Hij,0000,0000,0000,,Nic takovýho jsem neřekl!
+Dialogue: 0,0:07:27.05,0:07:32.23,Main,Hij,0000,0000,0000,,Hned na to začali násilě šířit svou\Nvíru způsobem hraničícím s terorismem.
+Dialogue: 0,0:07:32.84,0:07:34.01,Main,Hij,0000,0000,0000,,Jo...
+Dialogue: 0,0:07:34.01,0:07:36.79,Main,Hij,0000,0000,0000,,To světlo nebyl žádnej boží soud.
+Dialogue: 0,0:07:37.35,0:07:42.35,Main,Hij,0000,0000,0000,,Byl to hormonální virus, kterej na nás vystřelil satelit.
+Dialogue: 0,0:07:43.31,0:07:47.68,Main,Hij,0000,0000,0000,,Nakonec je celej tenhle bordel jen práce špinavejch hajzlů.
+Dialogue: 0,0:07:47.68,0:07:50.72,Main,Jyu,0000,0000,0000,,Ale proč by nás měnili zrovna na špinavá prasata?
+Dialogue: 0,0:07:50.72,0:07:52.36,Main,Hij,0000,0000,0000,,Kdo je u tebe špinavý prase?
+Dialogue: 0,0:07:53.32,0:07:56.45,Main,Hij,0000,0000,0000,,Vláda tohle město izolovala,
+Dialogue: 0,0:07:56.45,0:07:59.55,Main,Hij,0000,0000,0000,,ale virus ve vzduchu stejně dlouho nevydrží.
+Dialogue: 0,0:07:59.55,0:08:02.37,Main,Hij,0000,0000,0000,,Navíc není vůbec nakažlivej.
+Dialogue: 0,0:08:02.68,0:08:07.80,Main,Jyu,0000,0000,0000,,Takže se Tae-chan nemůže nakazit a \Nnepromění se v Shimura Tae-X?
+Dialogue: 0,0:08:08.63,0:08:09.84,Main,Jyu,0000,0000,0000,,Bohudík.
+Dialogue: 0,0:08:09.84,0:08:11.14,Main,Tae,0000,0000,0000,,Jyubei-san,
+Dialogue: 0,0:08:11.14,0:08:12.88,Main,Tae,0000,0000,0000,,děkuji, že se tak staráš.
+Dialogue: 0,0:08:14.39,0:08:16.92,Main,Hij,0000,0000,0000,,Otázkou je, jak zastavit satelit
+Dialogue: 0,0:08:16.92,0:08:19.60,Main,Hij,0000,0000,0000,,a jak získat protiátku, která nám vrátí naše původní těla.
+Dialogue: 0,0:08:20.35,0:08:23.39,Main,Hij,0000,0000,0000,,Není moc pravděpodobný, \Nže se nám povede zastavit satelit.
+Dialogue: 0,0:08:23.96,0:08:25.61,Main,Hij,0000,0000,0000,,Podle všeho má zabudovanej systém,
+Dialogue: 0,0:08:25.61,0:08:29.44,Main,Hij,0000,0000,0000,,kterej při sebemenší odchylce vystřelí na Zemi virus.
+Dialogue: 0,0:08:31.96,0:08:33.73,Main,Hij,0000,0000,0000,,Nemůžem nic dělat.
+Dialogue: 0,0:08:34.85,0:08:39.85,Main,Gin,0000,0000,0000,,Takže ty tvrdíš, že pokud chceme dát věci \Ndo cajku, musíme zaútočit přímo na kult?
+Dialogue: 0,0:08:40.30,0:08:44.33,Main,Jyu,0000,0000,0000,,A že s těmihle těly jsme jediní, kdo je toho schopen...
+Dialogue: 0,0:08:44.33,0:08:45.63,Main,Hij,0000,0000,0000,,Jo.
+Dialogue: 0,0:08:45.63,0:08:49.54,Main,Hij,0000,0000,0000,,Musíme se vyhnout jejich dohledu, najít základnu
+Dialogue: 0,0:08:49.54,0:08:53.55,Main,Hij,0000,0000,0000,,a všechny je vyřídit, než stihnou zmáčknout tlačítko destrukce.
+Dialogue: 0,0:08:53.55,0:08:55.88,Main,Hij,0000,0000,0000,,Pokud je teda možný něco tak nebezpečnýho zvládnout.
+Dialogue: 0,0:08:56.14,0:08:57.78,Main,Shin,0000,0000,0000,,Tohle nikdy nez—
+Dialogue: 0,0:08:57.78,0:08:58.93,Main,Kag,0000,0000,0000,,Zvládneme to.
+Dialogue: 0,0:08:59.26,0:09:01.51,Main,Kag,0000,0000,0000,,Nezáleží, kolik má Wei síly,
+Dialogue: 0,0:09:01.51,0:09:03.22,Main,Kag,0000,0000,0000,,pokud budou Wu a Shu spolupracovat,
+Dialogue: 0,0:09:01.83,0:09:13.03,Wei,Sign,0000,0000,0000,,{\fad(420,1)}Wei
+Dialogue: 0,0:09:01.83,0:09:13.03,Wu Shu,Sign,0000,0000,0000,,{\fad(420,1)}Wu                    Shu
+Dialogue: 0,0:09:03.22,0:09:04.73,Main,Kag,0000,0000,0000,,určitě je můžou odrazit!
+Dialogue: 0,0:09:04.98,0:09:13.03,Battle,Sign,0000,0000,0000,,{\fad(275,1))}Bitva u Červených útesů
+Dialogue: 0,0:09:05.19,0:09:06.45,Main,Kag,0000,0000,0000,,Je to Bitva u Červených útesů!
+Dialogue: 0,0:09:06.45,0:09:08.94,Main,Kag,0000,0000,0000,,Společně svrhneme Cao Cao!
+Dialogue: 0,0:09:08.94,0:09:10.88,Main,Shin,0000,0000,0000,,Proti komu k čertu bojuješ?!
+Dialogue: 0,0:09:10.88,0:09:13.03,Main,Shin,0000,0000,0000,,A neměla bys bejt náhodou ve vojsku Cao Cao?!
+Dialogue: 0,0:09:13.83,0:09:16.69,Main,Gin,0000,0000,0000,,No, jestli mi tohle vrátí moje\Ntělo zpátky, půjdu do toho.
+Dialogue: 0,0:09:16.69,0:09:19.07,Main,Gin,0000,0000,0000,,Teď bych vzal i pomoc od prasete.
+Dialogue: 0,0:09:19.07,0:09:20.51,Main,Hij,0000,0000,0000,,Co tím chceš do hajzlu naznačit?!
+Dialogue: 0,0:09:20.51,0:09:21.80,Main,Oki,0000,0000,0000,,No, co naděláme.
+Dialogue: 0,0:09:21.80,0:09:23.88,Main,Oki,0000,0000,0000,,Ale jestli nás budeš brzdit, kašlem na tebe.
+Dialogue: 0,0:09:23.88,0:09:26.14,Main,Oki,0000,0000,0000,,Takže se opovaž někde vláčet \Nsvoje prasečí nožky.
+Dialogue: 0,0:09:26.14,0:09:29.92,Main,Hij,0000,0000,0000,,Můžete vy zasraný sadisti kurva\Npřestat cpát do každý věty "prase"?!
+Dialogue: 0,0:09:30.04,0:09:30.92,Main,Kon,0000,0000,0000,,Skvěle!
+Dialogue: 0,0:09:30.92,0:09:33.25,Main,Kon,0000,0000,0000,,Právě jsme vytvořili alianci!
+Dialogue: 0,0:09:33.25,0:09:34.38,Main,Kon,0000,0000,0000,,A abysme to oslavili...
+Dialogue: 0,0:09:35.14,0:09:37.15,Main,Kon,0000,0000,0000,,Upečeme si prase!
+Dialogue: 0,0:09:37.15,0:09:38.74,Main,Kon,0000,0000,0000,,{\an8)}Složíme Přísahu prasečí zahrádky!
+Dialogue: 0,0:09:37.15,0:09:40.43,Pig,Sign,0000,0000,0000,,Přísaha Prasečí zahrádky
+Dialogue: 0,0:09:38.74,0:09:40.43,Main,Hij,0000,0000,0000,,{\an8}Zase jsme u toho?!
+Dialogue: 0,0:09:51.43,0:09:56.35,Main,Hij,0000,0000,0000,,Prvně se musíme zbavit všeho, čím by nás mohli špehovat.
+Dialogue: 0,0:09:56.35,0:09:58.53,Main,Hij,0000,0000,0000,,Jinak nebudeme moct udělat další kroky.
+Dialogue: 0,0:09:58.76,0:10:01.78,Main,Hij,0000,0000,0000,,Obejdeme to tu a tuhle věcičku připojíme\Nke každý kameře, kterou uvidíme.
+Dialogue: 0,0:10:02.51,0:10:08.29,Main,Hij,0000,0000,0000,,Nahackuje to systém a kamery začnou \Npřehrávat už nahraný záznamy.
+Dialogue: 0,0:10:08.57,0:10:09.46,Main,Hij,0000,0000,0000,,Poslouchejte.
+Dialogue: 0,0:10:09.46,0:10:12.54,Main,Hij,0000,0000,0000,,Pokud si nás všimnou, budem silně v prdeli.
+Dialogue: 0,0:10:12.54,0:10:13.87,Main,Hij,0000,0000,0000,,Chovejte se co nejvíc přirozeně,
+Dialogue: 0,0:10:13.87,0:10:16.30,Main,Hij,0000,0000,0000,,snažte se vypadat, že se přiklnáníte k jejich učení
+Dialogue: 0,0:10:16.65,0:10:17.80,Main,Hij,0000,0000,0000,,a buďte jako ženský.
+Dialogue: 0,0:10:22.92,0:10:24.09,Main,Hij,0000,0000,0000,,Jdeme, holky!
+Dialogue: 0,0:10:26.59,0:10:29.50,Main,Hij,0000,0000,0000,,Hej! Soko, Ginko!
+Dialogue: 0,0:10:29.95,0:10:32.40,Main,Hij,0000,0000,0000,,Nezajdem někam na kafe a na majo misku—
+Dialogue: 0,0:10:32.91,0:10:34.94,Main,Gin,0000,0000,0000,,Takový holky neexistujou.
+Dialogue: 0,0:10:35.51,0:10:38.00,Main,Hij,0000,0000,0000,,Z-Za co to bylo, Ginko?
+Dialogue: 0,0:10:38.00,0:10:40.33,Main,Hij,0000,0000,0000,,To nebylo ani trochu milý. \NJsi přece holka, ne?
+Dialogue: 0,0:10:40.33,0:10:41.26,Main,Gin,0000,0000,0000,,Promiň, Tenko!
+Dialogue: 0,0:10:41.26,0:10:45.54,Main,Gin,0000,0000,0000,,Ale můžeš si za to sama, když ses tu rozplývala \Nnad majo miskou po tom, cos řekla, že budeš držet dietu!
+Dialogue: 0,0:10:45.54,0:10:47.41,Main,Hij,0000,0000,0000,,M-Máš pravdu.
+Dialogue: 0,0:10:47.41,0:10:49.69,Main,Hij,0000,0000,0000,,Holky držej dietu v jednom kuse.
+Dialogue: 0,0:10:49.69,0:10:50.62,Main,Gin,0000,0000,0000,,Jasně!
+Dialogue: 0,0:10:50.62,0:10:54.33,Main,Gin,0000,0000,0000,,Jakmile nad sebou ztratíš kontrolu, konzumuješ kalorie jak divá.
+Dialogue: 0,0:10:54.33,0:10:56.80,Main,Gin,0000,0000,0000,,A teď zajdem na Uji Gintoku misku—
+Dialogue: 0,0:10:56.80,0:10:58.55,Main,Hij,0000,0000,0000,,Ani takový holky neexistujou.
+Dialogue: 0,0:10:59.43,0:11:01.09,Main,Gin,0000,0000,0000,,Za co to bylo, Tenko?
+Dialogue: 0,0:11:01.09,0:11:03.61,Main,Gin,0000,0000,0000,,Copak ty nevíš, že všechny holky milujou sladký?
+Dialogue: 0,0:11:04.38,0:11:06.93,Main,Hij,0000,0000,0000,,Tohle není jen sladký! Je to cukrový monstrum!
+Dialogue: 0,0:11:06.93,0:11:08.44,Main,Hij,0000,0000,0000,,Kalorický monstrum!
+Dialogue: 0,0:11:08.44,0:11:10.57,Main,Gin,0000,0000,0000,,Sama seš kalorický monstrum!
+Dialogue: 0,0:11:10.57,0:11:12.70,Main,Gin,0000,0000,0000,,Dívej, mám bezvadný tělo,
+Dialogue: 0,0:11:12.70,0:11:14.28,Main,Gin,0000,0000,0000,,takže já dietu nepotřebuju.
+Dialogue: 0,0:11:14.28,0:11:16.56,Main,Hij,0000,0000,0000,,Ty? A bezvadný tělo?
+Dialogue: 0,0:11:16.56,0:11:18.35,Main,Hij,0000,0000,0000,,Nechtěj mě rozesmát.
+Dialogue: 0,0:11:18.35,0:11:22.36,Main,Hij,0000,0000,0000,,Pod bezvadným tělem si každej představí to \Nokouzlující tělo s trochou hmoty, Ginko.
+Dialogue: 0,0:11:22.36,0:11:24.91,Main,Gin,0000,0000,0000,,Když už nic, tak to tvoje je groteskní, Tenko.
+Dialogue: 0,0:11:24.91,0:11:27.70,Main,Hij,0000,0000,0000,,Nemysli si, že seš něco víc jen proto, že seš jak tyčka.
+Dialogue: 0,0:11:27.70,0:11:30.73,Main,Hij,0000,0000,0000,,Ale pamatuj, že až zhubnu, budu \Nmnohem roztomilejší než ty.
+Dialogue: 0,0:11:30.73,0:11:33.22,Main,Gin,0000,0000,0000,,To zrovna, Ginko je tak tisíckrát roztomilejší,
+Dialogue: 0,0:11:33.22,0:11:36.65,Main,Gin,0000,0000,0000,,má větší kozy a nebojí se zajít do \Nžádnýho koutu úchylností.
+Dialogue: 0,0:11:36.65,0:11:40.18,Main,Hij,0000,0000,0000,,Kdybych byla kluk, od kurvy jako ty\Nbych si definitivně držela odstup.
+Dialogue: 0,0:11:40.18,0:11:41.68,Main,Hij,0000,0000,0000,,Bez váhání bych si vybrala Tenko!
+Dialogue: 0,0:11:42.00,0:11:43.97,Main,Gin,0000,0000,0000,,Tak fajn, ty krávo jedna!
+Dialogue: 0,0:11:43.97,0:11:46.44,Main,Gin,0000,0000,0000,,Dáme si soutěž, kdo bude u kluků oblíbenější?!
+Dialogue: 0,0:11:46.44,0:11:47.68,Main,Hij,0000,0000,0000,,Si piš!
+Dialogue: 0,0:11:47.96,0:11:50.59,Main,Hij,0000,0000,0000,,Rozhřešíme to nabalováním kluků!
+Dialogue: 0,0:11:50.59,0:11:53.27,Main,Ymz,0000,0000,0000,,Hej! Co si myslíte, že vyvádíte?!
+Dialogue: 0,0:11:53.27,0:11:57.05,Main,Ymz,0000,0000,0000,,{\an8}Víte vůbec, proč tady jsme? \NStanovte si svoje priority, sakra!
+Dialogue: 0,0:11:56.54,0:11:59.07,Names,Sign,0000,0000,0000,,Yamazaki Sagaru (F)
+Dialogue: 0,0:11:57.05,0:11:59.64,Main,Ymz,0000,0000,0000,,{\an8}Soko-san, měla bys jim domluvit!
+Dialogue: 0,0:11:59.64,0:12:03.34,Main,Oki,0000,0000,0000,,Bože. Nemaj nejmenší ponětí, co znamená ženskost.
+Dialogue: 0,0:12:03.34,0:12:05.14,Main,Oki,0000,0000,0000,,Dnešní holky jsou spíš jako...
+Dialogue: 0,0:12:06.20,0:12:07.48,Main,Oki,0000,0000,0000,,Hej, pane!
+Dialogue: 0,0:12:07.48,0:12:09.36,Main,Oki,0000,0000,0000,,Chcete si užít se středoškolačkou?
+Dialogue: 0,0:12:09.36,0:12:12.62,Main,Ymz,0000,0000,0000,,Ženskost? Ponížila ses na obyčejnou kurvu!
+Dialogue: 0,0:12:12.94,0:12:16.67,Main,Oki,0000,0000,0000,,Hej, ty máš hromady peněz, nemám pravdu?
+Dialogue: 0,0:12:17.86,0:12:18.67,Main,Kag,0000,0000,0000,,Promiň,
+Dialogue: 0,0:12:19.69,0:12:21.03,Main,Kag,0000,0000,0000,,ale já jsem taky holka na SŠ.
+Dialogue: 0,0:12:21.03,0:12:22.57,Main,Ymz,0000,0000,0000,,Co je tohle za středoškolačku?!
+Dialogue: 0,0:12:22.57,0:12:23.93,Main,Kag,0000,0000,0000,,Sklíčený Švorc.
+Dialogue: 0,0:12:23.93,0:12:25.68,Main,Ymz,0000,0000,0000,,To nebylo vtipný!
+Dialogue: 0,0:12:27.40,0:12:30.18,Main,Tae,0000,0000,0000,,Doufám, že se Ginko-san ani ostatním nic nestalo.
+Dialogue: 0,0:12:30.53,0:12:34.07,Main,Jyu,0000,0000,0000,,Jsou s nimi Shinsengumi. Určitě budou v pořádku.
+Dialogue: 0,0:12:34.07,0:12:36.69,Main,Tae,0000,0000,0000,,Vlastně se spíš bojím o Shinsengumi.
+Dialogue: 0,0:12:37.27,0:12:41.64,Main,Tae,0000,0000,0000,,Musím se chovat víc žensky,\Nabych se nedostala do problému...
+Dialogue: 0,0:12:41.64,0:12:43.70,Main,Tae,0000,0000,0000,,Zní to absurdně, ale může nás to hodně naučit.
+Dialogue: 0,0:12:44.10,0:12:47.35,Main,Tae,0000,0000,0000,,Nad takovými věcmi bych normálně asi nepřemýšlela.
+Dialogue: 0,0:12:48.12,0:12:49.75,Main,Jyu,0000,0000,0000,,T-Tae-chan,
+Dialogue: 0,0:12:49.75,0:12:50.95,Main,Jyu,0000,0000,0000,,jsi skvělá taková, jaká jsi.
+Dialogue: 0,0:12:52.09,0:12:55.98,Main,Jyu,0000,0000,0000,,Máš ženskosti tak akorát.
+Dialogue: 0,0:12:55.98,0:12:57.78,Main,Jyu,0000,0000,0000,,Nemusíš na sobě nic měnit.
+Dialogue: 0,0:12:57.78,0:12:59.24,Main,Jyu,0000,0000,0000,,A já ani nechci, abyses měnila.
+Dialogue: 0,0:12:59.24,0:13:00.96,Main,Tae,0000,0000,0000,,D-Děkuji.
+Dialogue: 0,0:13:02.99,0:13:05.97,Main,Tae,0000,0000,0000,,Jejda, to mě trochu vykolejilo...
+Dialogue: 0,0:13:06.83,0:13:08.91,Main,Tae,0000,0000,0000,,Vím, že uvnitř jsi to ty, Kyu-chan,
+Dialogue: 0,0:13:08.91,0:13:11.84,Main,Tae,0000,0000,0000,,ale cítím se, jakobych mluvila s nějakým mužem.
+Dialogue: 0,0:13:14.88,0:13:16.47,Main,Tae,0000,0000,0000,,P-Promiň.
+Dialogue: 0,0:13:16.47,0:13:18.71,Main,Tae,0000,0000,0000,,Podívej, támhle je kamera!
+Dialogue: 0,0:13:18.71,0:13:20.32,Main,Tae,0000,0000,0000,,Postarám se o ní!
+Dialogue: 0,0:13:20.99,0:13:21.61,Main,Jyu,0000,0000,0000,,Tae-chan!
+Dialogue: 0,0:13:22.10,0:13:23.82,Main,Jyu,0000,0000,0000,,Nemusíš to dělat...
+Dialogue: 0,0:13:27.01,0:13:28.02,Main,Jyu,0000,0000,0000,,Počkej, Tae-chan!
+Dialogue: 0,0:13:39.15,0:13:39.97,Main,Jyu,0000,0000,0000,,Jsou pryč.
+Dialogue: 0,0:13:42.17,0:13:44.01,Main,Jyu,0000,0000,0000,,T-Tae-chan?
+Dialogue: 0,0:13:44.01,0:13:45.49,Main,Jyu,0000,0000,0000,,O-Omlouvám se!
+Dialogue: 0,0:13:45.49,0:13:46.81,Main,Tae,0000,0000,0000,,N-Ne, to nic...
+Dialogue: 0,0:13:46.81,0:13:50.93,Main,Tae,0000,0000,0000,,J-Já s-s-s-se t-t-taky o-omlovám...
+Dialogue: 0,0:13:50.93,0:13:53.72,Main,Tae,0000,0000,0000,,J-Já z-zpanikařila a s-s-stála jsem v cestě...
+Dialogue: 0,0:13:54.15,0:13:57.52,Main,Tae,0000,0000,0000,,T-Támhle je d-další kamera...
+Dialogue: 0,0:13:57.77,0:13:58.52,Main,Jyu,0000,0000,0000,,Tae-chan!
+Dialogue: 0,0:14:01.19,0:14:03.76,Main,Jyu,0000,0000,0000,,M-Mně to nevadilo...
+Dialogue: 0,0:14:07.21,0:14:09.16,Main,Jyu,0000,0000,0000,,T-Tímhle způsobem...
+Dialogue: 0,0:14:09.88,0:14:13.49,Main,Jyu,0000,0000,0000,,P-Pokud budeme předstírat, že jsme p-pár,
+Dialogue: 0,0:14:13.49,0:14:15.09,Main,Jyu,0000,0000,0000,,n-nebudeme působit podezřele.
+Dialogue: 0,0:14:17.69,0:14:20.27,Internal,Jyu,0000,0000,0000,,Co to sakra říkám?
+Dialogue: 0,0:14:20.27,0:14:22.29,Internal,Jyu,0000,0000,0000,,Co to sakra dělám?
+Dialogue: 0,0:14:23.73,0:14:27.62,Internal,Jyu,0000,0000,0000,,Celý tenhle chaos jsem zavinila já.
+Dialogue: 0,0:14:28.27,0:14:32.85,Internal,Jyu,0000,0000,0000,,Je mojí povinností to dát do pořádku.
+Dialogue: 0,0:14:33.64,0:14:36.00,Internal,Jyu,0000,0000,0000,,Tak proč je tahle chvíle—
+Dialogue: 0,0:14:36.00,0:14:37.45,Internal,Jyu,0000,0000,0000,,Proč mi žití v mužském těle
+Dialogue: 0,0:14:37.45,0:14:39.31,Internal,Jyu,0000,0000,0000,,přináší určitou radost?
+Dialogue: 0,0:14:39.96,0:14:42.82,Internal,Jyu,0000,0000,0000,,Vím, že teď na to není vhodná doba ani místo.
+Dialogue: 0,0:14:42.82,0:14:46.19,Internal,Jyu,0000,0000,0000,,Nicméně před tím nemůžu zavírat oči!
+Dialogue: 0,0:14:56.51,0:14:57.60,Internal,Jyu,0000,0000,0000,,Přecijen...
+Dialogue: 0,0:14:57.60,0:15:00.57,Internal,Jyu,0000,0000,0000,,jako muž můžu chodit s Tae-chan!
+Dialogue: 0,0:15:04.76,0:15:05.89,Main,Shin,0000,0000,0000,,Pár?
+Dialogue: 0,0:15:05.89,0:15:07.34,Main,Kon,0000,0000,0000,,To zní jako dobrej nápad.
+Dialogue: 0,0:15:07.92,0:15:09.26,Main,Shin,0000,0000,0000,,Ale...
+Dialogue: 0,0:15:09.26,0:15:14.20,Main,Shin,0000,0000,0000,,Nevypadalo by divně, kdyby spolu chodili sourozenci?
+Dialogue: 0,0:15:14.20,0:15:15.64,Main,Shin,0000,0000,0000,,Co myslíš, Kondo-san?
+Dialogue: 0,0:15:16.06,0:15:17.37,Main,Kon,0000,0000,0000,,Ale kdeže...
+Dialogue: 0,0:15:17.37,0:15:21.76,Main,Kon,0000,0000,0000,,Bez problému překousnu cokoliv,\Nkdybych chodila s takovým kusem.
+Dialogue: 0,0:15:21.76,0:15:23.90,Main,Kon,0000,0000,0000,,Buď něžný, zlato.
+Dialogue: 0,0:15:46.44,0:15:47.77,Main,Gin,0000,0000,0000,,Hej, pane.
+Dialogue: 0,0:15:47.77,0:15:49.16,Main,Gin,0000,0000,0000,,Nechtěl byste se mnou na kafe—
+Dialogue: 0,0:15:49.16,0:15:50.65,Main,Oto,0000,0000,0000,,Nejsem žádnej pán!
+Dialogue: 0,0:15:50.65,0:15:52.01,Main,Oto,0000,0000,0000,,{\an8}Jsem babča!
+Dialogue: 0,0:15:51.36,0:15:52.88,Names,Sign,0000,0000,0000,,Otose (M)
+Dialogue: 0,0:15:55.35,0:15:56.71,Main,Hij,0000,0000,0000,,Hej, pane.
+Dialogue: 0,0:15:56.71,0:15:58.50,Main,Hij,0000,0000,0000,,Nezajdem spolu na kafe—
+Dialogue: 0,0:15:57.80,0:15:59.31,Main,Cat,0000,0000,0000,,{\an8}Zavři hubu, špeku.
+Dialogue: 0,0:15:58.87,0:16:00.27,Names,Sign,0000,0000,0000,,Catherine (M)
+Dialogue: 0,0:16:03.27,0:16:07.77,Main,Gin,0000,0000,0000,,Skoro jsem zapomněl, že všichni chlapi v \Ntomhle městě jsou ve skutečnosti ženy.
+Dialogue: 0,0:16:07.77,0:16:10.78,Main,Hij,0000,0000,0000,,A já skoro zapomněl, že jsem špek.
+Dialogue: 0,0:16:10.78,0:16:11.81,Main,Gin,0000,0000,0000,,Do prdele!
+Dialogue: 0,0:16:11.81,0:16:15.05,Main,Gin,0000,0000,0000,,Ukážu ti, že je \NGinko stopro oblíbenější než ty!
+Dialogue: 0,0:16:15.05,0:16:15.94,Main,Hij,0000,0000,0000,,To víš, že jo!
+Dialogue: 0,0:16:15.94,0:16:18.08,Main,Hij,0000,0000,0000,,Pomatený děvky jako ty si nikdy nenajdou pravou lásku.
+Dialogue: 0,0:16:18.08,0:16:22.66,Main,Hij,0000,0000,0000,,Nakonec se všichni chlapi připlazej ke \Nmně a budou dychtit po laskavý Tenko!
+Dialogue: 0,0:16:23.32,0:16:24.40,Main,Bo,0000,0000,0000,,Hej, pane!
+Dialogue: 0,0:16:24.40,0:16:25.88,Main,Bo,0000,0000,0000,,Neskočíme si spolu na kafe?!
+Dialogue: 0,0:16:26.12,0:16:30.38,Main,Sac,0000,0000,0000,,Bože. Muži tohohle města \Nmi neskutečně pijou krev.
+Dialogue: 0,0:16:30.60,0:16:34.38,Main,Tsu,0000,0000,0000,,Vy si tu nabalujete muže a je vám\Núplně jedno, co se děje?
+Dialogue: 0,0:16:36.73,0:16:38.19,Main,Gin,0000,0000,0000,,Kamera?
+Dialogue: 0,0:16:38.76,0:16:41.57,Main,Sac,0000,0000,0000,,Až po tom, co se ze mě stal \Nmuž, jsem si uvědomila...
+Dialogue: 0,0:16:41.57,0:16:45.27,Main,Tsu,0000,0000,0000,,...jak jste všichni ničemní.
+Dialogue: 0,0:16:47.09,0:16:49.30,Main,Bo,0000,0000,0000,,{\an8}Ztraťte se, prasata.
+Dialogue: 0,0:16:48.58,0:16:50.57,Names2,Sign,0000,0000,0000,,Sarutobi Ayame (M)                             Tsukuyo (M)
+Dialogue: 0,0:16:52.15,0:16:53.82,Main,Jyu,0000,0000,0000,,Jak to šlo, Ginko-san?
+Dialogue: 0,0:16:54.22,0:16:57.22,Main,Jyu,0000,0000,0000,,Podařilo se nám zneškodnit dvacet kamer,
+Dialogue: 0,0:16:57.22,0:16:59.78,Main,Jyu,0000,0000,0000,,ale je jich tu víc, než jsme si mysleli.
+Dialogue: 0,0:16:59.78,0:17:02.83,Main,Jyu,0000,0000,0000,,Těžko říct, kolik jich je dohromady v celém Kabukichu.
+Dialogue: 0,0:17:03.30,0:17:05.57,Main,Jyu,0000,0000,0000,,Upřímně si nejsem jistá, \Njestli je dokážeme všechny zneškodnit.
+Dialogue: 0,0:17:06.27,0:17:10.75,Main,Kon,0000,0000,0000,,Dokud nevyřadíme všechny kamery z provozu, \Nnemůžeme ani hledat jejich základnu.
+Dialogue: 0,0:17:10.75,0:17:13.76,Main,Kon,0000,0000,0000,,Nemáme jinou možnost než dál \Npokračovat, drahý.
+Dialogue: 0,0:17:13.76,0:17:15.21,Main,Jyu,0000,0000,0000,,Nejsem tvůj drahý!
+Dialogue: 0,0:17:15.21,0:17:18.95,Main,Kon,0000,0000,0000,,Nejsme náhodou pár stalkerů, \Nkterý se honili za stejnou osobou?
+Dialogue: 0,0:17:18.95,0:17:21.36,Main,Kon,0000,0000,0000,,Myslím, že bysme spolu mohli mít \Ndlouhej a plodnej vztah.
+Dialogue: 0,0:17:21.36,0:17:22.22,Main,Jyu,0000,0000,0000,,To zrovna!
+Dialogue: 0,0:17:22.22,0:17:23.54,Main,Jyu,0000,0000,0000,,Ještě jednou na mě šáhneš
+Dialogue: 0,0:17:23.54,0:17:24.87,Main,Jyu,0000,0000,0000,,a seknu tě!
+Dialogue: 0,0:17:24.87,0:17:26.35,Main,Gin,0000,0000,0000,,Stačí.
+Dialogue: 0,0:17:26.91,0:17:28.77,Main,Gin,0000,0000,0000,,Tenhle problém je už pasé.
+Dialogue: 0,0:17:29.89,0:17:31.83,Main,Shin,0000,0000,0000,,Jak jako pasé—
+Dialogue: 0,0:17:34.14,0:17:35.75,Main,Sac,0000,0000,0000,,Přesně tak.
+Dialogue: 0,0:17:35.75,0:17:39.78,Main,Sac,0000,0000,0000,,V tomhle městě už nezbyla jediná sledovací kamera.
+Dialogue: 0,0:17:40.57,0:17:44.06,Main,Sac,0000,0000,0000,,Zatímco jste se vzpamatovávali z přeměny,
+Dialogue: 0,0:17:44.06,0:17:46.29,Main,Sac,0000,0000,0000,,my jsme se o všechno
+Dialogue: 0,0:17:46.56,0:17:48.29,Main,Sac,0000,0000,0000,,postarali!
+Dialogue: 0,0:17:48.84,0:17:50.29,Main,Shin,0000,0000,0000,,S-Sledovací kamery!
+Dialogue: 0,0:17:50.29,0:17:51.13,Main,,0000,0000,0000,,Co—
+Dialogue: 0,0:17:55.22,0:17:57.97,Main,Shin,0000,0000,0000,,Kdo je ta brejlatá postava, \Nco se mi snaží ukrást roli?!
+Dialogue: 0,0:17:58.47,0:18:01.09,Main,Shin,0000,0000,0000,,Jste moc nápadný, \Ntakhle akorát upoutáte jejich pozor—
+Dialogue: 0,0:18:01.09,0:18:02.47,Main,Tsu,0000,0000,0000,,Obavy stranou.
+Dialogue: 0,0:18:03.63,0:18:07.09,Main,Tsu,0000,0000,0000,,Pokud nechceme upoutat jejich pozornost, \Nnebudeme se limitovat jen na jejich oči.
+Dialogue: 0,0:18:07.09,0:18:10.90,Main,Tsu,0000,0000,0000,,Zbavíme je všeho, včetně uší, pusy, rukou i nohou!
+Dialogue: 0,0:18:11.51,0:18:13.52,Main,Tsu,0000,0000,0000,,Tyhle podzemní krysy
+Dialogue: 0,0:18:13.52,0:18:17.40,Main,Tsu,0000,0000,0000,,už nemají přístup k informacím z venku.
+Dialogue: 0,0:18:20.12,0:18:21.91,Main,Tsu,0000,0000,0000,,{\an8}Teď jen stačí počkat,
+Dialogue: 0,0:18:22.22,0:18:24.79,Main,Tsu,0000,0000,0000,,{\an8}až těm v podzemí dojde vzduch!
+Dialogue: 0,0:18:24.43,0:18:26.41,Names,Sign,0000,0000,0000,,Yoshiwara civilní stráž Hyakka (M)
+Dialogue: 0,0:18:27.08,0:18:29.47,Main,Tsu,0000,0000,0000,,Nepotáhneme se se zbabělci.
+Dialogue: 0,0:18:29.47,0:18:31.78,Main,Tsu,0000,0000,0000,,Pokud jsou mezi vámi opravdoví muži,\Ntak jdete s náma!
+Dialogue: 0,0:18:39.93,0:18:40.76,Main,D,0000,0000,0000,,Co?
+Dialogue: 0,0:18:41.31,0:18:43.63,Main,D,0000,0000,0000,,Všechny sledovací kamery jsou mimo provoz?
+Dialogue: 0,0:18:43.63,0:18:44.25,Main,D,0000,0000,0000,,Ano.
+Dialogue: 0,0:18:44.25,0:18:46.19,Main,D,0000,0000,0000,,Vvšechny byly poškozeny ze slepého bodu.
+Dialogue: 0,0:18:46.58,0:18:49.33,Main,D,0000,0000,0000,,Žádná z kamer viníky nezaznamenala.
+Dialogue: 0,0:18:49.33,0:18:53.52,Main,D,0000,0000,0000,,A v tu samou chvíli jsme i ztratili kontakt s pozemní hlídkou.
+Dialogue: 0,0:18:54.10,0:18:56.61,Main,D,0000,0000,0000,,To není možné. Toho by přece nikdo nebyl schopen.
+Dialogue: 0,0:18:56.61,0:18:58.90,Main,D,0000,0000,0000,,Nicméně to nesmíme jen tak nechat.
+Dialogue: 0,0:18:59.12,0:18:59.96,Main,D,0000,0000,0000,,Zastavte!
+Dialogue: 0,0:18:59.96,0:19:03.05,Main,D,0000,0000,0000,,Arcibiskup nakázal, že nesmíme opustit svá místa, \Nať už je situace sebevíc vyhrocená!
+Dialogue: 0,0:19:03.05,0:19:04.18,Main,D,0000,0000,0000,,Máme pohotovost!
+Dialogue: 0,0:19:04.18,0:19:05.84,Main,D,0000,0000,0000,,Není čas se zaobírat—
+Dialogue: 0,0:19:11.54,0:19:12.75,Main,Jyu,0000,0000,0000,,Nemějte obavy.
+Dialogue: 0,0:19:13.56,0:19:16.75,Main,Tsu,0000,0000,0000,,My se s Dekobokkoisty kamarádíme.
+Dialogue: 0,0:19:17.03,0:19:20.89,Main,Sac,0000,0000,0000,,Muži musí být mužní a ženy musí být ženské.
+Dialogue: 0,0:19:20.89,0:19:25.43,Main,Kag,0000,0000,0000,,Jsme tady, protože plníme vůli\NDekobokkoistickýho učení.
+Dialogue: 0,0:19:26.65,0:19:30.94,Main,All,0000,0000,0000,,My jsme muži téhle planety!
+Dialogue: 0,0:19:31.18,0:19:33.41,Main,D,0000,0000,0000,,V-Vy bídáci!
+Dialogue: 0,0:19:34.15,0:19:35.86,Main,Kag,0000,0000,0000,,Na ně!
+Dialogue: 0,0:19:36.07,0:19:40.95,Main,Kag,0000,0000,0000,,Ať litujou, že nás přeměnili v muže!
+Dialogue: 0,0:19:47.83,0:19:49.05,Main,Gin,0000,0000,0000,,Um...
+Dialogue: 0,0:19:49.69,0:19:51.50,Main,Gin,0000,0000,0000,,Co se to s nima stalo?
+Dialogue: 0,0:19:51.50,0:19:54.57,Main,Gin,0000,0000,0000,,Už předtím byly docela ostrý, ale...
+Dialogue: 0,0:19:58.39,0:20:00.72,Main,Gin,0000,0000,0000,,Tohle je už sakra moc!
+Dialogue: 0,0:20:02.79,0:20:07.10,Main,Gin,0000,0000,0000,,Jsou mužnější, než jsme kdy byli my!
+Dialogue: 0,0:20:07.49,0:20:11.10,Main,Gin,0000,0000,0000,,V jejich podání vypadá celej\Ntenhle problém jako brnkačka!
+Dialogue: 0,0:20:11.51,0:20:14.60,Main,Gin,0000,0000,0000,,Strhávaj na sebe záři reflektorů!
+Dialogue: 0,0:20:14.93,0:20:18.09,Main,Hij,0000,0000,0000,,Hele, nesmíme dovolit, aby nás holky překonaly.
+Dialogue: 0,0:20:18.09,0:20:19.57,Main,Hij,0000,0000,0000,,Nebudem otálet!
+Dialogue: 0,0:20:19.57,0:20:23.28,Main,Hij,0000,0000,0000,,Femsengumi, jdeme!
+Dialogue: 0,0:20:32.45,0:20:34.55,Main,Hij,0000,0000,0000,,Budu tohle místo chránit \Ndo své samotné smrti.
+Dialogue: 0,0:20:34.55,0:20:36.66,Main,Hij,0000,0000,0000,,Nechte to na mně a jděte.
+Dialogue: 0,0:20:36.66,0:20:38.34,Main,Gin,0000,0000,0000,,A kam asi?!
+Dialogue: 0,0:20:38.34,0:20:40.75,Main,Gin,0000,0000,0000,,Myslíš si, že to jen tak zameteš pod koberec?!
+Dialogue: 0,0:20:40.75,0:20:43.18,Main,Gin,0000,0000,0000,,Hni zadkem a táhni z tý díry!
+Dialogue: 0,0:20:43.18,0:20:45.06,Main,Hij,0000,0000,0000,,Nemůžu dál.
+Dialogue: 0,0:20:45.06,0:20:47.77,Main,Hij,0000,0000,0000,,Znám svoje tělo líp, než kdokoliv jinej.
+Dialogue: 0,0:20:47.77,0:20:48.73,Main,Hij,0000,0000,0000,,Nechte mě tu a běžte!
+Dialogue: 0,0:20:48.73,0:20:49.89,Main,Gin,0000,0000,0000,,Ne, neznáš!
+Dialogue: 0,0:20:49.89,0:20:51.63,Main,Gin,0000,0000,0000,,To proto jsi tu díru ucpal!
+Dialogue: 0,0:20:51.63,0:20:54.46,Main,Gin,0000,0000,0000,,Nikdy si s nima neurveme kus slávy, \Nkdyž budeš překážet v cestě!
+Dialogue: 0,0:20:54.46,0:20:55.93,Main,Oki,0000,0000,0000,,Hlavně klid, Hijikato-san.
+Dialogue: 0,0:20:55.93,0:20:57.47,Main,Oki,0000,0000,0000,,Pomůžu ti ven.
+Dialogue: 0,0:20:57.47,0:20:58.98,Main,Oki,0000,0000,0000,,"Hi, hi, hůů," rozumíš?
+Dialogue: 0,0:20:58.98,0:20:59.83,Main,Oki,0000,0000,0000,,Teď spolu.
+Dialogue: 0,0:20:59.83,0:21:01.49,Main,Oki,0000,0000,0000,,"Hi, hi, hůů."
+Dialogue: 0,0:21:01.49,0:21:03.86,Main,Hij,0000,0000,0000,,Já nejsem těhotná ženská, kteréne!
+Dialogue: 0,0:21:03.86,0:21:06.86,Tsuzuku,Sign,0000,0000,0000,,Pokračování příště
+Dialogue: 0,0:22:36.91,0:22:41.38,Teach,Sign,0000,0000,0000,,Pouč nás!\N{\fs26}Ginko-sensei
+Dialogue: 0,0:22:37.96,0:22:39.25,Main,Gin,0000,0000,0000,,Pouč nás...
+Dialogue: 0,0:22:39.25,0:22:41.38,Main,All,0000,0000,0000,,Ginko-sensei!
+Dialogue: 0,0:22:41.86,0:22:45.75,Main,Gin,0000,0000,0000,,Fajn, přišel čas na Ginko-sensei.
+Dialogue: 0,0:22:45.75,0:22:48.17,Main,Gin,0000,0000,0000,,Žádná "Slečna Machiko" nebo \N"Pozor, Luno-sensei!"
+Dialogue: 0,0:22:48.17,0:22:50.44,Main,Gin,0000,0000,0000,,Nic takovýho nečekejte.
+Dialogue: 0,0:22:50.44,0:22:54.19,Main,Gin,0000,0000,0000,,Někdo s přezdívkou "Pistol Girl" má otázku.
+Dialogue: 0,0:22:54.19,0:22:59.46,Main,Gin,0000,0000,0000,,"Momentálně mají všichni v Gintamě opačné pohlaví.
+Dialogue: 0,0:22:59.46,0:23:03.32,Main,Gin,0000,0000,0000,,Jak by teda vypadal Hasegawa-san jako žena?
+Dialogue: 0,0:23:03.32,0:23:06.36,Main,Gin,0000,0000,0000,,Vím, že nemáte moc času, ale prosím odpovězte."
+Dialogue: 0,0:23:06.78,0:23:07.44,Main,Gin,0000,0000,0000,,Dobře.
+Dialogue: 0,0:23:07.44,0:23:10.25,Main,Gin,0000,0000,0000,,Sice nemáme čas, ale odpovíme vám.
+Dialogue: 0,0:23:10.25,0:23:12.14,Main,Gin,0000,0000,0000,,Ženská verze Hasegawy-san...
+Dialogue: 0,0:23:12.34,0:23:17.87,Note,Sign,0000,0000,0000,,Sbohem, \Nkrutý světe.
+Dialogue: 0,0:23:13.81,0:23:16.82,Main,Mad,0000,0000,0000,,Sbohem, krutý světe.
+Dialogue: 0,0:23:18.41,0:23:19.81,Main,Gin,0000,0000,0000,,...by vypadala nějak takhle.
+Dialogue: 0,0:23:20.41,0:23:23.30,Main,Gin,0000,0000,0000,,Hm? Chcete vidět jeho obličej?
+Dialogue: 0,0:23:23.30,0:23:24.64,Main,Gin,0000,0000,0000,,Fajn.
+Dialogue: 0,0:23:24.64,0:23:25.63,Main,Gin,0000,0000,0000,,Výjimečně to uděláme.
+Dialogue: 0,0:23:26.57,0:23:30.25,Main,Mad,0000,0000,0000,,Sbohem, krutý světe!
+Dialogue: 0,0:23:31.48,0:23:32.91,Main,Gin,0000,0000,0000,,Nějak takhle.
+Dialogue: 0,0:23:33.74,0:23:36.89,End,Sign,0000,0000,0000,,{\fad(1000,1)}Konec
+Dialogue: 0,0:23:36.89,0:23:46.90,Preview,Sign,0000,0000,0000,,V příštím díle uvidíte
+Dialogue: 0,0:23:39.10,0:23:40.18,Main,Jyu,0000,0000,0000,,Já...
+Dialogue: 0,0:23:41.72,0:23:42.67,Main,Jyu,0000,0000,0000,,Já...
+Dialogue: 0,0:23:47.17,0:23:48.75,Main,Kyu,0000,0000,0000,,10 - 1 =...
+Dialogue: 0,0:23:47.17,0:23:49.90,Ep Title,Title,0000,0000,0000,,10 - 1 =
+Dialogue: 0,0:23:49.90,0:23:54.57,Side Bar Top,text r,0000,0000,0000,,Které pohlaví si Jyubei vybere?
+Dialogue: 0,0:23:49.90,0:23:54.57,Side Bar Bottom,text l,0000,0000,0000,,Procpe se Tenko dírou v zemi?
+Dialogue: 0,0:23:54.57,0:24:00.75,Side Bar Top,text r,0000,0000,0000,,Kdy se vrátí Sugita-san?
+Dialogue: 0,0:23:54.57,0:24:00.75,Side Bar Bottom,text l,0000,0000,0000,,To všechno se dozvíte přístí týden při závěrečném dílu tohoto arku!

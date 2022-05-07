@@ -1,0 +1,480 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Show_Title,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,220,220,133,1
+Style: Episode_Title,Open Sans Semibold,36,&HFFFFFFFF,&H000000FF,&H00048672,&H00CFF5F1,1,0,0,0,100,100,0,0,1,2,1,2,13,13,80,1
+Style: Preview,Open Sans Semibold,18,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,47,421,64,1
+Style: Next_Ep_Title,Open Sans Semibold,24,&H14FFFFFF,&H000000FF,&HC8E4E4E4,&H64E4E4E4,0,0,0,0,100,100,0,0,1,2,0,3,533,47,64,1
+Style: Main_Preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,1
+Style: sign_299_4_Night,Open Sans Semibold,30,&H00735C43,&H000000FF,&H0054DBE6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,217,563,88,1
+Style: sign_432_5_Searching,Open Sans Semibold,30,&H004430E3,&H000000FF,&H007B5D30,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,599,125,84,1
+Style: sign_13202_145_Natural_Immunity,Open Sans Semibold,21,&H0083676A,&H000000FF,&H00F2EDF0,&H00000000,1,0,0,0,100,100,0,10,1,2,0,7,253,436,56,1
+Style: sign_13202_146_How_do_our_bodie,Open Sans Semibold,18,&H0083676A,&H000000FF,&H00E6CFE7,&H00000000,1,0,0,0,100,100,0,14,1,3,0,7,183,300,163,1
+Style: sign_23717_275_Socials,Open Sans Semibold,45,&H00C9C7BF,&H000000FF,&H006A6252,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,40,1
+Style: sign_23819_277_Ashikaga_Takauji,Open Sans Semibold,27,&H004E5754,&H000000FF,&H00DEE5E4,&H00000000,0,0,0,0,100,100,0,8.5,1,2,0,7,101,649,27,1
+Style: sign_25661_304_Midterm,Open Sans Semibold,33,&H00212925,&H000000FF,&H00DEE5E4,&H00000000,0,0,1,0,100,100,0,0,1,0,0,5,163,573,0,1
+Style: sign_25661_305_Midterm_exam_res,Open Sans Semibold,24,&H004D5852,&H000000FF,&H00DDE5E1,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,597,171,0,1
+Style: sign_25661_306_Curry_Day,Open Sans Semibold,24,&H004D5852,&H000000FF,&H00DDE5E1,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,755,0,0,1
+Style: sign_25751_307_Library,Open Sans Semibold,36,&H007C909A,&H000000FF,&H00F2F2F0,&H00000000,1,0,0,0,100,100,0,348,1,3,0,8,392,339,93,1
+Style: sign_26585_325_Nakano_Yotsuba_L,Open Sans Semibold,36,&H0030F66E,&H000000FF,&H00B9F8E2,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,117,0,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.78,0:00:08.93,Main,Itsuki,0000,0000,0000,,Nevidím tě takhle velmi\Nčasto, Ichika.
+Dialogue: 0,0:00:08.93,0:00:11.15,Main,Ichika,0000,0000,0000,,I když jsem stále\Nposlední z nás pěti.
+Dialogue: 0,0:00:12.01,0:00:15.09,Main,Ichika,0000,0000,0000,,Nevím, kdy Miku opustil postel.
+Dialogue: 0,0:00:17.07,0:00:21.27,Main,Itsuki,0000,0000,0000,,Yotsuba hledala Miku\Na taky se nevrátila.
+Dialogue: 0,0:00:21.27,0:00:22.50,Main,Yotsuba,0000,0000,0000,,Miku!
+Dialogue: 0,0:00:23.29,0:00:24.54,Main,Itsuki,0000,0000,0000,,Co o něm?
+Dialogue: 0,0:00:25.69,0:00:26.85,Main,Ichika,0000,0000,0000,,Nevím.
+Dialogue: 0,0:00:26.85,0:00:28.75,Main,Ichika,0000,0000,0000,,Možná ještě spí.
+Dialogue: 0,0:00:28.75,0:00:31.45,Main,Nino,0000,0000,0000,,Tak on vlastně zůstal u konce.
+Dialogue: 0,0:00:31.45,0:00:34.59,Main,Nino,0000,0000,0000,,No, brzy to skončí.
+Dialogue: 0,0:00:36.22,0:00:39.03,Main,Itsuki,0000,0000,0000,,Měli byste s námi přijít studovat.
+Dialogue: 0,0:00:39.03,0:00:40.43,Main,Itsuki,0000,0000,0000,,Je to vlastně docela zábavné.
+Dialogue: 0,0:00:40.99,0:00:42.87,Main,Nino,0000,0000,0000,,Ne, díky.
+Dialogue: 0,0:00:42.87,0:00:45.44,Main,Nino,0000,0000,0000,,Nedovolte mu manipulovat s tebou, Itsuki.
+Dialogue: 0,0:00:46.77,0:00:48.80,Main,Ichika,0000,0000,0000,,Měli byste být k sobě upřímnější.
+Dialogue: 0,0:00:50.61,0:00:52.94,Main,Itsuki,0000,0000,0000,,Nemůžu s ním jít.
+Dialogue: 0,0:00:53.79,0:00:56.45,Main,Itsuki,0000,0000,0000,,I druhý den jsem s ním zadíval hlavy.
+Dialogue: 0,0:00:56.71,0:00:59.53,Main,Itsuki,0000,0000,0000,,Zjistil jsem, že jsem se\Nzavěsil na ty nejtriviální věci.
+Dialogue: 0,0:01:01.10,0:01:04.43,Main,Itsuki,0000,0000,0000,,Nemůžu být jako ty nebo Miku, Ichika.
+Dialogue: 0,0:01:07.27,0:01:09.08,Main,Ichika,0000,0000,0000,,Můžete, Itsuki.
+Dialogue: 0,0:01:09.88,0:01:11.18,Main,Itsuki,0000,0000,0000,,Řekni, co?
+Dialogue: 0,0:01:13.06,0:01:15.97,Main,Ichika,0000,0000,0000,,Dejte si vlasy na stranu,\Njako je tato, a...
+Dialogue: 0,0:01:16.28,0:01:17.15,Main,Ichika,0000,0000,0000,,Tam!
+Dialogue: 0,0:01:17.15,0:01:19.11,Main,Ichika,0000,0000,0000,,Udělali jsme Miku.
+Dialogue: 0,0:01:20.09,0:01:22.68,Main,Itsuki,0000,0000,0000,,Jsem tady vážně.
+Dialogue: 0,0:01:23.97,0:01:25.34,Main,Ichika,0000,0000,0000,,Moje chyba.
+Dialogue: 0,0:01:25.34,0:01:27.01,Main,Ichika,0000,0000,0000,,Je to pintupletový vtip.
+Dialogue: 0,0:01:27.86,0:01:28.86,Main,Nino,0000,0000,0000,,Ichika!
+Dialogue: 0,0:01:30.62,0:01:32.44,Main,Nino,0000,0000,0000,,Nesnažila jsi jí vlasy špatně.
+Dialogue: 0,0:01:32.96,0:01:36.16,Main,Nino,0000,0000,0000,,Také, Itsuki, dělej si ospalý obličej.
+Dialogue: 0,0:01:36.16,0:01:37.80,Main,Nino,0000,0000,0000,,Nepotřebujeme to cowlick.
+Dialogue: 0,0:01:37.80,0:01:39.87,Main,Itsuki,0000,0000,0000,,Prosím, přestaň se mnou hrát!
+Dialogue: 0,0:01:40.81,0:01:44.64,Main,Ichika,0000,0000,0000,,Hej, Miku tady teď není, takže\Nuvidíme, jestli ho nedokážeme oklamat.
+Dialogue: 0,0:01:45.13,0:01:46.13,Main,Nino,0000,0000,0000,,Vážně?
+Dialogue: 0,0:01:46.75,0:01:48.78,Main,Nino,0000,0000,0000,,Pak ji musíme změnit.
+Dialogue: 0,0:01:48.78,0:01:49.96,Main,Itsuki,0000,0000,0000,,Um...
+Dialogue: 0,0:01:50.40,0:01:51.76,Main,Nino,0000,0000,0000,,To je v pořádku.
+Dialogue: 0,0:01:51.76,0:01:55.21,Main,Nino,0000,0000,0000,,Neexistuje žádný způsob,\Njak by nás ten chlap mohl rozdělit.
+Dialogue: 0,0:02:18.70,0:02:20.62,Show_Title,,0000,0000,0000,,{\fad(500,1)}Quintessential Quintuplets
+Dialogue: 0,0:02:20.62,0:02:21.16,Show_Title,,0000,0000,0000,,{\c&H4FFEF5&\bord2}Quintessential Quintuplets
+Dialogue: 0,0:02:21.16,0:02:22.25,Show_Title,,0000,0000,0000,,{\c&H4FFEF5&\bord2\3c&HBBA5ED&}Quin {c & H9194A8 &} {3c & HA79A98 &} Quin {c & H9794A8}
+Dialogue: 0,0:02:22.25,0:02:24.54,Show_Title,,0000,0000,0000,,Quintessential Quintuplets
+Dialogue: 0,0:03:30.41,0:03:32.50,Italics,Futaro,0000,0000,0000,,Co se to sakra děje?
+Dialogue: 0,0:03:33.44,0:03:36.91,Italics,Futaro,0000,0000,0000,,A kdo je ten, kdo spí vedle mě?
+Dialogue: 0,0:03:37.80,0:03:40.44,Italics,Futaro,0000,0000,0000,,Spal jsem včera večer v\NMikulově pokoji a pak...
+Dialogue: 0,0:03:41.25,0:03:44.74,Italics,Futaro,0000,0000,0000,,Správně, to byl Miku na sobě pyžama.
+Dialogue: 0,0:03:45.28,0:03:46.33,Italics,Futaro,0000,0000,0000,,Je to Miku?
+Dialogue: 0,0:03:47.04,0:03:48.43,Italics,Futaro,0000,0000,0000,,Sh-Shoot.
+Dialogue: 0,0:03:48.43,0:03:50.41,Italics,Futaro,0000,0000,0000,,Věci budou komplikované,\Nkdyž se probudí.
+Dialogue: 0,0:03:50.41,0:03:54.04,Italics,Futaro,0000,0000,0000,,Zvlášť, když viděl někdo jiný.
+Dialogue: 0,0:03:58.25,0:03:59.63,Italics,Futaro,0000,0000,0000,,M-Miku?!
+Dialogue: 0,0:03:59.63,0:04:01.30,Italics,Futaro,0000,0000,0000,,Počkej, Miku je uvnitř.
+Dialogue: 0,0:04:01.78,0:04:03.12,Italics,Futaro,0000,0000,0000,,Což znamená, že je...
+Dialogue: 0,0:04:07.16,0:04:08.92,Italics,Futaro,0000,0000,0000,,Ty pyžama...
+Dialogue: 0,0:04:10.72,0:04:12.66,Main,Futaro,0000,0000,0000,,Co se děje, Itsuki?
+Dialogue: 0,0:04:14.44,0:04:16.02,Main,Itsuki,0000,0000,0000,,Můžeš to říct, co?
+Dialogue: 0,0:04:16.97,0:04:17.97,Main,Itsuki,0000,0000,0000,,Um...
+Dialogue: 0,0:04:18.51,0:04:19.94,Main,Itsuki,0000,0000,0000,,O nadcházejících střediscích...
+Dialogue: 0,0:04:23.62,0:04:26.20,Main,Futaro,0000,0000,0000,,A-A-Jsme tady? Mohu jít?
+Dialogue: 0,0:04:26.20,0:04:26.99,Main,Itsuki,0000,0000,0000,,Ahoj!
+Dialogue: 0,0:04:26.99,0:04:28.58,Main,Futaro,0000,0000,0000,,Jdi. Musím se změnit.
+Dialogue: 0,0:04:36.09,0:04:37.71,Main,Itsuki,0000,0000,0000,,Už mě to nezajímá!
+Dialogue: 0,0:04:42.55,0:04:44.02,Italics,Futaro,0000,0000,0000,,Blbost...
+Dialogue: 0,0:04:44.40,0:04:47.29,Italics,Futaro,0000,0000,0000,,Mohl jsem ji nechat mluvit venku.
+Dialogue: 0,0:04:48.55,0:04:49.62,Main,Ichika,0000,0000,0000,,Futaro-kun.
+Dialogue: 0,0:04:50.62,0:04:52.52,Main,Ichika,0000,0000,0000,,Viděli jste Miku?
+Dialogue: 0,0:04:53.32,0:04:55.28,Main,Futaro,0000,0000,0000,,Oh, um...
+Dialogue: 0,0:04:55.28,0:04:56.35,Main,Futaro,0000,0000,0000,,Možná knihovna?
+Dialogue: 0,0:04:56.62,0:04:57.66,Main,Futaro,0000,0000,0000,,To zní dobře.
+Dialogue: 0,0:04:57.66,0:05:00.36,Main,Futaro,0000,0000,0000,,Proč nejezdíme v\Nknihovně ke změně tempa?
+Dialogue: 0,0:05:00.64,0:05:01.92,Main,Futaro,0000,0000,0000,,S-Jistě, udělejme to.
+Dialogue: 0,0:05:01.92,0:05:03.98,Main,Ichika,0000,0000,0000,,Dám vědět Yotsubovi.
+Dialogue: 0,0:05:07.72,0:05:09.16,Main,Yotsuba,0000,0000,0000,,Uvidíme...
+Dialogue: 0,0:05:09.16,0:05:10.95,Main,Yotsuba,0000,0000,0000,,Kde je Miku?
+Dialogue: 0,0:05:11.64,0:05:13.36,Main,Yotsuba,0000,0000,0000,,Ona tu není.
+Dialogue: 0,0:05:14.67,0:05:16.34,Italics,Futaro,0000,0000,0000,,Je to správná věc?
+Dialogue: 0,0:05:17.58,0:05:21.92,Flashback,Itsuki,0000,0000,0000,,I když to znamená vyhoštění,\Nnikdy jsem vás neučil!
+Dialogue: 0,0:05:22.44,0:05:24.62,Italics,Futaro,0000,0000,0000,,Přemýšlíte o tom, jen mě naštve.
+Dialogue: 0,0:05:25.24,0:05:26.34,Italics,Futaro,0000,0000,0000,,Zapomeň na to!
+Dialogue: 0,0:05:26.88,0:05:29.39,Flashback,Ichika,0000,0000,0000,,Existují však některé věci,\Nkteré můžete udělat jen vy,
+Dialogue: 0,0:05:29.80,0:05:31.10,Flashback,Ichika,0000,0000,0000,,tak na vás spoléhám.
+Dialogue: 0,0:05:32.58,0:05:34.02,Main,Yotsuba,0000,0000,0000,,Uesugi-san?
+Dialogue: 0,0:05:34.65,0:05:36.29,Main,Yotsuba,0000,0000,0000,,Je něco špatně?
+Dialogue: 0,0:05:36.29,0:05:38.56,Main,Futaro,0000,0000,0000,,Oh, ne, dobře...
+Dialogue: 0,0:05:39.09,0:05:41.02,Main,Futaro,0000,0000,0000,,Yotsuba, hypoteticky...
+Dialogue: 0,0:05:41.74,0:05:46.90,Main,Futaro,0000,0000,0000,,Řekněme, že jeden z vás je kvůli\Nsvým známkám ročně zadržován.
+Dialogue: 0,0:05:47.46,0:05:49.41,Main,Futaro,0000,0000,0000,,Co budeš dělat?
+Dialogue: 0,0:05:50.73,0:05:54.16,Main,Yotsuba,0000,0000,0000,,Vrátím svůj druhý rok s ní.
+Dialogue: 0,0:05:58.00,0:06:01.90,Main,Yotsuba,0000,0000,0000,,Znovu budu pravděpodobně\Nten, který selže.
+Dialogue: 0,0:06:03.16,0:06:06.90,Main,Yotsuba,0000,0000,0000,,Ale s tebou to bude v pořádku.
+Dialogue: 0,0:06:10.58,0:06:12.09,Main,Yotsuba,0000,0000,0000,,Uesugi-san?
+Dialogue: 0,0:06:12.09,0:06:13.26,Main,Itsuki,0000,0000,0000,,Futaro-kun.
+Dialogue: 0,0:06:13.74,0:06:16.60,Main,Itsuki,0000,0000,0000,,Zapomněl jsem si na tužku.
+Dialogue: 0,0:06:17.24,0:06:21.25,Main,Yotsuba,0000,0000,0000,,Ichika, mám spoustu.
+Dialogue: 0,0:06:23.59,0:06:26.11,Main,Itsuki,0000,0000,0000,,Začneme jako první.
+Dialogue: 0,0:06:26.75,0:06:29.18,Main,Itsuki,0000,0000,0000,,Mohl byste dostat mé věci?
+Dialogue: 0,0:06:33.64,0:06:34.64,Main,Futaro,0000,0000,0000,,Dobře.
+Dialogue: 0,0:06:35.04,0:06:36.04,Main,Futaro,0000,0000,0000,,Být hned zpět.
+Dialogue: 0,0:06:50.44,0:06:51.78,Main,Futaro,0000,0000,0000,,M-Miku?
+Dialogue: 0,0:06:51.78,0:06:52.93,Main,Miku,0000,0000,0000,,Futaro.
+Dialogue: 0,0:06:53.60,0:06:55.72,Main,Miku,0000,0000,0000,,Myslel jsem, že jsi šel do knihovny.
+Dialogue: 0,0:06:56.15,0:06:57.43,Main,Futaro,0000,0000,0000,,Přišel zpátky, abys něco dostal.
+Dialogue: 0,0:06:57.89,0:07:00.89,Main,Futaro,0000,0000,0000,,Ichika a Yotsuba čekají,\Ntakže jděte s nimi. Uvidíme se tam.
+Dialogue: 0,0:07:04.27,0:07:06.07,Main,Miku,0000,0000,0000,,F-Futaro.
+Dialogue: 0,0:07:08.70,0:07:09.70,Main,Miku,0000,0000,0000,,Uh...
+Dialogue: 0,0:07:11.08,0:07:14.07,Main,Miku,0000,0000,0000,,O poslední noci...
+Dialogue: 0,0:07:15.69,0:07:16.80,Main,Futaro,0000,0000,0000,,Noc?
+Dialogue: 0,0:07:16.80,0:07:19.28,Main,Futaro,0000,0000,0000,,Když o tom mluvíme,\Nvčera jste spal dobře?
+Dialogue: 0,0:07:19.28,0:07:22.36,Main,Futaro,0000,0000,0000,,Nemohl jsem si zvyknout na postel, takže\Njsem spal na podlaze obývacího pokoje.
+Dialogue: 0,0:07:22.36,0:07:23.50,Main,Futaro,0000,0000,0000,,Bolí mě záda, jo.
+Dialogue: 0,0:07:27.10,0:07:29.12,Main,Miku,0000,0000,0000,,Samozřejmě.
+Dialogue: 0,0:07:29.12,0:07:30.16,Main,Miku,0000,0000,0000,,Díky bohu.
+Dialogue: 0,0:07:30.65,0:07:31.81,Italics,Futaro,0000,0000,0000,,Klamám, samozřejmě.
+Dialogue: 0,0:07:31.81,0:07:33.65,Italics,Futaro,0000,0000,0000,,Ale nevědomost je zde\Npravděpodobně blaženost.
+Dialogue: 0,0:07:34.94,0:07:36.48,Main,Miku,0000,0000,0000,,Dobře, uvidíme se v knihovně.
+Dialogue: 0,0:07:36.48,0:07:37.59,Main,Miku,0000,0000,0000,,Později.
+Dialogue: 0,0:07:39.44,0:07:40.73,Main,Futaro,0000,0000,0000,,Kromě toho,
+Dialogue: 0,0:07:41.67,0:07:45.71,Main,,0000,0000,0000,,je tu další lež, kterou musím říct.
+Dialogue: 0,0:07:50.40,0:07:52.14,Main,Futaro,0000,0000,0000,,Hej, probuď se.
+Dialogue: 0,0:07:56.68,0:07:58.20,Main,Itsuki,0000,0000,0000,,Promiň.
+Dialogue: 0,0:08:01.20,0:08:02.20,Main,,0000,0000,0000,,Uh...
+Dialogue: 0,0:08:03.33,0:08:04.54,Main,Itsuki,0000,0000,0000,,Um...
+Dialogue: 0,0:08:04.89,0:08:06.45,Main,Futaro,0000,0000,0000,,Konečně jsem tě našel,
+Dialogue: 0,0:08:06.88,0:08:07.88,Main,Futaro,0000,0000,0000,,Miku.
+Dialogue: 0,0:08:14.35,0:08:17.00,Main,Futaro,0000,0000,0000,,Vyhýbal jste se mi,\Nabych vynechal studovat, že?
+Dialogue: 0,0:08:17.00,0:08:18.28,Main,Futaro,0000,0000,0000,,Dostanete to hned!
+Dialogue: 0,0:08:18.28,0:08:19.28,Main,Itsuki,0000,0000,0000,,Ahoj...
+Dialogue: 0,0:08:19.55,0:08:20.51,Main,Futaro,0000,0000,0000,,Zvedněte pero.
+Dialogue: 0,0:08:20.51,0:08:21.16,Main,,0000,0000,0000,,Poslouchat...
+Dialogue: 0,0:08:21.16,0:08:22.59,Main,Futaro,0000,0000,0000,,Otevřete učebnici.
+Dialogue: 0,0:08:22.59,0:08:23.64,Main,Itsuki,0000,0000,0000,,Nejsem...
+Dialogue: 0,0:08:24.06,0:08:26.38,Main,Futaro,0000,0000,0000,,Budu s tebou opravdu\Npřísný jako trest!
+Dialogue: 0,0:08:26.38,0:08:29.36,Main,Futaro,0000,0000,0000,,Na mých hodinkách nic neuděláte!
+Dialogue: 0,0:08:29.72,0:08:31.13,Main,Itsuki,0000,0000,0000,,Ale já nejsem...
+Dialogue: 0,0:08:31.13,0:08:33.82,Main,Futaro,0000,0000,0000,,Já jsem neviděl ani\Njeho, přijde na to.
+Dialogue: 0,0:08:34.20,0:08:37.53,Main,Futaro,0000,0000,0000,,Vsadím se, že je zaneprázdněna\Nstudiem ve svém pokoji.
+Dialogue: 0,0:08:38.16,0:08:42.68,Main,Futaro,0000,0000,0000,,Neexistuje žádný způsob,\Njak by se u ní psala, nebo cokoliv, že?
+Dialogue: 0,0:08:44.30,0:08:45.78,Main,Futaro,0000,0000,0000,,Něco z toho, Miku?
+Dialogue: 0,0:08:48.14,0:08:50.12,Flashback_Italics,Ichika,0000,0000,0000,,Měli byste být k sobě upřímnější.
+Dialogue: 0,0:08:55.43,0:08:58.06,Main,Itsuki,0000,0000,0000,,Th-Tam není...
+Dialogue: 0,0:08:59.89,0:09:02.14,Main,Itsuki,0000,0000,0000,,Nic.
+Dialogue: 0,0:09:06.06,0:09:07.56,Main,Futaro,0000,0000,0000,,Začněme.
+Dialogue: 0,0:09:09.08,0:09:10.61,Main,Futaro,0000,0000,0000,,Na čem teď pracujete?
+Dialogue: 0,0:09:10.61,0:09:11.98,sign_13202_145_Natural_Immunity,Text,0000,0000,0000,,{\move(190,48,190,-58)}Přirozená imunita
+Dialogue: 0,0:09:11.98,0:09:13.36,sign_13202_146_How_do_our_bodie,Text,0000,0000,0000,,{\frz10\move(144,114,144,8)}Jak naše těla reagují na nemocné?
+Dialogue: 0,0:09:11.32,0:09:13.36,Main,Itsuki,0000,0000,0000,,Biologie.
+Dialogue: 0,0:09:13.64,0:09:15.49,Main,Futaro,0000,0000,0000,,Pokračujme.
+Dialogue: 0,0:09:15.49,0:09:17.49,Main,Futaro,0000,0000,0000,,Je něco, čemu byste nemohli rozumět?
+Dialogue: 0,0:09:17.49,0:09:18.53,Main,Itsuki,0000,0000,0000,,Um...
+Dialogue: 0,0:09:18.78,0:09:20.53,Main,Futaro,0000,0000,0000,,Oh, uh...
+Dialogue: 0,0:09:22.14,0:09:24.50,Main,Futaro,0000,0000,0000,,Je mi líto přede dnem včera.
+Dialogue: 0,0:09:28.03,0:09:29.16,Main,Itsuki,0000,0000,0000,,O čem to mluvíš?
+Dialogue: 0,0:09:29.16,0:09:30.53,Main,Futaro,0000,0000,0000,,G-Dobrá otázka.
+Dialogue: 0,0:09:31.38,0:09:33.79,Main,Futaro,0000,0000,0000,,Nevím, proč vám to říkám, Miku.
+Dialogue: 0,0:09:34.92,0:09:37.34,Main,Itsuki,0000,0000,0000,,Je mi líto.
+Dialogue: 0,0:09:40.43,0:09:42.59,Main,Futaro,0000,0000,0000,,O čem mluvíš, Miku?
+Dialogue: 0,0:09:42.59,0:09:44.02,Main,Itsuki,0000,0000,0000,,G-Dobrá otázka!
+Dialogue: 0,0:09:44.86,0:09:47.02,Main,Itsuki,0000,0000,0000,,Um... O této části...
+Dialogue: 0,0:09:47.81,0:09:50.26,Main,Futaro,0000,0000,0000,,Už jste tady?
+Dialogue: 0,0:09:50.97,0:09:51.97,Main,Futaro,0000,0000,0000,,Dobře...
+Dialogue: 0,0:09:54.75,0:09:56.67,Main,Futaro,0000,0000,0000,,Dobrá práce dělat to tak\Ndaleko na vlastní pěst.
+Dialogue: 0,0:10:05.92,0:10:08.96,Main,Itsuki,0000,0000,0000,,Sázel jsem 100s na všechny mé středy!
+Dialogue: 0,0:10:10.88,0:10:13.50,Main,Ichika,0000,0000,0000,,Všichni máme taky perfektní skóre!
+Dialogue: 0,0:10:16.34,0:10:20.05,Main,Nino,0000,0000,0000,,Musím přiznat,\Nže jste vynikající učitel.
+Dialogue: 0,0:10:20.05,0:10:21.78,Main,Futaro,0000,0000,0000,,Co to sakra je?!
+Dialogue: 0,0:10:21.78,0:10:25.06,Main,Futaro,0000,0000,0000,,{\an8}Hip Hip hurá!
+Dialogue: 0,0:10:22.23,0:10:23.93,Main,Futaro,0000,0000,0000,,Je to obrovský úspěch!
+Dialogue: 0,0:10:23.93,0:10:27.73,Main,Futaro,0000,0000,0000,,Je to skoro jako sen!
+Dialogue: 0,0:10:31.30,0:10:32.28,Italics,Futaro,0000,0000,0000,,To jo.
+Dialogue: 0,0:10:32.28,0:10:34.24,Italics,Futaro,0000,0000,0000,,Neexistují žádné způsoby,\Njak by dostali 100 let.
+Dialogue: 0,0:10:42.11,0:10:44.58,Main,Futaro,0000,0000,0000,,Minulý týden tvrdě pracovali.
+Dialogue: 0,0:10:45.25,0:10:46.17,Flashback,Nino,0000,0000,0000,,Co?!
+Dialogue: 0,0:10:46.17,0:10:48.08,Flashback,Nino,0000,0000,0000,,Zůstaneš znovu studovat?!
+Dialogue: 0,0:10:48.36,0:10:50.00,Flashback,Futaro,0000,0000,0000,,Zkouška je zítra.
+Dialogue: 0,0:10:50.00,0:10:52.19,Flashback,Futaro,0000,0000,0000,,Je mi jedno, jak jsme efektivní.\NChystáme se nacpat.
+Dialogue: 0,0:10:52.86,0:10:54.04,Flashback,Nino,0000,0000,0000,,Itsuki!
+Dialogue: 0,0:10:54.37,0:10:57.26,Flashback,Itsuki,0000,0000,0000,,Možná, že to stojí za to,\Naby to bylo dnes večer.
+Dialogue: 0,0:11:00.72,0:11:02.36,Italics,Futaro,0000,0000,0000,,A teď je to den zkoušky.
+Dialogue: 0,0:11:06.70,0:11:09.36,Main,Itsuki,0000,0000,0000,,Jsi brzy, Uesugi-kun.
+Dialogue: 0,0:11:10.53,0:11:12.48,Main,Futaro,0000,0000,0000,,Itsuki, jen pro jistotu...
+Dialogue: 0,0:11:12.48,0:11:15.58,Main,Futaro,0000,0000,0000,,Čas na podávání zpráv\Nnaší školy je 8:30, že?
+Dialogue: 0,0:11:16.28,0:11:17.44,Main,Itsuki,0000,0000,0000,,To je správně.
+Dialogue: 0,0:11:18.47,0:11:21.20,Main,Itsuki,0000,0000,0000,,A zkoušky začnou\Npatnáct minut po tom.
+Dialogue: 0,0:11:21.44,0:11:22.44,Main,Futaro,0000,0000,0000,,Dobře.
+Dialogue: 0,0:11:23.16,0:11:25.41,Main,Futaro,0000,0000,0000,,Nějaká šance, že hodiny jsou rozbité?
+Dialogue: 0,0:11:27.70,0:11:29.24,Main,,0000,0000,0000,,Ach...
+Dialogue: 0,0:11:29.24,0:11:31.20,Main,,0000,0000,0000,,můj bože!
+Dialogue: 0,0:11:36.12,0:11:38.10,Main,Yotsuba,0000,0000,0000,,Pospěšte si, všichni!
+Dialogue: 0,0:11:38.10,0:11:40.72,Main,Yotsuba,0000,0000,0000,,Opouštíme vás, Uesugi-san!
+Dialogue: 0,0:11:41.44,0:11:44.22,Main,Futaro,0000,0000,0000,,Myslel jsem,\Nže každý den jezdíte do školy.
+Dialogue: 0,0:11:45.68,0:11:48.41,Main,Miku,0000,0000,0000,,Ebata-san je táta sekretářka.
+Dialogue: 0,0:11:49.86,0:11:52.78,Main,Itsuki,0000,0000,0000,,Kdyby byl jen s tátou doma.
+Dialogue: 0,0:11:52.78,0:11:54.48,Main,Futaro,0000,0000,0000,,Y-Jo.
+Dialogue: 0,0:11:55.02,0:11:56.98,Italics,Futaro,0000,0000,0000,,Co se stane, když budeme pozdě?
+Dialogue: 0,0:11:56.98,0:11:59.64,Italics,Futaro,0000,0000,0000,,Co řeknu jejich otci?
+Dialogue: 0,0:12:03.25,0:12:05.36,Main,Nino,0000,0000,0000,,Nechci,\Naby mě lidé viděli bez make-upu.
+Dialogue: 0,0:12:05.36,0:12:08.08,Main,Futaro,0000,0000,0000,,Všichni viděli,\Nco vypadáš z ostatních čtyř!
+Dialogue: 0,0:12:09.28,0:12:10.14,Main,Grandma,0000,0000,0000,,Děkuji.
+Dialogue: 0,0:12:10.14,0:12:12.61,Main,Futaro,0000,0000,0000,,Chvályhodné! Ale teď ne!
+Dialogue: 0,0:12:15.03,0:12:16.50,Main,Ichika,0000,0000,0000,,Vzbudit!
+Dialogue: 0,0:12:18.80,0:12:20.12,Main,Itsuki,0000,0000,0000,,Už to nemůžu vzít.
+Dialogue: 0,0:12:20.12,0:12:21.40,Main,Futaro,0000,0000,0000,,Nevzdávej to.
+Dialogue: 0,0:12:21.40,0:12:23.51,Main,Itsuki,0000,0000,0000,,Ne, jsem strávil.
+Dialogue: 0,0:12:24.20,0:12:25.20,Main,Futaro,0000,0000,0000,,Itsuki!
+Dialogue: 0,0:12:26.32,0:12:29.04,Main,Itsuki,0000,0000,0000,,Jsem příliš hladový! Nemůžu se pohnout!
+Dialogue: 0,0:12:35.52,0:12:37.48,Main,Itsuki,0000,0000,0000,,Všichni vypadají tak dobře!
+Dialogue: 0,0:12:37.84,0:12:40.30,Main,Futaro,0000,0000,0000,,Nemáte čas si vybrat.
+Dialogue: 0,0:12:40.30,0:12:42.31,Main,Itsuki,0000,0000,0000,,Co bys rád?
+Dialogue: 0,0:12:42.31,0:12:44.24,Main,Futaro,0000,0000,0000,,No, víš, jsem...
+Dialogue: 0,0:12:44.54,0:12:46.75,Main,Itsuki,0000,0000,0000,,Něco ti koupím.
+Dialogue: 0,0:12:46.75,0:12:50.16,Main,Itsuki,0000,0000,0000,,Dlužím vám za potíže,\Ni když nebudu říkat, s čím konkrétně.
+Dialogue: 0,0:12:52.72,0:12:54.05,Main,Futaro,0000,0000,0000,,Co mám mít?
+Dialogue: 0,0:12:54.05,0:12:55.61,Main,Itsuki,0000,0000,0000,,Je těžké se rozhodnout, že?
+Dialogue: 0,0:12:55.61,0:12:57.92,Main,Nino,0000,0000,0000,,Myslel jsem, že jste ve spěchu!
+Dialogue: 0,0:13:04.82,0:13:06.89,Main,Futaro,0000,0000,0000,,Hej, Nino, jsme skoro tam.
+Dialogue: 0,0:13:09.28,0:13:11.24,Main,Nino,0000,0000,0000,,I když to uděláme na zkoušku,
+Dialogue: 0,0:13:11.24,0:13:13.81,Main,,0000,0000,0000,,upřímně si myslíš,\Nže se můžeme vyhnout selhání?
+Dialogue: 0,0:13:14.56,0:13:18.56,Main,Nino,0000,0000,0000,,Abych věděl, řeknu tatínkovi přesně\Nto, co se stane.
+Dialogue: 0,0:13:18.99,0:13:23.32,Main,Futaro,0000,0000,0000,,Nebylo mnoho času, ale věřím,\Nže jsem udělal, co jsem mohl.
+Dialogue: 0,0:13:24.00,0:13:26.20,Main,Futaro,0000,0000,0000,,Spoléhám na vás, že to uděláte i vy.
+Dialogue: 0,0:13:28.52,0:13:29.98,Main,Ichika,0000,0000,0000,,Futaro-kun!
+Dialogue: 0,0:13:29.98,0:13:31.06,Main,Ichika,0000,0000,0000,,Nino!
+Dialogue: 0,0:13:35.94,0:13:37.30,Main,Futaro,0000,0000,0000,,Jsme pozdě.
+Dialogue: 0,0:13:38.40,0:13:40.09,Main,Futaro,0000,0000,0000,,A zkouška začíná brzy.
+Dialogue: 0,0:13:40.47,0:13:43.39,Main,Itsuki,0000,0000,0000,,To mi je líto. Je to proto,\Nže jsem se zastavil na cestě.
+Dialogue: 0,0:13:43.39,0:13:44.39,Main,Miku,0000,0000,0000,,Já také.
+Dialogue: 0,0:13:44.86,0:13:48.01,Main,Ichika,0000,0000,0000,,Myslíte si, že nás učitel\Ns instrukcemi nechá odejít?
+Dialogue: 0,0:13:51.32,0:13:52.32,Main,Futaro,0000,0000,0000,,Vím.
+Dialogue: 0,0:13:52.99,0:13:54.18,Main,Futaro,0000,0000,0000,,Máme Yotsubu.
+Dialogue: 0,0:13:54.18,0:13:56.64,Main,Futaro,0000,0000,0000,,Itsuki, zavolejte Yotsubovi.
+Dialogue: 0,0:13:58.12,0:14:00.02,Main,Futaro,0000,0000,0000,,Ahoj? Yotsuba?
+Dialogue: 0,0:14:00.70,0:14:02.19,Main,Futaro,0000,0000,0000,,Už jste ve škole, že?
+Dialogue: 0,0:14:03.18,0:14:04.40,Main,Futaro,0000,0000,0000,,Oh, ne, je to v pořádku.
+Dialogue: 0,0:14:04.40,0:14:06.00,Main,Futaro,0000,0000,0000,,Zůstaňte uvnitř.
+Dialogue: 0,0:14:06.00,0:14:07.00,Main,Nino,0000,0000,0000,,Ahoj!
+Dialogue: 0,0:14:07.34,0:14:09.17,Main,Nino,0000,0000,0000,,Na co myslíš?
+Dialogue: 0,0:14:09.80,0:14:13.41,Main,Futaro,0000,0000,0000,,Říkám tomu Operace Doppelganger.
+Dialogue: 0,0:14:18.20,0:14:20.28,Main,Miku,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:14:22.95,0:14:23.46,Main,Teacher,0000,0000,0000,,Vy!
+Dialogue: 0,0:14:23.76,0:14:24.89,Main,Teacher,0000,0000,0000,,Máš zpoždění!
+Dialogue: 0,0:14:24.89,0:14:26.04,Main,Miku,0000,0000,0000,,Vydrž.
+Dialogue: 0,0:14:26.04,0:14:28.42,Main,Miku,0000,0000,0000,,Nepamatujete si tuto stuhu?
+Dialogue: 0,0:14:28.90,0:14:31.51,Main,Teacher,0000,0000,0000,,Vzpomínám si,\Nže jsem to viděl jen před chvílí.
+Dialogue: 0,0:14:32.03,0:14:35.22,Main,Miku,0000,0000,0000,,Šel jsem ven,\Nabych něco pomohl učiteli.
+Dialogue: 0,0:14:35.22,0:14:36.83,Main,Teacher,0000,0000,0000,,O-OK.
+Dialogue: 0,0:14:36.83,0:14:38.60,Main,Teacher,0000,0000,0000,,Zvon už zněl.
+Dialogue: 0,0:14:38.60,0:14:40.64,Main,Teacher,0000,0000,0000,,Před zahájením zkoušek se\Nujistěte, že jste si sedli.
+Dialogue: 0,0:14:40.64,0:14:41.65,Main,Miku,0000,0000,0000,,Dobře.
+Dialogue: 0,0:14:47.71,0:14:50.24,Main,Miku,0000,0000,0000,,"Stejně jako stíny, nepoznatelné."
+Dialogue: 0,0:14:54.36,0:14:56.75,Main,Ichika,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:15:00.20,0:15:02.51,Main,Nino,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:15:05.48,0:15:08.23,Main,Itsuki,0000,0000,0000,,G-Dobré ráno.
+Dialogue: 0,0:15:10.49,0:15:11.80,Main,Teacher,0000,0000,0000,,M-ráno.
+Dialogue: 0,0:15:14.38,0:15:17.39,Main,Teacher,0000,0000,0000,,Co to dělají,\Ndělají a dělají tolikrát?
+Dialogue: 0,0:15:17.79,0:15:19.59,Main,Itsuki,0000,0000,0000,,Nemůžu uvěřit, že jsem lhal učiteli.
+Dialogue: 0,0:15:19.59,0:15:21.85,Main,Itsuki,0000,0000,0000,,Co neúcta!
+Dialogue: 0,0:15:21.85,0:15:23.74,Main,Nino,0000,0000,0000,,Jsi příliš nervózní.
+Dialogue: 0,0:15:24.80,0:15:25.90,Main,Yotsuba,0000,0000,0000,,Díky bohu.
+Dialogue: 0,0:15:26.44,0:15:28.32,Main,Yotsuba,0000,0000,0000,,Všichni jste se dostali dovnitř.
+Dialogue: 0,0:15:28.32,0:15:29.40,Main,Miku,0000,0000,0000,,Je to ten pravý.
+Dialogue: 0,0:15:30.09,0:15:32.36,Main,Yotsuba,0000,0000,0000,,Huh? Kde je Uesugi-san?
+Dialogue: 0,0:15:33.47,0:15:35.82,Main,Futaro,0000,0000,0000,,Dobré ráno.
+Dialogue: 0,0:15:43.29,0:15:45.44,Main,Teacher,0000,0000,0000,,Jsi pozdě a teď si se mnou pohráváš?
+Dialogue: 0,0:15:45.44,0:15:46.44,Main,Futaro,0000,0000,0000,,Obrázky.
+Dialogue: 0,0:15:46.64,0:15:48.82,Main,Teacher,0000,0000,0000,,Přijďte do poradny!
+Dialogue: 0,0:15:52.24,0:15:53.43,Main,Miku,0000,0000,0000,,Futaro...
+Dialogue: 0,0:15:54.24,0:15:55.60,Main,Futaro,0000,0000,0000,,Pospěšte si a jděte!
+Dialogue: 0,0:15:56.30,0:15:58.25,Main,Futaro,0000,0000,0000,,Budete bez mého v pořádku!
+Dialogue: 0,0:15:58.76,0:16:01.60,Main,Futaro,0000,0000,0000,,Věřte v úsilí,\Nkteré jste sami vložili!
+Dialogue: 0,0:16:01.87,0:16:04.01,Main,Teacher,0000,0000,0000,,O čem se blábáš?!
+Dialogue: 0,0:16:10.70,0:16:13.74,Main,Itsuki,0000,0000,0000,,Pojďme dostat dobré známky\Na překvapit Futaro-kun.
+Dialogue: 0,0:16:14.30,0:16:15.12,Main,Yotsuba,0000,0000,0000,,Ty taky, Nino.
+Dialogue: 0,0:16:15.12,0:16:16.87,Main,Nino,0000,0000,0000,,Proč?
+Dialogue: 0,0:16:17.63,0:16:19.42,Main,Itsuki,0000,0000,0000,,Dejme tomu všechno, co máme.
+Dialogue: 0,0:16:20.74,0:16:22.43,Main,Itsuki,0000,0000,0000,,Pojďme to udělat!
+Dialogue: 0,0:16:22.43,0:16:23.93,Main,Four,0000,0000,0000,,To jo!
+Dialogue: 0,0:16:23.93,0:16:25.04,Main,Nino,0000,0000,0000,,To jo...
+Dialogue: 0,0:16:29.17,0:16:30.31,sign_23717_275_Socials,Text,0000,0000,0000,,{\move(320,30,320,-26)}Sociologie
+Dialogue: 0,0:16:30.31,0:16:32.63,Italics,Miku,0000,0000,0000,,Tolik obtížných otázek.
+Dialogue: 0,0:16:33.43,0:16:34.68,sign_23819_277_Ashikaga_Takauji,Text,0000,0000,0000,,Ashikaga hakaakuji
+Dialogue: 0,0:16:33.78,0:16:35.43,Italics,Miku,0000,0000,0000,,Ale můžu dělat historii.
+Dialogue: 0,0:16:36.60,0:16:40.85,Italics,Miku,0000,0000,0000,,Zajímalo by mě, co by řekl Futaro,\Nkdybych dostal lepší známku než on.
+Dialogue: 0,0:16:40.85,0:16:42.48,sign_23717_275_Socials,Text,0000,0000,0000,,
+Dialogue: 0,0:16:46.59,0:16:47.73,Italics,Yotsuba,0000,0000,0000,,Pamatuji si!
+Dialogue: 0,0:16:48.16,0:16:51.74,Italics,Yotsuba,0000,0000,0000,,Pro otázky s možností výběru z pěti\Nodpovědí je čtvrtá často správná.
+Dialogue: 0,0:16:51.74,0:16:52.88,sign_23717_275_Socials,Text,0000,0000,0000,,
+Dialogue: 0,0:16:52.88,0:16:54.29,Italics,Nino,0000,0000,0000,,Synonymum pro argument...
+Dialogue: 0,0:16:54.83,0:16:56.16,Italics,Nino,0000,0000,0000,,Nevím. Další.
+Dialogue: 0,0:16:56.98,0:16:58.88,Flashback,Futaro,0000,0000,0000,,Pamatujte si to jako de-ba-te.
+Dialogue: 0,0:17:00.21,0:17:03.16,Italics,Nino,0000,0000,0000,,Nikdy jsem tě nežádal, abys mě učil.
+Dialogue: 0,0:17:03.16,0:17:04.79,sign_23717_275_Socials,Ichika,0000,0000,0000,,
+Dialogue: 0,0:17:03.90,0:17:05.20,Italics,Ichika,0000,0000,0000,,Hotovo.
+Dialogue: 0,0:17:05.20,0:17:06.55,Italics,Ichika,0000,0000,0000,,Myslím, že to dělá.
+Dialogue: 0,0:17:06.55,0:17:07.63,Italics,Ichika,0000,0000,0000,,Dobrou noc.
+Dialogue: 0,0:17:10.47,0:17:13.30,Italics,Ichika,0000,0000,0000,,Myslím, že můžu zkontrolovat mé rovnice.
+Dialogue: 0,0:17:13.30,0:17:14.76,sign_23717_275_Socials,Text,0000,0000,0000,,{\move(320,34,320,-26)}Věda
+Dialogue: 0,0:17:14.87,0:17:16.87,Italics,Itsuki,0000,0000,0000,,Nenechám tě opustit.
+Dialogue: 0,0:17:20.02,0:17:22.06,Flashback,Itsuki,0000,0000,0000,,Co myslíš?
+Dialogue: 0,0:17:22.74,0:17:25.85,Flashback_Italics,Dad,0000,0000,0000,,Řekl jsem mu dřív,\Nže pokud někdo z vás neuspěje,
+Dialogue: 0,0:17:25.85,0:17:27.95,Flashback_Italics,,0000,0000,0000,,Nechám ho odstoupit.
+Dialogue: 0,0:17:29.78,0:17:31.67,Italics,Itsuki,0000,0000,0000,,To je pro Raiha-chan.
+Dialogue: 0,0:17:31.67,0:17:32.84,Italics,Itsuki,0000,0000,0000,,Jen aby bylo jasné.
+Dialogue: 0,0:17:39.42,0:17:41.66,Italics,Futaro,0000,0000,0000,,Spoléhám na vás, chlapi.
+Dialogue: 0,0:17:50.25,0:17:51.96,sign_25661_304_Midterm,Text,0000,0000,0000,,{\pos(166,196)\frx358\fry20\fad(1,1638)}V polovině období
+Dialogue: 0,0:17:51.96,0:17:54.01,sign_25661_305_Midterm_exam_res,Text,0000,0000,0000,,Výsledky v polovině zkoušky!
+Dialogue: 0,0:17:50.25,0:17:54.01,sign_25661_306_Curry_Day,Text,0000,0000,0000,,Kari den
+Dialogue: 0,0:17:54.01,0:17:56.01,sign_25751_307_Library,Text,0000,0000,0000,,Knihovna
+Dialogue: 0,0:17:56.51,0:17:57.37,Main,Futaro,0000,0000,0000,,Ahoj.
+Dialogue: 0,0:17:57.37,0:17:59.48,Main,Futaro,0000,0000,0000,,Díky za setkání.
+Dialogue: 0,0:17:59.48,0:18:00.84,Main,Itsuki,0000,0000,0000,,Co je špatně?
+Dialogue: 0,0:18:00.84,0:18:02.14,Main,Itsuki,0000,0000,0000,,Proč tak formální?
+Dialogue: 0,0:18:02.88,0:18:04.68,Main,Miku,0000,0000,0000,,Průběžné výsledky...
+Dialogue: 0,0:18:05.45,0:18:08.56,Main,Miku,0000,0000,0000,,Můžete nás naučit části,\Nkteré jsme se mýlili?
+Dialogue: 0,0:18:09.11,0:18:10.20,Main,Futaro,0000,0000,0000,,To jo.
+Dialogue: 0,0:18:10.20,0:18:13.02,Main,Futaro,0000,0000,0000,,Ale nejdřív mi můžete ukázat své výsledky?
+Dialogue: 0,0:18:13.38,0:18:14.48,Main,Ichika,0000,0000,0000,,Jasná věc.
+Dialogue: 0,0:18:14.48,0:18:15.27,Main,Ichika,0000,0000,0000,,Já...
+Dialogue: 0,0:18:15.27,0:18:16.78,Main,Itsuki,0000,0000,0000,,Nechtěl bych.
+Dialogue: 0,0:18:17.63,0:18:19.24,Main,Itsuki,0000,0000,0000,,Jsou to osobní údaje.
+Dialogue: 0,0:18:19.24,0:18:20.72,Main,Itsuki,0000,0000,0000,,Já naprosto odmítám.
+Dialogue: 0,0:18:20.72,0:18:21.78,Main,Ichika,0000,0000,0000,,Itsuki-chan?
+Dialogue: 0,0:18:24.43,0:18:25.74,Main,Futaro,0000,0000,0000,,Dík.
+Dialogue: 0,0:18:25.74,0:18:27.69,Main,Futaro,0000,0000,0000,,Jsem však připraven.
+Dialogue: 0,0:18:27.69,0:18:28.79,Main,Futaro,0000,0000,0000,,Řekni mi, jak to šlo.
+Dialogue: 0,0:18:28.79,0:18:35.80,sign_26585_325_Nakano_Yotsuba_L,Text,0000,0000,0000,,
+Dialogue: 0,0:18:29.13,0:18:30.22,Main,Yotsuba,0000,0000,0000,,Ta-da.
+Dialogue: 0,0:18:30.67,0:18:33.76,Main,Yotsuba,0000,0000,0000,,Hádal jsem hned na\NJaponce a skóroval 30.
+Dialogue: 0,0:18:33.76,0:18:35.80,Main,Yotsuba,0000,0000,0000,,Nikdy předtím jsem takové známky nedostal!
+Dialogue: 0,0:18:35.80,0:18:39.82,sign_26585_325_Nakano_Yotsuba_L,Text,0000,0000,0000,,
+Dialogue: 0,0:18:39.83,0:18:43.23,Default,,0,0,0,,
+Dialogue: 0,0:18:49.85,0:18:52.28,sign_26585_325_Nakano_Yotsuba_L,Text,0000,0000,0000,,
+Dialogue: 0,0:18:52.28,0:18:53.79,Default,,0,0,0,,
+Dialogue: 0,0:18:53.79,0:18:55.34,Default,,0,0,0,,
+Dialogue: 0,0:18:55.34,0:18:56.82,Default,,0,0,0,,
+Dialogue: 0,0:18:51.43,0:18:54.49,Main,Nino,0000,0000,0000,,Neprošel jsem japonskými, matematickými,\Nvědeckými a sociálními studiemi.
+Dialogue: 0,0:18:54.49,0:18:56.83,Main,Nino,0000,0000,0000,,Tak, abyste věděli,\Nže jsem {\i1}byl{\i0} snažil jsem se co nejlépe.
+Dialogue: 0,0:18:56.86,0:19:03.83,sign_26585_325_Nakano_Yotsuba_L,Text,0000,0000,0000,,
+Dialogue: 0,0:18:58.72,0:19:03.83,Main,Itsuki,0000,0000,0000,,Bohužel, vědecká zkouška byla\Njediná, kterou jsem složil, s 56.
+Dialogue: 0,0:19:04.75,0:19:06.36,Main,Yotsuba,0000,0000,0000,,{\an8}Yay!
+Dialogue: 0,0:19:05.16,0:19:06.36,Main,Futaro,0000,0000,0000,,Sakra...
+Dialogue: 0,0:19:06.36,0:19:09.88,Main,Futaro,0000,0000,0000,,Je to depresivní bytí připomínané,\Njak jste všichni hloupí.
+Dialogue: 0,0:19:09.88,0:19:11.38,Main,Nino,0000,0000,0000,,Drž hubu.
+Dialogue: 0,0:19:11.38,0:19:16.33,Main,Nino,0000,0000,0000,,Ale dobře, je to tak jako my,\Nže každý projde jiným předmětem.
+Dialogue: 0,0:19:16.33,0:19:17.34,Main,Yotsuba,0000,0000,0000,,To je pravda.
+Dialogue: 0,0:19:17.61,0:19:21.40,Main,Miku,0000,0000,0000,,A ve srovnání s tím,\Nkdy jsme skórovali sto dohromady...
+Dialogue: 0,0:19:21.40,0:19:22.40,Main,Futaro,0000,0000,0000,,To jo.
+Dialogue: 0,0:19:22.60,0:19:24.48,Main,Futaro,0000,0000,0000,,Určitě jste udělali pokrok.
+Dialogue: 0,0:19:25.41,0:19:26.41,Main,Futaro,0000,0000,0000,,Miku.
+Dialogue: 0,0:19:26.61,0:19:29.84,Main,Futaro,0000,0000,0000,,Získat 68 na zkoušku tak těžké,\Njako je tento, je impozantní,
+Dialogue: 0,0:19:29.84,0:19:31.24,Main,Futaro,0000,0000,0000,,Dokonce i vaše skóre jsou nepřesné.
+Dialogue: 0,0:19:32.04,0:19:35.95,Main,Futaro,0000,0000,0000,,Můžete si být jistý,\Nže budete učit své sestry, co víte.
+Dialogue: 0,0:19:37.46,0:19:39.95,Main,Futaro,0000,0000,0000,,Yotsuba, uděláš spoustu neopatrných chyb.
+Dialogue: 0,0:19:39.95,0:19:40.95,Main,Futaro,0000,0000,0000,,Jaká škoda.
+Dialogue: 0,0:19:41.30,0:19:42.76,Main,Futaro,0000,0000,0000,,Zůstaň klidný a nespěchej věci.
+Dialogue: 0,0:19:43.75,0:19:45.12,Main,Yotsuba,0000,0000,0000,,Ano, pane.
+Dialogue: 0,0:19:45.86,0:19:46.86,Main,Futaro,0000,0000,0000,,Ichika.
+Dialogue: 0,0:19:47.24,0:19:50.13,Main,Futaro,0000,0000,0000,,Musíte věnovat více\Nčasu na každý problém.
+Dialogue: 0,0:19:50.63,0:19:52.32,Main,Futaro,0000,0000,0000,,Nevzdávejte se až do konce.
+Dialogue: 0,0:19:52.90,0:19:54.13,Main,Ichika,0000,0000,0000,,Dobře.
+Dialogue: 0,0:19:55.30,0:19:56.30,Main,Futaro,0000,0000,0000,,Nino.
+Dialogue: 0,0:19:56.65,0:19:59.33,Main,Futaro,0000,0000,0000,,Nikdy jste mě neposlouchali\Naž do samého konce.
+Dialogue: 0,0:19:59.80,0:20:02.00,Main,Futaro,0000,0000,0000,,Nevzdávej se jen\Nproto, že už nejdu.
+Dialogue: 0,0:20:04.07,0:20:07.14,Main,Miku,0000,0000,0000,,Futaro, co tím\Nmyslíš, už nepřijdeš?
+Dialogue: 0,0:20:08.79,0:20:09.48,Main,Miku,0000,0000,0000,,Já...
+Dialogue: 0,0:20:09.48,0:20:11.77,Main,Itsuki,0000,0000,0000,,Miku, vyslechneme ho.
+Dialogue: 0,0:20:12.31,0:20:13.31,Main,Futaro,0000,0000,0000,,Itsuki...
+Dialogue: 0,0:20:14.23,0:20:15.74,Main,Futaro,0000,0000,0000,,Jste tak...
+Dialogue: 0,0:20:16.40,0:20:17.92,Main,Futaro,0000,0000,0000,,hloupě trapně!
+Dialogue: 0,0:20:17.92,0:20:19.15,Main,Itsuki,0000,0000,0000,,Co?!
+Dialogue: 0,0:20:19.62,0:20:23.62,Main,Futaro,0000,0000,0000,,Jste tak posedlí nad každou otázkou,\Nže jste na ně ani neodpověděli.
+Dialogue: 0,0:20:24.67,0:20:26.41,Main,Itsuki,0000,0000,0000,,Na tom pracuji.
+Dialogue: 0,0:20:27.69,0:20:29.91,Main,Futaro,0000,0000,0000,,Tak dlouho, jak jste si vědomi.
+Dialogue: 0,0:20:30.22,0:20:31.82,Main,Futaro,0000,0000,0000,,Buďte opatrní od teď.
+Dialogue: 0,0:20:36.76,0:20:37.76,Main,Itsuki,0000,0000,0000,,Je to náš otec.
+Dialogue: 0,0:20:41.35,0:20:43.05,Main,Futaro,0000,0000,0000,,Ahoj? Uesugi.
+Dialogue: 0,0:20:43.55,0:20:46.40,Italics,Dad,0000,0000,0000,,Byl jsi s Itsuki-kunem, co?
+Dialogue: 0,0:20:46.40,0:20:49.81,Italics,Dad,0000,0000,0000,,Myslel jsem, že se jich zeptám každého\Njednotlivě, ale poslechneme si to od vás.
+Dialogue: 0,0:20:50.05,0:20:50.62,Main,Futaro,0000,0000,0000,,Dobře.
+Dialogue: 0,0:20:51.05,0:20:52.83,Italics,Dad,0000,0000,0000,,Budu vědět, jestli budeš ležet.
+Dialogue: 0,0:20:52.83,0:20:53.90,Main,Futaro,0000,0000,0000,,Nebudu lhát.
+Dialogue: 0,0:20:54.32,0:21:00.78,Main,Futaro,0000,0000,0000,,Ale rád bych vás požádal,\Nabyste je našli lepšího učitele.
+Dialogue: 0,0:21:01.25,0:21:05.20,Italics,Dad,0000,0000,0000,,Jinými slovy, výsledky zkoušky...
+Dialogue: 0,0:21:10.91,0:21:11.81,Main,Nino,0000,0000,0000,,Táto?
+Dialogue: 0,0:21:11.81,0:21:13.80,Main,Nino,0000,0000,0000,,To jsem já, Nino.\NMohu se tě na něco zeptat?
+Dialogue: 0,0:21:14.28,0:21:16.50,Main,Nino,0000,0000,0000,,Proč jste mu dal takovou podmínku?
+Dialogue: 0,0:21:16.93,0:21:20.98,Italics,Dad,0000,0000,0000,,Mám povinnosti jako\Notec, abych vás nechal.
+Dialogue: 0,0:21:20.98,0:21:24.53,Italics,Dad,0000,0000,0000,,Jen jsem ho testoval, aby\Nzjistil, zda je pro tebe správný.
+Dialogue: 0,0:21:25.45,0:21:27.70,Main,Nino,0000,0000,0000,,Takže to bylo pro nás?
+Dialogue: 0,0:21:27.70,0:21:29.06,Main,Nino,0000,0000,0000,,Díky tati.
+Dialogue: 0,0:21:29.83,0:21:34.85,Main,Nino,0000,0000,0000,,Ale nebudeme vědět, zda je pro nás\Nsprávný, nebo ne jen z našich tříd.
+Dialogue: 0,0:21:35.24,0:21:37.84,Italics,Dad,0000,0000,0000,,To je primární metrika.
+Dialogue: 0,0:21:39.84,0:21:41.14,Main,Nino,0000,0000,0000,,Dobře.
+Dialogue: 0,0:21:41.14,0:21:43.11,Main,Nino,0000,0000,0000,,Řeknu vám to.
+Dialogue: 0,0:21:44.91,0:21:49.32,Main,Nino,0000,0000,0000,,Pět z nás se společně vyhnulo\Nselhání všech pěti předmětů.
+Dialogue: 0,0:21:51.60,0:21:52.80,Italics,Dad,0000,0000,0000,,Je to pravda?
+Dialogue: 0,0:21:52.80,0:21:54.33,Main,Nino,0000,0000,0000,,Nelžu.
+Dialogue: 0,0:21:54.33,0:21:57.42,Italics,Dad,0000,0000,0000,,Musí to být pravda,\Npokud to řeknete, Nino-kun.
+Dialogue: 0,0:21:58.12,0:22:00.58,Italics,Dad,0000,0000,0000,,Očekávám, že budete pokračovat\Nv práci s Uesugi-kunem.
+Dialogue: 0,0:22:02.44,0:22:03.92,Main,Futaro,0000,0000,0000,,Nino, ty...
+Dialogue: 0,0:22:04.76,0:22:06.92,Main,Nino,0000,0000,0000,,Všech pět z nás prošlo\Njedním z předmětů.
+Dialogue: 0,0:22:06.92,0:22:08.78,Main,Nino,0000,0000,0000,,Tak jsem nelhal.
+Dialogue: 0,0:22:08.78,0:22:10.68,Main,Futaro,0000,0000,0000,,Myslíš to vážně?
+Dialogue: 0,0:22:11.15,0:22:14.12,Main,Nino,0000,0000,0000,,Skončili jsme klamat otce.
+Dialogue: 0,0:22:14.12,0:22:16.14,Main,Nino,0000,0000,0000,,Pravděpodobně to nebude fungovat znovu.
+Dialogue: 0,0:22:17.69,0:22:19.85,Main,Nino,0000,0000,0000,,Radši se to stane příště.
+Dialogue: 0,0:22:22.24,0:22:23.65,Main,Futaro,0000,0000,0000,,Sleduj mě.
+Dialogue: 0,0:22:24.12,0:22:26.70,Main,Ichika,0000,0000,0000,,Hej, o čem to bylo?
+Dialogue: 0,0:22:26.70,0:22:30.41,Main,Yotsuba,0000,0000,0000,,Vlastně jsem prošel všech pět předmětů?!
+Dialogue: 0,0:22:30.68,0:22:31.95,Main,Yotsuba,0000,0000,0000,,Jak?!
+Dialogue: 0,0:22:31.95,0:22:33.48,Main,Nino,0000,0000,0000,,Pojď...
+Dialogue: 0,0:22:33.92,0:22:36.41,Main,Itsuki,0000,0000,0000,,Neboj se, Miku.
+Dialogue: 0,0:22:36.78,0:22:39.91,Main,Itsuki,0000,0000,0000,,Vypadá to,\Nže s námi bude delší dobu.
+Dialogue: 0,0:22:40.54,0:22:42.05,Main,Yotsuba,0000,0000,0000,,Dobře!
+Dialogue: 0,0:22:42.05,0:22:44.50,Main,Yotsuba,0000,0000,0000,,Pojďme se tedy podívat.
+Dialogue: 0,0:22:45.18,0:22:46.84,Main,Nino,0000,0000,0000,,Raději ne, samozřejmě.
+Dialogue: 0,0:22:47.11,0:22:48.46,Main,Ichika,0000,0000,0000,,Ne utíkají.
+Dialogue: 0,0:22:48.85,0:22:49.92,Main,Futaro,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:22:50.99,0:22:54.76,Main,Futaro,0000,0000,0000,,Nejdůležitější je studovat poté,\Nco dostanete výsledky zkoušky zpět.
+Dialogue: 0,0:22:55.59,0:22:58.68,Main,Futaro,0000,0000,0000,,Ale nemusí to být {\i1}vpravo {\i0}.
+Dialogue: 0,0:22:59.20,0:23:00.69,Main,Futaro,0000,0000,0000,,Odměna, že?
+Dialogue: 0,0:23:01.67,0:23:03.36,Main,Futaro,0000,0000,0000,,Něco o parfaitech?
+Dialogue: 0,0:23:11.82,0:23:14.01,Main,Ichika,0000,0000,0000,,Futaro-kun právě řekl parfaits!
+Dialogue: 0,0:23:14.01,0:23:15.99,Main,Nino,0000,0000,0000,,To není jeho styl!
+Dialogue: 0,0:23:17.64,0:23:20.71,Main,Itsuki,0000,0000,0000,,V tom případě budu mít extra velký.
+Dialogue: 0,0:23:21.64,0:23:23.46,Main,Futaro,0000,0000,0000,,To existuje?
+Dialogue: 0,0:23:24.35,0:23:29.22,Main,Futaro,0000,0000,0000,,V pořádku, pět z vás prošlo pět\Ndohromady, takže jen jedna porce.
+Dialogue: 0,0:23:29.22,0:23:31.18,Main,Nino,0000,0000,0000,,Co? Jste tak levná.
+Dialogue: 0,0:23:32.28,0:23:34.69,Italics,Futaro,0000,0000,0000,,Udělám to příště.
+Dialogue: 0,0:23:35.19,0:23:38.18,Main,Yotsuba,0000,0000,0000,,Mimochodem, jak jste to udělal, Uesugi-san?
+Dialogue: 0,0:23:39.36,0:23:40.11,Main,Futaro,0000,0000,0000,,Ne!
+Dialogue: 0,0:23:40.11,0:23:41.18,Main,Futaro,0000,0000,0000,,Nedívej se!
+Dialogue: 0,0:23:41.89,0:23:43.99,Main,Yotsuba,0000,0000,0000,,Co-co?! Stovky z nich?!
+Dialogue: 0,0:23:43.99,0:23:45.76,Main,Futaro,0000,0000,0000,,{\an8}Oh, člověče, to je trapné!
+Dialogue: 0,0:23:45.76,0:23:49.94,Episode_Title,Text,0000,0000,0000,,{\fad(1696,1)}# 07 Liar McLieface
+Dialogue: 0,0:23:46.51,0:23:49.14,Main,Itsuki,0000,0000,0000,,{\an8}Snažíte se, aby vaše věc?
+Dialogue: 0,0:23:50.58,0:23:51.86,Main_Preview,,0000,0000,0000,,Quintuplet Trivia!
+Dialogue: 0,0:23:51.86,0:23:53.45,Main_Preview,Ichika,0000,0000,0000,,Jaké jsou naše nejlepší předměty?
+Dialogue: 0,0:23:53.45,0:23:54.16,Main_Preview,,0000,0000,0000,,Matematika.
+Dialogue: 0,0:23:54.16,0:23:54.76,Main_Preview,Nino,0000,0000,0000,,Angličtina.
+Dialogue: 0,0:23:54.76,0:23:55.36,Main_Preview,Miku,0000,0000,0000,,Sociologie.
+Dialogue: 0,0:23:55.36,0:23:56.03,Main_Preview,Yotsuba,0000,0000,0000,,Japonský.
+Dialogue: 0,0:23:56.03,0:23:56.65,Main_Preview,Itsuki,0000,0000,0000,,Věda.
+Dialogue: 0,0:23:56.65,0:23:58.37,Main_Preview,Itsuki,0000,0000,0000,,Spolu pět z nás...
+Dialogue: 0,0:23:58.37,0:24:00.20,Main_Preview,Itsuki,0000,0000,0000,,jsou sestry bez selhání!
+Dialogue: 0,0:24:00.20,0:24:02.24,Main_Preview,Futaro,0000,0000,0000,,Přestaňte utíkat před realitou.
+Dialogue: 0,0:24:02.24,0:24:04.35,Main_Preview,Itsuki,0000,0000,0000,,Sestry bez selhání!

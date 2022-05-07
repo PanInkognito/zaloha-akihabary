@@ -1,0 +1,361 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: poznamka,Arial,28,&H00ffffff,&H0000ffff,&H00000008,&H80000008,-1,0,0,0,100,100,0,0.00,1,1,1,8,30,30,30,238
+Style: Napis,Arial,32,&H00ffffff,&H0000ffff,&H00000008,&H80000008,-1,-1,0,0,100,100,0,0.00,1,2,0,8,30,30,30,238
+Style: titulek,Arial,32,&H00a4ffff,&H0000ffff,&H60000000,&Hb0000000,-1,0,0,0,100,100,0,0.00,1,2,2,2,30,30,20,238
+Style: hanego,Arial,30,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,2,0.00,1,2,1,2,30,30,20,238
+Style: supesaru,Bookman Old Style,36,&H00a0f0ff,&H0000ffff,&Hd0b0f0f0,&H20001020,0,1,0,0,100,100,0,0.00,1,2,1,2,30,30,20,238
+Style: credits,Bookman Old Style,36,&H20a0f0ff,&H2000ffff,&Hd0b0f0f0,&H20001020,0,1,0,0,100,100,0,0.00,1,2,1,2,30,30,20,238
+Style: oldcredits,Verdana,38,&H00d0d0d0,&H0000ffff,&H00000000,&H20001020,1,1,0,0,100,100,0,0.00,1,2,0,2,30,30,20,238
+Style: Ending.cesky,Bookman Old Style,23,&H90884400,&H90000000,&H20ffffff,&Hd0100000,-1,-1,0,0,120,100,1,0.00,1,1,1,8,30,30,10,238
+Style: Ending,Bookman Old Style,25,&H00ffffff,&H90ddeedd,&H50333333,&H08000000,0,-1,0,0,100,100,0,0.00,1,1,0,2,30,30,5,0
+Style: Ending.kanji,MS PGothic,25,&H0000ffff,&H00448888,&H00222222,&H80000008,-1,0,0,0,100,100,0,0.00,1,1,0,2,30,30,20,128
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:12.90,0:01:16.61,Napis,,0000,0000,0000,,{\a2}Poskvrna, Nemoc, Pøíchod zimy
+Dialogue: 0,0:00:13.22,0:00:14.53,titulek,,0000,0000,0000,,Kuu...
+Dialogue: 0,0:00:21.86,0:00:25.40,credits,,0000,0000,0000,,{\pos(20,50)\a1\fad(200,200)}Pøeklad: Jelyfish
+Dialogue: 0,0:00:22.06,0:00:25.60,credits,,0000,0000,0000,,{\pos(780,50)\a3\fad(200,200)}Typesetting: Jarník
+Dialogue: 0,0:00:22.26,0:00:25.80,credits,,0000,0000,0000,,{\pos(780,580)\a3\fad(200,200)}Karaoke: v154c1
+Dialogue: 0,0:00:22.46,0:00:26.00,credits,,0000,0000,0000,,{\pos(20,580)\a1\fad(200,200)}Korektury:\N Jarník  B.E.M  mike  JBr
+Dialogue: 0,0:00:26.59,0:00:27.93,titulek,,0000,0000,0000,,Rakko.
+Dialogue: 0,0:00:34.71,0:00:40.12,titulek,,0000,0000,0000,,Jestli takhle budeš plakat dál,\N Kuu nebude moci odejít v pokoji.
+Dialogue: 0,0:00:44.34,0:00:45.50,titulek,,0000,0000,0000,,Ale...
+Dialogue: 0,0:00:45.50,0:00:46.72,titulek,,0000,0000,0000,,Rakko...
+Dialogue: 0,0:00:46.72,0:00:48.67,titulek,,0000,0000,0000,,Urèitì se s ní jednou znovu setkáme.
+Dialogue: 0,0:00:48.67,0:00:50.38,titulek,,0000,0000,0000,,Vìøme v to.
+Dialogue: 0,0:00:50.77,0:00:55.40,titulek,,0000,0000,0000,,Kuu šla prostì jenom chvilku napøed.
+Dialogue: 0,0:00:56.16,0:00:57.41,titulek,,0000,0000,0000,,Pojï.
+Dialogue: 0,0:01:00.37,0:01:02.85,titulek,,0000,0000,0000,,Jestlipak to Kuu slyší?
+Dialogue: 0,0:01:03.38,0:01:05.57,titulek,,0000,0000,0000,,Urèitì ano.
+Dialogue: 0,0:01:07.60,0:01:11.88,titulek,,0000,0000,0000,,A ji náš zvon provází na její cestì.
+Dialogue: 0,0:01:38.05,0:01:41.70,titulek,,0000,0000,0000,,Mìla bych si najít postel...
+Dialogue: 0,0:01:46.98,0:01:48.77,titulek,,0000,0000,0000,,Zima je tady.
+Dialogue: 0,0:01:48.77,0:01:50.30,titulek,,0000,0000,0000,,Kuu...
+Dialogue: 0,0:02:03.83,0:02:07.17,titulek,,0000,0000,0000,,U nesmím... breèet.
+Dialogue: 0,0:02:15.94,0:02:18.04,titulek,,0000,0000,0000,,Dobré ráno, Kuu.
+Dialogue: 0,0:02:36.72,0:02:40.34,titulek,,0000,0000,0000,,U to bude mìsíc, viï?
+Dialogue: 0,0:02:40.88,0:02:44.21,titulek,,0000,0000,0000,,U nás v Guri se u koneènì ujala vlády zima.
+Dialogue: 0,0:02:45.25,0:02:50.23,titulek,,0000,0000,0000,,Ale díky tomu, e jsi mì varovala, jsem nenastydla.
+Dialogue: 0,0:02:50.81,0:02:52.37,titulek,,0000,0000,0000,,Jak se máš, Kuu?
+Dialogue: 0,0:02:52.77,0:02:56.33,titulek,,0000,0000,0000,,Kde jsi? Co je to za místo?
+Dialogue: 0,0:02:57.08,0:03:01.18,titulek,,0000,0000,0000,,Urèitì je tam spousta milıch lidí,\N stejnì jako tady, e?
+Dialogue: 0,0:03:01.47,0:03:05.72,titulek,,0000,0000,0000,,Všem ve Starém domovì se daøí dobøe.
+Dialogue: 0,0:03:06.08,0:03:07.72,titulek,,0000,0000,0000,,Já...
+Dialogue: 0,0:03:11.78,0:03:13.02,titulek,,0000,0000,0000,,Promiò...
+Dialogue: 0,0:03:13.02,0:03:16.48,titulek,,0000,0000,0000,,Prostì nad tím nemùu jen pokrèit rameny\N jako všichni ostatní...
+Dialogue: 0,0:03:16.88,0:03:18.34,titulek,,0000,0000,0000,,Chtìla bych...
+Dialogue: 0,0:03:18.34,0:03:20.98,titulek,,0000,0000,0000,,chtìla bıt zase s tebou.
+Dialogue: 0,0:03:20.98,0:03:26.70,titulek,,0000,0000,0000,,Chtìla bych s tebou nakupovat,\Njíst a vùbec, povídat si o všem, co se dìje.
+Dialogue: 0,0:03:26.86,0:03:31.27,titulek,,0000,0000,0000,,Ještì zbylo tolik vìcí, na které jsem se tì chtìla zeptat.
+Dialogue: 0,0:03:40.99,0:03:42.98,Napis,,0000,0000,0000,,{\a2}Reki
+Dialogue: 0,0:03:43.94,0:03:45.30,Napis,,0000,0000,0000,,{\a2}Hikari
+Dialogue: 0,0:03:45.30,0:03:46.53,Napis,,0000,0000,0000,,{\a2}Nemu
+Dialogue: 0,0:03:46.53,0:03:47.89,Napis,,0000,0000,0000,,{\a2}Kana
+Dialogue: 0,0:03:47.89,0:03:49.15,Napis,,0000,0000,0000,,{\a2}Rakka - Kuu
+Dialogue: 0,0:03:52.60,0:03:53.53,Napis,,0000,0000,0000,,{\a2}Rakka - Kuu
+Dialogue: 0,0:04:31.85,0:04:33.38,titulek,,0000,0000,0000,,{\fs28}Poèkejte!
+Dialogue: 0,0:04:35.87,0:04:37.82,titulek,,0000,0000,0000,,Prosila bych hrachovou polévku.
+Dialogue: 0,0:04:37.95,0:04:40.41,titulek,,0000,0000,0000,,Chodíš sem poslední dobou èasto.
+Dialogue: 0,0:04:40.41,0:04:43.23,titulek,,0000,0000,0000,,Dáš si ještì nìco?
+Dialogue: 0,0:04:45.79,0:04:48.93,titulek,,0000,0000,0000,,Mimochodem, u jsem dlouho nevidìl toho mròouse.
+Dialogue: 0,0:04:48.93,0:04:53.56,titulek,,0000,0000,0000,,Znáš ho? O nìco menší ne ty, poøádné tøeštidlo.
+Dialogue: 0,0:04:53.74,0:04:54.93,titulek,,0000,0000,0000,,Kuu...
+Dialogue: 0,0:04:55.14,0:04:57.60,titulek,,0000,0000,0000,,Ano, to je to jméno.
+Dialogue: 0,0:04:57.60,0:05:01.72,titulek,,0000,0000,0000,,Take to byla dívka? Poøád jsem jí øíkal "kluku".
+Dialogue: 0,0:05:01.72,0:05:03.81,titulek,,0000,0000,0000,,Vyøiï jí, e jsem to tak nemyslel.
+Dialogue: 0,0:05:04.15,0:05:07.65,titulek,,0000,0000,0000,,S Kuu u mluvit nemohu...
+Dialogue: 0,0:05:08.73,0:05:10.69,titulek,,0000,0000,0000,,Ona u tu není?
+Dialogue: 0,0:05:13.12,0:05:16.50,titulek,,0000,0000,0000,,Slyšel jsem, e se to Šedokøídlım stává, je to pravda?
+Dialogue: 0,0:05:16.73,0:05:18.07,titulek,,0000,0000,0000,,Tak vida.
+Dialogue: 0,0:05:18.53,0:05:20.99,titulek,,0000,0000,0000,,Chceš to zabalit, viï?
+Dialogue: 0,0:05:23.98,0:05:26.57,titulek,,0000,0000,0000,,Nech to bıt, tohle je na mì.
+Dialogue: 0,0:05:26.94,0:05:30.49,titulek,,0000,0000,0000,,Schovej si to, a si budeš dávat celé jídlo.
+Dialogue: 0,0:05:30.92,0:05:32.14,titulek,,0000,0000,0000,,Ale...
+Dialogue: 0,0:05:33.75,0:05:35.33,titulek,,0000,0000,0000,,{\fs28}Omlouvám se za zdrení.
+Dialogue: 0,0:05:35.60,0:05:36.79,titulek,,0000,0000,0000,,{\fs28}Prosím.
+Dialogue: 0,0:05:42.78,0:05:48.65,titulek,,0000,0000,0000,,Podle lidí ve mìstì není zmizení Kuu nièím zvláštním.
+Dialogue: 0,0:05:49.43,0:05:54.00,titulek,,0000,0000,0000,,Jsem si jistá, e za chvíli zapomenou, e kdy existovala.
+Dialogue: 0,0:05:54.73,0:05:55.90,titulek,,0000,0000,0000,,Kuu...
+Dialogue: 0,0:05:56.21,0:05:58.62,titulek,,0000,0000,0000,,Nevadí ti to, Kuu?
+Dialogue: 0,0:06:08.65,0:06:10.12,titulek,,0000,0000,0000,,Hej!
+Dialogue: 0,0:06:17.33,0:06:20.85,titulek,,0000,0000,0000,,Nejsi ty náhodou z té rozbourané usedlosti na jihu?
+Dialogue: 0,0:06:21.27,0:06:22.74,titulek,,0000,0000,0000,,Starı domov.
+Dialogue: 0,0:06:22.74,0:06:24.49,titulek,,0000,0000,0000,,Ah, promiò.
+Dialogue: 0,0:06:24.49,0:06:28.35,titulek,,0000,0000,0000,,Ale vy nám zase pøezdíváte „Vyøazená továrna“, ne?
+Dialogue: 0,0:06:28.35,0:06:30.58,titulek,,0000,0000,0000,,Jsem z vıchodní ètvrti.
+Dialogue: 0,0:06:40.93,0:06:42.03,titulek,,0000,0000,0000,,Hjoko.
+Dialogue: 0,0:06:42.14,0:06:46.11,titulek,,0000,0000,0000,,Ne Hjoko! Hjóko! Jako „zamrzlé jezero“.
+Dialogue: 0,0:06:46.26,0:06:48.24,titulek,,0000,0000,0000,,Jak to, e mì znáš?
+Dialogue: 0,0:06:48.24,0:06:49.50,titulek,,0000,0000,0000,,No nic...
+Dialogue: 0,0:06:49.81,0:06:53.72,titulek,,0000,0000,0000,,Víš, jak byla minulı mìsíc ta hrozná bouøka?
+Dialogue: 0,0:06:53.72,0:06:56.46,titulek,,0000,0000,0000,,Víš nìco o záøi v Západním lese?
+Dialogue: 0,0:06:56.46,0:07:02.45,titulek,,0000,0000,0000,,Kamarádi øíkali, e to tak vypadá,\N kdy Šedokøídlı pøechází pøes Zeï.
+Dialogue: 0,0:07:02.71,0:07:03.77,titulek,,0000,0000,0000,,A tak...
+Dialogue: 0,0:07:03.77,0:07:06.91,titulek,,0000,0000,0000,,Zajímalo nás, jestli to byl nìkdo z rozbour...
+Dialogue: 0,0:07:06.91,0:07:11.00,titulek,,0000,0000,0000,,Vlastnì... chtìl jsem øíct ze Starého domova.
+Dialogue: 0,0:07:12.27,0:07:15.02,titulek,,0000,0000,0000,,Nebyla to náhodou Reki?
+Dialogue: 0,0:07:18.95,0:07:21.92,titulek,,0000,0000,0000,,Áha. Díky Bohu!
+Dialogue: 0,0:07:22.83,0:07:25.73,titulek,,0000,0000,0000,,Kdy jsem se ptal ostatních, nikdo mi...
+Dialogue: 0,0:07:35.86,0:07:37.79,titulek,,0000,0000,0000,,Nikdo ti neodpovìdìl, e?
+Dialogue: 0,0:07:39.04,0:07:40.86,titulek,,0000,0000,0000,,To odešla moje kamarádka.
+Dialogue: 0,0:07:45.24,0:07:46.76,titulek,,0000,0000,0000,,Hej!
+Dialogue: 0,0:08:33.02,0:08:35.32,titulek,,0000,0000,0000,,No tak, Kano!
+Dialogue: 0,0:08:35.32,0:08:36.62,titulek,,0000,0000,0000,,Pøevaøila jsi je.
+Dialogue: 0,0:08:36.62,0:08:38.20,titulek,,0000,0000,0000,,Ne, jsou v poøádku.
+Dialogue: 0,0:08:38.20,0:08:39.00,titulek,,0000,0000,0000,,Nejsou.
+Dialogue: 0,0:08:39.00,0:08:40.14,titulek,,0000,0000,0000,,Kde je Rakka?
+Dialogue: 0,0:08:40.14,0:08:42.91,titulek,,0000,0000,0000,,Volala jsem ji, ale není tu.
+Dialogue: 0,0:08:42.91,0:08:45.33,titulek,,0000,0000,0000,,U tu dlouho nejedla.
+Dialogue: 0,0:08:46.16,0:08:48.45,titulek,,0000,0000,0000,,- Moná drí dietu...?\N- Kano!
+Dialogue: 0,0:08:50.19,0:08:51.58,titulek,,0000,0000,0000,,To byl jen vtip.
+Dialogue: 0,0:08:51.75,0:08:55.63,titulek,,0000,0000,0000,,Vypadá to, e poslední dobou jí radši ve mìstì.
+Dialogue: 0,0:08:55.63,0:08:56.88,titulek,,0000,0000,0000,,Sama?
+Dialogue: 0,0:08:56.88,0:08:58.80,titulek,,0000,0000,0000,,Asi to tak chce.
+Dialogue: 0,0:08:58.80,0:09:02.48,titulek,,0000,0000,0000,,To, e Kuu odešla se jí dotklo mnohem víc, ne kohokoliv z nás.
+Dialogue: 0,0:09:02.48,0:09:03.94,titulek,,0000,0000,0000,,Víte o tom,
+Dialogue: 0,0:09:03.94,0:09:07.77,titulek,,0000,0000,0000,,e Rakka kadı den uklízí Kuuin pokoj?
+Dialogue: 0,0:09:07.77,0:09:11.28,titulek,,0000,0000,0000,,Tak to byla Rakka...
+Dialogue: 0,0:09:11.28,0:09:14.06,titulek,,0000,0000,0000,,Tys tam taky byla, Kano?
+Dialogue: 0,0:09:14.42,0:09:15.98,titulek,,0000,0000,0000,,Jenom jednou.
+Dialogue: 0,0:09:16.43,0:09:20.87,titulek,,0000,0000,0000,,Já vím, Kuu u tu není...
+Dialogue: 0,0:09:21.80,0:09:24.60,titulek,,0000,0000,0000,,Myslím, e na ni Rakka nedokáe zapomenout.
+Dialogue: 0,0:09:25.00,0:09:29.22,titulek,,0000,0000,0000,,Mìli bychom k ní bıt tolerantnìjší, ne se dá zase trošku dohromady.
+Dialogue: 0,0:09:29.22,0:09:31.89,titulek,,0000,0000,0000,,To ano. Ale...
+Dialogue: 0,0:09:31.89,0:09:35.40,titulek,,0000,0000,0000,,Nemùe to takhle jít poøád.
+Dialogue: 0,0:09:36.16,0:09:39.14,titulek,,0000,0000,0000,,Jen kdyby našla sílu se s tím vyrovnat.
+Dialogue: 0,0:09:40.99,0:09:42.36,titulek,,0000,0000,0000,,No jasnì!
+Dialogue: 0,0:09:42.36,0:09:43.76,titulek,,0000,0000,0000,,Poslouchejte!
+Dialogue: 0,0:09:45.42,0:09:47.23,titulek,,0000,0000,0000,,Co mám dìlat?
+Dialogue: 0,0:09:55.12,0:09:56.61,titulek,,0000,0000,0000,,Rozrùstá se to!
+Dialogue: 0,0:09:56.97,0:09:59.00,titulek,,0000,0000,0000,,Ráno to tam ještì nebylo.
+Dialogue: 0,0:10:16.77,0:10:18.31,titulek,,0000,0000,0000,,Dobré ráno!
+Dialogue: 0,0:10:18.31,0:10:19.93,titulek,,0000,0000,0000,,U je ráno!
+Dialogue: 0,0:10:21.24,0:10:22.70,titulek,,0000,0000,0000,,Jsi vzhùru?
+Dialogue: 0,0:10:23.03,0:10:24.37,titulek,,0000,0000,0000,,Ano.
+Dialogue: 0,0:10:25.41,0:10:26.83,titulek,,0000,0000,0000,,To jsem ráda.
+Dialogue: 0,0:10:26.83,0:10:31.12,titulek,,0000,0000,0000,,Trvalo ti to tak dlouho, e u jsem si skoro myslela, e se sejdeme a u veèeøe.
+Dialogue: 0,0:10:31.12,0:10:35.00,titulek,,0000,0000,0000,,Hm... Ale já...
+Dialogue: 0,0:10:37.17,0:10:41.35,titulek,,0000,0000,0000,,Pøíjdu hned, jak budu hotová. Bì napøed.
+Dialogue: 0,0:10:41.35,0:10:44.26,titulek,,0000,0000,0000,,{\fad(0,800)}Tak jo, èekám na tebe.
+Dialogue: 0,0:10:50.16,0:10:52.36,titulek,,0000,0000,0000,,Vypadají jako pravá.
+Dialogue: 0,0:10:52.36,0:10:55.19,titulek,,0000,0000,0000,,No tak, pomoz mi!
+Dialogue: 0,0:10:55.41,0:10:58.50,titulek,,0000,0000,0000,,Já a šít?
+Dialogue: 0,0:10:58.50,0:10:59.95,titulek,,0000,0000,0000,,Dìlá to kadı.
+Dialogue: 0,0:10:59.95,0:11:02.43,titulek,,0000,0000,0000,,Dokonce i dìti nám pomáhají.
+Dialogue: 0,0:11:02.43,0:11:08.14,titulek,,0000,0000,0000,,Kana? Ta plete tak špatnì, e se píchne i pøes rukavice.
+Dialogue: 0,0:11:08.14,0:11:11.22,titulek,,0000,0000,0000,,Prostì nesnáším takové drobné práce.
+Dialogue: 0,0:11:11.22,0:11:14.06,titulek,,0000,0000,0000,,Mistr by urèitì plakal, kdyby tì slyšel.
+Dialogue: 0,0:11:14.06,0:11:15.99,titulek,,0000,0000,0000,,Stroje mi nevadí.
+Dialogue: 0,0:11:15.99,0:11:18.18,titulek,,0000,0000,0000,,Dávají mi pocit vítìzství.
+Dialogue: 0,0:11:18.18,0:11:20.11,titulek,,0000,0000,0000,,Kdy u o tom mluvíme...
+Dialogue: 0,0:11:30.74,0:11:34.32,titulek,,0000,0000,0000,,Do... dobré ráno.
+Dialogue: 0,0:11:36.33,0:11:38.26,titulek,,0000,0000,0000,,Dobré ráno, Rakko.
+Dialogue: 0,0:11:38.80,0:11:41.03,titulek,,0000,0000,0000,,Co se ti stalo s šaty?
+Dialogue: 0,0:11:41.96,0:11:44.70,titulek,,0000,0000,0000,,Nìco jsem si na nì vylila, tak je teï namáèím.
+Dialogue: 0,0:11:44.70,0:11:46.56,titulek,,0000,0000,0000,,Hej, podívej.
+Dialogue: 0,0:11:46.73,0:11:47.90,titulek,,0000,0000,0000,,Co je to?
+Dialogue: 0,0:11:48.32,0:11:49.68,titulek,,0000,0000,0000,,Køídlavice.
+Dialogue: 0,0:11:49.68,0:11:51.31,titulek,,0000,0000,0000,,U se ochladilo,
+Dialogue: 0,0:11:51.31,0:11:53.72,titulek,,0000,0000,0000,,tak jsem si øekla, e je všem ušiju.
+Dialogue: 0,0:11:53.72,0:11:55.82,titulek,,0000,0000,0000,,Umíš šít, Rakko?
+Dialogue: 0,0:11:55.88,0:11:58.72,titulek,,0000,0000,0000,,Ehm... nevím...
+Dialogue: 0,0:11:59.16,0:12:00.88,titulek,,0000,0000,0000,,Vlastnì jsem to ani nikdy nezkoušela.
+Dialogue: 0,0:12:00.88,0:12:02.76,titulek,,0000,0000,0000,,Bezva. Spojenec.
+Dialogue: 0,0:12:02.76,0:12:04.88,titulek,,0000,0000,0000,,Kano, sakra...
+Dialogue: 0,0:12:05.06,0:12:07.29,titulek,,0000,0000,0000,,To nic. Já tì to nauèím.
+Dialogue: 0,0:12:07.29,0:12:08.92,titulek,,0000,0000,0000,,Není to nic tìkého.
+Dialogue: 0,0:12:08.92,0:12:11.71,titulek,,0000,0000,0000,,Roztáhni køídla, vezmu ti míry.
+Dialogue: 0,0:12:12.96,0:12:14.75,titulek,,0000,0000,0000,,Co se ti s nimi stalo?
+Dialogue: 0,0:12:14.75,0:12:16.98,titulek,,0000,0000,0000,,N... Nic.
+Dialogue: 0,0:12:16.98,0:12:20.39,titulek,,0000,0000,0000,,Vypadá to, jako by tì bolely. Staráš se o nì?
+Dialogue: 0,0:12:20.39,0:12:21.55,titulek,,0000,0000,0000,,Moc ne...
+Dialogue: 0,0:12:21.55,0:12:22.78,titulek,,0000,0000,0000,,Mìla bys.
+Dialogue: 0,0:12:22.78,0:12:26.31,titulek,,0000,0000,0000,,To není dobøe, jsi pøeci jenom dívka, ne?
+Dialogue: 0,0:12:29.70,0:12:32.72,titulek,,0000,0000,0000,,Rakko! Co...
+Dialogue: 0,0:12:35.31,0:12:36.90,titulek,,0000,0000,0000,,Pohovka je tvrdá.
+Dialogue: 0,0:12:37.02,0:12:40.33,titulek,,0000,0000,0000,,Ve spánku jsem si je pøeleela.
+Dialogue: 0,0:12:40.33,0:12:42.95,titulek,,0000,0000,0000,,Ty vlastnì ještì nemáš postel, co?
+Dialogue: 0,0:12:42.95,0:12:45.11,titulek,,0000,0000,0000,,Stìhování není ádná sranda.
+Dialogue: 0,0:12:45.56,0:12:47.01,titulek,,0000,0000,0000,,Proè si nevezmeš tøeba tuhle?
+Dialogue: 0,0:12:47.01,0:12:48.83,titulek,,0000,0000,0000,,Nemohla by na ní spát.
+Dialogue: 0,0:12:48.83,0:12:52.73,titulek,,0000,0000,0000,,No jo, proè si nevezmeš postel od Kuu?
+Dialogue: 0,0:12:53.42,0:12:55.35,titulek,,0000,0000,0000,,To je dobrı nápad.
+Dialogue: 0,0:12:55.35,0:12:57.16,titulek,,0000,0000,0000,,Pomùu ti ji pøestìhovat.
+Dialogue: 0,0:12:57.16,0:12:59.01,titulek,,0000,0000,0000,,Ale... není...
+Dialogue: 0,0:12:59.01,0:13:02.98,titulek,,0000,0000,0000,,Myslím, e Kuu by s tím urèitì souhlasila.
+Dialogue: 0,0:13:03.48,0:13:06.63,titulek,,0000,0000,0000,,To moná ano, ale...
+Dialogue: 0,0:13:09.72,0:13:11.03,titulek,,0000,0000,0000,,Rakko!
+Dialogue: 0,0:13:16.68,0:13:17.83,titulek,,0000,0000,0000,,Rakko!
+Dialogue: 0,0:13:18.11,0:13:21.55,titulek,,0000,0000,0000,,Co se dìje? Øekla jsem nìco špatnì?
+Dialogue: 0,0:13:21.85,0:13:24.10,titulek,,0000,0000,0000,,To není tvoje chyba.
+Dialogue: 0,0:13:24.10,0:13:26.50,titulek,,0000,0000,0000,,Pùjdu si s ní promluvit.
+Dialogue: 0,0:13:26.83,0:13:28.09,titulek,,0000,0000,0000,,Já pùjdu taky.
+Dialogue: 0,0:13:28.09,0:13:29.67,titulek,,0000,0000,0000,,Nech to na mnì.
+Dialogue: 0,0:13:29.67,0:13:30.63,titulek,,0000,0000,0000,,Ale...
+Dialogue: 0,0:13:30.63,0:13:32.70,titulek,,0000,0000,0000,,Neboj se.
+Dialogue: 0,0:13:37.65,0:13:38.79,titulek,,0000,0000,0000,,Rakko?
+Dialogue: 0,0:13:47.20,0:13:49.15,titulek,,0000,0000,0000,,Jdu dovnitø, Rakko.
+Dialogue: 0,0:14:04.34,0:14:06.14,titulek,,0000,0000,0000,,Co jsi to...
+Dialogue: 0,0:14:10.16,0:14:11.93,titulek,,0000,0000,0000,,Nechoï sem!
+Dialogue: 0,0:14:49.98,0:14:51.71,titulek,,0000,0000,0000,,To bude dobré...
+Dialogue: 0,0:14:53.75,0:14:56.39,titulek,,0000,0000,0000,,Roste to strašnì rychle.
+Dialogue: 0,0:15:01.51,0:15:03.26,titulek,,0000,0000,0000,,Neboj se.
+Dialogue: 0,0:15:03.66,0:15:07.65,titulek,,0000,0000,0000,,Jsem... nemocná?
+Dialogue: 0,0:15:10.78,0:15:12.18,titulek,,0000,0000,0000,,Tohle je nìco jiného.
+Dialogue: 0,0:15:12.49,0:15:14.84,titulek,,0000,0000,0000,,Nejsi nemocná.
+Dialogue: 0,0:15:14.84,0:15:19.39,titulek,,0000,0000,0000,,Rakko, neudìlala jsi nic špatného.
+Dialogue: 0,0:15:30.08,0:15:31.59,titulek,,0000,0000,0000,,Štípe to...
+Dialogue: 0,0:15:36.96,0:15:39.13,titulek,,0000,0000,0000,,Protoe sis støíhala køídla.
+Dialogue: 0,0:15:39.72,0:15:42.53,titulek,,0000,0000,0000,,Zítra si je umyj ve studené vodì.
+Dialogue: 0,0:15:42.53,0:15:45.43,titulek,,0000,0000,0000,,A mohla by ses taky trochu vyspat.
+Dialogue: 0,0:15:45.43,0:15:48.85,titulek,,0000,0000,0000,,To je lék?
+Dialogue: 0,0:15:49.46,0:15:52.90,titulek,,0000,0000,0000,,Mìla jsem pravdu... jsem nemocná?
+Dialogue: 0,0:15:53.23,0:15:56.76,titulek,,0000,0000,0000,,Ne, tohle je jen barva která pochází z jednoho prastarého stromu.
+Dialogue: 0,0:15:56.76,0:16:00.69,titulek,,0000,0000,0000,,Má oklamat zlé oèi.
+Dialogue: 0,0:16:00.69,0:16:02.74,titulek,,0000,0000,0000,,Prastarého stromu?
+Dialogue: 0,0:16:03.24,0:16:05.90,titulek,,0000,0000,0000,,Myslím, e se jmenuje Jukirinbuku.
+Dialogue: 0,0:16:05.90,0:16:08.01,titulek,,0000,0000,0000,,Roste jenom blízko Zdi.
+Dialogue: 0,0:16:08.44,0:16:11.52,titulek,,0000,0000,0000,,Øíká se mu tak, protoe jeho kmen je všelijak pokroucenı.
+Dialogue: 0,0:16:12.10,0:16:14.93,titulek,,0000,0000,0000,,Ale ty by ses teï ke Zdi nemìla pøibliovat.
+Dialogue: 0,0:16:15.59,0:16:16.88,titulek,,0000,0000,0000,,Je to nebezpeèné.
+Dialogue: 0,0:16:17.46,0:16:21.70,titulek,,0000,0000,0000,,Reki, jak jsi získala tuhle vzácnou medicínu?
+Dialogue: 0,0:16:22.15,0:16:25.55,titulek,,0000,0000,0000,,A jak to, e toho o ní tolik víš?
+Dialogue: 0,0:16:28.30,0:16:31.72,titulek,,0000,0000,0000,,Mìsto je tu pro Šedokøídlé.
+Dialogue: 0,0:16:31.72,0:16:34.33,titulek,,0000,0000,0000,,Zeï je tu proto, aby nás chránila.
+Dialogue: 0,0:16:34.33,0:16:37.94,titulek,,0000,0000,0000,,Dobøí Šedokøídlí vedou ivot v našem mìstì
+Dialogue: 0,0:16:37.94,0:16:40.41,titulek,,0000,0000,0000,,a kdy je èas, pøekroèí Zeï.
+Dialogue: 0,0:16:41.10,0:16:45.85,titulek,,0000,0000,0000,,Ale jsou i Šedokøídlí, kterım mìsto nepoehná.
+Dialogue: 0,0:16:46.13,0:16:50.46,titulek,,0000,0000,0000,,Ti si nedokáí vzpomenout na to,\N co se jim zdálo v kokonu.
+Dialogue: 0,0:16:50.46,0:16:52.65,titulek,,0000,0000,0000,,Dokonce ani v jejich „Den vzlétnutí“.
+Dialogue: 0,0:16:53.38,0:16:58.65,titulek,,0000,0000,0000,,Pro nì se stane Zeï klecí.
+Dialogue: 0,0:16:59.74,0:17:04.11,titulek,,0000,0000,0000,,Øíká se jim Èernokøídlí.
+Dialogue: 0,0:17:05.15,0:17:06.58,titulek,,0000,0000,0000,,Já...
+Dialogue: 0,0:17:07.24,0:17:09.02,titulek,,0000,0000,0000,,Ty taková nejsi.
+Dialogue: 0,0:17:09.26,0:17:14.64,titulek,,0000,0000,0000,,Vidìla jsem tvùj kokon a smála jsem se,\N kdy jsem z tvıch køídel smıvala krev.
+Dialogue: 0,0:17:14.64,0:17:18.08,titulek,,0000,0000,0000,,Tvá køídla jsou krásnì šedá.
+Dialogue: 0,0:17:18.50,0:17:20.58,titulek,,0000,0000,0000,,Patøíš mezi dobré Šedokøídlé.
+Dialogue: 0,0:17:20.76,0:17:22.18,titulek,,0000,0000,0000,,Narozdíl ode mne...
+Dialogue: 0,0:17:22.18,0:17:24.61,titulek,,0000,0000,0000,,Reki? Ale ty nej...
+Dialogue: 0,0:17:27.62,0:17:32.25,titulek,,0000,0000,0000,,Co jsem se nabreèela kvùli svım èernım flekatım køídlùm.
+Dialogue: 0,0:17:33.63,0:17:36.54,titulek,,0000,0000,0000,,Byla jsem poznamenaná.
+Dialogue: 0,0:17:37.88,0:17:40.95,titulek,,0000,0000,0000,,Nedokázala jsem si vzpomenout na sen z kokonu.
+Dialogue: 0,0:17:41.41,0:17:45.13,titulek,,0000,0000,0000,,Všichni se mì kvùli mım køídlùm báli.
+Dialogue: 0,0:17:45.82,0:17:48.72,titulek,,0000,0000,0000,,Dokonce i Nemu se mi vyhıbala.
+Dialogue: 0,0:17:49.05,0:17:54.22,titulek,,0000,0000,0000,,Kdyby nebylo Kuramori, byla bych asi úplnì sama.
+Dialogue: 0,0:17:54.57,0:17:55.97,titulek,,0000,0000,0000,,Kuramori?
+Dialogue: 0,0:18:01.79,0:18:03.77,titulek,,0000,0000,0000,,Byla krásná.
+Dialogue: 0,0:18:04.61,0:18:05.75,titulek,,0000,0000,0000,,Ano.
+Dialogue: 0,0:18:06.90,0:18:12.21,titulek,,0000,0000,0000,,Byla vychovatelka a pro mì a Nemu byla také skvìlá uèitelka.
+Dialogue: 0,0:18:12.44,0:18:18.44,titulek,,0000,0000,0000,,Kdy u byla kvùli mnì úplnì utrápená,\Nzašla hluboko do lesa, aby mi pøinesla tenhle lék.
+Dialogue: 0,0:18:19.19,0:18:24.00,titulek,,0000,0000,0000,,Ona, Nemu a já jsme si hrály v pokoji pro hosty.
+Dialogue: 0,0:18:24.23,0:18:27.16,titulek,,0000,0000,0000,,Kuramori tam umìla vykouzlit bájeènou atmosféru.
+Dialogue: 0,0:18:27.97,0:18:31.26,titulek,,0000,0000,0000,,Kuramori se mì nebála.
+Dialogue: 0,0:18:31.75,0:18:33.73,titulek,,0000,0000,0000,,Vdycky stála pøi mnì.
+Dialogue: 0,0:18:34.28,0:18:38.09,titulek,,0000,0000,0000,,Ne z lítosti. Prostì tu pro mì... byla.
+Dialogue: 0,0:18:39.09,0:18:41.26,titulek,,0000,0000,0000,,Byla asi hodná, e?
+Dialogue: 0,0:18:41.46,0:18:46.14,titulek,,0000,0000,0000,,Ale já si myslím, e ty jsi taky hodná, Reki.
+Dialogue: 0,0:18:47.71,0:18:50.16,titulek,,0000,0000,0000,,Byla jsem zloèinec.
+Dialogue: 0,0:18:50.56,0:18:53.45,titulek,,0000,0000,0000,,Pøed pìti roky Kuramori zmizela.
+Dialogue: 0,0:18:54.09,0:18:57.64,titulek,,0000,0000,0000,,Tenkrát jsem ještì nevìdìla nic o „Dni vzlétnutí“.
+Dialogue: 0,0:18:57.64,0:19:00.22,titulek,,0000,0000,0000,,Myslela jsem si, e mì opustila.
+Dialogue: 0,0:19:00.98,0:19:07.82,titulek,,0000,0000,0000,,Nemu mìla strach, a tak v knihovnì\Nnašla nìjaké texty o „Dni vzlétnutí“ a øekla mi o tom.
+Dialogue: 0,0:19:07.82,0:19:11.21,titulek,,0000,0000,0000,,Ale odmítla jsem tomu vìøit.
+Dialogue: 0,0:19:11.62,0:19:14.12,titulek,,0000,0000,0000,,Nedokázala jsem pochopit, co se stalo.
+Dialogue: 0,0:19:14.69,0:19:19.97,titulek,,0000,0000,0000,,Všechno jsem nesnášela a øíkala jsem Nemu hrozné vìci.
+Dialogue: 0,0:19:20.85,0:19:23.85,titulek,,0000,0000,0000,,Utekla jsem ze Starého domova.
+Dialogue: 0,0:19:23.85,0:19:27.62,titulek,,0000,0000,0000,,Tím, e jsem utekla,\N jsem zopakovala své døívìjší chyby.
+Dialogue: 0,0:19:28.16,0:19:34.01,titulek,,0000,0000,0000,,Nakonec mì chytila domobrana a byla jsem potrestána Federací.
+Dialogue: 0,0:19:34.59,0:19:38.80,titulek,,0000,0000,0000,,Ale tebe nemají za co trestat, Rakko.
+Dialogue: 0,0:19:39.20,0:19:42.25,titulek,,0000,0000,0000,,Take to musí bıt nìjakı omyl.
+Dialogue: 0,0:19:42.25,0:19:44.63,titulek,,0000,0000,0000,,Urèitì se to brzy spraví.
+Dialogue: 0,0:19:45.71,0:19:49.71,titulek,,0000,0000,0000,,Reki, poøád si nemùeš vzpomenout, co se ti zdálo?
+Dialogue: 0,0:19:50.51,0:19:51.96,titulek,,0000,0000,0000,,Poøád mi tam nìco chybí.
+Dialogue: 0,0:19:52.45,0:19:56.26,titulek,,0000,0000,0000,,Zkouším malovat to, na co si vzpomenu.
+Dialogue: 0,0:19:57.76,0:20:01.90,titulek,,0000,0000,0000,,Mám noèní mùry ode dne, kdy jsem sem pøišla.
+Dialogue: 0,0:20:03.64,0:20:07.79,titulek,,0000,0000,0000,,Ledovou nocí plul rudı mìsíc.
+Dialogue: 0,0:20:08.26,0:20:12.94,titulek,,0000,0000,0000,,Šla jsem sama po cestì sypané štìrkem.
+Dialogue: 0,0:20:13.33,0:20:15.88,titulek,,0000,0000,0000,,A pak se stalo nìco zlého.
+Dialogue: 0,0:20:16.72,0:20:18.42,titulek,,0000,0000,0000,,A na to si nemohu vzpomenout.
+Dialogue: 0,0:20:18.42,0:20:20.57,titulek,,0000,0000,0000,,Je to strašné.
+Dialogue: 0,0:20:21.36,0:20:24.22,titulek,,0000,0000,0000,,Budím se vlastním køikem.
+Dialogue: 0,0:20:24.97,0:20:27.45,titulek,,0000,0000,0000,,Tak je to u od zaèátku.
+Dialogue: 0,0:20:28.19,0:20:30.75,titulek,,0000,0000,0000,,Nerozumím tomu.
+Dialogue: 0,0:20:31.18,0:20:35.97,titulek,,0000,0000,0000,,Proè jsou Šedokøídlí poehnaní a Èernokøídlí prokletí...
+Dialogue: 0,0:20:36.64,0:20:40.41,titulek,,0000,0000,0000,,Proè jsem se narodila jako Èernokøídlá...
+Dialogue: 0,0:20:52.26,0:20:55.76,Napis,,0000,0000,0000,,{\a2}Promiò
+Dialogue: 0,0:21:01.11,0:21:06.05,titulek,,0000,0000,0000,,Vdycky jsem si myslela, e je tohle mìsto jako nìjakı zábavní park.
+Dialogue: 0,0:21:06.78,0:21:10.99,titulek,,0000,0000,0000,,Ale nehledì na to, jak jsou všichni milí,
+Dialogue: 0,0:21:10.99,0:21:13.93,titulek,,0000,0000,0000,,pro koho se tu vlastnì snaíme?
+Dialogue: 0,0:21:14.21,0:21:16.35,titulek,,0000,0000,0000,,Dìjí se smutné vìci.
+Dialogue: 0,0:21:16.82,0:21:20.55,titulek,,0000,0000,0000,,Jsou tu prokletí, kteøí trpí.
+Dialogue: 0,0:21:21.13,0:21:24.44,titulek,,0000,0000,0000,,Kdo jsou Šedokøídlí?
+Dialogue: 0,0:22:50.53,0:22:51.96,titulek,,0000,0000,0000,,Nazdárek!
+Dialogue: 0,0:22:52.50,0:22:55.00,titulek,,0000,0000,0000,,Vítr u je zase o trošku studenìjší.
+Dialogue: 0,0:22:55.44,0:22:58.89,titulek,,0000,0000,0000,,Proto si Šedokøídlí vyrábìjí køídlavice,
+Dialogue: 0,0:22:58.89,0:23:01.00,titulek,,0000,0000,0000,,aby se uchránili pøed zimou.
+Dialogue: 0,0:23:01.34,0:23:06.22,titulek,,0000,0000,0000,,Abychom uchránili sami sebe pøed ledovım zimním vìtrem,
+Dialogue: 0,0:23:06.59,0:23:09.02,titulek,,0000,0000,0000,,musíme se uzavøít.
+Dialogue: 0,0:23:09.02,0:23:13.80,titulek,,0000,0000,0000,,Ale a pøijde opravdu zima,\N neuzavøou se potom i naše srdce?
+Dialogue: 0,0:23:14.31,0:23:19.79,titulek,,0000,0000,0000,,Kuu, za Zdí je urèitì teplo, viï?
+
+Dialogue: 0,0:21:33.98,0:21:39.93,Ending,,0000,0000,0000,Karaoke,{\k74}Na{\k129}ze {\k14}wa{\k24}su{\k24}re{\k49}ta{\k65}i {\k216}no?
+Dialogue: 0,0:21:33.98,0:21:39.93,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H442200&}Proè si pøeješ zapomenout?
+Dialogue: 0,0:21:33.98,0:21:39.93,Ending.kanji,,0000,0000,0000,Karaoke,{\k74}‚È{\k129}‚º{\k0}@{\k38}–Y{\k24}‚ê{\k49}‚½{\k65}‚¢{\k216}‚ÌH
+Dialogue: 0,0:21:39.93,0:21:45.29,Ending,,0000,0000,0000,Karaoke,{\k77}ne{\k136}e {\k11}o{\k22}mo{\k34}i{\k26}da{\k85}shi{\k145}te
+Dialogue: 0,0:21:39.93,0:21:45.29,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H884400&}Vzpomeò si jen.
+Dialogue: 0,0:21:39.93,0:21:45.29,Ending.kanji,,0000,0000,0000,Karaoke,{\k77}‚Ë{\k136}‚¦@{\k33}v{\k34}‚¢{\k26}o{\k85}‚µ{\k145}‚Ä
+Dialogue: 0,0:21:45.29,0:21:51.24,Ending,,0000,0000,0000,Karaoke,{\k39}a{\k36}ta{\k76}ta{\k66}ka{\k92}i {\k28}ho{\k31}ho {\k96}ni {\k71}fu{\k60}ru
+Dialogue: 0,0:21:45.29,0:21:51.24,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H996600&}Slzy touhy dopadají
+Dialogue: 0,0:21:45.29,0:21:51.24,Ending.kanji,,0000,0000,0000,Karaoke,{\k151}’g{\k66}‚©{\k92}‚¢{\k59}–j{\k96}‚É{\k71}~{\k60}‚é
+Dialogue: 0,0:21:51.24,0:21:58.00,Ending,,0000,0000,0000,Karaoke,{\k42}na{\k42}mi{\k117}da {\k27}no {\k82}ne{\k67}ga{\k299}i
+Dialogue: 0,0:21:51.24,0:21:58.00,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H908900&}na tvé horké tváøe.
+Dialogue: 0,0:21:51.24,0:21:58.00,Ending.kanji,,0000,0000,0000,Karaoke,{\k201}—Ü{\k27}‚Ì{\k149}Šè{\k299}‚¢
+Dialogue: 0,0:21:58.00,0:22:03.95,Ending,,0000,0000,0000,Karaoke,{\k76}Na{\k121}ze {\k16}fu{\k16}ru{\k44}e{\k36}na{\k76}ga{\k210}ra
+Dialogue: 0,0:21:58.00,0:22:03.95,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H608910&}Proè hledáš to,
+Dialogue: 0,0:21:58.00,0:22:03.95,Ending.kanji,,0000,0000,0000,Karaoke,{\k76}‚È{\k121}‚º@{\k16}‚Ó{\k16}‚é{\k44}‚¦{\k36}‚È{\k76}‚ª{\k210}‚ç
+Dialogue: 0,0:22:03.95,0:22:09.39,Ending,,0000,0000,0000,Karaoke,{\k64}I{\k127}ma {\k22}mo{\k17}to{\k37}me{\k34}a{\k69}u {\k174}no
+Dialogue: 0,0:22:03.95,0:22:09.39,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H609010&}èeho se bojíš?
+Dialogue: 0,0:22:03.95,0:22:09.39,Ending.kanji,,0000,0000,0000,Karaoke,{\k191}¡@{\k39}‹{\k37}‚ß{\k34}‚ {\k69}‚¤{\k174}‚Ì
+Dialogue: 0,0:22:09.39,0:22:16.15,Ending,,0000,0000,0000,Karaoke,{\k32}Ki{\k27}mi {\k81}da{\k73}ke {\k80}wo {\k39}na{\k43}n{\k65}do {\k69}de{\k167}mo
+Dialogue: 0,0:22:09.39,0:22:16.15,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H008800&}Chci tì obejmout
+Dialogue: 0,0:22:09.39,0:22:16.15,Ending.kanji,,0000,0000,0000,Karaoke,{\k59}ŒN{\k81}‚¾{\k73}‚¯{\k80}‚ğ{\k82}‰½{\k65}“x{\k69}‚Å{\k167}‚à
+Dialogue: 0,0:22:16.15,0:22:22.17,Ending,,0000,0000,0000,Karaoke,{\k29}da{\k24}ki{\k39}shi{\k52}me{\k34}ta{\k40}i {\k66}ka{\k318}ra
+Dialogue: 0,0:22:16.15,0:22:22.17,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H009920&}napoøád.
+Dialogue: 0,0:22:16.15,0:22:22.17,Ending.kanji,,0000,0000,0000,Karaoke,{\k29}•ø{\k24}‚«{\k39}‚µ{\k52}‚ß{\k34}‚½{\k40}‚¢{\k66}‚©{\k318}‚ç
+Dialogue: 0,0:22:22.17,0:22:27.35,Ending,,0000,0000,0000,Karaoke,{\k72}A{\k67}o{\k79}i {\k21}ho{\k49}shi {\k83}no {\k57}u{\k90}mi
+Dialogue: 0,0:22:22.17,0:22:27.35,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H00aa00&}Moøe modrıch hvìzd,
+Dialogue: 0,0:22:22.17,0:22:27.35,Ending.kanji,,0000,0000,0000,Karaoke,{\k143}Â{\k81}‚¢{\k72}¯{\k85}‚Ì{\k137}ŠC
+Dialogue: 0,0:22:27.35,0:22:33.26,Ending,,0000,0000,0000,Karaoke,{\k33}Na{\k25}mi{\k71}ma{\k103}ni {\k63}ta{\k58}da{\k83}yo{\k47}u {\k43}ha{\k65}ne
+Dialogue: 0,0:22:27.35,0:22:33.26,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H008060&}pírka na vlnách
+Dialogue: 0,0:22:27.35,0:22:33.26,Ending.kanji,,0000,0000,0000,Karaoke,{\k58}”g{\k71}ŠÔ{\k103}‚É{\k204}•Y{\k47}‚¤{\k108}‰H
+Dialogue: 0,0:22:33.26,0:22:39.27,Ending,,0000,0000,0000,Karaoke,{\k32}Ki{\k51}e{\k67}te{\k77}yu{\k77}ku {\k42}ka{\k17}na{\k78}shi{\k82}mi {\k78}wa
+Dialogue: 0,0:22:33.26,0:22:39.27,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H00aaaa&}zvolna mizí.
+Dialogue: 0,0:22:33.26,0:22:39.27,Ending.kanji,,0000,0000,0000,Karaoke,{\k32}Á{\k51}‚¦{\k67}‚Ä{\k77}s{\k77}‚­{\k59}ˆ£{\k78}‚µ{\k82}‚İ{\k78}‚Í
+Dialogue: 0,0:22:39.27,0:22:45.24,Ending,,0000,0000,0000,Karaoke,{\k29}A{\k48}shi{\k36}ta {\k44}e {\k151}no {\k34}i{\k36}no{\k34}ri {\k43}na{\k142}no
+Dialogue: 0,0:22:39.27,0:22:45.24,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H004080&}Zítøejší modlitbou je zármutek.
+Dialogue: 0,0:22:39.27,0:22:45.24,Ending.kanji,,0000,0000,0000,Karaoke,{\k77}–¾{\k36}“ú{\k44}‚Ö{\k151}‚Ì{\k70}‹F{\k34}‚è{\k43}‚È{\k142}‚Ì
+Dialogue: 0,0:22:45.24,0:22:49.46,Ending,,0000,0000,0000,Karaoke,{\k59}Blue {\k363}Flow
+Dialogue: 0,0:22:45.24,0:22:49.46,Ending.cesky,,0000,0000,0000,,{\fad(250,250)\c&H006090&}Modrı proud
+Dialogue: 0,0:22:45.24,0:22:49.46,Ending.kanji,,0000,0000,0000,Karaoke,{\k59}B l u e {\k363}F l o w

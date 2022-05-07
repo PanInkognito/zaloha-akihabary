@@ -1,0 +1,370 @@
+﻿[Script Info]
+; Written by VisualSubSync 1.2.32.00
+Title: [Kara] Czech (CZ)
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[v4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic,  Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialog,Roboto Bold,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,30,0
+Style: Znělka,Roboto Black,23,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,-1,0,0,100,100,0,0,1,1.5,0,2,20,20,30,0
+Style: Útok,Roboto Black,29,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,2,0,2,20,20,30,0
+Style: Popis,Roboto Bold,24,&H00FFFFFF,&H0000FFFF,&H00000000,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,2,0,8,20,20,30,0
+Style: Název epizody,Roboto Black,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,2,0,2,20,20,15,0
+Style: Kurzíva,Roboto Bold,23,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,15,15,30,0
+Style: Vypravěč,Roboto Black,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,15,15,30,0
+Style: Řeč v pozadí,Roboto Bold,24,&H00D8D8D8,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,30,0
+Style: Podpis,Roboto Black,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,2,0,2,20,20,15,0
+Style: Vzpomínka,Roboto Bold,24,&H00FFFFFF,&H0000FFFF,&H00959595,&H7F404040,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,30,0
+Style: Marco,Elephant,60,&H00EF01D8,&H0000FFFF,&H00FFFFFF,&HFFFFFFFF,0,0,0,0,100,320,0,0,1,2.5,1,3,30,20,25,0
+Style: Bělovous,Tahoma,36,&H0000FFFF,&H0000FFFF,&H00020202,&HFFFFFFFF,-1,0,0,0,120,100,0,0,1,2,1,2,20,20,60,0
+Style: Divize,Tahoma,18,&H00FFFFFF,&H0000FFFF,&H00020202,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,60,0
+Style: Kandžuro,Elephant,96,&H00FF3737,&H0000FFFF,&H00040404,&HFFFFFFFF,0,0,0,0,100,100,0,0,1,2.5,1,3,30,20,25,0
+Style: Kurozumi,Tahoma,36,&H00800000,&H0000FFFF,&H00FFFFFF,&HFFFFFFFF,-1,0,0,0,120,100,0,0,1,2,1,2,20,20,60,0
+Style: Informátor šóguna Oročiho,Tahoma,20,&H00800000,&H0000FFFF,&H00FCFCFC,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,60,0
+Style: Kandžuro 2,Elephant,60,&H000080FF,&H0000FFFF,&H00020202,&HFFFFFFFF,0,0,0,0,100,100,0,0,1,2.5,1,3,30,20,25,0
+Style: Strážci,Elephant,60,&H0000D500,&H0000FFFF,&H00070707,&HFFFFFFFF,0,0,0,0,100,230,0,0,1,2.5,1,3,30,20,25,0
+Style: Kočkolebcovi podřízení,Tahoma,28,&H0000FFFF,&H0000FFFF,&H00020202,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,60,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.71,0:00:13.59,Znělka,,0000,0000,0000,,{\k50}{\c&H7fff00&}Mu{\k16}gen{\k16}da{\k25}i{\k8} {\k16}no{\k16} {\k16}či{\k16}zu{\k27} {\k16}hi{\k16}ro{\k16}ge{\k0}
+Dialogue: 0,0:00:10.71,0:00:13.59,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:00:13.59,0:00:16.57,Znělka,,0000,0000,0000,,{\k25}{\c&H7fff00&}ha{\k18}te{\k18}ši{\k27}na{\k40}i{\k9} {\k20}a{\k18}no{\k20} {\k18}ba{\k18}šo{\k9} {\k9}e{\k0}
+Dialogue: 0,0:00:13.59,0:00:16.57,Znělka,,0000,0000,0000,,k místu, které nezná konce
+Dialogue: 0,0:00:16.58,0:00:21.32,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Le{\k28}t's{\k9} {\k19}sa{\k10}il{\k25} {\k19}on{\k9} {\k27}ta{\k27}ka{\k50}ku{\k9} {\k30}ho{\k9} {\k30}wo{\k9} {\k24}a{\k24}ge{\k25}te{\k0}
+Dialogue: 0,0:00:16.58,0:00:21.32,Znělka,,0000,0000,0000,,Vyplujme, horečně zvedněte plachty
+Dialogue: 0,0:00:21.33,0:00:24.59,Znělka,,0000,0000,0000,,{\k15}{\c&H7fff00&}Ka{\k40}ze{\k13} {\k30}ni{\k13} {\k46}no{\k26}re{\k0}
+Dialogue: 0,0:00:21.33,0:00:24.59,Znělka,,0000,0000,0000,,Chytíme vítr
+Dialogue: 0,0:00:29.21,0:00:33.64,Znělka,,0000,0000,0000,,{\k15}{\c&H7fff00&}Do{\k10}n't{\k9} {\k10}gi{\k10}ve{\k9} {\k50}up{\k9} {\k20}ka{\k19}ku{\k19}go{\k9} {\k37}ki{\k35}me{\k35}ta{\k35} no{\k9} {\k27}na{\k19}ra{\k0}
+Dialogue: 0,0:00:29.21,0:00:33.64,Znělka,,0000,0000,0000,,Nevzdávej se, nechybí-li ti odhodlání
+Dialogue: 0,0:00:33.65,0:00:36.55,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Hi{\k17}ki{\k27}ka{\k20}e{\k17}ši{\k9} {\k17}wa{\k9} {\k17}ši{\k17}na{\k9}i{\k9} {\k17}sa{\k0}
+Dialogue: 0,0:00:33.65,0:00:36.55,Znělka,,0000,0000,0000,,Nikdy se neohlížej zpět
+Dialogue: 0,0:00:36.56,0:00:40.35,Znělka,,0000,0000,0000,,{\k35}{\c&H7fff00&}Wa{\k30}ra{\k30}i{\k30}to{\k30}ba{\k110}se{\k12} {\k12}a{\k24}ra{\k20}na{\k20}mi{\k0}
+Dialogue: 0,0:00:36.56,0:00:40.35,Znělka,,0000,0000,0000,,Směj se v rozbouřených vodách
+Dialogue: 0,0:00:40.36,0:00:45.00,Znělka,,0000,0000,0000,,{\25}{\c&H7fff00&}Sho{\k18}ut{\k9} {\k15}it{\k9} {\k9}o{\k70}ut{\k9} {\k20}ko{\k20}ko{\k20}ro{\k9} {\k25}ku{\k30}da{\k30}ke{\k30}na{\k15}i{\k9} {\k30}jó{\k9} {\k18}ni{\k0}
+Dialogue: 0,0:00:40.36,0:00:45.00,Znělka,,0000,0000,0000,,Vykřič se, než se tvá duše roztříští
+Dialogue: 0,0:00:45.01,0:00:47.14,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Na{\k30}ka{\k30}ma{\k8} {\k30}ga{\k8} {\k10}i{\k30}run{\k8} {\k17}da{\k0}
+Dialogue: 0,0:00:45.01,0:00:47.14,Znělka,,0000,0000,0000,,Kámoši jsou tu pro tebe
+Dialogue: 0,0:00:47.15,0:00:53.70,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Ho{\k40}ra{\k14} {\k20}cu{\k40}jo{\k20}ga{\k10}ri{\k14} {\k24}nan{\k10}te{\k14} {\k14}i{\k28}ra{\k30}na{\k20}i{\k14} {\k50}i{\k60}cu{\k60} da{\k213}tte
+Dialogue: 0,0:00:47.15,0:00:53.70,Znělka,,0000,0000,0000,,Hej, nemusíš si hrát na tvrďáka
+Dialogue: 0,0:00:53.71,0:00:57.76,Znělka,,0000,0000,0000,,{\k65}{\c&H7fff00&}Ja{\k25}mi{\k10} {\k25}ga{\k10} {\k20}hi{\k20}ki{\k31}sa{\k17}ko{\k27}u{\k10} {\k21}toš{\k14}{\k36}ite{\k21}mo{\k42}
+Dialogue: 0,0:00:53.71,0:00:57.76,Znělka,,0000,0000,0000,,I když se tě temnota snaží pohltit
+Dialogue: 0,0:00:57.77,0:01:00.43,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}Ho{\k13}ra{\k6} {\k14}Bra{\k13}ve{\k6} {\k13}it{\k6} {\k45}out{\k6} {\k36}dai{\k27}džó{\k30}bu{\k6} {\k13}sa{\k0}
+Dialogue: 0,0:00:57.77,0:01:00.43,Znělka,,0000,0000,0000,,Neboj se, bude to dobré
+Dialogue: 0,0:01:00.44,0:01:04.71,Znělka,,0000,0000,0000,,{\k60}{\c&H7fff00&}Uči{\k22}ja{\k30}bu{\k30}ru{\k11} {\k33}sai{\k33}kjó{\k20} {\k22}no{\k11} {\k30}ki{\k30}zu{\k22}na{\k0}
+Dialogue: 0,0:01:00.44,0:01:04.71,Znělka,,0000,0000,0000,,Silná pouta se tím proderou
+Dialogue: 0,0:01:04.72,0:01:07.48,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}Mu{\k20}gen{\k20}da{\k15}i{\k8} {\k16}no{\k16} {\k16}či{\k16}zu{\k27} {\k16}hi{\k16}ro{\k16}ge{\k0}
+Dialogue: 0,0:01:04.72,0:01:07.48,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:01:07.49,0:01:10.02,Znělka,,0000,0000,0000,,{\k5}{\c&H7fff00&}ha{\k18}te{\k18}ši{\k20}na{\k40}i{\k9} {\k20}a{\k18}no{\k15} {\k18}ba{\k18}šo{\k8} {\k10}e{\k24}
+Dialogue: 0,0:01:07.49,0:01:10.02,Znělka,,0000,0000,0000,,k místu, které nezná konce
+Dialogue: 0,0:01:10.03,0:01:15.62,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}Fu{\k50}mi{\k60}da{\k60}se{\k12} {\k25}jú{\k25}ki{\k12} {\k25}no{\k12} {\k12}i{\k100}po{\k12} {\k42}Dream{\k10}in'{\k12} {\k25}on{\k-5}
+Dialogue: 0,0:01:10.03,0:01:15.62,Znělka,,0000,0000,0000,,Neboj se udělat krok vpřed, sni dál
+Dialogue: 0,0:01:15.62,0:01:18.57,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Mu{\k26}gen{\k16}da{\k15}i{\k8} {\k16}no{\k16} {\k16}či{\k16}zu{\k27} {\k25}hi{\k25}ro{\k16}ge{\k0}
+Dialogue: 0,0:01:15.62,0:01:18.57,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:01:18.58,0:01:21.04,Znělka,,0000,0000,0000,,{\k17}{\c&H7fff00&}Či{\k25}ka{\k15}i{\k8} {\k35}a{\k30}cu{\k30}me{\k20}ta{\k8} {\k20}ha{\k20}ta{\k18}
+Dialogue: 0,0:01:18.58,0:01:21.04,Znělka,,0000,0000,0000,,Vlajka, pod kterou se přísahá
+Dialogue: 0,0:01:21.08,0:01:23.75,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Ta{\k40}ta{\k40}kai{\k8} {\k25}cu{\k30}du{\k25}ke{\k25}te{\k8} {\k14}i{\k16}ku{\k0}
+Dialogue: 0,0:01:21.08,0:01:23.75,Znělka,,0000,0000,0000,,Bojuj dál
+Dialogue: 0,0:01:23.79,0:01:28.51,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}“Dži{\k70}bun{\k13} {\k50}dži{\k60}šin”{\k13} {\k45}cu{\k30}ra{\k40}nu{\k30}ke{\k92}
+Dialogue: 0,0:01:23.79,0:01:28.51,Znělka,,0000,0000,0000,,Zůstaň svůj
+Dialogue: 0,0:01:28.55,0:01:33.25,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Cu{\k35}ka{\k27}mi{\k13} {\k26}to{\k26}ru{\k13} {\k120}Dream{\k39}in'{\k13} {\k26}on{\k0}
+Dialogue: 0,0:01:28.55,0:01:33.25,Znělka,,0000,0000,0000,,Chop se toho, sni dál
+Dialogue: 0,0:01:33.26,0:01:39.47,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}Ma{\k20}ke{\k35}ra{\k30}re{\k30}na{\k120}i{\k15} {\k20}ni{\k20}ge{\k15} {\k10}ja{\k15} {\k25}ši{\k29}na{\k15}i{\k0}
+Dialogue: 0,0:01:33.26,0:01:39.47,Znělka,,0000,0000,0000,,Nemůžu prohrát, nikdy neuteču
+Dialogue: 0,0:01:39.48,0:01:41.98,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}De{\k24}ai{\k9} {\k24}wa{\k18}ka{\k27}re{\k9} {\k18}ko{\k25}e{\k9} {\k20}i{\k18}ko{\k9}u{\k0}
+Dialogue: 0,0:01:39.48,0:01:41.98,Znělka,,0000,0000,0000,,Potkávat se a loučit a jít dál
+Dialogue: 0,0:01:41.99,0:01:46.07,Znělka,,0000,0000,0000,,{\k50}{\c&H7fff00&}Zen{\k50}bu{\k14} {\k30}ta{\k45}ka{\k45}ra{\k45}mo{\k28}no{\k0}
+Dialogue: 0,0:01:41.99,0:01:46.07,Znělka,,0000,0000,0000,,Všechno je to poklad
+Dialogue: 0,0:01:46.78,0:01:49.28,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Mu{\k16}gen{\k16}da{\k25}i{\k8} {\k15}no{\k16} {\k16}či{\k16}zu{\k27} {\k16}hi{\k20}ro{\k16}ge{\k0}
+Dialogue: 0,0:01:46.78,0:01:49.28,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:01:49.32,0:01:52.41,Znělka,,0000,0000,0000,,{\k45}{\c&H7fff00&}ha{\k18}te{\k18}ši{\k27}na{\k50}i{\k9} {\k20}a{\k18}no{\k20} {\k18}ba{\k18}šo{\k9} {\k9}e{\k0}
+Dialogue: 0,0:01:49.32,0:01:52.41,Znělka,,0000,0000,0000,,k místu, které nezná konce
+Dialogue: 0,0:01:52.41,0:01:57.32,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}Fu{\k50}mi{\k60}da{\k50}se{\k12} {\k25}jú{\k35}ki{\k12} {\k25}no{\k12} {\k50}i{\k100}po{\k12}
+Dialogue: 0,0:01:52.41,0:01:57.32,Znělka,,0000,0000,0000,,Neboj se udělat krok vpřed
+Dialogue: 0,0:01:57.32,0:02:01.45,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}Ko{\k25} {\k34}wo{\k17} {\k25}a{\k34}ge{\k34}te
+Dialogue: 0,0:01:57.32,0:02:01.45,Znělka,,0000,0000,0000,,Pozvedni svou pěst
+Dialogue: 0,0:02:12.55,0:02:14.96,Vypravěč,,0000,0000,0000,,Luffyho tým pronikl na Onigašimu
+Dialogue: 0,0:02:14.96,0:02:18.31,Vypravěč,,0000,0000,0000,,a nyní se pomalu\Ndostává blíže ke Kaidovi.
+Dialogue: 0,0:02:18.98,0:02:22.36,Vypravěč,,0000,0000,0000,,Během toho se Kid střetl s Apooem.
+Dialogue: 0,0:02:43.21,0:02:49.01,Dialog,,0000,0000,0000,,Vážně sis myslel, že tahle aliance byla\Ndost silná na poražení jednoho z císařů?
+Dialogue: 0,0:02:49.01,0:02:50.80,Dialog,,0000,0000,0000,,Koukej se probudit!
+Dialogue: 0,0:02:53.47,0:02:56.07,Dialog,,0000,0000,0000,,Když přijde na pirátské aliance,
+Dialogue: 0,0:02:56.07,0:02:59.40,Dialog,,0000,0000,0000,,jenom zřídkakdy\Nmají šťastného konce!
+Dialogue: 0,0:02:59.40,0:03:00.89,Útok,,0000,0000,0000,,{\1c&H8080F0&}OZVUČENÍ!
+Dialogue: 0,0:03:01.06,0:03:03.11,Útok,,0000,0000,0000,,{\1c&H8080F0&}ŘEZ!
+Dialogue: 0,0:03:06.23,0:03:09.32,Dialog,,0000,0000,0000,,Kdo by řekl, že ještě žiješ.
+Dialogue: 0,0:03:09.65,0:03:12.07,Dialog,,0000,0000,0000,,Co, Kide?
+Dialogue: 0,0:03:13.70,0:03:15.08,Dialog,,0000,0000,0000,,Hnusná špíno.
+Dialogue: 0,0:03:15.08,0:03:18.41,Dialog,,0000,0000,0000,,Kidovu hlavu si zabírám já!
+Dialogue: 0,0:03:31.18,0:03:33.80,Dialog,,0000,0000,0000,,Pačesáku! Mizíme do hradu!
+Dialogue: 0,0:03:38.65,0:03:41.89,Dialog,,0000,0000,0000,,Tamhle je síň rozkoší!
+Dialogue: 0,0:03:50.15,0:03:54.08,Dialog,,0000,0000,0000,,Něco mi říká,\Nže tam bude spoustu kočiček!
+Dialogue: 0,0:03:54.08,0:03:55.95,Dialog,,0000,0000,0000,,Hej, Sandži!
+Dialogue: 0,0:03:56.37,0:03:59.29,Dialog,,0000,0000,0000,,Počkejte, ctěný Sandži!
+Dialogue: 0,0:04:00.29,0:04:03.12,Dialog,,0000,0000,0000,,Doslova ho to táhne dovnitř!
+Dialogue: 0,0:04:05.04,0:04:06.42,Dialog,,0000,0000,0000,,Není to…
+Dialogue: 0,0:04:07.80,0:04:10.57,Dialog,,0000,0000,0000,,Vypadá to,\Nže tam žádný baby nejsou.
+Dialogue: 0,0:04:13.26,0:04:22.10,Název epizody,,0000,0000,0000,,{\fad(1600,1600)}{\a6}PŘÍCHOD POSIL!
+Dialogue: 0,0:04:13.26,0:04:22.10,Název epizody,,0000,0000,0000,,{\fad(1600,1600)}VELITEL BĚLOVOUSOVÝCH PIRÁTŮ!
+Dialogue: 0,0:04:32.82,0:04:34.24,Útok,,0000,0000,0000,,{\1c&HD355BA&}ODPUZENÍ!
+Dialogue: 0,0:04:37.66,0:04:40.24,Dialog,,0000,0000,0000,,Pačesáku! Co to zkoušíš?
+Dialogue: 0,0:04:41.87,0:04:44.58,Dialog,,0000,0000,0000,,Teď už stejně ví, co jsme zač.
+Dialogue: 0,0:04:44.58,0:04:46.38,Dialog,,0000,0000,0000,,Koukej se držet plánu!
+Dialogue: 0,0:04:46.38,0:04:48.59,Dialog,,0000,0000,0000,,S tím si můžeš víš co.
+Dialogue: 0,0:04:49.25,0:04:51.09,Dialog,,0000,0000,0000,,Já si pojedu svoje.
+Dialogue: 0,0:04:51.80,0:04:52.88,Dialog,,0000,0000,0000,,Počkej!
+Dialogue: 0,0:04:55.22,0:04:58.77,Dialog,,0000,0000,0000,,Musí bejt těžký\Nmít tak lehkovážnýho kapitána.
+Dialogue: 0,0:04:58.77,0:05:00.35,Dialog,,0000,0000,0000,,Ale vůbec ne.
+Dialogue: 0,0:05:00.35,0:05:03.31,Dialog,,0000,0000,0000,,Kid je nejlepší.
+Dialogue: 0,0:05:03.31,0:05:06.35,Dialog,,0000,0000,0000,,No, já to mám s Luffym podobný.
+Dialogue: 0,0:05:21.45,0:05:25.71,Dialog,,0000,0000,0000,,S tím zachraňováním si musíš myslet,\Njakej jsi hrdina, Slamáku?
+Dialogue: 0,0:05:25.71,0:05:27.50,Dialog,,0000,0000,0000,,Já vás nezachraňoval.
+Dialogue: 0,0:05:27.50,0:05:30.59,Dialog,,0000,0000,0000,,Přesně tohle by taky hrdina řekl!
+Dialogue: 0,0:05:30.59,0:05:33.05,Dialog,,0000,0000,0000,,Ticho buď! Seš osina v zadku!
+Dialogue: 0,0:05:34.09,0:05:37.64,Dialog,,0000,0000,0000,,Proč se zase hádáte?\NTohle tu teď nepotřebujeme!
+Dialogue: 0,0:05:37.64,0:05:40.33,Dialog,,0000,0000,0000,,Měl jsi nepřátele sejmout\Nbez tyjátru!
+Dialogue: 0,0:05:41.68,0:05:45.10,Dialog,,0000,0000,0000,,- Měli bysme ho poslechnout?\N- On nám nevelí.
+Dialogue: 0,0:05:48.69,0:05:52.36,Dialog,,0000,0000,0000,,My už se nebudeme\Nnikomu podřizovat!
+Dialogue: 0,0:06:08.79,0:06:10.46,Dialog,,0000,0000,0000,,Nikdo tam nebyl.
+Dialogue: 0,0:06:11.34,0:06:15.71,Dialog,,0000,0000,0000,,Našel jsem nebe na zemi\Na nikdo tam nebyl.
+Dialogue: 0,0:06:16.13,0:06:18.72,Dialog,,0000,0000,0000,,Tohle je snad zlej sen.
+Dialogue: 0,0:06:21.14,0:06:24.44,Dialog,,0000,0000,0000,,Když tam nejsou žádné ženy,\Nnebudou tam ani muži.
+Dialogue: 0,0:06:24.44,0:06:26.69,Dialog,,0000,0000,0000,,Takže můžeme vyrazit.
+Dialogue: 0,0:06:27.86,0:06:30.48,Dialog,,0000,0000,0000,,Hodně štěstí, infiltrační týme!
+Dialogue: 0,0:06:33.36,0:06:35.57,Dialog,,0000,0000,0000,,Dobře! Tak se mi to líbí!
+Dialogue: 0,0:06:36.15,0:06:38.20,Dialog,,0000,0000,0000,,Vy ostatní, za mnou!
+Dialogue: 0,0:06:44.20,0:06:46.00,Dialog,,0000,0000,0000,,A my se hneme taky!
+Dialogue: 0,0:06:46.00,0:06:50.25,Dialog,,0000,0000,0000,,Brachiotank 5\Ns potěšením pojede v záloze!
+Dialogue: 0,0:06:50.25,0:06:52.42,Dialog,,0000,0000,0000,,Teď přímo vpřed!
+Dialogue: 0,0:07:03.05,0:07:06.60,Dialog,,0000,0000,0000,,Sandži, nevím, co ti je,\Nale nebuď tak smutný.
+Dialogue: 0,0:07:07.10,0:07:10.98,Dialog,,0000,0000,0000,,Musíš být opatrný.\NUrčitě tu bude moře nepřátel.
+Dialogue: 0,0:07:12.10,0:07:13.48,Dialog,,0000,0000,0000,,„Moře“?
+Dialogue: 0,0:07:13.48,0:07:15.11,Kurzíva,,0000,0000,0000,,Přesně.
+Dialogue: 0,0:07:15.11,0:07:19.07,Kurzíva,,0000,0000,0000,,Musí tam bejt.\NNěkde tam uvnitř hradu.
+Dialogue: 0,0:07:19.45,0:07:20.99,Kurzíva,,0000,0000,0000,,Budou tam.
+Dialogue: 0,0:07:21.95,0:07:23.32,Dialog,,0000,0000,0000,,Sandži?
+Dialogue: 0,0:07:27.16,0:07:29.29,Dialog,,0000,0000,0000,,Nemusíš se o mě bát.
+Dialogue: 0,0:07:29.96,0:07:32.51,Dialog,,0000,0000,0000,,Já ty holky budu hledat dál!
+Dialogue: 0,0:07:41.43,0:07:44.23,Dialog,,0000,0000,0000,,Ostřelovač a řidič Usoppu!
+Dialogue: 0,0:07:44.23,0:07:49.81,Dialog,,0000,0000,0000,,Jede s Brachiotankem 5 pomalu vpřed\Na kopíruje rychlost pěchoty!
+Dialogue: 0,0:07:50.56,0:07:54.19,Dialog,,0000,0000,0000,,Líp bych to neřekl,\Nveliteli tanku Choppere!
+Dialogue: 0,0:07:54.19,0:07:56.11,Dialog,,0000,0000,0000,,Pomalu vpřed!
+Dialogue: 0,0:08:00.28,0:08:04.83,Dialog,,0000,0000,0000,,Pro všechny případy raději\Nhlídejte okna síně rozkoší!
+Dialogue: 0,0:08:04.83,0:08:06.08,Dialog,,0000,0000,0000,,Dobře!
+Dialogue: 0,0:08:08.16,0:08:10.54,Dialog,,0000,0000,0000,,Jestli uvidíte lidskou siluetu…
+Dialogue: 0,0:08:11.46,0:08:12.46,Dialog,,0000,0000,0000,,Kiemone!
+Dialogue: 0,0:08:12.46,0:08:14.79,Dialog,,0000,0000,0000,,Venku je nějaký randál.
+Dialogue: 0,0:08:15.71,0:08:18.13,Dialog,,0000,0000,0000,,Všichni rychle pod vodu!
+Dialogue: 0,0:09:04.05,0:09:08.40,Dialog,,0000,0000,0000,,Konečně. Konečně jsme se\Nzase dostali zpátky!
+Dialogue: 0,0:09:08.40,0:09:09.60,Dialog,,0000,0000,0000,,Lízy líz.
+Dialogue: 0,0:09:09.60,0:09:12.02,Dialog,,0000,0000,0000,,Tehdy tu s námi byla i máma.
+Dialogue: 0,0:09:12.02,0:09:14.18,Dialog,,0000,0000,0000,,Za to všechno může ten zmetek.
+Dialogue: 0,0:09:24.86,0:09:26.74,Vzpomínka,,0000,0000,0000,,Herdek!
+Dialogue: 0,0:09:26.74,0:09:27.82,Vzpomínka,,0000,0000,0000,,Mámo!
+Dialogue: 0,0:09:33.24,0:09:35.46,Vzpomínka,,0000,0000,0000,,Ať si vás odnese moře.
+Dialogue: 0,0:09:36.50,0:09:38.71,Vzpomínka,,0000,0000,0000,,Mámo!
+Dialogue: 0,0:09:39.54,0:09:43.42,Dialog,,0000,0000,0000,,King. Tohle mu jen tak neprojde.
+Dialogue: 0,0:09:43.42,0:09:45.34,Dialog,,0000,0000,0000,,Za tu drzost zaplatí!
+Dialogue: 0,0:09:45.34,0:09:47.47,Dialog,,0000,0000,0000,,Kupředu, mí sourozenci!
+Dialogue: 0,0:09:47.47,0:09:50.26,Dialog,,0000,0000,0000,,Tentokrát se do Země Wano dostaneme!
+Dialogue: 0,0:09:52.14,0:09:54.27,Dialog,,0000,0000,0000,,Tam vzhůru na vrchol!
+Dialogue: 0,0:10:02.15,0:10:05.91,Dialog,,0000,0000,0000,,Zajímalo by mě,\Nproč sem neexistujte jiná cesta.
+Dialogue: 0,0:10:05.91,0:10:07.99,Dialog,,0000,0000,0000,,Nedá se tomu věřit!
+Dialogue: 0,0:10:07.99,0:10:13.71,Dialog,,0000,0000,0000,,Stejně tak pořád nechápu alianci\Nmezi Piráty Big Mom a Zvířecími piráty.
+Dialogue: 0,0:10:13.71,0:10:18.42,Dialog,,0000,0000,0000,,Vždyť je to celé postavené na hlavu.\NCo si máma vůbec myslela?
+Dialogue: 0,0:10:18.42,0:10:20.63,Dialog,,0000,0000,0000,,Bylo to holt její rozhodnutí!
+Dialogue: 0,0:10:20.63,0:10:25.84,Dialog,,0000,0000,0000,,Na nějakou alianci kašlete.\NNezapomínejte, proč jsme sem připluli!
+Dialogue: 0,0:10:25.84,0:10:26.99,Dialog,,0000,0000,0000,,Přesně!
+Dialogue: 0,0:10:26.99,0:10:31.51,Dialog,,0000,0000,0000,,Postaráme se o Slamáky,\Nkteří zostudili mámu a naše jméno!
+Dialogue: 0,0:10:31.51,0:10:34.64,Dialog,,0000,0000,0000,,Jejich hlavy pak dáme na odiv\Ncelému světu.
+Dialogue: 0,0:10:35.47,0:10:37.10,Dialog,,0000,0000,0000,,To je zlotřilé.
+Dialogue: 0,0:10:37.10,0:10:39.02,Dialog,,0000,0000,0000,,Ale co je důležitější,
+Dialogue: 0,0:10:39.56,0:10:43.10,Dialog,,0000,0000,0000,,brzo se stanu Kaidovou oblíbenkyní!
+Dialogue: 0,0:10:43.75,0:10:45.53,Dialog,,0000,0000,0000,,Jdi s tím někam, Flampe!
+Dialogue: 0,0:10:45.53,0:10:47.36,Dialog,,0000,0000,0000,,Tak jsme tady!
+Dialogue: 0,0:10:48.03,0:10:49.20,Dialog,,0000,0000,0000,,Země Wano!
+Dialogue: 0,0:10:49.20,0:10:51.67,Dialog,,0000,0000,0000,,Nevíme, co tam na nás čeká.
+Dialogue: 0,0:10:51.67,0:10:53.03,Dialog,,0000,0000,0000,,Tak se připravte!
+Dialogue: 0,0:10:54.66,0:10:56.38,Dialog,,0000,0000,0000,,Mějte oči na stopkách.
+Dialogue: 0,0:10:56.38,0:11:00.67,Dialog,,0000,0000,0000,,Naposledy jsme tu byli,\Nkdyž nás ten King…
+Dialogue: 0,0:11:02.38,0:11:03.30,Dialog,,0000,0000,0000,,To je…
+Dialogue: 0,0:11:04.79,0:11:05.89,Dialog,,0000,0000,0000,,King?
+Dialogue: 0,0:11:05.89,0:11:07.80,Dialog,,0000,0000,0000,,Ten grázl se vrátil?
+Dialogue: 0,0:11:09.22,0:11:10.72,Dialog,,0000,0000,0000,,Ne, to není on.
+Dialogue: 0,0:11:12.14,0:11:13.25,Dialog,,0000,0000,0000,,Marco?
+Dialogue: 0,0:11:13.64,0:11:15.72,Marco,,0000,0000,0000,,{\pos(602,385)}MARCO
+Dialogue: 0,0:11:13.64,0:11:15.72,Bělovous,,0000,0000,0000,,{\pos(490,275)}FÉNIX
+Dialogue: 0,0:11:13.65,0:11:15.72,Divize,,0000,0000,0000,,{\pos(495,325)}BÝVALÝ VELITEL PRVNÍ DIVIZE\NBĚLOVOUSOVÝCH PIRÁTŮ
+Dialogue: 0,0:11:16.10,0:11:20.44,Dialog,,0000,0000,0000,,Takže ty řeči o alianci Pirátů Big Mom\Na Zvířecích pirátů byly nakonec…
+Dialogue: 0,0:11:20.95,0:11:22.99,Dialog,,0000,0000,0000,,opravdu pravda.
+Dialogue: 0,0:11:22.99,0:11:26.45,Dialog,,0000,0000,0000,,Marco od Bělovousových pirátů?
+Dialogue: 0,0:11:26.45,0:11:29.57,Dialog,,0000,0000,0000,,To je velitel první divize,\NFénix Marco?
+Dialogue: 0,0:11:29.57,0:11:31.86,Dialog,,0000,0000,0000,,To je jedno! Sestřelte ho!
+Dialogue: 0,0:11:42.92,0:11:44.08,Dialog,,0000,0000,0000,,A teď…
+Dialogue: 0,0:11:45.92,0:11:47.76,Dialog,,0000,0000,0000,,se odsud pakujte.
+Dialogue: 0,0:11:48.51,0:11:51.22,Útok,,0000,0000,0000,,{\c&HFFFF00&}FÉNIXŮV CEJCH!
+Dialogue: 0,0:11:51.22,0:11:53.43,Dialog,,0000,0000,0000,,Tohle ti nevyjde!
+Dialogue: 0,0:11:59.27,0:12:01.23,Dialog,,0000,0000,0000,,To jako vážně?
+Dialogue: 0,0:12:01.23,0:12:02.81,Dialog,,0000,0000,0000,,Zase?
+Dialogue: 0,0:12:07.57,0:12:10.95,Dialog,,0000,0000,0000,,Co tady dělá Marco?
+Dialogue: 0,0:12:10.95,0:12:14.71,Dialog,,0000,0000,0000,,Až se příště vydáte do Země Wano,\Nmožná zjistíte,
+Dialogue: 0,0:12:14.71,0:12:17.45,Dialog,,0000,0000,0000,,že se věci mají trochu jinak.
+Dialogue: 0,0:12:20.45,0:12:24.09,Dialog,,0000,0000,0000,,Co to? Z vodopádu padá velká loď.
+Dialogue: 0,0:12:24.09,0:12:25.25,Dialog,,0000,0000,0000,,Podívejte.
+Dialogue: 0,0:12:29.63,0:12:31.22,Dialog,,0000,0000,0000,,Už je to dlouho.
+Dialogue: 0,0:12:32.59,0:12:36.18,Vzpomínka,,0000,0000,0000,,Tentokrát tě dostanu!
+Dialogue: 0,0:12:38.81,0:12:41.14,Vzpomínka,,0000,0000,0000,,Slamáku!
+Dialogue: 0,0:12:47.86,0:12:50.86,Vzpomínka,,0000,0000,0000,,Nedovolím, aby jsi ho zabil!
+Dialogue: 0,0:12:55.70,0:12:57.68,Vzpomínka,,0000,0000,0000,,Všichni jsme tu viděli,
+Dialogue: 0,0:12:57.68,0:13:02.38,Vzpomínka,,0000,0000,0000,,jakou neutuchající houževnatost\Na sílu tu dokázal projevit.
+Dialogue: 0,0:13:02.38,0:13:06.79,Vzpomínka,,0000,0000,0000,,Chtěl zachránit Ace\Na vysloužil si taťkův respekt.
+Dialogue: 0,0:13:07.25,0:13:10.80,Vzpomínka,,0000,0000,0000,,Přísahali jsme,\Nže ho dovedeme do nového věku.
+Dialogue: 0,0:13:11.17,0:13:15.30,Vzpomínka,,0000,0000,0000,,Myslel jsem si, že máte na víc.\NAle na tom nesejde!
+Dialogue: 0,0:13:19.76,0:13:21.68,Vzpomínka,,0000,0000,0000,,Bělovousovi piráti!
+Dialogue: 0,0:13:22.68,0:13:23.89,Vzpomínka,,0000,0000,0000,,Akainu.
+Dialogue: 0,0:13:24.39,0:13:28.31,Vzpomínka,,0000,0000,0000,,Ty ho máš za velkou hrozbu,\Na tak ho chceš zabít.
+Dialogue: 0,0:13:28.31,0:13:33.37,Vzpomínka,,0000,0000,0000,,My o něj máme vysoké mínění,\Na tak ho chceme ochraňovat.
+Dialogue: 0,0:13:33.37,0:13:35.57,Vzpomínka,,0000,0000,0000,,Vidíš v tom snad rozdíl?
+Dialogue: 0,0:13:36.49,0:13:37.87,Dialog,,0000,0000,0000,,Neviděl jsem tě…
+Dialogue: 0,0:13:39.53,0:13:41.66,Dialog,,0000,0000,0000,,od té války.
+Dialogue: 0,0:13:46.83,0:13:48.13,Dialog,,0000,0000,0000,,Marco.
+Dialogue: 0,0:14:16.36,0:14:18.07,Dialog,,0000,0000,0000,,Dejte si.
+Dialogue: 0,0:14:18.07,0:14:19.74,Dialog,,0000,0000,0000,,Black Mario?
+Dialogue: 0,0:14:20.70,0:14:24.25,Dialog,,0000,0000,0000,,Hele, proč neplníš můj úkol?
+Dialogue: 0,0:14:24.25,0:14:26.92,Dialog,,0000,0000,0000,,O jakém úkolu to mluvíte?
+Dialogue: 0,0:14:26.92,0:14:29.50,Dialog,,0000,0000,0000,,Máš hledat mého hloupého syna.
+Dialogue: 0,0:14:31.24,0:14:33.63,Dialog,,0000,0000,0000,,Vám to vadí, generální guvernére Kaido?
+Dialogue: 0,0:14:33.63,0:14:35.17,Dialog,,0000,0000,0000,,Celkem ano.
+Dialogue: 0,0:14:35.67,0:14:38.88,Dialog,,0000,0000,0000,,Ti prosťáčci ho už jistě najdou.
+Dialogue: 0,0:14:38.88,0:14:42.76,Dialog,,0000,0000,0000,,Ti nesnesitelně otravní\Nčlenové tobiroppo.
+Dialogue: 0,0:14:42.76,0:14:45.47,Dialog,,0000,0000,0000,,Proto jsem tu s vámi.
+Dialogue: 0,0:14:47.39,0:14:51.48,Dialog,,0000,0000,0000,,Dobrý nápad.\NI dnes bychom se měli bavit.
+Dialogue: 0,0:14:51.48,0:14:55.53,Dialog,,0000,0000,0000,,Že jo, Oroči? Není to skvělý den?
+Dialogue: 0,0:14:58.11,0:15:00.82,Dialog,,0000,0000,0000,,Máš pravdu, Kaido.
+Dialogue: 0,0:15:04.58,0:15:10.63,Dialog,,0000,0000,0000,,Duchové klanu Kozuki, kteří mě strašili\Npo celých 20 let, jsou už minulostí!
+Dialogue: 0,0:15:10.63,0:15:12.71,Dialog,,0000,0000,0000,,Dnes budeme oslavovat!
+Dialogue: 0,0:15:12.71,0:15:16.18,Dialog,,0000,0000,0000,,Kandžuro, který je celou dobu\Ntahal za nos,
+Dialogue: 0,0:15:16.18,0:15:21.18,Dialog,,0000,0000,0000,,ukončil svou dvacetiletou hereckou kariéru\Na brzo se k nám připojí.
+Dialogue: 0,0:15:21.18,0:15:24.54,Dialog,,0000,0000,0000,,A to spolu s kapitány\Nválečných lodí,
+Dialogue: 0,0:15:24.54,0:15:27.73,Dialog,,0000,0000,0000,,kteří potopili Akazaje\Ndo hlubin moře!
+Dialogue: 0,0:15:30.02,0:15:31.60,Dialog,,0000,0000,0000,,Je vážně dobrý.
+Dialogue: 0,0:15:32.10,0:15:36.65,Dialog,,0000,0000,0000,,Tehdy jsem ho málem\Nomylem zabil s ostatními.
+Dialogue: 0,0:15:40.70,0:15:43.05,Útok,,0000,0000,0000,,{\1c&HD0E040&}EXPLODUJÍCÍ ŘEV!
+Dialogue: 0,0:15:56.50,0:16:00.55,Dialog,,0000,0000,0000,,Úžasná věc na Kandžurovi je ta,\Nže dokáže přežít.
+Dialogue: 0,0:16:00.55,0:16:03.76,Dialog,,0000,0000,0000,,A to i v bezvýchodné situaci.
+Dialogue: 0,0:16:03.76,0:16:07.10,Dialog,,0000,0000,0000,,A hlavně,\Ntím, že společně unikli smrti,
+Dialogue: 0,0:16:07.10,0:16:10.11,Dialog,,0000,0000,0000,,mu Oden věřil celým svým srdcem!
+Dialogue: 0,0:16:10.11,0:16:13.56,Dialog,,0000,0000,0000,,A ani Akazajové\Nneměli sebemenší tušení!
+Dialogue: 0,0:16:13.56,0:16:17.99,Dialog,,0000,0000,0000,,A dokázal si vybudovat\Ntakovou velkou důvěru,
+Dialogue: 0,0:16:17.99,0:16:21.36,Dialog,,0000,0000,0000,,že ho měl Oden\Nza důvěrného přítele.
+Dialogue: 0,0:16:21.36,0:16:25.62,Dialog,,0000,0000,0000,,To znamená, že ti samurajové\Nještě vůbec nic netuší.
+Dialogue: 0,0:16:26.74,0:16:28.33,Dialog,,0000,0000,0000,,Myslíš o tom?
+Dialogue: 0,0:16:28.33,0:16:29.88,Dialog,,0000,0000,0000,,Jistě.
+Dialogue: 0,0:16:29.88,0:16:35.87,Dialog,,0000,0000,0000,,Klíč k tomu, jak se dostat na Laugh Tale,\Nposlední ostrov, na kterém byl Roger.
+Dialogue: 0,0:16:39.59,0:16:41.30,Dialog,,0000,0000,0000,,Akazaj?
+Dialogue: 0,0:16:42.51,0:16:44.59,Dialog,,0000,0000,0000,,Co tady děláš?
+Dialogue: 0,0:16:44.59,0:16:49.06,Dialog,,0000,0000,0000,,S takovými rádoby herci\Nse nemám co vybavovat.
+Dialogue: 0,0:16:49.06,0:16:51.98,Dialog,,0000,0000,0000,,- Cos to řekl?\N- Tobě snad hráblo?
+Dialogue: 0,0:16:54.94,0:16:57.40,Dialog,,0000,0000,0000,,Koho to zajímá? Sejměte ho!
+Dialogue: 0,0:17:01.28,0:17:02.53,Dialog,,0000,0000,0000,,Kdo sakra jste?
+Dialogue: 0,0:17:09.41,0:17:11.55,Dialog,,0000,0000,0000,,Omluvte mě.
+Dialogue: 0,0:17:11.55,0:17:13.54,Dialog,,0000,0000,0000,,Jsem tu za ctihodným Oročim.
+Dialogue: 0,0:17:14.55,0:17:17.00,Dialog,,0000,0000,0000,,Tak tady jsi, Kandžuro!
+Dialogue: 0,0:17:17.00,0:17:18.80,Dialog,,0000,0000,0000,,Toho jsem ještě neviděl.
+Dialogue: 0,0:17:18.80,0:17:21.17,Dialog,,0000,0000,0000,,Takže se chceš bít?
+Dialogue: 0,0:17:23.63,0:17:27.89,Dialog,,0000,0000,0000,,Uklidněte se, chlapi!\NTohle je Oročiho člověk!
+Dialogue: 0,0:17:27.89,0:17:30.90,Dialog,,0000,0000,0000,,Už je to dlouho, ctihodný Oroči.
+Dialogue: 0,0:17:31.72,0:17:35.39,Dialog,,0000,0000,0000,,To panství je obrovské,\Ntak jsem trochu tápal.
+Dialogue: 0,0:17:35.38,0:17:38.11,Kandžuro 2,,0000,0000,0000,,{\pos(594,325)}DZURO
+Dialogue: 0,0:17:35.38,0:17:38.11,Kandžuro,,0000,0000,0000,,{\pos(580,285)}KAN
+Dialogue: 0,0:17:35.39,0:17:38.11,Kurozumi,,0000,0000,0000,,{\pos(485,205)}KUROZUMI
+Dialogue: 0,0:17:35.39,0:17:38.11,Informátor šóguna Oročiho,,0000,0000,0000,,{\pos(495,280)}INFORMÁTOR\NŠÓGUNA OROČIHO
+Dialogue: 0,0:17:38.27,0:17:44.03,Dialog,,0000,0000,0000,,Musel jsem se navíc vypořádat s těmi,\Nkteří mě měli za svého nepřítele.
+Dialogue: 0,0:17:44.03,0:17:46.49,Dialog,,0000,0000,0000,,Za to se omlouvám.
+Dialogue: 0,0:17:46.49,0:17:49.50,Dialog,,0000,0000,0000,,Ale, to přece nevadí.
+Dialogue: 0,0:17:50.44,0:17:53.04,Dialog,,0000,0000,0000,,Koukám, že máš s sebou doprovod.
+Dialogue: 0,0:17:53.54,0:17:57.62,Dialog,,0000,0000,0000,,To je Kozuki Momonosuke.\NTak, jak jste si přál.
+Dialogue: 0,0:17:58.50,0:18:01.34,Dialog,,0000,0000,0000,,Nesu vám Odenova syna.
+Dialogue: 0,0:18:12.85,0:18:14.81,Dialog,,0000,0000,0000,,Před námi je silný proud!
+Dialogue: 0,0:18:15.14,0:18:17.52,Dialog,,0000,0000,0000,,Myslíte, že do něj máme vplout?
+Dialogue: 0,0:18:17.52,0:18:18.81,Dialog,,0000,0000,0000,,Jo.
+Dialogue: 0,0:18:19.36,0:18:20.53,Dialog,,0000,0000,0000,,Dávejte pozor!
+Dialogue: 0,0:18:20.53,0:18:22.05,Dialog,,0000,0000,0000,,Rozkaz!
+Dialogue: 0,0:18:22.05,0:18:25.15,Dialog,,0000,0000,0000,,Takže plnou parou vpřed!
+Dialogue: 0,0:18:31.87,0:18:34.62,Dialog,,0000,0000,0000,,Nepanikařte! Pokračujte kupředu!
+Dialogue: 0,0:18:34.62,0:18:36.29,Dialog,,0000,0000,0000,,Upravím ponor!
+Dialogue: 0,0:18:40.42,0:18:42.76,Dialog,,0000,0000,0000,,Fajn! Vypadá to slibně!
+Dialogue: 0,0:18:42.76,0:18:44.38,Dialog,,0000,0000,0000,,Jistě, kapitáne!
+Dialogue: 0,0:19:01.40,0:19:03.57,Kurzíva,,0000,0000,0000,,Slyšíme se, kocouři?
+Dialogue: 0,0:19:03.57,0:19:06.95,Dialog,,0000,0000,0000,,To jsi ty, Kočko? Jdeš pozdě!\NTo jsi teď dorazil?
+Dialogue: 0,0:19:06.94,0:19:08.32,Popis,,0000,0000,0000,,KOČKA
+Dialogue: 0,0:19:06.95,0:19:08.32,Dialog,,0000,0000,0000,,Jo.
+Dialogue: 0,0:19:08.32,0:19:10.45,Dialog,,0000,0000,0000,,Vypluli jsme po vodopádu.
+Dialogue: 0,0:19:13.75,0:19:15.66,Strážci,,0000,0000,0000,,{\pos(620,350)}STRÁZCI
+Dialogue: 0,0:19:13.75,0:19:15.66,Kočkolebcovi podřízení,,0000,0000,0000,,{\pos(500,240)}KOČKOLEBCOVI\NPODŘÍZENÍ
+Dialogue: 0,0:19:15.83,0:19:18.37,Dialog,,0000,0000,0000,,Uvědomuješ si vůbec, jaký je den?
+Dialogue: 0,0:19:19.33,0:19:24.59,Dialog,,0000,0000,0000,,Je přece den Ohnivého festivalu,\Nvelké mely, takže jsme tu akorát.
+Dialogue: 0,0:19:24.59,0:19:27.81,Dialog,,0000,0000,0000,,Ještě radši nepředbíhej událostem.
+Dialogue: 0,0:19:27.81,0:19:32.18,Dialog,,0000,0000,0000,,My právě plujeme\Nk severozápadní straně Onigašimy.
+Dialogue: 0,0:19:32.18,0:19:34.98,Kurzíva,,0000,0000,0000,,Bájo. Tak se tam uvidíme.
+Dialogue: 0,0:19:34.98,0:19:38.14,Dialog,,0000,0000,0000,,Ne, počkej! Počkej! Kočko!
+Dialogue: 0,0:19:42.81,0:19:45.70,Dialog,,0000,0000,0000,,Je to stejná střela jako kdysi.
+Dialogue: 0,0:19:45.70,0:19:48.86,Dialog,,0000,0000,0000,,Jen doufám, že stihnou nájezd včas.
+Dialogue: 0,0:19:50.70,0:19:53.67,Dialog,,0000,0000,0000,,Neviděla jsem Kočičku\Nod našeho útěku,
+Dialogue: 0,0:19:53.67,0:19:57.50,Dialog,,0000,0000,0000,,ale hádám, že stejně jako\NPejsek trochu povyrostla.
+Dialogue: 0,0:19:57.50,0:20:01.34,Dialog,,0000,0000,0000,,Kočka nedochvilná.\NMěl by radši prásknout do ocasu.
+Dialogue: 0,0:20:01.34,0:20:04.17,Dialog,,0000,0000,0000,,Brzo doplujeme k zadnímu vchodu.
+Dialogue: 0,0:20:04.17,0:20:06.63,Dialog,,0000,0000,0000,,Podle mě to ale nestihne.
+Dialogue: 0,0:20:06.63,0:20:12.35,Dialog,,0000,0000,0000,,Kvůli silným proudům musí normální lodě\Nplout předních vstupem.
+Dialogue: 0,0:20:12.35,0:20:17.31,Dialog,,0000,0000,0000,,Doufám, že Kiemon a Dendžiro\Ndorazili na místo bez problémů.
+Dialogue: 0,0:20:17.31,0:20:23.02,Dialog,,0000,0000,0000,,Přesně. Rád bych naplnil Odenovo přání\Nhezky se všemi pohromadě!
+Dialogue: 0,0:20:23.02,0:20:24.90,Dialog,,0000,0000,0000,,Ctihodný Momonosuke.
+Dialogue: 0,0:20:25.48,0:20:27.48,Dialog,,0000,0000,0000,,Snad mu nic není.
+Dialogue: 0,0:20:33.07,0:20:34.28,Dialog,,0000,0000,0000,,Slepá ulička.
+Dialogue: 0,0:20:34.28,0:20:35.57,Dialog,,0000,0000,0000,,Evidentně.
+Dialogue: 0,0:20:35.57,0:20:38.29,Dialog,,0000,0000,0000,,Že ty ses zase ztratil, Zoro?
+Dialogue: 0,0:20:38.29,0:20:41.63,Dialog,,0000,0000,0000,,Ne, můžeme si cestu prosekat.
+Dialogue: 0,0:20:41.63,0:20:44.83,Dialog,,0000,0000,0000,,Ale potichu. Nechceme zmrvit plán.
+Dialogue: 0,0:20:45.33,0:20:47.50,Dialog,,0000,0000,0000,,Jo, to je fakt.
+Dialogue: 0,0:20:48.80,0:20:49.88,Útok,,0000,0000,0000,,{\c&H32cd32&}ENMA!
+Dialogue: 0,0:21:20.79,0:21:23.91,Dialog,,0000,0000,0000,,No, vždycky narazíme\Nna nějaký překážky.
+Dialogue: 0,0:21:23.91,0:21:25.33,Dialog,,0000,0000,0000,,Jo.
+Dialogue: 0,0:21:25.83,0:21:26.92,Dialog,,0000,0000,0000,,Máš recht.
+Dialogue: 0,0:21:29.55,0:21:32.46,Dialog,,0000,0000,0000,,Ségra. To už by stačilo.
+Dialogue: 0,0:21:32.46,0:21:35.06,Dialog,,0000,0000,0000,,Já se královsky bavím.
+Dialogue: 0,0:21:35.06,0:21:36.51,Dialog,,0000,0000,0000,,To jsem nemyslel.
+Dialogue: 0,0:21:36.51,0:21:39.31,Dialog,,0000,0000,0000,,Proč si nemůžeš jít po svých?
+Dialogue: 0,0:21:39.31,0:21:43.98,Dialog,,0000,0000,0000,,Nebuď suchar.\NTohle je mnohem větší psina.
+Dialogue: 0,0:21:43.98,0:21:46.53,Dialog,,0000,0000,0000,,Psina je to maximálně pro tebe.
+Dialogue: 0,0:21:46.53,0:21:47.99,Dialog,,0000,0000,0000,,Ty lžeš, Pejpíku.
+Dialogue: 0,0:21:47.99,0:21:50.44,Dialog,,0000,0000,0000,,Říkal jsem ti, ať mi tak neříkáš.
+Dialogue: 0,0:21:50.44,0:21:53.57,Dialog,,0000,0000,0000,,Není to i pro tebe děsná hlína?
+Dialogue: 0,0:21:53.57,0:21:55.67,Dialog,,0000,0000,0000,,Dej mi svátek.
+Dialogue: 0,0:21:55.67,0:21:58.29,Dialog,,0000,0000,0000,,Takhle Jamatoa nenajdeme.
+Dialogue: 0,0:21:58.29,0:22:02.37,Dialog,,0000,0000,0000,,Ať jde jeho nevychovanej spratek tam,\Nkam slunce nesvítí.
+Dialogue: 0,0:22:02.37,0:22:04.08,Dialog,,0000,0000,0000,,Musíš si otevírat pusu?
+Dialogue: 0,0:22:04.08,0:22:06.75,Dialog,,0000,0000,0000,,- Pejpíku, předveď něco.\N- A ticho bude!
+Dialogue: 0,0:22:11.75,0:22:14.21,Dialog,,0000,0000,0000,,Zatracenej Luffy. Zase je v trapu.
+Dialogue: 0,0:22:14.80,0:22:16.51,Dialog,,0000,0000,0000,,Kam se ztratil teď?
+Dialogue: 0,0:22:22.85,0:22:24.93,Dialog,,0000,0000,0000,,Už to mám celkem zmáklý.
+Dialogue: 0,0:22:27.69,0:22:29.61,Dialog,,0000,0000,0000,,Kaido musí být tam nahoře.
+Dialogue: 0,0:22:30.31,0:22:31.90,Dialog,,0000,0000,0000,,Tamhle je!
+Dialogue: 0,0:22:31.90,0:22:34.91,Dialog,,0000,0000,0000,,Useknu Slamákovi kebuli!
+Dialogue: 0,0:22:44.58,0:22:45.92,Dialog,,0000,0000,0000,,Našel jsem ho!
+Dialogue: 0,0:22:45.92,0:22:50.21,Dialog,,0000,0000,0000,,- To je on!\N- Kdo ho sejme, bude členem tobiroppo!
+Dialogue: 0,0:22:56.51,0:22:59.43,Dialog,,0000,0000,0000,,Co si se mnou ještě trochu zacvičit?
+Dialogue: 0,0:22:59.43,0:23:01.80,Dialog,,0000,0000,0000,,Na něj!
+Dialogue: 0,0:23:05.81,0:23:07.18,Dialog,,0000,0000,0000,,Rjuo!
+Dialogue: 0,0:23:09.52,0:23:15.64,Dialog,,0000,0000,0000,,Překlad: Kara Mikešová\Nwww.onepiecetitulky.cz
+Dialogue: 0,0:23:18.45,0:23:21.28,Vypravěč,,0000,0000,0000,,Zloba Big Mom otřásá podlahou.
+Dialogue: 0,0:23:21.28,0:23:26.20,Vypravěč,,0000,0000,0000,,Nemilosrdně zaútočí na Slamáky,\Nse kterými má nevyřízené účty.
+Dialogue: 0,0:23:26.20,0:23:31.25,Vypravěč,,0000,0000,0000,,Posádka překoná svůj strach\Na v Brachiotanku se utká s císařovnou!
+Dialogue: 0,0:23:31.25,0:23:36.12,Vypravěč,,0000,0000,0000,,Podejte si ji,\Nveliteli Choppere a řidiči Usoppue!
+Dialogue: 0,0:23:36.12,0:23:41.14,Kurzíva,,0000,0000,0000,,PŘÍŠTĚ: Vzájemná přísaha!\NUrputný boj Brachiotanku.
+Dialogue: 0,0:23:41.14,0:23:43.78,Kurzíva,,0000,0000,0000,,Stanu se pirátským králem!

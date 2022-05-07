@@ -1,0 +1,504 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_24_1_The_Third_Plate,Open Sans Semibold,39,&H00808080,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,400,27,1
+Style: sign_24_2_Thirteen,Open Sans Semibold,45,&H00050100,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,400,200,1
+Style: sign_6424_110_Food_Wars,Open Sans Semibold,45,&H002837E3,&H000000FF,&H00EEFBFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_1937_22_The_Third_Plate,Open Sans Semibold,39,&H00481C0B,&H000000FF,&H00FDFEF6,&H005B86AB,1,0,0,0,100,100,0,0,1,3,2,2,40,40,107,1
+Style: sign_1975_23_Totsuki_Train_Ar,Open Sans Semibold,33,&H00EFDFDB,&H000000FF,&H004A1B04,&H005B86AB,1,0,0,0,100,100,0,0,1,3,0,2,40,40,27,1
+Style: sign_30623_420_Totsuki,Open Sans Semibold,33,&H00D0A29F,&H000000FF,&H00EBCEC7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,420,40,260,1
+Style: sign_72_3_Tokyo_Internatio,Open Sans Semibold,39,&H003D2DC4,&H000000FF,&H00462E2B,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_565_13_Totsuki_Elite_Te,Open Sans Semibold,33,&H00F7FBFA,&H000000FF,&H007E8485,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,480,40,193,1
+Style: sign_606_14_Totsuki_Elite_Te,Open Sans Semibold,33,&H00FCFEFE,&H000000FF,&H007C8180,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,453,207,1
+Style: sign_795_16_Totsuki_Elite_Te,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H0069706A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,480,40,193,1
+Style: sign_836_17_Totsuki_Elite_Te,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00686C6E,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,433,180,1
+Style: sign_1063_21_Totsuki_Elite_Te,Open Sans Semibold,33,&H00FCFDFD,&H000000FF,&H00413D3F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,433,193,1
+Style: sign_1161_22_Former_Totsuki_E,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H007C7F84,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,347,40,193,1
+Style: sign_1236_23_Former_Totsuki_E,Open Sans Semibold,33,&H00FFFFFA,&H000000FF,&H001E2407,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,347,40,167,1
+Style: sign_1324_24_Former_Totsuki_E,Open Sans Semibold,33,&H00FFFFFD,&H000000FF,&H001E2A3D,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,360,180,1
+Style: sign_1462_25_Totsuki_Elite_Te,Open Sans Semibold,33,&H00FDFFFF,&H000000FF,&H006B6F6F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,360,193,1
+Style: sign_1547_26_Totsuki_Elite_Te,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00686D68,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,433,40,180,1
+Style: sign_3848_30_Jeanne_D_Arc_Ris,Open Sans Semibold,33,&H00F9FCFC,&H000000FF,&H00323331,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,40,367,147,1
+Style: sign_3979_34_Totsuki_Academy_,Open Sans Semibold,33,&H0031455C,&H000000FF,&H00D5E6EA,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,52,60,27,1
+Style: sign_7485_85_Hall_D,Open Sans Semibold,44,&H00D2F0F6,&H000000FF,&H002A5179,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_9565_120_Severe_Storm_in_,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H0033331D,&H00362E22,1,0,0,0,100,100,0,0,1,2,2,3,40,87,140,1
+Style: sign_10111_129_Internal_Line_1,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: sign_11324_147_Help,Open Sans Semibold,38,&H00333252,&H000000FF,&H005A4441,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_13075_168_Kucchan_City,Open Sans Semibold,32,&H00020003,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_13457_174_Potato__Starch__,Open Sans Semibold,32,&H00000000,&H000000FF,&H00FEFEFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,40,40,27,1
+Style: sign_13457_175_Other_5_,Open Sans Semibold,32,&H00000000,&H000000FF,&H00FEFEFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,40,633,147,1
+Style: sign_13954_183_Missing,Open Sans Semibold,32,&H00E6E9E9,&H000000FF,&H00212868,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_22942_314_Loyalty,Open Sans Semibold,32,&H00131312,&H000000FF,&H00F2F2EF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_26620_363_With_Heart,Open Sans Semibold,32,&H008C7480,&H000000FF,&H00D2CAC2,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_28372_389_Hisako,Open Sans Semibold,32,&H00EADFDC,&H000000FF,&H00140902,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_32838_418_Under_Eye_Circle,Open Sans Semibold,26,&H007A9C12,&H000000FF,&H00E2F7B5,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,40,133,1
+Style: sign_34668_445_Next_Episode___R,Open Sans Semibold,20,&H00FFFFFF,&H000000FF,&H001C1D1B,&H00000000,1,0,0,0,100,100,0,0,1,3,0,3,427,80,107,1
+Style: sign_34668_447_The_Third_Plate,Open Sans Semibold,24,&H008B492A,&H000000FF,&H00FFFFFB,&H0064929D,1,0,0,0,100,100,0,0,1,2,2,2,67,593,27,1
+Style: sign_34668_446_Food_Wars,Open Sans Semibold,33,&H001A30D3,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,73,600,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_1_The_Third_Plate,Sign 0000,0000,0000,0000,,Treti štitok
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_2_Thirteen,Sign 0000,0000,0000,0000,,Pätnásť
+Dialogue: 0,0:00:02.98,0:00:07.69,sign_72_3_Tokyo_Internatio,Sign 0007,0000,0000,0000,,Medzinárodné letisko, Tokiu
+Dialogue: 0,0:00:03.77,0:00:07.69,Main Dialogue,Saito,0000,0000,0000,,Prvý ročnik by mal byť už v \Ndruhej polovici etapy.
+Dialogue: 0,0:00:08.19,0:00:10.69,Main Dialogue,Saito,0000,0000,0000,,Kto vie, či sa skutočne zúčastníme,
+Dialogue: 0,0:00:10.69,0:00:12.78,Main Dialogue,Saito,0000,0000,0000,,ale vždy je lepšie byť pripravený.
+Dialogue: 0,0:00:13.10,0:00:14.53,Main Dialogue,Saito,0000,0000,0000,,Čo sa deje, Akanegakubo?
+Dialogue: 0,0:00:14.91,0:00:16.78,Main Dialogue,Momo,0000,0000,0000,,Nenávidím lietadlá.
+Dialogue: 0,0:00:16.78,0:00:18.70,Main Dialogue,Momo,0000,0000,0000,,Nechcem ísť!
+Dialogue: 0,0:00:19.71,0:00:21.10,Main Dialogue,Saito,0000,0000,0000,,Nenechci ma rozmaznávať.
+Dialogue: 0,0:00:21.10,0:00:21.76,Main Dialogue,Saito,0000,0000,0000,,Poďme.
+Dialogue: 0,0:00:21.76,0:00:23.54,Main Dialogue,Momo,0000,0000,0000,,Nie!
+Dialogue: 0,0:00:23.54,0:00:25.25,sign_565_13_Totsuki_Elite_Te,Sign 0024,0000,0000,0000,,Elitna desiatka\N{\fs26} Akanegakubo Momo
+Dialogue: 0,0:00:25.25,0:00:26.96,sign_606_14_Totsuki_Elite_Te,Sign 0026,0000,0000,0000,,Elitna desiatka\N{\fs26} Saito Somei
+Dialogue: 0,0:00:29.35,0:00:33.13,Main Dialogue,Rindo,0000,0000,0000,,Je to skvelé, cestu na turné \NHokkaido máme zadarmo!
+Dialogue: 0,0:00:33.13,0:00:34.84,sign_795_16_Totsuki_Elite_Te,Sign 0034,0000,0000,0000,,Elitna desiatka \N{\fs26} Kinokuni Nene
+Dialogue: 0,0:00:34.84,0:00:36.55,sign_836_17_Totsuki_Elite_Te,Sign 0035,0000,0000,0000,,Elitna desiatka\N{\fs26} Eizan Etsuya
+Dialogue: 0,0:00:37.70,0:00:40.02,Main Dialogue,Rindo,0000,0000,0000,,Hej, Tsukasa, pozri!
+Dialogue: 0,0:00:40.02,0:00:41.54,Main Dialogue,Rindo,0000,0000,0000,,Vyzerá to naozaj chutné!
+Dialogue: 0,0:00:41.54,0:00:44.31,Main Dialogue,Tsukasa,0000,0000,0000,,Rindo ... Nezabudni na skúšky, dobre?
+Dialogue: 0,0:00:44.31,0:00:46.02,sign_1063_21_Totsuki_Elite_Te,Sign 0045,0000,0000,0000,,Elitna desiatka\N{\fs26} Kobayashi Rindo
+Dialogue: 0,0:00:48.40,0:00:50.02,sign_1161_22_Former_Totsuki_E,Sign 0049,0000,0000,0000,,Elitna desiatka\N7. pozicia \N{\fs26} Isshiki Satoshi
+Dialogue: 0,0:00:51.53,0:00:53.24,sign_1236_23_Former_Totsuki_E,Sign 0052,0000,0000,0000,,Elitna desiatka\N8. pozicia  \N{\fs26} Kuga Terunori
+Dialogue: 0,0:00:55.20,0:00:56.91,sign_1324_24_Former_Totsuki_E,Sign 0056,0000,0000,0000,,Elitna desiatka\N3. pozicia  \N{\fs26} Megishima Tosuke
+Dialogue: 0,0:01:00.95,0:01:02.91,sign_1462_25_Totsuki_Elite_Te,Sign 0102,0000,0000,0000,,Elitna desiatka\N1. pozicia \N{\fs26} Tsukasa Eishi
+Dialogue: 0,0:01:04.50,0:01:06.96,sign_1547_26_Totsuki_Elite_Te,Sign 0107,0000,0000,0000,,Elitna desiatka\N10. pozicia \N{\fs26} Nakiri Erina
+Dialogue: 0,0:01:31.69,0:01:37.61,sign_6424_110_Food_Wars,Sign 0107,0000,0000,0000,,{\fad(654,1)}Potraviné vojny
+Dialogue: 0,0:01:31.69,0:01:37.61,sign_1937_22_The_Third_Plate,Sign 0107,0000,0000,0000,,{\fad(654,1)}Treti štitok
+Dialogue: 0,0:01:33.28,0:01:37.61,sign_1975_23_Totsuki_Train_Ar,,0000,0000,0000,,{\fad(1150,1)}Totsuki vlak - oblúk
+Dialogue: 0,0:02:39.02,0:02:40.87,Main Dialogue,Yuki,0000,0000,0000,,Vlak sa zastavil \Nna stanici Sapporo,
+Dialogue: 0,0:02:40.47,0:02:45.93,sign_3848_30_Jeanne_D_Arc_Ris,Sign 0241,0000,0000,0000,,Jeanne D'Arc Rises
+Dialogue: 0,0:02:40.87,0:02:43.38,Main Dialogue,Yuki,0000,0000,0000,,ale mi sme úplne prešli cez cele mesto.
+Dialogue: 0,0:02:43.38,0:02:45.93,Main Dialogue,Ryoko,0000,0000,0000,,To je zlé, pretože to je \Nslávne vyhliadkové miesto.
+Dialogue: 0,0:02:45.93,0:02:48.89,sign_3979_34_Totsuki_Academy_,Sign 0247,0000,0000,0000,,Akadémie Totsuki Postupujuce skušky\NFaza dva, Skušobna hala
+Dialogue: 0,0:02:45.93,0:02:48.89,Main Dialogue,Yuki,0000,0000,0000,,Dostali sme sa do stredu ničoho.
+Dialogue: 0,0:02:50.02,0:02:52.98,Main Dialogue,M,0000,0000,0000,,Nič tu nieje, ale su tu hory.
+Dialogue: 0,0:02:52.98,0:02:55.61,Main Dialogue,Isami,0000,0000,0000,,Želám si, aby sme mali čas \Nna prechadzku a tak,
+Dialogue: 0,0:02:55.61,0:02:56.98,Main Dialogue,Isami,0000,0000,0000,,mam rád Odori Park.
+Dialogue: 0,0:02:57.43,0:02:58.74,Main Dialogue,Endo,0000,0000,0000,,Ahoj všetci.
+Dialogue: 0,0:02:58.74,0:03:00.65,Main Dialogue,Endo,0000,0000,0000,,Po dlhej ceste vlakom musíte byť unavený!
+Dialogue: 0,0:03:00.65,0:03:04.83,Main Dialogue,Endo,0000,0000,0000,,Ja som Endo, Totsuki lektor a váš \Nskušajuci pre druhú fázu.
+Dialogue: 0,0:03:04.83,0:03:06.81,Main Dialogue,Endo,0000,0000,0000,,Táto faza bude individuálna skúška.
+Dialogue: 0,0:03:06.81,0:03:08.75,Main Dialogue,Endo,0000,0000,0000,,A, špecificka pre \Ntuto skušku bude,
+Dialogue: 0,0:03:08.75,0:03:09.96,Main Dialogue,Endo,0000,0000,0000,,urobiť nudlový pokrm!
+Dialogue: 0,0:03:10.32,0:03:11.01,Main Dialogue,Stu,0000,0000,0000,,Nudle...
+Dialogue: 0,0:03:11.01,0:03:11.92,Main Dialogue,Stu,0000,0000,0000,,...pokrm?
+Dialogue: 0,0:03:11.92,0:03:15.29,Main Dialogue,Endo,0000,0000,0000,,Keď už hovoríme o nudlích, Hokkaido je \Nznámy tým, že má široky vyber ramenoch.
+Dialogue: 0,0:03:15.62,0:03:20.15,Main Dialogue,Endo,0000,0000,0000,,Sapporo ramen, Hakodate ramen, \NAsahikawa ramen, a  dalšie.
+Dialogue: 0,0:03:20.15,0:03:23.75,Main Dialogue,Endo,0000,0000,0000,,Existuje veľa reštaurácií známych\N pre ich udon a soba!
+Dialogue: 0,0:03:23.75,0:03:28.52,Main Dialogue,Endo,0000,0000,0000,,Hokkaido je najlepší výrobca \Npohánkou zo všetkich.
+Dialogue: 0,0:03:29.02,0:03:30.95,Main Dialogue,Endo,0000,0000,0000,,Vzhľadom na to, akú obrovský je vyber
+Dialogue: 0,0:03:30.95,0:03:33.09,Main Dialogue,Endo,0000,0000,0000,,nie je prekvapujúce, že Hokkaido vzbudil
+Dialogue: 0,0:03:33.09,0:03:36.27,Main Dialogue,Endo,0000,0000,0000,,rozmanitosť jedál nudlí, \Nktoré odrážajú regionálne rozdiely.
+Dialogue: 0,0:03:36.27,0:03:39.28,Main Dialogue,Endo,0000,0000,0000,,S ohľadom na to že sa pokúsite \Nurobiť dnešni pokrm s rezancami!
+Dialogue: 0,0:03:39.28,0:03:41.69,Main Dialogue,S,0000,0000,0000,,Takže môžeme vyrobiť akékoľvek nudlový pokrm?
+Dialogue: 0,0:03:41.69,0:03:44.74,Main Dialogue,M,0000,0000,0000,,Keď je toľko možností, je ťažké si vybrať.
+Dialogue: 0,0:03:44.74,0:03:49.50,Main Dialogue,Endo,0000,0000,0000,,Ale tu sú len základné zložky.
+Dialogue: 0,0:03:49.50,0:03:50.25,Main Dialogue,Yuki,0000,0000,0000,,Čo?
+Dialogue: 0,0:03:50.25,0:03:53.21,Main Dialogue,Endo,0000,0000,0000,,Máme tu veľa rôznych druhov nudly.
+Dialogue: 0,0:03:53.21,0:03:55.92,Main Dialogue,Endo,0000,0000,0000,,Okrem zelenej cibule a \Ninej základnej zeleniny,
+Dialogue: 0,0:03:56.29,0:03:59.63,Main Dialogue,Endo,0000,0000,0000,,sme už pripravili základné zložky, \Nako sú vývar a zásoby.
+Dialogue: 0,0:04:00.00,0:04:03.59,Main Dialogue,Endo,0000,0000,0000,,Ale to nestačí na vybudovanie \Ngurmánskeho jedla, ako viete.
+Dialogue: 0,0:04:03.59,0:04:07.55,Main Dialogue,Endo,0000,0000,0000,,Takže budete mať za úlohu zohnať všetky chýbajúce zložky.
+Dialogue: 0,0:04:09.31,0:04:12.96,Main Dialogue,Endo,0000,0000,0000,,Môžete predstaviť jedinú porciu nudloveho \Npokrmu, ktorý môže na mna zapôsobiť,
+Dialogue: 0,0:04:12.96,0:04:13.99,Main Dialogue,Endo,0000,0000,0000,,Tak prejdete!
+Dialogue: 0,0:04:13.99,0:04:16.15,Main Dialogue,Endo,0000,0000,0000,,Máte tri hodiny!
+Dialogue: 0,0:04:16.57,0:04:18.71,Main Dialogue,Stu,0000,0000,0000,,Važne? Mame začať \Nzbierať ingredience?
+Dialogue: 0,0:04:18.71,0:04:21.61,Main Dialogue,Stu,0000,0000,0000,,Ale ak sa dostaneme s taxíkoom \Ndo 30 minút do mestskej oblasti.
+Dialogue: 0,0:04:21.93,0:04:24.11,Main Dialogue,Stu,0000,0000,0000,,Centrálny veľkoobchodný trh je tiež blízko.
+Dialogue: 0,0:04:24.11,0:04:26.32,Main Dialogue,Stu,0000,0000,0000,,Budeme musieť získať kvalitné prísady tam.
+Dialogue: 0,0:04:26.32,0:04:30.79,Main Dialogue,Endo,0000,0000,0000,,Dostanete skúšobnú sálu v poradí, ako sa \Nvoláte vašim meno, a začnite varenie.
+Dialogue: 0,0:04:31.14,0:04:33.79,Main Dialogue,Staff,0000,0000,0000,,Erina-sama, tadial do haly A, prosím.
+Dialogue: 0,0:04:33.79,0:04:34.57,Main Dialogue,E,0000,0000,0000,,Ok.
+Dialogue: 0,0:04:35.50,0:04:37.96,Main Dialogue,Staff,0000,0000,0000,,Dalši tri, do haly B!
+Dialogue: 0,0:04:37.96,0:04:39.67,Main Dialogue,Staff,0000,0000,0000,,Dalči, hala C!
+Dialogue: 0,0:04:46.09,0:04:47.72,Main Dialogue,Yuki,0000,0000,0000,,Čo?
+Dialogue: 0,0:04:47.72,0:04:50.93,Main Dialogue,Yuki,0000,0000,0000,,My, rebeli, sme až na samom konci.
+Dialogue: 0,0:04:50.93,0:04:51.93,Main Dialogue,Staff,0000,0000,0000,,Dalši!
+Dialogue: 0,0:04:51.93,0:04:56.18,Main Dialogue,Staff,0000,0000,0000,,Ibusaki Shun, Marui Zenji, \NIsami Aldini—do haly A!
+Dialogue: 0,0:04:56.18,0:04:57.52,Main Dialogue,Isami,0000,0000,0000,,Oh, zavolali nás.
+Dialogue: 0,0:04:59.25,0:05:04.24,Main Dialogue,Staff,0000,0000,0000,,Sakaki Ryoko, Arato Hisako, Nakiri \NAlice, Kurokiba Ryo—do haly B!
+Dialogue: 0,0:05:04.59,0:05:08.59,Main Dialogue,Staff,0000,0000,0000,,Yoshino Yuki, Mito Ikumi, \NSato Shoji, Aoki Daigo!
+Dialogue: 0,0:05:08.59,0:05:09.45,Main Dialogue,Staff,0000,0000,0000,,Vy ste v hale C!
+Dialogue: 0,0:05:09.84,0:05:12.16,Main Dialogue,Staff,0000,0000,0000,,Ostavajuci traja do haly D!
+Dialogue: 0,0:05:12.16,0:05:14.12,sign_7485_85_Hall_D,Sign 0513,0000,0000,0000,,Hala D
+Dialogue: 0,0:05:17.23,0:05:19.18,Main Dialogue,S,0000,0000,0000,,Uh, Mistre skušajuci?
+Dialogue: 0,0:05:19.18,0:05:22.22,Main Dialogue,S,0000,0000,0000,,Ako mame urobiť nudlové jedlo,
+Dialogue: 0,0:05:22.22,0:05:23.63,Main Dialogue,S,0000,0000,0000,,keď tu nie sú žiadne rezance.
+Dialogue: 0,0:05:23.99,0:05:25.54,Main Dialogue,Endo,0000,0000,0000,,Verím, že som ti to povedal.
+Dialogue: 0,0:05:25.54,0:05:28.30,Main Dialogue,Endo,0000,0000,0000,,Získajte všetky zložky, ktoré nemáte.
+Dialogue: 0,0:05:28.63,0:05:31.26,Main Dialogue,Endo,0000,0000,0000,,Te ktore potrebujete pre totu skušku!
+Dialogue: 0,0:05:31.26,0:05:32.06,Main Dialogue,M,0000,0000,0000,,Pozrite!
+Dialogue: 0,0:05:32.47,0:05:35.81,Main Dialogue,M,0000,0000,0000,,Sotva mame prísady \Nako su múka alebo ryžová múka
+Dialogue: 0,0:05:35.81,0:05:37.43,Main Dialogue,M,0000,0000,0000,,s krotých možeme vyrobiť rezance!
+Dialogue: 0,0:05:38.42,0:05:39.95,Main Dialogue,S,0000,0000,0000,,Vidím, tak je to.
+Dialogue: 0,0:05:39.95,0:05:42.60,Main Dialogue,S,0000,0000,0000,,Neposkytnú nám žiadne ingredience.
+Dialogue: 0,0:05:42.60,0:05:44.82,Main Dialogue,T,0000,0000,0000,,Ale čo je vetši problém?
+Dialogue: 0,0:05:44.82,0:05:46.65,Main Dialogue,T,0000,0000,0000,,Sapporo je hlavné mesto.
+Dialogue: 0,0:05:46.65,0:05:48.45,Main Dialogue,T,0000,0000,0000,,Som si istý, že môžeme nájsť tovareň na rezance.
+Dialogue: 0,0:05:48.45,0:05:52.33,Main Dialogue,S,0000,0000,0000,,Môžeme ručne vyrobiť rezance so získanej \Nmúky a pohánkovej múky a podobne.
+Dialogue: 0,0:05:52.33,0:05:53.13,Main Dialogue,M,0000,0000,0000,,Ano.
+Dialogue: 0,0:05:53.13,0:05:55.29,Main Dialogue,M,0000,0000,0000,,Som si istá, že v priebehu troch \Nhodín prídme na niečo.
+Dialogue: 0,0:05:55.29,0:05:56.26,Main Dialogue,S,0000,0000,0000,,Správne!
+Dialogue: 0,0:05:56.26,0:05:59.00,Main Dialogue,S,0000,0000,0000,,Teraz, keď to máme ujasnene, poďme!
+Dialogue: 0,0:06:02.39,0:06:07.72,Main Dialogue,Endo,0000,0000,0000,,To nie je jediný dôvod, prečo ste boli povolaní až na konci.
+Dialogue: 0,0:06:10.18,0:06:11.93,Main Dialogue,All,0000,0000,0000,,Čo?
+Dialogue: 0,0:06:11.93,0:06:14.14,Main Dialogue,M,0000,0000,0000,,Skusim zavolať taxi.
+Dialogue: 0,0:06:16.78,0:06:17.26,Italics Dialogue,Phone,0000,0000,0000,,Čo?
+Dialogue: 0,0:06:17.26,0:06:19.21,Italics Dialogue,Phone,0000,0000,0000,,Je silna snežna burka po celych horách?
+Dialogue: 0,0:06:19.21,0:06:21.82,Italics Dialogue,Phone,0000,0000,0000,,Ospravedlňujeme sa, to momentálne nie je možné.
+Dialogue: 0,0:06:21.82,0:06:24.45,Italics Dialogue,Phone,0000,0000,0000,,Budete musieť počkať, \Nkým snehové pluhy prídu.
+Dialogue: 0,0:06:24.45,0:06:25.78,Main Dialogue,M,0000,0000,0000,,Vidim.
+Dialogue: 0,0:06:26.10,0:06:28.56,Main Dialogue,M,0000,0000,0000,,Nemáme žiadny spôsob, ako sa dostať von!
+Dialogue: 0,0:06:28.56,0:06:30.25,Main Dialogue,T,0000,0000,0000,,Je to ako keby sme boli vo filme,
+Dialogue: 0,0:06:30.25,0:06:33.45,Main Dialogue,T,0000,0000,0000,,niekto by bol prave teraz určite zabitý.
+Dialogue: 0,0:06:33.45,0:06:34.91,Main Dialogue,S,0000,0000,0000,,Kameň, papier...
+Dialogue: 0,0:06:34.91,0:06:35.97,Main Dialogue,T,0000,0000,0000,,V žiadnom pripade!
+Dialogue: 0,0:06:35.97,0:06:37.37,Main Dialogue,T,0000,0000,0000,,Nemôžeš tam isť!
+Dialogue: 0,0:06:37.37,0:06:38.91,Main Dialogue,T,0000,0000,0000,,Chceš sa stratiť v horách ?!
+Dialogue: 0,0:06:38.91,0:06:42.21,sign_9565_120_Severe_Storm_in_,Sign 0640,0000,0000,0000,,Silná búrka v Sapporo až do večera
+Dialogue: 0,0:06:38.91,0:06:42.21,Italics Dialogue Top,News,0000,0000,0000,,Sneh, ktorý začal padať okolo \Npoludnia, sa rýchlo zintenzívnil
+Dialogue: 0,0:06:42.21,0:06:46.71,Italics Dialogue,News,0000,0000,0000,,do veľkej snežnej burky v horách Sapporu, \Nktoré boli zriedka spozorovane.
+Dialogue: 0,0:06:48.14,0:06:51.33,Main Dialogue,Endo,0000,0000,0000,,Všetci ostatní študenti absolvovali skúšku.
+Dialogue: 0,0:06:51.33,0:06:53.44,Main Dialogue,Endo,0000,0000,0000,,Ak zlyhaju tý, ktorí zostávajú,
+Dialogue: 0,0:06:53.44,0:06:55.31,Main Dialogue,Endo,0000,0000,0000,,moja práca je hotova.
+Dialogue: 0,0:06:55.86,0:06:57.98,Main Dialogue,Endo,0000,0000,0000,,Zbohom, rebely.
+Dialogue: 0,0:06:57.98,0:07:01.09,Main Dialogue,Endo,0000,0000,0000,,Na centralu!
+Dialogue: 0,0:07:01.09,0:07:01.69,Main Dialogue,Endo,0000,0000,0000,,Čo?
+Dialogue: 0,0:07:01.69,0:07:03.40,sign_10111_129_Internal_Line_1,Sign 0703,0000,0000,0000,,Interná linka 1
+Dialogue: 0,0:07:04.33,0:07:05.29,Main Dialogue,Endo,0000,0000,0000,,Čo je?
+Dialogue: 0,0:07:05.29,0:07:06.45,Italics Dialogue,Staff,0000,0000,0000,,Prednášajúci Endo!
+Dialogue: 0,0:07:06.45,0:07:08.45,Italics Dialogue,Staff,0000,0000,0000,,Rebelia sú nejako ...
+Dialogue: 0,0:07:08.45,0:07:10.85,Italics Dialogue,Staff,0000,0000,0000,,Prosím, priďte sem!
+Dialogue: 0,0:07:13.99,0:07:15.07,Main Dialogue,S,0000,0000,0000,,Takumi!
+Dialogue: 0,0:07:15.07,0:07:17.49,Main Dialogue,S,0000,0000,0000,,Akonáhle budeš mať dosť na vlastné jedlo,\N pošlite prísady dalej!
+Dialogue: 0,0:07:17.49,0:07:18.29,Main Dialogue,T,0000,0000,0000,,V poriadku!
+Dialogue: 0,0:07:18.29,0:07:19.79,Main Dialogue,T,0000,0000,0000,,Tadokoro-san potrebuje toho dosť.
+Dialogue: 0,0:07:19.79,0:07:21.09,Main Dialogue,T,0000,0000,0000,,Nepoužívajte príliš veľa!
+Dialogue: 0,0:07:21.09,0:07:25.02,Italics Dialogue,Endo,0000,0000,0000,,Z-Začali ako by sa nič nestalo?!
+Dialogue: 0,0:07:25.02,0:07:27.00,Italics Dialogue,Endo,0000,0000,0000,,Už tu nezostali žiadne nudle!
+Dialogue: 0,0:07:27.00,0:07:29.41,Italics Dialogue,Endo,0000,0000,0000,,Podarilo sa im dostať\Nnudle v tejto vánici ?!
+Dialogue: 0,0:07:29.41,0:07:31.17,Italics Dialogue,Endo,0000,0000,0000,,To je nemožne!
+Dialogue: 0,0:07:31.17,0:07:33.98,Main Dialogue,S,0000,0000,0000,,Prečo sa na nás takto\Npozeráte, pán skúšajúci?
+Dialogue: 0,0:07:33.98,0:07:38.22,Main Dialogue,S,0000,0000,0000,,Mysleli ste si, že nás možete \Nzastaviť niečím takým?
+Dialogue: 0,0:07:38.22,0:07:42.78,Main Dialogue,S,0000,0000,0000,,Koniec koncov absolvovali \Nsme stokrát horšie školenie
+Dialogue: 0,0:07:42.78,0:07:45.47,Main Dialogue,S,0000,0000,0000,,ako taly detský trik ako je tento.
+Dialogue: 0,0:07:52.28,0:07:54.24,sign_11324_147_Help,Sign 0754,0000,0000,0000,,Pomoc
+Dialogue: 0,0:08:03.78,0:08:05.78,Main Dialogue,S,0000,0000,0000,,No, pevne sa držte.
+Dialogue: 0,0:08:05.78,0:08:07.25,Main Dialogue,S,0000,0000,0000,,Budeme podavať
+Dialogue: 0,0:08:08.38,0:08:10.92,Main Dialogue,S,0000,0000,0000,,konečnú misku nudlí!
+Dialogue: 0,0:08:19.01,0:08:22.94,Main Dialogue,Staff,0000,0000,0000,,Pr-Pracujú neustále, \Nakoby už mali pripravené nudle.
+Dialogue: 0,0:08:22.94,0:08:25.90,Main Dialogue,Endo,0000,0000,0000,,Pche! Je to len trik!
+Dialogue: 0,0:08:26.33,0:08:30.47,Main Dialogue,Endo,0000,0000,0000,,Neexistuje žiadny spôsob, \Naby za týchto okolností prešli!
+Dialogue: 0,0:08:30.47,0:08:32.11,Main Dialogue,Endo,0000,0000,0000,,Sú úplne hotový!
+Dialogue: 0,0:08:32.11,0:08:34.46,Main Dialogue,Endo,0000,0000,0000,,Vrátim sa do svojej čakárne!
+Dialogue: 0,0:08:34.46,0:08:35.49,Main Dialogue,Staff,0000,0000,0000,,Endo-san!
+Dialogue: 0,0:08:35.49,0:08:36.94,Main Dialogue,Endo,0000,0000,0000,,Čo je to teraz?
+Dialogue: 0,0:08:36.94,0:08:39.38,Main Dialogue,Staff,0000,0000,0000,,Er, dobre, hala C ...
+Dialogue: 0,0:08:39.38,0:08:43.35,Main Dialogue,Staff,0000,0000,0000,,A zrejme aj hala A a hala B ...
+Dialogue: 0,0:08:43.35,0:08:44.71,Main Dialogue,Staff,0000,0000,0000,,Je ťažké uveriť, ale ...
+Dialogue: 0,0:08:45.21,0:08:49.29,Main Dialogue,Staff,0000,0000,0000,,Všetci rebeli dokončuju \Nsvoje pokrmy z nudlí!
+Dialogue: 0,0:08:49.29,0:08:51.05,Main Dialogue,Endo,0000,0000,0000,,Čo?!
+Dialogue: 0,0:08:51.05,0:08:54.68,Main Dialogue,S,0000,0000,0000,,Pán skúšajúci, ak by sme chceli zlyhať,
+Dialogue: 0,0:08:54.68,0:08:58.05,Main Dialogue,S,0000,0000,0000,,naozaj by ste to tu nemali nechať ležať.
+Dialogue: 0,0:08:59.07,0:09:00.26,Main Dialogue,Endo,0000,0000,0000,,Zemiak?
+Dialogue: 0,0:09:00.60,0:09:03.60,Main Dialogue,S,0000,0000,0000,,Domáce varenie z \Nregiónu Hokkaido v Kutchan ...
+Dialogue: 0,0:09:03.60,0:09:05.31,Main Dialogue,Endo,0000,0000,0000,,Ah!
+Dialogue: 0,0:09:05.31,0:09:09.57,sign_13075_168_Kucchan_City,Sign 0908,0000,0000,0000,,Kutchan City
+Dialogue: 0,0:09:06.06,0:09:10.09,Italics Dialogue,Ryoko,0000,0000,0000,,Mesto Kutchan je známe pre veľmi silné\Nsneženie, dokonca aj podľa noriem Hokkaidó.
+Dialogue: 0,0:09:10.09,0:09:12.03,Italics Dialogue,Ryoko,0000,0000,0000,,Sú hlavným výrobcom zemiakov.
+Dialogue: 0,0:09:12.03,0:09:15.99,Italics Dialogue,Isami,0000,0000,0000,,Tu sú nudle, ktoré zvýrazňuju škrob
+Dialogue: 0,0:09:15.99,0:09:19.20,Italics Dialogue,Isami,0000,0000,0000,,z renomovanej odrody, \Nírskej Cobbler.
+Dialogue: 0,0:09:19.20,0:09:24.16,Italics Dialogue,Ikumi,0000,0000,0000,,Zemiakový škrob obsahuje až 95 % nudlí!
+Dialogue: 0,0:09:21.26,0:09:22.41,sign_13457_174_Potato__Starch__,Sign 0922,0000,0000,0000,,Zemiak\N Škrob\N 95%
+Dialogue: 0,0:09:21.26,0:09:22.41,sign_13457_175_Other_5_,Sign 0922,0000,0000,0000,,Zvišok\N5%
+Dialogue: 0,0:09:24.16,0:09:24.83,Main Dialogue,S,0000,0000,0000,,To je správne!
+Dialogue: 0,0:09:25.28,0:09:26.54,Main Dialogue,S,0000,0000,0000,,Je to gosetsu udon!
+Dialogue: 0,0:09:27.50,0:09:30.46,Italics Dialogue,T,0000,0000,0000,,Po prvé, oparime zemiaky a odstráňte kožu!
+Dialogue: 0,0:09:30.46,0:09:33.63,Italics Dialogue,S,0000,0000,0000,,Potom ich riadne rozpučime.
+Dialogue: 0,0:09:33.63,0:09:37.34,Italics Dialogue,M,0000,0000,0000,,Pridame vodu, soľ, a múku,\Na miešať do cesta!
+Dialogue: 0,0:09:37.34,0:09:40.89,Main Dialogue,S,0000,0000,0000,,Nemame dostatok pšeničnej múky, samozrejme,
+Dialogue: 0,0:09:40.89,0:09:44.18,Main Dialogue,S,0000,0000,0000,,ale zemiakový škrob môže byť náhradou!
+Dialogue: 0,0:09:41.97,0:09:44.18,sign_13954_183_Missing,,0000,0000,0000,,Zemiakový škrob.
+Dialogue: 0,0:09:44.18,0:09:46.98,Main Dialogue,Endo,0000,0000,0000,,The potato starch that was to be used \Nto flour the noodle prep surface...
+Dialogue: 0,0:09:46.98,0:09:49.15,Main Dialogue,Endo,0000,0000,0000,,Zemiaky sú základnou zložkou!
+Dialogue: 0,0:09:49.15,0:09:51.93,Main Dialogue,T,0000,0000,0000,,Nie je typicke v rezancoch,
+Dialogue: 0,0:09:51.93,0:09:54.36,Main Dialogue,T,0000,0000,0000,,ale je to inu chuť, \Npokiaľ ide o gosetsu udon!
+Dialogue: 0,0:09:54.36,0:09:57.83,Main Dialogue,S,0000,0000,0000,,Funguje skvelo na miešanie,
+Dialogue: 0,0:09:57.83,0:10:01.33,Main Dialogue,S,0000,0000,0000,,a robí veľké škrobové, elastické cesto.
+Dialogue: 0,0:10:01.33,0:10:02.53,Main Dialogue,S,0000,0000,0000,,Správne!
+Dialogue: 0,0:10:02.53,0:10:05.25,Main Dialogue,Endo,0000,0000,0000,,Ale čo?
+Dialogue: 0,0:10:05.25,0:10:08.50,Main Dialogue,Endo,0000,0000,0000,,Ak si myslíš, že môžeš len zo zvyšku\Nzelenej cibule dačo urobiť,
+Dialogue: 0,0:10:08.50,0:10:10.00,Main Dialogue,Endo,0000,0000,0000,,mýliš sa!
+Dialogue: 0,0:10:10.55,0:10:14.74,Main Dialogue,Endo,0000,0000,0000,,Ostatný získali vysoko kvalitné \Nprísady pred zasiahnutím víchrica
+Dialogue: 0,0:10:14.74,0:10:19.01,Main Dialogue,Endo,0000,0000,0000,,a vytvorily pokrmy hodné toho, \Naby sa nazývali gurmánske jedlá.
+Dialogue: 0,0:10:22.23,0:10:23.22,Flashback Dialogue,E,0000,0000,0000,,Počuvajte!
+Dialogue: 0,0:10:23.71,0:10:27.17,Flashback Dialogue,E,0000,0000,0000,,Zemiaky sú mimoriadne všestrannou zložkou!
+Dialogue: 0,0:10:27.17,0:10:32.37,Flashback Dialogue,E,0000,0000,0000,,Ako môžete pochopiť a \Nvyužiť ich jedinečné vlastnosti,
+Dialogue: 0,0:10:32.37,0:10:34.44,Flashback Dialogue,E,0000,0000,0000,,pomôžu vám v čase potreby!
+Dialogue: 0,0:10:35.14,0:10:38.15,Italics Dialogue,M,0000,0000,0000,,Možno to môžem použiť ako topnku ...
+Dialogue: 0,0:10:38.15,0:10:39.45,Main Dialogue,T,0000,0000,0000,,Yukihira!
+Dialogue: 0,0:10:39.45,0:10:41.91,Main Dialogue,T,0000,0000,0000,,Po vyklopení nudlí zostávajú ďalšie úlohy!
+Dialogue: 0,0:10:41.91,0:10:43.42,Main Dialogue,T,0000,0000,0000,,Nezostávajte!
+Dialogue: 0,0:10:43.42,0:10:45.66,Main Dialogue,S,0000,0000,0000,,Áno, viem!
+Dialogue: 0,0:10:52.08,0:10:53.29,Main Dialogue,S,0000,0000,0000,,Hotovo!
+Dialogue: 0,0:10:53.81,0:10:57.55,Main Dialogue,S,0000,0000,0000,,Špeciálny seminár Hokkaido Gosetsu Udon!
+Dialogue: 0,0:10:57.90,0:10:58.97,Main Dialogue,S,0000,0000,0000,,S chuťou do toho!
+Dialogue: 0,0:10:59.51,0:11:00.57,Main Dialogue,Endo,0000,0000,0000,,Hm?
+Dialogue: 0,0:11:00.57,0:11:03.02,Italics Dialogue,Endo,0000,0000,0000,,Nemyslel som, že jediná zložka, ktorá  \Nzostava bude použitá na topping
+Dialogue: 0,0:11:03.02,0:11:05.64,Italics Dialogue,Endo,0000,0000,0000,,ale zelená cibuľa a perilové listy.
+Dialogue: 0,0:11:05.97,0:11:07.10,Italics Dialogue,Endo,0000,0000,0000,,Mohlo by to byť ...?
+Dialogue: 0,0:11:07.10,0:11:09.68,Main Dialogue,S,0000,0000,0000,,Mohli by ste prosím jesť, \Nkým nebudú nudle mokré?
+Dialogue: 0,0:11:09.68,0:11:11.06,Main Dialogue,Endo,0000,0000,0000,,Spravne.
+Dialogue: 0,0:11:22.15,0:11:24.82,Main Dialogue,Endo,0000,0000,0000,,Čo je s týmto vývarom ?!
+Dialogue: 0,0:11:24.82,0:11:27.22,Main Dialogue,Endo,0000,0000,0000,,Je to dostatočne zahustené \Nna to, aby pokril nudle!
+Dialogue: 0,0:11:27.22,0:11:29.33,Main Dialogue,Endo,0000,0000,0000,,Čo umami!
+Dialogue: 0,0:11:29.33,0:11:32.12,Main Dialogue,S,0000,0000,0000,,Pridal som strúhaný zemiak do vývaru.
+Dialogue: 0,0:11:32.12,0:11:34.79,Main Dialogue,S,0000,0000,0000,,Takto sa bujón správne zahustil.
+Dialogue: 0,0:11:35.19,0:11:38.76,Main Dialogue,S,0000,0000,0000,,Okrem toho majú zemiaky \Nveľa kyseliny glutámovej.
+Dialogue: 0,0:11:38.76,0:11:43.22,Main Dialogue,S,0000,0000,0000,,Táto zložka umami sa \Nrozšírila po celom bujóne.
+Dialogue: 0,0:11:43.22,0:11:45.19,Main Dialogue,S,0000,0000,0000,,Zemiaky boli hrubo strouhané,
+Dialogue: 0,0:11:45.19,0:11:49.98,Main Dialogue,S,0000,0000,0000,,takže drobné zemiakové kúsky v \Ncelom vývaru poskytujú aj vzhľad!
+Dialogue: 0,0:11:50.37,0:11:52.94,Main Dialogue,Endo,0000,0000,0000,,A čo je to na vrcholu za topping?
+Dialogue: 0,0:11:57.61,0:12:01.38,Main Dialogue,Endo,0000,0000,0000,,Je to zemiakovi mochi, populárny pre \Nnávštevníkov Hokkaida, ktorí si odnesu domov!
+Dialogue: 0,0:12:01.38,0:12:04.57,Main Dialogue,Endo,0000,0000,0000,,Svetlý a nadychany, \Na z vonkajšej strany je krehké ...
+Dialogue: 0,0:12:04.57,0:12:07.11,Main Dialogue,Endo,0000,0000,0000,,Kompatibilny s hustou polievkou,
+Dialogue: 0,0:12:07.11,0:12:11.79,Main Dialogue,Endo,0000,0000,0000,,kontrastuje s rezancami \Na zvyšuje spokojnosť reštaurátora.
+Dialogue: 0,0:12:12.18,0:12:13.62,Main Dialogue,Endo,0000,0000,0000,,Ako to môže byť?
+Dialogue: 0,0:12:13.99,0:12:18.34,Main Dialogue,Endo,0000,0000,0000,,Všetky charakteristíki zemiakov su v tejto!
+Dialogue: 0,0:12:18.34,0:12:19.61,Main Dialogue,S,0000,0000,0000,,Mate pravdu!
+Dialogue: 0,0:12:19.61,0:12:21.01,Main Dialogue,S,0000,0000,0000,,To je —
+Dialogue: 0,0:12:19.90,0:12:24.66,Main Dialogue,T,0000,0000,0000,,Škrob, vzhlad a umami \Nsa sústredili do jednej misy.
+Dialogue: 0,0:12:24.66,0:12:27.00,Main Dialogue,T,0000,0000,0000,,Stručne povedané, je to \Nnajkvalitnejšia zemiakovo-rezancová miska.
+Dialogue: 0,0:12:27.00,0:12:29.18,Main Dialogue,S,0000,0000,0000,,Čo?
+Dialogue: 0,0:12:27.72,0:12:29.18,Main Dialogue,M,0000,0000,0000,,Prosim ohodnote tento pokrm!
+Dialogue: 0,0:12:29.18,0:12:29.89,Main Dialogue,S,0000,0000,0000,,Čo?
+Dialogue: 0,0:12:33.79,0:12:37.94,Italics Dialogue,Endo,0000,0000,0000,,To je pôsobivy rozdiel v gosetsu udon!
+Dialogue: 0,0:12:37.94,0:12:40.28,Italics Dialogue,Endo,0000,0000,0000,,Ako by mi to hovorilo vzlietni ?!
+Dialogue: 0,0:12:41.45,0:12:43.24,Main Dialogue,S,0000,0000,0000,,No, pán skúšajúci?
+Dialogue: 0,0:12:44.79,0:12:50.09,Main Dialogue,Endo,0000,0000,0000,,Yukihira Soma, Takumi Aldini \Na Tadokoro Megumi-
+Dialogue: 0,0:12:50.09,0:12:52.66,Main Dialogue,Endo,0000,0000,0000,,V-Všetc stei prešli!
+Dialogue: 0,0:12:53.27,0:12:54.87,Main Dialogue,S,0000,0000,0000,,Som rád, že vam chutnalo!
+Dialogue: 0,0:12:55.67,0:12:56.83,Main Dialogue,Endo,0000,0000,0000,,Prešli!
+Dialogue: 0,0:12:57.69,0:12:58.79,Main Dialogue,Endo,0000,0000,0000,,Prešli!
+Dialogue: 0,0:12:59.22,0:13:01.25,Main Dialogue,Endo,0000,0000,0000,,Všetci, prešli!
+Dialogue: 0,0:13:01.64,0:13:03.38,Main Dialogue,Yuki,0000,0000,0000,,Erinacchi!
+Dialogue: 0,0:13:03.38,0:13:04.41,Main Dialogue,Yuki,0000,0000,0000,,Dokazali sme to!
+Dialogue: 0,0:13:04.41,0:13:07.97,Main Dialogue,Yuki,0000,0000,0000,,Vďaka semináru Hokkaido sme prešli!
+Dialogue: 0,0:13:07.97,0:13:12.57,Main Dialogue,Yuki,0000,0000,0000,,Podarilo sa mi to všetko \Nurobiť , vďaka tebe!
+Dialogue: 0,0:13:12.57,0:13:13.81,Main Dialogue,E,0000,0000,0000,,Neplač!
+Dialogue: 0,0:13:14.17,0:13:16.27,Main Dialogue,Endo,0000,0000,0000,,Vidím to teraz.
+Dialogue: 0,0:13:16.27,0:13:19.50,Main Dialogue,Endo,0000,0000,0000,,Ak by ste nezasiahli, Erina-sama,
+Dialogue: 0,0:13:19.50,0:13:23.61,Main Dialogue,Endo,0000,0000,0000,,takýto odpad by bol ľahko odstránený.
+Dialogue: 0,0:13:23.61,0:13:26.51,Main Dialogue,Endo,0000,0000,0000,,Oni prežili len vďaka tvojmu milosrdenstvu!
+Dialogue: 0,0:13:26.51,0:13:28.84,Main Dialogue,Endo,0000,0000,0000,,Keby vam len nepočuli nápady do hlavy ...
+Dialogue: 0,0:13:28.84,0:13:29.95,Main Dialogue,E,0000,0000,0000,,Mýliš sa!
+Dialogue: 0,0:13:30.78,0:13:35.31,Main Dialogue,E,0000,0000,0000,,Učila som ich iba o \Njedinečných vlastnostiach zemiakov.
+Dialogue: 0,0:13:35.31,0:13:38.57,Main Dialogue,E,0000,0000,0000,,To oni, stavaly na gosetsu \Nudon ako hlavný koncept
+Dialogue: 0,0:13:38.57,0:13:40.00,Main Dialogue,E,0000,0000,0000,,a zvýraznily silu zemiakov!
+Dialogue: 0,0:13:41.07,0:13:43.06,Main Dialogue,E,0000,0000,0000,,Dávajte si pozor na moje upozornenie!
+Dialogue: 0,0:13:43.06,0:13:47.51,Main Dialogue,E,0000,0000,0000,,Títo kuchári sú ďaleko za vami!
+Dialogue: 0,0:13:47.51,0:13:49.51,Italics Dialogue,Endo,0000,0000,0000,,N-Nemožne!
+Dialogue: 0,0:13:49.51,0:13:52.85,Italics Dialogue,Endo,0000,0000,0000,,Ako sa mohli rebeli takto spojiť?
+Dialogue: 0,0:13:52.85,0:13:55.98,Italics Dialogue,Endo,0000,0000,0000,,Toto je Erina-sama a jej\Núcta a inšpiracia v vedenie.
+Dialogue: 0,0:13:55.98,0:13:56.77,Italics Dialogue,Endo,0000,0000,0000,,Je ako keby ...
+Dialogue: 0,0:13:56.77,0:14:00.15,Italics Dialogue,Endo,0000,0000,0000,,Je ako keby bola Artuš, svätý veliteľ rytierov
+Dialogue: 0,0:14:00.15,0:14:04.07,Italics Dialogue,Endo,0000,0000,0000,,a vziať späť vladu nad Totsuki a centrálou!
+Dialogue: 0,0:14:06.13,0:14:07.49,Main Dialogue,Endo,0000,0000,0000,,Prehral som
+Dialogue: 0,0:14:07.49,0:14:10.65,Main Dialogue,All,0000,0000,0000,,Yuuupiii!
+Dialogue: 0,0:14:10.65,0:14:13.91,Main Dialogue,Staff,0000,0000,0000,,Všetci rebeli prešli druhou fazou.
+Dialogue: 0,0:14:14.65,0:14:17.37,Main Dialogue,Staff,0000,0000,0000,,Áno, pošlem ich.
+Dialogue: 0,0:14:23.50,0:14:25.11,Main Dialogue,Yuki,0000,0000,0000,,Yupi!
+Dialogue: 0,0:14:25.11,0:14:25.77,Main Dialogue,Yuki,0000,0000,0000,,Sapporo!
+Dialogue: 0,0:14:25.77,0:14:26.20,Main Dialogue,Yuki,0000,0000,0000,,Hlavne mesto!
+Dialogue: 0,0:14:26.20,0:14:27.01,Main Dialogue,Yuki,0000,0000,0000,,Nákupná štvrť!
+Dialogue: 0,0:14:27.01,0:14:32.53,Main Dialogue,M,0000,0000,0000,,Som tak ráda, že nás nechali pozrieť \Nsi mesto pred nastupom do vlaku.
+Dialogue: 0,0:14:32.53,0:14:33.49,Main Dialogue,Ikumi,0000,0000,0000,,Yupi.
+Dialogue: 0,0:14:33.49,0:14:34.96,Main Dialogue,Ikumi,0000,0000,0000,,Vlak neodchadza až do večera,
+Dialogue: 0,0:14:34.96,0:14:36.14,Main Dialogue,Ikumi,0000,0000,0000,,takže máme voľny čas.
+Dialogue: 0,0:14:36.14,0:14:38.92,Main Dialogue,Yuki,0000,0000,0000,,Hej, poďme si dať dobré!
+Dialogue: 0,0:14:38.92,0:14:39.49,Main Dialogue,Aooki,0000,0000,0000,,Ramen!
+Dialogue: 0,0:14:39.49,0:14:40.20,Main Dialogue,Sato,0000,0000,0000,,Sushi!
+Dialogue: 0,0:14:40.20,0:14:41.10,Main Dialogue,Ibu,0000,0000,0000,,Genghis Khan.
+Dialogue: 0,0:14:41.10,0:14:43.57,Main Dialogue,Ryoko,0000,0000,0000,,Možno by sme sa mali rozdeliť.
+Dialogue: 0,0:14:43.88,0:14:48.28,Main Dialogue,E,0000,0000,0000,,Počúvajte, premýšľajte nad tým \Nako nad súčasťou seminára Hokkaido.
+Dialogue: 0,0:14:48.28,0:14:52.53,Main Dialogue,E,0000,0000,0000,,Je to lepšia lekcia ako \Nochutnať miestne jedlá!
+Dialogue: 0,0:14:52.53,0:14:54.99,Main Dialogue,3,0000,0000,0000,,Rozkas, Erina-sensei!
+Dialogue: 0,0:14:58.99,0:15:00.89,Main Dialogue,T,0000,0000,0000,,Čo je to za bohatá chuť ?!
+Dialogue: 0,0:15:00.89,0:15:02.30,Main Dialogue,T,0000,0000,0000,,Je to len množstvo sladkosti!
+Dialogue: 0,0:15:02.30,0:15:03.81,Main Dialogue,T,0000,0000,0000,,Ale je to čiste bohaté!
+Dialogue: 0,0:15:03.81,0:15:05.26,Main Dialogue,T,0000,0000,0000,,Je to až príliš bohaté!
+Dialogue: 0,0:15:05.26,0:15:08.96,Main Dialogue,S,0000,0000,0000,,Aký druh mlieka používajú na \Nvýrobu takej dobrej zmrzliny ?!
+Dialogue: 0,0:15:08.96,0:15:10.38,Main Dialogue,S,0000,0000,0000,,Hokkaido je úžasné!
+Dialogue: 0,0:15:10.81,0:15:13.35,Main Dialogue,S,0000,0000,0000,,Hádaj, čo všetko budeme musieť vyskúšať!
+Dialogue: 0,0:15:13.35,0:15:14.42,Main Dialogue,T,0000,0000,0000,,Spravne!
+Dialogue: 0,0:15:14.42,0:15:17.06,Main Dialogue,T,0000,0000,0000,,Musíme starostlivo rozhodnuť, \Nčo stojí za vyskúšanie.
+Dialogue: 0,0:15:17.06,0:15:19.38,Main Dialogue,S,0000,0000,0000,,Hm, Tanukikoji?
+Dialogue: 0,0:15:19.38,0:15:21.17,Main Dialogue,T,0000,0000,0000,,Pokúsime sa ísť celú cestu do Susukino!
+Dialogue: 0,0:15:21.17,0:15:24.02,Main Dialogue,Yuki,0000,0000,0000,,Večerne duo na plny plyn!
+Dialogue: 0,0:15:24.02,0:15:26.30,Main Dialogue,Ikumi,0000,0000,0000,,Nechceš isť s tvojim bratom?
+Dialogue: 0,0:15:26.30,0:15:29.90,Main Dialogue,Isami,0000,0000,0000,,Chcel som ísť okolo parku Odori, takže ...
+Dialogue: 0,0:15:30.21,0:15:34.29,Main Dialogue,Ryoko,0000,0000,0000,,Malo by to byť slávny obchod s \Nmorskim jedlom pred stanicou Sapporo.
+Dialogue: 0,0:15:34.29,0:15:35.66,Main Dialogue,Ryoko,0000,0000,0000,,Chcela by si sa pridať, Arato-san?
+Dialogue: 0,0:15:35.66,0:15:36.31,Main Dialogue,Hisako,0000,0000,0000,,Čo?
+Dialogue: 0,0:15:36.31,0:15:37.98,Main Dialogue,Ryoko,0000,0000,0000,,Majú aj sušený tovar,
+Dialogue: 0,0:15:37.98,0:15:39.54,Main Dialogue,Ryoko,0000,0000,0000,,ako použivaš pre tvoju liečivú kuchyňu.
+Dialogue: 0,0:15:40.53,0:15:42.67,Main Dialogue,Hisako,0000,0000,0000,,Ale ja...
+Dialogue: 0,0:15:43.53,0:15:44.81,Main Dialogue,E,0000,0000,0000,,Je to vporiadku, Hisako.
+Dialogue: 0,0:15:44.81,0:15:45.79,Main Dialogue,E,0000,0000,0000,,Choď.
+Dialogue: 0,0:15:46.11,0:15:49.26,Main Dialogue,E,0000,0000,0000,,Máte právo robiť to, čo chcete.
+Dialogue: 0,0:15:49.60,0:15:52.47,Main Dialogue,Hisako,0000,0000,0000,,Erina-sama... Dakujem!
+Dialogue: 0,0:15:52.47,0:15:55.77,Main Dialogue,M,0000,0000,0000,,Nakiri-san, poďme sa tu poobzerať.
+Dialogue: 0,0:15:55.77,0:15:56.85,Main Dialogue,E,0000,0000,0000,,Áno, poďme.
+Dialogue: 0,0:15:56.85,0:16:02.98,sign_22942_314_Loyalty,Sign 1559,0000,0000,0000,,Vernosť
+Dialogue: 0,0:15:57.55,0:16:00.28,Main Dialogue,Hisako,0000,0000,0000,,Dobre, udrž ju v bezpečí.
+Dialogue: 0,0:16:00.28,0:16:02.06,Main Dialogue,Hisako,0000,0000,0000,,Posaraj sa o Erina-samu!
+Dialogue: 0,0:16:02.06,0:16:02.98,Main Dialogue,M,0000,0000,0000,,Ok!
+Dialogue: 0,0:16:06.98,0:16:10.35,Main Dialogue,Isami,0000,0000,0000,,Takuto skupinu, často nevidieť.
+Dialogue: 0,0:16:10.35,0:16:13.57,Main Dialogue,M,0000,0000,0000,,Oh, je tu niejaka udalosť!
+Dialogue: 0,0:16:13.57,0:16:15.88,Main Dialogue,Isami,0000,0000,0000,,Zaujímalo by ma, či tam bude niečo dobré.
+Dialogue: 0,0:16:15.88,0:16:18.41,Main Dialogue,Ikumi,0000,0000,0000,,E-Er, Erina-sama ...
+Dialogue: 0,0:16:18.41,0:16:20.41,Main Dialogue,Ikumi,0000,0000,0000,,Chcete niečo k jedlu?
+Dialogue: 0,0:16:20.41,0:16:22.02,Main Dialogue,Ikumi,0000,0000,0000,,Môžem vam pre niečo ísť!
+Dialogue: 0,0:16:22.62,0:16:24.17,Main Dialogue,E,0000,0000,0000,,Som v poriadku, Mito-san.
+Dialogue: 0,0:16:24.17,0:16:26.13,Main Dialogue,Ikumi,0000,0000,0000,,V-Vidim.
+Dialogue: 0,0:16:32.33,0:16:34.92,Main Dialogue,E,0000,0000,0000,,Bola som v Sapporo veľa krát,
+Dialogue: 0,0:16:34.92,0:16:38.06,Main Dialogue,E,0000,0000,0000,,ale je to prvýkrát, čo mám čas, aby som \Nsi pozrela pamiatky.
+Dialogue: 0,0:16:38.06,0:16:38.97,Main Dialogue,M,0000,0000,0000,,Važne?
+Dialogue: 0,0:16:39.41,0:16:41.30,Main Dialogue,E,0000,0000,0000,,Ako ten, kto má Boží jazyk,
+Dialogue: 0,0:16:41.30,0:16:42.85,Main Dialogue,E,0000,0000,0000,,Strávila som cele dni, \Nktoré slúžili na degustovanie,
+Dialogue: 0,0:16:42.85,0:16:45.65,Main Dialogue,E,0000,0000,0000,,spraviť všetky rozhodnutia\Nv potravinárskom priemysle.
+Dialogue: 0,0:16:46.25,0:16:51.36,Main Dialogue,E,0000,0000,0000,,Takmer nikdy som \Nneopustila svoj domov.
+Dialogue: 0,0:16:52.11,0:16:54.32,Main Dialogue,E,0000,0000,0000,,Keď sa teraz pozrieme späť,
+Dialogue: 0,0:16:54.32,0:16:57.47,Main Dialogue,E,0000,0000,0000,,Možno som sa nesnažila \Nvidieť nič ine na svete.
+Dialogue: 0,0:16:58.59,0:17:02.50,Main Dialogue,E,0000,0000,0000,,Snažila som sa plniť svoje povinnosti \Nako dedička rodiny Nakiri.
+Dialogue: 0,0:17:03.96,0:17:06.22,Main Dialogue,Ikumi,0000,0000,0000,,To nieje pravda.
+Dialogue: 0,0:17:06.92,0:17:10.38,Main Dialogue,Ikumi,0000,0000,0000,,Vy ste užasna, Erina-sama.
+Dialogue: 0,0:17:11.09,0:17:14.13,Main Dialogue,Ikumi,0000,0000,0000,,Ako potomk rodiny Mito som vás \Npri niekoľkých príležitostiach videla.
+Dialogue: 0,0:17:14.89,0:17:20.10,Main Dialogue,Ikumi,0000,0000,0000,,Myslím, že rozumiem ťažkostiam, \Nktoré ste prežili.
+Dialogue: 0,0:17:20.51,0:17:21.42,Main Dialogue,E,0000,0000,0000,,Mito-san?
+Dialogue: 0,0:17:21.42,0:17:22.39,Main Dialogue,Ikumi,0000,0000,0000,,Oh, prepačte!
+Dialogue: 0,0:17:22.39,0:17:25.02,Main Dialogue,Ikumi,0000,0000,0000,,Moja rodina a tvoja sú odlišne od seba
+Dialogue: 0,0:17:25.02,0:17:27.61,Main Dialogue,Ikumi,0000,0000,0000,,a viem, že by som o tom nemala premýšľať
+Dialogue: 0,0:17:27.61,0:17:30.07,Main Dialogue,Ikumi,0000,0000,0000,,že vy a ja sme boli v rovnakej situácii!
+Dialogue: 0,0:17:30.07,0:17:33.90,Main Dialogue,Ikumi,0000,0000,0000,,Ale bola som veznom v \Nmojim domom, takže ...
+Dialogue: 0,0:17:33.90,0:17:39.27,Main Dialogue,Ikumi,0000,0000,0000,,Aj keď vy museli cítiť \Noveľa väčší tlak ako ja,
+Dialogue: 0,0:17:39.27,0:17:41.08,Main Dialogue,Ikumi,0000,0000,0000,,vždy ste mali vetšiu pozornosť.
+Dialogue: 0,0:17:42.08,0:17:47.15,Main Dialogue,Ikumi,0000,0000,0000,,Takže ... ja  vás rešpektujem, Erina-sama.
+Dialogue: 0,0:17:47.15,0:17:49.29,Main Dialogue,Ikumi,0000,0000,0000,,Um, tak ...
+Dialogue: 0,0:17:49.29,0:17:52.58,Main Dialogue,Ikumi,0000,0000,0000,,Ja sa idem pozriem na to, čo sa tam deje.
+Dialogue: 0,0:17:52.58,0:17:54.17,Main Dialogue,Ikumi,0000,0000,0000,,Prepáčte, Erina-sama!
+Dialogue: 0,0:17:54.17,0:17:57.80,Main Dialogue,Isami,0000,0000,0000,,Si si istá, že budeš v poriadku, Mito-san!
+Dialogue: 0,0:18:01.89,0:18:05.29,Main Dialogue,M,0000,0000,0000,,Som ráda, že ste si dokázali \Ns Mito-san si vyjasniť veci.
+Dialogue: 0,0:18:05.29,0:18:08.69,Main Dialogue,E,0000,0000,0000,,Nikdy sme neboli odlišne.
+Dialogue: 0,0:18:09.42,0:18:14.06,Italics Dialogue,E,0000,0000,0000,,Prestala som sa s ňou baviť, \Nčo prehrala to Shokugeki.
+Dialogue: 0,0:18:14.06,0:18:18.15,Italics Dialogue,E,0000,0000,0000,,A ešte k tomu ... \NNevedela som, že o mne takto zmyšľala.
+Dialogue: 0,0:18:18.47,0:18:21.11,Main Dialogue,E,0000,0000,0000,,Tadokoro-san, ďakujem ty za ten \Npražený zelený čaj z hnedej ryže.
+Dialogue: 0,0:18:21.11,0:18:24.02,Main Dialogue,M,0000,0000,0000,,Oh, nemusíte mi ďakovať!
+Dialogue: 0,0:18:24.02,0:18:26.82,Main Dialogue,M,0000,0000,0000,,Dajte mi vedieť, či môžem s \Nniečim pomôcť, dobre ?!
+Dialogue: 0,0:18:26.82,0:18:29.25,Main Dialogue,M,0000,0000,0000,,Ak chcete niejake mangy, na \Nčítanie, môžem vám ich požičať.
+Dialogue: 0,0:18:29.25,0:18:30.13,Main Dialogue,E,0000,0000,0000,,Čo?
+Dialogue: 0,0:18:30.27,0:18:34.13,sign_26620_363_With_Heart,Sign 1833,0000,0000,0000,,Za Srdcom
+Dialogue: 0,0:18:30.41,0:18:32.58,Main Dialogue,E,0000,0000,0000,,To bola tvoja manga?
+Dialogue: 0,0:18:32.58,0:18:34.13,Main Dialogue,M,0000,0000,0000,,Huh? Jo.
+Dialogue: 0,0:18:34.46,0:18:37.48,Main Dialogue,M,0000,0000,0000,,Hisako a Yukihira-kun my \Nnepovedali, kto sú.
+Dialogue: 0,0:18:37.48,0:18:41.22,Main Dialogue,M,0000,0000,0000,,No, je to tiež moja vina, že sa neopytala.
+Dialogue: 0,0:18:41.22,0:18:44.03,Main Dialogue,M,0000,0000,0000,,Je mi ľúto, že som ti ich nevrátil.
+Dialogue: 0,0:18:44.03,0:18:46.07,Main Dialogue,M,0000,0000,0000,,Nemajte strach o to.
+Dialogue: 0,0:18:46.07,0:18:49.98,Main Dialogue,M,0000,0000,0000,,Som ráda, že sa mi páči niečo, \Nčo sa páči aj vám.
+Dialogue: 0,0:18:52.44,0:18:53.82,Main Dialogue,TS,0000,0000,0000,,Tak tu ste!
+Dialogue: 0,0:18:53.82,0:18:56.49,Main Dialogue,M,0000,0000,0000,,Soma-kun, Takumi-kun! Čo sa deje?
+Dialogue: 0,0:18:56.49,0:18:59.57,Main Dialogue,S,0000,0000,0000,,Oh, našli sme úplne úžasné miesto,
+Dialogue: 0,0:18:59.57,0:19:02.27,Main Dialogue,S,0000,0000,0000,,ale na ich menu je príliš veľke!
+Dialogue: 0,0:19:02.27,0:19:03.84,Main Dialogue,T,0000,0000,0000,,Vy dva ste ešte nejedli, však?
+Dialogue: 0,0:19:03.84,0:19:06.00,Main Dialogue,T,0000,0000,0000,,Prijdete s nami?
+Dialogue: 0,0:19:06.00,0:19:08.83,Main Dialogue,T,0000,0000,0000,,Poďme si objednať tónu a \Nzdieľať všetko medzi nami!
+Dialogue: 0,0:19:08.83,0:19:10.05,Main Dialogue,M,0000,0000,0000,,Jasné.
+Dialogue: 0,0:19:10.05,0:19:10.78,Main Dialogue,S,0000,0000,0000,,Dobre všetci!
+Dialogue: 0,0:19:10.78,0:19:12.29,Main Dialogue,S,0000,0000,0000,,Teraz, keď je to ujastnene, poďme!
+Dialogue: 0,0:19:12.76,0:19:14.49,Main Dialogue,S,0000,0000,0000,,Hej, Nakiri. Poďme.
+Dialogue: 0,0:19:14.49,0:19:15.75,Main Dialogue,E,0000,0000,0000,,Huh? V poriadku.
+Dialogue: 0,0:19:19.46,0:19:23.39,Italics Dialogue,E,0000,0000,0000,,Skutočne som sa predtým \Nnepokúšal vidieť nič.
+Dialogue: 0,0:19:24.25,0:19:27.74,Italics Dialogue,E,0000,0000,0000,,Nevedel som, že toto mesto bolo tak krásne.
+Dialogue: 0,0:19:34.55,0:19:35.02,Main Dialogue,S,0000,0000,0000,,Čo?
+Dialogue: 0,0:19:35.53,0:19:37.76,Main Dialogue,S,0000,0000,0000,,Kde sú ostatní?
+Dialogue: 0,0:19:37.76,0:19:40.03,Main Dialogue,T,0000,0000,0000,,Možno sa už dostali do vlaku.
+Dialogue: 0,0:19:40.03,0:19:42.61,Main Dialogue,M,0000,0000,0000,,Je takmer čas odísť.
+Dialogue: 0,0:19:43.16,0:19:44.22,Main Dialogue,S,0000,0000,0000,,Hádam.
+Dialogue: 0,0:19:43.34,0:19:45.16,sign_28372_389_Hisako,Sign 1944,0000,0000,0000,,Hisako
+Dialogue: 0,0:19:44.22,0:19:45.16,Main Dialogue,E,0000,0000,0000,,Ano?
+Dialogue: 0,0:19:46.14,0:19:47.10,Italics Dialogue,Hisako,0000,0000,0000,,Erina-sama!
+Dialogue: 0,0:19:47.10,0:19:48.97,Italics Dialogue,Hisako,0000,0000,0000,,Kde ste teraz?!
+Dialogue: 0,0:19:48.97,0:19:51.97,Main Dialogue,E,0000,0000,0000,,Hisako, čo sa deje? Prečo si taká úztarana?
+Dialogue: 0,0:19:51.97,0:19:55.60,Italics Dialogue,Hisako,0000,0000,0000,,Oh,preto, lebo vás tu nevidím.
+Dialogue: 0,0:19:55.60,0:19:57.62,Main Dialogue,E,0000,0000,0000,,Nastupujem do vlaku.
+Dialogue: 0,0:19:57.62,0:19:59.22,Italics Dialogue,Hisako,0000,0000,0000,,Niečo nie je zlé!
+Dialogue: 0,0:19:59.22,0:19:59.84,Main Dialogue,E,0000,0000,0000,,Čo?
+Dialogue: 0,0:20:01.13,0:20:01.72,Italics Dialogue,Hisako,0000,0000,0000,,Pretože...
+Dialogue: 0,0:20:01.72,0:20:04.80,Main Dialogue,Hisako,0000,0000,0000,,Vlak odišiel pred 30 minútami!
+Dialogue: 0,0:20:04.80,0:20:05.51,Main Dialogue,E,0000,0000,0000,,Čo?
+Dialogue: 0,0:20:06.54,0:20:09.35,Main Dialogue,Rindo,0000,0000,0000,,Čo ste tak prekvapený?
+Dialogue: 0,0:20:09.35,0:20:12.27,Main Dialogue,Rindo,0000,0000,0000,,Vedeli ste, ako sa veci \Nmáju už od samého začiatku.
+Dialogue: 0,0:20:12.81,0:20:14.46,Main Dialogue,M,0000,0000,0000,,Rindo-senpai?!
+Dialogue: 0,0:20:14.46,0:20:16.48,Main Dialogue,Rindo,0000,0000,0000,,Hej, je tu naozaj zima, nie?
+Dialogue: 0,0:20:19.98,0:20:22.83,Main Dialogue,M,0000,0000,0000,,Čo mate tym na mysli?
+Dialogue: 0,0:20:22.83,0:20:26.45,Main Dialogue,Rindo,0000,0000,0000,,V brožúre sa spomína, že vlakové \Ntrasi sa bude rozdeľovať, nie?
+Dialogue: 0,0:20:26.45,0:20:31.20,Main Dialogue,Rindo,0000,0000,0000,,V najhoršom prípade sa niektore osoby \Nuvidia iba v záverečnej skúške.
+Dialogue: 0,0:20:31.71,0:20:34.79,Main Dialogue,Rindo,0000,0000,0000,,A tak všetko, uvidime \Nako daleko to dosiahnete.
+Dialogue: 0,0:20:36.35,0:20:38.53,Main Dialogue,Rindo,0000,0000,0000,,V tretej skuškovej etape, ktorá príde,
+Dialogue: 0,0:20:38.53,0:20:42.01,Main Dialogue,Rindo,0000,0000,0000,,vy všetci rebeli sa \Npostavite proti Elitnej desiatke!
+Dialogue: 0,0:20:44.72,0:20:50.07,Main Dialogue,Rindo,0000,0000,0000,,Urobme z toho zábavnou \Ncestu, Yukihira Soma?
+Dialogue: 0,0:22:28.83,0:22:34.45,Italics Dialogue,M,0000,0000,0000,,Prebudila som sa, pretože som premýšľala \No tom, ako budem čeliť Elitnej desiatke.
+Dialogue: 0,0:22:34.45,0:22:35.81,Main Dialogue,S,0000,0000,0000,,Hej.
+Dialogue: 0,0:22:36.33,0:22:38.25,Main Dialogue,S,0000,0000,0000,,Dobre ráno, Tadokoro.
+Dialogue: 0,0:22:38.25,0:22:41.38,Main Dialogue,M,0000,0000,0000,,Myslím, že si príliš nervózny, \Naby si mohol spať dlho.
+Dialogue: 0,0:22:41.38,0:22:44.21,Main Dialogue,S,0000,0000,0000,,Nie, bol som nadšený.
+Dialogue: 0,0:22:45.34,0:22:47.03,Main Dialogue,T,0000,0000,0000,,Ste neuveriteľný!
+Dialogue: 0,0:22:47.03,0:22:50.27,Main Dialogue,T,0000,0000,0000,,Ste ako dieťa, ktoré sa teší \Nna deň v zábavnom parku!
+Dialogue: 0,0:22:49.59,0:22:52.55,Main Dialogue Top,,0000,0000,0000,,
+Dialogue: 0,0:22:49.59,0:22:52.55,sign_32838_418_Under_Eye_Circle,Sign 2251,0000,0000,0000,,Kruhy pod očami
+Dialogue: 0,0:22:50.27,0:22:52.55,Main Dialogue,M,0000,0000,0000,,Myslím, že je tiež vzrušený Takumi-kun.
+Dialogue: 0,0:22:56.29,0:22:58.74,Main Dialogue,E,0000,0000,0000,,Potvrdim to neskôr telefonicky,
+Dialogue: 0,0:22:58.74,0:23:02.31,Main Dialogue,E,0000,0000,0000,,ale my, rebeli, sme boly \Nrozdelili na štyri rôzne cesty.
+Dialogue: 0,0:23:02.31,0:23:03.73,Main Dialogue,M,0000,0000,0000,,Vidim
+Dialogue: 0,0:23:03.73,0:23:05.28,Main Dialogue,M,0000,0000,0000,,Dufam že su vštci vporiadku.
+Dialogue: 0,0:23:05.28,0:23:06.90,Main Dialogue,Rindo,0000,0000,0000,,Hej.
+Dialogue: 0,0:23:06.90,0:23:08.86,Main Dialogue,Rindo,0000,0000,0000,,Priamo tu!
+Dialogue: 0,0:23:09.78,0:23:11.24,Main Dialogue,Rindo,0000,0000,0000,,Ešte ste neraňajky, však?
+Dialogue: 0,0:23:11.57,0:23:13.98,Main Dialogue,Rindo,0000,0000,0000,,Najedzte sa so mnou, keď už ste tu.
+Dialogue: 0,0:23:13.98,0:23:14.91,Main Dialogue,M,0000,0000,0000,,Ale...
+Dialogue: 0,0:23:14.91,0:23:16.57,Main Dialogue,Rindo,0000,0000,0000,,No tak, Tadokoro-chan.
+Dialogue: 0,0:23:16.57,0:23:17.44,Main Dialogue,Rindo,0000,0000,0000,,Jedzte, jedzte.
+Dialogue: 0,0:23:17.44,0:23:18.61,Main Dialogue,Rindo,0000,0000,0000,,Nie je to zlé.
+Dialogue: 0,0:23:18.61,0:23:22.51,Main Dialogue,E,0000,0000,0000,,Čo je ešte dôležitejšie, môžeš nám \Npovedať, čo bude ďalšia skúška?
+Dialogue: 0,0:23:23.82,0:23:26.14,Main Dialogue,E,0000,0000,0000,,Témy skúšok pre rebelou -
+Dialogue: 0,0:23:26.14,0:23:28.71,Main Dialogue,E,0000,0000,0000,,Dúfam, že ide o spravodlivý zápas.
+Dialogue: 0,0:23:29.49,0:23:32.37,Main Dialogue,E,0000,0000,0000,,Radšej by sme nemali mať \Ntakú zbabelú taktiku, ktorou sme prešli.
+Dialogue: 0,0:23:34.18,0:23:37.57,Main Dialogue,Rindo,0000,0000,0000,,Aha, no. To bolo všetko, \Nčo urobili skúšajúci.
+Dialogue: 0,0:23:37.57,0:23:40.27,Main Dialogue,Rindo,0000,0000,0000,,My nehrajeme špinavé.
+Dialogue: 0,0:23:40.27,0:23:43.65,Main Dialogue,S,0000,0000,0000,,Komu teda budem čeliť?
+Dialogue: 0,0:23:43.65,0:23:45.27,Main Dialogue,S,0000,0000,0000,,Bude to vy, Rindo-senpai?
+Dialogue: 0,0:23:45.27,0:23:49.03,Main Dialogue,Rindo,0000,0000,0000,,Nie, tvoj súper je tam.
+Dialogue: 0,0:23:49.03,0:23:49.82,Main Dialogue,S,0000,0000,0000,,Čo?
+Dialogue: 0,0:23:56.03,0:23:58.71,Main Dialogue,Rindo,0000,0000,0000,,Najnovší člen Elitnej desiatky-
+Dialogue: 0,0:24:00.95,0:24:02.73,Main Dialogue,Rindo,0000,0000,0000,,Hayama Akira.
+Dialogue: 0,0:24:03.92,0:24:05.92,sign_30623_420_Totsuki,,0000,0000,0000,,Totsuki
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_446_Food_Wars,,0000,0000,0000,,Food Wars
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_447_The_Third_Plate,,0000,0000,0000,,Treti štitok
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_445_Next_Episode___R,Sign 2407,0000,0000,0000,,Next Episode   {\fs16}Odvetny zapas
+Dialogue: 0,0:24:07.25,0:24:10.92,Main Dialogue Top,,0000,0000,0000,,Keď sme sa dostali cez tunel, bola tam zasnežená hora.

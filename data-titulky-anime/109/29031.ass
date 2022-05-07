@@ -1,0 +1,252 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: poznamka,Comic sans ms,38,&H00ffffff,&H8000ffff,&H10202020,&Ha0505050,-1,0,0,0,100,100,1,0.00,1,2,1,8,30,30,30,238
+Style: titulek2,Arial,33,&H00a0f0f0,&H8000ffff,&H30000008,&H60101010,-1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,30,238
+Style: titulek,Arial,38,&H00e0f0f0,&H8000ffff,&H30000008,&H60101010,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,30,238
+Style: mahoromatik,Comic sans ms,45,&H00b0e0f0,&H8000ffff,&H80ffffff,&H30802020,-1,0,0,0,100,100,3,0.00,1,1,2,2,35,35,100,238
+Style: poem,Comic sans ms,45,&H00f0f0f0,&H8000ffff,&Hd0000000,&H20000000,-1,-1,0,0,100,100,1,0.00,1,1,1,2,15,15,50,238
+Style: zpev,Bookman old style,35,&H00d0d0f0,&H8000ffff,&H10804080,&Ha0505050,-1,-1,0,0,100,100,0,0.00,1,2,1,8,30,30,30,238
+Style: credits,MS Gothic,33,&H00e0e0e0,&H8000ffff,&Hd0000000,&H40000000,-1,0,0,0,90,100,0,0.00,1,1,2,8,35,35,35,238
+Style: nazev,Comic sans ms,45,&H00f0f0f0,&H8000ffff,&Hd0000000,&H20000000,-1,-1,0,0,100,120,3,0.00,1,1,2,7,155,35,350,238
+Style: final,Bookman old style,45,&H00d0d0c0,&H8000ffff,&Hb0d0f0f0,&Ha0505050,-1,0,0,0,100,100,1,0.00,1,1,0,1,80,65,220,238
+Style: napis,Comic sans ms,38,&H00000000,&H8000ffff,&Hd0202020,&Ha0505050,-1,0,0,0,100,100,1,0.00,1,1,0,8,30,30,30,238
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:13.22,0:00:17.22,credits,,0000,0000,0000,,{\an1\be1\pos(253,430)}Pøeklad  \h  Jarník
+Dialogue: 0,0:00:18.76,0:00:22.77,credits,,0000,0000,0000,,{\an1\be1\pos(142,400)}Korektury  Caster, hintzu, Mates
+Dialogue: 0,0:00:24.94,0:00:28.98,credits,,0000,0000,0000,,{\an1\be1\pos(148,400)}Typesetting & encoding \h Jarník
+Dialogue: 0,0:00:37.91,0:00:42.29,credits,,0000,0000,0000,,{\fscx95\an1\be1\pos(71,234)}Opening \h\h\h\h\h\h Jarník, epifanes
+Dialogue: 0,0:00:37.91,0:00:42.29,credits,,0000,0000,0000,,{\fscx95\an1\be1\pos(447,434)}Ending  Jarník, epifanes
+Dialogue: 0,0:00:42.54,0:00:46.88,credits,,0000,0000,0000,,{\fscx95\an1\be1\pos(70,194)}BitTorrent \h\h\h\h http://totan.manga.cz
+Dialogue: 0,0:00:42.54,0:00:46.88,credits,,0000,0000,0000,,{\fscx95\an1\be1\pos(530,494)}IRC \h #manga.cz@IRCnet
+Dialogue: 0,0:00:48.38,0:00:52.21,credits,,0000,0000,0000,,{\fscx103\an1\be1\pos(169,450)}Quality check \h\h\h\h\h\h\h mike, B.E.M., WilX
+
+
+Dialogue: 0,0:01:54.11,0:01:55.04,titulek,,0000,0000,0000,,Suguru.
+Dialogue: 0,0:01:56.48,0:02:00.38,titulek,,0000,0000,0000,,Suguru, tady pøece nemùeš spát.
+Dialogue: 0,0:02:05.49,0:02:06.92,titulek,,0000,0000,0000,,Mami?
+Dialogue: 0,0:02:15.33,0:02:16.26,titulek,,0000,0000,0000,,Hm?
+Dialogue: 0,0:02:34.45,0:02:35.88,titulek,,0000,0000,0000,,Spolknul jsem to.
+Dialogue: 0,0:02:43.83,0:02:47.73,titulek,,0000,0000,0000,,Naposledy jsem usnul pod stolem, kdy jsem byl ještì malı kluk.
+Dialogue: 0,0:02:47.80,0:02:51.10,titulek,,0000,0000,0000,,Ještì, e mì nevidìla Mahoro.
+Dialogue: 0,0:02:55.47,0:02:58.34,titulek,,0000,0000,0000,,e by u šla spát?
+
+Dialogue: 0,0:03:02.30,0:03:07.56,nazev,,0000,0000,0000,,{\pos(150,400)\q0\fad(900,900)}DÍL JEDENÁCTİ \N\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h {\q0}MÙJ NEJDRAŠÍ
+
+Dialogue: 0,0:03:31.71,0:03:32.77,titulek,,0000,0000,0000,,Ta modø.
+Dialogue: 0,0:03:33.98,0:03:36.47,titulek,,0000,0000,0000,,Tajemství ivota.
+Dialogue: 0,0:03:36.55,0:03:38.64,titulek,,0000,0000,0000,,Nezmìrná hloubka.
+Dialogue: 0,0:03:40.05,0:03:44.68,titulek,,0000,0000,0000,,Právì tahle nekoneèná hlubina sem pøivábila Saint.
+Dialogue: 0,0:03:47.06,0:03:48.75,titulek,,0000,0000,0000,,Teprve pøed pár lety
+Dialogue: 0,0:03:48.82,0:03:53.69,titulek,,0000,0000,0000,,nás, androidy, vyrobili podle technologie Saintu.
+Dialogue: 0,0:03:55.50,0:03:58.36,titulek,,0000,0000,0000,,Syntetické tkánì a propracovanı nervovı systém,
+Dialogue: 0,0:03:58.43,0:04:01.16,titulek,,0000,0000,0000,,to vše spojeno unikátními vìdeckımi postupy.
+Dialogue: 0,0:04:02.67,0:04:06.54,titulek,,0000,0000,0000,,Jsme stroje vyrobené pro bojové úèely.
+Dialogue: 0,0:04:08.58,0:04:11.51,titulek,,0000,0000,0000,,I kdy jsou naše srdce umìlá,   
+Dialogue: 0,0:04:11.58,0:04:16.07,titulek,,0000,0000,0000,,pøece se v nich obèas mihnou vzpomínky na vzdálenou minulost.
+Dialogue: 0,0:04:16.15,0:04:18.52,titulek,,0000,0000,0000,,Vzpomínky na vzdálenı vesmír.
+Dialogue: 0,0:04:21.39,0:04:24.45,titulek,,0000,0000,0000,,Jak velkou vzdálenost vlastnì Saint urazil?
+Dialogue: 0,0:04:25.99,0:04:29.93,titulek,,0000,0000,0000,,Jak dlouho u putují vesmírem?
+Dialogue: 0,0:04:32.47,0:04:34.46,titulek,,0000,0000,0000,,Nìkde vprostøed mlhovin...
+Dialogue: 0,0:04:35.54,0:04:37.40,titulek,,0000,0000,0000,,Mezi bezpoètem hvìzd...
+Dialogue: 0,0:04:38.47,0:04:42.38,titulek,,0000,0000,0000,,Nìkde musí existovat hvìzda, ze které pøišli.
+Dialogue: 0,0:04:44.45,0:04:49.32,titulek,,0000,0000,0000,,V Saintu u ale není nikdo,
+Dialogue: 0,0:04:49.38,0:04:51.98,titulek,,0000,0000,0000,,kdo by si pamatoval, kde se nalézá.
+Dialogue: 0,0:04:53.06,0:04:57.86,titulek,,0000,0000,0000,,Jediné, co zbıvá, je vzpomínka na bezednou modø.
+Dialogue: 0,0:05:00.76,0:05:02.25,titulek,,0000,0000,0000,,Bìhem této nekoneèné pouti
+Dialogue: 0,0:05:02.33,0:05:07.56,titulek,,0000,0000,0000,,toho Matthew, matka Saintu, mnoho poznala a proila.
+Dialogue: 0,0:05:07.64,0:05:12.04,titulek,,0000,0000,0000,,Veškerá historie lidstva je proti tomu jen drobnı záblesk.
+Dialogue: 0,0:05:13.44,0:05:15.64,titulek,,0000,0000,0000,,V dávnıch dobách
+Dialogue: 0,0:05:15.71,0:05:18.68,titulek,,0000,0000,0000,,se na pøání samotné Matthew
+Dialogue: 0,0:05:18.75,0:05:21.98,titulek,,0000,0000,0000,,vydala do vesmíru první generace.
+Dialogue: 0,0:05:23.69,0:05:27.99,titulek,,0000,0000,0000,,Opustili zemi, která jim byla domovem.
+Dialogue: 0,0:05:29.79,0:05:32.69,titulek,,0000,0000,0000,,Na své lodi putovali vesmírem,
+Dialogue: 0,0:05:32.76,0:05:37.29,titulek,,0000,0000,0000,,nalézali nové planety a pátrali po novıch civilizacích,
+Dialogue: 0,0:05:37.37,0:05:40.70,titulek,,0000,0000,0000,,ani by se kdy smìli vrátit zpìt.
+Dialogue: 0,0:05:41.97,0:05:45.57,titulek,,0000,0000,0000,,Nejene na ádnou civilizaci nenarazili,
+Dialogue: 0,0:05:45.64,0:05:48.20,titulek,,0000,0000,0000,,ale v celém širém vesmíru
+Dialogue: 0,0:05:48.28,0:05:52.01,titulek,,0000,0000,0000,,nenašli ani jedinou známku ivota.
+Dialogue: 0,0:05:54.52,0:05:57.58,titulek,,0000,0000,0000,,A kdy se v nich zaèaly vzmáhat pocity zoufalství a strachu,
+Dialogue: 0,0:05:57.65,0:06:02.39,titulek,,0000,0000,0000,,našli koneènì první ivoucí planetu.
+Dialogue: 0,0:06:03.46,0:06:06.39,titulek,,0000,0000,0000,,Byla jí právì tato modrá Zemì.
+Dialogue: 0,0:06:08.86,0:06:10.56,titulek,,0000,0000,0000,,Bohuel...
+Dialogue: 0,0:06:10.63,0:06:14.40,titulek,,0000,0000,0000,,Jejich první kontakt s lidstvem, po kterém tak touili, skonèil nešastnì,
+Dialogue: 0,0:06:14.47,0:06:18.30,titulek,,0000,0000,0000,,protoe byl proveden tou nejprimitivnìjší formou.
+Dialogue: 0,0:06:18.37,0:06:19.50,titulek,,0000,0000,0000,,Bojem.
+Dialogue: 0,0:06:21.58,0:06:25.95,titulek,,0000,0000,0000,,Vıjimeèná, ale jinak prostá kultura Saintu
+Dialogue: 0,0:06:26.01,0:06:28.24,titulek,,0000,0000,0000,,válku odmítá.
+Dialogue: 0,0:06:28.32,0:06:32.88,titulek,,0000,0000,0000,,Ale druhá strana, na znaènì niším vıvojovém stupni,
+Dialogue: 0,0:06:32.95,0:06:36.58,titulek,,0000,0000,0000,,nebyla jiné formy komunikace schopna.
+Dialogue: 0,0:06:37.66,0:06:38.65,titulek,,0000,0000,0000,,Nakonec...
+Dialogue: 0,0:06:38.73,0:06:43.56,titulek,,0000,0000,0000,,Matthew pøikázala zahájit vırobu bojovıch androidù.
+Dialogue: 0,0:06:45.77,0:06:49.64,titulek,,0000,0000,0000,,Rjúga a já tedy nemáme jinı úèel,
+Dialogue: 0,0:06:49.70,0:06:54.07,titulek,,0000,0000,0000,,ne èelit nepøíteli.
+Dialogue: 0,0:06:56.88,0:07:01.84,titulek,,0000,0000,0000,,Kdyby tomu tak bylo, proè by nám Matthew ponechala srdce Saintu?
+Dialogue: 0,0:07:05.35,0:07:06.38,titulek,,0000,0000,0000,,Rjúgo.
+Dialogue: 0,0:07:08.46,0:07:11.29,titulek,,0000,0000,0000,,Musíš se mi v poøádku vrátit.
+Dialogue: 0,0:07:30.24,0:07:33.95,napis,,0000,0000,0000,,{\pos(400,380)}ZÁKAZ VSTUPU
+
+Dialogue: 0,0:07:53.64,0:07:56.50,titulek,,0000,0000,0000,,Pokud mám nalézt svátost,
+Dialogue: 0,0:07:56.57,0:07:59.30,titulek,,0000,0000,0000,,musím odhodit veškeré nectnosti.
+Dialogue: 0,0:08:00.74,0:08:05.34,titulek,,0000,0000,0000,,Ale svátost i nectnost jdou ruku v ruce.
+Dialogue: 0,0:08:07.22,0:08:12.48,titulek,,0000,0000,0000,,Kdy pøevládne jedno, zvìtší se i stín toho druhého.
+Dialogue: 0,0:08:12.55,0:08:14.75,titulek,,0000,0000,0000,,Ale mùe vùbec èlovìk nìèeho dosáhnout,
+Dialogue: 0,0:08:14.82,0:08:18.26,titulek,,0000,0000,0000,,ani by si osvojil bezmeznou houevnatost?
+Dialogue: 0,0:08:18.33,0:08:21.85,titulek,,0000,0000,0000,,Podle mì je to zhola nemoné.
+Dialogue: 0,0:08:21.93,0:08:25.02,titulek,,0000,0000,0000,,To jsem se nauèil, kdy jsem se s tebou støetl poprvé.
+Dialogue: 0,0:08:25.10,0:08:27.43,titulek,,0000,0000,0000,,Zjistil jsem, jak je obtíné
+Dialogue: 0,0:08:27.50,0:08:30.03,titulek,,0000,0000,0000,,ít mezi lidmi s duší váleèníka.
+Dialogue: 0,0:08:31.97,0:08:40.44,titulek,,0000,0000,0000,,Nikdy nedovolím, aby byly mé city utlaèovány mımi povinnostmi.
+Dialogue: 0,0:08:40.52,0:08:45.25,titulek,,0000,0000,0000,,Takhle pøehnané úsilí je pak úplnì k nièemu.
+Dialogue: 0,0:08:45.32,0:08:47.29,titulek,,0000,0000,0000,,A není snad pravda,
+Dialogue: 0,0:08:47.36,0:08:50.19,titulek,,0000,0000,0000,,e u Suguru Misata pracuješ
+Dialogue: 0,0:08:51.29,0:08:55.56,titulek,,0000,0000,0000,,kvùli pokání vùèi jemu a jeho otci?
+Dialogue: 0,0:08:58.67,0:09:00.57,titulek,,0000,0000,0000,,Je to tak.
+Dialogue: 0,0:09:00.64,0:09:03.33,titulek,,0000,0000,0000,,Bylo tomu tak u od zaèátku.
+Dialogue: 0,0:09:03.41,0:09:04.60,titulek,,0000,0000,0000,,Ale teï...
+Dialogue: 0,0:09:04.67,0:09:06.40,titulek,,0000,0000,0000,,Teï je v tom nìco víc!
+Dialogue: 0,0:09:07.48,0:09:08.97,titulek,,0000,0000,0000,,Poznala jsem Sugura...
+Dialogue: 0,0:09:09.04,0:09:11.71,titulek,,0000,0000,0000,,Všechny jeho pøátele a paní Šikido...
+Dialogue: 0,0:09:12.78,0:09:17.22,titulek,,0000,0000,0000,,S láskou vzpomínám na chvíle, které jsem strávila jako obyèejnı èlovìk.
+Dialogue: 0,0:09:18.29,0:09:22.09,titulek,,0000,0000,0000,,A chci i nadále ít a pracovat
+Dialogue: 0,0:09:22.16,0:09:26.03,titulek,,0000,0000,0000,,jako Mahoro Ando, sluebná v domì pana Misata.
+Dialogue: 0,0:09:26.09,0:09:27.36,titulek,,0000,0000,0000,,A právì proto...
+Dialogue: 0,0:09:27.43,0:09:30.63,titulek,,0000,0000,0000,,Ne kvùli ostatním, ale kvùli mnì samotné...
+Dialogue: 0,0:09:33.07,0:09:34.47,titulek,,0000,0000,0000,,...teï budu bojovat.
+Dialogue: 0,0:09:37.04,0:09:40.37,titulek,,0000,0000,0000,,V-1046R Mahoro.
+Dialogue: 0,0:09:40.44,0:09:42.97,titulek,,0000,0000,0000,,Nejlepší bojovníku Vesperu.
+Dialogue: 0,0:09:43.04,0:09:46.31,titulek,,0000,0000,0000,,To, e touíš po tak jednoduchém a obyèejném ivotì,
+Dialogue: 0,0:09:46.38,0:09:48.98,titulek,,0000,0000,0000,,odporuje èiré logice.
+Dialogue: 0,0:09:49.05,0:09:50.68,titulek,,0000,0000,0000,,Nedá se nic dìlat.
+Dialogue: 0,0:09:51.75,0:09:54.98,titulek,,0000,0000,0000,,Rjúgo, protoe jsem také bojovník,
+Dialogue: 0,0:09:55.06,0:09:57.42,titulek,,0000,0000,0000,,chápu tvùj postoj.
+Dialogue: 0,0:09:58.49,0:10:02.33,titulek,,0000,0000,0000,,Ale u není cesty zpátky.
+Dialogue: 0,0:10:02.86,0:10:03.80,titulek,,0000,0000,0000,,Tak tedy...
+Dialogue: 0,0:10:03.87,0:10:05.53,titulek,,0000,0000,0000,,Do støehu!
+Dialogue: 0,0:10:05.60,0:10:06.53,titulek,,0000,0000,0000,,Do støehu!
+Dialogue: 0,0:10:10.94,0:10:12.07,titulek,,0000,0000,0000,,Jsi moc pomalá!
+Dialogue: 0,0:10:12.14,0:10:13.37,titulek,,0000,0000,0000,,Nemùeš se soustøedit?
+Dialogue: 0,0:10:14.68,0:10:17.20,titulek,,0000,0000,0000,,Pøišla jsi sem snad s neklidnou myslí?
+Dialogue: 0,0:10:20.05,0:10:22.68,titulek,,0000,0000,0000,,Má mysl je klidnìjší ne vodní hladina!
+Dialogue: 0,0:10:29.99,0:10:32.32,titulek,,0000,0000,0000,,Zemøeš, ty náhrako èlovìka!
+Dialogue: 0,0:10:59.62,0:11:02.35,titulek,,0000,0000,0000,,Ta Mahoro u mì opravdu dopaluje.
+Dialogue: 0,0:11:07.40,0:11:08.36,titulek,,0000,0000,0000,,Zatracenì.
+Dialogue: 0,0:11:13.13,0:11:16.40,titulek,,0000,0000,0000,,Na nìkoho, jako je ona, støelba nestaèí.
+Dialogue: 0,0:12:01.72,0:12:02.74,titulek,,0000,0000,0000,,Mahoro!
+Dialogue: 0,0:12:06.72,0:12:08.35,titulek,,0000,0000,0000,,Proè chodíš kolem horké kaše, Mahoro?
+Dialogue: 0,0:12:11.43,0:12:12.95,titulek,,0000,0000,0000,,Nezdruj to!
+Dialogue: 0,0:12:14.50,0:12:16.43,titulek,,0000,0000,0000,,To si øíkáš bojovník?
+
+*Dialogue: 0,0:12:35.75,0:12:38.41,titulek,,0000,0000,0000,,Mahoromatic
+
+Dialogue: 0,0:12:48.00,0:12:50.02,titulek,,0000,0000,0000,,A, to snad ne.
+Dialogue: 0,0:13:05.95,0:13:09.01,titulek,,0000,0000,0000,,Jak je moné, e jsem jen tak usnula na podlaze?
+Dialogue: 0,0:13:09.08,0:13:12.68,titulek,,0000,0000,0000,,Mou nevídanou krásu je tøeba hıèkat.
+Dialogue: 0,0:13:12.75,0:13:16.71,titulek,,0000,0000,0000,,A proto potøebuji øádnı spánek.
+Dialogue: 0,0:13:16.79,0:13:18.55,titulek,,0000,0000,0000,,e, Misato?
+Dialogue: 0,0:13:19.66,0:13:21.60,titulek,,0000,0000,0000,,Jestlipak u spinká?
+Dialogue: 0,0:13:29.97,0:13:33.70,titulek,,0000,0000,0000,,Spí jako andílek!
+Dialogue: 0,0:13:55.66,0:13:57.79,titulek,,0000,0000,0000,,Ta oprsklá sluka!
+Dialogue: 0,0:14:01.27,0:14:03.24,titulek,,0000,0000,0000,,To snad ne!
+Dialogue: 0,0:14:03.30,0:14:04.24,titulek,,0000,0000,0000,,Do háje!
+Dialogue: 0,0:14:19.52,0:14:21.57,napis,,0000,0000,0000,,{\pos(310,490)\1c&H000030&\frz-22\fscy90\fs45}pro Sugura
+
+Dialogue: 0,0:14:22.62,0:14:24.42,titulek,,0000,0000,0000,,{\i1}Pro Sugura:
+Dialogue: 0,0:14:24.49,0:14:26.39,titulek,,0000,0000,0000,,{\i1}Dobré ráno.
+Dialogue: 0,0:14:26.46,0:14:28.49,titulek,,0000,0000,0000,,{\i1}Je mi líto, e to pøišlo tak náhle,
+Dialogue: 0,0:14:28.56,0:14:33.06,titulek,,0000,0000,0000,,{\i1}ale kvùli jistım záleitostem musím odjet nìkam daleko.
+Dialogue: 0,0:14:33.13,0:14:35.00,titulek,,0000,0000,0000,,{\i1}I kdy to byla jen krátká doba,
+Dialogue: 0,0:14:35.07,0:14:40.30,titulek,,0000,0000,0000,,{\i1}na dny, které jsme spolu strávili, budu vdycky vzpomínat s láskou.
+Dialogue: 0,0:14:40.38,0:14:42.61,titulek,,0000,0000,0000,,{\i1}Dìkuji ti za všechno.
+Dialogue: 0,0:14:43.81,0:14:44.74,titulek,,0000,0000,0000,,{\i1}Sbohem.
+Dialogue: 0,0:14:46.48,0:14:47.41,titulek,,0000,0000,0000,,{\i1}Mahoro.
+Dialogue: 0,0:14:56.39,0:14:57.62,titulek,,0000,0000,0000,,Proè?
+Dialogue: 0,0:14:57.69,0:14:59.22,titulek,,0000,0000,0000,,Proè mì to nenapadlo døív?
+Dialogue: 0,0:15:06.40,0:15:08.06,titulek,,0000,0000,0000,,Kde je Mahoro?
+Dialogue: 0,0:15:08.14,0:15:10.37,titulek,,0000,0000,0000,,Prı ji èeká nìjakı souboj.
+Dialogue: 0,0:15:33.70,0:15:35.25,titulek,,0000,0000,0000,,Docházejí mi náboje.
+Dialogue: 0,0:15:35.33,0:15:37.26,titulek,,0000,0000,0000,,Musím ho co nejdøíve zasáhnout.
+Dialogue: 0,0:15:41.30,0:15:45.00,titulek,,0000,0000,0000,,Vypadá to, e pøišel èas koneènì je pouít.
+Dialogue: 0,0:15:48.48,0:15:49.60,titulek,,0000,0000,0000,,Proè?
+Dialogue: 0,0:15:49.68,0:15:53.74,titulek,,0000,0000,0000,,Prosím, Slashi, øekni mi, kam šla Mahoro!
+Dialogue: 0,0:15:57.75,0:16:01.45,titulek,,0000,0000,0000,,Je mi líto, ale slíbil jsem, e budu dret jazyk za zuby.
+Dialogue: 0,0:16:01.52,0:16:05.65,titulek,,0000,0000,0000,,I kdybys tam šel, èeho tím dosáhneš?
+Dialogue: 0,0:16:05.73,0:16:09.06,titulek,,0000,0000,0000,,Obyèejnı èlovìk nedokáe zastavit souboj dvou androidù.
+Dialogue: 0,0:16:10.13,0:16:12.96,titulek,,0000,0000,0000,,Moná tím nièeho nedosáhnu...
+Dialogue: 0,0:16:14.57,0:16:16.13,titulek,,0000,0000,0000,,ale...
+Dialogue: 0,0:16:16.20,0:16:17.36,titulek,,0000,0000,0000,,i pøesto...
+Dialogue: 0,0:16:19.07,0:16:21.06,titulek,,0000,0000,0000,,tam musím jít!
+Dialogue: 0,0:16:29.05,0:16:30.04,titulek,,0000,0000,0000,,Slashi...
+Dialogue: 0,0:16:31.12,0:16:35.25,titulek,,0000,0000,0000,,Kdy jsi sem pøišel poprvé, øekl jsi...
+Dialogue: 0,0:16:35.32,0:16:37.99,titulek,,0000,0000,0000,,Øekl jsi, e jestli jsem jejím pánem,
+Dialogue: 0,0:16:38.06,0:16:41.36,titulek,,0000,0000,0000,,tak to bude platit i pro tebe.
+Dialogue: 0,0:16:41.43,0:16:43.95,titulek,,0000,0000,0000,,Jestli jsi to myslel vánì,
+Dialogue: 0,0:16:44.03,0:16:46.30,titulek,,0000,0000,0000,,tak ti teï porouèím jako tvùj pán!
+Dialogue: 0,0:16:46.37,0:16:49.17,titulek,,0000,0000,0000,,Odveï mì za Mahoro!
+Dialogue: 0,0:16:52.51,0:16:54.67,titulek,,0000,0000,0000,,Rozumím, pane.
+Dialogue: 0,0:17:12.13,0:17:14.59,titulek,,0000,0000,0000,,Tyhle dìtské hraèky na mì neplatí!
+Dialogue: 0,0:17:24.57,0:17:26.04,titulek,,0000,0000,0000,,Øíkám, e je to k nièemu!
+Dialogue: 0,0:17:26.11,0:17:29.20,titulek,,0000,0000,0000,,Moment, proè je po mnì hází, ani by mì chtìla zasáhnout?
+Dialogue: 0,0:17:30.91,0:17:32.31,titulek,,0000,0000,0000,,3...
+Dialogue: 0,0:17:32.38,0:17:33.78,titulek,,0000,0000,0000,,2...
+Dialogue: 0,0:17:33.85,0:17:34.78,titulek,,0000,0000,0000,,1...
+Dialogue: 0,0:17:57.87,0:18:01.57,titulek,,0000,0000,0000,,Mohu zvítìzit pouze jedinım zpùsobem.
+Dialogue: 0,0:18:01.64,0:18:02.90,titulek,,0000,0000,0000,,A tím je...
+Dialogue: 0,0:18:07.58,0:18:11.61,titulek,,0000,0000,0000,,A tím je jedinı pøímı zásah.
+
+Dialogue: 0,0:18:25.64,0:18:27.77,napis,,0000,0000,0000,,{\i1\an1\fad(400,0)\move(540,280,540,330)\1c&H202020&}Pozor{\i}\N{\i1}Vysoké napìtí{\i}
+
+Dialogue: 0,0:18:37.41,0:18:39.35,titulek,,0000,0000,0000,,Misato!
+Dialogue: 0,0:18:42.32,0:18:43.25,titulek,,0000,0000,0000,,Vypnuli proud?
+Dialogue: 0,0:19:52.99,0:19:54.28,titulek,,0000,0000,0000,,Rjúgo!
+Dialogue: 0,0:19:54.36,0:19:56.19,titulek,,0000,0000,0000,,Pøiprav se!
+Dialogue: 0,0:20:07.10,0:20:09.43,titulek,,0000,0000,0000,,Erupce antihmoty v okruhu 100 km.
+Dialogue: 0,0:20:09.50,0:20:11.66,titulek,,0000,0000,0000,,Trvala tøi sekundy.
+Dialogue: 0,0:20:12.81,0:20:15.04,titulek,,0000,0000,0000,,Co bylo zaè to svìtlo?
+Dialogue: 0,0:20:15.11,0:20:16.17,titulek,,0000,0000,0000,,Rjúgo!
+Dialogue: 0,0:20:21.28,0:20:22.54,titulek,,0000,0000,0000,,To je...
+Dialogue: 0,0:20:22.62,0:20:26.02,titulek,,0000,0000,0000,,Mahoro nejspíš všechno vsadila na jedinı vıstøel.
+Dialogue: 0,0:20:27.39,0:20:31.76,titulek,,0000,0000,0000,,Pokud bude mít štìstí, pak jsme se sem hnali zbyteènì. Ale...
+Dialogue: 0,0:20:36.23,0:20:37.70,titulek,,0000,0000,0000,,Musíme to stihnout!
+Dialogue: 0,0:21:25.38,0:21:27.37,titulek,,0000,0000,0000,,To nemùe bıt pravda...
+*Dialogue: 0,0:21:30.99,0:21:33.45,titulek,,0000,0000,0000,,{\i1}To Be Continued{\i}
+Dialogue: 0,0:21:31.00,0:21:33.58,final,,0000,0000,0000,,{\pos(20,530)\1c&Hcddddd&z\an1\fad(500,0)}Pokraèování pøíštì
+
+Dialogue: 0,0:23:12.54,0:23:13.94,poem,,0000,0000,0000,,{\fad(100,200)}Lístek zlehka padá
+Dialogue: 0,0:23:13.94,0:23:15.96,poem,,0000,0000,0000,,{\fad(100,200)}a usedá na trávník.
+Dialogue: 0,0:23:15.96,0:23:17.42,poem,,0000,0000,0000,,{\fad(100,200)}Lístek za lístkem padají,
+Dialogue: 0,0:23:17.42,0:23:18.86,poem,,0000,0000,0000,,{\fad(100,200)}a je jich celá hromada.
+Dialogue: 0,0:23:18.86,0:23:21.86,poem,,0000,0000,0000,,{\fad(100,200)}A co bochánky, které jsem dostala v obchodì jako pøídavek?
+Dialogue: 0,0:23:21.86,0:23:24.43,poem,,0000,0000,0000,,{\fad(100,200)}Mám skvìlı nápad.
+Dialogue: 0,0:23:24.43,0:23:27.59,poem,,0000,0000,0000,,{\fad(100,200)}Dva ti zabalím do tenounké fólie...
+Dialogue: 0,0:23:28.52,0:23:31.09,poem,,0000,0000,0000,,{\fad(100,200)}A nechám na hromadì listí.
+Dialogue: 0,0:23:31.09,0:23:34.27,poem,,0000,0000,0000,,{\fad(100,200)}A se vrátíš, oba se do nich
+Dialogue: 0,0:23:34.27,0:23:37.21,poem,,0000,0000,0000,,{\fad(100,200)}s náramnou chutí pustíme.
+Dialogue: 0,0:23:37.21,0:23:39.93,poem,,0000,0000,0000,,{\fad(100,200)}Doufám, e se vrátíš vèas.
+Dialogue: 0,0:23:39.93,0:23:43.09,poem,,0000,0000,0000,,{\fad(100,200)}Doufám, e se vrátíš co nejdøíve.
+
+
+
+

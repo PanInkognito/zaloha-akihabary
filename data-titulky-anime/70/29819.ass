@@ -1,0 +1,458 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: poznamka,Myriad web,35,&H00ffffff,&H8000ffff,&Hf0000000,&H35000000,0,0,0,0,100,100,1,0.00,1,0,0,8,20,20,20,238
+Style: titulek2,Bookman Old Style,40,&H00ccccff,&H0000ffff,&H00303060,&Hb0101030,-1,-1,0,0,100,100,0,0.00,1,2,3,8,20,20,20,238
+Style: nazevdilu,comic sans ms,45,&H20eeeeee,&H6000ffff,&H00000000,&H50000000,-1,0,0,0,100,100,1,0.00,1,0,2,8,20,20,20,238
+Style: titulek,Arial,38,&H00e0f0f0,&H8000ffff,&H30000008,&H80000008,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,30,238
+Style: supesaru,Bookman Old Style,46,&H0060707f,&Hb000ffff,&Hb0b0f0f0,&H10001020,0,0,0,0,85,100,4,0.00,1,1,1,2,30,30,20,238
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: pelikan,tahoma,40,&H0098948d,&H8000ffff,&H3072635a,&H65000000,-1,0,0,0,100,100,1,0.00,1,3,2,8,20,20,20,238
+Style: nazev2,merlin,75,&H006400b5,&H8000ffff,&H30000008,&H0000b7c4,-1,0,0,0,100,100,0,0.00,1,0,3,2,30,30,30,238
+Style: nazev,verdana,48,&H006400b5,&H8000ffff,&H30000008,&H0000b7c4,-1,0,0,0,100,100,0,0.00,1,0,3,2,30,30,30,238
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev,,0000,0000,0000,,{\be1\a6\move(403,60,303,105)\shad0\fad(400,0)}Magická obc
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev,,0000,0000,0000,,{\be1\a6\move(406,60,506,105)\shad0\fad(400,0)}hodní pasá
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(448,480,348,525)\fad(400,0)}Aben
+Dialogue: 0,0:01:24.82,0:01:25.32,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(359,480,459,525)\fad(400,0)}obaši
+Dialogue: 0,0:01:25.32,0:01:26.57,nazev,,0000,0000,0000,,{\be1\a6\move(403,105,1000,105,500,900)\shad0}Magická obchodní pasá
+Dialogue: 0,0:01:25.32,0:01:26.84,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(403,525,-150,525,500,900)}Abenobaši
+Dialogue: 0,0:01:26.49,0:01:30.29,nazev,,0000,0000,0000,,{\a6\pos(450,350)\fad(150,0)\shad0\3a&He0&\3c&H000000&\b1\1c&H000000&\fs40\fsp4\bord1\fscy80\fnBookman old style}MAGICKÁ  OBCHODNÍ  PASÁ
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a4\c&H000000&\fs28}pøeklad: Jarník
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a3\c&H000000&\fs28}raw: Yusaku
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a1\c&H000000&\fs28}typesetting: Jarník
+Dialogue: 0,0:01:27.02,0:01:30.29,poznamka,,0000,0000,0000,,{\a7\c&H000000&\fs28}korektury: mike, B.E.M.
+
+
+Dialogue: 0,0:01:36.03,0:01:37.03,titulek,Comment,0000,0000,0000,,Kdy chlapec øekne:
+Dialogue: 0,0:01:37.03,0:01:41.09,titulek,Comment,0000,0000,0000,,„Vezmu svoji dívku do nìjakého skvìlého zábavního parku a poøádnì si to uijeme,“
+Dialogue: 0,0:01:41.30,0:01:43.49,titulek,Comment,0000,0000,0000,,vìtšinou v tom není ádnı problém.
+Dialogue: 0,0:01:43.84,0:01:46.54,titulek,Comment,0000,0000,0000,,Staèí si poøádnì prostudovat èasovı plán všech akcí
+Dialogue: 0,0:01:46.54,0:01:48.20,titulek,Comment,0000,0000,0000,,a mùete vyrazit.
+Dialogue: 0,0:01:48.54,0:01:49.97,titulek,Comment,0000,0000,0000,,Jene...
+Dialogue: 0,0:01:49.97,0:01:54.15,titulek,Comment,0000,0000,0000,,„Postavím nìjakı skvìlı zábavní park a poøádnì si to uijeme,''
+Dialogue: 0,0:01:54.15,0:01:56.25,titulek,Comment,0000,0000,0000,,to u je poøádnì velké sousto.
+Dialogue: 0,0:01:56.25,0:01:59.88,titulek,Comment,0000,0000,0000,,Aby se vám to povedlo, musel by z vás bıt mistr svého øemesla.
+Dialogue: 0,0:01:59.88,0:02:02.79,titulek,Comment,0000,0000,0000,,A øíkali by vám pak „Mistr zábavy“.
+Dialogue: 0,0:02:03.15,0:02:06.78,titulek,Comment,0000,0000,0000,,Tou dobou by u byla vaše dívka nejspíš dávno v tahu.
+Dialogue: 0,0:02:07.16,0:02:09.49,titulek,Comment,0000,0000,0000,,A v pøípadì nezkušeného školáka Sašiho
+Dialogue: 0,0:02:09.66,0:02:12.00,titulek,Comment,0000,0000,0000,,to nemohlo dopadnout jinak ne neúspìchem.
+Dialogue: 0,0:02:12.00,0:02:13.55,titulek,Comment,0000,0000,0000,,Co jiného jste èekali?
+Dialogue: 0,0:02:17.00,0:02:20.53,titulek,Comment,0000,0000,0000,,Války jsou bojovány, protoe to je jejich úèel.
+Dialogue: 0,0:02:20.91,0:02:24.24,titulek,Comment,0000,0000,0000,,Existuje pøíèina a dùsledek.
+Dialogue: 0,0:02:25.08,0:02:28.25,titulek,Comment,0000,0000,0000,,Válka mezi armádou elv a armádou Pelikánù,
+Dialogue: 0,0:02:28.25,0:02:33.51,titulek,Comment,0000,0000,0000,,která vypukla v obchodní pasái Abenobaši, nebyla vıjimkou.
+Dialogue: 0,0:02:34.59,0:02:37.45,titulek,Comment,0000,0000,0000,,Arumi zoufale touí po návratù domù,
+Dialogue: 0,0:02:38.02,0:02:41.96,titulek,Comment,0000,0000,0000,,ale Saši stále odmítá, protoe se dozvìdìl o smrti dìdy Masy.
+Dialogue: 0,0:02:41.96,0:02:46.02,titulek,Comment,0000,0000,0000,,Jejich støet byl tedy ji od poèátku nevyhnutelnı.
+Dialogue: 0,0:02:46.93,0:02:49.59,titulek,Comment,0000,0000,0000,,Tento konflikt nakonec nabyl takovıch rozmìrù,
+Dialogue: 0,0:02:49.97,0:02:54.63,titulek,Comment,0000,0000,0000,,e došlo k vypuknutí otevøené války.
+Dialogue: 0,0:02:56.57,0:02:57.61,poznamka,Comment,0000,0000,0000,,{\be1\fs60\an2\fscx400\fscy10\t(0,200,\fscx100\fscy100)}Støet!
+Dialogue: 0,0:02:57.61,0:02:58.57,poznamka,Comment,0000,0000,0000,,{\be1\fs60\an2\fscx400\fscy10\t(0,200,\fscx100\fscy100)}Abenobaši
+Dialogue: 0,0:02:59.31,0:03:00.11,poznamka,Comment,0000,0000,0000,,{\be1\fs60\an2\fscx400\fscy10\t(0,200,\fscx100\fscy100)}Váleèná
+Dialogue: 0,0:03:00.11,0:03:02.11,poznamka,Comment,0000,0000,0000,,{\be1\fs60\an2\fscx200\fscy10\t(0,200,\fscx100\fscy100)}obchodní pasá
+Dialogue: 0,0:03:02.61,0:03:07.12,nazevdilu,Comment,0000,0000,0110,,{\bord1\3c&Hd0d0d0&\3a&Hb0&\1c&Hffffff&\4a&H60&\shad2\fad(800,550)}Epizoda jedenáctá\N\N\N\N\N\N\N\N\N\N\NStøet!
+
+Dialogue: 0,0:03:11.12,0:03:15.12,poznamka,Comment,0000,0000,0000,,{\i1\bord2\3c&H000000&\3a&Hb0&}Vdy Vás pøivítáme s úsmìvem!\N Obchodní pasá Abenobaši
+**Dialogue: 0,0:03:19.90,0:03:20.86,titulek,Comment,0000,0000,0000,,Fun
+Dialogue: 0,0:03:41.22,0:03:42.19,titulek,Comment,0000,0000,0000,,Zpráva!
+Dialogue: 0,0:03:42.49,0:03:45.32,titulek,Comment,0000,0000,0000,,Vojín E-1 Saši ze 7. drustva 6. èety z hlavního velení 5. oblasti
+Dialogue: 0,0:03:45.32,0:03:47.93,titulek,Comment,0000,0000,0000,,doèasnì vypomáhající 4. batalionu pod velením 3. regimentu
+Dialogue: 0,0:03:47.93,0:03:51.49,titulek,Comment,0000,0000,0000,,2. divize 1. armády se hlásí, madam.
+Dialogue: 0,0:03:53.23,0:03:54.49,titulek,Comment,0000,0000,0000,,Vaše hodnost a zaøazení.
+Dialogue: 0,0:03:54.67,0:03:55.93,titulek,Comment,0000,0000,0000,,Ještì jednou?
+Dialogue: 0,0:03:56.37,0:03:57.46,titulek,Comment,0000,0000,0000,,Vaše hodnost a zaøazení! 
+Dialogue: 0,0:03:58.54,0:04:00.09,titulek,Comment,0000,0000,0000,,Toti...
+Dialogue: 0,0:04:01.01,0:04:03.63,titulek,Comment,0000,0000,0000,,Vojín E-1 Saši ze 7. drustva 6. èety z hlavního velení 5. oblasti...
+Dialogue: 0,0:04:04.84,0:04:06.24,titulek,Comment,0000,0000,0000,,Po druhé u to nezvládnu, madam!
+Dialogue: 0,0:04:07.68,0:04:08.48,titulek,Comment,0000,0000,0000,,V poøádku.
+Dialogue: 0,0:04:08.48,0:04:09.28,titulek,Comment,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:04:09.28,0:04:10.25,titulek,Comment,0000,0000,0000,,Podejte hlášení!
+Dialogue: 0,0:04:10.58,0:04:11.52,titulek,Comment,0000,0000,0000,,Provedu!
+Dialogue: 0,0:04:11.52,0:04:13.12,titulek,Comment,0000,0000,0000,,Tanková èeta armády Pelikánù
+Dialogue: 0,0:04:13.12,0:04:15.59,titulek,Comment,0000,0000,0000,,zaujala pozice pøed trafikou Wakaba. Konec hlášení!
+Dialogue: 0,0:04:16.05,0:04:17.26,titulek,Comment,0000,0000,0000,,Dobøe, rozumím.
+Dialogue: 0,0:04:17.26,0:04:19.52,titulek,Comment,0000,0000,0000,,Okamitì se spojte s velitelstvím divize!
+Dialogue: 0,0:04:20.29,0:04:21.59,titulek,Comment,0000,0000,0000,,Já, madam?!
+Dialogue: 0,0:04:21.59,0:04:24.15,titulek,Comment,0000,0000,0000,,Samozøejmì! Jdìte!
+Dialogue: 0,0:04:24.30,0:04:25.26,titulek,Comment,0000,0000,0000,,Provedu!
+Dialogue: 0,0:04:40.78,0:04:41.75,titulek,Comment,0000,0000,0000,,Z... Zpráva...
+Dialogue: 0,0:04:42.31,0:04:47.15,titulek,Comment,0000,0000,0000,,Vojín E-1 Saši ze 7. drustva 6. èety z hlavního velení 5. oblasti...
+Dialogue: 0,0:04:47.45,0:04:51.12,titulek,Comment,0000,0000,0000,,doèasnì vypomáhající 4. batalionu pod velením 3. regimentu
+Dialogue: 0,0:04:51.26,0:04:55.12,titulek,Comment,0000,0000,0000,,2. divize 1. armády se hlásí, pane.
+Dialogue: 0,0:04:55.59,0:04:58.03,titulek,Comment,0000,0000,0000,,Aha, take tanková èeta armády Pelikánù
+Dialogue: 0,0:04:58.03,0:05:00.00,titulek,Comment,0000,0000,0000,,zaujala pozice pøed trafikou Wakaba.
+Dialogue: 0,0:05:00.23,0:05:01.70,titulek,Comment,0000,0000,0000,,Neuvìøitelné!
+Dialogue: 0,0:05:02.17,0:05:03.53,titulek,Comment,0000,0000,0000,,Ještì jsem nic neøekl.
+Dialogue: 0,0:05:03.53,0:05:04.74,titulek,Comment,0000,0000,0000,,Dobrá práce!
+Dialogue: 0,0:05:04.74,0:05:07.24,titulek,Comment,0000,0000,0000,,Okamitì informujte hlavní velení.
+Dialogue: 0,0:05:07.24,0:05:09.17,titulek,Comment,0000,0000,0000,,Co?! Já, pane?!
+Dialogue: 0,0:05:09.41,0:05:10.54,titulek,Comment,0000,0000,0000,,Samozøejmì!
+Dialogue: 0,0:05:10.54,0:05:11.31,titulek,Comment,0000,0000,0000,,Provedu!
+Dialogue: 0,0:05:11.31,0:05:12.71,titulek,Comment,0000,0000,0000,,Tak bìte!
+Dialogue: 0,0:05:35.30,0:05:36.27,titulek,Comment,0000,0000,0000,,Zpráva...
+Dialogue: 0,0:05:37.17,0:05:38.93,titulek,Comment,0000,0000,0000,,Tedy...
+Dialogue: 0,0:05:39.44,0:05:41.03,titulek,Comment,0000,0000,0000,,Vojín E-1 Saši ze 7. drustva...
+Dialogue: 0,0:05:42.27,0:05:44.11,titulek,Comment,0000,0000,0000,,Nejste náhodou vojín Saši ze 7. drustva
+Dialogue: 0,0:05:44.11,0:05:46.44,titulek,Comment,0000,0000,0000,,6. èety z hlavního velení 5. oblasti
+Dialogue: 0,0:05:46.44,0:05:49.38,titulek,Comment,0000,0000,0000,,doèasnì vypomáhající 4. batalionu pod velením 3. regimentu
+Dialogue: 0,0:05:49.38,0:05:52.01,titulek,Comment,0000,0000,0000,,2. divize 1. armády?
+Dialogue: 0,0:05:52.22,0:05:54.82,titulek,Comment,0000,0000,0000,,Coe? Vy jste vojín E-1 Saši ze 7. drustva
+Dialogue: 0,0:05:54.82,0:05:57.15,titulek,Comment,0000,0000,0000,,6. èety z hlavního velení 5. oblasti
+Dialogue: 0,0:05:57.36,0:05:59.19,titulek,Comment,0000,0000,0000,,doèasnì vypomáhající 4. batalionu pod velením 3. regimentu
+Dialogue: 0,0:05:59.19,0:06:02.82,titulek,Comment,0000,0000,0000,,2. divize 1. armády?
+Dialogue: 0,0:06:03.19,0:06:03.96,titulek,Comment,0000,0000,0000,,Ano.
+Dialogue: 0,0:06:03.96,0:06:05.16,titulek,Comment,0000,0000,0000,,Dobøe, zpátky na svou pozici.
+Dialogue: 0,0:06:05.43,0:06:06.66,titulek,Comment,0000,0000,0000,,Ale hlášení...
+Dialogue: 0,0:06:06.66,0:06:08.87,titulek,Comment,0000,0000,0000,,Generále, tanková èeta armády Pelikánù
+Dialogue: 0,0:06:08.87,0:06:11.86,titulek,Comment,0000,0000,0000,,zøejmì zaujala pozice pøed trafikou Wakaba.
+Dialogue: 0,0:06:12.14,0:06:14.47,titulek,Comment,0000,0000,0000,,Coe? Pøed trafikou Wakaba?!
+Dialogue: 0,0:06:15.07,0:06:17.38,titulek,Comment,0000,0000,0000,,Jsem tu vlastnì k nìèemu?
+Dialogue: 0,0:06:17.38,0:06:20.57,titulek,Comment,0000,0000,0000,,Dobøe, pøedejte zprávu pøedsunutému velitelství, vojíne E-1 Saši!
+Dialogue: 0,0:06:27.45,0:06:30.51,titulek,Comment,0000,0000,0000,,Kadı den to samé.
+Dialogue: 0,0:06:32.32,0:06:34.95,titulek,Comment,0000,0000,0000,,Jak dlouho tahle válka ještì potrvá?
+Dialogue: 0,0:06:40.53,0:06:42.90,titulek,Comment,0000,0000,0000,,Pøišla ta pravá chvíle
+Dialogue: 0,0:06:42.90,0:06:46.60,titulek,Comment,0000,0000,0000,,zasadit tìm neøádùm z armády elv rozhodující úder!
+Dialogue: 0,0:06:44.60,0:06:47.10,poznamka,Comment,0000,0000,0000,,{\1c&H000000&\bord3\3c&Hffffff&\3a&H60&}Hlavní velitelství armády Pelikánù
+Dialogue: 0,0:06:47.04,0:06:48.51,titulek,Comment,0000,0000,0000,,Generále Papa!
+Dialogue: 0,0:06:48.71,0:06:49.74,titulek,Comment,0000,0000,0000,,{\i1}Oui.
+Dialogue: 0,0:06:49.74,0:06:51.61,titulek,Comment,0000,0000,0000,,Stanete v èele obrnìné divize,
+Dialogue: 0,0:06:51.61,0:06:53.28,titulek,Comment,0000,0000,0000,,proniknete skrze zátarasy
+Dialogue: 0,0:06:53.28,0:06:54.80,titulek,Comment,0000,0000,0000,,a zaútoèíte na nepøátelské velení!
+Dialogue: 0,0:06:55.18,0:06:58.84,titulek,Comment,0000,0000,0000,,Máte šanci pøedvést své velitelské schopnosti!
+Dialogue: 0,0:06:59.52,0:07:00.32,titulek,Comment,0000,0000,0000,,{\i1}Oui.
+Dialogue: 0,0:07:00.32,0:07:01.32,titulek,Comment,0000,0000,0000,,Plukovníku Arumi!
+Dialogue: 0,0:07:01.32,0:07:02.22,titulek,Comment,0000,0000,0000,,Ano, pane!
+Dialogue: 0,0:07:02.22,0:07:05.35,titulek,Comment,0000,0000,0000,,Budete generálovım poboèníkem.
+Dialogue: 0,0:07:05.92,0:07:08.93,titulek,Comment,0000,0000,0000,,Pøi vší úctì, pane, odmítám bıt pouhım poboèníkem.
+Dialogue: 0,0:07:08.93,0:07:11.36,titulek,Comment,0000,0000,0000,,Chci stanout v èele útoku!
+Dialogue: 0,0:07:11.50,0:07:12.83,titulek,Comment,0000,0000,0000,,To je øeè!
+Dialogue: 0,0:07:13.13,0:07:14.69,titulek,Comment,0000,0000,0000,,Proto je naše armáda neporazitelná!
+Dialogue: 0,0:07:15.03,0:07:16.43,titulek,Comment,0000,0000,0000,,Abeno bude naše!
+Dialogue: 0,0:07:17.00,0:07:18.76,titulek,Comment,0000,0000,0000,,Abeno bude naše!
+Dialogue: 0,0:07:21.17,0:07:22.64,titulek,Comment,0000,0000,0000,,e by podpora ze zázemí?
+Dialogue: 0,0:07:23.24,0:07:26.54,titulek,Comment,0000,0000,0000,,No tak, pojïte! Pøíznivé slevy! Širokı vıbìr!
+Dialogue: 0,0:07:23.81,0:07:26.81,poznamka,Comment,0000,0000,0000,,{\fscy90\pos(540,44)\b1\1c&H000000&\fs25\frz-18}Obchodník\N se smrtí
+Dialogue: 0,0:07:26.71,0:07:29.04,titulek,Comment,0000,0000,0000,,Mám všechno od pušek a po bombardéry!
+Dialogue: 0,0:07:29.25,0:07:31.34,titulek,Comment,0000,0000,0000,,Prodám vám cokoliv, pokud na to budete mít!
+Dialogue: 0,0:07:31.48,0:07:33.28,titulek,Comment,0000,0000,0000,,Hej, Saši, kup si nìco!
+Dialogue: 0,0:07:33.62,0:07:36.42,titulek,Comment,0000,0000,0000,,Je mi líto, pane Kóhei, ale mám jen 100 jenù.
+Dialogue: 0,0:07:36.42,0:07:37.39,titulek,Comment,0000,0000,0000,,Jedna, dva, tøi...
+Dialogue: 0,0:07:37.76,0:07:38.89,titulek,Comment,0000,0000,0000,,Tak si dej trochu polévky!
+Dialogue: 0,0:07:38.89,0:07:40.36,titulek,Comment,0000,0000,0000,,No, 100 jenù za jednu porci.
+Dialogue: 0,0:07:40.56,0:07:41.86,titulek,Comment,0000,0000,0000,,U se mi sbíhají sliny.
+Dialogue: 0,0:07:42.09,0:07:44.06,titulek,Comment,0000,0000,0000,,Ale zajímalo by mì, co pøivezly ty vrtulníky...
+Dialogue: 0,0:07:44.06,0:07:45.26,titulek,Comment,0000,0000,0000,,Coe? Vrtulníky?
+Dialogue: 0,0:07:45.33,0:07:46.30,titulek,Comment,0000,0000,0000,,Jo.
+**Dialogue: 0,0:07:51.14,0:07:51.70,titulek,Comment,0000,0000,0000,,Welcome * USO
+Dialogue: 0,0:07:51.70,0:07:53.17,titulek,Comment,0000,0000,0000,,Vánì nìco pøivezli!
+Dialogue: 0,0:07:58.81,0:07:59.78,titulek,Comment,0000,0000,0000,,{\i1}Polk.
+Dialogue: 0,0:08:11.06,0:08:12.22,titulek,Comment,0000,0000,0000,,Ahoj!
+Dialogue: 0,0:08:11.59,0:08:12.65,poznamka,Comment,0000,0000,0000,,{\fad(200,400)\pos(680,350)\frz18\an3\c3&H000000&\3a&H20&\1c&H404080&\bord1\fs50\b1}MONROE
+Dialogue: 0,0:08:13.49,0:08:15.73,titulek,Comment,0000,0000,0000,,To jste tak rádi, e mì vidíte?
+Dialogue: 0,0:08:15.73,0:08:16.99,titulek,Comment,0000,0000,0000,,Ale no tak.
+Dialogue: 0,0:08:17.09,0:08:18.19,titulek,Comment,0000,0000,0000,,Všechny vás èeká...
+Dialogue: 0,0:08:18.73,0:08:21.49,titulek,Comment,0000,0000,0000,,nebeská podívaná.
+Dialogue: 0,0:08:23.94,0:08:25.77,titulek,Comment,0000,0000,0000,,Nemyslela spíš pekelná?
+Dialogue: 0,0:08:25.77,0:08:28.40,titulek,Comment,0000,0000,0000,,Všechny vás zdravím.
+Dialogue: 0,0:08:29.27,0:08:30.64,titulek,Comment,0000,0000,0000,,Od teï
+Dialogue: 0,0:08:30.64,0:08:33.11,titulek,Comment,0000,0000,0000,,vás èeká dvì a pùl hodiny tance a zpìvu.
+Dialogue: 0,0:08:33.51,0:08:34.98,titulek,Comment,0000,0000,0000,,Tak se usaïte a bavte se...
+Dialogue: 0,0:08:35.51,0:08:43.75,poznamka,Comment,0000,0000,0000,,{\pos(223,500)\fs25\1c&H000000&\b1\bord4\3c&Hbfefff&\3a&H60&}ZÁKAZ VSTUPU
+Dialogue: 0,0:08:44.19,0:08:46.16,titulek,Comment,0000,0000,0000,,To byl vánì nebezpeènı materiál.
+Dialogue: 0,0:08:46.96,0:08:48.03,titulek,Comment,0000,0000,0000,,Vojíne E-1 Saši!
+Dialogue: 0,0:08:48.03,0:08:49.49,titulek,Comment,0000,0000,0000,,Co se dìje, madam?!
+Dialogue: 0,0:08:49.86,0:08:53.06,titulek,Comment,0000,0000,0000,,Vojíne E-1 Saši, byl jste pøevelen k prùzkumné jednotce.
+Dialogue: 0,0:08:53.80,0:08:54.73,titulek,Comment,0000,0000,0000,,Konec hlášení.
+Dialogue: 0,0:08:54.93,0:08:56.16,titulek,Comment,0000,0000,0000,,Provedu, madam!
+Dialogue: 0,0:09:04.11,0:09:05.37,titulek,Comment,0000,0000,0000,,Vojíne E-1 Saši, zmlknìte!
+Dialogue: 0,0:09:05.68,0:09:07.34,titulek,Comment,0000,0000,0000,,Omlouvám se, madam!
+Dialogue: 0,0:09:07.75,0:09:10.68,titulek,Comment,0000,0000,0000,,Ale moná byste mìla trochu zpomalit, majore...
+Dialogue: 0,0:09:11.18,0:09:12.48,titulek,Comment,0000,0000,0000,,Teprve se rozjídíme!
+Dialogue: 0,0:09:13.08,0:09:14.78,titulek,Comment,0000,0000,0000,,Tohle nedopadne dobøe!
+Dialogue: 0,0:09:25.10,0:09:26.06,titulek,Comment,0000,0000,0000,,Hej!
+Dialogue: 0,0:09:27.10,0:09:28.20,titulek,Comment,0000,0000,0000,,Arumi!
+Dialogue: 0,0:09:28.20,0:09:29.79,titulek,Comment,0000,0000,0000,,Mám tì, Saši!
+Dialogue: 0,0:09:30.07,0:09:32.63,titulek,Comment,0000,0000,0000,,Teda, Arumi, kdes vzala ty prsa?
+Dialogue: 0,0:09:32.80,0:09:34.97,titulek,Comment,0000,0000,0000,,Ty sis toho všiml?!
+Dialogue: 0,0:09:34.97,0:09:36.11,titulek,Comment,0000,0000,0000,,{\i1}Non, non, non!
+Dialogue: 0,0:09:36.11,0:09:40.41,titulek,Comment,0000,0000,0000,,Vojíne, víte, co to znamená?
+Dialogue: 0,0:09:40.78,0:09:45.08,titulek,Comment,0000,0000,0000,,Dal jste Arumi vycpávky, take to znamená „Jdìte se vycpat?“
+Dialogue: 0,0:09:45.92,0:09:49.01,titulek,Comment,0000,0000,0000,,Ne, blbost. Taková pitomost to bıt nemùe.
+Dialogue: 0,0:09:50.82,0:09:53.38,titulek,Comment,0000,0000,0000,,Coe? Vy jste to tak vánì myslel?
+Dialogue: 0,0:09:54.63,0:09:57.25,titulek,Comment,0000,0000,0000,,Já vìdìl, e ti to nemám øíkat.
+Dialogue: 0,0:09:57.73,0:10:00.20,titulek,Comment,0000,0000,0000,,Kdy jste to vìdìl, tak proè jste to øekl?
+Dialogue: 0,0:10:00.50,0:10:04.14,titulek,Comment,0000,0000,0000,,Ale to není všechno. Ty vycpávky jsou ze zlata.
+Dialogue: 0,0:10:02.16,0:10:05.00,poznamka,Comment,0000,0000,0000,,{\fad(100,100)\1c&H000000&\frz22\b1\pos(395,200)\bord3\3c&H60a0b0&\3a&H30&}ZLATO
+Dialogue: 0,0:10:04.14,0:10:05.14,titulek,Comment,0000,0000,0000,,„Zlatı voèi“
+Dialogue: 0,0:10:05.14,0:10:06.63,titulek,Comment,0000,0000,0000,,On to uhodne døív, ne mu to øekneš.
+Dialogue: 0,0:10:06.90,0:10:09.44,titulek,Comment,0000,0000,0000,,No tak, zasmìj se...
+Dialogue: 0,0:10:09.44,0:10:10.70,titulek,Comment,0000,0000,0000,,Pøestaò breèet.
+Dialogue: 0,0:10:11.01,0:10:13.48,titulek,Comment,0000,0000,0000,,Proè jsi na mì tak pøísná, Arumi?
+Dialogue: 0,0:10:14.11,0:10:16.67,titulek,Comment,0000,0000,0000,,Nechápu, jak mùu slouit pod takovım generálem.
+Dialogue: 0,0:10:17.18,0:10:18.55,titulek,Comment,0000,0000,0000,,Takovı u je osud.
+Dialogue: 0,0:10:18.55,0:10:19.82,titulek,Comment,0000,0000,0000,,To jsem mìla øíct já!
+Dialogue: 0,0:10:19.82,0:10:20.78,titulek,Comment,0000,0000,0000,,Nashle.
+Dialogue: 0,0:10:21.35,0:10:22.94,titulek,Comment,0000,0000,0000,,Jak jen mùeme bıt tak skvìlí?
+Dialogue: 0,0:10:23.45,0:10:24.59,titulek,Comment,0000,0000,0000,,Proè zalézáš?!
+Dialogue: 0,0:10:24.59,0:10:28.26,titulek,Comment,0000,0000,0000,,A pøestaòte s tím doprovodem!
+**Dialogue: 0,0:10:24.82,0:10:25.82,titulek,Comment,0000,0000,0000,,Asahina\NArumi\NToru
+Dialogue: 0,0:10:28.83,0:10:30.32,titulek,Comment,0000,0000,0000,,Pøestaò mì tahat do tìchhle nesmyslù!
+Dialogue: 0,0:10:31.10,0:10:32.33,titulek,Comment,0000,0000,0000,,U toho mám vánì po krk!
+Dialogue: 0,0:10:32.33,0:10:33.73,titulek,Comment,0000,0000,0000,,Tu máte!
+Dialogue: 0,0:10:42.17,0:10:43.40,titulek,Comment,0000,0000,0000,,U to zašlo moc daleko...
+Dialogue: 0,0:10:44.98,0:10:46.08,titulek,Comment,0000,0000,0000,,Madam?!
+Dialogue: 0,0:10:46.08,0:10:47.98,titulek,Comment,0000,0000,0000,,Vojíne E-1 Saši, copak nechápete?
+Dialogue: 0,0:10:47.98,0:10:51.24,titulek,Comment,0000,0000,0000,,Pokud chcete nìkoho chránit, musíte se obèas obìtovat.
+Dialogue: 0,0:10:52.08,0:10:53.05,titulek,Comment,0000,0000,0000,,Chcete øíct...
+Dialogue: 0,0:10:53.98,0:10:56.04,titulek,Comment,0000,0000,0000,,Nikdy na mì nezapomeò.
+Dialogue: 0,0:10:56.52,0:10:57.54,titulek,Comment,0000,0000,0000,,Sestøièko!
+Dialogue: 0,0:10:58.12,0:10:59.92,titulek,Comment,0000,0000,0000,,Sbohem, Saši.
+Dialogue: 0,0:11:04.86,0:11:08.10,titulek,Comment,0000,0000,0000,,Saši, tvoje obì nebude zapomenuta.
+Dialogue: 0,0:11:08.10,0:11:09.16,titulek,Comment,0000,0000,0000,,Já jsem to vìdìl!
+Dialogue: 0,0:11:09.30,0:11:11.43,titulek,Comment,0000,0000,0000,,Chránit své nadøízené je tvojí povinností!
+Dialogue: 0,0:11:11.64,0:11:12.66,titulek,Comment,0000,0000,0000,,{\i1}Bye bye!
+Dialogue: 0,0:11:14.07,0:11:15.54,titulek,Comment,0000,0000,0000,,To mì chcete zabít?!
+Dialogue: 0,0:11:20.58,0:11:23.17,titulek,Comment,0000,0000,0000,,Proè to vdycky dopadne takhle?!
+Dialogue: 0,0:11:24.58,0:11:27.07,titulek,Comment,0000,0000,0000,,Tak co, Saši, bavíš se?
+Dialogue: 0,0:11:33.59,0:11:35.75,titulek,Comment,0000,0000,0000,,Tady Rudı tygr z Kamèatky.
+Dialogue: 0,0:11:36.13,0:11:38.50,titulek,Comment,0000,0000,0000,,Bílı králíku z Inaby, postupujte.
+Dialogue: 0,0:11:38.50,0:11:42.13,titulek,Comment,0000,0000,0000,,Na vaše pozice se blíí mohutnı èernı vlk.
+Dialogue: 0,0:11:42.80,0:11:44.50,titulek,Comment,0000,0000,0000,,{\i1}Bílı králík Rudému tygrovi.
+Dialogue: 0,0:11:44.50,0:11:46.64,titulek,Comment,0000,0000,0000,,{\i1}Všechna dìla batalionu, regimentu, divize
+Dialogue: 0,0:11:46.64,0:11:48.31,titulek,Comment,0000,0000,0000,,{\i1}i všechny jednotky v záloze jsou pøipraveny.
+Dialogue: 0,0:11:48.31,0:11:50.21,titulek,Comment,0000,0000,0000,,Rudı tygr Bílému králíkovi.
+Dialogue: 0,0:11:50.51,0:11:52.27,titulek,Comment,0000,0000,0000,,Okamitì proveïte nálet.
+Dialogue: 0,0:11:52.54,0:11:54.53,titulek,Comment,0000,0000,0000,,{\i1}Bílı králík, rozumím. Proveïte!
+Dialogue: 0,0:12:00.99,0:12:03.51,titulek,Comment,0000,0000,0000,,{\i1}Non!
+Dialogue: 0,0:12:06.96,0:12:08.55,titulek,Comment,0000,0000,0000,,Dokázali jsme to!
+Dialogue: 0,0:12:09.59,0:12:12.66,poznamka,Comment,0000,0000,0100,,{\clip(0,0,50,800)\t(0,2500,\clip(0,0,800,800))\fsp4\be1\b1\an2\fs50\1v&Hffffff&}Armáda Pelikánù . . . . . poraena
+Dialogue: 0,0:12:12.96,0:12:16.27,poznamka,Comment,0000,0000,0100,,{\clip(0,0,50,800)\t(0,2500,\clip(0,0,800,800))\fsp4\be1\b1\an2\fs40\1v&Hffffff&\fad(0,200)}Generál Papa . . . . zemøel bìhem akce
+Dialogue: 0,0:12:29.28,0:12:31.52,titulek,Comment,0000,0000,0000,,Skvìlá práce, vojíne E-1 Saši.
+Dialogue: 0,0:12:31.52,0:12:34.97,titulek,Comment,0000,0000,0000,,Toti, byl jste povıšen, take teï je z vás serant Saši.
+Dialogue: 0,0:12:35.19,0:12:36.24,titulek,Comment,0000,0000,0000,,Coe? Opravdu?
+Dialogue: 0,0:12:39.19,0:12:41.09,titulek,Comment,0000,0000,0000,,Tentokrát pøišla øada na nás, abychom zaútoèili.
+**Dialogue: 0,0:12:41.09,0:12:42.63,titulek,Comment,0000,0000,0000,,Onmyou\NMystic\N
+Dialogue: 0,0:12:41.09,0:12:42.63,titulek,Comment,0000,0000,0000,,Zaútoèili?
+Dialogue: 0,0:12:42.63,0:12:43.29,titulek,Comment,0000,0000,0000,,Ano, madam!
+Dialogue: 0,0:12:43.29,0:12:46.23,titulek,Comment,0000,0000,0000,,Naše letecké jednotky provedou bleskovı útok!
+Dialogue: 0,0:12:46.70,0:12:48.16,titulek,Comment,0000,0000,0000,,A u to znamená cokoliv!
+Dialogue: 0,0:12:48.53,0:12:51.30,titulek,Comment,0000,0000,0000,,Dobøe. I kdy nechápu, o co jde, rozumím vám!
+Dialogue: 0,0:12:51.30,0:12:53.03,titulek,Comment,0000,0000,0000,,Provedeme váš plán.
+Dialogue: 0,0:12:53.64,0:12:55.57,titulek,Comment,0000,0000,0000,,Kde jsou právì soustøedìny nepøátelské síly?
+Dialogue: 0,0:12:55.57,0:12:57.17,titulek,Comment,0000,0000,0000,,Prùzkumnı letoun u po nich pátrá.
+Dialogue: 0,0:12:57.44,0:12:58.68,titulek,Comment,0000,0000,0000,,Zpráva z prùzkumného letounu.
+Dialogue: 0,0:12:58.68,0:13:00.87,titulek,Comment,0000,0000,0000,,Nepøátelské síly jsou soustøedìny kolem kadeønictví.
+Dialogue: 0,0:13:01.38,0:13:02.61,titulek,Comment,0000,0000,0000,,Kadeønictví?!
+Dialogue: 0,0:13:02.81,0:13:04.11,titulek,Comment,0000,0000,0000,,Dobøe. Majore Sajako,
+Dialogue: 0,0:13:04.11,0:13:05.92,titulek,Comment,0000,0000,0000,,Serant Saši, proveïte bleskovı útok!
+Dialogue: 0,0:13:05.92,0:13:08.01,titulek,Comment,0000,0000,0000,,Teï nebo nikdy! Nadešel rozhodující moment!
+Dialogue: 0,0:13:08.52,0:13:10.58,titulek,Comment,0000,0000,0000,,Ano, madam! Udìláme, co bude v našich silách!
+Dialogue: 0,0:13:19.33,0:13:20.83,titulek,Comment,0000,0000,0000,,{\an8\1c&H90b0d0&\bord4\3a&H50&}Kadeønictví Pearl Barber
+Dialogue: 0,0:13:22.60,0:13:25.57,titulek,Comment,0000,0000,0000,,ádná protivzdušná obrana. A ádné nepøátelské stíhaèe v dohledu.
+Dialogue: 0,0:13:26.44,0:13:28.17,titulek,Comment,0000,0000,0000,,Skvìle! Bleskovı útok se zdaøil!
+Dialogue: 0,0:13:28.37,0:13:30.57,titulek,Comment,0000,0000,0000,,Tora, tora, tora!
+Dialogue: 0,0:13:30.87,0:13:34.11,titulek,Comment,0000,0000,0000,,Za mnou! Ukáeme jim, jak má vypadat správnı nálet!
+Dialogue: 0,0:13:49.96,0:13:53.96,titulek,Comment,0000,0000,0000,,Né, to je poslední verze sošky psího bùka,
+Dialogue: 0,0:13:53.96,0:13:56.37,titulek,Comment,0000,0000,0000,,tajného zvíøátka z druhé série èoko-vajíèek,
+Dialogue: 0,0:13:56.37,0:13:58.63,titulek,Comment,0000,0000,0000,,které zmizelo, kdy jej vırobce stáhl z trhu!
+Dialogue: 0,0:13:59.07,0:14:00.13,titulek,Comment,0000,0000,0000,,Mìníme cíl!
+Dialogue: 0,0:14:06.81,0:14:08.14,titulek,Comment,0000,0000,0000,,Mise splnìna.
+Dialogue: 0,0:14:08.48,0:14:11.00,titulek,Comment,0000,0000,0000,,Ale neèekala jsem, e se to vánì povede...
+Dialogue: 0,0:14:11.58,0:14:12.24,titulek,Comment,0000,0000,0000,,Trouba.
+Dialogue: 0,0:14:12.85,0:14:16.22,poznamka,comment,0000,0000,0100,,{\clip(0,0,50,800)\t(0,3000,\clip(0,0,800,800))\fsp2\be1\b1\an2\fs40\1v&Hffffff&} Bleskovı útok armády elv na Pearl Barber ... neuspìl
+Dialogue: 0,0:14:16.52,0:14:19.35,poznamka,Comment,0000,0000,0100,,{\clip(0,0,100,800)\t(0,2500,\clip(0,0,800,800))\fsp4\be1\b1\an2\fs40\1v&Hffffff&\fad(0,300)} Major Sajaka . . . zemøela bìhem akce
+Dialogue: 0,0:14:21.69,0:14:23.63,titulek,Comment,0000,0000,0000,,Tímto jste povıšen na kapitána.
+Dialogue: 0,0:14:23.89,0:14:26.23,titulek,Comment,0000,0000,0000,,Promiòte, ale za co jsem dostal povıšení?
+Dialogue: 0,0:14:26.43,0:14:28.33,titulek,Comment,0000,0000,0000,,To by mì taky zajímalo.
+Dialogue: 0,0:14:28.33,0:14:30.13,titulek,Comment,0000,0000,0000,,Moná proto, e naše øady øídnou.
+Dialogue: 0,0:14:30.47,0:14:31.43,titulek,Comment,0000,0000,0000,,To je fakt.
+**Dialogue: 0,0:14:34.47,0:14:36.13,titulek,Comment,0000,0000,0000,,Císaøské velitelství
+Dialogue: 0,0:14:34.47,0:14:36.13,titulek,Comment,0000,0000,0000,,{\i1}Hlášení vzdušnıch sil.
+Dialogue: 0,0:14:36.24,0:14:38.61,titulek,Comment,0000,0000,0000,,{\i1}V bitvì u Pearl Barber, která právì probìhla,
+Dialogue: 0,0:14:38.61,0:14:40.24,titulek,Comment,0000,0000,0000,,{\i1}získala naše strana vítìzství.
+*Dialogue: 0,0:14:40.24,0:14:47.69,titulek,Comment,0000,0000,0000,,Kapitán Satoši Imamija
+Dialogue: 0,0:14:40.74,0:14:43.61,titulek,Comment,0000,0000,0000,,{\i1}V tomto konfliktu vynikl pøedevším serant Saši
+Dialogue: 0,0:14:43.61,0:14:45.78,titulek,Comment,0000,0000,0000,,{\i1}svım bojovım nasazením, a proto mu byla udìlena pocta
+Dialogue: 0,0:14:45.78,0:14:47.69,titulek,Comment,0000,0000,0000,,{\i1}povıšení do kapitánské hodnosti.
+Dialogue: 1,0:14:45.78,0:14:47.69,titulek,Comment,0000,0000,0000,,{\fs35\pos(220,520)\1c&H90b0d0&}Tuhle válku stejnì prohrajeme.
+Dialogue: 0,0:14:47.92,0:14:48.92,titulek,Comment,0000,0000,0000,,Øíkal jste nìco?
+Dialogue: 0,0:14:48.92,0:14:49.85,titulek,Comment,0000,0000,0000,,Ne... vùbec nic.
+Dialogue: 0,0:14:49.85,0:14:53.62,titulek,Comment,0000,0000,0000,,Tuhle válku prostì musíme vyhrát!
+Dialogue: 0,0:14:53.86,0:14:54.86,poznamka,Comment,0000,0000,0000,,{\pos(405,396)\1a&H80&\be1\frz-0.5\fscy80)}LÁZNÌ
+Dialogue: 0,0:14:54.29,0:14:56.99,titulek,Comment,0000,0000,0000,,Naše elví láznì musíme ubránit za kadou cenu!
+Dialogue: 0,0:14:56.99,0:15:00.06,titulek,Comment,0000,0000,0000,,Zlé zprávy. Nepøítel postupuje!
+Dialogue: 0,0:15:00.06,0:15:01.03,titulek,Comment,0000,0000,0000,,Jake?!
+**Dialogue: 0,0:15:11.71,0:15:12.51,titulek,Comment,0000,0000,0000,,Pe
+Dialogue: 0,0:15:19.75,0:15:21.25,poznamka,Comment,0000,0000,0060,,{\i1\an2\1c&H303030&\be1\bord3\3c&Hffffff&\3a&Hb0&}BIRIKEN
+Dialogue: 0,0:15:24.56,0:15:27.42,titulek,Comment,0000,0000,0000,,Situace u zašla moc daleko. Zasadíme jim ránu z milosti!
+Dialogue: 0,0:15:27.73,0:15:29.72,titulek,Comment,0000,0000,0000,,Pomocí našeho obøího køíníku Jamatogawy!
+Dialogue: 0,0:15:30.23,0:15:32.90,titulek,Comment,0000,0000,0000,,Potvrzuji údaje z radaru! Nepøátelská letka!
+Dialogue: 0,0:15:32.90,0:15:33.86,titulek,Comment,0000,0000,0000,,Zamìøte je!
+Dialogue: 0,0:15:46.84,0:15:49.31,titulek,Comment,0000,0000,0000,,Bylo to k nièemu! Všechno jednotky byly pøi útoku znièeny!
+Dialogue: 0,0:15:50.25,0:15:51.91,titulek,Comment,0000,0000,0000,,To u je na pováenou.
+Dialogue: 0,0:15:52.12,0:15:53.17,titulek,Comment,0000,0000,0000,,Zpráva od nepøítele!
+Dialogue: 0,0:15:53.75,0:15:56.58,titulek,Comment,0000,0000,0000,,Zpráva pro velitele armády elvích lázní, generála Mune-mune.
+Dialogue: 0,0:15:57.39,0:15:59.02,titulek,Comment,0000,0000,0000,,Vaši vojáci bojovali stateènì.
+Dialogue: 0,0:15:59.39,0:16:02.46,titulek,Comment,0000,0000,0000,,Ale mùj køiník Jamatogawa je neporazitelnı.
+Dialogue: 0,0:16:02.46,0:16:04.53,titulek,Comment,0000,0000,0000,,Vaše síly se mu nemohou rovnat!
+Dialogue: 0,0:16:04.53,0:16:07.29,titulek,Comment,0000,0000,0000,,Myslím, e to víte stejnì dobøe jako já.
+Dialogue: 0,0:16:08.73,0:16:11.03,titulek,Comment,0000,0000,0000,,Vaše šance jsou horší ne milión ku jedné.
+Dialogue: 0,0:16:11.20,0:16:13.03,titulek,Comment,0000,0000,0000,,Take, generále Mune-mune...
+Dialogue: 0,0:16:14.77,0:16:16.21,titulek,Comment,0000,0000,0000,,Vemte si mì, prosím!
+Dialogue: 0,0:16:16.21,0:16:17.61,titulek,Comment,0000,0000,0000,,Co to vaní?
+Dialogue: 0,0:16:18.74,0:16:20.44,titulek,Comment,0000,0000,0000,,Pardon, jen ertuju.
+Dialogue: 0,0:16:20.74,0:16:22.71,titulek,Comment,0000,0000,0000,,Vy vánì skoèíte na všechno.
+Dialogue: 0,0:16:23.58,0:16:27.35,titulek,Comment,0000,0000,0000,,Kadopádnì jsem ochoten pøijmout vaši kapitulaci.
+Dialogue: 0,0:16:27.62,0:16:29.55,titulek,Comment,0000,0000,0000,,Tímto zahajuji pìtiminutové pøímìøí.
+Dialogue: 0,0:16:29.55,0:16:32.39,titulek,Comment,0000,0000,0000,,Ale chci, aby bylo v jednom jasno!
+Dialogue: 0,0:16:33.66,0:16:35.09,titulek,Comment,0000,0000,0000,,Dobøe mì poslouchejte. Naše armáda...
+Dialogue: 0,0:16:37.29,0:16:38.73,titulek,Comment,0000,0000,0000,,Nedrmolte tak!
+Dialogue: 0,0:16:38.73,0:16:39.99,titulek,Comment,0000,0000,0000,,Co budeme dìlat, generále?
+Dialogue: 0,0:16:41.00,0:16:42.47,titulek,Comment,0000,0000,0000,,Vyøiïte jim: „Jste hlupáci.“
+Dialogue: 0,0:16:43.30,0:16:44.33,titulek,Comment,0000,0000,0000,,Povídám: „Jste hlupáci!“
+Dialogue: 0,0:16:44.33,0:16:45.30,titulek,Comment,0000,0000,0000,,„Jste hlupáci!“
+Dialogue: 0,0:16:45.64,0:16:47.16,titulek,Comment,0000,0000,0000,,Páni, naštval se.
+Dialogue: 0,0:16:49.04,0:16:50.56,titulek,Comment,0000,0000,0000,,No tak, smìjte se.
+Dialogue: 0,0:16:51.04,0:16:53.44,titulek,Comment,0000,0000,0000,,Já vám dám, nadávat mi do hlupákù!
+Dialogue: 0,0:16:53.44,0:16:54.67,titulek,Comment,0000,0000,0000,,Pøipravit všechna dìla!
+Dialogue: 0,0:17:04.35,0:17:05.55,titulek,Comment,0000,0000,0000,,C... co budeme dìlat?!
+Dialogue: 0,0:17:06.19,0:17:07.71,titulek,Comment,0000,0000,0000,,Ještì jsme neprohráli.
+Dialogue: 0,0:17:08.23,0:17:10.02,titulek,Comment,0000,0000,0000,,Ještì máme jedno eso v rukávu.
+Dialogue: 0,0:17:10.39,0:17:11.62,titulek,Comment,0000,0000,0000,,Eso v rukávu?
+Dialogue: 0,0:17:31.38,0:17:32.35,titulek,Comment,0000,0000,0000,,Pal!
+**Dialogue: 0,0:17:35.55,0:17:36.52,titulek,Comment,0000,0000,0000,,Pe
+Dialogue: 0,0:17:57.21,0:17:58.30,titulek,Comment,0000,0000,0000,,Kde jsou všichni?
+Dialogue: 0,0:17:59.34,0:18:04.38,poznamka,Comment,0000,0000,0100,,{\clip(0,0,60,800)\t(0,2200,\clip(0,0,800,800))\fsp4\be1\b1\an2\fs50\1v&Hffffff&}Generál Taro . . . zemøel bìhem akce
+Dialogue: 0,0:18:02.01,0:18:04.38,poznamka,Comment,0000,0000,0035,,{\clip(0,0,60,800)\t(0,2200,\clip(0,0,800,800))\fsp4\be1\b1\an2\fs48\1v&Hffffff&}Plukovník Micujo ... zemøela bìhem akce
+Dialogue: 0,0:18:07.02,0:18:08.85,titulek,Comment,0000,0000,0000,,To je náš konec! Pomoc!
+Dialogue: 0,0:18:09.52,0:18:11.82,titulek,Comment,0000,0000,0000,,To není konec. Ještì máme jedno eso v rukávu!
+Dialogue: 0,0:18:12.26,0:18:13.39,titulek,Comment,0000,0000,0000,,Coe, další?!
+Dialogue: 0,0:18:13.39,0:18:14.41,titulek,Comment,0000,0000,0000,,Musíme dret pøi sobì!
+Dialogue: 0,0:18:15.59,0:18:17.22,titulek,Comment,0000,0000,0000,,Dret pøi sobì?!
+Dialogue: 0,0:18:24.10,0:18:26.00,titulek,Comment,0000,0000,0000,,Jsem si jistá, e ON se vrátí.
+Dialogue: 0,0:18:26.34,0:18:29.36,titulek,Comment,0000,0000,0000,,Do té doby musíme elví láznì udret!
+Dialogue: 0,0:18:30.37,0:18:31.97,titulek,Comment,0000,0000,0000,,Hm? Coe?
+Dialogue: 0,0:18:32.68,0:18:33.68,titulek,Comment,0000,0000,0000,,Jdeme na zteè!
+Dialogue: 0,0:18:33.68,0:18:35.41,titulek,Comment,0000,0000,0000,,Na zteè proti køiníku?
+Dialogue: 0,0:18:36.45,0:18:37.41,titulek,Comment,0000,0000,0000,,Pojï!
+Dialogue: 0,0:18:40.32,0:18:42.29,titulek,Comment,0000,0000,0000,,Stùjte! Stùjte! Je po nás! Je po nás!
+Dialogue: 0,0:18:42.29,0:18:43.85,titulek,Comment,0000,0000,0000,,Zemøeme v boji!
+Dialogue: 0,0:18:43.85,0:18:45.29,titulek,Comment,0000,0000,0000,,Ne! Já nechci zemøít!
+Dialogue: 0,0:18:45.29,0:18:47.29,titulek,Comment,0000,0000,0000,,Jsi ochoten poloit ivot za své bliní?!
+Dialogue: 0,0:18:47.29,0:18:48.29,titulek,Comment,0000,0000,0000,,Ne, nejsem! Rozhodnì nejsem!
+Dialogue: 0,0:18:48.29,0:18:50.53,titulek,Comment,0000,0000,0000,,Kosmozóna lásky!
+Dialogue: 0,0:18:50.53,0:18:52.29,titulek,Comment,0000,0000,0000,,Co to má znamenat?!
+Dialogue: 0,0:19:06.91,0:19:09.34,titulek,Comment,0000,0000,0000,,Cítím sice na zádech její prsa, ale pøesto...
+Dialogue: 0,0:19:13.22,0:19:14.91,titulek,Comment,0000,0000,0000,,Mune-mune, neumírej!
+Dialogue: 0,0:19:16.79,0:19:18.88,titulek,Comment,0000,0000,0000,,Mune-mune, vydr!
+Dialogue: 0,0:19:20.56,0:19:21.85,titulek,Comment,0000,0000,0000,,Neboj se...
+Dialogue: 0,0:19:22.79,0:19:28.39,titulek,Comment,0000,0000,0000,,Ještì... ještì jsem... ho nevidìla...
+Dialogue: 0,0:19:29.17,0:19:30.13,titulek,Comment,0000,0000,0000,,Mune-mune...
+Dialogue: 0,0:19:30.57,0:19:32.73,titulek,Comment,0000,0000,0000,,Saši, jak si vede naše strana?
+Dialogue: 0,0:19:34.20,0:19:36.50,titulek,Comment,0000,0000,0000,,Vedeme si skvìle! Vyhráváme!
+Dialogue: 0,0:19:37.21,0:19:38.08,titulek,Comment,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:19:38.08,0:19:40.91,titulek,Comment,0000,0000,0000,,Opravdu. Hlavnì vydr, Mune-mune!
+Dialogue: 0,0:19:42.78,0:19:44.75,titulek,Comment,0000,0000,0000,,Ubránili jsme elví láznì...
+Dialogue: 0,0:19:45.48,0:19:47.28,titulek,Comment,0000,0000,0000,,A on u opìt...
+Dialogue: 0,0:19:47.88,0:19:49.19,titulek,Comment,0000,0000,0000,,Mune-mune?
+Dialogue: 0,0:19:49.19,0:19:53.15,titulek,Comment,0000,0000,0000,,Vìøím, e dokud budou elví láznì stát,
+Dialogue: 0,0:19:53.66,0:19:56.25,titulek,Comment,0000,0000,0000,,on se ke mnì vrátí.
+Dialogue: 0,0:19:56.89,0:19:58.23,titulek,Comment,0000,0000,0000,,Mune-mune...
+Dialogue: 0,0:19:58.23,0:20:03.33,titulek,Comment,0000,0000,0000,,Vìøím tomu. Kdy tomu budu vìøit, stane se tak...
+Dialogue: 0,0:20:03.33,0:20:05.13,titulek,Comment,0000,0000,0000,,Staèí jen vìøit...
+Dialogue: 0,0:20:05.87,0:20:08.17,titulek,Comment,0000,0000,0000,,No jasnì. Máš pravdu...
+Dialogue: 0,0:20:08.17,0:20:12.13,titulek,Comment,0000,0000,0000,,Dokud budeš mít víru, dokáeš vše. Úplnì vše.
+Dialogue: 0,0:20:13.64,0:20:15.44,titulek,Comment,0000,0000,0000,,Saši, dìkuji ti.
+Dialogue: 0,0:20:15.95,0:20:19.31,titulek,Comment,0000,0000,0000,,Buï silnı a ij.
+Dialogue: 0,0:20:19.88,0:20:20.88,titulek,Comment,0000,0000,0000,,Mune-mune.
+Dialogue: 0,0:20:20.88,0:20:26.35,titulek,Comment,0000,0000,0000,,Ach, u ho vidím. Usmívá se na mì...
+Dialogue: 0,0:20:29.36,0:20:30.33,titulek,Comment,0000,0000,0000,,Mune-mune?!
+Dialogue: 0,0:20:30.66,0:20:32.99,titulek,Comment,0000,0000,0000,,Mune-mune!
+Dialogue: 0,0:20:34.06,0:20:37.13,poznamka,Comment,0000,0000,-0001,,{\fad(800,500)\fsp4\b0\be1\b1\an2\fs40\1v&Hffffff&}Generál Mune-mune umírá
+**Dialogue: 0,0:20:40.67,0:20:41.83,titulek,Comment,0000,0000,0000,,Zde leí generál Mune-mune
+Dialogue: 0,0:20:46.38,0:20:48.50,titulek,Comment,0000,0000,0000,,U nebyla ádná obchodní pasá.
+Dialogue: 0,0:20:48.85,0:20:50.64,titulek,Comment,0000,0000,0000,,Zbyly jen trosky.
+Dialogue: 0,0:20:51.11,0:20:53.78,titulek,Comment,0000,0000,0000,,Zdejší krajina, která byla pokoøena tolika útoky,
+Dialogue: 0,0:20:53.78,0:20:56.41,titulek,Comment,0000,0000,0000,,byla zcela tichá a nehybná.
+Dialogue: 0,0:20:56.99,0:20:58.45,titulek,Comment,0000,0000,0000,,Saši pochopil,
+Dialogue: 0,0:20:58.89,0:21:02.05,titulek,Comment,0000,0000,0000,,e v tomto svìtì je ji obchodní pasá mrtvá.
+Dialogue: 0,0:21:02.99,0:21:04.62,titulek,Comment,0000,0000,0000,,Válka je nesmyslná.
+Dialogue: 0,0:21:05.20,0:21:06.96,titulek,Comment,0000,0000,0000,,Vıòatek z pamìtí Sašiho Imamiji,
+Dialogue: 0,0:21:06.96,0:21:08.83,titulek,Comment,0000,0000,0000,,3. kapitola úvodu.
+Dialogue: 0,0:21:09.53,0:21:13.13,titulek,Comment,0000,0000,0000,,Bylo to zajímavı, ale docela drsnı.
+Dialogue: 0,0:21:13.37,0:21:15.74,titulek,Comment,0000,0000,0000,,Všude dobøe, doma nejlíp. U bych se vrátil.
+Dialogue: 0,0:21:17.44,0:21:19.04,titulek,Comment,0000,0000,0000,,Slyšela jsem tì!
+Dialogue: 0,0:21:19.04,0:21:20.74,titulek,Comment,0000,0000,0000,,Zrovinka jsi øekl, e se chceš vrátit!
+Dialogue: 0,0:21:21.58,0:21:22.55,titulek,Comment,0000,0000,0000,,Co?
+Dialogue: 0,0:21:23.75,0:21:26.32,titulek,Comment,0000,0000,0000,,To ti to poøád nestaèí? U jsem se pobavila dost.
+Dialogue: 0,0:21:26.32,0:21:28.38,titulek,Comment,0000,0000,0000,,Nìkteré vìci se mi celkem líbily.
+Dialogue: 0,0:21:28.72,0:21:29.55,titulek,Comment,0000,0000,0000,,Vánì?
+Dialogue: 0,0:21:29.55,0:21:30.92,titulek,Comment,0000,0000,0000,,Pøemıšlej u koneènì!
+Dialogue: 0,0:21:31.12,0:21:34.99,titulek,Comment,0000,0000,0000,,I kdy odjedu na Hokkaidó, neznamená to, e zmizím ze svìta.
+Dialogue: 0,0:21:35.29,0:21:37.53,titulek,Comment,0000,0000,0000,,A je pøece lepší ít tam, kam patøíme,
+Dialogue: 0,0:21:37.53,0:21:40.72,titulek,Comment,0000,0000,0000,,ne se trmácet po všech tìch vyšinutıch svìtech. Ne?
+Dialogue: 0,0:21:41.67,0:21:44.93,titulek,Comment,0000,0000,0000,,Staèí jen vìøit...
+Dialogue: 0,0:21:45.24,0:21:46.20,titulek,Comment,0000,0000,0000,,Jo!
+Dialogue: 0,0:21:48.54,0:21:50.20,titulek,Comment,0000,0000,0000,,No jo, moná je to pravda.
+Dialogue: 0,0:21:50.91,0:21:52.84,titulek,Comment,0000,0000,0000,,Dobøe. Tak teda jdeme!
+Dialogue: 0,0:21:55.98,0:21:57.11,titulek,Comment,0000,0000,0000,,Vracíme se domù?
+*Dialogue: 0,0:21:57.55,0:21:58.51,titulek,Comment,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:58.78,0:22:03.48,titulek,Comment,0000,0000,0000,,Díky mım silám se mi snad podaøí dostat nás do svìta, kde dìda Masa pøeije.
+Dialogue: 0,0:22:04.32,0:22:07.26,titulek,Comment,0000,0000,0000,,Ano, urèitì to dokáu! Musím to dokázat!
+Dialogue: 0,0:22:07.59,0:22:08.85,titulek,Comment,0000,0000,0000,,Vìøím tomu!
+Dialogue: 0,0:22:12.26,0:22:15.23,titulek,Comment,0000,0000,0000,,{\1c&Hffffff&}Pokraèování pøíštì
+
+
+Dialogue: 0,0:23:45.66,0:23:48.16,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}V pøíští epizodì Magické obchodní pasáe Abenobaši uvidíte...
+Dialogue: 0,0:23:48.16,0:23:51.93,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}Celá ta hra na vojáky mìla pìknì smutnı konec...
+Dialogue: 0,0:23:51.93,0:23:54.16,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}Saši u se koneènì rozhodl vrátit se domù.
+Dialogue: 0,0:23:55.03,0:23:57.43,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}U se radují, e jsou koneènì doma,
+Dialogue: 0,0:23:57.97,0:24:02.67,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}ale nakonec se ukáe, e jsou v dalším podivném svìtì.
+Dialogue: 0,0:24:04.21,0:24:06.41,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}A co je èeká v tom dalším?
+Dialogue: 0,0:24:06.94,0:24:10.08,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}Pøíštì: „Plnou parou vzad?! Hollywoodská obchodní ètvr Abenobaši.“
+Dialogue: 0,0:24:12.38,0:24:13.72,titulek,Comment,0000,0000,0000,,{\an8\1c&H80b0d0&\fs33}Héééj.
+
+Dialogue: 0,0:23:48.16,0:23:51.23,titulek,Comment,0000,0000,0000,,Sleèno Aki. Saši zrovna dìlá upoutávku.
+Dialogue: 0,0:23:46.36,0:23:48.16,titulek,Comment,0000,0000,0000,,Á, Arumi, zlatíèko, copak tu dìláš?
+Dialogue: 0,0:23:51.23,0:23:53.06,titulek,Comment,0000,0000,0000,,Ach, upoutávka {\i1}du delelemont.
+Dialogue: 0,0:23:53.06,0:23:54.16,titulek,Comment,0000,0000,0000,,Já chci taky!
+Dialogue: 0,0:23:54.16,0:23:55.43,titulek,Comment,0000,0000,0000,,Já chci dìlat upoutávku!
+Dialogue: 0,0:23:55.43,0:23:57.67,titulek,Comment,0000,0000,0000,,Páni, co e je tu dnes tolik lidí?
+Dialogue: 0,0:23:57.67,0:23:59.04,titulek,Comment,0000,0000,0000,,U pìknou chvíli si øíkám,
+Dialogue: 0,0:23:59.04,0:24:00.90,titulek,Comment,0000,0000,0000,,e ty upoutávky se stejnì nakonec vdycky zvrhnou,
+Dialogue: 0,0:24:00.90,0:24:02.67,titulek,Comment,0000,0000,0000,,take jakı to má potom vlastnì smysl?
+Dialogue: 0,0:24:02.67,0:24:04.21,titulek,Comment,0000,0000,0000,,Vám to nevadí, pane reisére?
+Dialogue: 0,0:24:04.21,0:24:06.41,titulek,Comment,0000,0000,0000,,No, já tyhle upoutávky nepíšu.
+Dialogue: 0,0:24:06.41,0:24:08.81,titulek,Comment,0000,0000,0000,,Vdycky to sesmolí ten chlápek z Akaši...
+Dialogue: 0,0:24:08.81,0:24:11.51,titulek,Comment,0000,0000,0000,,Já chci dìlat upoutávku! Upoutávku! Upoutávku!
+Dialogue: 0,0:24:11.51,0:24:12.92,titulek,Comment,0000,0000,0000,,Mune, ty jsi do toho vánì nadšená.
+Dialogue: 0,0:24:13.72,0:24:14.72,titulek,Comment,0000,0000,0000,,Pane jo.
+*Dialogue: 0,0:24:14.72,0:24:14.98,titulek,Comment,0000,0000,0000,,Next Time\NHuge Reversal?!\NAbenobashi * Hollywood Shopping Arcade
+
+Dialogue: 0,0:24:10.28,0:24:15.25,nazevdilu,Comment,0000,0000,0100,,{\fad(700,0)\1a&H00&\1c&Hffffff&\4a&H40&\shad3}Epizoda dvanáctá\N\N\N\N\N\N\N\N\N\N\N\N\NPlnou parou vzad!?
+
+
+

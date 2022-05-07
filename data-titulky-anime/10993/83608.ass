@@ -1,0 +1,453 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ppopsdop,Open Sans Semibold,38,&H00000000,&H000000FF,&H00B3D3FF,&H00000000,-1,0,0,0,100,100,0,0,1,1.1,0,2,0,0,44,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: School,Open Sans Semibold,35,&H0028241F,&H000000FF,&H00F1F1F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+Style: Tea,Open Sans Semibold,35,&H00DAE2E1,&H000000FF,&H002C4B6D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+Style: Note,Open Sans Semibold,35,&H0028241F,&H000000FF,&H00EBEFEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+Style: Like,Open Sans Semibold,29,&H002600AD,&H000000FF,&H00151515,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,27,40,1
+Style: Note2,Open Sans Semibold,35,&H0028241F,&H000000FF,&H00EBEFEF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,27,1
+Style: Waste,Open Sans Semibold,26,&H002600AD,&H000000FF,&H00151515,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,133,27,1
+Style: Whoa,Open Sans Semibold,26,&H002600AD,&H000000FF,&H00151515,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,27,27,27,1
+Style: Thank,Open Sans Semibold,26,&H002600AD,&H000000FF,&H00151515,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,133,27,27,1
+Style: Box L,Open Sans Semibold,29,&H00FAFAFA,&H000000FF,&H00141414,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,0,467,187,1
+Style: Box R,Open Sans Semibold,26,&H001C2423,&H000000FF,&H00E9F3F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,453,0,160,1
+Style: Box PS,Open Sans Semibold,26,&H00FAFAFA,&H000000FF,&H00141414,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,400,0,187,1
+Style: Note3,Open Sans Semibold,29,&H0028241F,&H000000FF,&H00EBEFEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+Style: Preview Black,Open Sans Semibold,32,&H00000100,&H000000FF,&H00C6C5BF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,80,27,113,1
+Style: Preview Red,Open Sans Semibold,38,&H00000100,&H000000FF,&H0021075E,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,200,193,1
+Style: Preview Black2,Open Sans Semibold,32,&H00000100,&H000000FF,&H00C6C5BF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,187,133,1
+Style: Ikeda,Open Sans Semibold,41,&H00000100,&H000000FF,&H00163835,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,27,1
+Style: Red,Open Sans Semibold,41,&H000100AE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,27,1
+Style: Preview Black3,Open Sans Semibold,32,&H00000100,&H000000FF,&H00C6C5BF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,200,27,40,1
+Style: Ikeda Purple,Open Sans Semibold,41,&H00000100,&H000000FF,&H007A0B69,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,27,1
+Style: Preview Black4,Open Sans Semibold,32,&H00000100,&H000000FF,&H00C6C5BF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,80,40,1
+Style: Preview Red2,Open Sans Semibold,38,&H00000100,&H000000FF,&H002516B0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,0,0,147,1
+Style: White,Open Sans Semibold,41,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,27,1
+Style: Blue Missing,Open Sans Semibold,32,&H00882522,&H000000FF,&H00FEF6EA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,1
+Style: Red Missing,Open Sans Semibold,32,&H00261098,&H000000FF,&H00FEF6EA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,1
+Style: pošunutý,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,70,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.44,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:00:01.34,0:00:04.09,Main,T,0000,0000,0000,,Budeme pokračovat po přestávce na oběd.
+Dialogue: 0,0:00:04.57,0:00:06.59,Main,B,0000,0000,0000,,Skvělý! Čas na jídlo!
+Dialogue: 0,0:00:06.59,0:00:07.44,Main,B,0000,0000,0000,,Jej!
+Dialogue: 0,0:00:07.76,0:00:09.98,Main,B,0000,0000,0000,,Hej, půjdeme se najíst ven!
+Dialogue: 0,0:00:12.44,0:00:15.84,Main,G,0000,0000,0000,,Pojďme se spolu najíst, Izumi-chan.
+Dialogue: 0,0:00:15.84,0:00:16.70,Main,G,0000,0000,0000,,Co se děje?
+Dialogue: 0,0:00:17.17,0:00:20.89,Main,I,0000,0000,0000,,Seita-kun si pořád neudělal žádné kamarády?
+Dialogue: 0,0:00:20.89,0:00:23.46,Main,I,0000,0000,0000,,Už je to celkem dlouho, co se k nám přidal...
+Dialogue: 0,0:00:23.76,0:00:27.05,Main,G,0000,0000,0000,,Božínku, klukům je všechno úplně jedno.
+Dialogue: 0,0:00:27.91,0:00:30.14,Main,G,0000,0000,0000,,Hej, Seito-kun!
+Dialogue: 0,0:00:31.18,0:00:33.81,Main,G,0000,0000,0000,,Nechtěl bys s námi poobědvat?
+Dialogue: 0,0:00:33.81,0:00:35.17,Main,G,0000,0000,0000,,Izumi-chan se ptá.
+Dialogue: 0,0:00:35.17,0:00:37.67,Main,I,0000,0000,0000,,H-Hej, nic takového jsem—
+Dialogue: 0,0:00:37.68,0:00:39.96,Main,Sei,0000,0000,0000,,N-No, já...
+Dialogue: 0,0:00:39.96,0:00:42.73,Main,Sei,0000,0000,0000,,O-Oh, jejda! Zapomněl jsem si oběd!
+Dialogue: 0,0:00:43.18,0:00:44.71,Main,I,0000,0000,0000,,Oh, vážně?
+Dialogue: 0,0:00:44.71,0:00:47.85,Main,I,0000,0000,0000,,Můžeme se s tebou rozdělit, jestli chceš.
+Dialogue: 0,0:00:47.85,0:00:49.77,Main,Sei,0000,0000,0000,,N-Ne, to je v pohodě!
+Dialogue: 0,0:00:50.66,0:00:54.69,Main,Sei,0000,0000,0000,,P-Půjdu si něco koupit do obchodu!
+Dialogue: 0,0:00:54.69,0:00:55.73,Main,I,0000,0000,0000,,Seito-kun?!
+Dialogue: 0,0:00:57.62,0:00:58.94,Main,G,0000,0000,0000,,Tak, tady to máš.
+Dialogue: 0,0:00:58.94,0:01:00.65,Main,B,0000,0000,0000,,Neztrácej s ním čas, Izumi.
+Dialogue: 0,0:01:00.65,0:01:02.50,Main,B,0000,0000,0000,,Vždycky se chová stejně.
+Dialogue: 0,0:01:03.41,0:01:05.80,Main,B,0000,0000,0000,,Už předtím jsme se ho ptali,\Njestli se k nám nechce přidat,
+Dialogue: 0,0:01:05.80,0:01:08.50,Main,B,0000,0000,0000,,ale jakmile přijde čas na oběd,\Nvždycky se někam vypaří.
+Dialogue: 0,0:01:08.50,0:01:09.73,Main,I,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:01:09.73,0:01:13.08,Main,G,0000,0000,0000,,Zahazuje svou šanci získat kamarády.
+Dialogue: 0,0:01:15.32,0:01:16.60,Main,I,0000,0000,0000,,Seito-kun...
+Dialogue: 0,0:01:18.57,0:01:21.24,Main,I,0000,0000,0000,,Co asi tak dělá, když je sám?
+Dialogue: 0,0:02:54.94,0:02:56.94,ppopsdop,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:02:56.94,0:03:02.91,Ep Title,Title,0000,0000,0000,,{\fad(445,1)}Všechny Mámy Cpou do Krabiček na Oběd Tolik Jídla, až To Zničí Jejich Tvar
+Dialogue: 0,0:03:02.91,0:03:07.91,Tea,Sign,0000,0000,0000,,Čajovna Hinoya
+Dialogue: 0,0:03:04.18,0:03:07.91,pošunutý,Hi,0000,0000,0000,,Seita je poslední dobou jako vyměněný.
+Dialogue: 0,0:03:08.26,0:03:10.70,pošunutý,Hi,0000,0000,0000,,Myslím, že se to děje od doby,\Nco začal chodit do chrámové školy.
+Dialogue: 0,0:03:11.23,0:03:14.67,Main,Hi,0000,0000,0000,,Předtím byl celý natěšený,\Nže si udělá spoustu kamarádů,
+Dialogue: 0,0:03:15.13,0:03:19.55,Main,Hi,0000,0000,0000,,ale zatím si ani nikoho nepřivedl domů.
+Dialogue: 0,0:03:20.60,0:03:22.42,Main,Hi,0000,0000,0000,,Teď dívej. Navrch toho všeho...
+Dialogue: 0,0:03:23.11,0:03:24.82,Main,Hi,0000,0000,0000,,Ten nenasyta
+Dialogue: 0,0:03:26.75,0:03:29.68,Main,Hi,0000,0000,0000,,nosí domů nedojezené obědy.
+Dialogue: 0,0:03:30.31,0:03:33.66,Main,Hi,0000,0000,0000,,Co s ním je? \NVypadá to tak dobře.
+Dialogue: 0,0:03:34.13,0:03:37.69,Main,Hi,0000,0000,0000,,Nezapadá mezi ty děti?
+Dialogue: 0,0:03:38.19,0:03:41.45,Main,Tsu,0000,0000,0000,,Hinowo, oni měli dneska sportovní den, nebo tak něco?
+Dialogue: 0,0:03:41.85,0:03:44.99,Main,Hi,0000,0000,0000,,Pro dítě je každý den sportovní.
+Dialogue: 0,0:03:44.99,0:03:46.71,Main,Tsu,0000,0000,0000,,Takhle jsem to nemyslela!
+Dialogue: 0,0:03:46.71,0:03:49.28,Main,Tsu,0000,0000,0000,,To mu každý den děláš tak výstřední obědy?
+Dialogue: 0,0:03:49.28,0:03:52.71,Main,Hi,0000,0000,0000,, S prázdným žaludkem se přece nejde soustředit, že?
+Dialogue: 0,0:03:53.53,0:03:55.85,Main,Hi,0000,0000,0000,,Mámy to mají opravdu těžké, hm?
+Dialogue: 0,0:03:55.85,0:03:58.49,Main,Hi,0000,0000,0000,,Nemůžu uvěřit, že toho pro své děti vaří každý den tolik.
+Dialogue: 0,0:04:00.69,0:04:03.43,Main,Tsu,0000,0000,0000,,Hinowo, těžké si to děláš jenom ty.
+Dialogue: 0,0:04:03.92,0:04:07.65,Main,Tsu,0000,0000,0000,,A není to Seita, kdo mezi ty děti nezapadá.
+Dialogue: 0,0:04:08.98,0:04:10.33,Main,Tsu,0000,0000,0000,,Jsou to ty obědy.
+Dialogue: 0,0:04:10.83,0:04:14.10,Main,Tsu,0000,0000,0000,,Seita si možná nemůže udělat kamarády jen proto,
+Dialogue: 0,0:04:14.10,0:04:16.69,Main,Tsu,0000,0000,0000,,že by se cítil trapně, kdyby ho někdo viděl, jak to jí.
+Dialogue: 0,0:04:17.30,0:04:19.59,Main,Hi,0000,0000,0000,,Cože? Kvůli jídlu?
+Dialogue: 0,0:04:19.59,0:04:20.57,Main,Hi,0000,0000,0000,,Proč?
+Dialogue: 0,0:04:20.57,0:04:22.97,Main,Tsu,0000,0000,0000,,Když bude nováček jíst takové věci,
+Dialogue: 0,0:04:22.97,0:04:24.86,Main,Tsu,0000,0000,0000,,je jasné, že bude vyčnívat!
+Dialogue: 0,0:04:25.36,0:04:29.95,Main,Tsu,0000,0000,0000,,Dětská společnost je mnohem drsnější a výlučnější, něž si dospělí uvědomují.
+Dialogue: 0,0:04:29.95,0:04:32.14,Main,B,0000,0000,0000,,Víš, dneska není sportovní den.
+Dialogue: 0,0:04:32.14,0:04:34.37,Main,B,0000,0000,0000,,Tvoji rodiče nemají žádný rozum.
+Dialogue: 0,0:04:34.99,0:04:39.09,Main,Hi,0000,0000,0000,,Proč? Nedávám mu tam nic, co by ho mohlo ztrapnit.
+Dialogue: 0,0:04:39.09,0:04:40.57,Main,Hi,0000,0000,0000,,A dělám to s láskou!
+Dialogue: 0,0:04:43.57,0:04:46.37,Main,Tsu,0000,0000,0000,,A já ti říkám, že v tom není ten problém.
+Dialogue: 0,0:04:46.37,0:04:49.89,Main,Tsu,0000,0000,0000,,Aby mohl zapadnout mezi ostatní děti, musí mít stejné věci jako oni
+Dialogue: 0,0:04:49.89,0:04:51.60,Main,Tsu,0000,0000,0000,,a dělat stejné věci jako oni.
+Dialogue: 0,0:04:51.60,0:04:55.13,Main,Tsu,0000,0000,0000,,Přesně tak. Být "normální" \Nje v jejich společnosti to nejdůležitější.
+Dialogue: 0,0:04:55.13,0:04:56.51,Main,Hi,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:04:56.51,0:04:58.38,Internal,Sei,0000,0000,0000,,To je naše Tsukuyo-nee.
+Dialogue: 0,0:04:58.38,0:05:01.61,Internal,Sei,0000,0000,0000,,Královna čtení mezi řádky v celé Yoshiwaře.
+Dialogue: 0,0:05:02.44,0:05:04.12,Internal,Sei,0000,0000,0000,,Má naprostou pravdu.
+Dialogue: 0,0:05:04.12,0:05:06.35,Internal,Sei,0000,0000,0000,,Chci jíst normální obědy
+Dialogue: 0,0:05:06.35,0:05:09.58,Internal,Sei,0000,0000,0000,,normálně s ostatními.
+Dialogue: 0,0:05:12.15,0:05:15.58,Main,Hi,0000,0000,0000,,Tak takhle to je. \NKvůli mně má Seita...
+Dialogue: 0,0:05:16.53,0:05:19.43,Main,Hi,0000,0000,0000,,A jak vlastně vypadá normální oběd?
+Dialogue: 0,0:05:20.29,0:05:24.10,Main,Hi,0000,0000,0000,,Jak dělají normální mámy normální obědy?
+Dialogue: 0,0:05:24.67,0:05:27.41,Main,Tsu,0000,0000,0000,,N-Normálně, samozřejmě.
+Dialogue: 0,0:05:28.13,0:05:32.09,Main,Hi,0000,0000,0000,,V tom případě, Tsukuyo, uděláš Seitovi oběd na zítřek.
+Dialogue: 0,0:05:33.21,0:05:38.15,Main,Hi,0000,0000,0000,,Ty přeci víš, jak má vypadat normální\Noběd od normální mámy, že?
+Dialogue: 0,0:05:38.15,0:05:41.74,Main,Tsu,0000,0000,0000,,P-Počkej! \NJá a kuchyně, to nejde dohroma—
+Dialogue: 0,0:05:41.74,0:05:43.25,Main,Hi,0000,0000,0000,,Pak máš skvělou příežitost.
+Dialogue: 0,0:05:43.25,0:05:45.94,Main,Hi,0000,0000,0000,,Když nebudeš schopná udělat jeden nebo dva obědy,
+Dialogue: 0,0:05:45.94,0:05:47.63,Main,Hi,0000,0000,0000,,Gin-san tě bude nenávidět.
+Dialogue: 0,0:05:47.63,0:05:49.95,Main,Tsu,0000,0000,0000,,Proč teď vytahuješ toho idiota?!
+Dialogue: 0,0:05:49.95,0:05:52.71,Internal,Sei,0000,0000,0000,,Tsukuyo-nee mi udělá oběd? \NBude to v pořádku?
+Dialogue: 0,0:05:53.12,0:05:55.87,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:05:54.74,0:05:57.48,Main,T,0000,0000,0000,,Tak, to by bylo prozatím vše.
+Dialogue: 0,0:05:57.91,0:06:00.11,Main,B,0000,0000,0000,,Skvělý! Čas na jídlo!
+Dialogue: 0,0:06:00.11,0:06:00.88,Main,,0000,0000,0000,,Jej!
+Dialogue: 0,0:06:09.00,0:06:11.39,Main,I,0000,0000,0000,,Dneska sis nezapomněl oběd?
+Dialogue: 0,0:06:11.60,0:06:14.60,Main,I,0000,0000,0000,,Pojď se najíst s námi, Seito-kun.
+Dialogue: 0,0:06:14.60,0:06:16.98,Main,Sei,0000,0000,0000,,Um, d-dobře.
+Dialogue: 0,0:06:16.98,0:06:18.04,Main,Sei,0000,0000,0000,,Samozřejmě.
+Dialogue: 0,0:06:19.31,0:06:25.22,Main,G,0000,0000,0000,,Víš, Izumi-chan měla obavy, že nás nemáš rád, nebo tak něco.
+Dialogue: 0,0:06:25.94,0:06:29.45,Main,Sei,0000,0000,0000,,J-Jasně, že ne. Já jenom...
+Dialogue: 0,0:06:30.04,0:06:33.58,Main,I,0000,0000,0000,,Jé, máš úžasný oběd!
+Dialogue: 0,0:06:33.58,0:06:35.20,Main,G,0000,0000,0000,,Ozdobený oběd?
+Dialogue: 0,0:06:35.57,0:06:37.44,Main,I,0000,0000,0000,,Nepoužívají tyhle věcičky ninjové?
+Dialogue: 0,0:06:37.44,0:06:39.68,Main,G,0000,0000,0000,,Kunaie, jo. Jsou to rýžové kunaie.
+Dialogue: 0,0:06:39.68,0:06:41.71,Main,I,0000,0000,0000,,Je to tak dobře vytvarované!
+Dialogue: 0,0:06:41.71,0:06:45.01,Main,G,0000,0000,0000,,Podívej, jak je tady obmotaná ta řasa.
+Dialogue: 0,0:06:45.01,0:06:48.72,Internal,Sei,0000,0000,0000,,Výborně! Přesně na takový oběd jsem čekal!
+Dialogue: 0,0:06:50.07,0:06:51.21,Flashback,Tsu,0000,0000,0000,,"Ozdobený oběd"?
+Dialogue: 0,0:06:51.65,0:06:54.10,Flashback,Tsu,0000,0000,0000,,Tak tohle dneska frčí?
+Dialogue: 0,0:06:54.10,0:06:58.02,Flashback,Hi,0000,0000,0000,,Nejspíš je důležité, aby vypadaly hravě, aby si pak děti užívaly jezení.
+Dialogue: 0,0:06:58.02,0:07:00.10,Internal,Sei,0000,0000,0000,,Dokonce vzaly v potaz i trendy!
+Dialogue: 0,0:07:00.10,0:07:03.23,Internal,Sei,0000,0000,0000,,Mamka i Tsukuyo-nee dokážou všechno, co si usmyslí!
+Dialogue: 0,0:07:03.38,0:07:07.19,Note,Sign,0000,0000,0000,,Jeden rýžový kunai v sobě má překvapení. Buď při jezení obezřetný!
+Dialogue: 0,0:07:03.70,0:07:07.19,Internal,Sei,0000,0000,0000,,A co víc, dokonce z toho udělaly hru, \Nkterou si spolu mohou lidé užít!
+Dialogue: 0,0:07:07.53,0:07:10.20,Main,Sei,0000,0000,0000,,K-Klidně si vezměte, jestli chcete.
+Dialogue: 0,0:07:10.20,0:07:11.41,Main,G,0000,0000,0000,,Můžeme?
+Dialogue: 0,0:07:12.18,0:07:14.78,Main,Sei,0000,0000,0000,,Ale v jednom z nich je překvapení.
+Dialogue: 0,0:07:14.78,0:07:16.03,Main,I,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:07:16.03,0:07:19.20,Main,I,0000,0000,0000,,S tvou mámou je asi pěkná sranda.
+Dialogue: 0,0:07:19.61,0:07:21.54,Main,I,0000,0000,0000,,Zajímalo by mě, co je to za překvapení.
+Dialogue: 0,0:07:21.54,0:07:23.18,Main,G,0000,0000,0000,,Nemůžu se dočkat, až to zjistím.
+Dialogue: 0,0:07:23.74,0:07:24.96,Internal,Sei,0000,0000,0000,,Perfektní!
+Dialogue: 0,0:07:25.53,0:07:26.86,Internal,Sei,0000,0000,0000,,Tohle je perfektní!
+Dialogue: 0,0:07:26.86,0:07:30.04,Internal,Sei,0000,0000,0000,,Takovým obědem můžu se všemi prolomit ledy!
+Dialogue: 0,0:07:35.81,0:07:37.77,Main,Sei,0000,0000,0000,,Hm? Vy nebudete jist?
+Dialogue: 0,0:07:37.77,0:07:39.98,Main,I,0000,0000,0000,,Um, Seito-kun...
+Dialogue: 0,0:07:40.84,0:07:43.07,Main,I,0000,0000,0000,,Krvácíš...
+Dialogue: 0,0:07:46.19,0:07:51.63,School,Sign,0000,0000,0000,,{\fad(1,1418)}Chrámová Škola
+Dialogue: 0,0:07:48.07,0:07:50.89,Main,I,0000,0000,0000,,Pane učiteli! Seita-kun je zraněný!
+Dialogue: 0,0:07:52.24,0:07:54.24,Tea,Sign,0000,0000,0000,,Čajovna Hinoya
+Dialogue: 0,0:07:54.85,0:07:57.67,Main,Hi,0000,0000,0000,,Ani dneska nedojedl.
+Dialogue: 0,0:07:58.68,0:08:01.36,Main,Tsu,0000,0000,0000,,Takže ani ozdobený oběd není dost dobrý?
+Dialogue: 0,0:08:01.36,0:08:04.50,Main,Sac,0000,0000,0000,,A co z toho bylo "ozdobený"? \NJestli něco, tak to je oběd smrti.
+Dialogue: 0,0:08:04.82,0:08:07.26,Main,Hi,0000,0000,0000,,Řídily jsme se přesně podle instrukcí a udělaly to hravé...
+Dialogue: 0,0:08:07.26,0:08:11.55,Main,Sac,0000,0000,0000,,A proč by měla příjemná pauza na\Noběd zahrnovat Ruskou ruletu?!
+Dialogue: 0,0:08:11.55,0:08:15.38,Main,Tsu,0000,0000,0000,,Ale já nikdy předtím pro nikoho oběd nedělala!
+Dialogue: 0,0:08:15.38,0:08:16.76,Main,Sac,0000,0000,0000,,Jste beznadějné.
+Dialogue: 0,0:08:17.48,0:08:22.22,Main,Sac,0000,0000,0000,,Nemůžu uvěřit, že nejlepší kurtizány v \NYoshiwaře nejsou shopný připravit oběd pro jedno dítě.
+Dialogue: 0,0:08:22.22,0:08:25.21,Main,Sac,0000,0000,0000,,Takže nakonec jsou přecijen vaše těla vše, co máte.
+Dialogue: 0,0:08:25.21,0:08:29.90,Main,Sac,0000,0000,0000,,Jste skvadra ztroskotaných žen, se kterýma si chtěj chlapi jen zaskotačit, nic víc.
+Dialogue: 0,0:08:30.22,0:08:33.73,Main,Sac,0000,0000,0000,,Vážně si myslíte, že všechny mámy dělaj svým dětem každodenně tak propracovaný obědy?
+Dialogue: 0,0:08:33.73,0:08:35.95,Main,Sac,0000,0000,0000,,To platí jen pro školku.
+Dialogue: 0,0:08:36.51,0:08:42.08,Main,Sac,0000,0000,0000,,Kluci v jeho věku si chtěj urvat bryndáky, \Nco jim jejich rodiče uvázali kolem krku,
+Dialogue: 0,0:08:42.08,0:08:44.87,Main,Sac,0000,0000,0000,,a pokouší se působit dospěle.
+Dialogue: 0,0:08:44.98,0:08:51.38,Like,Sign,0000,0000,0000,,Kdo by tohle sežral?!
+Dialogue: 0,0:08:45.24,0:08:47.79,Main,Sei,0000,0000,0000,,Kdo by tohle sežral?!
+Dialogue: 0,0:08:47.79,0:08:51.38,Main,Sac,0000,0000,0000,,V jeho věku je obědy připravované s láskou dokážou nejvíc ztrapnit.
+Dialogue: 0,0:08:51.71,0:08:55.40,Main,Sac,0000,0000,0000,,Normální matky se s obědem tak nepiplaj.
+Dialogue: 0,0:08:55.40,0:09:01.36,Main,Sac,0000,0000,0000,,Jediný způsob, jak mu v jeho věku můžete ukázat lásku, je dát mu prostor.
+Dialogue: 0,0:09:01.36,0:09:04.89,Internal,Sei,0000,0000,0000,,Sa-san opravdu ví, jak to funguje.
+Dialogue: 0,0:09:05.44,0:09:07.82,Main,Sac,0000,0000,0000,,Dovolte mi to příště zkusit.
+Dialogue: 0,0:09:07.82,0:09:12.01,Main,Sac,0000,0000,0000,,Ukážu vám, jak to dělají normální matky.
+Dialogue: 0,0:09:13.40,0:09:16.41,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:09:14.77,0:09:16.41,Main,I,0000,0000,0000,,Um, Seito-kun.
+Dialogue: 0,0:09:16.62,0:09:19.06,Main,I,0000,0000,0000,,Jak ti je? Už se ti to zahojilo?
+Dialogue: 0,0:09:19.06,0:09:20.68,Main,Sei,0000,0000,0000,,Jo, jsem v pohodě.
+Dialogue: 0,0:09:20.68,0:09:22.00,Main,I,0000,0000,0000,,To ráda slyším.
+Dialogue: 0,0:09:22.00,0:09:24.41,Main,I,0000,0000,0000,,Tak co kdybychom se dnes konečně spolu naobědvali?
+Dialogue: 0,0:09:24.78,0:09:27.26,Main,G,0000,0000,0000,,To asi není dobrý nápad, Izumi-chan.
+Dialogue: 0,0:09:27.26,0:09:29.14,Main,B,0000,0000,0000,,Má pravdu, Izumi.
+Dialogue: 0,0:09:29.14,0:09:31.87,Main,I,0000,0000,0000,,Promiň mi, že jsem předtím křičela.
+Dialogue: 0,0:09:31.87,0:09:33.17,Main,I,0000,0000,0000,,Byla jsem jen trochu v šoku.
+Dialogue: 0,0:09:33.51,0:09:37.67,Main,Sei,0000,0000,0000,,To já bych se měl omluvit. \NMoje máma s tím šprýmem zašla moc daleko.
+Dialogue: 0,0:09:37.67,0:09:41.86,Main,I,0000,0000,0000,,Um, dneska jsem si udělala víc oběda.
+Dialogue: 0,0:09:41.86,0:09:44.18,Main,I,0000,0000,0000,,Můžeš si vzít, jestli chceš.
+Dialogue: 0,0:09:44.66,0:09:47.21,Internal,Sei,0000,0000,0000,,Snaží se o mě starat?
+Dialogue: 0,0:09:47.21,0:09:50.65,Main,I,0000,0000,0000,,Všechno tu mám dvakrát, takže si klidně vezmi půlku.
+Dialogue: 0,0:09:50.65,0:09:54.66,Internal,Sei,0000,0000,0000,,Určitě jí došlo, že mi máma nedokáže udělat pořádný oběd.
+Dialogue: 0,0:09:54.66,0:09:56.24,Internal,Sei,0000,0000,0000,,Je tak hodná!
+Dialogue: 0,0:09:56.91,0:09:59.99,Internal,Sei,0000,0000,0000,,Ale úplně se tím povýšila nad mámu.
+Dialogue: 0,0:10:00.28,0:10:01.67,Internal,Sei,0000,0000,0000,,To nemůžu nechat jen tak.
+Dialogue: 0,0:10:02.32,0:10:05.91,Main,Sei,0000,0000,0000,,T-Tak ty si vezmi půlku toho mého!
+Dialogue: 0,0:10:06.12,0:10:07.44,Main,I,0000,0000,0000,,A-Ale...
+Dialogue: 0,0:10:07.44,0:10:08.62,Main,Sei,0000,0000,0000,,Je to v pořádku.
+Dialogue: 0,0:10:08.62,0:10:10.60,Main,Sei,0000,0000,0000,,Dneska mám normální oběd!
+Dialogue: 0,0:10:10.60,0:10:13.13,Main,Sei,0000,0000,0000,,Moje máma je úplně normální!
+Dialogue: 0,0:10:13.13,0:10:14.38,Main,Sei,0000,0000,0000,,Tak si vezmi půlku!
+Dialogue: 0,0:10:15.61,0:10:16.74,Main,I,0000,0000,0000,,Ale...
+Dialogue: 0,0:10:16.28,0:10:30.98,Note2,Sign,0000,0000,0000,,V ledničce jsou lasagne ze včerejška, ohřej si je a sněz je.\N{\fs18}P.S. Maminka s tatínkem se rozvedli, \Ns kým bys chtěl zůstat, Seito?
+Dialogue: 0,0:10:16.74,0:10:19.35,Main,I,0000,0000,0000,,Nemáš ani tu polovinu.
+Dialogue: 0,0:10:20.16,0:10:24.85,Main,Sac,0000,0000,0000,,V ledničce jsou lasagne ze včerejška, ohřej si je a sněz je.
+Dialogue: 0,0:10:25.72,0:10:30.98,Main,Sac,0000,0000,0000,,P.S. Maminka s tatínkem se rozvedli, \Ns kým bys chtěl zůstat, Seito?
+Dialogue: 0,0:10:33.44,0:10:37.96,Tea,Sign,0000,0000,0000,,Čajovna Hinoya
+Dialogue: 0,0:10:34.28,0:10:37.96,Main,Kyu,0000,0000,0000,,Jistě, matky určitě dělají podobné věci,
+Dialogue: 0,0:10:38.41,0:10:40.17,Main,Kyu,0000,0000,0000,,ale tohle je až moc odfláknuté.
+Dialogue: 0,0:10:40.17,0:10:42.63,Main,Sac,0000,0000,0000,,Takové už matky jsou.
+Dialogue: 0,0:10:42.63,0:10:46.45,Main,Sac,0000,0000,0000,,Myslí si, že svou chladnou lásku můžou zahřát v mikrovlnce.
+Dialogue: 0,0:10:46.45,0:10:54.92,Note2,Sign,0000,0000,0000,,P.S. Maminka s tatínkem se rozvedli, \Ns kým bys chtěl zůstat, Seito?
+Dialogue: 0,0:10:47.17,0:10:50.78,Main,Kyu,0000,0000,0000,,A ten dovětek nemá s obědem co dočinění.
+Dialogue: 0,0:10:50.78,0:10:52.98,Main,Sac,0000,0000,0000,,Ano, je to poněkud těžký dezert.
+Dialogue: 0,0:10:52.98,0:10:54.92,Main,Kyu,0000,0000,0000,,Kdyby to snědl, nikdy to nestráví!
+Dialogue: 0,0:10:54.92,0:10:57.15,Main,Sac,0000,0000,0000,,Tak co jsem podle tebe měla udělat?
+Dialogue: 0,0:10:57.15,0:11:01.37,Main,Sac,0000,0000,0000,,Nejsi jen smutná stvůra s mužskou duší v ženském těle?
+Dialogue: 0,0:11:01.37,0:11:02.90,Main,Sac,0000,0000,0000,,Uvědom se!
+Dialogue: 0,0:11:02.90,0:11:04.81,Main,Kyu,0000,0000,0000,,Nejsem stvůra.
+Dialogue: 0,0:11:05.50,0:11:08.38,Main,Kyu,0000,0000,0000,,Jako někdo, kdo byl vychován jako muž,
+Dialogue: 0,0:11:08.38,0:11:10.90,Main,Kyu,0000,0000,0000,,si myslím, že je vaše znepokojení zbytečné.
+Dialogue: 0,0:11:11.88,0:11:16.05,Main,Kyu,0000,0000,0000,,V jeho věku jsem už byla plnohodnotný bojovník
+Dialogue: 0,0:11:16.05,0:11:19.07,Main,Kyu,0000,0000,0000,,a jídlo jsem si obstarávala sama.
+Dialogue: 0,0:11:19.51,0:11:23.07,Waste,Sign,0000,0000,0000,,{\fad(85,1)}Nekupuj si nic zbytečného, ano?
+Dialogue: 0,0:11:19.51,0:11:23.07,Whoa,Sign,0000,0000,0000,,{\fad(85,1)}Super!
+Dialogue: 0,0:11:19.86,0:11:22.22,Main,Kyu,0000,0000,0000,,Možná, že je to dítě, ale hlavně to je muž.
+Dialogue: 0,0:11:22.22,0:11:25.66,Main,Kyu,0000,0000,0000,,Když mu dáte nějaké kapesné, \Njsem si jistá, že se s tím nějak popasuje.
+Dialogue: 0,0:11:23.07,0:11:26.43,Thank,Sign,0000,0000,0000,,{\fad(1,328)}Děkujeme!
+Dialogue: 0,0:11:23.07,0:11:26.43,Waste,Sign,0000,0000,0000,,{\fad(1,328)}Hurá!
+Dialogue: 0,0:11:27.63,0:11:32.07,Main,Hi,0000,0000,0000,,Ale jídlo z obchodu mu nemůže zaručit vyváženou stravu.
+Dialogue: 0,0:11:32.07,0:11:33.83,Main,Kyu,0000,0000,0000,,O obchodu jsem nic neříkala.
+Dialogue: 0,0:11:34.39,0:11:38.28,Main,Kyu,0000,0000,0000,,Jestli bude jíst takové věci, jeho tělo zeslábne.
+Dialogue: 0,0:11:38.28,0:11:40.84,Main,Kyu,0000,0000,0000,,Nejlepší jídlo pro muže by mělo být...
+Dialogue: 0,0:11:40.84,0:11:43.34,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:11:42.44,0:11:43.34,Main,I,0000,0000,0000,,Seito-kun!
+Dialogue: 0,0:11:44.05,0:11:46.05,Main,I,0000,0000,0000,,Hm? Kde je Seita-kun?
+Dialogue: 0,0:11:46.05,0:11:49.13,Main,B,0000,0000,0000,,Zase s ním chceš jíst? Musíš mít výdrž.
+Dialogue: 0,0:11:49.73,0:11:51.32,Main,B,0000,0000,0000,,Tvůj kluk je venku.
+Dialogue: 0,0:11:53.03,0:11:54.80,Main,I,0000,0000,0000,,Oh, Seito-kun...
+Dialogue: 0,0:12:03.63,0:12:06.85,Main,Kyu,0000,0000,0000,,Aligátor Barara.\NPotřebný level: 8.
+Dialogue: 0,0:12:03.63,0:12:07.37,Box L,Sign,0000,0000,0000,,Aligátor Barara \NPotřebný level: 8
+Dialogue: 0,0:12:09.18,0:12:14.21,Box R,Sign,0000,0000,0000,,Pozn.: Level 1 vyžaduje 10 ozbrojených samurajů s opravdovými meči.
+Dialogue: 0,0:12:09.40,0:12:14.21,Main,Kyu,0000,0000,0000,,Pozn.: Level 1 vyžaduje 10 ozbrojených samurajů s opravdovými meči.
+Dialogue: 0,0:12:15.99,0:12:21.67,Main,Kyu,0000,0000,0000,,P.S. Mamka s taťkou si to už mezi sebou vyřídili, takže si nedělej starosti.
+Dialogue: 0,0:12:16.98,0:12:21.67,Box PS,Sign,0000,0000,0000,,{\fad(465,1)}P.S. Mamka s taťkou si to už mezi sebou vyřídili, takže si nedělej starosti.
+Dialogue: 0,0:12:35.94,0:12:39.44,Tea,Sign,0000,0000,0000,,Čajovna Hinoya
+Dialogue: 0,0:12:37.01,0:12:40.10,Main,Tae,0000,0000,0000,,Jistě, je pravda že to zní víc mužně,
+Dialogue: 0,0:12:40.10,0:12:43.95,Main,Tae,0000,0000,0000,,ale myslím, že level 8 je až příliš.
+Dialogue: 0,0:12:45.32,0:12:47.61,Main,Tae,0000,0000,0000,,Komatsu level 1 by byl asi lepší.
+Dialogue: 0,0:12:46.47,0:12:51.45,Box L,Sign,0000,0000,0000,,Komatsu level 1
+Dialogue: 0,0:12:47.61,0:12:49.26,Main,Tsu,0000,0000,0000,,V tom není ten problém!
+Dialogue: 0,0:12:49.26,0:12:51.45,Main,Tsu,0000,0000,0000,,A co je k čertu Komatsu level?!
+Dialogue: 0,0:12:51.45,0:12:54.46,Note,Sign,0000,0000,0000,,P.S. Mamka s taťkou si to mezi sebou už vyřídili, takže si nedělej starosti.
+Dialogue: 0,0:12:51.85,0:12:53.14,Main,Kyu,0000,0000,0000,,Vážně?
+Dialogue: 0,0:12:53.14,0:12:55.07,Main,Kyu,0000,0000,0000,,Vyřešila jsem ten problém s rodinnou situací,
+Dialogue: 0,0:12:55.07,0:12:57.15,Main,Kyu,0000,0000,0000,,protože jsem si myslela, že je toho na něj až příliš...
+Dialogue: 0,0:12:57.15,0:12:59.42,Main,Tsu,0000,0000,0000,,Jenomže ta rodinná situace byla vymyšlená.
+Dialogue: 0,0:13:01.35,0:13:06.42,Main,Tae,0000,0000,0000,,Říká se, že lvi shazují svá mláďata z útesu,\Naby se pak stala silnější,
+Dialogue: 0,0:13:05.82,0:13:12.72,Red Missing,,0000,0000,0000,,{\fad(632,1)}Aaaaaah
+Dialogue: 0,0:13:06.97,0:13:12.72,Main,Tae,0000,0000,0000,,ale nespadl už Seita kvůli těmhle\Nubohým obědům do nekonečné propasti?
+Dialogue: 0,0:13:13.09,0:13:15.70,Main,Tae,0000,0000,0000,,Pro dítě, které spadlo z útesu,
+Dialogue: 0,0:13:15.70,0:13:17.84,Main,Tae,0000,0000,0000,,je boj s Aligátorem Barara až moc krutý.
+Dialogue: 0,0:13:16.73,0:13:20.11,Blue Missing,,0000,0000,0000,,Aaaaah
+Dialogue: 0,0:13:20.79,0:13:25.61,Main,Tae,0000,0000,0000,,Musíte mu jen uvařit pořádný oběd.
+Dialogue: 0,0:13:25.61,0:13:28.05,Main,Tae,0000,0000,0000,,To by měly mámy dělat.
+Dialogue: 0,0:13:29.12,0:13:30.62,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:13:31.93,0:13:33.12,Main,I,0000,0000,0000,,Seito-kun?
+Dialogue: 0,0:13:33.12,0:13:43.46,Note3,Sign,0000,0000,0000,,Táta je v lednici, takže ji za žádnou cenu neotvírej.\NP.S. My dva můžeme i potom vést šťastný život.
+Dialogue: 0,0:13:35.55,0:13:39.65,Main,Sign,0000,0000,0000,,Táta je v lednici, takže ji za žádnou cenu neotvírej.
+Dialogue: 0,0:13:39.65,0:13:43.13,Main,Sign,0000,0000,0000,,P.S. My dva můžeme i potom vést šťastný život.
+Dialogue: 0,0:13:43.46,0:13:45.72,Tea,Sign,0000,0000,0000,,Čajovna Hinoya
+Dialogue: 0,0:13:44.11,0:13:45.72,Main,Tsu,0000,0000,0000,,Počkej, takže tys vybájila tohle?
+Dialogue: 0,0:13:45.72,0:13:48.32,Main,Tsu,0000,0000,0000,,Tohle jsi měla na mysli tím "vyřešili si to mezi sebou"?!
+Dialogue: 0,0:13:48.32,0:13:49.61,Main,Tae,0000,0000,0000,,Je na tom něco špatného?
+Dialogue: 0,0:13:49.61,0:13:51.54,Main,Tsu,0000,0000,0000,,Všechno je na tom špatně!
+Dialogue: 0,0:13:51.54,0:13:53.35,Main,Tsu,0000,0000,0000,,A co se stalo s obědem?!
+Dialogue: 0,0:13:53.75,0:13:55.92,Main,Tae,0000,0000,0000,,My jsme mluvily o obědě?
+Dialogue: 0,0:13:55.92,0:13:58.44,Main,Tae,0000,0000,0000,,V tom případě si ho nakrmte třeba svým nahým tělem.
+Dialogue: 0,0:13:58.44,0:14:01.86,Main,Sac,0000,0000,0000,,Jo. Vaše těla jsou konec konců jediná dobrá věc, kterou máte.
+Dialogue: 0,0:14:01.86,0:14:04.61,Main,Kyu,0000,0000,0000,,Je mi líto, ale už nemůžu plýtvat časem na nějaké obědy.
+Dialogue: 0,0:14:04.61,0:14:07.49,Main,Tsu,0000,0000,0000,,Můžete držet huby? My jsme se vás o pomoc neprosily!
+Dialogue: 0,0:14:07.49,0:14:09.30,Main,Tsu,0000,0000,0000,,Jste tak omezený!
+Dialogue: 0,0:14:17.43,0:14:20.44,Main,Kag,0000,0000,0000,,Bylo by rychlejší, kdyby sis jídlo obstarával sám.
+Dialogue: 0,0:14:21.50,0:14:24.00,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:14:22.98,0:14:24.00,Main,Sei,0000,0000,0000,,Izumi-chan!
+Dialogue: 0,0:14:24.50,0:14:26.26,Main,Sei,0000,0000,0000,,Dneska to bude v pořádku!
+Dialogue: 0,0:14:26.26,0:14:29.31,Main,Sei,0000,0000,0000,,Udělal jsem si sandwiche!
+Dialogue: 0,0:14:33.53,0:14:35.29,Main,B,0000,0000,0000,,Promiň! Jsi v pohodě?
+Dialogue: 0,0:14:35.29,0:14:36.60,Main,,0000,0000,0000,,Au...
+Dialogue: 0,0:14:36.60,0:14:48.40,Note3,Sign,0000,0000,0000,,Tvoje sandwiche jsou v mým břichu, prosím, neměj mi to za zlé. \NP.S. Myslím, že ty sandwiche s vajíčkem by potřebovaly víc majonézy. \N-Kagura
+Dialogue: 0,0:14:38.84,0:14:43.16,Main,Kag,0000,0000,0000,,Tvoje sandwiche jsou v mým břichu,\Nprosím, neměj mi to za zlé.
+Dialogue: 0,0:14:43.16,0:14:47.88,Main,Kag,0000,0000,0000,,P.S. Myslím, že ty sandwiche s vajíčkem by potřebovaly víc majonézy.
+Dialogue: 0,0:14:47.88,0:14:48.40,Main,Kag,0000,0000,0000,,Kagura.
+Dialogue: 0,0:14:50.11,0:14:52.49,Main,B,0000,0000,0000,,Izumi tu není, Seito.
+Dialogue: 0,0:14:52.49,0:14:54.16,Main,B,0000,0000,0000,,Dneska zůstala doma.
+Dialogue: 0,0:14:54.97,0:14:59.92,Main,B,0000,0000,0000,,Možná se jí to tu začalo hnusit, protože se na ní pořád lepíš.
+Dialogue: 0,0:15:00.49,0:15:04.39,Main,B,0000,0000,0000,,Přestaň zneužívat její laskavost.
+Dialogue: 0,0:15:04.39,0:15:05.89,Main,B,0000,0000,0000,,Kunai? Aligátor?
+Dialogue: 0,0:15:05.89,0:15:08.66,Main,B,0000,0000,0000,,Nevím, jestli na sebe jen chceš upoutat pozornost,
+Dialogue: 0,0:15:08.66,0:15:11.51,Main,B,0000,0000,0000,,ale jestli jí zkřivíš vlásek, zaplatíš ta to!
+Dialogue: 0,0:15:11.81,0:15:16.26,Main,B,0000,0000,0000,,Seito, nejlépe uděláš, když budeš svoje obědy jíst sám.
+Dialogue: 0,0:15:21.11,0:15:22.40,Main,Sei,0000,0000,0000,,Jsem doma.
+Dialogue: 0,0:15:23.24,0:15:24.87,Main,Hi,0000,0000,0000,,Oh, vítej zpátky.
+Dialogue: 0,0:15:24.87,0:15:29.28,Main,Hi,0000,0000,0000,,Seito, dnes sis nevzal oběd, který jsem pro tebe připravila?
+Dialogue: 0,0:15:29.56,0:15:30.65,Main,Hi,0000,0000,0000,,Sněz si ho.
+Dialogue: 0,0:15:33.40,0:15:34.97,Main,Hi,0000,0000,0000,,Musíš být celý vyhladovělý.
+Dialogue: 0,0:15:34.97,0:15:38.29,Main,Hi,0000,0000,0000,,Víš, dospívající kluk by měl pravidelně jíst.
+Dialogue: 0,0:15:38.62,0:15:39.82,Main,Hi,0000,0000,0000,,Ale jen si počkej.
+Dialogue: 0,0:15:39.82,0:15:41.15,Main,Hi,0000,0000,0000,,Na zítřek ti udělám oběd,
+Dialogue: 0,0:15:41.15,0:15:44.79,Main,Hi,0000,0000,0000,,který budeš určitě chtít všem ukázat.
+Dialogue: 0,0:15:52.53,0:15:53.55,Main,Sei,0000,0000,0000,,Nechci to.
+Dialogue: 0,0:15:55.00,0:15:57.22,Main,Sei,0000,0000,0000,,Je trapné jíst obědy,
+Dialogue: 0,0:15:58.62,0:16:00.42,Main,Sei,0000,0000,0000,,které mi děláš.
+Dialogue: 0,0:16:02.14,0:16:06.69,Main,Sei,0000,0000,0000,,Spoustu let jsi byla kurtizána, takže\Nneumíš uvařit pořádný oběd.
+Dialogue: 0,0:16:08.01,0:16:10.69,Main,Sei,0000,0000,0000,,Nejsi normální máma...
+Dialogue: 0,0:16:11.54,0:16:16.70,Main,Sei,0000,0000,0000,,Nejsi ani moje máma, takže mi nemůžeš udělat oběd od maminky, nemám pravdu?!
+Dialogue: 0,0:16:27.89,0:16:29.42,Internal,Sei,0000,0000,0000,,Řekl jsem
+Dialogue: 0,0:16:31.17,0:16:32.92,Internal,Sei,0000,0000,0000,,něco příšerného...
+Dialogue: 0,0:16:38.26,0:16:40.14,Internal,Sei,0000,0000,0000,,Tu věc, kterou jsem nikdy neměl říkat.
+Dialogue: 0,0:16:47.01,0:16:48.43,Internal,Sei,0000,0000,0000,,Nemůžu se vrátit.
+Dialogue: 0,0:16:50.47,0:16:53.48,Internal,Sei,0000,0000,0000,,Už se nemůžu vrátit domů.
+Dialogue: 0,0:17:05.08,0:17:05.83,Main,I,0000,0000,0000,,Hm?
+Dialogue: 0,0:17:06.79,0:17:10.42,Main,I,0000,0000,0000,,Seito-kun? Co děláš tak pozdě venku?
+Dialogue: 0,0:17:10.68,0:17:12.23,Main,Sei,0000,0000,0000,,Izumi-chan?
+Dialogue: 0,0:17:12.68,0:17:15.33,Main,Sei,0000,0000,0000,,A co ty? Dneska jsi nebyla ve škole.
+Dialogue: 0,0:17:15.33,0:17:18.93,Main,I,0000,0000,0000,,Jo, taťka měl chřipku, takže jsem\Nse o něj musela postarat.
+Dialogue: 0,0:17:19.86,0:17:21.09,Main,Sei,0000,0000,0000,,Tak proto...
+Dialogue: 0,0:17:22.81,0:17:24.46,Main,Sei,0000,0000,0000,,Musí to být těžké.
+Dialogue: 0,0:17:24.46,0:17:25.54,Main,I,0000,0000,0000,,Ty tašky?
+Dialogue: 0,0:17:25.54,0:17:28.09,Main,I,0000,0000,0000,,Nemám mámu,
+Dialogue: 0,0:17:28.09,0:17:30.94,Main,I,0000,0000,0000,,takže musím vařit pro rodinu.
+Dialogue: 0,0:17:33.36,0:17:34.60,Main,I,0000,0000,0000,,Co ty, Seito-kun?
+Dialogue: 0,0:17:35.25,0:17:36.32,Main,Sei,0000,0000,0000,,Izumi-chan...
+Dialogue: 0,0:17:39.26,0:17:40.95,Main,I,0000,0000,0000,,Ach tak.
+Dialogue: 0,0:17:41.56,0:17:44.26,Main,I,0000,0000,0000,,Takže proto jsi vždycky obědval osamotě.
+Dialogue: 0,0:17:45.72,0:17:48.22,Main,I,0000,0000,0000,,Ale abych pravdu řekla, docela ti závidím.
+Dialogue: 0,0:17:48.67,0:17:51.29,Main,I,0000,0000,0000,,Máš štěstí, že můžeš takhle zápasit se svou mámou.
+Dialogue: 0,0:17:52.26,0:17:56.80,Main,I,0000,0000,0000,,Jsem si jistá, že se všechny děti hádají\Nse svou mámou o podobné věci,
+Dialogue: 0,0:17:56.80,0:17:58.91,Main,I,0000,0000,0000,,aniž by si uvědomily, jaký mají dar.
+Dialogue: 0,0:18:00.45,0:18:04.06,Main,I,0000,0000,0000,,To si totiž uvědomí až tehdy, kdy to všechno zmizí.
+Dialogue: 0,0:18:06.26,0:18:08.83,Main,I,0000,0000,0000,,A potom litují toho,
+Dialogue: 0,0:18:08.83,0:18:13.33,Main,I,0000,0000,0000,,že už nikdy nebudou mít k obědu tolik jídla, \Nže by jim to zdeformovalo krabičku na oběd.
+Dialogue: 0,0:18:15.25,0:18:19.56,Main,I,0000,0000,0000,,Taky jsi jednou ztratil svou mámu, stejně jako já.
+Dialogue: 0,0:18:20.65,0:18:23.31,Main,I,0000,0000,0000,,Tak jakto, že jsi na to ještě nepřišel?
+Dialogue: 0,0:18:25.06,0:18:25.85,Main,I,0000,0000,0000,,Kdepak...
+Dialogue: 0,0:18:26.63,0:18:28.16,Main,I,0000,0000,0000,,Ty o tom víš, že jo?
+Dialogue: 0,0:18:28.68,0:18:33.20,Main,I,0000,0000,0000,,Na odpolední vyučování se vždycky\Nvracíš s tak plným žaludkem,
+Dialogue: 0,0:18:33.20,0:18:35.71,Main,I,0000,0000,0000,,že sotva dýcháš.
+Dialogue: 0,0:18:37.45,0:18:41.35,Main,I,0000,0000,0000,,I když to nemůžeš celé sníst sám\Na schováváš to před ostatními,
+Dialogue: 0,0:18:41.35,0:18:43.61,Main,I,0000,0000,0000,,vždycky toho spořádáš tolik, kolik jen zvládneš.
+Dialogue: 0,0:18:44.81,0:18:47.97,Main,I,0000,0000,0000,,To protože o tom víš, viď?
+Dialogue: 0,0:18:49.72,0:18:52.07,Main,I,0000,0000,0000,,Že i když je v tom tvoje máma opravdu špatná,
+Dialogue: 0,0:18:52.07,0:18:57.03,Main,I,0000,0000,0000,,snaží se ze sebe vydat to nejlepší, aby pro tebe udělala oběd.
+Dialogue: 0,0:18:58.99,0:19:04.33,Main,I,0000,0000,0000,,Tyhle znetvořené obědy od maminky jsou ty nejlepší.
+Dialogue: 0,0:19:08.93,0:19:10.08,Main,Sei,0000,0000,0000,,Izumi-chan.
+Dialogue: 0,0:19:11.07,0:19:13.17,Main,I,0000,0000,0000,,Určitě bys teď měl být jinde, nemám pravdu?
+Dialogue: 0,0:19:13.17,0:19:14.74,Main,I,0000,0000,0000,,Budu v pořádku.
+Dialogue: 0,0:19:14.74,0:19:16.84,Main,I,0000,0000,0000,,Brácha mě vyzvedne.
+Dialogue: 0,0:19:17.21,0:19:17.97,Main,Sei,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:19:22.26,0:19:23.34,Main,I,0000,0000,0000,,Seito-kun,
+Dialogue: 0,0:19:24.02,0:19:26.20,Main,I,0000,0000,0000,,uvidíme se zítra ve škole.
+Dialogue: 0,0:19:28.95,0:19:30.16,Main,B,0000,0000,0000,,Bože.
+Dialogue: 0,0:19:30.16,0:19:32.35,Main,B,0000,0000,0000,,To je mi ale případ.
+Dialogue: 0,0:19:33.09,0:19:34.25,Main,I,0000,0000,0000,,Brácho!
+Dialogue: 0,0:19:34.68,0:19:36.42,Main,B,0000,0000,0000,,Jdeme domů, Izumi.
+Dialogue: 0,0:19:37.46,0:19:39.86,Main,I,0000,0000,0000,,Slyšel jsi to?
+Dialogue: 0,0:19:41.11,0:19:42.26,Main,B,0000,0000,0000,,Nic jsem neslyšel.
+Dialogue: 0,0:19:46.26,0:19:47.07,Main,B,0000,0000,0000,,Pojďme.
+Dialogue: 0,0:19:52.51,0:19:53.77,Main,B,0000,0000,0000,,Co bude zítra k obědu?
+Dialogue: 0,0:19:53.77,0:19:56.38,Main,I,0000,0000,0000,,Kdo ví? Počkej si a uvidíš.
+Dialogue: 0,0:19:56.38,0:19:57.54,Main,B,0000,0000,0000,,Co to sakra?
+Dialogue: 0,0:19:59.51,0:20:03.01,School,Sign,0000,0000,0000,,Chrámová Škola
+Dialogue: 0,0:20:00.65,0:20:03.01,Main,T,0000,0000,0000,,Fajn. Proteď je to ode mě všechno.
+Dialogue: 0,0:20:03.24,0:20:04.72,Main,B,0000,0000,0000,,Konečně!
+Dialogue: 0,0:20:04.72,0:20:07.64,Main,B,0000,0000,0000,,Dneska to byla zase taková nuda.
+Dialogue: 0,0:20:08.12,0:20:10.23,Main,B,0000,0000,0000,,Hej, dívejte na Seitu.
+Dialogue: 0,0:20:10.23,0:20:11.47,Main,B,0000,0000,0000,,Odchází.
+Dialogue: 0,0:20:12.03,0:20:13.19,Main,B,0000,0000,0000,,A divíš se mu?
+Dialogue: 0,0:20:13.19,0:20:16.65,Main,B,0000,0000,0000,,Jak by se k ní mohl přiblížit, když\Nmu dal její brácha takovou sodu?
+Dialogue: 0,0:20:16.87,0:20:20.12,Main,B,0000,0000,0000,,A to není všechno. Už tu dokonce nemá ani místo...
+Dialogue: 0,0:20:25.62,0:20:26.58,Main,B,0000,0000,0000,,Co to...
+Dialogue: 0,0:20:26.58,0:20:27.58,Main,G,0000,0000,0000,,Co to je?!
+Dialogue: 0,0:20:27.58,0:20:28.41,Main,I,0000,0000,0000,,Seito-kun!
+Dialogue: 0,0:20:30.96,0:20:33.41,Main,Sei,0000,0000,0000,,Díky za jídlo, mami!
+Dialogue: 0,0:20:36.92,0:20:39.03,Main,B,0000,0000,0000,,Má tam horu z krabiček na obědy?
+Dialogue: 0,0:20:39.03,0:20:40.92,Main,B,0000,0000,0000,,Zešílel?!
+Dialogue: 0,0:20:40.92,0:20:43.53,Main,I,0000,0000,0000,,Notak, rychle.
+Dialogue: 0,0:20:43.53,0:20:45.47,Main,B,0000,0000,0000,,P-Počkej, Izumi!
+Dialogue: 0,0:20:46.83,0:20:48.23,Main,I,0000,0000,0000,,Seito-kun!
+Dialogue: 0,0:20:48.57,0:20:50.86,Main,I,0000,0000,0000,,Konečně se spolu už naobědváme.
+Dialogue: 0,0:20:50.86,0:20:52.15,Main,Sei,0000,0000,0000,,Jasná věc.
+Dialogue: 0,0:20:53.74,0:20:55.18,Main,I,0000,0000,0000,,Ale omlouvám se.
+Dialogue: 0,0:20:55.18,0:20:58.15,Main,I,0000,0000,0000,,Zrovna na dnešek jsem zapomněla udělat oběd.
+Dialogue: 0,0:20:58.15,0:20:59.32,Main,I,0000,0000,0000,,Žejo, brácho?
+Dialogue: 0,0:20:59.32,0:20:59.69,Main,B,0000,0000,0000,,Cože?
+Dialogue: 0,0:20:59.92,0:21:03.16,Main,B,0000,0000,0000,,Izumi, neříkej mi, žes tím "počkej si a uvidíš" myslela tohle!
+Dialogue: 0,0:21:03.16,0:21:06.45,Main,B,0000,0000,0000,,To si ze mě děláš srandu! \NNikdy nebudu jíst jeho ob—
+Dialogue: 0,0:21:08.48,0:21:10.52,Main,Sei,0000,0000,0000,,Není to můj oběd.
+Dialogue: 0,0:21:12.03,0:21:14.38,Main,Sei,0000,0000,0000,,Je to oběd mojí mamky.
+Dialogue: 0,0:21:14.38,0:21:15.58,Main,Sei,0000,0000,0000,,No není delikátní?
+Dialogue: 0,0:21:21.66,0:21:22.21,Main,B,0000,0000,0000,,Jo.
+Dialogue: 0,0:21:26.10,0:21:29.01,Main,G,0000,0000,0000,,Seito-kun, můžu taky ochutnat?
+Dialogue: 0,0:21:30.05,0:21:31.64,Main,G,0000,0000,0000,,Co? To je to tak dobré?
+Dialogue: 0,0:21:32.40,0:21:33.39,Main,B,0000,0000,0000,,Já chci taky!
+Dialogue: 0,0:21:33.66,0:21:34.83,Main,B,0000,0000,0000,,Dejte mi taky kousek!
+Dialogue: 0,0:21:34.83,0:21:36.16,Main,G,0000,0000,0000,,Mně taky!
+Dialogue: 0,0:21:36.16,0:21:37.45,Main,B,0000,0000,0000,,Vypadá to úžasně!
+Dialogue: 0,0:21:37.45,0:21:38.40,Main,B,0000,0000,0000,,Je to tak roztomilé!
+Dialogue: 0,0:21:39.39,0:21:41.90,Main,B,0000,0000,0000,,Hele, co je tahle černá věc?
+Dialogue: 0,0:21:41.90,0:21:43.80,Main,G,0000,0000,0000,,Kde? Tu chci taky!
+Dialogue: 0,0:21:43.80,0:21:44.90,Main,B,0000,0000,0000,,Já taky!
+Dialogue: 0,0:23:24.96,0:23:31.88,Preview Black,Sign,0000,0000,0000,,{\fad(444,1)}Před Gintokim se objeví...
+Dialogue: 0,0:23:27.00,0:23:31.88,Preview Red,Sign,0000,0000,0000,,Smrtka.
+Dialogue: 0,0:23:28.38,0:23:30.17,Main,Asa,0000,0000,0000,,Zabij mě!
+Dialogue: 0,0:23:29.46,0:23:31.88,Main,Gin,0000,0000,0000,,Chcípnu! To {\i1}já{\i0} chcípnu!
+Dialogue: 0,0:23:31.88,0:23:35.72,Preview Black,Sign,0000,0000,0000,,Po Edu volně pobíhá
+Dialogue: 0,0:23:32.15,0:23:35.72,Main,Shop,0000,0000,0000,,Řezná rána krkem, na kterém hlava\Nsedí jen díky troše masa.
+Dialogue: 0,0:23:33.89,0:23:35.72,Preview Red,Sign,0000,0000,0000,,sériový vrah.
+Dialogue: 0,0:23:35.72,0:23:37.18,Preview Red,Sign,0000,0000,0000,,Kdo je viníkem?
+Dialogue: 0,0:23:37.18,0:23:40.31,Preview Black,Sign,0000,0000,0000,,Zběhlý
+Dialogue: 0,0:23:37.18,0:23:40.31,Preview Black2,Sign,0000,0000,0000,,zrádce.
+Dialogue: 0,0:23:38.68,0:23:40.31,Ikeda,Sign,0000,0000,0000,,Ikeda Asaemon
+Dialogue: 0,0:23:40.31,0:23:40.79,Red,Sign,0000,0000,0000,,Pověšená Hlava
+Dialogue: 0,0:23:40.79,0:23:41.31,Red,Sign,0000,0000,0000,,Duševní Očista
+Dialogue: 0,0:23:41.31,0:23:43.86,Preview Black3,Sign,0000,0000,0000,,Osmnáctý
+Dialogue: 0,0:23:41.31,0:23:43.86,Preview Black2,Sign,0000,0000,0000,,Královský popravčí
+Dialogue: 0,0:23:42.15,0:23:43.86,Ikeda Purple,Sign,0000,0000,0000,,Ikeda Yaemon
+Dialogue: 0,0:23:43.86,0:23:46.86,Preview Black,Sign,0000,0000,0000,,Tyto události
+Dialogue: 0,0:23:43.86,0:23:46.86,Preview Black4,Sign,0000,0000,0000,,postupně navážou
+Dialogue: 0,0:23:44.94,0:23:46.86,Preview Red2,Sign,0000,0000,0000,,na Gintokiho minulost.
+Dialogue: 0,0:23:46.86,0:23:47.78,Red,Sign,0000,0000,0000,,Příští týden
+Dialogue: 0,0:23:47.09,0:23:47.78,White,Sign,0000,0000,0000,,se těšte na nový ark!
+Dialogue: 0,0:23:47.78,0:23:49.94,Ep Title,Title,0000,0000,0000,,{\fad(313.1)}Bohem Smrti Dnem i Nocí
+Dialogue: 0,0:23:49.94,0:23:54.91,Side Bar Top,text r,0000,0000,0000,,Po setkání
+Dialogue: 0,0:23:49.94,0:23:54.91,Side Bar Bottom,text l,0000,0000,0000,,Gintokiho a Smrtky
+Dialogue: 0,0:23:54.91,0:24:00.75,Side Bar Top,text r,0000,0000,0000,,nabere příběh
+Dialogue: 0,0:23:54.91,0:24:00.75,Side Bar Bottom,text l,0000,0000,0000,,ty pravé obrátky.

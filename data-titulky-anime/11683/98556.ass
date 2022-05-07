@@ -1,0 +1,421 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Amanchu_Ep_Title,Open Sans Semibold,30,&H00FEFEF6,&H000000FF,&H00DFB784,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,1
+Style: Amanchu_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Amanchu_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Amanchu_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Amanchu_Main_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Amanchu_Middle,Open Sans Semibold,30,&H000864DA,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,127,120,1
+Style: Amanchu_Next_Ep_Title,Open Sans Semibold,30,&H00FFFCFD,&H000000FF,&H00A8734D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,80,1
+Style: Amanchu_Title_Card,Open Sans Semibold,30,&H002332DC,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,1
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Amanchu_Next_Ep_Title(Ep06),Open Sans Semibold,30,&H00FFFCFD,&H000000FF,&H00A8734D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,133,1
+Style: Amanchu_Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Today's_dive_06:00(Ep 10),Open Sans Semibold,24,&H005A5C5C,&H000000FF,&H00FCFDFF,&H00000000,1,0,0,0,100,100,0,-6,1,3,0,2,13,333,227,1
+Style: This_is_why_09:07(Ep 10),Open Sans Semibold,33,&H0026F1F9,&H000000FF,&H00216BE2,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,240,13,200,1
+Style: Bounce_09:54(Ep 10),Open Sans Semibold,33,&H00F14279,&H000000FF,&H00C5FAC2,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,93,13,31,1
+Style: Amanchu-ya_Diving(Ep 10),Open Sans Semibold,24,&H004A494D,&H000000FF,&H00FCFBF9,&H00000000,1,0,0,0,100,100,0,-9,1,2,0,8,13,31,47,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:20.00,Amanchu_Title_Card,Title Card,0000,0000,0000,,{\fad(982,766)}Překlad HakaHori
+Dialogue: 0,0:00:05.69,0:00:10.02,Amanchu_Italics,BS,0000,0000,0000,,„dnešní den“ je jen jednou za život.
+Dialogue: 0,0:00:10.46,0:00:12.90,Amanchu_Italics,BS,0000,0000,0000,,„Jak si zapamatovat tento den?“
+Dialogue: 0,0:00:12.90,0:00:14.86,Amanchu_Italics,BS,0000,0000,0000,,„Nechci z něho promarnit ani vteřinu.“
+Dialogue: 0,0:00:15.30,0:00:17.20,Amanchu_Italics,BS,0000,0000,0000,,S takovými myšlenkami,\Nkteré mi probíhají hlavou
+Dialogue: 0,0:00:17.20,0:00:18.93,Amanchu_Italics,BS,0000,0000,0000,,Škubu a vrtím se v posteli, napůl vzhůru,
+Dialogue: 0,0:00:18.93,0:00:21.79,Amanchu_Italics,BS,0000,0000,0000,,snažíc se o plán na dnešní den.
+Dialogue: 0,0:00:23.68,0:00:25.04,Amanchu_Italics,BS,0000,0000,0000,,Dnes je neděle.
+Dialogue: 0,0:00:25.67,0:00:28.84,Amanchu_Italics,BS,0000,0000,0000,,Samozřejmě že mám spoustu věcí, které chci dělat
+Dialogue: 0,0:00:29.22,0:00:33.03,Amanchu_Italics,BS,0000,0000,0000,,ale je problém přijít na to,\Ns čím začít a s čím pokračovat.
+Dialogue: 0,0:00:35.19,0:00:38.34,Amanchu_Italics,BS,0000,0000,0000,,Zatímco si nad tím přemýšlím,
+Dialogue: 0,0:00:38.34,0:00:40.31,Amanchu_Italics,BS,0000,0000,0000,,z mozku se mi stává puding.
+Dialogue: 0,0:00:41.20,0:00:44.16,Amanchu_Italics,BS,0000,0000,0000,,Nakonec to všechno zapomenu\Na nic nedělám
+Dialogue: 0,0:00:45.55,0:00:47.78,Amanchu_Italics,BS,0000,0000,0000,,a tak se dnes mění v včerejšek.
+Dialogue: 0,0:00:48.79,0:00:51.21,Amanchu_Main,BS,0000,0000,0000,,Dobře, udělám to.
+Dialogue: 0,0:00:51.63,0:00:53.50,Amanchu_Main,BS,0000,0000,0000,,Udělám něco...
+Dialogue: 0,0:00:51.63,0:00:53.50,Amanchu_Main,BS,0000,0000,0000,,
+Dialogue: 0,0:01:04.37,0:01:13.34,Amanchu_Title_Card,Title Card,0000,0000,0000,,{\fad(1028,897)}Amanchu!
+Dialogue: 0,0:02:30.42,0:02:35.46,Amanchu_Ep_Title,Title,0000,0000,0000,,{\fad(564,556)}„Příběch o ztracené cestě “
+Dialogue: 0,0:02:33.78,0:02:36.40,Amanchu_Main,BS,0000,0000,0000,,Musím něco...
+Dialogue: 0,0:02:37.69,0:02:39.08,Amanchu_Main,P,0000,0000,0000,,Tady to je, Teko!
+Dialogue: 0,0:02:39.08,0:02:40.41,Amanchu_Main,T,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:02:40.41,0:02:42.00,Amanchu_Main,T,0000,0000,0000,,Zde je napsáno „Ninomiya“.
+Dialogue: 0,0:02:42.00,0:02:45.47,Amanchu_Main,P,0000,0000,0000,,Adresa, kterou jsem dostala pro\Nzasílání opičí kukly, se nám hodily.
+Dialogue: 0,0:02:48.85,0:02:50.60,Amanchu_Main,BS,0000,0000,0000,,Co tu vy dvě děláte?
+Dialogue: 0,0:02:50.97,0:02:51.76,Amanchu_Main,P,0000,0000,0000,,WHapjoo!
+Dialogue: 0,0:02:51.76,0:02:53.90,Amanchu_Main,P,0000,0000,0000,,Velká Sis-senpai!
+Dialogue: 0,0:02:53.90,0:02:56.44,Amanchu_Main,T,0000,0000,0000,,Uh... Dobré ráno.
+Dialogue: 0,0:02:56.73,0:02:59.61,Amanchu_Main,P,0000,0000,0000,,Pojďme se projít, Big Sis-senpai!
+Dialogue: 0,0:03:02.66,0:03:03.70,Amanchu_Main,BS,0000,0000,0000,,Probuď se, Makoto!
+Dialogue: 0,0:03:05.51,0:03:08.58,Amanchu_Main,BS,0000,0000,0000,,Naši milí kohai\Npřišli až k nám.
+Dialogue: 0,0:03:08.58,0:03:10.32,Amanchu_Main,LB,0000,0000,0000,,Co? Proč?
+Dialogue: 0,0:03:10.67,0:03:11.71,Amanchu_Main,LB,0000,0000,0000,,Klub?
+Dialogue: 0,0:03:11.71,0:03:13.71,Amanchu_Main,BS,0000,0000,0000,,Ne, chtějí se jen projít.
+Dialogue: 0,0:03:15.64,0:03:16.55,Amanchu_Main,M,0000,0000,0000,,Projít.
+Dialogue: 0,0:03:18.32,0:03:20.35,Amanchu_Main,BS,0000,0000,0000,,Zapomeňte na malého bratříčka, který je k ničemu.
+Dialogue: 0,0:03:20.35,0:03:23.21,Amanchu_Main,BS,0000,0000,0000,,Já, dobrosrdečná\Nvelká sestra, jdu dolů.
+Dialogue: 0,0:03:23.21,0:03:23.82,Amanchu_Main,Bo,0000,0000,0000,,Dobře!
+Dialogue: 0,0:03:23.82,0:03:24.97,Amanchu_Main,LB,0000,0000,0000,,Vážně, to bolí!
+Dialogue: 0,0:03:25.84,0:03:27.56,Amanchu_Main,T,0000,0000,0000,,Omlouvám se, že jsme přišly neohlášeně.
+Dialogue: 0,0:03:29.90,0:03:33.00,Amanchu_Main,T,0000,0000,0000,, Uh... Nevypadáte dobře.
+Dialogue: 0,0:03:33.00,0:03:34.57,Amanchu_Main,P,0000,0000,0000,,Jsi v pořádku?
+Dialogue: 0,0:03:34.57,0:03:39.99,Amanchu_Main,BS,0000,0000,0000,,To mi nevadí. Ráno mému\Nmotoru chvíli trvá, než se roztočí.
+Dialogue: 0,0:03:40.58,0:03:43.95,Amanchu_Main,BS,0000,0000,0000,,Kromě toho jsem překvapena,\Nže si si vzpomněla, kde bydlíme.
+Dialogue: 0,0:03:43.95,0:03:46.25,Amanchu_Main,P,0000,0000,0000,,Přesnou adresu jsem si nepamatovala...
+Dialogue: 0,0:03:46.25,0:03:48.08,Amanchu_Main,T,0000,0000,0000,,Nějaký čas jsme strávily hledáním.
+Dialogue: 0,0:03:48.34,0:03:49.94,Amanchu_Main,BS,0000,0000,0000,,Co? Opravdu?
+Dialogue: 0,0:03:49.94,0:03:51.91,Amanchu_Main,BS,0000,0000,0000,,Proč jsi jste mi nezavolaly?
+Dialogue: 0,0:03:51.91,0:03:55.40,Amanchu_Main,P,0000,0000,0000,,Protože. Díky tomu, že jsme hledaly,\Nto bylo zábavné.
+Dialogue: 0,0:03:55.40,0:03:56.92,Amanchu_Main,BS,0000,0000,0000,,Co to bylo? Hledání pokladu?
+Dialogue: 0,0:03:57.25,0:04:02.14,Amanchu_Main,P,0000,0000,0000,,Oh, podařilo se nám dostat\Ndo rukou poklad, kterým jsi.
+Dialogue: 0,0:04:02.14,0:04:03.05,Amanchu_Main,T,0000,0000,0000,,Chápu.
+Dialogue: 0,0:04:03.42,0:04:05.64,Amanchu_Main,BS,0000,0000,0000,,Jeez!
+Dialogue: 0,0:04:05.93,0:04:08.39,Amanchu_Main,BS,0000,0000,0000,,Díky.
+Dialogue: 0,0:04:08.39,0:04:11.57,Amanchu_Main,BS,0000,0000,0000,,Ztratila jsem se při pokusu přijít na to, co dělat dnes.
+Dialogue: 0,0:04:11.57,0:04:14.65,Amanchu_Main,T,0000,0000,0000,,To se stalo i vám?
+Dialogue: 0,0:04:14.65,0:04:16.39,Amanchu_Main,BS,0000,0000,0000,,Naprosto.
+Dialogue: 0,0:04:16.39,0:04:18.36,Amanchu_Main,BS,0000,0000,0000,,Jsem docela nerozhodná, víš.
+Dialogue: 0,0:04:18.72,0:04:20.87,Amanchu_Main,P,0000,0000,0000,,Páni! To je překvapení.
+Dialogue: 0,0:04:20.87,0:04:22.14,Amanchu_Main,BS,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:04:22.14,0:04:25.74,Amanchu_Main,BS,0000,0000,0000,,Často ztrácím přehled\Na nakonec nedělám nic.
+Dialogue: 0,0:04:26.10,0:04:27.74,Amanchu_Italics,T,0000,0000,0000,,Hu...
+Dialogue: 0,0:04:27.74,0:04:30.90,Amanchu_Italics,T,0000,0000,0000,,Takže velká Sis-senpai se také může ztratit.
+Dialogue: 0,0:04:39.88,0:04:41.19,Amanchu_Main,BS,0000,0000,0000,,Papírnictví?
+Dialogue: 0,0:04:42.05,0:04:43.22,Amanchu_Main,BS,0000,0000,0000,,Co hledáte?
+Dialogue: 0,0:04:43.22,0:04:44.63,Amanchu_Main,P,0000,0000,0000,,Ehm... Tady.
+Dialogue: 0,0:04:50.49,0:04:52.39,Amanchu_Main,BS,0000,0000,0000,,Aha! Deníky?
+Dialogue: 0,0:04:52.64,0:04:55.22,Amanchu_Main,T,0000,0000,0000,,Můj bazénový test je příští týden.
+Dialogue: 0,0:04:55.72,0:04:56.88,Amanchu_Main,BS,0000,0000,0000,,Konečně je to tady, hm?
+Dialogue: 0,0:04:56.88,0:04:57.91,Amanchu_Main,T,0000,0000,0000,,Hai.
+Dialogue: 0,0:04:57.91,0:05:01.93,Amanchu_Main,T,0000,0000,0000,,Takže Pikari navrhla, abych si jeden pořídila.
+Dialogue: 0,0:05:01.93,0:05:04.62,Amanchu_Main,T,0000,0000,0000,,Vím, že trochu předbíhám\Nale jsem tady.
+Dialogue: 0,0:05:04.62,0:05:06.05,Amanchu_Main,BS,0000,0000,0000,,Nevidím v tom problém.
+Dialogue: 0,0:05:06.05,0:05:07.49,Amanchu_Main,BS,0000,0000,0000,,Teď už umíš plavat, že?
+Dialogue: 0,0:05:09.01,0:05:09.83,Amanchu_Main,T,0000,0000,0000,,Hai.
+Dialogue: 0,0:05:10.05,0:05:11.72,Amanchu_Main,BS,0000,0000,0000,,Pak je to v pořádku.
+Dialogue: 0,0:05:11.72,0:05:13.44,Amanchu_Main,BS,0000,0000,0000,,Vedla jsi si dobře, Teko-chin.
+Dialogue: 0,0:05:13.44,0:05:14.16,Amanchu_Main,BS,0000,0000,0000,,Velmi dobře.
+Dialogue: 0,0:05:14.54,0:05:16.83,Amanchu_Main,BS,0000,0000,0000,,Nebude to dlouho trvat, \Na můžeš žačít s podmořským potápěním.
+Dialogue: 0,0:05:18.18,0:05:19.03,Amanchu_Italics,T,0000,0000,0000,,Hmm.
+Dialogue: 0,0:05:19.43,0:05:21.87,Amanchu_Italics,T,0000,0000,0000,,Na tom jsem tak tvrdě pracovala.
+Dialogue: 0,0:05:22.59,0:05:24.88,Amanchu_Italics,T,0000,0000,0000,,Chystám se projít bazénovým testem
+Dialogue: 0,0:05:25.06,0:05:26.46,Amanchu_Italics,T,0000,0000,0000,,a pak se potápět v oceánu...
+Dialogue: 0,0:05:28.82,0:05:30.41,Amanchu_Italics,T,0000,0000,0000,,společně s Pikari.
+Dialogue: 0,0:05:31.58,0:05:34.53,Amanchu_Italics,T,0000,0000,0000,,Čekala jsem, až ten den přijde...
+Dialogue: 0,0:05:35.57,0:05:36.88,Amanchu_Italics,T,0000,0000,0000,,nebo alespoň tak jsem si to myslela.
+Dialogue: 0,0:05:38.87,0:05:40.11,Amanchu_Main,P,0000,0000,0000,,Teko koukni ...
+Dialogue: 0,0:05:40.11,0:05:42.48,Amanchu_Main,P,0000,0000,0000,,Tento je opravdu roztomilý.
+Dialogue: 0,0:05:44.02,0:05:44.86,Amanchu_Main,T,0000,0000,0000,,Opravdu!
+Dialogue: 0,0:05:45.11,0:05:46.94,Amanchu_Main,T,0000,0000,0000,,Je opravdu roztomilý!
+Dialogue: 0,0:05:47.74,0:05:51.47,Amanchu_Main,P,0000,0000,0000,,Uvidíš, deník potápěče jsou jeho vzpomínky..
+Dialogue: 0,0:05:51.47,0:05:52.33,Amanchu_Main,T,0000,0000,0000,,Deník?
+Dialogue: 0,0:05:53.11,0:05:57.42,Amanchu_Main,P,0000,0000,0000,,Nejen, že zaznamenáváš, kde,\Nkdy a jak si se potápěla, ale
+Dialogue: 0,0:05:57.42,0:06:01.24,Amanchu_Main,P,0000,0000,0000,,také jak vypadala voda,\Njaké druhy ryb si potkala,
+Dialogue: 0,0:06:00.29,0:06:04.42,Today's_dive_06:00(Ep 10),Sign,0000,0000,0000,,{\fad(945,1)}Dnešní { c & HD39235 &} ponor\N{ c & H5A5C5C &} byl úžasný!
+Dialogue: 0,0:06:01.57,0:06:04.42,Amanchu_Main,P,0000,0000,0000,,a někteří lidé tam\Ndokonce lepí fotografie.
+Dialogue: 0,0:06:04.77,0:06:06.06,Amanchu_Main,BS,0000,0000,0000,,Jo, jo.
+Dialogue: 0,0:06:06.06,0:06:10.08,Amanchu_Main,BS,0000,0000,0000,,Ale pokud toho tam budeš vlepovat mnoho,\N kniha skončí šíleně tlustá.
+Dialogue: 0,0:06:10.08,0:06:13.63,Amanchu_Main,BS,0000,0000,0000,,Vyberte si laminovaný deník, který\Nse nepoškodí, i když trochu zvlhne.
+Dialogue: 0,0:06:13.63,0:06:14.55,Amanchu_Main,T,0000,0000,0000,,Hai.
+Dialogue: 0,0:06:14.93,0:06:18.85,Amanchu_Main,T,0000,0000,0000,,Ale je jich tolik, prostě se nemohu rozhodnout.
+Dialogue: 0,0:06:24.74,0:06:26.19,Amanchu_Main,T,0000,0000,0000,,Jsem na rozpacích!
+Dialogue: 0,0:06:27.54,0:06:29.14,Amanchu_Main,BS,0000,0000,0000,,Znám ten pocit.
+Dialogue: 0,0:06:29.14,0:06:31.45,Amanchu_Main,BS,0000,0000,0000,,Mít příliš mnoho možností může být problém.
+Dialogue: 0,0:06:31.94,0:06:34.64,Amanchu_Main,T,0000,0000,0000,,Já to považuji za zábavu.
+Dialogue: 0,0:06:35.82,0:06:38.47,Amanchu_Main,BS,0000,0000,0000,,Prostě, pro tebe je všechno zábavné, Stupikari.
+Dialogue: 0,0:06:38.47,0:06:40.73,Amanchu_Main,P,0000,0000,0000,,WHapjoooo. Pravda.
+Dialogue: 0,0:06:40.73,0:06:42.82,Amanchu_Main,P,0000,0000,0000,,Pojďme změnit způsob vyhledávání, Teko!
+Dialogue: 0,0:06:42.82,0:06:45.17,Amanchu_Main,T,0000,0000,0000,,Jo... už mám.
+Dialogue: 0,0:06:45.68,0:06:46.51,Amanchu_Main,BS,0000,0000,0000,,Co?
+Dialogue: 0,0:06:46.77,0:06:49.27,Amanchu_Main,BS,0000,0000,0000,,To to je deník, který chci.
+Dialogue: 0,0:06:49.61,0:06:53.68,Amanchu_Main,BS,0000,0000,0000,,Páni! Nevěděla jsem, že existuje celá řada.
+Dialogue: 0,0:06:57.68,0:07:00.99,Amanchu_Main,P,0000,0000,0000,,Tvoje série vypadá skvěle.
+Dialogue: 0,0:07:00.99,0:07:04.50,Amanchu_Main,T,0000,0000,0000,,Má malý Bro-senpai také jeden z nich?
+Dialogue: 0,0:07:04.50,0:07:06.82,Amanchu_Main,BS,0000,0000,0000,,Jo, ale má jiný vzor než já.
+Dialogue: 0,0:07:07.25,0:07:09.25,Amanchu_Main,T,0000,0000,0000,,Je to proto, že jste kamarádi?
+Dialogue: 0,0:07:09.25,0:07:10.15,Amanchu_Main,BS,0000,0000,0000,,Spíš ne...
+Dialogue: 0,0:07:10.73,0:07:12.49,Amanchu_Main,T,0000,0000,0000,,Je tu jeden se srdíčky.
+Dialogue: 0,0:07:12.49,0:07:14.24,Amanchu_Main,T,0000,0000,0000,,Možná bych chtěla ten.
+Dialogue: 0,0:07:14.24,0:07:17.24,Amanchu_Main,P,0000,0000,0000,,WHapjoooo. Je tu dokonce jeden s hvězdami, které miluji!
+Dialogue: 0,0:07:17.62,0:07:18.85,Amanchu_Main,P,0000,0000,0000,,Ten si vezmu!
+Dialogue: 0,0:07:19.48,0:07:21.50,Amanchu_Main,BS,0000,0000,0000,,Neztratila ani vteřinu s váháním!
+Dialogue: 0,0:07:21.50,0:07:23.08,Amanchu_Main,BS,0000,0000,0000,,A nemáš již deník?
+Dialogue: 0,0:07:23.50,0:07:26.26,Amanchu_Main,P,0000,0000,0000,,Ten už je dost opotřebovaný.
+Dialogue: 0,0:07:26.26,0:07:31.05,Amanchu_Main,P,0000,0000,0000,,A přemýšlela jsem o použití nového\Nve stejný den, kdy se začnu potápět s Teko.
+Dialogue: 0,0:07:32.34,0:07:34.14,Amanchu_Main,P,0000,0000,0000,,A co ty, Teko? Který se ti líbí?
+Dialogue: 0,0:07:34.50,0:07:37.66,Amanchu_Main,T,0000,0000,0000,,Hmm, myslím, že si vyberu tento.
+Dialogue: 0,0:07:37.66,0:07:39.99,Amanchu_Main,BS,0000,0000,0000,,Určitě se chceš rozhodnout právě takhle?
+Dialogue: 0,0:07:39.99,0:07:41.06,Amanchu_Main,T,0000,0000,0000,,Ano.
+Dialogue: 0,0:07:41.06,0:07:43.40,Amanchu_Main,T,0000,0000,0000,,Mám ráda srdce a...
+Dialogue: 0,0:07:43.81,0:07:45.76,Amanchu_Main,P,0000,0000,0000,,WHapjoooooo! Shodujeme se!
+Dialogue: 0,0:07:45.76,0:07:46.50,Amanchu_Main,T,0000,0000,0000,,Hmmm.
+Dialogue: 0,0:07:50.42,0:07:55.07,Amanchu_Main,BS,0000,0000,0000,,Nakonec všichni v potápěčském klubu\Nskončili se stejnou sérií deníků.
+Dialogue: 0,0:07:55.07,0:07:56.16,Amanchu_Main,Bo,0000,0000,0000,,HAI!
+Dialogue: 0,0:07:56.75,0:07:58.88,Amanchu_Main,BS,0000,0000,0000,,Je to, jako bychom byli super kamarádi.
+Dialogue: 0,0:07:58.88,0:08:00.06,Amanchu_Main,P,0000,0000,0000,,Že jo?
+Dialogue: 0,0:08:03.58,0:08:04.90,Amanchu_Main,T,0000,0000,0000,,Tohle je...
+Dialogue: 0,0:08:05.95,0:08:07.42,Amanchu_Main,BS,0000,0000,0000,,...špatný.
+Dialogue: 0,0:08:11.20,0:08:13.42,Amanchu_Main,BS,0000,0000,0000,,Výprodej plavek ?!
+Dialogue: 0,0:08:13.42,0:08:15.72,Amanchu_Main,P,0000,0000,0000,,Je jich zde tolik roztomilých.
+Dialogue: 0,0:08:15.72,0:08:18.21,Amanchu_Main,T,0000,0000,0000,,No, je na to roční období.
+Dialogue: 0,0:08:18.21,0:08:19.34,Amanchu_Main,BS,0000,0000,0000,,Nekoukejte se tam!
+Dialogue: 0,0:08:20.24,0:08:23.16,Amanchu_Main,BS,0000,0000,0000,,Výprodej nebo ne, plavky jsou drahé.
+Dialogue: 0,0:08:23.16,0:08:25.69,Amanchu_Main,BS,0000,0000,0000,,Ano, chci nový, ale ne!
+Dialogue: 0,0:08:26.17,0:08:28.40,Amanchu_Main,BS,0000,0000,0000,,Možná s 50% slevou...
+Dialogue: 0,0:08:28.68,0:08:31.86,Amanchu_Main,BS,0000,0000,0000,,Ale na středoškoláka je to stále příliš!
+Dialogue: 0,0:08:32.16,0:08:33.95,Amanchu_Main,BS,0000,0000,0000,,Možná bych se mohla jen podívat...
+Dialogue: 0,0:08:34.24,0:08:37.16,Amanchu_Main,BS,0000,0000,0000,,... říkáte si, \Nale je to začátek kluzkého svahu!
+Dialogue: 0,0:08:38.47,0:08:40.24,Amanchu_Main,BS,0000,0000,0000,,A jsem nyní v takové ztrátě.
+Dialogue: 0,0:08:40.24,0:08:41.29,Amanchu_Main,T,0000,0000,0000,,Rozumím ti.
+Dialogue: 0,0:08:44.68,0:08:46.22,Amanchu_Main,P,0000,0000,0000,,Pokud jste nerozhodní,
+Dialogue: 0,0:08:47.28,0:08:49.12,Amanchu_Main,P,0000,0000,0000,,pojďme na to!
+Dialogue: 0,0:08:49.84,0:08:51.57,Amanchu_Main,BS,0000,0000,0000,,Hej, Pikari-san ?!
+Dialogue: 0,0:09:04.59,0:09:06.75,Amanchu_Main,All,0000,0000,0000,,Nemohu se rozhodnout...
+Dialogue: 0,0:09:06.75,0:09:10.64,Amanchu_Main,All,0000,0000,0000,,Ale je to tak zábavné!
+Dialogue: 0,0:09:07.81,0:09:11.11,This_is_why_09:07(Ep 10),Sign,0000,0000,0000,,{\fad(2072,1)}To je důvod, proč je nakupování tak návykové ~
+Dialogue: 0,0:09:14.37,0:09:16.25,Amanchu_Main,P,0000,0000,0000,,Možná bych si měla pořídit tyto.
+Dialogue: 0,0:09:16.25,0:09:18.41,Amanchu_Italics,T,0000,0000,0000,,Páni! Pikari je nerozhodná.
+Dialogue: 0,0:09:19.16,0:09:20.53,Amanchu_Italics,T,0000,0000,0000,,Opravdu si to užívá.
+Dialogue: 0,0:09:20.95,0:09:21.72,Amanchu_Main,P,0000,0000,0000,,Co?
+Dialogue: 0,0:09:22.04,0:09:24.74,Amanchu_Main,P,0000,0000,0000,,Bereš si dvoje, Big Sis-senpai?
+Dialogue: 0,0:09:24.74,0:09:25.74,Amanchu_Main,BS,0000,0000,0000,,Hmm.
+Dialogue: 0,0:09:25.74,0:09:29.98,Amanchu_Main,BS,0000,0000,0000,,Na moji velikost je těžké najít vršek, \Nkterý mi sedí velikostí.
+Dialogue: 0,0:09:29.98,0:09:30.88,Amanchu_Main,P,0000,0000,0000,,Velikostí...
+Dialogue: 0,0:09:31.46,0:09:35.22,Amanchu_Main,BS,0000,0000,0000,,Takže to někdy řeším tak, že si vezmu dva vršky.
+Dialogue: 0,0:09:35.22,0:09:36.26,Amanchu_Main,P,0000,0000,0000,,Páni!
+Dialogue: 0,0:09:36.26,0:09:38.25,Amanchu_Main,T,0000,0000,0000,,J-Jsi tam dost velká...
+Dialogue: 0,0:09:38.25,0:09:39.05,Amanchu_Main,T,0000,0000,0000,,Jak hezké.
+Dialogue: 0,0:09:40.17,0:09:41.99,Amanchu_Main,BS,0000,0000,0000,,Ne, není to hezké.
+Dialogue: 0,0:09:41.99,0:09:43.77,Amanchu_Main,BS,0000,0000,0000,,Hledání správného oblečení\Nje příšerné a
+Dialogue: 0,0:09:43.77,0:09:46.23,Amanchu_Main,BS,0000,0000,0000,,pro některé lidi můžeš\Ndokonce vypadat tlustě.
+Dialogue: 0,0:09:46.60,0:09:49.25,Amanchu_Main,P,0000,0000,0000,,Chápu... neměla jsem tušení, že jsou tak úžasná.
+Dialogue: 0,0:09:49.25,0:09:50.82,Amanchu_Main,BS,0000,0000,0000,,A jednou:
+Dialogue: 0,0:09:50.82,0:09:54.05,Amanchu_Main,BS,0000,0000,0000,,Nevšimla jsem si, že mi upadl knoflík na halence.
+Dialogue: 0,0:09:54.05,0:09:55.02,Amanchu_Main,BS,0000,0000,0000,,Frnk!
+Dialogue: 0,0:09:54.15,0:09:56.40,Bounce_09:54(Ep 10),Sign,0000,0000,0000,,Frnk
+Dialogue: 0,0:09:55.02,0:09:58.61,Amanchu_Main,BS,0000,0000,0000,,A skončilo to tak, že jsem se\Nzasekla a předvedla docela show.
+Dialogue: 0,0:09:58.61,0:10:00.24,Amanchu_Main,P,0000,0000,0000,,Super!
+Dialogue: 0,0:10:07.44,0:10:09.39,Amanchu_Main,T,0000,0000,0000,,Šly jsme a koupily je.
+Dialogue: 0,0:10:09.39,0:10:11.91,Amanchu_Main,T,0000,0000,0000,,Stálo mě to vše co jsem si naspořila.
+Dialogue: 0,0:10:12.74,0:10:15.46,Amanchu_Main,BS,0000,0000,0000,,Asi budeme muset nějakou dobu\Nžít podle provizorního rozpočtu.
+Dialogue: 0,0:10:16.38,0:10:17.83,Amanchu_Italics,T,0000,0000,0000,,Šela jsem a koupila je...
+Dialogue: 0,0:10:18.33,0:10:21.60,Amanchu_Italics,T,0000,0000,0000,,Plavky a ten správný deník.
+Dialogue: 0,0:10:25.34,0:10:28.24,Amanchu_Italics,T,0000,0000,0000,,Je tu něco, co musím Pikari říct,
+Dialogue: 0,0:10:29.02,0:10:33.55,Amanchu_Italics,T,0000,0000,0000,,ale nevím, jak zareaguje.
+Dialogue: 0,0:10:33.87,0:10:35.49,Amanchu_Italics,T,0000,0000,0000,,A to mě trochu děsí.
+Dialogue: 0,0:10:38.94,0:10:41.48,Amanchu_Main,BS,0000,0000,0000,,To byl dobrý způsob, jak strávit neděli.
+Dialogue: 0,0:10:41.48,0:10:45.93,Amanchu_Main,BS,0000,0000,0000,,Skoro jsem jí promarnila tím, že jsem zase nic nedělala.
+Dialogue: 0,0:10:45.93,0:10:47.29,Amanchu_Main,BS,0000,0000,0000,,Díky, Pikari -
+Dialogue: 0,0:10:49.31,0:10:51.10,Amanchu_Main,BS,0000,0000,0000,,Co se děje, Pikari?
+Dialogue: 0,0:10:51.84,0:10:52.84,Amanchu_Main,P,0000,0000,0000,,Pokud jste nerozhodní,
+Dialogue: 0,0:10:52.84,0:10:54.29,Amanchu_Main,P,0000,0000,0000,,pojďme na to!
+Dialogue: 0,0:10:54.95,0:10:56.00,Amanchu_Main,T,0000,0000,0000,,Pikari?
+Dialogue: 0,0:10:56.51,0:10:59.17,Amanchu_Main,P,0000,0000,0000,,Velká Sis-senpai, Teko...
+Dialogue: 0,0:10:59.84,0:11:02.68,Amanchu_Main,P,0000,0000,0000,,Máte stále trochu času?
+Dialogue: 0,0:11:02.96,0:11:05.08,Amanchu_Main,BS,0000,0000,0000,,Jo proč?
+Dialogue: 0,0:11:05.47,0:11:07.43,Amanchu_Main,T,0000,0000,0000,,Já také.
+Dialogue: 0,0:11:08.06,0:11:11.28,Amanchu_Main,P,0000,0000,0000,,Tak proč nejdeme...
+Dialogue: 0,0:11:11.06,0:11:13.98,Amanchu_Middle,Eyecatch,0000,0000,0000,,{\fad(569,1)}Amanchu!
+Dialogue: 0,0:11:12.20,0:11:13.12,Amanchu_Main,P,0000,0000,0000,,do moře?
+Dialogue: 0,0:11:13.98,0:11:15.98,Amanchu_Main,Eyecatch,0000,0000,0000,,
+Dialogue: 0,0:11:19.19,0:11:21.28,Amanchu-ya_Diving(Ep 10),Sign,0000,0000,0000,,Potápění Amanchu-ya
+Dialogue: 0,0:11:22.05,0:11:23.74,Amanchu_Main,BS,0000,0000,0000,,Rááz, dva...
+Dialogue: 0,0:11:32.13,0:11:33.69,Amanchu_Main,BS,0000,0000,0000,,To je skvělé!
+Dialogue: 0,0:11:37.00,0:11:39.20,Amanchu_Main,P,0000,0000,0000,,Vlastně jsme zase v moři!
+Dialogue: 0,0:11:39.20,0:11:42.86,Amanchu_Main,BS,0000,0000,0000,,Ano, i když to nebyla jedna z\Nmožností na dnešní aktivity.
+Dialogue: 0,0:11:42.86,0:11:44.96,Amanchu_Main,T,0000,0000,0000,,Musíme za tu Pikari\Nimpulzivitu poděkovat.
+Dialogue: 0,0:11:44.96,0:11:48.05,Amanchu_Main,P,0000,0000,0000,,A nyní je to tak, že jsem jsem hranatá ryba.
+Dialogue: 0,0:11:48.83,0:11:50.54,Amanchu_Main,P,0000,0000,0000,,Skuste mě chytit, pokud můžete.
+Dialogue: 0,0:11:50.54,0:11:52.00,Amanchu_Main,P,0000,0000,0000,,Whoop, whoop, whoop!
+Dialogue: 0,0:11:52.00,0:11:54.05,Amanchu_Main,BS,0000,0000,0000,,Co je toto?
+Dialogue: 0,0:11:54.05,0:11:56.02,Amanchu_Main,BS,0000,0000,0000,,No tak! Počkej na mě.
+Dialogue: 0,0:11:56.30,0:11:57.65,Amanchu_Main,P,0000,0000,0000,,Whoop, whoop, whoop!
+Dialogue: 0,0:11:57.65,0:11:59.95,Amanchu_Main,P,0000,0000,0000,,Pojďte za mnou!
+Dialogue: 0,0:12:00.64,0:12:01.94,Amanchu_Main,BS,0000,0000,0000,,Počkej!
+Dialogue: 0,0:12:01.94,0:12:03.24,Amanchu_Main,T,0000,0000,0000,,Počkejte...
+Dialogue: 0,0:12:04.38,0:12:06.17,Amanchu_Main,P,0000,0000,0000,,Tu máš!
+Dialogue: 0,0:12:07.19,0:12:09.52,Amanchu_Main,P,0000,0000,0000,,Whoop, whoop, whoop!
+Dialogue: 0,0:12:08.52,0:12:10.08,Amanchu_Main,BS,0000,0000,0000,,Udělala jsi to.
+Dialogue: 0,0:12:10.08,0:12:11.16,Amanchu_Main,P,0000,0000,0000,,Chceš to také? Tak pojď!
+Dialogue: 0,0:12:11.16,0:12:12.04,Amanchu_Main,BS,0000,0000,0000,,Odplata!
+Dialogue: 0,0:12:14.46,0:12:15.96,Amanchu_Main,P,0000,0000,0000,,Proč útočíš na Teko?
+Dialogue: 0,0:12:16.23,0:12:18.01,Amanchu_Main,BS,0000,0000,0000,,Jste nechráněná!
+Dialogue: 0,0:12:22.34,0:12:24.22,Amanchu_Main,BS,0000,0000,0000,,Pojď Pojď Pojď Pojď...
+Dialogue: 0,0:12:37.02,0:12:38.96,Amanchu_Main,K,0000,0000,0000,,No, nebaví se?
+Dialogue: 0,0:12:45.34,0:12:47.27,Amanchu_Main,BS,0000,0000,0000,,To je to dobré!
+Dialogue: 0,0:12:50.27,0:12:52.28,Amanchu_Main,P,0000,0000,0000,,Jdu si přidat.
+Dialogue: 0,0:12:52.28,0:12:53.66,Amanchu_Main,BS,0000,0000,0000,,Také.
+Dialogue: 0,0:12:55.52,0:12:57.50,Amanchu_Main,T,0000,0000,0000,,Je to opravdu skvělé.
+Dialogue: 0,0:12:57.82,0:13:00.16,Amanchu_Main,K,0000,0000,0000,,Že ano? Dobré slyšet.
+Dialogue: 0,0:13:00.47,0:13:01.54,Amanchu_Main,T,0000,0000,0000,,Ano.
+Dialogue: 0,0:13:02.83,0:13:05.90,Amanchu_Main,K,0000,0000,0000,,Jarní temnota by měla brzy zmizet.
+Dialogue: 0,0:13:10.15,0:13:12.56,Amanchu_Flashback,K,0000,0000,0000,,Bude lepší se naučit jak to v oceánu funguje
+Dialogue: 0,0:13:12.56,0:13:16.22,Amanchu_Flashback,K,0000,0000,0000,,až když zmizí temnota?
+Dialogue: 0,0:13:16.91,0:13:17.94,Amanchu_Flashback,T,0000,0000,0000,,Hai.
+Dialogue: 0,0:13:26.19,0:13:30.25,Amanchu_Main,K,0000,0000,0000,,Nepřinesla jsi dnes svůj telefon, slečinko?
+Dialogue: 0,0:13:32.30,0:13:33.90,Amanchu_Italics,T,0000,0000,0000,,Pravda,
+Dialogue: 0,0:13:33.90,0:13:37.21,Amanchu_Italics,T,0000,0000,0000,,Dnes jsem telefon neotevřela.
+Dialogue: 0,0:13:48.24,0:13:49.72,Amanchu_Main,T,0000,0000,0000,,Pikari a ostatní...
+Dialogue: 0,0:13:51.26,0:13:53.29,Amanchu_Main,T,0000,0000,0000,,Pikari a ostatní mi dali dárek.
+Dialogue: 0,0:13:53.82,0:13:57.23,Amanchu_Main,T,0000,0000,0000,,Schránku na poklad, ve které\Nnyní mám všechny mé vzácné věci.
+Dialogue: 0,0:13:57.57,0:13:58.56,Amanchu_Main,K,0000,0000,0000,,Rozumím.
+Dialogue: 0,0:13:59.30,0:14:03.30,Amanchu_Main,T,0000,0000,0000,,A naučili mě, že si\Nsáma můžu vytvářet
+Dialogue: 0,0:14:03.30,0:14:07.57,Amanchu_Main,T,0000,0000,0000,,poklady, které chci\Ndo té schránky uložit.
+Dialogue: 0,0:14:08.57,0:14:11.79,Amanchu_Main,T,0000,0000,0000,,Že i ty nejprostější\Nvěci přímo předemnou
+Dialogue: 0,0:14:12.14,0:14:17.30,Amanchu_Main,T,0000,0000,0000,,se mohou stát poklady,\Npodle toho, jak je vidím.
+Dialogue: 0,0:14:19.73,0:14:23.96,Amanchu_Main,T,0000,0000,0000,,Jsem opravdu rád, že jsem potkala Pikari.
+Dialogue: 0,0:14:25.22,0:14:30.29,Amanchu_Main,T,0000,0000,0000,,Ale na oplátku jí nemohu nic nabídnout.
+Dialogue: 0,0:14:34.13,0:14:37.86,Amanchu_Main,K,0000,0000,0000,,Když výjdeš z temného místa\Na vykročíš na sluneční světlo,
+Dialogue: 0,0:14:38.20,0:14:41.81,Amanchu_Main,K,0000,0000,0000,,jeho jas tě na vteřinu oslepí, že?
+Dialogue: 0,0:14:43.98,0:14:47.52,Amanchu_Main,K,0000,0000,0000,,Pak si tvé oči zvyknou a\Nty zase uvidíš kolem sebe.
+Dialogue: 0,0:14:48.20,0:14:49.52,Amanchu_Main,K,0000,0000,0000,,Ale víš,
+Dialogue: 0,0:14:49.99,0:14:53.58,Amanchu_Main,K,0000,0000,0000,,to, co vidíš, nebylo vytvořeno světlem.
+Dialogue: 0,0:14:54.17,0:14:59.10,Amanchu_Main,K,0000,0000,0000,,Všechno to tam bylo po celou dobu.
+Dialogue: 0,0:14:59.93,0:15:02.44,Amanchu_Main,T,0000,0000,0000,,Bylo to tam celou dobu?
+Dialogue: 0,0:15:02.44,0:15:03.59,Amanchu_Main,K,0000,0000,0000,,Ano.
+Dialogue: 0,0:15:03.74,0:15:05.84,Amanchu_Main,K,0000,0000,0000,,Hikari nic neudělala.
+Dialogue: 0,0:15:06.14,0:15:09.70,Amanchu_Main,K,0000,0000,0000,,Jako si sluneční světlo nevybírá, \Nna koho bude zářit.
+Dialogue: 0,0:15:10.39,0:15:15.10,Amanchu_Main,K,0000,0000,0000,,Takže pokud sama\Nnebudeš blokovat světlo
+Dialogue: 0,0:15:15.10,0:15:18.86,Amanchu_Main,K,0000,0000,0000,,stane se, že tvůj svět\Nbude zářit úplně sám.
+Dialogue: 0,0:15:28.72,0:15:31.99,Amanchu_Main,BS,0000,0000,0000,,Dnešek byl poněkud vyčerpávající.
+Dialogue: 0,0:15:31.99,0:15:33.36,Amanchu_Main,T,0000,0000,0000,,To jo.
+Dialogue: 0,0:15:33.36,0:15:35.53,Amanchu_Main,P,0000,0000,0000,,Jsem úplně utrmácená.
+Dialogue: 0,0:15:35.53,0:15:37.91,Amanchu_Main,BS,0000,0000,0000,,Lidičky, nic z tohoto nebylo součástí \Nmých dnešních plánů.
+Dialogue: 0,0:15:37.91,0:15:39.58,Amanchu_Main,BS,0000,0000,0000,,Děláš taková rychlá rozhodnutí, Pikari.
+Dialogue: 0,0:15:39.58,0:15:42.46,Amanchu_Main,BS,0000,0000,0000,,V okamžiku, kdy na něco\Npomyslíš, už jednáš.
+Dialogue: 0,0:15:42.74,0:15:45.25,Amanchu_Main,P,0000,0000,0000,,To je víceméně správně.
+Dialogue: 0,0:15:45.57,0:15:48.00,Amanchu_Main,BS,0000,0000,0000,,Opravdu vůbec neztratíš svoji cestu, že?
+Dialogue: 0,0:15:48.98,0:15:51.27,Amanchu_Italics,T,0000,0000,0000,,A já pořád ztrácím svojí cestu.
+Dialogue: 0,0:15:52.13,0:15:55.66,Amanchu_Italics,T,0000,0000,0000,,Věc, kterou musím říct Pikari,\Nvěc, kvuli které jsem v rozpacích...
+Dialogue: 0,0:15:56.40,0:15:57.61,Amanchu_Italics,T,0000,0000,0000,,Musím to říct.
+Dialogue: 0,0:16:00.32,0:16:01.40,Amanchu_Main,T,0000,0000,0000,,Pikari.
+Dialogue: 0,0:16:02.96,0:16:03.87,Amanchu_Main,T,0000,0000,0000,,Hm...
+Dialogue: 0,0:16:04.24,0:16:09.04,Amanchu_Main,T,0000,0000,0000,,Musím ti něco říct.
+Dialogue: 0,0:16:10.39,0:16:11.29,Amanchu_Main,P,0000,0000,0000,,Teko?
+Dialogue: 0,0:16:11.92,0:16:12.57,Amanchu_Main,P,0000,0000,0000,,Co je to?
+Dialogue: 0,0:16:13.12,0:16:17.72,Amanchu_Main,T,0000,0000,0000,,V den, kdy jsem se s tebou\Npoprvé potopila v bazénu,
+Dialogue: 0,0:16:19.85,0:16:24.04,Amanchu_Main,T,0000,0000,0000,,Katori-sensei řekl, že jsme kamarádi.
+Dialogue: 0,0:16:24.54,0:16:29.70,Amanchu_Main,T,0000,0000,0000,,Byl jsem opravdu, opravdu šťastný.
+Dialogue: 0,0:16:30.04,0:16:30.90,Amanchu_Main,T,0000,0000,0000,,Ale...
+Dialogue: 0,0:16:31.68,0:16:32.63,Amanchu_Main,P,0000,0000,0000,,Hmm?
+Dialogue: 0,0:16:33.24,0:16:37.46,Amanchu_Main,T,0000,0000,0000,,I když projdu bazénovým testem,
+Dialogue: 0,0:16:37.90,0:16:40.34,Amanchu_Main,T,0000,0000,0000,,Ještě mě čeká dlouhá cesta.
+Dialogue: 0,0:16:40.82,0:16:44.35,Amanchu_Main,T,0000,0000,0000,,Nikdy jsem ještě pořádně\Nnezkontrolovala kamaráda.
+Dialogue: 0,0:16:44.35,0:16:45.22,Amanchu_Main,P,0000,0000,0000,,Hmm.
+Dialogue: 0,0:16:45.92,0:16:49.40,Amanchu_Main,T,0000,0000,0000,,Nemám zkušenosti držet\Ntvůj život v mých rukou.
+Dialogue: 0,0:16:49.40,0:16:50.94,Amanchu_Main,T,0000,0000,0000,,Nevím, jestli to dokážu.
+Dialogue: 0,0:16:51.56,0:16:52.40,Amanchu_Main,P,0000,0000,0000,,Hmm.
+Dialogue: 0,0:16:52.88,0:16:54.41,Amanchu_Main,T,0000,0000,0000,,Ale opravdu se těším na potápění
+Dialogue: 0,0:16:54.41,0:16:58.14,Amanchu_Main,T,0000,0000,0000,,s vámi a potápěčským klubem.
+Dialogue: 0,0:16:59.72,0:17:03.37,Amanchu_Main,T,0000,0000,0000,,Když o tom přemýšlím, moje mysl\Nse stává obřím nepořádkem.
+Dialogue: 0,0:17:03.67,0:17:05.34,Amanchu_Main,T,0000,0000,0000,,Nevím co dělat...
+Dialogue: 0,0:17:10.82,0:17:15.01,Amanchu_Main,T,0000,0000,0000,,Nejsem si jistá, jestli bych se měla v\Ntomto stavu skutečně potápět v moři.
+Dialogue: 0,0:17:15.89,0:17:19.88,Amanchu_Main,T,0000,0000,0000,,Nejsem si jistá, jestli\Nvás všechny neutopím.
+Dialogue: 0,0:17:20.21,0:17:25.02,Amanchu_Main,T,0000,0000,0000,,Nejsem si jistá, že si zasloužím být tvým kamarádem.
+Dialogue: 0,0:17:26.28,0:17:28.00,Amanchu_Main,T,0000,0000,0000,,Zatímco nad tím vším přemýšlím,
+Dialogue: 0,0:17:28.00,0:17:31.93,Amanchu_Main,T,0000,0000,0000,,negativní myšlenky\Nv mé hlavě sílí.
+Dialogue: 0,0:17:31.93,0:17:34.37,Amanchu_Main,T,0000,0000,0000,,Vím, že bych neměla takto přemýšlet!
+Dialogue: 0,0:17:34.37,0:17:35.11,Amanchu_Main,T,0000,0000,0000,,Ale...
+Dialogue: 0,0:17:35.72,0:17:36.98,Amanchu_Main,BS,0000,0000,0000,,Teko-chin.
+Dialogue: 0,0:17:38.24,0:17:40.34,Amanchu_Main,T,0000,0000,0000,,Jsem stále v rozpacích.
+Dialogue: 0,0:17:41.73,0:17:42.61,Amanchu_Main,P,0000,0000,0000,,Hmm.
+Dialogue: 0,0:17:43.42,0:17:46.71,Amanchu_Main,T,0000,0000,0000,,Tohle se mi stává docela často.
+Dialogue: 0,0:17:47.80,0:17:49.71,Amanchu_Main,BS,0000,0000,0000,,Ale vždy jsi tak rozhodná.
+Dialogue: 0,0:17:50.16,0:17:51.28,Amanchu_Main,P,0000,0000,0000,,Ach ne.
+Dialogue: 0,0:17:51.28,0:17:55.04,Amanchu_Main,P,0000,0000,0000,,Když začínám něco nového, \Njsem obvykle ztracená.
+Dialogue: 0,0:17:55.04,0:18:00.18,Amanchu_Main,P,0000,0000,0000,,Myslím, že ztrácíte cestu, protože\Nnejste spokojeni s tím, kde jste.
+Dialogue: 0,0:18:00.54,0:18:03.16,Amanchu_Main,P,0000,0000,0000,,Jinak by se to nestalo.
+Dialogue: 0,0:18:03.64,0:18:05.35,Amanchu_Main,P,0000,0000,0000,,Jinými slovy, být v
+Dialogue: 0,0:18:05.35,0:18:08.06,Amanchu_Main,P,0000,0000,0000,,rozpacích je dobrá věc.
+Dialogue: 0,0:18:10.58,0:18:15.01,Amanchu_Main,P,0000,0000,0000,,Myslím, že je to skvělá
+Dialogue: 0,0:18:15.01,0:18:17.87,Amanchu_Main,P,0000,0000,0000,,příležitost pobavit se více.
+Dialogue: 0,0:18:21.48,0:18:23.98,Amanchu_Main,T,0000,0000,0000,,Ztráta je skvělá šance?
+Dialogue: 0,0:18:24.89,0:18:27.46,Amanchu_Main,P,0000,0000,0000,,Takže je to v pořádku, Teko.
+Dialogue: 0,0:18:29.91,0:18:30.80,Amanchu_Main,P,0000,0000,0000,,Teko...
+Dialogue: 0,0:18:31.18,0:18:33.76,Amanchu_Main,P,0000,0000,0000,,Pokud jsi na rozpacích, pojďme na to!
+Dialogue: 0,0:18:34.73,0:18:35.94,Amanchu_Main,T,0000,0000,0000,,Pikari...
+Dialogue: 0,0:18:37.44,0:18:38.42,Amanchu_Main,T,0000,0000,0000,,Já...
+Dialogue: 0,0:18:40.55,0:18:43.55,Amanchu_Main,T,0000,0000,0000,,Jsem úplný zmatkář\Nmnoha různými způsoby, ale...
+Dialogue: 0,0:18:43.55,0:18:45.32,Amanchu_Main,T,0000,0000,0000,,Ale Ale!
+Dialogue: 0,0:18:45.32,0:18:48.35,Amanchu_Main,T,0000,0000,0000,,Chci abychom byli opravdovými kamarádkami!
+Dialogue: 0,0:18:48.53,0:18:51.44,Amanchu_Main,P,0000,0000,0000,,Jo, chci s tebou být taky kamarád!
+Dialogue: 0,0:18:54.50,0:18:55.75,Amanchu_Main,T,0000,0000,0000,,Pikari!
+Dialogue: 0,0:18:55.75,0:18:57.11,Amanchu_Main,BS,0000,0000,0000,,Hej, Teko-chin?
+Dialogue: 0,0:19:06.40,0:19:07.55,Amanchu_Main,T,0000,0000,0000,,Pikari.
+Dialogue: 0,0:19:08.49,0:19:09.48,Amanchu_Main,P,0000,0000,0000,,Teko.
+Dialogue: 0,0:19:11.63,0:19:15.16,Amanchu_Italics,BS,0000,0000,0000,,I když jsem na rozpacích ohledně toho,\Njak se vypořádat s tím, co někdo chce,
+Dialogue: 0,0:19:15.71,0:19:17.43,Amanchu_Italics,BS,0000,0000,0000,,a dávat pozor, abych nepřekročila své hranice,
+Dialogue: 0,0:19:17.43,0:19:21.18,Amanchu_Italics,BS,0000,0000,0000,,Někdy ztrácím přehled o\Ntom, co opravdu chci dělat.
+Dialogue: 0,0:19:21.93,0:19:24.68,Amanchu_Main,P,0000,0000,0000,,Test v bazénu, příští týden se\Nsem nedostaneme dost brzy, že?
+Dialogue: 0,0:19:25.48,0:19:26.19,Amanchu_Main,T,0000,0000,0000,,Hmm.
+Dialogue: 0,0:19:27.02,0:19:29.70,Amanchu_Main,P,0000,0000,0000,,{\an8}Pojďme se společně vydat na cestu \Npodmořského potápění.
+Dialogue: 0,0:19:27.16,0:19:29.86,Amanchu_Italics,BS,0000,0000,0000,,Ale sledování Pikari mě těší
+Dialogue: 0,0:19:29.70,0:19:30.90,Amanchu_Main,T,0000,0000,0000,,{\an8}Jsem tak nadšená.
+Dialogue: 0,0:19:29.86,0:19:33.90,Amanchu_Italics,BS,0000,0000,0000,,chci se naučit napodobovat\Njejí příjemnou přímočarost.
+Dialogue: 0,0:19:34.91,0:19:40.47,Amanchu_Italics,BS,0000,0000,0000,,Při zkoušení, aby den „dnes“,\Nkterý přijde jen jednou za život, zářil,
+Dialogue: 0,0:19:40.85,0:19:43.87,Amanchu_Italics,BS,0000,0000,0000,,a ve snaze udělat zítřejší\Nbudoucnost, zábavnější,
+Dialogue: 0,0:19:43.87,0:19:46.12,Amanchu_Italics,BS,0000,0000,0000,,být na rozpacích\Nnemusí být tak špatné.
+Dialogue: 0,0:19:46.67,0:19:49.50,Amanchu_Italics,BS,0000,0000,0000,,A pokud jste v rozpacích, pojďme na to!
+Dialogue: 0,0:19:52.52,0:19:53.25,Amanchu_Main,BS,0000,0000,0000,,Dobře!
+Dialogue: 0,0:19:53.77,0:19:54.78,Amanchu_Main,BS,0000,0000,0000,,Teko-chin!
+Dialogue: 0,0:19:54.78,0:19:56.52,Amanchu_Main,BS,0000,0000,0000,,Ujistíme se, že projdeš!
+Dialogue: 0,0:19:56.52,0:19:58.25,Amanchu_Main,BS,0000,0000,0000,,Je čas na speciální trénink!
+Dialogue: 0,0:19:59.63,0:20:01.31,Amanchu_Main,P,0000,0000,0000,,WHapjoooooo! Sparta.
+Dialogue: 0,0:20:01.31,0:20:03.47,Amanchu_Main,T,0000,0000,0000,,Ale anooo...
+Dialogue: 0,0:20:03.70,0:20:04.46,Amanchu_Main,P,0000,0000,0000,,WHapjoooooo!
+Dialogue: 0,0:20:04.97,0:20:09.01,Amanchu_Main,BS,0000,0000,0000,,Všichni zpátky do vody!
+Dialogue: 0,0:20:09.50,0:20:11.56,Amanchu_Main,P,0000,0000,0000,,WHapjoooooo!
+Dialogue: 0,0:20:14.82,0:20:16.61,Amanchu_Main,M,0000,0000,0000,,Posledních patnáct metrů.
+Dialogue: 0,0:20:22.15,0:20:23.12,Amanchu_Main,Cha,0000,0000,0000,,Cha...
+Dialogue: 0,0:20:32.16,0:20:34.36,Amanchu_Main,M,0000,0000,0000,,Dobře, stometrové plavání bylo splněno.
+Dialogue: 0,0:20:34.36,0:20:36.25,Amanchu_Main,M,0000,0000,0000,,Nyní splývej ve vodě po dobu deseti minut.
+Dialogue: 0,0:20:36.54,0:20:37.39,Amanchu_Main,P,0000,0000,0000,,Hai.
+Dialogue: 0,0:20:39.86,0:20:42.18,Amanchu_Main,M,0000,0000,0000,,T-tento styl...
+Dialogue: 0,0:20:42.18,0:20:43.56,Amanchu_Main,P,0000,0000,0000,,Vznáší se na zádech jako vydra.
+Dialogue: 0,0:20:43.56,0:20:46.39,Amanchu_Main,P,0000,0000,0000,,Styl, ve kterém je Teko nejlepší.
+Dialogue: 0,0:20:46.39,0:20:49.22,Amanchu_Main,BS,0000,0000,0000,,P-pomalu. Příliš pomalu.
+Dialogue: 0,0:20:49.22,0:20:51.18,Amanchu_Main,LB,0000,0000,0000,,Ale pokud dokáže zůstat na vodě deset minut...
+Dialogue: 0,0:21:00.86,0:21:02.19,Amanchu_Main,M,0000,0000,0000,,Zbývá pět sekund.
+Dialogue: 0,0:21:02.19,0:21:03.07,Amanchu_Main,M,0000,0000,0000,,Čtyři.
+Dialogue: 0,0:21:03.27,0:21:04.25,Amanchu_Main,M,0000,0000,0000,,Tři.
+Dialogue: 0,0:21:04.25,0:21:05.24,Amanchu_Main,M,0000,0000,0000,,Dva.
+Dialogue: 0,0:21:05.24,0:21:06.03,Amanchu_Main,M,0000,0000,0000,,Jeden.
+Dialogue: 0,0:21:06.31,0:21:06.86,Amanchu_Main,M,0000,0000,0000,,Nula!
+Dialogue: 0,0:21:07.30,0:21:09.08,Amanchu_Main,M,0000,0000,0000,,Skvělý! Prošela jsi!
+Dialogue: 0,0:21:09.50,0:21:12.12,Amanchu_Main,All,0000,0000,0000,,Gratuluji!
+Dialogue: 0,0:21:13.08,0:21:13.62,Amanchu_Main,Cha,0000,0000,0000,,Cha.
+Dialogue: 0,0:21:14.12,0:21:15.71,Amanchu_Main,P,0000,0000,0000,,Udělal jsi to!
+Dialogue: 0,0:21:15.90,0:21:16.79,Amanchu_Main,T,0000,0000,0000,,Pikari.
+Dialogue: 0,0:21:17.13,0:21:18.52,Amanchu_Main,P,0000,0000,0000,,Jsem tak ráda!
+Dialogue: 0,0:21:18.52,0:21:19.65,Amanchu_Main,T,0000,0000,0000,,Děkuji.
+Dialogue: 0,0:21:19.98,0:21:21.42,Amanchu_Main,P,0000,0000,0000,,Další, je moře!
+Dialogue: 0,0:21:21.76,0:21:22.76,Amanchu_Main,T,0000,0000,0000,,Moře...
+Dialogue: 0,0:21:23.36,0:21:24.89,Amanchu_Main,LB,0000,0000,0000,,Podmořský výcvikový kurz.
+Dialogue: 0,0:21:25.21,0:21:28.91,Amanchu_Main,BS,0000,0000,0000,,Všichni čtyři členové klubu se\Nbudou poprvé potápět společně.
+Dialogue: 0,0:21:28.91,0:21:29.35,Amanchu_Main,Bo,0000,0000,0000,,Hai!
+Dialogue: 0,0:21:29.81,0:21:32.73,Amanchu_Main,M,0000,0000,0000,,Dobře! Do oceánu, jdeme!
+Dialogue: 0,0:21:32.73,0:21:34.03,Amanchu_Main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:32.73,0:21:34.60,Amanchu_Main,Cha,0000,0000,0000,,Cha!
+Dialogue: 0,0:21:35.94,0:21:38.22,Amanchu_Italics,T,0000,0000,0000,,Moje přání se ten\Nden zdálo tak vzdálené,
+Dialogue: 0,0:21:38.22,0:21:40.69,Amanchu_Italics,T,0000,0000,0000,,ale najednou je\Ntéměř na dosah.
+Dialogue: 0,0:21:41.67,0:21:44.58,Amanchu_Italics,T,0000,0000,0000,,Půjdu se se všemi potápět do moře.
+Dialogue: 0,0:21:45.08,0:21:46.82,Amanchu_Italics,T,0000,0000,0000,,Budu kamarádi s Pikari.
+Dialogue: 0,0:21:47.26,0:21:48.78,Amanchu_Italics,T,0000,0000,0000,,Aniž bych už ztratila cestu
+Dialogue: 0,0:21:48.78,0:21:50.30,Amanchu_Italics,T,0000,0000,0000,,Pojďme na to!
+Dialogue: 0,0:21:48.78,0:21:50.30,Amanchu_Main,T,0000,0000,0000,,
+Dialogue: 0,0:23:26.17,0:23:28.34,Amanchu_Main,P,0000,0000,0000,,Kočky jsou předzvěstí štěstí.
+Dialogue: 0,0:23:28.94,0:23:31.30,Amanchu_Main,T,0000,0000,0000,,Kočky jsou nositelkami úsměvů.
+Dialogue: 0,0:23:32.03,0:23:34.56,Amanchu_Main_Top,Bo,0000,0000,0000,,Koťata jsou andělé!
+Dialogue: 0,0:23:32.47,0:23:39.98,Amanchu_Next_Ep_Title,Next Episode Title,0000,0000,0000,,{\fad(566,1)}"Příběh kočky a kotěte"
+Dialogue: 0,0:23:34.92,0:23:36.36,Amanchu_Main_Top,P,0000,0000,0000,,Příště na {\i1} Amanchu! {\i0}:
+Dialogue: 0,0:23:36.64,0:23:38.38,Amanchu_Main_Top,P,0000,0000,0000,,„Příběh kočky a kotěte.“
+Dialogue: 0,0:23:38.38,0:23:40.38,Amanchu_Main,,0000,0000,0000,,

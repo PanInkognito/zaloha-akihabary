@@ -1,0 +1,338 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: <untitled>
+Original Script: <unknown>
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 512
+PlayResY: 384
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Standard (12K),Arial,22,&H00C5C9ED,&H00000000,&H00111131,&H78000000,-1,-1,0,0,110,100,0,0,1,1.8,1.8,2,10,10,10,0
+Style: outro (12K),Arial,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,20,20,30,0
+Style: floating obj. (12K),Arial,22,&H00C5C9ED,&H00000000,&H00111131,&H84000000,-1,-1,0,0,110,100,0,0,1,2,1.8,2,20,20,20,0
+Style: ep-title (12K),Arial,20,&H00E45632,&H00000000,&H1EFFFFFF,&H78FFFFFF,-1,0,0,0,94,100,0,0,1,1.8,0,5,20,20,30,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:40.12,0:01:45.08,ep-title (12K),,0000,0000,0000,,{\fscx110}{\pos(256,106)}{\be1}Epizoda 16
+Dialogue: 0,0:01:40.12,0:01:45.08,ep-title (12K),,0000,0000,0000,,{\be1}{\1c&H375E26&}{\pos(256,273)}Moøský Vítr, Pobøeží Labyrintu
+Dialogue: 0,0:01:40.12,0:01:45.08,ep-title (12K),,0000,0000,0000,,{\be1}{\1c&H375E26&}{\pos(382,296)}Kapitola druhá
+Dialogue: 0,0:01:50.03,0:01:52.26,floating obj. (12K),,0000,0000,0000,,{\fs26\i0\3c&H000000&\bord0\shad0\1c&H202633&}{\fad(0,500)}Kókai
+Dialogue: 0,0:01:55.74,0:01:58.61,Standard (12K),,0000,0000,0000,,Ranka Taikiho, Kirina Tai...
+Dialogue: 0,0:01:58.78,0:02:02.97,Standard (12K),,0000,0000,0000,,...odnesla Šoku z hory Hó do Hórai.
+Dialogue: 0,0:02:05.28,0:02:08.88,Standard (12K),,0000,0000,0000,,Palác Hóro byl plný zármutku.
+Dialogue: 0,0:02:10.92,0:02:12.62,Standard (12K),,0000,0000,0000,,A po deseti letech, když...
+Dialogue: 0,0:02:13.09,0:02:17.53,Standard (12K),,0000,0000,0000,,...témìø všichni kromì Sanši, Taikiho Njokai, ztratili nadìji,
+Dialogue: 0,0:02:18.29,0:02:23.20,Standard (12K),,0000,0000,0000,,ho Taiho En našel v Hórai a pøivedl ho zpátky.
+Dialogue: 0,0:02:28.14,0:02:29.66,Standard (12K),,0000,0000,0000,,Bylo mu teprve 10 let...
+Dialogue: 0,0:02:30.31,0:02:34.24,Standard (12K),,0000,0000,0000,,Pro jeho japonskou rodinu to muselo být hrozné.
+Dialogue: 0,0:02:41.89,0:02:44.01,Standard (12K),,0000,0000,0000,,Promiò, babièko...
+Dialogue: 0,0:02:45.09,0:02:48.82,Standard (12K),,0000,0000,0000,,Kvùli mnì jsou všichni smutní, že?
+Dialogue: 0,0:03:05.44,0:03:06.97,Standard (12K),,0000,0000,0000,,Probudil ses?
+Dialogue: 0,0:03:08.44,0:03:09.78,Standard (12K),,0000,0000,0000,,Dobré ráno.
+Dialogue: 0,0:03:11.92,0:03:13.68,Standard (12K),,0000,0000,0000,,Dobré...
+Dialogue: 0,0:03:22.16,0:03:25.06,Standard (12K),,0000,0000,0000,,Taiki, vítám tì zpátky.
+Dialogue: 0,0:03:26.46,0:03:28.76,Standard (12K),,0000,0000,0000,,Jsem nesmírnì ráda, že jsi zpìt.
+Dialogue: 0,0:03:33.77,0:03:35.24,Standard (12K),,0000,0000,0000,,Kde je paní Gjokujó?
+Dialogue: 0,0:03:36.34,0:03:38.10,Standard (12K),,0000,0000,0000,,Øíká se Madam Gjokujó.
+Dialogue: 0,0:03:39.08,0:03:41.91,Standard (12K),,0000,0000,0000,,Madam Gjokujó se už vrátila do svého paláce.
+Dialogue: 0,0:03:42.11,0:03:45.41,Standard (12K),,0000,0000,0000,,Palác Hóro navštìvuje zøídka.
+Dialogue: 0,0:03:46.08,0:03:48.24,Standard (12K),,0000,0000,0000,,Mé jméno je Jóka.
+Dialogue: 0,0:03:48.55,0:03:51.11,Standard (12K),,0000,0000,0000,,Mám tu èest ti sloužit.
+Dialogue: 0,0:03:51.55,0:03:53.22,Standard (12K),,0000,0000,0000,,Dobrá, madam Jóko...
+Dialogue: 0,0:03:54.66,0:03:56.56,Standard (12K),,0000,0000,0000,,Øíkej mi prostì Jóka.
+Dialogue: 0,0:03:57.36,0:04:00.89,Standard (12K),,0000,0000,0000,,"Madam" se øíká pouze Madam Genkun.
+Dialogue: 0,0:04:01.10,0:04:02.26,Standard (12K),,0000,0000,0000,,Genkun?
+Dialogue: 0,0:04:02.37,0:04:04.20,Standard (12K),,0000,0000,0000,,Myslí Madam Gjokujó.
+Dialogue: 0,0:04:05.97,0:04:10.03,Standard (12K),,0000,0000,0000,,Jóko, proè jsi øíkala, že mì "vítáš zpátky"?
+Dialogue: 0,0:04:10.31,0:04:13.07,Standard (12K),,0000,0000,0000,,Pøivedli jste mì sem z naší zahrady.
+Dialogue: 0,0:04:13.58,0:04:16.07,Standard (12K),,0000,0000,0000,,Jsi pán hory Hó.
+Dialogue: 0,0:04:16.31,0:04:19.01,Standard (12K),,0000,0000,0000,,Narodil ses tu, Taiki.
+Dialogue: 0,0:04:19.88,0:04:21.71,Standard (12K),,0000,0000,0000,,Narodil jsem se tu?
+Dialogue: 0,0:04:24.39,0:04:29.12,Standard (12K),,0000,0000,0000,,Narodil ses z ovoce Tai, která vyrostla na tomto stromì.
+Dialogue: 0,0:04:29.29,0:04:31.69,Standard (12K),,0000,0000,0000,,Tentei ti dal život.
+Dialogue: 0,0:04:32.16,0:04:33.42,Standard (12K),,0000,0000,0000,,Z ovoce?
+Dialogue: 0,0:04:33.86,0:04:36.49,Standard (12K),,0000,0000,0000,,Vyloupl jsem se z ovoce?
+Dialogue: 0,0:04:46.11,0:04:49.81,Standard (12K),,0000,0000,0000,,Vìdìl jsem to. Nepatøil jsem ke své rodinì.
+Dialogue: 0,0:04:54.58,0:04:56.88,Standard (12K),,0000,0000,0000,,Proè nemá žádné kamarády?
+Dialogue: 0,0:04:57.39,0:05:00.52,Standard (12K),,0000,0000,0000,,Kaname, chovej se slušnì...
+Dialogue: 0,0:05:00.76,0:05:01.55,Standard (12K),,0000,0000,0000,,Dobøe?
+Dialogue: 0,0:05:02.16,0:05:06.49,Standard (12K),,0000,0000,0000,,Kdybys byl poslušný, babièka by se nezlobila.
+Dialogue: 0,0:05:07.16,0:05:09.69,Standard (12K),,0000,0000,0000,,Zasedli si na mì kvùli tobì!
+Dialogue: 0,0:05:10.23,0:05:12.13,Standard (12K),,0000,0000,0000,,Chci, abys zmizel!
+Dialogue: 0,0:05:14.80,0:05:18.67,Standard (12K),,0000,0000,0000,,Myslel jsem si, že jsou smutní kvùli mnì.
+Dialogue: 0,0:05:20.21,0:05:21.87,Standard (12K),,0000,0000,0000,,Mìl jsem pravdu...
+Dialogue: 0,0:05:23.25,0:05:26.55,Standard (12K),,0000,0000,0000,,Zrodil jsem se z plodu, co vyrostl na stromì...
+Dialogue: 0,0:05:27.18,0:05:29.58,Standard (12K),,0000,0000,0000,,Patøím sem...
+Dialogue: 0,0:05:35.63,0:05:36.59,Standard (12K),,0000,0000,0000,,Taiki?
+Dialogue: 0,0:05:36.93,0:05:40.56,Standard (12K),,0000,0000,0000,,Nemùžu se vrátit domù...
+Dialogue: 0,0:05:40.90,0:05:43.59,Standard (12K),,0000,0000,0000,,...nikdy...
+Dialogue: 0,0:05:45.27,0:05:49.50,Standard (12K),,0000,0000,0000,,Když se rozplakal, myslely jsme, že bude...
+Dialogue: 0,0:05:49.74,0:05:51.90,Standard (12K),,0000,0000,0000,,...chtít zpìt do Hórai.
+Dialogue: 0,0:05:54.94,0:05:58.61,Standard (12K),,0000,0000,0000,,Ale øekl, že se nemùže vrátit.
+Dialogue: 0,0:05:59.22,0:06:01.41,Standard (12K),,0000,0000,0000,,Možná si uvìdomil, že je Kirin...
+Dialogue: 0,0:06:01.99,0:06:05.48,Standard (12K),,0000,0000,0000,,Znìlo to, jako kdyby pøijal svùj osud.
+Dialogue: 0,0:06:16.63,0:06:18.03,Standard (12K),,0000,0000,0000,,Dobré ráno.
+Dialogue: 0,0:06:18.30,0:06:19.93,Standard (12K),,0000,0000,0000,,Probudil jsi se?
+Dialogue: 0,0:06:20.90,0:06:21.93,Standard (12K),,0000,0000,0000,,Ano.
+Dialogue: 0,0:07:09.79,0:07:10.34,Standard (12K),,0000,0000,0000,,Promiò...
+Dialogue: 0,0:07:11.05,0:07:14.99,Standard (12K),,0000,0000,0000,,Tohle všechno nemùžu sníst.
+Dialogue: 0,0:07:15.19,0:07:17.82,Standard (12K),,0000,0000,0000,,Nevadí, když nìco necháš.
+Dialogue: 0,0:07:18.23,0:07:19.89,Standard (12K),,0000,0000,0000,,A co Jóka a Sanši?
+Dialogue: 0,0:07:20.06,0:07:22.05,Standard (12K),,0000,0000,0000,,Sanši nepotøebuje jíst.
+Dialogue: 0,0:07:22.20,0:07:24.39,Standard (12K),,0000,0000,0000,,A já se už najedla.
+Dialogue: 0,0:07:24.90,0:07:27.50,Standard (12K),,0000,0000,0000,,Zaspal jsem? Proto jsi už po jídle?
+Dialogue: 0,0:07:27.77,0:07:31.71,Standard (12K),,0000,0000,0000,,Nemáme dovoleno s tebou jíst, Taiki.
+Dialogue: 0,0:07:31.94,0:07:35.27,Standard (12K),,0000,0000,0000,,Takže nemùžeme jíst spolu, ani kdybych vstal brzy?
+Dialogue: 0,0:07:35.38,0:07:36.44,Standard (12K),,0000,0000,0000,,Pøesnì tak.
+Dialogue: 0,0:07:46.49,0:07:50.32,Standard (12K),,0000,0000,0000,,Jestli je to tak, pak se nedá nic dìlat, ale...
+Dialogue: 0,0:07:50.73,0:07:51.59,Standard (12K),,0000,0000,0000,,Ano?
+Dialogue: 0,0:07:51.79,0:07:55.39,Standard (12K),,0000,0000,0000,,Myslím si, že je to trochu divné...
+Dialogue: 0,0:07:55.53,0:07:59.76,Standard (12K),,0000,0000,0000,,...když musím jíst sám, i když nejsem sám.
+Dialogue: 0,0:08:00.60,0:08:03.66,Standard (12K),,0000,0000,0000,,Chutnalo by mi lépe, kdybych nebyl sám.
+Dialogue: 0,0:08:05.54,0:08:06.57,Standard (12K),,0000,0000,0000,,Haló, všichni!
+Dialogue: 0,0:08:07.31,0:08:09.71,Standard (12K),,0000,0000,0000,,Máme pøestávku!
+Dialogue: 0,0:08:09.91,0:08:12.64,Standard (12K),,0000,0000,0000,,Taiki nás všechny pozval na snídani!
+Dialogue: 0,0:08:28.10,0:08:28.86,Standard (12K),,0000,0000,0000,,Promiò, prosím...
+Dialogue: 0,0:08:29.33,0:08:31.93,Standard (12K),,0000,0000,0000,,Ale co mám celý den dìlat?
+Dialogue: 0,0:08:32.27,0:08:33.29,Standard (12K),,0000,0000,0000,,Nic.
+Dialogue: 0,0:08:33.50,0:08:36.34,Standard (12K),,0000,0000,0000,,Užij si dnešní krásný den.
+Dialogue: 0,0:08:37.01,0:08:40.87,Standard (12K),,0000,0000,0000,,Mohl bys studovat vše o tomto svìtì.
+Dialogue: 0,0:08:41.51,0:08:44.04,Standard (12K),,0000,0000,0000,,Ale není tu žádná škola...
+Dialogue: 0,0:08:45.15,0:08:47.38,Standard (12K),,0000,0000,0000,,Nemáš mapu, prosím?
+Dialogue: 0,0:08:47.85,0:08:48.54,Standard (12K),,0000,0000,0000,,Mapu?
+Dialogue: 0,0:08:48.78,0:08:51.12,Standard (12K),,0000,0000,0000,,Chci vìdìt, kde jsem.
+Dialogue: 0,0:08:51.22,0:08:55.59,Standard (12K),,0000,0000,0000,,Mluvíš stejnou øeèí, jako já, takže...
+Dialogue: 0,0:09:00.40,0:09:02.69,Standard (12K),,0000,0000,0000,,Nevím, jestli najdu cestu zpátky.
+Dialogue: 0,0:09:03.03,0:09:04.90,Standard (12K),,0000,0000,0000,,Neboj, Sanši ji zná.
+Dialogue: 0,0:09:05.47,0:09:07.27,Standard (12K),,0000,0000,0000,,Je to tu jako v bludišti.
+Dialogue: 0,0:09:07.37,0:09:10.77,Standard (12K),,0000,0000,0000,,Jsi pán hory Hó, je to pro tvou ochranu.
+Dialogue: 0,0:09:10.97,0:09:13.07,Standard (12K),,0000,0000,0000,,Co myslíš tím "pán hory Hó"?
+Dialogue: 0,0:09:13.18,0:09:15.37,Standard (12K),,0000,0000,0000,,Jsi pánem paláce Hóro.
+Dialogue: 0,0:09:16.01,0:09:19.18,Standard (12K),,0000,0000,0000,,Nerozumím tomu, promiò.
+Dialogue: 0,0:09:19.28,0:09:19.87,Standard (12K),,0000,0000,0000,,Ne?
+Dialogue: 0,0:09:20.38,0:09:23.01,Standard (12K),,0000,0000,0000,,Tohle je palác Hóro, ne?
+Dialogue: 0,0:09:23.25,0:09:24.78,Standard (12K),,0000,0000,0000,,To je pravda.
+Dialogue: 0,0:09:24.92,0:09:27.25,Standard (12K),,0000,0000,0000,,Proè jsem pánem tohoto místa?
+Dialogue: 0,0:09:27.82,0:09:29.59,Standard (12K),,0000,0000,0000,,Jsem jenom...
+Dialogue: 0,0:09:29.79,0:09:32.32,Standard (12K),,0000,0000,0000,,Jsi Ki.
+Dialogue: 0,0:09:32.46,0:09:34.59,Standard (12K),,0000,0000,0000,,Proto jsi pánem hory Hó.
+Dialogue: 0,0:09:34.83,0:09:36.56,Standard (12K),,0000,0000,0000,,Co to je "Ki"?
+Dialogue: 0,0:09:36.83,0:09:40.23,Standard (12K),,0000,0000,0000,,Roste na tom stromì,\nco jsem ti ukazovala.
+Dialogue: 0,0:09:42.87,0:09:45.14,Standard (12K),,0000,0000,0000,,Sem nemohou ani Njokai.
+Dialogue: 0,0:09:45.78,0:09:48.97,Standard (12K),,0000,0000,0000,,Dnes mohu vstoupit, protože jsem s tebu.
+Dialogue: 0,0:10:01.99,0:10:06.76,Standard (12K),,0000,0000,0000,,V tomto svìtì je dvanáct království a každé má krále.
+Dialogue: 0,0:10:07.16,0:10:09.76,Standard (12K),,0000,0000,0000,,Dvanáct království a dvanáct králù.
+Dialogue: 0,0:10:10.40,0:10:14.77,Standard (12K),,0000,0000,0000,,Každému králi slouží Taiho, který...
+Dialogue: 0,0:10:14.94,0:10:16.46,Standard (12K),,0000,0000,0000,,...se rodí na Šašinboku.
+Dialogue: 0,0:10:18.07,0:10:22.14,Standard (12K),,0000,0000,0000,,Takže tu žijí další jako já?
+Dialogue: 0,0:10:22.75,0:10:24.91,Standard (12K),,0000,0000,0000,,Ano, jedenáct dalších Taihù.
+Dialogue: 0,0:10:25.48,0:10:28.35,Standard (12K),,0000,0000,0000,,Už jsi potkal Taiho království Ren, že ano?
+Dialogue: 0,0:10:31.79,0:10:33.38,Standard (12K),,0000,0000,0000,,Ta paní s náramkem?
+Dialogue: 0,0:10:33.49,0:10:34.98,Standard (12K),,0000,0000,0000,,Mùžu se s ní zase vidìt?
+Dialogue: 0,0:10:35.09,0:10:39.62,Standard (12K),,0000,0000,0000,,Až budeš žít v Tai, mùžeš se s ní opìt setkat.
+Dialogue: 0,0:10:39.80,0:10:40.82,Standard (12K),,0000,0000,0000,,Budu žít v Tai?
+Dialogue: 0,0:10:40.96,0:10:44.96,Standard (12K),,0000,0000,0000,,Až vybereš krále, odejdeš odsud do svého království...
+Dialogue: 0,0:10:45.20,0:10:47.69,Standard (12K),,0000,0000,0000,,...a budeš sloužit svému králi.
+Dialogue: 0,0:10:48.30,0:10:52.21,Standard (12K),,0000,0000,0000,,Staráme se o tebe, dokud ten den nepøijde.
+Dialogue: 0,0:10:53.74,0:10:55.71,Standard (12K),,0000,0000,0000,,Sloužit králi?
+Dialogue: 0,0:10:56.31,0:10:59.37,Standard (12K),,0000,0000,0000,,Nevím, jestli tak zodpovìdnou práci zvládnu.
+Dialogue: 0,0:10:59.62,0:11:01.48,Standard (12K),,0000,0000,0000,,Samozøejmì, že zvládneš.
+Dialogue: 0,0:11:02.08,0:11:04.58,Standard (12K),,0000,0000,0000,,Podívej, tam je království Tai.
+Dialogue: 0,0:11:05.45,0:11:09.69,Standard (12K),,0000,0000,0000,,Je tmavé, protože nemá krále a lid trpí.
+Dialogue: 0,0:11:09.83,0:11:11.19,Standard (12K),,0000,0000,0000,,Nemá krále?
+Dialogue: 0,0:11:11.33,0:11:12.06,Standard (12K),,0000,0000,0000,,Proè?
+Dialogue: 0,0:11:12.36,0:11:14.52,Standard (12K),,0000,0000,0000,,Pøedchozí král zemøel...
+Dialogue: 0,0:11:14.63,0:11:17.60,Standard (12K),,0000,0000,0000,,A nový zatím nebyl zvolen.
+Dialogue: 0,0:11:17.73,0:11:19.26,Standard (12K),,0000,0000,0000,,Kdo ho zvolí?
+Dialogue: 0,0:11:24.04,0:11:24.90,Standard (12K),,0000,0000,0000,,Já?
+Dialogue: 0,0:11:25.27,0:11:29.71,Standard (12K),,0000,0000,0000,,Ano, ty vybereš nového krále Tai.
+Dialogue: 0,0:11:31.28,0:11:35.18,Standard (12K),,0000,0000,0000,,Mohu uèinit tak dùležité rozhodnutí?
+Dialogue: 0,0:11:36.69,0:11:39.12,Standard (12K),,0000,0000,0000,,Jistì, proto jsi na svìtì.
+Dialogue: 0,0:11:39.49,0:11:43.62,Standard (12K),,0000,0000,0000,,Taiki, jen ty dokážeš poznat pravého krále.
+Dialogue: 0,0:11:45.13,0:11:49.93,Standard (12K),,0000,0000,0000,,Asi ani nevìdìl, co volba krále obnáší, že?
+Dialogue: 0,0:11:50.17,0:11:52.26,Standard (12K),,0000,0000,0000,,Nejspíš, ovšem...
+Dialogue: 0,0:11:52.40,0:11:56.03,Standard (12K),,0000,0000,0000,,...na život na hoøe Hó\nsi zvykl rychle.
+Dialogue: 0,0:11:56.41,0:11:59.74,Standard (12K),,0000,0000,0000,,Njosen mezi sebou soutìžily, aby s ním mohly poobìdvat.
+Dialogue: 0,0:12:00.34,0:12:05.25,Standard (12K),,0000,0000,0000,,Byl mnohem pøívìtivìjší než bývalý pán hory Hó.
+Dialogue: 0,0:12:06.05,0:12:07.98,Standard (12K),,0000,0000,0000,,Kdo byl bývalý pán Hó?
+Dialogue: 0,0:12:09.09,0:12:10.21,Standard (12K),,0000,0000,0000,,To jsem byl já.
+Dialogue: 0,0:12:14.89,0:12:15.88,Standard (12K),,0000,0000,0000,,Chápu...
+Dialogue: 0,0:12:29.44,0:12:30.43,Standard (12K),,0000,0000,0000,,Ale ne!
+Dialogue: 0,0:12:34.34,0:12:35.47,Standard (12K),,0000,0000,0000,,Chytilas mì!
+Dialogue: 0,0:12:39.42,0:12:41.88,Standard (12K),,0000,0000,0000,,Ze zaèátku jsem se o nìj bála...
+Dialogue: 0,0:12:42.45,0:12:47.35,Standard (12K),,0000,0000,0000,,Žádný Kirin nikdy nevyrùstal mimo horu Hó.
+Dialogue: 0,0:12:47.66,0:12:49.18,Standard (12K),,0000,0000,0000,,Každopádnì, Kirin je Kirin.
+Dialogue: 0,0:12:49.29,0:12:50.85,Standard (12K),,0000,0000,0000,,On není výjimkou.
+Dialogue: 0,0:12:51.59,0:12:54.32,Standard (12K),,0000,0000,0000,,Je možná trochu zvláštní, protože vyrostl v Hórai...
+Dialogue: 0,0:12:54.63,0:12:58.26,Standard (12K),,0000,0000,0000,,Napøíklad se vždy klaní, když nás vidí.
+Dialogue: 0,0:12:58.83,0:13:01.23,Standard (12K),,0000,0000,0000,,Taky nechce, abychom ho koupaly.
+Dialogue: 0,0:13:02.81,0:13:06.94,Standard (12K),,0000,0000,0000,,Není nijak nepøíjemný, takže je mi to jedno.
+Dialogue: 0,0:13:07.04,0:13:09.48,Standard (12K),,0000,0000,0000,,Nemluvte o nìm takhle!
+Dialogue: 0,0:13:09.65,0:13:12.31,Standard (12K),,0000,0000,0000,,Pravda je, že je mnohem milejší, než...
+Dialogue: 0,0:13:12.42,0:13:14.61,Standard (12K),,0000,0000,0000,,...než ostatní Kirini...
+Dialogue: 0,0:13:18.25,0:13:20.52,Standard (12K),,0000,0000,0000,,Jóka má nejradši Taikiho, že?
+Dialogue: 0,0:13:20.66,0:13:22.75,Standard (12K),,0000,0000,0000,,Co je na tom špatného?
+Dialogue: 0,0:13:28.63,0:13:32.36,Standard (12K),,0000,0000,0000,,Nemùžu se doèkat, až se ukáže ve zvíøecí podobì.
+Dialogue: 0,0:13:32.74,0:13:35.57,Standard (12K),,0000,0000,0000,,Je to urèitì krásný Kokki.
+Dialogue: 0,0:13:35.91,0:13:37.70,Standard (12K),,0000,0000,0000,,Vidìlas ho jako Kokki, Jóko?
+Dialogue: 0,0:13:39.18,0:13:40.23,Standard (12K),,0000,0000,0000,,Zatím ne...
+Dialogue: 0,0:13:40.41,0:13:43.85,Standard (12K),,0000,0000,0000,,Žil v Hórai dlouhou dobu.
+Dialogue: 0,0:13:44.15,0:13:46.91,Standard (12K),,0000,0000,0000,,Co když zapomnìl své zvíøecí instinkty?
+Dialogue: 0,0:13:48.58,0:13:49.88,Standard (12K),,0000,0000,0000,,Jóko!
+Dialogue: 0,0:13:50.29,0:13:51.65,Standard (12K),,0000,0000,0000,,Jóko!
+Dialogue: 0,0:13:51.99,0:13:53.11,Standard (12K),,0000,0000,0000,,Jóko!
+Dialogue: 0,0:13:58.09,0:13:59.22,Standard (12K),,0000,0000,0000,,Schovej mì!
+Dialogue: 0,0:14:01.13,0:14:03.26,Standard (12K),,0000,0000,0000,,Taiki má zase nejradši Jóku.
+Dialogue: 0,0:14:03.57,0:14:04.40,Standard (12K),,0000,0000,0000,,Pøesnì tak.
+Dialogue: 0,0:14:17.58,0:14:19.55,Standard (12K),,0000,0000,0000,,Bìžel támhle, Sanši.
+Dialogue: 0,0:14:19.68,0:14:22.01,Standard (12K),,0000,0000,0000,,Taiki bìžel tam.
+Dialogue: 0,0:14:35.06,0:14:36.83,Standard (12K),,0000,0000,0000,,Zase jsi mì našla!
+Dialogue: 0,0:14:43.21,0:14:46.47,Standard (12K),,0000,0000,0000,,Sanši, bìž ho vykoupat.
+Dialogue: 0,0:14:46.84,0:14:48.50,Standard (12K),,0000,0000,0000,,Brzy bude veèeøe.
+Dialogue: 0,0:14:49.61,0:14:51.24,Standard (12K),,0000,0000,0000,,Pojïme, Sanši.
+Dialogue: 0,0:14:59.12,0:15:02.06,Standard (12K),,0000,0000,0000,,Sanši ho má nejradši, že?
+Dialogue: 0,0:15:16.14,0:15:17.23,Standard (12K),,0000,0000,0000,,Promiòte.
+Dialogue: 0,0:15:17.34,0:15:19.33,Standard (12K),,0000,0000,0000,,Ušpinil jsem vodu?
+Dialogue: 0,0:15:20.08,0:15:23.24,Standard (12K),,0000,0000,0000,,Není nic èistšího, než voda, použitá Kirinem.
+Dialogue: 0,0:15:23.45,0:15:25.68,Standard (12K),,0000,0000,0000,,Jsem vdìèný, Taiki.
+Dialogue: 0,0:15:26.02,0:15:27.48,Standard (12K),,0000,0000,0000,,Proè to øíkáte?
+Dialogue: 0,0:15:27.82,0:15:30.38,Standard (12K),,0000,0000,0000,,Kirin je zvíøe, které nesnáší vše neèisté.
+Dialogue: 0,0:15:31.35,0:15:32.38,Standard (12K),,0000,0000,0000,,Zviøe?
+Dialogue: 0,0:15:32.79,0:15:34.59,Standard (12K),,0000,0000,0000,,Myslíte Sanši?
+Dialogue: 0,0:15:34.69,0:15:35.35,Standard (12K),,0000,0000,0000,,Ne.
+Dialogue: 0,0:15:36.39,0:15:37.52,Standard (12K),,0000,0000,0000,,Už rozumím...
+Dialogue: 0,0:15:37.66,0:15:39.42,Standard (12K),,0000,0000,0000,,Jsi Taika, že ano?
+Dialogue: 0,0:15:39.73,0:15:41.03,Standard (12K),,0000,0000,0000,,Už jsi se promìnil?
+Dialogue: 0,0:15:41.13,0:15:42.32,Standard (12K),,0000,0000,0000,,Promìnil?
+Dialogue: 0,0:15:42.46,0:15:43.43,Standard (12K),,0000,0000,0000,,Ano.
+Dialogue: 0,0:15:43.90,0:15:46.16,Standard (12K),,0000,0000,0000,,Mùžeš se promìòovat v Kirina.
+Dialogue: 0,0:15:46.30,0:15:48.33,Standard (12K),,0000,0000,0000,,To je tvá pravá podoba.
+Dialogue: 0,0:15:49.10,0:15:51.77,Standard (12K),,0000,0000,0000,,Kirin? Jako žirafy v Africe?
+Dialogue: 0,0:15:52.94,0:15:54.31,Standard (12K),,0000,0000,0000,,Pán Šinkun!
+Dialogue: 0,0:15:55.44,0:15:56.43,Standard (12K),,0000,0000,0000,,Šinkun?
+Dialogue: 0,0:15:59.05,0:16:01.45,Standard (12K),,0000,0000,0000,,Toto je Pán Kenró Šinkun...
+Dialogue: 0,0:16:01.62,0:16:05.21,Standard (12K),,0000,0000,0000,,...bùh, který ochraòuje pocestné v Kókai.
+Dialogue: 0,0:16:06.12,0:16:09.06,Standard (12K),,0000,0000,0000,,Pán Šinkun obèas pøichází...
+Dialogue: 0,0:16:09.19,0:16:12.29,Standard (12K),,0000,0000,0000,,...do paláce Hóro pro vodu a ryby.
+Dialogue: 0,0:16:14.80,0:16:18.20,Standard (12K),,0000,0000,0000,,Jóko, opravdu jsem zvíøe? Kirin?
+Dialogue: 0,0:16:18.53,0:16:19.56,Standard (12K),,0000,0000,0000,,To jsi.
+Dialogue: 0,0:16:19.84,0:16:23.77,Standard (12K),,0000,0000,0000,,Jsi Kirin království Tai, proto ti øíkáme Taiki.
+Dialogue: 0,0:16:24.21,0:16:28.23,Standard (12K),,0000,0000,0000,,Ale jsi mnohem cennìjší než obyèejné zvíøe.
+Dialogue: 0,0:16:28.44,0:16:31.85,Standard (12K),,0000,0000,0000,,Myslel jsem, že jsem èlovìk.
+Dialogue: 0,0:16:32.55,0:16:35.54,Standard (12K),,0000,0000,0000,,Nevìdìl jsem, že se mùžu promìòovat ve zvíøe.
+Dialogue: 0,0:16:37.69,0:16:39.45,Standard (12K),,0000,0000,0000,,Jak se to dìlá?
+Dialogue: 0,0:16:40.09,0:16:44.15,Standard (12K),,0000,0000,0000,,Nikdy jsi se nepromìnil, musíš být zmatený.
+Dialogue: 0,0:16:44.69,0:16:48.79,Standard (12K),,0000,0000,0000,,Tvoje vlasy se liší od našich, protože máš høívu.
+Dialogue: 0,0:16:49.00,0:16:53.66,Standard (12K),,0000,0000,0000,,Jóko, vezmu Pana Šinkuna do paláce Hoto.
+Dialogue: 0,0:16:53.90,0:16:55.96,Standard (12K),,0000,0000,0000,,Dej Taikimu veèeøi, ano?
+Dialogue: 0,0:16:56.11,0:16:58.34,Standard (12K),,0000,0000,0000,,Mùžu s vámi?
+Dialogue: 0,0:16:58.77,0:17:00.44,Standard (12K),,0000,0000,0000,,Bohužel ne.
+Dialogue: 0,0:17:00.61,0:17:02.77,Standard (12K),,0000,0000,0000,,Nemùžeš projít bránou Seijó.
+Dialogue: 0,0:17:03.01,0:17:05.41,Standard (12K),,0000,0000,0000,,Ale mùže s námi až k bránì, ne?
+Dialogue: 0,0:17:06.35,0:17:07.01,Standard (12K),,0000,0000,0000,,Pojï.
+Dialogue: 0,0:17:07.38,0:17:08.37,Standard (12K),,0000,0000,0000,,Mùžu?
+Dialogue: 0,0:17:23.73,0:17:26.50,Standard (12K),,0000,0000,0000,,Vadí ti, když se tì dotknu na èele, že?
+Dialogue: 0,0:17:27.27,0:17:28.20,Standard (12K),,0000,0000,0000,,Trochu ano...
+Dialogue: 0,0:17:28.44,0:17:30.13,Standard (12K),,0000,0000,0000,,To je v poøádku.
+Dialogue: 0,0:17:30.54,0:17:32.06,Standard (12K),,0000,0000,0000,,Tam máš svùj roh.
+Dialogue: 0,0:17:32.41,0:17:34.50,Standard (12K),,0000,0000,0000,,Roh je pro Kirina dùležitý.
+Dialogue: 0,0:17:34.88,0:17:38.18,Standard (12K),,0000,0000,0000,,A Kirin nemá rád, když se ho nìkdo dotkne.
+Dialogue: 0,0:17:39.52,0:17:42.97,Standard (12K),,0000,0000,0000,,Hlazení na hlavì jsem nikdy nemìl rád.
+Dialogue: 0,0:17:43.92,0:17:46.11,Standard (12K),,0000,0000,0000,,Takže jsem pøece jen Kirin...
+Dialogue: 0,0:17:46.92,0:17:48.36,Standard (12K),,0000,0000,0000,,Ovšemže jsi.
+Dialogue: 0,0:17:48.56,0:17:50.72,Standard (12K),,0000,0000,0000,,Až se promìníš, tak porozumíš.
+Dialogue: 0,0:17:51.49,0:17:53.98,Standard (12K),,0000,0000,0000,,Ale jak se promìním?
+Dialogue: 0,0:17:54.33,0:17:55.63,Standard (12K),,0000,0000,0000,,To nevím.
+Dialogue: 0,0:17:56.00,0:17:58.52,Standard (12K),,0000,0000,0000,,Je to Kirinova pøirozenost
+Dialogue: 0,0:17:58.83,0:18:03.57,Standard (12K),,0000,0000,0000,,Kirini vyrùstají na hoøe Hó v podobì Kirina.
+Dialogue: 0,0:18:04.14,0:18:07.17,Standard (12K),,0000,0000,0000,,V èlovìka se promìní, až když dospìjí.
+Dialogue: 0,0:18:07.31,0:18:10.34,Standard (12K),,0000,0000,0000,,Ale já jsem od narození èlovìk...
+Dialogue: 0,0:18:10.58,0:18:12.01,Standard (12K),,0000,0000,0000,,Co øíkala Genkun?
+Dialogue: 0,0:18:12.82,0:18:16.75,Standard (12K),,0000,0000,0000,,Je to tím, že je Kokki a Taika?
+Dialogue: 0,0:18:17.35,0:18:18.91,Standard (12K),,0000,0000,0000,,Prý ne.
+Dialogue: 0,0:18:19.49,0:18:21.98,Standard (12K),,0000,0000,0000,,Øekla jen, že to pøijde, až nastane èas...
+Dialogue: 0,0:18:36.04,0:18:36.80,Standard (12K),,0000,0000,0000,,Tenken!
+Dialogue: 0,0:18:42.61,0:18:45.08,Standard (12K),,0000,0000,0000,,Rokuto, stýskalo se ti?
+Dialogue: 0,0:18:49.08,0:18:52.18,Standard (12K),,0000,0000,0000,,Mám povolení od paní Genkun, ale...
+Dialogue: 0,0:18:52.82,0:18:56.12,Standard (12K),,0000,0000,0000,,Jóma v paláci Hóro mùže zpùsobit potíže.
+Dialogue: 0,0:18:56.79,0:18:58.78,Standard (12K),,0000,0000,0000,,Takže bydlíme v paláci za branou.
+Dialogue: 0,0:19:00.90,0:19:02.59,Standard (12K),,0000,0000,0000,,Nechoï dál.
+Dialogue: 0,0:19:03.70,0:19:06.63,Standard (12K),,0000,0000,0000,,Nesmíš odejít z paláce Hóro.
+Dialogue: 0,0:19:23.49,0:19:25.39,Standard (12K),,0000,0000,0000,,Co to dìláš, Taiki?
+Dialogue: 0,0:19:25.92,0:19:30.42,Standard (12K),,0000,0000,0000,,Kirin má dlouhý krk, který dosáhne až ke stropu.
+Dialogue: 0,0:19:30.53,0:19:33.83,Standard (12K),,0000,0000,0000,,Možná se promìním, když si natáhnu krk...
+Dialogue: 0,0:19:34.20,0:19:36.89,Standard (12K),,0000,0000,0000,,Kirin nemá tak dlouhý krk.
+Dialogue: 0,0:19:37.57,0:19:38.79,Standard (12K),,0000,0000,0000,,Vážnì ne?
+Dialogue: 0,0:19:41.30,0:19:43.77,Standard (12K),,0000,0000,0000,,Jsem jiný, než ostatní Kirini.
+Dialogue: 0,0:19:44.21,0:19:46.17,Standard (12K),,0000,0000,0000,,Ne, to urèitì nejsi.
+Dialogue: 0,0:19:46.68,0:19:51.17,Standard (12K),,0000,0000,0000,,Kirin má obvykle zlaté vlasy jako Taiho Ren.
+Dialogue: 0,0:19:51.55,0:19:53.45,Standard (12K),,0000,0000,0000,,Taiki, ty jsi èerný Kirin.
+Dialogue: 0,0:19:53.88,0:19:55.82,Standard (12K),,0000,0000,0000,,Èerný Kirin je velmi vzácný...
+Dialogue: 0,0:19:55.95,0:19:58.42,Standard (12K),,0000,0000,0000,,Øíká se, že království pøinese ohromné štìstí.
+Dialogue: 0,0:19:59.19,0:20:01.85,Standard (12K),,0000,0000,0000,,Jednou se promìníš v krásného Kirina.
+Dialogue: 0,0:20:02.36,0:20:03.29,Standard (12K),,0000,0000,0000,,Myslíš?
+Dialogue: 0,0:20:03.43,0:20:05.42,Standard (12K),,0000,0000,0000,,Urèitì, vím to.
+Dialogue: 0,0:20:06.23,0:20:08.82,Standard (12K),,0000,0000,0000,,Ale já ani nevím, jak se promìnit...
+Dialogue: 0,0:20:09.00,0:20:12.30,Standard (12K),,0000,0000,0000,,Promiò, na to ti nedokážu odpovìdìt...
+Dialogue: 0,0:20:18.11,0:20:21.17,Standard (12K),,0000,0000,0000,,Ještì nikdy se nic takového nestalo.
+Dialogue: 0,0:20:21.74,0:20:25.37,Standard (12K),,0000,0000,0000,,Je mi moc líto, že se nedokáže promìnit.
+Dialogue: 0,0:20:25.61,0:20:26.71,Standard (12K),,0000,0000,0000,,Ale...
+Dialogue: 0,0:20:26.92,0:20:30.01,Standard (12K),,0000,0000,0000,,O letním slunovratu pøijdou lidé z Tai...
+Dialogue: 0,0:20:30.69,0:20:32.92,Standard (12K),,0000,0000,0000,,...doufajíce, že si je Kirin vybere za krále.
+Dialogue: 0,0:20:33.46,0:20:37.41,Standard (12K),,0000,0000,0000,,Pozná Kirin krále, když se ani neumí promìnit?
+Dialogue: 0,0:20:50.04,0:20:53.24,Standard (12K),,0000,0000,0000,,Nemùžu jít za tu bránu, že?
+Dialogue: 0,0:20:54.01,0:20:55.53,Standard (12K),,0000,0000,0000,,A co támhle nahoru?
+Dialogue: 0,0:21:19.27,0:21:21.00,Standard (12K),,0000,0000,0000,,To je palác Hoto.
+Dialogue: 0,0:21:21.84,0:21:24.43,Standard (12K),,0000,0000,0000,,Jestlipak už odjel...
+Dialogue: 0,0:21:25.87,0:21:28.87,Standard (12K),,0000,0000,0000,,Sanši, ty se umíš promìòovat?
+Dialogue: 0,0:21:29.44,0:21:31.71,Standard (12K),,0000,0000,0000,,Njokai se nepromìòuje.
+Dialogue: 0,0:21:31.91,0:21:35.58,Standard (12K),,0000,0000,0000,,Kirin to dokáže, protože ovládá zvláštní síly.
+Dialogue: 0,0:21:36.12,0:21:39.65,Standard (12K),,0000,0000,0000,,Nìkteøí Jóma se také dokáží promìòovat v lidi.
+Dialogue: 0,0:21:39.76,0:21:43.59,Standard (12K),,0000,0000,0000,,Ale Jóma jsou vìtšinou zlí.
+Dialogue: 0,0:21:43.99,0:21:44.96,Standard (12K),,0000,0000,0000,,A co Kirini?
+Dialogue: 0,0:21:45.06,0:21:49.19,Standard (12K),,0000,0000,0000,,Kirin není ani Jóma, ani Jódžú.
+Dialogue: 0,0:21:49.36,0:21:50.76,Standard (12K),,0000,0000,0000,,Kirin je svatý tvor.
+Dialogue: 0,0:21:50.97,0:21:53.49,Standard (12K),,0000,0000,0000,,Pouze král Tai a sami bohové...
+Dialogue: 0,0:21:53.64,0:21:55.90,Standard (12K),,0000,0000,0000,,...jsou ušlechtilejší než ty.
+Dialogue: 0,0:21:57.04,0:22:01.34,Standard (12K),,0000,0000,0000,,Gjokujó øíkáme "Madam" pouze ze zdvoøilosti.
+Dialogue: 0,0:22:01.48,0:22:02.57,Standard (12K),,0000,0000,0000,,Sanši.
+Dialogue: 0,0:22:02.68,0:22:04.77,Standard (12K),,0000,0000,0000,,Dáš mu broskev?
+Dialogue: 0,0:22:06.08,0:22:08.02,Standard (12K),,0000,0000,0000,,Zùstaò tady, prosím.
+Dialogue: 0,0:22:08.18,0:22:08.98,Standard (12K),,0000,0000,0000,,Dobøe.
+Dialogue: 0,0:22:25.00,0:22:26.33,Standard (12K),,0000,0000,0000,,To je Rokuta.
+Dialogue: 0,0:22:26.84,0:22:29.30,Standard (12K),,0000,0000,0000,,Ahoj, Rokuto!
+Dialogue: 0,0:22:43.59,0:22:44.95,Standard (12K),,0000,0000,0000,,Mám ho!
+Dialogue: 0,0:22:45.59,0:22:47.58,Standard (12K),,0000,0000,0000,,Budu nový král Tai!
+Dialogue: 0,0:22:48.39,0:22:49.55,Standard (12K),,0000,0000,0000,,Krev...
+Dialogue: 0,0:22:51.09,0:22:52.42,Standard (12K),,0000,0000,0000,,To ne...
+Dialogue: 0,0:22:54.00,0:22:56.49,Standard (12K),,0000,0000,0000,,Kirin nesnáší pohled na krev.
+Dialogue: 0,0:22:57.13,0:23:02.76,Standard (12K),,0000,0000,0000,,Dokonce i když je jeho vlastní, mùže omdlít.
+Dialogue: 0,0:23:03.44,0:23:07.07,Standard (12K),,0000,0000,0000,,Taiki si myslel, že je slabý...
+Dialogue: 0,0:23:07.28,0:23:10.77,Standard (12K),,0000,0000,0000,,Ale ve skuteènosti je to Kirinova pøirozenost.
+Dialogue: 0,0:24:50.35,0:24:54.34,Standard (12K),,0000,0000,0000,,Nemùže si pomoci, stýská se mu po druhém svìtì.
+Dialogue: 0,0:24:54.58,0:24:56.92,Standard (12K),,0000,0000,0000,,Pøemýšlí, jestli už u nás kvetou hortenzie...
+Dialogue: 0,0:24:57.09,0:24:59.28,Standard (12K),,0000,0000,0000,,Dvanáct království, Epizoda 17...
+Dialogue: 0,0:24:59.39,0:25:02.69,Standard (12K),,0000,0000,0000,,Moøský Vítr, Pobøeží Labyrintu, Kapitola tøetí.
+Dialogue: 0,0:24:58.54,0:25:06.50,ep-title (12K),,0000,0000,0000,,{\fscx110}{\pos(256,106)}{\be1}Epizoda 17
+Dialogue: 0,0:24:58.54,0:25:06.50,ep-title (12K),,0000,0000,0000,,{\1c&H375E26&}{\be1}{\pos(256,160)}Moøský Vítr, Pobøeží Labyrintu
+Dialogue: 0,0:24:58.54,0:25:06.50,ep-title (12K),,0000,0000,0000,,{\1c&H375E26&}{\be1}{\pos(256,221)}Kapitola tøetí

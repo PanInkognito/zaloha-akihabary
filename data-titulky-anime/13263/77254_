@@ -1,0 +1,520 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: sign_94_1_Gintama,Open Sans Semibold,38,&H001000D0,&H000000FF,&H0000FAFD,&H00080003,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_106_2_Recap,Open Sans Semibold,35,&H001000D0,&H000000FF,&H0000FAFD,&H00080003,1,0,0,0,100,100,0,0,1,2,1,2,27,27,20,0
+Style: sign_1329_22_Two_Years_Later_,Open Sans Semibold,35,&H00000000,&H000000FF,&H00FBFBFB,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,24,0
+Style: sign_1449_25_World_Chunin_Hun,Open Sans Semibold,29,&H00293847,&H000000FF,&H00E0F1F0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,45,0
+Style: sign_2702_46_Slip_Arc,Open Sans Semibold,32,&H0022201D,&H000000FF,&H00FFFFFE,&H0047343F,1,0,0,0,100,100,0,0,1,2,2,8,347,347,257,0
+Style: sign_2574_40_Shogun_Assassina,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,36,595,143,0
+Style: sign_2577_41_Farewell_Shinsen,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,320,328,144,0
+Style: sign_2605_42_Battle_on_Rakuyo,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,495,219,145,0
+Style: sign_2628_43_Final_Arc_,Open Sans Semibold,29,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,401,292,187,0
+Style: sign_2818_48_Kabuki_District_,Open Sans Semibold,22,&H0047606F,&H000000FF,&H00DADDD5,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,644,27,27,0
+Style: sign_2844_49_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H003F4D6E,&H000000FF,&H00D5E6D9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,520,185,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: sign_5754_66_Watch_the_Slip_A,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_8447_103_Hair_Growth_Powd,Open Sans Semibold,24,&H001F2122,&H000000FF,&H00EFEFF3,&H004B41BF,0,0,0,0,100,100,0,0,1,2,1,7,320,27,24,0
+Style: sign_8447_104_Toasty,Open Sans Semibold,35,&H00131F24,&H000000FF,&H00E3F3F3,&H003BE1ED,1,0,0,0,100,100,0,0,1,2,2,8,280,436,247,0
+Style: sign_8447_105_A_magical_way_to,Open Sans Semibold,24,&H00283A40,&H000000FF,&H00F1F2F1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,521,27,235,0
+Style: sign_8447_106_Boom,Open Sans Semibold,41,&H004223D4,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,160,144,19,0
+Style: sign_9203_118_To_Kagura_chan,Open Sans Semibold,35,&H001A2929,&H000000FF,&H00E6FFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_9577_124_To_Kagura_chan__,Open Sans Semibold,29,&H00151913,&H000000FF,&H00D8DDD8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,167,13,45,0
+Style: sign_10426_135_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H002E3C3D,&H000000FF,&H00E2EDF4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,343,200,160,0
+Style: sign_12847_174_Boyfriend_DEATH,Open Sans Semibold,38,&H0020BCDB,&H000000FF,&H00121412,&H00141114,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_14806_206_Earth,Open Sans Semibold,38,&H00F07C4B,&H000000FF,&H00F9FFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,27,27,161,0
+Style: sign_14847_209_Dirth,Open Sans Semibold,38,&H003EFFFF,&H000000FF,&H000C0C07,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,27,27,161,0
+Style: sign_28297_417_Great_Nature_Dei,Open Sans Semibold,35,&H000B0B0B,&H000000FF,&H00F4F4F4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: sign_8096_97_Forgive_me__Dadd,Open Sans Semibold,35,&H000F120F,&H000000FF,&H0088908C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: road safety,Open Sans Semibold,29,&H004F6322,&H000000FF,&H00DDD8D2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,393,24,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.89,0:00:06.86,sign_94_1_Gintama,Sign,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:04.42,0:00:06.86,sign_106_2_Recap,Sign,0000,0000,0000,,{\fad(710,1)}Celý příběh až do teď
+Dialogue: 0,0:00:08.47,0:00:09.75,Internal,Shin,0000,0000,0000,,Země samurajů.
+Dialogue: 0,0:00:10.30,0:00:14.86,Internal,Shin,0000,0000,0000,,Před dávnými časy nás tak nazývali.
+Dialogue: 0,0:00:16.05,0:00:18.61,Internal,Shin,0000,0000,0000,,Naší Zemi pohltila Velká Éra Pirátů!
+Dialogue: 0,0:00:19.43,0:00:23.75,Internal,Shin,0000,0000,0000,,Sled událostí zapříčinil, že náš hrdina Gin-san \Nsnědl ovoce Vlna Vlna a vlasy na jeho hlavě začaly kudrnatět,
+Dialogue: 0,0:00:23.75,0:00:25.94,Internal,Shin,0000,0000,0000,, rohzodl se vyřešit svoje probémy penězmi
+Dialogue: 0,0:00:25.94,0:00:28.37,Internal,Shin,0000,0000,0000,,a dal se na cestu za Pokladem Krále pirátů.
+Dialogue: 0,0:00:25.94,0:00:30.30,sign_8447_106_Boom,,0000,0000,0000,,Boom!
+Dialogue: 0,0:00:28.37,0:00:30.30,Main,Gin,0000,0000,0000,,Budu králem zbohatlíků!
+Dialogue: 0,0:00:30.85,0:00:31.84,Internal,Shin,0000,0000,0000,,Na svých cestách
+Dialogue: 0,0:00:31.84,0:00:34.51,Internal,,0000,0000,0000,,potkal dívku, která hledala sedm koulí\Nk přivolání zářícího draka.
+Dialogue: 0,0:00:34.51,0:00:36.81,Internal,,0000,0000,0000,,Nádhernou Kaguru-chan.
+Dialogue: 0,0:00:36.81,0:00:38.39,Main,Kag,0000,0000,0000,,Zažiješ se mnou romantiku.
+Dialogue: 0,0:00:38.93,0:00:41.86,Internal,Shin,0000,0000,0000,,Na jeho cestě se k němu\N připojila i obrýlená příšera.
+Dialogue: 0,0:00:41.86,0:00:42.89,Main,Shin,0000,0000,0000,,Shinpachu!
+Dialogue: 0,0:00:42.89,0:00:46.09,Main,Kag,0000,0000,0000,,Jé, ty jsi ale přátelské brýle!
+Dialogue: 0,0:00:46.09,0:00:49.57,Main,Gin,0000,0000,0000,,Hej Shimpachu,  sežeň někde\NJapari Bus. Už mě bolej nohy.
+Dialogue: 0,0:00:49.57,0:00:51.40,Internal,Shin,0000,0000,0000,,Všichni spolupracovali
+Dialogue: 0,0:00:53.11,0:00:55.40,Internal,Shin,0000,0000,0000,,a společnými silami porazili pána zla,
+Dialogue: 0,0:00:55.40,0:00:57.41,sign_1329_22_Two_Years_Later_,Sign,0000,0000,0000,,Po dvou letech...
+Dialogue: 0,0:00:55.95,0:00:57.41,Internal,Shin,0000,0000,0000,,po dvou letech,
+Dialogue: 0,0:00:58.17,0:01:00.41,Internal,Shin,0000,0000,0000,,se tito zři znovu setkali\Nna souostroví Jabondy
+Dialogue: 0,0:01:00.41,0:01:04.16,sign_1449_25_World_Chunin_Hun,Sign,0000,0000,0000,,Světová Chuninská Hunter Hrdinská Zkouška
+Dialogue: 0,0:01:00.83,0:01:05.58,Internal,Shin,0000,0000,0000,, a chystali se čelit Světové\NChuninské Hunter Hrdinské Zkoušce...
+Dialogue: 0,0:01:06.00,0:01:07.17,Main,Shin,0000,0000,0000,,Děláte si ze mě srandu?
+Dialogue: 0,0:01:07.55,0:01:09.50,Main,Shin,0000,0000,0000,,Co to je za rekapitulaci?!
+Dialogue: 0,0:01:09.50,0:01:13.93,Main,Gin,0000,0000,0000,,Víš, poslední dobou jsme měli na programu jen\Nhromadu dlouhejch arců, znovuvysílání a přestávek
+Dialogue: 0,0:01:13.93,0:01:17.18,Main,Gin,0000,0000,0000,,a jak jsem to sepisoval, napadlo mě,\Nže bysme si měli letmo připomenout celej příběh.
+Dialogue: 0,0:01:17.18,0:01:18.82,Main,Shin,0000,0000,0000,,Je to text plnej lží!
+Dialogue: 0,0:01:18.82,0:01:20.68,Main,Shin,0000,0000,0000,,Vynechal jsi tolik důležitejch věcí!
+Dialogue: 0,0:01:20.68,0:01:23.89,Main,Kag,0000,0000,0000,,Příběh se zhruba takhle vyvíjel,
+Dialogue: 0,0:01:23.89,0:01:27.64,Main,Kag,0000,0000,0000,,Například v posledním dlouhým arcu\Njsme letěli na planetu daleko ve vesmíru
+Dialogue: 0,0:01:27.64,0:01:32.09,Main,Kag,0000,0000,0000,,a soupeřii s bojovnou rasou, jejichž silné\Nemoce probudili jejich obrovskou moc.
+Dialogue: 0,0:01:32.09,0:01:34.53,Main,Shin,0000,0000,0000,,Jo, je na tom něco pravdy, ale...
+Dialogue: 0,0:01:34.53,0:01:38.57,Main,Shin,0000,0000,0000,,Sakra v podstatě jste vy dva hvězdy toho arcu.\NVážně to chcete takhle shrnout?
+Dialogue: 0,0:01:39.66,0:01:40.72,Main,Shin,0000,0000,0000,,Poslouchejte.
+Dialogue: 0,0:01:41.17,0:01:45.67,Main,Shin,0000,0000,0000,,Nenaučili jsme se žádnou Něcohameha a\Nani jsme se nestali žádnejma vládcema.
+Dialogue: 0,0:01:45.67,0:01:47.33,Main,Shin,0000,0000,0000,,Na nic takovýho se vůbec nehodíme!
+Dialogue: 0,0:01:47.33,0:01:48.48,sign_2574_40_Shogun_Assassina,Sign,0000,0000,0000,,Atentát na\NShoguna
+Dialogue: 0,0:01:47.48,0:01:48.50,sign_2577_41_Farewell_Shinsen,Sign,0000,0000,0000,,Sbohem\NShinsengumi
+Dialogue: 0,0:01:47.78,0:01:52.04,Main,Shin,0000,0000,0000,,Původně jsme měli začít poslední dlouhej ark,
+Dialogue: 0,0:01:48.62,0:01:49.21,sign_2605_42_Battle_on_Rakuyo,Sign,0000,0000,0000,,Bitva na\NRakuyo
+Dialogue: 0,0:01:49.58,0:01:51.13,sign_2628_43_Final_Arc_,Sign,0000,0000,0000,,Poslední Ark?
+Dialogue: 0,0:01:52.04,0:01:54.34,Main,Shin,0000,0000,0000,,ale prostě se stalo a teď jsme tady.
+Dialogue: 0,0:01:52.69,0:01:54.34,sign_2702_46_Slip_Arc,Sign,0000,0000,0000,,Porori Ark
+Dialogue: 0,0:01:54.34,0:01:57.95,Main,Shin,0000,0000,0000,,Gin-sane, v podstatě jsi jen chlap s\Ntrvalou a mrtvejma rybíma očima.
+Dialogue: 0,0:01:57.53,0:02:00.34,sign_2818_48_Kabuki_District_,Sign,0000,0000,0000,,Kabukicho
+Dialogue: 0,0:01:57.95,0:02:00.97,Main,Shin,0000,0000,0000,,Vedeš business Yorozuyi v Kabukichu.
+Dialogue: 0,0:01:58.61,0:02:00.34,sign_2844_49_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:02:00.97,0:02:03.27,Main,Shin,0000,0000,0000,,Kaguro-chan, jsi jedna z Yato, bojové rasy,
+Dialogue: 0,0:02:03.27,0:02:05.60,Main,Shin,0000,0000,0000,,žrout, kterej s sebou\Npořád nosí svůj deštník.
+Dialogue: 0,0:02:05.60,0:02:07.23,Main,Shin,0000,0000,0000,,A já, Shinpachi,
+Dialogue: 0,0:02:07.60,0:02:10.10,Main,Shin,0000,0000,0000,,jsem ve 3D Suda Masaki.
+Dialogue: 0,0:02:10.54,0:02:13.90,Main,Bo,0000,0000,0000,,Jak dlouho ještě hodláš mlet\No tom hraným filmu?
+Dialogue: 0,0:02:13.90,0:02:17.34,Main,Gin,0000,0000,0000,,Už dost s těma nesmyslama o Sudovi!\NUž zádný Granbluování!
+Dialogue: 0,0:02:17.34,0:02:20.20,Main,Kag,0000,0000,0000,,Víš, čím víc to budeš dělat,\Ntím větší budeš ubožák.
+Dialogue: 0,0:02:20.20,0:02:21.49,Main,Kag,0000,0000,0000,,Otevři oči!
+Dialogue: 0,0:02:21.49,0:02:25.37,Main,Shin,0000,0000,0000,,Ale já se toho musim chytit a\Nvytvořit si image rajcovního krasavce!
+Dialogue: 0,0:02:25.37,0:02:27.25,Main,Kag,0000,0000,0000,,To co dělaj ostatní nás nezajímá!
+Dialogue: 0,0:02:27.25,0:02:29.33,Main,Gin,0000,0000,0000,,No tak! Už konečně pust'te to anime!
+Dialogue: 0,0:02:29.33,0:02:29.87,Main,Bo,0000,0000,0000,,Jo..
+Dialogue: 0,0:02:35.63,0:02:41.64,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:02:37.99,0:02:41.64,Slip Arc,OP Card,0000,0000,0000,,Porori ark
+Dialogue: 0,0:03:58.00,0:04:00.70,Default,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:03:59.98,0:04:05.53,sign_5754_66_Watch_the_Slip_A,Warning,0000,0000,0000,,{\fad(635,535)}Sledujte Gintamu v dobře osvětlené místnosti a\Nv dostatečné vzdálenosti od TV!
+Dialogue: 0,0:04:01.13,0:04:05.84,Main,UB,0000,0000,0000,,{\an8}Jo, se světlem na Zemi se\Nnedá moc dobře vypořádat.
+Dialogue: 0,0:04:06.90,0:04:08.72,Main,UB,0000,0000,0000,,Jakobych měl každou chvíli oplešatět.
+Dialogue: 0,0:04:09.33,0:04:14.26,Main,UB,0000,0000,0000,,Země opravdu není místo,\Nkde by mohli žít Yato.
+Dialogue: 0,0:04:14.26,0:04:18.36,Main,UB,0000,0000,0000,,Kagura-chan říkala, že jí to nevadí,\Nale opravdu bude v pořádku?
+Dialogue: 0,0:04:19.23,0:04:21.30,Main,UB,0000,0000,0000,,Jistě, teď se jí možná vede dobře,
+Dialogue: 0,0:04:21.30,0:04:24.22,Main,UB,0000,0000,0000,,ale co když se dlouhý pobyt na\Ntýhle planetě podepíše na jejím těle—
+Dialogue: 0,0:04:24.22,0:04:26.07,Main,G,0000,0000,0000,,Hej, dívej na něj.
+Dialogue: 0,0:04:26.07,0:04:29.50,Main,G,0000,0000,0000,,Ten dědek má děštník, i když vůbec neprší.
+Dialogue: 0,0:04:29.50,0:04:33.64,Main,G,0000,0000,0000,,Potřeboval by trochu slunce a \Nfotosyntézu, nebo tak něco.
+Dialogue: 0,0:04:33.64,0:04:34.58,Main,G,0000,0000,0000,,Pomohlo by mu to s vlasama.
+Dialogue: 0,0:04:34.58,0:04:36.41,Main,UB,0000,0000,0000,,Hej!
+Dialogue: 0,0:04:37.21,0:04:38.98,Main,UB,0000,0000,0000,,Co se vám to pro lásku boží stalo?
+Dialogue: 0,0:04:38.98,0:04:40.85,Main,UB,0000,0000,0000,,Vaše těla jsou celý spálený na uhel!
+Dialogue: 0,0:04:40.85,0:04:42.60,Main,Punk,0000,0000,0000,,Co myslíš, že děláš dědku?
+Dialogue: 0,0:04:42.60,0:04:45.17,Main,UB,0000,0000,0000,,Vydržte! Zavolám vám záchranku!
+Dialogue: 0,0:04:45.17,0:04:46.30,Main,G,0000,0000,0000,,Ne, radši zavolej policajty!
+Dialogue: 0,0:04:46.30,0:04:47.85,Main,G,0000,0000,0000,,Pomožte nám někdo!
+Dialogue: 0,0:04:49.85,0:04:52.10,Internal,UB,0000,0000,0000,,Je to tu oopravdu nebezpečné.
+Dialogue: 0,0:04:52.10,0:04:55.13,Internal,UB,0000,0000,0000,,Pokud tu Kagura-chan zůstane,\Njednoho dne...
+Dialogue: 0,0:04:55.13,0:04:59.98,Internal,UB,0000,0000,0000,,Možná skončí jako spálená seškvařená troska\N a domů si přivede spálenýho přítele.
+Dialogue: 0,0:05:00.98,0:05:03.13,Main,TB,0000,0000,0000,,Už známe termín.
+Dialogue: 0,0:05:03.13,0:05:06.99,Internal,UB,0000,0000,0000,,Možná ve svém lůně stvoří\Nnový spálený život.
+Dialogue: 0,0:05:06.99,0:05:11.45,Internal,UB,0000,0000,0000,,Nebudeme mít na výbeběr a svatbu budeme \Nmuset kvůli dítěti pořádat narychlo.
+Dialogue: 0,0:05:11.45,0:05:15.25,Internal,UB,0000,0000,0000,,Ale po několika měsicích bude \Njejí manželský život spálený.
+Dialogue: 0,0:05:15.57,0:05:17.50,Main,TB,0000,0000,0000,,Všechno je to připálený!
+Dialogue: 0,0:05:18.17,0:05:21.50,Internal,UB,0000,0000,0000,,Neschopná postarat se o \Nsebe a svoje dítě jakožto spálená matka...
+Dialogue: 0,0:05:23.09,0:05:27.06,Main,Kag,0000,0000,0000,,Oh pane. Celý jste tak spálený.
+Dialogue: 0,0:05:27.06,0:05:29.63,Internal,UB,0000,0000,0000,,Začne pracovat v pochybném businessu.
+Dialogue: 0,0:05:29.63,0:05:32.27,Internal,UB,0000,0000,0000,,Nakonec bude i její srdce spálené na popel a...
+Dialogue: 0,0:05:33.14,0:05:36.46,Main,Cop,0000,0000,0000,,Našli jsme spálenou závěť.
+Dialogue: 0,0:05:37.64,0:05:39.40,sign_8096_97_Forgive_me__Dadd,Sign,0000,0000,0000,,Odpusť mi, tatínku.
+Dialogue: 0,0:05:39.40,0:05:40.65,Main,UB,0000,0000,0000,,Tak takhle ne!
+Dialogue: 0,0:05:40.65,0:05:43.78,Main,UB,0000,0000,0000,,Tatínek nesmí dovolit žádné opálení!
+Dialogue: 0,0:05:44.14,0:05:46.78,Main,UB,0000,0000,0000,,Pokud tu zůstane, všechno shoří!
+Dialogue: 0,0:05:47.15,0:05:50.52,Main,UB,0000,0000,0000,,Musím ji vzít domů, \Nnež se všechno změní na popel!
+Dialogue: 0,0:05:50.52,0:05:51.65,Main,G,0000,0000,0000,,Hej, pane.
+Dialogue: 0,0:05:52.28,0:05:59.79,sign_8447_103_Hair_Growth_Powd,Sign,0000,0000,0000,,Prášek pro růst vlasů\N{\fs26\b1}Černé jako uhel{\b0}\N{\fs16}Skvělé řešení jak zakrýt vypadávání vlasů\N{\fs\c&H4223d4&\fs18}Zdarma k vyzkoušení
+Dialogue: 0,0:05:52.71,0:05:55.53,Main,G,0000,0000,0000,,Máme tu pár vzorků pro zákazníky.
+Dialogue: 0,0:05:55.53,0:05:56.80,Main,G,0000,0000,0000,,Nechcete to vyzkoušet?
+Dialogue: 0,0:05:56.80,0:05:59.79,Main,G,0000,0000,0000,,Jedno šplíchnutí a vaše hlava \Nbude jako spálená na uhel.
+Dialogue: 0,0:05:59.79,0:06:01.29,Main,UB,0000,0000,0000,,Nemůžu to přijmout!
+Dialogue: 0,0:06:01.29,0:06:04.34,Main,UB,0000,0000,0000,,Jedině tatínkova hlava může být spálená!
+Dialogue: 0,0:06:04.34,0:06:07.80,Main,UB,0000,0000,0000,,To satčí! \NTatínek už má na své hlavě dost vlasů!
+Dialogue: 0,0:06:07.80,0:06:11.35,Main,UB,0000,0000,0000,,At' už to jsou tatínkovy vlasy,\Nnebo tvůj život tady na Zemi, tohe je až příliš!
+Dialogue: 0,0:06:11.35,0:06:14.39,Main,UB,0000,0000,0000,,Měla bys dát tomuhle prohnilýmu \Nmístu poslední sbohem...
+Dialogue: 0,0:06:15.83,0:06:17.89,Internal,UB,0000,0000,0000,,To je Kagura-chan.
+Dialogue: 0,0:06:18.30,0:06:22.35,Internal,UB,0000,0000,0000,,Díky Bohu. \NZdá se, že se ještě nestihla spálit.
+Dialogue: 0,0:06:23.82,0:06:25.19,sign_9203_118_To_Kagura_chan,Sign,0000,0000,0000,,Kagura-chan
+Dialogue: 0,0:06:23.82,0:06:25.40,Main,Boy,0000,0000,0000,,Um, tady máš.
+Dialogue: 0,0:06:29.29,0:06:32.29,Main,Boy,0000,0000,0000,,Nemusíš na to odpovídat hned.
+Dialogue: 0,0:06:32.29,0:06:32.85,Main,Boy,0000,0000,0000,,Ahoj.
+Dialogue: 0,0:06:32.85,0:06:34.25,Main,Kag,0000,0000,0000,,Hej, počkej.
+Dialogue: 0,0:06:35.87,0:06:38.04,Main,Kag,0000,0000,0000,,Co to je?
+Dialogue: 0,0:06:38.04,0:06:39.42,Main,Kag,0000,0000,0000,,Tak se podívejme...
+Dialogue: 0,0:06:39.42,0:06:41.16,Main,Kag,0000,0000,0000,,Drahá Kaguro-chan...
+Dialogue: 0,0:06:39.42,0:06:42.04,sign_9577_124_To_Kagura_chan__,Sign,0000,0000,0000,,Drahá Kaguro-chan. \NOd doby, co jsem tě poprvé spatřil,\Nna tebe nedovedu přestat myslet.
+Dialogue: 0,0:06:41.16,0:06:45.38,Main,Kag,0000,0000,0000,,Od doby co jsem te poprvé spatřil,\Nna tebe nedovedu přestat myslet.
+Dialogue: 0,0:06:45.38,0:06:49.10,Main,Kag,0000,0000,0000,,Celou dobu jsem tě bral jako \Nmojí dobrou kamarádku,
+Dialogue: 0,0:06:45.38,0:06:52.34,road safety,,0000,0000,0000,,Bezpečí na silnici\N{\c&H000000&\fs18\b0}Buďte opatrní
+Dialogue: 0,0:06:49.10,0:06:52.34,Main,Kag,0000,0000,0000,,ale už své city nemohu dál potlačovat
+Dialogue: 0,0:06:52.34,0:06:54.26,Main,Kag,0000,0000,0000,,Prosím pojď se mnou na rande.
+Dialogue: 0,0:06:56.68,0:06:58.93,Main,Kag,0000,0000,0000,,Moje srdce
+Dialogue: 0,0:06:59.94,0:07:04.27,Main,Kag,0000,0000,0000,,vášnivě hoří mou láskou k tobě tak,
+Dialogue: 0,0:07:07.31,0:07:08.82,Main,Kag,0000,0000,0000,,že je teď jako spálené na uhel.
+Dialogue: 0,0:07:08.82,0:07:14.83,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}Schody Dospělosti Nevedou \NVždy Jen Nahoru
+Dialogue: 0,0:07:14.83,0:07:17.56,sign_10426_135_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:07:18.50,0:07:19.83,Main,Shin,0000,0000,0000,,Hej!
+Dialogue: 0,0:07:19.83,0:07:22.58,Main,Shin,0000,0000,0000,,Co to sakra je? Co se stalo?
+Dialogue: 0,0:07:22.58,0:07:26.13,Main,Gin,0000,0000,0000,,Pachi, požádal jsem tě, \Nabys mi donesl lžičku.
+Dialogue: 0,0:07:26.52,0:07:30.63,Main,Gin,0000,0000,0000,,Jestli mi hodláš donýst tak masivní lžíci, \Ntak mi k tomu dej i masivní puding.
+Dialogue: 0,0:07:30.63,0:07:32.67,Main,UB,0000,0000,0000,,Předpokládám, že vám nevadí...
+Dialogue: 0,0:07:32.67,0:07:35.11,Main,UB,0000,0000,0000,,že je tohle vaše poslední večere.
+Dialogue: 0,0:07:37.06,0:07:38.78,Main,UB,0000,0000,0000,,Nevadí vám to?
+Dialogue: 0,0:07:38.78,0:07:40.59,Main,Shin,0000,0000,0000,,U-Umibozu-san?
+Dialogue: 0,0:07:40.59,0:07:44.73,Main,Gin,0000,0000,0000,,Oh taťko, kdybys nám tak řekl,\N že přijdeš na návštěvu,
+Dialogue: 0,0:07:44.73,0:07:46.63,Main,Gin,0000,0000,0000,,pořídili bysme jeden puding i pro tebe.
+Dialogue: 0,0:07:46.63,0:07:48.81,Main,Gin,0000,0000,0000,,Sestoupil jsi snad z cesty, abys mohl mít
+Dialogue: 0,0:07:49.84,0:07:51.07,Main,Gin,0000,0000,0000,,svůj vlastní zářivej puding?
+Dialogue: 0,0:07:51.07,0:07:52.87,Main,UB,0000,0000,0000,,Moje hlava není zářivej puding!
+Dialogue: 0,0:07:52.87,0:07:57.34,Main,Gin,0000,0000,0000,,Proč ses začal chovat jako protivnej puding, jen cos\Nsem vstoupil? Nemyslíš si, že seš krapet neslušnej?
+Dialogue: 0,0:07:57.34,0:08:01.41,Main,UB,0000,0000,0000,,Říká chlap, kterej mou hlavu považuje za puding!
+Dialogue: 0,0:08:01.41,0:08:06.18,Main,UB,0000,0000,0000,,Měl ses postarat o mou drahou dcerušku! \NProč jsi na ní nedal pozor!?
+Dialogue: 0,0:08:06.18,0:08:08.80,Main,UB,0000,0000,0000,,To je vrchol nedbalosti!
+Dialogue: 0,0:08:09.28,0:08:12.06,Main,Shin,0000,0000,0000,,Hm? Stalo se Kaguře něco?
+Dialogue: 0,0:08:12.06,0:08:14.30,Main,Kag,0000,0000,0000,,Jsem doma!
+Dialogue: 0,0:08:14.30,0:08:16.74,Main,Kag,0000,0000,0000,,Huh? Ty jsi tady taky, tatí?
+Dialogue: 0,0:08:16.74,0:08:17.60,Main,Kag,0000,0000,0000,,Dlouho jsme se neviděli.
+Dialogue: 0,0:08:17.60,0:08:18.85,Main,UB,0000,0000,0000,,Kaguro!
+Dialogue: 0,0:08:18.85,0:08:22.50,Main,Kag,0000,0000,0000,,Skvělý načasování. \NVšem bych vám chtěla něco říct.
+Dialogue: 0,0:08:22.50,0:08:24.48,Main,UB,0000,0000,0000,,Ne! Já to nechci slyšet!
+Dialogue: 0,0:08:25.83,0:08:27.98,Main,Kag,0000,0000,0000,,Mám kluka.
+Dialogue: 0,0:08:31.10,0:08:32.27,Internal,UB,0000,0000,0000,,Počkej chvíli.
+Dialogue: 0,0:08:32.27,0:08:34.49,Internal,UB,0000,0000,0000,,Nechtělas spíš říct \N"Dostala jsem milostný dopis"?
+Dialogue: 0,0:08:34.49,0:08:36.62,Internal,UB,0000,0000,0000,,"Kluka"?
+Dialogue: 0,0:08:36.62,0:08:38.46,Main,Kag,0000,0000,0000,,Zítra jdem na rande.
+Dialogue: 0,0:08:38.46,0:08:40.62,Main,Kag,0000,0000,0000,,Co si mám asi tak vzít na sebe?
+Dialogue: 0,0:08:43.53,0:08:46.48,Main,Gin,0000,0000,0000,,Uh, Shinpachi...
+Dialogue: 0,0:08:46.48,0:08:48.26,Main,Gin,0000,0000,0000,,Co že je to ten "kluk"?
+Dialogue: 0,0:08:48.73,0:08:49.75,Main,Gin,0000,0000,0000,,Něco takovýho?
+Dialogue: 0,0:08:49.75,0:08:51.54,Main,Shin,0000,0000,0000,,Ne, to je uschlej buk.
+Dialogue: 0,0:08:51.54,0:08:53.24,Main,Shin,0000,0000,0000,,"Uschlej buk" a "kluk" zní dost podobně.
+Dialogue: 0,0:08:53.24,0:08:54.49,Main,Gin,0000,0000,0000,,Tak takhle?
+Dialogue: 0,0:08:54.49,0:08:56.05,Main,Shin,0000,0000,0000,,Uh, to je "mrtvej kluk."
+Dialogue: 0,0:08:55.82,0:08:59.18,sign_12847_174_Boyfriend_DEATH,Sign,0000,0000,0000,,MRTVÝ přítel
+Dialogue: 0,0:08:56.05,0:08:59.18,Main,Shin,0000,0000,0000,,Vynech ty stromy. \NJe to jen ten člověk.
+Dialogue: 0,0:08:59.18,0:09:00.31,Main,Gin,0000,0000,0000,,Takže takhle?
+Dialogue: 0,0:09:00.68,0:09:02.75,Main,Shin,0000,0000,0000,,Přoč jsi z toho udělal \NChrisovo evoluční schéma?
+Dialogue: 0,0:09:02.75,0:09:05.73,Main,Shin,0000,0000,0000,,Ze suchýho buku se akotát\Nvyvinul na ještě suší buk!
+Dialogue: 0,0:09:07.25,0:09:08.69,Main,UB,0000,0000,0000,,Jak je to možný?
+Dialogue: 0,0:09:08.69,0:09:12.37,Main,UB,0000,0000,0000,,Říkal, že na odpověď klidně počká,\Nale ona mu jí dala tak rychle?
+Dialogue: 0,0:09:12.37,0:09:14.24,Main,UB,0000,0000,0000,,A řekla Okay?!
+Dialogue: 0,0:09:14.24,0:09:16.86,Main,UB,0000,0000,0000,,Co s tím uděláš?
+Dialogue: 0,0:09:16.86,0:09:19.70,Main,UB,0000,0000,0000,,Tohle by se bylo nestalo,\N kdybys na ní dával pozor!
+Dialogue: 0,0:09:19.70,0:09:22.39,Main,Gin,0000,0000,0000,,Klidni hormon, musí to \Nbejt jen nějakej hloupej vtip.
+Dialogue: 0,0:09:22.39,0:09:25.25,Main,Gin,0000,0000,0000,,Kagura zůstane navžycky sama.
+Dialogue: 0,0:09:25.25,0:09:26.66,Main,UB,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:09:26.66,0:09:29.69,Main,UB,0000,0000,0000,,Musí to bejt jen nějakej špatnej\N vtip nebo noční můra, žejo?
+Dialogue: 0,0:09:29.69,0:09:30.91,Main,Gin,0000,0000,0000,,Si myslim.
+Dialogue: 0,0:09:30.91,0:09:35.26,Main,Gin,0000,0000,0000,,Kdo by se zabouchl do tak sprostý, \Nnenažraný holky bez špetky sex-appealu?
+Dialogue: 0,0:09:35.26,0:09:37.41,Main,Gin,0000,0000,0000,,Nejspíš to je nějakej vyvrhel,\Nnebo tak něco.
+Dialogue: 0,0:09:37.41,0:09:39.63,Main,Gin,0000,0000,0000,,Je to tvoje dcera, zdědila po tobě \Nvšechny smolařský geny.
+Dialogue: 0,0:09:39.63,0:09:40.76,Main,Gin,0000,0000,0000,,Víc jí věř.
+Dialogue: 0,0:09:40.76,0:09:41.61,Main,UB,0000,0000,0000,,Máš pravdu!
+Dialogue: 0,0:09:41.61,0:09:45.27,Main,UB,0000,0000,0000,,Tohle by se přece nestalo holčičce, \Nkterá plavala v mých špinavých k**lích...
+Dialogue: 0,0:09:45.27,0:09:47.42,Main,UB,0000,0000,0000,,Kdo je pro tebe holčička ze špinavejch k**lí?!
+Dialogue: 0,0:09:47.42,0:09:49.21,Main,Gin,0000,0000,0000,,Nic takovýho jsem neřekl.
+Dialogue: 0,0:09:49.21,0:09:52.02,Main,Gin,0000,0000,0000,,Prosím, schlaď si na chvilku \Ntu svou hlavu plnou k**lí.
+Dialogue: 0,0:09:52.02,0:09:54.50,Main,Gin,0000,0000,0000,,Neboj, to se přece nemůže stát.
+Dialogue: 0,0:09:54.50,0:09:56.28,Main,Shin,0000,0000,0000,,Nikdy nevíš.
+Dialogue: 0,0:09:57.17,0:10:00.83,Main,Shin,0000,0000,0000,,Slyšel jsem, že v dnešní době spolu \Nranděj i děcka na základkách.
+Dialogue: 0,0:10:00.83,0:10:04.12,Main,Shin,0000,0000,0000,,A i když vypadá Kagura-chan \Njako dítě, je jí už 14.
+Dialogue: 0,0:10:04.65,0:10:07.66,Main,Shin,0000,0000,0000,,Mimoto, jestli na to jdete \Njen podle zevnějšku, je hezká.
+Dialogue: 0,0:10:08.09,0:10:09.42,Main,Shin,0000,0000,0000,,Vzhledem k tomu všemu—
+Dialogue: 0,0:10:10.92,0:10:14.03,Main,UB,0000,0000,0000,,Hej co myslíš tou základkou?
+Dialogue: 0,0:10:14.03,0:10:17.51,Main,UB,0000,0000,0000,,To už je tahle planeta tak poskvrněná?
+Dialogue: 0,0:10:17.51,0:10:18.59,sign_14806_206_Earth,Sign,0000,0000,0000,,Země
+Dialogue: 0,0:10:17.51,0:10:18.59,Main,UB,0000,0000,0000,,Země?
+Dialogue: 0,0:10:18.76,0:10:20.84,Main,UB,0000,0000,0000,,Spíš satanovo sémě!
+Dialogue: 0,0:10:19.24,0:10:20.84,sign_14847_209_Dirth,Sign,0000,0000,0000,,Satanovo sémě
+Dialogue: 0,0:10:20.84,0:10:23.18,Main,UB,0000,0000,0000,,Můžu ji zničit?
+Dialogue: 0,0:10:23.18,0:10:25.35,Main,UB,0000,0000,0000,,Mám začít bejt vážnej?
+Dialogue: 0,0:10:25.35,0:10:27.19,Main,Shin,0000,0000,0000,,Prosím, uklidněte se.
+Dialogue: 0,0:10:27.19,0:10:29.11,Main,Shin,0000,0000,0000,,Říkal jsem "randí", \Nale myslel jsem "hrají".
+Dialogue: 0,0:10:29.11,0:10:30.60,Main,Shin,0000,0000,0000,,Všechno je to jen hra!
+Dialogue: 0,0:10:30.60,0:10:31.98,Main,Gin,0000,0000,0000,,Hej...
+Dialogue: 0,0:10:32.69,0:10:34.73,Main,Gin,0000,0000,0000,,Co myslíš tím jen hra?
+Dialogue: 0,0:10:34.73,0:10:35.62,Main,Shin,0000,0000,0000,,Ty taky?!
+Dialogue: 0,0:10:35.62,0:10:37.39,Main,Gin,0000,0000,0000,,Neříkej mi, že jen si uspokojí svý touhy,
+Dialogue: 0,0:10:37.39,0:10:41.99,Main,Gin,0000,0000,0000,,zabalí ji do květovanýho obalu na sešity,\Nzmačká a hodí do koše.
+Dialogue: 0,0:10:41.99,0:10:43.22,Main,Gin,0000,0000,0000,,Pokud to udělá,
+Dialogue: 0,0:10:43.22,0:10:47.57,Main,Gin,0000,0000,0000,,můžu mu do baťohu nacpat jet packy \Na vystřelit ho až na okraj galaxie?
+Dialogue: 0,0:10:47.57,0:10:49.50,Main,Gin,0000,0000,0000,,Můžu z něj udělat souhvězdí "baťoh"?
+Dialogue: 0,0:10:50.09,0:10:52.30,Main,Shin,0000,0000,0000,,Oba se uklidněte!
+Dialogue: 0,0:10:52.30,0:10:54.34,Main,Shin,0000,0000,0000,,Je to jen hypotéza!
+Dialogue: 0,0:10:54.34,0:10:55.56,Main,Shin,0000,0000,0000,,Berete to až moc vážně!
+Dialogue: 0,0:10:55.56,0:10:59.47,Main,Shin,0000,0000,0000,,A navíc, jestli vás to tak žere, měli \Nbyste se zeptat Kagury osobně!
+Dialogue: 0,0:11:01.13,0:11:03.46,Main,UB,0000,0000,0000,,P-Půjdeš ty.
+Dialogue: 0,0:11:04.03,0:11:06.85,Main,Gin,0000,0000,0000,,Co, proč já? \NNejseš takhle náhodou ty její otec?
+Dialogue: 0,0:11:06.85,0:11:11.14,Main,UB,0000,0000,0000,,Zavři hubu! Přesně proto nevím jak s ní\Nmám v takovejch situacích mluvit!
+Dialogue: 0,0:11:12.22,0:11:14.25,Main,UB,0000,0000,0000,,Ty to umíš podomácku.
+Dialogue: 0,0:11:14.25,0:11:15.15,Main,UB,0000,0000,0000,,Tak už jdi.
+Dialogue: 0,0:11:15.15,0:11:18.17,Main,Gin,0000,0000,0000,,Co to říkáš? To je fakt smutný.
+Dialogue: 0,0:11:18.17,0:11:19.29,Main,Gin,0000,0000,0000,,Shinpachi, půjdeš ty.
+Dialogue: 0,0:11:19.29,0:11:20.28,Main,Shin,0000,0000,0000,,Na to jsi přišel jak?
+Dialogue: 0,0:11:20.28,0:11:21.45,Main,Gin,0000,0000,0000,,Sklapni.
+Dialogue: 0,0:11:21.45,0:11:23.59,Main,Gin,0000,0000,0000,,Když jdeš po schodech dospělosti,
+Dialogue: 0,0:11:23.59,0:11:26.31,Main,Gin,0000,0000,0000,,dospělí by na tebe neměli zírat z vrchu.
+Dialogue: 0,0:11:26.31,0:11:27.82,Main,Gin,0000,0000,0000,,Proto tahle situace vyžaduje\N někoho hodně nízko,
+Dialogue: 0,0:11:27.82,0:11:31.21,Main,Gin,0000,0000,0000,,Primitivní formu života, která se plazí \Npo zemi, což seš přesně ty.
+Dialogue: 0,0:11:31.21,0:11:34.54,Default,,0,0,0,,{\c&H80ffff&\an8}[Amoeba = měňavka velká (prvok)]
+Dialogue: 0,0:11:31.21,0:11:32.97,Main,Shin,0000,0000,0000,,Kdo je u vás amoeba?!
+Dialogue: 0,0:11:32.97,0:11:34.54,Main,Shin,0000,0000,0000,,Kristova noho, fajn.
+Dialogue: 0,0:11:34.54,0:11:36.09,Main,Shin,0000,0000,0000,,Já se jí teda zeptám.
+Dialogue: 0,0:11:36.09,0:11:38.11,Main,Gin,0000,0000,0000,,Nebo vlastně počkej!
+Dialogue: 0,0:11:38.11,0:11:39.17,Main,Shin,0000,0000,0000,,Co zas?
+Dialogue: 0,0:11:39.17,0:11:41.60,Main,Gin,0000,0000,0000,,Nic se neděje, na nic se ji ptát nemusíš.
+Dialogue: 0,0:11:41.60,0:11:42.68,Main,Shin,0000,0000,0000,,Tak se sakra rozhodni!
+Dialogue: 0,0:11:42.68,0:11:44.68,Main,Kag,0000,0000,0000,,Teda, mám příšernej hlad.
+Dialogue: 0,0:11:44.98,0:11:46.51,Main,Kag,0000,0000,0000,,Je už večeře hotová?
+Dialogue: 0,0:11:46.83,0:11:48.52,Main,Kag,0000,0000,0000,,Wow, máme červenou rýži!
+Dialogue: 0,0:11:48.52,0:11:51.23,Main,Kag,0000,0000,0000,,Copak? Stala se snad nějaká událost?
+Dialogue: 0,0:11:51.23,0:11:54.22,Main,UB,0000,0000,0000,,Huh? Ptáš se co se děje?
+Dialogue: 0,0:11:54.22,0:11:54.97,Main,,0000,0000,0000,,Emm...
+Dialogue: 0,0:11:55.45,0:11:57.33,Main,UB,0000,0000,0000,,Co se děje, Gintoki-kun?
+Dialogue: 0,0:11:57.33,0:11:59.57,Main,Gin,0000,0000,0000,,Huh? U-Uh...No víš... Př
+Dialogue: 0,0:12:00.53,0:12:01.29,Main,Gin,0000,0000,0000,,Pří...
+Dialogue: 0,0:12:02.11,0:12:05.33,Main,Gin,0000,0000,0000,,To je přímo úchvatný!\NZ rozkroku tvýho otce vylezlo Kari!
+Dialogue: 0,0:12:05.33,0:12:07.45,Main,Kag,0000,0000,0000,,A co je na tom tak úžasnýho?
+Dialogue: 0,0:12:07.45,0:12:09.99,Main,UB,0000,0000,0000,,N-No, měl jsem zácpu,
+Dialogue: 0,0:12:09.99,0:12:12.54,Main,UB,0000,0000,0000,,takže... oslavujeme znovuotevření tunelu?
+Dialogue: 0,0:12:12.89,0:12:16.57,Main,Gin,0000,0000,0000,,Možná jsme měli připravit spíš Kari,\Nnež červenou rýži, že, otče?
+Dialogue: 0,0:12:16.57,0:12:19.65,Main,UB,0000,0000,0000,,Ale dalo mi to tolik práce, že se\Nmi do toho přimíchala i krev.
+Dialogue: 0,0:12:19.65,0:12:20.55,Main,UB,0000,0000,0000,,Takto je to v pořádku.
+Dialogue: 0,0:12:20.55,0:12:21.97,Main,Kag,0000,0000,0000,,Tohle nežeru.
+Dialogue: 0,0:12:21.97,0:12:23.33,Main,Gin,0000,0000,0000,,Počkat počkat počkat počkat počkat počkat!
+Dialogue: 0,0:12:23.33,0:12:24.18,Main,Gin,0000,0000,0000,,Omlouváme se!
+Dialogue: 0,0:12:24.18,0:12:26.39,Main,Gin,0000,0000,0000,,Tohle není zrovna vhodná\N diskuze u večeře, he?
+Dialogue: 0,0:12:26.39,0:12:27.82,Main,UB,0000,0000,0000,,Notak, přisedni si.
+Dialogue: 0,0:12:27.82,0:12:29.81,Main,UB,0000,0000,0000,,Shinpachi-kun si prošel příšernou \Nbolestí, aby nám to mohl naservírovat.
+Dialogue: 0,0:12:29.81,0:12:31.77,Main,All,0000,0000,0000,,Dobrou chuť!
+Dialogue: 0,0:12:38.13,0:12:40.26,Main,Gin,0000,0000,0000,,Hej, už to na ní vybal, ty kulečníková koule!
+Dialogue: 0,0:12:40.26,0:12:42.09,Main,UB,0000,0000,0000,,Kdo je u tebe kulečníková koule?
+Dialogue: 0,0:12:42.09,0:12:46.33,Main,UB,0000,0000,0000,,Příšerně se pleteš, jestli si myslíš, že světlý vlasy\Nnevypadávaj. Nevíš snad, jak dopadl strýček Jam?
+Dialogue: 0,0:12:46.33,0:12:48.93,Main,Gin,0000,0000,0000,,Ty jedinej tady máš hlavu jako\Nstrýček Jam!
+Dialogue: 0,0:12:48.93,0:12:52.29,Main,UB,0000,0000,0000,,Mrháš tady šancí, kterou jsme vytvořili touhle \Noslavou s červenou rýží.
+Dialogue: 0,0:12:52.29,0:12:54.70,Main,Gin,0000,0000,0000,,Nemáš v úmyslu oslavovat.
+Dialogue: 0,0:12:54.70,0:12:57.07,Main,Gin,0000,0000,0000,,Všechny tvoje vlasový kořínky \Nuž odumřely, tak co to meleš?
+Dialogue: 0,0:12:57.07,0:13:00.10,Main,UB,0000,0000,0000,,Ne neodumřely! Jen si dávaj\Npřestávku, protože přišel poločas.
+Dialogue: 0,0:13:00.10,0:13:02.14,Main,Gin,0000,0000,0000,,Bojíš se pravdy?
+Dialogue: 0,0:13:02.14,0:13:04.34,Main,Gin,0000,0000,0000,,To se tak bojíš, že tvoje dcera vyroste?
+Dialogue: 0,0:13:04.34,0:13:06.21,Main,UB,0000,0000,0000,,Nejsem ani trochu vystrašenej.
+Dialogue: 0,0:13:06.21,0:13:08.05,Main,UB,0000,0000,0000,,Jen chci říct, že až opustí Zemi,
+Dialogue: 0,0:13:08.05,0:13:11.02,Main,UB,0000,0000,0000,,vznikne z toho vztah na dálku\N a bude těžký ho udržet.
+Dialogue: 0,0:13:11.02,0:13:15.14,Main,UB,0000,0000,0000,,A ty skončíš sám, protože \Nuž bude o dost vyspělejší, než jsi ty kdy byl.
+Dialogue: 0,0:13:15.14,0:13:17.62,Main,Gin,0000,0000,0000,,No to určitě! Vlastně je to přesně to, co chci.
+Dialogue: 0,0:13:17.62,0:13:21.77,Main,Gin,0000,0000,0000,,Jen se bojím, že bude zanedbávat\N práci, protože je okouzlená láskou.
+Dialogue: 0,0:13:21.77,0:13:23.73,Main,Gin,0000,0000,0000,,Už se nemůžu dočkat až to oslavíme.
+Dialogue: 0,0:13:23.73,0:13:25.77,Main,Gin,0000,0000,0000,,Musím si dát další porci.
+Dialogue: 0,0:13:25.77,0:13:26.62,Main,UB,0000,0000,0000,,Nasrat!
+Dialogue: 0,0:13:26.62,0:13:28.37,Main,UB,0000,0000,0000,,Já sním větší porci!
+Dialogue: 0,0:13:28.37,0:13:28.95,Main,Gin,0000,0000,0000,,Drž hubu!
+Dialogue: 0,0:13:28.95,0:13:31.34,Main,Gin,0000,0000,0000,,Sním toho tolik, kolik je \Npřímo úmerný k mýmu věku!
+Dialogue: 0,0:13:31.34,0:13:34.45,Main,UB,0000,0000,0000,,Jsem starší než ty takže můžu víc jíst!
+Dialogue: 0,0:13:34.45,0:13:37.02,Main,Gin,0000,0000,0000,,Budu jíst tolik, kollik je přímo úměrný počtu \Nvlasovejch kořínků na mý hlavě!
+Dialogue: 0,0:13:37.02,0:13:40.21,Main,UB,0000,0000,0000,,Budu jíst tolik, kollik je přímo úměrný počtu \Nodumřelejch vlasovejch kořínků na mý hlavě!
+Dialogue: 0,0:13:40.21,0:13:41.96,Main,Gin,0000,0000,0000,,Takže přiznáváš, že ti odumřely?!
+Dialogue: 0,0:13:41.96,0:13:44.67,Main,Kag,0000,0000,0000,,Co to ti idioti prováděj?
+Dialogue: 0,0:13:45.23,0:13:47.18,Main,Shin,0000,0000,0000,,P-Pověz, Kaguro-chan...
+Dialogue: 0,0:13:47.18,0:13:48.68,Main,Shin,0000,0000,0000,,Už jsi to předtím zmínila,
+Dialogue: 0,0:13:48.99,0:13:50.90,Main,Shin,0000,0000,0000,,ale je pravda, že máš kluka?
+Dialogue: 0,0:13:52.07,0:13:54.14,Main,Kag,0000,0000,0000,,Sama tomu moc nerozumím.
+Dialogue: 0,0:13:54.94,0:13:58.81,Main,Kag,0000,0000,0000,,Dostala jsem milostný dopis, \Nale popravdě jsem se nad ním zatím nezamyslela.
+Dialogue: 0,0:13:58.81,0:14:01.76,Main,Kag,0000,0000,0000,,Moc se v těhlech věcech \Nohledně lásky nevyznám.
+Dialogue: 0,0:14:01.76,0:14:05.98,Main,Kag,0000,0000,0000,,Ale je vidět, že do toho dopisu \Nvložil celé svoje srdce,
+Dialogue: 0,0:14:05.98,0:14:07.32,Main,Kag,0000,0000,0000,,tak jsem uznala za vhodný jít\N s nim aspoň na to rande—
+Dialogue: 0,0:14:08.07,0:14:10.33,Main,Bo,0000,0000,0000,,Nepřipadá v úvahu, Kaguro-chan!
+Dialogue: 0,0:14:10.33,0:14:13.79,Main,Gin,0000,0000,0000,,Randit s někým ze soucitu je to \Nnejhorší, co pro něj můžeš udělat!
+Dialogue: 0,0:14:13.79,0:14:16.08,Main,Gin,0000,0000,0000,,Nakonec ho to bude bolet!
+Dialogue: 0,0:14:16.08,0:14:17.86,Main,UB,0000,0000,0000,,Měla bys ho nechat plavat.
+Dialogue: 0,0:14:17.86,0:14:19.01,Main,UB,0000,0000,0000,,Nemám pravdu, Gintoki-kun?
+Dialogue: 0,0:14:19.01,0:14:19.97,Main,Gin,0000,0000,0000,,Přesně tak.
+Dialogue: 0,0:14:19.97,0:14:22.91,Main,Gin,0000,0000,0000,,Neměla by ses prodávat tak zalevno. \NSouhlasíš, otče?
+Dialogue: 0,0:14:23.62,0:14:26.59,Main,Kag,0000,0000,0000,,Ale vy byste se hnedka zamilovali \Ndo někoho, kdo s váma půjde na rande ne?
+Dialogue: 0,0:14:26.59,0:14:28.95,Main,Kag,0000,0000,0000,,Tak to řekl taťka na svý předčasný svatbě\Npořádaný kvůli těhotenství.
+Dialogue: 0,0:14:29.73,0:14:32.60,Main,UB,0000,0000,0000,,Některý vztahy začínají třeba v posteli.
+Dialogue: 0,0:14:32.82,0:14:36.67,Main,Gin,0000,0000,0000,,Tak ty seš ta hlavní příčina?\NCo to sakra tý holce vykládáš?!
+Dialogue: 0,0:14:37.35,0:14:39.96,Main,UB,0000,0000,0000,,Počkej počkej! \NZrovna takhle jsem to nemyslel...
+Dialogue: 0,0:14:39.96,0:14:43.15,Main,Kag,0000,0000,0000,,To je fuk, zejtra mám rande, \Ntakže už jdu na kutě.
+Dialogue: 0,0:14:43.15,0:14:44.55,Main,UB,0000,0000,0000,,Počkej, Kaguro-chan.
+Dialogue: 0,0:14:45.57,0:14:47.75,Main,Gin,0000,0000,0000,,Na to rande si klidně jdi.
+Dialogue: 0,0:14:47.75,0:14:49.30,Main,UB,0000,0000,0000,,Ale než to uděláš...
+Dialogue: 0,0:14:49.89,0:14:54.12,Main,Bo,0000,0000,0000,,Mohla bys nám ho představit?
+Dialogue: 0,0:14:54.12,0:14:56.12,Main,,0000,0000,0000,,Na kolika jsi už byl?
+Dialogue: 0,0:15:01.41,0:15:02.41,Main,UB,0000,0000,0000,,Kámo...
+Dialogue: 0,0:15:02.41,0:15:04.09,Main,Gin,0000,0000,0000,,Další.
+Dialogue: 0,0:15:04.57,0:15:06.59,Main,Shin,0000,0000,0000,,Vy dva pijete až moc!
+Dialogue: 0,0:15:06.59,0:15:09.41,Main,Shin,0000,0000,0000,,Zítra se setkáte s \NKaguřiným přítelem, vzpomínáte?
+Dialogue: 0,0:15:09.41,0:15:12.31,Main,UB,0000,0000,0000,,Drž hubu!\NNa nějakýho přítele se můžu vysrat!
+Dialogue: 0,0:15:12.31,0:15:16.47,Main,UB,0000,0000,0000,,Je mi fuk, kdo je nebo odkud je.\NPořád jsem ho neschválil.
+Dialogue: 0,0:15:17.22,0:15:19.35,Main,Gin,0000,0000,0000,,Moje řeč, ty kreténe.
+Dialogue: 0,0:15:19.35,0:15:23.69,Main,Gin,0000,0000,0000,,Je ještě brzo, aby se malá holka jako\N ona dostala do nezákonnýho vztahu.
+Dialogue: 0,0:15:24.39,0:15:28.17,Main,Gin,0000,0000,0000,,Kdo jí dovolil vstoupit na dospělácký schody?
+Dialogue: 0,0:15:28.17,0:15:33.03,Main,Gin,0000,0000,0000,,Proč jsem ji asi vychovával? \NVšechno je kaput.
+Dialogue: 0,0:15:33.03,0:15:36.76,Main,UB,0000,0000,0000,,Hej, to bych měl říkat spíš já.
+Dialogue: 0,0:15:36.76,0:15:40.31,Main,UB,0000,0000,0000,,Kdy přesně jsi ji jako vychovával?
+Dialogue: 0,0:15:40.31,0:15:43.04,Main,Gin,0000,0000,0000,,Zanedbal jsi její výchovu a svoje \Nvlasy, kulečníková koule.
+Dialogue: 0,0:15:43.04,0:15:45.74,Main,Gin,0000,0000,0000,,Je příliš pozdě hrát si na otce!
+Dialogue: 0,0:15:45.74,0:15:47.10,Main,UB,0000,0000,0000,,Nic jsem nezanedbal!
+Dialogue: 0,0:15:47.10,0:15:49.91,Main,UB,0000,0000,0000,,Prostě jsem respektoval \Nsamostatnost mojí dcery a svejch vlasů!
+Dialogue: 0,0:15:49.91,0:15:51.98,Main,UB,0000,0000,0000,,Obojí odjelo studovat \Ndo zahraničí, chápeš?!
+Dialogue: 0,0:15:51.98,0:15:54.39,Main,Gin,0000,0000,0000,,Jenže tu je jeden sakra problém!
+Dialogue: 0,0:15:54.39,0:15:56.08,Main,Gin,0000,0000,0000,,Nevrátěj se ti zpátky!
+Dialogue: 0,0:15:56.08,0:15:59.90,Main,UB,0000,0000,0000,,Vrátěj! A navíc ještě blonďatý!
+Dialogue: 0,0:15:59.90,0:16:02.31,Main,Shin,0000,0000,0000,,Probůh. Hej vy dva, nechte toho.
+Dialogue: 0,0:16:02.31,0:16:04.59,Main,Shin,0000,0000,0000,,Chápu, že máte strach,
+Dialogue: 0,0:16:05.10,0:16:09.07,Main,Shin,0000,0000,0000,,ale každý rodič si tímhle\N musí jednou projít.
+Dialogue: 0,0:16:09.70,0:16:14.78,Main,Shin,0000,0000,0000,,Musí to být fajn kluk, \Nkdyž ho přijala i Kagura-chan.
+Dialogue: 0,0:16:14.78,0:16:20.83,Main,Shin,0000,0000,0000,,Ale pokud se budeme chovat takhle,\N akorát ji před ním ztrapníme.
+Dialogue: 0,0:16:21.78,0:16:23.58,Main,Shin,0000,0000,0000,,I když to může znít osaměle,
+Dialogue: 0,0:16:23.58,0:16:25.81,Main,Shin,0000,0000,0000,,musíme taky dospět.
+Dialogue: 0,0:16:26.58,0:16:28.83,Main,Shin,0000,0000,0000,,No, tak já mizím.
+Dialogue: 0,0:16:28.83,0:16:32.01,Main,Shin,0000,0000,0000,,A vy dva se zítra koukejte\N chovat jako dospělí jedinci.
+Dialogue: 0,0:16:38.11,0:16:39.59,Main,UB,0000,0000,0000,,Dospělí?
+Dialogue: 0,0:16:40.60,0:16:45.46,Main,UB,0000,0000,0000,,Jo, je dětinský se takhle \Npobuřovat kvůli klukovi.
+Dialogue: 0,0:16:46.10,0:16:48.86,Main,UB,0000,0000,0000,,Chápu. Fakt že jo.
+Dialogue: 0,0:16:49.51,0:16:53.86,Main,UB,0000,0000,0000,,Když byla ještě malá, těšil\Njsem se na den, až ji uvidím dospět.
+Dialogue: 0,0:16:53.86,0:16:57.80,Main,UB,0000,0000,0000,,Ať už to jsou její první kroky,\N nebo první slova,
+Dialogue: 0,0:16:57.80,0:16:59.87,Main,UB,0000,0000,0000,,všechno to byly úžasný zážitky.
+Dialogue: 0,0:17:00.58,0:17:05.87,Main,UB,0000,0000,0000,,Kdy jsem v jejím dospívání \Npřestal vidět radost?
+Dialogue: 0,0:17:06.52,0:17:10.88,Main,UB,0000,0000,0000,,Kdy jsem se začal cítit spíš osaměle, \Nnež šťastně?
+Dialogue: 0,0:17:11.91,0:17:18.14,Main,Gin,0000,0000,0000,,Vždycky jsem si myslel, že práce dospělýho \Nje jít dopředu, zatímco ho dítě následuje.
+Dialogue: 0,0:17:18.93,0:17:21.21,Main,Gin,0000,0000,0000,,Ale nakonec, až nás předeběhnou,
+Dialogue: 0,0:17:21.73,0:17:26.41,Main,Gin,0000,0000,0000,,je našim úkolem vypravit je s\N úsměvem na tváři, hm?
+Dialogue: 0,0:17:26.41,0:17:30.47,Main,Gin,0000,0000,0000,,Ale chlape, já pořád můžu chodit.
+Dialogue: 0,0:17:32.18,0:17:34.03,Main,UB,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:17:34.03,0:17:38.03,Main,UB,0000,0000,0000,,Ty i já jsme pořád usoplený fakani.
+Dialogue: 0,0:17:38.41,0:17:40.53,Main,Gin,0000,0000,0000,,Měli bysme jim ukázat...
+Dialogue: 0,0:17:41.42,0:17:43.01,Main,Gin,0000,0000,0000,,Schody dospělosti?
+Dialogue: 0,0:17:54.84,0:17:56.84,sign_10426_135_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:17:56.03,0:17:58.70,Main,Shin,0000,0000,0000,,Zajímalo by mě, jak to ti dva zvládnou.
+Dialogue: 0,0:17:58.70,0:18:00.82,Main,Shin,0000,0000,0000,,Včera večer se chovali jako děti,
+Dialogue: 0,0:18:00.82,0:18:03.99,Main,Shin,0000,0000,0000,,ale slíbili, že se dnes \Nbudou chovat dospěle.
+Dialogue: 0,0:18:03.99,0:18:06.35,Main,Shin,0000,0000,0000,,Snad to bude v pohodě.
+Dialogue: 0,0:18:06.77,0:18:07.98,Main,Bo,0000,0000,0000,,Vítej!
+Dialogue: 0,0:18:08.90,0:18:11.65,Main,Bo,0000,0000,0000,,Vítej v domácnosti Sakata!
+Dialogue: 0,0:18:12.69,0:18:15.38,Main,Gin,0000,0000,0000,,Ah, to seš ty, Shinpachi-kun.
+Dialogue: 0,0:18:15.38,0:18:18.28,Main,Shin,0000,0000,0000,,Co to děláte?\N S takovou by každej vypustil duši!
+Dialogue: 0,0:18:18.28,0:18:19.72,Main,UB,0000,0000,0000,,Promiň promiň.
+Dialogue: 0,0:18:19.72,0:18:23.02,Main,UB,0000,0000,0000,,Už od včerejška tady čekáme na toho kluka,
+Dialogue: 0,0:18:23.02,0:18:24.58,Main,UB,0000,0000,0000,,takže jsme se možná až moc rozvášnili.
+Dialogue: 0,0:18:24.58,0:18:25.29,Main,Shin,0000,0000,0000,,Od včerejška?!
+Dialogue: 0,0:18:25.29,0:18:28.97,Main,Gin,0000,0000,0000,,A když jsme si nacvičovali úsměvy, \Nabysme ho mohli přivítat s rozjasněnou tváří,
+Dialogue: 0,0:18:28.97,0:18:30.30,Main,Gin,0000,0000,0000,,dostali jsme se do začarovanýho kruhu "jak se smát,"
+Dialogue: 0,0:18:30.30,0:18:32.01,Main,Gin,0000,0000,0000,,"co je to vůbec smích,"
+Dialogue: 0,0:18:32.01,0:18:35.13,Main,Gin,0000,0000,0000,,a "Jak hláskovat smích".
+Dialogue: 0,0:18:35.13,0:18:38.90,Main,UB,0000,0000,0000,,Smějeme se? Ovládli jsme umění smíchu?
+Dialogue: 0,0:18:38.90,0:18:40.64,Main,Shin,0000,0000,0000,,To sice jo, ale nic \Nradostnýho v tom nevidim!
+Dialogue: 0,0:18:40.64,0:18:42.97,Main,UB,0000,0000,0000,,Dneska budeme dospělí.
+Dialogue: 0,0:18:42.97,0:18:45.33,Main,UB,0000,0000,0000,,Za žádnou cenu neztrapníme Kaguru.
+Dialogue: 0,0:18:45.33,0:18:46.93,Main,UB,0000,0000,0000,,Nemusíš se bát.
+Dialogue: 0,0:18:46.93,0:18:48.86,Main,Shin,0000,0000,0000,,Ehm, viděli jste někdy dospělý\N lidi, který by se takhle smáli?
+Dialogue: 0,0:18:48.86,0:18:50.89,Main,Shin,0000,0000,0000,,Je hezký, že jste na sobě zapracovali,\N ale tohle je až moc!
+Dialogue: 0,0:18:50.89,0:18:52.98,Main,Shin,0000,0000,0000,,Musíte být víc přirozený!
+Dialogue: 0,0:18:52.98,0:18:55.19,Main,UB,0000,0000,0000,,Však my víme, Shinpachi-kun.
+Dialogue: 0,0:18:55.19,0:18:59.65,Main,UB,0000,0000,0000,,Když budeme působit tak mohutně,\Nvytvoříme na něj tlak.
+Dialogue: 0,0:19:01.73,0:19:02.78,Main,UB,0000,0000,0000,,Všechno je v pořádku.
+Dialogue: 0,0:19:02.78,0:19:04.81,Main,UB,0000,0000,0000,,Pro dnešek jsme dospělí.
+Dialogue: 0,0:19:04.81,0:19:09.29,Main,Gin,0000,0000,0000,,Ale jakožto dospělí se\Nnemůžeme oblíkat nedbale.
+Dialogue: 0,0:19:09.29,0:19:10.92,Main,Bo,0000,0000,0000,,...Tak jsme se rozhodli, že\N se oblečem formálně.
+Dialogue: 0,0:19:10.92,0:19:13.17,Main,Shin,0000,0000,0000,,Berete to až moc vážně!
+Dialogue: 0,0:19:13.17,0:19:14.46,Main,Shin,0000,0000,0000,,Co to pro kristovy rány děláte?
+Dialogue: 0,0:19:14.46,0:19:16.29,Main,Shin,0000,0000,0000,,Tohle pro vás znamená bejt dospělej?
+Dialogue: 0,0:19:16.29,0:19:16.82,Main,UB,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:16.82,0:19:17.66,Main,Gin,0000,0000,0000,,Co máš na mysli?
+Dialogue: 0,0:19:17.66,0:19:18.59,Main,Shin,0000,0000,0000,,Nedělejte, že nevíte!
+Dialogue: 0,0:19:18.59,0:19:19.83,Main,Shin,0000,0000,0000,,Jste přímo odstrašující!
+Dialogue: 0,0:19:19.83,0:19:21.32,Main,Shin,0000,0000,0000,,Ve vzduchu panuje napjatá atmosféra!
+Dialogue: 0,0:19:21.32,0:19:22.55,Main,Gin,0000,0000,0000,,To se ti jen zdá.
+Dialogue: 0,0:19:22.55,0:19:26.10,Main,Gin,0000,0000,0000,,Vrchní polovina těl v tomhle anime\Nbyla vždycky taková.
+Dialogue: 0,0:19:26.10,0:19:28.56,Main,Shin,0000,0000,0000,,Kdy jsme se stali Kapitánem Tsubasou?!
+Dialogue: 0,0:19:28.85,0:19:30.73,Main,Gin,0000,0000,0000,,Klid, Shinpachi.
+Dialogue: 0,0:19:30.73,0:19:32.56,Main,Gin,0000,0000,0000,,Akorát ty se chováš \Nnepřirozeně.
+Dialogue: 0,0:19:32.56,0:19:36.78,Main,Gin,0000,0000,0000,,My jsme tu hostitelé. \NMusíme ho přivítat s otevřenou náručí.
+Dialogue: 0,0:19:36.78,0:19:40.20,Main,Shin,0000,0000,0000,,Vy se chováte nepřirozeně! \NA vaše náruč je až moc velká!
+Dialogue: 0,0:19:40.20,0:19:50.46,sign_28297_417_Great_Nature_Dei,Sign,0000,0000,0000,,Zpravodajství Šintoistické Podstaty
+Dialogue: 0,0:19:40.54,0:19:43.59,Main,Gin,0000,0000,0000,,He? Není tohle Zpravodajství Šintoistické Podstaty?
+Dialogue: 0,0:19:43.59,0:19:44.76,Main,Gin,0000,0000,0000,,Boha, zahoď to.
+Dialogue: 0,0:19:44.76,0:19:46.30,Main,Shin,0000,0000,0000,,Co to ksakru čtete za noviny?
+Dialogue: 0,0:19:46.30,0:19:50.46,Main,Shin,0000,0000,0000,,Nechte toho! Takhle bude vypadat \Nrodinná situace komplikovaně a nepříjemně!
+Dialogue: 0,0:19:51.07,0:19:52.21,Main,UB,0000,0000,0000,,Oh, Matko.
+Dialogue: 0,0:19:52.21,0:19:53.98,Main,UB,0000,0000,0000,,Oh, Gaio.
+Dialogue: 0,0:19:53.98,0:19:56.44,Main,UB,0000,0000,0000,,Kagura-chan nám dnes \Npředstaví svého přítele.
+Dialogue: 0,0:19:56.44,0:19:58.44,Main,UB,0000,0000,0000,,Budeme mít dalšího následovníka.
+Dialogue: 0,0:19:58.44,0:20:01.34,Main,Shin,0000,0000,0000,,Hej! Kdo ti dovoil postavit si \Nv našem baráku děsivou svatyni?!
+Dialogue: 0,0:20:01.34,0:20:02.22,Main,Shin,0000,0000,0000,,Za co se k tomu modlíš?!
+Dialogue: 0,0:20:02.22,0:20:04.05,Main,Shin,0000,0000,0000,,Co to má vaše rodina ta tajemství?!
+Dialogue: 0,0:20:04.05,0:20:07.86,Main,Gin,0000,0000,0000,,To je ono, žejo?\NTeď jsme se chovali přirozeně, ne?
+Dialogue: 0,0:20:07.86,0:20:09.03,Main,Shin,0000,0000,0000,,Je to děsivý!
+Dialogue: 0,0:20:09.03,0:20:10.45,Main,Shin,0000,0000,0000,,Tak moc jste se na to zaměřili,
+Dialogue: 0,0:20:10.45,0:20:12.65,Main,Shin,0000,0000,0000,,že jste tady udělali naprosto \Nnepřirozený místo!
+Dialogue: 0,0:20:12.65,0:20:16.12,Main,Shin,0000,0000,0000,,Zapomeňte na přítele! Takhle Kagura-chan\Nztratí veškerý svý kamarády!
+Dialogue: 0,0:20:16.12,0:20:17.38,Main,Kag,0000,0000,0000,,Hej.
+Dialogue: 0,0:20:17.38,0:20:19.62,Main,Kag,0000,0000,0000,,Přivedla jsem si kluka.
+Dialogue: 0,0:20:21.69,0:20:23.54,Main,Shin,0000,0000,0000,,Proboha musíme to rychle někam schovat!
+Dialogue: 0,0:20:23.54,0:20:26.49,Main,Shin,0000,0000,0000,,Poslouchejte, vy dva se snažte\Nnechovat jako debilové.
+Dialogue: 0,0:20:26.49,0:20:28.95,Main,Shin,0000,0000,0000,,Jen seďte a usmívejte se, fajn?
+Dialogue: 0,0:20:31.33,0:20:34.08,Main,Gin,0000,0000,0000,,Hej, pamatuješ si naší dohodu, žejo?
+Dialogue: 0,0:20:34.08,0:20:34.71,Main,UB,0000,0000,0000,,Jo.
+Dialogue: 0,0:20:34.71,0:20:38.81,Main,Gin,0000,0000,0000,,Pokud se to jednomu z nás vymkne z rukou, ten \Ndruhej ho zastaví ať to stojí, co to stojí.
+Dialogue: 0,0:20:38.81,0:20:40.41,Main,Gin,0000,0000,0000,,Jako Kaguřin oparovník a Kaguřin otec,
+Dialogue: 0,0:20:40.41,0:20:43.59,Main,Gin,0000,0000,0000,,se musíme chovat jako dospělí \Na za žádnou cenu se nesmíme ztrapnit.
+Dialogue: 0,0:20:43.59,0:20:45.91,Main,UB,0000,0000,0000,,Ale vyskakovat si taky nebude.
+Dialogue: 0,0:20:45.91,0:20:47.97,Main,UB,0000,0000,0000,,Řekni mu, co mu říct chceš.
+Dialogue: 0,0:20:47.97,0:20:50.85,Main,UB,0000,0000,0000,,Jestli mezi sebou chtějí mít pěknej vztah,
+Dialogue: 0,0:20:50.85,0:20:53.48,Main,UB,0000,0000,0000,,nebudem jim stát v cestě. \NTo si musíme ujasnit.
+Dialogue: 0,0:20:53.91,0:20:54.98,Main,UB,0000,0000,0000,,Je to v pohodě.
+Dialogue: 0,0:20:54.98,0:20:58.48,Main,UB,0000,0000,0000,,Sice jsem ho viděl jen zezadu, \Nale je to normální děcko.
+Dialogue: 0,0:20:58.48,0:21:02.07,Main,UB,0000,0000,0000,,Pokud na něj promluvíl někdo dospělěj,\Nměl by mu bez problémů rozumět.
+Dialogue: 0,0:21:02.07,0:21:04.93,Main,UB,0000,0000,0000,,Přecijen, to jsme teď my.
+Dialogue: 0,0:21:04.93,0:21:07.49,Main,UB,0000,0000,0000,,Nejspíš nikdy předtím \Nneviděl nikoho tak dospělýho.
+Dialogue: 0,0:21:11.17,0:21:14.19,Main,Gin,0000,0000,0000,,Co se děje, Kaguro? Kdepak ho máš?
+Dialogue: 0,0:21:14.19,0:21:16.00,Main,Kag,0000,0000,0000,,Říkal, že nepůjde dovnitř.
+Dialogue: 0,0:21:16.00,0:21:18.68,Main,Gin,0000,0000,0000,,He? Stydí se?
+Dialogue: 0,0:21:18.68,0:21:20.64,Main,Gin,0000,0000,0000,,Prostě mu řekni ať jde dál.
+Dialogue: 0,0:21:20.64,0:21:22.87,Main,Kag,0000,0000,0000,,Jak jsem řekla, prý nemůže dovnitř
+Dialogue: 0,0:21:22.87,0:21:25.47,Main,Gin,0000,0000,0000,,Šmarja pano. \NMá z nás nasráno v kalhotech?
+Dialogue: 0,0:21:25.47,0:21:28.38,Main,Gin,0000,0000,0000,,Hej, kluku! Můžeš vstoupit!
+Dialogue: 0,0:21:28.38,0:21:30.50,Main,Gin,0000,0000,0000,,My tě nekousneme!
+Dialogue: 0,0:21:31.95,0:21:34.25,Main,Gin,0000,0000,0000,,Je celkem politováníhodnej.
+Dialogue: 0,0:21:34.25,0:21:35.33,Main,Gin,0000,0000,0000,,Je v pohodě?
+Dialogue: 0,0:21:35.33,0:21:37.06,Main,UB,0000,0000,0000,,No, já mu rozumim.
+Dialogue: 0,0:21:37.06,0:21:41.02,Main,UB,0000,0000,0000,, Přecejen jsou tady dva dospělý lidi. \NOvšem, že má strach.
+Dialogue: 0,0:21:41.02,0:21:43.36,Main,UB,0000,0000,0000,,Je to jen dítě. Velký mimino.
+Dialogue: 0,0:22:03.65,0:22:07.22,Main,Bo,0000,0000,0000,,Vážně je velký mimino!
+Dialogue: 0,0:22:07.22,0:22:08.84,TBC,Sign,0000,0000,0000,,{\fad(275,1)}Pokračování Příště
+Dialogue: 0,0:23:38.89,0:23:48.90,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:40.52,0:23:43.90,Main,Kag,0000,0000,0000,,The guys are whining too much \Njust because I got a boyfriend.
+Dialogue: 0,0:23:43.90,0:23:48.01,Main,Kag,0000,0000,0000,,Girls eventually start staying out late and \Ncoming back the next morning on their own.
+Dialogue: 0,0:23:48.01,0:23:49.38,Main,Kag,0000,0000,0000,,Get ready for it!
+Dialogue: 0,0:23:48.90,0:23:53.91,Ep Title,,0000,0000,0000,,{\fad(485,1)}My Bald Dad, My Light-Haired \NDad, and My Dad's Glasses
+Dialogue: 0,0:23:49.38,0:23:53.91,Main,Kag,0000,0000,0000,,Next time: "My Bald Dad, My Light-Haired \NDad, and My Dad's Glasses."
+Dialogue: 0,0:23:53.91,0:23:58.16,Side Bar Top,TextR,0000,0000,0000,,Kagura brought home her big boyfriend.
+Dialogue: 0,0:23:53.91,0:23:58.16,Side Bar Bottom,TextL,0000,0000,0000,,It shocked even the grown-ass grown-ups.
+Dialogue: 0,0:23:58.16,0:24:05.50,Side Bar Top,TextR,0000,0000,0000,,What's more, casual introductions\Nwon't be enough?
+Dialogue: 0,0:23:58.16,0:24:05.50,Side Bar Bottom,TextL,0000,0000,0000,,Their relationship takes a sudden turn?!

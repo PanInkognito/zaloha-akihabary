@@ -1,0 +1,351 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Qlassik Bold,34,&H00FCEFFB,&H000032D0,&H00090935,&H00000000,-1,0,0,0,95,100,0.3,0,1,2,1.2,2,30,30,45,0
+Style: QBR_Main,Qlassik Bold,34,&H00FCEFFB,&H000032D0,&H00090935,&H00000000,-1,0,0,0,95,100,0.3,0,1,2,1.2,2,30,30,45,0
+Style: QBR_Margin,Qlassik Bold,34,&H00FFFFFF,&H000000FF,&H001B0038,&H001B0038,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0005,0
+Style: QBR_Internal,Qlassik Bold,34,&H00FFFFFF,&H000000FF,&H001B0038,&H001B0038,0,1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Overlap,Qlassik Bold,34,&H00C8FFFF,&H000000FF,&H001B0038,&H001B0038,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Internal_Overlap,Qlassik Bold,34,&H00C8FFFF,&H000000FF,&H001B0038,&H001B0038,0,1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Flashback,Qlassik Bold,34,&H00FFFFFF,&H000000FF,&H002D0F00,&H002D0F00,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Flashback_Internal,Qlassik Bold,34,&H00FFFFFF,&H000000FF,&H002D0F00,&H002D0F00,0,1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Flashback_Overlap,Qlassik Bold,34,&H00C8FFFF,&H000000FF,&H002D0F00,&H002D0F00,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Flashback_Internal_Overlap,Qlassik Bold,34,&H00C8FFFF,&H000000FF,&H002D0F00,&H002D0F00,0,1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: QBR_Main_Preview,Qlassik Bold,34,&H00FFFFFF,&H000000FF,&H001B0038,&H001B0038,0,0,0,0,100,100,0,0,1,2,2,8,0010,0010,0015,0
+Style: QBR_Title,Qlassik Bold,38,&H00E5EAE6,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0070,0
+Style: QBR_Title2,Qlassik Bold,38,&H00D6FCFF,&H000000FF,&H007ED4F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0070,0
+Style: QBR_Title3,Qlassik Bold,38,&H00383C5A,&H000000FF,&H007ED4F1,&H0071728F,1,0,0,0,100,100,0,0,1,0,1,8,0010,0010,0070,0
+Style: QBR_Ep_Title,Qlassik Bold,32,&H00E5EAE6,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0130,0
+Style: QBR_Next_Ep_Title,Qlassik Bold,28,&H00E5EAE6,&H000000FF,&H004C4142,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0010,0059,0065,0
+Style: QBR_Preview,Qlassik Bold,28,&H00E5EAE6,&H000000FF,&H001D1E1D,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,0000,0440,0058,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:27.53,0:00:28.59,QBR_Main,P,0000,0000,0000,,Konec zápasu!
+Dialogue: 0,0:00:28.59,0:00:29.66,QBR_Main,P,0000,0000,0000,,Má dost!
+Dialogue: 0,0:00:32.21,0:00:36.21,QBR_Main,P,0000,0000,0000,,Je tu další bojovnice, která jí chce vyzvat?
+Dialogue: 0,0:00:36.21,0:00:38.19,QBR_Main,P,0000,0000,0000,,Účast v zápasu stojí zlaťák.
+Dialogue: 0,0:00:38.19,0:00:40.02,QBR_Main,P,0000,0000,0000,,Za vítězství dostanete 20 zlaťáků.
+Dialogue: 0,0:00:40.02,0:00:41.75,QBR_Main,A,0000,0000,0000,,No tak! Je tu někdo!
+Dialogue: 0,0:00:41.75,0:00:42.92,QBR_Main,B,0000,0000,0000,,Zaplatil jsem abych viděl boj!
+Dialogue: 0,0:00:43.82,0:00:45.11,QBR_Main,C,0000,0000,0000,,Jdu do toho.
+Dialogue: 0,0:00:48.46,0:00:49.60,QBR_Main,P,0000,0000,0000,,Díky.
+Dialogue: 0,0:00:50.56,0:00:53.43,QBR_Title,,0000,0000,0000,,{\fad(686,1)}Queen's Blade
+Dialogue: 0,0:00:53.43,0:00:54.19,QBR_Title2,,0000,0000,0000,,{\fad(50,1)}Queen's Blade
+Dialogue: 0,0:00:54.20,0:00:56.03,QBR_Title3,,0000,0000,0000,,{\fad(50,1)}Queen's Blade
+Dialogue: 0,0:02:20.28,0:02:24.46,QBR_Ep_Title,Title,0000,0000,0000,,{\fad(658,0)}Epizoda 2 「Svatá válka」
+Dialogue: 0,0:02:29.67,0:02:33.92,QBR_Main,A,0000,0000,0000,,Je to bezva. Rád se dívám na bojovnice když jdou na to.
+Dialogue: 0,0:02:33.92,0:02:38.54,QBR_Main,B,0000,0000,0000,,Jo, zvlášť když královna zrušila turnaj "Queen's Blade".
+Dialogue: 0,0:02:38.54,0:02:40.87,QBR_Main,B,0000,0000,0000,,Máme štěstí, že můžeme vidět ještě takový souboj.
+Dialogue: 0,0:02:42.82,0:02:44.73,QBR_Main,A,0000,0000,0000,,Bojovníci to mají těžké.
+Dialogue: 0,0:02:44.73,0:02:45.83,QBR_Main,A,0000,0000,0000,,Jestli si chtějí vydělat na jídlo,...
+Dialogue: 0,0:02:45.83,0:02:46.91,QBR_Main,,0000,0000,0000,,tak musí vstoupit do armády...
+Dialogue: 0,0:02:46.91,0:02:48.26,QBR_Main,B,0000,0000,0000,,nebo pokud nechtěj,...
+Dialogue: 0,0:02:48.26,0:02:50.42,QBR_Main,,0000,0000,0000,,tak se účastní ilegálních soubojů jako je tenhle.
+Dialogue: 0,0:02:50.84,0:02:53.42,QBR_Main,A,0000,0000,0000,,Slyšel jsi o tom...
+Dialogue: 0,0:02:53.42,0:02:55.43,QBR_Main,,0000,0000,0000,,potulném bojovníkovy co chodí od města k městu...
+Dialogue: 0,0:02:55.43,0:02:56.42,QBR_Main,,0000,0000,0000,,a nechává za sebou jen spoušť?
+Dialogue: 0,0:02:56.42,0:02:58.89,QBR_Main,B,0000,0000,0000,,Hm? Jo, slyšel jsem o něm.
+Dialogue: 0,0:03:03.92,0:03:08.02,QBR_Main,A,0000,0000,0000,,Tvrdí se že je dědicem jednoho ze šlechtických řádů.
+Dialogue: 0,0:03:16.98,0:03:20.00,QBR_Internal,Annelotte,0000,0000,0000,,Zajímalo by mě, co mám teď dělat?
+Dialogue: 0,0:03:21.81,0:03:23.75,QBR_Internal,Annelotte,0000,0000,0000,,Mým plánem bylo projít křížem krážem svět a najít spojence...
+Dialogue: 0,0:03:23.75,0:03:25.51,QBR_Internal,,0000,0000,0000,,a ne před nima utíkat...
+Dialogue: 0,0:03:41.03,0:03:42.63,QBR_Main,TheWarrior,0000,0000,0000,,Mám tě!
+Dialogue: 0,0:04:03.15,0:04:05.57,QBR_Main,P,0000,0000,0000,,Tak je tu dalším statečný bojovník, který ukáže co umí?
+Dialogue: 0,0:04:05.57,0:04:07.17,QBR_Main,A,0000,0000,0000,,No tak!
+Dialogue: 0,0:04:07.17,0:04:08.63,QBR_Main,B,0000,0000,0000,,Jestli nebudou bojovat tak mi naval zpátky mý prachy!
+Dialogue: 0,0:04:08.63,0:04:09.46,QBR_Main,P,0000,0000,0000,,Do prdele.
+Dialogue: 0,0:04:28.92,0:04:32.57,QBR_Main,P,0000,0000,0000,,Vypadá to, že už tu máme nového vyzyvatele!
+Dialogue: 0,0:04:32.57,0:04:34.07,QBR_Main,P,0000,0000,0000,,Nechť boj začne!
+Dialogue: 0,0:04:34.07,0:04:35.99,QBR_Main,TheWarrior,0000,0000,0000,,Nečekej že tě budu šetřit cizinko.
+Dialogue: 0,0:04:35.99,0:04:38.46,QBR_Main,BG,0000,0000,0000,,Jó! Skvělý! Do toho!
+Dialogue: 0,0:04:45.40,0:04:46.50,QBR_Main,TheWarrior,0000,0000,0000,,Ta holka...
+Dialogue: 0,0:04:47.36,0:04:48.67,QBR_Main,Annelotte,0000,0000,0000,,Přestaň! Co to děláš?
+Dialogue: 0,0:05:03.37,0:05:04.52,QBR_Main,BG,0000,0000,0000,,Jó!
+Dialogue: 0,0:05:04.01,0:05:05.25,QBR_Main,BG,0000,0000,0000,,To bylo dobrý!
+Dialogue: 0,0:05:05.50,0:05:07.58,QBR_Main,P,0000,0000,0000,,Fakt pěkná podívaná.
+Dialogue: 0,0:05:07.58,0:05:09.69,QBR_Main,P,0000,0000,0000,,Jseš docela silná a navíc rozkošná.
+Dialogue: 0,0:05:09.69,0:05:12.12,QBR_Main,P,0000,0000,0000,,Co říkáš na to dát se dohromady a vydělat si tak rychle pořádnej balík?
+Dialogue: 0,0:05:12.12,0:05:12.79,QBR_Main,Annelotte,0000,0000,0000,,Co?
+Dialogue: 0,0:05:12.79,0:05:14.19,QBR_Main,Rnd Guy,0000,0000,0000,,Je to zlý!
+Dialogue: 0,0:05:14.54,0:05:16.50,QBR_Main,Rnd Guy,0000,0000,0000,,Je tu Inkvizitorka!
+Dialogue: 0,0:05:16.50,0:05:18.56,QBR_Main,A,0000,0000,0000,,C-co? Toto není dobrý.
+Dialogue: 0,0:05:18.56,0:05:20.35,QBR_Main,B,0000,0000,0000,,Jstli nás tu najde upálí nás na hranici!
+Dialogue: 0,0:05:20.35,0:05:21.37,QBR_Main,BG,0000,0000,0000,,Utíkejte!
+Dialogue: 0,0:05:23.78,0:05:25.52,QBR_Main,Annelotte,0000,0000,0000,,Inkvizitorka...
+Dialogue: 0,0:05:38.93,0:05:41.79,QBR_Main,Elina,0000,0000,0000,,Proč musím jít s tebou?
+Dialogue: 0,0:05:41.79,0:05:45.85,QBR_Main,Sigui,0000,0000,0000,, Jsem zde jen na mé standardní inkvizitorské obchůzce.
+Dialogue: 0,0:05:45.85,0:05:47.89,QBR_Main,Sigui,0000,0000,0000,,Ty jsi ta kdo se rozhodla mě následovat.
+Dialogue: 0,0:05:49.24,0:05:50.07,QBR_Main,Elina,0000,0000,0000,,Sakra.
+Dialogue: 0,0:05:50.70,0:05:52.55,QBR_Main,Elina,0000,0000,0000,,Kdyby se Ymir nikdy nezmínila o tom,...
+Dialogue: 0,0:05:52.55,0:05:55.51,QBR_Main,,0000,0000,0000,,že tu může být poslední dědic řádu Kreutz,...
+Dialogue: 0,0:05:55.51,0:05:57.80,QBR_Main,,0000,0000,0000,,nikdy byl bych nezavítala do těhle prdelákovic.
+Dialogue: 0,0:05:57.80,0:06:00.66,QBR_Main,Kids,0000,0000,0000,,Vítejte inkvizitorko!
+Dialogue: 0,0:06:01.35,0:06:02.64,QBR_Main,Sigui,0000,0000,0000,,Velice vám děkuji.
+Dialogue: 0,0:06:03.64,0:06:05.40,QBR_Main,Kid,0000,0000,0000,,T-tady.
+Dialogue: 0,0:06:07.61,0:06:09.66,QBR_Main,Elina,0000,0000,0000,,Nesnáším tyhle kytky.
+Dialogue: 0,0:06:09.66,0:06:10.85,QBR_Main,Sigui,0000,0000,0000,,Elino!
+Dialogue: 0,0:06:12.87,0:06:16.27,QBR_Main,Elina,0000,0000,0000,,Jdu si inkvizicírovat na vlastní pěst.
+Dialogue: 0,0:06:16.27,0:06:18.16,QBR_Main,Elina,0000,0000,0000,,Tak se budu moct vrátit domů kdy budu chtít.
+Dialogue: 0,0:06:20.21,0:06:22.15,QBR_Main,Sigui,0000,0000,0000,,Neplač.
+Dialogue: 0,0:06:22.15,0:06:26.60,QBR_Main,Sigui,0000,0000,0000,,Bůh vidí tvé dobré skutky.
+Dialogue: 0,0:06:27.73,0:06:29.50,QBR_Main,Annelotte,0000,0000,0000,,Tak Elina je tady?
+Dialogue: 0,0:06:29.70,0:06:31.87,QBR_Main,Kids,0000,0000,0000,,Jó! Pojďme si hrát támhle!
+Dialogue: 0,0:06:31.87,0:06:33.39,QBR_Main,Annelotte,0000,0000,0000,,Jsou tu všude děti.
+Dialogue: 0,0:06:33.39,0:06:35.57,QBR_Main,Annelotte,0000,0000,0000,,Budu se tedy muset snažit vyhnout boji.
+Dialogue: 0,0:06:37.29,0:06:39.69,QBR_Main,Elina,0000,0000,0000,,Bože, já jsem tak hloupá.
+Dialogue: 0,0:06:39.69,0:06:42.65,QBR_Main,Elina,0000,0000,0000,,Neměla bych poslouchat Ymir.
+Dialogue: 0,0:06:43.28,0:06:45.53,QBR_Main,Elina,0000,0000,0000,,Uf, jsem tak unavená.
+Dialogue: 0,0:06:46.35,0:06:48.25,QBR_Main,Kid,0000,0000,0000,,Je děsně ledová!
+Dialogue: 0,0:06:48.25,0:06:50.29,QBR_Main,Kid2,0000,0000,0000,,Něco je pod támhle tím kamenem!
+Dialogue: 0,0:06:51.37,0:06:56.39,QBR_Main,Elina,0000,0000,0000,,Sestra Claudetta hodně Ymir věří.
+Dialogue: 0,0:06:56.90,0:07:01.20,QBR_Main,Elina,0000,0000,0000,,Nerada to přiznávám, ale její plány většinou fungují.
+Dialogue: 0,0:07:01.67,0:07:04.33,QBR_Main,Elina,0000,0000,0000,,Myslela jsem, že je jen dalším hloupým trpaslíkem,...
+Dialogue: 0,0:07:04.33,0:07:05.64,QBR_Main,,0000,0000,0000,,ale ve skutečnosti pěkně chladně uvažuje.
+Dialogue: 0,0:07:06.54,0:07:08.81,QBR_Main,Annelotte,0000,0000,0000,,Nejsou tu žádná jiná okna nebo dveře.
+Dialogue: 0,0:07:09.20,0:07:10.53,QBR_Internal,Annelotte,0000,0000,0000,,To není dobrý.
+Dialogue: 0,0:07:15.33,0:07:17.45,QBR_Main,Elina,0000,0000,0000,,Měla jsem pocit, že slyším hlas ...
+Dialogue: 0,0:07:17.45,0:07:19.25,QBR_Main,Elina,0000,0000,0000,,Asi to byla jen má představivost.
+Dialogue: 0,0:07:20.41,0:07:22.31,QBR_Internal,Annelotte,0000,0000,0000,,Ch-chobotnice...
+Dialogue: 0,0:07:23.52,0:07:25.06,QBR_Internal,Annelotte,0000,0000,0000,,Kde se tu vzala?!
+Dialogue: 0,0:07:27.47,0:07:29.64,QBR_Main,Elina,0000,0000,0000,,Nevím proč,...
+Dialogue: 0,0:07:29.64,0:07:34.17,QBR_Main,,0000,0000,0000,,ale sestra Claudetta byla v poslední době úžasná...
+Dialogue: 0,0:07:34.61,0:07:38.07,QBR_Main,Elina,0000,0000,0000,,Doufám, že jednou budu jako sestřička Reina.
+Dialogue: 0,0:07:38.72,0:07:41.11,QBR_Internal,Elina,0000,0000,0000,,Chtěla bych znovu vidět Reinu.
+Dialogue: 0,0:07:41.93,0:07:43.90,QBR_Internal,Elina,0000,0000,0000,,Až se má malá sestřička vrátí,...
+Dialogue: 0,0:07:43.90,0:07:45.83,QBR_Internal,,0000,0000,0000,,tak chci abychom si my dvě spolu... 
+Dialogue: 0,0:07:45.83,0:07:47.41,QBR_Internal,,0000,0000,0000,,zase hráli s Claudett.
+Dialogue: 0,0:07:48.28,0:07:49.74,QBR_Main,Elina,0000,0000,0000,,Reino...
+Dialogue: 0,0:07:52.22,0:07:53.87,QBR_Main,Elina,0000,0000,0000,,Claudett...
+Dialogue: 0,0:08:01.15,0:08:05.39,QBR_Main,Yuit,0000,0000,0000,,Tímto tempem, dorazíme do Gainosu asi za deset dnů.
+Dialogue: 0,0:08:06.71,0:08:08.73,QBR_Main,Yuit,0000,0000,0000,,Dostaneme zpátky Mirim,...
+Dialogue: 0,0:08:08.73,0:08:12.72,QBR_Main,,0000,0000,0000,,získáme zpět čarodějný kámen, a najdeme brášku.
+Dialogue: 0,0:08:15.15,0:08:17.19,QBR_Main,Yuit,0000,0000,0000,,Mimochodem, jsi už připravená vyrazit Vante?
+Dialogue: 0,0:08:19.13,0:08:20.54,QBR_Main,Kid,0000,0000,0000,,Pojďme domů!
+Dialogue: 0,0:08:19.72,0:08:21.88,QBR_Overlap,KidA,0000,0000,0000,,Zajímalo by mě, co budeme mít dnes k večeři?
+Dialogue: 0,0:08:24.55,0:08:27.42,QBR_Main,Elina,0000,0000,0000,,Chybí mi má starší sestřička.
+Dialogue: 0,0:08:27.42,0:08:29.25,QBR_Main,Elina,0000,0000,0000,,Myslím, že je čas vrátit se do Gainosu.
+Dialogue: 0,0:08:44.21,0:08:45.52,QBR_Main,Sigui,0000,0000,0000,,Jsem šťastná.
+Dialogue: 0,0:08:45.52,0:08:47.26,QBR_Main,,0000,0000,0000,,Ve vaší obci jsem nenašla... 
+Dialogue: 0,0:08:47.26,0:08:49.01,QBR_Main,,0000,0000,0000,,sebemenší náznak kacířství.
+Dialogue: 0,0:08:49.01,0:08:51.81,QBR_Main,Sister,0000,0000,0000,,Velmi vám děkuji, sestro Inkvizitorko.
+Dialogue: 0,0:08:51.81,0:08:55.41,QBR_Main,Sister,0000,0000,0000,,V tomto případě bychom vás rádi o něco požádali.
+Dialogue: 0,0:08:55.41,0:08:57.25,QBR_Main,Sigui,0000,0000,0000,,Pokud je to něco, co je v mé moci...
+Dialogue: 0,0:08:57.81,0:08:58.96,QBR_Main,Sister,0000,0000,0000,,Tedy...
+Dialogue: 0,0:09:05.17,0:09:08.66,QBR_Main,Sigui,0000,0000,0000,,Teď si sedněte rovně a roztáhněte co nejvíc své nohy.
+Dialogue: 0,0:09:09.26,0:09:12.05,QBR_Main,Sigui,0000,0000,0000,,To to je demonstrace vaší věrnosti Bohu.
+Dialogue: 0,0:09:12.05,0:09:15.39,QBR_Main,SisterA,0000,0000,0000,,Sestro inkvizitorko... nemyslím, že to dokážu...
+Dialogue: 0,0:09:15.39,0:09:17.87,QBR_Main,Sigui,0000,0000,0000,,Zkoušej to dál. Tvé nohy dokážou víc.
+Dialogue: 0,0:09:18.92,0:09:21.43,QBR_Main,SisterA,0000,0000,0000,,J-je to pro mne čest sestro Sigi.
+Dialogue: 0,0:09:21.91,0:09:25.23,QBR_Main,Sigui,0000,0000,0000,,Nemluv ke mě. Mluv k Bohu.
+Dialogue: 0,0:09:25.23,0:09:27.68,QBR_Main,Sigui,0000,0000,0000,,Také máš špatné držení hrudníku.
+Dialogue: 0,0:09:29.35,0:09:32.76,QBR_Main,Sigui,0000,0000,0000,,Bůh dlí v celém tvém těle.
+Dialogue: 0,0:09:33.14,0:09:34.02,QBR_Main,Sigui,0000,0000,0000,,Je zde.
+Dialogue: 0,0:09:34.65,0:09:35.45,QBR_Main,Sigui,0000,0000,0000,,A tady.
+Dialogue: 0,0:09:35.95,0:09:37.12,QBR_Main,Sigui,0000,0000,0000,,A tady!
+Dialogue: 0,0:09:37.12,0:09:39.77,QBR_Main,SisterB,0000,0000,0000,,Sestro Inkvizitorko, prosím ukažte mi to taky!
+Dialogue: 0,0:09:39.77,0:09:41.60,QBR_Main,SisterC,0000,0000,0000,,Prosím a mě taky!
+Dialogue: 0,0:09:42.17,0:09:44.80,QBR_Main,Sister,0000,0000,0000,,Mé ovečky mají štěstí.
+Dialogue: 0,0:09:45.21,0:09:47.86,QBR_Main,Sister,0000,0000,0000,,Nikdy bych si nepomyslela, že budou mít možnost...
+Dialogue: 0,0:09:47.86,0:09:49.07,QBR_Main,,0000,0000,0000,,učit se od samotné sestry Sigi,...
+Dialogue: 0,0:09:49.07,0:09:50.98,QBR_Main,,0000,0000,0000,,která je jedním z nejvíce ctěných členů duchovenstva.
+Dialogue: 0,0:09:53.44,0:09:56.14,QBR_Main,SisterA,0000,0000,0000,,Sestro Inkvizitorko, jste opravdu úžasná.
+Dialogue: 0,0:09:56.14,0:09:58.04,QBR_Main,SisterA,0000,0000,0000,,Jak jste toho vůbec dosáhla?
+Dialogue: 0,0:09:58.40,0:10:01.65,QBR_Main,Sigui,0000,0000,0000,,Služba Bohu je nikdy nekončící cesta.
+Dialogue: 0,0:10:02.26,0:10:04.15,QBR_Main,Sigui,0000,0000,0000,,A já mám k dokonalosti daleko.
+Dialogue: 0,0:10:04.44,0:10:09.17,QBR_Main,Sigui,0000,0000,0000,,Je tu ještě jedna svatá póza kterou se musím naučit.
+Dialogue: 0,0:10:09.17,0:10:11.47,QBR_Main,SisterC,0000,0000,0000,,D-dokonce i ty sestro Inkvizitorko se stále učíš?
+Dialogue: 0,0:10:11.47,0:10:13.25,QBR_Main,SisterB,0000,0000,0000,,Co je to za pózu?
+Dialogue: 0,0:10:15.53,0:10:18.74,QBR_Main,Sigui,0000,0000,0000,,Je známá pod jménem "Svatá póza: Osud."
+Dialogue: 0,0:10:20.21,0:10:23.77,QBR_Main,Sigui,0000,0000,0000,,Říká se, že jí mohou zvládnout pouze ti,...
+Dialogue: 0,0:10:23.77,0:10:25.99,QBR_Main,,0000,0000,0000,,kdo byli vybráni samotným Bohem.
+Dialogue: 0,0:10:27.30,0:10:29.51,QBR_Main,Sigui,0000,0000,0000,,Nijak se od vás neliším, pokud jde...
+Dialogue: 0,0:10:29.51,0:10:31.73,QBR_Main,,0000,0000,0000,,o víru v Boha a tak můžete jít v mých stopách.
+Dialogue: 0,0:10:32.28,0:10:34.09,QBR_Main,Sigui,0000,0000,0000,,Stačí když do toho půjdete naplno.
+Dialogue: 0,0:10:34.09,0:10:35.88,QBR_Main,All,0000,0000,0000,,Ano, sestro Inkvizitorko.
+Dialogue: 0,0:10:37.07,0:10:39.74,QBR_Main,Sister,0000,0000,0000,,Sestro Inkvizitorko lidé z města...
+Dialogue: 0,0:10:39.74,0:10:42.99,QBR_Main,,0000,0000,0000,,by byli rádi, kdyby jste si vyslechla jejich problémy.
+Dialogue: 0,0:10:42.99,0:10:44.11,QBR_Main,Sigui,0000,0000,0000,,Tak dobře.
+Dialogue: 0,0:10:44.66,0:10:45.86,QBR_Main,,0000,0000,0000,,Budu jim naslouchat.
+Dialogue: 0,0:10:46.72,0:10:48.93,QBR_Main,A,0000,0000,0000,,Ta Inkvizitorka byla docela dobrá.
+Dialogue: 0,0:10:48.93,0:10:50.40,QBR_Main,Girl,0000,0000,0000,,{\a6}Zde je Vaše objednávka!
+Dialogue: 0,0:10:49.64,0:10:52.11,QBR_Main,A,0000,0000,0000,,Šel jsem si s ní promluvit o problému jenž mám v práci...
+Dialogue: 0,0:10:52.11,0:10:54.94,QBR_Main,,0000,0000,0000,,a ona mi řekla báječný příběh o Bohu.
+Dialogue: 0,0:10:54.94,0:10:57.42,QBR_Main,A,0000,0000,0000,,Cítím se teď o moc líp.
+Dialogue: 0,0:10:57.42,0:11:00.28,QBR_Main,Shopkeep,0000,0000,0000,,Je sice dost mladá, ale už toho hodně dokázala.
+Dialogue: 0,0:11:00.28,0:11:02.42,QBR_Main,Shopkeep,0000,0000,0000,,Řekla mi, že je zde mnoho lidí co si chtějí promluvit...
+Dialogue: 0,0:11:02.42,0:11:04.81,QBR_Main,,0000,0000,0000,,a tak přesunula svůj odjezd do hlavního města na pondělí.
+Dialogue: 0,0:11:04.81,0:11:07.81,QBR_Main,B,0000,0000,0000,,Opravdu? Možná, že za ní taky zajdu.
+Dialogue: 0,0:11:08.76,0:11:10.49,QBR_Internal,Annelotte,0000,0000,0000,,Inkvizitoři...
+Dialogue: 0,0:11:10.95,0:11:13.81,QBR_Internal,Annelotte,0000,0000,0000,,Ve vesnicích, kterými jsem prošla o nich mluvili jen dobře.
+Dialogue: 0,0:11:14.92,0:11:17.43,QBR_Internal,Annelotte,0000,0000,0000,,Zdá se, že královna jim umožňuje pracovat,...
+Dialogue: 0,0:11:18.09,0:11:20.37,QBR_Internal,Annelotte,0000,0000,0000,,ale zajímalo by mě co si myslí...
+Dialogue: 0,0:11:20.37,0:11:22.11,QBR_Internal,,0000,0000,0000,,o všech těch změnách.
+Dialogue: 0,0:11:22.66,0:11:25.46,QBR_Main,A,0000,0000,0000,,Mimochodem, slyšel jsem, že na jihu...
+Dialogue: 0,0:11:25.46,0:11:27.50,QBR_Main,,0000,0000,0000,,byla epidemie při který děti padali jak mouchy.
+Dialogue: 0,0:11:27.76,0:11:30.31,QBR_Main,B,0000,0000,0000,,Jo, to je jedena z těch nemocí, se kterou nejsou problémy,...
+Dialogue: 0,0:11:30.31,0:11:32.72,QBR_Main,,0000,0000,0000,,když u sebe máte dost léků.
+Dialogue: 0,0:11:32.72,0:11:34.73,QBR_Main,B,0000,0000,0000,,Nicméně, vzhledem k mlze v Kalibarským lese, zřejmě budou...
+Dialogue: 0,0:11:34.73,0:11:36.81,QBR_Main,,0000,0000,0000,,potíže s přepravou léků v celým regionu.
+Dialogue: 0,0:11:37.26,0:11:39.04,QBR_Main,Shopkeep,0000,0000,0000,,Calibarský les, co?
+Dialogue: 0,0:11:39.45,0:11:42.45,QBR_Main,Shopkeep,0000,0000,0000,,Slyšela jsem, že dřív tam žádná mlha nebyla.
+Dialogue: 0,0:11:42.45,0:11:44.73,QBR_Main,B,0000,0000,0000,,Kdyby skrz něj šlo projít bez problémů,...
+Dialogue: 0,0:11:44.73,0:11:47.41,QBR_Main,,0000,0000,0000,,byla by pak hračka dostat léky na místo kde jsou potřeba.
+Dialogue: 0,0:11:47.41,0:11:50.84,QBR_Main,A,0000,0000,0000,,Lidi mluví o tom, že se v lese usadili monstra.
+Dialogue: 0,0:11:50.84,0:11:52.59,QBR_Main,B,0000,0000,0000,,Vážně? To je hrůza.
+Dialogue: 0,0:11:52.99,0:11:53.99,QBR_Main,Annelotte,0000,0000,0000,,Monstra?
+Dialogue: 0,0:11:55.49,0:11:56.92,QBR_Main,Annelotte,0000,0000,0000,,Calibarský les...
+Dialogue: 0,0:11:59.42,0:12:01.10,QBR_Main,Sister,0000,0000,0000,,Prosím můžete vstoupit.
+Dialogue: 0,0:12:11.05,0:12:12.71,QBR_Main,Sigui,0000,0000,0000,,Co tě trápí?
+Dialogue: 0,0:12:13.07,0:12:17.12,QBR_Main,Annelotte,0000,0000,0000,,Nejsem si jistá, co mám teď v životě dělat.
+Dialogue: 0,0:12:18.57,0:12:20.55,QBR_Main,Sigui,0000,0000,0000,,Mohla by jsi mi říct detaily?
+Dialogue: 0,0:12:37.04,0:12:40.93,QBR_Main,Ymir,0000,0000,0000,,Podívejme. Přesně, jak jsem si myslela.
+Dialogue: 0,0:12:41.36,0:12:44.52,QBR_Main,Eirin,0000,0000,0000,,Vypadá to, že je tvůj vynález už skoro hotov, sestřičko Ymir.
+Dialogue: 0,0:12:44.52,0:12:47.88,QBR_Main,Ymir,0000,0000,0000,,Ale ještě stále není ve fázi, kdy jej můžeme zpeněžit.
+Dialogue: 0,0:12:48.70,0:12:50.95,QBR_Main,Ymir,0000,0000,0000,,Vypadá to, že do toho budeme muset prozatím ještě investovat.
+Dialogue: 0,0:12:51.24,0:12:54.20,QBR_Main,Eirin,0000,0000,0000,,To vidím. Mám pocit, že je to ztráta času.
+Dialogue: 0,0:12:54.20,0:12:58.05,QBR_Main,Ymir,0000,0000,0000,,Mám tuny dalších vynálezů na kterých pracuju.
+Dialogue: 0,0:12:58.05,0:13:00.90,QBR_Main,Ymir,0000,0000,0000,,Nakonec všechny zbraně pro Královninu armádu...
+Dialogue: 0,0:13:00.90,0:13:02.78,QBR_Main,,0000,0000,0000,,budou dodávat mé Ocelové Hory!
+Dialogue: 0,0:13:06.44,0:13:07.31,QBR_Main,Sigui,0000,0000,0000,,Chápu.
+Dialogue: 0,0:13:07.80,0:13:10.90,QBR_Main,Sigui,0000,0000,0000,,Chtěla jsi na někom vykonat pomstu,...
+Dialogue: 0,0:13:10.90,0:13:12.91,QBR_Main,Sigui,0000,0000,0000,,ale teď, když jsi prošla svět křížem krážem,...
+Dialogue: 0,0:13:12.91,0:13:15.14,QBR_Main,,0000,0000,0000,,se tvé názory změnili.
+Dialogue: 0,0:13:15.14,0:13:16.09,QBR_Main,Annelotte,0000,0000,0000,,Správně.
+Dialogue: 0,0:13:16.57,0:13:19.90,QBR_Main,Annelotte,0000,0000,0000,,Na tomto kontinentu existuje mnoho lidí, kteří trpí.
+Dialogue: 0,0:13:20.47,0:13:24.03,QBR_Main,Annelotte,0000,0000,0000,,Zajímá mě, co bych měla udělat, abych všechny zachránila...
+Dialogue: 0,0:13:24.03,0:13:26.10,QBR_Main,,0000,0000,0000,,a opravdu udělala ze světa lepší místo.
+Dialogue: 0,0:13:26.57,0:13:28.15,QBR_Main,Sigui,0000,0000,0000,,Zde máš svou odpověd.
+Dialogue: 0,0:13:29.00,0:13:30.29,QBR_Main,,0000,0000,0000,,Musíš se modlit.
+Dialogue: 0,0:13:30.51,0:13:31.57,QBR_Main,Annelotte,0000,0000,0000,,Modlit?
+Dialogue: 0,0:13:32.27,0:13:35.83,QBR_Main,Sigui,0000,0000,0000,,Správně. Modlitba je pro každého cestou ke spáse.
+Dialogue: 0,0:13:35.83,0:13:37.58,QBR_Main,Sigui,0000,0000,0000,,Pokud se všichni budou modlit...
+Dialogue: 0,0:13:37.58,0:13:40.05,QBR_Main,,0000,0000,0000,,k Bohu celým svým srdcem,...
+Dialogue: 0,0:13:40.05,0:13:42.43,QBR_Main,,0000,0000,0000,,pak k nim přijde štěstí samo.
+Dialogue: 0,0:13:52.53,0:13:54.55,QBR_Main,Annelotte,0000,0000,0000,,Co to děláte?
+Dialogue: 0,0:13:54.75,0:13:57.41,QBR_Main,Sigui,0000,0000,0000,,To je "Svatá póza: Uctívání".
+Dialogue: 0,0:13:58.08,0:14:00.06,QBR_Main,Sigui,0000,0000,0000,,Odevzdej se celá Bohu.
+Dialogue: 0,0:14:00.63,0:14:03.99,QBR_Main,Sigui,0000,0000,0000,,Bůh je všudypřítomný a všemohoucí.
+Dialogue: 0,0:14:06.08,0:14:08.39,QBR_Main,Annelotte,0000,0000,0000,,Takže říkáš, že mám přestat myslet sama za sebe?
+Dialogue: 0,0:14:09.47,0:14:11.99,QBR_Main,Annelotte,0000,0000,0000,,Věřím, že modlitba má své místo.
+Dialogue: 0,0:14:12.76,0:14:15.97,QBR_Main,Annelotte,0000,0000,0000,,Ale nemůžu nechat vše na Bohu!
+Dialogue: 0,0:14:16.60,0:14:18.80,QBR_Main,Annelotte,0000,0000,0000,,Myslím, že jsou zde věci, které mohou vykonat jen lidé.
+Dialogue: 0,0:14:18.80,0:14:21.07,QBR_Main,Sigui,0000,0000,0000,,To není nic víc než čistá arogance.
+Dialogue: 0,0:14:21.76,0:14:25.21,QBR_Main,Sigui,0000,0000,0000,,Každý člověk má svůj limit za který nemůže jít.
+Dialogue: 0,0:14:25.60,0:14:27.48,QBR_Main,Annelotte,0000,0000,0000,,A to je to co mě trápí!
+Dialogue: 0,0:14:30.30,0:14:31.65,QBR_Main,Sigui,0000,0000,0000,,O co se to tu pokoušíš?
+Dialogue: 0,0:14:31.65,0:14:32.65,QBR_Main,Annelotte,0000,0000,0000,,Co?
+Dialogue: 0,0:14:32.65,0:14:34.02,QBR_Main,Sigui,0000,0000,0000,,Jak odporné!
+Dialogue: 0,0:14:35.03,0:14:37.48,QBR_Main,Sigui,0000,0000,0000,,Dělat tohle při zpovědi...
+Dialogue: 0,0:14:42.49,0:14:43.92,QBR_Main,Annelotte,0000,0000,0000,,P- prosím počekej!
+Dialogue: 0,0:14:43.92,0:14:45.16,QBR_Main,Annelotte,0000,0000,0000,,O čem to mluvíš?
+Dialogue: 0,0:14:46.09,0:14:47.26,QBR_Main,Sigui,0000,0000,0000,,Teď už rozumím.
+Dialogue: 0,0:14:47.86,0:14:50.77,QBR_Main,Sigui,0000,0000,0000,,Zdá se že potřebuješ být očištěna od hříchu.
+Dialogue: 0,0:14:51.41,0:14:52.94,QBR_Main,Sigui,0000,0000,0000,,Vyzívám tě k boji.
+Dialogue: 0,0:14:54.38,0:14:56.11,QBR_Main,C,0000,0000,0000,,Slyšte! Slyšte!
+Dialogue: 0,0:14:56.11,0:14:59.26,QBR_Main,C,0000,0000,0000,,Inkvizitorka a purpurovlasá bojovnice...
+Dialogue: 0,0:14:59.26,0:15:01.28,QBR_Main,,0000,0000,0000,,budou bojovat za kostelem!
+Dialogue: 0,0:15:01.28,0:15:03.80,QBR_Main,C,0000,0000,0000,,To je úžasná zpráva!
+Dialogue: 0,0:15:05.43,0:15:06.85,QBR_Main,A,0000,0000,0000,,To je skvělý.
+Dialogue: 0,0:15:06.85,0:15:09.05,QBR_Main,A,0000,0000,0000,,Tak tenhle boj musíme vidět zblízka.
+Dialogue: 0,0:15:09.39,0:15:12.84,QBR_Main,B,0000,0000,0000,,Slavná Inkvizitorka proti krásné bojovnici ze včerejška.
+Dialogue: 0,0:15:13.69,0:15:15.73,QBR_Main,B,0000,0000,0000,,Dva lepší bojovníky by stěží kdo vybral.
+Dialogue: 0,0:15:16.11,0:15:18.93,QBR_Main,Annelotte,0000,0000,0000,,Nemám žádný důvod s tebou bojovat.
+Dialogue: 0,0:15:19.20,0:15:21.30,QBR_Main,Sigui,0000,0000,0000,,Skrze tento souboj...
+Dialogue: 0,0:15:21.30,0:15:23.20,QBR_Main,,0000,0000,0000,,určím zda kacířka jsi nebo ne.
+Dialogue: 0,0:15:23.99,0:15:24.87,QBR_Main,Sigui,0000,0000,0000,,Dostřehu.
+Dialogue: 0,0:15:37.76,0:15:38.96,QBR_Internal,Annelotte,0000,0000,0000,,Je silná.
+Dialogue: 0,0:15:40.80,0:15:42.15,QBR_Main,P,0000,0000,0000,,No tak.
+Dialogue: 0,0:15:42.15,0:15:44.59,QBR_Main,P,0000,0000,0000,,Vaše sázky.
+Dialogue: 0,0:15:44.59,0:15:46.38,QBR_Main,BG1,0000,0000,0000,,Tohle vítězství je moje!
+Dialogue: 0,0:15:46.38,0:15:47.49,QBR_Main,BG2,0000,0000,0000,,Cejtím prachy!
+Dialogue: 0,0:15:48.60,0:15:49.79,QBR_Main,P,0000,0000,0000,,A díky.
+Dialogue: 0,0:16:02.25,0:16:04.51,QBR_Internal,Annelotte,0000,0000,0000,,Bojuje bez pochyb a bez váhání.
+Dialogue: 0,0:16:09.53,0:16:11.02,QBR_Internal,Annelotte,0000,0000,0000,,T-to je...
+Dialogue: 0,0:16:11.46,0:16:14.01,QBR_Internal,Annelotte,0000,0000,0000,,To je to, co znamená mít víru v Boha?
+Dialogue: 0,0:16:27.76,0:16:29.87,QBR_Main,WarriorA,0000,0000,0000,,Inkvizitorka je silná...
+Dialogue: 0,0:16:31.60,0:16:33.30,QBR_Main,WarriorB,0000,0000,0000,,Porazila tu bojovnici?
+Dialogue: 0,0:16:41.50,0:16:43.38,QBR_Main,Sigui,0000,0000,0000,,Ještě není pozdě.
+Dialogue: 0,0:16:43.83,0:16:46.23,QBR_Main,Sigui,0000,0000,0000,,Přísahej věrnost Bohu.
+Dialogue: 0,0:16:46.75,0:16:50.05,QBR_Main,Sigui,0000,0000,0000,,Když tak učiníš, bude ti ve jménu Božím odpuštěno.
+Dialogue: 0,0:16:50.53,0:16:54.73,QBR_Main,Sigui,0000,0000,0000,,Nyní, pojďme spolu vstoupit cestu jenž nám Bůh určil.
+Dialogue: 0,0:16:59.70,0:17:03.33,QBR_Main,Annelotte,0000,0000,0000,,Možná, že Bůh je všemocný,...
+Dialogue: 0,0:17:04.05,0:17:05.97,QBR_Main,Annelotte,0000,0000,0000,,ale dokud se držím na nohou,... 
+Dialogue: 0,0:17:06.61,0:17:10.71,QBR_Main,,0000,0000,0000,,tak budu spoléhat jen sama na sebe.
+Dialogue: 0,0:17:12.09,0:17:14.27,QBR_Main,Annelotte,0000,0000,0000,,A raději si zvolím sama svou cestu,...
+Dialogue: 0,0:17:15.12,0:17:17.05,QBR_Main,Annelotte,0000,0000,0000,,i když nevím co mě na ní čeká.
+Dialogue: 0,0:17:18.57,0:17:21.22,QBR_Main,Sigui,0000,0000,0000,,V tom případě...slyš můj rozsudek.
+Dialogue: 0,0:17:22.38,0:17:24.89,QBR_Main,Sigui,0000,0000,0000,,Shledávám tě vinnou.
+Dialogue: 0,0:17:25.22,0:17:27.25,QBR_Main,Sigui,0000,0000,0000,,Odsuzuji tě k upálení zaživa.
+Dialogue: 0,0:17:40.94,0:17:42.01,QBR_Main,Sigui,0000,0000,0000,,Připrav se!
+Dialogue: 0,0:17:44.61,0:17:45.28,QBR_Main,Sigui,0000,0000,0000,,Teď!
+Dialogue: 0,0:17:48.35,0:17:49.47,QBR_Main,Sigui,0000,0000,0000,,Jak se opovažuješ?!
+Dialogue: 0,0:17:59.49,0:18:02.62,QBR_Main,Sigui,0000,0000,0000,,Nemožné. Rozsekla Nebeský Plamen svým ostřím?
+Dialogue: 0,0:18:04.34,0:18:06.90,QBR_Main,Annelotte,0000,0000,0000,,Mohu vykonat pouze to co je v mých silách!
+Dialogue: 0,0:18:12.07,0:18:13.71,QBR_Main,Warrior,0000,0000,0000,,Je dokonce silnější než předtím.
+Dialogue: 0,0:18:14.32,0:18:16.58,QBR_Main,WarriorA,0000,0000,0000,,Zatlačila Inkvizitorku zpět.
+Dialogue: 0,0:18:16.58,0:18:17.61,QBR_Main,WarriorB,0000,0000,0000,,J-je silná!
+Dialogue: 0,0:18:18.15,0:18:19.83,QBR_Internal,Sigui,0000,0000,0000,,Je teď jako někdo úplně jiný.
+Dialogue: 0,0:18:20.17,0:18:24.15,QBR_Internal,Sigui,0000,0000,0000,,Dal jí snad Bůh z nějakého důvodu sílu?
+Dialogue: 0,0:18:36.90,0:18:39.03,QBR_Main,Annelotte,0000,0000,0000,,N-Ne, počkej!
+Dialogue: 0,0:18:39.03,0:18:40.01,QBR_Main,Annelotte,0000,0000,0000,,Dost!
+Dialogue: 0,0:18:40.01,0:18:40.83,QBR_Main,Annelotte,0000,0000,0000,,Teď ne!
+Dialogue: 0,0:18:42.57,0:18:44.39,QBR_Main,Annelotte,0000,0000,0000,,Ne! Ne!
+Dialogue: 0,0:18:47.73,0:18:49.24,QBR_Main,Annelotte,0000,0000,0000,,Nééé!
+Dialogue: 0,0:18:49.24,0:18:52.21,QBR_Main,Sigui,0000,0000,0000,,Děkuji ti Bože za tvou ochranu..
+Dialogue: 0,0:18:52.21,0:18:53.31,QBR_Main,Sigui,0000,0000,0000,,Sláva tobě.
+Dialogue: 0,0:18:59.52,0:19:02.47,QBR_Main,Sigui,0000,0000,0000,,Tohle je tvůj trest kacířko!
+Dialogue: 0,0:19:11.09,0:19:12.00,QBR_Main,Sigui,0000,0000,0000,,To je...
+Dialogue: 0,0:19:13.55,0:19:17.07,QBR_Main,Sigui,0000,0000,0000,,"Svatá póza: Osud... "
+Dialogue: 0,0:19:45.97,0:19:48.21,QBR_Main,Sigui,0000,0000,0000,,Řekni mi své jméno.
+Dialogue: 0,0:19:49.35,0:19:51.13,QBR_Main,Annelotte,0000,0000,0000,,Annelotte Kreutz.
+Dialogue: 0,0:20:00.63,0:20:01.92,QBR_Main,A,0000,0000,0000,,H-hej...
+Dialogue: 0,0:20:01.92,0:20:03.28,QBR_Main,B,0000,0000,0000,,Co se děje?
+Dialogue: 0,0:20:06.56,0:20:07.77,QBR_Main,Guy,0000,0000,0000,,Našli jste ho?
+Dialogue: 0,0:20:07.77,0:20:09.55,QBR_Main,GuyB,0000,0000,0000,,Ne, tady taky není!
+Dialogue: 0,0:20:10.09,0:20:12.19,QBR_Main,A,0000,0000,0000,,Kam ten parchant jenom zdrhnul?!
+Dialogue: 0,0:20:12.19,0:20:15.90,QBR_Main,B,0000,0000,0000,,Nikdo nevyhrál, a tak utek s našima sázkama!
+Dialogue: 0,0:20:15.90,0:20:18.28,QBR_Main,B,0000,0000,0000,,Až ho najdeme, tak mu dám speciální meducínu!
+Dialogue: 0,0:20:19.78,0:20:21.65,QBR_Main,P,0000,0000,0000,,To jsou vtipálci.
+Dialogue: 0,0:20:21.65,0:20:25.18,QBR_Main,P,0000,0000,0000,,Nikdy nevracím zpět peníze co jsem vydělal.
+Dialogue: 0,0:20:29.07,0:20:33.10,QBR_Main,Sigui,0000,0000,0000,,Brát sázky na výsledek souboje svatého soudu je neomluvitelné.
+Dialogue: 0,0:20:33.66,0:20:34.91,QBR_Main,Sigui,0000,0000,0000,,To je rouhání!
+Dialogue: 0,0:20:35.23,0:20:37.35,QBR_Main,P,0000,0000,0000,,N-ne... já...
+Dialogue: 0,0:20:37.60,0:20:39.52,QBR_Main,Sigui,0000,0000,0000,,Shledala jsem tě vinným.
+Dialogue: 0,0:20:49.20,0:20:51.20,QBR_Main,Eirin,0000,0000,0000,,A je to...
+Dialogue: 0,0:20:51.81,0:20:53.81,QBR_Main,Eirin,0000,0000,0000,,Hele, ségra!
+Dialogue: 0,0:20:53.81,0:20:56.96,QBR_Main,,0000,0000,0000,,Přinesla jsem z laboratoře brnění, meč...
+Dialogue: 0,0:20:56.96,0:20:59.14,QBR_Main,,0000,0000,0000,,a štít, přesně jak jsi chtěla!
+Dialogue: 0,0:20:59.71,0:21:01.29,QBR_Main,Ymir,0000,0000,0000,,Výborně.
+Dialogue: 0,0:21:02.72,0:21:05.85,QBR_Main,Eirin,0000,0000,0000,,Seš ďábelská otrokářka.
+Dialogue: 0,0:21:05.85,0:21:07.64,QBR_Main,Eirin,0000,0000,0000,,Mohla sis to přinýst sama,...
+Dialogue: 0,0:21:07.64,0:21:09.21,QBR_Main,,0000,0000,0000,,ale donutila jsi to udělat mě.
+Dialogue: 0,0:21:10.23,0:21:12.00,QBR_Main,Eirin,0000,0000,0000,,Mimochodem, odpoledne jsi říkala,...
+Dialogue: 0,0:21:12.00,0:21:14.79,QBR_Main,,0000,0000,0000,,že na týhle výzbroji budeš pracovat později.
+Dialogue: 0,0:21:14.79,0:21:16.65,QBR_Main,Ymir,0000,0000,0000,,Rozmyslel jsem si to.
+Dialogue: 0,0:21:20.67,0:21:22.33,QBR_Main,Ymir,0000,0000,0000,,To bude zajímavé.
+Dialogue: 0,0:21:28.19,0:21:30.31,QBR_Internal,Annelotte,0000,0000,0000,,Monstra v Calibarském lese...
+Dialogue: 0,0:21:32.40,0:21:35.64,QBR_Internal,Annelotte,0000,0000,0000,,Mohu vykonat pouze to co je v mých silách!
+Dialogue: 0,0:21:36.74,0:21:39.79,QBR_Internal,Annelotte,0000,0000,0000,,Je čas jít vyčistit Calibarský les!
+Dialogue: 0,0:23:11.85,0:23:17.34,QBR_Main_Preview,Sigui,0000,0000,0000,,Bože, prosím odpusť mi, že jsem nedokázala ztrestat kacíře.
+Dialogue: 0,0:23:17.34,0:23:19.32,QBR_Main_Preview,Sigui,0000,0000,0000,,Ale vícekrát se to už nestane!
+Dialogue: 0,0:23:19.32,0:23:21.70,QBR_Main_Preview,Sigui,0000,0000,0000,,Inkvizitorka Sigi vymýtí všechny...
+Dialogue: 0,0:23:21.70,0:23:24.82,QBR_Main_Preview,,0000,0000,0000,,nevěřící a kacíře na tomto kontinentu.
+Dialogue: 0,0:23:24.82,0:23:27.82,QBR_Main_Preview,,0000,0000,0000,,Příště: " Džungle, měsíc a slunce."
+Dialogue: 0,0:23:25.18,0:23:35.18,QBR_Next_Ep_Title,,0000,0000,0000,,Episoda 3 「Džungle, měsíc a slunce」
+Dialogue: 0,0:23:27.82,0:23:29.99,QBR_Main_Preview,,0000,0000,0000,,Jak může nosit něco tak nestoudnýho?!
+Dialogue: 0,0:23:29.99,0:23:31.76,QBR_Main_Preview,,0000,0000,0000,,Měsíční tanečnice?
+Dialogue: 0,0:23:31.76,0:23:33.82,QBR_Main_Preview,,0000,0000,0000,,Nevěřící, která vede lid na scestí svými obscénním tanci!
+Dialogue: 0,0:23:33.82,0:23:35.31,QBR_Main_Preview,,0000,0000,0000,,Jen uráží Boha!
+Dialogue: 0,0:23:35.31,0:23:37.14,QBR_Main_Preview,,0000,0000,0000,,Odsuzuji jí k upálení zaživa!
+Dialogue: 0,0:23:37.14,0:23:38.06,QBR_Main_Preview,,0000,0000,0000,,K upálení zaživa! K upálení zaživa!
+Dialogue: 0,0:23:38.06,0:23:40.35,QBR_Main_Preview,,0000,0000,0000,,Nechť jí nebeský plamen sežehne na prach!
+Dialogue: 0,0:23:40.35,0:23:42.35,QBR_Main,,0000,0000,0000,,

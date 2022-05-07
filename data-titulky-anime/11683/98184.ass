@@ -1,0 +1,456 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Amanchu_Ep_Title,Open Sans Semibold,30,&H00FEFEF6,&H000000FF,&H00DFB784,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,1
+Style: Amanchu_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Amanchu_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Amanchu_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Amanchu_Main_Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Amanchu_Middle,Open Sans Semibold,30,&H000864DA,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,127,120,1
+Style: Amanchu_Next_Ep_Title,Open Sans Semibold,30,&H00FFFCFD,&H000000FF,&H00A8734D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,80,1
+Style: Amanchu_Title_Card,Open Sans Semibold,30,&H002332DC,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,1
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Mistook_05:36(Ep 05),Open Sans Semibold,27,&H00100F0B,&H000000FF,&H00F2F3F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,293,27,40,1
+Style: Washed_05:38(Ep 05),Open Sans Semibold,27,&H00100F0B,&H000000FF,&H00F2F3F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,707,27,207,1
+Style: Road_map (Ep 05),Open Sans Semibold,30,&H00E0E5D5,&H000000FF,&H008D9C67,&H00000000,1,0,0,0,100,100,0,7,1,2,0,8,27,67,80,1
+Style: Months-May (Ep 05),Open Sans Semibold,30,&H00E0E5D5,&H000000FF,&H008D9C67,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,240,100,1
+Style: Month-June (Ep 05),Open Sans Semibold,30,&H00E0E5D5,&H000000FF,&H008D9C67,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,116,27,127,1
+Style: Month-July (Ep 05),Open Sans Semibold,30,&H00E0E5D5,&H000000FF,&H008D9C67,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,337,27,164,1
+Style: Summer_Break_15:54(Ep 05),Open Sans Semibold,24,&H00E0E5D5,&H000000FF,&H008D9C67,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,147,27,213,1
+Style: Summer_Break_17:56(Ep 05),Open Sans Semibold,30,&H0099A980,&H000000FF,&H00E2E8DA,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,253,27,67,1
+Style: Open_Water_17:56(Ep 05),Open Sans Semibold,30,&H00E0E5D5,&H000000FF,&H008D9C67,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,133,233,1
+Style: Panic_18:09(Ep 05),Open Sans Semibold,54,&H00A6547D,&H000000FF,&H00EBBEC4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,67,167,1
+Style: Class1-2_13:32(Ep 05),Open Sans Semibold,30,&H00FFFCFF,&H000000FF,&H00453D38,&H00000000,1,0,0,0,100,100,0,12,1,2,0,7,533,27,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Amanchu_Main,P,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:01.00,Amanchu_Main,T,0000,0000,0000,,
+Dialogue: 0,0:00:10.44,0:00:14.50,Amanchu_Main,P,0000,0000,0000,,Another fun-filled day at the club...
+Dialogue: 0,0:00:10.74,0:00:12.85,Amanchu_Main,BGG,0000,0000,0000,,{\an8}Okay, time to go to the club!
+Dialogue: 0,0:00:12.85,0:00:16.22,Amanchu_Main,BGG,0000,0000,0000,,{\an8}Why are you so hyper? \NIt's still the trial period.
+Dialogue: 0,0:00:14.50,0:00:17.44,Amanchu_Main,P,0000,0000,0000,,Every day is a fun-filled day at the club...
+Dialogue: 0,0:00:17.44,0:00:19.07,Amanchu_Main,P,0000,0000,0000,,Teko? Are you okay?
+Dialogue: 0,0:00:19.07,0:00:20.41,Amanchu_Main,T,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:00:21.40,0:00:23.75,Amanchu_Main,T,0000,0000,0000,,Ever since pool practice that day,
+Dialogue: 0,0:00:23.75,0:00:26.83,Amanchu_Main,T,0000,0000,0000,,I've been dealing with muscle \Npain everywhere but my head.
+Dialogue: 0,0:00:27.60,0:00:29.34,Amanchu_Main,T,0000,0000,0000,,I'm feeling much better now, though.
+Dialogue: 0,0:00:29.34,0:00:30.33,Amanchu_Main,P,0000,0000,0000,,Yeah?
+Dialogue: 0,0:00:30.33,0:00:32.08,Amanchu_Main,P,0000,0000,0000,,Okay, then.
+Dialogue: 0,0:00:32.08,0:00:34.68,Amanchu_Main,T,0000,0000,0000,,Plus, being in the water helps,
+Dialogue: 0,0:00:35.02,0:00:37.14,Amanchu_Main,T,0000,0000,0000,,so I wanna get in the pool already.
+Dialogue: 0,0:00:37.30,0:00:40.62,Amanchu_Main,P,0000,0000,0000,,Then let's take it easy today.
+Dialogue: 0,0:00:40.62,0:00:42.34,Amanchu_Main,T,0000,0000,0000,,Easy would be nice.
+Dialogue: 0,0:00:42.34,0:00:44.78,Amanchu_Main,T,0000,0000,0000,,Floating on our backs, gazing at the sky...
+Dialogue: 0,0:00:44.78,0:00:46.10,Amanchu_Main,T,0000,0000,0000,,Nice and easy would be perfect.
+Dialogue: 0,0:00:46.55,0:00:48.56,Amanchu_Main,M,0000,0000,0000,,Today, you'll be running.
+Dialogue: 0,0:00:50.42,0:00:52.03,Amanchu_Main,P,0000,0000,0000,,Whoop...
+Dialogue: 0,0:01:02.41,0:01:11.30,Amanchu_Title_Card,Title Card,0000,0000,0000,,{\fad(944,980)}Amanchu!
+Dialogue: 0,0:02:28.16,0:02:33.00,Amanchu_Ep_Title,Title,0000,0000,0000,,{\fad(863,1)}"The Story of the First Time at Sea with Friends"
+Dialogue: 0,0:02:29.85,0:02:33.00,Amanchu_Main,M,0000,0000,0000,,Diving is by no means \Na physically demanding sport,
+Dialogue: 0,0:02:33.27,0:02:36.31,Amanchu_Main,M,0000,0000,0000,,but your weakness is \Na cause of concern, Teko.
+Dialogue: 0,0:02:37.96,0:02:41.93,Amanchu_Main,M,0000,0000,0000,,The Swim Club needs the pool to practice \Nfor the upcoming regionals, too,
+Dialogue: 0,0:02:41.93,0:02:44.68,Amanchu_Main,M,0000,0000,0000,,so we'll all take the chance to go back \Nto the basics and work on conditioning.
+Dialogue: 0,0:02:45.29,0:02:46.31,Amanchu_Main,T,0000,0000,0000,,All?
+Dialogue: 0,0:02:46.31,0:02:49.32,Amanchu_Main,P,0000,0000,0000,,So, including the seniors we haven't met yet?
+Dialogue: 0,0:02:49.32,0:02:50.51,Amanchu_Main,M,0000,0000,0000,,Exactly.
+Dialogue: 0,0:02:51.44,0:02:52.35,Amanchu_Main,T,0000,0000,0000,,Uh...
+Dialogue: 0,0:02:52.66,0:02:56.50,Amanchu_Main,T,0000,0000,0000,,Won't they be joining us \Nduring the trial period?
+Dialogue: 0,0:02:58.28,0:02:59.45,Amanchu_Main,M,0000,0000,0000,,Well, no.
+Dialogue: 0,0:03:00.61,0:03:02.91,Amanchu_Main,P,0000,0000,0000,,I can't wait to meet them \Nand find out what they're like!
+Dialogue: 0,0:03:03.16,0:03:07.75,Amanchu_Main,M,0000,0000,0000,,Looks like they need time to sort out \Ntheir feelings before they meet you.
+Dialogue: 0,0:03:07.75,0:03:09.78,Amanchu_Main,T,0000,0000,0000,,Yeah, yeah! I totally get that!
+Dialogue: 0,0:03:09.78,0:03:11.10,Amanchu_Main,P,0000,0000,0000,,Whoop!
+Dialogue: 0,0:03:11.10,0:03:14.25,Amanchu_Main,P,0000,0000,0000,,Then we must use this time \Nto get stronger, Teko!
+Dialogue: 0,0:03:14.25,0:03:14.89,Amanchu_Main,T,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:14.89,0:03:16.50,Amanchu_Main,T,0000,0000,0000,,We must catch up to them as much as we can!
+Dialogue: 0,0:03:16.78,0:03:17.54,Amanchu_Main,P,0000,0000,0000,,Fight!
+Dialogue: 0,0:03:17.54,0:03:19.14,Amanchu_Main,T,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:20.32,0:03:24.72,Amanchu_Main,M,0000,0000,0000,,I'm heading to the staff room after this, \Nso come there if you need me.
+Dialogue: 0,0:03:24.72,0:03:26.28,Amanchu_Main,Bo,0000,0000,0000,,Okay!
+Dialogue: 0,0:03:33.22,0:03:34.58,Amanchu_Main,P,0000,0000,0000,,You okay, Teko?
+Dialogue: 0,0:03:34.58,0:03:35.31,Amanchu_Main,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:35.54,0:03:36.39,Amanchu_Main,P,0000,0000,0000,,Teko?
+Dialogue: 0,0:03:36.39,0:03:37.94,Amanchu_Main,T,0000,0000,0000,,Doing great!
+Dialogue: 0,0:03:47.14,0:03:49.47,Amanchu_Main,P,0000,0000,0000,,Running is great in its own way.
+Dialogue: 0,0:03:49.47,0:03:52.75,Amanchu_Main,P,0000,0000,0000,,Now that the fleeting cherry \Nseason has come to an end,
+Dialogue: 0,0:03:52.75,0:03:55.08,Amanchu_Main,P,0000,0000,0000,,the world is decked in a bright, fresh green!
+Dialogue: 0,0:03:55.60,0:03:58.84,Amanchu_Main,P,0000,0000,0000,,With the occasional burst \Nof a gentle breeze to cool us down,
+Dialogue: 0,0:03:58.84,0:04:00.80,Amanchu_Main,P,0000,0000,0000,,this is the perfect day for jogging!
+Dialogue: 0,0:04:02.49,0:04:03.68,Amanchu_Main,P,0000,0000,0000,,Teko!
+Dialogue: 0,0:04:05.11,0:04:07.07,Amanchu_Main,P,0000,0000,0000,,Is it too much for you?
+Dialogue: 0,0:04:07.53,0:04:09.36,Amanchu_Main,T,0000,0000,0000,,No, I'm fine.
+Dialogue: 0,0:04:09.36,0:04:11.48,Amanchu_Main,P,0000,0000,0000,,Okay! Hang in there!
+Dialogue: 0,0:04:12.01,0:04:15.59,Amanchu_Main,T,0000,0000,0000,,Don't mind me. Go on ahead.
+Dialogue: 0,0:04:16.15,0:04:20.44,Amanchu_Main,T,0000,0000,0000,,It wouldn't be training if \Nyou don't run at your own pace.
+Dialogue: 0,0:04:20.63,0:04:21.69,Amanchu_Main,P,0000,0000,0000,,Teko...
+Dialogue: 0,0:04:23.34,0:04:24.94,Amanchu_Main,P,0000,0000,0000,,Got it!
+Dialogue: 0,0:04:25.56,0:04:28.34,Amanchu_Main,P,0000,0000,0000,,Even if we're far apart,
+Dialogue: 0,0:04:28.34,0:04:30.72,Amanchu_Main,P,0000,0000,0000,,I'll never forget you.
+Dialogue: 0,0:04:30.72,0:04:33.58,Amanchu_Main,T,0000,0000,0000,,Yeah, thanks.
+Dialogue: 0,0:04:33.58,0:04:35.29,Amanchu_Main,P,0000,0000,0000,,Farewell, my soul sister!
+Dialogue: 0,0:04:35.72,0:04:37.25,Amanchu_Main,P,0000,0000,0000,,I'll be waiting for you in the future!
+Dialogue: 0,0:04:39.03,0:04:41.58,Amanchu_Italics,T,0000,0000,0000,,I can't rely on Pikari all the time.
+Dialogue: 0,0:04:41.92,0:04:46.88,Amanchu_Italics,T,0000,0000,0000,,I have to try and head to the future \Nwhere she and the seniors are waiting!
+Dialogue: 0,0:04:48.76,0:04:53.50,Amanchu_Main,P,0000,0000,0000,,Or so I say, but I'll surprise you \Nby doing another lap and catching up!
+Dialogue: 0,0:05:03.31,0:05:04.36,Amanchu_Main,BS,0000,0000,0000,,Huh? You're...
+Dialogue: 0,0:05:06.24,0:05:07.76,Amanchu_Main,BS,0000,0000,0000,,I knew it.
+Dialogue: 0,0:05:07.76,0:05:10.43,Amanchu_Main,BS,0000,0000,0000,,You're the monkey girl from the other day.
+Dialogue: 0,0:05:10.92,0:05:13.01,Amanchu_Main,LB,0000,0000,0000,,Uh, monkey girl?
+Dialogue: 0,0:05:13.01,0:05:15.50,Amanchu_Main,BS,0000,0000,0000,,Judging by the color of your track suit, \Nyou must be a first-year.
+Dialogue: 0,0:05:15.50,0:05:18.75,Amanchu_Main,BS,0000,0000,0000,,I did think you were \Na pretty young instructor,
+Dialogue: 0,0:05:18.75,0:05:21.57,Amanchu_Main,BS,0000,0000,0000,,but I had no idea you'd be \Nan underclassman in the same school.
+Dialogue: 0,0:05:21.57,0:05:22.64,Amanchu_Main,P,0000,0000,0000,,R-Right!
+Dialogue: 0,0:05:22.64,0:05:24.59,Amanchu_Main,P,0000,0000,0000,,Pardon my rude behavior that time.
+Dialogue: 0,0:05:25.02,0:05:26.37,Amanchu_Main,BS,0000,0000,0000,,"Rude behavior"?
+Dialogue: 0,0:05:26.37,0:05:28.46,Amanchu_Main,BS,0000,0000,0000,,Oh, you mean the monkey hood thing?
+Dialogue: 0,0:05:30.06,0:05:34.60,Amanchu_Main,BS,0000,0000,0000,,Mistaking a monkey for your panties \Nis hilarious, so it's totally okay.
+Dialogue: 0,0:05:36.06,0:05:43.28,Mistook_05:36(Ep 05),Sign,0000,0000,0000,,{\fad(1110,1)}Looks like she \Nmistook the hood \Nfor her panties...?
+Dialogue: 0,0:05:36.18,0:05:40.10,Amanchu_Main,BS,0000,0000,0000,,It was really nice of you to take \Nthe trouble to send it back to our place.
+Dialogue: 0,0:05:38.35,0:05:43.28,Washed_05:38(Ep 05),Sign,0000,0000,0000,,{\fad(2231,1)}It's been \Nwashed...
+Dialogue: 0,0:05:40.10,0:05:43.28,Amanchu_Main,BS,0000,0000,0000,,But, you know, I'd meant it \Nas a gift to celebrate the monkey.
+Dialogue: 0,0:05:43.50,0:05:45.09,Amanchu_Main,LB,0000,0000,0000,,What do you mean, "celebrate the monkey"?
+Dialogue: 0,0:05:45.09,0:05:47.32,Amanchu_Main,BS,0000,0000,0000,,Hey, Instructor,
+Dialogue: 0,0:05:47.69,0:05:49.03,Amanchu_Main,BS,0000,0000,0000,,if you don't mind,
+Dialogue: 0,0:05:49.27,0:05:51.82,Amanchu_Main,BS,0000,0000,0000,,could you join the Diving Club?
+Dialogue: 0,0:05:52.77,0:05:54.92,Amanchu_Main,BS,0000,0000,0000,,I totally get not wanting to dive at school
+Dialogue: 0,0:05:54.92,0:05:58.17,Amanchu_Main,BS,0000,0000,0000,,and keeping it strictly \Nprofessional, I really do.
+Dialogue: 0,0:05:59.18,0:06:01.48,Amanchu_Italics,P,0000,0000,0000,,Wait. Are these two...
+Dialogue: 0,0:06:01.48,0:06:02.13,Amanchu_Main,BS,0000,0000,0000,,But...
+Dialogue: 0,0:06:02.38,0:06:07.05,Amanchu_Main,BS,0000,0000,0000,,Now that the third-years have graduated, \Nthe club is down to just us two second-years.
+Dialogue: 0,0:06:07.05,0:06:09.59,Amanchu_Main,BS,0000,0000,0000,,The Diving Club is in danger of dying out!
+Dialogue: 0,0:06:10.87,0:06:13.85,Amanchu_Italics,P,0000,0000,0000,,I knew it! These two really \Nare the seniors from club!
+Dialogue: 0,0:06:14.03,0:06:17.56,Amanchu_Main,BS,0000,0000,0000,,If someone like you joined, \Nit'd reassure us and make us really happy!
+Dialogue: 0,0:06:18.00,0:06:22.01,Amanchu_Main,LB,0000,0000,0000,,But, Sis, Katori-sensei said \Nwe've got two new members.
+Dialogue: 0,0:06:22.01,0:06:25.36,Amanchu_Main,P,0000,0000,0000,,Uh, actually, those new members are...
+Dialogue: 0,0:06:29.91,0:06:31.30,Amanchu_Main,BS,0000,0000,0000,,I won't accept it!
+Dialogue: 0,0:06:32.05,0:06:34.16,Amanchu_Main,BS,0000,0000,0000,,Not only did they sneak into the clubroom,
+Dialogue: 0,0:06:34.16,0:06:36.99,Amanchu_Main,BS,0000,0000,0000,,they even used the diving \Nsuits without permission!
+Dialogue: 0,0:06:36.99,0:06:38.15,Amanchu_Main,BS,0000,0000,0000,,What intolerable insolence!
+Dialogue: 0,0:06:38.15,0:06:39.79,Amanchu_Main,BS,0000,0000,0000,,I'm fuming with fury!
+Dialogue: 0,0:06:39.79,0:06:42.44,Amanchu_Main,BS,0000,0000,0000,,I will never accept them!
+Dialogue: 0,0:06:43.84,0:06:47.46,Amanchu_Italics,P,0000,0000,0000,,Sh-She's crazy mad at us!
+Dialogue: 0,0:06:47.71,0:06:51.01,Amanchu_Main,LB,0000,0000,0000,,But we can't just keep \Ntraining outside forever.
+Dialogue: 0,0:06:51.01,0:06:52.08,Amanchu_Main,BS,0000,0000,0000,,Shaddup!
+Dialogue: 0,0:06:52.08,0:06:54.15,Amanchu_Main,BS,0000,0000,0000,,I will never accept the unacceptable!
+Dialogue: 0,0:06:58.37,0:06:59.13,Amanchu_Main,P,0000,0000,0000,,Teko!
+Dialogue: 0,0:06:59.13,0:07:00.52,Amanchu_Main,T,0000,0000,0000,,Pikari?
+Dialogue: 0,0:07:00.52,0:07:03.73,Amanchu_Main,BS,0000,0000,0000,,Oh, you're also a first-year here?
+Dialogue: 0,0:07:04.31,0:07:05.66,Amanchu_Main,T,0000,0000,0000,,You're the girl from the other day.
+Dialogue: 0,0:07:05.66,0:07:08.68,Amanchu_Main,T,0000,0000,0000,,Thank you very much for letting me observe.
+Dialogue: 0,0:07:08.68,0:07:10.60,Amanchu_Main,BS,0000,0000,0000,,Are you two in the same club?
+Dialogue: 0,0:07:10.60,0:07:12.31,Amanchu_Main,BS,0000,0000,0000,,Did you already join officially?
+Dialogue: 0,0:07:12.31,0:07:13.74,Amanchu_Main,T,0000,0000,0000,,Y-Yes...
+Dialogue: 0,0:07:13.74,0:07:14.60,Amanchu_Italics,P,0000,0000,0000,,This is bad.
+Dialogue: 0,0:07:15.42,0:07:17.87,Amanchu_Italics,P,0000,0000,0000,,Teko didn't hear what she said earlier.
+Dialogue: 0,0:07:17.87,0:07:19.05,Amanchu_Italics,P,0000,0000,0000,,At this rate...
+Dialogue: 0,0:07:19.05,0:07:21.08,Amanchu_Main,BS,0000,0000,0000,,Oh, that's too bad.
+Dialogue: 0,0:07:21.08,0:07:22.38,Amanchu_Main,BS,0000,0000,0000,,Which club is it, anyway?
+Dialogue: 0,0:07:22.67,0:07:23.32,Amanchu_Main,P,0000,0000,0000,,Teko!
+Dialogue: 0,0:07:23.32,0:07:25.41,Amanchu_Main,P,0000,0000,0000,,I'm parched, so let's go drink some water!
+Dialogue: 0,0:07:25.41,0:07:27.13,Amanchu_Main,P,0000,0000,0000,,Excuse us!
+Dialogue: 0,0:07:28.32,0:07:29.86,Amanchu_Main,BS,0000,0000,0000,,What's gotten into them?
+Dialogue: 0,0:07:30.29,0:07:34.48,Amanchu_Main,LB,0000,0000,0000,,Sis, how many times have I told you \Nto fix your drop-kicking habit?
+Dialogue: 0,0:07:37.75,0:07:41.63,Amanchu_Main,T,0000,0000,0000,,That is rather bad, Pikari-san.
+Dialogue: 0,0:07:41.63,0:07:43.80,Amanchu_Main,P,0000,0000,0000,,It really is, Teko-san.
+Dialogue: 0,0:07:44.16,0:07:45.23,Amanchu_Main,T,0000,0000,0000,,What do we do?
+Dialogue: 0,0:07:45.96,0:07:47.21,Amanchu_Main,P,0000,0000,0000,,I'm sure it'll be fine.
+Dialogue: 0,0:07:47.21,0:07:49.19,Amanchu_Main,P,0000,0000,0000,,We still have time to apologize.
+Dialogue: 0,0:07:53.29,0:07:54.31,Amanchu_Main,T,0000,0000,0000,,Yeah, right?
+Dialogue: 0,0:07:54.74,0:07:56.28,Amanchu_Main,P,0000,0000,0000,,Probably...
+Dialogue: 0,0:07:57.98,0:08:00.79,Amanchu_Main,M,0000,0000,0000,,Don't you think it's about time you met them?
+Dialogue: 0,0:08:00.79,0:08:03.29,Amanchu_Main,BS,0000,0000,0000,,No. It's not. I won't forgive them.
+Dialogue: 0,0:08:03.29,0:08:04.75,Amanchu_Main,M,0000,0000,0000,,Don't be like that.
+Dialogue: 0,0:08:05.12,0:08:07.17,Amanchu_Main,M,0000,0000,0000,,They're amusing kids, you know?
+Dialogue: 0,0:08:07.17,0:08:08.71,Amanchu_Main,M,0000,0000,0000,,And they're pretty enthusiastic.
+Dialogue: 0,0:08:08.89,0:08:12.09,Amanchu_Main,M,0000,0000,0000,,They're doing laps around campus as we speak.
+Dialogue: 0,0:08:12.88,0:08:14.68,Amanchu_Main,BS,0000,0000,0000,,So they're close by?
+Dialogue: 0,0:08:15.07,0:08:17.17,Amanchu_Main,M,0000,0000,0000,,As fellow diving fans,
+Dialogue: 0,0:08:17.17,0:08:20.12,Amanchu_Main,M,0000,0000,0000,,I'm sure you'll hit it off if you just talk it out.
+Dialogue: 0,0:08:20.68,0:08:22.39,Amanchu_Main,BS,0000,0000,0000,,Very well.
+Dialogue: 0,0:08:22.57,0:08:25.12,Amanchu_Main,BS,0000,0000,0000,,If you so insist,
+Dialogue: 0,0:08:25.12,0:08:27.81,Amanchu_Main,BS,0000,0000,0000,,I'll go talk it out with them...
+Dialogue: 0,0:08:28.46,0:08:31.19,Amanchu_Main,BS,0000,0000,0000,,using the physical language of fists.
+Dialogue: 0,0:08:31.46,0:08:33.54,Amanchu_Main,M,0000,0000,0000,,Uh... fists?
+Dialogue: 0,0:08:37.42,0:08:39.63,Amanchu_Main,M,0000,0000,0000,,Well, I know she's not being serious.
+Dialogue: 0,0:08:39.63,0:08:41.70,Amanchu_Main,LB,0000,0000,0000,,I wouldn't be so sure.
+Dialogue: 0,0:08:45.04,0:08:46.33,Amanchu_Main,Bo,0000,0000,0000,,Sensei!
+Dialogue: 0,0:08:47.21,0:08:48.33,Amanchu_Main,M,0000,0000,0000,,You're back?
+Dialogue: 0,0:08:48.33,0:08:50.14,Amanchu_Main,LB,0000,0000,0000,,Ah, I see.
+Dialogue: 0,0:08:50.90,0:08:53.17,Amanchu_Main,LB,0000,0000,0000,,These two were the new members, huh?
+Dialogue: 0,0:08:53.96,0:08:55.54,Amanchu_Main,M,0000,0000,0000,,You've met them?
+Dialogue: 0,0:08:55.54,0:08:57.38,Amanchu_Main,LB,0000,0000,0000,,Yeah, twice before.
+Dialogue: 0,0:08:57.38,0:08:58.92,Amanchu_Main,T,0000,0000,0000,,Uh, Senpai...
+Dialogue: 0,0:08:58.92,0:09:02.31,Amanchu_Main,P,0000,0000,0000,,We want to introduce ourselves \Nand apologize for what we did!
+Dialogue: 0,0:09:02.74,0:09:04.52,Amanchu_Main,LB,0000,0000,0000,,I'm saying this for your own good.
+Dialogue: 0,0:09:04.52,0:09:06.77,Amanchu_Main,LB,0000,0000,0000,,Go home right this very instant.
+Dialogue: 0,0:09:07.04,0:09:08.02,Amanchu_Main,T,0000,0000,0000,,But, but...
+Dialogue: 0,0:09:08.02,0:09:09.95,Amanchu_Main,T,0000,0000,0000,,We want to talk it out.
+Dialogue: 0,0:09:09.95,0:09:11.01,Amanchu_Main,LB,0000,0000,0000,,Bad idea.
+Dialogue: 0,0:09:11.01,0:09:14.35,Amanchu_Main,LB,0000,0000,0000,,No words can reach my sister right now.
+Dialogue: 0,0:09:14.35,0:09:15.75,Amanchu_Main,T,0000,0000,0000,,What?
+Dialogue: 0,0:09:40.98,0:09:41.98,Amanchu_Main,P,0000,0000,0000,,Are you okay, Teko?
+Dialogue: 0,0:09:41.98,0:09:43.30,Amanchu_Main,T,0000,0000,0000,,I feel hot!
+Dialogue: 0,0:09:43.30,0:09:44.63,Amanchu_Main,P,0000,0000,0000,,Take off your track suit!
+Dialogue: 0,0:09:45.97,0:09:47.64,Amanchu_Main,M,0000,0000,0000,,Hang in there, you two.
+Dialogue: 0,0:09:47.64,0:09:49.23,Amanchu_Main,M,0000,0000,0000,,This, too, is a part of youth.
+Dialogue: 0,0:09:49.42,0:09:50.64,Amanchu_Main,LB,0000,0000,0000,,Sensei...
+Dialogue: 0,0:09:50.99,0:09:53.37,Amanchu_Main,LB,0000,0000,0000,,You're enjoying this, aren't you?
+Dialogue: 0,0:09:55.67,0:09:57.01,Amanchu_Main,P,0000,0000,0000,,Whoop!
+Dialogue: 0,0:09:57.81,0:09:58.78,Amanchu_Main,P,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:10:00.26,0:10:02.56,Amanchu_Main,T,0000,0000,0000,,I stepped on the pants...
+Dialogue: 0,0:10:05.59,0:10:08.68,Amanchu_Main,T,0000,0000,0000,,Don't mind me, Pikari! Go on ahead!
+Dialogue: 0,0:10:08.68,0:10:10.05,Amanchu_Main,P,0000,0000,0000,,I can't do that!
+Dialogue: 0,0:10:10.05,0:10:11.79,Amanchu_Main,P,0000,0000,0000,,I could never leave my soul sister behind!
+Dialogue: 0,0:10:13.82,0:10:14.58,Amanchu_Main,T,0000,0000,0000,,Pikari!
+Dialogue: 0,0:10:14.58,0:10:15.36,Amanchu_Main,P,0000,0000,0000,,Relax.
+Dialogue: 0,0:10:15.36,0:10:16.86,Amanchu_Main,P,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:10:20.11,0:10:21.98,Amanchu_Main,P,0000,0000,0000,,Pardon my late introduction!
+Dialogue: 0,0:10:21.98,0:10:26.13,Amanchu_Main,P,0000,0000,0000,,I'm Kohinata Hikari from Class 1-2, \Nand I just joined the Diving Club!
+Dialogue: 0,0:10:26.13,0:10:30.18,Amanchu_Main,P,0000,0000,0000,,Ooki Futaba... likewise.
+Dialogue: 0,0:10:31.89,0:10:32.80,Amanchu_Main,Cha,0000,0000,0000,,Cha!
+Dialogue: 0,0:10:33.12,0:10:34.90,Amanchu_Main,Cha,0000,0000,0000,,Cha, cha, cha, cha.
+Dialogue: 0,0:10:35.30,0:10:38.72,Amanchu_Main,BS,0000,0000,0000,,Oh, it was you two?
+Dialogue: 0,0:10:38.72,0:10:41.11,Amanchu_Main,BS,0000,0000,0000,,What a happy happenstance.
+Dialogue: 0,0:10:41.11,0:10:42.16,Amanchu_Main,BS,0000,0000,0000,,Very well.
+Dialogue: 0,0:10:42.16,0:10:44.91,Amanchu_Main,BS,0000,0000,0000,,Out of respect for your \Ncourage to reveal yourselves,
+Dialogue: 0,0:10:44.91,0:10:46.87,Amanchu_Main,BS,0000,0000,0000,,I'll talk it out with you all you want.
+Dialogue: 0,0:10:47.68,0:10:48.83,Amanchu_Main,LB,0000,0000,0000,,Uh-oh.
+Dialogue: 0,0:10:56.61,0:10:59.26,Amanchu_Italics,T,0000,0000,0000,,What are you going to do, Pikari?
+Dialogue: 0,0:11:02.01,0:11:03.21,Amanchu_Main,Cha,0000,0000,0000,,Cha...
+Dialogue: 0,0:11:05.07,0:11:09.28,Amanchu_Main,P,0000,0000,0000,,I'm truly sorry!
+Dialogue: 0,0:11:18.20,0:11:20.84,Amanchu_Main,T,0000,0000,0000,,Um, Senpai...
+Dialogue: 0,0:11:20.84,0:11:22.50,Amanchu_Main,T,0000,0000,0000,,Pikari entered the pool
+Dialogue: 0,0:11:22.89,0:11:27.19,Amanchu_Main,T,0000,0000,0000,,to show me that diving is enjoyable.
+Dialogue: 0,0:11:27.19,0:11:28.64,Amanchu_Main,T,0000,0000,0000,,It's thanks to her
+Dialogue: 0,0:11:28.91,0:11:32.21,Amanchu_Main,T,0000,0000,0000,,that I thought it might be fun.
+Dialogue: 0,0:11:35.84,0:11:38.80,Amanchu_Main,T,0000,0000,0000,,But we did a bad thing,
+Dialogue: 0,0:11:39.11,0:11:40.86,Amanchu_Main,T,0000,0000,0000,,and we know it.
+Dialogue: 0,0:11:43.35,0:11:45.88,Amanchu_Main,T,0000,0000,0000,,We're sorry.
+Dialogue: 0,0:11:47.13,0:11:51.60,Amanchu_Main,BS,0000,0000,0000,,What the heck?!
+Dialogue: 0,0:11:55.28,0:11:58.88,Amanchu_Main,BS,0000,0000,0000,,Monkey Panties Girl \Nand Half-Naked Track Suit Girl...
+Dialogue: 0,0:11:58.88,0:12:00.44,Amanchu_Main,M,0000,0000,0000,,They're amusing, right?
+Dialogue: 0,0:12:01.15,0:12:03.66,Amanchu_Main,LB,0000,0000,0000,,When we went diving \Nin the nearby ocean recently,
+Dialogue: 0,0:12:03.66,0:12:06.98,Amanchu_Main,LB,0000,0000,0000,,that Hikari girl came \Nwith us as the sub-guide.
+Dialogue: 0,0:12:06.98,0:12:08.07,Amanchu_Main,M,0000,0000,0000,,Oh?
+Dialogue: 0,0:12:08.64,0:12:11.41,Amanchu_Main,LB,0000,0000,0000,,Within the spring bloom \Nand its extremely low visibility,
+Dialogue: 0,0:12:11.81,0:12:16.17,Amanchu_Main,LB,0000,0000,0000,,she did her very best \Nto show us a good time.
+Dialogue: 0,0:12:16.39,0:12:17.70,Amanchu_Main,M,0000,0000,0000,,Oho?
+Dialogue: 0,0:12:18.16,0:12:21.38,Amanchu_Main,LB,0000,0000,0000,,So both Sis and I were quite struck
+Dialogue: 0,0:12:22.59,0:12:26.80,Amanchu_Main,LB,0000,0000,0000,,by just how much she seemed to love diving.
+Dialogue: 0,0:12:28.72,0:12:29.64,Amanchu_Main,BS,0000,0000,0000,,Shut up.
+Dialogue: 0,0:12:30.60,0:12:33.23,Amanchu_Main,BS,0000,0000,0000,,Don't try to write a happy \Nending to the story.
+Dialogue: 0,0:12:33.23,0:12:34.70,Amanchu_Main,BS,0000,0000,0000,,You're just a little bro.
+Dialogue: 0,0:12:34.70,0:12:36.44,Amanchu_Main,LB,0000,0000,0000,,Insulting little bros everywhere?
+Dialogue: 0,0:12:36.75,0:12:39.65,Amanchu_Main,M,0000,0000,0000,,So, what now, Big Sis?
+Dialogue: 0,0:12:42.87,0:12:44.61,Amanchu_Main,BS,0000,0000,0000,,Love isn't enough by itself.
+Dialogue: 0,0:12:46.49,0:12:49.31,Amanchu_Main,BS,0000,0000,0000,,Sure, diving may be a safe sport,
+Dialogue: 0,0:12:49.31,0:12:52.70,Amanchu_Main,BS,0000,0000,0000,,but they act so strangely that I can't \Ntrust them when it comes down to it.
+Dialogue: 0,0:12:52.70,0:12:55.37,Amanchu_Main,BS,0000,0000,0000,,Watching them would give me a heart attack.
+Dialogue: 0,0:12:56.20,0:12:58.46,Amanchu_Main,BS,0000,0000,0000,,I have to teach them all about diving,
+Dialogue: 0,0:12:58.46,0:13:00.62,Amanchu_Main,BS,0000,0000,0000,,from the very basics, \Nand pound it into their very bones.
+Dialogue: 0,0:13:02.48,0:13:05.51,Amanchu_Main,BS,0000,0000,0000,,On that note, we're holding an emergency \Nmeeting during club tomorrow!
+Dialogue: 0,0:13:05.51,0:13:06.52,Amanchu_Main,LB,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:13:09.15,0:13:11.06,Amanchu_Main,M,0000,0000,0000,,Ah, youth.
+Dialogue: 0,0:13:11.92,0:13:13.45,Amanchu_Italics,T,0000,0000,0000,,So, yeah...
+Dialogue: 0,0:13:13.45,0:13:16.81,Amanchu_Italics,T,0000,0000,0000,,Our activities as Diving Club members
+Dialogue: 0,0:13:16.81,0:13:20.31,Amanchu_Italics,T,0000,0000,0000,,have officially begun...
+Dialogue: 0,0:13:19.02,0:13:22.98,Amanchu_Middle,Eyecatch,0000,0000,0000,,{\fad(487,1)}Amanchu!
+Dialogue: 0,0:13:19.02,0:13:22.98,Amanchu_Main,Eyecatch,0000,0000,0000,,
+Dialogue: 0,0:13:20.31,0:13:21.07,Amanchu_Italics,T,0000,0000,0000,,I think.
+Dialogue: 0,0:13:24.70,0:13:26.90,Amanchu_Main,BS,0000,0000,0000,,I applaud you two for coming.
+Dialogue: 0,0:13:26.90,0:13:29.15,Amanchu_Main,BS,0000,0000,0000,,I hope you've made your peace.
+Dialogue: 0,0:13:29.15,0:13:30.21,Amanchu_Main,Bo,0000,0000,0000,,Yes...
+Dialogue: 0,0:13:30.21,0:13:32.45,Amanchu_Main,T,0000,0000,0000,,Um, this place...
+Dialogue: 0,0:13:32.45,0:13:37.92,Class1-2_13:32(Ep 05),Sign,0000,0000,0000,,Class 2-4
+Dialogue: 0,0:13:32.77,0:13:34.83,Amanchu_Main,BS,0000,0000,0000,,It's my classroom.
+Dialogue: 0,0:13:35.15,0:13:37.92,Amanchu_Main,P,0000,0000,0000,,Okay, but why are we meeting here?
+Dialogue: 0,0:13:37.92,0:13:42.75,Road_map (Ep 05),Sign,0000,0000,0000,,The Future Activities of the Diving Club
+Dialogue: 0,0:13:38.14,0:13:41.78,Amanchu_Main,BS,0000,0000,0000,,Why go all the way to the \Nclubroom for just a meeting?
+Dialogue: 0,0:13:41.78,0:13:42.75,Amanchu_Main,Bo,0000,0000,0000,,Right...
+Dialogue: 0,0:13:42.75,0:13:44.34,Amanchu_Main,BS,0000,0000,0000,,And talk about late!
+Dialogue: 0,0:13:44.83,0:13:46.20,Amanchu_Main,BS,0000,0000,0000,,Damn it, Makoto!
+Dialogue: 0,0:13:46.20,0:13:49.76,Amanchu_Main,BS,0000,0000,0000,,How long are you gonna \Ntake on a shopping trip?
+Dialogue: 0,0:13:50.29,0:13:52.01,Amanchu_Main,T,0000,0000,0000,,Shopping?
+Dialogue: 0,0:13:52.01,0:13:54.35,Amanchu_Main,P,0000,0000,0000,,Should we go help?
+Dialogue: 0,0:13:54.69,0:13:55.62,Amanchu_Main,BS,0000,0000,0000,,Nah, it's fine.
+Dialogue: 0,0:13:55.99,0:13:59.01,Amanchu_Main,BS,0000,0000,0000,,If he can't go buy lunch by himself,
+Dialogue: 0,0:13:59.01,0:14:01.33,Amanchu_Main,BS,0000,0000,0000,,he'll never be a man.
+Dialogue: 0,0:14:02.09,0:14:03.82,Amanchu_Main,P,0000,0000,0000,,Is that how it works?
+Dialogue: 0,0:14:04.01,0:14:05.19,Amanchu_Main,BS,0000,0000,0000,,It is!
+Dialogue: 0,0:14:11.14,0:14:12.68,Amanchu_Main,P,0000,0000,0000,,Excuse me, Senpai!
+Dialogue: 0,0:14:13.48,0:14:14.33,Amanchu_Main,BS,0000,0000,0000,,What?
+Dialogue: 0,0:14:14.33,0:14:17.20,Amanchu_Main,P,0000,0000,0000,,Are you still mad about what we did?
+Dialogue: 0,0:14:18.28,0:14:19.91,Amanchu_Italics,T,0000,0000,0000,,Wow! Pikari...
+Dialogue: 0,0:14:19.91,0:14:21.80,Amanchu_Italics,T,0000,0000,0000,,You asked so forwardly.
+Dialogue: 0,0:14:22.14,0:14:24.74,Amanchu_Main,BS,0000,0000,0000,,Oh, about how you snuck \Nin without permission?
+Dialogue: 0,0:14:24.74,0:14:25.62,Amanchu_Main,P,0000,0000,0000,,Yes!
+Dialogue: 0,0:14:26.20,0:14:26.97,Amanchu_Main,BS,0000,0000,0000,,Nope.
+Dialogue: 0,0:14:28.27,0:14:29.32,Amanchu_Main,P,0000,0000,0000,,Nope?
+Dialogue: 0,0:14:29.32,0:14:31.89,Amanchu_Main,BS,0000,0000,0000,,Nope, nopity, nope!
+Dialogue: 0,0:14:33.25,0:14:36.14,Amanchu_Main,BS,0000,0000,0000,,As proof, I'll treat you to lunch.
+Dialogue: 0,0:14:36.14,0:14:37.21,Amanchu_Main,P,0000,0000,0000,,Really?
+Dialogue: 0,0:14:37.21,0:14:39.09,Amanchu_Main,T,0000,0000,0000,,What? We can't accept.
+Dialogue: 0,0:14:39.09,0:14:40.22,Amanchu_Main,BS,0000,0000,0000,,Oh, it's no big deal.
+Dialogue: 0,0:14:40.22,0:14:43.58,Amanchu_Main,BS,0000,0000,0000,,My brother's the one paying, so don't be shy.
+Dialogue: 0,0:14:43.58,0:14:44.73,Amanchu_Main,LB,0000,0000,0000,,Hey.
+Dialogue: 0,0:14:45.00,0:14:47.08,Amanchu_Main,LB,0000,0000,0000,,Don't go running your mouth.
+Dialogue: 0,0:14:47.08,0:14:48.09,Amanchu_Main,BS,0000,0000,0000,,You're late!
+Dialogue: 0,0:14:48.09,0:14:49.44,Amanchu_Main,LB,0000,0000,0000,,You'd better pay up later.
+Dialogue: 0,0:14:49.44,0:14:50.39,Amanchu_Main,BS,0000,0000,0000,,I refuse.
+Dialogue: 0,0:14:52.12,0:14:53.96,Amanchu_Main,Bo,0000,0000,0000,,Thank you very much...
+Dialogue: 0,0:14:53.96,0:14:56.24,Amanchu_Main,T,0000,0000,0000,,Er, Little Bro-senpai.
+Dialogue: 0,0:14:56.24,0:14:57.11,Amanchu_Main,P,0000,0000,0000,,Whoop?
+Dialogue: 0,0:14:57.11,0:15:00.06,Amanchu_Main,P,0000,0000,0000,,Come to think of it, \Nwe don't know your names yet.
+Dialogue: 0,0:15:00.06,0:15:01.08,Amanchu_Main,BS,0000,0000,0000,,Really?
+Dialogue: 0,0:15:01.08,0:15:03.23,Amanchu_Main,BS,0000,0000,0000,,Mato-sensei didn't tell you?
+Dialogue: 0,0:15:03.23,0:15:04.08,Amanchu_Main,T,0000,0000,0000,,No.
+Dialogue: 0,0:15:04.08,0:15:07.55,Amanchu_Main,P,0000,0000,0000,,But I know your name because I \Nhad to send you the hood, Big Sis-senpai.
+Dialogue: 0,0:15:07.73,0:15:09.03,Amanchu_Main,BS,0000,0000,0000,,I see.
+Dialogue: 0,0:15:09.36,0:15:12.26,Amanchu_Main,BS,0000,0000,0000,,I suppose introductions are in order, then.
+Dialogue: 0,0:15:12.62,0:15:14.47,Amanchu_Main,BS,0000,0000,0000,,I'm Ninomiya Ai.
+Dialogue: 0,0:15:14.47,0:15:16.99,Amanchu_Main,BS,0000,0000,0000,,This idiot is Makoto, \Nmy younger twin brother.
+Dialogue: 0,0:15:16.99,0:15:18.61,Amanchu_Main,LB,0000,0000,0000,,Rude.
+Dialogue: 0,0:15:19.13,0:15:22.59,Amanchu_Main,BS,0000,0000,0000,,We're both currently second-years, \Nand I'm the club president.
+Dialogue: 0,0:15:22.59,0:15:24.46,Amanchu_Main,BS,0000,0000,0000,,So, yeah, pleased to meet you.
+Dialogue: 0,0:15:24.83,0:15:25.98,Amanchu_Main,LB,0000,0000,0000,,Same.
+Dialogue: 0,0:15:25.98,0:15:28.02,Amanchu_Main,Bo,0000,0000,0000,,Pleased to meet you, too!
+Dialogue: 0,0:15:28.02,0:15:31.37,Amanchu_Main,BS,0000,0000,0000,,For what it's worth, Mato-sensei \Ndid tell us about you two.
+Dialogue: 0,0:15:32.45,0:15:35.84,Amanchu_Main,BS,0000,0000,0000,,The monkey panties girl \Nis Kohinata Hikari-san, a.k.a. Pikari.
+Dialogue: 0,0:15:36.62,0:15:40.21,Amanchu_Main,BS,0000,0000,0000,,And the half-naked track suit bloomers girl \Nis Ooki Futaba-san, a.k.a. Teko.
+Dialogue: 0,0:15:41.63,0:15:42.58,Amanchu_Main,P,0000,0000,0000,,Panties?
+Dialogue: 0,0:15:42.86,0:15:44.04,Amanchu_Main,T,0000,0000,0000,,Bloomers?
+Dialogue: 0,0:15:44.40,0:15:45.81,Amanchu_Main,BS,0000,0000,0000,,Well, then.
+Dialogue: 0,0:15:45.81,0:15:48.42,Amanchu_Main,BS,0000,0000,0000,,Let's eat lunch and \Ngo through today's main agenda,
+Dialogue: 0,0:15:48.42,0:15:51.49,Amanchu_Main,BS,0000,0000,0000,,deciding upon the future activities of this club.
+Dialogue: 0,0:15:51.49,0:15:52.71,Amanchu_Main,Bo,0000,0000,0000,,Okay!
+Dialogue: 0,0:15:54.93,0:15:58.39,Road_map (Ep 05),Sign,0000,0000,0000,,The Future Activities of the Diving Club
+Dialogue: 0,0:15:54.93,0:15:58.39,Summer_Break_15:54(Ep 05),Sign,0000,0000,0000,,By Summer Break     July         June           May
+Dialogue: 0,0:15:55.48,0:15:58.39,Amanchu_Main,BS,0000,0000,0000,,For starters, our plans until summer break.
+Dialogue: 0,0:15:58.58,0:16:01.64,Amanchu_Main,BS,0000,0000,0000,,I guess we'll be working on \Nour conditioning for a while.
+Dialogue: 0,0:16:02.67,0:16:04.19,Amanchu_Main,LB,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:16:04.51,0:16:06.98,Amanchu_Main,P,0000,0000,0000,,Mato-sensei said the same thing.
+Dialogue: 0,0:16:07.36,0:16:09.87,Amanchu_Main,BS,0000,0000,0000,,Teko-chin needs to train her body some, right?
+Dialogue: 0,0:16:12.70,0:16:14.86,Amanchu_Main,P,0000,0000,0000,,Don't let it get you down.
+Dialogue: 0,0:16:15.33,0:16:16.15,Amanchu_Main,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:17.40,0:16:21.62,Amanchu_Main,BS,0000,0000,0000,,That said, we should also go pool diving \Na bit and prepare for the ocean.
+Dialogue: 0,0:16:22.08,0:16:23.00,Amanchu_Main,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:16:23.81,0:16:25.85,Amanchu_Main,BS,0000,0000,0000,,Do you have the mask-clearing skill down pat?
+Dialogue: 0,0:16:27.02,0:16:28.25,Amanchu_Flashback,T,0000,0000,0000,,The water's...
+Dialogue: 0,0:16:33.33,0:16:36.30,Amanchu_Flashback,T,0000,0000,0000,,The water's not getting in anymore?
+Dialogue: 0,0:16:37.35,0:16:38.50,Amanchu_Flashback,T,0000,0000,0000,,Yes!
+Dialogue: 0,0:16:38.50,0:16:40.16,Amanchu_Flashback,T,0000,0000,0000,,The water's not getting in!
+Dialogue: 0,0:16:41.95,0:16:45.08,Amanchu_Italics,T,0000,0000,0000,,If it weren't for Pikari...
+Dialogue: 0,0:16:45.90,0:16:47.25,Amanchu_Main,BS,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:16:47.25,0:16:50.90,Amanchu_Main,BS,0000,0000,0000,,You're a beginner, \Nso all of us will have your back.
+Dialogue: 0,0:16:51.20,0:16:52.83,Amanchu_Main,T,0000,0000,0000,,Sorry about everything.
+Dialogue: 0,0:16:52.83,0:16:54.30,Amanchu_Main,BS,0000,0000,0000,,It's fine.
+Dialogue: 0,0:16:54.30,0:16:58.16,Amanchu_Main,BS,0000,0000,0000,,Although we're already certified, \Nthis will serve as a good refresher.
+Dialogue: 0,0:16:58.96,0:17:03.96,Amanchu_Main,BS,0000,0000,0000,,You'll need to get yourself the entry-level \NOpen Water Diver certification.
+Dialogue: 0,0:17:04.38,0:17:05.26,Amanchu_Main,T,0000,0000,0000,,Open...
+Dialogue: 0,0:17:06.29,0:17:09.15,Amanchu_Main,P,0000,0000,0000,,It's a diver who has all the \Nknowledge and skills necessary
+Dialogue: 0,0:17:09.15,0:17:14.02,Amanchu_Main,P,0000,0000,0000,,to go diving with their buddy, \Neven without an instructor.
+Dialogue: 0,0:17:14.65,0:17:16.93,Amanchu_Main,T,0000,0000,0000,,Dive with their buddy...
+Dialogue: 0,0:17:18.58,0:17:22.92,Amanchu_Main,BS,0000,0000,0000,,Come summer, you'll be getting \Nyour Open Water Diver certification.
+Dialogue: 0,0:17:24.38,0:17:28.24,Amanchu_Main,T,0000,0000,0000,,Open... Water... Diver!
+Dialogue: 0,0:17:29.97,0:17:32.11,Amanchu_Main,P,0000,0000,0000,,Can't wait! Right, Teko?
+Dialogue: 0,0:17:33.17,0:17:34.43,Amanchu_Main,T,0000,0000,0000,,Pikari...
+Dialogue: 0,0:17:34.85,0:17:35.65,Amanchu_Main,T,0000,0000,0000,,Yeah!
+Dialogue: 0,0:17:35.95,0:17:37.10,Amanchu_Main,T,0000,0000,0000,,I'll do my best!
+Dialogue: 0,0:17:38.20,0:17:41.87,Amanchu_Main,T,0000,0000,0000,,I'll do my best because I want \Nto become an Open Water Diver!
+Dialogue: 0,0:17:42.20,0:17:44.20,Amanchu_Main,T,0000,0000,0000,,Actually, I will become one!
+Dialogue: 0,0:17:44.42,0:17:45.82,Amanchu_Main,BS,0000,0000,0000,,That's the spirit!
+Dialogue: 0,0:17:45.82,0:17:47.46,Amanchu_Main,BS,0000,0000,0000,,Summer can't come soon enough!
+Dialogue: 0,0:17:47.46,0:17:49.17,Amanchu_Main,LB,0000,0000,0000,,Hey, that was mine!
+Dialogue: 0,0:17:49.46,0:17:51.45,Amanchu_Main_Top,LB,0000,0000,0000,,I was saving the best for last!
+Dialogue: 0,0:17:51.45,0:17:53.14,Amanchu_Main_Top,BS,0000,0000,0000,,I thought you didn't want it.
+Dialogue: 0,0:17:52.64,0:17:53.86,Amanchu_Italics,T,0000,0000,0000,,Yeah, I can't wait.
+Dialogue: 0,0:17:53.14,0:17:54.13,Amanchu_Main_Top,LB,0000,0000,0000,,You monster!
+Dialogue: 0,0:17:56.59,0:18:02.06,Summer_Break_17:56(Ep 05),Sign,0000,0000,0000,,By Summer Break
+Dialogue: 0,0:17:56.59,0:18:02.06,Open_Water_17:56(Ep 05),Sign,0000,0000,0000,,Get Open Water \NDiver Certification
+Dialogue: 0,0:17:57.84,0:17:58.76,Amanchu_Main,BS,0000,0000,0000,,All right.
+Dialogue: 0,0:17:59.20,0:18:01.34,Amanchu_Main,BS,0000,0000,0000,,That should do it.
+Dialogue: 0,0:18:07.07,0:18:08.13,Amanchu_Main,BS,0000,0000,0000,,What's that?
+Dialogue: 0,0:18:08.13,0:18:09.32,Amanchu_Main,P,0000,0000,0000,,A moray.
+Dialogue: 0,0:18:09.56,0:18:17.57,Panic_18:09(Ep 05),Sign,0000,0000,0000,,Panic
+Dialogue: 0,0:18:11.04,0:18:13.29,Amanchu_Main,T,0000,0000,0000,,Pikari, we're in a meeting!
+Dialogue: 0,0:18:13.29,0:18:17.57,Amanchu_Main,P,0000,0000,0000,,These things come gawking \Nat me every time I dive.
+Dialogue: 0,0:18:18.01,0:18:19.70,Amanchu_Main,BS,0000,0000,0000,,One moment, Pikari-san.
+Dialogue: 0,0:18:19.70,0:18:20.57,Amanchu_Main,P,0000,0000,0000,,Whoop?
+Dialogue: 0,0:18:23.30,0:18:24.95,Amanchu_Main,BS,0000,0000,0000,,This is what a moray looks like!
+Dialogue: 0,0:18:25.14,0:18:26.94,Amanchu_Main,P,0000,0000,0000,,Whoa! You're so good!
+Dialogue: 0,0:18:30.68,0:18:31.79,Amanchu_Main,P,0000,0000,0000,,An octopus!
+Dialogue: 0,0:18:32.04,0:18:33.29,Amanchu_Main,BS,0000,0000,0000,,This is an octopus.
+Dialogue: 0,0:18:33.61,0:18:34.98,Amanchu_Main,P,0000,0000,0000,,Then next up is...
+Dialogue: 0,0:18:34.98,0:18:36.96,Amanchu_Main,BS,0000,0000,0000,,Bring it!
+Dialogue: 0,0:18:38.51,0:18:39.68,Amanchu_Main,T,0000,0000,0000,,Uh...
+Dialogue: 0,0:18:44.05,0:18:46.33,Amanchu_Main,P,0000,0000,0000,,Little Bro-senpai, what's that?
+Dialogue: 0,0:18:46.33,0:18:48.64,Amanchu_Main,LB,0000,0000,0000,,A surge, and an unidentified ancient animal.
+Dialogue: 0,0:18:48.64,0:18:50.52,Amanchu_Main,P,0000,0000,0000,,Oh, nice!
+Dialogue: 0,0:18:50.86,0:18:51.84,Amanchu_Main,P,0000,0000,0000,,All right!
+Dialogue: 0,0:18:52.30,0:18:53.49,Amanchu_Main,P,0000,0000,0000,,Whoop, whoopity, whoop!
+Dialogue: 0,0:18:53.49,0:18:54.70,Amanchu_Main,T,0000,0000,0000,,Er...
+Dialogue: 0,0:18:55.26,0:18:57.07,Amanchu_Main,T,0000,0000,0000,,Uh, guys!
+Dialogue: 0,0:18:57.32,0:18:58.17,Amanchu_Main,BS,0000,0000,0000,,Teko-chin!
+Dialogue: 0,0:18:58.17,0:19:00.53,Amanchu_Main,BS,0000,0000,0000,,Go crazy with the colored \Nchalks and fill in everything!
+Dialogue: 0,0:19:01.61,0:19:02.52,Amanchu_Main,T,0000,0000,0000,,Sure...
+Dialogue: 0,0:19:13.78,0:19:14.94,Amanchu_Main,P,0000,0000,0000,,Whoop!
+Dialogue: 0,0:19:18.95,0:19:20.26,Amanchu_Italics,T,0000,0000,0000,,Can I really do this?
+Dialogue: 0,0:19:20.88,0:19:24.38,Amanchu_Italics,T,0000,0000,0000,,I've never been ocean diving before.
+Dialogue: 0,0:19:25.49,0:19:29.06,Amanchu_Italics,T,0000,0000,0000,,I'll be dyeing all this in the colors \Nof the ocean in my imagination.
+Dialogue: 0,0:19:34.09,0:19:34.96,Amanchu_Italics,T,0000,0000,0000,,Blue,
+Dialogue: 0,0:19:35.38,0:19:36.40,Amanchu_Italics,T,0000,0000,0000,,red,
+Dialogue: 0,0:19:36.81,0:19:37.87,Amanchu_Italics,T,0000,0000,0000,,yellow...
+Dialogue: 0,0:19:39.03,0:19:43.00,Amanchu_Italics,T,0000,0000,0000,,In vivid color, I'll create an ocean \Nscene together with everyone.
+Dialogue: 0,0:19:44.20,0:19:45.44,Amanchu_Italics,T,0000,0000,0000,,This is fun!
+Dialogue: 0,0:19:53.18,0:19:54.65,Amanchu_Main,P,0000,0000,0000,,All done!
+Dialogue: 0,0:19:54.65,0:19:56.95,Amanchu_Main,BS,0000,0000,0000,,Yeah, this should do.
+Dialogue: 0,0:19:56.95,0:19:58.20,Amanchu_Main,LB,0000,0000,0000,,It's a tour de force.
+Dialogue: 0,0:20:00.05,0:20:01.38,Amanchu_Main,T,0000,0000,0000,,Wow!
+Dialogue: 0,0:20:02.65,0:20:08.26,Amanchu_Main,T,0000,0000,0000,,I'm diving in the ocean with everyone.
+Dialogue: 0,0:20:11.68,0:20:12.47,Amanchu_Main,P,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:12.47,0:20:13.77,Amanchu_Main,P,0000,0000,0000,,That's right, Teko.
+Dialogue: 0,0:20:13.98,0:20:14.76,Amanchu_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:15.65,0:20:18.48,Amanchu_Main,T,0000,0000,0000,,Did I just say that out loud?
+Dialogue: 0,0:20:18.94,0:20:19.94,Amanchu_Main,P,0000,0000,0000,,You totally did!
+Dialogue: 0,0:20:23.07,0:20:26.30,Amanchu_Main,BS,0000,0000,0000,,These are the first waters \Nthe four of us dove into together.
+Dialogue: 0,0:20:26.30,0:20:27.12,Amanchu_Main,P,0000,0000,0000,,Whoop?!
+Dialogue: 0,0:20:27.76,0:20:30.44,Amanchu_Main,P,0000,0000,0000,,Filing that one under Big Sis-senpai's \Ncorny, yet wonderful, quotes!
+Dialogue: 0,0:20:33.08,0:20:34.17,Amanchu_Main,LB,0000,0000,0000,,Why?
+Dialogue: 0,0:20:34.33,0:20:36.89,Amanchu_Main,Cha,0000,0000,0000,,Cha...
+Dialogue: 0,0:20:38.09,0:20:40.38,Amanchu_Main,BS,0000,0000,0000,,Erasing this would be a waste.
+Dialogue: 0,0:20:40.38,0:20:43.78,Amanchu_Main,T,0000,0000,0000,,Why don't we take a picture \Nusing our cell phone cameras?
+Dialogue: 0,0:20:44.96,0:20:49.82,Amanchu_Main,T,0000,0000,0000,,I make it a point to always \Nphotograph things dear to me.
+Dialogue: 0,0:20:50.14,0:20:51.11,Amanchu_Main,BS,0000,0000,0000,,Good idea.
+Dialogue: 0,0:20:51.11,0:20:52.35,Amanchu_Main,P,0000,0000,0000,,Nice, Teko!
+Dialogue: 0,0:21:01.46,0:21:03.46,Amanchu_Main,BS,0000,0000,0000,,All right, let's get erasing.
+Dialogue: 0,0:21:03.46,0:21:04.29,Amanchu_Main,LB,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:04.29,0:21:05.79,Amanchu_Main,P,0000,0000,0000,,Whoop!
+Dialogue: 0,0:21:17.38,0:21:20.36,Amanchu_Main,BS,0000,0000,0000,,Whoa! The eraser's getting \Ncovered in chalk in an instant!
+Dialogue: 0,0:21:20.36,0:21:22.46,Amanchu_Main,LB,0000,0000,0000,,We should probably split up into two teams.
+Dialogue: 0,0:21:22.76,0:21:24.28,Amanchu_Main,BS,0000,0000,0000,,We'll erase the blackboard.
+Dialogue: 0,0:21:24.28,0:21:27.39,Amanchu_Main,BS,0000,0000,0000,,You two dust the erasers, okay?
+Dialogue: 0,0:21:27.39,0:21:28.58,Amanchu_Main,Bo,0000,0000,0000,,Okay!
+Dialogue: 0,0:21:34.68,0:21:35.88,Amanchu_Main,BS,0000,0000,0000,,{\a6}Diving Club!
+Dialogue: 0,0:21:35.42,0:21:37.97,Amanchu_Italics,T,0000,0000,0000,,The first waters I dove into with everyone
+Dialogue: 0,0:21:35.88,0:21:36.66,Amanchu_Main,BS,0000,0000,0000,,{\a6}Fight...
+Dialogue: 0,0:21:36.66,0:21:38.38,Amanchu_Main,All,0000,0000,0000,,{\a6}Yeah!
+Dialogue: 0,0:21:38.38,0:21:41.32,Amanchu_Italics,T,0000,0000,0000,,were devoid of water but full of color.
+Dialogue: 0,0:21:42.15,0:21:45.41,Amanchu_Italics,T,0000,0000,0000,,I may go diving in the actual ocean someday,
+Dialogue: 0,0:21:45.41,0:21:46.86,Amanchu_Italics,T,0000,0000,0000,,but I'm sure I'll never forget this...
+Dialogue: 0,0:21:47.47,0:21:50.66,Amanchu_Italics,T,0000,0000,0000,,A vivid memory that won't ever fade!
+Dialogue: 0,0:23:25.93,0:23:28.18,Amanchu_Main,P,0000,0000,0000,,Every wish comes true...
+Dialogue: 0,0:23:28.18,0:23:30.09,Amanchu_Main,P,0000,0000,0000,,Or not.
+Dialogue: 0,0:23:30.09,0:23:31.93,Amanchu_Main,P,0000,0000,0000,,But if we all work together...
+Dialogue: 0,0:23:32.28,0:23:33.34,Amanchu_Main_Top,P,0000,0000,0000,,Next time, on {\i1}Amanchu!{\i0}:
+Dialogue: 0,0:23:32.55,0:23:39.98,Amanchu_Next_Ep_Title,Next Episode Title,0000,0000,0000,,{\fad(444,1)}"The Story of the False Wish"
+Dialogue: 0,0:23:33.78,0:23:35.98,Amanchu_Main_Top,P,0000,0000,0000,,"The Story of the False Wish."
+Dialogue: 0,0:23:35.98,0:23:38.56,Amanchu_Main_Top,T,0000,0000,0000,,What do I truly wish for?
+Dialogue: 0,0:23:38.56,0:23:40.56,Amanchu_Main,,0000,0000,0000,,

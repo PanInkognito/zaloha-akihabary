@@ -1,0 +1,446 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_24_1_The_Third_Plate,Open Sans Semibold,39,&H00808080,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,400,27,1
+Style: sign_24_2_Thirteen,Open Sans Semibold,45,&H00050100,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,400,200,1
+Style: sign_6424_110_Food_Wars,Open Sans Semibold,45,&H002837E3,&H000000FF,&H00EEFBFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_1937_22_The_Third_Plate,Open Sans Semibold,39,&H00481C0B,&H000000FF,&H00FDFEF6,&H005B86AB,1,0,0,0,100,100,0,0,1,3,2,2,40,40,107,1
+Style: sign_1975_23_Totsuki_Train_Ar,Open Sans Semibold,33,&H00EFDFDB,&H000000FF,&H004A1B04,&H005B86AB,1,0,0,0,100,100,0,0,1,3,0,2,40,40,27,1
+Style: sign_30623_420_Totsuki,Open Sans Semibold,33,&H00D0A29F,&H000000FF,&H00EBCEC7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,420,40,260,1
+Style: sign_3937_31_For_Whom,Open Sans Semibold,33,&H00F9FCFC,&H000000FF,&H005C6460,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,107,113,113,1
+Style: sign_10356_119_The_Explosion,Open Sans Semibold,44,&H0029474E,&H000000FF,&H00CEF8FD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_13309_160_The_Explosion,Open Sans Semibold,44,&H00000000,&H000000FF,&H0062868F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,420,40,27,1
+Style: sign_13831_166_The_Gift,Open Sans Semibold,44,&H00010000,&H000000FF,&H00FEFEFD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,40,613,27,1
+Style: sign_33396_399_Aide_to_Nakiri_A,Open Sans Semibold,38,&H00FAFFFF,&H000000FF,&H001B1C28,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,40,447,173,1
+Style: sign_34668_410_Next_Episode__De,Open Sans Semibold,20,&H00FFFFFF,&H000000FF,&H00131211,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,60,87,133,1
+Style: sign_34668_412_Food_Wars,Open Sans Semibold,33,&H001A30D3,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,93,593,27,1
+Style: sign_34668_413_The_Third_Plate,Open Sans Semibold,24,&H008B492A,&H000000FF,&H00FFFFFB,&H0064929D,1,0,0,0,100,100,0,0,1,2,2,8,93,593,207,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_1_The_Third_Plate,Sign,0000,0000,0000,,Treti štitok
+Dialogue: 0,0:00:00.98,0:00:02.98,sign_24_2_Thirteen,Sign,0000,0000,0000,,Osemnasť
+Dialogue: 0,0:00:05.18,0:00:08.52,Flashback Dialogue,Azami,0000,0000,0000,,Gratulujem ti k vyhre, Hayama Akira.
+Dialogue: 0,0:00:08.90,0:00:11.35,Flashback Dialogue,Azami,0000,0000,0000,,Teraz si oficialne členom Centraly.
+Dialogue: 0,0:00:11.35,0:00:12.99,Flashback Dialogue,H,0000,0000,0000,,To ma vôbec nezaujima.
+Dialogue: 0,0:00:12.99,0:00:16.01,Flashback Dialogue,H,0000,0000,0000,,Sľubil si ze zabespečiš \Nvyzkumnu skupinu pre Jun a mňa
+Dialogue: 0,0:00:16.01,0:00:17.22,Flashback Dialogue,Azami,0000,0000,0000,,Som si toho vedomy
+Dialogue: 0,0:00:17.83,0:00:21.17,Flashback Dialogue,Azami,0000,0000,0000,,Ale predtým mám pre teba prvú úlohu.
+Dialogue: 0,0:00:21.17,0:00:22.66,Flashback Dialogue,Azami,0000,0000,0000,,Je to jednoduchá úloha.
+Dialogue: 0,0:00:22.66,0:00:27.17,Flashback Dialogue,Azami,0000,0000,0000,,Skoncuješ so superom, \Nktoreho si už dvakrať porazil.
+Dialogue: 0,0:00:28.63,0:00:30.37,Flashback Dialogue,Jun,0000,0000,0000,,Nemôžete to urobiť, Hayama-kun.
+Dialogue: 0,0:00:30.37,0:00:32.01,Flashback Dialogue,Jun,0000,0000,0000,,Okamžite opusť Centralu.
+Dialogue: 0,0:00:32.41,0:00:35.34,Flashback Dialogue,Jun,0000,0000,0000,,Nehovorila som ti aby \Nsi sa nepridaval k Centrale?
+Dialogue: 0,0:00:35.34,0:00:37.74,Flashback Dialogue,Jun,0000,0000,0000,,Prečo ma nepočuvaš?
+Dialogue: 0,0:00:38.43,0:00:40.62,Flashback Dialogue,Jun,0000,0000,0000,,Aj keď budeš počuvať Azami-senpai,
+Dialogue: 0,0:00:40.62,0:00:42.89,Flashback Dialogue,Jun,0000,0000,0000,,nemaš žiadnu zaruku že si \Nbudeme môcť robiť čo chceme.
+Dialogue: 0,0:00:42.89,0:00:43.98,Flashback Dialogue,H,0000,0000,0000,,A čo teraz?
+Dialogue: 0,0:00:43.98,0:00:47.01,Flashback Dialogue,H,0000,0000,0000,,Existuje dajaky ina cesta \Nako pokračovať v našom vyzkume?
+Dialogue: 0,0:00:47.01,0:00:48.48,Flashback Dialogue,Jun,0000,0000,0000,,Ty to nechapeš, Hayama-kun!
+Dialogue: 0,0:00:48.48,0:00:49.69,Flashback Italics Dialogue,H,0000,0000,0000,,Čo do prekla?!
+Dialogue: 0,0:00:50.32,0:00:52.69,Flashback Italics Dialogue,H,0000,0000,0000,,Keby si vedela čo všetko pre mna znamenaš.
+Dialogue: 0,0:00:53.14,0:00:54.63,Flashback Dialogue,H,0000,0000,0000,,Vporiadku.
+Dialogue: 0,0:00:54.63,0:00:56.40,Flashback Dialogue,H,0000,0000,0000,,Nezaujima ma čo povieš.
+Dialogue: 0,0:00:56.40,0:00:58.62,Flashback Dialogue,H,0000,0000,0000,,Ochranim toto mnieto
+Dialogue: 0,0:00:58.62,0:01:00.66,Flashback Dialogue,H,0000,0000,0000,,a nezaujima ma čo \Npreto budem musieť obetovať.
+Dialogue: 0,0:01:05.15,0:01:06.58,Main Dialogue,H,0000,0000,0000,,Tu je smaženi-kuraci medveď.
+Dialogue: 0,0:01:07.08,0:01:08.54,Main Dialogue,H,0000,0000,0000,,Prosim užite si ho.
+Dialogue: 0,0:01:38.70,0:01:44.62,sign_6424_110_Food_Wars,H,0000,0000,0000,,Food Wars
+Dialogue: 0,0:01:38.70,0:01:44.62,sign_1937_22_The_Third_Plate,H,0000,0000,0000,,Treti štitok
+Dialogue: 0,0:01:40.28,0:01:44.62,sign_1975_23_Totsuki_Train_Ar,,0000,0000,0000,,Totsuki Train Arc
+Dialogue: 0,0:02:44.18,0:02:49.02,sign_3937_31_For_Whom,Sign 0246,0000,0000,0000,,Pre koho
+Dialogue: 0,0:02:49.67,0:02:52.73,Italics Dialogue,D,0000,0000,0000,,Tento pokrm je pripravovani s \Nnajlepšich časti, Hayama Akira.
+Dialogue: 0,0:02:53.14,0:02:54.44,Italics Dialogue,D,0000,0000,0000,,Smaženi-kuraci medveď.
+Dialogue: 0,0:02:55.57,0:02:57.57,Main Dialogue,S,0000,0000,0000,,Hayama, kde mam ja?!
+Dialogue: 0,0:02:57.57,0:02:59.98,Main Dialogue,S,0000,0000,0000,,Pohni, a nechaj ma ochutnať!
+Dialogue: 0,0:02:59.98,0:03:00.91,Main Dialogue,H,0000,0000,0000,,Zmlkni.
+Dialogue: 0,0:03:01.22,0:03:02.13,Main Dialogue,H,0000,0000,0000,,Tu maš.
+Dialogue: 0,0:03:02.13,0:03:04.74,Main Dialogue,H,0000,0000,0000,,Po tom čo to ochutnaš a \Nprimeš prehru, opustiš akademiu.
+Dialogue: 0,0:03:04.74,0:03:07.70,Main Dialogue,S,0000,0000,0000,,Spravaš sa ku mne \Nako keby si na mna nemal čas.
+Dialogue: 0,0:03:07.70,0:03:09.50,Main Dialogue,H,0000,0000,0000,,Vždy som to vedeľ.
+Dialogue: 0,0:03:09.50,0:03:12.42,Main Dialogue,H,0000,0000,0000,,Niesme na rovnakej urovni.\NUž to pochop v tej tvojej hlave.
+Dialogue: 0,0:03:12.42,0:03:14.37,Main Dialogue,Chinese RS,0000,0000,0000,,Je važne presvedčeny.
+Dialogue: 0,0:03:14.37,0:03:16.55,Main Dialogue,Chinese RS,0000,0000,0000,,Pravdepodobne musel chodiť po rovnakom lane
+Dialogue: 0,0:03:16.55,0:03:19.36,Main Dialogue,Chinese RS,0000,0000,0000,,vôna a umami ...
+Dialogue: 0,0:03:19.36,0:03:20.35,Main Dialogue,Kuga,0000,0000,0000,,Pravda.
+Dialogue: 0,0:03:20.35,0:03:22.78,Main Dialogue,Kuga,0000,0000,0000,,Prvou skúškou je, či sa mu podarilo
+Dialogue: 0,0:03:22.78,0:03:23.93,Main Dialogue,Kuga,0000,0000,0000,,odstrániť zapach ...
+Dialogue: 0,0:03:24.33,0:03:26.51,Main Dialogue,Kuga,0000,0000,0000,,Ale o tom veľmi nepochybujem.
+Dialogue: 0,0:03:26.51,0:03:28.27,Main Dialogue,Soe,0000,0000,0000,,Podme to ochutnať.
+Dialogue: 0,0:03:29.73,0:03:31.35,Main Dialogue,S,0000,0000,0000,,Horuce, horuce, horuce!
+Dialogue: 0,0:03:31.98,0:03:35.31,Italics Dialogue,S,0000,0000,0000,,Ten svetly tuk je tak \Njasny že takmer oslebuje.
+Dialogue: 0,0:03:35.31,0:03:37.73,Italics Dialogue,S,0000,0000,0000,,Hayamaove zručnosti sú dokonale.
+Dialogue: 0,0:03:41.40,0:03:44.11,Italics Dialogue,Sh,0000,0000,0000,,Čo je to?
+Dialogue: 0,0:03:44.11,0:03:45.99,Italics Dialogue,B,0000,0000,0000,,Keď je to bližšie pri ustach
+Dialogue: 0,0:03:45.99,0:03:49.58,Italics Dialogue,B,0000,0000,0000,,citim jak korenie silnie.
+Dialogue: 0,0:03:50.00,0:03:51.91,Main Dialogue,Soe,0000,0000,0000,,Teraz to ochutnam!
+Dialogue: 0,0:03:56.99,0:03:59.17,Main Dialogue,BSh,0000,0000,0000,,Tak dobre!
+Dialogue: 0,0:04:01.15,0:04:02.45,Main Dialogue,Sh,0000,0000,0000,,To je zle, Berta!
+Dialogue: 0,0:04:02.45,0:04:03.76,Main Dialogue,Sh,0000,0000,0000,,Musime zostať spolu!
+Dialogue: 0,0:04:03.76,0:04:05.47,Main Dialogue,B,0000,0000,0000,,Spravne, Cilla!
+Dialogue: 0,0:04:05.47,0:04:07.60,Main Dialogue,B,0000,0000,0000,,Musime sa ukludniť a analizovať to.
+Dialogue: 0,0:04:08.78,0:04:13.31,Italics Dialogue,B,0000,0000,0000,,Štipľavé chuť je, \Npiperín z čierneho korenia!
+Dialogue: 0,0:04:13.31,0:04:18.26,Italics Dialogue,Sh,0000,0000,0000,,Jeho spojenie s pyrazine, aromaticka \Nprichuť vznikla zo zahrievania papriky
+Dialogue: 0,0:04:18.26,0:04:20.32,Italics Dialogue,Sh,0000,0000,0000,,vytvoril základ pre chuťový profil pokrmu.
+Dialogue: 0,0:04:20.32,0:04:23.53,Italics Dialogue,Sh,0000,0000,0000,,Thyme je pre stalosť medvedieho mäsa.
+Dialogue: 0,0:04:23.53,0:04:27.99,Italics Dialogue,B,0000,0000,0000,,Thymol, precuje na ostrom a \Npriťažlivom zloženiu.
+Dialogue: 0,0:04:27.99,0:04:31.20,Italics Dialogue,B,0000,0000,0000,,a, a cayenne a oregano... um...
+Dialogue: 0,0:04:32.41,0:04:33.91,Main Dialogue,B,0000,0000,0000,,Už to viac nemožem vydržať!
+Dialogue: 0,0:04:33.91,0:04:36.88,Main Dialogue,Sh,0000,0000,0000,,Už ani nemožem poriadne zotmyšlať!
+Dialogue: 0,0:04:37.29,0:04:38.34,Italics Dialogue,Soe,0000,0000,0000,,Aka nadherna chuť!
+Dialogue: 0,0:04:38.91,0:04:43.15,Italics Dialogue,Soe,0000,0000,0000,,Vôňa medvedieho mäsa bola \Nprevedená na silné umami!
+Dialogue: 0,0:04:43.15,0:04:48.62,Italics Dialogue,Soe,0000,0000,0000,,Komplexné nahromadenie umami \Na tie vrstvy chuti ...
+Dialogue: 0,0:04:50.15,0:04:52.91,Main Dialogue,Soe,0000,0000,0000,,To jasne prevyšuje Yukihira Somu!
+Dialogue: 0,0:04:54.77,0:04:57.02,Main Dialogue,Hayama,0000,0000,0000,,Okrem zmesi korenia Cajun,
+Dialogue: 0,0:04:57.02,0:05:01.18,Main Dialogue,Hayama,0000,0000,0000,,Pridal som aj marinade \Nborievky ktore som rozdrtil.
+Dialogue: 0,0:05:01.18,0:05:02.99,Main Dialogue,Hayama,0000,0000,0000,,V myske s drtidlom na zvyšenie ich chuťi.
+Dialogue: 0,0:05:02.99,0:05:05.22,Main Dialogue,Hayama,0000,0000,0000,,Čím viac budete žuť,
+Dialogue: 0,0:05:05.22,0:05:07.79,Main Dialogue,Hayama,0000,0000,0000,,tým vetšia a nádhernejšia bude chuť umami
+Dialogue: 0,0:05:07.79,0:05:09.87,Main Dialogue,Hayama,0000,0000,0000,,ktora sa bude širiť cez vaše ústa.
+Dialogue: 0,0:05:10.20,0:05:13.29,Main Dialogue,Chinese RS,0000,0000,0000,,Yukihira-dono si vybral aj \Nzapachajuce časti medveďa
+Dialogue: 0,0:05:13.29,0:05:16.21,Main Dialogue,Chinese RS,0000,0000,0000,,a použil schisandra bobule \Nna zlepšenie chuti medveďa
+Dialogue: 0,0:05:16.21,0:05:17.88,Main Dialogue,Chinese RS,0000,0000,0000,,A to stale nestačilo?
+Dialogue: 0,0:05:17.88,0:05:19.55,Main Dialogue,Chinese RS,0000,0000,0000,,To znamena, že Hayama používa korenie
+Dialogue: 0,0:05:19.55,0:05:23.01,Main Dialogue,Chinese RS,0000,0000,0000,,na oveľa vyšiej urovni.
+Dialogue: 0,0:05:23.01,0:05:25.98,Main Dialogue,H,0000,0000,0000,,Aj ľudia dokažu odlišiť
+Dialogue: 0,0:05:25.98,0:05:29.72,Main Dialogue,H,0000,0000,0000,,niekoľko tisíc až desaťtisíc pachov.
+Dialogue: 0,0:05:29.72,0:05:33.18,Main Dialogue,H,0000,0000,0000,,Tuto schopnosť som použil v tomto pokrme.
+Dialogue: 0,0:05:34.11,0:05:35.31,Italics Dialogue,Kuga,0000,0000,0000,,Správne.
+Dialogue: 0,0:05:35.31,0:05:38.41,Italics Dialogue,Kuga,0000,0000,0000,,Nikto iny to spraviť nemože
+Dialogue: 0,0:05:38.41,0:05:40.90,Italics Dialogue,Kuga,0000,0000,0000,,bez Hayamovej nadľudskej \Ncitlivosti pre korenie ...
+Dialogue: 0,0:05:41.37,0:05:43.11,Main Dialogue,H,0000,0000,0000,,Tu maš poslednú ranu.
+Dialogue: 0,0:05:50.81,0:05:53.12,Flashback Dialogue,S,0000,0000,0000,,Wow, nikdy by ma nenapadlo \Nže použiješ horak na
+Dialogue: 0,0:05:53.12,0:05:55.16,Flashback Dialogue,S,0000,0000,0000,,ryby, ktoré zlepšia vônu ...
+Dialogue: 0,0:05:55.54,0:05:57.29,Flashback Dialogue,S,0000,0000,0000,,Ako si na to prišiel?
+Dialogue: 0,0:05:57.29,0:05:58.73,Flashback Dialogue,S,0000,0000,0000,,No tak povedz nam to.
+Dialogue: 0,0:05:58.73,0:06:02.28,Flashback Dialogue,Ryo,0000,0000,0000,,Nikdy sa nedostanem dalej\Nkeď poznam len svoje triky.
+Dialogue: 0,0:06:02.28,0:06:04.20,Flashback Dialogue,Ryo,0000,0000,0000,,Nemysli si, že si lepši ako ktokoľvek iny.
+Dialogue: 0,0:06:04.20,0:06:05.92,Flashback Dialogue,H,0000,0000,0000,,Prišli ste sem, aby ste sa bily?
+Dialogue: 0,0:06:09.46,0:06:10.89,Italics Dialogue,H,0000,0000,0000,,Chlape...
+Dialogue: 0,0:06:11.94,0:06:13.67,Italics Dialogue,H,0000,0000,0000,,Prepač, Yukihira.
+Dialogue: 0,0:06:13.67,0:06:15.64,Italics Dialogue,H,0000,0000,0000,,Ale ja mam niečo čo musim ochraniť
+Dialogue: 0,0:06:15.64,0:06:17.85,Italics Dialogue,H,0000,0000,0000,,aj keď to znamena že vás musim poraziť!
+Dialogue: 0,0:06:27.01,0:06:28.45,Main Dialogue,Chinese RS,0000,0000,0000,,Nemohol prekonať Hayamu.
+Dialogue: 0,0:06:28.45,0:06:29.91,Main Dialogue,Chinese RS,0000,0000,0000,,To znamená, že s týmto zápasom ...
+Dialogue: 0,0:06:29.91,0:06:33.83,Main Dialogue,Chinese RS,0000,0000,0000,,...je vyhostenie Yukihira-donu potvrdené?
+Dialogue: 0,0:06:35.29,0:06:37.57,Main Dialogue,Soe,0000,0000,0000,,Je priskoro na rozhodnutie.
+Dialogue: 0,0:06:38.06,0:06:41.58,Main Dialogue,Soe,0000,0000,0000,,Len sme ochutnali samotne vyprážané mäso.
+Dialogue: 0,0:06:42.01,0:06:44.55,Main Dialogue,Soe,0000,0000,0000,,Ešte nam zostava omačka
+Dialogue: 0,0:06:45.51,0:06:47.24,Main Dialogue,Sh,0000,0000,0000,,Oops, to je pravda.
+Dialogue: 0,0:06:47.24,0:06:48.88,Main Dialogue,B,0000,0000,0000,,Už som to chcela ukončiť.
+Dialogue: 0,0:06:48.88,0:06:52.85,Main Dialogue,Sh,0000,0000,0000,,Okay, prv Hayama-sanoveho\Npečeneho medveďa do omačky.
+Dialogue: 0,0:06:53.51,0:06:55.78,Main Dialogue,B,0000,0000,0000,,Omáčka z deglazovaného medveďa s veľkou dávkou
+Dialogue: 0,0:06:55.78,0:06:58.06,Main Dialogue,B,0000,0000,0000,,z rozdrtenich juniper bobuľ.
+Dialogue: 0,0:07:03.69,0:07:04.82,Main Dialogue,D,0000,0000,0000,,Je to tu!
+Dialogue: 0,0:07:04.82,0:07:07.15,Main Dialogue,D,0000,0000,0000,,Ukažkova hrudníka-schopnosť, z klan Nakiri
+Dialogue: 0,0:07:07.56,0:07:09.05,Main Dialogue,D,0000,0000,0000,,predavana po celé generácie!
+Dialogue: 0,0:07:09.05,0:07:11.93,Main Dialogue,D,0000,0000,0000,,Výbušné roztrhnutie látky v dôsledku vôle,
+Dialogue: 0,0:07:11.93,0:07:13.87,Main Dialogue,D,0000,0000,0000,,Znama ako "Explosion"!
+Dialogue: 0,0:07:11.93,0:07:13.87,sign_10356_119_The_Explosion,Sign 0713,0000,0000,0000,,Explosion
+Dialogue: 0,0:07:15.35,0:07:16.83,Italics Dialogue,Sh,0000,0000,0000,,Je to ako ...
+Dialogue: 0,0:07:16.83,0:07:20.54,Italics Dialogue,B,0000,0000,0000,,Chuťové bombardovanie!
+Dialogue: 0,0:07:20.54,0:07:24.91,Main Dialogue,Soe,0000,0000,0000,,Je to až desivé, ako je \Ntento dobre pokrm pripraveny.
+Dialogue: 0,0:07:24.91,0:07:27.21,Main Dialogue,Soe,0000,0000,0000,,Juniper Bobule a Cajun korenie!
+Dialogue: 0,0:07:27.21,0:07:28.82,Main Dialogue,Soe,0000,0000,0000,,Korenitosť a sladkosť!
+Dialogue: 0,0:07:28.82,0:07:30.85,Main Dialogue,Soe,0000,0000,0000,,Presny pomer na \Nvyzdvihnuťie chuť medveďa.
+Dialogue: 0,0:07:30.85,0:07:33.22,Main Dialogue,Soe,0000,0000,0000,,Je to dokonale vyvažene!
+Dialogue: 0,0:07:33.59,0:07:35.98,Main Dialogue,Soe,0000,0000,0000,,To je výsledkom jeho vedeckého \Nvýkon pri ktorej spajal
+Dialogue: 0,0:07:35.98,0:07:39.43,Main Dialogue,Soe,0000,0000,0000,,vôňu a chuť, ktoré \Nsú teraz navzájom prepojené.
+Dialogue: 0,0:07:40.02,0:07:41.45,Main Dialogue,Soe,0000,0000,0000,,Je to hrad
+Dialogue: 0,0:07:41.45,0:07:44.73,Main Dialogue,Soe,0000,0000,0000,,ktory ukazuje dokonalosť s každeho uhla!
+Dialogue: 0,0:07:44.73,0:07:48.69,Main Dialogue,Soe,0000,0000,0000,,Tento pokrm je ako nepreniknutelna pevnosť!
+Dialogue: 0,0:07:49.33,0:07:51.56,Italics Dialogue,H,0000,0000,0000,,Neexistuje žiadny spôsob, \Nako by si ma mohol dobehnuť.
+Dialogue: 0,0:07:51.56,0:07:54.66,Italics Dialogue,H,0000,0000,0000,,Nie je možne aby si porazil\Nniekoho s nadľudskim čuchom.
+Dialogue: 0,0:07:55.07,0:07:56.14,Main Dialogue,H,0000,0000,0000,,Skončil si.
+Dialogue: 0,0:07:56.86,0:07:59.08,Main Dialogue,S,0000,0000,0000,,Hovoriš že som "skončil"?
+Dialogue: 0,0:07:59.08,0:08:03.25,Main Dialogue,S,0000,0000,0000,,Hayama, nerob predčasne zavery.
+Dialogue: 0,0:08:03.61,0:08:06.54,Italics Dialogue,H,0000,0000,0000,,On to ešte to nevzdal.
+Dialogue: 0,0:08:07.01,0:08:10.18,Main Dialogue,S,0000,0000,0000,,Ešte neodznel posledny gong.
+Dialogue: 0,0:08:15.39,0:08:20.14,Main Dialogue,Soe,0000,0000,0000,,Dalši bude Yukihira Soma a jeho\Nmlety-mäsovy rezeň s omáčkou..
+Dialogue: 0,0:08:20.49,0:08:21.60,Main Dialogue,Sh,0000,0000,0000,,Čo je to za peknu vôňu.
+Dialogue: 0,0:08:22.06,0:08:26.94,Main Dialogue,Sh,0000,0000,0000,,Zda sa byť na podobnom zaklade \Nako mal omačku Hayama-san.
+Dialogue: 0,0:08:26.94,0:08:27.48,Main Dialogue,B,0000,0000,0000,,Ano.
+Dialogue: 0,0:08:28.05,0:08:30.69,Main Dialogue,B,0000,0000,0000,,Schisandra bobule su umiesnene v omačke.
+Dialogue: 0,0:08:30.69,0:08:33.15,Main Dialogue,B,0000,0000,0000,,Čo je to za jemnú vôňu cesnaku.
+Dialogue: 0,0:08:33.15,0:08:34.49,Main Dialogue,B,0000,0000,0000,,Skade sa bere ta jemnosť?
+Dialogue: 0,0:08:36.79,0:08:37.91,Italics Dialogue,Kuga,0000,0000,0000,,Vidim.
+Dialogue: 0,0:08:37.91,0:08:41.04,Italics Dialogue,Kuga,0000,0000,0000,,V porovnani s juniper \Nbubuľami od Hayama-san,
+Dialogue: 0,0:08:41.04,0:08:44.25,Italics Dialogue,Kuga,0000,0000,0000,,Yukihira-chin použil ingrediencie \Nako hlavnu zložku pokrmu.
+Dialogue: 0,0:08:45.21,0:08:45.95,Italics Dialogue,B,0000,0000,0000,,
+Dialogue: 0,0:08:45.95,0:08:46.89,Italics Dialogue,Sh,0000,0000,0000,,Čo?!
+Dialogue: 0,0:08:48.15,0:08:51.15,Italics Dialogue,B,0000,0000,0000,,Upľne sa zmenil cely pokrm.
+Dialogue: 0,0:08:51.15,0:08:53.19,Italics Dialogue,Sh,0000,0000,0000,,Premenliva vôňa...
+Dialogue: 0,0:08:53.19,0:08:56.05,Italics Dialogue,Sh,0000,0000,0000,,Myšlienka pretrváva, \Nale nie je to uplne lákanie.
+Dialogue: 0,0:08:56.05,0:08:59.72,Italics Dialogue,Sh,0000,0000,0000,,Je to ako keď je medvedie mäso \Nsladkou chuťou pohltene...
+Dialogue: 0,0:08:59.97,0:09:03.03,Italics Dialogue,BSh,0000,0000,0000,,...a ide priamo cez nas...
+Dialogue: 0,0:09:06.90,0:09:08.08,Main Dialogue,B,0000,0000,0000,,Čo sa to deje?!
+Dialogue: 0,0:09:08.08,0:09:09.98,Main Dialogue,Sh,0000,0000,0000,,Naše  oblečenie je preč!
+Dialogue: 0,0:09:09.98,0:09:11.58,Main Dialogue,D,0000,0000,0000,,Je to tu.
+Dialogue: 0,0:09:11.58,0:09:15.07,Main Dialogue,D,0000,0000,0000,,Tato technika ja viac rozširena ako Explosion.
+Dialogue: 0,0:09:15.07,0:09:17.03,sign_13309_160_The_Explosion,Sign 0916,0000,0000,0000,,Explosion
+Dialogue: 0,0:09:15.07,0:09:17.03,Main Dialogue,Kuga,0000,0000,0000,,Viac rozširena ako Explosion?
+Dialogue: 0,0:09:17.34,0:09:21.91,Main Dialogue,D,0000,0000,0000,,Na ochutnanie pokrmu ktory je plnej \Ndušenvej harmonie sa odhaly hrudnik,
+Dialogue: 0,0:09:22.25,0:09:27.18,Main Dialogue,D,0000,0000,0000,,je to vôľa, ktorá vrie v klane Nakiri,\Nktora sa uvoľnuje ako vlnenie.
+Dialogue: 0,0:09:28.21,0:09:35.34,Main Dialogue,D,0000,0000,0000,,Tieto vlny dopadnu aj na ostatnich \Na prepožičaju tuto schopnsť.
+Dialogue: 0,0:09:35.34,0:09:38.06,Main Dialogue,D,0000,0000,0000,,Je znama ako Gift!
+Dialogue: 0,0:09:36.86,0:09:39.22,sign_13831_166_The_Gift,Sign 0939,0000,0000,0000,,Gift
+Dialogue: 0,0:09:39.22,0:09:41.00,Main Dialogue,Chinese RS,0000,0000,0000,,Gift?!
+Dialogue: 0,0:09:41.00,0:09:43.93,Main Dialogue,Chinese RS,0000,0000,0000,,Yukihira-dono bol schopný\Nvytvoriť takýto pokrm ?!
+Dialogue: 0,0:09:43.93,0:09:47.52,Main Dialogue,Soe,0000,0000,0000,,Hmm, tajomstvo sa skriva v omačke,
+Dialogue: 0,0:09:47.52,0:09:49.99,Main Dialogue,Soe,0000,0000,0000,,med a balsamikový ocot, správne?
+Dialogue: 0,0:09:49.99,0:09:51.27,Main Dialogue,S,0000,0000,0000,,Spravne!
+Dialogue: 0,0:09:51.60,0:09:54.43,Main Dialogue,S,0000,0000,0000,,Medová slabá sladkosť \Nprináša omačke hlbku chuť,
+Dialogue: 0,0:09:54.43,0:09:58.53,Main Dialogue,S,0000,0000,0000,,a ocot prinača chuť spolu do ostrho pomeru.
+Dialogue: 0,0:09:58.53,0:10:02.99,Italics Dialogue,Hayama,0000,0000,0000,,Nie, samotná hĺbka a ostrosť \Nnemôže mať taku silnú chuť.
+Dialogue: 0,0:10:02.99,0:10:05.45,Italics Dialogue,Hayama,0000,0000,0000,,Ta vôňa... to je karamelizacia.
+Dialogue: 0,0:10:05.88,0:10:08.42,Main Dialogue,S,0000,0000,0000,,Med bol pomaly karamelizovany.
+Dialogue: 0,0:10:09.01,0:10:13.17,Main Dialogue,Sh,0000,0000,0000,,To je oxidácia. Vyskytuje sa\Nkeď zahrievate cukor, správne, Berte?
+Dialogue: 0,0:10:13.17,0:10:14.33,Main Dialogue,B,0000,0000,0000,,Ano, Cilla.
+Dialogue: 0,0:10:14.33,0:10:18.43,Main Dialogue,B,0000,0000,0000,,Je to dôležitá technika, ktorá je\Npoužívané v širokej škále jedál
+Dialogue: 0,0:10:18.43,0:10:19.93,Main Dialogue,B,0000,0000,0000,,od francúzskej kuchyne po sladkosti.
+Dialogue: 0,0:10:19.93,0:10:21.38,Main Dialogue,S,0000,0000,0000,,Zase spravne!
+Dialogue: 0,0:10:21.38,0:10:24.60,Main Dialogue,S,0000,0000,0000,,Prv pomaly karamelizujeme med,
+Dialogue: 0,0:10:24.60,0:10:27.68,Main Dialogue,S,0000,0000,0000,,potom ho zriednime s balcamic \Noctom do toho spravneho pomeru.
+Dialogue: 0,0:10:28.20,0:10:31.25,Main Dialogue,S,0000,0000,0000,,Pridame garlic a minced cibuľky \Nktore boly oddelene.
+Dialogue: 0,0:10:31.25,0:10:33.40,Main Dialogue,S,0000,0000,0000,,a vriaci karamel smiešame \Ns schisandra bobuľami.
+Dialogue: 0,0:10:33.40,0:10:37.82,Main Dialogue,S,0000,0000,0000,,Nakoniec som pridal medveďový \Nvývar a osolil ho
+Dialogue: 0,0:10:38.83,0:10:43.58,Main Dialogue,S,0000,0000,0000,,na vytvorenie omáčky, ktorá môže\Nzlepšiť chuť mletého medveďa!
+Dialogue: 0,0:10:43.58,0:10:45.04,Main Dialogue,Kuga,0000,0000,0000,,
+Dialogue: 0,0:10:45.04,0:10:46.18,Main Dialogue,D,0000,0000,0000,,Vidim.
+Dialogue: 0,0:10:46.18,0:10:48.99,Main Dialogue,D,0000,0000,0000,,Zlepšil medvedie mäso pomocou medu,
+Dialogue: 0,0:10:48.99,0:10:50.79,Main Dialogue,D,0000,0000,0000,,potom si použil balsamikový ocot\Na karamelizáciu
+Dialogue: 0,0:10:50.79,0:10:53.46,Main Dialogue,D,0000,0000,0000,,"odčítať" a "zdôrazniť."
+Dialogue: 0,0:10:54.92,0:10:58.32,Flashback Dialogue,Hayama,0000,0000,0000,,Inými slovami, podarilo sa mi\Nspojiť dve teoreticky protiklady -
+Dialogue: 0,0:10:58.32,0:11:02.39,Flashback Dialogue,Hayama,0000,0000,0000,,odčítanie arómy a jeho dôraz\Nv spojení jedneho pokrmu.
+Dialogue: 0,0:11:03.53,0:11:08.51,Main Dialogue,S,0000,0000,0000,,Prepač, ale rozhosol som sa \Npoužiť tieto zasady ako ty vo finale.
+Dialogue: 0,0:11:09.85,0:11:13.86,Main Dialogue,Kuga,0000,0000,0000,,On naozaj nemože prestať keď ide o zapas.
+Dialogue: 0,0:11:13.86,0:11:17.07,Main Dialogue,Kuga,0000,0000,0000,,To sa mi na nom pači.
+Dialogue: 0,0:11:17.82,0:11:22.53,Main Dialogue,S,0000,0000,0000,,Hayama Akira tvoj pečeni-kuraci medveď \Nbol važne kvalitni a elegantny pokrm.
+Dialogue: 0,0:11:22.90,0:11:26.66,Main Dialogue,S,0000,0000,0000,,Samotné vyprážané mäso bolo\Nnadradene.
+Dialogue: 0,0:11:26.66,0:11:30.91,Main Dialogue,S,0000,0000,0000,,Ak by som však mal súdiť\Nomáčka z vlastných dôvodov,
+Dialogue: 0,0:11:30.91,0:11:36.00,Main Dialogue,S,0000,0000,0000,,Yukihira Soma vyhral!
+Dialogue: 0,0:11:38.21,0:11:39.21,Main Dialogue,Chinese RS,0000,0000,0000,,Dostal ho!
+Dialogue: 0,0:11:39.21,0:11:40.97,Main Dialogue,Kuga,0000,0000,0000,,Ale kto je konečnim vytazom?!
+Dialogue: 0,0:11:40.97,0:11:41.59,Main Dialogue,D,0000,0000,0000,,Dobre teda!
+Dialogue: 0,0:11:41.59,0:11:43.80,Main Dialogue,D,0000,0000,0000,,Možme začať hodnotiť!
+Dialogue: 0,0:11:43.80,0:11:45.51,Main Dialogue,D,0000,0000,0000,,Nakiri Soue-dono,
+Dialogue: 0,0:11:45.51,0:11:46.72,Main Dialogue,D,0000,0000,0000,,Cilla-dono,
+Dialogue: 0,0:11:46.72,0:11:47.93,Main Dialogue,D,0000,0000,0000,,Berta-dono—
+Dialogue: 0,0:11:48.46,0:11:50.64,Main Dialogue,D,0000,0000,0000,,Prosim ukažte svoje hlasy!
+Dialogue: 0,0:11:51.35,0:11:54.94,Main Dialogue,D,0000,0000,0000,,Ak su mäso a omačka posudzovane \Nspolu ako celok
+Dialogue: 0,0:11:55.45,0:11:59.65,Main Dialogue,D,0000,0000,0000,,ktoré pokrm dosiahlo lepší úspech\Nv prezentácii chutí medveďa?
+Dialogue: 0,0:12:02.49,0:12:03.32,Main Dialogue,Sh,0000,0000,0000,,Som rozhodnuta!
+Dialogue: 0,0:12:05.14,0:12:05.99,Main Dialogue,B,0000,0000,0000,,Ja tiež!
+Dialogue: 0,0:12:07.46,0:12:08.16,Main Dialogue,BSh,0000,0000,0000,,Tento!
+Dialogue: 0,0:12:12.06,0:12:12.79,Main Dialogue,Chinese RS,0000,0000,0000,,Nerozhodne!
+Dialogue: 0,0:12:12.79,0:12:14.74,Main Dialogue,Chinese RS,0000,0000,0000,,Znamená to, že ne sú rovnaké?
+Dialogue: 0,0:12:14.74,0:12:19.25,Main Dialogue,Chinese RS,0000,0000,0000,,Konečni hlas bude mať, Nakiri Soue-dono?
+Dialogue: 0,0:12:19.66,0:12:21.21,Italics Dialogue,D,0000,0000,0000,,Dokonalý umami!
+Dialogue: 0,0:12:21.64,0:12:23.64,Italics Dialogue,D,0000,0000,0000,,Nedobitna pevnosť na jednej strane,
+Dialogue: 0,0:12:23.64,0:12:26.97,Italics Dialogue,D,0000,0000,0000,,a obliehací stroj, ktorý sa zameriava na \Nchuť na druhej strane!
+Dialogue: 0,0:12:27.31,0:12:29.93,Italics Dialogue,D,0000,0000,0000,,Ktory si vyberete Nakiri Soue-dono?
+Dialogue: 0,0:12:33.47,0:12:37.15,Italics Dialogue,H,0000,0000,0000,,Moj smaženi-kuraci medveď nema žiadne chyby
+Dialogue: 0,0:12:37.61,0:12:39.11,Italics Dialogue,H,0000,0000,0000,,Ale ako sa mu to podarilo zvladnuť.
+Dialogue: 0,0:12:39.11,0:12:40.57,Italics Dialogue,H,0000,0000,0000,,Yukihira...
+Dialogue: 0,0:12:41.78,0:12:43.74,Italics Dialogue,H,0000,0000,0000,,Tvoj pohľad.
+Dialogue: 0,0:12:43.74,0:12:46.11,Italics Dialogue,H,0000,0000,0000,,Nemožem prehrať.
+Dialogue: 0,0:12:46.11,0:12:47.58,Italics Dialogue,H,0000,0000,0000,,Proste nemožem
+Dialogue: 0,0:12:49.01,0:12:52.33,Main Dialogue,Soe,0000,0000,0000,,V tomto zapase mate obydvaja \Npribližne rovnaku chuť pokrmu.
+Dialogue: 0,0:12:52.89,0:12:55.79,Main Dialogue,Soe,0000,0000,0000,,To je vidno u Berty a \NCilly s odlišnim hlasovanim.
+Dialogue: 0,0:12:56.15,0:12:58.74,Main Dialogue,Soe,0000,0000,0000,,Zakladny faktor ktory rozhodne o vysledku,
+Dialogue: 0,0:12:58.74,0:13:01.51,Main Dialogue,Soe,0000,0000,0000,,je posadnuť človeka tymto pokrmom.
+Dialogue: 0,0:13:01.97,0:13:07.43,Main Dialogue,Soe,0000,0000,0000,,Yukihira Soma, nepoužil si len\Nmed v omáčke, správne?
+Dialogue: 0,0:13:08.18,0:13:12.89,Italics Dialogue,H,0000,0000,0000,,Samozrejme, slabé tanínové \Ntóny tejto medovej vône sú od-
+Dialogue: 0,0:13:12.89,0:13:15.10,Main Dialogue,S,0000,0000,0000,,Som rád, že ste si všimli!
+Dialogue: 0,0:13:15.10,0:13:17.35,Main Dialogue,S,0000,0000,0000,,Použil som med z korkového stromu Amur!
+Dialogue: 0,0:13:17.35,0:13:20.59,Main Dialogue,Sh,0000,0000,0000,,Med od člena rodiny Rutaceae,
+Dialogue: 0,0:13:20.59,0:13:22.94,Main Dialogue,Sh,0000,0000,0000,,rovnaká rodina ako oranžová mandarinka ...
+Dialogue: 0,0:13:23.26,0:13:25.31,Main Dialogue,B,0000,0000,0000,,Áno, je známe, že má ľahkú sladkosť
+Dialogue: 0,0:13:25.31,0:13:28.28,Main Dialogue,B,0000,0000,0000,,a slabo horká pachuť.
+Dialogue: 0,0:13:28.61,0:13:32.26,Main Dialogue,Soe,0000,0000,0000,,Ostatné druhy medu by mohli dopĺňať
+Dialogue: 0,0:13:32.26,0:13:34.74,Main Dialogue,Soe,0000,0000,0000,,mäso s bohatstvom a sladkosťou,
+Dialogue: 0,0:13:34.74,0:13:39.46,Main Dialogue,Soe,0000,0000,0000,,ale mohlo to viesť k ťažkému chuťovému profilu
+Dialogue: 0,0:13:39.46,0:13:41.92,Main Dialogue,Soe,0000,0000,0000,,chuť jednoducho zosilní z mletého mäsa.
+Dialogue: 0,0:13:41.92,0:13:44.38,Main Dialogue,Soe,0000,0000,0000,,Ale keď sa použíje med z\Nkorkového stromu Amur ...
+Dialogue: 0,0:13:44.90,0:13:47.85,Main Dialogue,Soe,0000,0000,0000,,Slabá horká a tanínová pachuť
+Dialogue: 0,0:13:47.85,0:13:50.27,Main Dialogue,Soe,0000,0000,0000,,je vynikajúce zhoda s medveďmi,
+Dialogue: 0,0:13:50.27,0:13:51.85,Main Dialogue,Soe,0000,0000,0000,,je to takmer zázračné!
+Dialogue: 0,0:13:52.22,0:13:56.39,Main Dialogue,Soe,0000,0000,0000,,Yukihira Soma neprehliadol potenciálnu \Nnevýhody u používania medu
+Dialogue: 0,0:13:56.39,0:13:58.98,Main Dialogue,Soe,0000,0000,0000,,a sledoval lepšiu chuť v\N oveľa väčšom rozsahu.
+Dialogue: 0,0:13:58.98,0:14:02.38,Main Dialogue,Sh,0000,0000,0000,,Ale ako prišiel s touto kombináciou?
+Dialogue: 0,0:14:02.38,0:14:06.40,Main Dialogue,B,0000,0000,0000,,Áno, je ťažké uveriť, že bol náhodne \Ninšpirovaný pri použiti tohto medu.
+Dialogue: 0,0:14:07.82,0:14:11.15,Main Dialogue,Kuga,0000,0000,0000,,Urobyl to aj na Mesiačnom festivale.
+Dialogue: 0,0:14:11.15,0:14:13.90,Main Dialogue,Kuga,0000,0000,0000,,Musím priznať, že nikdy\Nneprestane, kým nenájdete
+Dialogue: 0,0:14:13.90,0:14:15.95,Main Dialogue,Kuga,0000,0000,0000,,kombinaciu, s ktorou je\N spokojní, Yukihira-chin.
+Dialogue: 0,0:14:16.59,0:14:18.69,Flashback Dialogue,S,0000,0000,0000,,Ak nájdete niečo, čo by \Nmohlo fungovať ako ingrediencia,
+Dialogue: 0,0:14:18.69,0:14:20.08,Flashback Dialogue,S,0000,0000,0000,,prosím, dajte mi vedieť hneď!
+Dialogue: 0,0:14:20.49,0:14:24.09,Flashback Dialogue,S,0000,0000,0000,,Musime najsť veľa ingrediencii, \Nešte pred západom slnka!
+Dialogue: 0,0:14:24.09,0:14:25.59,Flashback Dialogue,Chinese RS,0000,0000,0000,,Yukihira-dono!
+Dialogue: 0,0:14:25.59,0:14:29.34,Flashback Dialogue,Chinese RS,0000,0000,0000,,Našli sme žalude a kiwi bobule!
+Dialogue: 0,0:14:29.34,0:14:32.72,Flashback Dialogue,Chinese RS,0000,0000,0000,,Nazbierali sme smrekové listy Yezo!
+Dialogue: 0,0:14:32.72,0:14:33.78,Flashback Dialogue,S,0000,0000,0000,,Vyborne!
+Dialogue: 0,0:14:33.78,0:14:34.56,Flashback Dialogue,S,0000,0000,0000,,DAkujem!
+Dialogue: 0,0:14:35.03,0:14:37.32,Flashback Dialogue,S,0000,0000,0000,,Dobre, presuňme sa dalej na hrebeň!
+Dialogue: 0,0:14:37.32,0:14:37.89,Flashback Dialogue,Chinese RS,0000,0000,0000,,
+Dialogue: 0,0:14:38.30,0:14:38.86,Flashback Dialogue,S,0000,0000,0000,,Dobre!
+Dialogue: 0,0:14:38.86,0:14:41.09,Flashback Dialogue,S,0000,0000,0000,,Poďme do potoka!
+Dialogue: 0,0:14:41.09,0:14:41.61,Flashback Dialogue,Chinese RS,0000,0000,0000,,
+Dialogue: 0,0:14:42.27,0:14:44.89,Flashback Italics Dialogue,S,0000,0000,0000,,Pojdem tak dlho, ako budeme môcť
+Dialogue: 0,0:14:44.89,0:14:46.63,Flashback Italics Dialogue,S,0000,0000,0000,,najdem čo najviac prisad.
+Dialogue: 0,0:14:46.63,0:14:48.86,Flashback Italics Dialogue,S,0000,0000,0000,,Potom vyskúšam všetko v kuchyni!
+Dialogue: 0,0:14:48.86,0:14:53.66,Flashback Italics Dialogue,S,0000,0000,0000,,Budem skúšať desiatky a stovky, dokonca tisíce kombinácií!
+Dialogue: 0,0:14:54.00,0:14:56.89,Flashback Dialogue,S,0000,0000,0000,,Tak zajtra ideme zase do hôr.
+Dialogue: 0,0:14:56.89,0:14:57.96,Flashback Dialogue,S,0000,0000,0000,,Dakujem za pomoc.
+Dialogue: 0,0:14:57.96,0:14:59.25,Flashback Dialogue,Chinese RS,0000,0000,0000,,Zase?!
+Dialogue: 0,0:14:59.25,0:15:03.01,Flashback Dialogue,Kuga,0000,0000,0000,,Členovia Chinese RS su dobre vytrnovany.
+Dialogue: 0,0:15:03.01,0:15:05.90,Flashback Dialogue,Kuga,0000,0000,0000,,Môžete ich zneužiť, pokiaľ ich nezabiješ.
+Dialogue: 0,0:15:05.90,0:15:07.26,Flashback Dialogue,Chinese RS,0000,0000,0000,,Šefe!
+Dialogue: 0,0:15:07.26,0:15:10.03,Main Dialogue,S,0000,0000,0000,,Tak sme sa práve porozhliadly \Npo celom mieste
+Dialogue: 0,0:15:10.03,0:15:12.51,Main Dialogue,S,0000,0000,0000,,a nakoniec sme našiel med ako možnosť.
+Dialogue: 0,0:15:12.85,0:15:16.22,Main Dialogue,S,0000,0000,0000,,Ale existuje veľa druhov medu,
+Dialogue: 0,0:15:16.72,0:15:19.31,Main Dialogue,S,0000,0000,0000,,takže trvalo trochu dlhšie
+Dialogue: 0,0:15:19.31,0:15:22.09,Main Dialogue,S,0000,0000,0000,,až som našiel korkovy med Amur.
+Dialogue: 0,0:15:23.77,0:15:26.17,Main Dialogue,Soe,0000,0000,0000,,To čo leží na samotnom základe tohto jedla
+Dialogue: 0,0:15:26.17,0:15:29.99,Main Dialogue,Soe,0000,0000,0000,,nie je nič iné ako nekonečná zvedavosť \Nšéfkuchára a posadnutosť chuťou!
+Dialogue: 0,0:15:29.99,0:15:33.45,Main Dialogue,Soe,0000,0000,0000,,Tam, vidím kuchára ako jednotliveca!
+Dialogue: 0,0:15:35.16,0:15:36.37,Main Dialogue,H,0000,0000,0000,,Čoze?!
+Dialogue: 0,0:15:36.37,0:15:38.12,Flashback Dialogue,Sen,0000,0000,0000,,Rozhodujúcim faktorom
+Dialogue: 0,0:15:38.12,0:15:41.08,Flashback Dialogue,Sen,0000,0000,0000,,je do akej miery bol pokrm \Nodrazom šéfkuchára ako jednotlivca.
+Dialogue: 0,0:15:41.08,0:15:43.14,Flashback Dialogue,Sen,0000,0000,0000,,Ten, kto si zaslúži víťazstvo
+Dialogue: 0,0:15:43.14,0:15:46.44,Flashback Dialogue,Sen,0000,0000,0000,,je šéfkuchár, ktorý najlepšie \Nsledoval vlastnú varenie!
+Dialogue: 0,0:15:46.44,0:15:50.63,Flashback Dialogue,Sen,0000,0000,0000,,Šéfkuchár, ktorý sa skutočne snažil \Nukazať, ako by malo vyzerať varenie!
+Dialogue: 0,0:15:50.63,0:15:51.72,Main Dialogue,H,0000,0000,0000,,Nemožne!
+Dialogue: 0,0:15:51.72,0:15:53.97,Main Dialogue,H,0000,0000,0000,,Ako môže dosiahnuť mieru \Nsofistikovanosti mojich jedál -
+Dialogue: 0,0:15:53.97,0:15:55.94,Main Dialogue,D,0000,0000,0000,,Naozaj tomu veríš?
+Dialogue: 0,0:15:57.31,0:15:58.30,Main Dialogue,H,0000,0000,0000,,Chef Dojima...
+Dialogue: 0,0:15:58.30,0:16:01.94,Main Dialogue,D,0000,0000,0000,,Takže hovoriš, že si sa snažil dosiahnuť skutočné \Ngurmánske jedlá podľa tvojich najlepších schopností?
+Dialogue: 0,0:16:01.94,0:16:03.80,Main Dialogue,H,0000,0000,0000,,Samozrejme.
+Dialogue: 0,0:16:03.80,0:16:06.42,Main Dialogue,H,0000,0000,0000,,Vytvoril som úžasnú a dokonalú rovnováhu -
+Dialogue: 0,0:16:06.42,0:16:07.89,Main Dialogue,D,0000,0000,0000,,Všetko sam,
+Dialogue: 0,0:16:07.89,0:16:10.24,Main Dialogue,D,0000,0000,0000,,bez toho, aby si vedel, \Npre koho si varenil?
+Dialogue: 0,0:16:12.07,0:16:13.03,Flashback Dialogue,Jun,0000,0000,0000,,Wow.
+Dialogue: 0,0:16:13.03,0:16:14.98,Flashback Dialogue,Jun,0000,0000,0000,,Užasne, Hayama-kun.
+Dialogue: 0,0:16:14.98,0:16:16.98,Flashback Dialogue,Jun,0000,0000,0000,,Má taký bohatý zápach.
+Dialogue: 0,0:16:16.98,0:16:18.41,Flashback Dialogue,H,0000,0000,0000,,To samozrejme nie je nič.
+Dialogue: 0,0:16:19.45,0:16:22.16,Flashback Dialogue,H,0000,0000,0000,,Budem najlepší študent \Nv spoločnosti Totsuki.
+Dialogue: 0,0:16:22.53,0:16:24.12,Flashback Dialogue,J,0000,0000,0000,,Yup, yup, yup.
+Dialogue: 0,0:16:24.89,0:16:25.58,Flashback Dialogue,H,0000,0000,0000,,Dobre.
+Dialogue: 0,0:16:25.58,0:16:27.31,Flashback Dialogue,H,0000,0000,0000,,Perfektne.
+Dialogue: 0,0:16:27.31,0:16:30.74,Flashback Dialogue,H,0000,0000,0000,,Mal by som použiť hrubšie \Nbrúsenie korenia v zmesi Cajun
+Dialogue: 0,0:16:30.74,0:16:33.55,Flashback Dialogue,H,0000,0000,0000,,mal by som nechať chuť vyniknúť viac?
+Dialogue: 0,0:16:33.90,0:16:35.76,Flashback Dialogue,H,0000,0000,0000,,Čo si mysliš, Jun—
+Dialogue: 0,0:16:43.19,0:16:45.10,Main Dialogue,D,0000,0000,0000,,Nemusím ani ochutnať pokrm, aby som to vedel
+Dialogue: 0,0:16:45.77,0:16:48.44,Main Dialogue,D,0000,0000,0000,,že toto jedlo je jasne odlišné od toho, čo si urobil
+Dialogue: 0,0:16:48.44,0:16:50.65,Main Dialogue,D,0000,0000,0000,,na jesenných voľbách.
+Dialogue: 0,0:16:51.97,0:16:55.25,Main Dialogue,D,0000,0000,0000,,Hayama Akira, môžeš \Npovedať s úplnou úprimnosťou
+Dialogue: 0,0:16:55.25,0:16:58.12,Main Dialogue,D,0000,0000,0000,,že si sa priblížili k tomuto \Njedlu s vášňou
+Dialogue: 0,0:16:58.12,0:17:00.58,Main Dialogue,D,0000,0000,0000,,a urobil všetko, čo si \Nmohli počas testovacieho procesu?
+Dialogue: 0,0:17:01.06,0:17:05.77,Main Dialogue,D,0000,0000,0000,,Možno ti chýbali horlivú túžbu, aby ti \Nniekomu povedali, že jedlo je vynikajúce?
+Dialogue: 0,0:17:10.01,0:17:15.18,Main Dialogue,H,0000,0000,0000,,Tak ako Yukihira ... \NAko si dostal tak ďaleko ako on?
+Dialogue: 0,0:17:15.98,0:17:18.55,Main Dialogue,H,0000,0000,0000,,Odkiaľ pochádza tvoja motivácia?
+Dialogue: 0,0:17:18.96,0:17:22.32,Main Dialogue,H,0000,0000,0000,,Bol si naozaj taký chamtivý kvôli jedlu
+Dialogue: 0,0:17:22.32,0:17:24.31,Main Dialogue,H,0000,0000,0000,,chceli ste prežiť skúšky na postup?
+Dialogue: 0,0:17:24.81,0:17:26.44,Main Dialogue,S,0000,0000,0000,,Sakra, o čom to hovoríš, Hayama?
+Dialogue: 0,0:17:26.77,0:17:28.65,Main Dialogue,S,0000,0000,0000,,Bol si moj oponent! Všetko kvôli teba!
+Dialogue: 0,0:17:28.65,0:17:31.07,Main Dialogue,S,0000,0000,0000,,Je to kvôli tomu, chcem aby \Nsi ochutnal moj pokrm, samozrejme!
+Dialogue: 0,0:17:31.41,0:17:33.82,Main Dialogue,S,0000,0000,0000,,A aby si povedal, že je to vynikajúce!
+Dialogue: 0,0:17:33.82,0:17:35.53,Main Dialogue,S,0000,0000,0000,,Chcem ťa rozdrviť!
+Dialogue: 0,0:17:36.13,0:17:39.16,Main Dialogue,S,0000,0000,0000,,Preto som pracoval tak tvrdo!
+Dialogue: 0,0:17:39.16,0:17:43.90,Main Dialogue,S,0000,0000,0000,,Takže nemôžem ťa vidieť!
+Dialogue: 0,0:17:47.86,0:17:50.00,Main Dialogue,S,0000,0000,0000,,Tu je jeden horúci.
+Dialogue: 0,0:17:50.31,0:17:52.58,Main Dialogue,S,0000,0000,0000,,S chuťou do toho, Hayama!
+Dialogue: 0,0:18:14.10,0:18:15.98,Italics Dialogue,H,0000,0000,0000,,Teraz to vidim.
+Dialogue: 0,0:18:15.98,0:18:17.11,Italics Dialogue,H,0000,0000,0000,,Yukihirovu je vášeň pre tento pokrm -
+Dialogue: 0,0:18:17.82,0:18:22.08,Italics Dialogue,H,0000,0000,0000,,všetky jeho skúšky a \Nkombinacie - ma zaplnju.
+Dialogue: 0,0:18:22.73,0:18:25.25,Italics Dialogue,H,0000,0000,0000,,Držal ma presne v jeho \Npamiatkach, aj keď som sa zavrel sám,
+Dialogue: 0,0:18:25.25,0:18:28.71,Italics Dialogue,H,0000,0000,0000,,a len myslel na to, \Nako zlepšiť tento pokrm.
+Dialogue: 0,0:18:29.15,0:18:31.88,Italics Dialogue,H,0000,0000,0000,,Nebol som to ja, kto \Nstratil zrak, prečo som variil
+Dialogue: 0,0:18:32.54,0:18:37.89,Italics Dialogue,H,0000,0000,0000,,a mohol by sa nosiť iba kosti.
+Dialogue: 0,0:18:39.95,0:18:40.93,Main Dialogue,H,0000,0000,0000,,Jun?
+Dialogue: 0,0:18:44.56,0:18:45.93,Main Dialogue,Jun,0000,0000,0000,,Oh, prepač.
+Dialogue: 0,0:18:45.93,0:18:46.71,Main Dialogue,Jun,0000,0000,0000,,Ubližila som ti?
+Dialogue: 0,0:18:46.71,0:18:48.12,Main Dialogue,Jun,0000,0000,0000,,Si v poriadku?
+Dialogue: 0,0:18:48.12,0:18:50.33,Main Dialogue,S,0000,0000,0000,,Prečo si tu, Shiomi-senpai?
+Dialogue: 0,0:18:50.33,0:18:51.69,Main Dialogue,D,0000,0000,0000,,Pozval som ju.
+Dialogue: 0,0:18:52.07,0:18:54.19,Main Dialogue,D,0000,0000,0000,,Poznáme sa navzájom z našich polárnych nocľahárov polárnej hviezdy.
+Dialogue: 0,0:18:54.66,0:18:56.10,Main Dialogue,H,0000,0000,0000,,Bol to šok.
+Dialogue: 0,0:18:56.62,0:18:58.44,Main Dialogue,H,0000,0000,0000,,Jun už ma nikdy predtým nezasiahla.
+Dialogue: 0,0:18:59.53,0:19:01.66,Main Dialogue,J,0000,0000,0000,,Som tiež tvoj strážca,
+Dialogue: 0,0:19:01.66,0:19:03.16,Main Dialogue,J,0000,0000,0000,,tak si to myslim ako rodičovstvo.
+Dialogue: 0,0:19:03.77,0:19:08.30,Main Dialogue,J,0000,0000,0000,,Dobre, poviem vám moj záver\Npo premýšľaní o všetkom, čo sa stalo.
+Dialogue: 0,0:19:09.00,0:19:12.98,Main Dialogue,J,0000,0000,0000,,Už viac nepotrebujem vyskumny laboratorium.
+Dialogue: 0,0:19:13.49,0:19:16.65,Main Dialogue,J,0000,0000,0000,,Bolo niečo, čo som \Nchcela, aby si urobili viac
+Dialogue: 0,0:19:16.65,0:19:19.58,Main Dialogue,J,0000,0000,0000,,než získať vybavenie a rozpočet späť.
+Dialogue: 0,0:19:19.58,0:19:20.59,Main Dialogue,H,0000,0000,0000,,Čo?
+Dialogue: 0,0:19:21.13,0:19:23.87,Main Dialogue,Jun,0000,0000,0000,,To čo som naozaj chcela vidieť ...
+Dialogue: 0,0:19:24.31,0:19:29.67,Main Dialogue,Jun,0000,0000,0000,,že ta naozaj teší varenie
+Dialogue: 0,0:19:29.67,0:19:34.77,Main Dialogue,Jun,0000,0000,0000,,a venujete sa svojmu remeslu \Ns priateľmi svojho veku.
+Dialogue: 0,0:19:35.65,0:19:38.42,Main Dialogue,Jun,0000,0000,0000,,Si stále dieťa, Hayama-kun.
+Dialogue: 0,0:19:38.86,0:19:43.57,Main Dialogue,Jun,0000,0000,0000,,Nemusíte sa cítiť zodpovední \Nza zrušenie výskumnej skupiny.
+Dialogue: 0,0:19:49.53,0:19:52.93,Main Dialogue,H,0000,0000,0000,,Čo? Považuješ ma ako dieťa, Jun.
+Dialogue: 0,0:19:52.93,0:19:54.63,Main Dialogue,Jun,0000,0000,0000,,Nehovor takto somnou!
+Dialogue: 0,0:19:55.01,0:19:58.88,Main Dialogue,S,0000,0000,0000,,Hayama, mna nezaujma čo roby centrala,
+Dialogue: 0,0:19:59.35,0:20:02.13,Main Dialogue,S,0000,0000,0000,,ale stále chcem variť s tebou.
+Dialogue: 0,0:20:02.73,0:20:05.76,Main Dialogue,S,0000,0000,0000,,takže ta nenecham vzdať sa varenia.
+Dialogue: 0,0:20:06.79,0:20:09.06,Italics Dialogue,H,0000,0000,0000,,Správne. Aj ...
+Dialogue: 0,0:20:11.29,0:20:13.15,Italics Dialogue,H,0000,0000,0000,,aj ja chcem byť tu ...
+Dialogue: 0,0:20:13.15,0:20:14.69,Italics Dialogue,H,0000,0000,0000,,so všetikmy ...
+Dialogue: 0,0:20:15.34,0:20:18.44,Italics Dialogue,H,0000,0000,0000,,V skutočnosti som rad.
+Dialogue: 0,0:20:20.41,0:20:22.59,Italics Dialogue,H,0000,0000,0000,,To si budem pamätať.
+Dialogue: 0,0:20:23.40,0:20:26.85,Italics Dialogue,H,0000,0000,0000,,Je to ako ... posolstvo od Boha.
+Dialogue: 0,0:20:32.87,0:20:34.42,Italics Dialogue,S,0000,0000,0000,,Konečne.
+Dialogue: 0,0:20:35.29,0:20:36.29,Italics Dialogue,S,0000,0000,0000,,Konečne.
+Dialogue: 0,0:20:37.21,0:20:38.92,Italics Dialogue,S,0000,0000,0000,,Nakoniec ti to došlo.
+Dialogue: 0,0:20:43.86,0:20:45.76,Main Dialogue,Soe,0000,0000,0000,,S dvomi hlasmi,
+Dialogue: 0,0:20:45.76,0:20:47.55,Main Dialogue,Soe,0000,0000,0000,,vyhrava Yukihira Soma!
+Dialogue: 0,0:20:50.06,0:20:51.52,Main Dialogue,S,0000,0000,0000,,Som rád, že ste si to užili!
+Dialogue: 0,0:22:23.81,0:22:27.29,Main Dialogue,J,0000,0000,0000,,Teraz musime zavolať domou, myslím.
+Dialogue: 0,0:22:27.29,0:22:28.93,Main Dialogue,H,0000,0000,0000,,Prečo sa smeješ?
+Dialogue: 0,0:22:28.93,0:22:31.12,Main Dialogue,S,0000,0000,0000,,Oh, o tom.
+Dialogue: 0,0:22:31.12,0:22:33.45,Main Dialogue,S,0000,0000,0000,,Prečo sa nepridatei do Polar Star?
+Dialogue: 0,0:22:33.91,0:22:37.16,Main Dialogue,S,0000,0000,0000,,Budete mať aspoň kde variť!
+Dialogue: 0,0:22:37.51,0:22:40.11,Main Dialogue,S,0000,0000,0000,,Šiomi-senpai, žila si tam.
+Dialogue: 0,0:22:40.11,0:22:41.79,Main Dialogue,S,0000,0000,0000,,Máme veľa prázdnych miestností.
+Dialogue: 0,0:22:41.79,0:22:42.85,Main Dialogue,S,0000,0000,0000,,Spravne?
+Dialogue: 0,0:22:42.85,0:22:43.65,Main Dialogue,S,0000,0000,0000,,Povecte "ano"!
+Dialogue: 0,0:22:43.65,0:22:45.13,Main Dialogue,J,0000,0000,0000,,Yukihira-kun...
+Dialogue: 0,0:22:45.53,0:22:47.27,Main Dialogue,H,0000,0000,0000,,Dakujem, Yukihira.
+Dialogue: 0,0:22:47.85,0:22:49.84,Main Dialogue,H,0000,0000,0000,,Naozaj oceňujem túto myšlienku.
+Dialogue: 0,0:22:51.07,0:22:52.64,Main Dialogue,E,0000,0000,0000,,Yukihira-kun!
+Dialogue: 0,0:22:53.07,0:22:54.55,Main Dialogue,S,0000,0000,0000,,Hej, Nakiri.
+Dialogue: 0,0:22:55.43,0:22:56.55,Main Dialogue,E,0000,0000,0000,,Ako to ide?
+Dialogue: 0,0:22:56.98,0:23:00.60,Main Dialogue,S,0000,0000,0000,,Oh, podarilo sa mi vykúpiť.
+Dialogue: 0,0:23:00.94,0:23:03.47,Main Dialogue,E,0000,0000,0000,,Vyhral si?
+Dialogue: 0,0:23:03.47,0:23:05.02,Main Dialogue,S,0000,0000,0000,,Spustili si tu celú cestu?
+Dialogue: 0,0:23:05.02,0:23:07.33,Main Dialogue,S,0000,0000,0000,,Maš neupravene vlasy.
+Dialogue: 0,0:23:08.17,0:23:10.44,Main Dialogue,E,0000,0000,0000,,Samozrejme!
+Dialogue: 0,0:23:10.44,0:23:12.87,Main Dialogue,Aida,0000,0000,0000,,Ach, tu ste.
+Dialogue: 0,0:23:12.91,0:23:16.33,sign_33396_399_Aide_to_Nakiri_A,Sign 2314,0000,0000,0000,,Aide to Nakiri Azami \N Aida Sean
+Dialogue: 0,0:23:13.59,0:23:16.33,Main Dialogue Top,Aida,0000,0000,0000,,Som Aida, pomocník Azamásovej.
+Dialogue: 0,0:23:16.33,0:23:18.22,Main Dialogue,Aida,0000,0000,0000,,Ospravedlnte ma.
+Dialogue: 0,0:23:19.90,0:23:22.45,Main Dialogue,Aida,0000,0000,0000,,Hayama Akira, rozumieš \Ntomu, čo sa deje, správne?
+Dialogue: 0,0:23:22.45,0:23:22.79,Main Dialogue,H,0000,0000,0000,,Ano.
+Dialogue: 0,0:23:23.25,0:23:27.38,Main Dialogue,Aida,0000,0000,0000,,Vzhľadom na najaktuálnejšie \Nvýsledky ste vylúčení.
+Dialogue: 0,0:23:29.81,0:23:32.77,Main Dialogue,Aida,0000,0000,0000,,Dostali sme správy zo skúšok, \Nktoré sa vyskytli aj na iných trasách.
+Dialogue: 0,0:23:33.61,0:23:36.93,Italics Dialogue,Hisako,0000,0000,0000,,Erina-sama... prepač!
+Dialogue: 0,0:23:41.83,0:23:43.56,Main Dialogue,Ryo,0000,0000,0000,,Sakara!
+Dialogue: 0,0:23:57.24,0:24:00.39,Main Dialogue,Aida,0000,0000,0000,,Všetky vyššie uvedené boli vylúčené.
+Dialogue: 0,0:24:03.92,0:24:05.92,sign_30623_420_Totsuki,,0000,0000,0000,,Totsuki
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_410_Next_Episode__De,Sign 2407,0000,0000,0000,,Next Episode  {\fs16}Declaration of War
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_412_Food_Wars,,0000,0000,0000,,Food Wars
+Dialogue: 0,0:24:05.92,0:24:10.92,sign_34668_413_The_Third_Plate,,0000,0000,0000,,Treti štitok
+Dialogue: 0,0:24:07.63,0:24:10.03,Main Dialogue,M,0000,0000,0000,,Dobre, poďme na stanicu na sever!

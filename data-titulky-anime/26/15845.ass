@@ -1,0 +1,388 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: <untitled>
+Original Script: <unknown>
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 512
+PlayResY: 384
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Standard (12K),Arial,22,&H00C5C9ED,&H00000000,&H00111131,&H78000000,-1,-1,0,0,110,100,0,0,1,1.8,1.8,2,10,10,10,0
+Style: outro (12K),Arial,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,20,20,30,0
+Style: floating obj. (12K),Arial,22,&H00C5C9ED,&H00000000,&H00111131,&H84000000,-1,-1,0,0,110,100,0,0,1,2,1.8,2,20,20,20,0
+Style: ep-title (12K),Arial,20,&H00B14607,&H00000000,&H1EFFFFFF,&H78FFFFFF,-1,0,0,0,94,100,0,0,1,1.8,0,5,20,20,30,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:40.06,0:01:45.00,ep-title (12K),,0000,0000,0000,,{\1c&H1616C9&}{\fscx110}{\pos(256,103)}{\be1}Epizoda 41
+Dialogue: 0,0:01:40.06,0:01:45.00,ep-title (12K),,0000,0000,0000,,{\be1}{\pos(195,160)}Bùh Moøí na Východì
+Dialogue: 0,0:01:40.06,0:01:45.00,ep-title (12K),,0000,0000,0000,,{\fs18\fscy87}{\be1}{\pos(340,220)}Mocný Oceán na Západì
+Dialogue: 0,0:01:40.06,0:01:45.00,ep-title (12K),,0000,0000,0000,,{\be1}{\pos(256,273)}Kapitola první
+Dialogue: 0,0:01:45.10,0:01:48.23,floating obj. (12K),,0000,0000,0000,,{\fs23\i0\3c&H000000&\bord0\shad0\1c&H202633&}{\fad(0,500)}En
+Dialogue: 0,0:01:51.77,0:01:54.94,Standard (12K),,0000,0000,0000,,V tom hrobì odpoèívá mé druhé já...
+Dialogue: 0,0:01:56.08,0:01:58.38,Standard (12K),,0000,0000,0000,,Jmenoval se Acuju...
+Dialogue: 0,0:01:59.82,0:02:02.81,Standard (12K),,0000,0000,0000,,A jaký ten Acuju byl?
+Dialogue: 0,0:02:03.89,0:02:05.25,Standard (12K),,0000,0000,0000,,Slyšel jsem o nìm...
+Dialogue: 0,0:02:05.32,0:02:07.22,Standard (12K),,0000,0000,0000,,Byl to intendant provincie Gen.
+Dialogue: 0,0:02:07.36,0:02:11.42,Standard (12K),,0000,0000,0000,,Manipuloval se svým otcem, správcem Gen, a de facto vládl sám.
+Dialogue: 0,0:02:11.56,0:02:14.19,Standard (12K),,0000,0000,0000,,Nakonec se pokusil uchvátit trùn.
+Dialogue: 0,0:02:16.70,0:02:20.10,Standard (12K),,0000,0000,0000,,Acuju by s tebou nejspíš nesouhlasil.
+Dialogue: 0,0:02:20.30,0:02:23.27,Standard (12K),,0000,0000,0000,,Jak to tedy bylo?
+Dialogue: 0,0:02:26.68,0:02:29.34,Standard (12K),,0000,0000,0000,,Já ho zabil.
+Dialogue: 0,0:02:33.65,0:02:37.24,Standard (12K),,0000,0000,0000,,Stalo se to už dávno...
+Dialogue: 0,0:02:40.29,0:02:42.26,floating obj. (12K),,0000,0000,0000,,{\fs23\i0\3c&H000000&\bord0\shad0\1c&H202633&}Kankjú, provincie Sei
+Dialogue: 0,0:02:59.71,0:03:00.97,Standard (12K),,0000,0000,0000,,Itane...
+Dialogue: 0,0:03:02.41,0:03:03.60,Standard (12K),,0000,0000,0000,,Pøíšerné!
+Dialogue: 0,0:03:06.08,0:03:09.98,Standard (12K),,0000,0000,0000,,V nevìstinci prohrál všechny peníze a aby splatil dluh,
+Dialogue: 0,0:03:10.15,0:03:12.48,Standard (12K),,0000,0000,0000,,musel zametat zahradu...
+Dialogue: 0,0:03:13.05,0:03:16.22,Standard (12K),,0000,0000,0000,,V životì jsem nebyl tak ponížen!
+Dialogue: 0,0:03:17.23,0:03:20.02,Standard (12K),,0000,0000,0000,,To je hrozné. Nemám slov.
+Dialogue: 0,0:03:20.26,0:03:21.99,Standard (12K),,0000,0000,0000,,Ty radši mlè, Seišó!
+Dialogue: 0,0:03:22.36,0:03:24.09,Standard (12K),,0000,0000,0000,,Za všechno mùže Mósen, tvùj podøízený.
+Dialogue: 0,0:03:24.23,0:03:26.00,Standard (12K),,0000,0000,0000,,Neházej vinu na Mósena.
+Dialogue: 0,0:03:26.60,0:03:28.40,Standard (12K),,0000,0000,0000,,Pøijímám plnou odpovìdnost.
+Dialogue: 0,0:03:28.87,0:03:30.84,Standard (12K),,0000,0000,0000,,Jste na sebe hrdý?
+Dialogue: 0,0:03:32.91,0:03:34.24,Standard (12K),,0000,0000,0000,,Ani ne.
+Dialogue: 0,0:03:38.71,0:03:41.18,Standard (12K),,0000,0000,0000,,No dobrá, pouèil jsem se.
+Dialogue: 0,0:03:41.28,0:03:43.34,Standard (12K),,0000,0000,0000,,Odteï se budu zaobírat jen státními záležitostmi, ano?
+Dialogue: 0,0:03:44.55,0:03:46.18,Standard (12K),,0000,0000,0000,,Taiho, je to èásteènì i vaše vina!
+Dialogue: 0,0:03:46.86,0:03:49.09,Standard (12K),,0000,0000,0000,,Ale já tam o peníze nehrál.
+Dialogue: 0,0:03:49.26,0:03:52.09,Standard (12K),,0000,0000,0000,,Ale ani jste se neúèastnil porady.
+Dialogue: 0,0:03:52.56,0:03:54.93,Standard (12K),,0000,0000,0000,,Ulil ses stejnì jako já, takže to vyjde nastejno.
+Dialogue: 0,0:03:55.20,0:03:59.39,Standard (12K),,0000,0000,0000,,Ale neztrapnil jsem se tolik, jako ty...
+Dialogue: 0,0:04:02.77,0:04:05.47,Standard (12K),,0000,0000,0000,,Je k nevíøe, že takhle vedete království už 20 let...
+Dialogue: 0,0:04:06.54,0:04:07.67,Standard (12K),,0000,0000,0000,,Toto je Itan.
+Dialogue: 0,0:04:07.88,0:04:11.44,Standard (12K),,0000,0000,0000,,Jakmile bylo po korunovaci, položil pøede mne...
+Dialogue: 0,0:04:11.61,0:04:14.24,Standard (12K),,0000,0000,0000,,...výsledky sèítání lidu, aby mi ukázal...
+Dialogue: 0,0:04:14.78,0:04:20.24,Standard (12K),,0000,0000,0000,,...tolik lidí zemøelo, protože jsem s korunovací tak otálel.
+Dialogue: 0,0:04:20.52,0:04:22.89,Standard (12K),,0000,0000,0000,,Proto mu pøezdívám "Bezohledný".
+Dialogue: 0,0:04:23.76,0:04:27.89,Standard (12K),,0000,0000,0000,,Toto je Šukó. Pracoval pro ministra ceremoniálních záležitostí.
+Dialogue: 0,0:04:28.20,0:04:31.86,Standard (12K),,0000,0000,0000,,Když jsem tøi dny po korunovaci navštívil jeho ministerstvo...
+Dialogue: 0,0:04:32.03,0:04:35.26,Standard (12K),,0000,0000,0000,,...zeptal se mì: "Jak vám mám øíkat?"
+Dialogue: 0,0:04:35.44,0:04:38.20,Standard (12K),,0000,0000,0000,,"Král Kó, který pøinese zemi blahobyt, nebo král Mecu, který ji znièí?"
+Dialogue: 0,0:04:38.34,0:04:40.31,Standard (12K),,0000,0000,0000,,Øíkám mu "Netaktní".
+Dialogue: 0,0:04:40.94,0:04:43.93,Standard (12K),,0000,0000,0000,,Toto je Seišó, bývalý generál královské armády.
+Dialogue: 0,0:04:44.08,0:04:46.88,Standard (12K),,0000,0000,0000,,Král Kjó ho zavøel do vìzení.
+Dialogue: 0,0:04:46.98,0:04:50.38,Standard (12K),,0000,0000,0000,,Po Kjóovì smrti ho ministøi chtìli pustit...
+Dialogue: 0,0:04:50.72,0:04:53.21,Standard (12K),,0000,0000,0000,,...ale odmítl odejít bez milosti od krále En.
+Dialogue: 0,0:04:53.32,0:04:56.98,Standard (12K),,0000,0000,0000,,Takže sedìl ve vìzení 50 let, než jsem se stal králem já.
+Dialogue: 0,0:04:57.13,0:04:59.62,Standard (12K),,0000,0000,0000,,Øíkám mu "Blázen".
+Dialogue: 0,0:05:00.76,0:05:03.86,Standard (12K),,0000,0000,0000,,Nìjakou dobu budu sekat dobrotu.
+Dialogue: 0,0:05:04.37,0:05:06.89,Standard (12K),,0000,0000,0000,,Na západì se dìje nìco podezøelého.
+Dialogue: 0,0:05:07.37,0:05:08.27,Standard (12K),,0000,0000,0000,,Na západì?
+Dialogue: 0,0:05:09.94,0:05:11.50,Standard (12K),,0000,0000,0000,,V provincii Gen.
+Dialogue: 0,0:05:11.61,0:05:12.73,Standard (12K),,0000,0000,0000,,Nìco se tam dìje.
+Dialogue: 0,0:05:13.27,0:05:14.17,Standard (12K),,0000,0000,0000,,Co tím myslíte?
+Dialogue: 0,0:05:14.58,0:05:17.74,Standard (12K),,0000,0000,0000,,Tamní vojáci chodí nìkolikrát mìsíènì...
+Dialogue: 0,0:05:17.88,0:05:20.40,Standard (12K),,0000,0000,0000,,...do heren a utrácejí ohromné sumy penìz.
+Dialogue: 0,0:05:20.58,0:05:25.11,Standard (12K),,0000,0000,0000,,Vejdou tam s prázdnýma rukama a vyjdou ven s velkým nákladem.
+Dialogue: 0,0:05:25.29,0:05:27.95,Standard (12K),,0000,0000,0000,,Kdyby to bylo jídlo, bylo by mi to jedno.
+Dialogue: 0,0:05:28.19,0:05:29.92,Standard (12K),,0000,0000,0000,,Ale jsou to zbranì...
+Dialogue: 0,0:05:30.66,0:05:33.25,Standard (12K),,0000,0000,0000,,Myslíte, že pøipravují vzpouru?
+Dialogue: 0,0:05:35.73,0:05:39.17,Standard (12K),,0000,0000,0000,,Od smrti krále Kjó se prý správce provincie Gen bojí...
+Dialogue: 0,0:05:39.30,0:05:42.43,Standard (12K),,0000,0000,0000,,...že se mu jeho lidé budou mstít.
+Dialogue: 0,0:05:42.60,0:05:45.90,Standard (12K),,0000,0000,0000,,Také se obává, že ho pošlete do vyhnanství, a nevychází ze svého paláce.
+Dialogue: 0,0:05:46.04,0:05:48.51,Standard (12K),,0000,0000,0000,,Jeho pravá ruka je Acuju.
+Dialogue: 0,0:05:49.08,0:05:52.51,Standard (12K),,0000,0000,0000,,Je to jeho syn a je velmi vychytralý.
+Dialogue: 0,0:05:52.88,0:05:54.64,Standard (12K),,0000,0000,0000,,Jak to víte?
+Dialogue: 0,0:05:55.35,0:05:56.84,Standard (12K),,0000,0000,0000,,Øíká se to ve mìstì.
+Dialogue: 0,0:05:56.99,0:06:00.94,Standard (12K),,0000,0000,0000,,Klepy nikdy neberte na lehkou váhu.
+Dialogue: 0,0:06:01.39,0:06:03.22,Standard (12K),,0000,0000,0000,,Ale Vaše Výsosti...
+Dialogue: 0,0:06:03.36,0:06:08.16,Standard (12K),,0000,0000,0000,,Vládnete království, nemìl byste poslouchat klepy.
+Dialogue: 0,0:06:11.63,0:06:13.07,Standard (12K),,0000,0000,0000,,Kam jdeš, Rokuto?
+Dialogue: 0,0:06:14.87,0:06:18.10,Standard (12K),,0000,0000,0000,,Nelíbí se mi, kam tahle debata míøí, takže jdu ven.
+Dialogue: 0,0:06:25.38,0:06:27.64,Standard (12K),,0000,0000,0000,,Je tu teï spousta zelenì.
+Dialogue: 0,0:06:28.35,0:06:31.08,Standard (12K),,0000,0000,0000,,Ale jestli zaène válka...
+Dialogue: 0,0:06:35.19,0:06:37.56,Standard (12K),,0000,0000,0000,,Bude to stejné, jako pøed 20 lety.
+Dialogue: 0,0:06:43.03,0:06:45.00,Standard (12K),,0000,0000,0000,,Ve válce lidé trpí.
+Dialogue: 0,0:06:45.77,0:06:47.50,Standard (12K),,0000,0000,0000,,Trpí nejen dospìlí...
+Dialogue: 0,0:06:48.74,0:06:50.43,Standard (12K),,0000,0000,0000,,...ale i jejich dìti.
+Dialogue: 0,0:07:00.01,0:07:01.50,Standard (12K),,0000,0000,0000,,Dìje se nìco?
+Dialogue: 0,0:07:01.82,0:07:04.61,Standard (12K),,0000,0000,0000,,Chlapec, kterého jsme potkali pøed 20 lety...
+Dialogue: 0,0:07:04.75,0:07:07.78,Standard (12K),,0000,0000,0000,,...by teï mìl být zhruba ve stejném vìku, jako tamten muž.
+Dialogue: 0,0:07:08.86,0:07:10.65,Standard (12K),,0000,0000,0000,,Asi ano.
+Dialogue: 0,0:07:10.99,0:07:14.19,Standard (12K),,0000,0000,0000,,My nestárneme. Na takové vìci se pak snadno zapomíná...
+Dialogue: 0,0:07:14.66,0:07:17.22,Standard (12K),,0000,0000,0000,,Jakpak se ti asi teï daøí...
+Dialogue: 0,0:07:17.97,0:07:19.43,Standard (12K),,0000,0000,0000,,Kójo...
+Dialogue: 0,0:07:37.65,0:07:39.09,Standard (12K),,0000,0000,0000,,Otoè se! Za ním!
+Dialogue: 0,0:07:39.19,0:07:40.98,Standard (12K),,0000,0000,0000,,Ale Taiho, to byl Jóma.
+Dialogue: 0,0:07:41.09,0:07:43.56,Standard (12K),,0000,0000,0000,,Já vím, proto musíme za ním.
+Dialogue: 0,0:07:43.96,0:07:47.72,Standard (12K),,0000,0000,0000,,Co dìlá èlovìk na zádech Jóma?
+Dialogue: 0,0:07:51.43,0:07:56.27,Standard (12K),,0000,0000,0000,,Takže tebe opustili rodièe, a vychoval tì ten Jóma?
+Dialogue: 0,0:07:56.60,0:07:57.66,Standard (12K),,0000,0000,0000,,Hm.
+Dialogue: 0,0:07:59.01,0:08:00.34,Standard (12K),,0000,0000,0000,,To je náhoda, co?
+Dialogue: 0,0:08:01.38,0:08:02.31,Standard (12K),,0000,0000,0000,,Ale nic.
+Dialogue: 0,0:08:02.61,0:08:04.13,Standard (12K),,0000,0000,0000,,Mimochodem, ten Jóma...
+Dialogue: 0,0:01:44.84,0:01:50.18,Standard (12K),,0000,0000,0000,,{\fs12\i0\3c&H000000&\bord0\shad0\1c&H202633&\pos(200,40)}Ókii znamená japonsky "velký". Ókiino tedy doslova znamená "ten, který je velký".
+Dialogue: 0,0:08:04.51,0:08:05.84,Standard (12K),,0000,0000,0000,,Ókiino.
+Dialogue: 0,0:08:06.78,0:08:09.58,Standard (12K),,0000,0000,0000,,A jí Ókiino lidi?
+Dialogue: 0,0:08:10.05,0:08:13.18,Standard (12K),,0000,0000,0000,,Jí. Kdyby ne, tak umøe hlady.
+Dialogue: 0,0:08:13.96,0:08:17.95,Standard (12K),,0000,0000,0000,,Øíkám mu, aby to nedìlal, ale neposlouchá mì.
+Dialogue: 0,0:08:18.59,0:08:24.16,Standard (12K),,0000,0000,0000,,Všichni se ho bojí, když útoèí na lidi nebo na zvíøata.
+Dialogue: 0,0:08:24.37,0:08:28.20,Standard (12K),,0000,0000,0000,,Proto ho všichni odhánìjí.
+Dialogue: 0,0:08:28.37,0:08:33.33,Standard (12K),,0000,0000,0000,,Nikdo ho nemá rád a obèas pøed ním prostì uteèou.
+Dialogue: 0,0:08:33.51,0:08:34.48,Standard (12K),,0000,0000,0000,,Nedivím se jim.
+Dialogue: 0,0:08:44.79,0:08:45.84,Standard (12K),,0000,0000,0000,,Už pùjdu.
+Dialogue: 0,0:08:50.59,0:08:53.29,Standard (12K),,0000,0000,0000,,Nechtìl bys žít ve mìstì?
+Dialogue: 0,0:08:54.10,0:08:55.49,Standard (12K),,0000,0000,0000,,Mohl by Ókiino taky?
+Dialogue: 0,0:08:55.70,0:08:58.89,Standard (12K),,0000,0000,0000,,Øekl bych, že asi ne...
+Dialogue: 0,0:08:59.03,0:09:00.13,Standard (12K),,0000,0000,0000,,Tak to nechci.
+Dialogue: 0,0:09:01.24,0:09:03.07,Standard (12K),,0000,0000,0000,,Rokuto, znáš Hórai?
+Dialogue: 0,0:09:04.87,0:09:09.04,Standard (12K),,0000,0000,0000,,Za tímhle moøem prý leží zemì jménem Hórai.
+Dialogue: 0,0:09:09.24,0:09:13.87,Standard (12K),,0000,0000,0000,,Nikdo tam s nikým nebojuje a všichni se tam mají rádi.
+Dialogue: 0,0:09:14.05,0:09:16.52,Standard (12K),,0000,0000,0000,,Hledáme ji už dlouho.
+Dialogue: 0,0:09:18.05,0:09:22.92,Standard (12K),,0000,0000,0000,,Do Hórai se nemùžeš dostat. Ani s Ókiinem.
+Dialogue: 0,0:09:23.36,0:09:25.49,Standard (12K),,0000,0000,0000,,Je to opravdu moc daleko.
+Dialogue: 0,0:09:26.73,0:09:29.29,Standard (12K),,0000,0000,0000,,Aha...
+Dialogue: 0,0:09:30.93,0:09:33.59,Standard (12K),,0000,0000,0000,,Pokud si to rozmyslíš...
+Dialogue: 0,0:09:33.87,0:09:36.50,Standard (12K),,0000,0000,0000,,...a budeš chtít žít ve mìstì...
+Dialogue: 0,0:09:36.60,0:09:39.16,Standard (12K),,0000,0000,0000,,...navštiv mì v  Kankjú.
+Dialogue: 0,0:09:40.24,0:09:42.61,Standard (12K),,0000,0000,0000,,Ty vlastnì ani nemáš jméno...
+Dialogue: 0,0:09:44.08,0:09:45.41,Standard (12K),,0000,0000,0000,,Nìjaké si vymysli.
+Dialogue: 0,0:09:45.65,0:09:46.88,Standard (12K),,0000,0000,0000,,Nic mì nenapadá.
+Dialogue: 0,0:09:47.58,0:09:48.95,Standard (12K),,0000,0000,0000,,Tak já ti nìjaké dám...
+Dialogue: 0,0:09:56.42,0:10:00.33,floating obj. (12K),,0000,0000,0000,,{\pos(120,300)}{\3c&H866957&\1c&H1F1710&}{\frx40\frz12\fscy130}Kója
+Dialogue: 0,0:09:58.83,0:10:00.35,Standard (12K),,0000,0000,0000,,Co tøeba "Kója"?
+Dialogue: 0,0:10:01.00,0:10:02.52,Standard (12K),,0000,0000,0000,,Co to znamená?
+Dialogue: 0,0:10:02.80,0:10:03.70,Standard (12K),,0000,0000,0000,,"Soumrak".
+Dialogue: 0,0:10:12.27,0:10:14.26,Standard (12K),,0000,0000,0000,,Už jste skonèili?
+Dialogue: 0,0:10:15.94,0:10:17.21,Standard (12K),,0000,0000,0000,,Asi jo.
+Dialogue: 0,0:10:19.51,0:10:21.07,Standard (12K),,0000,0000,0000,,Bude válka?
+Dialogue: 0,0:10:21.22,0:10:22.74,Standard (12K),,0000,0000,0000,,Asi jo...
+Dialogue: 0,0:10:23.42,0:10:26.44,Standard (12K),,0000,0000,0000,,Spousta lidí zemøe.
+Dialogue: 0,0:10:26.62,0:10:29.72,Standard (12K),,0000,0000,0000,,Všichni vládci využívají a zabíjejí lidi.
+Dialogue: 0,0:10:30.53,0:10:35.29,Standard (12K),,0000,0000,0000,,Vládce je tím lepší, èím ménì lidí zabil.
+Dialogue: 0,0:10:35.40,0:10:38.16,Standard (12K),,0000,0000,0000,,Urèité obìti jsou nevyhnutelné.
+Dialogue: 0,0:10:41.47,0:10:42.80,Standard (12K),,0000,0000,0000,,Máš strach z války?
+Dialogue: 0,0:10:43.27,0:10:44.67,Standard (12K),,0000,0000,0000,,To ne.
+Dialogue: 0,0:10:44.94,0:10:48.34,Standard (12K),,0000,0000,0000,,Ale lidi budou velice trpìt.
+Dialogue: 0,0:10:49.04,0:10:52.98,Standard (12K),,0000,0000,0000,,A Kirin je vtìlení lidské vùle...
+Dialogue: 0,0:10:53.51,0:10:56.97,Standard (12K),,0000,0000,0000,,Bude lepší, když to skonèím teï za cenu sta životù...
+Dialogue: 0,0:10:57.65,0:11:01.45,Standard (12K),,0000,0000,0000,,...než abych nechal pozdìji zemøít desetitisíce.
+Dialogue: 0,0:11:03.76,0:11:06.59,Standard (12K),,0000,0000,0000,,Zavøi oèi a zacpi si uši, jestli se ti to nelíbí.
+Dialogue: 0,0:11:06.73,0:11:09.42,Standard (12K),,0000,0000,0000,,Já to musím udìlat.
+Dialogue: 0,0:11:11.60,0:11:13.43,Standard (12K),,0000,0000,0000,,Je mi to jedno.
+Dialogue: 0,0:11:13.67,0:11:15.07,Standard (12K),,0000,0000,0000,,Dìlej si, co chceš.
+Dialogue: 0,0:11:17.44,0:11:19.27,floating obj. (12K),,0000,0000,0000,,{\fs23\i0\3c&H000000&\bord0\shad0\1c&H202633&}{\fad(0,500)}Ganboku, Rokusui
+Dialogue: 0,0:11:24.51,0:11:25.71,Standard (12K),,0000,0000,0000,,Ribi, že ano?
+Dialogue: 0,0:11:25.81,0:11:26.64,Standard (12K),,0000,0000,0000,,Ano.
+Dialogue: 0,0:11:27.35,0:11:31.25,Standard (12K),,0000,0000,0000,,Ribi, bývalá nejvyšší soudkynì.
+Dialogue: 0,0:11:31.35,0:11:36.35,Standard (12K),,0000,0000,0000,,Poslal jsem jí jako vyslankyni do provincie Gen, aby se pøesvìdèila...
+Dialogue: 0,0:11:36.49,0:11:38.62,Standard (12K),,0000,0000,0000,,...jestli správce vybavuje vojsko.
+Dialogue: 0,0:11:39.99,0:11:41.29,Standard (12K),,0000,0000,0000,,Jste velmi klidná.
+Dialogue: 0,0:11:41.46,0:11:43.43,Standard (12K),,0000,0000,0000,,Èekala jsem to od chvíle...
+Dialogue: 0,0:11:43.56,0:11:46.90,Standard (12K),,0000,0000,0000,,...co mì sem Jeho Výsost poslal jako vyslankyni.
+Dialogue: 0,0:11:50.97,0:11:52.87,Standard (12K),,0000,0000,0000,,Máme ji, veliteli.
+Dialogue: 0,0:12:00.72,0:12:05.28,Standard (12K),,0000,0000,0000,,Od té doby, co jste Vy, Nejjasnìjší Velièenstvo král En Šórjú...
+Dialogue: 0,0:12:05.65,0:12:09.95,Standard (12K),,0000,0000,0000,,...nastoupil na trùn, lidé žijí v míru a blahobytu.
+Dialogue: 0,0:12:10.53,0:12:15.59,Standard (12K),,0000,0000,0000,,Nemohu ani vyjádøit slovy, jak nesmírné štìstí nás potkalo.
+Dialogue: 0,0:12:16.06,0:12:20.02,Standard (12K),,0000,0000,0000,,Vaši lidé Vám pøejí hodnì zdraví i štìstí.
+Dialogue: 0,0:12:22.87,0:12:25.84,Standard (12K),,0000,0000,0000,,Mìl by ses na poradách líp chovat.
+Dialogue: 0,0:12:26.44,0:12:29.27,Standard (12K),,0000,0000,0000,,Nemyslíš, že král by mìl mít trochu úroveò?
+Dialogue: 0,0:12:29.61,0:12:33.24,Standard (12K),,0000,0000,0000,,Jestli se nezmìníš, odrazí se to i na mnì.
+Dialogue: 0,0:12:33.45,0:12:34.97,Standard (12K),,0000,0000,0000,,Vážnì...
+Dialogue: 0,0:12:35.12,0:12:37.71,Standard (12K),,0000,0000,0000,,Chápu, co se mi snažíš øíct.
+Dialogue: 0,0:12:37.82,0:12:41.45,Standard (12K),,0000,0000,0000,,Odteï se budu chovat s dùstojností králi vlastní.
+Dialogue: 0,0:12:41.99,0:12:45.32,Standard (12K),,0000,0000,0000,,Zaènu tím, že budu na poradách zívat, co ty na to?
+Dialogue: 0,0:12:49.10,0:12:50.09,Standard (12K),,0000,0000,0000,,Taiho.
+Dialogue: 0,0:12:53.23,0:12:54.36,Standard (12K),,0000,0000,0000,,Co je, Ekišine?
+Dialogue: 0,0:12:55.20,0:12:57.54,Standard (12K),,0000,0000,0000,,Nìkdo s tebou chce mluvit.
+Dialogue: 0,0:12:58.14,0:12:58.97,Standard (12K),,0000,0000,0000,,Se mnou?
+Dialogue: 0,0:12:59.34,0:13:02.07,Standard (12K),,0000,0000,0000,,Ano. Øíkal, že se jmenuje Kója.
+Dialogue: 0,0:13:14.59,0:13:15.42,Standard (12K),,0000,0000,0000,,Kója...
+Dialogue: 0,0:13:19.46,0:13:20.39,Standard (12K),,0000,0000,0000,,Rokuto.
+Dialogue: 0,0:13:20.86,0:13:23.09,Standard (12K),,0000,0000,0000,,Vlastnì Taiho.
+Dialogue: 0,0:13:23.63,0:13:25.33,Standard (12K),,0000,0000,0000,,Dlouho jsme se nevidìli.
+Dialogue: 0,0:13:26.27,0:13:27.79,Standard (12K),,0000,0000,0000,,Øíkej mi Rokuta.
+Dialogue: 0,0:13:28.44,0:13:30.37,Standard (12K),,0000,0000,0000,,Dobøe... Rokuto.
+Dialogue: 0,0:13:32.61,0:13:34.60,Standard (12K),,0000,0000,0000,,Takže jsi úøedník v provincii Gen?
+Dialogue: 0,0:13:34.71,0:13:36.64,Standard (12K),,0000,0000,0000,,Proto jsi nezestárnul, že?
+Dialogue: 0,0:13:37.08,0:13:38.67,Standard (12K),,0000,0000,0000,,Ale jakto?
+Dialogue: 0,0:13:39.28,0:13:41.71,Standard (12K),,0000,0000,0000,,Ujal se mì intendant provincie Gen.
+Dialogue: 0,0:13:42.55,0:13:45.64,Standard (12K),,0000,0000,0000,,Intendant? Myslíš Acuju?
+Dialogue: 0,0:13:46.82,0:13:47.95,Standard (12K),,0000,0000,0000,,Znáš ho?
+Dialogue: 0,0:13:49.76,0:13:51.38,Standard (12K),,0000,0000,0000,,Jen podle jména.
+Dialogue: 0,0:13:53.46,0:13:54.29,Standard (12K),,0000,0000,0000,,Aha...
+Dialogue: 0,0:13:54.46,0:13:57.73,Standard (12K),,0000,0000,0000,,Jsem rád, že jsi mì poznal.
+Dialogue: 0,0:13:57.87,0:14:00.63,Standard (12K),,0000,0000,0000,,Bál jsem se, že zapomeneš...
+Dialogue: 0,0:14:00.94,0:14:02.53,Standard (12K),,0000,0000,0000,,Jak bych mohl?
+Dialogue: 0,0:14:02.90,0:14:04.87,Standard (12K),,0000,0000,0000,,A kde je Ókiino?
+Dialogue: 0,0:14:04.97,0:14:07.03,Standard (12K),,0000,0000,0000,,Èeká pøed branami Kankjú.
+Dialogue: 0,0:14:07.34,0:14:08.43,Standard (12K),,0000,0000,0000,,Chtìl bys ho vidìt?
+Dialogue: 0,0:14:08.58,0:14:09.60,Standard (12K),,0000,0000,0000,,Jistì.
+Dialogue: 0,0:14:10.88,0:14:13.21,Standard (12K),,0000,0000,0000,,Pøejmenoval jsem ho na "Rokuta".
+Dialogue: 0,0:14:13.85,0:14:14.82,Standard (12K),,0000,0000,0000,,Vážnì?
+Dialogue: 0,0:14:15.28,0:14:17.91,Standard (12K),,0000,0000,0000,,Jo. Abych nezapomnìl tvé jméno.
+Dialogue: 0,0:14:20.15,0:14:21.78,Standard (12K),,0000,0000,0000,,Támhle je.
+Dialogue: 0,0:14:28.36,0:14:31.09,Standard (12K),,0000,0000,0000,,To je v poøádku. Jsou tam lidi.
+Dialogue: 0,0:14:31.20,0:14:32.10,Standard (12K),,0000,0000,0000,,Dobøe.
+Dialogue: 0,0:14:36.44,0:14:39.70,Standard (12K),,0000,0000,0000,,To je Rokuta. Pamatuješ si na nìj?
+Dialogue: 0,0:14:41.11,0:14:42.37,Standard (12K),,0000,0000,0000,,Našli jste ho?
+Dialogue: 0,0:14:42.48,0:14:43.17,Standard (12K),,0000,0000,0000,,Ano.
+Dialogue: 0,0:14:49.25,0:14:51.95,Standard (12K),,0000,0000,0000,,To je tvoje dítì, Kójo?
+Dialogue: 0,0:14:52.09,0:14:53.21,Standard (12K),,0000,0000,0000,,Ne.
+Dialogue: 0,0:14:57.43,0:14:59.55,Standard (12K),,0000,0000,0000,,Našli ho pro mnì...
+Dialogue: 0,0:15:00.70,0:15:01.42,Standard (12K),,0000,0000,0000,,Kójo!
+Dialogue: 0,0:15:02.60,0:15:04.03,Standard (12K),,0000,0000,0000,,...protože jsem pøišel za tebou.
+Dialogue: 0,0:15:05.97,0:15:08.44,Standard (12K),,0000,0000,0000,,Jestli on a tví Širei nìco udìlají, je po nìm.
+Dialogue: 0,0:15:10.77,0:15:14.87,Standard (12K),,0000,0000,0000,,Pokud chceš zachránit život toho dítìte, pojï se mnou.
+Dialogue: 0,0:15:15.28,0:15:16.54,Standard (12K),,0000,0000,0000,,Chceš, že ano?
+Dialogue: 0,0:15:16.64,0:15:18.70,Standard (12K),,0000,0000,0000,,Kirin je soucitné stvoøení...
+Dialogue: 0,0:15:19.05,0:15:22.07,Standard (12K),,0000,0000,0000,,Dìlá se ti zle, když jen ucítíš krev...
+Dialogue: 0,0:15:23.25,0:15:23.68,Standard (12K),,0000,0000,0000,,Ty parchante!
+Dialogue: 0,0:15:23.68,0:15:24.51,Standard (12K),,0000,0000,0000,,Ne! Nedìlej to!
+Dialogue: 0,0:15:44.31,0:15:45.83,floating obj. (12K),,0000,0000,0000,,{\fs23\i0\3c&H000000&\bord0\shad0\1c&H202633&}{\fad(0,500)}Ganboku, provincie Gen
+Dialogue: 0,0:15:46.74,0:15:50.47,Standard (12K),,0000,0000,0000,,Rokusui je veliká øeka tekoucí z Kankjú v provincii Sei...
+Dialogue: 0,0:15:50.61,0:15:53.17,Standard (12K),,0000,0000,0000,,...až do provincie Gen na bøezích Kokai.
+Dialogue: 0,0:15:53.28,0:15:58.45,Standard (12K),,0000,0000,0000,,Na jejím toku zúrodòují každoroèní záplavy ornou pùdu.
+Dialogue: 0,0:15:58.79,0:16:00.78,Standard (12K),,0000,0000,0000,,Král Kjó ale znièil pobøežní hráze...
+Dialogue: 0,0:16:00.89,0:16:05.35,Standard (12K),,0000,0000,0000,,...proto je teï oblast kolem pobøeží Kokkai neobyvatelná.
+Dialogue: 0,0:16:05.89,0:16:08.45,Standard (12K),,0000,0000,0000,,Po Kjóovì smrti se zaèala zem znovu kultivovat...
+Dialogue: 0,0:16:08.56,0:16:12.97,Standard (12K),,0000,0000,0000,,...vznikla tu i vesnice, ale to je jen zaèátek.
+Dialogue: 0,0:16:15.60,0:16:18.40,Standard (12K),,0000,0000,0000,,To je Ganboku, hlavní mìsto provincie Gen.
+Dialogue: 0,0:16:18.51,0:16:20.67,Standard (12K),,0000,0000,0000,,Krásnìjší než Kankjú, že ano?
+Dialogue: 0,0:16:20.84,0:16:23.28,Standard (12K),,0000,0000,0000,,Provincie Gen vzkvétá.
+Dialogue: 0,0:16:23.64,0:16:25.41,Standard (12K),,0000,0000,0000,,To proto, že tu vládne Acuju.
+Dialogue: 0,0:16:25.95,0:16:29.07,Standard (12K),,0000,0000,0000,,Lidé ho mají rádi a øíkají...
+Dialogue: 0,0:16:29.18,0:16:31.38,Standard (12K),,0000,0000,0000,,...že je na nìj vìtší spolehnutí, než na krále.
+Dialogue: 0,0:16:31.49,0:16:34.35,Standard (12K),,0000,0000,0000,,Nejspíš ano. Šórjú je blbec.
+Dialogue: 0,0:16:35.09,0:16:37.32,Standard (12K),,0000,0000,0000,,Nemáš krále En rád?
+Dialogue: 0,0:16:38.03,0:16:42.76,Standard (12K),,0000,0000,0000,,Ne že bych ho nemìl rád, ale je to opravdu hlupák.
+Dialogue: 0,0:16:43.20,0:16:45.53,Standard (12K),,0000,0000,0000,,Zato ty asi máš rád Acujua.
+Dialogue: 0,0:16:46.87,0:16:50.86,Standard (12K),,0000,0000,0000,,Ano. Dost na to, abych tì unesl.
+Dialogue: 0,0:16:57.18,0:17:01.81,Standard (12K),,0000,0000,0000,,Taiho, velice se omlouvám za naši opovážlivost.
+Dialogue: 0,0:17:02.22,0:17:03.51,Standard (12K),,0000,0000,0000,,Takže vy jste Acuju.
+Dialogue: 0,0:17:03.78,0:17:06.84,Standard (12K),,0000,0000,0000,,Co máte v plánu?
+Dialogue: 0,0:17:07.25,0:17:10.28,Standard (12K),,0000,0000,0000,,Týká se to øeky Rokusui.
+Dialogue: 0,0:17:12.43,0:17:16.49,Standard (12K),,0000,0000,0000,,Protože král Kjó znièil hráze, mnoho okresù
+Dialogue: 0,0:17:16.63,0:17:19.57,Standard (12K),,0000,0000,0000,,...poblíž ústí Rokusui do moøe sužují záplavy.
+Dialogue: 0,0:17:19.67,0:17:23.16,Standard (12K),,0000,0000,0000,,Okamžitì musíme zaèít s opravami nábøeží...
+Dialogue: 0,0:17:23.30,0:17:25.83,Standard (12K),,0000,0000,0000,,...ale Jeho Výsost to nedovolí.
+Dialogue: 0,0:17:26.24,0:17:29.33,Standard (12K),,0000,0000,0000,,Jeho Výsost navíc zrušil právo správce...
+Dialogue: 0,0:17:29.48,0:17:31.84,Standard (12K),,0000,0000,0000,,...na to, aby vedl výstavbu.
+Dialogue: 0,0:17:32.01,0:17:35.24,Standard (12K),,0000,0000,0000,,Mnohokrát jsem na Jeho Výsost apeloval, ale marnì.
+Dialogue: 0,0:17:35.38,0:17:38.61,Standard (12K),,0000,0000,0000,,Nenapadlo mne nic lepšího, než tento zoufalý plán.
+Dialogue: 0,0:17:40.35,0:17:44.42,Standard (12K),,0000,0000,0000,,Øeknu králi, aby byl shovívavý a netrestal vás.
+Dialogue: 0,0:17:44.86,0:17:47.05,Standard (12K),,0000,0000,0000,,Co vy na to? Mùžu teï domù?
+Dialogue: 0,0:17:47.60,0:17:52.76,Standard (12K),,0000,0000,0000,,Je mi líto, ale musím vás požádat, abyste tu ještì chvíli zùstal.
+Dialogue: 0,0:17:53.60,0:17:57.70,Standard (12K),,0000,0000,0000,,Jinak øeèeno, chcete mnì tu držet jako rukojmí, dokud vás neposlechne.
+Dialogue: 0,0:17:58.74,0:17:59.50,Standard (12K),,0000,0000,0000,,Tak dobrá.
+Dialogue: 0,0:18:00.71,0:18:02.94,Standard (12K),,0000,0000,0000,,Budete spolupracovat?
+Dialogue: 0,0:18:03.31,0:18:06.64,Standard (12K),,0000,0000,0000,,Budu. Chápu vaše dùvody.
+Dialogue: 0,0:18:06.98,0:18:08.97,Standard (12K),,0000,0000,0000,,Nesouhlasím sice s vašimi metodami...
+Dialogue: 0,0:18:09.12,0:18:12.45,Standard (12K),,0000,0000,0000,,...ale možná se vám takhle podaøí toho blbce pøesvìdèit.
+Dialogue: 0,0:18:12.65,0:18:14.12,Standard (12K),,0000,0000,0000,,Chvíli tu zùstanu.
+Dialogue: 0,0:18:15.26,0:18:16.62,Standard (12K),,0000,0000,0000,,Jsem vám vdìèný.
+Dialogue: 0,0:18:30.30,0:18:31.10,Standard (12K),,0000,0000,0000,,Taiho!
+Dialogue: 0,0:18:32.87,0:18:33.74,Standard (12K),,0000,0000,0000,,Ribi!
+Dialogue: 0,0:18:34.34,0:18:35.47,Standard (12K),,0000,0000,0000,,To se dalo èekat...
+Dialogue: 0,0:18:35.94,0:18:39.71,Standard (12K),,0000,0000,0000,,Poslali vás, abyste tu dohlédla na správce, že?
+Dialogue: 0,0:18:39.81,0:18:41.91,Standard (12K),,0000,0000,0000,,Nedivím se, že vás zavøeli.
+Dialogue: 0,0:18:42.02,0:18:43.92,Standard (12K),,0000,0000,0000,,Myslí si, že jste Šórjúho pes.
+Dialogue: 0,0:18:44.02,0:18:45.75,Standard (12K),,0000,0000,0000,,Ale proè zajali vás?
+Dialogue: 0,0:18:46.62,0:18:49.21,Standard (12K),,0000,0000,0000,,Radìji Taihoovi nezkøivte ani vlásek!
+Dialogue: 0,0:18:49.69,0:18:52.98,Standard (12K),,0000,0000,0000,,Neublížím mu. Ovšem...
+Dialogue: 0,0:18:55.86,0:18:56.39,Standard (12K),,0000,0000,0000,,Tam ne.
+Dialogue: 0,0:18:56.70,0:19:00.33,Standard (12K),,0000,0000,0000,,Nehýbej se. Nebo jsi zapomnìl na to dìcko?
+Dialogue: 0,0:19:06.01,0:19:10.17,Standard (12K),,0000,0000,0000,,Rokuto, jsi Kirin. Proto musím zaklít tvùj roh.
+Dialogue: 0,0:19:10.44,0:19:16.21,Standard (12K),,0000,0000,0000,,Kdybys pøivolal své Širei nebo se promìnil v Kirina, znamenalo by to potíže.
+Dialogue: 0,0:19:16.52,0:19:17.75,Standard (12K),,0000,0000,0000,,Pochop mì, prosím.
+Dialogue: 0,0:19:18.69,0:19:20.65,Standard (12K),,0000,0000,0000,,Tohle mi vážnì vadí.
+Dialogue: 0,0:19:21.52,0:19:25.48,Standard (12K),,0000,0000,0000,,Nejen, že se mi to nelíbí, ale prostì to nechci.
+Dialogue: 0,0:19:26.53,0:19:27.59,Standard (12K),,0000,0000,0000,,Au...
+Dialogue: 0,0:19:33.20,0:19:34.39,Standard (12K),,0000,0000,0000,,Bolí to?
+Dialogue: 0,0:19:34.54,0:19:35.66,Standard (12K),,0000,0000,0000,,Ne.
+Dialogue: 0,0:19:35.77,0:19:37.63,Standard (12K),,0000,0000,0000,,Ale je to takový divný pocit.
+Dialogue: 0,0:19:37.94,0:19:40.30,Standard (12K),,0000,0000,0000,,To je vlákno Sekisakudžó.
+Dialogue: 0,0:19:40.41,0:19:43.60,Standard (12K),,0000,0000,0000,,Když pøetrhneš svoje, její se utáhne.
+Dialogue: 0,0:19:45.71,0:19:49.55,Standard (12K),,0000,0000,0000,,Když ona pøetrhne svoje, utáhne se to tvé.
+Dialogue: 0,0:19:53.09,0:19:54.21,Standard (12K),,0000,0000,0000,,Pochopil jsem.
+Dialogue: 0,0:19:54.96,0:19:57.39,Standard (12K),,0000,0000,0000,,Je také magicky vázané na vaši celu.
+Dialogue: 0,0:19:57.56,0:19:59.69,Standard (12K),,0000,0000,0000,,Pokusíte-li se uprchnout, pøetrhne se.
+Dialogue: 0,0:20:00.76,0:20:02.46,Standard (12K),,0000,0000,0000,,To dítì už nepotøebuješ, ne?
+Dialogue: 0,0:20:02.80,0:20:05.49,Standard (12K),,0000,0000,0000,,Máš pravdu. Posloužilo svému úèelu.
+Dialogue: 0,0:20:05.60,0:20:07.29,Standard (12K),,0000,0000,0000,,Vrátím ho jeho rodièùm.
+Dialogue: 0,0:20:08.97,0:20:09.73,Standard (12K),,0000,0000,0000,,Mizero!
+Dialogue: 0,0:20:22.52,0:20:23.98,Standard (12K),,0000,0000,0000,,Jak neobvyklé...
+Dialogue: 0,0:20:24.08,0:20:26.31,Standard (12K),,0000,0000,0000,,Nevìdìl jsem, že dokážeš projevit emoce.
+Dialogue: 0,0:20:26.95,0:20:28.58,Standard (12K),,0000,0000,0000,,Není èas na vtipy!
+Dialogue: 0,0:20:29.42,0:20:31.29,Standard (12K),,0000,0000,0000,,Taiho se ztratil!
+Dialogue: 0,0:20:31.43,0:20:32.26,Standard (12K),,0000,0000,0000,,A co Ekišin?
+Dialogue: 0,0:20:32.63,0:20:34.22,Standard (12K),,0000,0000,0000,,Našli jsme jeho tìlo.
+Dialogue: 0,0:20:34.40,0:20:38.23,Standard (12K),,0000,0000,0000,,Bylo ohlodané... Nejspíš to byl Jóma nebo Jódžú.
+Dialogue: 0,0:20:38.53,0:20:39.90,Standard (12K),,0000,0000,0000,,Chudák.
+Dialogue: 0,0:20:40.03,0:20:41.66,Standard (12K),,0000,0000,0000,,A kde jste ho našli?
+Dialogue: 0,0:20:41.77,0:20:42.93,Standard (12K),,0000,0000,0000,,Jen kousek od Kankjú.
+Dialogue: 0,0:20:43.30,0:20:44.86,Standard (12K),,0000,0000,0000,,Byl unesen?
+Dialogue: 0,0:20:45.57,0:20:47.23,Standard (12K),,0000,0000,0000,,Snad se mu nic nestalo...
+Dialogue: 0,0:20:47.68,0:20:51.08,Standard (12K),,0000,0000,0000,,Toho kluka hned tak nìco nedostane.
+Dialogue: 0,0:20:51.48,0:20:54.00,Standard (12K),,0000,0000,0000,,To se o nìj nebojíte, vy lotøe?
+Dialogue: 0,0:20:54.55,0:20:57.95,Standard (12K),,0000,0000,0000,,A proè? K èemu by to bylo?
+Dialogue: 0,0:20:58.25,0:21:01.92,Standard (12K),,0000,0000,0000,,Seišó, už jste vydal rozkazy k pátrání, že ano?
+Dialogue: 0,0:21:02.22,0:21:03.15,Standard (12K),,0000,0000,0000,,Ano, pane.
+Dialogue: 0,0:21:03.52,0:21:07.05,Standard (12K),,0000,0000,0000,,Pak nemùžeme nic víc dìlat.
+Dialogue: 0,0:21:07.33,0:21:12.13,Standard (12K),,0000,0000,0000,,Buïto ho nakonec najdeme, nebo se vrátí sám.
+Dialogue: 0,0:21:12.63,0:21:14.73,Standard (12K),,0000,0000,0000,,Šórjú! To snad...
+Dialogue: 0,0:21:14.90,0:21:18.74,Standard (12K),,0000,0000,0000,,A pokud ne, brzy se doèkáme žádosti o výkupné.
+Dialogue: 0,0:21:18.97,0:21:19.70,Standard (12K),,0000,0000,0000,,Cože?
+Dialogue: 0,0:21:20.17,0:21:22.30,Standard (12K),,0000,0000,0000,,Buï ho unesli, nebo zabili.
+Dialogue: 0,0:21:22.41,0:21:26.61,Standard (12K),,0000,0000,0000,,Pokud ho zabili, už s tím nic nenadìláme.
+Dialogue: 0,0:21:26.71,0:21:30.31,Standard (12K),,0000,0000,0000,,Ale jestli ho unesli, pachatel musí mít nìjaký motiv.
+Dialogue: 0,0:21:30.42,0:21:34.41,Standard (12K),,0000,0000,0000,,Není zas tak roztomilý, aby ho nìkdo z rozmaru unesl.
+Dialogue: 0,0:21:34.86,0:21:35.69,Standard (12K),,0000,0000,0000,,Ale...
+Dialogue: 0,0:21:35.79,0:21:36.62,Standard (12K),,0000,0000,0000,,Šukó.
+Dialogue: 0,0:21:36.72,0:21:37.49,Standard (12K),,0000,0000,0000,,Pane?
+Dialogue: 0,0:21:37.83,0:21:42.23,Standard (12K),,0000,0000,0000,,Kontaktuj Ribi. Pochybuji, že do toho není zapletená, ale co kdyby...
+Dialogue: 0,0:21:42.33,0:21:43.13,Standard (12K),,0000,0000,0000,,Ano.
+Dialogue: 0,0:21:43.86,0:21:47.03,Standard (12K),,0000,0000,0000,,A podívejte se do svitkù nesmrtelných...
+Dialogue: 0,0:21:47.17,0:21:49.76,Standard (12K),,0000,0000,0000,,...jestli tam není nìkdo jménem Kója.
+Dialogue: 0,0:21:49.90,0:21:51.17,Standard (12K),,0000,0000,0000,,Ano, Vaše Výsosti.
+Dialogue: 0,0:21:54.84,0:21:56.97,Standard (12K),,0000,0000,0000,,S tím klukem jsou jenom problémy.
+Dialogue: 0,0:21:58.55,0:21:59.74,floating obj. (12K),,0000,0000,0000,,{\fs23\i0\3c&H000000&\bord0\shad0\1c&H202633&}Kankjú, provincie Sei
+Dialogue: 0,0:21:59.95,0:22:01.01,floating obj. (12K),,0000,0000,0000,,{\fs23\i0\3c&H000000&\bord0\shad0\1c&H202633&}Rokusui, provincie Gen
+Dialogue: 0,0:22:01.75,0:22:03.48,Standard (12K),,0000,0000,0000,,Jaký je Acuju?
+Dialogue: 0,0:22:04.15,0:22:05.74,Standard (12K),,0000,0000,0000,,Je skvìlý vládce.
+Dialogue: 0,0:22:05.89,0:22:08.55,Standard (12K),,0000,0000,0000,,Opravdu mu záleží na lidech...
+Dialogue: 0,0:22:08.72,0:22:13.35,Standard (12K),,0000,0000,0000,,...narozdíl od správce Gen, který zøídkakdy vychází z paláce.
+Dialogue: 0,0:22:13.56,0:22:15.46,Standard (12K),,0000,0000,0000,,Nechápu, proè tohle dìlá.
+Dialogue: 0,0:22:15.70,0:22:18.43,Standard (12K),,0000,0000,0000,,Mùže za to Šórjú. Nic nebere vážnì.
+Dialogue: 0,0:22:24.81,0:22:28.10,Standard (12K),,0000,0000,0000,,Jsem si jistá, že Jeho Velièenstvo ví, co dìlá.
+Dialogue: 0,0:22:28.44,0:22:30.24,Standard (12K),,0000,0000,0000,,Já ne.
+Dialogue: 0,0:22:35.45,0:22:37.25,Standard (12K),,0000,0000,0000,,Asi na mnì pùsobí ta krev...
+Dialogue: 0,0:22:37.72,0:22:40.88,Standard (12K),,0000,0000,0000,,Ekišin je mrtvý.
+Dialogue: 0,0:22:41.56,0:22:43.55,Standard (12K),,0000,0000,0000,,Je mi z toho hroznì.
+Dialogue: 0,0:22:45.19,0:22:49.32,Standard (12K),,0000,0000,0000,,Promiòte mi mou nezdvoøilost, ale vy se znáte s velitelem?
+Dialogue: 0,0:22:49.70,0:22:51.99,Standard (12K),,0000,0000,0000,,Kója je teï velitel?
+Dialogue: 0,0:22:52.13,0:22:53.79,Standard (12K),,0000,0000,0000,,Vypracoval se.
+Dialogue: 0,0:22:54.13,0:22:57.73,Standard (12K),,0000,0000,0000,,Vypadá to, že zná zpùsob, jak ovládat Jóma.
+Dialogue: 0,0:22:57.84,0:23:02.40,Standard (12K),,0000,0000,0000,,On je neovládá. Oni ovládají jeho.
+Dialogue: 0,0:23:02.51,0:23:03.20,Standard (12K),,0000,0000,0000,,Prosím?
+Dialogue: 0,0:23:04.28,0:23:06.94,Standard (12K),,0000,0000,0000,,Vysvìtlím to pozdìji.
+Dialogue: 0,0:23:08.62,0:23:10.78,Standard (12K),,0000,0000,0000,,Chce se mi spát...
+Dialogue: 0,0:24:50.48,0:24:53.82,Standard (12K),,0000,0000,0000,,Rokuta slyší zvuk praskajícího vlákna.
+Dialogue: 0,0:24:54.15,0:24:57.49,Standard (12K),,0000,0000,0000,,Je to slabý, ale pronikavý zvuk.
+Dialogue: 0,0:24:57.79,0:24:59.82,Standard (12K),,0000,0000,0000,,Dvanáct Království epizoda 42.
+Dialogue: 0,0:24:59.93,0:25:03.42,Standard (12K),,0000,0000,0000,,Bùh Moøí na Východì,\NMocný Oceán na Západì, Kapitola druhá.
+Dialogue: 0,0:24:58.70,0:25:05.83,ep-title (12K),,0000,0000,0000,,{\1c&H1616C9&}{\fscx110}{\pos(256,103)}{\be1}Epizoda 42
+Dialogue: 0,0:24:58.70,0:25:05.83,ep-title (12K),,0000,0000,0000,,{\be1}{\pos(185,160)}Bùh Moøí na Východì
+Dialogue: 0,0:24:58.70,0:25:05.83,ep-title (12K),,0000,0000,0000,,{\fs18\fscy87}{\be1}{\pos(350,220)}Mocný Oceán na Západì
+Dialogue: 0,0:24:58.70,0:25:05.83,ep-title (12K),,0000,0000,0000,,{\be1}{\pos(256,273)}Kapitola druhá

@@ -1,0 +1,539 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: titulek,Arial,38,&H00e0f0f0,&H8000ffff,&H30000008,&H80000008,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,30,238
+Style: nazev,verdana,48,&H006400b5,&H8000ffff,&H30000008,&H0000b7c4,1,0,0,0,100,100,0,0.00,1,0,3,2,30,30,30,238
+Style: nazev2,merlin,75,&H006400b5,&H8000ffff,&H30000008,&H0000b7c4,1,0,0,0,100,100,0,0.00,1,0,3,2,30,30,30,238
+Style: poznamka,Myriad web,35,&H00ffffff,&H8000ffff,&Hf0000000,&H35000000,0,0,0,0,100,100,1,0.00,0,0,0,8,20,20,20,238
+Style: nazevdilu,comic sans ms,45,&H00ffffff,&H8000ffff,&Hf0000000,&H35000000,1,0,0,0,100,100,1,0.00,0,0,0,8,20,20,20,238
+Style: pelikan,tahoma,40,&H0098948d,&H8000ffff,&H3072635a,&H65000000,1,0,0,0,100,100,1,0.00,0,3,2,8,20,20,20,238
+Style: oppost,Tahoma,40,&H50ffffff,&H000000ff,&H00000008,&H80000008,0,0,0,0,100,100,0,0.00,1,0,0,2,30,30,30,238
+Style: opening,Tahoma,40,&H10dddddd,&H0000ff00,&H80000008,&Hd0000008,-1,0,0,0,100,100,0,0.00,1,0,0,2,30,30,30,238
+Style: opin,Tahoma,50,&H00ffffff,&H0000ff00,&H90000008,&H80000008,-1,0,0,0,100,100,0,0.00,1,1,0,2,30,30,30,238
+Style: oppre,Tahoma,40,&H10dddddd,&H0000ff00,&H80000008,&Hd0000008,-1,0,0,0,100,100,0,0.00,1,1,0,2,30,30,30,238
+Style: ending,Myriad web,35,&H00c98a6a,&H8000ffff,&Hf0000000,&H35000000,-1,0,0,0,100,100,1,0.00,1,1,1,2,20,20,20,1
+Style: endingcz,Myriad web,35,&H00c98a6a,&H8000ffff,&Hf0000000,&H35000000,-1,0,0,0,100,100,1,0.00,1,1,1,8,20,20,20,238
+
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:24:28.66,0:24:33.21,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(440,1240,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}o{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(40,440,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(510,1310,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ni{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(110,510,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(780,1580,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(380,780,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(920,1720,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ba{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(520,920,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1060,1860,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ri {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(660,1060,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1210,2010,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}no {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(810,1210,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1410,2210,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mi {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1010,1410,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1410,2210,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ga {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1010,1410,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1540,2340,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}a{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1140,1540,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1650,2450,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ka{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1250,1650,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1760,2560,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ku{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1360,1760,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2190,2990,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1790,2190,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2620,3420,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}tta
+Dialogue: 0,0:24:32.91,0:24:37.37,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(400,1200,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ka{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,400,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(500,1300,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(100,500,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(700,1500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ri{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(300,700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(900,1700,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(500,900,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1110,1910,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(710,1110,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1420,2220,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}bun {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1020,1420,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1690,2490,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1290,1690,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1820,2620,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}sa{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1420,1820,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1930,2730,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1530,1930,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2040,2840,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ha{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1640,2040,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2470,3270,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}san{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2070,2470,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2700,3500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}de {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2300,2700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3000,3800,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2600,3000,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3300,4100,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ru
+Dialogue: 0,0:24:37.07,0:24:41.58,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(450,1250,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}u{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(50,450,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(570,1370,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ma{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(170,570,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(730,1530,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}re{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(330,730,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(890,1690,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ta{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(490,890,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1110,1910,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ku{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(710,1110,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1230,2030,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}te {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(830,1230,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1460,2260,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1060,1460,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1690,2490,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ta {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1290,1690,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1840,2640,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mi {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1440,1840,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2040,2840,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}dûa {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1640,2040,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2140,2940,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1740,2140,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2290,3090,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1890,2290,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2530,3330,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ka{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2130,2530,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2770,3570,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ra
+Dialogue: 0,0:24:41.28,0:24:45.01,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(420,1220,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(20,420,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(580,1380,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ni{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(180,580,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(840,1640,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ta{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(440,840,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(970,1770,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ku{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(570,970,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1100,1900,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(700,1100,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1260,2060,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ku{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(860,1260,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1420,2220,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}te{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1020,1420,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1650,2450,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} mo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1250,1650,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1890,2690,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1490,1890,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2130,2930,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}nu {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1730,2130,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2320,3120,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1920,2320,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2810,3610,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}no {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2410,2810,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2970,3770,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}to{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2570,2970,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3130,3930,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ka
+Dialogue: 0,0:24:44.71,0:24:49.50,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(570,1370,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}sa{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(170,570,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(700,1500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}to{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(300,700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(830,1630,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ri {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(430,830,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1120,1920,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(720,1120,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1510,2310,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}tta {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1110,1510,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1620,2420,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}fu{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1220,1620,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1730,2530,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ri {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1330,1730,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2580,3380,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}de {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2180,2580,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2700,3500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2300,2700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2830,3630,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2430,2830,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2910,3710,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}te {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2510,2910,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3100,3900,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2700,3100,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3690,4490,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ru {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3290,3690,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3900,4700,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3500,3900,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4160,4960,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3760,4160,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4290,5090,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} dûa{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3890,4290,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4500,5300,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(4100,4500,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4710,5510,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i
+Dialogue: 0,0:24:49.20,0:24:53.61,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(370,1170,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}hi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,370,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(440,1240,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}to {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(40,440,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(540,1340,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}no {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(140,540,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(790,1590,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}jo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(390,790,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1240,2040,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wa {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(840,1240,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1350,2150,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(950,1350,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1460,2260,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}cu{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1060,1460,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2280,3080,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1880,2280,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2530,3330,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}sem{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2130,2530,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2630,3430,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}bi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2230,2630,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2930,3730,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2530,2930,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3380,4180,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ga {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2980,3380,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3530,4330,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3130,3530,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3980,4780,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}cui {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3580,3980,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4080,4880,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ka{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3680,4080,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4380,5180,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ra
+Dialogue: 0,0:24:53.31,0:24:57.82,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(420,1220,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ma{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(20,420,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(530,1330,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}to{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(130,530,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(640,1440,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mo{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(240,640,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(890,1690,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ni {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(490,890,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1180,1980,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(780,1180,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1350,2150,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ke{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(950,1350,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1770,2570,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ba{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1370,1770,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2400,3200,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2000,2400,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2490,3290,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2090,2490,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2580,3380,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}zu{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2180,2580,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2770,3570,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}da{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2370,2770,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2910,3710,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ra{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2510,2910,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3150,3950,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ke{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2750,3150,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3480,4280,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3080,3480,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3700,4500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3300,3700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3920,4720,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}cu {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3520,3920,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4000,4800,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3600,4000,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4170,4970,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3770,4170,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4440,5240,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}me
+Dialogue: 0,0:24:57.52,0:25:01.70,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(400,1200,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,400,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(500,1300,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}me {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(100,500,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(610,1410,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(210,610,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1160,1960,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}kÛ{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(760,1160,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1430,2230,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} ka{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1030,1430,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1700,2500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} na {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1300,1700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2400,3200,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2000,2400,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2500,3300,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}o{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2100,2500,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2600,3400,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ni {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2200,2600,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2710,3510,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2310,2710,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2820,3620,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}su {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2420,2820,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2980,3780,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ni {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2580,2980,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3180,3980,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2780,3180,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3380,4180,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}te {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2980,3380,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3550,4350,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ku{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3150,3550,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3730,4530,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}u{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3330,3730,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4110,4910,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}sa
+Dialogue: 0,0:25:02.31,0:25:04.09,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(620,1420,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}Patch, {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(220,620,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(850,1650,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}patch {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(450,850,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1130,1930,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}with {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(730,1130,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1310,2110,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}some{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(910,1310,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1490,2290,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}thing {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1090,1490,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1780,2580,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}red
+Dialogue: 0,0:25:03.79,0:25:10.98,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(430,1230,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}li{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(30,430,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(560,1360,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ke {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(160,560,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(690,1490,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}a {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(290,690,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(850,1650,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ma{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(450,850,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(980,1780,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ra{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(580,980,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1510,2310,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}schi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1110,1510,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1640,2440,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}no {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1240,1640,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1900,2700,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}che{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1500,1900,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2260,3060,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}rry{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1860,2260,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3080,3880,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2680,3080,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3250,4050,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}and {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2850,3250,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3520,4320,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}fro{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3120,3520,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3840,4640,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}zen {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3440,3840,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3950,4750,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}cran{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3550,3950,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4230,5030,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}be{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3830,4230,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4510,5310,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}rry.
+Dialogue: 0,0:25:10.98,0:25:12.56,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(590,1390,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}Chut, {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(190,590,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(920,1720,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}chut {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(520,920,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1200,2000,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}with {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(800,1200,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1320,2120,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}some{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(920,1320,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1540,2340,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}one {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1140,1540,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1870,2670,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}hot
+Dialogue: 0,0:25:12.26,0:25:19.39,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(490,1290,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}like {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(90,490,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(660,1460,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}an {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(260,660,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(790,1590,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}e{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(390,790,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1000,1800,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}qui{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(600,1000,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1410,2210,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}li{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1010,1410,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1590,2390,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ta{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1190,1590,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1830,2630,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ri{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1430,1830,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2370,3170,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}an {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1970,2370,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3030,3830,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2630,3030,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3260,4060,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}and {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2860,3260,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3520,4320,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}yam-{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3120,3520,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3780,4580,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}yng{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3380,3780,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3990,4790,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}dou{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3590,3990,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4200,5000,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ri{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3800,4200,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4560,5360,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}an.
+Dialogue: 0,0:25:19.09,0:25:20.95,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(570,1370,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}Fad, {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(170,570,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(790,1590,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}fad {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(390,790,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1060,1860,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}with {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(660,1060,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1330,2130,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}some{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(930,1330,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1600,2400,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}thing {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1200,1600,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1860,2660,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}cool
+Dialogue: 0,0:25:20.65,0:25:27.40,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(590,1390,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}like {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(190,590,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(670,1470,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}a {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(270,670,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(850,1650,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}hid{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(450,850,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(980,1780,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}den {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(580,980,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1440,2240,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}lu{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1040,1440,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1600,2400,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}mi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1200,1600,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1880,2680,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1480,1880,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2260,3060,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ry{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1860,2260,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3040,3840,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))} {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2640,3040,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3240,4040,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}and {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2840,3240,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3520,4320,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}will{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3120,3520,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3660,4460,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}-o-{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3260,3660,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(3800,4600,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}the-{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3400,3800,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4170,4970,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wisp, {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(3770,4170,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(4580,5380,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}too.
+Dialogue: 0,0:25:27.10,0:25:29.89,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(410,1210,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ko{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(10,410,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(620,1420,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}so{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(220,620,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(760,1560,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ku{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(360,760,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(900,1700,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(500,900,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1080,1880,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öu{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(680,1080,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1460,2260,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}dan {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1060,1460,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1680,2480,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}de {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1280,1680,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1840,2640,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}to{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1440,1840,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2000,2800,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1600,2000,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2120,2920,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1720,2120,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2250,3050,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ka{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1850,2250,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2410,3210,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}se{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2010,2410,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2540,3340,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}i{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(2140,2540,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2770,3570,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}de
+Dialogue: 0,0:25:29.59,0:25:31.94,opening,,0000,0000,0000,Karaoke,{\fscx500\t(0,100,\fscx100)\fad(100,800)}{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(0,300,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(450,1250,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ki{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(50,450,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(700,1500,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}san{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(300,700,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(870,1670,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}dûi {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(470,870,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1040,1840,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}öi{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(640,1040,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1340,2140,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(940,1340,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1480,2280,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ha{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1080,1480,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1620,2420,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}na {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1220,1620,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1730,2530,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wo {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1330,1730,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1850,2650,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ma{\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1450,1850,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(1970,2770,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}cu {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1570,1970,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2130,2930,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}ma {\fs40\c&Hffffff&\1a&H10&\bord0\b1\be0\t(1730,2130,\fs60\c&H8080ff&\1a&H00&\bord3\b1\be0\t(2310,3110,\fs40\c&Hffffff&\1a&H50&\bord0\b0\be0))}wa
+
+
+
+Dialogue: 0,0:25:37.00,0:25:37.33,nazev,,0000,0000,0000,,{\be1\a6\move(403,60,303,105)\shad0\fad(400,0)}Magick· obc
+Dialogue: 0,0:25:37.00,0:25:37.33,nazev,,0000,0000,0000,,{\be1\a6\move(406,60,506,105)\shad0\fad(400,0)}hodnÌ pas·û
+Dialogue: 0,0:25:37.33,0:25:37.77,nazev,,0000,0000,0000,,{\be1\a6\pos(403,105)\shad0}Magick· obchodnÌ pas·û
+Dialogue: 0,0:25:37.77,0:25:40.93,nazev,,0000,0000,0000,,{\a6\pos(403,105)\be1}Magick· obchodnÌ pas·û
+Dialogue: 0,0:25:37.00,0:25:37.33,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(448,480,348,525)\fad(400,0)}Aben
+Dialogue: 0,0:25:37.00,0:25:37.33,nazev2,,0000,0000,0080,,{\be1\a2\shad0\move(359,480,459,525)\fad(400,0)}obaöi
+Dialogue: 0,0:25:37.33,0:25:37.77,nazev2,,0000,0000,0080,,{\be1\a2\shad0\pos(403,525)}Abenobaöi
+Dialogue: 0,0:25:37.77,0:25:40.93,nazev2,,0000,0000,0080,,{\be1\a2\pos(403,525)}Abenobaöi
+
+Dialogue: 0,0:25:37.77,0:25:40.93,poznamka,,0000,0000,0000,,{\a4\c&H000000&\fs28}p¯eklad: JarnÌk
+Dialogue: 0,0:25:37.77,0:25:40.93,poznamka,,0000,0000,0000,,{\a3\c&H000000&\fs28}raw: Yusaku
+Dialogue: 0,0:25:37.77,0:25:40.93,poznamka,,0000,0000,0000,,{\a1\c&H000000&\fs28}typesetting: JarnÌk
+Dialogue: 0,0:25:37.77,0:25:40.93,poznamka,,0000,0000,0000,,{\a7\c&H000000&\fs28}korektury: mike, B.E.M.
+
+Dialogue: 0,0:25:41.96,0:25:43.30,titulek,,0000,0000,0000,,Arumi a Saöi poch·zejÌ
+Dialogue: 0,0:25:43.30,0:25:46.82,titulek,,0000,0000,0000,,ze Ëtvrti Abenobaöi - obchodnÌho a z·bavnÌho st¯ediska v ”sace.
+Dialogue: 0,0:25:47.17,0:25:48.60,titulek,,0000,0000,0000,,Jednoho kr·snÈho letnÌho r·na
+Dialogue: 0,0:25:48.60,0:25:52.67,titulek,,0000,0000,0000,,se p¯ed nimi zËistajasna objevil opravdick˝ z·mek.
+Dialogue: 0,0:25:52.67,0:25:54.47,titulek,,0000,0000,0000,,A ke vöemu jeötÏ francouzsk˝.
+Dialogue: 0,0:25:55.24,0:25:57.71,titulek,,0000,0000,0000,,I kdyû mi nenÌ ˙plnÏ jasnÈ, jak na tohle p¯iöli.
+Dialogue: 0,0:25:58.31,0:26:01.05,titulek,,0000,0000,0000,,Ale ti dva to vzali za spr·vn˝ konec!
+Dialogue: 0,0:26:01.05,0:26:03.37,titulek,,0000,0000,0000,,Na trûiöti nakoupili vybavenÌ,
+Dialogue: 0,0:26:03.52,0:26:06.29,titulek,,0000,0000,0000,,zem¯eli, oûili, nechali se promÏnit v led, pak v k·men,
+Dialogue: 0,0:26:06.29,0:26:07.59,titulek,,0000,0000,0000,,probili se bludiötÏm,
+Dialogue: 0,0:26:07.59,0:26:10.28,titulek,,0000,0000,0000,,porazili straölivÈho bosse, P·na hr˘z, a dohr·li hru!
+Dialogue: 0,0:26:10.56,0:26:12.46,titulek,,0000,0000,0000,,No, zm·kli to na jedniËku!
+Dialogue: 0,0:26:12.76,0:26:14.56,titulek,,0000,0000,0000,,œ·blÌk uzn·v· por·ûku
+Dialogue: 0,0:26:14.56,0:26:17.70,titulek,,0000,0000,0000,,a slibuje: ÑVr·tÌm v·s dom˘.ì
+Dialogue: 0,0:26:17.70,0:26:19.06,titulek,,0000,0000,0000,,A tady to m·te.
+Dialogue: 0,0:26:29.41,0:26:31.28,titulek,,0000,0000,0000,,Podvedl n·s!
+Dialogue: 0,0:26:31.28,0:26:33.40,titulek,,0000,0000,0000,,Ten zatracenej Ô·blÌk!
+Dialogue: 0,0:26:33.61,0:26:37.75,titulek,,0000,0000,0000,,Pr˝: ÑsplnÌm v·m, cokoli si budete p¯·t!ì
+Dialogue: 0,0:26:37.75,0:26:39.55,titulek,,0000,0000,0000,,ZatracenÏ, to mÏ ale toËÌ!
+Dialogue: 0,0:26:39.55,0:26:42.09,titulek,,0000,0000,0000,,Jen tak nÏco pl·cnul, aby se n·s zbavil!
+Dialogue: 0,0:26:42.09,0:26:43.82,titulek,,0000,0000,0000,,Nechali jsme se nap·lit!
+Dialogue: 0,0:26:43.92,0:26:46.73,titulek,,0000,0000,0000,,Tohle nenÌ n·ö svÏt! Jsme tu öpatnÏ!
+Dialogue: 0,0:26:46.73,0:26:48.92,titulek,,0000,0000,0000,,Kua! To nenÌ fÈr!
+Dialogue: 0,0:26:49.00,0:26:52.09,titulek,,0000,0000,0000,,VÌtejte! Pr·vÏ dorazila nov· dod·vka ko¯enÏn˝ch...
+Dialogue: 0,0:26:53.67,0:26:55.84,titulek,,0000,0000,0000,,Uû zase dalöÌ verze pana KÛheie?
+Dialogue: 0,0:26:55.84,0:26:58.17,titulek,,0000,0000,0000,,Dod·vka Ëerstv˝ch obelisk˘ z Jupiteru za dvÏ stovky.
+Dialogue: 0,0:26:58.17,0:26:59.44,titulek,,0000,0000,0000,,Uû vÌm.
+Dialogue: 0,0:26:59.44,0:27:01.94,titulek,,0000,0000,0000,,Tohle je nejspÌö dalöÌ obchodnÌ pas·û Abenobaöi!
+Dialogue: 0,0:27:01.94,0:27:03.24,titulek,,0000,0000,0000,,Ten mal˝ Ô·blÌk to spletl,
+Dialogue: 0,0:27:03.24,0:27:06.45,titulek,,0000,0000,0000,,takûe jsme ve svÏtÏ, kter˝ je tomu naöemu jenom podobn˝!
+Dialogue: 0,0:27:06.45,0:27:08.08,titulek,,0000,0000,0000,,Vezmu si tohle!
+Dialogue: 0,0:27:08.08,0:27:09.55,titulek,,0000,0000,0000,,Dva v·m budou staËit.
+Dialogue: 0,0:27:09.55,0:27:10.52,titulek,,0000,0000,0000,,Nech toho!
+Dialogue: 0,0:27:10.52,0:27:11.88,titulek,,0000,0000,0000,,ProË se tak ötveö?
+Dialogue: 0,0:27:11.88,0:27:13.55,titulek,,0000,0000,0000,,VidÌö? M·me obelisk.
+Dialogue: 0,0:27:13.55,0:27:15.22,titulek,,0000,0000,0000,,Prod·vajÌ tady v·ûnÏ skvÏlÈ vÏciËky.
+Dialogue: 0,0:27:15.22,0:27:16.69,titulek,,0000,0000,0000,,Kdyû se ho dotkneö, vzroste ti inteligence.
+Dialogue: 0,0:27:18.52,0:27:19.82,titulek,,0000,0000,0000,,TobÏ se snÌûila.
+Dialogue: 0,0:27:20.09,0:27:22.39,titulek,,0000,0000,0000,,Pane, vezmu si tohle.
+Dialogue: 0,0:27:23.36,0:27:25.36,titulek,,0000,0000,0000,,Super HvÏzdn˝ Paprskomet?
+Dialogue: 0,0:27:25.36,0:27:26.83,titulek,,0000,0000,0000,,Co s nÌm budeö dÏlat?
+Dialogue: 0,0:27:26.97,0:27:30.30,titulek,,0000,0000,0000,,Z·kaznÌku! Z·kaznÌku! Zaplatit! Zaplatit! Hovado!
+Dialogue: 0,0:27:30.64,0:27:34.09,titulek,,0000,0000,0000,,VsadÌm se, ûe v tomhle svÏtÏ je ten Ô·blÌk taky.
+Dialogue: 0,0:27:34.47,0:27:36.18,titulek,,0000,0000,0000,,ChytÌme toho ne¯·da, vykuch·me,
+Dialogue: 0,0:27:36.18,0:27:37.88,titulek,,0000,0000,0000,,uva¯Ìme, upeËeme, udÏl·me z nÏj saöimi,
+Dialogue: 0,0:27:37.88,0:27:39.45,titulek,,0000,0000,0000,,pak vöechno bez ochutn·nÌ vyhodÌme,
+Dialogue: 0,0:27:39.45,0:27:41.05,titulek,,0000,0000,0000,,vysypeme do kan·lu
+Dialogue: 0,0:27:41.05,0:27:43.14,titulek,,0000,0000,0000,,a tam se zmÏnÌ v mo¯sk˝ kal.
+Dialogue: 0,0:27:43.28,0:27:45.32,titulek,,0000,0000,0000,,A nakonec ho p¯inutÌme opakovat to kouzlo,
+Dialogue: 0,0:27:45.32,0:27:47.55,titulek,,0000,0000,0000,,kterÈ n·s m· vr·tit dom˘!
+Dialogue: 0,0:27:47.62,0:27:49.85,titulek,,0000,0000,0000,,SleËinko, m·m v·m p¯ibalit i tohle?
+Dialogue: 0,0:27:50.46,0:27:54.32,titulek,,0000,0000,0000,,Ch·pu tÏ, ale v·ûnÏ si myslÌö, ûe to p˘jde tak hladce?
+Dialogue: 0,0:27:54.66,0:27:57.96,titulek,,0000,0000,0000,,MyslÌö, ûe teÔ uû n·s neËekajÌ û·dnÈ souboje a dalöÌ nep¯Ìjemnosti?
+Dialogue: 0,0:27:57.96,0:28:01.26,titulek,,0000,0000,0000,,To mÏ v˘bec netankuje, na boj m·m p¯ece tebe.
+Dialogue: 0,0:28:03.44,0:28:05.17,titulek,,0000,0000,0000,,Coûe? MÏ? Uû zase?!
+Dialogue: 0,0:28:05.17,0:28:07.44,titulek,,0000,0000,0000,,JasnÏ, dÏlba pr·ce mezi muûem a ûenou.
+Dialogue: 0,0:28:07.57,0:28:09.11,titulek,,0000,0000,0000,,Co to pl·c·ö?!
+Dialogue: 0,0:28:09.11,0:28:10.14,titulek,,0000,0000,0000,,To je zneuûÌv·nÌ muûskÈ n·klonnosti!
+Dialogue: 0,0:28:10.14,0:28:10.91,titulek,,0000,0000,0000,,Sexu·lnÌ haraöenÌ!
+Dialogue: 0,0:28:10.91,0:28:13.74,titulek,,0000,0000,0000,,Jestli chceö rovnopr·vnost, nemÏla bys teÔ bojovat ty?!
+Dialogue: 0,0:28:13.85,0:28:15.28,titulek,,0000,0000,0000,,MÏli bychom se st¯Ìdat!
+Dialogue: 0,0:28:15.28,0:28:16.52,titulek,,0000,0000,0000,,To postr·d· logiku.
+Dialogue: 0,0:28:16.52,0:28:21.65,titulek,,0000,0000,0000,,MusÌm tÏ kr˝t, Saöi. To je d˘leûit· a nelehk· role.
+Dialogue: 0,0:28:21.65,0:28:24.52,titulek,,0000,0000,0000,,Jakûe? V tom nevidÌm û·dnou rovnopr·vnost.
+Dialogue: 0,0:28:24.52,0:28:27.83,titulek,,0000,0000,0000,,Po¯·d bojuji a umÌr·m jen j·. Uû mÏ to p¯est·v· bavit!
+Dialogue: 0,0:28:27.83,0:28:28.89,titulek,,0000,0000,0000,,KlÌdek, klÌdek.
+Dialogue: 0,0:28:28.89,0:28:31.49,titulek,,0000,0000,0000,,Aû zase zem¯eö, vezmu tÏ k t·tovi, aby tÏ oûivil.
+Dialogue: 0,0:28:31.73,0:28:33.90,titulek,,0000,0000,0000,,Minule jsi zem¯el aspoÚ pÏtsetkr·t, pamatujeö?
+Dialogue: 0,0:28:33.90,0:28:36.60,titulek,,0000,0000,0000,,Uû je z tebe veter·n v umÌr·nÌ. Co, Smrù·ku?
+Dialogue: 0,0:28:36.60,0:28:37.84,titulek,,0000,0000,0000,,To mi nijak nepom˘ûe!
+Dialogue: 0,0:28:37.84,0:28:41.17,titulek,,0000,0000,0000,,A jak vÌö, ûe tu platÌ stejn· pravidla?!
+Dialogue: 0,0:28:41.17,0:28:42.97,titulek,,0000,0000,0000,,MusÌme to prostÏ zkusit.
+Dialogue: 0,0:28:43.41,0:28:45.54,titulek,,0000,0000,0000,,Vyzkouöet se m· p¯ece vöechno!
+Dialogue: 0,0:29:14.01,0:29:15.63,titulek,,0000,0000,0000,,VidÌö? Jsi zase ûiv˝.
+Dialogue: 0,0:29:16.18,0:29:18.17,titulek,,0000,0000,0000,,VidÏl jsem zrozenÌ a z·nik vesmÌru!
+Dialogue: 0,0:29:18.41,0:29:21.14,titulek,,0000,0000,0000,,Bylo to jako ve sci-fi! SkuteËn˝ sci-fi!
+
+Dialogue: 0,0:29:22.36,0:29:25.86,nazevdilu,,0030,0000,0110,,{\1a&H10&\c&He0e0e0&\4a&H30&\be0}  Epizoda t¯etÌ\N\N\N\N\N\N\N\N\N\N\NVöehochuù!
+
+Dialogue: 0,0:29:30.32,0:29:32.52,titulek,,0000,0000,0000,,Hele, mecha pelik·n.
+Dialogue: 0,0:29:33.33,0:29:35.79,titulek,,0000,0000,0000,,Jestli m· b˝t tohle v·ö Pelik·n,
+Dialogue: 0,0:29:36.00,0:29:40.30,titulek,,0000,0000,0000,,znamen· to, ûe jsme aû na okraji Abenobaöi.
+Dialogue: 0,0:29:40.53,0:29:43.70,titulek,,0000,0000,0000,,Doöli jsme aû sem, ale po Ô·blÌkovi ani pam·tky.
+Dialogue: 0,0:29:43.77,0:29:44.83,titulek,,0000,0000,0000,,Hej.
+Dialogue: 0,0:29:46.61,0:29:48.27,titulek,,0000,0000,0000,,ProË tak poskakujeö?
+Dialogue: 0,0:29:48.84,0:29:50.57,titulek,,0000,0000,0000,,Nepot¯ebujeö na z·chod?
+Dialogue: 0,0:29:52.04,0:29:53.05,titulek,,0000,0000,0000,,Trefil jsem se?
+Dialogue: 0,0:29:53.05,0:29:54.07,titulek,,0000,0000,0000,,Starej se o sebe!
+Dialogue: 0,0:29:54.31,0:29:55.87,titulek,,0000,0000,0000,,J· si skoËÌm t·mhle.
+Dialogue: 0,0:29:56.25,0:29:58.31,titulek,,0000,0000,0000,,Jestli budeö koukat, tak tÏ p¯erazÌm!
+Dialogue: 0,0:29:58.98,0:30:00.65,titulek,,0000,0000,0000,,JasnÏ, ûe nebudu.
+Dialogue: 0,0:30:00.85,0:30:02.34,titulek,,0000,0000,0000,,M·m s·m plnÈ ruce pr·ce.
+Dialogue: 0,0:30:05.52,0:30:08.12,titulek,,0000,0000,0000,,Ach, moËenÌ do vesmÌru...
+Dialogue: 0,0:30:08.59,0:30:10.49,titulek,,0000,0000,0000,,To je v·ûnÏ sci-fi.
+Dialogue: 0,0:30:14.17,0:30:15.50,titulek,,0000,0000,0000,,Co se dÏje, Arumi?!
+Dialogue: 0,0:30:18.94,0:30:20.67,titulek,,0000,0000,0000,,Kdo je zas tohle?
+Dialogue: 0,0:30:21.34,0:30:22.83,titulek,,0000,0000,0000,,œ·blÌk! To je ten Ô·blÌk!
+Dialogue: 0,0:30:22.91,0:30:23.64,titulek,,0000,0000,0000,,œ·blÌk?
+Dialogue: 0,0:30:23.64,0:30:26.41,titulek,,0000,0000,0000,,Hele! M· na hlavÏ rohy, vidÌö?!
+Dialogue: 0,0:30:26.65,0:30:27.45,titulek,,0000,0000,0000,,Na hlavÏ?
+Dialogue: 0,0:30:27.45,0:30:29.31,titulek,,0000,0000,0000,,Na hlavÏ m·... kalhotky.
+Dialogue: 0,0:30:29.48,0:30:30.97,titulek,,0000,0000,0000,,Dej mi je!
+Dialogue: 0,0:30:31.95,0:30:33.62,titulek,,0000,0000,0000,,Radöi ne, nÏjak p·chnou.
+Dialogue: 0,0:30:33.62,0:30:35.45,titulek,,0000,0000,0000,,Nech toho a podej mi je!
+Dialogue: 0,0:30:36.36,0:30:38.82,titulek,,0000,0000,0000,,Nechci od nich naËichnout.
+Dialogue: 0,0:30:38.99,0:30:42.13,titulek,,0000,0000,0000,,Jestli ho nechytÌme, tak se nem˘ûeme vr·tit dom˘!
+Dialogue: 0,0:30:42.13,0:30:44.06,titulek,,0000,0000,0000,,Tak dÏlej, ty budiûkniËemu!
+Dialogue: 0,0:30:45.10,0:30:46.73,titulek,,0000,0000,0000,,Bez obav, dostanu ho!
+Dialogue: 0,0:30:46.73,0:30:49.17,titulek,,0000,0000,0000,,Ne, ne! ZniËÌö mi kalhotky!
+Dialogue: 0,0:30:49.17,0:30:49.97,titulek,,0000,0000,0000,,Co?
+Dialogue: 0,0:30:49.97,0:30:52.77,titulek,,0000,0000,0000,,Ne, chci ¯Ìct, nest¯Ìlej ho do hlavy!
+Dialogue: 0,0:30:52.77,0:30:55.67,titulek,,0000,0000,0000,,Aha. Ale je nÏjak cÌtit moËÌ.
+Dialogue: 0,0:30:55.67,0:30:56.78,titulek,,0000,0000,0000,,A nejde to z tebe?
+Dialogue: 0,0:30:56.78,0:30:58.48,titulek,,0000,0000,0000,,A ËÌ jsou tyhle kalhotky?
+Dialogue: 0,0:30:58.48,0:30:59.38,titulek,,0000,0000,0000,,NevÌm.
+Dialogue: 0,0:31:00.55,0:31:01.88,titulek,,0000,0000,0000,,Utekl! St˘j!
+Dialogue: 0,0:31:08.05,0:31:10.39,titulek,,0000,0000,0000,,NÈÈ!
+Dialogue: 0,0:31:19.40,0:31:20.96,titulek,,0000,0000,0000,,¡, pomÛc!
+Dialogue: 0,0:31:25.81,0:31:27.86,titulek,,0000,0000,0000,,MladistvÌ delikventi, zat˝k·m v·s!
+Dialogue: 0,0:31:32.78,0:31:33.48,titulek,,0000,0000,0000,,A!
+Dialogue: 0,0:31:33.48,0:31:33.78,titulek,,0000,0000,0000,,A!
+Dialogue: 0,0:31:33.78,0:31:34.25,titulek,,0000,0000,0000,,Ach!
+Dialogue: 0,0:31:35.75,0:31:36.35,titulek,,0000,0000,0000,,Be!
+Dialogue: 0,0:31:36.35,0:31:36.75,titulek,,0000,0000,0000,,Be!
+Dialogue: 0,0:31:36.75,0:31:36.98,titulek,,0000,0000,0000,,Be?
+Dialogue: 0,0:31:37.62,0:31:37.95,titulek,,0000,0000,0000,,Non!
+Dialogue: 0,0:31:37.95,0:31:38.62,titulek,,0000,0000,0000,,Non!
+Dialogue: 0,0:31:38.62,0:31:38.98,titulek,,0000,0000,0000,,No!
+Dialogue: 0,0:31:39.22,0:31:42.52,titulek,,0000,0000,0000,,Jsme Inspektorky z Federace MlÈËnÈ dr·hy, AndÌlci z Abena!
+Dialogue: 0,0:31:42.69,0:31:44.72,titulek,,0000,0000,0000,,Zat˝k·m v·s za neleg·lnÌ drûenÌ zbranÌ,
+Dialogue: 0,0:31:44.72,0:31:47.09,titulek,,0000,0000,0000,,niËenÌ ve¯ejnÈho majetku, kr·deû a dalöÌ hrubÈ p¯estupky!
+Dialogue: 0,0:31:47.09,0:31:48.65,titulek,,0000,0000,0000,,Mune-mune. A sÈgra!
+Dialogue: 0,0:31:48.79,0:31:51.06,titulek,,0000,0000,0000,,SleËno Aki, aù na sebe vezmete cokoliv, vypad·te p¯ÌöernÏ.
+Dialogue: 0,0:31:51.16,0:31:53.43,titulek,,0000,0000,0000,,Mimochodem! M˘ûete mi nÏkdo p˘jËit kalhotky?
+Dialogue: 0,0:31:53.60,0:31:54.43,titulek,,0000,0000,0000,,Coûe?
+Dialogue: 0,0:31:54.63,0:31:55.43,titulek,,0000,0000,0000,,Cos' chtÏla?
+Dialogue: 0,0:31:55.60,0:31:57.07,titulek,,0000,0000,0000,,Nic, v˘bec nic.
+Dialogue: 0,0:31:57.30,0:32:00.91,titulek,,0000,0000,0000,,Tak, chlapeËku, jestli nechceö, aby tÏ panÌ zav¯ela,
+Dialogue: 0,0:32:00.91,0:32:03.93,titulek,,0000,0000,0000,,pÏknÏ jÌ vyklop vöechno, co vÌö.
+Dialogue: 0,0:32:04.48,0:32:05.53,titulek,,0000,0000,0000,,Zav¯ete mÏ.
+Dialogue: 0,0:32:05.95,0:32:07.41,titulek,,0000,0000,0000,,Hej, poslouch·te mÏ?
+Dialogue: 0,0:32:07.71,0:32:11.75,titulek,,0000,0000,0000,,PopravdÏ jsme v tomhle svÏtÏ omylem a nem˘ûeme se vr·tit dom˘.
+Dialogue: 0,0:32:11.75,0:32:13.65,titulek,,0000,0000,0000,,P¯esnÏ tak, to je n·ö problÈm.
+Dialogue: 0,0:32:13.65,0:32:15.35,titulek,,0000,0000,0000,,V·ûnÏ! Kdyby s tÌm tak nÏkdo nÏco udÏlal.
+Dialogue: 0,0:32:15.35,0:32:17.59,titulek,,0000,0000,0000,,A vy m·te zase tak velk· prsa.
+Dialogue: 0,0:32:17.59,0:32:18.96,titulek,,0000,0000,0000,,J· v·m tak z·vidÌm.
+Dialogue: 0,0:32:18.96,0:32:20.79,titulek,,0000,0000,0000,,Takûe abychom se mohli vr·tit do toho Abenobaöi, kam pat¯Ìme...
+Dialogue: 0,0:32:20.79,0:32:21.79,titulek,,0000,0000,0000,,Poslouch·te mÏ v˘bec?
+Dialogue: 0,0:32:21.79,0:32:22.66,titulek,,0000,0000,0000,,To je...
+Dialogue: 0,0:32:22.66,0:32:25.43,titulek,,0000,0000,0000,,To je, jak kdyû drbou d˘chodkynÏ.
+Dialogue: 0,0:32:25.43,0:32:28.37,titulek,,0000,0000,0000,,Bude Arumi jednou vypadat taky takhle hroznÏ?
+Dialogue: 0,0:32:29.10,0:32:29.77,titulek,,0000,0000,0000,,Ha...
+Dialogue: 0,0:32:29.77,0:32:31.47,titulek,,0000,0000,0000,,Hej, to je ten Ô·blÌk!
+Dialogue: 0,0:32:31.47,0:32:32.80,titulek,,0000,0000,0000,,œ·blÌk!
+Dialogue: 0,0:32:33.07,0:32:35.34,titulek,,0000,0000,0000,,HalÛ, nem·m ho chytit?!
+Dialogue: 0,0:32:35.67,0:32:36.87,titulek,,0000,0000,0000,,Hej!
+Dialogue: 0,0:32:38.68,0:32:41.28,titulek,,0000,0000,0000,,Dob¯e! NenÌ na v·s spolehnutÌ,
+Dialogue: 0,0:32:41.28,0:32:43.48,titulek,,0000,0000,0000,,takûe to zb˝v· na mÏ!
+Dialogue: 0,0:32:51.96,0:32:55.65,titulek,,0000,0000,0000,,SouhvÏzdÌ Ryb a Jupiter svÌrajÌ ˙hel dvacet Ëty¯i stupÚ˘.
+Dialogue: 0,0:32:56.80,0:32:59.63,titulek,,0000,0000,0000,,Do toho vstupuje Mars svÌrajÌcÌ opaËn˝ ˙hel.
+Dialogue: 0,0:32:59.63,0:33:00.60,titulek,,0000,0000,0000,,No tak, poËkej!
+Dialogue: 0,0:33:03.50,0:33:04.67,titulek,,0000,0000,0000,,Zatracen· sm˘la.
+Dialogue: 0,0:33:04.67,0:33:06.17,titulek,,0000,0000,0000,,Hm? Co tu tropÌte, pane?
+Dialogue: 0,0:33:06.17,0:33:07.61,titulek,,0000,0000,0000,,Ten ohoz vypad· pÏknÏ zaöle.
+Dialogue: 0,0:33:07.61,0:33:09.51,titulek,,0000,0000,0000,,äpehujete? Vy nÏkoho öpehujete, ûe jo?!
+Dialogue: 0,0:33:09.51,0:33:11.70,titulek,,0000,0000,0000,,Ty ömÌr·ku, tak copak tam vidÌö?
+Dialogue: 0,0:33:11.94,0:33:13.81,titulek,,0000,0000,0000,,PoËkej, taky se mrknu, ty starej pras·ku!
+Dialogue: 0,0:33:15.05,0:33:16.28,titulek,,0000,0000,0000,,Co to? Nikdo tam nenÌ.
+Dialogue: 0,0:33:16.72,0:33:19.42,titulek,,0000,0000,0000,,No, nic moc. P¯ÌötÏ se snaûte vÌc, pane.
+Dialogue: 0,0:33:19.42,0:33:20.09,titulek,,0000,0000,0000,,M˝lÌö se.
+Dialogue: 0,0:33:20.09,0:33:21.28,titulek,,0000,0000,0000,,Tak se mÏjte, pane.
+Dialogue: 0,0:33:21.55,0:33:22.55,titulek,,0000,0000,0000,,M˝lÌö se!
+Dialogue: 0,0:33:22.55,0:33:23.52,titulek,,0000,0000,0000,,Coûe?
+Dialogue: 0,0:33:23.52,0:33:24.39,titulek,,0000,0000,0000,,PanÌ?
+Dialogue: 0,0:33:24.39,0:33:26.56,titulek,,0000,0000,0000,,Ne! Ne¯Ìkej mi Ñpaneì!
+Dialogue: 0,0:33:26.56,0:33:27.62,titulek,,0000,0000,0000,,V˝sosti?
+Dialogue: 0,0:33:27.93,0:33:29.03,titulek,,0000,0000,0000,,K·mo?
+Dialogue: 0,0:33:29.03,0:33:29.89,titulek,,0000,0000,0000,,Co chceö?
+Dialogue: 0,0:33:30.16,0:33:33.53,titulek,,0000,0000,0000,,NebÏûel tudy n·hodou Ô·blÌk s kalhotkami na hlavÏ?
+Dialogue: 0,0:33:34.90,0:33:37.10,titulek,,0000,0000,0000,,T·mhle je! Z˘staÚ, kde jsi!
+Dialogue: 0,0:33:38.17,0:33:39.50,titulek,,0000,0000,0000,,St˘j, zatracenÏ!
+Dialogue: 0,0:33:41.24,0:33:43.94,titulek,,0000,0000,0000,,Uû je mi mnohem lÈpe, kdyû jsem se mohla tak kr·snÏ vypovÌdat.
+Dialogue: 0,0:33:43.94,0:33:45.71,titulek,,0000,0000,0000,,Muselo to b˝t pro tebe tÏûkÈ.
+Dialogue: 0,0:33:45.71,0:33:47.65,titulek,,0000,0000,0000,,Ty naöe uboû·tko.
+Dialogue: 0,0:33:47.78,0:33:49.51,titulek,,0000,0000,0000,,Ch·pu, v jakÈ jste situaci.
+Dialogue: 0,0:33:49.72,0:33:51.44,titulek,,0000,0000,0000,,Je zde nÏkolik polehËujÌcÌch okolnostÌ.
+Dialogue: 0,0:33:51.75,0:33:53.41,titulek,,0000,0000,0000,,Slibuji, ûe vöechno vr·tÌme.
+Dialogue: 0,0:33:53.62,0:33:55.45,titulek,,0000,0000,0000,,Ale to nic, to nic.
+Dialogue: 0,0:33:55.45,0:33:59.02,titulek,,0000,0000,0000,,V tomhle mÏstÏ mohou krasavice odch·zet bez placenÌ.
+Dialogue: 0,0:33:59.73,0:34:00.66,titulek,,0000,0000,0000,,P¯esnÏ tak.
+Dialogue: 0,0:34:00.66,0:34:03.92,titulek,,0000,0000,0000,,T¯eba my - p¯es noc pracujeme jako vesmÌrnÌ pir·ti.
+Dialogue: 0,0:34:04.16,0:34:06.53,titulek,,0000,0000,0000,,Mimochodem, nevidÏlas' nÏkoho takovÈho?
+Dialogue: 0,0:34:07.10,0:34:09.33,titulek,,0000,0000,0000,,UvÌtaly bychom tvou spolupr·ci p¯i vyöet¯ov·nÌ.
+Dialogue: 0,0:34:10.50,0:34:13.73,titulek,,0000,0000,0000,,U·, to je ten prodavaË p¯ÌvÏsk˘!
+Dialogue: 0,0:34:14.74,0:34:16.84,titulek,,0000,0000,0000,,Tak, koneËnÏ tÏ m·m!
+Dialogue: 0,0:34:16.84,0:34:20.68,titulek,,0000,0000,0000,,Ty mal· potvoro, rozml·tÌm tÏ na kaöi!
+Dialogue: 0,0:34:20.98,0:34:23.88,titulek,,0000,0000,0000,,Zachovejte klid, mlad˝ muûi.
+Dialogue: 0,0:34:23.88,0:34:27.08,titulek,,0000,0000,0000,,Pusùte mÏ! MusÌm zabÌt toho Ô·blÌka!
+Dialogue: 0,0:34:27.72,0:34:28.62,titulek,,0000,0000,0000,,Ale no tak!
+Dialogue: 0,0:34:28.62,0:34:33.02,titulek,,0000,0000,0000,,NemÏl byste se zlobit na to bezbrannÈ stvo¯enÌ.
+Dialogue: 0,0:34:35.56,0:34:39.19,titulek,,0000,0000,0000,,Mimochodem, proË mÏ vlastnÏ honÌö? Pjui!
+Dialogue: 0,0:34:39.70,0:34:40.53,titulek,,0000,0000,0000,,Pjui?!
+Dialogue: 0,0:34:40.53,0:34:43.90,titulek,,0000,0000,0000,,Tyhle dÏti tvrdÌ, ûe se kv˘li tobÏ dostaly do tohoto svÏta.
+Dialogue: 0,0:34:44.00,0:34:44.80,titulek,,0000,0000,0000,,Kalhotky...
+Dialogue: 0,0:34:44.80,0:34:47.54,titulek,,0000,0000,0000,,Nem·m s tÌm nic spoleËnÈho. J· za to nem˘ûu. Pjui.
+Dialogue: 0,0:34:47.54,0:34:48.51,titulek,,0000,0000,0000,,Pjui?
+Dialogue: 0,0:34:48.51,0:34:49.34,titulek,,0000,0000,0000,,Pjui?
+Dialogue: 0,0:34:49.34,0:34:51.81,titulek,,0000,0000,0000,,To je jedno. ProË je nevr·tÌö, kam pat¯Ì?!
+Dialogue: 0,0:34:51.81,0:34:52.85,titulek,,0000,0000,0000,,Moje kalhotky!
+Dialogue: 0,0:34:52.85,0:34:55.78,titulek,,0000,0000,0000,,ProsÌm, pomozte mi. SnaûnÏ v·s prosÌm, pjui.
+Dialogue: 0,0:34:55.98,0:34:57.04,titulek,,0000,0000,0000,,Pjui-pju?
+Dialogue: 0,0:34:58.35,0:34:59.41,titulek,,0000,0000,0000,,Pju ^^;;
+Dialogue: 0,0:35:05.79,0:35:08.73,titulek,,0000,0000,0000,,Co je to za svÏt, kdyû i Ô·blÌcÌ dÏlajÌ Ñpjuiì?
+Dialogue: 0,0:35:09.06,0:35:10.65,titulek,,0000,0000,0000,,To je dÏs!
+Dialogue: 0,0:35:11.13,0:35:12.46,titulek,,0000,0000,0000,,Hej!
+Dialogue: 0,0:35:12.46,0:35:14.43,titulek,,0000,0000,0000,,Toho jsem p¯ed chvÌlÌ potkal!
+Dialogue: 0,0:35:15.17,0:35:16.93,titulek,,0000,0000,0000,,Coûe?! To je klÌËovÈ svÏdectvÌ!
+Dialogue: 0,0:35:17.40,0:35:20.17,titulek,,0000,0000,0000,,äpehoval nÏkoho dalekohledem.
+Dialogue: 0,0:35:20.17,0:35:23.20,titulek,,0000,0000,0000,,Dalekohledem?! Je tady ve mÏstÏ!
+Dialogue: 0,0:35:23.64,0:35:26.30,titulek,,0000,0000,0000,,Bylo to t·mhle u éelvÌch l·znÌ.
+Dialogue: 0,0:35:26.58,0:35:30.45,titulek,,0000,0000,0000,,ProsÌm, aù tam jeötÏ je! Uû bÏûÌm!
+Dialogue: 0,0:35:40.43,0:35:42.66,titulek,,0000,0000,0000,,Dai-monger!
+Dialogue: 0,0:35:43.46,0:35:44.96,titulek,,0000,0000,0000,,Ten ale vyrostl!
+Dialogue: 0,0:35:44.96,0:35:46.36,titulek,,0000,0000,0000,,Jen poËkej! Proti˙tok!
+Dialogue: 0,0:35:48.33,0:35:50.17,titulek,,0000,0000,0000,,ZatracenÏ! Ani ökr·bnutÌ!
+Dialogue: 0,0:35:50.17,0:35:53.04,titulek,,0000,0000,0000,,Saöi, dneska nejsi ve svÈ k˘ûi.
+Dialogue: 0,0:35:54.11,0:35:55.10,titulek,,0000,0000,0000,,Co se dÏje?
+Dialogue: 0,0:35:55.77,0:35:56.64,titulek,,0000,0000,0000,,Sci-fi!
+Dialogue: 0,0:35:56.64,0:35:57.80,titulek,,0000,0000,0000,,Ob¯Ì robot!
+Dialogue: 0,0:35:57.91,0:35:59.11,titulek,,0000,0000,0000,,Kr·snÈ inspektorky!
+Dialogue: 0,0:35:59.11,0:36:01.01,titulek,,0000,0000,0000,,A mlad˝ odv·ûn˝ hrdina!
+Dialogue: 0,0:36:01.01,0:36:02.05,titulek,,0000,0000,0000,,A vöechno ostatnÌ!
+Dialogue: 0,0:36:02.05,0:36:02.98,titulek,,0000,0000,0000,,Aha!
+Dialogue: 0,0:36:02.98,0:36:04.48,titulek,,0000,0000,0000,,M·m to, m·m to!
+Dialogue: 0,0:36:04.48,0:36:07.09,titulek,,0000,0000,0000,,Pravidla tohoto svÏta a jeho uspo¯·d·nÌ!
+Dialogue: 0,0:36:07.09,0:36:07.92,titulek,,0000,0000,0000,,To byla rychlovka.
+
+Dialogue: 0,0:36:27.44,0:36:28.30,titulek,,0000,0000,0000,,NÏkdo n·s zachr·nil!
+Dialogue: 0,0:36:28.30,0:36:30.47,titulek,,0000,0000,0000,,A jakou to m· souvislost s p¯edchozÌm dÏjem?
+Dialogue: 0,0:36:30.47,0:36:32.11,titulek,,0000,0000,0000,,To je jen detail.
+Dialogue: 0,0:36:32.11,0:36:33.73,titulek,,0000,0000,0000,,NesmÌö se vrtat v maliËkostech, ûensk·.
+Dialogue: 0,0:36:35.28,0:36:36.47,titulek,,0000,0000,0000,,Co p¯ijde teÔ?!
+Dialogue: 0,0:36:36.78,0:36:39.42,titulek,,0000,0000,0000,,Bon jour. To bylo o vl·sek.
+Dialogue: 0,0:36:39.42,0:36:42.75,titulek,,0000,0000,0000,,T·ta! Ha? Je to taky robot! Mecha-papa!
+Dialogue: 0,0:36:43.35,0:36:44.52,titulek,,0000,0000,0000,,Uû na v·s Ëek·m!
+Dialogue: 0,0:36:44.52,0:36:47.46,titulek,,0000,0000,0000,,Co to? DÏda Masa nenÌ robot? To je divnÈ.
+Dialogue: 0,0:36:47.79,0:36:49.32,titulek,,0000,0000,0000,,Omlouv·me se za zpoûdÏnÌ, starouöi.
+Dialogue: 0,0:36:49.32,0:36:51.79,titulek,,0000,0000,0000,,HvÏzda koneËnÏ dorazila.
+Dialogue: 0,0:36:51.79,0:36:54.90,titulek,,0000,0000,0000,,Co to do tebe vjelo? Uû pÏknou chvÌli mluvÌö z cesty.
+Dialogue: 0,0:36:54.90,0:36:56.30,titulek,,0000,0000,0000,,Jste p¯ipraveni?!
+Dialogue: 0,0:36:56.30,0:36:57.30,titulek,,0000,0000,0000,,Okej!
+Dialogue: 0,0:36:57.30,0:36:58.27,titulek,,0000,0000,0000,,A na co?
+Dialogue: 0,0:37:06.21,0:37:07.00,titulek,,0000,0000,0000,,Au!
+Dialogue: 0,0:37:07.28,0:37:10.45,titulek,,0000,0000,0000,,Z hypno-lekcÌ vÌte, jak pilotovat!
+Dialogue: 0,0:37:10.45,0:37:12.11,titulek,,0000,0000,0000,,JdÏtÏ a bojujte vöÌ silou!
+Dialogue: 0,0:37:12.38,0:37:13.68,titulek,,0000,0000,0000,,Cesta je voln·.
+Dialogue: 0,0:37:13.68,0:37:16.28,titulek,,0000,0000,0000,,VÏ¯Ìme v·m! Jste naöe jedin· nadÏje!
+Dialogue: 0,0:37:16.79,0:37:18.28,titulek,,0000,0000,0000,,Saöi hl·sÌ odlet!
+Dialogue: 0,0:37:27.63,0:37:29.03,titulek,,0000,0000,0000,,Ty zatracen· ocelov· nestv˘ro!
+Dialogue: 0,0:37:29.03,0:37:30.50,titulek,,0000,0000,0000,,Vypusùte rakety!
+Dialogue: 0,0:37:32.30,0:37:34.46,titulek,,0000,0000,0000,,Takhle to nep¯eûijeme!
+Dialogue: 0,0:37:34.84,0:37:37.20,titulek,,0000,0000,0000,,Vypad· to, ûe d·vajÌ p¯ednost bezhlavÈmu ˙toku.
+Dialogue: 0,0:37:37.47,0:37:38.41,titulek,,0000,0000,0000,,Hm.
+Dialogue: 0,0:37:38.41,0:37:41.40,titulek,,0000,0000,0000,,Saöi, tohle je k niËemu! Spojte se!
+Dialogue: 0,0:37:41.98,0:37:43.35,titulek,,0000,0000,0000,,Sl·va, na tohle jsem Ëekal!
+Dialogue: 0,0:37:43.35,0:37:45.87,titulek,,0000,0000,0000,,Arumi, musÌö se spojit se Saöim!
+Dialogue: 0,0:37:46.38,0:37:47.58,titulek,,0000,0000,0000,,Spojit se se Saöim?
+Dialogue: 0,0:37:47.58,0:37:49.52,titulek,,0000,0000,0000,,Co to ¯Ìk·ö, dÏdo? To je nechutnÈ!
+Dialogue: 0,0:37:49.72,0:37:51.79,titulek,,0000,0000,0000,,Moûn· nem·m kalhotky,
+Dialogue: 0,0:37:51.79,0:37:54.02,titulek,,0000,0000,0000,,ale to neznamen·, ûe po mnÏ m˘ûete chtÌt nÏco takovÈho!
+Dialogue: 0,0:37:54.02,0:37:55.79,titulek,,0000,0000,0000,,Jak m˘ûete takhle mluvit s dospÌvajÌcÌ dÌvkou?!
+Dialogue: 0,0:37:55.79,0:37:56.89,titulek,,0000,0000,0000,,Poslouchej mÏ!
+Dialogue: 0,0:37:56.89,0:37:58.49,titulek,,0000,0000,0000,,⁄plnÈho spojenÌ dos·hnete jedinÏ tehdy,
+Dialogue: 0,0:37:58.49,0:38:00.56,titulek,,0000,0000,0000,,aû se v·s pÏt dostane na stejnou frekvenci!
+Dialogue: 0,0:38:00.56,0:38:03.00,titulek,,0000,0000,0000,,Coûe?! JeötÏ t¯i dalöÌ?!
+Dialogue: 0,0:38:03.17,0:38:04.76,titulek,,0000,0000,0000,,ZvrhlÌci! Prasata! V pÏti lidech?
+Dialogue: 0,0:38:05.43,0:38:08.44,titulek,,0000,0000,0000,,Jednotka 5, v po¯·dku! Jednotka 4, v po¯·dku! Jednotka 3, v po¯·dku!
+Dialogue: 0,0:38:08.44,0:38:09.91,titulek,,0000,0000,0000,,Jednotky 1 a 2, na co Ëek·te?!
+Dialogue: 0,0:38:09.91,0:38:12.54,titulek,,0000,0000,0000,,Kdo jsou ti dalöÌ? Tlusùoch, prcek a hezoun?
+Dialogue: 0,0:38:12.54,0:38:14.81,titulek,,0000,0000,0000,,A co profesorova dcera? Aha, to je Arumi...
+Dialogue: 0,0:38:14.81,0:38:17.61,titulek,,0000,0000,0000,,To je nedobrÈ. Jejich mysli  spolu neladÌ.
+Dialogue: 0,0:38:17.61,0:38:18.74,titulek,,0000,0000,0000,,No, co se d· dÏlat.
+Dialogue: 0,0:38:19.05,0:38:20.38,titulek,,0000,0000,0000,,Vy dva, podÌvejte se t·mhle!
+Dialogue: 0,0:38:22.52,0:38:23.79,titulek,,0000,0000,0000,,U·, moje kalhotky!
+Dialogue: 0,0:38:23.79,0:38:25.84,titulek,,0000,0000,0000,,Coûe?! To jsou tvoje kalhotky?!
+Dialogue: 0,0:38:27.46,0:38:30.63,titulek,,0000,0000,0000,,Dok·zali to! Oba se soust¯edili na kalhotky!
+Dialogue: 0,0:38:30.63,0:38:31.89,titulek,,0000,0000,0000,,Dobr·, teÔ m·me p¯Ìleûitost!
+Dialogue: 0,0:38:31.89,0:38:34.16,titulek,,0000,0000,0000,,SpojenÌ ObchodnÌ pas·ûe Abenobaöi!
+Dialogue: 0,0:38:54.72,0:38:57.41,titulek,,0000,0000,0000,,Hotovo! Abeno King!
+Dialogue: 0,0:38:59.99,0:39:01.42,titulek,,0000,0000,0000,,Pane jo, dokonËili jsme spojenÌ.
+Dialogue: 0,0:39:01.42,0:39:02.49,titulek,,0000,0000,0000,,Coûe?
+Dialogue: 0,0:39:02.49,0:39:04.59,titulek,,0000,0000,0000,,SpojenÌ je jen p¯emÏna v robota? To je pitomost.
+Dialogue: 0,0:39:04.59,0:39:09.06,titulek,,0000,0000,0000,,Co to povÌd·ö, Arumi?! NevidÌö tu dokonalost?!
+Dialogue: 0,0:39:09.06,0:39:12.53,titulek,,0000,0000,0000,,Nez·jem. A kde vlastnÏ jsi?
+Dialogue: 0,0:39:12.53,0:39:13.90,titulek,,0000,0000,0000,,Tady, Arumi.
+Dialogue: 0,0:39:17.04,0:39:18.97,titulek,,0000,0000,0000,,Dej ten zadek pryË!
+Dialogue: 0,0:39:18.97,0:39:20.31,titulek,,0000,0000,0000,,NedÌvej se! Nesahej na mÏ!
+Dialogue: 0,0:39:20.31,0:39:21.83,titulek,,0000,0000,0000,,Co to vyv·dÌte?!
+Dialogue: 0,0:39:22.38,0:39:23.57,titulek,,0000,0000,0000,,Nep¯Ìtel se blÌûÌ!
+Dialogue: 0,0:39:24.48,0:39:25.88,titulek,,0000,0000,0000,,Nech toho!
+Dialogue: 0,0:39:25.88,0:39:28.78,titulek,,0000,0000,0000,,No tak, Arumi, m·ö tlust˝ sklo! Uhni!
+Dialogue: 0,0:39:28.78,0:39:30.75,titulek,,0000,0000,0000,,Zasekla jsem se!
+Dialogue: 0,0:39:32.19,0:39:34.25,titulek,,0000,0000,0000,,P¯estaÚ!
+Dialogue: 0,0:39:36.63,0:39:37.83,titulek,,0000,0000,0000,,PoËkej chvÌli!
+Dialogue: 0,0:39:37.83,0:39:40.30,titulek,,0000,0000,0000,,Zrovna jsme provedli jeden par·dnÌ ˙tok!
+Dialogue: 0,0:39:40.30,0:39:42.42,titulek,,0000,0000,0000,,A dokonce jsme nemuseli nic hul·kat!
+Dialogue: 0,0:39:42.53,0:39:46.00,titulek,,0000,0000,0000,,No a co? Tak dÏlej, uvolni mÏ!
+Dialogue: 0,0:39:46.00,0:39:47.24,titulek,,0000,0000,0000,,V·ûÌö snad tunu!
+Dialogue: 0,0:39:47.24,0:39:48.17,titulek,,0000,0000,0000,,Tak!
+Dialogue: 0,0:39:48.17,0:39:49.74,titulek,,0000,0000,0000,,Nep¯Ìtel se blÌûÌ!
+Dialogue: 0,0:39:49.74,0:39:51.27,titulek,,0000,0000,0000,,Budeme se st¯Ìdat v ˙tocÌch.
+Dialogue: 0,0:39:51.27,0:39:53.34,titulek,,0000,0000,0000,,Tys zrovna jeden provedla, takûe je ¯ada na mnÏ.
+Dialogue: 0,0:39:53.34,0:39:54.54,titulek,,0000,0000,0000,,Jak myslÌö.
+Dialogue: 0,0:39:54.54,0:39:58.11,titulek,,0000,0000,0000,,Dob¯e. Vypusùte rakety!
+Dialogue: 0,0:39:58.11,0:39:59.38,titulek,,0000,0000,0000,,P·ni!
+Dialogue: 0,0:40:00.18,0:40:02.01,titulek,,0000,0000,0000,,NÏconÏco Skok!
+Dialogue: 0,0:40:02.18,0:40:04.15,titulek,,0000,0000,0000,,NÏconÏco P¯ist·nÌ!
+Dialogue: 0,0:40:05.15,0:40:07.56,titulek,,0000,0000,0000,,V·ûnÏ to musÌme hul·kat?
+Dialogue: 0,0:40:07.56,0:40:09.36,titulek,,0000,0000,0000,,Vym˝ölet ty n·zvy z hlavy je tÏûöÌ, neû jsem myslel,
+Dialogue: 0,0:40:09.36,0:40:10.43,titulek,,0000,0000,0000,,ale lepöÌ, neû nic!
+Dialogue: 0,0:40:10.43,0:40:11.22,titulek,,0000,0000,0000,,Dob¯e.
+Dialogue: 0,0:40:11.43,0:40:13.59,titulek,,0000,0000,0000,,MeË Pades·tiprocentnÌ Slevy!
+Dialogue: 0,0:40:14.33,0:40:16.02,titulek,,0000,0000,0000,,Vrh KuchyÚsk˝m Noûem!
+Dialogue: 0,0:40:17.40,0:40:19.26,titulek,,0000,0000,0000,,Chvat Tot·lnÌho V˝prodeje!
+Dialogue: 0,0:40:26.54,0:40:29.11,titulek,,0000,0000,0000,,Arumi, musÌme se st¯Ìdat! Nech mÏ taky nÏco ¯Ìct!
+Dialogue: 0,0:40:29.11,0:40:31.84,titulek,,0000,0000,0000,,Co to? Ta p·ka nefunguje.
+Dialogue: 0,0:40:32.15,0:40:33.41,titulek,,0000,0000,0000,,Nep¯Ìtel se blÌûÌ!
+Dialogue: 0,0:40:38.09,0:40:40.42,titulek,,0000,0000,0000,,PoËkej, to je p¯ece ozdoba helmy!
+Dialogue: 0,0:40:40.42,0:40:41.99,titulek,,0000,0000,0000,,A je z nÌ zbraÚ!
+Dialogue: 0,0:40:41.99,0:40:43.08,titulek,,0000,0000,0000,,Tu m·ö!
+Dialogue: 0,0:40:45.99,0:40:48.80,titulek,,0000,0000,0000,,Teda! To byl par·dnÌ ˙tok!
+Dialogue: 0,0:40:48.80,0:40:50.57,titulek,,0000,0000,0000,,Rychle! Rychle! TeÔ t¯eba...
+Dialogue: 0,0:40:50.57,0:40:54.50,titulek,,0000,0000,0000,,Megaz·¯iv˝ Blesk PoslednÌho ⁄deru!
+Dialogue: 0,0:41:00.81,0:41:01.97,titulek,,0000,0000,0000,,Co je zase tohle?
+Dialogue: 0,0:41:02.48,0:41:04.14,titulek,,0000,0000,0000,,Ahojky!
+Dialogue: 0,0:41:05.81,0:41:07.78,titulek,,0000,0000,0000,,SleËna Mune-mune! A sÈgra!
+Dialogue: 0,0:41:08.08,0:41:10.62,titulek,,0000,0000,0000,,SleËno Aki, aù na sebe vezmete cokoliv, vypad·te p¯ÌöernÏ.
+Dialogue: 0,0:41:10.62,0:41:13.14,titulek,,0000,0000,0000,,Ten hlas zn·m! To jsou ta dÏcka!
+Dialogue: 0,0:41:13.32,0:41:14.88,titulek,,0000,0000,0000,,é·dnÈ kalhotky nem·me!
+Dialogue: 0,0:41:15.12,0:41:18.29,titulek,,0000,0000,0000,,Je noc, takûe teÔ jsme pir·ti!
+Dialogue: 0,0:41:18.56,0:41:21.19,titulek,,0000,0000,0000,,A proto musÌme udÏlat nÏco zlÈho.
+Dialogue: 0,0:41:21.40,0:41:22.93,titulek,,0000,0000,0000,,Po¯·dnÏ jsme to tady z¯Ìdily,
+Dialogue: 0,0:41:22.93,0:41:24.59,titulek,,0000,0000,0000,,to snad nestaËÌ?
+Dialogue: 0,0:41:24.73,0:41:27.67,titulek,,0000,0000,0000,,Moûn· bychom mÏly jÌt hledat poklad, kdyû uû jsme ti pir·ti!
+Dialogue: 0,0:41:28.10,0:41:30.70,titulek,,0000,0000,0000,,Coûe? Ten Ô·blÌk je po¯·d jeötÏ naûivu?!
+Dialogue: 0,0:41:32.17,0:41:33.64,titulek,,0000,0000,0000,,Mohu ËÌst v jeho mysli!
+Dialogue: 0,0:41:34.24,0:41:40.41,titulek,,0000,0000,0000,,ÑZesl·bl jsem, a proto se spojÌm s lodÌ, kter· do mne narazila,
+Dialogue: 0,0:41:40.75,0:41:46.15,titulek,,0000,0000,0000,,a vezmu rukojmÌ, abych se pomstil.ì
+Dialogue: 0,0:41:47.39,0:41:48.69,titulek,,0000,0000,0000,,SleËna Mune-mune je...
+Dialogue: 0,0:42:14.35,0:42:15.68,titulek,,0000,0000,0000,,Co se to dÏje?!
+Dialogue: 0,0:42:15.68,0:42:19.71,titulek,,0000,0000,0000,,Ten Ô·blÌk p¯evzal kontrolu nad lodÌ sleËny Mune-mune!
+Dialogue: 0,0:42:20.12,0:42:21.45,titulek,,0000,0000,0000,,Ty jeden...
+Dialogue: 0,0:42:31.20,0:42:32.23,titulek,,0000,0000,0000,,To nep˘jde!
+Dialogue: 0,0:42:32.23,0:42:34.93,titulek,,0000,0000,0000,,S tak mal˝m robotem proti nÏmu nem·me öanci!
+Dialogue: 0,0:42:36.54,0:42:38.71,titulek,,0000,0000,0000,,VidÏli jste moc VelkÈho ZlÈho P·na VesmÌru?!
+Dialogue: 0,0:42:38.71,0:42:40.71,titulek,,0000,0000,0000,,Jej, takûe tentokr·t Velk˝ Zl˝ P·na VesmÌru?
+Dialogue: 0,0:42:40.71,0:42:41.94,titulek,,0000,0000,0000,,Hej, Mune, jde ti to skvÏle!
+Dialogue: 0,0:42:44.61,0:42:46.48,titulek,,0000,0000,0000,,Co to tam blik·?!
+Dialogue: 0,0:42:46.48,0:42:49.28,titulek,,0000,0000,0000,,To ne¯eö! ProstÏ se dostaÚte do st¯edu ObchodnÌ pas·ûe!
+Dialogue: 0,0:42:49.62,0:42:50.65,titulek,,0000,0000,0000,,DÏdo!
+Dialogue: 0,0:42:50.65,0:42:53.59,titulek,,0000,0000,0000,,Pamatujete si na obchody, kterÈ udrûujÌ Rovnov·hu Ëty¯ boûstev?
+Dialogue: 0,0:42:53.59,0:42:56.49,titulek,,0000,0000,0000,,Aû se Abeno King postavÌ p¯esnÏ mezi nÏ,
+Dialogue: 0,0:42:56.63,0:43:00.46,titulek,,0000,0000,0000,,procitne legend·rnÌ sÌla d¯ÌmajÌcÌ v nitru Abenobaöi!
+Dialogue: 0,0:43:00.46,0:43:02.05,titulek,,0000,0000,0000,,Vem to Ëert! J· chci svoje kalhotky!
+Dialogue: 0,0:43:02.63,0:43:06.29,titulek,,0000,0000,0000,,Jdu na to! MusÌme zÌskat tu legend·rnÌ sÌlu!
+Dialogue: 0,0:43:17.11,0:43:18.44,titulek,,0000,0000,0000,,Sleva, sleva, sleva!
+Dialogue: 0,0:43:20.52,0:43:21.55,titulek,,0000,0000,0000,,Hur·!
+Dialogue: 0,0:43:21.55,0:43:24.18,titulek,,0000,0000,0000,,P¯ipijme na vÌtÏzstvÌ VelkÈho ZlÈho P·na VesmÌru!
+Dialogue: 0,0:43:24.42,0:43:25.69,titulek,,0000,0000,0000,,Na zdravÌ.
+Dialogue: 0,0:43:25.69,0:43:27.15,titulek,,0000,0000,0000,,Party! Party!
+Dialogue: 0,0:43:31.29,0:43:32.16,titulek,,0000,0000,0000,,Coûe?!
+Dialogue: 0,0:43:32.16,0:43:33.63,titulek,,0000,0000,0000,,Kde se to tu vzalo?!
+Dialogue: 0,0:43:34.16,0:43:38.50,titulek,,0000,0000,0000,,PohleÔte! Kolos·lnÌ vesmÌrn˝ Abenobaöi Caesar!
+Dialogue: 0,0:43:39.50,0:43:41.37,titulek,,0000,0000,0000,,Legend·rnÌ obr byl probuzen!
+Dialogue: 0,0:43:41.74,0:43:43.37,titulek,,0000,0000,0000,,Nem·te öanci zvÌtÏzit!
+Dialogue: 0,0:43:43.37,0:43:45.00,titulek,,0000,0000,0000,,RadÏji se vzdejte!
+Dialogue: 0,0:43:45.27,0:43:49.38,titulek,,0000,0000,0000,,Vy zbabÏlci, vyrukovat s tÌm, zrovna kdyû m·me opici!
+Dialogue: 0,0:43:49.38,0:43:51.74,titulek,,0000,0000,0000,,Kaöleme na nÏ! P¯ipravte proudovÈ dÏlo!
+Dialogue: 0,0:43:52.11,0:43:53.24,titulek,,0000,0000,0000,,Pal!
+Dialogue: 0,0:43:53.88,0:43:56.28,titulek,,0000,0000,0000,,K sakru, nep¯Ìtel pouûil proudovÈ dÏlo.
+Dialogue: 0,0:43:56.42,0:43:58.25,titulek,,0000,0000,0000,,Vzduön· obrana! Otev¯Ìt tv·¯!
+Dialogue: 0,0:43:59.25,0:44:01.12,titulek,,0000,0000,0000,,N·kupnÌ HoreËka!
+Dialogue: 0,0:44:05.79,0:44:09.46,titulek,,0000,0000,0000,,Zachytili jsme energii DrtiËe prostoru. OhromnÈ mnoûstvÌ.
+Dialogue: 0,0:44:10.10,0:44:12.20,titulek,,0000,0000,0000,,Energie DrtiËe prostoru?
+Dialogue: 0,0:44:12.20,0:44:13.79,titulek,,0000,0000,0000,,Ten p¯ece m˘ûe zniËit samotn˝ vesmÌr?!
+Dialogue: 0,0:44:16.04,0:44:19.07,titulek,,0000,0000,0000,,»irou n·hodou tu m·me jeden DrtiË prostoru!
+Dialogue: 0,0:44:19.07,0:44:20.58,titulek,,0000,0000,0000,,Nesnaûte se n·s porazit!
+Dialogue: 0,0:44:20.58,0:44:21.77,titulek,,0000,0000,0000,,To je teda...
+Dialogue: 0,0:44:22.64,0:44:24.87,titulek,,0000,0000,0000,,Hej, to jsou moje kalhotky!
+Dialogue: 0,0:44:28.02,0:44:28.98,titulek,,0000,0000,0000,,Pal!
+Dialogue: 0,0:44:30.35,0:44:34.05,titulek,,0000,0000,0000,,Ne! Kdyû vybuchnou, vesmÌr splaskne a skonËÌ!
+Dialogue: 0,0:44:38.06,0:44:40.05,titulek,,0000,0000,0000,,Jdu na to!
+Dialogue: 0,0:44:58.91,0:45:00.62,titulek,,0000,0000,0000,,SleËno Mune-mune!
+Dialogue: 0,0:45:00.62,0:45:03.74,titulek,,0000,0000,0000,,Kalhotky!
+Dialogue: 0,0:45:05.95,0:45:07.15,titulek,,0000,0000,0000,,Oteplilo se.
+Dialogue: 0,0:45:08.62,0:45:10.25,titulek,,0000,0000,0000,,Tak sbohem.
+Dialogue: 0,0:45:11.53,0:45:13.82,titulek,,0000,0000,0000,,DÏkujeme, p¯ijÔte zas!
+Dialogue: 0,0:45:14.66,0:45:17.53,titulek,,0000,0000,0000,,KoneËnÏ! KoneËnÏ!
+Dialogue: 0,0:45:17.53,0:45:19.83,titulek,,0000,0000,0000,,KoneËnÏ je zase m·m!
+Dialogue: 0,0:45:20.50,0:45:23.84,titulek,,0000,0000,0000,,Ach jo, vöechny jste mi rozbili, jdu dom˘.
+Dialogue: 0,0:45:23.84,0:45:24.57,titulek,,0000,0000,0000,,MÏjte se.
+Dialogue: 0,0:45:30.58,0:45:32.55,titulek,,0000,0000,0000,,Hej, Ô·blÌku, tak dÏlej!
+Dialogue: 0,0:45:32.55,0:45:34.78,titulek,,0000,0000,0000,,VÌö, co tÏ Ëek·, kdyû to zase spleteö.
+Dialogue: 0,0:45:34.78,0:45:36.15,titulek,,0000,0000,0000,,Bude to v po¯·dku, pjui.
+Dialogue: 0,0:45:36.42,0:45:38.05,titulek,,0000,0000,0000,,Vöechny vÏci jsoucÌ,
+Dialogue: 0,0:45:39.32,0:45:42.45,titulek,,0000,0000,0000,,bohovÈ nebes, bohovÈ zemÏ, vöechno aù je, jak m· b˝t.
+Dialogue: 0,0:45:43.12,0:45:44.72,titulek,,0000,0000,0000,,Staniû se.
+Dialogue: 0,0:45:45.93,0:45:47.72,titulek,,0000,0000,0000,,ZapomnÏl jsem na obÏù, pjui.
+Dialogue: 0,0:46:05.35,0:46:08.08,titulek,,0000,0000,0000,,No tak, Arumi, uklidni se, ano?
+Dialogue: 0,0:46:09.88,0:46:13.96,titulek,,0000,0000,0000,,Ten Ô·blÌk to zase spletl!
+Dialogue: 0,0:46:13.96,0:46:17.90,titulek,,0000,0000,0000,,Tentokr·t ho uû v·ûnÏ zabiju!
+Dialogue: 0,0:46:17.90,0:46:20.91,titulek,,0000,0000,0000,,PokraËov·nÌ p¯ÌötÏ
+
+Dialogue: 0,0:47:51.74,0:47:53.88,titulek,,0000,0000,0000,,Tentokr·t uû tu upout·vku zvl·dnu!
+Dialogue: 0,0:47:53.88,0:47:54.44,titulek,,0000,0000,0000,,JasnÏ, jasnÏ.
+Dialogue: 0,0:47:54.44,0:47:55.51,titulek,,0000,0000,0000,,A uû mÏ nep¯eruöuj.
+Dialogue: 0,0:47:55.51,0:47:57.18,titulek,,0000,0000,0000,,J· jsem tÏ nÏkdy p¯eruöovala?
+Dialogue: 0,0:47:57.18,0:47:58.45,titulek,,0000,0000,0000,,Po¯·d mi sk·Ëeö do ¯eËi!
+Dialogue: 0,0:47:58.45,0:48:01.72,titulek,,0000,0000,0000,,Vûdycky, kdyû se snaûÌm nÏco ¯Ìct, tak do toho vpadneö se sv˝m kd·k·nÌm
+Dialogue: 0,0:48:01.72,0:48:03.52,titulek,,0000,0000,0000,,a na mÏ uû pak nezbyde Ëas!
+Dialogue: 0,0:48:03.52,0:48:04.42,titulek,,0000,0000,0000,,To myslÌö v·ûnÏ?
+Dialogue: 0,0:48:04.42,0:48:05.29,titulek,,0000,0000,0000,,To si piö!
+Dialogue: 0,0:48:05.29,0:48:07.29,titulek,,0000,0000,0000,,Jen si vzpomeÚ, dÏl·ö to po¯·d, Arumi.
+Dialogue: 0,0:48:07.29,0:48:08.69,titulek,,0000,0000,0000,,Moûn· si to neuvÏdomujeö,
+Dialogue: 0,0:48:08.69,0:48:10.89,titulek,,0000,0000,0000,,ale jakmile jednou otev¯eö pusu, nejsi k zastavenÌ.
+Dialogue: 0,0:48:10.89,0:48:12.89,titulek,,0000,0000,0000,,Skoro vöichni z ”saky jsou takovÌ,
+Dialogue: 0,0:48:12.89,0:48:16.13,titulek,,0000,0000,0000,,ale ty vyd·ö za vöechny dohromady.
+
+Dialogue: 0,0:48:15.42,0:48:20.89,nazevdilu,,0030,0000,0100,,{\1a&H10&\2c&H404040&\c&He0e0e0&\fad(500,0)\shad4\4a&H40&\bord1\be0}  Epizoda Ëtvrt·\N\N\N\N\N\N\N\N\N\N\N\N\NKostidrù!
+
+Dialogue: 0,0:48:16.13,0:48:17.30,titulek,,0000,0000,0000,,Aha.
+Dialogue: 0,0:48:17.30,0:48:18.53,titulek,,0000,0000,0000,,RozumÌö?
+Dialogue: 0,0:48:18.53,0:48:19.87,titulek,,0000,0000,0000,,»as vypröel.
+Dialogue: 0,0:48:19.87,0:48:20.66,titulek,,0000,0000,0000,,Coûe?
+
+Dialogue: 0,0:46:21.29,0:46:26.12,ending,,0000,0000,0000,,{\fad(150,860)}Anata no kokoro ni
+Dialogue: 0,0:46:21.29,0:46:26.12,endingcz,,0000,0000,0000,,{\fad(150,860)}PohlÈdni do svÈho srdce.
+Dialogue: 0,0:46:26.12,0:46:30.64,ending,,0000,0000,0000,,{\fad(150,860)}kaze ga aru nara
+Dialogue: 0,0:46:26.12,0:46:30.64,endingcz,,0000,0000,0000,,{\fad(150,860)}ObjevÌö-li tam
+Dialogue: 0,0:46:30.64,0:46:35.35,ending,,0000,0000,0000,,{\fad(150,860)}soöite, sore ga
+Dialogue: 0,0:46:30.64,0:46:35.35,endingcz,,0000,0000,0000,,{\fad(150,860)}z·van vÏtru,
+Dialogue: 0,0:46:35.35,0:46:39.91,ending,,0000,0000,0000,,{\fad(150,860)}haru no kaze nara
+Dialogue: 0,0:46:35.35,0:46:39.91,endingcz,,0000,0000,0000,,{\fad(150,860)}kter˝ vonÌ jarem,
+Dialogue: 0,0:46:39.91,0:46:46.24,ending,,0000,0000,0000,,{\fad(150,860)}wataöi hitori de fukarete mitai na
+Dialogue: 0,0:46:39.91,0:46:46.24,endingcz,,0000,0000,0000,,{\fad(150,860)}aù vane jen pro mne
+Dialogue: 0,0:46:46.24,0:46:52.21,ending,,0000,0000,0000,,{\fad(150,860)}icumade mo, icumade mo.
+Dialogue: 0,0:46:46.24,0:46:52.21,endingcz,,0000,0000,0000,,{\fad(150,860)}aû do vÏËnosti.
+Dialogue: 0,0:46:53.57,0:46:58.36,ending,,0000,0000,0000,,{\fad(150,860)}Anata no kokoro ni
+Dialogue: 0,0:46:53.57,0:46:58.36,endingcz,,0000,0000,0000,,{\fad(150,860)}PohlÈdni do svÈho srdce.
+Dialogue: 0,0:46:58.36,0:47:02.91,ending,,0000,0000,0000,,{\fad(150,860)}sora ga aru nara
+Dialogue: 0,0:46:58.36,0:47:02.91,endingcz,,0000,0000,0000,,{\fad(150,860)}ObjevÌö-li tam
+Dialogue: 0,0:47:02.91,0:47:07.63,ending,,0000,0000,0000,,{\fad(150,860)}soöite, sore ga
+Dialogue: 0,0:47:02.91,0:47:07.63,endingcz,,0000,0000,0000,,{\fad(150,860)}vysokÈ nebe,
+Dialogue: 0,0:47:07.63,0:47:12.04,ending,,0000,0000,0000,,{\fad(150,860)}aoi sora nara
+Dialogue: 0,0:47:07.63,0:47:12.04,endingcz,,0000,0000,0000,,{\fad(150,860)}kterÈ z·¯Ì blankytem,
+Dialogue: 0,0:47:12.04,0:47:18.67,ending,,0000,0000,0000,,{\fad(150,860)}wataöi hitori de nobotte mitai na
+Dialogue: 0,0:47:12.04,0:47:18.67,endingcz,,0000,0000,0000,,{\fad(150,860)}nech ho plynout jen pro mne
+Dialogue: 0,0:47:18.67,0:47:24.48,ending,,0000,0000,0000,,{\fad(150,860)}dokomade mo, dokomade mo.
+Dialogue: 0,0:47:18.67,0:47:24.48,endingcz,,0000,0000,0000,,{\fad(150,860)}aû na vÏËnost.
+Dialogue: 0,0:47:26.18,0:47:30.72,ending,,0000,0000,0000,,{\fad(150,860)}Datte icumo anata wa
+Dialogue: 0,0:47:26.18,0:47:30.72,endingcz,,0000,0000,0000,,{\fad(150,860)}Tv˘j ˙smÏv prov·zÌ mne
+Dialogue: 0,0:47:30.72,0:47:35.12,ending,,0000,0000,0000,,{\fad(150,860)}waratte iru dake.
+Dialogue: 0,0:47:30.72,0:47:35.12,endingcz,,0000,0000,0000,,{\fad(150,860)}kaûd˝m dnem.
+Dialogue: 0,0:47:35.12,0:47:39.82,ending,,0000,0000,0000,,{\fad(150,860)}Soöite wataöi wo
+Dialogue: 0,0:47:35.12,0:47:39.82,endingcz,,0000,0000,0000,,{\fad(150,860)}Proto mi postaËÌ
+Dialogue: 0,0:47:39.82,0:47:50.92,ending,,0000,0000,0000,,{\fad(150,860)}dakiöimeru dake.
+Dialogue: 0,0:47:39.82,0:47:50.92,endingcz,,0000,0000,0000,,{\fad(150,860)}tvÈ objetÌ.

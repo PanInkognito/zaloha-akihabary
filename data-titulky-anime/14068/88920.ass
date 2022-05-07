@@ -1,0 +1,377 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,27,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Ep_Title,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,13,13,173,1
+Style: Next_Ep_Title,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H003F3E43,&H001E201A,0,0,0,0,100,100,0,0,1,2,2,2,13,53,99,1
+Style: sign_11605_96_Maiden_s_Charm__,Open Sans Semibold,36,&H00C6D1E8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,283,317,159,1
+Style: sign_11903_99__Effect_may_vary,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H004F4F4F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,268,260,69,1
+Style: sign_12629_110_Itsuki_Loves_Alf,Open Sans Semibold,36,&H00000000,&H000000FF,&H00ECEEEA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,376,203,161,1
+Style: sign_12699_112__This_is_merely_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H004F4F4F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,208,200,69,1
+Style: sign_13543_123_Itsuki_LOVE,Open Sans Semibold,36,&H00000000,&H000000FF,&H00ECEEEA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,200,469,116,1
+Style: sign_17898_180_Dear_Alfie,Open Sans Semibold,33,&H00252525,&H000000FF,&H00F4F3F4,&H00000000,0,1,0,0,100,100,0,0,1,2,0,8,236,471,153,1
+Style: sign_17898_181_from_Otabito_Dia,Open Sans Semibold,33,&H00252525,&H000000FF,&H00F4F3F4,&H00000000,0,1,0,0,100,100,0,0,1,2,0,8,237,344,211,1
+Style: sign_17898_181_from_Otabito_s__,Open Sans Semibold,33,&H00252525,&H000000FF,&H00F4F3F4,&H00000000,0,1,0,0,100,100,0,0,1,2,0,8,211,437,261,1
+Style: sign_26192_272_Visitor_Secret_P,Open Sans Semibold,36,&H002D3037,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0,519,128,1
+Style: sign_26192_273_Put_your_life_at,Open Sans Semibold,36,&H002D3037,&H000000FF,&H00B8A6C9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,476,25,241,1
+Style: sign_26351_275_Libra,Open Sans Semibold,36,&H002F402D,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,241,529,80,1
+Style: sign_26410_276_Leo,Open Sans Semibold,36,&H002F402D,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,609,185,395,1
+Style: sign_26462_277_A_Team,Open Sans Semibold,36,&H00777C7D,&H000000FF,&H00F3F8F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,99,632,59,1
+Style: sign_26462_279_B_Team,Open Sans Semibold,36,&H00777C7D,&H000000FF,&H00F3F8F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,585,148,60,1
+Style: sign_26462_278_Visitor_sama,Open Sans Semibold,36,&H00777C7D,&H000000FF,&H00F3F8F7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,335,319,59,1
+Style: sign_30479_326_Stomach_Pain_Med,Open Sans Semibold,33,&H00000001,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,313,199,115,1
+Style: sign_30479_326_Stomach__Pain___,Open Sans Semibold,33,&H00000001,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,120,589,135,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.78,0:00:15.74,Default,I,0000,0000,0000,,Nebyli to muži.
+Dialogue: 0,0:00:16.08,0:00:20.24,Default,I,0000,0000,0000,,Kdo je tedy třináctá dívka?
+Dialogue: 0,0:00:20.52,0:00:25.74,Default,I,0000,0000,0000,,Musí být někdo blízký,\Nkterý mi vždycky pomáhá ze zákulisí.
+Dialogue: 0,0:00:26.18,0:00:27.00,Default,I,0000,0000,0000,,Mana ?!
+Dialogue: 0,0:00:28.12,0:00:32.46,Default,I,0000,0000,0000,,Ne, někdo,\Nkdo by nemohl být děvčátko.
+Dialogue: 0,0:00:33.24,0:00:37.93,Default,I,0000,0000,0000,,Počkejte... Možná,\Nže z ní dělá moudrost zvláštní dívku?
+Dialogue: 0,0:00:37.93,0:00:39.04,Default,Mana,0000,0000,0000,,Řekni, co?!
+Dialogue: 0,0:00:39.04,0:00:41.14,Default,I,0000,0000,0000,,Ale Mana je tak tlustá.
+Dialogue: 0,0:00:41.48,0:00:43.56,Default,,0000,0000,0000,,Ani na to nemůžu jít.
+Dialogue: 0,0:00:43.56,0:00:47.71,Default,Mana,0000,0000,0000,,Y-Ty jsi tak vážná... Zlomila jsi mi srdce!
+Dialogue: 0,0:00:47.71,0:00:49.90,Default,Mana,0000,0000,0000,,Za to zaplatíte, Itsuki!
+Dialogue: 0,0:00:49.90,0:00:52.48,Default,I,0000,0000,0000,,Ale určitě ji najdu!
+Dialogue: 0,0:00:52.48,0:00:54.84,Default,I,0000,0000,0000,,Koneckonců, je tu vždy jen jedna pravda!
+Dialogue: 0,0:00:54.84,0:00:56.58,Default,I,0000,0000,0000,,Budu hrdý na svého dědečka!
+Dialogue: 0,0:00:57.45,0:00:59.69,Default,Mana,0000,0000,0000,,Máš spoustu věcí špatně.
+Dialogue: 0,0:00:59.69,0:01:03.07,Default,Mana,0000,0000,0000,,Nemám pocit, že bych vás opravoval.
+Dialogue: 0,0:01:03.07,0:01:07.87,Default,Mana,0000,0000,0000,,V každém případě musíte nejprve\Nvyčistit dvanáctý labyrint!
+Dialogue: 0,0:01:07.87,0:01:08.96,Default,I,0000,0000,0000,,Že jo...
+Dialogue: 0,0:02:51.38,0:02:52.98,Default,I,0000,0000,0000,,Dostala mě!
+Dialogue: 0,0:02:53.88,0:02:55.94,Default,Libra,0000,0000,0000,,Když se to stane...
+Dialogue: 0,0:02:55.94,0:02:57.44,Default,Cancer,0000,0000,0000,,T-Dopřejte mu ránu!
+Dialogue: 0,0:02:57.44,0:02:58.69,Default,Alfie,0000,0000,0000,,Ty blázne!
+Dialogue: 0,0:02:59.05,0:03:00.24,Default,Alfie,0000,0000,0000,,To není ono!
+Dialogue: 0,0:03:00.24,0:03:01.47,Default,Alfie,0000,0000,0000,,Když se to stane...
+Dialogue: 0,0:03:01.47,0:03:05.08,Default,Liesse,0000,0000,0000,,Ty blázni!  Nenechte se opakovat!
+Dialogue: 0,0:03:05.08,0:03:08.08,Default,Liesse,0000,0000,0000,,Musíte hrát svou roli!
+Dialogue: 0,0:03:08.08,0:03:11.79,Default,Cancer,0000,0000,0000,,Nechte nás vracet\Nnávštěvníkům vzadu,
+Dialogue: 0,0:03:11.79,0:03:13.46,Default,Cancer,0000,0000,0000,,a zbytek na frontě
+Dialogue: 0,0:03:13.46,0:03:16.01,Default,,0000,0000,0000,,blokovat druhý a třetí útok.
+Dialogue: 0,0:03:16.01,0:03:19.08,Default,Liesse,0000,0000,0000,,Musíme chránit návštěvníka\Npomocí týmové práce!
+Dialogue: 0,0:03:19.08,0:03:20.52,Default,Liesse,0000,0000,0000,,Není to tak, Alfie?
+Dialogue: 0,0:03:20.52,0:03:21.93,Default,Alfie,0000,0000,0000,,Y-Ano.
+Dialogue: 0,0:03:21.93,0:03:23.97,Default,Liesse,0000,0000,0000,,Dobře, zkusme to znovu!
+Dialogue: 0,0:03:25.52,0:03:27.85,Default,I,0000,0000,0000,,Jsou jako mini-Alfies.
+Dialogue: 0,0:03:27.85,0:03:29.85,Default,Alfie,0000,0000,0000,,Nejsou nic jako já!
+Dialogue: 0,0:03:30.32,0:03:33.73,Default,I,0000,0000,0000,,Dobře, to je pro dnešní trénink.
+Dialogue: 0,0:03:36.36,0:03:39.95,Default,Alfie,0000,0000,0000,,Geezi, Itsuki-san, prosím,\Nnenechte se na ně lehce.
+Dialogue: 0,0:03:39.95,0:03:44.90,Default,Alfie,0000,0000,0000,,Pokud jsou slabí,\Nváš život bude v nebezpečí.
+Dialogue: 0,0:03:44.90,0:03:49.29,Default,I,0000,0000,0000,,Ne, chci, aby si odpočívali\Na chránili svou energii.
+Dialogue: 0,0:03:50.05,0:03:53.12,Default,I,0000,0000,0000,,Zítra půjdeme porazit\Ndvanáctého Pána nečistoty.
+Dialogue: 0,0:04:04.04,0:04:05.19,Default,I,0000,0000,0000,,Spí všichni?
+Dialogue: 0,0:04:05.59,0:04:07.96,Default,Alfie,0000,0000,0000,,Ano, spí.
+Dialogue: 0,0:04:09.83,0:04:11.74,Default,Alfie,0000,0000,0000,,Modlím se za vaši bezpečnost.
+Dialogue: 0,0:04:12.55,0:04:13.48,Default,I,0000,0000,0000,,Že jo.
+Dialogue: 0,0:04:18.83,0:04:21.45,Default,I,0000,0000,0000,,Dobře, tým bude rozptýlení.
+Dialogue: 0,0:04:21.45,0:04:24.43,Default,I,0000,0000,0000,,Proklouznout kolem\Nnečistoty a dostat se za to.
+Dialogue: 0,0:04:24.43,0:04:28.39,Default,I,0000,0000,0000,,B Team, útok z pravého\Na C Team z levé strany.
+Dialogue: 0,0:04:28.39,0:04:29.87,Default,I,0000,0000,0000,,Půjdu na závěrečný úder.
+Dialogue: 0,0:04:29.87,0:04:31.37,Default,All,0000,0000,0000,,Dobře!
+Dialogue: 0,0:04:31.84,0:04:35.39,Default,Mana,0000,0000,0000,,Toto je Pán Strážců\NStrážců, Tentátory!
+Dialogue: 0,0:04:35.39,0:04:39.47,Default,Mana,0000,0000,0000,,Používá mnoho útoků založených na požáru!
+Dialogue: 0,0:04:39.47,0:04:42.42,Default,Mana,0000,0000,0000,,Dejte si pozor na jeho stávky!
+Dialogue: 0,0:04:42.42,0:04:44.43,Default,I,0000,0000,0000,,Dobře, udělejme to!
+Dialogue: 0,0:04:55.69,0:04:58.35,Default,I,0000,0000,0000,,Dobře!  Dostaňte se kolem něj a zaútočte!
+Dialogue: 0,0:04:58.35,0:05:00.27,Default,I,0000,0000,0000,,C Tým, následuj mě!
+Dialogue: 0,0:05:07.45,0:05:09.45,Default,Sagittarius,0000,0000,0000,,Ow...
+Dialogue: 0,0:05:09.45,0:05:10.70,Default,Virgo,0000,0000,0000,,Střelec!
+Dialogue: 0,0:05:10.70,0:05:11.70,Default,Libra,0000,0000,0000,,Běh!
+Dialogue: 0,0:05:15.66,0:05:16.95,Default,I,0000,0000,0000,,Jsi v pořádku?
+Dialogue: 0,0:05:17.67,0:05:21.10,Default,Sagittarius,0000,0000,0000,,Návštěvník-sama, nevadí mi -
+Dialogue: 0,0:05:21.10,0:05:22.60,Default,I,0000,0000,0000,,Všichni se vrátíme spolu!
+Dialogue: 0,0:05:22.60,0:05:24.42,Default,I,0000,0000,0000,,Nenechávám nikoho za sebou!
+Dialogue: 0,0:05:25.84,0:05:27.30,Default,Virgo,0000,0000,0000,,Tady!
+Dialogue: 0,0:05:34.36,0:05:35.89,Default,Cancer,0000,0000,0000,,Teď jsi v pořádku.
+Dialogue: 0,0:05:35.89,0:05:37.00,Default,I,0000,0000,0000,,Dík.
+Dialogue: 0,0:05:37.49,0:05:38.96,Default,Sagittarius,0000,0000,0000,,Jsem tak ulevená!
+Dialogue: 0,0:05:38.96,0:05:40.89,Default,I,0000,0000,0000,,Není čas plakat.
+Dialogue: 0,0:05:40.89,0:05:43.53,Default,I,0000,0000,0000,,Bude to v pořádku.\NPamatujte si svůj trénink.
+Dialogue: 0,0:05:43.53,0:05:44.40,Default,Sagittarius,0000,0000,0000,,Dobře!
+Dialogue: 0,0:05:51.16,0:05:54.16,Default,I,0000,0000,0000,,Tohle je konec!
+Dialogue: 0,0:06:06.14,0:06:07.74,Default,I,0000,0000,0000,,To je u konce.
+Dialogue: 0,0:06:07.74,0:06:11.47,Default,Mana,0000,0000,0000,,Itsuki, to byl působivý boj.
+Dialogue: 0,0:06:11.47,0:06:14.33,Default,Mana,0000,0000,0000,,To je konec dlouhé bitvy.
+Dialogue: 0,0:06:14.82,0:06:17.02,Default,Mana,0000,0000,0000,,Huh?  To je divné.
+Dialogue: 0,0:06:17.02,0:06:18.32,Default,Mana,0000,0000,0000,,Co se děje?
+Dialogue: 0,0:06:18.32,0:06:20.31,Default,Mana,0000,0000,0000,,Nic se neděje.
+Dialogue: 0,0:06:23.44,0:06:26.36,Default,Mana,0000,0000,0000,,Co se vlastně děje?
+Dialogue: 0,0:06:34.12,0:06:36.70,Default,Mana,0000,0000,0000,,Co je to světlo ?!
+Dialogue: 0,0:06:46.38,0:06:48.84,Default,I,0000,0000,0000,,Nemůžeme se vrátit, jak jsem si myslel.
+Dialogue: 0,0:07:04.77,0:07:08.06,Default,Mana,0000,0000,0000,,Proč?  Proč se nic nestalo?
+Dialogue: 0,0:07:08.06,0:07:10.64,Default,S,0000,0000,0000,,Zdá se, že jsme nebyli schopni
+Dialogue: 0,0:07:10.64,0:07:12.82,Default,,0000,0000,0000,,aby se zabránilo oživení\Ntřináctého fantomu.
+Dialogue: 0,0:07:12.82,0:07:14.32,Default,Mana,0000,0000,0000,,Pak myslíš...
+Dialogue: 0,0:07:14.32,0:07:19.58,Default,N,0000,0000,0000,,Ano, ale naštěstí je\Nvchod stále zapečetěný.
+Dialogue: 0,0:07:20.06,0:07:24.08,Default,S,0000,0000,0000,,Itsuki, musíš najít\Ntřináctou dívku co nejdříve
+Dialogue: 0,0:07:24.08,0:07:27.36,Default,S,0000,0000,0000,,a připravit se na závěrečnou bitvu.
+Dialogue: 0,0:07:27.36,0:07:28.35,Default,I,0000,0000,0000,,Ano, pane!
+Dialogue: 0,0:07:28.35,0:07:29.40,Default,I,0000,0000,0000,,Pojďme, Mano.
+Dialogue: 0,0:07:29.40,0:07:30.47,Default,Mana,0000,0000,0000,,To jo.
+Dialogue: 0,0:07:34.91,0:07:37.22,Default,Alfie,0000,0000,0000,,Mirei-chane, co tě sem přivádí?
+Dialogue: 0,0:07:37.56,0:07:41.29,Default,Mirei,0000,0000,0000,,Třináctý labyrint se objevil dříve.
+Dialogue: 0,0:07:41.29,0:07:43.45,Default,Mirei,0000,0000,0000,,Proto jsem se o tebe bála...
+Dialogue: 0,0:07:43.45,0:07:45.23,Default,Alfie,0000,0000,0000,,Promiň, jsem ve spěchu.
+Dialogue: 0,0:07:46.39,0:07:50.09,Default,Alfie,0000,0000,0000,,Musím se připravit na prohlídku Itsuki-san.
+Dialogue: 0,0:08:01.14,0:08:04.00,Default,Alfie,0000,0000,0000,,Tento den konečně přišel.
+Dialogue: 0,0:08:04.00,0:08:08.00,sign_11605_96_Maiden_s_Charm__,TS,0000,0000,0000,,Maiden's Charm My Birthday
+Dialogue: 0,0:08:04.00,0:08:08.00,Default,Alfie,0000,0000,0000,,Speciální magická kniha,\Nkterou jsem získal od Sola.
+Dialogue: 0,0:08:08.33,0:08:11.26,Default,Alfie,0000,0000,0000,,Jsem si jistý,\Nže si bude společnost Itsuki-san
+Dialogue: 0,0:08:11.27,0:08:13.86,Default,Alfie,0000,0000,0000,,konečně uvědomit,\Nže jsem třináctá dívka.
+Dialogue: 0,0:08:14.96,0:08:18.68,Top,Alfie,0000,0000,0000,,Kravatu na luk uzel, a...
+Dialogue: 0,0:08:16.43,0:08:18.68,sign_11903_99__Effect_may_vary,TS,0000,0000,0000,,* Účinek se může lišit podle uživatele.
+Dialogue: 0,0:08:19.24,0:08:21.38,Italics,Alfie,0000,0000,0000,,Teď je šance!
+Dialogue: 0,0:08:24.87,0:08:27.69,Default,Alfie,0000,0000,0000,,Pokud si ho nikdo tři dny nevšimne...
+Dialogue: 0,0:08:27.98,0:08:29.39,Default,Mana,0000,0000,0000,,Co to sakra je?
+Dialogue: 0,0:08:29.39,0:08:31.72,Default,Mana,0000,0000,0000,,Na zádech je nějaký odpad.
+Dialogue: 0,0:08:32.52,0:08:34.24,Default,Mana,0000,0000,0000,,Co je to ?!
+Dialogue: 0,0:08:34.24,0:08:36.57,Default,Mana,0000,0000,0000,,Jak strašidelné.\NMohla by to být nějaká prokletí?
+Dialogue: 0,0:08:36.83,0:08:38.64,Default,Mana,0000,0000,0000,,Nepřibližovat se!
+Dialogue: 0,0:08:38.64,0:08:40.26,Default,I,0000,0000,0000,,Kdo mohl něco takového udělat?
+Dialogue: 0,0:08:44.88,0:08:46.71,Default,Alfie,0000,0000,0000,,Tenhle další!
+Dialogue: 0,0:08:46.71,0:08:49.63,sign_12629_110_Itsuki_Loves_Alf,TS,0000,0000,0000,,Itsuki miluje Alfie
+Dialogue: 0,0:08:47.04,0:08:50.49,Top,Alfie,0000,0000,0000,,Pokud můžu dokončit používání této\Ngumy, aniž by se jí někdo dotkl,
+Dialogue: 0,0:08:49.63,0:08:52.55,sign_12699_112__This_is_merely_,TS,0000,0000,0000,,* To je jen osobní názor.
+Dialogue: 0,0:08:50.49,0:08:52.55,Top,Alfie,0000,0000,0000,,Jsem si jistý,\Nže společnost Itsuki-san bude...
+Dialogue: 0,0:08:54.93,0:08:57.80,Default,Alfie,0000,0000,0000,,Dobrý!\NMěla bych to hned dokončit!
+Dialogue: 0,0:08:57.80,0:09:00.31,Default,T,0000,0000,0000,,Alfie!  Dodávka pro vás!
+Dialogue: 0,0:09:00.31,0:09:03.31,Default,T,0000,0000,0000,,Zde mi prosím dejte své\Nrazítko nebo podpis!
+Dialogue: 0,0:09:03.69,0:09:06.00,Default,Alfie,0000,0000,0000,,Nemám tady své razítko, takže se podepíšu.
+Dialogue: 0,0:09:06.00,0:09:07.81,Default,T,0000,0000,0000,,Hned tam, prosím.
+Dialogue: 0,0:09:07.81,0:09:11.34,Default,T,0000,0000,0000,,Používáte tužku!  Použijte prosím pero!
+Dialogue: 0,0:09:11.34,0:09:13.21,Default,Alfie,0000,0000,0000,,Promiň.
+Dialogue: 0,0:09:13.21,0:09:15.32,Default,Alfie,0000,0000,0000,,Podívejme se... tady je -
+Dialogue: 0,0:09:22.12,0:09:25.71,Default,Alfie,0000,0000,0000,,Nemám na vybranou, je čas na to {\i1} to {\i0} jeden!
+Dialogue: 0,0:09:24.83,0:09:27.21,sign_13543_123_Itsuki_LOVE,TS,0000,0000,0000,,Itsuki LOVE
+Dialogue: 0,0:09:25.71,0:09:27.21,Default,Alfie,0000,0000,0000,,Zapište si jméno osoby, kterou mám rád...
+Dialogue: 0,0:09:27.21,0:09:28.21,Default,Alfie,0000,0000,0000,,roztrhnout to na polovinu...
+Dialogue: 0,0:09:28.21,0:09:29.21,Default,Alfie,0000,0000,0000,,rozbalit...
+Dialogue: 0,0:09:29.21,0:09:31.03,Default,Alfie,0000,0000,0000,,a polkněte!
+Dialogue: 0,0:09:38.24,0:09:40.60,Default,Alfie,0000,0000,0000,,Nemůžu... udělat tohle...
+Dialogue: 0,0:09:40.60,0:09:42.97,Default,Alfie,0000,0000,0000,,Musím mu to říct osobně.
+Dialogue: 0,0:09:43.96,0:09:47.05,Default,I,0000,0000,0000,,Hledám třináctou dívku!
+Dialogue: 0,0:09:47.05,0:09:52.03,Default,I,0000,0000,0000,,Je to jednou celoživotní\Npříležitost být třináctou dívkou!
+Dialogue: 0,0:09:52.03,0:09:56.74,Default,Mana,0000,0000,0000,,Objevil se tento znak\Nna nevinné panně?
+Dialogue: 0,0:09:56.74,0:09:59.66,Default,Mana,0000,0000,0000,,Pojď ven a zapoj se
+Dialogue: 0,0:09:59.66,0:10:03.68,Default,,0000,0000,0000,,zpocený a smyslný Láska\Nrituál s tímto návštěvníkem!
+Dialogue: 0,0:10:03.68,0:10:07.56,Default,Mana,0000,0000,0000,,Nedělej si starosti,\Nuž jsem zkoumal všechny citlivé body
+Dialogue: 0,0:10:07.56,0:10:10.72,Default,Mana,0000,0000,0000,,což by udělalo vše pro radost!
+Dialogue: 0,0:10:10.72,0:10:12.54,Default,Alfie,0000,0000,0000,,Itsuki-san!
+Dialogue: 0,0:10:16.08,0:10:18.20,Default,I,0000,0000,0000,,Myslel jsem, že jsem slyšel Alfieho hlas...
+Dialogue: 0,0:10:18.20,0:10:19.44,Default,Mana,0000,0000,0000,,Musíte si to představit.
+Dialogue: 0,0:10:19.44,0:10:20.63,Default,Mana,0000,0000,0000,,Spěchejme.
+Dialogue: 0,0:10:21.52,0:10:24.51,Default,I,0000,0000,0000,,Je tam třináctá dívka?
+Dialogue: 0,0:10:24.51,0:10:28.28,Default,I,0000,0000,0000,,Hledáme dívku,\Nkterá má tento znak!
+Dialogue: 0,0:10:28.28,0:10:33.15,Default,Mana,0000,0000,0000,,Třináctá dívka bude\Nprvní ve stovkách let!
+Dialogue: 0,0:10:33.40,0:10:35.55,Default,Mana,0000,0000,0000,,Jestli teď vyjdeš,
+Dialogue: 0,0:10:35.55,0:10:40.24,Default,Mana,0000,0000,0000,,Dám vám dárek z ručního\Nručního pletení jako dárek!
+Dialogue: 0,0:10:40.24,0:10:42.20,Default,Mana,0000,0000,0000,,Můžete téměř vidět důležité\Nčásti, ale ne tak docela!
+Dialogue: 0,0:10:42.20,0:10:44.62,Default,Mana,0000,0000,0000,,Je to super-duper sexy!
+Dialogue: 0,0:10:44.62,0:10:47.20,Default,Mana,0000,0000,0000,,Samozřejmě je to limitovaná\Nedice, která není na prodej!
+Dialogue: 0,0:10:47.20,0:10:50.17,Default,Alfie,0000,0000,0000,,Itsuki-san, um...
+Dialogue: 0,0:10:52.82,0:10:54.20,Default,Mana,0000,0000,0000,,Co je to?
+Dialogue: 0,0:10:54.20,0:10:57.79,Default,I,0000,0000,0000,,Byl jsem ohromen,\Njak populární je Seiya.
+Dialogue: 0,0:10:57.79,0:10:59.82,Default,I,0000,0000,0000,,Možná jsem měl o něm špatnou představu.
+Dialogue: 0,0:10:59.82,0:11:02.36,Default,Mana,0000,0000,0000,,No, myslím, že ano.
+Dialogue: 0,0:11:03.78,0:11:06.88,Default,I,0000,0000,0000,,Je tam třináctá dívka?
+Dialogue: 0,0:11:06.88,0:11:11.69,Default,I,0000,0000,0000,,Hledáme krásnou mladou\Ndívku, která má tento znak!
+Dialogue: 0,0:11:11.69,0:11:16.09,Default,Mana,0000,0000,0000,,Co to bylo?  Co jsi právě řekl?
+Dialogue: 0,0:11:16.09,0:11:18.99,Default,Mana,0000,0000,0000,,Návštěvník má nečisté myšlenky!
+Dialogue: 0,0:11:18.99,0:11:20.76,Default,,0000,0000,0000,,Proto se neukáže!
+Dialogue: 0,0:11:20.76,0:11:25.05,Default,Alfie,0000,0000,0000,,Itsuki-san!  Já jsem třináctý...
+Dialogue: 0,0:11:28.20,0:11:30.76,Default,Mana,0000,0000,0000,,Toto místo je příliš hlučné.
+Dialogue: 0,0:11:30.76,0:11:32.14,Default,Mana,0000,0000,0000,,Pojďme někam jinam.
+Dialogue: 0,0:11:32.14,0:11:33.69,Default,I,0000,0000,0000,,To jo.
+Dialogue: 0,0:11:36.04,0:11:39.53,Default,Alfie,0000,0000,0000,,P-prosím... Počkejte...
+Dialogue: 0,0:11:42.47,0:11:45.97,Default,Alfie,0000,0000,0000,,Ne!  Znovu jsem selhal!
+Dialogue: 0,0:11:46.38,0:11:48.22,Default,Alfie,0000,0000,0000,,Potřebuji silné kouzlo -
+Dialogue: 0,0:11:48.22,0:11:50.72,Default,Mana,0000,0000,0000,,Co to sakra děláš?!
+Dialogue: 0,0:11:50.72,0:11:53.07,Default,Mana,0000,0000,0000,,Čekali jsme navždy a\Nvy jste se neobjevili,
+Dialogue: 0,0:11:53.07,0:11:54.16,Default,Mana,0000,0000,0000,,tak jsem vás přišel zkontrolovat.
+Dialogue: 0,0:11:54.16,0:11:57.39,Default,Mana,0000,0000,0000,,Nikdy jsem si nemyslel, že bys\Npoužil nějaké zbytečné kouzlo štěstí!
+Dialogue: 0,0:11:57.39,0:12:00.34,Default,Mana,0000,0000,0000,,Začněte se chovat jako skutečná\Ndívka a nechte se znát!
+Dialogue: 0,0:12:00.98,0:12:02.86,Default,Alfie,0000,0000,0000,,Jak jsi věděl, že jsem holka?
+Dialogue: 0,0:12:03.15,0:12:07.56,Default,Mana,0000,0000,0000,,Někteří lidé řekli, že je dívka,\Nkterá křičela, že je třináctá dívka,
+Dialogue: 0,0:12:07.56,0:12:10.79,Default,Mana,0000,0000,0000,,a ta dívka, kterou popsali,\Nnemohla být nikdo jiný než ty!
+Dialogue: 0,0:12:11.13,0:12:13.88,Default,Mana,0000,0000,0000,,Pojďme se podívat na Itsuki.
+Dialogue: 0,0:12:13.88,0:12:14.79,Default,Alfie,0000,0000,0000,,Ne!
+Dialogue: 0,0:12:14.79,0:12:16.44,Default,Mana,0000,0000,0000,,Co to děláš?
+Dialogue: 0,0:12:16.92,0:12:17.77,Default,Alfie,0000,0000,0000,,Ne.
+Dialogue: 0,0:12:17.77,0:12:19.64,Default,Mana,0000,0000,0000,,Proč ne?
+Dialogue: 0,0:12:20.20,0:12:25.53,Default,Alfie,0000,0000,0000,,Setkání musí být náhlá... nebo trendy!
+Dialogue: 0,0:12:26.47,0:12:32.31,sign_17898_180_Dear_Alfie,TS,0000,0000,0000,,Milý Alfie
+Dialogue: 0,0:12:26.47,0:12:32.31,sign_17898_181_from_Otabito_s__,TS,0000,0000,0000,,z deníku Otabito
+Dialogue: 0,0:12:26.81,0:12:30.30,Default,Alfie,0000,0000,0000,,Můj otec mi to nechal.
+Dialogue: 0,0:12:30.30,0:12:32.31,Default,Mana,0000,0000,0000,,Videokazeta?
+Dialogue: 0,0:12:32.68,0:12:36.12,Default,Alfie,0000,0000,0000,,Řekl, že to musím ukázat Návštěvníkovi,
+Dialogue: 0,0:12:36.12,0:12:38.94,Default,,0000,0000,0000,,pokud se mám stát dívkou.
+Dialogue: 0,0:12:39.46,0:12:42.22,Default,Mana,0000,0000,0000,,Musím to ukázat společnosti Itsuki?
+Dialogue: 0,0:12:44.76,0:12:47.26,Default,Mana,0000,0000,0000,,Uh, um...
+Dialogue: 0,0:12:52.13,0:12:54.20,Default,I,0000,0000,0000,,Koneckonců to byla ona!
+Dialogue: 0,0:12:54.20,0:12:57.46,Default,Mana,0000,0000,0000,,No, věděl jsem to od začátku.
+Dialogue: 0,0:12:57.46,0:12:58.65,Default,I,0000,0000,0000,,Lhář.
+Dialogue: 0,0:12:58.65,0:13:02.71,Default,Mana,0000,0000,0000,,Bylo zřejmé, že třináctá dívka\Nnemůže být nikdo jiný než Alfie!
+Dialogue: 0,0:13:02.71,0:13:05.72,Default,Mana,0000,0000,0000,,Po celou dobu jsem mlčel,\Nale podívejte se na OP!
+Dialogue: 0,0:13:05.72,0:13:06.62,Default,Mana,0000,0000,0000,,Tady.
+Dialogue: 0,0:13:06.62,0:13:07.77,Default,I,0000,0000,0000,,Máte pravdu!
+Dialogue: 0,0:13:08.35,0:13:10.81,Default,Mana,0000,0000,0000,,Všichni ostatní taky věděli, že?
+Dialogue: 0,0:13:10.81,0:13:13.15,Default,Mana,0000,0000,0000,,Jen ty ne.
+Dialogue: 0,0:13:13.15,0:13:14.35,Default,I,0000,0000,0000,,Kdo je "každý"?
+Dialogue: 0,0:13:14.35,0:13:15.60,Default,Mana,0000,0000,0000,,Neřeš to.
+Dialogue: 0,0:13:15.88,0:13:18.44,Default,Mana,0000,0000,0000,,Každopádně mi to dala.
+Dialogue: 0,0:13:19.31,0:13:21.69,Default,Mana,0000,0000,0000,,Zdá se, že můžete získat\Nnápovědu pro prohloubení
+Dialogue: 0,0:13:21.70,0:13:23.62,Default,Mana,0000,0000,0000,,své pouto,\Npokud se budete dívat na to.
+Dialogue: 0,0:13:40.25,0:13:45.01,Italics,Yuuji,0000,0000,0000,,I když se země začne otáčet opačným\Nsměrem, nebudeme odděleni!
+Dialogue: 0,0:13:45.01,0:13:46.68,Italics,Yuuko,0000,0000,0000,,Samozřejmě!
+Dialogue: 0,0:13:46.68,0:13:50.51,Italics,,0000,0000,0000,,Ty bys mě honil až do konce\Nvesmíru, i kdybych utekl!
+Dialogue: 0,0:14:00.24,0:14:02.20,Italics,Hiroshi,0000,0000,0000,,Nikdy ti neodpustím!
+Dialogue: 0,0:14:02.20,0:14:03.15,Italics,Takashi,0000,0000,0000,,Pusťte mě.
+Dialogue: 0,0:14:11.00,0:14:13.41,Default,I,0000,0000,0000,,Co je to?
+Dialogue: 0,0:14:14.84,0:14:16.51,Default,Mana,0000,0000,0000,,Je to úžasné!
+Dialogue: 0,0:14:16.51,0:14:21.40,Default,Mana,0000,0000,0000,,Chci být v pohodě, trendy,\Nlovey-dovey show takhle!
+Dialogue: 0,0:14:21.40,0:14:23.17,Default,Mana,0000,0000,0000,,Chci na to sledovat víc!
+Dialogue: 0,0:14:23.17,0:14:25.21,Default,I,0000,0000,0000,,Promiň, nemůžu...
+Dialogue: 0,0:14:25.21,0:14:26.68,Default,Mana,0000,0000,0000,,Ty blázne!
+Dialogue: 0,0:14:26.68,0:14:28.64,Default,Mana,0000,0000,0000,,Nemůžete vidět,\Njak je tohle dramatické seriál dobré?
+Dialogue: 0,0:14:28.64,0:14:30.25,Default,Mana,0000,0000,0000,,Jsi tak lame!
+Dialogue: 0,0:14:30.25,0:14:31.99,Default,Mana,0000,0000,0000,,Jak můžete očekávat, že chytíte mé srdce -
+Dialogue: 0,0:14:32.71,0:14:36.42,Default,Mana,0000,0000,0000,,Chytit Alfieho srdce takhle?
+Dialogue: 0,0:14:37.43,0:14:41.32,Default,Mana,0000,0000,0000,,Alfie chce módní romantiku,
+Dialogue: 0,0:14:41.32,0:14:43.85,Default,,0000,0000,0000,,tak zavřete pasti a udělejte to trendy!
+Dialogue: 0,0:14:43.85,0:14:46.19,Default,Mana,0000,0000,0000,,Trendy je nejlepší!
+Dialogue: 0,0:15:01.43,0:15:03.49,Default,Alfie,0000,0000,0000,,Jaký krásný západ slunce.
+Dialogue: 0,0:15:03.49,0:15:04.59,Default,I,0000,0000,0000,,To jo.
+Dialogue: 0,0:15:06.29,0:15:10.81,Default,Mana,0000,0000,0000,,Další italská večeře,\Na dárek bude ve tvaru srdce náhrdelník.
+Dialogue: 0,0:15:10.81,0:15:13.93,Default,Mana,0000,0000,0000,,Alfie je prakticky už sváděný!
+Dialogue: 0,0:15:13.93,0:15:17.10,Default,Mana,0000,0000,0000,,Jsem génius,\Nkdyž jsem přišel s tímto plánem.
+Dialogue: 0,0:15:27.99,0:15:29.49,Default,Alfie,0000,0000,0000,,To bylo vynikající!
+Dialogue: 0,0:15:29.94,0:15:31.42,Default,,0000,0000,0000,,Jsem rád.
+Dialogue: 0,0:15:31.94,0:15:35.50,Default,I,0000,0000,0000,,Promiň, Mano,\Nale vrať se prosím do dětského domova.
+Dialogue: 0,0:15:35.50,0:15:37.24,Default,Mana,0000,0000,0000,,Huh?  A co ta přítomnost?
+Dialogue: 0,0:15:38.52,0:15:40.38,Default,Mana,0000,0000,0000,,Jsi si tím jistý?
+Dialogue: 0,0:15:40.38,0:15:42.00,Default,I,0000,0000,0000,,Jó díky.
+Dialogue: 0,0:15:42.82,0:15:45.50,Default,Mana,0000,0000,0000,,Neobviňujte mě, pokud neuspějete!
+Dialogue: 0,0:15:45.50,0:15:48.25,Default,I,0000,0000,0000,,Wow, co sbírka!
+Dialogue: 0,0:15:48.25,0:15:50.26,Default,Alfie,0000,0000,0000,,P-prosím, nesledujte takhle.
+Dialogue: 0,0:15:50.26,0:15:52.09,Default,I,0000,0000,0000,,Je mi líto za to, že jsme tam vyrazili.
+Dialogue: 0,0:15:52.09,0:15:55.12,Default,I,0000,0000,0000,,Jsem si jistý,\Nže bys dal přednost trendy.
+Dialogue: 0,0:15:55.12,0:15:57.18,Default,Alfie,0000,0000,0000,,To je v pořádku!  To je v pořádku!
+Dialogue: 0,0:15:57.18,0:15:59.02,Default,Alfie,0000,0000,0000,,To stačilo.
+Dialogue: 0,0:15:59.29,0:16:03.27,Default,I,0000,0000,0000,,Uvědomil jsem si, že nechci být\Nsoučástí připravené dramatické show.
+Dialogue: 0,0:16:03.53,0:16:06.79,Default,I,0000,0000,0000,,Chtěl jsem se dozvědět\Nvíce o tom skutečném.
+Dialogue: 0,0:16:08.29,0:16:11.90,Default,Mana,0000,0000,0000,,Vaše pouto nebude prohloubit jeden\Nbit od takového chromého rozhovoru!
+Dialogue: 0,0:16:11.90,0:16:15.48,Default,Mana,0000,0000,0000,,Alfie řekla, že chce moderní datum!
+Dialogue: 0,0:16:15.48,0:16:18.43,Default,Mana,0000,0000,0000,,At-home datum je polární\Nopak bublina-éra data!
+Dialogue: 0,0:16:18.43,0:16:20.79,Default,Mana,0000,0000,0000,,Je to nudné!  Nudné jako peklo!
+Dialogue: 0,0:16:21.08,0:16:25.73,Default,I,0000,0000,0000,,Ale proč se vám líbí Sooly?
+Dialogue: 0,0:16:25.73,0:16:27.72,Default,I,0000,0000,0000,,Také ty před mnoha lety.
+Dialogue: 0,0:16:27.72,0:16:29.94,Default,Alfie,0000,0000,0000,,Vlastně, moji rodiče...
+Dialogue: 0,0:16:31.09,0:16:33.05,Default,I,0000,0000,0000,,Jsou však z tohoto světa, že?
+Dialogue: 0,0:16:33.05,0:16:37.30,Default,Alfie,0000,0000,0000,,Jaké jsou tvé rodiče?
+Dialogue: 0,0:16:37.30,0:16:41.72,Default,Alfie,0000,0000,0000,,Oba musí mít opravdu\Nstrach, když zmizíte.
+Dialogue: 0,0:16:41.72,0:16:43.94,Default,I,0000,0000,0000,,O Maně jste o nich neslyšel?
+Dialogue: 0,0:16:43.94,0:16:46.60,Default,Alfie,0000,0000,0000,,Ne, ne.
+Dialogue: 0,0:16:46.60,0:16:50.19,Default,I,0000,0000,0000,,Vlastně zemřeli při nehodě.
+Dialogue: 0,0:16:51.17,0:16:54.01,Default,Alfie,0000,0000,0000,,Já... um...
+Dialogue: 0,0:16:54.01,0:16:55.95,Default,Alfie,0000,0000,0000,,Je mi líto, Itsuki-san.
+Dialogue: 0,0:16:56.36,0:16:57.69,Default,I,0000,0000,0000,,To je v pořádku.
+Dialogue: 0,0:16:57.69,0:17:01.53,Default,I,0000,0000,0000,,Už jsem nad tím,\Ntakže se necítím špatně.
+Dialogue: 0,0:17:01.53,0:17:02.59,Default,Alfie,0000,0000,0000,,Ale...
+Dialogue: 0,0:17:02.59,0:17:03.93,Default,I,0000,0000,0000,,To je v pořádku.
+Dialogue: 0,0:17:05.91,0:17:07.71,Default,I,0000,0000,0000,,Tak dobrá...
+Dialogue: 0,0:17:29.48,0:17:32.39,Default,I,0000,0000,0000,,... to do značné míry shrnuje.
+Dialogue: 0,0:17:32.80,0:17:36.74,Default,I,0000,0000,0000,,Chtěl jsem si poslechnout vaše\Npříběhy, ale celou dobu jsem mluvil.
+Dialogue: 0,0:17:41.75,0:17:43.31,Default,I,0000,0000,0000,,Uh, um...
+Dialogue: 0,0:17:43.31,0:17:45.87,Default,I,0000,0000,0000,,Jaké knihy obvykle čtete?
+Dialogue: 0,0:17:46.16,0:17:52.13,Default,Alfie,0000,0000,0000,,No, myslím, že o zábavě,\Nbojových uměních a...
+Dialogue: 0,0:17:53.08,0:17:55.03,Default,Alfie,0000,0000,0000,,Tohle je tajemství.
+Dialogue: 0,0:17:56.13,0:18:00.48,Default,Mana,0000,0000,0000,,Tsk! Itsuki by viděla klamnou\Nženu, kterou je,
+Dialogue: 0,0:18:00.48,0:18:05.75,Default,Mana,0000,0000,0000,,pro použití nějaké magie\NSola k zachycení jeho srdce!
+Dialogue: 0,0:18:06.29,0:18:09.15,Default,Mana,0000,0000,0000,,Huh?  Na čí straně jsem?
+Dialogue: 0,0:18:09.55,0:18:11.04,Default,,0000,0000,0000,,Huh?  Co je to?
+Dialogue: 0,0:18:11.04,0:18:12.78,Default,Alfie,0000,0000,0000,,To je...
+Dialogue: 0,0:18:12.40,0:18:18.15,sign_26192_272_Visitor_Secret_P,I-TS,0000,0000,0000,,Návštěvnický tajný projekt
+Dialogue: 0,0:18:12.40,0:18:18.15,sign_26192_273_Put_your_life_at,I-TS,0000,0000,0000,,Dejte svůj život do sázky,\Nabyste ochránili návštěvníka
+Dialogue: 0,0:18:12.78,0:18:15.18,Default,I-TS,0000,0000,0000,,Návštěvnický tajný projekt...
+Dialogue: 0,0:18:15.18,0:18:18.15,Default,I-TS,0000,0000,0000,,Dejte svůj život do sázky\Nna ochranu návštěvníka...
+Dialogue: 0,0:18:18.57,0:18:21.16,Default,,0000,0000,0000,,Um... To je...
+Dialogue: 0,0:18:19.03,0:18:21.16,sign_26351_275_Libra,TS,0000,0000,0000,,Váhy
+Dialogue: 0,0:18:21.49,0:18:23.66,sign_26410_276_Leo,TS,0000,0000,0000,,Lev
+Dialogue: 0,0:18:23.66,0:18:25.37,sign_26462_277_A_Team,TS,0000,0000,0000,,Tým
+Dialogue: 0,0:18:23.66,0:18:25.58,sign_26462_279_B_Team,TS,0000,0000,0000,,B Tým
+Dialogue: 0,0:18:23.66,0:18:26.00,sign_26462_278_Visitor_sama,TS,0000,0000,0000,,Návštěvník-sama
+Dialogue: 0,0:18:24.08,0:18:25.80,Default,I,0000,0000,0000,,Neuvěřitelný.
+Dialogue: 0,0:18:30.16,0:18:32.54,Default,I,0000,0000,0000,,Děkuji, Alfie.
+Dialogue: 0,0:18:32.54,0:18:37.43,Default,I,0000,0000,0000,,Abych byl upřímný, obával jsem se,\Nže bych se někdy mohl vrátit domů živý.
+Dialogue: 0,0:18:37.43,0:18:42.32,Default,I,0000,0000,0000,,Ale celou dobu jsi mě chránil.
+Dialogue: 0,0:18:42.32,0:18:46.31,Default,Alfie,0000,0000,0000,,Ne, jsme chráněni.
+Dialogue: 0,0:18:46.31,0:18:49.85,Default,I,0000,0000,0000,,To musí být důvod,\Nproč jsem se nikdy necítil sám
+Dialogue: 0,0:18:49.85,0:18:52.81,Default,,0000,0000,0000,,když jsem byl v labyrintu.
+Dialogue: 0,0:18:52.81,0:18:58.08,Default,Mana,0000,0000,0000,,Jsem ten,\Nkdo se o vás stará 24 hodin denně!
+Dialogue: 0,0:18:58.08,0:19:02.07,Default,Mana,0000,0000,0000,,Bez mě nemůžete ani\Njít na jediné datum!
+Dialogue: 0,0:19:03.88,0:19:04.84,Default,I,0000,0000,0000,,Alfie...
+Dialogue: 0,0:19:04.84,0:19:06.47,Default,Alfie,0000,0000,0000,,Ano?
+Dialogue: 0,0:19:07.94,0:19:11.87,Default,Alfie,0000,0000,0000,,Prosím, nedívejte se na mě takhle...
+Dialogue: 0,0:19:11.87,0:19:13.08,Default,Alfie,0000,0000,0000,,Děláš mě nervózní.
+Dialogue: 0,0:19:13.45,0:19:14.14,Default,I,0000,0000,0000,,Proč?
+Dialogue: 0,0:19:14.14,0:19:15.82,Default,Alfie,0000,0000,0000,,Dobře...
+Dialogue: 0,0:19:15.82,0:19:17.67,Default,I,0000,0000,0000,,Chci se na tebe podívat více.
+Dialogue: 0,0:19:19.22,0:19:24.70,Default,I,0000,0000,0000,,Připravil jsem něco,\Nprotože jsem chtěl prohloubit naše pouto.
+Dialogue: 0,0:19:25.27,0:19:27.75,Default,I,0000,0000,0000,,I když... Nejsem si jistý,\Njestli se vám bude líbit.
+Dialogue: 0,0:19:30.31,0:19:32.06,Default,Alfie,0000,0000,0000,,Je to úžasné!
+Dialogue: 0,0:19:32.06,0:19:34.24,Default,I,0000,0000,0000,,Cítím se špatně,\Nže jsem to řekl svému otci,
+Dialogue: 0,0:19:34.24,0:19:36.97,Default,I,0000,0000,0000,,ale myslím si,\Nže vám čistý obraz idolu lépe vyhovuje
+Dialogue: 0,0:19:36.97,0:19:40.11,Default,,0000,0000,0000,,než módní idol z minulosti.
+Dialogue: 0,0:19:40.11,0:19:45.08,Default,Alfie,0000,0000,0000,,To je nejšťastnější okamžik mého života.
+Dialogue: 0,0:19:51.62,0:19:56.65,Default,Alfie,0000,0000,0000,,Ty bys mě honil až do konce\Nvesmíru, i kdybych utekl!
+Dialogue: 0,0:19:56.65,0:19:58.20,Default,I,0000,0000,0000,,To je trochu děsivé.
+Dialogue: 0,0:19:58.63,0:20:02.72,Default,Mana,0000,0000,0000,,Nevěděl jsem, že šaty jsou dárek!
+Dialogue: 0,0:20:02.72,0:20:06.41,Default,Mana,0000,0000,0000,,Myslel jsem si,\Nže ji bude používat pro vlastní hobby.
+Dialogue: 0,0:20:06.41,0:20:11.21,Default,Mana,0000,0000,0000,,a to je důvod, proč jsem spálil půlnoční\Nolej, aby každý steh byl opatrný!
+Dialogue: 0,0:20:11.21,0:20:14.41,Default,Mana,0000,0000,0000,,A vy dva se točíte\Npřede mnou takhle...
+Dialogue: 0,0:20:14.41,0:20:21.90,Default,Mana,0000,0000,0000,,Měla bych tam být Popelka!
+Dialogue: 0,0:20:22.19,0:20:24.73,Default,I,0000,0000,0000,,Alfie, chci, abys měl mé dítě,
+Dialogue: 0,0:20:24.73,0:20:26.44,Default,,0000,0000,0000,,a zvedněte ji, aby se stala silnou.
+Dialogue: 0,0:20:26.44,0:20:28.92,Default,Alfie,0000,0000,0000,,Ano, nechte to na mě.
+Dialogue: 0,0:20:32.28,0:20:33.85,Default,I,0000,0000,0000,,Co je špatně, Alfie?
+Dialogue: 0,0:20:33.85,0:20:35.91,Default,Alfie,0000,0000,0000,,Můj žaludek...
+Dialogue: 0,0:20:35.91,0:20:40.01,Default,Alfie,0000,0000,0000,,Já... možná to nedokážu...
+Dialogue: 0,0:20:42.95,0:20:43.90,Default,I,0000,0000,0000,,Alfie?
+Dialogue: 0,0:20:43.90,0:20:44.89,Default,I,0000,0000,0000,,Spojte se!
+Dialogue: 0,0:20:44.89,0:20:47.02,Default,I,0000,0000,0000,,Alfie?  Alfie ?!
+Dialogue: 0,0:20:48.34,0:20:49.64,Default,Mana,0000,0000,0000,,Neboj se.
+Dialogue: 0,0:20:49.64,0:20:51.53,Default,Mana,0000,0000,0000,,Bylo to jen pár volných střev.
+Dialogue: 0,0:20:51.53,0:20:53.69,Default,Mana,0000,0000,0000,,Zdá se, že polkla nějaký papír.
+Dialogue: 0,0:20:54.01,0:20:58.44,Default,Mana,0000,0000,0000,,Zajímalo by mě,\Njestli její mozek je také ze svalů.
+Dialogue: 0,0:20:58.44,0:21:02.52,Default,Mana,0000,0000,0000,,Říká se, že láska je slepá a myslím
+Dialogue: 0,0:21:02.52,0:21:05.20,Default,,0000,0000,0000,,to může dokonce vás\Npřesvědčit v hloupé kouzlo.
+Dialogue: 0,0:21:05.53,0:21:09.55,Default,Mana,0000,0000,0000,,Jak neopatrnou dívku jako já zapomenu...
+Dialogue: 0,0:21:09.55,0:21:13.96,Default,Mana,0000,0000,0000,,ale myslím, že počkám o něco\Ndéle, než jí to dám.
+Dialogue: 0,0:21:11.20,0:21:13.96,sign_30479_326_Stomach__Pain___,TS,0000,0000,0000,,Léčba bolesti žaludku
+Dialogue: 0,0:21:31.94,0:21:34.18,Default,Alfie,0000,0000,0000,,Co si myslíš?
+Dialogue: 0,0:21:34.18,0:21:36.94,Default,I,0000,0000,0000,,Vypadá to opravdu dobře.
+Dialogue: 0,0:21:36.94,0:21:40.89,Default,Alfie,0000,0000,0000,,Kvůli tobě se červenám!
+Dialogue: 0,0:21:40.89,0:21:41.83,Default,I,0000,0000,0000,,Ale...
+Dialogue: 0,0:21:42.98,0:21:46.22,Default,I,0000,0000,0000,,Chci jen, abyste to nosili pro mě.
+Dialogue: 0,0:21:47.59,0:21:49.91,Default,I,0000,0000,0000,,Nechci, aby to viděl někdo jiný.
+Dialogue: 0,0:21:50.32,0:21:53.34,Default,I,0000,0000,0000,,Alfie, prosím, prosím, mé dítě.
+Dialogue: 0,0:21:53.76,0:21:54.95,Default,Alfie,0000,0000,0000,,Ano.
+Dialogue: 0,0:21:57.46,0:21:59.96,Ep_Title,TS,0000,0000,0000,,Moje děti, třináct z nich !?
+Dialogue: 0,0:23:32.47,0:23:39.98,Next_Ep_Title,TS,0000,0000,0000,,{\fad(1859,1)}Chystáte se mi říct, že\Nchcete, abych měl vaše dítě
+Dialogue: 0,0:23:37.46,0:23:39.16,Top,Mana,0000,0000,0000,,Ikkun.

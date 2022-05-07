@@ -1,0 +1,337 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: Untitled
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:20.89,0:01:23.21,Default,,0,0,0,,-JEDEN HRÁČ VO VNÚTORNOM POLI-
+Dialogue: 0,0:01:24.18,0:01:29.67,Default,commentator,0,0,0,,Tretia hra medzi Bugaboos a Lycaons, ideme\Ndo extra predĺženia skóre na tabuli je 0:0.
+Dialogue: 0,0:01:32.25,0:01:33.72,Default,Narrator,0,0,0,,Mihara Yuuzaburou...
+Dialogue: 0,0:01:35.63,0:01:39.03,Default,Narrator,0,0,0,,...robí trénera pre Saikawu\NLycaons už sedem rokov.
+Dialogue: 0,0:01:40.50,0:01:41.98,Default,,0,0,0,,Ale to je len titul.
+Dialogue: 0,0:01:43.24,0:01:46.17,Default,,0,0,0,,V skutočnosti je pre majiteľa Saikawu...
+Dialogue: 0,0:01:47.69,0:01:48.46,Default,,0,0,0,,...len psom.
+Dialogue: 0,0:01:49.64,0:01:55.30,Default,,0,0,0,,Napriek tomu, má zodpovednosť za zloženie\NB-čkového tímu, kde vystupuje ako tréner.
+Dialogue: 0,0:01:56.09,0:02:00.45,Default,,0,0,0,,A to hlavne preto, že je\Nposlušný Saikawovým príkazom.
+Dialogue: 0,0:02:04.59,0:02:08.21,Default,commentator,0,0,0,,Z top desiatky, pri útoku na Lycaons,\Ntraja pálkari skončili veľmi predčasne.
+Dialogue: 0,0:02:08.21,0:02:11.05,Default,commentator,0,0,0,,Teraz je rad na Bugaboos s dvomi\Nautmi a bežcom na prvej.
+Dialogue: 0,0:02:11.58,0:02:12.35,Default,,0,0,0,,Je to odpal!
+Dialogue: 0,0:02:12.80,0:02:15.47,Default,,0,0,0,,Stredopoliar zúfalo naháňa\Nloptičku, ale nedokázal ju chytiť!
+Dialogue: 0,0:02:15.47,0:02:17.35,Default,,0,0,0,,Bežec z prvej sa dostal až na tretiu métu.
+Dialogue: 0,0:02:17.72,0:02:20.67,Default,,0,0,0,,Bugaboos majú šancu ukončiť túto hru\Ns bežcami na druhej a tretej méte.
+Dialogue: 0,0:02:20.93,0:02:22.49,Default,,0,0,0,,Oh, zle je.
+Dialogue: 0,0:02:23.23,0:02:27.99,Default,Narrator,0,0,0,,Pretože majiteľ mu to prikázal,\Nnosí počas hry telefón vo vrecku.
+Dialogue: 0,0:02:31.16,0:02:32.38,Default,,0,0,0,,Jedno vibrovanie znamená...
+Dialogue: 0,0:02:32.38,0:02:32.92,Default,,0,0,0,,daj {\alpha&HFF&}Tokuchiho hrať
+Dialogue: 0,0:02:32.92,0:02:33.67,Default,,0,0,0,,daj Tokuchiho {\alpha&HFF&}hrať
+Dialogue: 0,0:02:33.67,0:02:34.67,Default,,0,0,0,,daj Tokuchiho hrať
+Dialogue: 0,0:02:39.27,0:02:41.15,Default,manager,0,0,0,,Nadhadzovača meníme za Tokuchiho.
+Dialogue: 0,0:02:41.61,0:02:45.89,Default,commentator,0,0,0,,Ako sme očakávali, je to Tokuchi!\NNajspolahlivejší muž v čase krízy, Tokuchi Toua.
+Dialogue: 0,0:02:46.10,0:02:48.73,Default,,0,0,0,,Po šiesty krát Tokuchi zachraňuje\Nnadhadzovačov v dnešnom zápase.
+Dialogue: 0,0:02:51.83,0:02:59.47,Default,Narrator,0,0,0,,Mimochodom, tréner nevie o One\NOuts zmluve medzi majiteľom a Tokuchim.
+Dialogue: 0,0:02:59.83,0:03:01.92,Default,,0,0,0,,O čo tu vlastne ide?
+Dialogue: 0,0:03:02.57,0:03:05.64,Default,,0,0,0,,{\i1}Vždy, keď je bežec na tretej méte\Nmi prikáže dať hrať Tokuchiho.{\i0}
+Dialogue: 0,0:03:05.96,0:03:09.66,Default,,0,0,0,,{\i1}Žeby mali nejakú dohodu Tokuchi a majiteľ?{\i0}
+Dialogue: 0,0:03:13.11,0:03:14.97,Default,ref,0,0,0,,Strike! Pálkar out!
+Dialogue: 0,0:03:15.52,0:03:19.78,Default,commentator,0,0,0,,Out-ový švih. Tokuchi neobyčajne\Nzvládol túto situáciu.
+Dialogue: 0,0:03:20.48,0:03:22.85,Default,wimp,0,0,0,,Hmm...pán majiteľ?
+Dialogue: 0,0:03:23.22,0:03:26.69,Default,wimp,0,0,0,,Čo tak stiahnuť Tokuchiho\Npokiaľ sú straty minimálne.
+Dialogue: 0,0:03:28.30,0:03:30.68,Default,owner,0,0,0,,Toto ešte vôbec nič nieje!
+Dialogue: 0,0:03:31.17,0:03:35.28,Default,owner,0,0,0,,Ešte stále môžme získať, ak by\Nnezvládol nasledujúce kolo.
+Dialogue: 0,0:03:36.09,0:03:40.20,Default,wimp,0,0,0,,A-ale Tokuchi má v tomto\Nmomente zarobený šesť násobok.
+Dialogue: 0,0:03:40.51,0:03:43.07,Default,wimp,0,0,0,,A my sme použili skoro všetkých\Nnáhradných nadhadzovačov.
+Dialogue: 0,0:03:43.41,0:03:48.58,Default,owner,0,0,0,,Kôli tomu som dnes na striedačku dal\Ndeviatich nadhadzovačov vrátane Tokuchiho.
+Dialogue: 0,0:03:53.79,0:03:57.35,Default,,0,0,0,,Čo znamená, ze máme ešte\Ndve striedania k dobru.
+Dialogue: 0,0:03:57.76,0:04:01.19,Default,manager,0,0,0,,Tokuchi, skvelá práca! Znamenité!
+Dialogue: 0,0:04:01.19,0:04:03.86,Default,manager,0,0,0,,Ty si génius! Nie! Ty si Boh!
+Dialogue: 0,0:04:04.58,0:04:09.17,Default,manager,0,0,0,,Ale...ale nemôžem uveriť tomu,\Nže vieš byť až tak nemilosrdný.
+Dialogue: 0,0:04:09.17,0:04:15.03,Default,manager,0,0,0,,Takže...nie si nespokojný, nahnevaný\Nalebo nemáš niečo proti mne!?
+Dialogue: 0,0:04:15.30,0:04:16.03,Default,tokuchi,0,0,0,,Nie.
+Dialogue: 0,0:04:17.70,0:04:22.42,Default,,0,0,0,,Naopak. Prial by som si, aby moje\Nschopnosti boli viac ocenené.
+Dialogue: 0,0:04:23.12,0:04:25.28,Default,manager,0,0,0,,Máš pravdu.
+Dialogue: 0,0:04:25.28,0:04:28.70,Default,manager,0,0,0,,Naše nasadzovanie nadhadzovačov\Nje trochu nezvyčajné,
+Dialogue: 0,0:04:28.72,0:04:31.82,Default,manager,0,0,0,,ale to preto, že si ceníme\Ntvoje zvládanie situácie.
+Dialogue: 0,0:04:32.67,0:04:35.90,Default,,0,0,0,,{\i1}Vďaka bohu...tento chlap\Nje vlastne dobrý človek.{\i0}
+Dialogue: 0,0:04:36.72,0:04:38.83,Default,tokuchi,0,0,0,,Čítal si športové noviny zo včerajška?
+Dialogue: 0,0:04:40.01,0:04:40.76,Default,,0,0,0,,Miharová mágia.
+Dialogue: 0,0:04:42.52,0:04:45.26,Default,,0,0,0,,Použil Tokuchiho ako obráncu\Nna prvej, a potom ho poslal na kopec,
+Dialogue: 0,0:04:45.59,0:04:47.49,Default,,0,0,0,, keď bola\Nsituácia katastrofálna.
+Dialogue: 0,0:04:47.96,0:04:50.55,Default,,0,0,0,,Napriek "Shirookovej\Nstratégii" nebol chytený...
+Dialogue: 0,0:04:50.57,0:04:53.11,Default,,0,0,0,,...do geniálnej taktiky, ale\Ndoviedol tým k víťazstvu.
+Dialogue: 0,0:04:54.61,0:04:56.69,Default,manager,0,0,0,,{\i1}Nezvyčajné, oni ma vychvalujú.{\i0}
+Dialogue: 0,0:04:57.03,0:04:58.52,Default,tokuchi,0,0,0,,Poďme vyhrať tento zápas!
+Dialogue: 0,0:05:00.18,0:05:04.60,Default,,0,0,0,,Shirooka je stratég, ktorý zmietol\Nvšetkých svojou geniálnou taktikou.
+Dialogue: 0,0:05:06.10,0:05:07.50,Default,,0,0,0,,Nebolo by to uspokojujúce?
+Dialogue: 0,0:05:10.13,0:05:13.92,Default,,0,0,0,,Vyhrať túto hru je, ako\Nvyhrať tri hry po sebe.
+Dialogue: 0,0:05:15.37,0:05:19.45,Default,,0,0,0,,Nech všetci vidia, kto je\Ntu naozajstný stratég.
+Dialogue: 0,0:05:20.90,0:05:25.02,Default,manager,0,0,0,,Ja som ten pravý stratég?
+Dialogue: 0,0:05:30.10,0:05:35.11,Default,Narrator,0,0,0,,Na konci jedenástej zmeny, Bugaboos\Nmajú znova šancu, dve méty sú naplnené.
+Dialogue: 0,0:05:36.62,0:05:37.56,Default,,0,0,0,,A tak...
+Dialogue: 0,0:05:40.09,0:05:41.79,Default,manager,0,0,0,,Striedame nadhadzovača za Tokuchiho.
+Dialogue: 0,0:05:43.81,0:05:44.94,Default,commentator,0,0,0,,To je neslýchané!
+Dialogue: 0,0:05:44.94,0:05:47.53,Default,commentator,0,0,0,,Toto je jeho siedme nasadenie.
+Dialogue: 0,0:05:47.94,0:05:51.15,Default,,0,0,0,,Zvládnu Lycaoni poslednú\Nšancu vyhrať túto hru?
+Dialogue: 0,0:05:54.57,0:05:55.24,Default,,0,0,0,,Daj to!
+Dialogue: 0,0:05:58.73,0:05:59.86,Default,,0,0,0,,On to chytil!
+Dialogue: 0,0:05:59.86,0:06:01.66,Default,,0,0,0,,Bol to ľahký prízemný odpal k druhej.
+Dialogue: 0,0:06:02.21,0:06:04.91,Default,,0,0,0,,Tokuchi ich prekonal zas a znova!
+Dialogue: 0,0:06:05.61,0:06:06.59,Default,owner,0,0,0,,Do riti!
+Dialogue: 0,0:06:07.17,0:06:09.42,Default,owner,0,0,0,,Vyzerá to tak, že to nebude fungovať,\Nkeď majú dva auty a bežca na tretej.
+Dialogue: 0,0:06:09.45,0:06:15.13,Default,,0,0,0,,Potrebujeme situáciu bez autu, alebo\Nmaximálne jeden aut a bežca na tretej.
+Dialogue: 0,0:06:16.13,0:06:18.28,Default,,0,0,0,,Takže je tam ešte jedna\Nposledná šanca, že ano?
+Dialogue: 0,0:06:20.28,0:06:21.16,Default,MIB,0,0,0,,Do šľaka!
+Dialogue: 0,0:06:22.70,0:06:25.78,Default,,0,0,0,,Pán majiteľ, my už ale nemôžme\Nvymeniť nadhadzovača.
+Dialogue: 0,0:06:26.12,0:06:27.42,Default,owner,0,0,0,,O čom to hovoríš?
+Dialogue: 0,0:06:28.28,0:06:31.50,Default,,0,0,0,,Použili sme osem výmien vrátane Tokuchiho.
+Dialogue: 0,0:06:31.76,0:06:34.37,Default,,0,0,0,,Mala by tam byť ešte jedna výmena.
+Dialogue: 0,0:06:35.31,0:06:39.29,Default,MIB,0,0,0,,My sme ale prehliadli pascu v\Nsystéme nasadzovania hráčov.
+Dialogue: 0,0:06:39.91,0:06:41.08,Default,owner,0,0,0,,Pascu?
+Dialogue: 0,0:06:41.81,0:06:47.82,Default,MIB,0,0,0,,Zakaždým čo sme nasadili Tokuchiho, nielen\Nže sme použili výmenu za nadhazdovača...
+Dialogue: 0,0:06:48.70,0:06:53.87,Default,,0,0,0,,ale keď sa vracal chytať na prvú métu,\Ntiež sme prišli o jednu výmenu.
+Dialogue: 0,0:06:54.34,0:06:55.29,Default,owner,0,0,0,,Čo znamená...
+Dialogue: 0,0:06:55.80,0:07:02.78,Default,MIB,0,0,0,,Nieje je to len o ôsmych nadhadzovačoch, ale\Nvšetkých 25 hráčov na lavičke sme už použili tiež!
+Dialogue: 0,0:07:04.22,0:07:04.84,Default,owner,0,0,0,,Počkať.
+Dialogue: 0,0:07:05.30,0:07:06.86,Default,owner,0,0,0,,Sú tam desiati štartujúci.
+Dialogue: 0,0:07:07.30,0:07:09.01,Default,owner,0,0,0,,Tokuchiho sme vypustili sedem krát.
+Dialogue: 0,0:07:09.28,0:07:12.18,Default,owner,0,0,0,,čo znamená, že Tokuchi\Nbol na poli šesť krát.
+Dialogue: 0,0:07:09.65,0:07:15.28,Default,,0,0,0,,{\pos(82,164)}iiiiiiiiiiiiiiiiiiii
+Dialogue: 0,0:07:09.65,0:07:15.28,Default,,0,0,0,,{\pos(82,377)}iiiiiiiiiiiiiiiiiiii
+Dialogue: 0,0:07:09.65,0:07:15.28,Default,,0,0,0,,{\pos(82,588)}iiiiiiiiiiiiiiiiiiii
+Dialogue: 0,0:07:09.65,0:07:15.28,Default,,0,0,0,,{\pos(82,164)}Nadhadzovači
+Dialogue: 0,0:07:09.65,0:07:15.28,Default,,0,0,0,,{\pos(82,377)}Hráči v poli
+Dialogue: 0,0:07:09.65,0:07:15.28,Default,,0,0,0,,{\pos(82,588)}Štartujúci hráči
+Dialogue: 0,0:07:12.18,0:07:14.99,Default,owner,0,0,0,,A počas toho času, šesť\Nnadhadzovačov bolo použitých.
+Dialogue: 0,0:07:15.22,0:07:19.33,Default,,0,0,0,,Inými slovami 10 + 6 + 6 = 22.
+Dialogue: 0,0:07:19.73,0:07:22.80,Default,,0,0,0,, 25 hráčov na striedačke 22 použitých.
+Dialogue: 0,0:07:23.17,0:07:25.40,Default,,0,0,0,,Mali by sme mať troch hráčov k dobru.
+Dialogue: 0,0:07:25.92,0:07:28.41,Default,MIB,0,0,0,,Nie. Prosím zamyslite sa.
+Dialogue: 0,0:07:28.69,0:07:30.76,Default,MIB,0,0,0,,Naša obrana na konci deviatej zmeny.
+Dialogue: 0,0:07:33.73,0:07:34.65,Default,,0,0,0,,Presne tak!
+Dialogue: 0,0:07:34.88,0:07:39.76,Default,,0,0,0,,Na príkaz posilnenia obrany, tréner Mihara\Nvymenil vonkajších hráčov za vnútropoliarov.
+Dialogue: 0,0:07:40.29,0:07:44.03,Default,wimp,0,0,0,,Čo znamená, že Tokuchi bude\Nnadhadzovať až do konca hry?
+Dialogue: 0,0:07:44.61,0:07:48.96,Default,owner,0,0,0,,Ten idiot! Nieje to to, čo Tokuchi chcel?
+Dialogue: 0,0:07:49.64,0:07:50.87,Default,MIB,0,0,0,,Ešte stále máme možnosť.
+Dialogue: 0,0:07:51.35,0:07:51.85,Default,owner,0,0,0,,Čo?
+Dialogue: 0,0:07:53.05,0:07:56.92,Default,MIB,0,0,0,,Dajme jedného z obráncov na kopec...
+Dialogue: 0,0:07:57.03,0:07:59.14,Default,MIB,0,0,0,,S pravidlami nebude problém.
+Dialogue: 0,0:07:59.62,0:08:04.22,Default,,0,0,0,,Stiahneme ho a vymeníme Tokuchiho\Nspäť, až keď budú méty plné.
+Dialogue: 0,0:08:05.28,0:08:07.58,Default,owner,0,0,0,,Výborne. Presne to aj urobíme.
+Dialogue: 0,0:08:13.97,0:08:14.97,Default,,0,0,0,,Špeciálne {\alpha&HFF&}nariadenie
+Dialogue: 0,0:08:14.97,0:08:18.06,Default,,0,0,0,,Špeciálne nariadenie
+Dialogue: 0,0:08:16.05,0:08:16.85,Default,,0,0,0,,Zdvihni {\alpha&HFF&}telefón
+Dialogue: 0,0:08:16.85,0:08:17.05,Default,,0,0,0,,Zdvihni {\alpha&HFF&}telefón
+Dialogue: 0,0:08:17.05,0:08:18.06,Default,,0,0,0,,Zdvihni telefón
+Dialogue: 0,0:08:19.88,0:08:22.00,Default,,0,0,0,,telefón...telefón... telefón
+Dialogue: 0,0:08:24.75,0:08:26.93,Default,manager,0,0,0,,Čooo? To v žiadnom prípade!
+Dialogue: 0,0:08:27.05,0:08:30.06,Default,manager,0,0,0,,Obyčajného hráča mám dať nadhadzovať?
+Dialogue: 0,0:08:30.32,0:08:31.91,Default,manager,0,0,0,,Ak to urobím tak...táto hra...
+Dialogue: 0,0:08:32.42,0:08:33.84,Default,owner,0,0,0,,Prestaň sa sťažovať a urob čo ti hovorím!
+Dialogue: 0,0:08:34.84,0:08:35.56,Default,,0,0,0,,Rozumieš?
+Dialogue: 0,0:08:37.40,0:08:38.04,Default,manager,0,0,0,,Noo...
+Dialogue: 0,0:08:40.84,0:08:46.54,Default,,0,0,0,,Ale, keď ja chcem vyhrať\Ntúto hru za každú cenu.
+Dialogue: 0,0:08:46.79,0:08:47.37,Default,owner,0,0,0,,Čože?
+Dialogue: 0,0:08:47.80,0:08:49.01,Default,,0,0,0,,Nepočujem ťa.
+Dialogue: 0,0:08:52.63,0:08:54.99,Default,manager,0,0,0,,Ale ja chcem vážne vyhrať!
+Dialogue: 0,0:08:55.60,0:08:58.16,Default,commentator,0,0,0,,Na rade je Bugaboos, útočia\Nna konci dvanástej zmeny.
+Dialogue: 0,0:08:58.74,0:09:00.65,Default,commentator,0,0,0,,Tokuchi kráča na kopec.
+Dialogue: 0,0:09:04.44,0:09:09.99,Default,Narrator,0,0,0,,Mihara Yuuzaburou..je trénerom Lycaonov\Ntaktiež, ako je majiteľov pes.
+Dialogue: 0,0:09:10.76,0:09:12.03,Default,,0,0,0,,Ale pre tento deň...
+Dialogue: 0,0:09:19.58,0:09:20.33,Default,,0,0,0,,Mihara{\alpha&HFF&}aaa
+Dialogue: 0,0:09:20.33,0:09:20.58,Default,,0,0,0,,Miharaa{\alpha&HFF&}aa
+Dialogue: 0,0:09:20.58,0:09:20.74,Default,,0,0,0,,Miharaaa{\alpha&HFF&}a
+Dialogue: 0,0:09:20.74,0:09:26.96,Default,,0,0,0,,Miharaaaa
+Dialogue: 0,0:09:21.20,0:09:21.95,Default,,0,0,0,,Zdvi {\alpha&HFF&}hni telefóóón
+Dialogue: 0,0:09:21.95,0:09:22.20,Default,,0,0,0,,Zdvihni {\alpha&HFF&}telefóóón
+Dialogue: 0,0:09:22.20,0:09:22.70,Default,,0,0,0,,Zdvihni telef{\alpha&HFF&}óóón
+Dialogue: 0,0:09:22.70,0:09:22.95,Default,,0,0,0,,Zdvihni telefó{\alpha&HFF&}óón
+Dialogue: 0,0:09:22.95,0:09:23.20,Default,,0,0,0,,Zdvihni telefóó{\alpha&HFF&}ón
+Dialogue: 0,0:09:23.20,0:09:26.96,Default,,0,0,0,,Zdvihni telefóóón
+Dialogue: 0,0:09:23.58,0:09:24.08,Default,,0,0,0,,Čo {\alpha&HFF&}to robíííš
+Dialogue: 0,0:09:24.08,0:09:24.58,Default,,0,0,0,,Čo to {\alpha&HFF&}robíííš
+Dialogue: 0,0:09:24.58,0:09:25.08,Default,,0,0,0,,Čo to ro {\alpha&HFF&}bíííš
+Dialogue: 0,0:09:25.08,0:09:25.58,Default,,0,0,0,,Čo to rob {\alpha&HFF&}íííš
+Dialogue: 0,0:09:25.58,0:09:25.83,Default,,0,0,0,,Čo to robí{\alpha&HFF&}ííš
+Dialogue: 0,0:09:25.83,0:09:26.08,Default,,0,0,0,,Čo to robíí{\alpha&HFF&}íš
+Dialogue: 0,0:09:26.08,0:09:26.29,Default,,0,0,0,,Čo to robííí{\alpha&HFF&}š
+Dialogue: 0,0:09:26.29,0:09:26.96,Default,,0,0,0,,Čo to robíííš
+Dialogue: 0,0:09:27.42,0:09:31.52,Default,,0,0,0,,V tento deň... poslušný pes, prvý\Nkrát neposlúchol svôjho majiteľa.
+Dialogue: 0,0:09:34.50,0:09:36.58,Default,tokuchi,0,0,0,,Takže hráči Bugaboos.
+Dialogue: 0,0:09:37.46,0:09:40.34,Default,,0,0,0,,Do teraz som bol vždy\Nvymenený a nenadhadzoval som veľa.
+Dialogue: 0,0:09:41.57,0:09:44.31,Default,,0,0,0,,Ale od teraz, už budem\Nnadhadzovať až do konca zápasu.
+Dialogue: 0,0:09:45.71,0:09:46.55,Default,,0,0,0,,Je mi potešením.
+Dialogue: 0,0:09:56.89,0:09:59.45,Default,Narrator,0,0,0,,Medzi dvanástou a trinástou zmenou,
+Dialogue: 0,0:10:00.10,0:10:06.11,Default,,0,0,0,,Tokuchi vyautoval troch pálkarov za sebov\Na nedovolil im bežať ani na prvú métu.
+Dialogue: 0,0:10:07.08,0:10:09.90,Default,owner,0,0,0,,Miharaaaááááá!
+Dialogue: 0,0:10:10.12,0:10:13.30,Default,wimp,0,0,0,,Pán majiteľ, ak to takto bude\Npokračovať stratíme 1 billón yenov!
+Dialogue: 0,0:10:13.30,0:10:15.00,Default,owner,0,0,0,,To mi nemusíš ani hovoriť!
+Dialogue: 0,0:10:15.81,0:10:20.86,Default,MIB,0,0,0,,Tokuchi sa bude snažiť o čo\Nnajviac autov v ďalšej hre.
+Dialogue: 0,0:10:21.27,0:10:23.04,Default,MIB,0,0,0,,Musíme dať do kopy nejaký plán.
+Dialogue: 0,0:10:23.41,0:10:24.79,Default,owner,0,0,0,,Do riti!
+Dialogue: 0,0:10:27.53,0:10:30.34,Default,,0,0,0,,V poslednej zmene bol už deviaty\Npálkar nasadený?
+Dialogue: 0,0:10:31.02,0:10:31.28,Default,MIB,0,0,0,,Áno.
+Dialogue: 0,0:10:35.48,0:10:40.76,Default,owner,0,0,0,,Bastard Tokuchi. Urobil si veľkú chybu,\Nže si sa sústredil len na odpalovačov.
+Dialogue: 0,0:10:41.22,0:10:43.77,Default,commentator,0,0,0,,Máme tu koniec štrnásteho\Nkola v extra predĺžení.
+Dialogue: 0,0:10:43.77,0:10:47.88,Default,commentator,0,0,0,, Bugaboos začali ich útok s\Nnajlepším pálkarom, Johnsonom.
+Dialogue: 0,0:10:48.83,0:10:52.23,Default,,0,0,0,,{\i1}Tokuchi. Naozaj to bude v pohode?{\i0}
+Dialogue: 0,0:10:53.57,0:10:54.21,Default,johnson,0,0,0,,Hej.
+Dialogue: 0,0:10:55.38,0:10:57.24,Default,,0,0,0,,Urobil si obrovskú chybu.
+Dialogue: 0,0:10:57.33,0:11:00.09,Default,,0,0,0,,Určite si si nemyslel, že budem\Nprvým pálkarom toto kolo.
+Dialogue: 0,0:11:00.82,0:11:02.74,Default,,0,0,0,,Ak ma chceš zastaviť...
+Dialogue: 0,0:11:02.74,0:11:09.48,Default,,0,0,0,,...nemôžeš ma nehať prejsť..no ale ani\Nmi nezabrániš získať prvú métu.
+Dialogue: 0,0:11:11.79,0:11:13.06,Default,,0,0,0,,Bol si až moc bezstarostný.
+Dialogue: 0,0:11:14.90,0:11:16.44,Default,tokuchi,0,0,0,,Ďakujem za starosť...
+Dialogue: 0,0:11:18.07,0:11:20.93,Default,,0,0,0,,...ale niečo také nemám v úmysle.
+Dialogue: 0,0:11:22.90,0:11:24.48,Default,,0,0,0,,Je skoro koniec zápasu.
+Dialogue: 0,0:11:24.80,0:11:26.58,Default,,0,0,0,,Je načase, aby sme si to spolu\Nvyjasnili.
+Dialogue: 0,0:11:26.62,0:11:33.17,Default,,0,0,0,,Vlastne mal by som všetkým ukázať, aký si\Nnepoužitelný, napriek všetkým očakávaniam.
+Dialogue: 0,0:11:33.85,0:11:35.66,Default,johnson,0,0,0,,Čo? Nepoužitelný?
+Dialogue: 0,0:11:36.52,0:11:38.48,Default,tokuchi,0,0,0,,Prvé čo urobíš, je bezpečný bunt.
+Dialogue: 0,0:11:39.58,0:11:42.24,Default,tokuchi,0,0,0,,Vieš utekať na métu za 2.6 sekúnd.
+Dialogue: 0,0:11:42.50,0:11:44.93,Default,tokuchi,0,0,0,,100 % budeš v bezpečí len s buntom...
+Dialogue: 0,0:11:45.86,0:11:47.33,Default,,0,0,0,,...to je to, čo si myslíš.
+Dialogue: 0,0:11:48.08,0:11:50.89,Default,,0,0,0,,Ale baseball nieje taký jednoduchý.
+Dialogue: 0,0:11:52.68,0:11:54.56,Default,,0,0,0,,Práve teraz ťa tu o tom presvečím.
+Dialogue: 0,0:11:55.24,0:11:58.42,Default,johnson,0,0,0,,Tvoje blafovanie ma nerozhodí.
+Dialogue: 0,0:12:00.32,0:12:02.84,Default,commentator,0,0,0,,Máme tu opäť deveť hráčov v poli!
+Dialogue: 0,0:12:03.45,0:12:08.87,Default,commentator,0,0,0,,Všetci obráncovia sú kúsok od\Nseba, čo je obrovská výhoda.
+Dialogue: 0,0:12:08.87,0:12:11.33,Default,commentator,0,0,0,,Toto je perfektná obranná pozícia!
+Dialogue: 0,0:12:23.21,0:12:24.19,Default,johnson,0,0,0,,O čo ti ide?
+Dialogue: 0,0:12:25.07,0:12:26.43,Default,tokuchi,0,0,0,,To je jednoduché.
+Dialogue: 0,0:12:27.22,0:12:31.26,Default,tokuchi,0,0,0,,Je to príprava na tvoj\Nbunt, kedže iný odpal nedáš..
+Dialogue: 0,0:12:31.28,0:12:34.65,Default,tokuchi,0,0,0,,Čo znamená, že sa nedostaneš\Nani na prvú métu.
+Dialogue: 0,0:12:35.32,0:12:39.10,Default,johnson,0,0,0,,Si idiot? Určite nedám bunt!
+Dialogue: 0,0:12:40.34,0:12:43.72,Default,,0,0,0,,Veľmi ľahko zničím tvoju\Nobranu, ak dám poriadny odpal.
+Dialogue: 0,0:12:46.35,0:12:47.89,Default,tokuchi,0,0,0,,To je mi jasné...
+Dialogue: 0,0:12:49.16,0:12:52.41,Default,,0,0,0,,...ale ty vieš iba buntovať.
+Dialogue: 0,0:12:54.31,0:12:57.32,Default,commentator,0,0,0,,Tokuchi predpokladá, že\NJohnson bude bunt-ovať.
+Dialogue: 0,0:12:58.39,0:13:02.29,Default,tokuchi,0,0,0,,Pamätáš, na konci deviatej\Nzmeny, keď boli plné méty..
+Dialogue: 0,0:13:03.73,0:13:08.70,Default,,0,0,0,,..hodil som ti extra ľahkú\Nrovnú loptičku naschvál.
+Dialogue: 0,0:13:10.44,0:13:13.82,Default,,0,0,0,,Chcel som vedieť, či vieš zahrať\Nodpal, ale ty vieš iba buntovať.
+Dialogue: 0,0:13:15.18,0:13:21.07,Default,,0,0,0,,Bola to obrovská šanca na\Nhome run, mali by ste tri body.
+Dialogue: 0,0:13:21.93,0:13:23.97,Default,,0,0,0,,Mal by si dávať väčší pozor.
+Dialogue: 0,0:13:24.92,0:13:27.08,Default,,0,0,0,,Pretože ty si ten, kto tu chybuje.
+Dialogue: 0,0:13:28.05,0:13:31.14,Default,,0,0,0,,Ak si myslíš, že sa dostaneš cez\Ntúto obranu,
+Dialogue: 0,0:13:31.92,0:13:32.97,Default,,0,0,0,, kľudne to skús.
+Dialogue: 0,0:13:36.78,0:13:39.23,Default,johnson,0,0,0,,{\i1}Chceš povedať, že sa nedostanem\Ncez tvoju obranu? Hovadina!{\i0}
+Dialogue: 0,0:13:40.16,0:13:41.29,Default,johnson,0,0,0,,{\i1} Do riti!{\i0}
+Dialogue: 0,0:13:42.54,0:13:45.19,Default,commentator,0,0,0,,Je to bunt od Johnsona, ako vždy.
+Dialogue: 0,0:13:45.97,0:13:46.92,Default,johnson,0,0,0,,{\i1}Moja...{\i0}
+Dialogue: 0,0:13:47.46,0:13:50.18,Default,commentator,0,0,0,,Extra ľahká pre Imaia,\Nhneď ju hádže na prvú.
+Dialogue: 0,0:13:50.77,0:13:53.33,Default,johnson,0,0,0,,{\i1}Moja rýchlosť neprehrá...{\i0}
+Dialogue: 0,0:13:55.21,0:13:56.57,Default,,0,0,0,,{\i1}...s takou lacnou stratégiou!{\i0}
+Dialogue: 0,0:13:59.01,0:13:59.61,Default,ref,0,0,0,,Out!
+Dialogue: 0,0:14:00.83,0:14:02.19,Default,commentator,0,0,0,,Bunt sa nepodaril.
+Dialogue: 0,0:14:02.92,0:14:09.31,Default,,0,0,0,,S Johnsonovým buntom, ktorý bol nezastaviteľný..\Nsi Tokuchi ľahko poradil.
+Dialogue: 0,0:14:11.03,0:14:16.40,Default,Narrator,0,0,0,,Johnsonov nevydarený bunt..priniesol\Nnegatívny efekt pre Bugaboos.
+Dialogue: 0,0:14:17.31,0:14:19.83,Default,,0,0,0,,Máme tu útok Lycaonov na\Nzačiatku šesnástej zmeny.
+Dialogue: 0,0:14:20.03,0:14:23.06,Default,,0,0,0,,S jedným autom a bežcom\Nna druhej, ktorý zahral prízemný bunt.
+Dialogue: 0,0:14:23.08,0:14:25.71,Default,,0,0,0,,Ale obránca\Nurobil obrovskú chybu.
+Dialogue: 0,0:14:32.42,0:14:33.47,Default,ref,0,0,0,,Safe!
+Dialogue: 0,0:14:33.47,0:14:35.94,Default,,0,0,0,,Áno!
+Dialogue: 0,0:14:35.94,0:14:37.93,Default,Narrator,0,0,0,,Lycaoni sa konečne dostávajú do vedenia.
+Dialogue: 0,0:14:38.79,0:14:43.38,Default,,0,0,0,,Aj napriek tomu, majú Bugaboos\Nšancu zmeniť priebeh tohto zápasu.
+Dialogue: 0,0:14:44.03,0:14:47.81,Default,,0,0,0,,Počas útoku v šesnástej zmene,\Ndostávajú dva auty za pár sekúnd.
+Dialogue: 0,0:14:48.29,0:14:53.34,Default,commentator,0,0,0,,Na konci šesnástej bude posledný\Npálkar Bugaboos hlavný pálkar..
+Dialogue: 0,0:14:53.96,0:14:55.82,Default,,0,0,0,,..Johnson, už je na mieste.
+Dialogue: 0,0:14:59.48,0:15:02.07,Default,tokuchi,0,0,0,,Kto by povedal, že\Nposledný pálkar budeš ty.
+Dialogue: 0,0:15:02.80,0:15:06.97,Default,commentator,0,0,0,,Samozrejme, že používajú stiahnutú\Nobranu, ako aj v štrnástej hre.
+Dialogue: 0,0:15:07.22,0:15:09.03,Default,,0,0,0,,Tokuchiho prvý nadhod...
+Dialogue: 0,0:15:10.66,0:15:11.41,Default,,0,0,0,,...je vhodené.
+Dialogue: 0,0:15:15.99,0:15:18.48,Default,commentator,0,0,0,,Dead ball! Je to mŕtva lopta!
+Dialogue: 0,0:15:19.05,0:15:22.40,Default,,0,0,0,,Tokuchi hodil dead ball hráčovi,\Nktorého je ťažko udržať na odpalisku.
+Dialogue: 0,0:15:22.79,0:15:23.92,Default,,0,0,0,,{\i1}Že by sa pošmykol?{\i0}
+Dialogue: 0,0:15:25.96,0:15:29.46,Default,,0,0,0,,{\i1}Nie. Urobil to zámerne.{\i0}
+Dialogue: 0,0:15:31.12,0:15:34.16,Default,johnson,0,0,0,,Hej, Tokuchi! Čo týmto chceš dosiahnuť?
+Dialogue: 0,0:15:36.16,0:15:37.39,Default,tokuchi,0,0,0,,Už som to povedal.
+Dialogue: 0,0:15:37.70,0:15:41.73,Default,tokuchi,0,0,0,,Chcem všetkým ukázať, aký\Nnepoužitelný hráč si.
+Dialogue: 0,0:15:44.04,0:15:45.41,Default,,0,0,0,,Tento krát to bude tvoja rýchlosť.
+Dialogue: 0,0:15:46.00,0:15:48.55,Default,,0,0,0,,Zničím ťa a nedovolím\Nti ukradnúť domácu métu..
+Dialogue: 0,0:15:48.75,0:15:50.55,Default,,0,0,0,,..tak, že sa môžeš rovno\Nposadiť na lavičku.
+Dialogue: 0,0:15:51.32,0:15:52.77,Default,,0,0,0,,A ani nemusím pouziť žiadne triky.
+Dialogue: 0,0:15:53.47,0:15:56.90,Default,girl voice,0,0,0,,Druhý obránca na centrálnom\Npoli je Kinouchi.
+Dialogue: 0,0:15:57.86,0:15:59.91,Default,tokuchi,0,0,0,,Hej, môžeš utekať.
+Dialogue: 0,0:16:02.93,0:16:06.78,Default,,0,0,0,,Kým nedobehneš na tretiu,\Nnemôžme to tu ukončiť.
+Dialogue: 0,0:16:10.86,0:16:16.27,Default,commentator,0,0,0,,Johnson je na prvej méte a Tokuchi\Nzdvíha ruky na víťaztvo v tejto hre.
+Dialogue: 0,0:16:17.20,0:16:18.29,Default,,0,0,0,,Ball.
+Dialogue: 0,0:16:19.34,0:16:21.69,Default,,0,0,0,,Ale Johnson neutekal.
+Dialogue: 0,0:16:24.41,0:16:29.51,Default,tokuchi,0,0,0,,Čo si taký skeptický! Povedal\Nsom ti, že nepoužijem triky.
+Dialogue: 0,0:16:30.74,0:16:35.52,Default,,0,0,0,,Ak nejaké použijem, nedokážem\Nvšetkým, aký nepoužitelný si.
+Dialogue: 0,0:16:36.01,0:16:36.81,Default,johnson,0,0,0,,Hovno.
+Dialogue: 0,0:16:37.96,0:16:41.37,Default,tokuchi,0,0,0,,V takom prípade, nechaj nech\Ndokončím tohto pálkara.
+Dialogue: 0,0:16:44.13,0:16:46.19,Default,commentator,0,0,0,,Johnson tento krát beží.
+Dialogue: 0,0:16:46.35,0:16:47.80,Default,tokuchi,0,0,0,,Tak som si to predstavoval.
+Dialogue: 0,0:16:48.87,0:16:49.75,Default,,0,0,0,,Strike!
+Dialogue: 0,0:16:50.95,0:16:52.43,Default,,0,0,0,,Johnson dobehol na druhú métu.
+Dialogue: 0,0:16:52.51,0:16:55.35,Default,,0,0,0,,Ale Tokuchi zahral ďalšiu víťaznú!
+Dialogue: 0,0:16:55.35,0:16:57.44,Default,,0,0,0,,Johnson znova beží!
+Dialogue: 0,0:16:59.31,0:17:00.02,Default,,0,0,0,,Strike!
+Dialogue: 0,0:17:00.92,0:17:01.56,Default,,0,0,0,,Safe!
+Dialogue: 0,0:17:02.31,0:17:04.05,Default,commentator,0,0,0,,Johnson dobehol na tretiu métu.
+Dialogue: 0,0:17:04.75,0:17:08.40,Default,commentator,0,0,0,,Vypadá to tak, že Tokuchi chcel nechať\NJohnsona dobehnúť na tretiu métu.
+Dialogue: 0,0:17:09.08,0:17:10.81,Default,,0,0,0,,O čo tu ide, Kanita-san?
+Dialogue: 0,0:17:11.19,0:17:16.63,Default,,0,0,0,,Možno chce Tokuchi bojovať s Johnsonom\No to, či ukradne aj poslednú métu.
+Dialogue: 0,0:17:17.58,0:17:20.10,Default,wimp,0,0,0,,Čo si to ten Tokuchi myslí?
+Dialogue: 0,0:17:20.76,0:17:23.43,Default,owner,0,0,0,,Aký výstredný chlap.
+Dialogue: 0,0:17:23.95,0:17:28.87,Default,MIB,0,0,0,,Napriek Tokuchiho snahe, toto je\Núplne posledná šanca pre nás.
+Dialogue: 0,0:17:29.08,0:17:33.31,Default,owner,0,0,0,,Ak mu ujde hráč, 1 billión\Nyenov sa vráti ku mne.
+Dialogue: 0,0:17:33.83,0:17:36.81,Default,MIB,0,0,0,,Taktiež skóre bude rovnaké\Na hra bude pokračovať.
+Dialogue: 0,0:17:36.81,0:17:39.88,Default,MIB,0,0,0,,Stále je šanca zarobiť, ak\Nsa im podarí vyrovnať skóre.
+Dialogue: 0,0:17:45.37,0:17:48.43,Default,tokuchi,0,0,0,,Konečne! Všetky prípravy sú hotové.
+Dialogue: 0,0:17:49.13,0:17:54.23,Default,johnson,0,0,0,,Si idiot? Musíš hráča vyautovať\Na ja môžem ľahko utekať!
+Dialogue: 0,0:17:55.00,0:17:57.45,Default,,0,0,0,,Ok, čo tak zmeniť zloženie hráčov?
+Dialogue: 0,0:17:59.10,0:18:03.21,Default,commentator,0,0,0,,Tokuchi ukazuje prstom k nebu.\NUrčite je to nejaké znamenie!
+Dialogue: 0,0:18:04.16,0:18:08.56,Default,commentator,0,0,0,,Čože? V takýto moment Tokuchi\Nposiela všetkých von z pola?
+Dialogue: 0,0:18:09.58,0:18:14.45,Default,commentator,0,0,0,,Toto je Tokuchi Toua iba jeden\Nhráč vo vnútornom poli!
+Dialogue: 0,0:18:15.06,0:18:18.55,Default,,0,0,0,,Prestaň si robiť srandu! Pre mňa to\Nznamená, že stačí použiť bezpečný bunt!
+Dialogue: 0,0:18:19.39,0:18:23.72,Default,tokuchi,0,0,0,,Samozrejme, ale ja ti nedovolím dať bunt.
+Dialogue: 0,0:18:24.35,0:18:27.07,Default,,0,0,0,,Hodím to tak ďaleko, že sa tvojou\Npálkou ani len nedotkneš lopty.
+Dialogue: 0,0:18:27.73,0:18:30.52,Default,,0,0,0,,Ak tu vážne máme najrýchlejšieho\Nbežca na svete,
+Dialogue: 0,0:18:31.65,0:18:34.83,Default,,0,0,0,,ukradnutie domácej méty,\Nby malo byť viac ako isté.
+Dialogue: 0,0:18:39.58,0:18:43.58,Default,,0,0,0,,Priveľa rozprávaš. Aj tak nakoniec\Npoužiješ nejaký z tvojich trikov.
+Dialogue: 0,0:18:44.14,0:18:48.22,Default,tokuchi,0,0,0,,Keby som chcel pouziť trik, vyautoval by som\NJohnsona, keď bol na pálkarskej pozícii.
+Dialogue: 0,0:18:48.54,0:18:49.63,Default,,0,0,0,,Nerob to, Tokuchi!
+Dialogue: 0,0:18:50.33,0:18:55.24,Default,,0,0,0,,Sme kúsok od víťaztva, prečo\Npodstupovať takýto veľký risk?
+Dialogue: 0,0:18:55.52,0:18:58.71,Default,tokuchi,0,0,0,,Pretože, ako som už viac krát povedal.
+Dialogue: 0,0:18:59.42,0:19:03.66,Default,,0,0,0,,Chcem ukázať svetu, že jeho\Nrýchlosť nieje nič špeciálne.
+Dialogue: 0,0:19:04.65,0:19:05.73,Default,,0,0,0,,Zamyslite sa.
+Dialogue: 0,0:19:06.28,0:19:10.01,Default,,0,0,0,,Ťažko povedať, či je možné ho nejak\Nzhodiť z jeho piedestálu.
+Dialogue: 0,0:19:11.79,0:19:18.43,Default,,0,0,0,,Všetky tímy si myslia, že Johnsonova\Nrýchlosť je neporaziteľná.
+Dialogue: 0,0:19:20.72,0:19:22.95,Default,,0,0,0,,A to je presne to, čo Shirooka chce.
+Dialogue: 0,0:19:23.80,0:19:30.64,Default,,0,0,0,,Ak vyhrá túto hru, všetky tímy sa\Nbudú báť Johnsonovej rýchlosti.
+Dialogue: 0,0:19:30.85,0:19:33.22,Default,,0,0,0,,A bude z toho profitovať\Nv ďalších zápasoch.
+Dialogue: 0,0:19:33.94,0:19:38.61,Default,,0,0,0,,Práve preto chcem s ním bojovať\Nsám, bez použitia trikov.
+Dialogue: 0,0:19:39.71,0:19:41.30,Default,,0,0,0,,Bude to krásny rovný súboj...
+Dialogue: 0,0:19:41.71,0:19:45.20,Default,,0,0,0,,Je to nečakaná situácia, Tokuchi\Nje jediný hráč vo vnútornom poli.
+Dialogue: 0,0:19:45.72,0:19:48.02,Default,,0,0,0,,A taktiež nadhadzuje proti\Nukradnutiu domácej méty.
+Dialogue: 0,0:19:48.05,0:19:50.09,Default,,0,0,0,,Ak sa mu to nepodarí,\Nzačína sa všetko odznova.
+Dialogue: 0,0:19:50.68,0:19:53.99,Default,,0,0,0,,Počas posledných troch zápasov,\Ntréner Shirooka raz povedal,
+Dialogue: 0,0:19:53.99,0:20:00.57,Default,shirooka,0,0,0,,{\i1}Keď Tokuchi bude nadhadzovať, Johnson\Nmu ukradne domácu métu na 100%.{\i0}
+Dialogue: 0,0:20:01.15,0:20:04.46,Default,commentator,0,0,0,,Mohol by vyvrátiť tieto jeho slová?
+Dialogue: 0,0:20:04.63,0:20:07.03,Default,commentator,0,0,0,,Všetky oči sú uprené na Tokuchiho nadhod.
+Dialogue: 0,0:20:11.29,0:20:12.65,Default,commentator,0,0,0,,Johnson začal utekať!
+Dialogue: 0,0:20:15.53,0:20:16.89,Default,,0,0,0,,Lopta letí ďaleko do strany.
+Dialogue: 0,0:20:17.22,0:20:19.20,Default,shirooka,0,0,0,,{\i1}Takto na 100% vyhráme.{\i0}
+Dialogue: 0,0:20:19.90,0:20:21.48,Default,,0,0,0,,Johnson sa hodil.
+Dialogue: 0,0:20:29.71,0:20:31.26,Default,,0,0,0,,A rozhodnutie je?
+Dialogue: 0,0:20:31.26,0:20:32.42,Default,,0,0,0,,Kto vyhral?
+Dialogue: 0,0:20:36.38,0:20:38.15,Default,,0,0,0,,Out!
+Dialogue: 0,0:20:38.89,0:20:40.66,Default,,0,0,0,,Hra ukončená.
+Dialogue: 0,0:20:40.86,0:20:43.90,Default,,0,0,0,,Je out! Johnson na komplet prehral!
+Dialogue: 0,0:20:45.15,0:20:45.81,Default,shirooka,0,0,0,,Ako?
+Dialogue: 0,0:20:46.56,0:20:47.78,Default,shirooka,0,0,0,,Nemožné...
+Dialogue: 0,0:20:48.55,0:20:52.42,Default,commentator,0,0,0,,Nakoniec Tokuchi nepoužil\Ntrik, iba jednoduchú rovnú loptu..
+Dialogue: 0,0:20:52.45,0:20:56.54,Default,commentator,0,0,0,,..aby porazil Bugaboos a\Ncelú Shirookovu stratégiu.
+Dialogue: 0,0:20:57.80,0:21:00.24,Default,shirooka,0,0,0,,Ako? Ako je to možné?
+Dialogue: 0,0:21:07.99,0:21:12.05,Default,Narrator,0,0,0,,Tokuchi Toua mal 32 autov v tomto zápase.
+Dialogue: 0,0:21:12.87,0:21:14.97,Default,Narrator,0,0,0,,Jeho momentálny zárobok je...
+Dialogue: 0,0:21:17.72,0:21:19.39,Default,Narrator,0,0,0,,4.2 billiónov yenov.
+Dialogue: 0,0:22:30.78,0:22:39.46,Default,,0,0,0,,{\fad(300,300)}Nabudúce
+Dialogue: 0,0:22:30.78,0:22:39.46,Default,,0,0,0,,{\fad(300,300)}Podfukársky\Nštadión
+Dialogue: 0,0:22:39.46,0:22:41.46,Default,,0,0,0,,

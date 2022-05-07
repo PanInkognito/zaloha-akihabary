@@ -1,0 +1,419 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: podpodúod,Open Sans Semibold,38,&H00BE6DFF,&H000000FF,&H00BF6DFF,&H009E3210,-1,0,0,0,100,100,0,0,1,0.4,1.8,2,0,0,33,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Preview Green,Open Sans Semibold,32,&H00E1FFDE,&H000000FF,&H0026922C,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning1,Open Sans Semibold,26,&H00120D0C,&H000000FF,&H00F4F2F1,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,13,13,29,1
+Style: Funeral,Open Sans Semibold,26,&H004C4642,&H000000FF,&H00F3FFF8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Goodbye,Open Sans Semibold,26,&H00343A3E,&H000000FF,&H00F7FDFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Venue,Open Sans Semibold,32,&H00130E0C,&H000000FF,&H00D45541,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Crema,Open Sans Semibold,32,&H00130E0C,&H000000FF,&H004538D4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Venue Small,Open Sans Semibold,26,&H00130E0C,&H000000FF,&H00D45541,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Crema Small,Open Sans Semibold,26,&H00130E0C,&H000000FF,&H004538D4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,133,0,147,0
+Style: Distance,Open Sans Semibold,26,&H00F2E9DD,&H000000FF,&H0017160A,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,47,0,80,0
+Style: Winter,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,27,0
+Style: Gin,Open Sans Semibold,38,&H00FAFEFB,&H000000FF,&H00010201,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,167,0,200,0
+Style: Turn,Open Sans Semibold,38,&H00030098,&H000000FF,&H00010201,&H00000000,1,0,0,0,100,100,0,0,1,0,0,9,0,133,200,0
+Style: Gin2,Open Sans Semibold,38,&H001A1B1C,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,20,0
+Style: Assass,Open Sans Semibold,32,&H00000E6A,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,0,0,20,0
+Style: Assass2,Open Sans Semibold,29,&H001A1B1C,&H000000FF,&H00E4EBE6,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,0,0,20,0
+Style: Assass3,Open Sans Semibold,41,&H0003008B,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,0,0,20,0
+Style: Enemy,Open Sans Semibold,38,&H00090299,&H000000FF,&H000D1523,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,120,0,27,0
+Style: Ally,Open Sans Semibold,38,&H00BB4612,&H000000FF,&H00EFE2D2,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,120,0,133,0
+Style: Past,Open Sans Semibold,32,&H00991119,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,27,27,0
+Style: Reveal,Open Sans Semibold,38,&H00100889,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,27,27,0
+Style: Story1,Open Sans Semibold,38,&H00F1F2F5,&H000000FF,&H00000200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,0,27,0
+Style: Story2,Open Sans Semibold,38,&H00F1F2F5,&H000000FF,&H00000200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,67,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.71,0:00:01.98,Main,Kag,0000,0000,0000,,Je vedro.
+Dialogue: 0,0:00:01.98,0:00:04.60,Main,Kag,0000,0000,0000,,Kvůli vám je tady na chcípnutí!
+Dialogue: 0,0:00:04.60,0:00:07.44,Main,Kag,0000,0000,0000,,Táhněte! Je to {\i1}můj{\i0} deštník, jasný?!
+Dialogue: 0,0:00:07.69,0:00:10.23,Main,Gin,0000,0000,0000,,Hej, Kaguro, půjčím si tvůj deštník, jo?
+Dialogue: 0,0:00:11.54,0:00:12.48,Main,Gin,0000,0000,0000,,Kaguro.
+Dialogue: 0,0:00:12.48,0:00:13.44,Main,Gin,0000,0000,0000,,Hej, Kaguro!
+Dialogue: 0,0:00:13.44,0:00:14.60,Main,Shin,0000,0000,0000,,Kaguro-chan!
+Dialogue: 0,0:00:14.60,0:00:18.53,Main,DBJ,0000,0000,0000,,Naneštěstí nemáme o Yato žádné\Npodrobnější informace.
+Dialogue: 0,0:00:18.53,0:00:22.33,Main,Shin,0000,0000,0000,,Kdybysme brali její roli vážně,\Nnemusela dopadnout tak špatně!
+Dialogue: 0,0:00:22.33,0:00:24.54,Main,Gin,0000,0000,0000,,Taky s tebou odedneška zůstávám na pokoji.
+Dialogue: 0,0:00:24.54,0:00:25.37,Main,Gin,0000,0000,0000,,Takže, no...
+Dialogue: 0,0:00:25.93,0:00:27.65,Main,Gin,0000,0000,0000,,Uvolni se a trochu se prospi.
+Dialogue: 0,0:00:27.65,0:00:30.34,Main,Gin,0000,0000,0000,,Budeš to tu mít jako doma.
+Dialogue: 0,0:00:30.34,0:00:32.97,Internal,Kag,0000,0000,0000,,Zdá se, že vážně lituje toho, co provedl.
+Dialogue: 0,0:00:33.23,0:00:35.16,Main,Kag,0000,0000,0000,,Už je mi o něco líp—
+Dialogue: 0,0:00:36.09,0:00:37.57,Main,Gin,0000,0000,0000,,Kaguro!
+Dialogue: 0,0:00:37.57,0:00:39.22,Main,Gin,0000,0000,0000,,Dej se do kupy, Kaguro!
+Dialogue: 0,0:00:39.51,0:00:41.52,Main,Gin,0000,0000,0000,,Kaguro!
+Dialogue: 0,0:00:39.85,0:00:41.52,Internal,Kag,0000,0000,0000,,{\an8}T-Tohle je zlý.
+Dialogue: 0,0:00:41.52,0:00:43.23,Main,Shin,0000,0000,0000,,Kaguro-chan, vydrž!
+Dialogue: 0,0:00:43.23,0:00:44.67,Main,Shin,0000,0000,0000,,Prosím, vrať se nám zpátky, Kaguro-chan!
+Dialogue: 0,0:00:44.67,0:00:47.94,Internal,Kag,0000,0000,0000,,Můžu se vrátit kdykoliv,\Ntak mi konečně dejte příležitost!
+Dialogue: 0,0:00:47.94,0:00:50.52,Main,Oto,0000,0000,0000,,Už bojovala příliš dlouho.
+Dialogue: 0,0:00:50.52,0:00:54.15,Main,Oto,0000,0000,0000,,Nechte ji odpočívat v pokoji.
+Dialogue: 0,0:00:54.36,0:00:56.32,Main,Oki,0000,0000,0000,,Přestaňte s těmi nesmysly.
+Dialogue: 0,0:02:27.89,0:02:29.89,podpodúod,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:02:29.92,0:02:35.84,Ep Title,Title,0000,0000,0000,,{\fad(438,1)}Nenatahujte Loučení
+Dialogue: 0,0:02:36.23,0:02:42.70,Warning1,Sign,0000,0000,0000,,{\fad(509,497)}Kagura doporučuje: Sledujte tento pořad v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV, jasný?
+Dialogue: 0,0:02:36.90,0:02:38.63,Main,Oki,0000,0000,0000,,{\an8}Přestaňte s těmi nesmysly.
+Dialogue: 0,0:02:41.42,0:02:42.49,Internal,Kag,0000,0000,0000,,{\an8}Soyo-chan!
+Dialogue: 0,0:02:43.11,0:02:44.23,Internal,Kag,0000,0000,0000,,A tlupa nul!
+Dialogue: 0,0:02:46.58,0:02:47.52,Main,Soyo,0000,0000,0000,,Kaguro-chan!
+Dialogue: 0,0:02:47.92,0:02:51.05,Main,Kon,0000,0000,0000,,Otae-san, omlouvám se, že přicházíme tak náhle,
+Dialogue: 0,0:02:51.71,0:02:54.09,Main,Kon,0000,0000,0000,,ale nemohli jsme to před ní udržet.
+Dialogue: 0,0:02:54.83,0:02:58.09,Main,Hij,0000,0000,0000,,V klidu, neneseme smuteční dary.
+Dialogue: 0,0:02:58.09,0:03:00.53,Main,Hij,0000,0000,0000,,Jen doprovázíme princeznu.
+Dialogue: 0,0:03:00.53,0:03:05.53,Internal,Kag,0000,0000,0000,,Nemůžu uvěřit, že byli tak milí\Na přivedli za mnou Soyo-chan.
+Dialogue: 0,0:03:05.53,0:03:09.99,Main,Oki,0000,0000,0000,,Dokola mluvíte o blbostech jako jsou dary a pohřby.
+Dialogue: 0,0:03:09.99,0:03:12.50,Main,Oki,0000,0000,0000,,V princeznině přítomnosti si tohle odpusťte.
+Dialogue: 0,0:03:13.76,0:03:15.96,Main,Oki,0000,0000,0000,,Ještě není mrtvá.
+Dialogue: 0,0:03:16.79,0:03:20.55,Main,Oki,0000,0000,0000,,Lidi, jako je ona, jen tak něco nezabije.
+Dialogue: 0,0:03:21.71,0:03:24.05,Main,Oki,0000,0000,0000,,Tím si buďte jistá, princezno.
+Dialogue: 0,0:03:24.84,0:03:27.62,Main,Oki,0000,0000,0000,,Ona... Ona...
+Dialogue: 0,0:03:28.82,0:03:34.61,Main,Oki,0000,0000,0000,,...neumře, dokud si mezi sebou \Nneurovnáme určité věci.
+Dialogue: 0,0:03:37.57,0:03:38.66,Main,Kon,0000,0000,0000,,Sogo...
+Dialogue: 0,0:03:46.35,0:03:48.41,Main,Soyo,0000,0000,0000,,Okita-san má pravdu.
+Dialogue: 0,0:03:48.82,0:03:49.91,Main,Soyo,0000,0000,0000,,Takže všechny prosím,
+Dialogue: 0,0:03:50.32,0:03:53.53,Main,Soyo,0000,0000,0000,,přestaňte se dohadovat o jejím pohřbu!
+Dialogue: 0,0:03:53.53,0:03:55.99,Main,Soyo,0000,0000,0000,,Nebuďte tak krutí!
+Dialogue: 0,0:03:56.57,0:03:58.42,Main,Soyo,0000,0000,0000,,Kagura-chan je pořád mezi námi.
+Dialogue: 0,0:03:59.13,0:04:01.61,Main,Soyo,0000,0000,0000,,Její srdce pořád bije!
+Dialogue: 0,0:04:03.02,0:04:07.04,Main,Soyo,0000,0000,0000,,Dejte jí šanci, aby si o svém\Npohřbu rozhodla sama!
+Dialogue: 0,0:04:07.04,0:04:09.06,Internal,Kag,0000,0000,0000,,Ty seš tady ta nejkrutější!
+Dialogue: 0,0:04:09.29,0:04:11.55,Internal,Kag,0000,0000,0000,,Podle tebe si mám naplánovat vlastní pohřeb?!
+Dialogue: 0,0:04:11.55,0:04:12.79,Main,Soyo,0000,0000,0000,,Kaguro-chan...
+Dialogue: 0,0:04:13.33,0:04:17.67,Main,Soyo,0000,0000,0000,,Splním ti vše, co si jen budeš přát.
+Dialogue: 0,0:04:19.48,0:04:21.04,Main,Soyo,0000,0000,0000,,Jak bys chtěla zemřít?
+Dialogue: 0,0:04:21.04,0:04:23.91,Internal,Kag,0000,0000,0000,,Ptáš se mě, jak chci umřít,\Ni když jsem pořád naživu?!
+Dialogue: 0,0:04:23.91,0:04:24.83,Internal,Kag,0000,0000,0000,,Seš sadista do morku kostí!
+Dialogue: 0,0:04:24.83,0:04:27.03,Internal,Kag,0000,0000,0000,,Drž si svý sadistický tendence\Nna uzdě, Soyo-chan!
+Dialogue: 0,0:04:27.28,0:04:30.54,Main,Soyo,0000,0000,0000,,Prosím, řekni něco, Kaguro-chan!
+Dialogue: 0,0:04:30.54,0:04:31.53,Internal,Kag,0000,0000,0000,,Už vím!
+Dialogue: 0,0:04:31.53,0:04:34.67,Internal,Kag,0000,0000,0000,,Budu předstírat, že mě oživilo, jak na mě mluví!
+Dialogue: 0,0:04:34.67,0:04:35.58,Main,Kag,0000,0000,0000,,Já—
+Dialogue: 0,0:04:35.58,0:04:37.94,Main,Oki,0000,0000,0000,,Cože?
+Dialogue: 0,0:04:37.94,0:04:39.59,Main,Oki,0000,0000,0000,,Oh, dobře, dobře.
+Dialogue: 0,0:04:40.36,0:04:43.59,Internal,Kag,0000,0000,0000,,Nemůžu dýchat! Co dělá ten kus vola?!
+Dialogue: 0,0:04:43.87,0:04:47.16,Main,Oki,0000,0000,0000,,Pověděla mi své poslední přání, princezno.
+Dialogue: 0,0:04:47.16,0:04:48.46,Main,Soyo,0000,0000,0000,,Vážně?
+Dialogue: 0,0:04:48.46,0:04:50.90,Internal,Kag,0000,0000,0000,,Z-Ztrácím vědomí...
+Dialogue: 0,0:04:50.14,0:04:53.20,Main,Oki,0000,0000,0000,,{\an8}Začněme se připravovat na obřad...
+Dialogue: 0,0:05:09.25,0:05:11.83,Internal,Kag,0000,0000,0000,,He? Kde to jsem?
+Dialogue: 0,0:05:11.83,0:05:15.82,Internal,Kag,0000,0000,0000,,Co to... Nemůžu se pohnout ani mluvit.
+Dialogue: 0,0:05:16.68,0:05:18.74,Internal,Kag,0000,0000,0000,,Pořád jsem v polospánku?
+Dialogue: 0,0:05:24.18,0:05:26.11,Main,Gin,0000,0000,0000,,Má tak pokojný výraz.
+Dialogue: 0,0:05:28.44,0:05:29.68,Main,Shin,0000,0000,0000,,Kaguro-chan!
+Dialogue: 0,0:05:29.68,0:05:31.75,Internal,Kag,0000,0000,0000,,Co zas ti idioti vyváděj?
+Dialogue: 0,0:05:31.75,0:05:33.15,Main,G,0000,0000,0000,,Vše je připraveno.
+Dialogue: 0,0:05:33.99,0:05:36.11,Main,Shin,0000,0000,0000,,V tom případě můžeme začít.
+Dialogue: 0,0:05:36.11,0:05:39.06,Internal,Kag,0000,0000,0000,,Co? S čím se má začít?
+Dialogue: 0,0:06:08.73,0:06:13.60,Internal,Kag,0000,0000,0000,,Co to má bejt?\NTo se mi vůbec nelíbí...
+Dialogue: 0,0:06:14.44,0:06:16.10,Internal,Kag,0000,0000,0000,,Není to snad...
+Dialogue: 0,0:06:16.10,0:06:21.11,Funeral,Sign,0000,0000,0000,,{\fad(1010,1)}Místo odpočinku zesnulé Kagury-chan\N{\fs24}princezniny kamarádky
+Dialogue: 0,0:06:18.99,0:06:23.61,Internal,Kag,0000,0000,0000,,začátek mýho pohřbu?!
+Dialogue: 0,0:06:24.12,0:06:24.86,Internal,Kag,0000,0000,0000,,Aby toho nebylo málo,
+Dialogue: 0,0:06:25.10,0:06:28.78,Internal,Kag,0000,0000,0000,,udělali z toho státní záležitost?!
+Dialogue: 0,0:06:26.11,0:06:28.78,Goodbye,Sign,0000,0000,0000,,Sbohem, Kaguro-chan.
+Dialogue: 0,0:06:32.20,0:06:35.79,Main,Oki,0000,0000,0000,,Princezno, Kagura je určitě velice šťastná,
+Dialogue: 0,0:06:36.33,0:06:39.54,Main,Oki,0000,0000,0000,,když se s ní loučíme tak velkolepě.
+Dialogue: 0,0:06:40.59,0:06:41.79,Internal,Kag,0000,0000,0000,,Tak počkat...
+Dialogue: 0,0:06:42.10,0:06:44.80,Main,Oki,0000,0000,0000,,Dostala vše, po čem celý život tolik toužila...
+Dialogue: 0,0:06:46.76,0:06:49.30,Main,Oki,0000,0000,0000,,Zatímco bude odcházet na lepší místo,
+Dialogue: 0,0:06:49.78,0:06:53.29,Main,Oki,0000,0000,0000,,může se koupat ve slunečním svitu\Nv rakvi na způsob solárka.
+Dialogue: 0,0:06:53.97,0:06:56.31,Internal,Kag,0000,0000,0000,,Ten... Ten sráč...
+Dialogue: 0,0:06:57.89,0:07:00.81,Internal,Kag,0000,0000,0000,,On to ví!
+Dialogue: 0,0:07:06.04,0:07:11.59,Funeral,Sign,0000,0000,0000,,{\fad(1010,1)}Místo odpočinku zesnulé Kagury-chan\N{\fs24}princezniny kamarádky
+Dialogue: 0,0:07:45.91,0:07:51.70,Main,Oto,0000,0000,0000,,Děkuji všem, kteří jste v tento bolestný den přišli.
+Dialogue: 0,0:07:52.69,0:07:55.96,Main,Oto,0000,0000,0000,,Shromáždilo se vás tu tolik.
+Dialogue: 0,0:07:56.42,0:08:00.37,Main,Oto,0000,0000,0000,,Jsem si jistá, že má velikou radost.
+Dialogue: 0,0:08:01.11,0:08:06.63,Main,Oto,0000,0000,0000,,Jen její rozzářená tvář napovídá,\Nže neměla ráda ponuré věci,
+Dialogue: 0,0:08:07.73,0:08:10.00,Main,Oto,0000,0000,0000,,takže prosím,
+Dialogue: 0,0:08:10.59,0:08:14.13,Main,Oto,0000,0000,0000,,doprovoďme ji na lepší místo s úsměvem.
+Dialogue: 0,0:08:15.32,0:08:19.06,Main,Oto,0000,0000,0000,,Úsměv je nejlepší dar\Nna rozloučenou, který jí můžeme dát.
+Dialogue: 0,0:08:20.46,0:08:24.72,Main,Oto,0000,0000,0000,,Teď prosím přistupte po jednom k rakvi,\Nvložte do ní květiny
+Dialogue: 0,0:08:25.15,0:08:29.65,Main,Oto,0000,0000,0000,,a dejte jí poslední sbohem.
+Dialogue: 0,0:08:34.87,0:08:37.41,Main,Oki,0000,0000,0000,,Půjdu první.
+Dialogue: 0,0:08:37.97,0:08:38.93,Main,Shin,0000,0000,0000,,Okito-san.
+Dialogue: 0,0:08:40.37,0:08:41.41,Main,Kon,0000,0000,0000,,Sogo...
+Dialogue: 0,0:08:42.39,0:08:44.99,Main,Kon,0000,0000,0000,,Nikdy bych neřekl,\Nže ho uvidím tak na dně.
+Dialogue: 0,0:08:45.49,0:08:48.52,Main,Kon,0000,0000,0000,,Jen co se uviděli, pustili se do sebe...
+Dialogue: 0,0:08:49.86,0:08:54.06,Main,Kon,0000,0000,0000,,Hádám, že ztráta dobrého\Npřítele znamená to samé,
+Dialogue: 0,0:08:54.06,0:08:57.43,Main,Kon,0000,0000,0000,,co ztráta nepřítele,
+Dialogue: 0,0:08:58.13,0:09:00.81,Main,Kon,0000,0000,0000,,se kterým vedeš boje.
+Dialogue: 0,0:09:04.77,0:09:06.69,Internal,Kag,0000,0000,0000,,Zdechni v pekle, ty parchante!
+Dialogue: 0,0:09:07.25,0:09:09.69,Main,Oki,0000,0000,0000,,Jak se ti líbí rakev? Pohodlná?
+Dialogue: 0,0:09:10.34,0:09:15.22,Main,Oki,0000,0000,0000,,Napadlo mě, že by sis chtěla v\Nposmrtným životě užívat sluneční svit,
+Dialogue: 0,0:09:15.22,0:09:18.37,Main,Oki,0000,0000,0000,,takže jsem ti nechal zabudovat\Nsolárko do rakve.
+Dialogue: 0,0:09:18.66,0:09:20.28,Internal,Kag,0000,0000,0000,,Vedro!
+Dialogue: 0,0:09:20.28,0:09:21.87,Internal,Kag,0000,0000,0000,,Hoří mi tělo!
+Dialogue: 0,0:09:22.11,0:09:24.26,Internal,Kag,0000,0000,0000,,Co krucinál děláš, dobytku?!
+Dialogue: 0,0:09:24.26,0:09:27.25,Internal,Kag,0000,0000,0000,,Pusť mě! Pusť mě odtud pryč!
+Dialogue: 0,0:09:27.25,0:09:31.95,Main,Oki,0000,0000,0000,,I přestože neříkáš jediný slovo,\Nvím, že mi musíš být fakt vděčná.
+Dialogue: 0,0:09:31.95,0:09:33.41,Internal,Kag,0000,0000,0000,,Ani za milión let!
+Dialogue: 0,0:09:33.41,0:09:37.63,Main,Oki,0000,0000,0000,,Tohle všechno jsi sehrála, abys\Notestovala, jak moc tě mají rádi, co?
+Dialogue: 0,0:09:38.28,0:09:43.39,Main,Oki,0000,0000,0000,,A smrt přece bude mít\Nmnohem větší účinek, než nemoc.
+Dialogue: 0,0:09:43.60,0:09:48.31,Main,Oki,0000,0000,0000,,Žádnej strach, dalších dvanáct hodin se ani nehneš.
+Dialogue: 0,0:09:48.31,0:09:49.90,Main,Oki,0000,0000,0000,,Bude to perfektně nakamuflovaná smrt.
+Dialogue: 0,0:09:50.50,0:09:54.76,Main,Oki,0000,0000,0000,,Málokdo má šanci sledovat vlastní pohřeb.
+Dialogue: 0,0:09:54.76,0:09:56.40,Main,Oki,0000,0000,0000,,Nemusíš mi děkovat.
+Dialogue: 0,0:09:57.08,0:09:59.75,Main,Oki,0000,0000,0000,,Pokud tě maj opravdu rádi,
+Dialogue: 0,0:09:59.75,0:10:01.67,Main,Oki,0000,0000,0000,,určitě si všimnou.
+Dialogue: 0,0:10:02.39,0:10:06.43,Main,Oki,0000,0000,0000,,Pokus se do tý doby neshořet,
+Dialogue: 0,0:10:06.43,0:10:08.96,Main,Oki,0000,0000,0000,,ať už v rakvi, nebo ve spalovně.
+Dialogue: 0,0:10:09.61,0:10:12.44,Main,Oki,0000,0000,0000,,Sklidíš si, co sis zasela.
+Dialogue: 0,0:10:12.44,0:10:15.92,Main,Oki,0000,0000,0000,,A jestli chceš někoho nenávidět, tak jen sebe.
+Dialogue: 0,0:10:15.92,0:10:17.27,Internal,Kag,0000,0000,0000,,Počkej!
+Dialogue: 0,0:10:17.27,0:10:19.13,Internal,Kag,0000,0000,0000,,Vrať se, sráči!
+Dialogue: 0,0:10:19.13,0:10:23.14,Internal,Kag,0000,0000,0000,,To je pech!\NProč se to musel dozvědět zrovna on?!
+Dialogue: 0,0:10:23.14,0:10:27.12,Internal,Kag,0000,0000,0000,,Využil můj plán jako příležitost mě zabít!
+Dialogue: 0,0:10:27.12,0:10:30.40,Internal,Kag,0000,0000,0000,,To vedro! Zdechnu tady!
+Dialogue: 0,0:10:30.67,0:10:34.02,Internal,Kag,0000,0000,0000,,Tímhle tempem reálně odejdu na lepší místo!
+Dialogue: 0,0:10:34.02,0:10:35.40,Internal,Kag,0000,0000,0000,,Musím něco vymyslet!
+Dialogue: 0,0:10:35.69,0:10:38.36,Internal,Kag,0000,0000,0000,,Nemůžu se hýbat ani mluvit,
+Dialogue: 0,0:10:38.36,0:10:41.94,Internal,Kag,0000,0000,0000,,ale když mi přijde dát sbohem tolik lidí,
+Dialogue: 0,0:10:41.94,0:10:44.66,Internal,Kag,0000,0000,0000,,určitě si někdo všimne, že jsem naživu!
+Dialogue: 0,0:10:44.66,0:10:48.97,Internal,Kag,0000,0000,0000,,Stačí, když se pořádně zadívaj na mou zdravou pleť!
+Dialogue: 0,0:10:54.02,0:10:56.19,Main,Soyo,0000,0000,0000,,Všichni poslouchejte!
+Dialogue: 0,0:10:56.19,0:10:58.50,Main,Soyo,0000,0000,0000,,Kvůli soláriu zabudovanému v rakvi
+Dialogue: 0,0:10:58.50,0:11:00.74,Main,Soyo,0000,0000,0000,,se tělo začíná rozkládat.
+Dialogue: 0,0:11:00.74,0:11:02.21,Main,Soyo,0000,0000,0000,,Nemáme moc času.
+Dialogue: 0,0:11:02.21,0:11:04.25,Main,Soyo,0000,0000,0000,,Abychom to trochu urychlili,
+Dialogue: 0,0:11:04.25,0:11:07.08,Main,Soyo,0000,0000,0000,,umístíme rakev na pás,
+Dialogue: 0,0:11:07.08,0:11:10.35,Main,Soyo,0000,0000,0000,,takže prosím, své sbohem řekněte,\Nzatímco před vámi bude projíždět rakev.
+Dialogue: 0,0:11:10.35,0:11:13.02,Internal,Kag,0000,0000,0000,,Co to je za rozloučení?!
+Dialogue: 0,0:11:13.02,0:11:15.88,Internal,Kag,0000,0000,0000,,Soyo-chan, nenech se jím tahat za nos!
+Dialogue: 0,0:11:15.88,0:11:20.11,Main,Soyo,0000,0000,0000,,Tento pás vede z pořební síně přímo do krematoria.
+Dialogue: 0,0:11:17.86,0:11:19.53,Venue,Sign,0000,0000,0000,,Pohřební síň
+Dialogue: 0,0:11:20.11,0:11:24.35,Main,Soyo,0000,0000,0000,,Až se všichni rozloučí, tělo poputuje do spalovny,
+Dialogue: 0,0:11:21.51,0:11:25.20,Crema,Sign,0000,0000,0000,,Krematorium
+Dialogue: 0,0:11:24.77,0:11:27.87,Main,Soyo,0000,0000,0000,,kde se změní v popel a konečně vstoupí do nebes.
+Dialogue: 0,0:11:25.20,0:11:29.62,Crema Small,,0000,0000,0000,,Krematorium
+Dialogue: 0,0:11:25.97,0:11:29.62,Venue Small,Sign,0000,0000,0000,,Pohřební síň
+Dialogue: 0,0:11:27.87,0:11:29.62,Internal,Kag,0000,0000,0000,,Připadám vám jako tovární výrobek?!
+Dialogue: 0,0:11:29.94,0:11:35.20,Main,Soyo,0000,0000,0000,,Ujistěte se, že budete co nejdříve odbytí,\Naby nedošlo ke zdržování provozu.
+Dialogue: 0,0:11:35.20,0:11:39.01,Internal,Kag,0000,0000,0000,,Hej! Může bejt ten pohřeb vůbec horší?!
+Dialogue: 0,0:11:42.72,0:11:44.00,Main,Oto,0000,0000,0000,,Kaguro...
+Dialogue: 0,0:11:44.00,0:11:47.39,Main,Oto,0000,0000,0000,,Jakto, že jsi odešla dřív než já?
+Dialogue: 0,0:11:47.39,0:11:49.69,Main,Oto,0000,0000,0000,,Nikdy jsem si tímhle nechtěla projít...
+Dialogue: 0,0:11:49.69,0:11:52.81,Main,Oto,0000,0000,0000,,Víš, viděla jsem v tobě vlastní dceru...
+Dialogue: 0,0:11:52.81,0:11:53.66,Internal,Kag,0000,0000,0000,,Ještě neskončila!
+Dialogue: 0,0:11:53.66,0:11:55.98,Internal,Kag,0000,0000,0000,,Nestihla ty hezký věci doříct!
+Dialogue: 0,0:11:56.30,0:11:58.82,Main,Cat,0000,0000,0000,,Otose-san, trvá ti to moc dlouho!
+Dialogue: 0,0:11:58.82,0:12:00.97,Main,Cat,0000,0000,0000,,Musíš to zestručnit!
+Dialogue: 0,0:12:00.97,0:12:02.32,Main,Cat,0000,0000,0000,,Hej, počkej!
+Dialogue: 0,0:12:02.56,0:12:04.03,Main,Tama,0000,0000,0000,,Otose-sama, Catherine-sama,
+Dialogue: 0,0:12:04.03,0:12:06.71,Main,Tama,0000,0000,0000,,zapomněly jste dát květiny do rakve.
+Dialogue: 0,0:12:06.71,0:12:08.63,Main,Tama,0000,0000,0000,,Honem, podejte mi je!
+Dialogue: 0,0:12:08.63,0:12:09.87,Main,Tama,0000,0000,0000,,Kaguro-sama,
+Dialogue: 0,0:12:10.22,0:12:12.25,Main,Tama,0000,0000,0000,,prosím, odpočívejte v pokoji—
+Dialogue: 0,0:12:15.17,0:12:17.83,Internal,Kag,0000,0000,0000,,Kam jsi je do háje strčila?!
+Dialogue: 0,0:12:17.83,0:12:19.55,Internal,Kag,0000,0000,0000,,Vážně chcete,\Nabych odešla v klidu?!
+Dialogue: 0,0:12:19.77,0:12:21.96,Main,Tama,0000,0000,0000,,Oh, ne! Kyubei-sama!
+Dialogue: 0,0:12:22.88,0:12:27.21,Main,Tama,0000,0000,0000,,Můžete prosím přemístit ty květiny vedle?
+Dialogue: 0,0:12:27.21,0:12:29.01,Main,Kyu,0000,0000,0000,,Počkat, co?
+Dialogue: 0,0:12:29.01,0:12:33.14,Main,Kyu,0000,0000,0000,,K-Kaguro-chan, díky za všechno!
+Dialogue: 0,0:12:34.09,0:12:36.90,Internal,Kag,0000,0000,0000,,Proč jsi mi je narvala do nosu?!
+Dialogue: 0,0:12:36.90,0:12:39.09,Main,Tsu,0000,0000,0000,,Ne, Kyubei! Nemyslela\Ndo vedlejší díry!
+Dialogue: 0,0:12:39.09,0:12:40.45,Main,Tsu,0000,0000,0000,,Musíme je vytáhnout!
+Dialogue: 0,0:12:42.50,0:12:45.16,Main,Tsu,0000,0000,0000,,K-Kaguro, jsem ti toho tolik dlužná!
+Dialogue: 0,0:12:45.54,0:12:48.16,Internal,Kag,0000,0000,0000,,Máte v hlavách něco?!
+Dialogue: 0,0:12:48.16,0:12:49.91,Main,Tsu,0000,0000,0000,,Sbohem!
+Dialogue: 0,0:12:53.21,0:12:55.79,Internal,Kag,0000,0000,0000,,Ne, ahoj.
+Dialogue: 0,0:12:56.07,0:12:57.35,Main,Sac,0000,0000,0000,,Hej!
+Dialogue: 0,0:12:57.35,0:13:00.16,Main,Sac,0000,0000,0000,,Kolik máš pro Krista síly, Tsukki?
+Dialogue: 0,0:13:00.16,0:13:01.17,Main,Sac,0000,0000,0000,,Kaguro-chan...
+Dialogue: 0,0:13:01.38,0:13:03.78,Main,Tsu,0000,0000,0000,,Dělala jsem, co jsem mohla!
+Dialogue: 0,0:13:03.78,0:13:05.61,Main,Tsu,0000,0000,0000,,Zbytek je na tobě, Sarutobi!
+Dialogue: 0,0:13:05.61,0:13:08.68,Main,Sac,0000,0000,0000,,A to říkáš mně? Když to {\i1}tys{\i0} všechno zpackala?!
+Dialogue: 0,0:13:11.53,0:13:14.00,Main,Sac,0000,0000,0000,,Nehne se, ať dělám cokoliv!
+Dialogue: 0,0:13:14.00,0:13:15.49,Main,Sac,0000,0000,0000,,Co mám dělat?!
+Dialogue: 0,0:13:15.49,0:13:17.33,Main,Sac,0000,0000,0000,,Co mám krucinál dělat?!
+Dialogue: 0,0:13:18.18,0:13:19.39,Main,Sac,0000,0000,0000,,Kaguro-chan,
+Dialogue: 0,0:13:19.39,0:13:21.35,Main,Sac,0000,0000,0000,,se mnou bude Gin-san šťastný,
+Dialogue: 0,0:13:21.35,0:13:25.45,Main,Sac,0000,0000,0000,,tak konečně přestaň odporovat\Na táhni do nebe!
+Dialogue: 0,0:13:26.33,0:13:27.92,Internal,Kag,0000,0000,0000,,Nemůžu dýchat!
+Dialogue: 0,0:13:27.92,0:13:28.87,Main,Kon,0000,0000,0000,,Hej, dívej.
+Dialogue: 0,0:13:28.87,0:13:30.18,Main,Kon,0000,0000,0000,,Co se tam děje, Toshi?
+Dialogue: 0,0:13:30.18,0:13:32.67,Internal,Kag,0000,0000,0000,,Zachraň mě, Toshi!
+Dialogue: 0,0:13:32.67,0:13:34.50,Internal,Kag,0000,0000,0000,,Někdo! Kdokoliv! Zachraňte mě!
+Dialogue: 0,0:13:35.58,0:13:38.22,Main,Hij,0000,0000,0000,,Já nevěděl, že existujou takový obřady.
+Dialogue: 0,0:13:38.22,0:13:40.59,Main,Hij,0000,0000,0000,,Jakou víru vyznávala?
+Dialogue: 0,0:13:40.59,0:13:42.67,Main,Kon,0000,0000,0000,,V těhlech chvílích nezáleží,
+Dialogue: 0,0:13:42.67,0:13:44.30,Main,Kon,0000,0000,0000,,jestli byla přítel, nebo nepřítel.
+Dialogue: 0,0:13:44.80,0:13:47.43,Main,Kon,0000,0000,0000,,I my se s ní pořádně rozloučíme.
+Dialogue: 0,0:13:47.43,0:13:48.82,Internal,Kag,0000,0000,0000,,Ne!
+Dialogue: 0,0:13:48.82,0:13:51.47,Internal,Kag,0000,0000,0000,,Nikde na světě takový pohřby nejsou!
+Dialogue: 0,0:13:51.47,0:13:52.13,Internal,Kag,0000,0000,0000,,Umřu!
+Dialogue: 0,0:13:52.13,0:13:54.29,Internal,Kag,0000,0000,0000,,Jestli dostanu tím šutrem, vážně umřu!
+Dialogue: 0,0:13:54.29,0:13:57.02,Internal,Kag,0000,0000,0000,,Makej, páse, makej!
+Dialogue: 0,0:13:58.29,0:13:59.31,Main,Hij,0000,0000,0000,,Nikdy ji nedoženem!
+Dialogue: 0,0:13:59.31,0:14:01.29,Main,Kon,0000,0000,0000,,Vzchop se, Toshi!
+Dialogue: 0,0:14:01.29,0:14:02.82,Main,Kon,0000,0000,0000,,Nevzdávej se!
+Dialogue: 0,0:14:02.82,0:14:04.71,Internal,Kag,0000,0000,0000,,Opovaž se víc snažit!
+Dialogue: 0,0:14:04.71,0:14:06.67,Main,Hij,0000,0000,0000,,Jsme tak ničemný!
+Dialogue: 0,0:14:06.67,0:14:09.32,Main,Hij,0000,0000,0000,,Ani s dítětem se nedokážeme pořádně rozloučit!
+Dialogue: 0,0:14:09.99,0:14:12.76,Main,Kon,0000,0000,0000,,Můžem! Zvládnem to!
+Dialogue: 0,0:14:12.76,0:14:15.63,Main,Kon,0000,0000,0000,,Hodíme ten šutr na rakev!
+Dialogue: 0,0:14:15.63,0:14:19.60,Internal,Kag,0000,0000,0000,,Nedokážu říct,\Njestli jsou hodný, nebo zlý!
+Dialogue: 0,0:14:19.60,0:14:21.59,Main,Tae,0000,0000,0000,,Vy dva, co to děláte?
+Dialogue: 0,0:14:22.91,0:14:24.96,Internal,Kag,0000,0000,0000,,Šéfko!
+Dialogue: 0,0:14:24.96,0:14:28.16,Main,Tae,0000,0000,0000,,Co vyvádíte s tím kamenem?
+Dialogue: 0,0:14:28.16,0:14:29.07,Internal,Kag,0000,0000,0000,,Jsi můj zachránce!
+Dialogue: 0,0:14:29.07,0:14:31.51,Internal,Kag,0000,0000,0000,,Zastav ty debily!
+Dialogue: 0,0:14:32.96,0:14:35.55,Main,Tae,0000,0000,0000,,Proč jste mě nepožádali o pomoc?
+Dialogue: 0,0:14:35.55,0:14:37.10,Internal,Kag,0000,0000,0000,,Tohle ti připadá jako problém?!
+Dialogue: 0,0:14:37.54,0:14:38.60,Main,Kon,0000,0000,0000,,Otae-san!
+Dialogue: 0,0:14:38.81,0:14:41.33,Main,Tae,0000,0000,0000,,Díky, Kondo-san, Hijikato-san...
+Dialogue: 0,0:14:41.81,0:14:43.82,Main,Tae,0000,0000,0000,,Pro Kaguru-chan zacházíte tak daleko...
+Dialogue: 0,0:14:44.70,0:14:46.42,Main,Tae,0000,0000,0000,,Připojím se k vám.
+Dialogue: 0,0:14:46.42,0:14:47.45,Internal,Kag,0000,0000,0000,,Hej!
+Dialogue: 0,0:14:47.45,0:14:52.19,Internal,Kag,0000,0000,0000,,Přece ho nesnášíš, tak co mu teď pomáháš?!
+Dialogue: 0,0:15:01.30,0:15:02.83,Main,Kon,0000,0000,0000,,Jdem na to!
+Dialogue: 0,0:15:02.83,0:15:03.90,Internal,Kag,0000,0000,0000,,Honem!
+Dialogue: 0,0:15:03.90,0:15:06.55,Internal,Kag,0000,0000,0000,,Přidej, páse!
+Dialogue: 0,0:15:09.24,0:15:10.38,Main,Hij,0000,0000,0000,,Sakra, svah!
+Dialogue: 0,0:15:10.71,0:15:13.35,Main,Kon,0000,0000,0000,,Ne! Šutr se valí dolů!
+Dialogue: 0,0:15:13.35,0:15:16.24,Internal,Kag,0000,0000,0000,,Přesně tak, jdi se vycpat, blbej šutre!
+Dialogue: 0,0:15:32.05,0:15:36.37,Main,Kat,0000,0000,0000,,Sice nevidím, kdo stojí za kamenem,\Nale o zbytek se postarám!
+Dialogue: 0,0:15:38.33,0:15:42.37,Main,Hij,0000,0000,0000,,Ani my tě nevidíme, ale necháme to na tobě.
+Dialogue: 0,0:15:42.37,0:15:47.13,Internal,Kag,0000,0000,0000,,Zrovna teď si budou policajti pomáhat s teroristou?!
+Dialogue: 0,0:15:47.36,0:15:49.45,Main,Kat,0000,0000,0000,,Už tam budeme, Šéfko!
+Dialogue: 0,0:15:50.11,0:16:19.83,Distance,Sign,0000,0000,0000,,Vzdálenost\Nod Krematoria
+Dialogue: 0,0:15:51.35,0:15:55.97,Internal,Kag,0000,0000,0000,,Zapřísáhlí nepřátelé spojili síly,\Naby se mě pokusili zabít!
+Dialogue: 0,0:15:59.20,0:16:00.29,Main,W,0000,0000,0000,,Do toho!
+Dialogue: 0,0:16:00.29,0:16:01.52,Main,G,0000,0000,0000,,Neztrácejte naději!
+Dialogue: 0,0:16:01.52,0:16:03.19,Internal,Kag,0000,0000,0000,,Koho povzbuzujete?!
+Dialogue: 0,0:16:06.07,0:16:08.07,Internal,Kag,0000,0000,0000,,Pro koho zpíváte?!
+Dialogue: 0,0:16:17.05,0:16:19.83,Internal,Kag,0000,0000,0000,,Čí je to vlastně pohřeb?!
+Dialogue: 0,0:16:20.95,0:16:22.83,Main,Mad,0000,0000,0000,,Teď máme šanci!
+Dialogue: 0,0:16:22.83,0:16:25.96,Main,Mad,0000,0000,0000,,Zatímco budu běžet proti směru pásu,
+Dialogue: 0,0:16:25.96,0:16:28.84,Main,Mad,0000,0000,0000,,zničte spolu se mnou rakev!
+Dialogue: 0,0:16:28.84,0:16:32.01,Internal,Kag,0000,0000,0000,,Jak moc mě chctete poslat na lepší místo?!
+Dialogue: 0,0:16:32.23,0:16:34.55,Main,Kat,0000,0000,0000,,Jdeme na to!
+Dialogue: 0,0:16:34.55,0:16:36.08,Main,Kat,0000,0000,0000,,Šéfko...
+Dialogue: 0,0:16:36.08,0:16:41.02,Main,All,0000,0000,0000,,Sbohem!
+Dialogue: 0,0:16:45.05,0:16:47.67,Internal,Kag,0000,0000,0000,,Pane na nebesích.
+Dialogue: 0,0:16:47.67,0:16:51.35,Internal,Kag,0000,0000,0000,,Nemůžu uvěřit, že vážně umřu kvůli blbýmu výstřelku.
+Dialogue: 0,0:16:51.89,0:16:55.36,Internal,Kag,0000,0000,0000,,Mám to brát jako trest za to,\Nže jsem nafingovala nemoc,
+Dialogue: 0,0:16:55.69,0:16:58.65,Internal,Kag,0000,0000,0000,,abych zjistila, jak moc mě mají rádi?
+Dialogue: 0,0:16:59.46,0:17:02.42,Internal,Kag,0000,0000,0000,,Vlastně to ani nebylo potřeba,\Nprotože jsem odpověď znala.
+Dialogue: 0,0:17:03.54,0:17:06.58,Internal,Kag,0000,0000,0000,,Podařilo se jim mě doopravdy zabít,
+Dialogue: 0,0:17:07.09,0:17:09.92,Internal,Kag,0000,0000,0000,,ale všichni se tu sešli kvůli mně.
+Dialogue: 0,0:17:10.82,0:17:14.92,Internal,Kag,0000,0000,0000,,Všichni se o mě opravdu báli
+Dialogue: 0,0:17:15.24,0:17:19.24,Internal,Kag,0000,0000,0000,,a z očí jim tekly potoky slz...
+Dialogue: 0,0:17:20.01,0:17:22.79,Internal,Kag,0000,0000,0000,,A já... já...
+Dialogue: 0,0:17:23.41,0:17:27.27,Internal,Kag,0000,0000,0000,,měla jsem jim to říct dřív...
+Dialogue: 0,0:17:50.69,0:17:52.05,Main,Shin,0000,0000,0000,,Všem se omlouváme.
+Dialogue: 0,0:17:52.89,0:17:56.74,Main,Shin,0000,0000,0000,,Opravdu si ceníme, že se chcete s\NKagurou-chan všichni rozloučit,
+Dialogue: 0,0:17:57.69,0:18:01.30,Main,Shin,0000,0000,0000,,ale my jí ještě nechceme\Ndát poslední sbohem.
+Dialogue: 0,0:18:01.84,0:18:05.81,Main,Shin,0000,0000,0000,,Pořád pro ni máme několik slov.
+Dialogue: 0,0:18:11.37,0:18:13.33,Main,Gin,0000,0000,0000,,Zapomněl jsem ti vrátit deštník.
+Dialogue: 0,0:18:14.83,0:18:18.67,Main,Gin,0000,0000,0000,,Abych pravdu řekl, chtěl jsem\Nsi ho nechat na památku,
+Dialogue: 0,0:18:19.33,0:18:21.32,Main,Gin,0000,0000,0000,,ale když na tebe z nebe padá kamení,
+Dialogue: 0,0:18:21.59,0:18:24.12,Main,Gin,0000,0000,0000,,asi ho užiješ víc než já.
+Dialogue: 0,0:18:25.45,0:18:28.77,Main,Gin,0000,0000,0000,,Bude se ti hodit i na druhý straně, viď,
+Dialogue: 0,0:18:29.56,0:18:30.29,Main,Gin,0000,0000,0000,,Kaguro...?
+Dialogue: 0,0:18:33.80,0:18:35.21,Main,Bo,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:18:35.96,0:18:36.50,Main,Bo,0000,0000,0000,,He?
+Dialogue: 0,0:18:40.77,0:18:43.39,Internal,Kag,0000,0000,0000,,A sakra. Řekla jsem to nahlas.
+Dialogue: 0,0:18:49.73,0:18:53.07,Main,Tae,0000,0000,0000,,Počkat, Kagura-chan promluvila?
+Dialogue: 0,0:18:53.07,0:18:54.93,Main,Gin,0000,0000,0000,,N-Nic neříkala!
+Dialogue: 0,0:18:54.93,0:18:56.41,Main,Gin,0000,0000,0000,,Co to s váma je?
+Dialogue: 0,0:18:56.41,0:18:58.36,Main,Shin,0000,0000,0000,,Po tom, kolik peněz a\Npomoci jste nám poskytli,
+Dialogue: 0,0:18:58.36,0:19:01.82,Main,Shin,0000,0000,0000,,není možné, aby byla naživu!
+Dialogue: 0,0:19:02.16,0:19:03.36,Main,Gin,0000,0000,0000,,Je mrtvá a basta!
+Dialogue: 0,0:19:03.36,0:19:04.58,Main,Gin,0000,0000,0000,,Jo, určitě je po ní!
+Dialogue: 0,0:19:04.58,0:19:05.26,Main,Gin,0000,0000,0000,,Je mrtvá!
+Dialogue: 0,0:19:05.26,0:19:07.22,Main,Shin,0000,0000,0000,,Můžeme pokračovat v pohřbu?
+Dialogue: 0,0:19:07.22,0:19:09.16,Main,Shin,0000,0000,0000,,Pořádně ji spálíme!
+Dialogue: 0,0:19:09.54,0:19:11.34,Main,Tae,0000,0000,0000,,A neomluvila se vám před chvílí?
+Dialogue: 0,0:19:11.34,0:19:12.60,Main,Gin,0000,0000,0000,,Neomluvila!
+Dialogue: 0,0:19:12.60,0:19:15.15,Main,Tae,0000,0000,0000,,Nechtěla vám zfalšovanou smrtí\Ndát sežrat vaše hrubé chování?
+Dialogue: 0,0:19:15.15,0:19:16.68,Main,Gin,0000,0000,0000,,Jasně, že ne!
+Dialogue: 0,0:19:17.46,0:19:18.42,Main,Kag,0000,0000,0000,,Sakra.
+Dialogue: 0,0:19:24.26,0:19:27.60,Main,Gin,0000,0000,0000,,Sakra, z ničeho nic se mi udělalo zle...
+Dialogue: 0,0:19:27.60,0:19:30.23,Main,Shin,0000,0000,0000,,O-Omlouvám se, také mi není dobře.
+Dialogue: 0,0:19:30.23,0:19:32.44,Main,Shin,0000,0000,0000,,Mohli bysme to odsunout na jindy?
+Dialogue: 0,0:19:33.89,0:19:35.50,Main,Tae,0000,0000,0000,,Žádné obavy,
+Dialogue: 0,0:19:35.50,0:19:39.69,Main,Tae,0000,0000,0000,,vaše nemoc je stejně nevyléčitelná a smrtelná.
+Dialogue: 0,0:19:40.16,0:19:41.92,Main,Tae,0000,0000,0000,,Takže uspořádáme...
+Dialogue: 0,0:19:43.77,0:19:45.55,Main,All,0000,0000,0000,,...pohřeb pro vás 3 dohromady.
+Dialogue: 0,0:19:45.55,0:19:47.50,Main,Gin,0000,0000,0000,,Počkat! Já nic špatnýho neudělal!
+Dialogue: 0,0:19:47.50,0:19:49.08,Main,Gin,0000,0000,0000,,Jestli chcete někoho spálit, tak ji!
+Dialogue: 0,0:19:49.08,0:19:50.17,Main,Kag,0000,0000,0000,,Jak to můžeš říct?!
+Dialogue: 0,0:19:50.17,0:19:51.82,Main,Kag,0000,0000,0000,,Tohle všechno je hlavně kvůli tobě—
+Dialogue: 0,0:19:51.82,0:19:54.47,Main,Shin,0000,0000,0000,,Ségra, já jsem jen nebohá oběť!
+Dialogue: 0,0:19:54.47,0:19:57.24,Main,Shin,0000,0000,0000,,Zatáhli mě do toho!
+Dialogue: 0,0:20:08.61,0:20:10.08,Main,Soyo,0000,0000,0000,,Jaká to úleva.
+Dialogue: 0,0:20:10.65,0:20:12.27,Main,Oki,0000,0000,0000,,Přesně tak.
+Dialogue: 0,0:21:44.94,0:21:50.87,Ep Title,Title,0000,0000,0000,,{\fad(447,1)}One Editor Is Enough
+Dialogue: 0,0:21:44.94,0:21:50.87,Ep Title,Title,0000,0000,0000,,{\fad(447,1)\an5}The G-Pen Is Capricious, and the Maru Pen Is Stubborn
+Dialogue: 0,0:21:45.64,0:21:48.67,Main,Sha,0000,0000,0000,,Next episode: "One Editor Is Enough," and
+Dialogue: 0,0:21:48.67,0:21:51.66,Main,Sha,0000,0000,0000,,"The G-Pen Is Capricious, \Nand the Maru Pen Is Stubborn."
+Dialogue: 0,0:21:50.87,0:21:59.92,Preview Green,Sign,0000,0000,0000,,V příštím díle uvidíte
+Dialogue: 0,0:21:51.66,0:21:52.91,Main,Sha,0000,0000,0000,,Dva příběhy v díle!
+Dialogue: 0,0:21:52.91,0:21:59.15,Main,Sha,0000,0000,0000,,A oba o nás a naší cestě za snem\Nkaždého mangaky, brácho!
+Dialogue: 0,0:21:59.92,0:22:01.36,Winter,Sign,0000,0000,0000,,{\fad(1,375)}Již tuto {\c&Haf2d2f&}zimu
+Dialogue: 0,0:22:01.69,0:22:04.78,Gin,Sign,0000,0000,0000,,{\fad(300,375)}nabere Gintama
+Dialogue: 0,0:22:02.86,0:22:04.78,Turn,Sign,0000,0000,0000,,{\fad(336,375')}nečekané obrátky.
+Dialogue: 0,0:22:05.04,0:22:06.42,Main,Zen,0000,0000,0000,,Je to nuda.
+Dialogue: 0,0:22:06.42,0:22:11.05,Main,Zen,0000,0000,0000,,Atentát mi upřímně připadá o dost víc vzrušující.
+Dialogue: 0,0:22:11.05,0:22:12.93,Main,Sac,0000,0000,0000,,Tak přece jsi zapomněl...
+Dialogue: 0,0:22:12.93,0:22:15.43,Gin2,Sign,0000,0000,0000,,{\fad(568,1)}Gintama
+Dialogue: 0,0:22:12.93,0:22:15.43,Assass,Sign,0000,0000,0000,,{\fad(568,1)}Atentát na Shoguna
+Dialogue: 0,0:22:15.79,0:22:17.39,Main,Soyo,0000,0000,0000,,Bratře?
+Dialogue: 0,0:22:17.93,0:22:19.47,Main,Soyo,0000,0000,0000,,Bratře...
+Dialogue: 0,0:22:19.47,0:22:22.40,Main,Soyo,0000,0000,0000,,Můžeš mě poslouchat, bratře?!
+Dialogue: 0,0:22:22.83,0:22:25.04,Main,Sho,0000,0000,0000,,Oh, to jsi ty, Soyo.
+Dialogue: 0,0:22:25.04,0:22:26.69,Main,Sho,0000,0000,0000,,Odpusť mi, zamyslel jsem se.
+Dialogue: 0,0:22:28.63,0:22:29.99,Main,Soyo,0000,0000,0000,,Bratře!
+Dialogue: 0,0:22:29.99,0:22:31.45,Main,Sho,0000,0000,0000,,Nemožné, byl otrávený?
+Dialogue: 0,0:22:31.45,0:22:32.87,Assass2,Sign,0000,0000,0000,,{\fad(1,311)}Atentát na Shoguna
+Dialogue: 0,0:22:31.45,0:22:32.87,Assass3,Sign,0000,0000,0000,,{\fad(1,311)}se dá rapidně do pohybu.
+Dialogue: 0,0:22:32.91,0:22:38.92,Enemy,Sign,0000,0000,0000,,{\fad(275,275)}Nepřítel...
+Dialogue: 0,0:22:33.22,0:22:34.57,Main,Nbnb,0000,0000,0000,,Shigeshige,
+Dialogue: 0,0:22:34.57,0:22:37.79,Main,Nbnb,0000,0000,0000,,v zemi ti nezbývá jediný pravý přítel.
+Dialogue: 0,0:22:38.92,0:22:42.16,Main,Mat,0000,0000,0000,,Zachráníme našeho kámoše!
+Dialogue: 0,0:22:38.92,0:22:45.92,Ally,Sign,0000,0000,0000,,{\fad(354,306)}Spojenec...
+Dialogue: 0,0:22:42.16,0:22:43.89,Main,Mat,0000,0000,0000,,Počítám s váma, kámoši.
+Dialogue: 0,0:22:43.89,0:22:45.16,Main,Mat,0000,0000,0000,,A s váma taky,
+Dialogue: 0,0:22:45.59,0:22:47.42,Main,Mat,0000,0000,0000,,dvojníci.
+Dialogue: 0,0:22:47.42,0:22:50.09,Main,Gin,0000,0000,0000,,Nechci rejpat, ale můžete s tím trochu hnout?
+Dialogue: 0,0:22:50.09,0:22:53.51,Main,Bo,0000,0000,0000,,Proč seš dvojník zrovna ty?!
+Dialogue: 0,0:22:53.51,0:22:56.68,Main,Oki,0000,0000,0000,,Víte, jsem na vaší straně.
+Dialogue: 0,0:22:53.51,0:23:00.73,Enemy,Sign,0000,0000,0000,,{\fad(362,268)}nebo zrádce?
+Dialogue: 0,0:22:56.68,0:22:58.33,Main,Kam,0000,0000,0000,,A nejsme my dva stejní?
+Dialogue: 0,0:22:58.33,0:23:00.28,Main,Kam,0000,0000,0000,,Máš oči zabijáka.
+Dialogue: 0,0:23:00.73,0:23:02.31,Main,Kon,0000,0000,0000,,You're the only ones who can.
+Dialogue: 0,0:23:02.31,0:23:04.72,Main,Kag,0000,0000,0000,,Tak čeho se bojíš?
+Dialogue: 0,0:23:04.72,0:23:05.44,Main,Shin,0000,0000,0000,,Gin-sane...
+Dialogue: 0,0:23:05.44,0:23:08.32,Main,Shin,0000,0000,0000,,Co se bude dít dál?
+Dialogue: 0,0:23:16.11,0:23:17.66,Main,Tak,0000,0000,0000,,Dal sis načas.
+Dialogue: 0,0:23:17.66,0:23:19.16,Main,Tak,0000,0000,0000,,Nemohl jsem se tě dočkat,
+Dialogue: 0,0:23:20.24,0:23:21.79,Main,Tak,0000,0000,0000,,Gintoki.
+Dialogue: 0,0:23:27.05,0:23:28.38,Main,Gin,0000,0000,0000,,Před rozedněním...
+Dialogue: 0,0:23:28.38,0:23:30.53,Main,Gin,0000,0000,0000,,Před rozedněním je noc nejtemnější...
+Dialogue: 0,0:23:29.63,0:23:31.22,Past,Sign,0000,0000,0000,,{\fad(200,186)}Minulost\Na \N{\c&H150a99&}pravda
+Dialogue: 0,0:23:31.22,0:23:34.87,Reveal,Sign,0000,0000,0000,,{\fad(315,415)}se dostanou na povrch.
+Dialogue: 0,0:23:31.49,0:23:34.13,Main,Gin,0000,0000,0000,,...ale nemůžeme zavírat oči.
+Dialogue: 0,0:23:35.94,0:23:40.44,Main,Gin,0000,0000,0000,,Jsem Sakata Gintoki, \Nstudent Yoshidy Shoyo!
+Dialogue: 0,0:23:40.44,0:23:43.94,Gin2,Sign,0000,0000,0000,,Gintama
+Dialogue: 0,0:23:40.44,0:23:43.94,Assass,Sign,0000,0000,0000,,Atentát na Shoguna
+Dialogue: 0,0:23:44.75,0:23:45.94,Main,Sho,0000,0000,0000,,Zenzo...
+Dialogue: 0,0:23:45.94,0:23:47.82,Main,Sho,0000,0000,0000,,Zbytek nechávám na tobě.
+Dialogue: 0,0:23:47.40,0:23:49.90,Gin2,Sign,0000,0000,0000,,Počínaje 2. prosincem
+Dialogue: 0,0:23:49.90,0:24:00.75,Story1,text r,0000,0000,0000,,do sebe začne příběh
+Dialogue: 0,0:23:49.90,0:24:00.75,Story2,text l,0000,0000,0000,,konečně zapadat.

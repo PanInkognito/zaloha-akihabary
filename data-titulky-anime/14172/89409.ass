@@ -1,0 +1,447 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Ep_Title,Open Sans Semibold,27,&H00B200AA,&H000000FF,&H00F6DEDD,&H00A15946,1,0,0,0,100,100,0,0,1,2,0,3,13,53,64,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: sign_6_1_Shinjuku_Station,Open Sans Semibold,33,&H004DAE54,&H000000FF,&H00151A0D,&H00151A0D,1,0,0,0,100,100,0,0,1,1,1,2,389,205,283,1
+Style: sign_377_2_Kabuki_cho_Ichib,Open Sans Semibold,30,&H004A34E7,&H000000FF,&H00FFFFFF,&H00151A0D,1,0,0,0,100,100,0,0,1,3,0,2,259,245,323,1
+Style: sign_606_3_Shinjuku_Ward_Of,Open Sans Semibold,33,&H004C5557,&H000000FF,&H00151A0D,&H00151A0D,1,0,0,0,100,100,0,0,1,1,1,8,13,13,40,1
+Style: sign_3405_5_April_1st,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00151A0D,1,0,0,0,100,100,0,0,1,2,0,1,67,13,133,1
+Style: sign_3405_6_Shinjuku_Ward_Of,Open Sans Semibold,30,&H00A15946,&H000000FF,&H00FBF0E3,&H00A15946,0,0,0,0,100,100,0,0,1,2,2,2,367,199,207,1
+Style: sign_3500_7_Visitors_during_,Open Sans Semibold,24,&H00C3C3C3,&H000000FF,&H000B120C,&H00A15946,0,0,0,0,100,100,0,0,1,3,0,3,421,32,112,1
+Style: sign_4083_20_Storage__1,Open Sans Semibold,33,&H00353737,&H000000FF,&H00949696,&H00151A0D,1,0,0,0,100,100,0,0,1,3,0,2,13,13,157,1
+Style: sign_3873_16_Holiday_Night_En,Open Sans Semibold,24,&H003A311C,&H000000FF,&H00AC754B,&H00151A0D,0,0,0,0,100,100,0,0,1,3,0,2,43,565,328,1
+Style: sign_7683_80_Miyako,Open Sans Semibold,33,&H00464647,&H000000FF,&H00C6C6C6,&H00151A0D,0,0,0,0,100,100,0,0,1,3,0,2,387,363,187,1
+Style: sign_9465_106_Shinjuku_Gate,Open Sans Semibold,30,&H00A15946,&H000000FF,&H00FBF0E3,&H00A15946,0,0,0,0,100,100,0,0,1,2,2,2,369,297,352,1
+Style: sign_9465_107_Imperial_Gardens,Open Sans Semibold,30,&H00A15946,&H000000FF,&H00FBF0E3,&H00A15946,1,0,0,0,100,100,0,0,1,2,2,2,488,123,101,1
+Style: sign_9692_112_Shinjuku_Imperia,Open Sans Semibold,30,&H0011130F,&H000000FF,&H003A3B39,&H00151A0D,1,0,0,0,100,100,0,0,1,3,0,8,240,13,24,1
+Style: sign_16059_199_March__Imperial_,Open Sans Semibold,24,&H006D6D73,&H000000FF,&H00F7F7F7,&H00151A0D,0,0,0,0,100,100,0,0,1,3,0,2,55,268,329,1
+Style: sign_17481_223_Shinjuku_Imperia,Open Sans Semibold,30,&H0011130F,&H000000FF,&H00393A30,&H00151A0D,1,0,0,0,100,100,0,0,1,3,0,8,13,13,24,1
+Style: sign_22895_288_Nocturnal_Cultur,Open Sans Semibold,27,&H00212223,&H000000FF,&H00424746,&H00151A0D,1,0,0,0,100,100,0,0,1,3,0,2,25,263,251,1
+Style: sign_23545_294_Shinjuku_Station,Open Sans Semibold,33,&H0091FF76,&H000000FF,&H00151A0D,&H00151A0D,1,0,0,0,100,100,0,0,1,1,1,8,13,13,24,1
+Style: sign_33808_406__2_The_White_Nek,Open Sans Semibold,33,&H00FFFCFE,&H000000FF,&H00954075,&H00151A0D,1,0,0,0,100,100,0,0,1,3,0,2,128,123,155,1
+Style: Next_Ep_Title,Open Sans Semibold,33,&H00FFFCFE,&H000000FF,&H00954075,&H00151A0D,1,0,0,0,100,100,0,0,1,2,0,2,13,13,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,Gu,0000,0000,0000,,Ano,Ano
+Dialogue: 0,0:00:00.25,0:00:05.84,sign_6_1_Shinjuku_Station,,0000,0000,0000,,{\fad(350,1)}Shinjuka Stanice
+Dialogue: 0,0:00:15.72,0:00:17.69,sign_377_2_Kabuki_cho_Ichib,,0000,0000,0000,,Kabuki-cho Ichibangai
+Dialogue: 0,0:00:25.27,0:00:27.74,sign_606_3_Shinjuku_Ward_Of,,0000,0000,0000,,Shinjuku Ward Office
+Dialogue: 0,0:00:45.92,0:00:48.13,Default,Gu,0000,0000,0000,,Tohle je to míst, že?
+Dialogue: 0,0:02:22.01,0:02:24.98,sign_3405_5_April_1st,Gu,0000,0000,0000,,April 1st
+Dialogue: 0,0:02:22.01,0:02:24.98,sign_3405_6_Shinjuku_Ward_Of,Gu,0000,0000,0000,,Shinjuku Ward Office \NMain Building
+Dialogue: 0,0:02:25.95,0:02:30.36,sign_3500_7_Visitors_during_,,0000,0000,0000,,Visitors during off-hours are required \Nto check in with security prior to entry.
+Dialogue: 0,0:02:26.52,0:02:30.36,Ep_Title,Gu,0000,0000,0000,,{\fad(550,1)}#1"Andělé a Tengu nad obzorem Shinjuku"
+Dialogue: 0,0:02:28.30,0:02:29.24,Default - Top,Gu,0000,0000,0000,,Um...
+Dialogue: 0,0:02:29.71,0:02:30.37,Default - Top,Gu,0000,0000,0000,,Ano
+Dialogue: 0,0:02:30.58,0:02:33.75,Default,Gu,0000,0000,0000,,Byl jsem přiřazen k Noční vztahové Divizi
+Dialogue: 0,0:02:34.30,0:02:35.65,Default,Gu,0000,0000,0000,,Jmenuji se Miyako Arata.
+Dialogue: 0,0:02:36.05,0:02:38.26,Default,Gu,0000,0000,0000,,Jsi jejich nové dítě, co?
+Dialogue: 0,0:02:38.63,0:02:40.43,Default,Gu,0000,0000,0000,,Sakaki-kun mi o vás řekl.
+Dialogue: 0,0:02:40.43,0:02:41.51,Default,,0000,0000,0000,,Pojď.
+Dialogue: 0,0:02:41.51,0:02:43.75,sign_3873_16_Holiday_Night_En,,0000,0000,0000,,Holiday/Night Entrance
+Dialogue: 0,0:02:41.95,0:02:43.76,Italics,Gu,0000,0000,0000,,Sledujte chodbu až do konce a zahněte doprava,
+Dialogue: 0,0:02:43.76,0:02:45.99,Italics,Gu,0000,0000,0000,,u výtahové haly
+Dialogue: 0,0:02:45.99,0:02:49.33,Italics,Gu,0000,0000,0000,,odboč na rohu před uzavřenou kavárnou,
+Dialogue: 0,0:02:49.33,0:02:51.77,Italics,Gu,0000,0000,0000,,jsou to první dveře vlevo.
+Dialogue: 0,0:02:50.27,0:02:51.77,sign_4083_20_Storage__1,Gu,0000,0000,0000,,Storage #1
+Dialogue: 0,0:02:53.34,0:02:54.19,Default,Gu,0000,0000,0000,,Tady?
+Dialogue: 0,0:02:55.64,0:02:57.28,Default,Gu,0000,0000,0000,,Omluvte mě
+Dialogue: 0,0:02:57.59,0:02:59.90,Default,Gu,0000,0000,0000,,Huh?Tohle není to sklad.
+Dialogue: 0,0:03:07.15,0:03:09.79,Default,Gu,0000,0000,0000,,Uhh, to je divné.
+Dialogue: 0,0:03:10.26,0:03:12.14,Default,Gu,0000,0000,0000,,Použil jsem špatné přísady?
+Dialogue: 0,0:03:12.50,0:03:14.79,Default,Gu,0000,0000,0000,,Použil jsem síru a hliník ...
+Dialogue: 0,0:03:14.79,0:03:16.48,Default,Gu,0000,0000,0000,,a kozí žlučové kameny.
+Dialogue: 0,0:03:16.89,0:03:18.29,Default,Gu,0000,0000,0000,,Dal jsem špatné množství?
+Dialogue: 0,0:03:18.29,0:03:19.61,Default,Gu,0000,0000,0000,,U-Um...
+Dialogue: 0,0:03:20.51,0:03:24.05,Default,Gu,0000,0000,0000,,Je to Noční \NOddělení vztahů?
+Dialogue: 0,0:03:24.38,0:03:27.06,Default,Gu,0000,0000,0000,,Jo, ale kdo jsi?
+Dialogue: 0,0:03:27.06,0:03:29.74,Default,Gu,0000,0000,0000,,No, začínám tady dnes -
+Dialogue: 0,0:03:29.74,0:03:32.31,Default,Gu,0000,0000,0000,,Oh.Jsi To nové děcko!
+Dialogue: 0,0:03:32.90,0:03:35.87,Default,Gu,0000,0000,0000,,Vzpomínám si jak Reiji-kun něco říkal.
+Dialogue: 0,0:03:39.06,0:03:40.19,Default,Gu,0000,0000,0000,,Rád tě poznávám.
+Dialogue: 0,0:03:40.19,0:03:42.20,Default,Gu,0000,0000,0000,,Jsem Himezuka Seo, pracuju tady
+Dialogue: 0,0:03:42.71,0:03:45.65,Default,Gu,0000,0000,0000,,Seo je napsáno v katakaně. Říkej mi Seo.
+Dialogue: 0,0:03:45.65,0:03:46.69,Default,Gu,0000,0000,0000,,Katakana?
+Dialogue: 0,0:03:46.69,0:03:48.39,Default,Gu,0000,0000,0000,,Pocházím z Británie.
+Dialogue: 0,0:03:48.79,0:03:50.12,Default,Gu,0000,0000,0000,,Tak to zní britsky.
+Dialogue: 0,0:03:50.12,0:03:51.02,Default,Gu,0000,0000,0000,,Seo!
+Dialogue: 0,0:03:51.56,0:03:53.69,Default,,0000,0000,0000,,Udělal jsi to znovu, že?
+Dialogue: 0,0:03:53.69,0:03:53.76,Default,,0,0,0,,
+Dialogue: 0,0:03:53.69,0:03:56.21,Default,Gu,0000,0000,0000,,Kouř se dostal až do jídelny.
+Dialogue: 0,0:03:56.21,0:03:57.96,Default,Gu,0000,0000,0000,,Nepoužil jsi žádný oheň, že?
+Dialogue: 0,0:03:58.39,0:04:00.21,Default,Gu,0000,0000,0000,,Ten, kdo tu dělá něco špatně...
+Dialogue: 0,0:04:00.21,0:04:01.84,Default,Gu,0000,0000,0000,,jis ty, Kyouichi!
+Dialogue: 0,0:04:03.01,0:04:06.18,Default,Gu,0000,0000,0000,,Znovu jsi použil moji fotku, že ?!
+Dialogue: 0,0:04:06.18,0:04:07.55,Default,Gu,0000,0000,0000,,Jako záminka abys odmítl dívku ?!
+Dialogue: 0,0:04:08.54,0:04:09.42,Default,Gu,0000,0000,0000,,Zjistil jsi to?
+Dialogue: 0,0:04:09.78,0:04:13.35,Default,Gu,0000,0000,0000,,Je to mnohem snazší ukázat jim\Ntvojí fotku  a říct, že jsi moje přítelkyně.
+Dialogue: 0,0:04:13.35,0:04:15.02,Default,Gu,0000,0000,0000,,A proto,
+Dialogue: 0,0:04:15.02,0:04:18.81,Default,,0000,0000,0000,,je tu každý den nějaká naštvaná žena,\Nkterá se na mě dívá z patra!
+Dialogue: 0,0:04:18.81,0:04:19.61,Default,Gu,0000,0000,0000,,Vářně???
+Dialogue: 0,0:04:19.92,0:04:22.92,Default,Gu,0000,0000,0000,,Nenut mě, abych se vypořádával s dopadem\N  tvých špatných návyků s ženami!
+Dialogue: 0,0:04:23.83,0:04:24.92,Default,,0000,0000,0000,,Říkám,
+Dialogue: 0,0:04:25.24,0:04:26.99,Default,Gu,0000,0000,0000,,Pokud to uděláš znovu, budeš litovat.
+Dialogue: 0,0:04:27.18,0:04:30.06,Default,Gu,0000,0000,0000,,Oh, Jsi žena, Himezuka-san?
+Dialogue: 0,0:04:30.06,0:04:31.49,Default,Gu,0000,0000,0000,,Myslel jsem, že jsi muž -
+Dialogue: 0,0:04:31.49,0:04:33.03,Default,Gu,0000,0000,0000,,Já {\i1}jsem{\i0} a muž!
+Dialogue: 0,0:04:33.03,0:04:34.25,Default,Gu,0000,0000,0000,,A říkej mi Seo!
+Dialogue: 0,0:04:34.71,0:04:35.94,Default,Gu,0000,0000,0000,,S-e-o!
+Dialogue: 0,0:04:35.94,0:04:37.15,Default,Gu,0000,0000,0000,,Dobře...
+Dialogue: 0,0:04:37.67,0:04:39.36,Default,Gu,0000,0000,0000,,Co je s váma špatně špatně?
+Dialogue: 0,0:04:39.36,0:04:42.26,Default,Gu,0000,0000,0000,,Halo. Je to Sakaki?
+Dialogue: 0,0:04:42.56,0:04:45.29,Default,Gu,0000,0000,0000,,Nový rekrut je zde. Miyako Arata-kun.
+Dialogue: 0,0:04:45.29,0:04:46.53,Default,Gu,0000,0000,0000,,Mám ho poslat?
+Dialogue: 0,0:04:49.29,0:04:52.27,Default,Gu,0000,0000,0000,,Dobře. Úvody mohou počkat.
+Dialogue: 0,0:04:52.52,0:04:54.52,Default,Gu,0000,0000,0000,,To je Sakaki Kyouichi.
+Dialogue: 0,0:04:54.87,0:04:57.13,Default,Gu,0000,0000,0000,,Bývalý hostinský, který miluje ženy a pije.
+Dialogue: 0,0:04:57.13,0:04:59.15,Default,Gu,0000,0000,0000,,Je vedoucím divize.
+Dialogue: 0,0:04:59.67,0:05:01.65,Default,Gu,0000,0000,0000,,I když to tak nevypadá.
+Dialogue: 0,0:05:03.38,0:05:04.92,Default,Gu,0000,0000,0000,,Přesně tak.
+Dialogue: 0,0:05:04.92,0:05:07.86,Default,Gu,0000,0000,0000,,Zeptejte se mě, pokud bude něco co\Nnechápeš.
+Dialogue: 0,0:05:08.31,0:05:10.50,Default,Gu,0000,0000,0000,,D-Děkuju.
+Dialogue: 0,0:05:12.49,0:05:13.29,Default,,0000,0000,0000,,je 7:00.
+Dialogue: 0,0:05:13.65,0:05:15.49,Default,,0000,0000,0000,,Tak pojďme do práce.
+Dialogue: 0,0:05:16.14,0:05:18.70,Default,,0000,0000,0000,,Převlíkni si oblečení\Nje v pravé krajní skříňce.
+Dialogue: 0,0:05:18.70,0:05:21.06,Default,,0000,0000,0000,,Jdem ven na tvojí první směnu.
+Dialogue: 0,0:05:20.42,0:05:21.32,sign_7683_80_Miyako,,0000,0000,0000,,Miyako
+Dialogue: 0,0:05:23.22,0:05:25.47,Default,,0000,0000,0000,,Naše divize tráví většinu času\Nmimo kancelář.
+Dialogue: 0,0:05:25.47,0:05:27.81,Default,,0000,0000,0000,,Jmenovku ti dám\Npozději v kanceláři.
+Dialogue: 0,0:05:27.81,0:05:29.68,Default,,0000,0000,0000,,Pracujeme jiné směny \Nnarozdíl  od  ostatních,
+Dialogue: 0,0:05:29.68,0:05:30.68,Default,,0000,0000,0000,,takže jí nebudeš moc používat.
+Dialogue: 0,0:05:30.84,0:05:31.68,Default,,0000,0000,0000,,Um,
+Dialogue: 0,0:05:32.17,0:05:35.97,Default,,0000,0000,0000,,co děláme venku v noci?
+Dialogue: 0,0:05:35.97,0:05:37.35,Default,,0000,0000,0000,,O čem to mluvíš?
+Dialogue: 0,0:05:37.35,0:05:38.44,Default,,0000,0000,0000,,Um...
+Dialogue: 0,0:05:38.44,0:05:41.63,Default,,0000,0000,0000,,"Budujeme vztahy s\Nlidmi různého věku,
+Dialogue: 0,0:05:41.63,0:05:46.46,Default,,0000,0000,0000,,v různých oblastech a společenských pozicích,\Nzapojujeme se do plánování a propagace “.
+Dialogue: 0,0:05:46.46,0:05:47.26,Default,,0000,0000,0000,,Přesně.
+Dialogue: 0,0:05:47.70,0:05:50.73,Default,,0000,0000,0000,,Shinjuku je město, kde lidé z mnoha
+Dialogue: 0,0:05:50.73,0:05:53.21,Default,,0000,0000,0000,,různých zemí a\Npracovních míst díky nám získávají lepší míto pro život
+Dialogue: 0,0:05:53.21,0:05:57.51,Default,,0000,0000,0000,,Co tedy děláme, abychom zde udělali\Nlepší místo pro život?
+Dialogue: 0,0:05:58.18,0:06:01.30,Default,,0000,0000,0000,,To zjistíš prací.
+Dialogue: 0,0:06:02.86,0:06:04.52,Default,,0000,0000,0000,,Aspoň to říká papírování.
+Dialogue: 0,0:06:04.91,0:06:08.98,Default,,0000,0000,0000,,Viděl jsi někdy Youkai\Nanděla nebo ďábla?
+Dialogue: 0,0:06:12.69,0:06:15.56,Default,,0000,0000,0000,,Mám na to odpovědět vážně?
+Dialogue: 0,0:06:15.93,0:06:17.83,Default,,0000,0000,0000,,Odpověď na tuto otázku zní ne.
+Dialogue: 0,0:06:18.11,0:06:20.53,Default,,0000,0000,0000,,Ale jelikož jsi sem byl přidělen,
+Dialogue: 0,0:06:20.53,0:06:23.19,Default,,0000,0000,0000,,tak to znamená, že jsi poznal\Ntrik v zaměstnávací  zkoušce.
+Dialogue: 0,0:06:23.39,0:06:25.28,Default,,0000,0000,0000,,Je to pravděpodobně ten typ, který si toho není vědom.
+Dialogue: 0,0:06:25.62,0:06:28.10,Default,,0000,0000,0000,,Takže budeme muset udělat obřadní průchod.
+Dialogue: 0,0:06:29.31,0:06:30.95,Default,,0000,0000,0000,,O čem to mluvíš?
+Dialogue: 0,0:06:34.76,0:06:37.19,sign_9465_106_Shinjuku_Gate,,0000,0000,0000,,Shinjuku Gate
+Dialogue: 0,0:06:34.76,0:06:37.19,sign_9465_107_Imperial_Gardens,,0000,0000,0000,,Imperial Gardens
+Dialogue: 0,0:06:37.20,0:06:41.20,sign_3405_5_April_1st,,0000,0000,0000,,April 1st
+Dialogue: 0,0:06:40.11,0:06:41.21,Default,,0000,0000,0000,,Kde to jsme?
+Dialogue: 0,0:06:42.62,0:06:44.21,Default,,0000,0000,0000,,Nikdy jsi tu nebyl?
+Dialogue: 0,0:06:44.21,0:06:45.69,Default,,0000,0000,0000,,Císařské zahrady Shinjuku.
+Dialogue: 0,0:06:44.23,0:06:47.58,sign_9692_112_Shinjuku_Imperia,,0000,0000,0000,,Císařské zahrady Shinjuku.
+Dialogue: 0,0:06:45.69,0:06:47.17,Default,,0000,0000,0000,,Ne, ale amm...
+Dialogue: 0,0:06:47.81,0:06:51.72,Default,,0000,0000,0000,,Není vstup v noci zakázán?
+Dialogue: 0,0:06:52.09,0:06:54.38,Default,,0000,0000,0000,,Je to součást naší práce.
+Dialogue: 0,0:06:54.38,0:06:55.66,Default,,0000,0000,0000,,Takže máme klíč.
+Dialogue: 0,0:06:56.58,0:06:59.30,Default,,0000,0000,0000,,Uvnitř je sotva nějaké světlo\N, takže buďte opatrní.
+Dialogue: 0,0:06:59.30,0:07:00.73,Default,,0000,0000,0000,,Oh, dobře!
+Dialogue: 0,0:07:04.31,0:07:06.05,Italics,,0000,0000,0000,,Pracujeme v Imperial Gardens v noci?
+Dialogue: 0,0:07:06.48,0:07:08.21,Italics,,0000,0000,0000,,Co budeme dělat?
+Dialogue: 0,0:07:08.69,0:07:09.99,Default,,0000,0000,0000,,Myslím, že je to dobré místo.
+Dialogue: 0,0:07:10.31,0:07:11.22,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:11.67,0:07:13.62,Default,,0000,0000,0000,,Tak ho udělejme. Obřadní průchod.
+Dialogue: 0,0:07:14.82,0:07:18.02,Default,,0000,0000,0000,,Um.Co je to za věc\No které mluvíš?
+Dialogue: 0,0:07:18.02,0:07:19.76,Default,,0000,0000,0000,,Neboj se.
+Dialogue: 0,0:07:19.76,0:07:22.98,Default,,0000,0000,0000,,I když budete křičet a snažit se utéct\Nven,tak se o tebe postarám.
+Dialogue: 0,0:07:22.98,0:07:26.63,Default,,0000,0000,0000,,Tuto práci pochopíš líp\Nzkušenostmi, než vysvětlením.
+Dialogue: 0,0:07:29.02,0:07:29.80,Default,,0000,0000,0000,,Tam.
+Dialogue: 0,0:07:30.74,0:07:32.63,Default,,0000,0000,0000,,Tam je víla.
+Dialogue: 0,0:07:35.70,0:07:36.39,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:36.39,0:07:37.34,Default,,0000,0000,0000,,Je to tady.
+Dialogue: 0,0:07:37.85,0:07:39.89,Default,,0000,0000,0000,,Ale teď to nemůžeš vidět.
+Dialogue: 0,0:07:40.48,0:07:43.09,Default,,0000,0000,0000,,Youkai, andělé, ďáblové ...
+Dialogue: 0,0:07:43.09,0:07:45.78,Default,,0000,0000,0000,,Většinu okultních tvorů\Nvidíš v beletriéře,
+Dialogue: 0,0:07:45.78,0:07:47.69,Default,,0000,0000,0000,,můžeš předpokládat, že skutečně existují.
+Dialogue: 0,0:07:48.18,0:07:51.15,Default,,0000,0000,0000,,To je první věc\Nkterou se tady musíš naučit.
+Dialogue: 0,0:07:51.53,0:07:55.27,Default,,0000,0000,0000,,Um, opravdu mluvíme\Nprávě teď o práci?
+Dialogue: 0,0:07:55.27,0:07:56.13,Default,,0000,0000,0000,,Samozřejmně.
+Dialogue: 0,0:07:56.43,0:07:58.98,Default,,0000,0000,0000,,Je to velmi důležitá diskuse\No práci, kterou děláme.
+Dialogue: 0,0:07:59.32,0:07:59.79,Default,,0000,0000,0000,,Seo.
+Dialogue: 0,0:07:59.79,0:08:01.73,Default,,0000,0000,0000,,Správně, správně.
+Dialogue: 0,0:08:05.88,0:08:07.41,Default,,0000,0000,0000,,Co to děláš?
+Dialogue: 0,0:08:07.41,0:08:09.30,Default,,0000,0000,0000,,Sprej Ibn Ghazi.
+Dialogue: 0,0:08:09.82,0:08:12.77,Default,,0000,0000,0000,,Je to pomocník pro lidi\Nkteří mají potíže je vidět.
+Dialogue: 0,0:08:13.16,0:08:17.79,Default,,0000,0000,0000,,Je vyroben z půdy starých hrobek,\NKvěty amarantu a pak mletého břečťanu ...
+Dialogue: 0,0:08:17.79,0:08:19.90,Default,,0000,0000,0000,,Oh,podívej se před sebe.
+Dialogue: 0,0:08:26.88,0:08:27.90,Default,,0000,0000,0000,,Co vidíš?
+Dialogue: 0,0:08:28.51,0:08:29.71,Default,,0000,0000,0000,,Co?
+Dialogue: 0,0:08:29.99,0:08:32.42,Default,,0000,0000,0000,,Vidím světlo ... mění se?
+Dialogue: 0,0:08:34.11,0:08:36.91,Default,,0000,0000,0000,,Holčička?
+Dialogue: 0,0:08:37.74,0:08:40.04,Default,,0000,0000,0000,,S křídly na zádech?
+Dialogue: 0,0:08:40.34,0:08:42.43,Default,,0000,0000,0000,,V-V Víla?
+Dialogue: 0,0:08:48.90,0:08:50.43,Default,,0000,0000,0000,,To byl skřítek.
+Dialogue: 0,0:08:50.43,0:08:52.27,Default,,0000,0000,0000,,Najdeš je všude.
+Dialogue: 0,0:08:53.99,0:08:55.81,Default,,0000,0000,0000,,Nemůžu tomu uvěřit ...
+Dialogue: 0,0:08:56.48,0:08:58.26,Default,,0000,0000,0000,,Věř tomu, co vidíš.
+Dialogue: 0,0:08:58.56,0:09:01.64,Default,,0000,0000,0000,,Jinak\NPředpokládej, že jsi se zbláznil.
+Dialogue: 0,0:09:21.33,0:09:23.21,Default,,0000,0000,0000,,C-C Co je to?
+Dialogue: 0,0:09:23.21,0:09:24.99,Default,,0000,0000,0000,,Už můžeš vidět bez pomoci, co?
+Dialogue: 0,0:09:25.53,0:09:27.00,Default,,0000,0000,0000,,Máš dobré instinkty.
+Dialogue: 0,0:09:27.32,0:09:29.38,Default,,0000,0000,0000,,Tento velký kluk je Cu Sith.
+Dialogue: 0,0:09:29.38,0:09:30.73,Default,,0000,0000,0000,,Je to přátelské.
+Dialogue: 0,0:09:32.24,0:09:35.01,Default,,0000,0000,0000,,Všichni mají své vlastní jedinečné názvy,
+Dialogue: 0,0:09:35.01,0:09:37.15,Default,,0000,0000,0000,,ale jsou to, co bys mohl\Nnazívat okultní tvorové.
+Dialogue: 0,0:09:37.15,0:09:39.76,Default,,0000,0000,0000,,Andělé. Ďáblové. Youkai. Víly.
+Dialogue: 0,0:09:40.22,0:09:44.77,Default,,0000,0000,0000,,Máme jména pro všechny tyto nehumální\Ntvory, které používáme v naší práci.
+Dialogue: 0,0:09:45.82,0:09:47.04,Default,,0000,0000,0000,,"Anotanti"
+Dialogue: 0,0:09:48.44,0:09:50.94,Default,,0000,0000,0000,,Huh? Vypadá to, že nemáš strach.
+Dialogue: 0,0:09:51.73,0:09:52.48,Default,,0000,0000,0000,,No...
+Dialogue: 0,0:09:52.98,0:09:55.13,Default,,0000,0000,0000,,Jsem překvapený. Velmi překvapený.
+Dialogue: 0,0:09:55.13,0:09:58.28,Default,,0000,0000,0000,,Jestli je to všechno, pak\NObřadní průchod byl velkým úspěchem.
+Dialogue: 0,0:09:58.64,0:10:01.16,Default,,0000,0000,0000,,Tentokrát máme někoho dobrého, co, Kyouichi?
+Dialogue: 0,0:10:01.41,0:10:03.29,Default,,0000,0000,0000,,Většina po svém prvním průchodu uteče,
+Dialogue: 0,0:10:03.29,0:10:05.64,Default,,0000,0000,0000,,nebo alespoň jejich nohy se o to snaží.
+Dialogue: 0,0:10:05.64,0:10:07.16,Default,,0000,0000,0000,,Ale ty jsi v pohodě, co?
+Dialogue: 0,0:10:07.48,0:10:08.29,Default,,0000,0000,0000,,Um,
+Dialogue: 0,0:10:08.68,0:10:10.67,Default,,0000,0000,0000,,co je tady naše skutečné zaměstnání?
+Dialogue: 0,0:10:11.06,0:10:12.75,Default,,0000,0000,0000,,Udržování vztahů s Anotanty,
+Dialogue: 0,0:10:12.75,0:10:16.55,Default,,0000,0000,0000,,a pokud se dostanou do nějakého\Nproblémy s civilisty,
+Dialogue: 0,0:10:16.85,0:10:18.25,Default,,0000,0000,0000,,tak se o ně postarat.
+Dialogue: 0,0:10:18.62,0:10:22.68,Default,,0000,0000,0000,,To je práce kanceláře pro\NNoční vztahy.
+Dialogue: 0,0:10:22.68,0:10:24.82,Default,,0000,0000,0000,,Naše práce je stejná jako mají státní úředníci.
+Dialogue: 0,0:10:27.13,0:10:27.94,Default,,0000,0000,0000,,Co je špatně?
+Dialogue: 0,0:10:28.32,0:10:29.59,Default,,0000,0000,0000,,Um...
+Dialogue: 0,0:10:30.08,0:10:31.39,Default,,0000,0000,0000,,Jsem trochu znepokojený.
+Dialogue: 0,0:10:31.39,0:10:32.94,Default,,0000,0000,0000,,Neboj.
+Dialogue: 0,0:10:32.94,0:10:34.39,Default,,0000,0000,0000,,Jak jsem právě řekl,
+Dialogue: 0,0:10:34.39,0:10:36.94,Default,,0000,0000,0000,,pokud uvidíš další a zůstaneš klidní\Ntak to budet úžasné.
+Dialogue: 0,0:10:37.16,0:10:38.43,Default,,0000,0000,0000,,Neboj.
+Dialogue: 0,0:10:38.43,0:10:41.98,Default,,0000,0000,0000,,Prostě udělej, co jsem řekl, a\Nzaměř se na věci, které můžeš udělat.
+Dialogue: 0,0:10:41.98,0:10:43.95,Default,,0000,0000,0000,,Zatím nebudeme chtít víc.
+Dialogue: 0,0:10:45.58,0:10:46.45,Default,,0000,0000,0000,,Dobře...
+Dialogue: 0,0:10:46.77,0:10:51.44,Default,,0000,0000,0000,,Vítejte na Shinjuku Ward\NDivize vztahů s komunitami,
+Dialogue: 0,0:10:51.78,0:10:53.08,Default,,0000,0000,0000,,Miyako Arata.
+Dialogue: 0,0:10:57.36,0:10:59.69,Default,,0000,0000,0000,,Promluvme si o našich povinnostech.
+Dialogue: 0,0:11:00.23,0:11:02.92,Default,,0000,0000,0000,,Dnes večer vyšetřujeme\Nnějaké hlasité zvuky
+Dialogue: 0,0:11:02.92,0:11:06.06,Default,,0000,0000,0000,,byly hlášeny Shinjuku\NImperiální zahrady v noci.
+Dialogue: 0,0:11:06.53,0:11:07.50,Default,,0000,0000,0000,,Hlasité zvuky?
+Dialogue: 0,0:11:07.88,0:11:10.29,Default,,0000,0000,0000,,Jo. Nejsou pořádány žádné události,
+Dialogue: 0,0:11:09.77,0:11:12.01,sign_16059_199_March__Imperial_,,0000,0000,0000,,March: Imperial Gardens Noise Complaints Graph
+Dialogue: 0,0:11:10.29,0:11:12.02,Default,,0000,0000,0000,,takže nevíme, odkud\Npřicházejí.
+Dialogue: 0,0:11:12.22,0:11:14.90,Default,,0000,0000,0000,,Poté, když jsme dělali hlídku\Nv okolí této oblasti
+Dialogue: 0,0:11:14.90,0:11:19.51,Default,,0000,0000,0000,,našli jsme stopy dvou typů Anotů\NNa špičce poškozeného stromu se vyskytují další prvky.
+Dialogue: 0,0:11:20.49,0:11:24.19,Default,,0000,0000,0000,,Fyzikální Analýza a\Ndůkazy nás vedou k tomu, abychom věřili
+Dialogue: 0,0:11:24.19,0:11:26.56,Default,,0000,0000,0000,,že příčina hluku byl
+Dialogue: 0,0:11:26.56,0:11:29.14,Default,,0000,0000,0000,,boj o území mezi tengu a anděly.
+Dialogue: 0,0:11:29.99,0:11:32.74,Default,,0000,0000,0000,,Anoti Bojují?
+Dialogue: 0,0:11:32.74,0:11:34.12,Default,,0000,0000,0000,,Jo, bojují.
+Dialogue: 0,0:11:34.12,0:11:37.05,Default,,0000,0000,0000,,{\i1}Iperiální zahrady mají\Nvíce prostoru a zeleně,{\i0}
+Dialogue: 0,0:11:37.05,0:11:39.22,Default,,0000,0000,0000,,takže zde žije více typů Anotantů.
+Dialogue: 0,0:11:39.66,0:11:40.99,Default,,0000,0000,0000,,Takže občas bojují.
+Dialogue: 0,0:11:40.99,0:11:43.80,Default,,0000,0000,0000,,Jak je zastavíme?
+Dialogue: 0,0:11:43.80,0:11:45.20,Default,,0000,0000,0000,,Navlékneme bariéru.
+Dialogue: 0,0:11:45.93,0:11:50.48,Default,,0000,0000,0000,,Podobnými ... talismany a\Nhromadami soli?
+Dialogue: 0,0:11:50.48,0:11:51.89,Default,,0000,0000,0000,,Tamtím.
+Dialogue: 0,0:11:53.25,0:11:54.12,Default,,0000,0000,0000,,Páskou?
+Dialogue: 0,0:11:54.12,0:11:54.94,Default,,0000,0000,0000,,Yup.
+Dialogue: 0,0:11:55.16,0:11:58.85,Default,,0000,0000,0000,,Používá prvek větru a mírně\Nupravuje rozměrovou fázi oblasti.
+Dialogue: 0,0:11:59.33,0:12:02.82,Default,,0000,0000,0000,,To staví docela silnou bariéru\Na může tak blokovat většinu šumu.
+Dialogue: 0,0:12:03.20,0:12:04.71,Default,,0000,0000,0000,,Seo to vyrobil.
+Dialogue: 0,0:12:04.71,0:12:06.36,Default,,0000,0000,0000,,Ostatní oddělení ji také používají.
+Dialogue: 0,0:12:06.74,0:12:09.08,Default,,0000,0000,0000,,Kyouichi, co Sendagaya Gate?
+Dialogue: 0,0:12:09.10,0:12:13.20,sign_17481_223_Shinjuku_Imperia,,0000,0000,0000,,Shinjuku Imperial Gardens
+Dialogue: 0,0:12:09.41,0:12:11.72,Default,,0000,0000,0000,,Už jsem mluvil s\NDivizí Nočních vztahů.
+Dialogue: 0,0:12:12.06,0:12:13.21,Default,,0000,0000,0000,,Jsem si jistý, že se s tím vypořádali.
+Dialogue: 0,0:12:14.24,0:12:16.71,Default,,0000,0000,0000,,Do zahrady se dostanou zevnitř\NShibuya Ward, že?
+Dialogue: 0,0:12:16.71,0:12:17.73,Default,,0000,0000,0000,,Tady.
+Dialogue: 0,0:12:19.05,0:12:19.68,Default,,0000,0000,0000,,Tady máš.
+Dialogue: 0,0:12:20.39,0:12:23.93,Default,,0000,0000,0000,,Rozdělíme se na dvě skupiny a\Nuděláme bariéru touto páskou.
+Dialogue: 0,0:12:24.27,0:12:25.17,Default,,0000,0000,0000,,Uděláš to, že?
+Dialogue: 0,0:12:25.17,0:12:25.72,Default,,0000,0000,0000,,Jo.
+Dialogue: 0,0:12:30.93,0:12:31.91,Default,,0000,0000,0000,,Dobře.
+Dialogue: 0,0:12:32.37,0:12:33.87,Default,,0000,0000,0000,,Zbytek dodělám já.
+Dialogue: 0,0:12:33.87,0:12:35.98,Default,,0000,0000,0000,,Jdi do toho lesa.
+Dialogue: 0,0:12:35.98,0:12:37.98,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:36.45,0:12:39.24,Default,,0000,0000,0000,,Prostě nalep pásku na\Nstromy po levé straně.
+Dialogue: 0,0:12:39.24,0:12:40.23,Default,,0000,0000,0000,,Rozumím.
+Dialogue: 0,0:12:46.60,0:12:49.74,Default,,0000,0000,0000,,Je opravdu v pořádku\Ndělat bariéru?
+Dialogue: 0,0:13:04.70,0:13:09.10,Default,,0000,0000,0000,,Oh, vaše krásná křídla! Má milá Adiel.
+Dialogue: 0,0:13:09.93,0:13:13.19,Default,,0000,0000,0000,,Cítím se tak bezmocně\Nnebýt schopen se s vámi setkat na nějakém lepším místě.
+Dialogue: 0,0:13:13.19,0:13:16.42,Default,Gi,0000,0000,0000,,Ne, dokud jste v bezpečí, Taroubou-sama,
+Dialogue: 0,0:13:16.42,0:13:18.11,Default,Gi,0000,0000,0000,,Je mi jedno, kde se setkáváme.
+Dialogue: 0,0:13:18.76,0:13:21.96,Default,Gu,0000,0000,0000,,Chci s vámi létat \Nna neby
+Dialogue: 0,0:13:21.96,0:13:25.24,Default,Gi,0000,0000,0000,,Já také! Chci s vámi létat navždy!
+Dialogue: 0,0:13:25.48,0:13:26.31,Default,Gu,0000,0000,0000,,Tak pojďme!
+Dialogue: 0,0:13:26.68,0:13:29.14,Default,,0000,0000,0000,,Ostatní nás nikdy nepřijmou.
+Dialogue: 0,0:13:29.48,0:13:30.24,Default,Gu,0000,0000,0000,,Tak pojďme ...
+Dialogue: 0,0:13:30.24,0:13:32.48,Default,gi,0000,0000,0000,,Jsem tak šťastný, Taroubou-sama!
+Dialogue: 0,0:13:34.77,0:13:38.69,Default,gi,0000,0000,0000,,Ale nemůžu opustit svou sestru.
+Dialogue: 0,0:13:39.41,0:13:40.25,Default,Gu,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:13:45.27,0:13:46.58,Default,Gu,0000,0000,0000,,Musím jít.
+Dialogue: 0,0:13:46.93,0:13:48.29,Default,Gi,0000,0000,0000,,Taroubou-sama.
+Dialogue: 0,0:13:49.30,0:13:50.89,Default,Gu,0000,0000,0000,,Ale přemýšlejte o tom.
+Dialogue: 0,0:13:51.31,0:13:52.49,Default,Gu,0000,0000,0000,,O naší budoucnosti.
+Dialogue: 0,0:14:02.22,0:14:03.19,Default,Gu,0000,0000,0000,,Anděl?
+Dialogue: 0,0:14:04.40,0:14:06.28,Default,Gu,0000,0000,0000,,A to byl tengu, že?
+Dialogue: 0,0:14:06.65,0:14:09.75,Default,Gu,0000,0000,0000,,Je vzácné aby ti dva\Nbyli u sebe tak blízko.
+Dialogue: 0,0:14:10.38,0:14:11.71,Default,Gu,0000,0000,0000,,Chápu.
+Dialogue: 0,0:14:11.71,0:14:13.87,Default,Gu,0000,0000,0000,,Bojují spolu, že?
+Dialogue: 0,0:14:14.31,0:14:16.22,Italics,Gu,0000,0000,0000,,Ale ta konverzace ...
+Dialogue: 0,0:14:18.14,0:14:20.04,Default,Gi,0000,0000,0000,,Našla jsem tě, Taroubou!
+Dialogue: 0,0:14:20.38,0:14:24.17,Default,Gi,0000,0000,0000,,Jsem Folciel a vy klamete\Nmoje mladší sestra Adiel!
+Dialogue: 0,0:14:24.38,0:14:26.30,Default,Gi,0000,0000,0000,,Dnes večer tě zničím!
+Dialogue: 0,0:14:26.73,0:14:29.05,Default,Gu,0000,0000,0000,,Folciel-dono, vyslechněte mě.
+Dialogue: 0,0:14:30.86,0:14:32.14,Default,Gi,0000,0000,0000,,Neutečete!
+Dialogue: 0,0:14:36.46,0:14:38.15,Default,Gu,0000,0000,0000,,Drž se dál!
+Dialogue: 0,0:14:38.15,0:14:39.62,Default,Gu,0000,0000,0000,,Otče!
+Dialogue: 0,0:14:39.62,0:14:41.52,Default,Gu,0000,0000,0000,,Drž se vzadu , Taroubou.
+Dialogue: 0,0:14:42.06,0:14:46.07,Default,Gu,0000,0000,0000,,Jak se opovažuješ obvinit syna\NYotsuya Fudoubou z čehokoliv?
+Dialogue: 0,0:14:46.50,0:14:50.95,Default,Gu,0000,0000,0000,,Chystáš se ho unést,\N Nejsi ty? Zname to!
+Dialogue: 0,0:14:54.21,0:14:56.60,Default,Gu,0000,0000,0000,,Doufám, že se oba uklidní ...
+Dialogue: 0,0:15:00.62,0:15:02.88,Default,Gu,0000,0000,0000,,Unáší Adiela! Ty malý...
+Dialogue: 0,0:15:04.56,0:15:06.42,Default,Gu,0000,0000,0000,,O co se snaží?!
+Dialogue: 0,0:15:11.22,0:15:13.01,Default,Gi,0000,0000,0000,,Počkej, Adiel!
+Dialogue: 0,0:15:13.50,0:15:15.59,Default,Gu,0000,0000,0000,,Seo, možná odejdou z parku!
+Dialogue: 0,0:15:16.00,0:15:16.78,Italics,Gu,0000,0000,0000,,Cože?!
+Dialogue: 0,0:15:16.80,0:15:18.28,Default,Gu,0000,0000,0000,,Proč?!
+Dialogue: 0,0:15:18.28,0:15:19.14,Italics,Gu,0000,0000,0000,,Jak to mám vědět!
+Dialogue: 0,0:15:23.61,0:15:26.06,Default,Gu,0000,0000,0000,,Halo, Tady noční\NDivize vztahů .
+Dialogue: 0,0:15:26.06,0:15:26.73,Italics,Gu,0000,0000,0000,,Tady je Sakaki!
+Dialogue: 0,0:15:27.12,0:15:29.80,Default,Gu,0000,0000,0000,,Anotanti v zahradách převádí\Nboj do města.
+Dialogue: 0,0:15:29.80,0:15:30.86,Default,Gu,0000,0000,0000,,Budeme je následovat!
+Dialogue: 0,0:15:31.30,0:15:33.63,Default,Gu,0000,0000,0000,,Díky, Sakaki-kun.
+Dialogue: 0,0:15:39.02,0:15:39.61,Default,Gu,0000,0000,0000,,Ano.
+Dialogue: 0,0:15:40.12,0:15:43.63,Italics,Gu,0000,0000,0000,,Tady je Noční divize\Nvztahů.
+Dialogue: 0,0:15:44.10,0:15:47.35,Italics,Gu,0000,0000,0000,,Někteří z našich zaměstnanců \Npronásledují nějaké Anothery.
+Dialogue: 0,0:15:47.68,0:15:48.51,Default,Gu,0000,0000,0000,,A?
+Dialogue: 0,0:15:48.51,0:15:50.41,Italics,Gu,0000,0000,0000,,Možná budou potřebovat vaši pomoc.
+Dialogue: 0,0:15:50.41,0:15:51.70,Italics,Gu,0000,0000,0000,,Spoléhám na vás.
+Dialogue: 0,0:15:54.89,0:15:56.89,sign_22895_288_Nocturnal_Cultur,,0000,0000,0000,,Divize Noční kultura a životní prostředí
+Dialogue: 0,0:16:00.96,0:16:03.54,Default,Gi,0000,0000,0000,,Adiel, vypadni od toho Tengy!
+Dialogue: 0,0:16:03.54,0:16:05.57,Default,Gi,0000,0000,0000,,Zastav to sestro!
+Dialogue: 0,0:16:05.57,0:16:06.77,Default,Gi,0000,0000,0000,,Takže odmítáš?
+Dialogue: 0,0:16:06.77,0:16:07.94,Default,Gi,0000,0000,0000,,Pak...
+Dialogue: 0,0:16:15.42,0:16:17.41,Default,Gu,0000,0000,0000,,Tohle je tedy příčina stížností na hluk?
+Dialogue: 0,0:16:22.00,0:16:24.00,sign_23545_294_Shinjuku_Station,,0000,0000,0000,,Shinjuku Station
+Dialogue: 0,0:16:27.07,0:16:28.38,Default,Gu,0000,0000,0000,,To je neuvěřitelné.
+Dialogue: 0,0:16:39.16,0:16:41.01,sign_3405_5_April_1st,Gu,0000,0000,0000,,April 1st
+Dialogue: 0,0:16:43.09,0:16:44.05,Default,Gu,0000,0000,0000,,Tady Saki
+Dialogue: 0,0:16:44.05,0:16:44.65,Italics,Gu,0000,0000,0000,,City Hall!
+Dialogue: 0,0:16:44.65,0:16:46.44,Default,Gu,0000,0000,0000,,Lidové náměstí před radnicí!
+Dialogue: 0,0:16:46.44,0:16:49.04,Default,Gu,0000,0000,0000,,Bojují tady!
+Dialogue: 0,0:16:49.04,0:16:49.98,Default,Gu,0000,0000,0000,,Pojď sem!
+Dialogue: 0,0:16:55.57,0:16:57.23,Default,Gu,0000,0000,0000,,Dobře? Jak to vypadá?
+Dialogue: 0,0:16:57.57,0:16:59.55,Default,Gu,0000,0000,0000,,Malé hádky a spoustat vražedných pohledů.
+Dialogue: 0,0:16:59.55,0:17:01.37,Default,Gu,0000,0000,0000,,Tohle může pokračovat až do rána.
+Dialogue: 0,0:17:01.68,0:17:03.18,Default,Gu,0000,0000,0000,,C-Co je to?
+Dialogue: 0,0:17:04.28,0:17:05.37,Default,Gu,0000,0000,0000,,Seo-san...
+Dialogue: 0,0:17:06.30,0:17:09.00,Default,Gu,0000,0000,0000,,Je to opravdu boj o území?
+Dialogue: 0,0:17:09.36,0:17:10.58,Default,Gu,0000,0000,0000,,Sakra, to kdybych věděl!
+Dialogue: 0,0:17:10.58,0:17:13.51,Default,Gu,0000,0000,0000,,Andělé a Tengu se spolu nesnesou\N, takže jsem jen hádal.
+Dialogue: 0,0:17:13.82,0:17:15.60,Default,Gu,0000,0000,0000,,Huh?! Opravdu?!
+Dialogue: 0,0:17:16.12,0:17:18.93,Default,Gu,0000,0000,0000,,Pak ... to nikdo z nich neví?
+Dialogue: 0,0:17:18.93,0:17:19.89,Default,Gu,0000,0000,0000,,Nevíte co?
+Dialogue: 0,0:17:19.89,0:17:22.02,Default,Gu,0000,0000,0000,,Viděl jsem je v parku!
+Dialogue: 0,0:17:22.43,0:17:26.52,Default,Gu,0000,0000,0000,,Taroubou-san a Adiel-san ...\N jsou milenci!
+Dialogue: 0,0:17:28.20,0:17:30.30,Default,Gu,0000,0000,0000,,Kdo?
+Dialogue: 0,0:17:30.59,0:17:32.64,Default,Gu,0000,0000,0000,,Anděl a Tengu.
+Dialogue: 0,0:17:34.15,0:17:37.07,Default,Gu,0000,0000,0000,,Počkej počkej. Tohle vůbec nepobírám.
+Dialogue: 0,0:17:37.07,0:17:38.94,Default,Gu,0000,0000,0000,,Byli těsně vedle sebe, že?
+Dialogue: 0,0:17:38.94,0:17:40.00,Default,Gu,0000,0000,0000,,Jak to můžeš vědět
+Dialogue: 0,0:17:40.29,0:17:41.59,Default,Gu,0000,0000,0000,,Jak? Protože..
+Dialogue: 0,0:17:41.59,0:17:42.45,Default,Gu,0000,0000,0000,,Uteč!Troubo!
+Dialogue: 0,0:17:44.85,0:17:45.67,Default,Gu,0000,0000,0000,,Miyako!
+Dialogue: 0,0:17:46.32,0:17:47.23,Default,Gu,0000,0000,0000,,Jsi v pořádku?
+Dialogue: 0,0:17:47.23,0:17:48.52,Default,Gu,0000,0000,0000,,Ow...
+Dialogue: 0,0:17:48.52,0:17:50.44,Default,Gu,0000,0000,0000,,Jsem vpohodě.
+Dialogue: 0,0:17:52.16,0:17:53.77,Default,Gu,0000,0000,0000,,Takže jsme do toho zapojil člověka?
+Dialogue: 0,0:17:54.22,0:17:55.20,Default,Gu,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:17:55.20,0:17:57.30,Default,Gu,0000,0000,0000,,Chcete s námi bojovat?
+Dialogue: 0,0:17:58.39,0:17:59.35,Default,Gu,0000,0000,0000,,Odpusť jí.
+Dialogue: 0,0:17:59.35,0:18:00.97,Default,Gu,0000,0000,0000,,Nechtěla mu ublížit.
+Dialogue: 0,0:18:01.44,0:18:02.72,Default,Gu,0000,0000,0000,,Anděl je tu taky.
+Dialogue: 0,0:18:03.29,0:18:05.54,Default,Gu,0000,0000,0000,,Nechceme s vámi bojovat!
+Dialogue: 0,0:18:05.54,0:18:07.77,Default,Gu,0000,0000,0000,,Nevzdáte se, co?
+Dialogue: 0,0:18:08.49,0:18:10.25,Default,Gu,0000,0000,0000,,Můžeš se pohnout, Arato?
+Dialogue: 0,0:18:10.57,0:18:13.19,Default,Gu,0000,0000,0000,,Bude me se muset tvrdě bít.
+Dialogue: 0,0:18:13.76,0:18:14.44,Italics,Gu,0000,0000,0000,,Proč?
+Dialogue: 0,0:18:14.74,0:18:16.20,Default,Gu,0000,0000,0000,,Nemusíme na ně jít lehko, že?
+Dialogue: 0,0:18:16.46,0:18:17.81,Default,Gu,0000,0000,0000,,Počkej, my ...
+Dialogue: 0,0:18:17.81,0:18:18.80,Default,Gu,0000,0000,0000,,Chceš bojovat, co ?!
+Dialogue: 0,0:18:18.80,0:18:19.78,Italics,Gu,0000,0000,0000,,Proč?
+Dialogue: 0,0:18:24.22,0:18:25.64,Italics,Gu,0000,0000,0000,,Proč se tohle děje?
+Dialogue: 0,0:18:26.74,0:18:27.21,Default,Gu,0000,0000,0000,,Seo!
+Dialogue: 0,0:18:27.42,0:18:28.18,Default,Gu,0000,0000,0000,,Jo!
+Dialogue: 0,0:18:28.85,0:18:29.63,Italics,Gu,0000,0000,0000,,Žádné z jejich slov
+Dialogue: 0,0:18:30.93,0:18:32.16,Italics,,0000,0000,0000,,se k nim dostává!
+Dialogue: 0,0:18:44.33,0:18:46.68,Default,Gu,0000,0000,0000,,Co to děláš, ty idiote?
+Dialogue: 0,0:18:47.13,0:18:49.84,Default,Gu,0000,0000,0000,,Omluvili se!
+Dialogue: 0,0:18:49.84,0:18:54.82,Default,Gu,0000,0000,0000,,Yotsuya Fudoubou-san a Folciel-san\Noba řekli, že mi nechtěli ublížit!
+Dialogue: 0,0:18:55.11,0:18:57.95,Default,Gu,0000,0000,0000,,Y-Yotsuya Fudoubou?
+Dialogue: 0,0:18:58.31,0:19:00.31,Default,Gu,0000,0000,0000,,Uklidněte se!
+Dialogue: 0,0:19:00.31,0:19:01.82,Default,Gu,0000,0000,0000,,Adiel-san jste v pořádku.
+Dialogue: 0,0:19:02.47,0:19:04.65,Default,Gu,0000,0000,0000,,Co říkáš?
+Dialogue: 0,0:19:05.91,0:19:07.71,Default,Gu,0000,0000,0000,,Neříkej mi ... můžeš s nimi mluvit ?!
+Dialogue: 0,0:19:09.26,0:19:10.37,Default,Gu,0000,0000,0000,,Co myslíš?
+Dialogue: 0,0:19:10.37,0:19:13.74,Default,Gu,0000,0000,0000,,Vy dva nemůžete slyšet, co\Nandělé a tengu říkají?
+Dialogue: 0,0:19:14.38,0:19:16.20,Default,Gu,0000,0000,0000,,Samozřejmně že ne!
+Dialogue: 0,0:19:16.82,0:19:18.60,Default,Gu,0000,0000,0000,,Jsou to Anotheři!
+Dialogue: 0,0:19:18.60,0:19:20.59,Default,Gu,0000,0000,0000,,Jak bychom mohli vědět, co říkají ?!
+Dialogue: 0,0:19:21.10,0:19:24.04,Default,Gu,0000,0000,0000,,Je to stejné, jako kdybych byl schopen\Nmluvit se psem nebo kočkou!
+Dialogue: 0,0:19:24.42,0:19:26.25,Default,Gu,0000,0000,0000,,Kdo je to nové dítě?
+Dialogue: 0,0:19:27.69,0:19:29.73,Default,Gu,0000,0000,0000,,Rozumítš tomu co říkáme?
+Dialogue: 0,0:19:30.11,0:19:32.60,Default,Gu,0000,0000,0000,,Kdo jsi?
+Dialogue: 0,0:19:32.94,0:19:37.23,Default,Gu,0000,0000,0000,,Já jsem jen zaměstnanec\NKancelář Shinjuku Ward ...
+Dialogue: 0,0:19:37.62,0:19:38.61,Default,Gu,0000,0000,0000,,Sestro!
+Dialogue: 0,0:19:42.01,0:19:45.48,sign_3405_5_April_1st,Gu,0000,0000,0000,,April 2nd
+Dialogue: 0,0:19:42.26,0:19:43.66,Default,Gu,0000,0000,0000,,U-U...
+Dialogue: 0,0:19:43.66,0:19:45.49,Default,,0000,0000,0000,,Uprchnout?!
+Dialogue: 0,0:19:48.08,0:19:49.24,Default,Gu,0000,0000,0000,,Anděl?
+Dialogue: 0,0:19:49.24,0:19:50.44,Default,Gu,0000,0000,0000,,A Tengu?
+Dialogue: 0,0:19:50.44,0:19:51.36,Default,Gu,0000,0000,0000,,Tohle je neslýchané!
+Dialogue: 0,0:19:51.36,0:19:52.85,Default,Gu,0000,0000,0000,,Jsou z různých druhů!
+Dialogue: 0,0:19:55.06,0:19:58.21,Default,Gu,0000,0000,0000,,Co se tam děje?
+Dialogue: 0,0:20:00.14,0:20:01.70,Default,Gi,0000,0000,0000,,Sestři...
+Dialogue: 0,0:20:02.34,0:20:04.22,Default,,0000,0000,0000,,Nemůžu tomu uvěřit.
+Dialogue: 0,0:20:04.93,0:20:08.57,Default,Gu,0000,0000,0000,,Myslel jsem, že tvoří nádherný pár.
+Dialogue: 0,0:20:09.63,0:20:13.87,Default,Gu,0000,0000,0000,,A říká se, že není dobré zasahovat\Ndo vztahu někoho jiného.
+Dialogue: 0,0:20:14.17,0:20:14.61,Default,Gu,0000,0000,0000,,Že jo?
+Dialogue: 0,0:20:18.48,0:20:22.36,Default,Gu,0000,0000,0000,,Promluvíme si o tom znovu za pár dní.
+Dialogue: 0,0:20:22.36,0:20:23.24,Default,Gi,0000,0000,0000,,Dohodnuto.
+Dialogue: 0,0:20:25.19,0:20:26.23,Default,Gu,0000,0000,0000,,Co říkali?
+Dialogue: 0,0:20:26.70,0:20:28.79,Default,Gu,0000,0000,0000,,Je konec?
+Dialogue: 0,0:20:30.53,0:20:33.34,Default,Gi,0000,0000,0000,,Ow! Ow! Sestro, to bolí!
+Dialogue: 0,0:20:33.34,0:20:33.74,Default,,0000,0000,0000,,Ticho!
+Dialogue: 0,0:20:35.09,0:20:37.77,Default,Gu,0000,0000,0000,,A teď, mi řekni, co se děje!
+Dialogue: 0,0:20:37.77,0:20:38.63,Default,Gu,0000,0000,0000,,Omlouvám se!
+Dialogue: 0,0:20:45.62,0:20:46.64,Default,Gu,0000,0000,0000,,Taroubou-san?
+Dialogue: 0,0:20:47.46,0:20:49.35,Default,Gu,0000,0000,0000,,Jak se jmenuješ?
+Dialogue: 0,0:20:50.57,0:20:51.40,Default,Gu,0000,0000,0000,,Miyako.
+Dialogue: 0,0:20:51.95,0:20:52.85,Default,,0000,0000,0000,,Miyako Arata.
+Dialogue: 0,0:20:54.78,0:20:55.96,Default,Gu,0000,0000,0000,,Budu si to pamatovat.
+Dialogue: 0,0:21:13.81,0:21:17.61,Default,Gu,0000,0000,0000,,Nakonec jsem vůbec nepochopil\Nco se děje ...
+Dialogue: 0,0:21:18.97,0:21:20.88,Default,Gu,0000,0000,0000,,Vážně, co jsi?
+Dialogue: 0,0:21:22.07,0:21:23.69,Default,Gu,0000,0000,0000,,Já sám nevím!
+Dialogue: 0,0:21:25.56,0:21:27.71,Default,Gu,0000,0000,0000,,Tohle bylo výborně provedeno!
+Dialogue: 0,0:21:28.50,0:21:30.01,Default,Gu,0000,0000,0000,,Další je tu!
+Dialogue: 0,0:21:30.01,0:21:34.14,Default,Gu,0000,0000,0000,,Váš talent pro jazyky\N se nezměnil,
+Dialogue: 0,0:21:34.51,0:21:37.14,Default,,0000,0000,0000,,Abe no Seimei.
+Dialogue: 0,0:21:37.14,0:21:37.90,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:37.90,0:21:40.15,Default,Gu,0000,0000,0000,,Co říká? Přelož to!
+Dialogue: 0,0:21:41.18,0:21:42.62,Default,Gu,0000,0000,0000,,Volá mě ...
+Dialogue: 0,0:21:43.22,0:21:44.39,Default,,0000,0000,0000,,Huh...?
+Dialogue: 0,0:21:44.39,0:21:45.22,Default,Gu,0000,0000,0000,,Co se děje?
+Dialogue: 0,0:21:46.33,0:21:47.38,Default,Gu,0000,0000,0000,,Hej, jsi v pořádku?
+Dialogue: 0,0:21:48.64,0:21:51.47,Default,Gu,0000,0000,0000,,Cítím trochu závratě.
+Dialogue: 0,0:21:52.16,0:21:53.00,Default,Gu,0000,0000,0000,,Um...
+Dialogue: 0,0:21:53.35,0:21:57.52,Default,,0000,0000,0000,,Kdo je Abe ne Seimei?
+Dialogue: 0,0:23:30.07,0:23:35.33,Next_Ep_Title,Gu,0000,0000,0000,,{\fad(1000,1)}#2 "The White Nekomata of Kagurazaka"

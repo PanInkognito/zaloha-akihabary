@@ -1,0 +1,446 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Next Episode,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,80,13,1
+Style: Episode Title,Open Sans Semibold,36,&H003E03A1,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,115,105,0,0,1,3,0,9,27,80,312,1
+Style: sign_5791_61_Shibaki__Kota,Open Sans Semibold,27,&H00467821,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,411,347,333,0
+Style: sign_7013_76_Shibaki__Kota,Open Sans Semibold,27,&H00CCB49B,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,243,509,169,0
+Style: sign_18259_195_Shibaki__Kota,Open Sans Semibold,27,&H008095BC,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,427,309,128,0
+Style: sign_22055_235_Shibaki__Kota,Open Sans Semibold,30,&H00D4A7A1,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,133,517,149,0
+Style: sign_28206_298_Shibaki_Kota,Open Sans Semibold,27,&H00E5C7C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,237,453,267,0
+Style: sign_28610_304_Shibaki_Kota,Open Sans Semibold,27,&H00E5C7C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,227,461,280,0
+Style: sign_29473_313_Shibaki_Kota,Open Sans Semibold,15,&H00E5C7C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,336,424,307,0
+Style: sign_37043_376_Kota,Open Sans Semibold,36,&H001F1C6F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,127,652,372,0
+Style: sign_37652_379_Welcome_Home,Open Sans Semibold,24,&H00838383,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,307,384,447,0
+Style: sign_38064_383_Fire__Hydrant,Open Sans Semibold,30,&H002C64A7,&H000000FF,&H00040044,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,377,372,41,0
+Style: sign_38064_383_Fire_Hydrant,Open Sans Semibold,36,&H006E57D6,&H000000FF,&H00FAFFFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: sign_38687_389_Transfer__Studen,Open Sans Semibold,30,&H00D6EBD5,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,585,107,27,0
+Style: sign_38687_390_Mashimamoji__Rur,Open Sans Semibold,30,&H00D6EBD5,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,113,493,27,0
+Style: sign_38774_391_Cute,Open Sans Semibold,33,&H006837EF,&H000000FF,&H00F2E3FD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,133,389,27,0
+Style: sign_43050_408_Majimoji_Rurumo_,Open Sans Semibold,33,&H009F2E86,&H000000FF,&H00FFF2F8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,187,40,0
+Style: conclusion,Open Sans Semibold,27,&H00972A80,&H000000FF,&H00FAFDF7,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,13,187,87,0
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:09.26,0:00:12.15,Main Dialogue,HARURIRI,0000,0000,0000,,Duchovní svět je hierarchická společnost.
+Dialogue: 0,0:00:12.62,0:00:15.22,Main Dialogue,HARURIRI,0000,0000,0000,,Čarodějky vládnou nad obyčejnými lidmi,
+Dialogue: 0,0:00:15.22,0:00:20.10,Main Dialogue,,0000,0000,0000,,zatímco samotné čarodějky jsou striktně organizovány do 13 hodností.
+Dialogue: 0,0:00:20.95,0:00:26.00,Main Dialogue,HARURIRI,0000,0000,0000,,Na vrcholu systému je Královna čarodějnic.
+Dialogue: 0,0:00:26.62,0:00:31.43,Main Dialogue,HARURIRI,0000,0000,0000,,Nikdo nikdy neviděl absolutního panovníka, který vládne duchovnímu světu.
+Dialogue: 0,0:00:32.46,0:00:35.06,Main Dialogue,HARURIRI,0000,0000,0000,,Podle vůle Královny čarodějnic,
+Dialogue: 0,0:00:35.06,0:00:39.72,Main Dialogue,,0000,0000,0000,,správní úřad Duchovního světa dělá veškerá opatření.
+Dialogue: 0,0:00:40.84,0:00:46.02,Main Dialogue,HARURIRI,0000,0000,0000,,Hluboko pod správním úřadem je obrovský tajný prostor.
+Dialogue: 0,0:00:46.97,0:00:49.66,Main Dialogue,HARURIRI,0000,0000,0000,,Je tam komora duševních krystalů.
+Dialogue: 0,0:00:50.20,0:00:52.74,Main Dialogue,HARURIRI,0000,0000,0000,,Stráže tam transportují krystaly.
+Dialogue: 0,0:00:53.16,0:00:59.64,Main Dialogue,HARURIRI,0000,0000,0000,,Krystaly, které se tam berou, jsou přísně řízeny čarodějkami zvanými „Strážci duševních krystalů“
+Dialogue: 0,0:01:00.44,0:01:03.93,Main Dialogue,HARURIRI,0000,0000,0000,,v trezoru známé jako zeď duší.
+Dialogue: 0,0:01:04.68,0:01:07.58,Main Dialogue,MIMILMIA,0000,0000,0000,Vítejte. Tak se podívejme...
+Dialogue: 0,0:01:08.11,0:01:11.29,Main Dialogue,MIMILMIA,0000,0000,0000,,Duševní krystal "Avent Savon"...
+Dialogue: 0,0:01:12.26,0:01:15.22,Main Dialogue,MIMILMIA,0000,0000,0000,,Vložte do boxu 15180.
+Dialogue: 0,0:01:19.96,0:01:22.31,Flashback Dialogue,HARURIRI,0000,0000,0000,,Možná ještě není pozdě.
+Dialogue: 0,0:01:23.35,0:01:26.31,Flashback Dialogue,HARURIRI,0000,0000,0000,,Ale pokud půjdeš, půjdu s tebou.
+Dialogue: 0,0:01:26.86,0:01:31.04,Flashback Dialogue,HARURIRI,0000,0000,0000,,Stejně jako já, strážci duševních krystalů jsou čarodějky na hodností 1.
+Dialogue: 0,0:01:31.88,0:01:33.53,Flashback Dialogue,RURUMO,0000,0000,0000,,Čarodějky s hodností 1...
+Dialogue: 0,0:01:33.87,0:01:37.61,Flashback Dialogue,HARURIRI,0000,0000,0000,,To je správně. Elita mezi elity.
+Dialogue: 0,0:01:38.18,0:01:43.16,Flashback Dialogue,HARURIRI,0000,0000,0000,,A pokud byli pověřeni správou duševných krystalů, musí být silné.
+Dialogue: 0,0:01:44.49,0:01:49.26,Flashback Dialogue,HARURIRI,0000,0000,0000,,V každém případě, pokud vás najdou, nebudete mít proti nim šanci.
+Dialogue: 0,0:01:49.79,0:01:51.90,Flashback Dialogue,HARURIRI,0000,0000,0000,,Rozumíš? Je to slib.
+Dialogue: 0,0:01:54.32,0:01:55.34,Flashback Dialogue,RURUMO,0000,0000,0000,,Dobře.
+Dialogue: 0,0:01:56.00,0:01:58.02,Flashback Dialogue,HARURIRI,0000,0000,0000,,Zaváhala jsi...
+Dialogue: 0,0:02:00.84,0:02:04.34,Main Dialogue,CHIRO,0000,0000,0000,,Jsem ohromená, že jsi porušila svůj slib Haruriri.
+Dialogue: 0,0:02:04.34,0:02:06.33,Main Dialogue,RURUMO,0000,0000,0000,,To je můj problém.
+Dialogue: 0,0:02:06.83,0:02:09.29,Main Dialogue,RURUMO,0000,0000,0000,,Nemůžu nechat zapojit Haruriri.
+Dialogue: 0,0:02:09.71,0:02:13.61,Main Dialogue,CHIRO,0000,0000,0000,,Tak to je zeď Duševních krystalů, eh?
+Dialogue: 0,0:02:14.00,0:02:17.03,Main Dialogue,CHIRO,0000,0000,0000,,Jak tam máme najít blbův krystal?
+Dialogue: 0,0:02:17.03,0:02:17.61,Main Dialogue,MIMILMIA,0000,0000,0000,,Kdo je tam?
+Dialogue: 0,0:02:19.43,0:02:21.57,Main Dialogue,SILLIA,0000,0000,0000,,Je čas na změnu směny, Mimilmia.
+Dialogue: 0,0:02:22.06,0:02:25.08,Main Dialogue,MIMILMIA,0000,0000,0000,,Oh, Sil-chan. Už?
+Dialogue: 0,0:02:25.65,0:02:27.28,Main Dialogue,SILLIA,0000,0000,0000,,Neříkej mi přezdívkou.
+Dialogue: 0,0:02:27.28,0:02:30.21,Main Dialogue,SILLIA,0000,0000,0000,,Moje jméno Sillia Saland Alphoa.
+Dialogue: 0,0:02:30.60,0:02:34.17,Main Dialogue,CHIRO,0000,0000,0000,,To mě vyděsilo. I přesto, že si nás všimla.
+Dialogue: 0,0:02:34.74,0:02:36.08,Main Dialogue,SILLIA,0000,0000,0000,,Nějaká práce na předání?
+Dialogue: 0,0:02:36.50,0:02:38.02,Main Dialogue,MIMILMIA,0000,0000,0000,,Nijak zvlášť.
+Dialogue: 0,0:02:38.50,0:02:39.68,Main Dialogue,MIMILMIA,0000,0000,0000,,Oh, správně.
+Dialogue: 0,0:02:40.39,0:02:42.68,Main Dialogue,MIMILMIA,0000,0000,0000,,Pozor na zelený duševný krystal.
+Dialogue: 0,0:02:43.12,0:02:46.59,Main Dialogue,MIMILMIA,0000,0000,0000,,Je v boxu 15049.
+Dialogue: 0,0:02:46.59,0:02:48.31,Main Dialogue,SILLIA,0000,0000,0000,,Je s tím něco špatného?
+Dialogue: 0,0:02:49.10,0:02:50.81,Main Dialogue,MIMILMIA,0000,0000,0000,,No...
+Dialogue: 0,0:02:52.35,0:02:55.65,Flashback Dialogue,MIMILMIA,0000,0000,0000,,Co se děje s tím krystalem? Sám od sebe se pohybuje.
+Dialogue: 0,0:02:55.65,0:02:57.11,Flashback Dialogue,MIMILMIA,0000,0000,0000,,Jak neobvyklé.
+Dialogue: 0,0:02:58.94,0:02:59.82,Flashback Dialogue,MIMILMIA,0000,0000,0000,,Co?!
+Dialogue: 0,0:03:01.85,0:03:04.17,Flashback Dialogue,MIMILMIA,0000,0000,0000,,Přesouvá se mi z hrudníku na můj zadku!
+Dialogue: 0,0:03:04.17,0:03:06.79,Flashback Dialogue,MIMILMIA,0000,0000,0000,,Co je to? Nééé!
+Dialogue: 0,0:03:07.04,0:03:08.50,Main Dialogue,MIMILMIA,0000,0000,0000,,Je velmi perverzní!
+Dialogue: 0,0:03:08.71,0:03:10.33,Main Dialogue,BOTH,0000,0000,0000,,To je on!
+Dialogue: 0,0:03:12.18,0:03:17.22,Main Dialogue,RURUMO,0000,0000,0000,,15049... Kotův duševní krystal.
+Dialogue: 0,0:03:17.62,0:03:18.52,Main Dialogue,CHIRO,0000,0000,0000,,Rurumo!
+Dialogue: 0,0:03:19.60,0:03:20.58,Main Dialogue,CHIRO,0000,0000,0000,,Tudy!
+Dialogue: 0,0:03:26.24,0:03:27.68,Main Dialogue,RURUMO,0000,0000,0000,,Je někde tady.
+Dialogue: 0,0:03:33.87,0:03:37.17,Main Dialogue,CHIRO,0000,0000,0000,,Počkej! Nech mě to udělat.
+Dialogue: 0,0:03:37.17,0:03:40.07,Main Dialogue,CHIRO,0000,0000,0000,,Je čas porušit svou legálně vydanou transformační licenci!
+Dialogue: 0,0:03:44.76,0:03:46.20,Main Dialogue,CHIRO,0000,0000,0000,,Pojďme se podívat,...
+Dialogue: 0,0:03:48.19,0:03:51.81,Main Dialogue,CHIRO,0000,0000,0000,,15049. našla jsem ho!
+Dialogue: 0,0:03:55.18,0:03:56.92,Main Dialogue,CHIRO,0000,0000,0000,,Dobře! To je on!
+Dialogue: 0,0:04:02.07,0:04:03.43,sign_5791_61_Shibaki__Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:04:05.77,0:04:06.82,Main Dialogue,RURUMO,0000,0000,0000,,Kota...
+Dialogue: 0,0:04:10.82,0:04:13.23,Main Dialogue,GUARD,0000,0000,0000,,Objevil se narušitel.
+Dialogue: 0,0:04:13.68,0:04:16.55,Main Dialogue,CHIRO,0000,0000,0000,,Jejda! Strážný nás objevily!
+Dialogue: 0,0:04:16.55,0:04:18.15,Main Dialogue,CHIRO,0000,0000,0000,,Rurumo, Musíme běžet!
+Dialogue: 0,0:04:19.60,0:04:21.40,Main Dialogue,RURUMO,0000,0000,0000,,Co to děláš? Vrať mi ho zpátky!
+Dialogue: 0,0:04:21.92,0:04:23.34,Main Dialogue,RURUMO,0000,0000,0000,,Elzstar!
+Dialogue: 0,0:04:30.04,0:04:30.91,Main Dialogue,RURUMO,0000,0000,0000,,Ochránila jsem ho.
+Dialogue: 0,0:04:31.93,0:04:33.09,Main Dialogue,RURUMO,0000,0000,0000,,Jdeme, Chiro.
+Dialogue: 0,0:04:33.09,0:04:36.54,Main Dialogue,CHIRO,0000,0000,0000,,Rurumo, když budeš dělat tolik hluku...
+Dialogue: 0,0:04:38.35,0:04:42.14,Main Dialogue,CHIRO,0000,0000,0000,,Strážci duševních krystalů nás určitě najdou.
+Dialogue: 0,0:04:42.14,0:04:45.30,Main Dialogue,MIMILMIA,0000,0000,0000,,Mý rozkošný vetřelci.
+Dialogue: 0,0:04:45.61,0:04:47.85,Main Dialogue,SILLIA,0000,0000,0000,,Jak se o tomto místě dozvěděla nízko postavená čarodějka?
+Dialogue: 0,0:04:48.14,0:04:50.35,Main Dialogue,SILLIA,0000,0000,0000,,Měly by to vědět pouze čarodějky na hodnosti 1.
+Dialogue: 0,0:04:50.72,0:04:52.47,Main Dialogue,SILLIA,0000,0000,0000,,Kdo jste? Identifikujte se.
+Dialogue: 0,0:04:52.47,0:04:54.23,sign_7013_76_Shibaki__Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:04:53.44,0:04:56.34,Main Dialogue,RURUMO,0000,0000,0000,,Nikoho nenechám vzít Kotu.
+Dialogue: 0,0:04:56.34,0:04:58.86,Main Dialogue,CHIRO,0000,0000,0000,,Nemůžeme porazit čarodějky na hodnosti 1!
+Dialogue: 0,0:04:58.86,0:04:59.36,Main Dialogue,RURUMO,0000,0000,0000,,Dei—
+Dialogue: 0,0:04:59.36,0:05:01.49,Main Dialogue,CHIRO,0000,0000,0000,,Ustupujem!
+Dialogue: 0,0:05:01.49,0:05:06.36,Main Dialogue,MIMILMIA,0000,0000,0000,,Myslíte si, že od nás můžete utéct?
+Dialogue: 0,0:05:12.70,0:05:14.71,Main Dialogue,MIMILMIA,0000,0000,0000,,Teď se vzdejte.
+Dialogue: 0,0:05:15.03,0:05:16.17,Main Dialogue,HARURIRI,0000,0000,0000,,Magie, aktivovat!
+Dialogue: 0,0:05:16.90,0:05:18.13,Main Dialogue,HARURIRI,0000,0000,0000,,Deimel!
+Dialogue: 0,0:05:20.54,0:05:21.46,Main Dialogue,RURUMO,0000,0000,0000,,Haruriri...
+Dialogue: 0,0:05:21.99,0:05:24.59,Main Dialogue,HARURIRI,0000,0000,0000,,Rurumo vždy jedná neohrabaně.
+Dialogue: 0,0:05:25.18,0:05:27.07,Main Dialogue,HARURIRI,0000,0000,0000,,Musí být pečlivě sledována.
+Dialogue: 0,0:05:27.70,0:05:30.55,Main Dialogue,HARURIRI,0000,0000,0000,,Měla jsi pravdu, Mimi.
+Dialogue: 0,0:05:32.72,0:05:35.53,Main Dialogue,MIMILMIA,0000,0000,0000,,Oh, můj. Zajímalo by mě, kdo to byl.
+Dialogue: 0,0:05:35.53,0:05:37.58,Main Dialogue,MIMILMIA,0000,0000,0000,,To jsi ty, Haruriri-chan.
+Dialogue: 0,0:05:38.48,0:05:41.72,Main Dialogue,SILLIA,0000,0000,0000,,Ta to čarodějka s nízkou hodností je tvou spojenkyní?
+Dialogue: 0,0:05:41.72,0:05:46.06,Main Dialogue,HARURIRI,0000,0000,0000,,Vím, že je to proti pravidlům, Sillia a Mimilmia.
+Dialogue: 0,0:05:46.06,0:05:49.30,Main Dialogue,HARURIRI,0000,0000,0000,,Ale žádám, abyste mě poslouchaly.
+Dialogue: 0,0:05:50.10,0:05:52.37,Main Dialogue,HARURIRI,0000,0000,0000,,Tenhle duševní krystal je její—
+Dialogue: 0,0:05:52.37,0:05:53.24,Main Dialogue,HARURIRI,0000,0000,0000,,Dalpha!
+Dialogue: 0,0:05:57.17,0:05:58.08,Main Dialogue,SILLIA,0000,0000,0000,,Molto!
+Dialogue: 0,0:06:05.47,0:06:06.26,Main Dialogue,SILLIA,0000,0000,0000,,Neutečeš.
+Dialogue: 0,0:06:06.86,0:06:08.13,Main Dialogue,SILLIA,0000,0000,0000,,Frizel!
+Dialogue: 0,0:06:08.88,0:06:10.03,Main Dialogue,HARURIRI,0000,0000,0000,,Za to, že křičí nahlas!
+Dialogue: 0,0:06:10.03,0:06:14.45,Main Dialogue,HARURIRI,0000,0000,0000,,Nemůžeš něco udělat s tím, že děláš všechno sáma?
+Dialogue: 0,0:06:14.45,0:06:16.64,Main Dialogue,HARURIRI,0000,0000,0000,,Tohle je nejhorší možný výsledek!
+Dialogue: 0,0:06:17.02,0:06:18.16,Main Dialogue,RURUMO,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:06:18.16,0:06:21.29,Main Dialogue,HARURIRI,0000,0000,0000,,Plánuješ to vzít s sebou ven?
+Dialogue: 0,0:06:21.29,0:06:25.11,Main Dialogue,RURUMO,0000,0000,0000,,Ještě jsem Kotovi nepoděkovala přímo.
+Dialogue: 0,0:06:26.13,0:06:30.36,Main Dialogue,HARURIRI,0000,0000,0000,,Jsi opravdu svědomitá!
+Dialogue: 0,0:06:30.72,0:06:32.52,Main Dialogue,HARURIRI,0000,0000,0000,,Kouzlo prostorového připojení?
+Dialogue: 0,0:06:32.52,0:06:35.77,Main Dialogue,HARURIRI,0000,0000,0000,,Dávej pozor! Pokud vás ta ruka chytí, skončily jste!
+Dialogue: 0,0:06:36.64,0:06:37.63,Italics Dialogue,RURUMO,0000,0000,0000,,Kota...
+Dialogue: 0,0:06:37.63,0:06:39.29,Main Dialogue,CHIRO,0000,0000,0000,,Skončili jsme!
+Dialogue: 0,0:06:39.29,0:06:40.26,Main Dialogue,HARURIRI,0000,0000,0000,,To není dobré!
+Dialogue: 0,0:06:40.26,0:06:44.13,Main Dialogue,HARURIRI,0000,0000,0000,,Jsme obklopeni zdí papírové magie!
+Dialogue: 0,0:06:44.39,0:06:45.88,Main Dialogue,CHIRO,0000,0000,0000,,Podívejte se před námi!
+Dialogue: 0,0:06:46.52,0:06:49.26,Main Dialogue,MIMILMIA,0000,0000,0000,,Hned, přestaňte vzdorovat.
+Dialogue: 0,0:06:49.26,0:06:50.34,Main Dialogue,HARURIRI,0000,0000,0000,,Porazili nás?
+Dialogue: 0,0:06:50.77,0:06:52.85,Main Dialogue,HARURIRI,0000,0000,0000,,Ale my spustíme stonásobnou magii—
+Dialogue: 0,0:06:54.80,0:06:56.14,Main Dialogue,CHIRO,0000,0000,0000,,Oh, ne!
+Dialogue: 0,0:06:56.92,0:06:58.57,Main Dialogue,SILLIA,0000,0000,0000,,Teď pojďte tiše.
+Dialogue: 0,0:06:59.08,0:07:02.06,Main Dialogue,MIMILMIA,0000,0000,0000,,Nepodceňujte strážce duševních krystalů.
+Dialogue: 0,0:07:03.35,0:07:05.25,Main Dialogue,HARURIRI,0000,0000,0000,,Nepodceňovaly jsme vás.
+Dialogue: 0,0:07:05.77,0:07:08.14,Main Dialogue,HARURIRI,0000,0000,0000,,Jste strážci duševních krystalů.
+Dialogue: 0,0:07:09.63,0:07:12.45,Main Dialogue,HARURIRI,0000,0000,0000,,Opravdu sis myslela, že jsem si pro vás nic nepřipravila?
+Dialogue: 0,0:07:13.84,0:07:17.54,Main Dialogue,SILLIA,0000,0000,0000,,Použila replikační magii, aby vytvořila vojáky.
+Dialogue: 0,0:07:17.54,0:07:18.95,Main Dialogue,MIMILMIA,0000,0000,0000,,To nené špatné.
+Dialogue: 0,0:07:19.44,0:07:21.12,Main Dialogue,HARURIRI,0000,0000,0000,,Do toho!
+Dialogue: 0,0:07:26.73,0:07:28.25,Main Dialogue,SILLIA,0000,0000,0000,,Questbazd!
+Dialogue: 0,0:07:31.21,0:07:34.76,Main Dialogue,HARURIRI,0000,0000,0000,,Zastavila jeho pohyby pomocí časového mrazivého kouzla?
+Dialogue: 0,0:07:35.04,0:07:37.92,Main Dialogue,MIMILMIA,0000,0000,0000,,Přála bych si, abych tě mohla pochválit za připravenost,
+Dialogue: 0,0:07:37.92,0:07:41.77,Main Dialogue,,0000,0000,0000,,ale tato magie není dost silná, aby proti nám zapůsobila.
+Dialogue: 0,0:07:41.96,0:07:43.14,Main Dialogue,HARURIRI,0000,0000,0000,,Ještě jsem neskončila!
+Dialogue: 0,0:07:49.06,0:07:50.49,Main Dialogue,SILLIA,0000,0000,0000,,Udělala jsi dva?
+Dialogue: 0,0:07:50.73,0:07:52.49,Main Dialogue,SILLIA,0000,0000,0000,,To musí stát hodně magické energie.
+Dialogue: 0,0:07:54.28,0:07:56.99,Main Dialogue,SILLIA,0000,0000,0000,,Ale postrádáte dovednosti. Questbazd!
+Dialogue: 0,0:07:56.99,0:07:57.99,Main Dialogue,HARURIRI,0000,0000,0000,,Mikobalza!
+Dialogue: 0,0:08:01.54,0:08:03.18,Italics Dialogue,SILLIA,0000,0000,0000,,Protikouzlo?
+Dialogue: 0,0:08:03.18,0:08:07.29,Italics Dialogue,MIMILMIA,0000,0000,0000,,Udělala dva vojáky, aby mohla použít tohle,
+Dialogue: 0,0:08:07.62,0:08:09.85,Italics Dialogue,MIMILMIA,0000,0000,0000,,Vědět, že by seslala stejné kouzlo?
+Dialogue: 0,0:08:18.42,0:08:19.88,Main Dialogue,HARURIRI,0000,0000,0000,,Jak to jde?
+Dialogue: 0,0:08:27.52,0:08:29.19,Italics Dialogue,SILLIA,0000,0000,0000,,To není konec.
+Dialogue: 0,0:08:30.28,0:08:32.36,Italics Dialogue,SILLIA,0000,0000,0000,,Víme, kdo jste.
+Dialogue: 0,0:08:32.81,0:08:36.16,Italics Dialogue,SILLIA,0000,0000,0000,,Jakmile to kouzlo odezní, chytneme tě.
+Dialogue: 0,0:08:37.31,0:08:38.41,Main Dialogue,RURUMO,0000,0000,0000,,Zaltoa.
+Dialogue: 0,0:08:43.63,0:08:44.79,Main Dialogue,RURUMO,0000,0000,0000,,Vymazala jsem jejich vzpomínky.
+Dialogue: 0,0:08:45.67,0:08:48.30,Main Dialogue,HARURIRI,0000,0000,0000,,Obvykle jsi zapoměntlivá. To není špatné.
+Dialogue: 0,0:08:50.94,0:08:52.82,Main Dialogue,RURUMO,0000,0000,0000,,Vzpomněla jsem si, protože jsem ho použila na
+Dialogue: 0,0:08:52.82,0:08:56.53,Main Dialogue,,0000,0000,0000,,všechny lidi na zemi, než jsem se vrátila do duchovního světa.
+Dialogue: 0,0:09:13.65,0:09:16.91,Main Dialogue,RURUMO,0000,0000,0000,,Je dobré tě zase vidět, Shibaki Kota.
+Dialogue: 0,0:09:18.31,0:09:20.78,Main Dialogue,RURUMO,0000,0000,0000,,Musím ti něco říct.
+Dialogue: 0,0:09:21.84,0:09:24.37,Main Dialogue,RURUMO,0000,0000,0000,,Odpověz mi, Kota.
+Dialogue: 0,0:09:25.56,0:09:26.25,Main Dialogue,RURUMO,0000,0000,0000,,Kota...
+Dialogue: 0,0:09:27.30,0:09:33.88,Main Dialogue,HARURIRI,0000,0000,0000,,I když je tam stále, duševní krystal nemůže slyšet ani mluvit.
+Dialogue: 0,0:09:37.49,0:09:40.86,Main Dialogue,MIMI,0000,0000,0000,,Legálně vydaná transformační licence!
+Dialogue: 0,0:09:45.60,0:09:47.12,Main Dialogue,CHIRO,0000,0000,0000,,Jé člověk Mimi.
+Dialogue: 0,0:09:48.47,0:09:51.11,Main Dialogue,MIMI,0000,0000,0000,,Já to zvládnu!
+Dialogue: 0,0:09:53.21,0:09:55.86,Main Dialogue,MIMI,0000,0000,0000,,Myslela jsem, že se to může stát.
+Dialogue: 0,0:09:56.90,0:10:00.32,Main Dialogue,MIMI,0000,0000,0000,,Po četných prototypech je konečně dokončeno.
+Dialogue: 0,0:10:01.15,0:10:05.09,Main Dialogue,MIMI,0000,0000,0000,,Říkám tomu duševní krystalová nitrobřišní loutka!
+Dialogue: 0,0:10:06.18,0:10:08.75,Main Dialogue,RURUMO,0000,0000,0000,,Duševní krystalová... nitrobřišní...?
+Dialogue: 0,0:10:09.14,0:10:12.62,Main Dialogue,HARURIRI,0000,0000,0000,,Mimi, kdy jsi to postavila?
+Dialogue: 0,0:10:12.62,0:10:15.42,Main Dialogue,MIMI,0000,0000,0000,,To je dlouhý příběh.
+Dialogue: 0,0:10:19.35,0:10:21.26,Main Dialogue,MIMI,0000,0000,0000,,Pravda je, že tenkrát...
+Dialogue: 0,0:10:22.09,0:10:23.36,Main Dialogue,MIMI,0000,0000,0000,,Já...
+Dialogue: 0,0:10:24.27,0:10:27.56,Main Dialogue,MIMI,0000,0000,0000,,Zamilovala jsem se do tohoto muže!
+Dialogue: 0,0:10:27.56,0:10:29.54,Main Dialogue,BOTH,0000,0000,0000,,Cože?!
+Dialogue: 0,0:10:29.54,0:10:31.90,Main Dialogue,CHIRO,0000,0000,0000,,Počkej, to je fakt krátký příběh!
+Dialogue: 0,0:10:31.90,0:10:34.29,Main Dialogue,HARURIRI,0000,0000,0000,,Rozbiješ to!
+Dialogue: 0,0:10:34.70,0:10:38.86,Main Dialogue,RURUMO,0000,0000,0000,,Můžeme si promluvit s Kotou, pokud vložíme jeho duševní krystal dovnitř loutky?
+Dialogue: 0,0:10:39.49,0:10:41.57,Main Dialogue,MIMI,0000,0000,0000,,Teoreticky ano.
+Dialogue: 0,0:10:42.11,0:10:47.08,Main Dialogue,MIMI,0000,0000,0000,,Ještě jsem ho nepoužila, ale dáme mu šanci.
+Dialogue: 0,0:11:02.43,0:11:05.31,Main Dialogue,RURUMO,0000,0000,0000,,Slyšíš mě, Shibaki Kota?
+Dialogue: 0,0:11:07.61,0:11:09.54,Main Dialogue,DOLL,0000,0000,0000,,Rurumo?
+Dialogue: 0,0:11:10.51,0:11:12.23,Main Dialogue,RURUMO,0000,0000,0000,,Ano, to jsem já.
+Dialogue: 0,0:11:12.93,0:11:14.19,Main Dialogue,RURUMO,0000,0000,0000,,Jsem Rurumo, Kota.
+Dialogue: 0,0:11:14.90,0:11:17.90,Main Dialogue,RURUMO,0000,0000,0000,,Podívej. Stojím přímo před tebou.
+Dialogue: 0,0:11:18.15,0:11:19.65,Main Dialogue,RURUMO,0000,0000,0000,,Otevři oči.
+Dialogue: 0,0:11:20.22,0:11:23.53,Main Dialogue,RURUMO,0000,0000,0000,,Podívej... Podívej se na mě.
+Dialogue: 0,0:11:24.60,0:11:25.74,Main Dialogue,DOLL,0000,0000,0000,,Neotevírají se.
+Dialogue: 0,0:11:26.77,0:11:28.82,Main Dialogue,RURUMO,0000,0000,0000,,Držím tě za ruku.
+Dialogue: 0,0:11:29.25,0:11:30.50,Main Dialogue,RURUMO,0000,0000,0000,,Cítíš to?
+Dialogue: 0,0:11:32.02,0:11:33.21,Main Dialogue,DOLL,0000,0000,0000,,Ne.
+Dialogue: 0,0:11:33.77,0:11:38.38,Main Dialogue,RURUMO,0000,0000,0000,,To je v pořádku. Pokud mě slyšíš.
+Dialogue: 0,0:11:39.58,0:11:43.39,Main Dialogue,RURUMO,0000,0000,0000,,Kota, Díky tobě jsem se stala čarodějkou.
+Dialogue: 0,0:11:45.44,0:11:46.39,Main Dialogue,RURUMO,0000,0000,0000,,Děkuju ti.
+Dialogue: 0,0:11:48.84,0:11:50.14,Main Dialogue,RURUMO,0000,0000,0000,,Konečně jsem ti to řekla.
+Dialogue: 0,0:11:51.54,0:11:58.36,Main Dialogue,DOLL,0000,0000,0000,,Taky ti chci něco říct.
+Dialogue: 0,0:11:58.92,0:12:01.03,Main Dialogue,RURUMO,0000,0000,0000,,Co to je? Řekni mi to.
+Dialogue: 0,0:12:05.12,0:12:06.24,Main Dialogue,RURUMO,0000,0000,0000,,Kota?
+Dialogue: 0,0:12:06.62,0:12:08.99,Main Dialogue,MIMI,0000,0000,0000,,Vypadá to, že dosáhl svého limitu.
+Dialogue: 0,0:12:09.41,0:12:11.70,Main Dialogue,MIMI,0000,0000,0000,,Budu muset udělat víc vylepšení.
+Dialogue: 0,0:12:17.82,0:12:18.94,Main Dialogue,RURUMO,0000,0000,0000,,Děkuju.
+Dialogue: 0,0:12:22.20,0:12:23.18,Main Dialogue,HARURIRI,0000,0000,0000,,Zadrž, Rurumo.
+Dialogue: 0,0:12:23.36,0:12:24.91,Main Dialogue,HARURIRI,0000,0000,0000,,Kam jdeš?
+Dialogue: 0,0:12:27.57,0:12:28.72,Main Dialogue,RURUMO,0000,0000,0000,,Do komnat duševních krystalů.
+Dialogue: 0,0:12:29.01,0:12:30.78,Main Dialogue,HARURIRI,0000,0000,0000,,Myslíš...
+Dialogue: 0,0:12:30.78,0:12:33.02,Main Dialogue,CHIRO,0000,0000,0000,,Vrátít ho?
+Dialogue: 0,0:12:33.02,0:12:36.93,Main Dialogue,HARURIRI,0000,0000,0000,,Ale vymazala jsi vzpomínky Strážcům duší.
+Dialogue: 0,0:12:37.95,0:12:41.53,Main Dialogue,RURUMO,0000,0000,0000,,Nakonec to zmizí. Budou si pamatovat všechno.
+Dialogue: 0,0:12:41.53,0:12:45.68,sign_18259_195_Shibaki__Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:12:42.54,0:12:48.64,Main Dialogue,RURUMO,0000,0000,0000,,Nejprve na ně uvrhnu zkreslovací kouzlo, takže si budou myslet, že jsem jednala sáma.
+Dialogue: 0,0:12:48.64,0:12:49.74,Main Dialogue,HARURIRI,0000,0000,0000,,Zadrž!
+Dialogue: 0,0:12:50.10,0:12:53.15,Main Dialogue,HARURIRI,0000,0000,0000,,Snažíš se to udělat znovu sáma.
+Dialogue: 0,0:12:53.15,0:12:55.31,Main Dialogue,HARURIRI,0000,0000,0000,,Já jsem ta, kdo přinesla duševní krystal,
+Dialogue: 0,0:12:55.98,0:13:00.06,Main Dialogue,HARURIRI,0000,0000,0000,,A nakonec jsme ho sem přivezli poté, co jsme si naplánovali, že se na to jen podíváme.
+Dialogue: 0,0:13:00.06,0:13:04.44,Main Dialogue,HARURIRI,0000,0000,0000,,Pokud se tam vrátíš, nemusíš vyjít s pouhým plácnutím přes prsty.
+Dialogue: 0,0:13:04.44,0:13:06.42,Main Dialogue,HARURIRI,0000,0000,0000,,Mohla bys být dokonce uvězněn—
+Dialogue: 0,0:13:07.93,0:13:08.97,Main Dialogue,RURUMO,0000,0000,0000,,Jsem na to zvyklá.
+Dialogue: 0,0:13:09.95,0:13:13.82,Main Dialogue,RURUMO,0000,0000,0000,,Než jsem sestoupila na Zemi, byla jsem uvězněna na 60 let.
+Dialogue: 0,0:13:14.29,0:13:19.22,Main Dialogue,RURUMO,0000,0000,0000,,Nyní, když jsem opět čarodějkou, nemusí být špatné začít opětovným uvězněním.
+Dialogue: 0,0:13:19.55,0:13:20.40,Main Dialogue,HARURIRI,0000,0000,0000,,Rurumo...
+Dialogue: 0,0:13:21.14,0:13:24.40,Main Dialogue,RURUMO,0000,0000,0000,,Už jsem vyřešila záležitosti ve svém srdci.
+Dialogue: 0,0:13:25.58,0:13:31.58,Main Dialogue,RURUMO,0000,0000,0000,,Haruriri, Chiro, Mimi... Je to kvůli vám všem.
+Dialogue: 0,0:13:32.93,0:13:33.99,Main Dialogue,RURUMO,0000,0000,0000,,Děkuju vám.
+Dialogue: 0,0:13:36.64,0:13:39.53,Main Dialogue,HARURIRI,0000,0000,0000,,Co když tě zase degradují na čarodějku v zácviku?
+Dialogue: 0,0:13:40.33,0:13:44.26,Main Dialogue,RURUMO,0000,0000,0000,,I kdybych to udělala, vím, že se vrátím.
+Dialogue: 0,0:13:44.52,0:13:46.74,Main Dialogue,HARURIRI,0000,0000,0000,,A začít trénink od nuly?
+Dialogue: 0,0:13:46.74,0:13:48.07,Main Dialogue,HARURIRI,0000,0000,0000,,Na co myslíš?
+Dialogue: 0,0:13:48.07,0:13:49.71,Main Dialogue,RURUMO,0000,0000,0000,,Kota mi dal sílu.
+Dialogue: 0,0:13:49.71,0:13:51.72,Main Dialogue,HARURIRI,0000,0000,0000,,Kota tohle, Kota tamhle to! Jsi neuvěřitelná!
+Dialogue: 0,0:13:51.72,0:13:53.63,Main Dialogue,CHIRO,0000,0000,0000,,Nezačínejte teď bojovat!
+Dialogue: 0,0:13:53.63,0:13:56.27,Main Dialogue,MIMI,0000,0000,0000,,Měla bys mi poděkovat!
+Dialogue: 0,0:13:57.70,0:14:03.19,Main Dialogue,WITCH,0000,0000,0000,,Za porušení zvláštního ustanovení 99 jsou potrestáni tyto jedinci.
+Dialogue: 0,0:14:03.73,0:14:07.20,Main Dialogue,WITCH,0000,0000,0000,,Hodnost 13 čarodějka Magi Mojiruka Rurumo.
+Dialogue: 0,0:14:07.70,0:14:11.28,Main Dialogue,WITCH,0000,0000,0000,,Co je zvláštní ustanovení 99?
+Dialogue: 0,0:14:11.28,0:14:15.54,Main Dialogue,WITCH,0000,0000,0000,,Nevím ... Ale pokud zveřejnily oznámení,
+Dialogue: 0,0:14:15.54,0:14:18.19,Main Dialogue,,0000,0000,0000,,pak musela udělat něco opravdu špatného.
+Dialogue: 0,0:14:21.09,0:14:23.17,Main Dialogue,RURUMO,0000,0000,0000,,Proč jsi mě sledovala?
+Dialogue: 0,0:14:23.89,0:14:26.13,Main Dialogue,RURUMO,0000,0000,0000,,Řekla jsem, že je to můj problém.
+Dialogue: 0,0:14:26.70,0:14:28.63,Main Dialogue,CHIRO,0000,0000,0000,,Jsem tvoje pomocnice.
+Dialogue: 0,0:14:29.28,0:14:31.60,Main Dialogue,CHIRO,0000,0000,0000,,Tvoje problémy jsou i mé problémy.
+Dialogue: 0,0:14:32.13,0:14:35.47,Main Dialogue,HARURIRI,0000,0000,0000,,Už jsem to jednou řekla, ale já jsem ta, kdo tě do toho vtlačila.
+Dialogue: 0,0:14:35.88,0:14:39.02,Main Dialogue,MIMI,0000,0000,0000,,A zamilovala jsem se do toho muže.
+Dialogue: 0,0:14:39.02,0:14:40.74,Main Dialogue,BOTH,0000,0000,0000,,To s tím nemá nic společného!
+Dialogue: 0,0:14:40.74,0:14:41.35,Main Dialogue,SILLIA,0000,0000,0000,,Přestaňte.
+Dialogue: 0,0:14:42.36,0:14:47.94,Main Dialogue,SILLIA,0000,0000,0000,,Strážkyně duševních krystalů 0020, Sillia Saland Alphoa a další.
+Dialogue: 0,0:14:48.56,0:14:50.33,Main Dialogue,SILLIA,0000,0000,0000,,Přivedli jsme obviněné.
+Dialogue: 0,0:14:52.44,0:14:56.07,Main Dialogue,MIMILMIA,0000,0000,0000,,Tohle je nejdál, kam jdeme. Jděte dovnitř.
+Dialogue: 0,0:15:19.85,0:15:20.81,sign_22055_235_Shibaki__Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:15:22.06,0:15:22.77,Main Dialogue,RURUMO,0000,0000,0000,,Kota...
+Dialogue: 0,0:15:24.41,0:15:27.53,Main Dialogue,JUDGE,0000,0000,0000,,Soud nyní zasedá.
+Dialogue: 0,0:15:28.72,0:15:35.16,Main Dialogue,JUDGE,0000,0000,0000,,Obžalované Magi Mojiruka Rurumo a Walura Haruriri,
+Dialogue: 0,0:15:35.52,0:15:38.82,Main Dialogue,,0000,0000,0000,,spolu se svými pomocníky vstoupili do komory Duševních krystalů
+Dialogue: 0,0:15:39.40,0:15:43.17,Main Dialogue,,0000,0000,0000,,a ukradly krystal Shibaki Koty.
+Dialogue: 0,0:15:43.72,0:15:46.89,Main Dialogue,CHIRO,0000,0000,0000,,Pomocníky ani nenazývají jménem.
+Dialogue: 0,0:15:46.89,0:15:49.13,Main Dialogue,MIMI,0000,0000,0000,,Takové smutné zacházení.
+Dialogue: 0,0:15:49.61,0:15:50.76,Main Dialogue,JUDGE,0000,0000,0000,,Popíráte to?
+Dialogue: 0,0:15:52.37,0:15:53.97,Main Dialogue,RURUMO,0000,0000,0000,,Ne.
+Dialogue: 0,0:15:54.43,0:15:57.35,Main Dialogue,JUDGE,0000,0000,0000,,Spáchaly jste závažný zločin.
+Dialogue: 0,0:15:57.76,0:16:01.56,Main Dialogue,JUDGE,0000,0000,0000,,Váš zrádný čin otřásl celým duchovním světem.
+Dialogue: 0,0:16:03.04,0:16:10.99,Main Dialogue,JUDGE,0000,0000,0000,,Musíme být statečné a pohotové při vydávání našeho rozsudku v tomto ohavném zločinu.
+Dialogue: 0,0:16:11.36,0:16:14.11,Main Dialogue,HARURIRI,0000,0000,0000,,Cože? Není to trochu extrémní?
+Dialogue: 0,0:16:14.88,0:16:20.12,Main Dialogue,HARURIRI,0000,0000,0000,,Zločin, zrada ... Je pravda, že jsme porušili pravidla, ale...
+Dialogue: 0,0:16:20.76,0:16:22.44,Main Dialogue,JUDGE,0000,0000,0000,,Nyní vyneseme váš rozsudek.
+Dialogue: 0,0:16:23.00,0:16:26.71,Main Dialogue,JUDGE,0000,0000,0000,,Čarodějko 13 hodnosti Magi Mojiruka Rurumo.
+Dialogue: 0,0:16:27.47,0:16:33.43,Main Dialogue,JUDGE,0000,0000,0000,,Budete uvězněna po dobu 300 let a navždy zbavený čarodějnictví.
+Dialogue: 0,0:16:34.56,0:16:37.43,Main Dialogue,JUDGE,0000,0000,0000,,Čarodějko hosnosti 1 Walura Haruriri.
+Dialogue: 0,0:16:38.17,0:16:41.77,Main Dialogue,JUDGE,0000,0000,0000,,Jste degradován na hodnost 13. To je vše.
+Dialogue: 0,0:16:43.11,0:16:46.48,Main Dialogue,RURUMO,0000,0000,0000,,Moje čarodějnictví... zbaveno?
+Dialogue: 0,0:16:47.86,0:16:51.28,Main Dialogue,RURUMO,0000,0000,0000,,Ale dokončila jsem svůj výcvik.
+Dialogue: 0,0:16:51.87,0:16:53.03,Main Dialogue,JUDGE,0000,0000,0000,,Ten přišel vniveč.
+Dialogue: 0,0:16:54.17,0:16:59.49,Main Dialogue,RURUMO,0000,0000,0000,,Muž, se kterým jsem uzavřela smlouvu, chtěl, abych se stala čarodějkou.
+Dialogue: 0,0:17:00.00,0:17:02.70,Main Dialogue,JUDGE,0000,0000,0000,,To není naše starost.
+Dialogue: 0,0:17:03.15,0:17:07.08,Main Dialogue,RURUMO,0000,0000,0000,,Byl připraven dát svůj život, když učinil své poslední přání.
+Dialogue: 0,0:17:07.08,0:17:10.84,Main Dialogue,JUDGE,0000,0000,0000,,Od této chvíle už nejste čarodějkou.
+Dialogue: 0,0:17:11.94,0:17:14.34,Main Dialogue,JUDGE,0000,0000,0000,,Už nikdy nebudete obnovená.
+Dialogue: 0,0:17:15.19,0:17:17.01,Main Dialogue,MIMI,0000,0000,0000,,To je příliš!
+Dialogue: 0,0:17:17.01,0:17:19.90,Main Dialogue,CHIRO,0000,0000,0000,,Jo! Nevíte, čím ci Rurumo prošla!
+Dialogue: 0,0:17:19.90,0:17:21.10,Main Dialogue,,0000,0000,0000,,Trvalo to 500 dní...
+Dialogue: 0,0:17:21.10,0:17:22.28,Main Dialogue,JUDGE,0000,0000,0000,,Ticho.
+Dialogue: 0,0:17:22.28,0:17:23.81,Main Dialogue,HARURIRI,0000,0000,0000,,Vzhledem k tomu, že je tak nemotorná!
+Dialogue: 0,0:17:24.46,0:17:27.75,Main Dialogue,HARURIRI,0000,0000,0000,,A zbavily jste jí čarodějnictví...
+Dialogue: 0,0:17:28.41,0:17:30.08,Main Dialogue,,0000,0000,0000,,Nedovolit jí, aby se stala čarodějkou...
+Dialogue: 0,0:17:30.65,0:17:34.57,Main Dialogue,HARURIRI,0000,0000,0000,,Nikdy jí nedovolit, aby se stala čarodějkou, je příliš tvrdý trest!
+Dialogue: 0,0:17:34.94,0:17:37.13,Main Dialogue,JUDGE,0000,0000,0000,,Řekla jsem vám, abyste mlčela.
+Dialogue: 0,0:17:37.63,0:17:39.11,Main Dialogue,JUDGE,0000,0000,0000,,Použijte révu zadržení.
+Dialogue: 0,0:17:47.92,0:17:50.62,Main Dialogue,JUDGE,0000,0000,0000,,Zdá se, že náš rozsudek nemůžete přijmout,
+Dialogue: 0,0:17:51.32,0:17:54.46,Main Dialogue,JUDGE,0000,0000,0000,,takže vám to vysvětlíme.
+Dialogue: 0,0:17:55.06,0:18:00.26,Main Dialogue,JUDGE,0000,0000,0000,,Až budete zbavená čarodějnictví, vaše paměť bude vymazána.
+Dialogue: 0,0:18:00.26,0:18:05.30,Main Dialogue,JUDGE,0000,0000,0000,,Přijmutí vašeho trestu vám umožní uspořádat své myšlenky.
+Dialogue: 0,0:18:06.24,0:18:10.32,Main Dialogue,JUDGE,0000,0000,0000,,Tohle se v magické škole neučí.
+Dialogue: 0,0:18:10.32,0:18:14.40,Main Dialogue,JUDGE,0000,0000,0000,,I mezi čarodějkami na hodnosti 1 o tom ví jen pár.
+Dialogue: 0,0:18:15.23,0:18:18.91,Main Dialogue,JUDGE,0000,0000,0000,,Zdroj magie, kterou používáme, jsou...
+Dialogue: 0,0:18:20.07,0:18:21.43,Main Dialogue,JUDGE,0000,0000,0000,,lidské životy.
+Dialogue: 0,0:18:23.17,0:18:24.24,Main Dialogue,JUDGE,0000,0000,0000,,Duševní krystaly.
+Dialogue: 0,0:18:26.13,0:18:32.00,Main Dialogue,RURUMO,0000,0000,0000,,Duševní krystaly? Lidské životy jsou zdrojem magie?
+Dialogue: 0,0:18:32.71,0:18:37.44,Main Dialogue,JUDGE,0000,0000,0000,,Ano. To je důvod, proč čarodějnice sestupují na Zemi,
+Dialogue: 0,0:18:37.44,0:18:42.95,Main Dialogue,,0000,0000,0000,,vytvařejí smlouvy s lidmi a vrátily se do duchovního světa s jejimi dušemi.
+Dialogue: 0,0:18:44.02,0:18:47.63,Main Dialogue,JUDGE,0000,0000,0000,,Poté jsou přeměněny na duševní krystaly
+Dialogue: 0,0:18:48.42,0:18:52.32,Main Dialogue,,0000,0000,0000,,a přidají se ke zdi duševních krystalů řízenými strážkyněmi duší.
+Dialogue: 0,0:18:52.91,0:18:55.23,Main Dialogue,JUDGE,0000,0000,0000,,Procházejí průduchy připevněnými ke zdi,
+Dialogue: 0,0:18:55.70,0:18:59.36,Main Dialogue,,0000,0000,0000,,posílání magie k branám magické moci na druhém konci,
+Dialogue: 0,0:18:59.36,0:19:04.22,Main Dialogue,,0000,0000,0000,,a prostřednictvím magických stavů se používají jako magická síla.
+Dialogue: 0,0:19:05.00,0:19:08.34,Main Dialogue,JUDGE,0000,0000,0000,,Jejich moc však není neomezená.
+Dialogue: 0,0:19:08.34,0:19:12.97,Main Dialogue,JUDGE,0000,0000,0000,,Pro udržení rovnováhy s lidským světem byla zavedena určitá omezení,
+Dialogue: 0,0:19:12.97,0:19:16.60,Main Dialogue,,0000,0000,0000,,a přísná pravidla byla uvalena i na čarodějky.
+Dialogue: 0,0:19:17.44,0:19:23.63,Main Dialogue,JUDGE,0000,0000,0000,,To je systém duchovného světa vytvořený Královnou čarodějnic.
+Dialogue: 0,0:19:25.84,0:19:27.47,Main Dialogue,JUDGE,0000,0000,0000,,Magi Mojiruka Rurumo.
+Dialogue: 0,0:19:28.20,0:19:33.44,Main Dialogue,JUDGE,0000,0000,0000,,Narušila jsi řád, který pro nás vytvořila Královna Čarodějnic
+Dialogue: 0,0:19:33.93,0:19:36.42,Main Dialogue,,0000,0000,0000,,A plýtvala drahocennými zdroji duchovního světa.
+Dialogue: 0,0:19:36.42,0:19:41.91,sign_28206_298_Shibaki_Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:19:37.18,0:19:41.91,Main Dialogue,JUDGE,0000,0000,0000,,Probudila jste mizející lidskou duši uvnitř toho duševního krystalu.
+Dialogue: 0,0:19:42.55,0:19:45.87,Main Dialogue,JUDGE,0000,0000,0000,,Když se probudí, duševní krystaly už neprodukují magickou sílu.
+Dialogue: 0,0:19:46.53,0:19:49.12,Main Dialogue,JUDGE,0000,0000,0000,,Tento duševní krystal je teď bezcenný.
+Dialogue: 0,0:19:49.79,0:19:50.92,Main Dialogue,,0000,0000,0000,,A bude zničen.
+Dialogue: 0,0:19:52.33,0:19:54.71,Italics Dialogue,RURUMO,0000,0000,0000,,Zničen? Kota?
+Dialogue: 0,0:19:53.25,0:19:54.71,sign_28610_304_Shibaki_Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:19:55.60,0:20:00.01,Italics Dialogue,RURUMO,0000,0000,0000,,Protože jsem ho vzbudila?
+Dialogue: 0,0:20:03.67,0:20:04.77,Main Dialogue,RURUMO,0000,0000,0000,,Kota...
+Dialogue: 0,0:20:08.24,0:20:11.74,Main Dialogue,RURUMO,0000,0000,0000,,Kota!
+Dialogue: 0,0:20:12.82,0:20:16.76,Main Dialogue,RURUMO,0000,0000,0000,,Jsem blbá! Obrovský blbá!
+Dialogue: 0,0:20:17.42,0:20:20.04,Main Dialogue,RURUMO,0000,0000,0000,,Používala jsem magii, aniž bych znala pravdu!
+Dialogue: 0,0:20:20.04,0:20:23.71,Main Dialogue,RURUMO,0000,0000,0000,,Zkrátila jsem a pak jsem ti vzala život!
+Dialogue: 0,0:20:23.71,0:20:26.72,Main Dialogue,RURUMO,0000,0000,0000,,A nakonec jsem přišla o čarodějnictví!
+Dialogue: 0,0:20:26.72,0:20:29.24,Main Dialogue,RURUMO,0000,0000,0000,,Promarnila jsem tvou oběť!
+Dialogue: 0,0:20:29.24,0:20:32.50,sign_29473_313_Shibaki_Kota,TEXT,0000,0000,0000,,Shibaki Kota
+Dialogue: 0,0:20:30.19,0:20:32.50,Main Dialogue,RURUMO,0000,0000,0000,,Zachránila mě tvoje laskavost,
+Dialogue: 0,0:20:32.50,0:20:37.90,sign_22055_235_Shibaki__Kota,,0000,0000,0000,,{\fad(1,1126)\pos(204,33)\c&HE5C7C3&\fs24}Shibaki Kota
+Dialogue: 0,0:20:33.53,0:20:35.75,Main Dialogue,RURUMO,0000,0000,0000,,a mnohokrát jsi mě rozveselil...
+Dialogue: 0,0:20:36.43,0:20:42.83,Main Dialogue,RURUMO,0000,0000,0000,,Chtěla jsem ti říct, že jsem se kvůli tobě stala čarodějkou,
+Dialogue: 0,0:20:43.64,0:20:44.97,Main Dialogue,RURUMO,0000,0000,0000,,a děkuju ti.
+Dialogue: 0,0:20:46.17,0:20:49.20,Main Dialogue,RURUMO,0000,0000,0000,,Ale... ale...
+Dialogue: 0,0:20:50.46,0:20:53.73,Main Dialogue,JUDGE,0000,0000,0000,,Poneste tíhu své viny a přijmete svůj trest.
+Dialogue: 0,0:20:55.40,0:20:56.48,Main Dialogue,JUDGE,0000,0000,0000,,Toto přelíčení je nyní—
+Dialogue: 0,0:20:59.91,0:21:00.90,Main Dialogue,JUDGE,0000,0000,0000,,Co to je?
+Dialogue: 0,0:21:01.66,0:21:05.27,Main Dialogue,JUDGE,0000,0000,0000,,Je zakázáno vstupovat, zatímco soud zasedá.
+Dialogue: 0,0:21:15.95,0:21:17.25,Main Dialogue,RURUMO,0000,0000,0000,,Ta dívka...
+Dialogue: 0,0:21:17.63,0:21:18.92,Flashback Dialogue,KOTA,0000,0000,0000,,Magie, aktivovat!
+Dialogue: 0,0:21:18.92,0:21:20.17,Flashback Dialogue,KOTA,0000,0000,0000,,Zachraň tu dívku, Rurumo!
+Dialogue: 0,0:21:20.17,0:21:23.63,Flashback Dialogue,RURUMO,0000,0000,0000,,Otevřít, brána magické síly: Zalbas.
+Dialogue: 0,0:21:24.66,0:21:26.05,Main Dialogue,RURUMO,0000,0000,0000,,Z té nehody...
+Dialogue: 0,0:21:29.08,0:21:32.30,Main Dialogue,MIMI,0000,0000,0000,,Co tady dělá malá holčička?
+Dialogue: 0,0:21:32.30,0:21:35.60,Main Dialogue,CHIRO,0000,0000,0000,,Počkat, to je ten spratek, co zachránil ten idiot!
+Dialogue: 0,0:21:36.48,0:21:37.91,Main Dialogue,SILLIA,0000,0000,0000,,Dávej si pozor na jazyk.
+Dialogue: 0,0:21:38.60,0:21:41.40,Main Dialogue,MIMILMIA,0000,0000,0000,,To je Královna Čarodějnic.
+Dialogue: 0,0:21:42.60,0:21:43.83,Main Dialogue,RURUMO,0000,0000,0000,,Jste...
+Dialogue: 0,0:21:44.64,0:21:47.10,Main Dialogue,HARURIRI,0000,0000,0000,,Královna Čarodějnic?
+Dialogue: 0,0:21:50.28,0:21:52.85,Main Dialogue,GIRL,0000,0000,0000,,Navzdory mému vzhledu je mi 5 011 let.
+Dialogue: 0,0:21:52.85,0:21:55.46,Main Dialogue,GIRL,0000,0000,0000,,Moje roztomilost je moje jediná vada.
+Dialogue: 0,0:21:56.14,0:21:58.00,Main Dialogue,GIRL,0000,0000,0000,,Rurumo, tak to bylo?
+Dialogue: 0,0:21:58.38,0:22:00.67,Main Dialogue,GIRL,0000,0000,0000,,Děkuji za to, co jsi udělala.
+Dialogue: 0,0:22:00.92,0:22:04.90,Main Dialogue,GIRL,0000,0000,0000,,Byla jsem na kontrole na Zemi a nakonec jsem tam zůstala delší dobu.
+Dialogue: 0,0:22:04.90,0:22:08.09,Main Dialogue,GIRL,0000,0000,0000,,Právě jsem dostala zprávu o tvém soudu.
+Dialogue: 0,0:22:09.38,0:22:11.22,Main Dialogue,GIRL,0000,0000,0000,,Jsem ráda, že jsem to stihla včas.
+Dialogue: 0,0:22:12.22,0:22:16.62,Main Dialogue,GIRL,0000,0000,0000,,Prohlašuji tento proces a trest vydaný za neplatný.
+Dialogue: 0,0:22:19.26,0:22:21.60,Main Dialogue,CHIRO,0000,0000,0000,,Ona převrátila celou věc.
+Dialogue: 0,0:22:21.60,0:22:24.86,Main Dialogue,MIMI,0000,0000,0000,,Je to skutečná Královna Čarodějnic.
+Dialogue: 0,0:22:28.51,0:22:29.91,Main Dialogue,GIRL,0000,0000,0000,,Pojďte se mnou.
+Dialogue: 0,0:22:31.36,0:22:32.55,Main Dialogue,CHIRO,0000,0000,0000,,Kde to jsme?
+Dialogue: 0,0:22:32.55,0:22:34.65,Main Dialogue,MIMI,0000,0000,0000,,V paláci Královny čarodějnic.
+Dialogue: 0,0:22:37.41,0:22:40.26,Main Dialogue,GIRL,0000,0000,0000,,Mrtví nelze vrátit k životu.
+Dialogue: 0,0:22:40.26,0:22:42.40,Main Dialogue,GIRL,0000,0000,0000,,Je to zákon vesmíru.
+Dialogue: 0,0:22:42.40,0:22:45.34,Main Dialogue Top,CHIRO,0000,0000,0000,,Wow...
+Dialogue: 0,0:22:42.90,0:22:45.34,Main Dialogue,GIRL,0000,0000,0000,,Nikdo to nemůže zastavit.
+Dialogue: 0,0:22:45.86,0:22:47.56,Main Dialogue,GIRL,0000,0000,0000,,Ani já.
+Dialogue: 0,0:22:48.37,0:22:53.18,Main Dialogue,GIRL,0000,0000,0000,,Ale smrt způsobená čarodějnickou smlouvou spadá pod zákon o čarodějnicích.
+Dialogue: 0,0:22:54.44,0:22:57.18,Main Dialogue,GIRL,0000,0000,0000,,Dlužím ti dluh i tvojí smluvní straně.
+Dialogue: 0,0:22:58.01,0:23:06.45,Main Dialogue,GIRL,0000,0000,0000,,Použiji Haltera zaklínadlo, které mohu použít jen já, abych vrátila duševní krystal do jejího těla.
+Dialogue: 0,0:23:06.45,0:23:08.56,Main Dialogue,HARURIRI,0000,0000,0000,,Vrátit krystal do těla?
+Dialogue: 0,0:23:08.56,0:23:10.02,Main Dialogue,RURUMO,0000,0000,0000,,Můžete to udělat?
+Dialogue: 0,0:23:10.02,0:23:13.68,Main Dialogue,GIRL,0000,0000,0000,,Obětoval se, aby mě zachránil.
+Dialogue: 0,0:23:13.68,0:23:15.24,Main Dialogue,,0000,0000,0000,,Vděčím mu za svůj život.
+Dialogue: 0,0:23:16.33,0:23:22.67,Main Dialogue,RURUMO,0000,0000,0000,,Ale vaše Veličenstvo, při vší úctě, Kotovo tělo už je...
+Dialogue: 0,0:23:23.72,0:23:26.61,Main Dialogue,GIRL,0000,0000,0000,,Měla bys být vděčná za mou chytrost.
+Dialogue: 0,0:23:31.66,0:23:34.22,Main Dialogue,GIRL,0000,0000,0000,,Toto je pravé tělo Shibaki Koty.
+Dialogue: 0,0:23:36.06,0:23:37.06,Main Dialogue,RURUMO,0000,0000,0000,,Kota?
+Dialogue: 0,0:23:37.47,0:23:41.69,Main Dialogue,GIRL,0000,0000,0000,,Ten den jsem se vplížila na pohřeb a vyměnila ho.
+Dialogue: 0,0:23:42.06,0:23:47.82,Main Dialogue,GIRL,0000,0000,0000,,Máte štěstí, že jsem to byla já, na koho jste použily poslední lístek na záchranu.
+Dialogue: 0,0:23:49.00,0:23:50.05,Main Dialogue,GIRL,0000,0000,0000,,Počkejte.
+Dialogue: 0,0:23:53.68,0:23:56.05,Main Dialogue,GIRL,0000,0000,0000,,Vrátím duši do jeho těla.
+Dialogue: 0,0:24:06.90,0:24:09.09,Main Dialogue,GIRL,0000,0000,0000,,Brána magické síly, otevřít!
+Dialogue: 0,0:24:18.09,0:24:19.32,Main Dialogue,GIRL,0000,0000,0000,,Haltera!
+Dialogue: 0,0:24:55.08,0:24:56.27,Main Dialogue,KOTA,0000,0000,0000,,Rurumo!
+Dialogue: 0,0:25:02.72,0:25:03.56,Main Dialogue,KOTA,0000,0000,0000,,Rurumo.
+Dialogue: 0,0:25:05.29,0:25:06.14,Main Dialogue,KOTA,0000,0000,0000,,Já...
+Dialogue: 0,0:25:09.67,0:25:10.69,Main Dialogue,KOTA,0000,0000,0000,,Já tě miluju.
+Dialogue: 0,0:25:13.53,0:25:15.07,Main Dialogue,KOTA,0000,0000,0000,,Z hloubi svého srdce.
+Dialogue: 0,0:25:19.36,0:25:22.50,Main Dialogue,KOTA,0000,0000,0000,,Konečně jsem ti to mohl říct.
+Dialogue: 0,0:25:27.20,0:25:31.75,Italics Dialogue,KOTA,0000,0000,0000,,Upřímně řečeno, nejsem si jistý, zda to lze nazvat vyšší urovní.
+Dialogue: 0,0:25:32.45,0:25:39.89,Italics Dialogue,KOTA,0000,0000,0000,,Ale bez ohledu na to, kvůli dívce s balónkem, Královně čarodějnic, jsem...
+Dialogue: 0,0:25:44.98,0:25:46.19,sign_37043_376_Kota,TEXT,0000,0000,0000,,Ko{\c&H345F27&}ta
+Dialogue: 0,0:25:46.61,0:25:49.69,Main Dialogue,KOTA,0000,0000,0000,,Jsem doma, Mami, Seitaro.
+Dialogue: 0,0:25:50.90,0:25:57.53,Main Dialogue,KOTA,0000,0000,0000,,Muž, který miluje dívky, jako miluje slunce, Shibaki Kota, se vrátil!
+Dialogue: 0,0:26:10.38,0:26:13.09,sign_37652_379_Welcome_Home,TEXT,0000,0000,0000,,Vítej doma
+Dialogue: 0,0:26:13.65,0:26:16.30,Italics Dialogue,KOTA,0000,0000,0000,, A tak jsem se vrátil na Zemi.
+Dialogue: 0,0:26:16.76,0:26:20.41,Italics Dialogue,KOTA,0000,0000,0000,,Zeptal se někdo, jak jsem se vrátil z mrtvých, ptáte se?
+Dialogue: 0,0:26:20.41,0:26:27.38,Italics Dialogue,KOTA,0000,0000,0000,,Lhal jsem, že jsem se probudil těsně předtím, než jsem byl spálen a utekl jsem, z rakve.
+Dialogue: 0,0:26:27.38,0:26:32.00,Italics Dialogue,KOTA,0000,0000,0000,,Protože všichni viděli, že jsem naživu, neměli jinou možnost než mi věřit.
+Dialogue: 0,0:26:27.56,0:26:30.94,sign_38064_383_Fire_Hydrant,TEXT,0000,0000,0000,,{\pos(327,16)}Požarní Hydrant
+Dialogue: 0,0:26:32.66,0:26:38.78,Italics Dialogue,KOTA,0000,0000,0000,,A teď trávím dny přesně tak, jak jsem to dělal až do včerejška.
+Dialogue: 0,0:26:39.53,0:26:42.28,Italics Dialogue,KOTA,0000,0000,0000,,Ne, je tu jedna věc, která je jiná.
+Dialogue: 0,0:26:42.92,0:26:47.02,Italics Dialogue,KOTA,0000,0000,0000,,V mém životě se objevilo něco důležitého.
+Dialogue: 0,0:26:47.96,0:26:51.25,Italics Dialogue,KOTA,0000,0000,0000,,Ta těžce pracující dívka s malou tváří...
+Dialogue: 0,0:26:53.54,0:26:57.17,sign_38687_389_Transfer__Studen,TEXT,0000,0000,0000,,{\fad(310,1)}Přestupující studentka
+Dialogue: 0,0:26:53.54,0:26:57.17,sign_38687_390_Mashimamoji__Rur,TEXT,0000,0000,0000,,{\fad(310,1)}Mashimamoji Rurumo
+Dialogue: 0,0:26:57.17,0:26:59.63,sign_38774_391_Cute,TEXT,0000,0000,0000,,Rooooozztomilá
+Dialogue: 0,0:26:58.71,0:27:00.56,Main Dialogue,ALL,0000,0000,0000,,Je tak roztomilá!
+Dialogue: 0,0:27:06.72,0:27:07.92,Main Dialogue,KOTA,0000,0000,0000,,Jsi to opravdu ty?
+Dialogue: 0,0:27:09.62,0:27:14.64,Main Dialogue,RURUMO,0000,0000,0000,,Dostala jsem povýšení a byla jsem přidělená pracovat na zemi.
+Dialogue: 0,0:27:15.36,0:27:18.03,Main Dialogue,RURUMO,0000,0000,0000,,Jsem poradkyní pro čarodějky založené na zemi.
+Dialogue: 0,0:27:18.31,0:27:20.30,Main Dialogue,SUGAWARA,0000,0000,0000,,Co se děje, Shibo? Znáš ji?
+Dialogue: 0,0:27:20.30,0:27:22.46,Main Dialogue,NISHINO,0000,0000,0000,,Řekni nám to! Jaký je tvůj vztah?
+Dialogue: 0,0:27:22.46,0:27:24.15,Main Dialogue,ALL,0000,0000,0000,,Pověz nám to!
+Dialogue: 0,0:27:24.15,0:27:26.16,Main Dialogue,KOTA,0000,0000,0000,,Jo. Tato dívka...
+Dialogue: 0,0:27:27.23,0:27:29.54,Main Dialogue,KOTA,0000,0000,0000,,bývala to moje sestra!
+Dialogue: 0,0:27:31.02,0:27:34.20,Main Dialogue,NISHINO,0000,0000,0000,,Tvoje sestra? Co? Tvoje sestra?
+Dialogue: 0,0:27:34.20,0:27:35.59,Main Dialogue,NISHINO,0000,0000,0000,,Kéž bych měl sestru!
+Dialogue: 0,0:27:35.59,0:27:37.63,Main Dialogue,NISHINO,0000,0000,0000,,Ne, počkat! To nic nevysvětluje!
+Dialogue: 0,0:27:37.63,0:27:39.13,Main Dialogue,NISHINO,0000,0000,0000,,Jaký je tvůj vztah k ní?!
+Dialogue: 0,0:27:39.68,0:27:46.81,Italics Dialogue,KOTA,0000,0000,0000,,Kdybych si teď mohl něco přát, tak by to bylo:
+Dialogue: 0,0:27:47.80,0:27:57.20,Italics Dialogue,KOTA,0000,0000,0000,,"Kéž by tento bláznivý zábavný svět mohl trvat věčně."
+Dialogue: 0,0:29:55.52,0:30:00.77,sign_43050_408_Majimoji_Rurumo_,TEXT,0000,0000,0000,,{\fad(310,1)}Magimoji Rurumo
+Dialogue: 0,0:29:55.52,0:30:00.77,conclusion,TEXT,0000,0000,0000,,{\fad(310,1)}Závěr

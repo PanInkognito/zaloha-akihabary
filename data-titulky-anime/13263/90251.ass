@@ -1,0 +1,458 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00444947,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00444947,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Warning,Open Sans Semibold,26,&H00FFFFF6,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: Preview,Open Sans Semibold,35,&H00E1DED1,&H000000FF,&H003E3E34,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,617,88,0
+Style: Gintama,Open Sans Semibold,38,&H00B7BBB8,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,289,289,20,0
+Style: Silver Soul,Open Sans Semibold,38,&H00B7BBB8,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,289,289,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: sign_3586_42_Peerinitis,Open Sans Semibold,35,&H00010000,&H000000FF,&H00B59DCA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,347,347,20,0
+Style: sign_7248_95_5_years_old,Open Sans Semibold,24,&H00161213,&H000000FF,&H00F1F5F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,52,411,85,0
+Style: sign_10514_133_Liberation_Army_,Open Sans Semibold,24,&H0011191B,&H000000FF,&H004740C8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,355,43,200,0
+Style: sign_10532_134_Okoku_Army_,Open Sans Semibold,24,&H001F2028,&H000000FF,&H008C698C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,592,31,104,0
+Style: sign_10652_137_Not_Zura___Katsu,Open Sans Semibold,24,&H001D1421,&H000000FF,&H00BAAA65,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,676,120,0
+Style: sign_24671_273_Eight___________,Open Sans Semibold,35,&H00E1D34C,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,27,27,112,0
+Style: Numbers1,Open Sans Semibold,38,&H00898887,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,13,13,20,0
+Style: Numbers2,Open Sans Semibold,38,&H00CDC0C3,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_24792_301_Nine_Headed_Drag,Open Sans Semibold,35,&H00E4E4E4,&H000000FF,&H00000100,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_24821_302_Nine_Headed__Dra,Open Sans Semibold,35,&H002D2D2D,&H000000FF,&H00F6F5F5,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,27,77,32,0
+Style: sign_24839_303_One_,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,384,403,27,0
+Style: sign_24839_304_Two,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,481,312,56,0
+Style: sign_24839_305_Three,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,507,265,140,0
+Style: sign_24839_306_Four,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,485,301,228,0
+Style: sign_24839_307_Five,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,395,399,260,0
+Style: sign_24839_308_Six,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,313,496,232,0
+Style: sign_24839_309_Seven,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,243,523,147,0
+Style: sign_24839_310_Eight,Open Sans Semibold,26,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,284,495,51,0
+Style: sign_24856_311_Nine_,Open Sans Semibold,38,&H00573B4B,&H000000FF,&H00FCF0F9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_26737_331_From_today___you,Open Sans Semibold,29,&H00232027,&H000000FF,&H00898885,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,359,27,37,0
+Style: sign_28657_355_That_s_just_an__,Open Sans Semibold,29,&H00202418,&H000000FF,&H00B4B7B4,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,555,47,0
+Style: sign_28780_357_I_ve_become_Eliz,Open Sans Semibold,35,&H003E393D,&H000000FF,&H00C0C8C0,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_31048_381_Kabuki_District_,Open Sans Semibold,26,&H001C1C1C,&H000000FF,&H00E9E9E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,59,589,87,0
+Style: sign_31048_382_Divide_,Open Sans Semibold,26,&H00ECE9E3,&H000000FF,&H0021221E,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,380,364,299,0
+Style: sign_31048_383_Oniwaban_,Open Sans Semibold,26,&H001C1C1C,&H000000FF,&H00E9E9E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,231,468,251,0
+Style: sign_31048_384_Oniwaban_,Open Sans Semibold,26,&H001C1C1C,&H000000FF,&H00E9E9E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,393,305,80,0
+Style: sign_31048_385_Shinsengumi_,Open Sans Semibold,26,&H001C1C1C,&H000000FF,&H00E9E9E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,617,43,259,0
+Style: sign_31144_387_Kabuki_District_,Open Sans Semibold,26,&H001C1C1C,&H000000FF,&H00E9E9E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.82,0:00:07.86,Flashback,K,0000,0000,0000,,Vážení poddaní,
+Dialogue: 0,0:00:07.86,0:00:11.22,Flashback,K,0000,0000,0000,,{\an8}svolal jsem vás z jednoho prostého důvodu.
+Dialogue: 0,0:00:08.42,0:00:15.38,Warning,Warning,0000,0000,0000,,{\fad(465,530)}Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV!!
+Dialogue: 0,0:00:11.22,0:00:14.71,Flashback,K,0000,0000,0000,,{\an8}Je tu jeden problém, který na královském dvoře tvoří značné nepokoje
+Dialogue: 0,0:00:14.71,0:00:18.53,Flashback,K,0000,0000,0000,,{\an8}a rád bych ho co nejdříve prodiskutoval.
+Dialogue: 0,0:00:19.06,0:00:21.17,Flashback,K,0000,0000,0000,,Vím o všem.
+Dialogue: 0,0:00:21.17,0:00:23.45,Flashback,K,0000,0000,0000,,Od doby, co mě zužuje má choroba,
+Dialogue: 0,0:00:23.45,0:00:28.57,Flashback,K,0000,0000,0000,,vás spor o nástupnické právo na trůn planety Okoku
+Dialogue: 0,0:00:28.57,0:00:30.76,Flashback,K,0000,0000,0000,,rozdělil na dva tábory,
+Dialogue: 0,0:00:30.76,0:00:34.13,Flashback,K,0000,0000,0000,,které jsou kvůli následnictví v nehezkém rozporu.
+Dialogue: 0,0:00:34.71,0:00:38.49,Flashback,K,0000,0000,0000,,Vše je má vina, protože jsem slabý.
+Dialogue: 0,0:00:40.75,0:00:42.62,Flashback,K,0000,0000,0000,,Nezbývá mi moc času.
+Dialogue: 0,0:00:42.62,0:00:47.40,Flashback,K,0000,0000,0000,,Musím tento problém vyřešit, než odejdu.
+Dialogue: 0,0:00:47.40,0:00:51.99,Flashback,Jii,0000,0000,0000,,Vaše jasnosti, není potřeba se tímto problémem zatěžovat.
+Dialogue: 0,0:00:51.99,0:00:57.26,Flashback,Jii,0000,0000,0000,,Naše největší přání je vidět vás na trůně tak dlouho,\Njak jen to bude možné.
+Dialogue: 0,0:00:57.26,0:01:01.41,Flashback,Jii,0000,0000,0000,,Nechejte prosím administrativu na nás a zaměřte se na své uzdravení.
+Dialogue: 0,0:01:02.87,0:01:07.50,Flashback,Jii,0000,0000,0000,,Princ Hata nás vede namísto Vaší jasnosti.
+Dialogue: 0,0:01:08.47,0:01:13.02,Flashback,Jii,0000,0000,0000,,Jeho laskavé srdce plné lásky ke všemu živému
+Dialogue: 0,0:01:13.02,0:01:15.42,Flashback,Jii,0000,0000,0000,,je nám všem velikou oporou.
+Dialogue: 0,0:01:15.76,0:01:18.26,Flashback,Jii,0000,0000,0000,,Dozajista by byl dobrým králem.
+Dialogue: 0,0:01:19.27,0:01:21.05,Flashback,Dan,0000,0000,0000,,Laskavost?
+Dialogue: 0,0:01:21.05,0:01:24.56,Flashback,Dan,0000,0000,0000,,Nesi, to z něj podle tebe dělá vhodného dědice trůnu?
+Dialogue: 0,0:01:25.05,0:01:29.19,Flashback,Dan,0000,0000,0000,,Dokáže "laskavý" princ, který ignoruje národ, aby se mohl věnovat svým zvířatům,
+Dialogue: 0,0:01:29.19,0:01:30.44,Flashback,Dan,0000,0000,0000,,skutečně ochránit poddané?
+Dialogue: 0,0:01:30.44,0:01:33.94,Flashback,Jii,0000,0000,0000,,Dane! Opovažuješ se urážet prince v králově přítomnosti?!
+Dialogue: 0,0:01:34.65,0:01:38.17,Flashback,Dan,0000,0000,0000,,Jsem připraven za tato slova položit i život.
+Dialogue: 0,0:01:38.17,0:01:38.95,Flashback,Dan,0000,0000,0000,,Vaše jasnosti!
+Dialogue: 0,0:01:39.38,0:01:44.35,Flashback,Dan,0000,0000,0000,,Pouze princ Barkas může vést tuto zemi i její lid!
+Dialogue: 0,0:01:44.35,0:01:47.45,Flashback,Dan,0000,0000,0000,,Jeho neobyčejná obratnost ve vojenské strategii,\Ndobrá orientace v politice
+Dialogue: 0,0:01:47.45,0:01:50.96,Flashback,Dan,0000,0000,0000,,a hlavně jeho vyspělejší věk z něj dělají perfektního krále!
+Dialogue: 0,0:01:51.53,0:01:54.82,Flashback,Dan,0000,0000,0000,,Tak proč stále není jmenován nástupcem trůnu?
+Dialogue: 0,0:01:54.82,0:01:57.21,Flashback,Jii,0000,0000,0000,,Dane, nevyvolávej další konflikty.
+Dialogue: 0,0:01:57.21,0:01:57.87,Flashback,Dan,0000,0000,0000,,Zavři zobák!
+Dialogue: 0,0:01:57.87,0:02:01.63,Flashback,Dan,0000,0000,0000,,Jsi jen obyčejná hyena, která\Nse chce přiživit na princi Hatovi!
+Dialogue: 0,0:02:01.63,0:02:05.47,Flashback,Jii,0000,0000,0000,,Hmph. Ty přeci moc dobře víš, proč ho král stále nevybral jako svého nástupce.
+Dialogue: 0,0:02:05.94,0:02:11.31,Flashback,Jii,0000,0000,0000,,Princ Barkas je vskutku báječný a \Njeho povaha by trůnu jistě svědčila.
+Dialogue: 0,0:02:11.31,0:02:17.61,Flashback,Jii,0000,0000,0000,,Ale je tu jedna důležitá královská vlastnost, kterou ho princ Hata dalece předčí.
+Dialogue: 0,0:02:19.70,0:02:22.24,Flashback,Jii,0000,0000,0000,,Přesně tak. Je malý!
+Dialogue: 0,0:02:23.53,0:02:27.54,Flashback,Jii,0000,0000,0000,,Oh, promiň mi. Já zapomněl, že ani ty nedisponuješ žádným gigantem.
+Dialogue: 0,0:02:27.93,0:02:30.67,Flashback,Jii,0000,0000,0000,,Symbol mužnosti a cti naší rasy:
+Dialogue: 0,0:02:29.56,0:02:32.23,sign_3586_42_Peerinitis,Sign,0000,0000,0000,,{\fad(550,1)}Perinitis
+Dialogue: 0,0:02:30.67,0:02:32.21,Flashback,Jii,0000,0000,0000,,Perinitis.
+Dialogue: 0,0:02:32.21,0:02:33.75,Flashback,Jii,0000,0000,0000,,Neboli, zkráceně, Penis!
+Dialogue: 0,0:02:32.23,0:02:33.75,sign_3586_42_Peerinitis,Sign,0000,0000,0000,,Penis
+Dialogue: 0,0:02:34.13,0:02:39.07,Flashback,Jii,0000,0000,0000,,Už od pradávných časů považujeme délku čelního penisu
+Dialogue: 0,0:02:39.07,0:02:41.22,Flashback,Jii,0000,0000,0000,,za rozhodující faktor při určení společenské hodnoty.
+Dialogue: 0,0:02:41.22,0:02:44.14,Flashback,Jii,0000,0000,0000,,Ten s větším penisem je prostě vždy lepší bez ohledu na vše ostatní.
+Dialogue: 0,0:02:44.14,0:02:46.59,Flashback,Jii,0000,0000,0000,,Čím větší penis, tím více oblíbenosti.
+Dialogue: 0,0:02:46.59,0:02:48.99,Flashback,Jii,0000,0000,0000,,Čím větší penis, tím lépe se shnání taxi.
+Dialogue: 0,0:02:48.99,0:02:51.91,Flashback,Jii,0000,0000,0000,,Čím větší penis, tím vyšší postavení ve společnosti!
+Dialogue: 0,0:02:52.56,0:02:55.35,Flashback,Jii,0000,0000,0000,,Královská rodina není výjimkou.
+Dialogue: 0,0:02:55.35,0:02:59.45,Flashback,Jii,0000,0000,0000,,Přestože se narodil dřív\Na přestože má veliký talent,
+Dialogue: 0,0:02:59.45,0:03:04.03,Flashback,Jii,0000,0000,0000,,nemá žádné právo na trůn,\Nprotože má malý penis!
+Dialogue: 0,0:03:05.71,0:03:08.53,Flashback,Jii,0000,0000,0000,,Talent lze během života vypilovat,
+Dialogue: 0,0:03:08.53,0:03:11.04,Flashback,Jii,0000,0000,0000,,ale s velikostí penisu se už nic udělat nedá!
+Dialogue: 0,0:03:11.04,0:03:14.95,Flashback,Jii,0000,0000,0000,,Chcete pošlapat tradici a udělat z toho malého mužíka krále?!
+Dialogue: 0,0:03:14.95,0:03:16.08,Flashback,Jii,0000,0000,0000,,Styďte se!
+Dialogue: 0,0:03:16.08,0:03:19.62,Flashback,Dan,0000,0000,0000,,N-Není malý! I princ má normální velikost, když je v erek...
+Dialogue: 0,0:03:19.62,0:03:21.85,Flashback,G,0000,0000,0000,,Dane, zastav. \NErekci nevytahuj.
+Dialogue: 0,0:03:21.85,0:03:25.05,Flashback,Jii,0000,0000,0000,,Pokud chceš vytáhnout tohle,\Npak je erekce prince Haty přímo ohromující!
+Dialogue: 0,0:03:25.05,0:03:27.59,Flashback,G,0000,0000,0000,,Nesi, přestaň s tou erekcí.
+Dialogue: 0,0:03:28.17,0:03:31.61,Flashback,Dan,0000,0000,0000,,Chci říct, že tato tradice škodí naší rase!
+Dialogue: 0,0:03:31.61,0:03:33.45,Flashback,Dan,0000,0000,0000,,Bude snad zemi vládnout jeho penis?
+Dialogue: 0,0:03:33.45,0:03:37.57,Flashback,Dan,0000,0000,0000,,Talentovaný muž dokáže vybudovat lepší zemi i s malým penisem!
+Dialogue: 0,0:03:37.57,0:03:40.57,Flashback,Dan,0000,0000,0000,,Koho zajímá penis? \NCo je vlastně "penis"?!
+Dialogue: 0,0:03:41.41,0:03:43.07,Flashback,Jii,0000,0000,0000,,Hážeš tu špínu na Jeho jasnost?
+Dialogue: 0,0:03:43.07,0:03:46.29,Flashback,Jii,0000,0000,0000,,Králem se stal jen díky velikosti jeho penisu!
+Dialogue: 0,0:03:46.29,0:03:48.73,Flashback,Jii,0000,0000,0000,,Kdybys mu vzal jeho penis, co jiného by mu zbylo?
+Dialogue: 0,0:03:48.73,0:03:49.62,Flashback,Jii,0000,0000,0000,,Jen voda, to by mu zbylo!
+Dialogue: 0,0:03:49.62,0:03:51.10,Flashback,Dan,0000,0000,0000,,Ty jediný na něj hážeš špínu!
+Dialogue: 0,0:03:51.10,0:03:53.08,Flashback,Dan,0000,0000,0000,,Jeho jasnost má spoustu předností i bez svého penisu.
+Dialogue: 0,0:03:53.08,0:03:54.73,Flashback,Jii,0000,0000,0000,,A jaké? To nám objasni!
+Dialogue: 0,0:03:54.73,0:03:57.70,Flashback,Dan,0000,0000,0000,,U-Um, no, nemá žádné problémy s přivoláním taxi!
+Dialogue: 0,0:03:57.70,0:03:59.24,Flashback,Jii,0000,0000,0000,,Ale to proto, že má velký penis!
+Dialogue: 0,0:03:59.24,0:04:02.59,Flashback,Jii,0000,0000,0000,,Jeho jasnost nemá nic než svůj penis! \NJeho penis se ve všem podílí!
+Dialogue: 0,0:04:02.59,0:04:07.10,Flashback,Jii,0000,0000,0000,,Takže i naprostý debil může uspět, pokud má velký penis.
+Dialogue: 0,0:04:07.10,0:04:09.53,Flashback,Jii,0000,0000,0000,,Dokud bude mít velký penis, \Nvšechno prostě bude fungovat!
+Dialogue: 0,0:04:09.53,0:04:10.35,Flashback,Jii,0000,0000,0000,,Že, Vaše jasnosti?
+Dialogue: 0,0:04:13.54,0:04:14.85,Flashback,Jii,0000,0000,0000,,Vaše jasnosti!
+Dialogue: 0,0:04:14.85,0:04:17.58,Flashback,Jii,0000,0000,0000,,vydržte, peni— Vaše jasnosti!
+Dialogue: 0,0:04:17.58,0:04:19.61,Flashback,Dan,0000,0000,0000,,Zavolejte lékaře!
+Dialogue: 0,0:04:20.50,0:04:23.27,Flashback,Jii,0000,0000,0000,,Vaše jasnosti, rozhodněte ještě dřív, než na věčnost odejdete!
+Dialogue: 0,0:04:23.27,0:04:24.11,Flashback,Dan,0000,0000,0000,,Kdo bude dalším králem?
+Dialogue: 0,0:04:24.51,0:04:26.11,Flashback,Jii,0000,0000,0000,,Ten s větším penisem?
+Dialogue: 0,0:04:26.11,0:04:28.21,Flashback,Dan,0000,0000,0000,,Ten schopnější s menším penisem?
+Dialogue: 0,0:04:28.21,0:04:29.14,Flashback,Jii,0000,0000,0000,,Velký penis?
+Dialogue: 0,0:04:29.14,0:04:30.75,Flashback,Dan,0000,0000,0000,,Malý ale schopný penis?
+Dialogue: 0,0:04:30.75,0:04:32.04,Flashback,Bo,0000,0000,0000,,Vaše jasnosti!
+Dialogue: 0,0:04:34.83,0:04:41.41,Flashback,K,0000,0000,0000,,T-Ten... kdo je schopný... a má velký penis...
+Dialogue: 0,0:04:45.95,0:04:50.01,Flashback,Bark,0000,0000,0000,,Otec nikdy nezapomněl na našeho bratra.
+Dialogue: 0,0:04:51.89,0:04:53.02,Flashback,Bark,0000,0000,0000,,Náš starší bratr,
+Dialogue: 0,0:04:53.51,0:04:57.02,Flashback,Bark,0000,0000,0000,,první princ planety Okoku, Dragonia.
+Dialogue: 0,0:04:58.02,0:05:00.77,Flashback,Bark,0000,0000,0000,,Hrdina, který byl oslavován\Njako princ devíti draků.
+Dialogue: 0,0:05:01.21,0:05:05.78,Flashback,Bark,0000,0000,0000,,V jeho pěti letech mu penis dorostl až\Ndo velikosti dračího vousu
+Dialogue: 0,0:05:02.30,0:05:05.95,sign_7248_95_5_years_old,Sign,0000,0000,0000,,5 let srarý
+Dialogue: 0,0:05:05.78,0:05:10.78,Flashback,Bark,0000,0000,0000,,a jeho talent sahal vysoko do nebes, přesně jako dračí rohy.
+Dialogue: 0,0:05:11.89,0:05:15.54,Flashback,Bark,0000,0000,0000,,Všude se říkalo, že by země prosperovala, kdyby usedl na trůn.
+Dialogue: 0,0:05:18.35,0:05:20.54,Flashback,Bark,0000,0000,0000,,Ale masivní velikost jeho penisu mu způsobila neštěstí,
+Dialogue: 0,0:05:21.57,0:05:24.05,Flashback,Bark,0000,0000,0000,,a odešel z tohoto světa.
+Dialogue: 0,0:05:24.53,0:05:27.66,Flashback,Bark,0000,0000,0000,,On byl skvělým příkladem pravého krále.
+Dialogue: 0,0:05:27.66,0:05:30.17,Flashback,Hata,0000,0000,0000,,T-To není pravda, brácho!
+Dialogue: 0,0:05:30.17,0:05:33.31,Flashback,Hata,0000,0000,0000,,Jsi stejně dobrý jako on! Jenom... tvůj penis...
+Dialogue: 0,0:05:35.22,0:05:36.42,Flashback,Hata,0000,0000,0000,,Promiň.
+Dialogue: 0,0:05:36.42,0:05:38.06,Flashback,Bark,0000,0000,0000,,Neomlouvej se, Hato.
+Dialogue: 0,0:05:38.86,0:05:43.79,Flashback,Bark,0000,0000,0000,,V téhle mírumilovné době půjde někomu tak laskavému, jako jsi ty, kralování mnohem lépe.
+Dialogue: 0,0:05:44.38,0:05:48.82,Flashback,Bark,0000,0000,0000,,Ale pokud tu zůstanu, mír dlouho nevydrží.
+Dialogue: 0,0:05:49.22,0:05:52.20,Flashback,Bark,0000,0000,0000,,Určitě by se znovu objevily spory o následnictví.
+Dialogue: 0,0:05:52.77,0:05:57.65,Flashback,Bark,0000,0000,0000,,Staň se králem, který miluje vše živé, Hato.
+Dialogue: 0,0:06:01.05,0:06:01.99,Flashback,Hata,0000,0000,0000,,Brácho...
+Dialogue: 0,0:06:06.94,0:06:08.55,Main,Hata,0000,0000,0000,,Brácho...
+Dialogue: 0,0:06:09.30,0:06:13.14,Main,Hata,0000,0000,0000,,To bylo o chlup! Skoro jsem už odešel na lepší místo!
+Dialogue: 0,0:06:13.14,0:06:15.56,Main,Hata,0000,0000,0000,,Co to má být? Co že se to právě děje?
+Dialogue: 0,0:06:15.56,0:06:18.07,Main,G,0000,0000,0000,,Okamžitě pusť prince, ty zmetku!
+Dialogue: 0,0:06:18.07,0:06:22.35,Main,Kat,0000,0000,0000,,Drahý princi Debile... Zaslechl jsem, že máte rád zvířata,
+Dialogue: 0,0:06:22.35,0:06:27.21,Main,Kat,0000,0000,0000,,ale v životě by mě nenapaldo, že kvůli jejich záchraně necháte postavit celou archu...
+Dialogue: 0,0:06:27.21,0:06:28.45,Main,Kat,0000,0000,0000,,Změnil jsem na vás pohled.
+Dialogue: 0,0:06:28.99,0:06:31.21,Main,Kat,0000,0000,0000,,Ale jedno byste si měl pamatovat.
+Dialogue: 0,0:06:31.21,0:06:34.58,Main,Kat,0000,0000,0000,,Zemi obývají i brutální nestvůry,\Nkteré byste nemusel zvládnout.
+Dialogue: 0,0:06:35.54,0:06:38.08,Main,Kat,0000,0000,0000,,Pošlete své zemi naléhavou zprávu!
+Dialogue: 0,0:06:38.08,0:06:40.43,Main,Kat,0000,0000,0000,,"Princův život je v nebezpečí!
+Dialogue: 0,0:06:40.43,0:06:44.09,Main,Kat,0000,0000,0000,,Shromažděte všechny vojáky v zemi a pospěšte na pomoc!
+Dialogue: 0,0:06:45.10,0:06:48.65,Main,Kat,0000,0000,0000,,Celá armáda planety Okoku musí splnit princovo přání.
+Dialogue: 0,0:06:49.54,0:06:54.35,Main,Kat,0000,0000,0000,,Musíme povstat a Ochránit Zemi před Osvobozeneckou armádou!"
+Dialogue: 0,0:06:54.35,0:06:56.65,Main,Sak,0000,0000,0000,,Zuro! Ty...
+Dialogue: 0,0:06:56.65,0:06:58.28,Main,Sak,0000,0000,0000,,Snažíš se v týhle bezvýchodný situaci
+Dialogue: 0,0:06:58.28,0:07:00.23,Internal,Sak,0000,0000,0000,,najít Zemi spojence?
+Dialogue: 0,0:07:00.23,0:07:01.98,Main,Hat,0000,0000,0000,,Šplouchá ti na maják?!
+Dialogue: 0,0:07:01.98,0:07:05.23,Main,Hat,0000,0000,0000,,Máme kvůli vám bojovat proti celému vesmíru?!
+Dialogue: 0,0:07:05.57,0:07:07.75,Main,Kat,0000,0000,0000,,Nikdo neříká, abyste bojovali.
+Dialogue: 0,0:07:07.75,0:07:10.49,Main,Kat,0000,0000,0000,,Osvobozenecká armáda se soustředí na Zemi.
+Dialogue: 0,0:07:11.00,0:07:14.27,Main,Kat,0000,0000,0000,,Jsou přesvědčeni, že nemáme jediného spojence z celého vesmíru.
+Dialogue: 0,0:07:14.74,0:07:18.25,Main,Kat,0000,0000,0000,,Co si myslíš, že by se stalo, kdyby se z čista jasna objevila spojenecká armáda?
+Dialogue: 0,0:07:18.52,0:07:30.26,sign_10514_133_Liberation_Army_,Sign,0000,0000,0000,,Osvobozenecká armáda
+Dialogue: 0,0:07:19.15,0:07:22.15,Main,Kat,0000,0000,0000,,Stačí, když odvrátíte nepřítelovu pozornost.
+Dialogue: 0,0:07:19.27,0:07:30.26,sign_10532_134_Okoku_Army_,Sign,0000,0000,0000,,Armáda Okoku
+Dialogue: 0,0:07:22.15,0:07:24.41,Main,Kat,0000,0000,0000,,Potom si můžete klidně uprchnout, pokud chcete.
+Dialogue: 0,0:07:24.27,0:07:30.26,sign_10652_137_Not_Zura___Katsu,Sign,0000,0000,0000,,Nejsem {\fs20}Zura, \N{\fs16}ale Katsura
+Dialogue: 0,0:07:24.41,0:07:30.26,Main,Kat,0000,0000,0000,,My využijeme té příležitosti, obsadíme ústředí Osvobozenecké armády a zastavíme válku.
+Dialogue: 0,0:07:30.26,0:07:33.49,Main,Kat,0000,0000,0000,,Takhle můžeš ochránit všechny druhy na Zemi.
+Dialogue: 0,0:07:33.49,0:07:36.49,Main,Hata,0000,0000,0000,,Jdi se vycpat! Nechci, aby vymřel i náš druh!
+Dialogue: 0,0:07:36.49,0:07:39.15,Main,Hata,0000,0000,0000,,Navíc, proč bych se měl zajímat o přežití Země?
+Dialogue: 0,0:07:39.15,0:07:43.27,Main,Hata,0000,0000,0000,,Já si jen doplňoval svou sbírku! \NKdo sem sakra přitáhl tohle toulavé psisko!
+Dialogue: 0,0:07:43.76,0:07:47.64,Main,Jii,0000,0000,0000,,Váš rozkaz byl shromáždit náhodné druhy ze Země, princi.
+Dialogue: 0,0:07:47.64,0:07:48.74,Main,Hata,0000,0000,0000,,Ty nedokážeš rozlišit,
+Dialogue: 0,0:07:48.74,0:07:51.40,Main,Hata,0000,0000,0000,,který druh potřebuje zachránit a který by byl\Nlepší pod drnem, dědku?
+Dialogue: 0,0:07:51.93,0:07:54.06,Main,Jii,0000,0000,0000,,Rozumím, princi.
+Dialogue: 0,0:07:54.06,0:07:57.67,Main,Jii,0000,0000,0000,,Hej, zbavte se Joi volů společně s tím bílým čunětem.
+Dialogue: 0,0:07:57.67,0:07:59.94,Main,Hata,0000,0000,0000,,Omlouvám se. Čuně nechte na pokoji, jo?
+Dialogue: 0,0:07:59.94,0:08:01.54,Main,Hata,0000,0000,0000,,Čuně přece může žít, nemyslíte?
+Dialogue: 0,0:08:02.69,0:08:03.91,Main,Jii,0000,0000,0000,,Abys rozuměl,
+Dialogue: 0,0:08:03.91,0:08:08.38,Main,Jii,0000,0000,0000,,teď tvůj život nemají v rukách Joi volové\Nnebo Osvobozenecká armáda,
+Dialogue: 0,0:08:08.38,0:08:10.48,Main,Jii,0000,0000,0000,,ale moje maličkost!
+Dialogue: 0,0:08:10.48,0:08:12.13,Main,Jii,0000,0000,0000,,Teď zachrochtej, čuně.
+Dialogue: 0,0:08:12.13,0:08:13.94,Main,Hata,0000,0000,0000,,Ch-Chro!
+Dialogue: 0,0:08:13.94,0:08:15.58,Main,Jii,0000,0000,0000,,Slyšíte, muži?
+Dialogue: 0,0:08:15.58,0:08:18.54,Main,Jii,0000,0000,0000,,Princ se vydává za prase, aby ochránil naši zemi
+Dialogue: 0,0:08:18.54,0:08:21.45,Main,Jii,0000,0000,0000,,a říká, ať ho odstřelíte spolu s nepřítelem.
+Dialogue: 0,0:08:21.45,0:08:22.40,Main,Jii,0000,0000,0000,,Zmáčkněte spoušť.
+Dialogue: 0,0:08:22.40,0:08:24.22,Main,Hata,0000,0000,0000,,Nic se nezměnilo?!
+Dialogue: 0,0:08:24.22,0:08:25.44,Main,Mad,0000,0000,0000,,Ten toulavý pes
+Dialogue: 0,0:08:26.25,0:08:28.61,Main,Mad,0000,0000,0000,,tu má kámoše.
+Dialogue: 0,0:08:30.17,0:08:35.11,Main,Mad,0000,0000,0000,,Proč se ho nezbavit společně\Ns touhle umečenou kozou?
+Dialogue: 0,0:08:35.11,0:08:36.26,Main,Hata,0000,0000,0000,,Ty!
+Dialogue: 0,0:08:36.26,0:08:39.63,Main,Kat,0000,0000,0000,,Že jste si dal načas, \Nšéfe z Imigračního.
+Dialogue: 0,0:08:39.63,0:08:42.37,Main,Mad,0000,0000,0000,,Jo. Promiňte mi to čekání.
+Dialogue: 0,0:08:42.66,0:08:46.12,Main,Mad,0000,0000,0000,,Musel jsem se sem vyškrábat až ze země.
+Dialogue: 0,0:08:46.12,0:08:47.75,Main,Mad,0000,0000,0000,,Nemějte mi to za zlé.
+Dialogue: 0,0:08:47.75,0:08:51.63,Main,Mad,0000,0000,0000,,Zbití psi mají vlastní způsob, jak vstát z popela.
+Dialogue: 0,0:08:52.23,0:08:56.76,Main,Mad,0000,0000,0000,,Musel jsem jíst psí žrádlo a plavat čubičku, abych se sem mohl dostat.
+Dialogue: 0,0:08:57.67,0:09:00.39,Main,Mad,0000,0000,0000,,Takže půjdeme, páníčku?
+Dialogue: 0,0:09:00.39,0:09:02.27,Main,Kat,0000,0000,0000,,Čas na procházku.
+Dialogue: 0,0:09:02.27,0:09:06.01,Main,Jii,0000,0000,0000,,Ne! Nechci umřít, ale ani nechci bojovat proti\NOsvobozenecké armádě!
+Dialogue: 0,0:09:06.01,0:09:08.90,Main,Hata,0000,0000,0000,,Dobře ti tak! Neměl sis tolik vyskakovat!
+Dialogue: 0,0:09:08.90,0:09:12.58,Main,Jii,0000,0000,0000,,Za všechno můžeš ty, protožes sem přitáhl tohohle chlapa,\Nabyses mu mohl pomstít!
+Dialogue: 0,0:09:12.58,0:09:14.92,Main,Hata,0000,0000,0000,,Hasegawo-san! Už toho dědka konečně zabij!
+Dialogue: 0,0:09:14.92,0:09:17.94,Main,Jii,0000,0000,0000,,Hej, Joi Volové! Budu s váma spolupracovat,\Ntak zabijte toho čuněčího prince!
+Dialogue: 0,0:09:17.94,0:09:20.84,Main,Hata,0000,0000,0000,,Zavřete mu někdo tu nevymáchanou hubu! Palte!
+Dialogue: 0,0:09:20.84,0:09:23.29,Main,Jii,0000,0000,0000,,Jen si klidně střílejte!\NAle hlavně po mně zabte to prase!
+Dialogue: 0,0:09:23.29,0:09:24.50,Main,Hata,0000,0000,0000,,Střílejte, hned!
+Dialogue: 0,0:09:24.50,0:09:25.91,Main,Jii,0000,0000,0000,,Střílejte!
+Dialogue: 0,0:09:32.22,0:09:34.17,Main,Dan,0000,0000,0000,,Vystřelil jsem,
+Dialogue: 0,0:09:34.17,0:09:36.17,Main,Dan,0000,0000,0000,,přesně, jak jste si poručili.
+Dialogue: 0,0:09:37.14,0:09:39.06,Main,Hata,0000,0000,0000,,Dane, ty zmetku!
+Dialogue: 0,0:09:46.44,0:09:47.82,Main,Kat,0000,0000,0000,,Výstřely?
+Dialogue: 0,0:09:47.82,0:09:49.35,Main,Kat,0000,0000,0000,,Zuro, co se tam děje?!
+Dialogue: 0,0:09:49.35,0:09:49.94,Main,Kat,0000,0000,0000,,Zuro!
+Dialogue: 0,0:09:54.73,0:09:57.45,Main,Dan,0000,0000,0000,,Na tento moment jsem čekal dloho....
+Dialogue: 0,0:09:57.72,0:10:01.70,Main,Dan,0000,0000,0000,,už od doby, co jste vyhostili prince Barkase.
+Dialogue: 0,0:10:02.00,0:10:05.15,Main,Dan,0000,0000,0000,,Snil jsem o okamžiku, kdy budu moci odstranit\Nty hlupáky s velkými penisy
+Dialogue: 0,0:10:05.15,0:10:08.08,Main,Dan,0000,0000,0000,,a nastolit vládu těch malých.
+Dialogue: 0,0:10:08.89,0:10:11.61,Main,Dan,0000,0000,0000,,Kdybychom se přidali na stranu Země,
+Dialogue: 0,0:10:11.61,0:10:15.21,Main,Dan,0000,0000,0000,,nejen, že by zaniklo naše království, ale i celá planeta.
+Dialogue: 0,0:10:15.21,0:10:18.59,Main,Dan,0000,0000,0000,,Alespoň na konci života přines své zemi něco dobrého
+Dialogue: 0,0:10:18.59,0:10:23.06,Main,Dan,0000,0000,0000,,a ty a tvůj neschopný penis zmizte\Nnadobro z tohoto světa.
+Dialogue: 0,0:10:21.89,0:10:24.10,Main,Kat,0000,0000,0000,,{\an8}Elizabeth... Hej, Elizabeth!
+Dialogue: 0,0:10:24.57,0:10:27.90,Main,Dan,0000,0000,0000,,Ale než navěky odejdeš, na něco bych se tě rád zeptal.
+Dialogue: 0,0:10:29.29,0:10:33.99,Main,Dan,0000,0000,0000,,Proč jsi zůstal pouze princem,\Nkdyž jsi vládl celé zemi?
+Dialogue: 0,0:10:33.99,0:10:38.07,Main,Dan,0000,0000,0000,,Proč jsi tam nechal prázdný trůn namísto toho,\Nabys začal vládnout?!
+Dialogue: 0,0:10:41.19,0:10:43.12,Internal,Shi,0000,0000,0000,,Ale vy máte krále.
+Dialogue: 0,0:10:43.12,0:10:46.21,Internal,Shi,0000,0000,0000,,Schopného muže s velkým penisem,
+Dialogue: 0,0:10:46.21,0:10:49.25,Internal,Shi,0000,0000,0000,,prince devíti draků, Dragoniu.
+Dialogue: 0,0:10:49.97,0:10:52.86,Internal,Shi,0000,0000,0000,,Tenkrát jsi řekl tohle...
+Dialogue: 0,0:10:54.43,0:10:56.94,Flashback,Hata,0000,0000,0000,,Brácho, on je přímo tady.
+Dialogue: 0,0:10:58.10,0:11:01.73,Flashback,Hata,0000,0000,0000,,Se svým velkým penisem a nesmírným talentem...\NJe přímo tady.
+Dialogue: 0,0:11:02.39,0:11:04.75,Flashback,Hata,0000,0000,0000,,Já mám velký penis
+Dialogue: 0,0:11:04.75,0:11:06.74,Flashback,Hata,0000,0000,0000,,a ty přetékáš talentem.
+Dialogue: 0,0:11:07.21,0:11:10.26,Flashback,Hata,0000,0000,0000,,Když spojíme své síly, můžeme být jako Dragonia.
+Dialogue: 0,0:11:11.67,0:11:16.74,Flashback,Hata,0000,0000,0000,,Takže zůstanu princem a počkám na tebe.
+Dialogue: 0,0:11:18.90,0:11:23.18,Main,Shi,0000,0000,0000,,"Počkám na Dragoniovu druhou polovinu."
+Dialogue: 0,0:11:24.38,0:11:25.91,Internal,Shi,0000,0000,0000,,Dane, poklekni!
+Dialogue: 0,0:11:26.93,0:11:29.41,Internal,Shi,0000,0000,0000,,Víš, co je ten muž zač?
+Dialogue: 0,0:11:29.86,0:11:31.81,Internal,Shi,0000,0000,0000,,Víš, co jsme {\i0}my{\i1} zač?
+Dialogue: 0,0:11:37.31,0:11:39.13,Internal,Shi,0000,0000,0000,,Král se vrátil.
+Dialogue: 0,0:11:54.02,0:11:55.94,Gintama,OP Card,0000,0000,0000,,
+Dialogue: 0,0:11:54.02,0:11:55.94,Silver Soul,OP Card,0000,0000,0000,,
+Dialogue: 0,0:13:07.50,0:13:09.50,Default,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:13:19.13,0:13:21.35,Internal,Shi,0000,0000,0000,,Nechal jsem svého bratra samotného
+Dialogue: 0,0:13:21.93,0:13:23.79,Internal,Shi,0000,0000,0000,,a opustil zemi,
+Dialogue: 0,0:13:24.53,0:13:28.31,Internal,Shi,0000,0000,0000,,aby mohlo mít mírumilovné království laskavého\Nkrále, kterého potřebovalo.
+Dialogue: 0,0:13:32.75,0:13:37.29,Internal,Shi,0000,0000,0000,,Věřil jsem, že se někde najde nějaké místo,\Nkam bych lépe zapadl.
+Dialogue: 0,0:13:50.91,0:13:56.36,Flashback,En,0000,0000,0000,,Oh? Netušil jsem, že mají naši pasivní soudedi někoho tak zapáleného.
+Dialogue: 0,0:13:56.36,0:13:57.98,Flashback,En,0000,0000,0000,,Co jsi zač?
+Dialogue: 0,0:14:00.15,0:14:07.65,Flashback,Shi,0000,0000,0000,,Na bitevním poli k zemi padají mrtvoly princů i\Npěšáků stejným způsobem.
+Dialogue: 0,0:14:08.07,0:14:09.74,Flashback,Shi,0000,0000,0000,,Nemám pravdu, princi Ensho?
+Dialogue: 0,0:14:11.38,0:14:14.74,Main,Shi,0000,0000,0000,,Vzdal jsem se jména, hodnosti i svého penisu
+Dialogue: 0,0:14:14.74,0:14:17.89,Main,Shi,0000,0000,0000,,a dál hledal svou vlastní zemi.
+Dialogue: 0,0:14:18.37,0:14:22.59,Main,Shi,0000,0000,0000,,Ale má cesta po tom všem
+Dialogue: 0,0:14:22.97,0:14:25.05,Internal,Shi,0000,0000,0000,,nakonec skončila tady.
+Dialogue: 0,0:14:25.50,0:14:28.06,Internal,Shi,0000,0000,0000,,Můj malý bratře, Hato.
+Dialogue: 0,0:14:28.06,0:14:32.45,Internal,Shi,0000,0000,0000,,Při pohledu na tebe, jak na mě stále ještě čekáš,\Njsem si uvědomil,
+Dialogue: 0,0:14:32.45,0:14:35.81,Internal,Shi,0000,0000,0000,,že jsem pouze a jenom utíkal.
+Dialogue: 0,0:14:36.20,0:14:40.57,Internal,Shi,0000,0000,0000,,Bojiště, na kterém jsem měl bojovat,\Njsem měl celou dobu přímo před nosem.
+Dialogue: 0,0:14:42.09,0:14:48.07,Main,Shi,0000,0000,0000,,Hato, odpusť mi. Nechal jsem tě tak dlouho bojovat samotného.
+Dialogue: 0,0:14:48.55,0:14:52.07,Main,Shi,0000,0000,0000,,Ale už nebudu nikam utíkat.
+Dialogue: 0,0:14:52.91,0:14:57.58,Main,Shi,0000,0000,0000,,Přestože na mě stání vedle mého mladšího\Nbratra s větším penisem vrhá hanebný stín,
+Dialogue: 0,0:14:58.21,0:15:03.96,Main,Shi,0000,0000,0000,,přestože mě ničila povinnost být\Nmladším bratrem oslavovaného prince,
+Dialogue: 0,0:15:04.49,0:15:07.46,Main,Shi,0000,0000,0000,,budu bojovat po tvém boku!
+Dialogue: 0,0:15:07.90,0:15:10.78,Main,Shi,0000,0000,0000,,Ukážu svůj malý penis všem na odiv!
+Dialogue: 0,0:15:12.05,0:15:16.91,Main,Shi,0000,0000,0000,,Poddaní, my jsme veliký král planety Okoku,
+Dialogue: 0,0:15:16.91,0:15:19.01,Main,Shi,0000,0000,0000,,Dragonia!
+Dialogue: 0,0:15:20.23,0:15:22.02,Main,Jii,0000,0000,0000,,P-Princi?
+Dialogue: 0,0:15:22.02,0:15:25.93,Main,Dan,0000,0000,0000,,Hloupost... On byl naživu?
+Dialogue: 0,0:15:25.93,0:15:30.86,Internal,Shi,0000,0000,0000,,Dane, v minulosti jste ze mě chtěli udělat krále.
+Dialogue: 0,0:15:30.86,0:15:35.37,Main,Shi,0000,0000,0000,,Mohl bys z respektu ke mně odložit svou zbraň?
+Dialogue: 0,0:15:36.03,0:15:40.25,Internal,Shi,0000,0000,0000,,Teď není čas na nešváry ohledně velikosti penisů.
+Dialogue: 0,0:15:40.25,0:15:44.56,Internal,Shi,0000,0000,0000,,Velcí i malí musí dát dohromady svoje síly a společně bojovat ve válce.
+Dialogue: 0,0:15:44.56,0:15:49.70,Internal,Shi,0000,0000,0000,,Proto jsme já a Hata jedním králem!
+Dialogue: 0,0:15:49.70,0:15:52.24,Internal,Shi,0000,0000,0000,,Spolupracujme a poražme Osvobozeneckou—
+Dialogue: 0,0:15:52.24,0:15:53.33,Main,Dan,0000,0000,0000,,Nenechte se ošálit!
+Dialogue: 0,0:15:53.33,0:15:55.00,Main,Dan,0000,0000,0000,,Před dávnými časy zahynul!
+Dialogue: 0,0:15:55.00,0:15:58.14,Main,Dan,0000,0000,0000,,Zahubte ten přízrak,\Nco se snaží ohrozit naší Frakci malých penisů!
+Dialogue: 0,0:15:58.14,0:16:00.52,Internal,Shi,0000,0000,0000,,Nevěříš mi, Dane?
+Dialogue: 0,0:16:00.52,0:16:04.65,Internal,Shi,0000,0000,0000,,Tak se přijď podívat! Ukážu ti svůj penis, který je stejně malý jako ten tvůj!
+Dialogue: 0,0:16:05.05,0:16:07.54,Main,Dan,0000,0000,0000,,C-Co s vámi je? Okamžitě střílejte.
+Dialogue: 0,0:16:07.54,0:16:12.15,Main,G,0000,0000,0000,,A-Ale pane, ten obrovský penis je určitě...
+Dialogue: 0,0:16:12.15,0:16:13.38,Internal,Shi,0000,0000,0000,,Obrovský penis?
+Dialogue: 0,0:16:13.90,0:16:16.79,Internal,Shi,0000,0000,0000,,Hm? O kom tam mluvíte?
+Dialogue: 0,0:16:22.04,0:16:24.08,Main,Kat,0000,0000,0000,,E-Elizabeth...
+Dialogue: 0,0:16:24.08,0:16:25.82,Main,G,0000,0000,0000,,Co to do hajzlu je?
+Dialogue: 0,0:16:25.82,0:16:29.17,Main,G,0000,0000,0000,,Elizabeth-san upadla do bezvědomí a\Nvyrostlo z ní něco strašlivého!
+Dialogue: 0,0:16:29.17,0:16:34.22,Main,Jii,0000,0000,0000,,Princi, vy si to nejspíš nepamatujete,\Nprotože jste byl ještě příliš mladý,
+Dialogue: 0,0:16:34.65,0:16:38.68,Main,Jii,0000,0000,0000,,ale já ten pohled nikdy nezapomněl.
+Dialogue: 0,0:16:39.27,0:16:42.58,Main,Jii,0000,0000,0000,,Ten obrovský penis, který připomíná dračí vous
+Dialogue: 0,0:16:42.58,0:16:46.19,Main,Jii,0000,0000,0000,,bez pochyb náleží nejstaršímu z princů planety Okoku.
+Dialogue: 0,0:16:46.69,0:16:49.32,Main,Jii,0000,0000,0000,,Tomu, který údajně zemřel při nehodě.
+Dialogue: 0,0:16:49.32,0:16:53.69,Main,Jii,0000,0000,0000,,Legendárnímu princi devíti draků, Dragoniovi!
+Dialogue: 0,0:16:56.20,0:16:58.20,Main,,0000,0000,0000,,Co prosím?!
+Dialogue: 0,0:16:58.20,0:17:00.23,Internal,Shi,0000,0000,0000,,Byl tam ještě další princ?
+Dialogue: 0,0:17:00.23,0:17:03.19,Internal,Shi,0000,0000,0000,,Takže mě nikdo neposlouchal?
+Dialogue: 0,0:17:03.19,0:17:04.87,Internal,Shi,0000,0000,0000,,Hej, Hato? Dane?
+Dialogue: 0,0:17:04.87,0:17:05.86,Internal,Shi,0000,0000,0000,,Posloucháte mě?
+Dialogue: 0,0:17:05.86,0:17:08.30,Main,Dan,0000,0000,0000,,Palte! Okamžitě začněte střílet!
+Dialogue: 0,0:17:08.98,0:17:09.38,sign_24671_273_Eight___________,Sign,0000,0000,0000,,Osm              Jedna           Dva\N\N\N\N\NSedm             Devět          Tři\N\N\N\N\NŠest               Pět         Čtyři
+Dialogue: 0,0:17:09.38,0:17:09.48,Numbers1,Sign,0000,0000,0000,,Jedna
+Dialogue: 0,0:17:09.48,0:17:09.56,Numbers1,Sign,0000,0000,0000,,Dva
+Dialogue: 0,0:17:09.56,0:17:09.65,Numbers1,Sign,0000,0000,0000,,Tři
+Dialogue: 0,0:17:09.65,0:17:09.73,Numbers1,Sign,0000,0000,0000,,Čtyři
+Dialogue: 0,0:17:09.73,0:17:09.81,Numbers1,Sign,0000,0000,0000,,Pět
+Dialogue: 0,0:17:09.81,0:17:09.90,Numbers1,Sign,0000,0000,0000,,Šest
+Dialogue: 0,0:17:09.90,0:17:09.98,Numbers1,Sign,0000,0000,0000,,Sedm
+Dialogue: 0,0:17:09.98,0:17:10.06,Numbers1,Sign,0000,0000,0000,,Osm
+Dialogue: 0,0:17:10.06,0:17:10.15,Numbers1,Sign,0000,0000,0000,,Devět
+Dialogue: 0,0:17:10.15,0:17:10.36,Numbers2,Sign,0000,0000,0000,,Jedna
+Dialogue: 0,0:17:10.36,0:17:10.52,Numbers2,Sign,0000,0000,0000,,Dva
+Dialogue: 0,0:17:10.52,0:17:10.69,Numbers2,Sign,0000,0000,0000,,Tři
+Dialogue: 0,0:17:10.69,0:17:10.86,Numbers2,Sign,0000,0000,0000,,Čtyři
+Dialogue: 0,0:17:10.86,0:17:11.02,Numbers2,Sign,0000,0000,0000,,Pět
+Dialogue: 0,0:17:11.02,0:17:11.19,Numbers2,Sign,0000,0000,0000,,Šest
+Dialogue: 0,0:17:11.19,0:17:11.36,Numbers2,Sign,0000,0000,0000,,Sedm
+Dialogue: 0,0:17:11.36,0:17:11.52,Numbers2,Sign,0000,0000,0000,,Osm
+Dialogue: 0,0:17:11.52,0:17:11.73,Numbers2,Sign,0000,0000,0000,,Devět
+Dialogue: 0,0:17:11.73,0:17:11.98,Numbers2,Sign,0000,0000,0000,,Jedna
+Dialogue: 0,0:17:11.98,0:17:12.23,Numbers2,Sign,0000,0000,0000,,Dva
+Dialogue: 0,0:17:12.23,0:17:12.48,Numbers2,Sign,0000,0000,0000,,Tři
+Dialogue: 0,0:17:12.48,0:17:12.73,Numbers2,Sign,0000,0000,0000,,Čtyři
+Dialogue: 0,0:17:12.73,0:17:12.98,Numbers2,Sign,0000,0000,0000,,Pět
+Dialogue: 0,0:17:12.98,0:17:13.23,Numbers2,Sign,0000,0000,0000,,Šest
+Dialogue: 0,0:17:13.23,0:17:13.48,Numbers2,Sign,0000,0000,0000,,Sedm
+Dialogue: 0,0:17:13.48,0:17:13.74,Numbers2,Sign,0000,0000,0000,,Osm
+Dialogue: 0,0:17:13.74,0:17:14.03,Numbers2,Sign,0000,0000,0000,,Devět
+Dialogue: 0,0:17:14.03,0:17:14.99,sign_24792_301_Nine_Headed_Drag,Sign,0000,0000,0000,,Prokletí Devítihlavého Draka
+Dialogue: 0,0:17:15.24,0:17:15.99,sign_24821_302_Nine_Headed__Dra,Sign,0000,0000,0000,,Prokletí Devítihlavého Draka!
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_303_One_,Sign,0000,0000,0000,,Jedna
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_304_Two,Sign,0000,0000,0000,,Dva
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_305_Three,Sign,0000,0000,0000,,Tři
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_306_Four,Sign,0000,0000,0000,,Čtyři
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_307_Five,Sign,0000,0000,0000,,Pět
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_308_Six,Sign,0000,0000,0000,,Šest
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_309_Seven,Sign,0000,0000,0000,,Sedm
+Dialogue: 0,0:17:15.99,0:17:16.32,sign_24839_310_Eight,Sign,0000,0000,0000,,Osm
+Dialogue: 0,0:17:16.70,0:17:16.97,sign_24856_311_Nine_,Sign,0000,0000,0000,,Devět
+Dialogue: 0,0:17:21.19,0:17:23.03,Main,Jii,0000,0000,0000,,Jaká to síla!
+Dialogue: 0,0:17:23.03,0:17:27.81,Main,Jii,0000,0000,0000,,Technika draka, který má údajně devět penisohlav.
+Dialogue: 0,0:17:27.81,0:17:30.77,Main,Hata,0000,0000,0000,,Dědku, není tohle spíš plagiátorství?
+Dialogue: 0,0:17:30.77,0:17:33.84,Default,,0,0,0,,{\c&H80ffff&\an8}[Kuzu ryu sen- technika z Rurouni Kenshin]
+Dialogue: 0,0:17:30.77,0:17:33.32,Main,Hata,0000,0000,0000,,Není to spíš nezvedené Kuzu ryu sen?
+Dialogue: 0,0:17:34.75,0:17:37.72,Main,Jii,0000,0000,0000,,Vy žijete, princi Dragonio?
+Dialogue: 0,0:17:37.72,0:17:38.41,Main,Hata,0000,0000,0000,,Ty je pouštíš?
+Dialogue: 0,0:17:38.41,0:17:42.70,Main,Jii,0000,0000,0000,,Nyní vypadáte jinak, ale nikdy nezapomenu, jak vypadal váš penis.
+Dialogue: 0,0:17:42.70,0:17:45.86,Main,Hata,0000,0000,0000,,Dědku, sice se tomu říká penis,\Nale tenhle by mohl být ten pravý!
+Dialogue: 0,0:17:45.86,0:17:48.22,Main,Hata,0000,0000,0000,,Mohlo by to být to, co normálně visí z rozkroku!
+Dialogue: 0,0:17:48.83,0:17:51.57,Main,Kat,0000,0000,0000,,Elizabeth, ty...
+Dialogue: 0,0:17:55.23,0:17:59.99,Main,Penis,0000,0000,0000,,Katsuro-san, potácel jsem se celým svým životem s tím,\Nže jsem o sobě nic nevěděl.
+Dialogue: 0,0:17:59.99,0:18:01.99,Main,Hata,0000,0000,0000,,Hm, dědku? Ten penis mluví!
+Dialogue: 0,0:18:01.99,0:18:04.80,Main,Penis,0000,0000,0000,,Kým jsem byl, kde jsem se narodil?
+Dialogue: 0,0:18:04.80,0:18:08.87,Main,Penis,0000,0000,0000,,Nikdy jsem se nad tím nezamýšlel, ani se to nesnažil zjistit.
+Dialogue: 0,0:18:08.87,0:18:11.09,Main,Hata,0000,0000,0000,,Hej, dědku! Který z nich je můj brácha?
+Dialogue: 0,0:18:11.09,0:18:13.54,Main,Hata,0000,0000,0000,,Kdo z nich je jeho tělo? \NOn jako vypadal takhle?
+Dialogue: 0,0:18:13.54,0:18:18.36,Main,Penis,0000,0000,0000,,Ale když jsem se teď silně udeřil do hlavy,\Nměl jsem vidinu.
+Dialogue: 0,0:18:18.77,0:18:25.74,Main,Penis,0000,0000,0000,,Myslím, že jsem v minulosti utrpěl\Nnehodu tak vážnou, že jsem zaponěl, kým jsem.
+Dialogue: 0,0:18:26.37,0:18:28.62,Main,Penis,0000,0000,0000,,A zatímco jsem byl na pokraji smrti...
+Dialogue: 0,0:18:35.15,0:18:36.63,sign_26737_331_From_today___you,Sign,0000,0000,0000,,Odteď jsi jedním z nás.
+Dialogue: 0,0:18:50.79,0:18:53.51,Main,Penis,0000,0000,0000,,Nevzpomínám si na detaily.
+Dialogue: 0,0:18:53.51,0:18:56.78,Main,Penis,0000,0000,0000,,Ale jednu věc si jasně pamatuji.
+Dialogue: 0,0:18:57.83,0:18:59.97,Main,Penis,0000,0000,0000,,Mé jméno je Dragonia.
+Dialogue: 0,0:18:59.97,0:19:01.61,Main,Hata,0000,0000,0000,,Dragonia... To určitě!
+Dialogue: 0,0:19:01.61,0:19:02.89,Main,Hata,0000,0000,0000,,Co měl znamenat ten flashback!?
+Dialogue: 0,0:19:02.89,0:19:05.72,Main,Hata,0000,0000,0000,,Ten týpek veprostřed ti byl mnohem podobnější!
+Dialogue: 0,0:19:05.72,0:19:09.41,Main,Hata,0000,0000,0000,,Kdo sakra jsi? Proč najednou můj\Nbrácha začal vypadat takhle?
+Dialogue: 0,0:19:09.89,0:19:12.09,Main,Jii,0000,0000,0000,,Úplně tomu všemu nerozumím,
+Dialogue: 0,0:19:12.09,0:19:14.42,Main,Jii,0000,0000,0000,,ale záleží na tom vůbec, když je jeho penis tak velký?
+Dialogue: 0,0:19:14.42,0:19:16.92,Main,Hata,0000,0000,0000,,Zajímá tě taky něco jiného než penis, zasranej dědku?
+Dialogue: 0,0:19:17.25,0:19:18.67,Main,Jii,0000,0000,0000,,Princi Dragonio!
+Dialogue: 0,0:19:18.67,0:19:22.43,Main,Jii,0000,0000,0000,,Dychtivě jsme čekali váš návrat. Návrat pravého krále!
+Dialogue: 0,0:19:22.43,0:19:24.72,Main,G,0000,0000,0000,,Princi Hato! Jste v pořádku?
+Dialogue: 0,0:19:25.50,0:19:27.22,Main,G,0000,0000,0000,,Co se tu stalo?
+Dialogue: 0,0:19:28.07,0:19:29.47,Main,G,0000,0000,0000,,Počkat! Ten penis...
+Dialogue: 0,0:19:29.47,0:19:32.22,Main,Hata,0000,0000,0000,,Hej, vy tam, zkuste do něj vtlouct trochu rozumu.
+Dialogue: 0,0:19:32.22,0:19:35.83,Main,Hata,0000,0000,0000,,Dědek tvrdí, že je tenhle monstrózní penis princ Dragonia.
+Dialogue: 0,0:19:36.33,0:19:40.55,Main,G,0000,0000,0000,,Králi, dejte nám prosím rozkaz, ať z toho drzého prasete vystřelíme duši.
+Dialogue: 0,0:19:40.55,0:19:44.36,Main,Hata,0000,0000,0000,,Nechali jste se strhnout na jeho stranu jen kvůli\Nvelikosti jeho penisu? Jste fakt primitivové!
+Dialogue: 0,0:19:44.36,0:19:46.42,Main,Jii,0000,0000,0000,,Vrátil byste se prosím domů
+Dialogue: 0,0:19:46.42,0:19:49.73,Main,Jii,0000,0000,0000,,a znovu obnovil zemi, kterou zbořil náš blbý princ?
+Dialogue: 0,0:19:49.73,0:19:50.83,Main,Hata,0000,0000,0000,,Kdo je u tebe blbej princ?
+Dialogue: 0,0:19:51.62,0:19:55.23,Main,Penis,0000,0000,0000,,Dragonia už není mou součástí.
+Dialogue: 0,0:19:55.23,0:19:56.84,sign_28657_355_That_s_just_an__,Sign,0000,0000,0000,,Je to jen prázdné jméno.
+Dialogue: 0,0:19:57.61,0:20:01.25,Main,Penis,0000,0000,0000,,Už nejsem Dragonia z planety Okoku.
+Dialogue: 0,0:20:00.36,0:20:02.59,sign_28780_357_I_ve_become_Eliz,Sign,0000,0000,0000,,Jsem Elizabeth ze Země.
+Dialogue: 0,0:20:02.94,0:20:06.09,Main,Penis,0000,0000,0000,,Takže nemám právo být králem.
+Dialogue: 0,0:20:06.09,0:20:08.89,Main,Penis,0000,0000,0000,,Ale přestože nemohu usednout na trůn,
+Dialogue: 0,0:20:08.89,0:20:13.75,Main,Penis,0000,0000,0000,,mohu vám pomoci přivést vašeho krále zpět.
+Dialogue: 0,0:20:13.75,0:20:16.09,Main,Penis,0000,0000,0000,,Žádný z těch dvou možná není sám o\Nsobě dokonalým panovníkem,
+Dialogue: 0,0:20:16.09,0:20:17.86,Main,Penis,0000,0000,0000,,ale dohromady...
+Dialogue: 0,0:20:17.86,0:20:20.61,Main,Penis,0000,0000,0000,,Ne, pokud budou mít vaši podporu,
+Dialogue: 0,0:20:20.61,0:20:23.11,Main,Penis,0000,0000,0000,,jsem si jistý, že z nich budou ohromní králové.
+Dialogue: 0,0:20:23.11,0:20:27.82,Main,Penis,0000,0000,0000,,Pomůžete nám tedy v naší válce?
+Dialogue: 0,0:20:30.21,0:20:35.93,Main,Penis,0000,0000,0000,,Země nemá v celém vesmíru nikoho,\Na proto chci, abyste se přidali na její stranu!
+Dialogue: 0,0:20:36.83,0:20:39.21,Ep Title,Title,0000,0000,0000,,{\fad(1,350)}Stříbrná duše
+Dialogue: 0,0:20:39.38,0:20:42.88,Ep Title,Title,0000,0000,0000,,{\fad(190,1)} Muži Nemají Žít Dlouze Nebo Hrubě, ale Neústupně
+Dialogue: 0,0:20:50.18,0:20:53.77,Main,G,0000,0000,0000,,Rozdělili nás na dvě části!
+Dialogue: 0,0:20:57.83,0:21:00.35,Main,G,0000,0000,0000,,Zadní voj byl napaden nepřáteli.
+Dialogue: 0,0:21:00.35,0:21:02.49,Main,G,0000,0000,0000,,Neměli bychom jim jít na pomoc?
+Dialogue: 0,0:21:03.02,0:21:05.05,Main,Dak,0000,0000,0000,,Není třeba.
+Dialogue: 0,0:21:05.05,0:21:07.27,Main,Dak,0000,0000,0000,,Nebudeme věnovat pozornost jejich dětským hrám.
+Dialogue: 0,0:21:07.27,0:21:11.12,Main,Dak,0000,0000,0000,,Takové zoufalé plány rozhodně nezmění rozdíly v počtech.
+Dialogue: 0,0:21:11.49,0:21:12.53,Main,Dak,0000,0000,0000,,Jdeme!
+Dialogue: 0,0:21:19.67,0:21:25.22,Main,Dak,0000,0000,0000,,Oh? A já myslel, že šlo jen o pouhý trik, jak nás zpomalit,
+Dialogue: 0,0:21:25.81,0:21:28.97,Main,Dak,0000,0000,0000,,ale oni se nás skutečně snaží zastavit, hm?
+Dialogue: 0,0:21:31.19,0:21:33.25,Main,Cat,0000,0000,0000,,Zdá se, že to vypuklo.
+Dialogue: 0,0:21:33.74,0:21:34.93,Main,Oto,0000,0000,0000,,Nejspíš se je snaží rozdělit
+Dialogue: 0,0:21:34.93,0:21:38.94,sign_31048_381_Kabuki_District_,Sign,0000,0000,0000,,Kabukicho
+Dialogue: 0,0:21:34.93,0:21:38.94,sign_31048_382_Divide_,Sign,0000,0000,0000,,Rozdělení
+Dialogue: 0,0:21:34.93,0:21:38.94,sign_31048_383_Oniwaban_,Sign,0000,0000,0000,,Oniwaban
+Dialogue: 0,0:21:34.93,0:21:38.94,sign_31048_384_Oniwaban_,Sign,0000,0000,0000,,Oniwaban
+Dialogue: 0,0:21:34.93,0:21:38.94,sign_31048_385_Shinsengumi_,Sign,0000,0000,0000,,Shinsengumi
+Dialogue: 0,0:21:35.30,0:21:38.94,Main,Oto,0000,0000,0000,,a co nejvíc oslabit, než se dostanou až sem.
+Dialogue: 0,0:21:38.94,0:21:41.48,sign_31144_387_Kabuki_District_,Sign,0000,0000,0000,,Kabukicho
+Dialogue: 0,0:21:40.27,0:21:41.48,Main,Oto,0000,0000,0000,,Je to tu.
+Dialogue: 0,0:21:42.98,0:21:45.29,Main,Oto,0000,0000,0000,,Snad jste všichni připravení.
+Dialogue: 0,0:21:47.42,0:21:48.99,Main,G,0000,0000,0000,,Nepřítel se blíží!
+Dialogue: 0,0:21:51.70,0:21:53.62,Main,All,0000,0000,0000,,Do nich!
+Dialogue: 0,0:21:55.19,0:21:56.87,Main,Oto,0000,0000,0000,,Bitva začíná!
+Dialogue: 0,0:22:05.34,0:22:08.80,Main,Shin,0000,0000,0000,,Gin-sane?!
+Dialogue: 0,0:22:05.76,0:22:08.80,TBC,Sign,0000,0000,0000,,{\fad(606,1)}Pokračování příště
+Dialogue: 0,0:23:38.85,0:23:49.07,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:39.66,0:23:41.73,Main,Shin,0000,0000,0000,,Wait! Time out!
+Dialogue: 0,0:23:41.73,0:23:44.31,Main,Shin,0000,0000,0000,,We're on your side! We're Odd Jobs!
+Dialogue: 0,0:23:44.85,0:23:49.75,Main,Sai,0000,0000,0000,,I hope you're prepared to \Nhave your balls plucked out!
+Dialogue: 0,0:23:49.07,0:23:50.86,Ep Title,Title,0000,0000,0000,,{\fad(1,515)}Silver Soul Arc
+Dialogue: 0,0:23:50.86,0:23:53.82,Ep Title,Title,0000,0000,0000,,{\fad(195,1)}Ogres Are Weak Against Tiny Heroes\NLike the Inch-High Samurai
+Dialogue: 0,0:23:53.82,0:23:59.33,Side Bar Top,TextR,0000,0000,0000,,The Liberation Army \Nreaches the Kabuki District,
+Dialogue: 0,0:23:53.82,0:23:59.33,Side Bar Bottom,TextL,0000,0000,0000,,and the residents must all fight together.
+Dialogue: 0,0:23:59.33,0:24:05.25,Side Bar Top,TextR,0000,0000,0000,,The back-and-forth battle \Nat the Kabuki District begins!
+Dialogue: 0,0:23:59.33,0:24:05.25,Side Bar Bottom,TextL,0000,0000,0000,,And you may have been suddenly taken \Nout, but stand up and fight, Gintoki!
+Dialogue: 0,0:24:05.25,0:24:07.25,Side Bar Bottom,,0000,0000,0000,,Thank you all for coming.

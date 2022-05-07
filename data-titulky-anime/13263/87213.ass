@@ -1,0 +1,362 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,39,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,39,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,39,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,39,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,39,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Warning,Open Sans Semibold,27,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: sign_3472_15_Smithy,Open Sans Semibold,36,&H003D4038,&H000000FF,&H00E5EBE4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,20,0
+Style: sign_30590_295_Sneak_Peek,Open Sans Semibold,33,&H007BFFF4,&H000000FF,&H00000201,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,123,549,97,1
+Style: sign_30590_296_The_Bloody_Shins,Open Sans Semibold,39,&H00DE048D,&H000000FF,&H0005040A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,115,108,127,1
+Style: sign_31431_306_The_End,Open Sans Semibold,36,&H00FBFFFD,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,640,72,121,1
+Style: Preview,Open Sans Semibold,36,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: sign_34020_316_Preview,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: sign_34053_317_Beginning_Soon,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,277,277,27,1
+Style: sign_34080_318_The_Final_Arc,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,307,301,201,1
+Style: sign_34248_322_Silver_Soul_Arc,Open Sans Semibold,39,&H00FAD8DC,&H000000FF,&H00885A22,&H00E8651C,1,0,0,0,100,100,0,0,1,1,1,8,289,289,27,1
+Style: sign_34317_323_Production_is_sm,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,211,211,27,1
+Style: sign_34328_324_you_know_what_,Open Sans Semibold,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,280,280,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.22,0:00:11.32,Default,Kus,0000,0000,0000,,My Excalibuři svou práci vykonáváme jako biologický zbraně sající krev.
+Dialogue: 0,0:00:11.86,0:00:14.66,Default,Kus,0000,0000,0000,,Jenže Maganagi je horší.
+Dialogue: 0,0:00:14.66,0:00:17.82,Default,Kus,0000,0000,0000,,Jeho hlavní potravou jsou meče, což znamená, že...
+Dialogue: 0,0:00:17.82,0:00:19.08,Default,Kus,0000,0000,0000,,Je kanibal.
+Dialogue: 0,0:00:19.08,0:00:20.70,Internal,Hij,0000,0000,0000,,Moje nejhorší domněnky se naplňujou.
+Dialogue: 0,0:00:21.16,0:00:23.08,Internal,Hij,0000,0000,0000,,Ten muž není Kat Senbe.
+Dialogue: 0,0:00:23.08,0:00:26.00,Internal,Hij,0000,0000,0000,,Ale jeho meč ano!
+Dialogue: 0,0:00:26.50,0:00:29.75,Default,Gin,0000,0000,0000,,Zdá se, že meč, kterýmu jsme se\Nsnažili obloukem vyhnout,
+Dialogue: 0,0:00:29.75,0:00:34.43,Default,Gin,0000,0000,0000,,se objevil v rukách někoho, kdo by ho neměl \Nv žádným případě vlastnit.
+Dialogue: 0,0:00:35.30,0:00:37.80,Default,Mag,0000,0000,0000,,Nic nezmizelo.
+Dialogue: 0,0:00:37.80,0:00:41.79,Default,Mag,0000,0000,0000,,Jsou přímo v mém břiše.
+Dialogue: 0,0:00:42.33,0:00:44.14,Default,Mag,0000,0000,0000,,Jak tvůj meč
+Dialogue: 0,0:00:44.99,0:00:47.02,Default,Mag,0000,0000,0000,,tak i tenhle muž.
+Dialogue: 0,0:00:54.65,0:01:00.66,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:57.53,0:01:00.66,Slip Arc,OP Card,0000,0000,0000,,Porori Ark
+Dialogue: 0,0:02:16.79,0:02:18.79,Default,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:02:18.82,0:02:24.79,Ep Title,Title,0000,0000,0000,,{\fad(444,1)}Nejsilnější a Nejtupější Meč
+Dialogue: 0,0:02:29.79,0:02:31.54,Default,Shin,0000,0000,0000,,J-Je tohle...
+Dialogue: 0,0:02:31.91,0:02:33.72,Default,Kon,0000,0000,0000,,S-Sogo?
+Dialogue: 0,0:02:35.55,0:02:37.80,Default,Hij,0000,0000,0000,,Už to není on.
+Dialogue: 0,0:02:37.80,0:02:39.15,Default,Kon,0000,0000,0000,,T-Toshi!
+Dialogue: 0,0:02:39.15,0:02:41.30,Default,Hij,0000,0000,0000,,Sakra, už je příliš pozdě.
+Dialogue: 0,0:02:41.73,0:02:44.96,Default,Gin,0000,0000,0000,,Hej, Kusanagi, neříkej mi, že...
+Dialogue: 0,0:02:46.20,0:02:52.58,Warning,Warning,0000,0000,0000,,{\fad(466,534)}Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV!!!
+Dialogue: 0,0:02:47.61,0:02:53.06,Default,Mag,0000,0000,0000,,{\an8}Uchvacuje mě, že jsi měl moc mě ovládat.
+Dialogue: 0,0:02:53.53,0:02:59.27,Default,Mag,0000,0000,0000,,Nikdy předtím mě nikdo takto nezesměšnil. \NZatím žádné tělo mi nedalo tolik zabrat.
+Dialogue: 0,0:02:59.27,0:03:02.57,Default,Mag,0000,0000,0000,,Tys byl první, mistře.
+Dialogue: 0,0:03:02.57,0:03:08.33,Default,Mag,0000,0000,0000,,Ale tvé naprosto jedinečné, nadlidské tělo a mysl
+Dialogue: 0,0:03:08.77,0:03:12.58,Default,Mag,0000,0000,0000,,nyní patří mně, Maganagimu.
+Dialogue: 0,0:03:12.58,0:03:15.58,Default,Mag,0000,0000,0000,,Nejmocnější meč a nejmocnější \Nnositel se nyní sjednotili.
+Dialogue: 0,0:03:15.58,0:03:20.22,Default,Mag,0000,0000,0000,,Nakonec jsem našel sílu, která nemá po celém vesmíru konkurence.
+Dialogue: 0,0:03:20.54,0:03:25.97,Default,Kus,0000,0000,0000,,Nechal se pohltit! Toho týpka pohltil Maganagi!
+Dialogue: 0,0:03:25.97,0:03:26.47,Default,Hij,0000,0000,0000,,Zajměte ho!
+Dialogue: 0,0:03:28.79,0:03:32.48,Default,Mag,0000,0000,0000,,To se podívejme, copak to provádíte \Njednomu z vašich lidí?
+Dialogue: 0,0:03:32.48,0:03:34.41,Default,Kon,0000,0000,0000,,H-Hej, Toshi!
+Dialogue: 0,0:03:34.41,0:03:38.19,Default,Hij,0000,0000,0000,,Pro teď mi prostě věř. \NOn není Sogo.
+Dialogue: 0,0:03:38.74,0:03:40.59,Default,Hij,0000,0000,0000,,Tvá pitomá hra je u konce.
+Dialogue: 0,0:03:40.59,0:03:43.61,Default,Hij,0000,0000,0000,,Všichni víme, kdo ve skutečnosti jsi.\NOdhoď ten meč.
+Dialogue: 0,0:03:45.61,0:03:49.58,Default,Mag,0000,0000,0000,,Co to říkáte? Právě jsem veprostřed souboje na život a na smrt.
+Dialogue: 0,0:03:50.05,0:03:53.87,Default,Mag,0000,0000,0000,,Kdybych ho odhodil, mé tělo by skončilo na dvě poloviny.
+Dialogue: 0,0:03:54.24,0:03:57.63,Default,Hij,0000,0000,0000,,A pokud to neuděláš, na ty dvě poloviny tě rozříznu já.
+Dialogue: 0,0:03:58.09,0:03:59.88,Default,Mag,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:04:00.69,0:04:02.77,Default,Mag,0000,0000,0000,,Zvládli byste mě rozřezat?
+Dialogue: 0,0:04:02.77,0:04:05.92,Default,Mag,0000,0000,0000,,Protože já dokážu rozříznout vše.
+Dialogue: 0,0:04:08.26,0:04:09.77,Default,Kon,0000,0000,0000,,N-Naše meče!
+Dialogue: 0,0:04:11.27,0:04:14.40,Default,Mag,0000,0000,0000,,Je mi zle z pojídání tupých mečů.
+Dialogue: 0,0:04:15.27,0:04:16.70,Default,Kon,0000,0000,0000,,Sogo!
+Dialogue: 0,0:04:18.78,0:04:21.40,Default,Gin,0000,0000,0000,,Hej, po něm přece nejdeš.
+Dialogue: 0,0:04:21.40,0:04:24.15,Default,Gin,0000,0000,0000,,Já jsem tvůj protivník.
+Dialogue: 0,0:04:26.66,0:04:29.65,Default,Hij,0000,0000,0000,,Hej! To ty očividně jdeš po někom špatným!
+Dialogue: 0,0:04:29.65,0:04:32.09,Default,Hij,0000,0000,0000,,Proč jsi to hovno hodil do {\i1}mýho{\i0} ksichtu?
+Dialogue: 0,0:04:32.09,0:04:36.67,Default,Gin,0000,0000,0000,,To jsem nebyl já. Prostě ho tvůj obličej přitáhl k sobě, \Njako kdyby šlo domů tam, kam patří.
+Dialogue: 0,0:04:36.67,0:04:38.74,Default,Hij,0000,0000,0000,,Podle tebe je můj obličej hajzl?!
+Dialogue: 0,0:04:38.74,0:04:40.30,Default,Hij,0000,0000,0000,,Já ho fakt zabiju.
+Dialogue: 0,0:04:40.30,0:04:41.38,Default,Hij,0000,0000,0000,,Počkej, Toshi.
+Dialogue: 0,0:04:41.38,0:04:42.31,Default,Tet,0000,0000,0000,,Gin-sane...
+Dialogue: 0,0:04:42.31,0:04:43.32,Default,Gin,0000,0000,0000,,Stůjte.
+Dialogue: 0,0:04:43.74,0:04:46.87,Default,Gin,0000,0000,0000,,Tohle je pravej souboj. Nepleťte se do něj.
+Dialogue: 0,0:04:47.31,0:04:49.85,Default,Tet,0000,0000,0000,,Gin-sane, teď není vhodná chvíle.
+Dialogue: 0,0:04:49.85,0:04:52.76,Default,Shin,0000,0000,0000,,Má pravdu. I když chceš bojovat,\N tvůj meč je v hajzlu.
+Dialogue: 0,0:04:52.76,0:04:54.14,Default,Gin,0000,0000,0000,,Ale já mám meč přímo tady.
+Dialogue: 0,0:04:54.55,0:04:57.91,Default,Gin,0000,0000,0000,,Nejlepší meč a vlastník ve vesmíru?
+Dialogue: 0,0:04:57.91,0:05:01.90,Default,Gin,0000,0000,0000,,Co je na tom tak děsivýho? \NUměj jen řezat.
+Dialogue: 0,0:05:02.51,0:05:08.05,Default,Gin,0000,0000,0000,,On je nejtupější meč a já chlap s \Nnejucpanějším zadkem ve vesmíru.
+Dialogue: 0,0:05:08.05,0:05:10.14,Default,Gin,0000,0000,0000,,Ani ty nás nesložíš.
+Dialogue: 0,0:05:10.14,0:05:11.91,Default,Shin,0000,0000,0000,,Máte jen mínusy!
+Dialogue: 0,0:05:12.25,0:05:14.16,Default,Kus,0000,0000,0000,,G-Gintoki-han!
+Dialogue: 0,0:05:14.16,0:05:15.44,Default,Gin,0000,0000,0000,,Maganagi...
+Dialogue: 0,0:05:15.94,0:05:18.67,Default,Gin,0000,0000,0000,,Klidně si je zažeň do kouta,
+Dialogue: 0,0:05:18.67,0:05:23.66,Default,Gin,0000,0000,0000,,ale přesto se ti nikdy nepodaří přetrhnout\N pouto mezi ním a Pouzdřenkou.
+Dialogue: 0,0:05:23.66,0:05:25.17,Default,Sca,0000,0000,0000,,So-kune!
+Dialogue: 0,0:05:25.17,0:05:27.74,Default,Sca,0000,0000,0000,,Co se děje, So-kune?!
+Dialogue: 0,0:05:27.74,0:05:30.85,Default,Shin,0000,0000,0000,,Jenže ono už přetržený je! \NMá nás totálně u prdele!
+Dialogue: 0,0:05:31.32,0:05:35.23,Default,Gin,0000,0000,0000,,Přestože ztratila svoje vzpomínky, příslib mezi mužem a ženou...
+Dialogue: 0,0:05:36.02,0:05:39.21,Default,Gin,0000,0000,0000,,z jejich těl nikdy nevymizí stejně tak,
+Dialogue: 0,0:05:39.21,0:05:41.15,Default,Gin,0000,0000,0000,,jako zvrhlý vzpomínky na rozkoš a s**!
+Dialogue: 0,0:05:41.48,0:05:44.12,Default,Shin,0000,0000,0000,,Nakonec jsou spojený jen úchylárnama!
+Dialogue: 0,0:05:44.87,0:05:48.11,Default,Mag,0000,0000,0000,,Hlupáku. Pokud chceš bojovat s tak krátkým mečem,
+Dialogue: 0,0:05:48.11,0:05:50.78,Default,Mag,0000,0000,0000,,jsi nucen vstoupit blíž k \Nohnisku nepřítelova dosahu.
+Dialogue: 0,0:05:51.30,0:05:56.41,Default,Mag,0000,0000,0000,,A jakmile je má síla probuzena, \Njsou všechny meče v mém dosahu tupé a k ničemu!
+Dialogue: 0,0:05:56.41,0:05:58.45,Default,Kus,0000,0000,0000,,Ne! Nedotýkej se ho!
+Dialogue: 0,0:05:58.45,0:06:01.17,Default,Kus,0000,0000,0000,,Když se ho teď dotknu,\Nsežere mě!
+Dialogue: 0,0:06:01.49,0:06:03.35,Default,Kus,0000,0000,0000,,Gintoki-han!
+Dialogue: 0,0:06:05.63,0:06:07.84,Default,Gin,0000,0000,0000,,Nemám se ho dotýkat? Seš úplně blbej?
+Dialogue: 0,0:06:08.25,0:06:10.55,Default,Gin,0000,0000,0000,,Boj na život a na smrt tohle vyžaduje.
+Dialogue: 0,0:06:11.30,0:06:14.93,Default,Kon,0000,0000,0000,,Kecy. On dokáže přečíst Sogovy pohyby?
+Dialogue: 0,0:06:15.29,0:06:18.69,Default,Gin,0000,0000,0000,,Možná to nechápeš, protože měníš těla jak ponožky,
+Dialogue: 0,0:06:19.10,0:06:21.70,Default,Gin,0000,0000,0000,,ale bude po nás, jestli nás zasáhne.
+Dialogue: 0,0:06:21.70,0:06:24.69,Default,Gin,0000,0000,0000,,Váhání nám tady fakt nepomůže.
+Dialogue: 0,0:06:24.69,0:06:26.42,Default,Gin,0000,0000,0000,,Když přijde na souboj na život a na smrt,
+Dialogue: 0,0:06:26.42,0:06:32.08,Default,Gin,0000,0000,0000,,jen blázni dost střelený na to, aby šli bez výzbroje vstříc smrtelýmu nebezpečí, jsou pro tohle jak stvořený.
+Dialogue: 0,0:06:32.08,0:06:33.58,Default,Gin,0000,0000,0000,,Že, Okito-kun?
+Dialogue: 0,0:06:33.58,0:06:34.83,Default,Gin,0000,0000,0000,,Oh, ty vlastně nejsi on.
+Dialogue: 0,0:06:35.83,0:06:39.58,Default,Gin,0000,0000,0000,,Jeho pohyby nejdou tak snadno přečíst.
+Dialogue: 0,0:06:39.58,0:06:43.20,Default,Gin,0000,0000,0000,,Proč jsi vlastně vůbec ovládl jeho tělo?
+Dialogue: 0,0:06:43.20,0:06:44.87,Default,Mag,0000,0000,0000,,Ty!
+Dialogue: 0,0:06:46.09,0:06:50.09,Default,Gin,0000,0000,0000,,Nevím a ani mě nezajímá, koik ostří jsi za život sežral.
+Dialogue: 0,0:06:50.09,0:06:54.22,Default,Gin,0000,0000,0000,,Ale vím, že jsem jich porazil mnohem víc!
+Dialogue: 0,0:07:00.35,0:07:04.47,Default,Kus,0000,0000,0000,,D-Do hajzlu... Gintoki-han, nemůžu pokračovat.
+Dialogue: 0,0:07:04.47,0:07:08.61,Default,Kus,0000,0000,0000,,V-Viagra přestala p-působit.
+Dialogue: 0,0:07:08.97,0:07:11.06,Default,Gin,0000,0000,0000,,He? No tak to počkat!
+Dialogue: 0,0:07:11.06,0:07:15.62,Default,Gin,0000,0000,0000,,Tohle teď nemůžeš udělat! A ani se nepamatuju, \Nže bych ti kdy dával viagru!
+Dialogue: 0,0:07:15.62,0:07:20.19,Default,Kus,0000,0000,0000,,Zavři hubu! Už jsem říkal, že jediný co mám, je rychlost!
+Dialogue: 0,0:07:20.19,0:07:23.14,Default,Kus,0000,0000,0000,,Za všechno můžeš ty, protože jsi natahoval předehru!
+Dialogue: 0,0:07:23.14,0:07:25.25,Default,Gin,0000,0000,0000,,Moje předehra vůbec netrvala dloho, ty bastarde!
+Dialogue: 0,0:07:25.25,0:07:28.14,Default,Gin,0000,0000,0000,,Sakra napřími se! \NTohle je ještě horší než fakt, že seš tupej!
+Dialogue: 0,0:07:28.14,0:07:30.24,Default,Gin,0000,0000,0000,,Seš jak rozmočená křupka!
+Dialogue: 0,0:07:30.24,0:07:34.93,Default,Kag,0000,0000,0000,,Neboj, Gin-chane! Sýrová příchuť je úžasná, i když jsou rozmočený!
+Dialogue: 0,0:07:34.93,0:07:36.26,Default,Gin,0000,0000,0000,,Ty zavři hubu!
+Dialogue: 0,0:07:37.74,0:07:40.68,Default,Mag,0000,0000,0000,,Nechal sis uniknout svou jedinou šanci.
+Dialogue: 0,0:07:40.68,0:07:43.15,Default,Mag,0000,0000,0000,,Díky za pomocnou radu!
+Dialogue: 0,0:07:47.65,0:07:49.28,Internal,Gin,0000,0000,0000,,Jeho pohyby jsou ostřejší!
+Dialogue: 0,0:07:49.28,0:07:53.94,Default,Mag,0000,0000,0000,,Myslel sis, že ovládám jen své nynější tělo?
+Dialogue: 0,0:07:54.35,0:08:00.79,Default,Mag,0000,0000,0000,,Jsem plný zkušeností a taktik, které jsem \Nvstřebal ze všech předchozích těl, co jsem kdy pohltil.
+Dialogue: 0,0:08:00.79,0:08:03.15,Default,Mag,0000,0000,0000,,A jakmile si zvyknu na své nové tělo,
+Dialogue: 0,0:08:03.15,0:08:06.04,Default,Mag,0000,0000,0000,,vydám ze sebe více síly, \Nnež kolik ji má schránka kdy měla.
+Dialogue: 0,0:08:06.51,0:08:07.95,Default,Mag,0000,0000,0000,,Víš proč?
+Dialogue: 0,0:08:07.95,0:08:15.36,Default,Mag,0000,0000,0000,,Protože jsem porazil a snědl mnohem víc těl, \Nnež v kolik ty můžeš jen doufat!
+Dialogue: 0,0:08:15.83,0:08:17.93,Default,Gin,0000,0000,0000,,Asi se mu neříká prokletej \Nmeč jen pro nic za nic.
+Dialogue: 0,0:08:18.25,0:08:19.31,Default,Shin,0000,0000,0000,,T-Tohle je zlý.
+Dialogue: 0,0:08:19.65,0:08:22.81,Default,Shin,0000,0000,0000,,Musí se vyhnout kontaktu s mečem. \NA Kusanagi-san je úplně plonkovej!
+Dialogue: 0,0:08:22.81,0:08:26.06,Internal,Gin,0000,0000,0000,,Musím něco udělat, jinak to projedu.
+Dialogue: 0,0:08:26.06,0:08:27.06,Default,Shin,0000,0000,0000,,Gin-sane!
+Dialogue: 0,0:08:30.62,0:08:33.57,Default,Sca,0000,0000,0000,,Stačí! Oba toho nechte!
+Dialogue: 0,0:08:33.57,0:08:35.07,Default,Kus,0000,0000,0000,,P-Pouzdřenko.
+Dialogue: 0,0:08:35.74,0:08:36.57,Default,Mag,0000,0000,0000,,Oh?
+Dialogue: 0,0:08:36.57,0:08:40.19,Default,Sca,0000,0000,0000,,Nebojujte o mě.
+Dialogue: 0,0:08:40.19,0:08:44.58,Default,Sca,0000,0000,0000,,Už se dál nemůžu dívat, jak někdo ubližuje So-kunovi!
+Dialogue: 0,0:08:44.58,0:08:47.25,Default,Kus,0000,0000,0000,,C-Co to povídáš, Pouzdřenko?
+Dialogue: 0,0:08:47.25,0:08:51.10,Default,Kus,0000,0000,0000,,T-Tohle není ani tvůj meč, ani So-kun.
+Dialogue: 0,0:08:51.10,0:08:55.11,Default,Kus,0000,0000,0000,,On je prokletej meč Maganagi, \Nten, co nám málem udělal ze života peklo!
+Dialogue: 0,0:08:55.11,0:08:59.18,Default,Sca,0000,0000,0000,,Drž hubu, dědku! Ty seš mi absolutně u šumák!
+Dialogue: 0,0:08:59.18,0:09:02.69,Default,Sca,0000,0000,0000,,Zajímá mě jen So-kunovo bezpečí.
+Dialogue: 0,0:09:02.69,0:09:04.78,Default,Kus,0000,0000,0000,,P-Pouzdřenko...
+Dialogue: 0,0:09:04.78,0:09:09.48,Default,Kus,0000,0000,0000,,Nezapomněla jsi jenom na mě, ale i na Maganagiho?
+Dialogue: 0,0:09:09.48,0:09:12.86,Default,Sca,0000,0000,0000,,Prosím tě, So-kune. Přestaň...
+Dialogue: 0,0:09:16.11,0:09:17.94,Default,Kus,0000,0000,0000,,Pouzdřenko!
+Dialogue: 0,0:09:17.94,0:09:20.08,Default,Kus,0000,0000,0000,,Maganagi, ty hajzle!
+Dialogue: 0,0:09:20.08,0:09:26.29,Default,Mag,0000,0000,0000,,Kusanagi, zdá se, že tupá tady není jen tvá čepel.
+Dialogue: 0,0:09:26.89,0:09:29.79,Default,Mag,0000,0000,0000,,Ona na nic nezapomněla.
+Dialogue: 0,0:09:30.27,0:09:34.18,Default,Mag,0000,0000,0000,,Nezapomněla nic o mně, ani o tobě.
+Dialogue: 0,0:09:34.18,0:09:36.13,Default,Mag,0000,0000,0000,,V první řadě o ničem nevěděla.
+Dialogue: 0,0:09:36.70,0:09:39.39,Default,Kus,0000,0000,0000,,Nevěděla? Co tím chceš říct?
+Dialogue: 0,0:09:39.74,0:09:41.98,Default,Mag,0000,0000,0000,,Tobě to ještě nedošlo?
+Dialogue: 0,0:09:41.98,0:09:46.31,Default,Mag,0000,0000,0000,,To pouzdro není moje ani tvoje.
+Dialogue: 0,0:09:46.31,0:09:50.02,Default,Mag,0000,0000,0000,,Je to tvá dcera, Pouzdřička.
+Dialogue: 0,0:09:50.02,0:09:51.40,Default,Kus,0000,0000,0000,,Co že?
+Dialogue: 0,0:09:52.07,0:09:54.65,Default,Tet,0000,0000,0000,,Jak jako dcera? \NJak se sakra narodila?
+Dialogue: 0,0:09:54.65,0:09:56.84,Default,Mag,0000,0000,0000,,Nedivím se, že sis je spletl.
+Dialogue: 0,0:09:56.84,0:10:00.02,Default,Mag,0000,0000,0000,,Pouzdřička vypadá jako její kopie za mlada.
+Dialogue: 0,0:10:01.11,0:10:07.66,Default,Mag,0000,0000,0000,,Pouzdřenka byla těhotná, už když jste se od sebe oddělili.
+Dialogue: 0,0:10:08.18,0:10:10.99,Default,Mag,0000,0000,0000,,Sama ji vychovala
+Dialogue: 0,0:10:10.99,0:10:15.42,Default,Mag,0000,0000,0000,,doufajíc, že spolu vy tři budete jednoho dne žít jako rodina.
+Dialogue: 0,0:10:16.77,0:10:18.53,Default,Mag,0000,0000,0000,,Ale byla matkou bez manžela.
+Dialogue: 0,0:10:18.53,0:10:22.97,Default,Mag,0000,0000,0000,,Pro pozdro bez meče bylo těžké uchránit své dítě.
+Dialogue: 0,0:10:22.97,0:10:28.35,Default,Mag,0000,0000,0000,,Tudíž se nabízela spoustě cizích mečů,
+Dialogue: 0,0:10:28.85,0:10:33.00,Default,Mag,0000,0000,0000,,i když zrazovala vlastního manžela.
+Dialogue: 0,0:10:33.00,0:10:37.82,Default,Mag,0000,0000,0000,,Ale v tu dobu už byla kompletně vyčerpaná.
+Dialogue: 0,0:10:38.30,0:10:42.20,Default,Kus,0000,0000,0000,,P-Proč? proč tohle všechno víš?!
+Dialogue: 0,0:10:42.20,0:10:47.33,Default,Mag,0000,0000,0000,,Není to zřejmé? To protože jsem ji podal \Npomocnou ruku z pekla, ve kterém se nacházela.
+Dialogue: 0,0:10:47.69,0:10:51.36,Default,Mag,0000,0000,0000,,Byl jsem to já, kdo oprostil Pouzdřenku od všech jejích trápení,
+Dialogue: 0,0:10:51.36,0:10:54.71,Default,Mag,0000,0000,0000,,nikoliv ten tupec, co jí nikdy nepřišel na pomoc.
+Dialogue: 0,0:10:55.89,0:10:58.09,Default,Kus,0000,0000,0000,,Neříkej mi, že...
+Dialogue: 0,0:10:58.41,0:11:04.10,Default,Mag,0000,0000,0000,,Jsem tu jen kvůli slibu, kterým jsem se jí zavázal.
+Dialogue: 0,0:11:05.22,0:11:07.16,Flashback,Sca,0000,0000,0000,,Je mi jedno, co se mnou bude.
+Dialogue: 0,0:11:07.69,0:11:10.94,Flashback,Sca,0000,0000,0000,,Ale prosím, pomož se těm dvěma spolu setkat.
+Dialogue: 0,0:11:10.94,0:11:16.50,Flashback,Sca,0000,0000,0000,,Stačí jen jeden pohled. Ukaž mu, že je jeho dcera živá a zdravá.
+Dialogue: 0,0:11:18.97,0:11:24.74,Flashback,Sen,0000,0000,0000,,Jeden pohled? Zdám se ti tak bezcitný?
+Dialogue: 0,0:11:25.01,0:11:28.95,Default,Mag,0000,0000,0000,,Dám tvou celou rodinu dohromady.
+Dialogue: 0,0:11:28.95,0:11:31.87,Default,Mag,0000,0000,0000,,Všichni tři se můžete setkat v mém břiše.
+Dialogue: 0,0:11:32.85,0:11:36.74,Default,Kus,0000,0000,0000,,Maganagi, ty...
+Dialogue: 0,0:11:37.95,0:11:39.01,Default,Gin,0000,0000,0000,,K-Kusanagi!
+Dialogue: 0,0:11:39.66,0:11:41.01,Internal,Gin,0000,0000,0000,,On se ho snad... dotkl?
+Dialogue: 0,0:11:41.01,0:11:47.11,Default,Gin,0000,0000,0000,,Jak jsem řekl. \NV momentě, co jsi mě oblafl, byl tvůj osud zpečetěn.
+Dialogue: 0,0:11:47.11,0:11:49.55,Default,Kus,0000,0000,0000,,P-Počkej, Maganagi!
+Dialogue: 0,0:11:49.55,0:11:54.27,Default,Mag,0000,0000,0000,,Nedělej si starosti. Po tobě tam pošlu i tvou dceru.
+Dialogue: 0,0:11:54.72,0:11:57.85,Default,Mag,0000,0000,0000,,Nenáviď svou tupou čepel.
+Dialogue: 0,0:11:57.85,0:12:01.78,Default,Mag,0000,0000,0000,,Nenáviď své bláznovství, když sis myslel, \Nže mě dokážeš přemoci.
+Dialogue: 0,0:12:02.14,0:12:03.33,Default,Kus,0000,0000,0000,,Dost!
+Dialogue: 0,0:12:03.33,0:12:07.78,Default,Kus,0000,0000,0000,,Zastav, Maganagi!
+Dialogue: 0,0:12:17.79,0:12:20.68,Default,Kus,0000,0000,0000,,Zastav, Maganagi!
+Dialogue: 0,0:12:20.68,0:12:22.02,Default,Kus,0000,0000,0000,,Nech ji na pokoji!
+Dialogue: 0,0:12:22.02,0:12:25.58,Default,Kus,0000,0000,0000,,Nech naši... Nech naši dceru na pokoji!
+Dialogue: 0,0:12:29.18,0:12:30.68,Default,Shin,0000,0000,0000,,Kusanagi-san!
+Dialogue: 0,0:12:35.78,0:12:37.69,Default,Mag,0000,0000,0000,,Je konec...
+Dialogue: 0,0:12:39.69,0:12:41.07,Default,Mag,0000,0000,0000,,Nemůžu se hnout?
+Dialogue: 0,0:12:41.07,0:12:44.07,Default,Oki,0000,0000,0000,,Zastav. Krapet předbíháš.
+Dialogue: 0,0:12:47.09,0:12:50.41,Default,Oki,0000,0000,0000,,Ještě je brzo. Do žádnýho pouzdra teď nepůjdeš.
+Dialogue: 0,0:12:50.41,0:12:52.08,Default,Mag,0000,0000,0000,,T-Ty...
+Dialogue: 0,0:12:52.46,0:12:54.08,Default,Kon,0000,0000,0000,,S-Sogo?
+Dialogue: 0,0:12:54.47,0:12:59.96,Internal,Mag,0000,0000,0000,,Jak je to možné? Posedl jsem tvou mysl!
+Dialogue: 0,0:13:00.79,0:13:05.22,Internal,Mag,0000,0000,0000,,T-To pouzdro... Ne, to je nemožné.
+Dialogue: 0,0:13:05.93,0:13:10.06,Internal,Mag,0000,0000,0000,,Já, Maganagi, nemám sílu ovládat tohoto muže?
+Dialogue: 0,0:13:10.06,0:13:12.47,Default,Oki,0000,0000,0000,,Duel pořád neskončil.
+Dialogue: 0,0:13:14.23,0:13:18.20,Default,Oki,0000,0000,0000,,Ješte není po nich.
+Dialogue: 0,0:13:23.07,0:13:24.49,Default,Mag,0000,0000,0000,,Co ty...
+Dialogue: 0,0:13:25.41,0:13:28.72,Default,Mag,0000,0000,0000,,Co plánuješ s tou ztrouchnivělou, tupou čepelí?
+Dialogue: 0,0:13:29.37,0:13:33.50,Default,Mag,0000,0000,0000,,Kusanagi je mrtvý. \NJe po všem.
+Dialogue: 0,0:13:34.29,0:13:38.18,Default,Mag,0000,0000,0000,,Pouzdro, po kterém pátral, je také už dlouho pryč.
+Dialogue: 0,0:13:38.18,0:13:41.70,Default,Mag,0000,0000,0000,,Prohráli jste proti mě, Maganagimu.
+Dialogue: 0,0:13:42.33,0:13:44.76,Default,Gin,0000,0000,0000,,Oh, ale to pouzdro je přímo tady.
+Dialogue: 0,0:13:45.51,0:13:47.87,Default,Gin,0000,0000,0000,,Copak ji nevidíš?
+Dialogue: 0,0:13:47.87,0:13:52.10,Default,Gin,0000,0000,0000,,Dál chrání svůj meč, přestože jsou od sebe oddělený.
+Dialogue: 0,0:13:52.77,0:13:57.64,Default,Gin,0000,0000,0000,,Nevidíš to pouzdro, co do samotnýho konce chránilo svýho muže a dceru?
+Dialogue: 0,0:13:58.21,0:14:00.47,Default,Gin,0000,0000,0000,,Nezáleží na tom, kolikrát se jeho čepel rotříští,
+Dialogue: 0,0:14:00.47,0:14:04.65,Default,Gin,0000,0000,0000,,jeho duše na sobě nemá jediný škrábanec.
+Dialogue: 0,0:14:04.65,0:14:09.03,Default,Gin,0000,0000,0000,,Když se pravému mistrovskému dílu roztříští ostří,
+Dialogue: 0,0:14:09.03,0:14:12.50,Default,Gin,0000,0000,0000,,může se znova a znova překovávat, \Ndokud bude držet jeho srdce pohromadě.
+Dialogue: 0,0:14:12.50,0:14:15.99,Default,Gin,0000,0000,0000,,Může se oživit znova a znova, \Ndokud je ponořenej v ohni.
+Dialogue: 0,0:14:15.99,0:14:19.42,Default,Gin,0000,0000,0000,,Ten oheň ještě neuhasl, Kusanagi.
+Dialogue: 0,0:14:19.42,0:14:24.30,Default,Gin,0000,0000,0000,,Můj životní plamen pořád jasně hoří!
+Dialogue: 0,0:14:24.69,0:14:26.31,Default,Kag,0000,0000,0000,,Gin-chane!
+Dialogue: 0,0:14:26.31,0:14:29.48,Default,Mag,0000,0000,0000,,N-Nemožné! Zarazil si meč do vlastního zadku?
+Dialogue: 0,0:14:29.48,0:14:31.93,Default,Mag,0000,0000,0000,,O-On snad...
+Dialogue: 0,0:14:31.93,0:14:35.43,Default,Gin,0000,0000,0000,,Tohle je naposled, co mi můžeš vysát mou krev, debile.
+Dialogue: 0,0:14:35.43,0:14:39.44,Default,Gin,0000,0000,0000,,Vypij si jí tolik, kolik potřebuješ!
+Dialogue: 0,0:14:39.77,0:14:42.99,Default,Mag,0000,0000,0000,,Ne! Krmí Kusanagiho svou vlastní krví?!
+Dialogue: 0,0:14:44.41,0:14:47.32,Default,Mag,0000,0000,0000,,Snaží se ho oživit?
+Dialogue: 0,0:14:47.32,0:14:50.59,Default,Mag,0000,0000,0000,,Zajímá ho vůbec vlastní život?
+Dialogue: 0,0:14:52.42,0:14:55.21,Default,Oki,0000,0000,0000,,Opravdu děsnej samuraj.
+Dialogue: 0,0:14:55.21,0:14:57.90,Default,Oki,0000,0000,0000,,Takže on se nechrání mečem.
+Dialogue: 0,0:14:57.90,0:15:02.08,Default,Oki,0000,0000,0000,,Sám se stal pouzdrem, co chrání svůj meč.
+Dialogue: 0,0:15:03.08,0:15:04.74,Default,Oki,0000,0000,0000,,Zajímavý.
+Dialogue: 0,0:15:05.27,0:15:07.55,Default,Oki,0000,0000,0000,,Šéf je opravdu
+Dialogue: 0,0:15:09.09,0:15:10.43,Default,Oki,0000,0000,0000,,zajímavej.
+Dialogue: 0,0:15:11.22,0:15:12.97,Default,Kon,0000,0000,0000,,S-Sogo!
+Dialogue: 0,0:15:12.97,0:15:15.18,Default,Mag,0000,0000,0000,,C-Co děláš?!
+Dialogue: 0,0:15:15.18,0:15:18.08,Default,Oki,0000,0000,0000,,Duel musí být fér, jinak to je nuda.
+Dialogue: 0,0:15:18.08,0:15:20.48,Default,Oki,0000,0000,0000,,Taky se můžeš napít, jestli máš žízeň.
+Dialogue: 0,0:15:21.17,0:15:23.98,Default,Oki,0000,0000,0000,,{\i1}Jestli{\i0} mě teda vůbec dokážeš pohltit.
+Dialogue: 0,0:15:28.37,0:15:32.74,Default,Mag,0000,0000,0000,,Dobře! Vypiju tvou krev do poslední kapky!
+Dialogue: 0,0:15:40.49,0:15:41.33,Default,All,0000,0000,0000,,Gin-sane!
+Dialogue: 0,0:15:41.33,0:15:42.58,Default,Bo,0000,0000,0000,,Sogo!
+Dialogue: 0,0:16:10.18,0:16:12.82,Default,Shin,0000,0000,0000,,Gin-sane... Okito-san...
+Dialogue: 0,0:16:15.65,0:16:20.58,Default,Kus,0000,0000,0000,,Maganagi, asi jsme si právě oba našli dobrý pouzdra.
+Dialogue: 0,0:16:22.67,0:16:23.83,Default,Mag,0000,0000,0000,,To bezpochyb.
+Dialogue: 0,0:16:30.67,0:16:36.54,Default,Mag,0000,0000,0000,,Zdá se, že tupý jsem byl celou dobu já...
+Dialogue: 0,0:16:50.63,0:16:51.34,Default,Gin,0000,0000,0000,,Ty...
+Dialogue: 0,0:16:51.34,0:16:55.36,Default,Oki,0000,0000,0000,,Šéfe, zabojujeme si příště bez žádnýho vyrušování.
+Dialogue: 0,0:16:56.95,0:16:59.87,Default,Shin,0000,0000,0000,,Gin-sane! Kusanagi-san!
+Dialogue: 0,0:16:59.87,0:17:02.30,Default,Kag,0000,0000,0000,,Zvládl jsi to! Fakt jsi to dokázal!
+Dialogue: 0,0:17:02.30,0:17:05.31,Default,Shin,0000,0000,0000,,Vyhrál jsi! Kusanagi-san vyhrál!
+Dialogue: 0,0:17:05.31,0:17:07.38,Default,Kus,0000,0000,0000,,Jo, to všechno jen díky vám.
+Dialogue: 0,0:17:09.34,0:17:16.16,Default,Kus,0000,0000,0000,,Díky, že jste ze mě ještě před mým koncem udělali mistrosvký dílo.
+Dialogue: 0,0:17:18.34,0:17:20.39,Default,Shin,0000,0000,0000,,K-Kusanagi-san?
+Dialogue: 0,0:17:20.39,0:17:22.93,Default,Shin,0000,0000,0000,,Jak? Proč?
+Dialogue: 0,0:17:22.93,0:17:27.93,Default,Kus,0000,0000,0000,,V pohodě. Už celkem dlouhou dobu jsem mlel z posledního.
+Dialogue: 0,0:17:27.93,0:17:30.55,Default,Kus,0000,0000,0000,,Byl jsem na tohle připravenej.
+Dialogue: 0,0:17:31.15,0:17:34.40,Default,Kus,0000,0000,0000,,Pouzdřenka položila svůj život, aby ochránila naši dcerku.
+Dialogue: 0,0:17:34.98,0:17:40.64,Default,Kus,0000,0000,0000,,Kdybych neudělal to samý, jak bych se s ní mohl v posmrtným životě střetnout?
+Dialogue: 0,0:17:41.43,0:17:44.41,Default,Shin,0000,0000,0000,,Proč jsi tak negativní?
+Dialogue: 0,0:17:44.41,0:17:46.86,Default,Shin,0000,0000,0000,,Konečně jsi poznal svou dceru!
+Dialogue: 0,0:17:46.86,0:17:49.98,Default,Shin,0000,0000,0000,,Hodláš ji opustit, aniž byses jí vůbec představil?!
+Dialogue: 0,0:17:54.33,0:17:59.70,Default,Kus,0000,0000,0000,,Vyrostla v úžasnou ženu.\NVážně vypadá jako Pouzdřenka.
+Dialogue: 0,0:18:01.18,0:18:05.35,Default,Kus,0000,0000,0000,,Musím to nádherné pouzdro \Nještě jednou na vlastní oči vidět.
+Dialogue: 0,0:18:07.65,0:18:12.34,Default,Kus,0000,0000,0000,,Tohle mi bohatě stačí.
+Dialogue: 0,0:18:12.34,0:18:18.87,Default,Kus,0000,0000,0000,,Nemusí oplakávat svýho tátu, kterýho stejně v životě neviděla.
+Dialogue: 0,0:18:20.77,0:18:23.87,Default,Kus,0000,0000,0000,,Neměla by to břemeno nést.
+Dialogue: 0,0:18:24.33,0:18:27.85,Default,Kus,0000,0000,0000,,Dokud bude žít jako silná holka s úsměvem na tváři,
+Dialogue: 0,0:18:27.85,0:18:32.70,Default,Kus,0000,0000,0000,,bude to mně i pouzdřence stačit.
+Dialogue: 0,0:18:33.59,0:18:35.59,Default,Kus,0000,0000,0000,,Tak prosím...
+Dialogue: 0,0:18:36.38,0:18:38.98,Default,Kus,0000,0000,0000,,Žádám vás...
+Dialogue: 0,0:18:42.35,0:18:47.60,Default,Kus,0000,0000,0000,,Mohly byste mě uložit na tu hromadu železnýho prachu?
+Dialogue: 0,0:18:48.94,0:18:54.72,Default,Kus,0000,0000,0000,,Do toho hrobu Excaliburů, kde budu odpočívat se svou Pouzdřenkou.
+Dialogue: 0,0:18:56.34,0:18:57.70,Default,Kag,0000,0000,0000,,Kusanagi...
+Dialogue: 0,0:19:03.87,0:19:05.30,Default,Kag,0000,0000,0000,,Gin-chane.
+Dialogue: 0,0:19:05.97,0:19:07.83,Default,Gin,0000,0000,0000,,Přestože neprohodíte jediné slovo,
+Dialogue: 0,0:19:08.61,0:19:11.15,Default,Gin,0000,0000,0000,,přestože jste daleko od sebe,
+Dialogue: 0,0:19:11.99,0:19:13.88,Default,Gin,0000,0000,0000,,existujou věci, který nejdou ničím oddělit.
+Dialogue: 0,0:19:14.75,0:19:17.34,Default,Gin,0000,0000,0000,,Rozhodně ne tak tupým mečem.
+Dialogue: 0,0:19:17.81,0:19:23.26,Default,Gin,0000,0000,0000,,Vy tři spolu budete navždy spojený.\NA my budem spojený s váma.
+Dialogue: 0,0:19:24.43,0:19:28.19,Default,Kus,0000,0000,0000,,Gintoki-han, díky.
+Dialogue: 0,0:19:29.38,0:19:36.15,Default,Kus,0000,0000,0000,,Jsem opravdu rád, že jsem nakonec potkal pouzdro, jako jsi ty.
+Dialogue: 0,0:19:50.79,0:19:54.29,sign_3472_15_Smithy,Sign,0000,0000,0000,,Kovář
+Dialogue: 0,0:19:54.89,0:19:59.92,Default,Sac,0000,0000,0000,,Jé, So-kune, vážně mi chceš koupit novej meč?
+Dialogue: 0,0:19:59.92,0:20:02.46,Default,Oki,0000,0000,0000,,Možná proto, že jsem u sebe konstatně nosil zvláštní meče,
+Dialogue: 0,0:20:02.46,0:20:05.44,Default,Oki,0000,0000,0000,,se už necítím na normální.
+Dialogue: 0,0:20:05.44,0:20:10.73,Default,Oki,0000,0000,0000,,A ty taky, ne? Obyčejnej Kikuichimonji ti taky nestačí, že?
+Dialogue: 0,0:20:10.73,0:20:14.32,Default,Oki,0000,0000,0000,,Radši bys nějakej ozdobenej perlama,\N nebo nějakej vibrující, že?
+Dialogue: 0,0:20:14.32,0:20:16.90,Default,Sac,0000,0000,0000,,Ee, So-kune, ty perverzáku.
+Dialogue: 0,0:20:17.31,0:20:21.79,Default,Tet,0000,0000,0000,,Je mi líto, ale takové zkažené meče tu neprodáváme.
+Dialogue: 0,0:20:21.79,0:20:22.82,Default,Oki,0000,0000,0000,,Vážně?
+Dialogue: 0,0:20:23.65,0:20:27.18,Default,Oki,0000,0000,0000,,A já myslel, že jste sbírali nějaký perly.
+Dialogue: 0,0:20:27.75,0:20:29.78,Default,Oki,0000,0000,0000,,Od toho dne jste byli vy čtyři
+Dialogue: 0,0:20:29.78,0:20:33.83,Default,Oki,0000,0000,0000,,jakoby přilepený k zemi a něco zoufale hledali.
+Dialogue: 0,0:20:35.03,0:20:36.47,Default,Tet,0000,0000,0000,,To byl jen štěrk.
+Dialogue: 0,0:20:38.53,0:20:44.18,Default,Tet,0000,0000,0000,,S ním je však smíchané železo, \Nkteré je mnohem cennější než perly.
+Dialogue: 0,0:20:44.82,0:20:48.47,Default,Tet,0000,0000,0000,,Chystám se z toho ukovat meč.
+Dialogue: 0,0:20:48.81,0:20:51.58,Default,Oki,0000,0000,0000,,To zní jako otrava.
+Dialogue: 0,0:20:51.58,0:20:54.23,Default,Oki,0000,0000,0000,,No, řekni mi, až budeš hotová.
+Dialogue: 0,0:20:54.73,0:20:56.10,Default,Tet,0000,0000,0000,,Určitě?
+Dialogue: 0,0:20:56.10,0:20:58.86,Default,Tet,0000,0000,0000,,Vsadím se, že to bude nejtupější měč ve vesmíru.
+Dialogue: 0,0:20:59.23,0:21:02.10,Default,Oki,0000,0000,0000,,Jo. Nebude muset nic řezat.
+Dialogue: 0,0:21:07.06,0:21:12.96,Default,Oki,0000,0000,0000,,Protože jsem si jistej, že už svoje pouzdro nikdy neopustí.
+Dialogue: 0,0:21:15.83,0:21:20.82,sign_30590_295_Sneak_Peek,Sign,0000,0000,0000,,{\fad(695,750)}Šmejdění
+Dialogue: 0,0:21:15.83,0:21:20.82,sign_30590_296_The_Bloody_Shins,Sign,0000,0000,0000,,{\fad(695,750)}Krvavé Zápisky Shinsengumi
+Dialogue: 0,0:21:23.42,0:21:25.20,Default,Oki,0000,0000,0000,,Hej, Hijikato.
+Dialogue: 0,0:21:26.30,0:21:29.30,Default,Oki,0000,0000,0000,,Dojdi mi pro yakisobu.
+Dialogue: 0,0:21:29.70,0:21:30.68,Default,Mit,0000,0000,0000,,So-chane!
+Dialogue: 0,0:21:31.38,0:21:35.07,Default,Mit,0000,0000,0000,,Buď slušný, když mluvíš s nadřízenými.
+Dialogue: 0,0:21:35.07,0:21:36.69,Default,Oki,0000,0000,0000,,Promiň, ségra.
+Dialogue: 0,0:21:41.39,0:21:42.57,Default,Oki,0000,0000,0000,,Hej, Hijikato.
+Dialogue: 0,0:21:42.98,0:21:45.52,Default,Oki,0000,0000,0000,,Dojdi mi pro veleváženou yakisobu.
+Dialogue: 0,0:21:45.93,0:21:48.07,Default,Mit,0000,0000,0000,,Výborně.
+Dialogue: 0,0:21:49.27,0:21:51.96,Default,Hij,0000,0000,0000,,Uh, bylo to úplně stejný.
+Dialogue: 0,0:21:50.93,0:21:53.91,sign_31431_306_The_End,Sign,0000,0000,0000,,{\fad(2800,1)}Konec
+Dialogue: 0,0:23:23.79,0:23:30.93,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:24.94,0:23:26.80,Default,Shin,0000,0000,0000,,Otsu-chan will show up next episode!
+Dialogue: 0,0:23:26.80,0:23:30.93,Default,Shin,0000,0000,0000,,You all remember that I'm the captain \Nof the Terakado Otsu fan club, right?
+Dialogue: 0,0:23:30.93,0:23:31.67,Default,Shin,0000,0000,0000,,Right?
+Dialogue: 0,0:23:30.93,0:23:34.43,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}Wash Your Hands Before a Handshake
+Dialogue: 0,0:23:31.67,0:23:34.07,Default,Shin,0000,0000,0000,,Next time: "Wash Your \NHands Before a Handshake."
+Dialogue: 0,0:23:34.07,0:23:36.31,Default,Shin,0000,0000,0000,,Wash up well, Takachin!
+Dialogue: 0,0:23:34.43,0:23:38.77,Preview,Shin,0000,0000,0000,,Preview
+Dialogue: 0,0:23:38.91,0:23:40.18,sign_34020_316_Preview,Sign,0000,0000,0000,,{\fad(300,220)}Preview
+Dialogue: 0,0:23:40.29,0:23:44.23,sign_34053_317_Beginning_Soon,Sign,0000,0000,0000,,{\fad(254,1)}Beginning Soon
+Dialogue: 0,0:23:41.41,0:23:44.23,sign_34080_318_The_Final_Arc,Sign,0000,0000,0000,,{\fad(260,1)}The Final Arc
+Dialogue: 0,0:23:43.02,0:23:44.23,Default,Gin,0000,0000,0000,,We've got you covered.
+Dialogue: 0,0:23:44.80,0:23:47.85,Default,Gin,0000,0000,0000,,From walking your dog to keeping Earth safe,
+Dialogue: 0,0:23:47.85,0:23:50.02,Default,Gin,0000,0000,0000,,we Odd Jobs will do anything.
+Dialogue: 0,0:23:48.42,0:23:51.24,sign_34248_322_Silver_Soul_Arc,Sign,0000,0000,0000,,{\fad(300,1)}Silver Soul Arc
+Dialogue: 0,0:23:51.28,0:23:53.74,sign_34317_323_Production_is_sm,Sign,0000,0000,0000,,{\fad(150,1)}Production is smoothly
+Dialogue: 0,0:23:51.76,0:23:53.74,sign_34328_324_you_know_what_,Sign,0000,0000,0000,,you-know-what.
+Dialogue: 0,0:23:53.74,0:23:58.87,Side Bar Top,TextR,0000,0000,0000,,The final arc was in a situation much like
+Dialogue: 0,0:23:53.74,0:23:58.87,Side Bar Bottom,TextL,0000,0000,0000,,a restaurant that doesn't get any orders.
+Dialogue: 0,0:23:58.87,0:24:05.25,Side Bar Top,TextR,0000,0000,0000,,But it's not like we forgot about it.
+Dialogue: 0,0:23:58.87,0:24:05.25,Side Bar Bottom,TextL,0000,0000,0000,,There were just some adult issues at play.

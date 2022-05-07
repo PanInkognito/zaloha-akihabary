@@ -1,0 +1,513 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Warning Purple,Open Sans Semibold,26,&H00FFEFFF,&H000000FF,&H00AB38B0,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,13,13,29,1
+Style: Preview,Open Sans Semibold,32,&H00E1FFDE,&H000000FF,&H0026922C,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Visiting,Open Sans Semibold,32,&H00DDE1CF,&H000000FF,&H00585C2E,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0,0,40,0
+Style: Speech,Open Sans Semibold,32,&H00747774,&H000000FF,&H00F9FDFA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,40,0,27,0
+Style: Title,Open Sans Semibold,38,&H00747774,&H000000FF,&H00F9FDFA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,0,27,0
+Style: Take Out,Open Sans Semibold,35,&H00FFFFF8,&H000000FF,&H00AC4BE7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,187,27,0
+Style: Page,Open Sans Semibold,32,&H00747774,&H000000FF,&H00F9FDFA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,177,27,0
+Style: Page Bottom,Open Sans Semibold,29,&H00747774,&H000000FF,&H00F9FDFA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0,177,27,0
+Style: Page2,Open Sans Semibold,35,&H00747774,&H000000FF,&H00F9FDFA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,293,27,0
+Style: Page2 Bottom,Open Sans Semibold,32,&H00747774,&H000000FF,&H00F9FDFA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0,293,27,0
+Style: End Title,Open Sans Semibold,41,&H003A3A3A,&H000000FF,&H00F2F2F2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,267,0,40,0
+Style: End Author,Open Sans Semibold,35,&H003A3A3A,&H000000FF,&H00F2F2F2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,180,0,233,0
+Style: End Question,Open Sans Semibold,35,&H003A3A3A,&H000000FF,&H00F2F2F2,&H00000000,0,0,0,0,100,100,0,0,1,3,0,3,0,133,115,0
+Style: Name,Open Sans Semibold,38,&H00000000,&H000000FF,&H00F9F9F9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,40,0
+Style: Want,Open Sans Semibold,32,&H00090C0B,&H000000FF,&H00A6BCC6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,40,0,40,0
+Style: Looking,Open Sans Semibold,32,&H00232736,&H000000FF,&H00ABB5EA,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,0,27,0
+Style: Ango,Open Sans Semibold,32,&H00232736,&H000000FF,&H00B1B6E9,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,73,0,27,0
+Style: SpeechL,Open Sans Semibold,29,&H00747774,&H000000FF,&H00DAEDF3,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,40,0,40,0
+Style: SpeechR,Open Sans Semibold,29,&H00747774,&H000000FF,&H00DAEDF3,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0,40,40,0
+Style: Note,Open Sans Semibold,32,&H00040D13,&H000000FF,&H00ABC4D0,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0,0,27,0
+Style: NoteR,Open Sans Semibold,29,&H00040D13,&H000000FF,&H00ABC4D0,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,0,40,27,0
+Style: Note2,Open Sans Semibold,32,&H00303030,&H000000FF,&H00CACDCA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,40,0,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:28.16,0:01:30.16,Default,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:01:30.17,0:01:36.67,Warning Purple,Sign,0000,0000,0000,,{\fad(754,450)}Shachi žádá: Sledujte Gintamu v dobře osvětlené místnosti a\Nv dostatečné vzdálenosti od TV!
+Dialogue: 0,0:01:31.99,0:01:33.15,Main,Sha,0000,0000,0000,,{\an8}Promiňte, Sensei.
+Dialogue: 0,0:01:33.15,0:01:38.91,Main,Sha,0000,0000,0000,,{\an8}Zase se mi zauzlila střeva. \NMohl bych si odpočinout tady u vás na posteli?
+Dialogue: 0,0:01:39.55,0:01:43.45,Main,Dr,0000,0000,0000,,Shachi-san, okluze trávicího traktu se u vás\N projevují nějak moc často, nemyslíte?
+Dialogue: 0,0:01:43.89,0:01:47.54,Main,Dr,0000,0000,0000,,Víte, tato ošetřovna není nějaká \Nodpočívárna na odpolední šlofík.
+Dialogue: 0,0:01:47.54,0:01:50.88,Main,Sha,0000,0000,0000,,Ne, vážně se cítím, jakoby se mi zauzlovaly tak na třikrát a půl.
+Dialogue: 0,0:01:50.88,0:01:53.59,Main,Sha,0000,0000,0000,,Já už tu bolest nemůžu dál strávit, \Nbolí to jak střep.
+Dialogue: 0,0:01:53.59,0:01:56.20,Main,Dr,0000,0000,0000,,Vy akorát potřebujete \Nneustále odkazovat na střeva.
+Dialogue: 0,0:01:56.20,0:01:56.77,Main,Sha,0000,0000,0000,,Jau!
+Dialogue: 0,0:01:56.77,0:01:59.43,Main,Sha,0000,0000,0000,,Au, au, au! Bolí to!
+Dialogue: 0,0:01:59.65,0:02:01.21,Main,Dr,0000,0000,0000,,Šmarja panno.
+Dialogue: 0,0:02:01.21,0:02:04.97,Main,Dr,0000,0000,0000,,Pokud zjistím, že to jen hrajete, \Nokamžitě odtud letíte, jasné?
+Dialogue: 0,0:02:09.70,0:02:11.42,Internal,Sha,0000,0000,0000,,Super!
+Dialogue: 0,0:02:11.42,0:02:14.19,Internal,Sha,0000,0000,0000,,Celou noc zůstanu vzhůru a dokončím svoje nákresy!
+Dialogue: 0,0:02:14.72,0:02:18.42,Internal,Sha,0000,0000,0000,,Musim to stihnout do zejtřka, než skončí \Nzávěrečnej termín soutěže mangy!
+Dialogue: 0,0:02:18.42,0:02:21.87,Internal,Sha,0000,0000,0000,,Tady se můžu plně soustředit, \Naniž bych musel dávat pozor na stráže.
+Dialogue: 0,0:02:21.87,0:02:26.26,Internal,Sha,0000,0000,0000,,Brácho, je čas zrealizovat náš sen!
+Dialogue: 0,0:02:39.09,0:02:40.33,Internal,Sha,0000,0000,0000,,Zatraceně!
+Dialogue: 0,0:02:40.33,0:02:42.40,Internal,Sha,0000,0000,0000,,Usnul jsem!
+Dialogue: 0,0:02:42.40,0:02:44.85,Internal,Sha,0000,0000,0000,,He? Kde mám manuskripta?
+Dialogue: 0,0:02:48.84,0:02:51.25,Main,Sha,0000,0000,0000,,Ch-chápete to špatně, Sensei.
+Dialogue: 0,0:02:51.25,0:02:51.98,Main,Sha,0000,0000,0000,,To je—
+Dialogue: 0,0:02:57.93,0:03:03.53,Main,Dr,0000,0000,0000,,Nedivím se, že se vaše střeva po přečtnení \Nněčeho takto komického zcela pokroutila.
+Dialogue: 0,0:03:06.54,0:03:08.58,Main,Sha,0000,0000,0000,,S-Sensei...
+Dialogue: 0,0:03:06.54,0:03:11.54,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}Jeden Editor Je Víc než Dost
+Dialogue: 0,0:03:11.54,0:03:13.50,Visiting,Sign,0000,0000,0000,,Návštěvy
+Dialogue: 0,0:03:14.12,0:03:15.79,Main,Gin,0000,0000,0000,,"Zapálený do Sensei"?
+Dialogue: 0,0:03:16.02,0:03:18.36,Main,Gin,0000,0000,0000,,Takže ty z toho chceš udělat romantickou komedii
+Dialogue: 0,0:03:18.36,0:03:20.80,Main,Gin,0000,0000,0000,,o zakázaný lásce mezi studentem a učitelkou?
+Dialogue: 0,0:03:20.80,0:03:22.40,Main,Gin,0000,0000,0000,,To je sakra fádní.
+Dialogue: 0,0:03:22.40,0:03:25.55,Main,Gin,0000,0000,0000,,Dokonce ani prehistorický romantický \Nkomedie se tohohle vzoru nedržej.
+Dialogue: 0,0:03:26.07,0:03:29.46,Main,Gin,0000,0000,0000,,Radši se zaměř na příběh o dceři šéfa mafie, \Nkterá na sobě nenosí nic než pyžamo
+Dialogue: 0,0:03:29.46,0:03:31.77,Main,Gin,0000,0000,0000,,a která si to deno denně rozdává se synem hokageho,
+Dialogue: 0,0:03:31.77,0:03:34.38,Main,Gin,0000,0000,0000,,jehož nádobíčko je gumový,\Ntím pádem nemusí používat gumu.
+Dialogue: 0,0:03:34.38,0:03:36.69,Main,Sha,0000,0000,0000,,Já ale mluvím o sobě, ne o manze.
+Dialogue: 0,0:03:37.14,0:03:37.69,Main,Gin,0000,0000,0000,,He?
+Dialogue: 0,0:03:38.05,0:03:42.20,Main,Sha,0000,0000,0000,,Na ošetřovně máme Narutaki-sensei, naši doktorku.
+Dialogue: 0,0:03:42.79,0:03:46.45,Main,Sha,0000,0000,0000,,Přečetla si mou mangu a smála se při tom.
+Dialogue: 0,0:03:46.78,0:03:49.40,Main,Sha,0000,0000,0000,,Od tý doby za ní furt chodím a ukazuju jí svoje nákresy,
+Dialogue: 0,0:03:49.40,0:03:54.21,Main,Sha,0000,0000,0000,,páč když vidím její úsměv, \Ncítím, jakoby mi v srdci poletovalo tisícero motýlků.
+Dialogue: 0,0:03:54.64,0:03:58.63,Main,Sha,0000,0000,0000,,Ty víš, co jsem zač. \NNikdy jsem se do nikoho nezamiloval,
+Dialogue: 0,0:03:58.63,0:04:02.22,Main,Sha,0000,0000,0000,,ale zajímalo by mě, jestli ti motýlci náhodou neznačej lásku...
+Dialogue: 0,0:04:03.18,0:04:04.76,Main,Gin,0000,0000,0000,,Ne, to se ti asi jen zdá.
+Dialogue: 0,0:04:10.49,0:04:12.82,Main,Sha,0000,0000,0000,,Z-Za co to bylo, brácho?!
+Dialogue: 0,0:04:12.82,0:04:14.26,Main,Gin,0000,0000,0000,,Ty idiotskej břídile.
+Dialogue: 0,0:04:14.26,0:04:16.52,Main,Gin,0000,0000,0000,,Tak tohle je ten důvod, proč postavy v tý tvý manze
+Dialogue: 0,0:04:16.77,0:04:19.23,Main,Gin,0000,0000,0000,,začaly nosit brejle
+Dialogue: 0,0:04:19.53,0:04:23.11,Main,Gin,0000,0000,0000,,nebo se z nich staly hlasatelky počasí?
+Dialogue: 0,0:04:23.11,0:04:25.11,Main,Sha,0000,0000,0000,,Hlasatelky počasí máš na triku ty!
+Dialogue: 0,0:04:25.52,0:04:27.44,Main,Gin,0000,0000,0000,,"Je tohle láska?"
+Dialogue: 0,0:04:27.44,0:04:28.70,Main,Gin,0000,0000,0000,,Nasrat!
+Dialogue: 0,0:04:28.70,0:04:32.55,Main,Gin,0000,0000,0000,,Nechovej se jak buzna a pozvi ji na rande!
+Dialogue: 0,0:04:32.55,0:04:34.43,Main,Gin,0000,0000,0000,,Koukej odstartovat svou vězeňskou romanci!
+Dialogue: 0,0:04:34.43,0:04:36.93,Main,Sha,0000,0000,0000,,Počkej, ty mě v tom fakt podporuješ?
+Dialogue: 0,0:04:36.93,0:04:38.20,Main,Sha,0000,0000,0000,,Proč jsi mě teda praštil?
+Dialogue: 0,0:04:38.20,0:04:41.41,Main,Gin,0000,0000,0000,,Máme perfekntí příležitost províst výzkum \Npro naši rom-com mangu.
+Dialogue: 0,0:04:41.41,0:04:43.45,Main,Sha,0000,0000,0000,,Ale ona je doktorka, víš?!
+Dialogue: 0,0:04:43.45,0:04:45.02,Main,Sha,0000,0000,0000,,Je totálně mimo mou ligu!
+Dialogue: 0,0:04:45.02,0:04:48.20,Main,Sha,0000,0000,0000,,A navíc jsem nikdy nikomu lásku nevyznával...
+Dialogue: 0,0:04:48.20,0:04:50.89,Main,Gin,0000,0000,0000,,Možná nejsi expert na milostný psaníčka,
+Dialogue: 0,0:04:50.89,0:04:53.61,Main,Gin,0000,0000,0000,,ale zato dokážeš svejm řádkům dodat vtip.
+Dialogue: 0,0:04:54.86,0:04:58.15,Main,Gin,0000,0000,0000,,Jinými slovy ji musíš dobýt svou silnou stránkou, mangou.
+Dialogue: 0,0:04:58.48,0:04:59.90,Main,Sha,0000,0000,0000,,Mangou?
+Dialogue: 0,0:05:04.58,0:05:05.57,Main,Gin,0000,0000,0000,,Zasekl jsem se.
+Dialogue: 0,0:05:06.01,0:05:08.07,Main,Sha,0000,0000,0000,,Copak se děje, Gintoki-san?
+Dialogue: 0,0:05:08.07,0:05:09.56,Main,Gin,0000,0000,0000,,Shachiko-sensei...
+Dialogue: 0,0:05:09.56,0:05:11.85,Main,Gin,0000,0000,0000,,Víte, mám tu problém se scénářem.
+Dialogue: 0,0:05:11.85,0:05:13.58,Main,Sha,0000,0000,0000,,Božínku, to není dobré.
+Dialogue: 0,0:05:13.97,0:05:16.77,Main,Gin,0000,0000,0000,,Mohla byste se na to kvůli mně podívat?
+Dialogue: 0,0:05:16.77,0:05:18.08,Main,Sha,0000,0000,0000,,No, tak mi to ukaž.
+Dialogue: 0,0:05:18.08,0:05:20.86,Speech,Sign,0000,0000,0000,,Chtěl bych vás pozvat na rande, Sensei.
+Dialogue: 0,0:05:18.44,0:05:20.86,Main,Gin,0000,0000,0000,,Tady tohle už mám hotový,
+Dialogue: 0,0:05:21.65,0:05:23.59,Main,Gin,0000,0000,0000,,ale nemůžu přijít na něco, co by se hodilo sem.
+Dialogue: 0,0:05:24.32,0:05:27.36,Main,Gin,0000,0000,0000,,Kdybyste byla na jejím míste, Shachiko-sensei, jak byste odpověděla?
+Dialogue: 0,0:05:31.66,0:05:33.60,Main,Sha,0000,0000,0000,,"Yes," hádám?
+Dialogue: 0,0:05:36.57,0:05:40.03,Main,Sha,0000,0000,0000,,Brácho! Naprosto spontánně jsem odpověděl "yes"!
+Dialogue: 0,0:05:40.03,0:05:41.20,Main,Gin,0000,0000,0000,,Vážně?
+Dialogue: 0,0:05:41.20,0:05:43.94,Main,Gin,0000,0000,0000,,Takovou balicí techniku může používat jen mangaka, vidíš?
+Dialogue: 0,0:05:43.94,0:05:46.48,Main,Sha,0000,0000,0000,,V tom případě nemám času na zbyt!
+Dialogue: 0,0:05:46.48,0:05:48.18,Main,Sha,0000,0000,0000,,Mám nějakou práci s kreslením!
+Dialogue: 0,0:05:48.18,0:05:49.41,Main,Sha,0000,0000,0000,,Jen si počkej, brácho!
+Dialogue: 0,0:05:49.41,0:05:52.49,Main,Sha,0000,0000,0000,,Příště ti určo donesu skvělý zprávy!
+Dialogue: 0,0:05:52.49,0:05:54.51,Title,Sign,0000,0000,0000,,Sensei a Já\N{\fs18}Akurogi Musai
+Dialogue: 0,0:05:56.09,0:05:59.37,Main,Sen,0000,0000,0000,,Co s tebou mám dělat? \NPořád se jenom zaplétáš do rvaček.
+Dialogue: 0,0:05:59.90,0:06:02.50,Main,Sen,0000,0000,0000,,Tohle je ošetřovna, ne provizorní vojenská nemocnice.
+Dialogue: 0,0:06:02.92,0:06:04.94,Main,Sen,0000,0000,0000,,Rozumíš, můj malý vojáčku?
+Dialogue: 0,0:06:04.94,0:06:09.58,Main,Sen,0000,0000,0000,,Avšak bych si přála, aby byli studenti v mém \Nšermířském týmu také tak odhodlaní.
+Dialogue: 0,0:06:09.58,0:06:12.09,Main,C,0000,0000,0000,,Nezapletl jsem se do rvačky.
+Dialogue: 0,0:06:12.09,0:06:12.98,Main,Sen,0000,0000,0000,,Hm?
+Dialogue: 0,0:06:12.98,0:06:15.72,Main,C,0000,0000,0000,,Pořezal jsem se ostrým předmětem.
+Dialogue: 0,0:06:15.72,0:06:18.34,Main,Sen,0000,0000,0000,,Proč bys něco takového dělal?
+Dialogue: 0,0:06:18.34,0:06:21.04,Main,C,0000,0000,0000,,Je tu něco, co bych vám chtěl říct.
+Dialogue: 0,0:06:21.42,0:06:23.71,Main,C,0000,0000,0000,,Chci si to s vámi rozdat, Sensei!
+Dialogue: 0,0:06:23.71,0:06:24.95,Main,Sen,0000,0000,0000,,Tak do toho.
+Dialogue: 0,0:06:24.95,0:06:26.44,Main,Sen,0000,0000,0000,,Vítej v našem šermířském týmu,
+Dialogue: 0,0:06:26.44,0:06:28.03,Main,Sen,0000,0000,0000,,Chosokabe-kun.
+Dialogue: 0,0:06:29.40,0:06:30.54,Main,Gin,0000,0000,0000,,Chápu.
+Dialogue: 0,0:06:30.54,0:06:33.03,Main,Gin,0000,0000,0000,,Takže se připojuje k šermířskýmu týmu, hm?
+Dialogue: 0,0:06:34.00,0:06:35.19,Main,Sha,0000,0000,0000,,Brácho...
+Dialogue: 0,0:06:35.19,0:06:37.00,Main,Sha,0000,0000,0000,,Proč to muselo skončit takhle?
+Dialogue: 0,0:06:37.31,0:06:40.75,Take Out,Sign,0000,0000,0000,,Rozdat si (to s dívkou)
+Dialogue: 0,0:06:37.31,0:06:40.75,Take Out,Sign,0001,0136,0101,,{\an2}Rozdat si (bojovat)
+Dialogue: 0,0:06:37.89,0:06:40.75,Main,Gin,0000,0000,0000,,Nejšpíš z toho "rozdat si" vyrozuměla, že jí zveš na souboj.
+Dialogue: 0,0:06:41.08,0:06:43.48,Main,Sha,0000,0000,0000,,Ale tohle není sportovní manga!
+Dialogue: 0,0:06:43.48,0:06:45.75,Main,Sha,0000,0000,0000,,Hlavní postava se nejmenuje Chosokabe!
+Dialogue: 0,0:06:46.23,0:06:48.13,Main,Gin,0000,0000,0000,,Sice nevím, co je ten Chosokabe zač,
+Dialogue: 0,0:06:48.51,0:06:52.78,Main,Gin,0000,0000,0000,,ale chlape, tohle všechno je proto, \Nžes z ní udělal hlavu šermířskýho klubu.
+Dialogue: 0,0:06:52.78,0:06:55.83,Main,Gin,0000,0000,0000,,A díky těm zbytečnejm větám jako třeba\N "Pořezal jsem se ostrým předmětem"
+Dialogue: 0,0:06:55.83,0:06:59.10,Main,Gin,0000,0000,0000,,si všimla Chosokabovejch šermířskejch schopností.
+Dialogue: 0,0:06:59.37,0:07:03.05,Main,Gin,0000,0000,0000,,A vlastně, proč je tahle postava taky sensei?
+Dialogue: 0,0:07:03.05,0:07:05.17,Main,Gin,0000,0000,0000,,Když se jí zeptáš, jestli by s tebou nešla na rande,
+Dialogue: 0,0:07:05.17,0:07:07.48,Main,Gin,0000,0000,0000,,jak má asi vědět, jestli to říkáš týhle sensei,
+Dialogue: 0,0:07:07.84,0:07:10.33,Main,Gin,0000,0000,0000,,nebo tamtý sensei?
+Dialogue: 0,0:07:10.33,0:07:12.32,Main,Sha,0000,0000,0000,,O který sensei mluvíš?
+Dialogue: 0,0:07:12.60,0:07:13.91,Main,Gin,0000,0000,0000,,O {\i1}tý{\i0} sensei.
+Dialogue: 0,0:07:14.26,0:07:15.87,Main,Sha,0000,0000,0000,,Která sensei je {\i1}ta{\i0} sensei?
+Dialogue: 0,0:07:16.18,0:07:19.33,Main,Gin,0000,0000,0000,,Která sensei je ta sensei, o který mluvíš?
+Dialogue: 0,0:07:21.13,0:07:23.11,Main,Sha,0000,0000,0000,,Co mám dělat, brácho?
+Dialogue: 0,0:07:23.11,0:07:26.16,Main,Sha,0000,0000,0000,,Sensei říkala, že už se nemůže dočkat na další kapitolu.
+Dialogue: 0,0:07:26.16,0:07:28.21,Main,Gin,0000,0000,0000,,O který sensei mluvíš?
+Dialogue: 0,0:07:28.45,0:07:30.18,Main,Sha,0000,0000,0000,,O {\i1}tý{\i0} sensei.
+Dialogue: 0,0:07:30.18,0:07:31.28,Main,Gin,0000,0000,0000,,Ty přece víš, co dělat.
+Dialogue: 0,0:07:31.28,0:07:35.46,Main,Gin,0000,0000,0000,,Bude se muset přidat k šermířskýmu týmu a \Nznova se jí zeptat, jestli by nešla na rande.
+Dialogue: 0,0:07:35.46,0:07:38.86,Main,Sha,0000,0000,0000,,Ale já toho o šermu moc nevím.
+Dialogue: 0,0:07:38.86,0:07:41.44,Main,Sha,0000,0000,0000,,A hlavní postava se ani nejmenuje Chosokabe.
+Dialogue: 0,0:07:41.44,0:07:43.50,Main,Gin,0000,0000,0000,,Už toho Chosokabeho nech plavat.
+Dialogue: 0,0:07:43.50,0:07:44.52,Main,Gin,0000,0000,0000,,Prostě to bude Chosokabe.
+Dialogue: 0,0:07:44.52,0:07:48.61,Visiting,Sign,0000,0000,0000,,Návštěvy
+Dialogue: 0,0:07:44.85,0:07:48.61,Main,Gin,0000,0000,0000,,Tu věc s šermem prostě nějak rychle \Nzaobal a znova jí pozvi na rande.
+Dialogue: 0,0:07:48.61,0:07:50.42,Page,Sign,0000,0000,0000,,Sensei a Já
+Dialogue: 0,0:07:48.61,0:07:50.42,Page,Sign,0001,0132,0089,,{\fs18}2. Kapitola
+Dialogue: 0,0:07:48.61,0:07:50.42,Page Bottom,Sign,0000,0000,0000,,Akurogi Musai
+Dialogue: 0,0:07:50.68,0:07:54.17,Main,C,0000,0000,0000,,To je špatné! V šermu jsem naprosto levý!
+Dialogue: 0,0:07:54.17,0:07:55.77,Main,C,0000,0000,0000,,Už nemůžu dál!
+Dialogue: 0,0:07:55.77,0:07:59.68,Main,C,0000,0000,0000,,Navíc se mi rozvedli rodiče, \Ntakže se teď jmenuji Mikoshiba!
+Dialogue: 0,0:07:59.68,0:08:02.65,Main,Sen,0000,0000,0000,,Hlavu vzhůru. Máš ve mně podporu.
+Dialogue: 0,0:08:03.13,0:08:07.21,Main,C,0000,0000,0000,,Sensei, to nejsou slova, která chci slyšet!
+Dialogue: 0,0:08:07.21,0:08:09.93,Main,C,0000,0000,0000,,Povězte, šla byste se mnou na rande, Sensei?
+Dialogue: 0,0:08:09.93,0:08:12.04,Main,Sen,0000,0000,0000,,"Šla byste se mnou na rande, Sensei?"
+Dialogue: 0,0:08:12.04,0:08:13.05,Main,Sen,0000,0000,0000,,Spokojený?
+Dialogue: 0,0:08:13.05,0:08:15.89,Main,Sen,0000,0000,0000,,A teď běž zase trénovat, Chosokabe-kun.
+Dialogue: 0,0:08:15.89,0:08:18.68,Main,Sha,0000,0000,0000,,Takhle jsem to vůbec nemyslel!
+Dialogue: 0,0:08:18.68,0:08:22.96,Main,Sha,0000,0000,0000,,Myslela si, že od ní potřebuju slyšet větu \N"Šla byste se mnou na rande, Sensei?"!
+Dialogue: 0,0:08:22.96,0:08:26.14,Main,Sha,0000,0000,0000,,Dokonce ani nechce, aby odešel z šermířskýho týmu!
+Dialogue: 0,0:08:26.14,0:08:27.91,Main,Sha,0000,0000,0000,,A vždyť se mu přece rozvedli rodiče,
+Dialogue: 0,0:08:27.91,0:08:30.47,Main,Sha,0000,0000,0000,,tak proč furt trvá na tom, že mu bude říkat Chosokabe?
+Dialogue: 0,0:08:30.47,0:08:33.83,Main,Gin,0000,0000,0000,,Přece jsem ti říkal, ať necháš\NChosokabeho plavat.
+Dialogue: 0,0:08:34.27,0:08:35.33,Main,Gin,0000,0000,0000,,A víš ty co?
+Dialogue: 0,0:08:35.33,0:08:37.95,Main,Gin,0000,0000,0000,,Ty bubliny pro sensei jsou zatraceně velký.
+Dialogue: 0,0:08:38.47,0:08:41.72,Main,Gin,0000,0000,0000,,Všechno to je proto, že tam necháváš strašnýho místa\Na ona tam pak může vložit tyhle kraviny.
+Dialogue: 0,0:08:41.72,0:08:45.67,Main,Gin,0000,0000,0000,,Měl bys udělat bublinu tak mrňavou, \Nže se tam dá vecpat jen "ano".
+Dialogue: 0,0:08:45.67,0:08:47.38,Main,Sha,0000,0000,0000,,Jasně, chápu.
+Dialogue: 0,0:08:47.38,0:08:48.29,Page2,Sign,0000,0000,0000,,Sensei a Já
+Dialogue: 0,0:08:47.38,0:08:48.29,Page2,Sign,0001,0220,0111,,{\fs20}3. Kapitola
+Dialogue: 0,0:08:47.38,0:08:48.29,Page2 Bottom,Sign,0000,0000,0000,,Akurogi Musai
+Dialogue: 0,0:08:48.95,0:08:50.36,Main,C,0000,0000,0000,,Rozumím, Sensei.
+Dialogue: 0,0:08:50.36,0:08:52.40,Main,C,0000,0000,0000,,Dám do toho šermu všechno.
+Dialogue: 0,0:08:52.40,0:08:53.40,Main,C,0000,0000,0000,,Mějte se!
+Dialogue: 0,0:08:56.01,0:08:58.35,Main,C,0000,0000,0000,,Omlouvám se, Sensei.
+Dialogue: 0,0:08:58.35,0:09:02.02,Main,C,0000,0000,0000,,Moje tělo už dál šmerování nensese....
+Dialogue: 0,0:09:02.79,0:09:05.61,Main,C,0000,0000,0000,,Ať kadžý říká, tso chtse, \Nať bjojuji, jak jen mohu,
+Dialogue: 0,0:09:05.61,0:09:09.62,Main,C,0000,0000,0000,,moje tělo už dál šmerování nensese.
+Dialogue: 0,0:09:09.62,0:09:11.31,Main,Sen,0000,0000,0000,,Už jsi udělal dost.
+Dialogue: 0,0:09:11.31,0:09:13.32,Main,Sen,0000,0000,0000,,Dal jsi do toho vše.
+Dialogue: 0,0:09:13.32,0:09:16.81,Main,Sen,0000,0000,0000,,Už tě nikdy nebudu nutit šermovat.
+Dialogue: 0,0:09:17.41,0:09:20.18,Main,Sen,0000,0000,0000,,Už ti nikdy znovu neřeknu Chosokabe,
+Dialogue: 0,0:09:20.18,0:09:21.45,Main,Sen,0000,0000,0000,,tak prosím...
+Dialogue: 0,0:09:21.45,0:09:23.60,Main,C,0000,0000,0000,,D-Díky Bohu...
+Dialogue: 0,0:09:23.60,0:09:27.42,Main,C,0000,0000,0000,,Mohl bych vás naposled o něco požádat?
+Dialogue: 0,0:09:28.20,0:09:31.03,Main,C,0000,0000,0000,,Prosím, pojďte se mnou na rande, Sensei.
+Dialogue: 0,0:09:31.03,0:09:31.84,Main,Sen,0000,0000,0000,,*Probodnutí*
+Dialogue: 0,0:09:33.68,0:09:35.71,Main,C,0000,0000,0000,,S-Sensei!
+Dialogue: 0,0:09:35.71,0:09:37.93,Main,M,0000,0000,0000,,Hm. Jsi slabý.
+Dialogue: 0,0:09:37.93,0:09:40.99,Main,M,0000,0000,0000,,To proto nedokážeš ochránit své milované.
+Dialogue: 0,0:09:40.99,0:09:42.55,Main,C,0000,0000,0000,,T-Tati!
+Dialogue: 0,0:09:42.55,0:09:46.90,Main,M,0000,0000,0000,,Nemáš žádne právo si říkat \NMikoshiba, když ani neumíš šermovat!
+Dialogue: 0,0:09:46.90,0:09:50.29,Main,M,0000,0000,0000,,Odpočívej v pokoji v Chosokabeho hrobě!
+Dialogue: 0,0:09:50.29,0:09:51.25,Main,Sen,0000,0000,0000,,Mikoshiba Yu.
+Dialogue: 0,0:09:51.25,0:09:52.76,Main,Sen,0000,0000,0000,,Člen Šermířské elitní čtyřky.
+Dialogue: 0,0:09:52.76,0:09:56.12,Main,Sen,0000,0000,0000,,Nebyl schopen si poradit s Chosokabeho rodinou\Na rozhodl se požádat do rozvod.
+Dialogue: 0,0:09:56.84,0:09:59.92,Main,Gin,0000,0000,0000,,No, představit nepřítele v takovejhlech chvílích je klasika.
+Dialogue: 0,0:09:59.92,0:10:01.24,Main,Gin,0000,0000,0000,,Ta Sensei je fakt dobrá.
+Dialogue: 0,0:10:01.24,0:10:03.42,Main,Sha,0000,0000,0000,,Nebuď tím tak okouzlenej!
+Dialogue: 0,0:10:03.42,0:10:06.10,Main,Sha,0000,0000,0000,,Od něčeho takovýho už nejde odstoupit!
+Dialogue: 0,0:10:06.10,0:10:08.50,Main,Sha,0000,0000,0000,,Sensei je pryč, takže jí nemůže pozvat na rande.
+Dialogue: 0,0:10:08.50,0:10:10.46,Main,Sha,0000,0000,0000,,A teď se už ani nemůže jmenovat Mikoshiba,
+Dialogue: 0,0:10:10.46,0:10:12.02,Main,Sha,0000,0000,0000,,protože není schopnej šermovat!
+Dialogue: 0,0:10:12.02,0:10:13.51,Main,Sha,0000,0000,0000,,Je po všem!
+Dialogue: 0,0:10:13.51,0:10:15.45,Main,Gin,0000,0000,0000,,Nevzdávej to!
+Dialogue: 0,0:10:15.45,0:10:17.25,Main,Gin,0000,0000,0000,,Musí tu bejt něco...
+Dialogue: 0,0:10:17.25,0:10:18.43,Main,Gin,0000,0000,0000,,Musí tu bejt nějakej východ!
+Dialogue: 0,0:10:18.43,0:10:19.36,Page2,Sign,0000,0000,0000,,Sensei a Já
+Dialogue: 0,0:10:18.43,0:10:19.36,Page2,Sign,0001,0220,0104,,4. Kapitola
+Dialogue: 0,0:10:18.43,0:10:19.36,Page2 Bottom,Sign,0000,0000,0000,,Akurogi Musai
+Dialogue: 0,0:10:19.49,0:10:21.77,Main,C,0000,0000,0000,,Za tohle zaplatíš!
+Dialogue: 0,0:10:21.77,0:10:24.58,Main,C,0000,0000,0000,,Co jsi to provedl Sensei?!
+Dialogue: 0,0:10:25.34,0:10:26.58,Main,M,0000,0000,0000,,N-Nemožné!
+Dialogue: 0,0:10:26.58,0:10:31.52,Main,M,0000,0000,0000,,Neříkal jsi, že už nikdy nebudeš moci šermovat?
+Dialogue: 0,0:10:31.52,0:10:33.68,Main,C,0000,0000,0000,,Máš pravdu...
+Dialogue: 0,0:10:34.23,0:10:35.86,Main,C,0000,0000,0000,,Jenže já říkal šmerovat.
+Dialogue: 0,0:10:35.86,0:10:38.13,Flashback,C,0000,0000,0000,,Omlouvám se, Sensei.
+Dialogue: 0,0:10:38.13,0:10:41.88,Flashback,C,0000,0000,0000,,Moje tělo už dál šmerování nensese...
+Dialogue: 0,0:10:42.37,0:10:45.23,Main,C,0000,0000,0000,,Ale šermování mi jde dobře.
+Dialogue: 0,0:10:45.23,0:10:48.67,Main,M,0000,0000,0000,,H-Hloupost! Šmerování?!
+Dialogue: 0,0:10:48.67,0:10:51.03,Main,M,0000,0000,0000,,Ty tedy tvrdíš, že ve skutečnosti nejsi Chosokabe,
+Dialogue: 0,0:10:51.03,0:10:53.82,Main,M,0000,0000,0000,,ale Mikoshiba?!
+Dialogue: 0,0:10:53.82,0:10:58.47,Main,C,0000,0000,0000,,Dokážeš zastavit mou ultimátní šermířskou \Ntechniku, kterou mě naučila Sensei?
+Dialogue: 0,0:10:58.47,0:11:01.31,Main,C,0000,0000,0000,,Techniku "Pojďte se mnou na rande, Sensei"?!
+Dialogue: 0,0:11:01.31,0:11:04.71,Main,M,0000,0000,0000,,V tom případě musím \Nodpovědět svou veškerou silou!
+Dialogue: 0,0:11:04.71,0:11:06.21,Main,M,0000,0000,0000,,Svou ultimátní technikou s názvem
+Dialogue: 0,0:11:06.21,0:11:07.70,Main,M,0000,0000,0000,,"Ano"!
+Dialogue: 0,0:11:07.70,0:11:09.60,Main,C,0000,0000,0000,,Tak jdeme na to!
+Dialogue: 0,0:11:10.05,0:11:12.98,Main,C,0000,0000,0000,,Pojďte se mnou na rande, Sensei!
+Dialogue: 0,0:11:12.98,0:11:15.56,Main,M,0000,0000,0000,,Děkujeme za přečtení!
+Dialogue: 0,0:11:15.56,0:11:19.73,Main,M,0000,0000,0000,,Těšte se na další dílo Akurogiho-sensei!
+Dialogue: 0,0:11:20.15,0:11:23.02,Main,Sha,0000,0000,0000,,Zrušili publikaci...
+Dialogue: 0,0:11:23.02,0:11:24.66,Main,Sha,0000,0000,0000,,Všechno je v hajzlu!
+Dialogue: 0,0:11:24.87,0:11:26.26,Main,Gin,0000,0000,0000,,Ještě ne!
+Dialogue: 0,0:11:26.26,0:11:28.94,Main,Gin,0000,0000,0000,,Ještě jsme neskončili!
+Dialogue: 0,0:11:28.29,0:11:30.79,End Title,Sign,0000,0000,0000,,Sensei a Já
+Dialogue: 0,0:11:28.29,0:11:30.79,End Author,Sign,0000,0000,0000,,Akurogi Musai
+Dialogue: 0,0:11:28.29,0:11:30.79,End Question,Sign,0000,0000,0000,,Pojďte se mnou na rande, Narutaki-sensei. \N- Akurogi
+Dialogue: 0,0:11:28.94,0:11:30.79,Main,Gin,0000,0000,0000,,Pořád máme k dispozici doslov!
+Dialogue: 0,0:11:35.46,0:11:37.11,Main,Dr,0000,0000,0000,,"Akurogi-sensei,
+Dialogue: 0,0:11:37.11,0:11:38.64,Main,Dr,0000,0000,0000,,Už se nejmenuji Narutaki.
+Dialogue: 0,0:11:39.06,0:11:40.82,Main,Dr,0000,0000,0000,,Změnila jsem si pseudonym na
+Dialogue: 0,0:11:41.29,0:11:42.62,Main,Dr,0000,0000,0000,,Chosokabe."
+Dialogue: 0,0:11:49.09,0:11:50.93,Main,Sha,0000,0000,0000,,C-Co to povídáš, brácho?
+Dialogue: 0,0:11:51.34,0:11:53.29,Main,Gin,0000,0000,0000,,Seš hluchej?
+Dialogue: 0,0:11:53.29,0:11:56.20,Main,Gin,0000,0000,0000,,Máme před sebou náši bránu do {\i1}Jumpu{\i0}.
+Dialogue: 0,0:11:56.20,0:11:57.44,Main,Sha,0000,0000,0000,,Nekecáš?!
+Dialogue: 0,0:11:57.72,0:11:59.51,Main,Sha,0000,0000,0000,,Jenže budeme jen filler.
+Dialogue: 0,0:11:59.51,0:12:02.15,Main,Sha,0000,0000,0000,,Gintaman si bere tenhle tejden přestávku, \Ntakže jdeme na záskok.
+Dialogue: 0,0:12:02.15,0:12:04.95,Main,Sha,0000,0000,0000,,Gorilí mangaka prej nejspíš zdrhnul někam do džungle.
+Dialogue: 0,0:12:04.95,0:12:06.97,Main,Sha,0000,0000,0000,,N-Nemůžu tomu uvěřit!
+Dialogue: 0,0:12:06.97,0:12:08.69,Main,Sha,0000,0000,0000,,T-Tohle není jen sen, žejo?
+Dialogue: 0,0:12:08.69,0:12:11.70,Main,Sha,0000,0000,0000,,Neprobudím se s hlavou přímo na špalku?
+Dialogue: 0,0:12:11.70,0:12:14.57,Main,Sha,0000,0000,0000,,Nicméně máme čas jen do zítřejšího rána,
+Dialogue: 0,0:12:14.57,0:12:18.04,Main,Sha,0000,0000,0000,,abysme proměnili tenhle 19-ti stránkovej \Nnákres na hotovej manuskript.
+Dialogue: 0,0:12:18.04,0:12:19.75,Main,Sha,0000,0000,0000,,Z-Zítřejšího rána?!
+Dialogue: 0,0:12:19.75,0:12:21.25,Main,Sha,0000,0000,0000,,To je šílený!
+Dialogue: 0,0:12:21.68,0:12:24.90,Main,Gin,0000,0000,0000,,Tušil jsem, že tenhle den někdy přijde,
+Dialogue: 0,0:12:24.90,0:12:26.31,Main,Gin,0000,0000,0000,,takže jsem předem všechno zajistil...
+Dialogue: 0,0:12:26.92,0:12:29.88,Main,Gin,0000,0000,0000,,Naverboval jsem nejlepší manga asistenty, \Nco si jen dovedeš představit.
+Dialogue: 0,0:12:29.88,0:12:31.37,Main,Gin,0000,0000,0000,,Akurogi Gang.
+Dialogue: 0,0:12:31.77,0:12:36.81,Ep Title,Title,0000,0000,0000,,{\fad(481,1)}G-Pen Je Náladový, \NMaru Je Tvrdohlavý
+Dialogue: 0,0:12:40.12,0:12:42.93,Internal,Sha,0000,0000,0000,,Brácho, jak dlouho to bude ještě Akurogi Gangu trvat?
+Dialogue: 0,0:12:42.93,0:12:44.48,Internal,Sha,0000,0000,0000,,Tlačí nás čas.
+Dialogue: 0,0:12:44.48,0:12:47.66,Internal,Sha,0000,0000,0000,,Já to věděl! Věděl jsem, že do týhle \Nbasy se nemůže proplížit ani myška!
+Dialogue: 0,0:12:47.66,0:12:49.09,Main,Sha,0000,0000,0000,,Do hajzlu!
+Dialogue: 0,0:12:49.09,0:12:53.33,Internal,Sha,0000,0000,0000,,Co jsem to k čertu dělal se svým životem?
+Dialogue: 0,0:12:53.64,0:12:55.08,Internal,Sha,0000,0000,0000,,Bože Mangy,
+Dialogue: 0,0:12:55.08,0:12:58.08,Internal,Sha,0000,0000,0000,,je mi fuk, jestli tu budu hnít navěky.
+Dialogue: 0,0:12:58.08,0:13:00.40,Internal,Sha,0000,0000,0000,,Ale prosím, tenhle sen mi...
+Dialogue: 0,0:13:00.40,0:13:01.98,Internal,Sha,0000,0000,0000,,Tenhle sen nám neber—
+Dialogue: 0,0:13:01.98,0:13:03.68,Main,Gin,0000,0000,0000,,Zastav.
+Dialogue: 0,0:13:04.66,0:13:07.72,Main,Gin,0000,0000,0000,,Tvoje okouzlující řádky se začínaj\N slušně rozpadat,
+Dialogue: 0,0:13:08.16,0:13:09.72,Main,Gin,0000,0000,0000,,Akurogi-sensei.
+Dialogue: 0,0:13:10.06,0:13:11.79,Main,Sha,0000,0000,0000,,B-Brácho!
+Dialogue: 0,0:13:11.79,0:13:13.55,Main,Gin,0000,0000,0000,,Promiň mi to zpoždění, Shachi.
+Dialogue: 0,0:13:13.55,0:13:16.48,Main,Gin,0000,0000,0000,,S tímhle nejlepším týmem vyvolenejch
+Dialogue: 0,0:13:16.77,0:13:19.48,Main,Gin,0000,0000,0000,,stihneme všechno dokončit do rozednění!
+Dialogue: 0,0:13:21.03,0:13:22.98,Main,Gin,0000,0000,0000,,Tohle je náš Akurogi Gang!
+Dialogue: 0,0:13:23.73,0:13:26.01,Main,Gin,0000,0000,0000,,Asistent na tónování:
+Dialogue: 0,0:13:30.56,0:13:31.57,Main,Gin,0000,0000,0000,,Rozparovač -
+Dialogue: 0,0:13:31.14,0:13:35.87,Name,Sign,0000,0000,0000,,{\fad(253,1)}Mistr krátkých čepelí Takuma
+Dialogue: 0,0:13:31.57,0:13:33.29,Main,Gin,0000,0000,0000,,Mistr krátkých čepelí Takuma!
+Dialogue: 0,0:13:33.29,0:13:35.24,Main,Gin,0000,0000,0000,,Odsouzen na 280 let!
+Dialogue: 0,0:13:36.31,0:13:39.51,Main,Gin,0000,0000,0000,,Přesně jako všechny kalhotky visící na balkóně,
+Dialogue: 0,0:13:39.51,0:13:42.03,Main,Gin,0000,0000,0000,,ani žádný rastr jeho ostrým drápům neodolá!
+Dialogue: 0,0:13:42.71,0:13:45.51,Main,Gin,0000,0000,0000,,Asistent na práci s inkoustem:
+Dialogue: 0,0:13:45.51,0:13:47.54,Main,Gin,0000,0000,0000,,Ango černého inkoustu!
+Dialogue: 0,0:13:46.95,0:13:49.34,Name,Sign,0000,0000,0000,,Ango černého inkoustu
+Dialogue: 0,0:13:47.54,0:13:49.34,Main,Gin,0000,0000,0000,,Odsouzen na 320 let!
+Dialogue: 0,0:13:49.74,0:13:53.72,Main,Gin,0000,0000,0000,,Nic ho neukonejší víc, než \Nzběsilé potřísnění bílého plátna!
+Dialogue: 0,0:13:53.72,0:13:56.10,Main,Gin,0000,0000,0000,,Neexistuje žádná bílá látka, kterou by nemohl začernit!
+Dialogue: 0,0:13:56.41,0:13:58.31,Main,Gin,0000,0000,0000,,A v neposlední řadě náš asistent na kalhotky:
+Dialogue: 0,0:13:58.87,0:14:01.01,Main,Gin,0000,0000,0000,,Zloděj spodního prádla maskovaný bederní rouškou!
+Dialogue: 0,0:14:00.58,0:14:01.58,Name,Sign,0000,0000,0000,,Zloděj spodního prádla maskovaný bederní rouškou
+Dialogue: 0,0:14:01.78,0:14:04.36,Main,Sha,0000,0000,0000,,Všechno to jsou zloději kalhotek!
+Dialogue: 0,0:14:04.62,0:14:05.42,Main,Sha,0000,0000,0000,,Počkat počkat.
+Dialogue: 0,0:14:05.42,0:14:07.93,Main,Sha,0000,0000,0000,,Nejste vy všichni taky vězni?!
+Dialogue: 0,0:14:07.93,0:14:08.94,Main,Sha,0000,0000,0000,,Kde jsou asistenti?
+Dialogue: 0,0:14:08.94,0:14:09.95,Main,Sha,0000,0000,0000,,Kde je Akurogi Gang?!
+Dialogue: 0,0:14:10.34,0:14:14.20,Main,Gin,0000,0000,0000,,Víš, byla docela makačka najít v týhle díře někoho, \Nkdo se zdá být aspoň trochu užitečnej.
+Dialogue: 0,0:14:14.20,0:14:15.67,Main,Sha,0000,0000,0000,,Jsou k ničemu!
+Dialogue: 0,0:14:15.67,0:14:17.03,Main,Sha,0000,0000,0000,,Tohle nemůžou bejt asistenti,
+Dialogue: 0,0:14:17.03,0:14:19.75,Main,Sha,0000,0000,0000,,jediná věc v jejich životopisech jsou kriminální záznamy!
+Dialogue: 0,0:14:19.75,0:14:22.25,Main,Sha,0000,0000,0000,,A pochybuju, že tyhle individua kdy kreslily mangu!
+Dialogue: 0,0:14:22.70,0:14:24.36,Main,UT,0000,0000,0000,,Já umím nakreslit kalhotky.
+Dialogue: 0,0:14:24.36,0:14:26.23,Main,SS,0000,0000,0000,,Já umím tónovat kalhotky.
+Dialogue: 0,0:14:25.86,0:14:29.63,Want,Sign,0000,0000,0000,,Já chci  \Npotřísnit kalhotky.
+Dialogue: 0,0:14:27.02,0:14:29.63,Main,Sha,0000,0000,0000,,Vy nechcete kreslit nic jinýho\N než kalhotky, nemám pravdu?!
+Dialogue: 0,0:14:30.42,0:14:33.14,Main,Gin,0000,0000,0000,,Bude to v cajku. Umíte přece kreslit i \Njiný věci než kalhotky, ne?
+Dialogue: 0,0:14:33.44,0:14:34.45,Main,UT,0000,0000,0000,,Jistěže.
+Dialogue: 0,0:14:35.19,0:14:37.77,Main,UT,0000,0000,0000,,"Můj dlouholetý sen nakreslit do {\i1}Jumpu{\i0} kalhotky se nyní splnil.
+Dialogue: 0,0:14:37.77,0:14:40.22,Main,UT,0000,0000,0000,,Nečekám na fanouškovské maily,\Nale na fanouškovské kalhotky.
+Dialogue: 0,0:14:40.22,0:14:40.75,Main,UT,0000,0000,0000,,- Musai."
+Dialogue: 0,0:14:40.75,0:14:43.47,Main,Sha,0000,0000,0000,,Kdo potřebuje asistenty na psaní doslovů?!
+Dialogue: 0,0:14:43.47,0:14:45.58,Main,Sha,0000,0000,0000,,A furt dokola meleš jen o kalhotkách!
+Dialogue: 0,0:14:45.58,0:14:46.48,Main,Sha,0000,0000,0000,,Všichni nás budou nesnášet!
+Dialogue: 0,0:14:46.81,0:14:47.93,Main,SS,0000,0000,0000,,To nemusí být nutně pravda.
+Dialogue: 0,0:14:48.64,0:14:51.14,Main,SS,0000,0000,0000,,"Můj ex-asistent Akurogi-kun, \Nzačíná v Jumpu.
+Dialogue: 0,0:14:51.14,0:14:52.87,Main,SS,0000,0000,0000,,Styl, kterým kreslí kalhotky, \Nzanechal v mém srdci dojem.
+Dialogue: 0,0:14:52.87,0:14:54.07,Main,SS,0000,0000,0000,,Už se těším na další kalhotky.
+Dialogue: 0,0:14:54.07,0:14:54.75,Main,SS,0000,0000,0000,,- Hideaki."
+Dialogue: 0,0:14:54.75,0:14:57.27,Main,Sha,0000,0000,0000,,Nepřepisuj cizí komentáře!
+Dialogue: 0,0:14:57.27,0:14:59.14,Main,Sha,0000,0000,0000,,A proč tohle vítá zrovna mangaka Gintamy?
+Dialogue: 0,0:14:59.14,0:15:00.82,Main,Sha,0000,0000,0000,,On nemá kámoše, nebo co?!
+Dialogue: 0,0:15:00.37,0:15:06.59,Looking,Sign,0000,0000,0000,,Hledám kamarády!! \N\N{\fs20}Sorachi Hideaki       Gintama \N\N{\fs16}Jaké aspekty musí mí přátelé splňovat? \N1) Rozhovory začínáš ty. \N2) Mluv jenom o manze, anime a hrách. \N3) Nezvi mě moc často ven. \N4) Vlastně mě nezvi vůbec. \N5) Kalhotky.
+Dialogue: 0,0:15:01.98,0:15:04.14,Main,Sha,0000,0000,0000,,Co myslíte tím "Hledám kamarády"?!
+Dialogue: 0,0:15:04.14,0:15:06.59,Main,Sha,0000,0000,0000,,Je to jak veřejná poprava maskovaná \Nza hledání asistentů!
+Dialogue: 0,0:15:06.59,0:15:08.17,Main,Sha,0000,0000,0000,,Nechte už toho!
+Dialogue: 0,0:15:08.17,0:15:09.93,Main,Sha,0000,0000,0000,,Dejte pokoj s kalhotkama a doslovama!
+Dialogue: 0,0:15:09.93,0:15:12.05,Main,Sha,0000,0000,0000,,Na tohle teď nemáme čas!
+Dialogue: 0,0:15:12.05,0:15:13.73,Main,Gin,0000,0000,0000,,Vždyť my víme.
+Dialogue: 0,0:15:13.73,0:15:18.19,Main,Gin,0000,0000,0000,,Shachi, ty si proteď vezmi na \Nstarost obtahování postav.
+Dialogue: 0,0:15:18.19,0:15:20.31,Main,Gin,0000,0000,0000,,Já jim dám insturkce, co a jak.
+Dialogue: 0,0:15:20.60,0:15:22.31,Main,Sha,0000,0000,0000,,Ale...
+Dialogue: 0,0:15:22.31,0:15:24.22,Main,Gin,0000,0000,0000,,Říkám, bude to v cajku.
+Dialogue: 0,0:15:24.22,0:15:26.82,Main,Gin,0000,0000,0000,,Věř nebo ne, ale oni na tohle trénovali.
+Dialogue: 0,0:15:27.04,0:15:28.25,Main,Sha,0000,0000,0000,,Trénovali?
+Dialogue: 0,0:15:28.25,0:15:30.61,Main,Gin,0000,0000,0000,,Okej, ty první, Takkune.
+Dialogue: 0,0:15:30.86,0:15:33.98,Main,SS,0000,0000,0000,,Vaše přání je mi rozkazem. \NOřežu vše, co jen budete chtít.
+Dialogue: 0,0:15:33.98,0:15:35.95,Main,Sha,0000,0000,0000,,On se spřátelil s řezačkou!
+Dialogue: 0,0:15:36.34,0:15:38.25,Main,Gin,0000,0000,0000,,Semhle nalep tenhle rastr.
+Dialogue: 0,0:15:38.25,0:15:39.62,Main,SS,0000,0000,0000,,Brnkačka.
+Dialogue: 0,0:15:39.62,0:15:41.54,Main,Gin,0000,0000,0000,,Hlavně nezapomeň, jak jsem tě to učil.
+Dialogue: 0,0:15:41.81,0:15:43.91,Main,SS,0000,0000,0000,,Kdo si myslíte, že jsem?
+Dialogue: 0,0:15:44.74,0:15:47.39,Main,SS,0000,0000,0000,,Pokud budeš při vyřezávání příliš tlačit,
+Dialogue: 0,0:15:47.39,0:15:49.92,Main,SS,0000,0000,0000,,riskuješ, že se tím poškodí i manuskript.
+Dialogue: 0,0:15:50.52,0:15:53.56,Main,SS,0000,0000,0000,,Přesně, jako při odřezávání kalhotek od kolíků \Nzavěšených na šňůře,
+Dialogue: 0,0:15:53.56,0:15:58.31,Main,SS,0000,0000,0000,,musím rastr vyříznout jemným, ale \Nodvážným způsobem, nemám pravdu?
+Dialogue: 0,0:15:59.49,0:16:02.51,Internal,Sha,0000,0000,0000,,Už dokonce pochopil základy \Nzacházení s rastrem.
+Dialogue: 0,0:16:02.51,0:16:04.31,Internal,Sha,0000,0000,0000,,Ne, to není vše!
+Dialogue: 0,0:16:04.87,0:16:08.62,Internal,Sha,0000,0000,0000,,Jeho práce spočívala v odřezávání kalhotek od kolíčků,
+Dialogue: 0,0:16:08.62,0:16:11.95,Internal,Sha,0000,0000,0000,,což je skoro to samý, \Njako vyřezávání tónů z rastru!
+Dialogue: 0,0:16:12.17,0:16:16.62,Internal,Sha,0000,0000,0000,,Vybral si ho snad brácha proto, že si toho všiml?
+Dialogue: 0,0:16:16.62,0:16:18.33,Main,Gin,0000,0000,0000,,Fajn. Postarej se o to.
+Dialogue: 0,0:16:18.95,0:16:22.13,Main,Sha,0000,0000,0000,,O rastry se radši nestarej! V první řadě \Nbyses měl postarat o svůj život!
+Dialogue: 0,0:16:22.65,0:16:25.40,Main,SS,0000,0000,0000,,Dnešní broušení drápů se mi nevyplatilo.
+Dialogue: 0,0:16:25.40,0:16:28.25,Main,Sha,0000,0000,0000,,Spíš bys s takovejma pařátama vůbec neměl dělat asistenta!
+Dialogue: 0,0:16:28.61,0:16:29.66,Main,SS,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:16:29.66,0:16:31.04,Main,SS,0000,0000,0000,,Napravím to.
+Dialogue: 0,0:16:31.53,0:16:35.34,Main,SS,0000,0000,0000,,"Sensei si na mně dnes v práci vybil zlost, \Nale jinak jsem v pohodě.
+Dialogue: 0,0:16:35.34,0:16:36.76,Main,SS,0000,0000,0000,,Těším se na další kalhotky.
+Dialogue: 0,0:16:36.76,0:16:37.35,Main,SS,0000,0000,0000,,- Takkun."
+Dialogue: 0,0:16:37.35,0:16:38.96,Main,Sha,0000,0000,0000,,A co tím jako napravuješ?!
+Dialogue: 0,0:16:38.96,0:16:40.93,Main,Sha,0000,0000,0000,,Nestěžuj si skrz doslovy!
+Dialogue: 0,0:16:41.15,0:16:43.09,Main,Gin,0000,0000,0000,,Okej, další... An-chan.
+Dialogue: 0,0:16:46.61,0:16:50.07,Main,Sha,0000,0000,0000,,Vždyť ani nenosej normální hadry jako asistenti.
+Dialogue: 0,0:16:50.52,0:16:54.20,Main,Gin,0000,0000,0000,,Ty začerni všechny oblasti označený křížkem.
+Dialogue: 0,0:16:55.24,0:16:56.36,Main,Gin,0000,0000,0000,,Supr.
+Dialogue: 0,0:16:56.87,0:16:58.95,Main,Gin,0000,0000,0000,,A ujisti se, že nikde nepřetáhneš.
+Dialogue: 0,0:16:58.95,0:16:59.87,Main,Gin,0000,0000,0000,,Na tohle máš fakt talent.
+Dialogue: 0,0:16:59.87,0:17:01.61,Main,Sha,0000,0000,0000,,Sice mám na obličeji křížek,
+Dialogue: 0,0:17:01.61,0:17:03.45,Main,Sha,0000,0000,0000,,ale nemohl bys radši barvit manuskripta?
+Dialogue: 0,0:17:03.56,0:17:11.21,Ango,Sign,0000,0000,0000,,{\fad(171,1)}Jemu nedošlo, že jsem to udělal účelně?\NMusí to zůstat jen mezi námi. -Ango
+Dialogue: 0,0:17:05.33,0:17:08.10,Main,Sha,0000,0000,0000,,Na co tím doslovem narážíš?!
+Dialogue: 0,0:17:08.10,0:17:11.21,Main,Sha,0000,0000,0000,,Tvoje srdce je černější než ty manuskripta!
+Dialogue: 0,0:17:12.03,0:17:15.73,Main,SS,0000,0000,0000,,"Ta jeho slovní hříčka mi celkem drásá nervy."
+Dialogue: 0,0:17:15.73,0:17:16.28,Main,SS,0000,0000,0000,,-Takkun."
+Dialogue: 0,0:17:16.28,0:17:22.49,Ango,Sign,0000,0000,0000,,A jeho odpovědi jsou zatraceně dlouhý, lol. \NAle ani jsem se neobtěžoval většinu z těch keců poslouchat. - Ango
+Dialogue: 0,0:17:20.41,0:17:22.49,Main,Sha,0000,0000,0000,,Nepoužívejte doslovy jako prostředek komunikace!
+Dialogue: 0,0:17:22.49,0:17:26.25,Ango,UT,0000,0000,0000,,Sensei, co bych měl dělat já? - Bederní rouška
+Dialogue: 0,0:17:22.91,0:17:26.01,Main,UT,0000,0000,0000,,"Sensei, co bych měl dělat já?"
+Dialogue: 0,0:17:26.61,0:17:31.32,Main,Gin,0000,0000,0000,,"No, zatím tu nemáme žádný scény se spodním prádlem, \Ntak si vem na starost třeba bubliny, nebo prostě něco."
+Dialogue: 0,0:17:31.32,0:17:32.78,Main,Sha,0000,0000,0000,,Mluvte sakra!
+Dialogue: 0,0:17:32.78,0:17:35.03,Main,Sha,0000,0000,0000,,Dej mu ty instrukce přímo!
+Dialogue: 0,0:17:35.03,0:17:39.28,SpeechR,Sign,0000,0000,0000,,Hiroshi-kun, miluji tě.\N - Sachiko
+Dialogue: 0,0:17:35.03,0:17:39.28,SpeechL,Sign,0000,0000,0000,,Sachiko-chan,také tě miluji. \N- Hiroshi
+Dialogue: 0,0:17:36.10,0:17:39.28,Main,Sha,0000,0000,0000,,Dokonce i bubliny teď vypadaj jako doslov!
+Dialogue: 0,0:17:39.74,0:17:41.61,Main,Sha,0000,0000,0000,,Nechte toho! Už stačí!
+Dialogue: 0,0:17:41.61,0:17:44.32,Main,Sha,0000,0000,0000,,Zapomeňte na vybarvování a tónování.
+Dialogue: 0,0:17:44.32,0:17:47.43,Main,Sha,0000,0000,0000,,Důležitý je teď dodělat postavy a scenérii,
+Dialogue: 0,0:17:47.43,0:17:50.40,Main,Sha,0000,0000,0000,,aby se ta manga dala aspoň číst.
+Dialogue: 0,0:17:50.40,0:17:52.21,Main,Sha,0000,0000,0000,,Potřebuju se soustředit.
+Dialogue: 0,0:17:52.47,0:17:54.06,Main,Gin,0000,0000,0000,,Okej, rozumím.
+Dialogue: 0,0:17:54.06,0:17:57.63,Main,Gin,0000,0000,0000,,V tom případě si rozdělíme papíry a \Nobtáhneme nákresy inkoustem.
+Dialogue: 0,0:17:58.26,0:17:59.58,Main,Sha,0000,0000,0000,,No to počkej, brácho.
+Dialogue: 0,0:17:59.58,0:18:02.39,Main,Sha,0000,0000,0000,,Takovou práci můžou amatéři zatraceně zmrvit!
+Dialogue: 0,0:18:02.39,0:18:03.72,Main,Gin,0000,0000,0000,,Bude to v pohodě.
+Dialogue: 0,0:18:03.72,0:18:07.37,Main,Gin,0000,0000,0000,,Kterej idiot by nedokázal obtáhnout obrázek?
+Dialogue: 0,0:18:09.14,0:18:11.77,Main,Gin,0000,0000,0000,,Hej lidi, poslouchejte. Dejte si pozor, ať nikde nepřetáhnete.
+Dialogue: 0,0:18:12.03,0:18:14.28,Main,Gin,0000,0000,0000,,Jestli nezvládnete splnit takhle jednoduchej úkol,
+Dialogue: 0,0:18:14.28,0:18:15.32,Main,Gin,0000,0000,0000,,na místě máte padáka—
+Dialogue: 0,0:19:06.29,0:19:08.37,Internal,Gin,0000,0000,0000,,Byla tam nějaká takováhle postava?
+Dialogue: 0,0:19:08.76,0:19:10.23,Internal,Gin,0000,0000,0000,,Nebyla víc realistická?
+Dialogue: 0,0:19:10.23,0:19:13.38,Internal,Gin,0000,0000,0000,,Ne, možná byla taky \Ntaková podivně pokroucená.
+Dialogue: 0,0:19:13.38,0:19:16.81,Internal,Gin,0000,0000,0000,,Počkat, myslím, že tam něco chybí.
+Dialogue: 0,0:19:15.67,0:19:20.88,Speech,Sign,0000,0000,0000,,Děkuji za čepici.
+Dialogue: 0,0:19:16.81,0:19:18.11,Internal,Gin,0000,0000,0000,,Ah, čepice!
+Dialogue: 0,0:19:18.11,0:19:20.88,Internal,Gin,0000,0000,0000,,Na konci dostane hrdinka \Nod hlavní postavy čepici!
+Dialogue: 0,0:19:21.26,0:19:22.88,Internal,Gin,0000,0000,0000,,Jak že to sakra vypadalo?
+Dialogue: 0,0:19:22.88,0:19:25.19,Internal,Gin,0000,0000,0000,,Jakou čepku jí shachi nakreslil?
+Dialogue: 0,0:19:26.89,0:19:31.24,Internal,Gin,0000,0000,0000,,Čtyři poslední stránky, na kterjech jí \Nmá na sobě, jsou momentálně u nich!
+Dialogue: 0,0:19:31.24,0:19:32.40,Internal,Gin,0000,0000,0000,,Co mám dělat?
+Dialogue: 0,0:19:41.45,0:19:42.77,Main,Gin,0000,0000,0000,,Jak to jde?
+Dialogue: 0,0:19:42.77,0:19:45.62,Main,Gin,0000,0000,0000,,Teda, berete to fakt vážně.
+Dialogue: 0,0:19:45.62,0:19:48.51,Main,UT,0000,0000,0000,,Nikdy by mě nenapadlo, že to bude tak náročné.
+Dialogue: 0,0:19:48.51,0:19:51.71,Main,UT,0000,0000,0000,,Obzvlášť ta čepice.
+Dialogue: 0,0:19:51.71,0:19:53.88,Main,Gin,0000,0000,0000,,Notak, uka mi to.
+Dialogue: 0,0:19:56.94,0:19:59.05,Internal,Gin,0000,0000,0000,,Vážně vypadala takhle?
+Dialogue: 0,0:19:59.40,0:20:03.15,Internal,Gin,0000,0000,0000,,Rád bych řekl, že to \Njsou jen blbý kalhotky, ale...
+Dialogue: 0,0:20:03.15,0:20:04.57,Main,UT,0000,0000,0000,,Co myslíte?
+Dialogue: 0,0:20:06.16,0:20:10.47,Internal,Gin,0000,0000,0000,,Když se nad tím tak zamyslím, ta čepice se \Npřece dost podobala na kalhotky.
+Dialogue: 0,0:20:10.47,0:20:11.84,Main,Gin,0000,0000,0000,,Není to špatný—
+Dialogue: 0,0:20:11.00,0:20:12.56,Main,SS,0000,0000,0000,,Takto to je špatně.
+Dialogue: 0,0:20:13.19,0:20:15.81,Main,SS,0000,0000,0000,,Hrdinka by si nikdy nevzala na \Nhlavu nic tak pohoršujícího.
+Dialogue: 0,0:20:16.07,0:20:17.94,Main,Gin,0000,0000,0000,,M-Máš pravdu!
+Dialogue: 0,0:20:17.94,0:20:20.72,Main,Gin,0000,0000,0000,,Víš, hrdinka by si nikdy nevzala na \Nhlavu nic tak pohoršujícího!
+Dialogue: 0,0:20:20.72,0:20:21.77,Main,Gin,0000,0000,0000,,Máš v tý hlavě něco?!
+Dialogue: 0,0:20:21.77,0:20:22.82,Main,Gin,0000,0000,0000,,Tohle jsou přece kalhotky—
+Dialogue: 0,0:20:23.12,0:20:25.78,Main,SS,0000,0000,0000,,Hlavní hrdinka nosí jen \Nkalhotky s volánky.
+Dialogue: 0,0:20:25.78,0:20:27.83,Internal,Gin,0000,0000,0000,,Furt to jsou kalhotky, dohajzlu!
+Dialogue: 0,0:20:28.36,0:20:30.65,Main,UT,0000,0000,0000,,Ale já jsem je namaloval podle nákresu.
+Dialogue: 0,0:20:30.65,0:20:32.41,Main,SS,0000,0000,0000,,To já také.
+Dialogue: 0,0:20:32.41,0:20:34.10,Internal,Gin,0000,0000,0000,,Takže to fakt byly kalhotky?
+Dialogue: 0,0:20:34.10,0:20:35.62,Internal,Gin,0000,0000,0000,,Oni oba nakreslili kalhotky,
+Dialogue: 0,0:20:35.62,0:20:37.34,Internal,Gin,0000,0000,0000,,takže to musely bejt celou dobu kalhotky.
+Dialogue: 0,0:20:38.34,0:20:39.84,Note,Sign,0000,0000,0000,,V tom není ten problém.
+Dialogue: 0,0:20:42.44,0:20:46.18,NoteR,Sign,0000,0000,0000,,Oba jste je zapomněli potřísnit.
+Dialogue: 0,0:20:43.82,0:20:46.18,Main,Gin,0000,0000,0000,,Ne, ty seš tady ten největší problém!
+Dialogue: 0,0:20:46.52,0:20:49.01,Internal,Gin,0000,0000,0000,,Vím akorát, že to maj všichni špatně!
+Dialogue: 0,0:20:47.88,0:20:50.05,Main,SS,0000,0000,0000,,{\an8}Které kalhotky jsou tedy ty pravé?
+Dialogue: 0,0:20:49.01,0:20:51.94,Internal,Gin,0000,0000,0000,,Tvoje určitě ne!
+Dialogue: 0,0:20:50.05,0:20:51.94,Main,UT,0000,0000,0000,,{\an8}Takto bude manga rozporuplná.
+Dialogue: 0,0:20:51.94,0:20:52.89,Main,SS,0000,0000,0000,,Oh, Sensei.
+Dialogue: 0,0:20:53.67,0:20:56.41,Main,SS,0000,0000,0000,,Jak vypadají vaše kalhotky?
+Dialogue: 0,0:20:56.41,0:20:57.61,Main,Gin,0000,0000,0000,,He? Em...
+Dialogue: 0,0:20:57.61,0:20:58.90,Main,Gin,0000,0000,0000,,Já, no...
+Dialogue: 0,0:20:59.18,0:21:01.56,Main,Gin,0000,0000,0000,,Popravdě, chodím naostro.
+Dialogue: 0,0:21:01.56,0:21:04.36,Main,UT,0000,0000,0000,,Nás nezajímá vaše špinavé spodní prádlo.
+Dialogue: 0,0:21:04.36,0:21:05.56,Main,UT,0000,0000,0000,,Ptáme se na kalhotky hrdinky.
+Dialogue: 0,0:21:05.56,0:21:07.43,Main,Gin,0000,0000,0000,,Taky může jít naostro.
+Dialogue: 0,0:21:07.43,0:21:09.56,Main,Gin,0000,0000,0000,,{\i1}Jump{\i0} musí poskytnout čtenářům jejich sny.
+Dialogue: 0,0:21:09.56,0:21:10.98,Main,SS,0000,0000,0000,,Nechápete to.
+Dialogue: 0,0:21:10.98,0:21:13.25,Main,SS,0000,0000,0000,,Chceme vidět vaše kalhotky.
+Dialogue: 0,0:21:13.25,0:21:14.93,Main,Gin,0000,0000,0000,,Proč moje?
+Dialogue: 0,0:21:14.93,0:21:16.17,Main,SS,0000,0000,0000,,Neskrývejte je před námi.
+Dialogue: 0,0:21:17.27,0:21:19.43,Main,Sha,0000,0000,0000,,Do hajzlu!
+Dialogue: 0,0:21:19.43,0:21:21.49,Main,Sha,0000,0000,0000,,Byl jsem tak unavenej, usnul jsem!
+Dialogue: 0,0:21:21.49,0:21:23.49,Main,Sha,0000,0000,0000,,Je to v prdeli!
+Dialogue: 0,0:21:23.49,0:21:24.75,Main,Sha,0000,0000,0000,,Co můj manuskript?
+Dialogue: 0,0:21:25.68,0:21:35.02,Note2,Sign,0000,0000,0000,,Vyspal ses do růžova?\NManuskript jsme dokončili,\Ntak si trochu odpočiň. \NDobrá práce. \N\N- Akurogi Gang
+Dialogue: 0,0:21:26.34,0:21:27.91,Internal,Gin,0000,0000,0000,,Vyspal ses do růžova?
+Dialogue: 0,0:21:27.91,0:21:31.25,Internal,Gin,0000,0000,0000,,Manuskript jsme dokončili, tak si trochu odpočiň.
+Dialogue: 0,0:21:31.25,0:21:33.17,Internal,Gin,0000,0000,0000,,Dobrá práce.
+Dialogue: 0,0:21:33.17,0:21:35.02,Internal,Gin,0000,0000,0000,,-Akurogi Gang.
+Dialogue: 0,0:21:38.53,0:21:40.15,Main,Sha,0000,0000,0000,,B-Brácho...
+Dialogue: 0,0:21:40.68,0:21:41.50,Main,Sha,0000,0000,0000,,Lidi...
+Dialogue: 0,0:21:42.55,0:21:44.03,Main,Sha,0000,0000,0000,,Díky.
+Dialogue: 0,0:21:44.62,0:21:47.13,Main,ED,0000,0000,0000,,Překvapil jste mě.
+Dialogue: 0,0:21:47.13,0:21:50.33,Main,ED,0000,0000,0000,,Upřímně jsem si myslel, že to nestihnete.
+Dialogue: 0,0:21:50.77,0:21:54.06,Main,Sha,0000,0000,0000,,Za to vše vděčím jen Akurogi Gangu.
+Dialogue: 0,0:21:54.06,0:21:55.64,Main,ED,0000,0000,0000,,Akorát...
+Dialogue: 0,0:21:55.64,0:21:57.83,Main,ED,0000,0000,0000,,První polovina je bezchybná,
+Dialogue: 0,0:21:58.45,0:22:00.19,Main,ED,0000,0000,0000,,ale na posledních čtyřech stránkách
+Dialogue: 0,0:22:00.19,0:22:02.39,Main,ED,0000,0000,0000,,není hrdince vidět do obličeje.
+Dialogue: 0,0:23:34.89,0:23:45.90,Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:35.86,0:23:39.53,Main,Shin,0000,0000,0000,,Gin-san, when you see a sword, can you \Ntell what kind of person is using it?
+Dialogue: 0,0:23:39.53,0:23:42.97,Main,Gin,0000,0000,0000,,Swords, watches, and cars are \Nstatus indicators for samurai.
+Dialogue: 0,0:23:42.97,0:23:43.82,Main,Gin,0000,0000,0000,,They tell you a lot.
+Dialogue: 0,0:23:43.82,0:23:45.68,Main,Kag,0000,0000,0000,,What does this sword say, Gin-chan?
+Dialogue: 0,0:23:45.68,0:23:48.41,Main,Gin,0000,0000,0000,,So next episode, we have \Na swordsmith and one more.
+Dialogue: 0,0:23:45.90,0:23:49.90,Ep Title,Title,0000,0000,0000,,{\fad(441,1)}Strike When the Sword \Nand Overlord are Hot \N\NOil Rain
+Dialogue: 0,0:23:49.90,0:23:54.95,Side Bar Top,text r,0000,0000,0000,,The other story next episode
+Dialogue: 0,0:23:49.90,0:23:54.95,Side Bar Bottom,text l,0000,0000,0000,,focuses on Tama the robot maid.
+Dialogue: 0,0:23:54.95,0:24:00.75,Side Bar Top,text r,0000,0000,0000,,It's a slightly moist story
+Dialogue: 0,0:23:54.95,0:24:00.75,Side Bar Bottom,text l,0000,0000,0000,,about rain and cigarettes.

@@ -1,0 +1,286 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: Saishuu Heiki Kanojo
+Original Script: <unknown>
+Synch Point: Side 1 0m00s
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 768
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Hudba,Comic Sans MS,48,4227327,16777215,16777215,-2147483640,0,0,1,2,1,2,30,30,30,0,238
+Style: Mluveni,Arial,48,1172462,65535,65535,-2147483640,0,0,1,2,0,2,30,30,30,0,238
+Style: Myslenky,Arial,48,8454143,65535,65535,-2147483640,0,-1,1,2,0,2,30,30,30,0,238
+Style: Titulky,Arial,48,16777215,16777215,16777215,-2147483640,-1,0,1,2,0,2,30,30,30,0,238
+Style: Titulky nahore,Arial,48,16777215,16777215,16777215,-2147483640,-1,0,1,2,0,2,30,30,700,0,238
+Style: Titulky nahore2,Arial,48,16777215,16777215,16777215,-2147483640,-1,0,1,2,0,2,30,30,650,0,238
+Style: Nick1,Arial,35,8454143,65535,65535,-2147483640,0,-1,1,2,0,2,-200,200,500,0,238
+Style: Nick2,Arial,35,8454143,65535,65535,-2147483640,0,-1,1,2,0,2,300,-300,400,0,238
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:05.00,0:00:09.00,Nick1,NTP,0000,0000,0000,!Effect,Pøeklad do èeštiny zmáknul\NGejb
+Dialogue: Marked=0,0:00:10.00,0:00:14.00,Nick2,NTP,0000,0000,0000,!Effect,Èasování zajistil\NOnizuka
+Dialogue: Marked=0,0:00:15.20,0:00:20.00,Myslenky,NTP,0000,0000,0000,!Effect,Omlouvám se za delší \Nprodlevu ale neby èas :(
+Dialogue: Marked=0,0:01:32.32,0:01:34.35,Myslenky,NTP,0000,0000,0000,!Effect,V poøádku...Chise
+Dialogue: Marked=0,0:01:35.32,0:01:37.48,Myslenky,NTP,0000,0000,0000,!Effect,...skoncujeme s tím, jo?
+Dialogue: Marked=0,0:01:38.73,0:01:40.96,Mluveni,NTP,0000,0000,0000,!Effect,Dìkuji ti, Shu-chan.
+Dialogue: Marked=0,0:01:41.50,0:01:42.59,Mluveni,NTP,0000,0000,0000,!Effect,Já...
+Dialogue: Marked=0,0:01:43.23,0:01:46.43,Mluveni,NTP,0000,0000,0000,!Effect,...Shu-chan...\N...miluji tì.
+Dialogue: Marked=0,0:01:47.40,0:01:50.74,Mluveni,NTP,0000,0000,0000,!Effect,Tak moc tì miluji.\NNikdy na tebe nezapomenu.
+Dialogue: Marked=0,0:01:53.21,0:01:55.47,Mluveni,NTP,0000,0000,0000,!Effect,Promiò, ale to u staèí.
+Dialogue: Marked=0,0:01:56.51,0:01:58.34,Mluveni,NTP,0000,0000,0000,!Effect,Uboáku, ulehèím ti to.
+Dialogue: Marked=0,0:01:58.75,0:02:00.77,Mluveni,NTP,0000,0000,0000,!Effect,Bude to rychlé a bezbolestné.
+Dialogue: Marked=0,0:02:01.58,0:02:03.28,Mluveni,NTP,0000,0000,0000,!Effect,Shuji, já...
+Dialogue: Marked=0,0:02:03.95,0:02:05.72,Mluveni,NTP,0000,0000,0000,!Effect,Zabiju tì.
+Dialogue: Marked=0,0:02:20.30,0:02:21.53,Mluveni,NTP,0000,0000,0000,!Effect,Chise, jsem doma.
+Dialogue: Marked=0,0:02:23.97,0:02:25.60,Mluveni,NTP,0000,0000,0000,!Effect,Èas na prášky.
+Dialogue: Marked=0,0:02:28.31,0:02:29.44,Mluveni,NTP,0000,0000,0000,!Effect,Tohle je poslední.
+Dialogue: Marked=0,0:02:35.52,0:02:37.38,Myslenky,NTP,0000,0000,0000,!Effect,Od té chvíle pøestala Chise úplnì mluvit.
+Dialogue: Marked=0,0:02:38.05,0:02:43.79,Myslenky,NTP,0000,0000,0000,!Effect,ale kdy jsem pozornì poslouchal,\Nrozumìl jsem její nìmé øeèi dobøe.
+Dialogue: Marked=0,0:02:44.63,0:02:45.68,Mluveni,NTP,0000,0000,0000,!Effect,Dobøe, a teï z druhé strany.
+Dialogue: Marked=0,0:02:47.90,0:02:51.70,Mluveni,NTP,0000,0000,0000,!Effect,Hloupá!\NPotom všem se poøád stydíš?
+Dialogue: Marked=0,0:03:07.42,0:03:10.28,Mluveni,NTP,0000,0000,0000,!Effect,Hloupá, vdy jsi tak krásná.
+Dialogue: Marked=0,0:03:10.95,0:03:12.82,Mluveni,NTP,0000,0000,0000,!Effect,Opravdu, tak krásná.
+Dialogue: Marked=0,0:03:14.49,0:03:15.85,Mluveni,NTP,0000,0000,0000,!Effect,Sakra! Jestli to má skonèit takhle...
+Dialogue: Marked=0,0:03:16.69,0:03:17.56,Mluveni,NTP,0000,0000,0000,!Effect,...tak se z toho zblázním.
+Dialogue: Marked=0,0:03:18.09,0:03:20.08,Mluveni,NTP,0000,0000,0000,!Effect,Jsem tak praštìnı!
+Dialogue: Marked=0,0:03:29.44,0:03:31.63,Mluveni,NTP,0000,0000,0000,!Effect,Já...v... víš...
+Dialogue: Marked=0,0:03:32.51,0:03:36.24,Mluveni,NTP,0000,0000,0000,!Effect,...popravdì, rád bych se s tebou aspoò ještì jednou miloval.
+Dialogue: Marked=0,0:03:39.51,0:03:41.18,Mluveni,NTP,0000,0000,0000,!Effect,Hloupá. Zase máš hambaté myšlenky, e?
+Dialogue: Marked=0,0:03:41.82,0:03:42.65,Mluveni,NTP,0000,0000,0000,!Effect,Spi.
+Dialogue: Marked=0,0:03:45.29,0:03:47.02,Myslenky,NTP,0000,0000,0000,!Effect,Slyším, jak pláèe.
+Dialogue: Marked=0,0:03:48.66,0:03:50.56,Myslenky,NTP,0000,0000,0000,!Effect,Slyším, jak dıchá a ije.
+Dialogue: Marked=0,0:03:52.53,0:03:55.52,Myslenky,NTP,0000,0000,0000,!Effect,Co to slyším, nìco mi to pøipomíná.\NU vím...
+Dialogue: Marked=0,0:03:55.73,0:03:57.60,Myslenky,NTP,0000,0000,0000,!Effect,To je ono. Je to pøece ta písnièka.
+Dialogue: Marked=0,0:03:57.73,0:03:60.06,Myslenky,NTP,0000,0000,0000,!Effect,Ta milostná píseò, kterou si vdy zpívám v hlavì.
+Dialogue: Marked=0,0:04:02.93,0:04:06.34,Titulky,NTP,0000,0000,0000,!Effect,Episode 12
+Dialogue: Marked=0,0:04:02.93,0:04:06.34,Titulky,NTP,0000,0000,0000,!Effect,Love Song\N[Milostná píseò]
+Dialogue: Marked=0,0:04:29.53,0:04:30.33,Mluveni,NTP,0000,0000,0000,!Effect,Chise...
+Dialogue: Marked=0,0:04:31.37,0:04:32.26,Mluveni,NTP,0000,0000,0000,!Effect,To není moné.
+Dialogue: Marked=0,0:04:32.57,0:04:34.30,Mluveni,NTP,0000,0000,0000,!Effect,Hej, Chise!
+Dialogue: Marked=0,0:04:37.31,0:04:40.17,Mluveni,NTP,0000,0000,0000,!Effect,Tak nemìli jsme na vıbìr, jo?\NMám u dost tìch kecù!
+Dialogue: Marked=0,0:04:41.11,0:04:41.80,Mluveni,NTP,0000,0000,0000,!Effect,Sakra!
+Dialogue: Marked=0,0:04:42.88,0:04:44.54,Mluveni,NTP,0000,0000,0000,!Effect,Pøestaò u s tím!
+Dialogue: Marked=0,0:04:45.15,0:04:46.17,Mluveni,NTP,0000,0000,0000,!Effect,Shuji-kun.
+Dialogue: Marked=0,0:04:47.38,0:04:51.34,Mluveni,NTP,0000,0000,0000,!Effect,Promiò, e se ptám tak najednou,...
+Dialogue: Marked=0,0:04:52.05,0:04:54.75,Mluveni,NTP,0000,0000,0000,!Effect,...ale máš teï nìjakou holku?
+Dialogue: Marked=0,0:04:55.99,0:04:56.92,Mluveni,NTP,0000,0000,0000,!Effect,Chise...
+Dialogue: Marked=0,0:04:57.89,0:05:03.35,Mluveni,NTP,0000,0000,0000,!Effect,Umm, já... omlouvám se, ale...\N...nechodil by jsi se mnou?
+Dialogue: Marked=0,0:05:04.10,0:05:06.66,Mluveni,NTP,0000,0000,0000,!Effect,A moná bychom se mohli...
+Dialogue: Marked=0,0:05:07.80,0:05:10.17,Mluveni,NTP,0000,0000,0000,!Effect,...mohli spolu i uèit?
+Dialogue: Marked=0,0:05:14.71,0:05:16.47,Mluveni,NTP,0000,0000,0000,!Effect,Co je ti, Shu-chan?
+Dialogue: Marked=0,0:05:18.68,0:05:23.52,Mluveni,NTP,0000,0000,0000,!Effect,Oh, omlouvám se, Shuji-kun.\NJeštì je trochu brzy na to, abych ti øíkala Shu-chan
+Dialogue: Marked=0,0:05:24.22,0:05:26.12,Mluveni,NTP,0000,0000,0000,!Effect,Jsme spolu pøece jen chvíli\Na ještì se tak neznáme.
+Dialogue: Marked=0,0:05:26.72,0:05:29.78,Mluveni,NTP,0000,0000,0000,!Effect,Akemi mi poradila a ti tak øíkám.
+Dialogue: Marked=0,0:05:31.73,0:05:33.75,Mluveni,NTP,0000,0000,0000,!Effect,Moná mì chtìla jen napálit.\NTo je zase má Chise.
+Dialogue: Marked=0,0:05:37.17,0:05:39.66,Myslenky,NTP,0000,0000,0000,!Effect,Ale úplnì hoøí,\Nproto mluví tak z cesty.
+Dialogue: Marked=0,0:05:40.80,0:05:43.97,Mluveni,NTP,0000,0000,0000,!Effect,Hej, Chise... Víš co?
+Dialogue: Marked=0,0:05:44.61,0:05:49.04,Mluveni,NTP,0000,0000,0000,!Effect,Miluji tì od prvního dne,\Nco jsme spolu zaèali chodit.
+Dialogue: Marked=0,0:05:50.35,0:05:55.01,Mluveni,NTP,0000,0000,0000,!Effect,Chise, mùeš mi klidnì øíkat Shu-chan.\NJsi pøece moje holka.
+Dialogue: Marked=0,0:05:56.85,0:06:00.25,Mluveni,NTP,0000,0000,0000,!Effect,Od teï se budeme vdycky uèit jen spolu.
+Dialogue: Marked=0,0:06:16.87,0:06:19.86,Mluveni,NTP,0000,0000,0000,!Effect,Uka se!\NVím e jsi tady? Uka se!
+Dialogue: Marked=0,0:06:20.48,0:06:21.91,Mluveni,NTP,0000,0000,0000,!Effect,Vím e tu nìkde jsi!
+Dialogue: Marked=0,0:06:37.66,0:06:38.75,Mluveni,NTP,0000,0000,0000,!Effect,ije.
+Dialogue: Marked=0,0:06:39.69,0:06:41.16,Mluveni,NTP,0000,0000,0000,!Effect,Chise ije.
+Dialogue: Marked=0,0:06:41.90,0:06:42.86,Mluveni,NTP,0000,0000,0000,!Effect,Ještì je naivu.
+Dialogue: Marked=0,0:06:47.77,0:06:51.33,Myslenky,NTP,0000,0000,0000,!Effect,Zhøešil jsem...
+Dialogue: Marked=0,0:06:52.84,0:06:57.21,Myslenky,NTP,0000,0000,0000,!Effect,...a to proti celé planetì\Na kadé ivé bytosti na ní.
+Dialogue: Marked=0,0:06:57.78,0:06:58.51,Mluveni,NTP,0000,0000,0000,!Effect,J...
+Dialogue: Marked=0,0:07:07.19,0:07:10.59,Mluveni,NTP,0000,0000,0000,!Effect,Jen proto, e jsem chtìl...
+Dialogue: Marked=0,0:07:11.26,0:07:13.92,Mluveni,NTP,0000,0000,0000,!Effect,...pomoci Chise.
+Dialogue: Marked=0,0:07:15.06,0:07:18.66,Mluveni,NTP,0000,0000,0000,!Effect,Chtìl jsem jen zachránit ivot mé holce...
+Dialogue: Marked=0,0:07:20.30,0:07:23.83,Mluveni,NTP,0000,0000,0000,!Effect,...a to jen kvùli mé sobecké touze.
+Dialogue: Marked=0,0:07:26.34,0:07:27.50,Mluveni,NTP,0000,0000,0000,!Effect,Pravdìpodobnì...
+Dialogue: Marked=0,0:07:28.21,0:07:41.27,Mluveni,NTP,0000,0000,0000,!Effect,Tím, co jsem uèinil, jsem ji zradil.
+Dialogue: Marked=0,0:07:42.39,0:07:46.33,Mluveni,NTP,0000,0000,0000,!Effect,Pøeije... pøeije to?
+Dialogue: Marked=0,0:07:47.56,0:07:48.43,Mluveni,NTP,0000,0000,0000,!Effect,Nejspíš ano.
+Dialogue: Marked=0,0:07:49.46,0:07:54.83,Mluveni,NTP,0000,0000,0000,!Effect,Není nikdo, kdo by jí dokázal zastavit...
+Dialogue: Marked=0,0:07:55.77,0:08:00.71,Mluveni,NTP,0000,0000,0000,!Effect,Bude tady... asi a do skonání svìta.
+Dialogue: Marked=0,0:08:05.88,0:08:11.08,Mluveni,NTP,0000,0000,0000,!Effect,Øekl si, abych se vrátil zpìt k rodinì.
+Dialogue: Marked=0,0:08:12.12,0:08:17.68,Mluveni,NTP,0000,0000,0000,!Effect,Moje ena i dcera zemøely pøi náletu na Sapporo.
+Dialogue: Marked=0,0:08:19.53,0:08:22.99,Mluveni,NTP,0000,0000,0000,!Effect,Dceøí bylo asi tolik co Chise.
+Dialogue: Marked=0,0:08:24.83,0:08:30.10,Mluveni,NTP,0000,0000,0000,!Effect,S tím se nedá nic dìlat.\NNení ani koho vinit.
+Dialogue: Marked=0,0:09:37.87,0:09:43.31,Myslenky,NTP,0000,0000,0000,!Effect,Shu-chan, a budeš èíst tento deníèek,\Njá...u tady asi nebudu.
+Dialogue: Marked=0,0:09:44.41,0:09:47.94,Myslenky,NTP,0000,0000,0000,!Effect,Urèitì se zrovna chystáš jíst, e?
+Dialogue: Marked=0,0:09:48.65,0:09:50.81,Myslenky,NTP,0000,0000,0000,!Effect,Tak doufám, e ho neušmudláš?
+Dialogue: Marked=0,0:09:52.02,0:09:55.28,Myslenky,NTP,0000,0000,0000,!Effect,Ten deníèek si vedla\Nod našeho útìku z domova, a...
+Dialogue: Marked=0,0:09:55.36,0:09:59.42,Myslenky,NTP,0000,0000,0000,!Effect,...do chvíle, kdy jí došly prášky.
+Dialogue: Marked=0,0:10:01.13,0:10:06.00,Myslenky,NTP,0000,0000,0000,!Effect,Shu-chan, omlouvám se,\Ne jsem tì nutila se mnou chodit...
+Dialogue: Marked=0,0:10:06.17,0:10:09.14,Myslenky,NTP,0000,0000,0000,!Effect,...a e jsi kvùli mnì utekl z domu.
+Dialogue: Marked=0,0:10:09.90,0:10:15.54,Myslenky,NTP,0000,0000,0000,!Effect,Nikdy nezapomenu na tìch ètrnáct dní\Nco jsme proili jako opravdoví manelé.
+Dialogue: Marked=0,0:10:18.38,0:10:23.34,Myslenky,NTP,0000,0000,0000,!Effect,Shu-chan, prosím, vra se zase domù.
+Dialogue: Marked=0,0:10:24.55,0:10:29.01,Myslenky,NTP,0000,0000,0000,!Effect,Kdy jsi kvùli mnì utekl,\Nnechal jsi rodièùm jen krátkou zprávièku.
+Dialogue: Marked=0,0:10:29.12,0:10:31.39,Myslenky,NTP,0000,0000,0000,!Effect,Urèitì u o tebe mají velkı strach.
+Dialogue: Marked=0,0:10:32.33,0:10:37.20,Myslenky,NTP,0000,0000,0000,!Effect,Shu-chan, jestli se ještì nìkdy\Nvrátiš zpìt do našeho mìsta,...
+Dialogue: Marked=0,0:10:37.73,0:10:40.60,Myslenky,NTP,0000,0000,0000,!Effect,...splò mi, prosím, jedno pøání.
+Dialogue: Marked=0,0:10:52.71,0:10:55.48,Mluveni,NTP,0000,0000,0000,!Effect,Teï jsme kousek od mìsta,\Nkde se narodila Chise.
+Dialogue: Marked=0,0:10:56.28,0:11:01.41,Mluveni,NTP,0000,0000,0000,!Effect,Ale není tam nic k vidìní,\Njen škody zpùsobené zemìtøesením.
+Dialogue: Marked=0,0:11:02.56,0:11:06.15,Mluveni,NTP,0000,0000,0000,!Effect,Chise to mìsto dobøe chránila.\NZajímalo by mì, co je vlastnì zaè?
+Dialogue: Marked=0,0:11:07.13,0:11:11.26,Mluveni,NTP,0000,0000,0000,!Effect,Hrdina, nebo monstrum.\NOchránce z moci boí, nebo jeho posel smrti.
+Dialogue: Marked=0,0:11:11.87,0:11:12.99,Mluveni,NTP,0000,0000,0000,!Effect,To je teda pìkná nuda!
+Dialogue: Marked=0,0:11:13.07,0:11:14.47,Titulky nahore,NTP,0000,0000,0000,!Effect,Sedej dozadu.
+Dialogue: Marked=0,0:11:14.54,0:11:15.30,Mluveni,NTP,0000,0000,0000,!Effect,Promiò.
+Dialogue: Marked=0,0:11:16.17,0:11:18.43,Mluveni,NTP,0000,0000,0000,!Effect,Mazej na sedadlo. Víš e je to nebezpeèné.
+Dialogue: Marked=0,0:11:19.41,0:11:22.54,Mluveni,NTP,0000,0000,0000,!Effect,Je to jako vystøiené z antické mytologie.
+Dialogue: Marked=0,0:11:22.98,0:11:24.00,Mluveni,NTP,0000,0000,0000,!Effect,Co myslíte e tam najdete?
+Dialogue: Marked=0,0:11:24.35,0:11:24.81,Mluveni,NTP,0000,0000,0000,!Effect,Huh?
+Dialogue: Marked=0,0:11:25.61,0:11:27.24,Mluveni,NTP,0000,0000,0000,!Effect,Co èekáte e vtom mìstì je?
+Dialogue: Marked=0,0:11:28.45,0:11:31.48,Mluveni,NTP,0000,0000,0000,!Effect,Není tam níc zvláštního.
+Dialogue: Marked=0,0:11:32.29,0:11:34.72,Mluveni,NTP,0000,0000,0000,!Effect,Jen další nudné venkovské mìsteèko.
+Dialogue: Marked=0,0:11:34.79,0:11:38.73,Mluveni,NTP,0000,0000,0000,!Effect,Je to tam samí kopec.
+Dialogue: Marked=0,0:11:39.49,0:11:42.20,Mluveni,NTP,0000,0000,0000,!Effect,A nejzajímavìjší je tam jedna malá škola\Nzabraná pro takzvané "potøeby" vojákù.
+Dialogue: Marked=0,0:11:42.26,0:11:45.29,Mluveni,NTP,0000,0000,0000,!Effect,Ty... ty jsi se tam taky narodil?
+Dialogue: Marked=0,0:11:47.94,0:11:49.84,Mluveni,NTP,0000,0000,0000,!Effect,Take aspoò pro tebe tam nìco zajímavého je.
+Dialogue: Marked=0,0:11:50.04,0:11:51.40,Mluveni,NTP,0000,0000,0000,!Effect,Chisino mìsto.
+Dialogue: Marked=0,0:11:52.01,0:11:54.44,Mluveni,NTP,0000,0000,0000,!Effect,V jazyce Ainu, termín Chise oznaèuje domov.
+Dialogue: Marked=0,0:11:58.21,0:12:00.01,Mluveni,NTP,0000,0000,0000,!Effect,No tak, tako.
+Dialogue: Marked=0,0:12:09.62,0:12:11.35,Mluveni,NTP,0000,0000,0000,!Effect,Shu-chan...
+Dialogue: Marked=0,0:12:12.59,0:12:15.29,Mluveni,NTP,0000,0000,0000,!Effect,Táto, táto. Shu-chan se vrátil!
+Dialogue: Marked=0,0:12:16.76,0:12:21.36,Myslenky,NTP,0000,0000,0000,!Effect,Dokud mìsto stojí, vím e Chise ije.
+Dialogue: Marked=0,0:12:23.00,0:12:27.74,Myslenky,NTP,0000,0000,0000,!Effect,Nevidím ji, ale cítím, jako by\Nbyla velmi blízko.
+Dialogue: Marked=0,0:12:32.85,0:12:37.91,Myslenky,NTP,0000,0000,0000,!Effect,Shu-chan, jestli se ještì nìkdy\Nvrátiš zpìt do našeho mìsta,...
+Dialogue: Marked=0,0:12:38.12,0:12:40.45,Myslenky,NTP,0000,0000,0000,!Effect,...splò mi, prosím, jedno pøání.
+Dialogue: Marked=0,0:12:41.62,0:12:45.29,Myslenky,NTP,0000,0000,0000,!Effect,Zajdi na Naše místo.\NTam, kde jsme se poprvé políbili.
+Dialogue: Marked=0,0:13:37.58,0:13:41.21,Myslenky,NTP,0000,0000,0000,!Effect,Tam jsem našel její deníky...\Ndeníky, které zachycovaly kadou událost...
+Dialogue: Marked=0,0:13:41.48,0:13:43.85,Myslenky,NTP,0000,0000,0000,!Effect,...od toho dne, kdy jsme spolu zaèali chodit.
+Dialogue: Marked=0,0:13:45.49,0:13:51.19,Myslenky,NTP,0000,0000,0000,!Effect,Bylo to svìdectví o postupné ztrátì lidskosti i sebe samého.
+Dialogue: Marked=0,0:13:52.63,0:13:56.49,Myslenky,NTP,0000,0000,0000,!Effect,Èetl jsem ta nevyøèená slova\Nzaznívající z nitra její duše,...
+Dialogue: Marked=0,0:13:56.93,0:13:59.37,Myslenky,NTP,0000,0000,0000,!Effect,...èetl jsem o této\Nmalé zpropadené planetì...
+Dialogue: Marked=0,0:14:00.77,0:14:04.73,Myslenky,NTP,0000,0000,0000,!Effect,...a o tom, jak se vìci na ní sebìhly zpùsobem,\Nkterı si nikdo ani ve snu nedokázal pøedstavit.
+Dialogue: Marked=0,0:14:05.87,0:14:10.57,Myslenky,NTP,0000,0000,0000,!Effect,K èertu! Ty vzpomínky\Nmì pøivedou k šílenství.
+Dialogue: Marked=0,0:14:13.81,0:14:16.28,Mluveni,NTP,0000,0000,0000,!Effect,Ale teï u pøed tím\Nnení stejnì kam utéct!
+Dialogue: Marked=0,0:14:22.19,0:14:26.46,Myslenky,NTP,0000,0000,0000,!Effect,Nevím jak dlouho to jen mohlo trvat,\Nale pøeèetl jsem všechno, kadé to slovo.
+Dialogue: Marked=0,0:14:27.19,0:14:31.53,Myslenky,NTP,0000,0000,0000,!Effect,Èíst o posledních dnech této malé planety...
+Dialogue: Marked=0,0:14:32.13,0:14:39.04,Myslenky,NTP,0000,0000,0000,!Effect,...mi pøipadalo, jako nevinné povídání ve školním klubu,\Nnebo obyèejnı pokec nad nevydaøenım testem.
+Dialogue: Marked=0,0:14:48.62,0:14:49.48,Mluveni,NTP,0000,0000,0000,!Effect,Chise?
+Dialogue: Marked=0,0:14:51.29,0:14:52.88,Mluveni,NTP,0000,0000,0000,!Effect,Kdo jsi?
+Dialogue: Marked=0,0:14:54.26,0:14:55.81,Mluveni,NTP,0000,0000,0000,!Effect,A co tady dìláš?
+Dialogue: Marked=0,0:14:56.42,0:14:59.15,Mluveni,NTP,0000,0000,0000,!Effect,A proè jsem tady já. \NA taky Chise?
+Dialogue: Marked=0,0:15:00.06,0:15:01.53,Mluveni,NTP,0000,0000,0000,!Effect,To jsem pøece já. Shuji!
+Dialogue: Marked=0,0:15:01.96,0:15:03.02,Mluveni,NTP,0000,0000,0000,!Effect,Shuji?
+Dialogue: Marked=0,0:15:08.84,0:15:11.17,Mluveni,NTP,0000,0000,0000,!Effect,Zase se mi to stalo. Pøesnì jako pøed tím.
+Dialogue: Marked=0,0:15:11.44,0:15:16.84,Mluveni,NTP,0000,0000,0000,!Effect,Spustily se...\NSpustily se kdy jsi èetl její deník.
+Dialogue: Marked=0,0:15:17.28,0:15:19.54,Mluveni,NTP,0000,0000,0000,!Effect,Z jakého dùvodu se ta tekutina spouští?
+Dialogue: Marked=0,0:15:20.65,0:15:24.74,Mluveni,NTP,0000,0000,0000,!Effect,A copak Chise byla naprogramovaná,\Naby sem pøišla,jakmile se tu objevíš?
+Dialogue: Marked=0,0:15:25.65,0:15:26.62,Mluveni,NTP,0000,0000,0000,!Effect,Proè
+Dialogue: Marked=0,0:15:27.25,0:15:29.38,Mluveni,NTP,0000,0000,0000,!Effect,Proè na tebe Chise stále tak èeká?
+Dialogue: Marked=0,0:15:30.02,0:15:36.79,Mluveni,NTP,0000,0000,0000,!Effect,A proè se tvùj pulz, dıchání a také\Nhladina adrenalinu tak náhle zmìnil.
+Dialogue: Marked=0,0:15:37.26,0:15:38.23,Mluveni,NTP,0000,0000,0000,!Effect,Chise se stalo toté.
+Dialogue: Marked=0,0:15:38.83,0:15:42.67,Mluveni,NTP,0000,0000,0000,!Effect,Tak mnoho dat, která nedokáu logicky vyhodnotit.
+Dialogue: Marked=0,0:15:43.50,0:15:45.73,Mluveni,NTP,0000,0000,0000,!Effect,Tak mnoho barvitıch slov oznaèujících tolik pocitù jako:
+Dialogue: Marked=0,0:15:46.54,0:15:51.84,Mluveni,NTP,0000,0000,0000,!Effect,Smutek... trápení... bolest... al... lítost...
+Dialogue: Marked=0,0:15:52.81,0:15:54.61,Mluveni,NTP,0000,0000,0000,!Effect,A nakonec...
+Dialogue: Marked=0,0:15:55.42,0:16:00.22,Mluveni,NTP,0000,0000,0000,!Effect,"Jsem ráda e to víš."
+Dialogue: Marked=0,0:16:01.06,0:16:02.18,Mluveni,NTP,0000,0000,0000,!Effect,Bylo mi tak smutno.
+Dialogue: Marked=0,0:16:02.42,0:16:03.58,Mluveni,NTP,0000,0000,0000,!Effect,Proè? Co se to se mnou jen dìje?
+Dialogue: Marked=0,0:16:05.46,0:16:07.93,Mluveni,NTP,0000,0000,0000,!Effect,Nedotıkej se mnì.\NZabiju tì.
+Dialogue: Marked=0,0:16:13.73,0:16:15.67,Mluveni,NTP,0000,0000,0000,!Effect,Pøedal jsi mi své sliny? Proè?
+Dialogue: Marked=0,0:16:16.24,0:16:19.30,Mluveni,NTP,0000,0000,0000,!Effect,Proè to všechno dìláš?
+Dialogue: Marked=0,0:16:19.67,0:16:21.47,Mluveni,NTP,0000,0000,0000,!Effect,Protoe jsem tvùj kluk
+Dialogue: Marked=0,0:16:22.04,0:16:23.77,Mluveni,NTP,0000,0000,0000,!Effect,a ty moje holka!
+Dialogue: Marked=0,0:16:24.08,0:16:28.57,Mluveni,NTP,0000,0000,0000,!Effect,Opravdu?\NA to má bıt vysvìtlením pro všechny ty vìci?
+Dialogue: Marked=0,0:16:29.32,0:16:30.31,Mluveni,NTP,0000,0000,0000,!Effect,Jasnì... jasnì e jo!
+Dialogue: Marked=0,0:16:31.09,0:16:35.35,Mluveni,NTP,0000,0000,0000,!Effect,Tolik intenzivních emocí.\NChise má problém se s nimi vypoøádat.
+Dialogue: Marked=0,0:16:35.72,0:16:37.99,Mluveni,NTP,0000,0000,0000,!Effect,Copak to s tím opìt souvisí?
+Dialogue: Marked=0,0:16:38.79,0:16:41.09,Mluveni,NTP,0000,0000,0000,!Effect,Chise s tebou chce mít dítì.
+Dialogue: Marked=0,0:16:43.43,0:16:46.92,Mluveni,NTP,0000,0000,0000,!Effect,Ta myšlenka byla hluboko ukrytá,\Nu v podvìdomí její staré mysli.
+Dialogue: Marked=0,0:16:47.67,0:16:51.23,Mluveni,NTP,0000,0000,0000,!Effect,Èím ménì byla èlovìkem,\Ntím více ta myšlenka sílila.
+Dialogue: Marked=0,0:16:52.47,0:16:57.93,Mluveni,NTP,0000,0000,0000,!Effect,Snaila se ji skrıt co nejhloubìji,\Nprotoe by snad zemøela studem,...
+Dialogue: Marked=0,0:16:58.71,0:17:01.74,Mluveni,NTP,0000,0000,0000,!Effect,...kdyby se to Shuji dovìdìl.
+Dialogue: Marked=0,0:17:02.82,0:17:03.68,Mluveni,NTP,0000,0000,0000,!Effect,Chise...
+Dialogue: Marked=0,0:17:05.75,0:17:10.45,Mluveni,NTP,0000,0000,0000,!Effect,Proè pláèeš?\NPøedpoklad, e lze zemøít studem\Nse pøece nezakládá na pravdì.
+Dialogue: Marked=0,0:17:10.92,0:17:14.86,Mluveni,NTP,0000,0000,0000,!Effect,A proè se tak bojíš mít dítì?
+Dialogue: Marked=0,0:17:15.23,0:17:19.13,Mluveni,NTP,0000,0000,0000,!Effect,Co tak strašného je na tom, mít dítì?\NHlupaòo! Snaíš se mi tu øíct, e chceš mít dítì?
+Dialogue: Marked=0,0:17:20.53,0:17:23.40,Mluveni,NTP,0000,0000,0000,!Effect,Mé tváøe...tak hoøí...\NMé srdce...tak zbìsile bije.
+Dialogue: Marked=0,0:17:24.87,0:17:26.74,Mluveni,NTP,0000,0000,0000,!Effect,Copak to je projev lásky?
+Dialogue: Marked=0,0:17:27.41,0:17:32.04,Mluveni,NTP,0000,0000,0000,!Effect,Copak je akt reprodukce tak hroznı?
+Dialogue: Marked=0,0:17:32.11,0:17:34.21,Mluveni,NTP,0000,0000,0000,!Effect,Hloupá.\NAle vùbec ne.\NVšak uvidíš.
+Dialogue: Marked=0,0:17:35.75,0:17:39.95,Mluveni,NTP,0000,0000,0000,!Effect,Chise, je to nìco, pøi èem mùeme bıt spolu.
+Dialogue: Marked=0,0:17:40.92,0:17:43.98,Mluveni,NTP,0000,0000,0000,!Effect,A na tom se pøece není èeho bát.
+Dialogue: Marked=0,0:17:44.66,0:17:45.28,Mluveni,NTP,0000,0000,0000,!Effect,OK?
+Dialogue: Marked=0,0:17:47.80,0:17:49.99,Mluveni,NTP,0000,0000,0000,!Effect,Umm, Já... víš...
+Dialogue: Marked=0,0:17:50.66,0:17:52.43,Mluveni,NTP,0000,0000,0000,!Effect,Nechci zase breèet.
+Dialogue: Marked=0,0:17:52.77,0:17:55.53,Mluveni,NTP,0000,0000,0000,!Effect,Tady, dotkni se mıch prsou.
+Dialogue: Marked=0,0:17:57.10,0:17:59.70,Mluveni,NTP,0000,0000,0000,!Effect,Umm, opravdu to udìláme?
+Dialogue: Marked=0,0:18:01.31,0:18:03.83,Mluveni,NTP,0000,0000,0000,!Effect,Eh, umm... u nemáme to staré tìlo.
+Dialogue: Marked=0,0:18:04.21,0:18:07.77,Mluveni,NTP,0000,0000,0000,!Effect,Reprodukèní orgány jsou toti ta nejménì dùleitá èást,\Nona je sice má...
+Dialogue: Marked=0,0:18:07.85,0:18:09.21,Mluveni,NTP,0000,0000,0000,!Effect,Co takhle se trochu zklidnit?
+Dialogue: Marked=0,0:18:09.52,0:18:14.65,Mluveni,NTP,0000,0000,0000,!Effect,Já ani necítím potøebu zahájit reprodukci...
+Dialogue: Marked=0,0:18:15.19,0:18:19.75,Mluveni,NTP,0000,0000,0000,!Effect,...a navíc jestli se pøíliš vzrušíme...\N...mùu tì zabít.
+Dialogue: Marked=0,0:18:20.13,0:18:21.42,Mluveni,NTP,0000,0000,0000,!Effect,Mùeš bıt chvíli zticha.
+Dialogue: Marked=0,0:18:32.04,0:18:37.50,Mluveni,NTP,0000,0000,0000,!Effect,Ups. Upadla.\NAbych sem mohla pøijít, musela jsem vytvoøit tìlo
+Dialogue: Marked=0,0:18:37.58,0:18:39.84,Mluveni,NTP,0000,0000,0000,!Effect,co nejvíce podobné pùvodní Chise.
+Dialogue: Marked=0,0:18:40.51,0:18:42.21,Mluveni,NTP,0000,0000,0000,!Effect,Tìlo co nejvíce podobné pùvodní Chise?
+Dialogue: Marked=0,0:18:43.58,0:18:46.85,Mluveni,NTP,0000,0000,0000,!Effect,Kdy se pøestanu soustøedit,\Nmolekuly ztrácí soudrnost a rozpadají se,...
+Dialogue: Marked=0,0:18:47.19,0:18:48.45,Mluveni,NTP,0000,0000,0000,!Effect,...ale to se brzy spraví.
+Dialogue: Marked=0,0:18:51.76,0:18:55.99,Mluveni,NTP,0000,0000,0000,!Effect,Copak, u jsi ztratil chu?\NMoná je to tak lepší.
+Dialogue: Marked=0,0:18:56.23,0:19:00.39,Mluveni,NTP,0000,0000,0000,!Effect,Chise to chápe.
+Dialogue: Marked=0,0:19:01.14,0:19:04.63,Mluveni,NTP,0000,0000,0000,!Effect,Víš, necítí ádnou bolest.
+Dialogue: Marked=0,0:19:05.51,0:19:09.31,Mluveni,NTP,0000,0000,0000,!Effect,Ale taky nemùe mít dìti.\NU to toti nemá tam dole zaøízené tak, jako kdysi.
+Dialogue: Marked=0,0:19:09.84,0:19:14.08,Mluveni,NTP,0000,0000,0000,!Effect,Reprodukèní orgány byly pro funkci tvého tìla\Nnejménì dùleitou èástí.
+Dialogue: Marked=0,0:19:14.31,0:19:19.58,Mluveni,NTP,0000,0000,0000,!Effect,Hlupaèku!\NPro chodící zbraò jsou moná neuiteèné, ale...
+Dialogue: Marked=0,0:19:20.99,0:19:21.85,Mluveni,NTP,0000,0000,0000,!Effect,Jasnì.
+Dialogue: Marked=0,0:19:22.32,0:19:28.45,Mluveni,NTP,0000,0000,0000,!Effect,A proto máš prsa vìtší, ne pøed tím, e?
+Dialogue: Marked=0,0:19:28.53,0:19:31.46,Mluveni,NTP,0000,0000,0000,!Effect,Úchyláku! Nic takového jsem neudìlala!
+Dialogue: Marked=0,0:19:32.93,0:19:33.87,Mluveni,NTP,0000,0000,0000,!Effect,No jasnì.
+Dialogue: Marked=0,0:19:34.30,0:19:35.27,Mluveni,NTP,0000,0000,0000,!Effect,Shu-chan.
+Dialogue: Marked=0,0:19:35.97,0:19:38.67,Mluveni,NTP,0000,0000,0000,!Effect,Popravdì, nic se na tobì nezmìnilo..
+Dialogue: Marked=0,0:19:39.01,0:19:40.30,Mluveni,NTP,0000,0000,0000,!Effect,Omlouvám se za to.
+Dialogue: Marked=0,0:19:41.11,0:19:43.87,Mluveni,NTP,0000,0000,0000,!Effect,Ale? Co mám poøád s tím "omlouvám se"?
+Dialogue: Marked=0,0:19:44.58,0:19:46.41,Mluveni,NTP,0000,0000,0000,!Effect,Je mi to nìjaké povìdomé.
+Dialogue: Marked=0,0:19:47.61,0:19:48.95,Mluveni,NTP,0000,0000,0000,!Effect,Omlouvám se?
+Dialogue: Marked=0,0:19:49.62,0:19:52.02,Mluveni,NTP,0000,0000,0000,!Effect,Shu-chan, co to znamená?
+Dialogue: Marked=0,0:19:52.62,0:19:53.75,Mluveni,NTP,0000,0000,0000,!Effect,Omlouvám se, omlouvám se.
+Dialogue: Marked=0,0:19:54.69,0:19:58.06,Mluveni,NTP,0000,0000,0000,!Effect,Proè je mi z toho tak smutno?
+Dialogue: Marked=0,0:19:58.19,0:20:00.56,Mluveni,NTP,0000,0000,0000,!Effect,Hloupá, protoe jsem chtìl,\Naby si to u nikdy neøíkala.
+Dialogue: Marked=0,0:20:02.56,0:20:03.86,Mluveni,NTP,0000,0000,0000,!Effect,Omlouvám se, Shu-chan.
+Dialogue: Marked=0,0:20:04.73,0:20:05.66,Mluveni,NTP,0000,0000,0000,!Effect,Shuji...
+Dialogue: Marked=0,0:20:08.37,0:20:11.43,Mluveni,NTP,0000,0000,0000,!Effect,Nevím proè, ale já...já se stydím.
+Dialogue: Marked=0,0:20:12.11,0:20:14.13,Mluveni,NTP,0000,0000,0000,!Effect,Pøestaò, u to déle nevydrím!
+Dialogue: Marked=0,0:20:14.98,0:20:16.10,Mluveni,NTP,0000,0000,0000,!Effect,Mùu tì zabít?
+Dialogue: Marked=0,0:20:16.51,0:20:19.64,Mluveni,NTP,0000,0000,0000,!Effect,Já nechci nìkoho zabít!
+Dialogue: Marked=0,0:20:19.91,0:20:23.91,Mluveni,NTP,0000,0000,0000,!Effect,Nedokáu vzdorovat té èásti mého já,\Nkterá je zbraní.
+Dialogue: Marked=0,0:20:24.69,0:20:27.45,Mluveni,NTP,0000,0000,0000,!Effect,Shu-chan, prosím pøestaò! Já... já se rozbiju!\NU to prostì déle nevydrím!
+Dialogue: Marked=0,0:20:27.92,0:20:29.35,Mluveni,NTP,0000,0000,0000,!Effect,Pøestaò
+Dialogue: Marked=0,0:20:32.33,0:20:34.95,Mluveni,NTP,0000,0000,0000,!Effect,Hlupaòo! Já chci ít! Chci ít dál!
+Dialogue: Marked=0,0:20:37.43,0:20:38.33,Mluveni,NTP,0000,0000,0000,!Effect,Nechci umøít!
+Dialogue: Marked=0,0:20:38.60,0:20:42.40,Mluveni,NTP,0000,0000,0000,!Effect,Nikdo z ivıch to nechce!!
+Dialogue: Marked=0,0:20:48.68,0:20:49.44,Mluveni,NTP,0000,0000,0000,!Effect,Shu-chan.
+Dialogue: Marked=0,0:20:51.45,0:20:54.78,Mluveni,NTP,0000,0000,0000,!Effect,Slyším ho.
+Dialogue: Marked=0,0:20:55.52,0:20:57.18,Mluveni,NTP,0000,0000,0000,!Effect,Tlukot tvého srdce,
+Dialogue: Marked=0,0:20:57.95,0:21:02.29,Mluveni,NTP,0000,0000,0000,!Effect,které tak hlasitì øíká:...
+Dialogue: Marked=0,0:21:02.66,0:21:06.29,Mluveni,NTP,0000,0000,0000,!Effect,Chise, kdy jsem s tebou, vdycky tak bije.
+Dialogue: Marked=0,0:21:07.13,0:21:10.72,Mluveni,NTP,0000,0000,0000,!Effect,Od "toho dne" tomu nebylo jinak...
+Dialogue: Marked=0,0:21:11.27,0:21:14.72,Mluveni,NTP,0000,0000,0000,!Effect,Válka neválka, je fuk jak moc se svìt zmìnil,...
+Dialogue: Marked=0,0:21:15.50,0:21:17.44,Mluveni,NTP,0000,0000,0000,!Effect,...i kdyby mìl hned teï nastat jeho konec,...
+Dialogue: Marked=0,0:21:18.71,0:21:22.90,Mluveni,NTP,0000,0000,0000,!Effect,...pokud budu s tebou,\Nmé srdce bude bít stále stejnì hlasitì.
+Dialogue: Marked=0,0:21:24.68,0:21:25.51,Mluveni,NTP,0000,0000,0000,!Effect,Slyším ho.
+Dialogue: Marked=0,0:21:26.95,0:21:27.85,Mluveni,NTP,0000,0000,0000,!Effect,Tak poslouchej.
+Dialogue: Marked=0,0:21:29.05,0:21:30.64,Mluveni,NTP,0000,0000,0000,!Effect,Není to sice mnoho,
+Dialogue: Marked=0,0:21:31.35,0:21:34.34,Mluveni,NTP,0000,0000,0000,!Effect,ale zùstalo nám aspoò tohle.\NA navíc jsme spolu a stále naivu.
+Dialogue: Marked=0,0:21:34.89,0:21:35.88,Mluveni,NTP,0000,0000,0000,!Effect,Shuji...
+Dialogue: Marked=0,0:21:36.89,0:21:38.38,Mluveni,NTP,0000,0000,0000,!Effect,Cítím tì.
+Dialogue: Marked=0,0:21:39.39,0:21:40.52,Mluveni,NTP,0000,0000,0000,!Effect,Tvé srdce tak bije.
+Dialogue: Marked=0,0:21:41.56,0:21:44.43,Mluveni,NTP,0000,0000,0000,!Effect,To proto, e mì tak miluješ.
+Dialogue: Marked=0,0:21:46.00,0:21:46.99,Mluveni,NTP,0000,0000,0000,!Effect,Ty pláèeš?
+Dialogue: Marked=0,0:21:49.04,0:21:50.00,Mluveni,NTP,0000,0000,0000,!Effect,Omlouvám se.
+Dialogue: Marked=0,0:21:50.54,0:21:52.27,Mluveni,NTP,0000,0000,0000,!Effect,Neplaè.
+Dialogue: Marked=0,0:21:53.14,0:21:55.04,Mluveni,NTP,0000,0000,0000,!Effect,Nebo zaènu taky.
+Dialogue: Marked=0,0:21:56.61,0:21:58.98,Mluveni,NTP,0000,0000,0000,!Effect,Shu-chan, a já ho cítím.
+Dialogue: Marked=0,0:21:59.88,0:22:01.61,Mluveni,NTP,0000,0000,0000,!Effect,Shuji, cítím tì.
+Dialogue: Marked=0,0:22:03.32,0:22:04.94,Myslenky,NTP,0000,0000,0000,!Effect,Znovu a znovu jsme objímali jeden druhého...
+Dialogue: Marked=0,0:22:05.05,0:22:08.95,Myslenky,NTP,0000,0000,0000,!Effect,...a vychutnávali vzájemnou lásku.
+Dialogue: Marked=0,0:22:10.22,0:22:14.63,Myslenky,NTP,0000,0000,0000,!Effect,Dìlili jsme se o rozkoš zcela oproštìni\Nod lidskıch pout, pøedsudkù a ostychu.
+Dialogue: Marked=0,0:22:16.06,0:22:19.19,Myslenky,NTP,0000,0000,0000,!Effect,Chise plakala a stále se omlouvala.
+Dialogue: Marked=0,0:22:20.27,0:22:21.83,Myslenky,NTP,0000,0000,0000,!Effect,Jakoby její štìstí,
+Dialogue: Marked=0,0:22:22.01,0:22:28.34,Myslenky,NTP,0000,0000,0000,!Effect,její radost ze ivota byla tìkım høíchem...\Na tak plakat nepøestávala.
+Dialogue: Marked=0,0:24:01.80,0:24:03.96,Myslenky,NTP,0000,0000,0000,!Effect,Dokud svìt neskonèí.
+Dialogue: Marked=0,0:24:04.84,0:24:08.60,Myslenky,NTP,0000,0000,0000,!Effect,Chise, poèkám na tebe.\NSlibuji... Budu tu.
+Dialogue: Marked=0,0:24:08.60,0:24:14.70,Titulky,NTP,0000,0000,0000,!Effect,Saishuu Heiki Kanojo,\NZávìreèná episoda. "Milujem se"

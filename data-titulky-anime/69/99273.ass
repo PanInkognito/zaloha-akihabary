@@ -1,0 +1,391 @@
+﻿[Script Info]
+; Written by VisualSubSync 1.2.32.00
+Title: [Kara] Czech (CZ)
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 0.0000
+WrapStyle: 0
+
+[v4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic,  Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialog,Arial,42,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,3,1,2,20,20,60,0
+Style: Znělka,Arial,42,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,-1,0,0,100,100,0,0,1,3,1,2,20,20,60,0
+Style: Útok,Arial Black,54,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,3,1,2,20,20,60,0
+Style: Název epizody,Arial Black,80,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,3,0,2,20,20,60,0
+Style: Kurzíva,Arial,42,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,3,0,2,20,20,60,0
+Style: Poutač,Arial Black,120,&H00FFD7FF,&H0000FFFF,&HFFFFFFFF,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,3,1,2,20,20,140,0
+Style: Čekatelé,Arial Black,140,&H0021CCFE,&H006700CE,&H006A00D5,&H006200C4,-1,0,0,0,100,100,0,0,1,5,1,2,20,20,140,0
+Style: Rozkoše,Arial Black,140,&H00FF2F97,&H00400040,&H00400040,&H00400040,-1,0,0,0,100,100,0,0,1,5,1,8,20,20,140,0
+Style: Obdarovaní,Arial Black,140,&H0003EDFA,&H00400040,&H00400040,&H00400040,-1,0,0,0,100,100,0,0,1,5,1,7,20,20,140,0
+Style: Předáci,Arial Black,140,&H00036CFC,&H00400040,&H00400040,&H00400040,-1,0,0,0,100,100,0,0,1,5,1,3,20,20,140,0
+Style: X Drake,Arial Black,100,&H00FFFFFF,&H000D000D,&H00030303,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,3,20,20,140,0
+Style: Sasaki,Arial Black,100,&H00FFFFFF,&H000D000D,&H00030303,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,3,20,20,140,0
+Style: Page One,Arial Black,100,&H00FFFFFF,&H000D000D,&H00030303,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,3,20,20,140,0
+Style: Ulti,Arial Black,100,&H00FFFFFF,&H000D000D,&H00030303,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,3,20,20,140,0
+Style: Who's Who,Arial Black,100,&H00FFFFFF,&H000D000D,&H00030303,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,3,20,20,140,0
+Style: Black Maria,Arial Black,100,&H00FFFFFF,&H000D000D,&H00030303,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,3,20,20,140,0
+Style: Tobiroppo,Arial Black,100,&H00080808,&H000D000D,&H00FFFFFF,&H000F000F,-1,0,0,0,100,100,0,0,1,7,1,2,20,20,140,0
+Style: Zvířecí piráti,Arial Black,72,&H00080808,&H000D000D,&H00FFFFFF,&H000F000F,-1,0,0,0,100,100,0,0,1,5,1,2,20,20,60,0
+Style: Onigašima,Arial Black,72,&H000000DF,&H000D000D,&HFFFFFFFF,&H000F000F,-1,0,0,0,100,100,0,0,1,3,1,2,20,20,240,0
+Style: Onigašima 2,Arial Black,72,&H00FFFFFF,&H000D000D,&HFFFFFFFF,&H000F000F,-1,0,0,0,100,100,0,0,1,3,1,2,20,20,240,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.74,0:00:13.62,Znělka,,0000,0000,0000,,{\k50}{\c&H7fff00&}Mu{\k16}gen{\k16}da{\k25}i{\k8} {\k16}no{\k16} {\k16}či{\k16}zu{\k27} {\k16}hi{\k16}ro{\k16}ge{\k0}
+Dialogue: 0,0:00:10.74,0:00:13.62,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:00:13.62,0:00:16.60,Znělka,,0000,0000,0000,,{\k25}{\c&H7fff00&}ha{\k18}te{\k18}ši{\k27}na{\k40}i{\k9} {\k20}a{\k18}no{\k20} {\k18}ba{\k18}šo{\k9} {\k9}e{\k0}
+Dialogue: 0,0:00:13.62,0:00:16.60,Znělka,,0000,0000,0000,,k místu, které nezná konce
+Dialogue: 0,0:00:16.61,0:00:21.35,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Le{\k28}t's{\k9} {\k19}sa{\k10}il{\k25} {\k19}on{\k9} {\k27}ta{\k27}ka{\k50}ku{\k9} {\k30}ho{\k9} {\k30}wo{\k9} {\k24}a{\k24}ge{\k25}te{\k0}
+Dialogue: 0,0:00:16.61,0:00:21.35,Znělka,,0000,0000,0000,,Vyplujme, horečně zvedněte plachty
+Dialogue: 0,0:00:21.36,0:00:24.62,Znělka,,0000,0000,0000,,{\k15}{\c&H7fff00&}Ka{\k40}ze{\k13} {\k30}ni{\k13} {\k46}no{\k26}re{\k0}
+Dialogue: 0,0:00:21.36,0:00:24.62,Znělka,,0000,0000,0000,,Chytíme vítr
+Dialogue: 0,0:00:29.24,0:00:33.67,Znělka,,0000,0000,0000,,{\k15}{\c&H7fff00&}Do{\k10}n't{\k9} {\k10}gi{\k10}ve{\k9} {\k50}up{\k9} {\k20}ka{\k19}ku{\k19}go{\k9} {\k37}ki{\k35}me{\k35}ta{\k35} no{\k9} {\k27}na{\k19}ra{\k0}
+Dialogue: 0,0:00:29.24,0:00:33.67,Znělka,,0000,0000,0000,,Nevzdávej se, nechybí-li ti odhodlání
+Dialogue: 0,0:00:33.68,0:00:36.58,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Hi{\k17}ki{\k27}ka{\k20}e{\k17}ši{\k9} {\k17}wa{\k9} {\k17}ši{\k17}na{\k9}i{\k9} {\k17}sa{\k0}
+Dialogue: 0,0:00:33.68,0:00:36.58,Znělka,,0000,0000,0000,,Nikdy se neohlížej zpět
+Dialogue: 0,0:00:36.59,0:00:40.38,Znělka,,0000,0000,0000,,{\k35}{\c&H7fff00&}Wa{\k30}ra{\k30}i{\k30}to{\k30}ba{\k110}se{\k12} {\k12}a{\k24}ra{\k20}na{\k20}mi{\k0}
+Dialogue: 0,0:00:36.59,0:00:40.38,Znělka,,0000,0000,0000,,Směj se v rozbouřených vodách
+Dialogue: 0,0:00:40.39,0:00:45.03,Znělka,,0000,0000,0000,,{\25}{\c&H7fff00&}Sho{\k18}ut{\k9} {\k15}it{\k9} {\k9}o{\k70}ut{\k9} {\k20}ko{\k20}ko{\k20}ro{\k9} {\k25}ku{\k30}da{\k30}ke{\k30}na{\k15}i{\k9} {\k30}jó{\k9} {\k18}ni{\k0}
+Dialogue: 0,0:00:40.39,0:00:45.03,Znělka,,0000,0000,0000,,Vykřič se, než se tvá duše roztříští
+Dialogue: 0,0:00:45.04,0:00:47.17,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Na{\k30}ka{\k30}ma{\k8} {\k30}ga{\k8} {\k10}i{\k30}run{\k8} {\k17}da{\k0}
+Dialogue: 0,0:00:45.04,0:00:47.17,Znělka,,0000,0000,0000,,Kámoši jsou tu pro tebe
+Dialogue: 0,0:00:47.18,0:00:53.73,Znělka,,0000,0000,0000,,{\k30}{\c&H7fff00&}Ho{\k40}ra{\k14} {\k20}cu{\k40}jo{\k20}ga{\k10}ri{\k14} {\k24}nan{\k10}te{\k14} {\k14}i{\k28}ra{\k30}na{\k20}i{\k14} {\k50}i{\k60}cu{\k60} da{\k213}tte
+Dialogue: 0,0:00:47.18,0:00:53.73,Znělka,,0000,0000,0000,,Hej, nemusíš si hrát na tvrďáka
+Dialogue: 0,0:00:53.74,0:00:57.79,Znělka,,0000,0000,0000,,{\k65}{\c&H7fff00&}Ja{\k25}mi{\k10} {\k25}ga{\k10} {\k20}hi{\k20}ki{\k31}sa{\k17}ko{\k27}u{\k10} {\k21}toš{\k14}{\k36}ite{\k21}mo{\k42}
+Dialogue: 0,0:00:53.74,0:00:57.79,Znělka,,0000,0000,0000,,I když se tě temnota snaží pohltit
+Dialogue: 0,0:00:57.80,0:01:00.46,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}Ho{\k13}ra{\k6} {\k14}Bra{\k13}ve{\k6} {\k13}it{\k6} {\k45}out{\k6} {\k36}dai{\k27}džó{\k30}bu{\k6} {\k13}sa{\k0}
+Dialogue: 0,0:00:57.80,0:01:00.46,Znělka,,0000,0000,0000,,Neboj se, bude to dobré
+Dialogue: 0,0:01:00.47,0:01:04.74,Znělka,,0000,0000,0000,,{\k60}{\c&H7fff00&}Uči{\k22}ja{\k30}bu{\k30}ru{\k11} {\k33}sai{\k33}kjó{\k20} {\k22}no{\k11} {\k30}ki{\k30}zu{\k22}na{\k0}
+Dialogue: 0,0:01:00.47,0:01:04.74,Znělka,,0000,0000,0000,,Silná pouta se tím proderou
+Dialogue: 0,0:01:04.75,0:01:07.51,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}Mu{\k20}gen{\k20}da{\k15}i{\k8} {\k16}no{\k16} {\k16}či{\k16}zu{\k27} {\k16}hi{\k16}ro{\k16}ge{\k0}
+Dialogue: 0,0:01:04.75,0:01:07.51,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:01:07.52,0:01:10.05,Znělka,,0000,0000,0000,,{\k5}{\c&H7fff00&}ha{\k18}te{\k18}ši{\k20}na{\k40}i{\k9} {\k20}a{\k18}no{\k15} {\k18}ba{\k18}šo{\k8} {\k10}e{\k24}
+Dialogue: 0,0:01:07.52,0:01:10.05,Znělka,,0000,0000,0000,,k místu, které nezná konce
+Dialogue: 0,0:01:10.06,0:01:15.65,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}Fu{\k50}mi{\k60}da{\k60}se{\k12} {\k25}jú{\k25}ki{\k12} {\k25}no{\k12} {\k12}i{\k100}po{\k12} {\k42}Dream{\k10}in'{\k12} {\k25}on{\k-5}
+Dialogue: 0,0:01:10.06,0:01:15.65,Znělka,,0000,0000,0000,,Neboj se udělat krok vpřed, sni dál
+Dialogue: 0,0:01:15.65,0:01:18.60,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Mu{\k26}gen{\k16}da{\k15}i{\k8} {\k16}no{\k16} {\k16}či{\k16}zu{\k27} {\k25}hi{\k25}ro{\k16}ge{\k0}
+Dialogue: 0,0:01:15.65,0:01:18.60,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:01:18.61,0:01:21.07,Znělka,,0000,0000,0000,,{\k17}{\c&H7fff00&}Či{\k25}ka{\k15}i{\k8} {\k35}a{\k30}cu{\k30}me{\k20}ta{\k8} {\k20}ha{\k20}ta{\k18}
+Dialogue: 0,0:01:18.61,0:01:21.07,Znělka,,0000,0000,0000,,Vlajka, pod kterou se přísahá
+Dialogue: 0,0:01:21.11,0:01:23.78,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Ta{\k40}ta{\k40}kai{\k8} {\k25}cu{\k30}du{\k25}ke{\k25}te{\k8} {\k14}i{\k16}ku{\k0}
+Dialogue: 0,0:01:21.11,0:01:23.78,Znělka,,0000,0000,0000,,Bojuj dál
+Dialogue: 0,0:01:23.82,0:01:28.54,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}“Dži{\k70}bun{\k13} {\k50}dži{\k60}šin”{\k13} {\k45}cu{\k30}ra{\k40}nu{\k30}ke{\k92}
+Dialogue: 0,0:01:23.82,0:01:28.54,Znělka,,0000,0000,0000,,Zůstaň svůj
+Dialogue: 0,0:01:28.58,0:01:33.28,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Cu{\k35}ka{\k27}mi{\k13} {\k26}to{\k26}ru{\k13} {\k120}Dream{\k39}in'{\k13} {\k26}on{\k0}
+Dialogue: 0,0:01:28.58,0:01:33.28,Znělka,,0000,0000,0000,,Chop se toho, sni dál
+Dialogue: 0,0:01:33.29,0:01:39.50,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}Ma{\k20}ke{\k35}ra{\k30}re{\k30}na{\k120}i{\k15} {\k20}ni{\k20}ge{\k15} {\k10}ja{\k15} {\k25}ši{\k29}na{\k15}i{\k0}
+Dialogue: 0,0:01:33.29,0:01:39.50,Znělka,,0000,0000,0000,,Nemůžu prohrát, nikdy neuteču
+Dialogue: 0,0:01:39.51,0:01:42.01,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}De{\k24}ai{\k9} {\k24}wa{\k18}ka{\k27}re{\k9} {\k18}ko{\k25}e{\k9} {\k20}i{\k18}ko{\k9}u{\k0}
+Dialogue: 0,0:01:39.51,0:01:42.01,Znělka,,0000,0000,0000,,Potkávat se a loučit a jít dál
+Dialogue: 0,0:01:42.02,0:01:46.10,Znělka,,0000,0000,0000,,{\k50}{\c&H7fff00&}Zen{\k50}bu{\k14} {\k30}ta{\k45}ka{\k45}ra{\k45}mo{\k28}no{\k0}
+Dialogue: 0,0:01:42.02,0:01:46.10,Znělka,,0000,0000,0000,,Všechno je to poklad
+Dialogue: 0,0:01:46.81,0:01:49.31,Znělka,,0000,0000,0000,,{\k40}{\c&H7fff00&}Mu{\k16}gen{\k16}da{\k25}i{\k8} {\k15}no{\k16} {\k16}či{\k16}zu{\k27} {\k16}hi{\k20}ro{\k16}ge{\k0}
+Dialogue: 0,0:01:46.81,0:01:49.31,Znělka,,0000,0000,0000,,Rozlož mapu bez hranic
+Dialogue: 0,0:01:49.35,0:01:52.44,Znělka,,0000,0000,0000,,{\k45}{\c&H7fff00&}ha{\k18}te{\k18}ši{\k27}na{\k50}i{\k9} {\k20}a{\k18}no{\k20} {\k18}ba{\k18}šo{\k9} {\k9}e{\k0}
+Dialogue: 0,0:01:49.35,0:01:52.44,Znělka,,0000,0000,0000,,k místu, které nezná konce
+Dialogue: 0,0:01:52.44,0:01:57.35,Znělka,,0000,0000,0000,,{\k70}{\c&H7fff00&}Fu{\k50}mi{\k60}da{\k50}se{\k12} {\k25}jú{\k35}ki{\k12} {\k25}no{\k12} {\k50}i{\k100}po{\k12}
+Dialogue: 0,0:01:52.44,0:01:57.35,Znělka,,0000,0000,0000,,Neboj se udělat krok vpřed
+Dialogue: 0,0:01:57.35,0:02:01.48,Znělka,,0000,0000,0000,,{\k20}{\c&H7fff00&}Ko{\k25} {\k34}wo{\k17} {\k25}a{\k34}ge{\k34}te
+Dialogue: 0,0:01:57.35,0:02:01.48,Znělka,,0000,0000,0000,,Pozvedni svou pěst
+Dialogue: 0,0:02:20.45,0:02:22.47,Dialog,,0000,0000,0000,,Konečně seš tady!
+Dialogue: 0,0:02:24.43,0:02:27.87,Kurzíva,,0000,0000,0000,,Bývalý Válečník moře\NRytíř moří Džinbé
+Dialogue: 0,0:02:27.87,0:02:30.95,Kurzíva,,0000,0000,0000,,se konečně opět shledal se Slamáky.
+Dialogue: 0,0:02:32.44,0:02:35.29,Dialog,,0000,0000,0000,,Uvítáme Džinbého v posádce!
+Dialogue: 0,0:02:35.29,0:02:37.74,Dialog,,0000,0000,0000,,A napijeme se!
+Dialogue: 0,0:02:39.57,0:02:44.54,Kurzíva,,0000,0000,0000,,Zatímco Kiemon s ostatními probírali,\Njak vniknout na Onigašimu,
+Dialogue: 0,0:02:44.54,0:02:48.79,Kurzíva,,0000,0000,0000,,Slamáci neztráceli čas\Na zaútočili na nepřátelskou pevnost.
+Dialogue: 0,0:02:54.18,0:03:02.54,Název epizody,,0000,0000,0000,,{\a6}{\fad(1600,1600)}KAIDOVA ESA
+Dialogue: 0,0:02:54.18,0:03:02.55,Název epizody,,0000,0000,0000,,{\fad(1600,1600)}PŘICHÁZEJÍ TOBIROPPO
+Dialogue: 0,0:03:21.01,0:03:22.73,Dialog,,0000,0000,0000,,Brána torii.
+Dialogue: 0,0:03:22.73,0:03:26.66,Dialog,,0000,0000,0000,,Tohle je naše první překážka\Nna cestě na Onigašimu.
+Dialogue: 0,0:03:26.66,0:03:29.65,Dialog,,0000,0000,0000,,Překážka? Bude tam stráž?
+Dialogue: 0,0:03:29.65,0:03:31.61,Dialog,,0000,0000,0000,,Nejenom stráž.
+Dialogue: 0,0:03:31.61,0:03:36.16,Dialog,,0000,0000,0000,,Tohle místo je prošpikované\Nnejrůznějšími děly a zbraněmi.
+Dialogue: 0,0:03:36.16,0:03:38.70,Dialog,,0000,0000,0000,,Je to taková malá pevnost.
+Dialogue: 0,0:03:41.24,0:03:43.92,Dialog,,0000,0000,0000,,Dnes se navíc slaví Ohnivý festival.
+Dialogue: 0,0:03:43.92,0:03:47.46,Dialog,,0000,0000,0000,,Vsadím se, že se spoustu\Nvojáků zapojí do hostiny.
+Dialogue: 0,0:03:47.46,0:03:51.84,Dialog,,0000,0000,0000,,Co tedy budeme dělat,\Njestli už o nás byli informováni?
+Dialogue: 0,0:03:51.84,0:03:55.38,Dialog,,0000,0000,0000,,Takhle jim tam vplujeme\Njako na stříbrném podnose.
+Dialogue: 0,0:03:55.38,0:03:56.67,Dialog,,0000,0000,0000,,To je problém!
+Dialogue: 0,0:03:56.67,0:03:57.75,Dialog,,0000,0000,0000,,Každopádně…
+Dialogue: 0,0:03:58.42,0:04:00.97,Dialog,,0000,0000,0000,,Musíme ihned všechny varovat!
+Dialogue: 0,0:04:00.97,0:04:05.52,Dialog,,0000,0000,0000,,Zatím to vypadá, že nás stráž\Nu brány vůbec nezaregistrovala!
+Dialogue: 0,0:04:05.52,0:04:06.85,Dialog,,0000,0000,0000,,Ale…
+Dialogue: 0,0:04:07.14,0:04:13.02,Dialog,,0000,0000,0000,,Nenechali jsme tam před malou chvílí\Nodplout jednu nepřátelskou loď?
+Dialogue: 0,0:04:17.90,0:04:19.32,Dialog,,0000,0000,0000,,Hele.
+Dialogue: 0,0:04:19.98,0:04:22.03,Dialog,,0000,0000,0000,,Po Slamácích se slehla zem.
+Dialogue: 0,0:04:24.37,0:04:26.99,Dialog,,0000,0000,0000,,To snad ne! Ctěný Luffy!
+Dialogue: 0,0:04:27.78,0:04:29.37,Dialog,,0000,0000,0000,,Je tam ctěný Luffy?
+Dialogue: 0,0:04:29.37,0:04:33.63,Dialog,,0000,0000,0000,,Ctěný Lawe! Musíme za nimi!\NMožná se jim něco stalo!
+Dialogue: 0,0:04:33.63,0:04:35.96,Dialog,,0000,0000,0000,,Netřeba, to tam dřív doplavu!
+Dialogue: 0,0:04:35.96,0:04:39.59,Dialog,,0000,0000,0000,,Kawamacu! Nemůžete\Ntam vrazit sám! Já půjdu!
+Dialogue: 0,0:04:39.59,0:04:41.55,Dialog,,0000,0000,0000,,Ctěný Lawe! Musíme tam!
+Dialogue: 0,0:04:41.55,0:04:43.10,Dialog,,0000,0000,0000,,Vás je všude plno!
+Dialogue: 0,0:04:43.10,0:04:46.59,Útok,,0000,0000,0000,,{\c&H3C14DC&}GOMU GOMU NO…
+Dialogue: 0,0:04:47.29,0:04:48.18,Dialog,,0000,0000,0000,,Není to…
+Dialogue: 0,0:04:50.97,0:04:53.60,Dialog,,0000,0000,0000,,Proboha. Jak ve školce.
+Dialogue: 0,0:04:53.60,0:04:56.27,Dialog,,0000,0000,0000,,Pořád musí skákat do všeho po hlavě!
+Dialogue: 0,0:05:00.36,0:05:02.94,Dialog,,0000,0000,0000,,Hele! Co to děláte? Sestřelte ho!
+Dialogue: 0,0:05:10.91,0:05:12.30,Útok,,0000,0000,0000,,{\c&H3C14DC&}RUDEJ…
+Dialogue: 0,0:05:15.00,0:05:17.29,Útok,,0000,0000,0000,,{\c&H3C14DC&}JESTŘÁB!
+Dialogue: 0,0:05:51.37,0:05:53.20,Dialog,,0000,0000,0000,,Stráž od brány torii…
+Dialogue: 0,0:05:53.87,0:05:55.59,Dialog,,0000,0000,0000,,je ta tam.
+Dialogue: 0,0:05:58.21,0:06:02.26,Dialog,,0000,0000,0000,,Dívejte na ten jejich arzenál.\NTeď kdybychom tam vpluli…
+Dialogue: 0,0:06:02.26,0:06:06.37,Dialog,,0000,0000,0000,,Jo. Měli bychom pěkně velký ztráty.
+Dialogue: 0,0:06:07.42,0:06:10.59,Dialog,,0000,0000,0000,,Takže teď přišel náš čas, že jo?
+Dialogue: 0,0:06:14.77,0:06:16.52,Dialog,,0000,0000,0000,,Na Onigašimu!
+Dialogue: 0,0:06:18.19,0:06:20.23,Dialog,,0000,0000,0000,,Tak jo, lidi! Dobrá práce!
+Dialogue: 0,0:06:20.23,0:06:22.38,Dialog,,0000,0000,0000,,- Uspokojivé.\N- Jsem spokojený!
+Dialogue: 0,0:06:22.38,0:06:24.69,Dialog,,0000,0000,0000,,Vy tam, pěkně se činíte!
+Dialogue: 0,0:06:24.69,0:06:27.28,Dialog,,0000,0000,0000,,Hele, tady nejste na střídačce!
+Dialogue: 0,0:06:27.28,0:06:29.78,Dialog,,0000,0000,0000,,Bože. Mě z nich picne.
+Dialogue: 0,0:06:30.32,0:06:32.45,Dialog,,0000,0000,0000,,Jdem si připít!
+Dialogue: 0,0:06:33.20,0:06:35.87,Dialog,,0000,0000,0000,,Jdem si připít!
+Dialogue: 0,0:06:37.00,0:06:40.63,Dialog,,0000,0000,0000,,Ale po nějakým alkoholu\Nnení vidu ani slechu.
+Dialogue: 0,0:06:40.63,0:06:42.72,Dialog,,0000,0000,0000,,Já si ho najdu.
+Dialogue: 0,0:06:42.72,0:06:46.01,Dialog,,0000,0000,0000,,Na to, že seš kuchař,\Ntak cejtíš kulový.
+Dialogue: 0,0:06:46.01,0:06:50.01,Dialog,,0000,0000,0000,,To mi teda řekni,\Nod kdy mají řasokoule nosy?
+Dialogue: 0,0:06:53.52,0:06:55.27,Dialog,,0000,0000,0000,,- Minutkáři.\N- Blbá koule.
+Dialogue: 0,0:06:55.27,0:06:56.98,Dialog,,0000,0000,0000,,- Kuchtíku.\N- Řasokoule.
+Dialogue: 0,0:06:56.98,0:07:00.08,Dialog,,0000,0000,0000,,A já nemám žádný nos,\Nprotože jsem kostlivec.
+Dialogue: 0,0:07:01.07,0:07:02.44,Dialog,,0000,0000,0000,,My víme.
+Dialogue: 0,0:07:03.19,0:07:08.53,Dialog,,0000,0000,0000,,Nemůžu uvěřit, že těch pár pirátů\Nbez problému smetlo stovky vojáků.
+Dialogue: 0,0:07:08.53,0:07:12.11,Dialog,,0000,0000,0000,,Taková síla se opravdu běžně nevidí.
+Dialogue: 0,0:07:12.82,0:07:14.28,Dialog,,0000,0000,0000,,Ale pořád nechápu,
+Dialogue: 0,0:07:14.28,0:07:16.96,Dialog,,0000,0000,0000,,že dokážou být tak bezstarostní.
+Dialogue: 0,0:07:16.96,0:07:20.16,Dialog,,0000,0000,0000,,Člověk jim do těch hlav\Nprostě nevidí.
+Dialogue: 0,0:07:23.17,0:07:25.85,Dialog,,0000,0000,0000,,S nimi člověk zapomene na problémy!
+Dialogue: 0,0:07:26.80,0:07:30.42,Dialog,,0000,0000,0000,,Spojit se s takovými\Nneuvěřitelně silnými jedinci…
+Dialogue: 0,0:07:30.88,0:07:32.95,Dialog,,0000,0000,0000,,To je celý Kie.
+Dialogue: 0,0:07:34.18,0:07:36.26,Dialog,,0000,0000,0000,,Pozoruhodný to člověk.
+Dialogue: 0,0:07:36.26,0:07:38.31,Dialog,,0000,0000,0000,,Ctěný Luffy!
+Dialogue: 0,0:07:58.16,0:07:59.66,Dialog,,0000,0000,0000,,To je studený!
+Dialogue: 0,0:07:59.66,0:08:02.58,Dialog,,0000,0000,0000,,Hele! Od čeho máš ruce,\Nkdyž je nepoužíváš?
+Dialogue: 0,0:08:02.96,0:08:05.86,Dialog,,0000,0000,0000,,Chlastat s váma je někdy za trest!
+Dialogue: 0,0:08:19.52,0:08:21.52,Dialog,,0000,0000,0000,,Ctihodný šógune!
+Dialogue: 0,0:08:21.52,0:08:24.37,Dialog,,0000,0000,0000,,Slepá bábo, kam tě vedeme?
+Dialogue: 0,0:08:24.37,0:08:26.49,Dialog,,0000,0000,0000,,Do kouta!
+Dialogue: 0,0:08:33.78,0:08:38.53,Dialog,,0000,0000,0000,,Ctihodný šógune, dneska sršíte\Nopravdu dobrou náladou.
+Dialogue: 0,0:08:38.53,0:08:42.04,Dialog,,0000,0000,0000,,Že jo? Přihodilo se vám\Nněco zajímavého, že?
+Dialogue: 0,0:08:42.79,0:08:44.92,Dialog,,0000,0000,0000,,Vy mě máte přečteného!
+Dialogue: 0,0:08:44.92,0:08:47.63,Dialog,,0000,0000,0000,,No? Tak co to bylo?
+Dialogue: 0,0:08:48.04,0:08:53.82,Dialog,,0000,0000,0000,,Měl jsem problémy s jedním otravným\Nodpadem, který se mi pletl do cesty.
+Dialogue: 0,0:08:53.82,0:08:58.22,Dialog,,0000,0000,0000,,Ale konečně jsem se ho\Ndokázal zbavit.
+Dialogue: 0,0:08:58.97,0:09:02.74,Dialog,,0000,0000,0000,,Tak vy máte radost,\Nže jste se zbavil odpadu?
+Dialogue: 0,0:09:02.74,0:09:05.19,Dialog,,0000,0000,0000,,Ctihodný šógun je vážně zvláštní!
+Dialogue: 0,0:09:05.19,0:09:06.40,Dialog,,0000,0000,0000,,Že?
+Dialogue: 0,0:09:07.52,0:09:09.82,Dialog,,0000,0000,0000,,Tak podle vás jsem zvláštní?
+Dialogue: 0,0:09:09.82,0:09:11.41,Dialog,,0000,0000,0000,,Ano, to jste.
+Dialogue: 0,0:09:11.41,0:09:13.74,Dialog,,0000,0000,0000,,Podle mě je to ale roztomilé.
+Dialogue: 0,0:09:13.74,0:09:15.57,Dialog,,0000,0000,0000,,Že?
+Dialogue: 0,0:09:18.74,0:09:20.84,Dialog,,0000,0000,0000,,Pojďte blíž, já vás nesežeru!
+Dialogue: 0,0:09:20.84,0:09:24.88,Dialog,,0000,0000,0000,,Já jsem šógun Země Wano,\NKurozumi Oroči!
+Dialogue: 0,0:09:28.04,0:09:29.36,Dialog,,0000,0000,0000,,Hej.
+Dialogue: 0,0:09:30.13,0:09:32.13,Dialog,,0000,0000,0000,,Chci další fazolačku.
+Dialogue: 0,0:09:32.13,0:09:33.72,Dialog,,0000,0000,0000,,Jen malé strpení!
+Dialogue: 0,0:09:33.72,0:09:36.51,Dialog,,0000,0000,0000,,Big Mom by si ji přála také.
+Dialogue: 0,0:09:36.51,0:09:38.58,Dialog,,0000,0000,0000,,Big Mom?
+Dialogue: 0,0:09:38.58,0:09:40.64,Dialog,,0000,0000,0000,,A komu to cpeš?
+Dialogue: 0,0:09:41.14,0:09:44.49,Dialog,,0000,0000,0000,,Dneska se koná\Nkaždoroční Zlatej festival.
+Dialogue: 0,0:09:44.49,0:09:48.28,Dialog,,0000,0000,0000,,Na takový velký oslavě\Nse má pořádně tančit a bavit.
+Dialogue: 0,0:09:48.28,0:09:51.11,Dialog,,0000,0000,0000,,A kdo je v centru týhle oslavy?
+Dialogue: 0,0:09:51.90,0:09:53.32,Dialog,,0000,0000,0000,,Queen!
+Dialogue: 0,0:09:53.32,0:09:55.32,Dialog,,0000,0000,0000,,Jo! Nikdo jinej!
+Dialogue: 0,0:09:55.32,0:09:58.70,Dialog,,0000,0000,0000,,Kdo to z hlavních představitelů\Numí nejlíp rozjet?
+Dialogue: 0,0:09:59.07,0:10:00.50,Dialog,,0000,0000,0000,,Queen!
+Dialogue: 0,0:10:00.50,0:10:02.95,Dialog,,0000,0000,0000,,Jo! Nikdo jinej!
+Dialogue: 0,0:10:02.95,0:10:05.83,Dialog,,0000,0000,0000,,A navíc, když zhubnu ještě víc,…
+Dialogue: 0,0:10:06.71,0:10:08.58,Dialog,,0000,0000,0000,,propadnete mi.
+Dialogue: 0,0:10:12.63,0:10:16.05,Dialog,,0000,0000,0000,,Když to teda chápeš,\Ndones mi další fazolačku!
+Dialogue: 0,0:10:33.61,0:10:36.50,Dialog,,0000,0000,0000,,Všichni se vážně dobře baví.
+Dialogue: 0,0:10:36.50,0:10:40.83,Dialog,,0000,0000,0000,,To jsem rád. Jinak by to\Nani nebyla pořádná oslava.
+Dialogue: 0,0:10:40.83,0:10:44.54,Dialog,,0000,0000,0000,,Ano! Už se nemůžu dočkat\Nna dnešní program!
+Dialogue: 0,0:10:44.54,0:10:46.71,Dialog,,0000,0000,0000,,A co vlastně teď dělá?
+Dialogue: 0,0:10:46.71,0:10:47.58,Dialog,,0000,0000,0000,,Kdo?
+Dialogue: 0,0:10:47.58,0:10:49.42,Dialog,,0000,0000,0000,,No kdo asi!
+Dialogue: 0,0:10:49.67,0:10:51.62,Dialog,,0000,0000,0000,,Jasně, že můj syn!
+Dialogue: 0,0:10:55.13,0:10:57.68,Dialog,,0000,0000,0000,,Chci ho tu mít! Slavíme, ne?
+Dialogue: 0,0:10:57.68,0:10:59.81,Dialog,,0000,0000,0000,,Podívám se po něm!
+Dialogue: 0,0:10:59.81,0:11:01.06,Dialog,,0000,0000,0000,,Ctihodný Kaido!
+Dialogue: 0,0:11:01.06,0:11:05.66,Dialog,,0000,0000,0000,,Dostavilo se za vámi všech šest\Nčlenů tobiroppo a čekají na vás!
+Dialogue: 0,0:11:05.66,0:11:08.19,Dialog,,0000,0000,0000,,Tobiroppo?
+Dialogue: 0,0:11:08.19,0:11:13.08,Dialog,,0000,0000,0000,,Vždyť jsem je nevolal.\NAle co už. Představím je Linlin.
+Dialogue: 0,0:11:13.98,0:11:15.73,Dialog,,0000,0000,0000,,Kde se vůbec courá?
+Dialogue: 0,0:11:15.73,0:11:21.09,Dialog,,0000,0000,0000,,Víte, Big Mom se stále\Nobléká do svého kimona.
+Dialogue: 0,0:11:22.53,0:11:26.24,Dialog,,0000,0000,0000,,Ctihodný Kaido! Tobiroppo dorazili!
+Dialogue: 0,0:11:29.20,0:11:30.54,Dialog,,0000,0000,0000,,Ať vejdou!
+Dialogue: 0,0:12:13.71,0:12:19.02,Onigašima 2,,0000,0000,0000,,{\fad(1000,1000)}{\pos(640,450)}ONIGAŠIMA UVÁDÍ
+Dialogue: 0,0:12:15.96,0:12:28.15,Onigašima,,0000,0000,0000,,{\fad(2000,4000)}{\pos(640,450)}ONIGAŠIMA UVÁDÍ
+Dialogue: 0,0:12:29.40,0:12:33.10,Poutač,,0000,0000,0000,,ZLATÝ FESTIVAL
+Dialogue: 0,0:12:55.54,0:12:59.46,Kurzíva,,0000,0000,0000,,Na tenhle večer jste čekali!\NTady je náš brachiosaurus!
+Dialogue: 0,0:12:59.46,0:13:02.76,Kurzíva,,0000,0000,0000,,Mor…
+Dialogue: 0,0:13:07.89,0:13:12.22,Kurzíva,,0000,0000,0000,,Queen!
+Dialogue: 0,0:13:16.06,0:13:18.27,Dialog,,0000,0000,0000,,Díky, že jste přišli, lidi!
+Dialogue: 0,0:13:20.19,0:13:22.82,Dialog,,0000,0000,0000,,Vítejte na každoročním\NZlatým festivalu!
+Dialogue: 0,0:13:22.82,0:13:25.12,Dialog,,0000,0000,0000,,Tak to rozjedeme!
+Dialogue: 0,0:13:28.95,0:13:32.46,Kurzíva,,0000,0000,0000,,Zum, zum, zum, zum
+Dialogue: 0,0:13:32.46,0:13:36.04,Kurzíva,,0000,0000,0000,,Zum, zum, zum, zum
+Dialogue: 0,0:13:36.46,0:13:39.92,Kurzíva,,0000,0000,0000,,Když zhubnu ještě víc,\Npropadnete mi,
+Dialogue: 0,0:13:39.92,0:13:42.46,Kurzíva,,0000,0000,0000,,takže zůstanu takovej, to je můj…
+Dialogue: 0,0:13:42.46,0:13:43.80,Kurzíva,,0000,0000,0000,,Funk!
+Dialogue: 0,0:13:47.30,0:13:51.01,Kurzíva,,0000,0000,0000,,Zum, zum, zum, zum
+Dialogue: 0,0:13:51.01,0:13:54.81,Kurzíva,,0000,0000,0000,,Nemám žádný špeky,\Nto jsou jenom svaly
+Dialogue: 0,0:13:54.81,0:13:57.27,Kurzíva,,0000,0000,0000,,Můžu zpívat i tančit, to je můj…
+Dialogue: 0,0:13:57.27,0:13:58.48,Kurzíva,,0000,0000,0000,,Funk!
+Dialogue: 0,0:13:58.85,0:14:03.17,Dialog,,0000,0000,0000,,Tak jo, Onigašimo!
+Dialogue: 0,0:14:03.17,0:14:05.40,Dialog,,0000,0000,0000,,Máte se dobře?
+Dialogue: 0,0:14:06.99,0:14:08.53,Dialog,,0000,0000,0000,,Teď se těšte!
+Dialogue: 0,0:14:08.53,0:14:11.37,Dialog,,0000,0000,0000,,Hezky si vás vyjmenujeme!
+Dialogue: 0,0:14:11.37,0:14:14.12,Dialog,,0000,0000,0000,,A ať je vás pořádně slyšet!
+Dialogue: 0,0:14:16.71,0:14:18.63,Kurzíva,,0000,0000,0000,,Kde je řada na naše zvířata?
+Dialogue: 0,0:14:18.63,0:14:20.58,Kurzíva,,0000,0000,0000,,Kde jsou moji čekatelé?
+Dialogue: 0,0:14:22.64,0:14:24.29,Čekatelé,,0000,0000,0000,,ČEKATELÉ
+Dialogue: 0,0:14:24.30,0:14:26.51,Kurzíva,,0000,0000,0000,,Projeli to, ale baví je to!
+Dialogue: 0,0:14:26.51,0:14:28.13,Kurzíva,,0000,0000,0000,,Jen se smějte, rozkoše!
+Dialogue: 0,0:14:30.28,0:14:32.04,Rozkoše,,0000,0000,0000,,ROZKOŠE
+Dialogue: 0,0:14:32.05,0:14:34.06,Kurzíva,,0000,0000,0000,,Dárečci, který SMILE vychytali!
+Dialogue: 0,0:14:34.06,0:14:36.23,Kurzíva,,0000,0000,0000,,Kde vás mám, obdarovaní?
+Dialogue: 0,0:14:37.96,0:14:39.93,Obdarovaní,,0000,0000,0000,,OBDAROVANÍ
+Dialogue: 0,0:14:39.94,0:14:41.81,Kurzíva,,0000,0000,0000,,Hlavouni, to jsou předáci!
+Dialogue: 0,0:14:41.81,0:14:43.52,Kurzíva,,0000,0000,0000,,Z vás jsem na větvi!
+Dialogue: 0,0:14:45.48,0:14:47.44,Předáci,,0000,0000,0000,,PŘEDÁCI
+Dialogue: 0,0:14:47.44,0:14:52.05,Kurzíva,,0000,0000,0000,,- A teď hlavní šestka! Noci děcka!\N- Na ni si dejte vážně majzla!
+Dialogue: 0,0:14:52.70,0:14:55.33,Kurzíva,,0000,0000,0000,,Tobiroppo!
+Dialogue: 0,0:15:05.71,0:15:06.88,Dialog,,0000,0000,0000,,Kecám!
+Dialogue: 0,0:15:06.88,0:15:10.14,Dialog,,0000,0000,0000,,Tyhle suchoprdi\Nnikdy neodpoví, že ne?
+Dialogue: 0,0:15:10.14,0:15:13.01,Dialog,,0000,0000,0000,,Kašlete na ty osiny v zadku!
+Dialogue: 0,0:15:13.01,0:15:15.11,Dialog,,0000,0000,0000,,A teď přichází obludy!
+Dialogue: 0,0:15:15.11,0:15:16.81,Dialog,,0000,0000,0000,,Čísla!
+Dialogue: 0,0:15:24.61,0:15:26.34,Dialog,,0000,0000,0000,,Jak sloni v porcelánu.
+Dialogue: 0,0:15:26.34,0:15:27.53,Dialog,,0000,0000,0000,,Ale co.
+Dialogue: 0,0:15:27.53,0:15:29.82,Dialog,,0000,0000,0000,,A kde je Oročiho grupa?
+Dialogue: 0,0:15:29.82,0:15:32.95,Dialog,,0000,0000,0000,,Ať se přihlásí samurajskej oddíl\Nmimawarigumi!
+Dialogue: 0,0:15:33.78,0:15:36.20,Dialog,,0000,0000,0000,,Oniwabanšu!
+Dialogue: 0,0:15:37.58,0:15:40.59,Dialog,,0000,0000,0000,,Už tě volají, Fukurokudžu!
+Dialogue: 0,0:15:40.59,0:15:43.54,Dialog,,0000,0000,0000,,Neměl by ses jít přihlásit?
+Dialogue: 0,0:15:43.54,0:15:44.97,Dialog,,0000,0000,0000,,To nepůjde!
+Dialogue: 0,0:15:44.97,0:15:49.60,Dialog,,0000,0000,0000,,Mou hlavní a jedinou povinností\Nje ochraňovat vás vždy a všude!
+Dialogue: 0,0:15:49.60,0:15:51.84,Dialog,,0000,0000,0000,,Nebuď takovej nudnej patron!
+Dialogue: 0,0:15:51.84,0:15:56.96,Dialog,,0000,0000,0000,,Díky mojí dokonalé strategii\Nje teď se členy Akazajů šmytec!
+Dialogue: 0,0:15:56.97,0:16:00.52,Dialog,,0000,0000,0000,,Už nemusíš bejt napnutej jak struna!
+Dialogue: 0,0:16:00.52,0:16:03.11,Kurzíva,,0000,0000,0000,,Dneska je Ohnivej festival!\NRozjedeme to!
+Dialogue: 0,0:16:03.11,0:16:06.94,Kurzíva,,0000,0000,0000,,Pařte, jako by to byl\Nváš poslední den!
+Dialogue: 0,0:16:10.36,0:16:13.66,Dialog,,0000,0000,0000,,Užívej, nebo chcípni!
+Dialogue: 0,0:16:15.87,0:16:19.33,Dialog,,0000,0000,0000,,Tenhle rok tu máme\Nvážně výjimečný hosty!
+Dialogue: 0,0:16:19.33,0:16:22.00,Dialog,,0000,0000,0000,,Prej už jsou skoro za dveřmi!
+Dialogue: 0,0:16:22.88,0:16:25.59,Dialog,,0000,0000,0000,,Děťata samotný Big Mom!
+Dialogue: 0,0:16:29.80,0:16:32.34,Dialog,,0000,0000,0000,,Queen tu držku prostě nezavře.
+Dialogue: 0,0:16:32.84,0:16:37.05,Dialog,,0000,0000,0000,,Taky jste slyšeli, jak o nás říká,\Nže jsme nějaký suchoprdi?
+Dialogue: 0,0:16:37.05,0:16:41.57,Dialog,,0000,0000,0000,,Můžeš přestat mluvit sprostě?\NKdo to má poslouchat?
+Dialogue: 0,0:16:41.57,0:16:42.82,Dialog,,0000,0000,0000,,Trochu se kroť.
+Dialogue: 0,0:16:42.82,0:16:48.01,Dialog,,0000,0000,0000,,- Ale Pejpíku, nebuď taková cimprlína.\N- Neříkej mi Pejpíku!
+Dialogue: 0,0:16:50.32,0:16:53.20,Dialog,,0000,0000,0000,,Jestli Queen zaklepe bačkorama,
+Dialogue: 0,0:16:53.82,0:16:57.57,Dialog,,0000,0000,0000,,kdo myslíte, že bude další\Nhlavní představitel?
+Dialogue: 0,0:16:58.12,0:17:01.77,Dialog,,0000,0000,0000,,Ty už se na tom místě vidíš, že ano?
+Dialogue: 0,0:17:03.21,0:17:07.05,Dialog,,0000,0000,0000,,Mně je funkce\Nhlavního představitele ukradená.
+Dialogue: 0,0:17:05.79,0:17:08.34,X Drake,,0000,0000,0000,,{\pos(540,470)}X DRAKE
+Dialogue: 0,0:17:07.05,0:17:12.55,Dialog,,0000,0000,0000,,Nebylo by zrovna od věci,\Nkdybys nemyslel jenom na soupeření.
+Dialogue: 0,0:17:08.34,0:17:15.84,Sasaki,,0000,0000,0000,,{\pos(1190,350)}SASAKI
+Dialogue: 0,0:17:12.97,0:17:15.84,Dialog,,0000,0000,0000,,Pejpíku!\NTy na to místo taky nemysli!
+Dialogue: 0,0:17:16.30,0:17:23.56,Page One,,0000,0000,0000,,{\pos(510,580)}PAGE ONE
+Dialogue: 0,0:17:16.55,0:17:21.34,Dialog,,0000,0000,0000,,S tím blbem, kterej si říkal\NSoba Mask, jsi to taky projel!
+Dialogue: 0,0:17:23.56,0:17:25.32,Dialog,,0000,0000,0000,,Tak hele!
+Dialogue: 0,0:17:25.32,0:17:29.70,Dialog,,0000,0000,0000,,Moc si s Pejpíkem nezahrávej,\Njinak si to slízneš, Sasaki!
+Dialogue: 0,0:17:27.23,0:17:29.65,Ulti,,0000,0000,0000,,{\pos(380,320)}ULTI
+Dialogue: 0,0:17:29.70,0:17:31.44,Dialog,,0000,0000,0000,,Ségra, zklidni hormon!
+Dialogue: 0,0:17:31.44,0:17:34.07,Dialog,,0000,0000,0000,,- Mám zklidnit hormon?\N- Koukej se uklidnit!
+Dialogue: 0,0:17:34.07,0:17:37.16,Dialog,,0000,0000,0000,,Tak já se mám uklidnit, jo?
+Dialogue: 0,0:17:35.61,0:17:43.05,Who's Who,,0000,0000,0000,,{\pos(570,420)}WHO'S WHO
+Dialogue: 0,0:17:37.16,0:17:39.91,Dialog,,0000,0000,0000,,Chovejte se jako dospělí!\NJste otravný!
+Dialogue: 0,0:17:39.91,0:17:42.95,Dialog,,0000,0000,0000,,Vážně? Mně přijdou roztomilí.
+Dialogue: 0,0:17:44.50,0:17:48.54,Dialog,,0000,0000,0000,,Dost se mi líbí,\Njaký má Ultinka temperament.
+Dialogue: 0,0:17:44.66,0:17:48.54,Black Maria,,000,0000,0000,,{\pos(1230,520)}BLACK MARIA
+Dialogue: 0,0:17:48.79,0:17:53.06,Dialog,,0000,0000,0000,,Tisíckrát jí řeknu, ať si vybere,\Nna koho vyjede, ale ona to nechápe.
+Dialogue: 0,0:17:53.06,0:17:54.43,Dialog,,0000,0000,0000,,Roztomilá není.
+Dialogue: 0,0:17:54.43,0:17:57.07,Dialog,,0000,0000,0000,,Tak tohle odvoláš!
+Dialogue: 0,0:17:57.07,0:17:59.11,Dialog,,0000,0000,0000,,To by snad stačilo!
+Dialogue: 0,0:17:59.11,0:18:00.43,Dialog,,0000,0000,0000,,Takže…
+Dialogue: 0,0:18:00.85,0:18:04.10,Dialog,,0000,0000,0000,,Proč si nás zavolali\Na teď tu trčíme a čekáme?
+Dialogue: 0,0:18:04.10,0:18:06.01,Dialog,,0000,0000,0000,,Bude to důležitý.
+Dialogue: 0,0:18:06.01,0:18:11.08,Dialog,,0000,0000,0000,,Když Kaido řekne, že něco hoří,\Ntak to taky hoří.
+Dialogue: 0,0:18:15.90,0:18:18.95,Dialog,,0000,0000,0000,,Zase si neumí ukočírovat famílii?
+Dialogue: 0,0:18:23.11,0:18:25.79,Zvířecí piráti,,0000,0000,0000,,ZVÍŘECÍ PIRÁTI
+Dialogue: 0,0:18:23.12,0:18:25.79,Tobiroppo,,0000,0000,0000,,TOBIROPPO
+Dialogue: 0,0:18:25.79,0:18:27.37,Dialog,,0000,0000,0000,,Není Kaido dement?
+Dialogue: 0,0:18:27.37,0:18:29.46,Dialog,,0000,0000,0000,,Nevyskakuj si na něj!
+Dialogue: 0,0:18:34.84,0:18:39.80,Dialog,,0000,0000,0000,,Hej, Kiemone! Našli jsme nepřátele!
+Dialogue: 0,0:18:41.93,0:18:44.26,Dialog,,0000,0000,0000,,Všechny jsme zase předběhli.
+Dialogue: 0,0:18:45.35,0:18:47.18,Dialog,,0000,0000,0000,,Hej, řasokoule!
+Dialogue: 0,0:18:47.64,0:18:49.32,Dialog,,0000,0000,0000,,Kde jsi to splašil?
+Dialogue: 0,0:18:49.32,0:18:51.69,Dialog,,0000,0000,0000,,Takže jsi našel alkohol, Zoro?
+Dialogue: 0,0:18:52.56,0:18:55.51,Dialog,,0000,0000,0000,,Říkal jsem ti, že si ho najdu, ne?
+Dialogue: 0,0:18:55.51,0:18:57.28,Dialog,,0000,0000,0000,,On má šestej smysl.
+Dialogue: 0,0:18:57.28,0:19:01.37,Dialog,,0000,0000,0000,,On v tý zelený hlavě fakt\Nmá jenom chlast a katany.
+Dialogue: 0,0:19:01.37,0:19:05.87,Dialog,,0000,0000,0000,,Hej! My už můžeme!
+Dialogue: 0,0:19:05.87,0:19:09.46,Dialog,,0000,0000,0000,,Dobroš! Tak se napijeme!
+Dialogue: 0,0:19:10.79,0:19:15.21,Dialog,,0000,0000,0000,,Luffy! Když si nepospíšíš,\Nvšechno ti to vyzunkneme!
+Dialogue: 0,0:19:15.63,0:19:17.51,Dialog,,0000,0000,0000,,- Teda Zoro.\N- Já teda ne!
+Dialogue: 0,0:19:17.51,0:19:19.18,Dialog,,0000,0000,0000,,Fajn!
+Dialogue: 0,0:19:19.18,0:19:21.14,Dialog,,0000,0000,0000,,Tady máte, šéfíku.
+Dialogue: 0,0:19:21.84,0:19:23.47,Dialog,,0000,0000,0000,,Děkuju ti.
+Dialogue: 0,0:19:23.47,0:19:27.86,Dialog,,0000,0000,0000,,Tak na našeho super kormidelníka,\Nkterej se nám vždycky šikl!
+Dialogue: 0,0:19:27.86,0:19:31.44,Dialog,,0000,0000,0000,,Kéž bychom měli čas\Nzazpívat si písničku!
+Dialogue: 0,0:19:33.86,0:19:38.03,Dialog,,0000,0000,0000,,Nikdy jsem si nepřipíjel sakém\Nv tak skvělé společnosti!
+Dialogue: 0,0:19:38.03,0:19:39.19,Dialog,,0000,0000,0000,,Džinbé.
+Dialogue: 0,0:19:42.87,0:19:44.12,Dialog,,0000,0000,0000,,Čekali jsme!
+Dialogue: 0,0:19:46.82,0:19:52.91,Dialog,,0000,0000,0000,,Nemohl jsem se dočkat toho dne,\Nkdy s vámi budu plout po širém moři.
+Dialogue: 0,0:19:55.21,0:19:57.42,Dialog,,0000,0000,0000,,Tak jo! Máte všichni pití?
+Dialogue: 0,0:19:57.71,0:19:58.76,Dialog,,0000,0000,0000,,Lidi!
+Dialogue: 0,0:20:03.59,0:20:07.57,Kurzíva,,0000,0000,0000,,Džinbé přichází
+Dialogue: 0,0:20:07.57,0:20:11.52,Kurzíva,,0000,0000,0000,,na naši sluníčkovou lodičku
+Dialogue: 0,0:20:11.52,0:20:13.73,Dialog,,0000,0000,0000,,Děkuji vám, ctěný Luffy!
+Dialogue: 0,0:20:14.40,0:20:17.19,Dialog,,0000,0000,0000,,Snadno jste prorazil první překážku!
+Dialogue: 0,0:20:17.73,0:20:19.99,Dialog,,0000,0000,0000,,Toho si vážíme!
+Dialogue: 0,0:20:29.20,0:20:31.66,Dialog,,0000,0000,0000,,Cože? Jako by se utrhli ze řetězu.
+Dialogue: 0,0:20:31.91,0:20:36.13,Dialog,,0000,0000,0000,,Když jsme dobyli pevnost,\Nmuselo jim to vlít novou krev do žil.
+Dialogue: 0,0:20:36.13,0:20:39.59,Dialog,,0000,0000,0000,,Takhle budou u Onigašimy\Nnež bys řekla švec.
+Dialogue: 0,0:20:39.59,0:20:44.64,Dialog,,0000,0000,0000,,Tak si radši rychle připijeme\Na přidáme se k nim, ne?
+Dialogue: 0,0:20:48.10,0:20:53.19,Dialog,,0000,0000,0000,,Nepromarníme příležitost,\Nkterou nám Luffytarova skupina dala!
+Dialogue: 0,0:20:53.19,0:20:55.98,Dialog,,0000,0000,0000,,Správně! Nepřítel se ani nenaděje!
+Dialogue: 0,0:20:56.31,0:20:59.91,Dialog,,0000,0000,0000,,Slamáci jsou vážně něco extra.
+Dialogue: 0,0:20:59.91,0:21:00.94,Dialog,,0000,0000,0000,,Jo!
+Dialogue: 0,0:21:01.32,0:21:07.87,Dialog,,0000,0000,0000,,Od té doby, co jsem je prvně poznal,\Ndokázali úplně otočit chod událostí.
+Dialogue: 0,0:21:09.49,0:21:11.45,Dialog,,0000,0000,0000,,Kozukijští samurajové!
+Dialogue: 0,0:21:12.04,0:21:14.12,Dialog,,0000,0000,0000,,A věrní válečníci!
+Dialogue: 0,0:21:14.83,0:21:16.46,Dialog,,0000,0000,0000,,Následujte nás!
+Dialogue: 0,0:21:16.83,0:21:18.92,Dialog,,0000,0000,0000,,Přímo na Onigašimu!
+Dialogue: 0,0:21:25.13,0:21:27.14,Dialog,,0000,0000,0000,,Do boje!
+Dialogue: 0,0:21:46.32,0:21:47.74,Dialog,,0000,0000,0000,,Co budeme dělat?
+Dialogue: 0,0:21:50.74,0:21:52.20,Dialog,,0000,0000,0000,,Luffy.
+Dialogue: 0,0:21:52.20,0:21:53.33,Dialog,,0000,0000,0000,,Hele, Luffy!
+Dialogue: 0,0:21:53.33,0:21:54.38,Dialog,,0000,0000,0000,,Teď ne.
+Dialogue: 0,0:21:56.21,0:21:57.79,Dialog,,0000,0000,0000,,Uděláme to až s nima!
+Dialogue: 0,0:21:58.54,0:22:00.75,Dialog,,0000,0000,0000,,Hostinu i přípitek!
+Dialogue: 0,0:22:02.42,0:22:05.13,Dialog,,0000,0000,0000,,Až namlátíme Kaidovi!
+Dialogue: 0,0:22:05.84,0:22:09.22,Dialog,,0000,0000,0000,,Až složíme Oročiho i Big Mom!
+Dialogue: 0,0:22:09.22,0:22:11.72,Dialog,,0000,0000,0000,,Až tuhle bitvu vyhrajeme,
+Dialogue: 0,0:22:11.72,0:22:14.77,Dialog,,0000,0000,0000,,budeme mít tu největší…
+Dialogue: 0,0:22:15.85,0:22:18.19,Dialog,,0000,0000,0000,,pařbu na světě!
+Dialogue: 0,0:22:22.32,0:22:25.62,Dialog,,0000,0000,0000,,Proboha. Nechtěl sis\Nnáhodou připít teď?
+Dialogue: 0,0:22:25.62,0:22:27.33,Dialog,,0000,0000,0000,,Všechno bereš šusem.
+Dialogue: 0,0:22:27.33,0:22:29.50,Dialog,,0000,0000,0000,,Slečna Nami má pravdu!
+Dialogue: 0,0:22:29.50,0:22:30.45,Dialog,,0000,0000,0000,,Fakticky?
+Dialogue: 0,0:22:30.45,0:22:34.96,Dialog,,0000,0000,0000,,No, tohle už je stará písnička.\NNemá cenu brečet na rozlitým mlíkem.
+Dialogue: 0,0:22:36.21,0:22:38.60,Dialog,,0000,0000,0000,,Ty radši nepřikyvuj!
+Dialogue: 0,0:22:38.60,0:22:40.80,Dialog,,0000,0000,0000,,Nám to nevadí,
+Dialogue: 0,0:22:40.80,0:22:43.39,Dialog,,0000,0000,0000,,ale co na to řekne šéfík?
+Dialogue: 0,0:22:46.17,0:22:48.63,Dialog,,0000,0000,0000,,Moji odpověď už znáte!
+Dialogue: 0,0:22:50.84,0:22:54.85,Dialog,,0000,0000,0000,,Platí!
+Dialogue: 0,0:22:59.81,0:23:01.57,Dialog,,0000,0000,0000,,Takže vpřed, lidi!
+Dialogue: 0,0:23:01.57,0:23:04.57,Dialog,,0000,0000,0000,,Přímo za samuraji!
+Dialogue: 0,0:23:04.57,0:23:07.90,Dialog,,0000,0000,0000,,Rozkaz, kapitáne!
+Dialogue: 0,0:23:09.64,0:23:15.68,Dialog,,0000,0000,0000,,Překlad: Kara Mikešová\Nwww.onepiecetitulky.cz
+Dialogue: 0,0:23:18.25,0:23:22.75,Kurzíva,,0000,0000,0000,,Na Onigašimě se nachází obrovská lebka,\Nkterá budí v srdcích strach!
+Dialogue: 0,0:23:22.75,0:23:25.22,Kurzíva,,0000,0000,0000,,Akazajové vyráží přímo vpřed
+Dialogue: 0,0:23:25.22,0:23:29.78,Kurzíva,,0000,0000,0000,,a ve svých srdcích si nesou\Nvroucí vůli jejich pána Odena!
+Dialogue: 0,0:23:29.78,0:23:35.40,Kurzíva,,0000,0000,0000,,Po mnohých útrapách samurajové\Nvrací úder a začínají s přepadením!
+Dialogue: 0,0:23:36.35,0:23:41.64,Kurzíva,,0000,0000,0000,,PŘÍŠTĚ: Smrtelně vážní samurajové!\NPřiplutí na Onigašimu!
+Dialogue: 0,0:23:41.65,0:23:44.22,Kurzíva,,0000,0000,0000,,Stanu se pirátským králem!

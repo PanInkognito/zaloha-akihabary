@@ -1,0 +1,548 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Warning1,Open Sans Semibold,26,&H00FAFAFA,&H000000FF,&H001D0806,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,13,13,33,1
+Style: Attack,Open Sans Semibold,29,&H00FAFAFA,&H000000FF,&H00466367,&H00000000,0,0,0,0,100,100,0,0,1,4,0,3,0,127,67,1
+Style: Attack2,Open Sans Semibold,29,&H00FAFAFA,&H000000FF,&H00535F2D,&H00000000,0,0,0,0,100,100,0,0,1,4,0,3,0,127,67,1
+Style: Arrest,Open Sans Semibold,35,&H00090909,&H000000FF,&H00300EB8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,20,0
+Style: Attack3,Open Sans Semibold,29,&H00FAFAFA,&H000000FF,&H002A2D26,&H00000000,0,0,0,0,100,100,0,0,1,4,0,3,0,127,67,1
+Style: Attack4,Open Sans Semibold,29,&H00FAFAFA,&H000000FF,&H00545D65,&H00000000,0,0,0,0,100,100,0,0,1,4,0,3,0,127,100,1
+Style: Faction,Open Sans Semibold,38,&H00090909,&H000000FF,&H005F93BC,&H006D828B,1,0,0,0,100,100,0,0,1,2,0,8,40,40,20,0
+Style: Odd,Open Sans Semibold,32,&H00234660,&H000000FF,&H00BDE6F4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Diary,Open Sans Semibold,32,&H00FCFEE6,&H000000FF,&H0079A41C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,27,0
+Style: Seita,Open Sans Semibold,26,&H00090909,&H000000FF,&H00EFEDDF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,40,40,133,0
+Style: Diary Entry,Open Sans Semibold,29,&H00090909,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,40,40,40,0
+Style: Answer,Open Sans Semibold,35,&H00090909,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,40,40,167,0
+Style: Q,Open Sans Semibold,29,&H00090909,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,64,40,153,0
+Style: Q2,Open Sans Semibold,29,&H00090909,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0,40,13,0
+Style: Answer2,Open Sans Semibold,35,&H00090909,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,40,40,180,0
+Style: Direction,Open Sans Semibold,29,&H00090909,&H000000FF,&H004E79A6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,40,40,20,0
+Style: Preview,Open Sans Semibold,32,&H00E1FFDE,&H000000FF,&H0026922C,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Japanese,Open Sans Semibold,35,&H00090909,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,40,40,40,0
+Style: podpiiiiiiiiiiiiiiiiiiiiissssssssssss,Open Sans Semibold,38,&H00000000,&H000000FF,&H00B2D4FF,&H00000000,-1,0,0,0,100,100,0,0,1,1.1,0,2,0,0,44,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:29.00,0:01:31.00,podpiiiiiiiiiiiiiiiiiiiiissssssssssss,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:01:36.58,0:01:39.03,Main,Kag,0000,0000,0000,,Jedna věc mi na melounech vážně vadí.
+Dialogue: 0,0:01:39.67,0:01:40.45,Main,So,0000,0000,0000,,Co ti vadí?
+Dialogue: 0,0:01:40.97,0:01:43.67,Main,Kag,0000,0000,0000,,{\an8}Jsou skvělý, ale plný semínek.
+Dialogue: 0,0:01:40.97,0:01:48.52,Warning1,Sign,0000,0000,0000,,{\fad(548,538)}Princezna Soyo žádá: Prosím sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV.
+Dialogue: 0,0:01:43.67,0:01:48.02,Main,Kag,0000,0000,0000,,{\an8}Kdyby tam nebyly, melouny by\Nbyly stejně dobrý jako každý jiný ovoce.
+Dialogue: 0,0:01:48.02,0:01:49.55,Main,So,0000,0000,0000,,{\an8}Pravda.
+Dialogue: 0,0:01:49.55,0:01:51.62,Main,So,0000,0000,0000,,Jednou mi taky přišlo na mysl,
+Dialogue: 0,0:01:51.62,0:01:54.59,Main,So,0000,0000,0000,,že bych ráda žvýkala meloun, \Naniž bych se musela starat o semínka.
+Dialogue: 0,0:01:55.09,0:01:57.99,Main,Gin,0000,0000,0000,,Vy dvě to prostě nechápete.
+Dialogue: 0,0:01:58.84,0:02:03.65,Main,Gin,0000,0000,0000,,Překonat překážku v podobě otravnejch semínek v melounu
+Dialogue: 0,0:02:04.91,0:02:08.37,Main,Gin,0000,0000,0000,,je mini-drama, který dodá chuti podtón naléhavosti
+Dialogue: 0,0:02:08.37,0:02:10.44,Main,Gin,0000,0000,0000,,a meloun pak chutná ještě líp.
+Dialogue: 0,0:02:11.13,0:02:12.72,Main,Gin,0000,0000,0000,,Takže když jíte meloun,
+Dialogue: 0,0:02:12.72,0:02:16.15,Main,Gin,0000,0000,0000,,v podstatě nejíte ovoce, ale drama, který to doprovází.
+Dialogue: 0,0:02:16.50,0:02:20.95,Main,So,0000,0000,0000,,Chceš říct, že čím větší překážka,
+Dialogue: 0,0:02:20.95,0:02:25.20,Main,So,0000,0000,0000,,tím větší drama a tím lepší je meloun?
+Dialogue: 0,0:02:25.20,0:02:27.25,Main,Gin,0000,0000,0000,,Jo, přesně tak.
+Dialogue: 0,0:02:27.25,0:02:28.73,Main,So,0000,0000,0000,,Chápu.
+Dialogue: 0,0:02:28.73,0:02:29.79,Main,So,0000,0000,0000,,Kaguro-chan,
+Dialogue: 0,0:02:30.04,0:02:32.71,Main,So,0000,0000,0000,,udělejme si je tedy ještě lepší.
+Dialogue: 0,0:02:32.71,0:02:34.01,Main,Kag,0000,0000,0000,,Jak?
+Dialogue: 0,0:02:35.09,0:02:36.79,Main,So,0000,0000,0000,,Nech to na mně!
+Dialogue: 0,0:02:37.72,0:02:42.14,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}Vášnivé Léto
+Dialogue: 0,0:02:46.22,0:02:49.10,Main,So,0000,0000,0000,,Výborně, začínáme!
+Dialogue: 0,0:02:49.35,0:02:51.09,Main,So,0000,0000,0000,,Chest!
+Dialogue: 0,0:02:51.09,0:02:52.69,Main,So,0000,0000,0000,,Zadržte, princezno!
+Dialogue: 0,0:02:52.69,0:02:54.51,Main,So,0000,0000,0000,,Ještě si to rozmyslete, dobře?!
+Dialogue: 0,0:02:54.51,0:02:56.33,Main,Shin,0000,0000,0000,,Odložte ten meč, princezno!
+Dialogue: 0,0:02:56.33,0:02:57.51,Main,Gin,0000,0000,0000,,To je melounová ruleta?
+Dialogue: 0,0:02:57.51,0:03:00.32,Main,Shin,0000,0000,0000,,Takhle sadistická normálně nejste!
+Dialogue: 0,0:03:00.63,0:03:03.97,Main,So,0000,0000,0000,,Napadlo mě, že takhle bude všechno dramatičtější.
+Dialogue: 0,0:03:03.97,0:03:06.12,Main,Gin,0000,0000,0000,,A kdo po vás chtěl, ať vytvoříte napínavý drama?!
+Dialogue: 0,0:03:06.12,0:03:10.38,Main,So,0000,0000,0000,,Jsem si jistá, že bude ten meloun chutnat božsky, \Naž překonáme tuto obrovskou překážku.
+Dialogue: 0,0:03:10.38,0:03:11.85,Main,Shin,0000,0000,0000,,Jenže my ani nebudeme moct ochutnat!
+Dialogue: 0,0:03:11.85,0:03:14.00,Main,Shin,0000,0000,0000,,Naše hlavy budou na maděru!
+Dialogue: 0,0:03:14.25,0:03:16.25,Main,Kag,0000,0000,0000,,Přestaňte kňourat.
+Dialogue: 0,0:03:16.25,0:03:19.06,Main,Kag,0000,0000,0000,,Clift a Brey jsou odsouzeni tiše zůstat ve vozíku,
+Dialogue: 0,0:03:19.06,0:03:21.18,Main,Kag,0000,0000,0000,,protože jinak budou vydáni na pospas Alině.
+Dialogue: 0,0:03:21.18,0:03:22.60,Main,Gin,0000,0000,0000,,Kdo je u tebe Clift a Brey?!
+Dialogue: 0,0:03:22.60,0:03:25.09,Main,Gin,0000,0000,0000,,A tenhle meloun má bejt Torneko?! \NJsme tři vozíkoví bratři?!
+Dialogue: 0,0:03:25.09,0:03:28.29,Main,Kag,0000,0000,0000,,Soustřeďte se! Jestli ji nedovedete k melounu,
+Dialogue: 0,0:03:28.29,0:03:30.85,Main,Kag,0000,0000,0000,,Alina vás rozšmelcuje na kaši.
+Dialogue: 0,0:03:30.85,0:03:33.02,Main,Gin,0000,0000,0000,,Počkat, tudyma ne! Běžte za Cliftem!
+Dialogue: 0,0:03:33.02,0:03:34.39,Main,Shin,0000,0000,0000,,Zavři hubu, Breyi!
+Dialogue: 0,0:03:34.39,0:03:38.05,Main,So,0000,0000,0000,,Um, nešlo by to říct trochu\Njinak než jako "Clift" a "Brey"?
+Dialogue: 0,0:03:38.37,0:03:38.96,Main,Shin,0000,0000,0000,,{\an8}Zaraki!
+Dialogue: 0,0:03:38.96,0:03:40.71,Main,Shin,0000,0000,0000,,{\an8}Otočte se o 30 stupňů doprava!
+Dialogue: 0,0:03:40.28,0:03:41.30,Attack,Sign,0000,0000,0000,,Shinpachi zahájil Zaraki!
+Dialogue: 0,0:03:42.28,0:03:44.41,Main,Gin,0000,0000,0000,,Ne! Zaraki o 30 stupňů doleva!
+Dialogue: 0,0:03:44.41,0:03:45.43,Attack,Sign,0000,0000,0000,,Gintoki zahájil Zaraki!
+Dialogue: 0,0:03:46.07,0:03:48.30,Main,Shin,0000,0000,0000,,{\an8}P-Počkat! Zaraki na druhou stranu!
+Dialogue: 0,0:03:47.79,0:03:48.81,Attack,Sign,0000,0000,0000,,Shinpachi zahájil Zaraki!!
+Dialogue: 0,0:03:48.30,0:03:50.76,Main,Gin,0000,0000,0000,,{\an8}Zaraki! 30 stupňu doleva!
+Dialogue: 0,0:03:50.41,0:03:51.48,Attack,Sign,0000,0000,0000,,Gintoki zahájil Zaraki!
+Dialogue: 0,0:03:50.76,0:03:53.21,Main,Kag,0000,0000,0000,,{\an8}Už s tím Zaraki přestaňte, vy idioti!
+Dialogue: 0,0:03:53.21,0:03:54.83,Main,So,0000,0000,0000,,Um...
+Dialogue: 0,0:03:54.83,0:03:57.17,Main,So,0000,0000,0000,,30 stupňů... Zaraki...
+Dialogue: 0,0:03:57.17,0:03:58.72,Main,Gin,0000,0000,0000,,Ne, ne! Hej!
+Dialogue: 0,0:03:58.72,0:04:01.38,Main,Gin,0000,0000,0000,,Nakonec schytáte Zaraki vy!
+Dialogue: 0,0:04:01.76,0:04:02.68,Main,Gin,0000,0000,0000,,Opatrně!
+Dialogue: 0,0:04:02.68,0:04:04.60,Main,Kag,0000,0000,0000,,Soyo-chan! Tamtudy ne!
+Dialogue: 0,0:04:04.60,0:04:06.19,Main,Kag,0000,0000,0000,,Zaoraru o 180 stupňů!
+Dialogue: 0,0:04:06.19,0:04:08.22,Main,Gin,0000,0000,0000,,Počkejte! Zaoriku o 180 stupňů!
+Dialogue: 0,0:04:08.22,0:04:09.27,Main,Shin,0000,0000,0000,,Cokoliv! Je jedno co!
+Dialogue: 0,0:04:09.27,0:04:10.36,Main,Gin,0000,0000,0000,,Nehýbejte se!
+Dialogue: 0,0:04:10.36,0:04:12.97,Main,Gin,0000,0000,0000,,Zůstaňte tam, kde jste, vaše veličenstvo!
+Dialogue: 0,0:04:12.97,0:04:14.77,Main,So,0000,0000,0000,,Hm? Cože?
+Dialogue: 0,0:04:14.77,0:04:16.70,Main,So,0000,0000,0000,,Zůstaňte tam, kde jste...
+Dialogue: 0,0:04:16.70,0:04:18.38,Main,So,0000,0000,0000,,vášeň?!
+Dialogue: 0,0:04:18.38,0:04:19.36,Attack2,Sign,0000,0000,0000,,Princezna Soyo zahájila vášeň!
+Dialogue: 0,0:04:20.20,0:04:21.99,Main,Gin,0000,0000,0000,,Říkal snad někdo něco o vášni?!
+Dialogue: 0,0:04:21.99,0:04:24.00,Main,Gin,0000,0000,0000,,Řekl jsem "vaše veličenstvo"!
+Dialogue: 0,0:04:24.99,0:04:27.20,Main,W,0000,0000,0000,,Moje taška!
+Dialogue: 0,0:04:27.20,0:04:29.00,Main,W,0000,0000,0000,,Děkuji mnohokrát!
+Dialogue: 0,0:04:29.71,0:04:31.16,Main,W,0000,0000,0000,,Ten muž byl zloděj.
+Dialogue: 0,0:04:31.16,0:04:33.96,Main,Gin,0000,0000,0000,,Ten chlap, kterýho tak vášnivě napadla, byl zloděj!
+Dialogue: 0,0:04:33.96,0:04:36.42,Main,Gin,0000,0000,0000,,Nějakým zázračným způsobem získala ukradenou tašku!
+Dialogue: 0,0:04:36.42,0:04:38.92,Main,W,0000,0000,0000,,Ti zloději, všude jich je tolik...
+Dialogue: 0,0:04:38.92,0:04:39.58,Main,So,0000,0000,0000,,Hm?
+Dialogue: 0,0:04:39.99,0:04:41.13,Main,So,0000,0000,0000,,Jich...
+Dialogue: 0,0:04:41.46,0:04:43.69,Main,So,0000,0000,0000,,{\an8}Mám se vydat na jih?!
+Dialogue: 0,0:04:43.32,0:04:44.43,Attack2,Sign,0000,0000,0000,,Princezna Soyo utíká pryč!
+Dialogue: 0,0:04:45.13,0:04:46.51,Main,Gin,0000,0000,0000,,Ona má něco se sluchem?!
+Dialogue: 0,0:04:46.51,0:04:48.51,Main,Gin,0000,0000,0000,,Bere nohy na ramena spolu s ukradenou taškou!
+Dialogue: 0,0:04:48.51,0:04:50.22,Main,Gin,0000,0000,0000,,A ani nemíří na jih!
+Dialogue: 0,0:04:50.22,0:04:52.52,Main,W,0000,0000,0000,,Eeh! Zloděj!
+Dialogue: 0,0:04:52.52,0:04:53.73,Arrest,Sign,0000,0000,0000,,Policie
+Dialogue: 0,0:04:55.66,0:04:57.44,Main,C,0000,0000,0000,,Ty tam! Ani se nehni!
+Dialogue: 0,0:04:57.44,0:04:58.06,Main,Gin,0000,0000,0000,,Do hajzlu!
+Dialogue: 0,0:04:58.06,0:04:59.98,Main,Gin,0000,0000,0000,,Fízlové se ukázali v nejhorší možnou chvíli!
+Dialogue: 0,0:04:59.98,0:05:02.11,Main,Gin,0000,0000,0000,,Dělej, Kaguro! Běž jim osvětlit situaci!
+Dialogue: 0,0:05:02.11,0:05:05.70,Main,Kag,0000,0000,0000,,Počkejte! To je princezna Soyo! \NKdyž jí ublížíte, čeká vás smrt!
+Dialogue: 0,0:05:06.00,0:05:07.88,Main,So,0000,0000,0000,,Vášnivá smrt?!
+Dialogue: 0,0:05:07.88,0:05:08.91,Attack3,Sign,0000,0000,0000,,Princezna Soyo zahájila Vášnivou smrt!
+Dialogue: 0,0:05:10.09,0:05:12.37,Main,Shin,0000,0000,0000,,Říkej jenom to nezbytný, Kaguro-chan!
+Dialogue: 0,0:05:12.67,0:05:14.05,Main,C,0000,0000,0000,,Z-Za co to bylo?
+Dialogue: 0,0:05:14.05,0:05:15.22,Main,C,0000,0000,0000,,Zatkňetě ji!
+Dialogue: 0,0:05:15.22,0:05:18.33,Main,Kag,0000,0000,0000,,Přestaňte! Když ublížíte princezně, určitě vás čeká smrt!
+Dialogue: 0,0:05:18.67,0:05:19.94,Main,So,0000,0000,0000,,Ultra vášnivá smrt!
+Dialogue: 0,0:05:19.94,0:05:20.79,Attack3,Sign,0000,0000,0000,,Princezna Soyo zahájia Ultra vášnivou smrt!
+Dialogue: 0,0:05:21.56,0:05:23.67,Main,Gin,0000,0000,0000,,To je upgrade jejího útoku?!
+Dialogue: 0,0:05:23.67,0:05:25.85,Main,Shin,0000,0000,0000,,Dokonce i z veličenstva si vyvodila vášeň?!
+Dialogue: 0,0:05:25.85,0:05:28.06,Main,Shin,0000,0000,0000,,Všechno, co začíná na v,\Npro ní znamená vášeň?!
+Dialogue: 0,0:05:28.06,0:05:30.79,Main,Gin,0000,0000,0000,,Zastavte někdo to její šílenství!
+Dialogue: 0,0:05:30.79,0:05:32.20,Main,So,0000,0000,0000,,Vášnivé smrtící šílenství!
+Dialogue: 0,0:05:32.20,0:05:33.10,Attack4,Sign,0000,0000,0000,,Princezna Soyo zahájila Vášnivé smrtící šílenství!
+Dialogue: 0,0:05:34.09,0:05:35.85,Main,Gin,0000,0000,0000,,Vášnive používá zbraně!
+Dialogue: 0,0:05:36.20,0:05:38.06,Main,Gin,0000,0000,0000,,Ta vášeň ji totálě pohltila!
+Dialogue: 0,0:05:38.06,0:05:41.23,Main,Gin,0000,0000,0000,,Možná, že když teď řekneme "vášeň",\Nuslyší to jako "veličenstvo"!
+Dialogue: 0,0:05:41.23,0:05:44.99,Attack3,Sign,0000,0000,0000,,Kagura zahájila Vášnivou smrt!
+Dialogue: 0,0:05:41.67,0:05:43.42,Main,Kag,0000,0000,0000,,Vášnivá smrt!
+Dialogue: 0,0:05:43.42,0:05:45.45,Main,Gin,0000,0000,0000,,{\an8}To nebylo na tebe!
+Dialogue: 0,0:05:45.45,0:05:49.25,Main,Gin,0000,0000,0000,,Měli bysme ty rozvášněný kozy zastavit,\Naby se z toho nevyvrbilo něco moc zlýho.
+Dialogue: 0,0:05:49.25,0:05:52.24,Main,Kag,0000,0000,0000,,Vášeň! Vášeň! Vášeň!
+Dialogue: 0,0:05:52.48,0:05:54.20,Main,C,0000,0000,0000,,Tuhle zvládnu!
+Dialogue: 0,0:05:54.20,0:05:55.18,Main,C,0000,0000,0000,,Seber ji a běž!
+Dialogue: 0,0:05:55.18,0:05:56.60,Main,Kag,0000,0000,0000,,Vášeň!
+Dialogue: 0,0:05:58.79,0:05:59.91,Main,Kag,0000,0000,0000,,Soyo-chan!
+Dialogue: 0,0:06:01.41,0:06:03.89,Main,Kag,0000,0000,0000,,Kam to odvádíte Soyo-chan?
+Dialogue: 0,0:06:03.89,0:06:05.57,Main,Kag,0000,0000,0000,,Všechno to chápete špatně.
+Dialogue: 0,0:06:05.57,0:06:06.20,Main,Kag,0000,0000,0000,,Ona—
+Dialogue: 0,0:06:06.20,0:06:09.90,Main,C,0000,0000,0000,,Je to princezna Soyo, shogunova malá sestra,\Nnemám pravdu?
+Dialogue: 0,0:06:11.07,0:06:13.72,Main,C,0000,0000,0000,,{\i1}Ty{\i0} to chápeš špatně.
+Dialogue: 0,0:06:14.22,0:06:16.62,Main,C,0000,0000,0000,,Nejsme policajti.
+Dialogue: 0,0:06:17.41,0:06:20.47,Faction,Sign,0000,0000,0000,,{\fad(400,1)}Frakce Sněhová bouře
+Dialogue: 0,0:06:17.57,0:06:20.47,Main,C,0000,0000,0000,,Jsme frace Joi rebelů - Sněhová bouře!
+Dialogue: 0,0:06:20.95,0:06:25.86,Main,C,0000,0000,0000,,Dostala se k nám zpráva, že se\Npricezna toulá inkognito mimo zámek.
+Dialogue: 0,0:06:25.86,0:06:29.82,Main,C,0000,0000,0000,,Slyšel jsem, že má shogun svou\Nmalou ségru opravdu rád.
+Dialogue: 0,0:06:30.64,0:06:36.64,Main,C,0000,0000,0000,,Když jí použijeme jako prostředek vyjednávání,\Nshogun nás určitě začne trochu více poslouchat.
+Dialogue: 0,0:06:36.64,0:06:39.23,Main,C,0000,0000,0000,,Samozřejmě uvidíme podle jeho přístupu,
+Dialogue: 0,0:06:39.23,0:06:41.75,Main,C,0000,0000,0000,,můžeme použít její oční bulvy, uši, prsty—
+Dialogue: 0,0:06:42.68,0:06:44.92,Main,All,0000,0000,0000,,Princezno!
+Dialogue: 0,0:06:42.68,0:06:44.94,Main,All,0000,0000,0000,,Soyo-chan!
+Dialogue: 0,0:06:45.13,0:06:46.43,Main,Shin,0000,0000,0000,,Je to zlý, Gin-sane!
+Dialogue: 0,0:06:46.43,0:06:47.86,Main,Shin,0000,0000,0000,,Jestli se něco stane princezně...
+Dialogue: 0,0:06:47.86,0:06:50.55,Main,Shin,0000,0000,0000,,Ne, už teď je jistý, že všichni přijdeme o hlavu!
+Dialogue: 0,0:06:50.83,0:06:51.77,Main,Gin,0000,0000,0000,,Uklidni se!
+Dialogue: 0,0:06:52.35,0:06:54.60,Main,Gin,0000,0000,0000,,Všechno se dá nějak zachránit.
+Dialogue: 0,0:06:55.18,0:06:56.90,Main,Gin,0000,0000,0000,,Jsou to Joi rebelové
+Dialogue: 0,0:06:56.90,0:07:00.58,Main,Gin,0000,0000,0000,,a jestli je zlikvidujem dřív,\Nnež začnou vyjednávat,
+Dialogue: 0,0:07:00.58,0:07:02.45,Main,Gin,0000,0000,0000,,nikdo se o tomhle nemusí dozvědět.
+Dialogue: 0,0:07:02.45,0:07:04.48,Main,Shin,0000,0000,0000,,A ty myslíš, že tohle dokážeme?
+Dialogue: 0,0:07:04.48,0:07:09.32,Main,Kag,0000,0000,0000,,I kdyby to vyšlo, tahle vzpomínka bude\NSoyo-chan strašit až do smrti!
+Dialogue: 0,0:07:09.32,0:07:11.74,Main,Kag,0000,0000,0000,,Přestane chodit do města!
+Dialogue: 0,0:07:13.17,0:07:15.45,Main,T,0000,0000,0000,,Hej, víte, že jste na silnici?!
+Dialogue: 0,0:07:16.52,0:07:20.10,Main,Gin,0000,0000,0000,,Ne, určitě na to bude ráda vzpomínat.
+Dialogue: 0,0:07:21.21,0:07:21.96,Main,C,0000,0000,0000,,Šlápni na to!
+Dialogue: 0,0:07:22.44,0:07:25.84,Main,C,0000,0000,0000,,Musíme začít vyjednávat,\Nještě než nás vyčmuchaj vládní psi!
+Dialogue: 0,0:07:26.58,0:07:27.62,Main,So,0000,0000,0000,,Um...
+Dialogue: 0,0:07:28.85,0:07:31.19,Main,So,0000,0000,0000,,Už je pěkně daleko, že?
+Dialogue: 0,0:07:31.83,0:07:32.72,Main,So,0000,0000,0000,,Ten meloun...
+Dialogue: 0,0:07:35.16,0:07:35.85,Main,Gin,0000,0000,0000,,Ale vůbec ne.
+Dialogue: 0,0:07:36.34,0:07:39.99,Main,Gin,0000,0000,0000,,Jestli si přejete meloun, tak jich přímo\Npřed sebou máte hned několik!
+Dialogue: 0,0:07:42.36,0:07:43.77,Main,C,0000,0000,0000,,Nic nevidím!
+Dialogue: 0,0:07:48.82,0:07:49.42,Main,C,0000,0000,0000,,Jdeme!
+Dialogue: 0,0:07:49.42,0:07:51.40,Main,C,0000,0000,0000,,Honem, vemte princeznu!
+Dialogue: 0,0:07:54.36,0:07:56.66,Main,Shin,0000,0000,0000,,Strike!
+Dialogue: 0,0:08:00.39,0:08:02.80,Main,C,0000,0000,0000,,V-Vy hajzlové...
+Dialogue: 0,0:08:02.80,0:08:04.29,Main,C,0000,0000,0000,,A dost!
+Dialogue: 0,0:08:04.57,0:08:07.61,Main,C,0000,0000,0000,,Když se nám budete dál plíst do cesty,\Nprincezna za to zaplatí životem!
+Dialogue: 0,0:08:11.14,0:08:13.41,Main,C,0000,0000,0000,,C-Co je na tom k smíchu?
+Dialogue: 0,0:08:13.41,0:08:16.43,Main,So,0000,0000,0000,,No, cítím se jak v opravdovém dramatu!
+Dialogue: 0,0:08:16.43,0:08:18.32,Main,C,0000,0000,0000,,Dramatu?!
+Dialogue: 0,0:08:18.32,0:08:20.22,Main,Gin,0000,0000,0000,,Božínku, moc se vám omlouvám.
+Dialogue: 0,0:08:21.35,0:08:24.56,Main,Gin,0000,0000,0000,,Zvrhlo se to v levný drama.
+Dialogue: 0,0:08:25.15,0:08:28.25,Main,So,0000,0000,0000,,Ale to vůbec ne. Vážně jsem se bavila!
+Dialogue: 0,0:08:28.25,0:08:32.30,Main,So,0000,0000,0000,,Nemyslíš, že teď už bude ten meloun dostatečně sladký?
+Dialogue: 0,0:08:32.30,0:08:33.57,Main,Gin,0000,0000,0000,,Nejspíš.
+Dialogue: 0,0:08:33.81,0:08:36.01,Main,Gin,0000,0000,0000,,Můžeme ho vyzkoušet. Není nad to jíst dobrej meloun,
+Dialogue: 0,0:08:36.01,0:08:36.94,Main,Gin,0000,0000,0000,,vaše veličenstvo.
+Dialogue: 0,0:08:39.27,0:08:41.07,Main,So,0000,0000,0000,,Nad... meloun?
+Dialogue: 0,0:08:43.10,0:08:47.35,Main,So,0000,0000,0000,,Vášeň!
+Dialogue: 0,0:08:55.36,0:08:56.30,Main,So,0000,0000,0000,,Zvládla jsem to!
+Dialogue: 0,0:08:56.92,0:08:58.13,Main,Shin,0000,0000,0000,,Trefa do černého!
+Dialogue: 0,0:09:01.37,0:09:04.17,Main,Shin,0000,0000,0000,,Já zírám! Kde se tu vzalo tolik lidí?
+Dialogue: 0,0:09:04.17,0:09:06.21,Main,Gin,0000,0000,0000,,S tím si hlavu nelamte.
+Dialogue: 0,0:09:06.21,0:09:10.82,Main,Gin,0000,0000,0000,,Najal jsem je, aby nám pomohli vytvořit \Ndrama a vy jste si pak mohla užít meloun.
+Dialogue: 0,0:09:11.22,0:09:13.56,Main,So,0000,0000,0000,,Cože? Zašel jsi až tak daleko?
+Dialogue: 0,0:09:14.47,0:09:18.17,Main,So,0000,0000,0000,,Moc vám děkuji, vedlejší postavy.
+Dialogue: 0,0:09:18.81,0:09:20.84,Main,So,0000,0000,0000,,Mám úžasnou vzpomínku.
+Dialogue: 0,0:09:21.49,0:09:22.91,Main,C,0000,0000,0000,,Nemáte zač.
+Dialogue: 0,0:09:23.82,0:09:25.40,Main,So,0000,0000,0000,,Teď, když jsme tu všichni,
+Dialogue: 0,0:09:25.40,0:09:27.53,Main,So,0000,0000,0000,,si společně dejme meloun.
+Dialogue: 0,0:09:27.98,0:09:30.57,Main,So,0000,0000,0000,,Po tom obrovském dramatu
+Dialogue: 0,0:09:30.57,0:09:32.92,Main,So,0000,0000,0000,,musí chutnat delikátně.
+Dialogue: 0,0:09:34.44,0:09:36.06,Main,So,0000,0000,0000,,Tak naráz...!
+Dialogue: 0,0:09:36.06,0:09:38.45,Main,All,0000,0000,0000,,Dobrou chuť!
+Dialogue: 0,0:09:46.42,0:09:49.37,Main,So,0000,0000,0000,,Asi byly příliš dlouho na slunci.
+Dialogue: 0,0:09:49.37,0:09:50.91,Main,Gin,0000,0000,0000,,Vypadá to tak.
+Dialogue: 0,0:09:57.96,0:09:59.74,Main,Gin,0000,0000,0000,,Melouny jsou asi lepší studený
+Dialogue: 0,0:10:00.21,0:10:02.42,Main,Gin,0000,0000,0000,,než vášnivě nažhavený.
+Dialogue: 0,0:10:05.21,0:10:07.05,Main,Shin,0000,0000,0000,,Léto už je skoro za náma.
+Dialogue: 0,0:10:08.01,0:10:09.59,Main,Shin,0000,0000,0000,,Sice už nějakou dobu pracuješ,
+Dialogue: 0,0:10:09.59,0:10:13.15,Main,Shin,0000,0000,0000,,ale konec letních prázdnin v tobě i tak\Nvzbuzuje smutnou náladu, viď?
+Dialogue: 0,0:10:13.15,0:10:16.47,Main,Gin,0000,0000,0000,,Myslíš tím takový to "Ani tohle\Nléto jsem si nezaš**al "?
+Dialogue: 0,0:10:16.47,0:10:19.13,Main,Shin,0000,0000,0000,,Nechutný poznámky si laskavě nech pro sebe.
+Dialogue: 0,0:10:19.69,0:10:22.87,Main,Gin,0000,0000,0000,,Ty snad máš nějaký dobrý vzpomínky na léto?
+Dialogue: 0,0:10:23.33,0:10:24.33,Main,Gin,0000,0000,0000,,Vidíš?
+Dialogue: 0,0:10:24.33,0:10:26.36,Main,Gin,0000,0000,0000,,Většina lidí předpokládá,
+Dialogue: 0,0:10:26.36,0:10:29.30,Main,Gin,0000,0000,0000,,že přes prázdniny zažijou\Nněco fakt pikantního,
+Dialogue: 0,0:10:29.30,0:10:31.48,Main,Gin,0000,0000,0000,,ale na konci léta zjistěj,\Nže se stejně nic nestalo.
+Dialogue: 0,0:10:31.48,0:10:35.78,Main,Gin,0000,0000,0000,,A když se takový nudný léto rok co rok opakuje,\Nnespolečenský trosky se naučej, co znamená realita,
+Dialogue: 0,0:10:35.78,0:10:37.75,Main,Gin,0000,0000,0000,,a konečně dospějou.
+Dialogue: 0,0:10:37.75,0:10:39.57,Main,Shin,0000,0000,0000,,A co třeba naděje a sny?!
+Dialogue: 0,0:10:39.87,0:10:41.46,Main,Shin,0000,0000,0000,,Určitě někdy přijde!
+Dialogue: 0,0:10:41.46,0:10:45.11,Main,Shin,0000,0000,0000,,Fascinující léto, který nás ponoří do světa dospělejch!
+Dialogue: 0,0:10:45.11,0:10:46.29,Main,Shin,0000,0000,0000,,Já naději neztrácím!
+Dialogue: 0,0:10:46.63,0:10:50.07,Main,Shin,0000,0000,0000,,V další scéně se tu třeba objeví nějaká sexy klientka,
+Dialogue: 0,0:10:50.07,0:10:53.06,Main,Shin,0000,0000,0000,,a v poslední sekundě zachrání naše chabý léto—
+Dialogue: 0,0:10:56.65,0:10:57.51,Main,Shin,0000,0000,0000,,Ty parchante!
+Dialogue: 0,0:10:57.51,0:10:59.17,Main,Shin,0000,0000,0000,,Nesnaž se mě předběhnout!
+Dialogue: 0,0:10:59.17,0:11:01.13,Main,Shin,0000,0000,0000,,Vůbec se neřídíš věcma, co říkáš!
+Dialogue: 0,0:11:01.13,0:11:02.12,Main,Gin,0000,0000,0000,,Zavři hubu!
+Dialogue: 0,0:11:02.12,0:11:04.69,Main,Gin,0000,0000,0000,,Děcka jako ty by si měly jít dodělat úkoly, \Nco dostaly na prázdniny!
+Dialogue: 0,0:11:04.69,0:11:07.61,Main,Gin,0000,0000,0000,,Na mě tam čeká důležitej anatomickej výzkum!
+Dialogue: 0,0:11:07.61,0:11:10.46,Main,Sei,0000,0000,0000,,Vždycky všechno zvládnete do poslední chvíle zachránit.
+Dialogue: 0,0:11:11.16,0:11:13.94,Main,Sei,0000,0000,0000,,Když spojíme síly a pustíme se do úkolů společně,
+Dialogue: 0,0:11:13.94,0:11:15.90,Main,Sei,0000,0000,0000,,ještě máme naději to nějak zvládnout, ne?
+Dialogue: 0,0:11:17.53,0:11:22.53,Odd,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:11:18.66,0:11:19.69,Main,Kag,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:11:19.69,0:11:22.07,Main,Kag,0000,0000,0000,,Léto ještě neskončilo.
+Dialogue: 0,0:11:22.53,0:11:27.04,Ep Title,Title,0000,0000,0000,,{\fad(485,1)}Prázdniny o ničem - 2015
+Dialogue: 0,0:11:27.67,0:11:30.19,Main,Sei,0000,0000,0000,,Přesně o tomhle je konec letních prázdnin.
+Dialogue: 0,0:11:30.19,0:11:32.26,Main,Sei,0000,0000,0000,,Dokončování všech nahromaděných úkolů!
+Dialogue: 0,0:11:32.26,0:11:35.17,Main,Sei,0000,0000,0000,,Přesně tohle se vždycky dělá na konci prázdnin, žejo, Shin-nii?
+Dialogue: 0,0:11:35.70,0:11:37.85,Main,Shin,0000,0000,0000,,Kéž by už bylo léto za náma.
+Dialogue: 0,0:11:37.85,0:11:40.28,Main,Sei,0000,0000,0000,,Nemusíš to říkat takhle!
+Dialogue: 0,0:11:40.28,0:11:43.55,Main,Kag,0000,0000,0000,,Seito, ty ses toho ani nedotknul.
+Dialogue: 0,0:11:44.20,0:11:46.84,Main,Sei,0000,0000,0000,,Kdyby na to přišla máma nebo Tsukuyo-nee,
+Dialogue: 0,0:11:46.84,0:11:49.18,Main,Sei,0000,0000,0000,,stálo by mě to roční kapesný!
+Dialogue: 0,0:11:49.41,0:11:52.06,Main,Gin,0000,0000,0000,,Tady stejně o svoje roční kapesný přijdeš.
+Dialogue: 0,0:11:52.06,0:11:53.56,Main,Shin,0000,0000,0000,,Ty po něm chceš, aby nám zaplatil?!
+Dialogue: 0,0:11:53.97,0:11:55.11,Main,Gin,0000,0000,0000,,Tohle si pamatuj:
+Dialogue: 0,0:11:55.11,0:11:57.11,Main,Gin,0000,0000,0000,,zadarmo ani kuře nehrabe.
+Dialogue: 0,0:11:57.11,0:11:59.86,Main,Gin,0000,0000,0000,,Teď, když už to víš, jsi o něco málo vyrosrtl.
+Dialogue: 0,0:11:59.86,0:12:01.28,Main,Shin,0000,0000,0000,,A proč nevyrosteš {\i1}ty{\i0}?!
+Dialogue: 0,0:12:02.09,0:12:03.77,Main,Sei,0000,0000,0000,,No jo, fajn.
+Dialogue: 0,0:12:03.77,0:12:05.95,Main,Sei,0000,0000,0000,,Pořád lepší, než aby po mně máma s Tsukuyo-nee začaly štěkat.
+Dialogue: 0,0:12:06.66,0:12:08.60,Main,Sei,0000,0000,0000,,Shin-nii, ty si vezmi japonštinu a občanku.
+Dialogue: 0,0:12:08.60,0:12:11.25,Main,Sei,0000,0000,0000,,Kaguro-chan, ty prosím udělej přírodní vědy a matiku.
+Dialogue: 0,0:12:11.62,0:12:15.96,Diary,Sign,0000,0000,0000,,Obrázkový deník
+Dialogue: 0,0:12:11.62,0:12:15.96,Seita,Sign,0000,0000,0000,,Seita
+Dialogue: 0,0:12:11.87,0:12:14.41,Main,Sei,0000,0000,0000,,Tady tohle je ale vážně problém, Gin-sane.
+Dialogue: 0,0:12:14.95,0:12:15.96,Main,Gin,0000,0000,0000,,Obrázkový deník?
+Dialogue: 0,0:12:15.96,0:12:18.42,Main,Sei,0000,0000,0000,,Měl jsem do něj každý den něco nakreslit,
+Dialogue: 0,0:12:18.42,0:12:20.58,Main,Sei,0000,0000,0000,,ale po prvním dni jsem na to absolutně zapomněl.
+Dialogue: 0,0:12:22.24,0:12:27.18,Diary Entry,Sign,0000,0000,0000,,26. červenec \NDnes dávají v televizi Laputu, \Ntak jsem se na to podíval a šel do postele.
+Dialogue: 0,0:12:23.01,0:12:27.18,Default,,0,0,0,,
+Dialogue: 0,0:12:23.01,0:12:26.13,Internal,Sei,0000,0000,0000,,Dnes dávají v televizi Zámek v oblacíh,
+Dialogue: 0,0:12:26.13,0:12:27.18,Internal,Sei,0000,0000,0000,,tak jsem se podíval a šel spát.
+Dialogue: 0,0:12:27.40,0:12:30.12,Main,Sei,0000,0000,0000,,Nic víc si nepamatuju.
+Dialogue: 0,0:12:31.09,0:12:32.56,Main,Gin,0000,0000,0000,,Co to povídáš?
+Dialogue: 0,0:12:32.56,0:12:34.48,Main,Gin,0000,0000,0000,,Tohle je ta nejlehčí část.
+Dialogue: 0,0:12:34.48,0:12:36.24,Main,Sei,0000,0000,0000,,V-Vážně?
+Dialogue: 0,0:12:36.24,0:12:38.52,Main,Gin,0000,0000,0000,,Pokud jsi tohle dělal první den,
+Dialogue: 0,0:12:38.52,0:12:40.79,Main,Gin,0000,0000,0000,,tejden potom nejspíš vypadal nějak takhle.
+Dialogue: 0,0:12:41.55,0:12:45.13,Diary Entry,Sign,0000,0000,0000,,27. červenec \NDnes jsem celý den sledoval mraky.
+Dialogue: 0,0:12:42.45,0:12:44.95,Internal,Sei,0000,0000,0000,,Dnes jsem celý den sledoval mraky.
+Dialogue: 0,0:12:46.80,0:12:50.38,Diary Entry,Sign,0000,0000,0000,,28. červenec\NDnes jsem také celý den sledoval mraky.
+Dialogue: 0,0:12:47.98,0:12:50.38,Internal,Sign,0000,0000,0000,,Dnes jsem také celý den sledoval mraky.
+Dialogue: 0,0:12:50.38,0:12:52.29,Main,Sei,0000,0000,0000,,To rozrušení z filmu trvá moc dlouho!
+Dialogue: 0,0:12:52.29,0:12:53.87,Main,Gin,0000,0000,0000,,Je to přirozený.
+Dialogue: 0,0:12:53.87,0:12:56.09,Main,Gin,0000,0000,0000,,Když první prázdninovej den\Nsleduješ Zámek v oblacích,
+Dialogue: 0,0:12:56.09,0:12:57.67,Main,Gin,0000,0000,0000,,bude chvíli trvat, než se z toho vzpamatuješ.
+Dialogue: 0,0:12:58.09,0:13:01.32,Main,Gin,0000,0000,0000,,Nakonec celej týden strávíš hledáním dračího doupěte.
+Dialogue: 0,0:12:58.86,0:13:03.47,Diary Entry,Sign,0000,0000,0000,,29. červenec\NOpravdu není jednoduché najít dračí doupě. \N\N30. červenec \NNevzdám to. Vím, že je Laputa někde poblíž.
+Dialogue: 0,0:13:01.32,0:13:03.47,Main,Sei,0000,0000,0000,,No, možná, ale...
+Dialogue: 0,0:13:03.79,0:13:05.34,Main,Kag,0000,0000,0000,,Ber to vážně, Gin-chane!
+Dialogue: 0,0:13:05.34,0:13:09.78,Diary Entry,Sign,0000,0000,0000,,Přiklad) \NV autobuse jelo 20 lidí. Na zastávce \N 7 vystoupilo a 3 nastoupili. Na další  \Nzastávce 11 vystoupilo a 4 nastoupili\NKolik lidí jede v autobuse?
+Dialogue: 0,0:13:05.67,0:13:08.54,Main,Kag,0000,0000,0000,,Jestli bude jeho smýšlení jiný v\Nmatice a jiný v obrázkovým deníku,
+Dialogue: 0,0:13:08.54,0:13:09.59,Main,Kag,0000,0000,0000,,učitelka to prohlídne.
+Dialogue: 0,0:13:09.89,0:13:15.48,Answer,Sign,0000,0000,0000,,Odpověď: Ty lidi vypadají jako mravenci.
+Dialogue: 0,0:13:10.47,0:13:12.93,Main,Sei,0000,0000,0000,,Je tím ovlivněná i matika!
+Dialogue: 0,0:13:12.93,0:13:15.48,Main,Sei,0000,0000,0000,,Díváš se z Laputy dolů na autobus!
+Dialogue: 0,0:13:15.73,0:13:18.45,Main,Sei,0000,0000,0000,,Nemusíte to všechno dělat v duchu filmu!
+Dialogue: 0,0:13:19.56,0:13:23.53,Japanese,Sign,0000,0000,0000,,Napište, jak se čtou následující znaky: \N\NNebe (Laputa) \N\NDívka (Sheeta) \N\NPíle (Moje oči!! Moje oči!!) \N\NMajestátní (Moje oči!! Moje oči!!)
+Dialogue: 0,0:13:20.89,0:13:23.53,Main,Sei,0000,0000,0000,,Nesnaž se vyhýbat důležitým věcem tím,\Nže před tím zavřeš oči!
+Dialogue: 0,0:13:23.53,0:13:26.01,Main,Sei,0000,0000,0000,,Jak moc máte sakra rádi Zámek v oblacích?!
+Dialogue: 0,0:13:26.01,0:13:28.62,Main,Sei,0000,0000,0000,,Takhle učitelka okamžitě pozná, že jsem podváděl!
+Dialogue: 0,0:13:28.62,0:13:32.79,Main,Sei,0000,0000,0000,,Musím tam dopsat i nějaký typický letní aktivity.
+Dialogue: 0,0:13:33.32,0:13:34.37,Main,Sei,0000,0000,0000,,Oh, už vím.
+Dialogue: 0,0:13:34.72,0:13:36.14,Main,Sei,0000,0000,0000,,1. srpna...
+Dialogue: 0,0:13:36.14,0:13:39.08,Main,Sei,0000,0000,0000,,Myslím, že jsem šel s Izumi-chan a ostatními chytat nosorožíky.
+Dialogue: 0,0:13:39.08,0:13:42.34,Main,Sei,0000,0000,0000,,Izumi-chan sice vypadá ladně a křehce, \Nale dokáže třeba vyšplhat na strom a podobně.
+Dialogue: 0,0:13:42.34,0:13:44.55,Main,Sei,0000,0000,0000,,Byla vážně úžasná.
+Dialogue: 0,0:13:44.55,0:13:47.78,Diary Entry,Sign,0000,0000,0000,,1. srpna\NIzumi-chan... byla úžasná
+Dialogue: 0,0:13:45.22,0:13:46.62,Main,Gin,0000,0000,0000,,Chápu.
+Dialogue: 0,0:13:46.62,0:13:47.59,Main,Gin,0000,0000,0000,,Takže takhle?
+Dialogue: 0,0:13:48.42,0:13:50.28,Main,Sei,0000,0000,0000,,Ne, takhle ne!
+Dialogue: 0,0:13:50.28,0:13:52.12,Main,Sei,0000,0000,0000,,Tohle je podle tebe ta "úžasná" část?!
+Dialogue: 0,0:13:52.12,0:13:54.97,Main,Sei,0000,0000,0000,,Teď to vypadá, jako že jsem jí očumoval pod sukní!
+Dialogue: 0,0:13:54.97,0:13:57.26,Main,Sei,0000,0000,0000,,A proč se ten styl kreslení najednou tak zlepšil?!
+Dialogue: 0,0:13:57.26,0:13:58.61,Main,Gin,0000,0000,0000,,Počkej, co?
+Dialogue: 0,0:13:58.61,0:14:00.50,Main,Gin,0000,0000,0000,,Říkal jsi přece, že byla Izumi-chan úžasná, ne?
+Dialogue: 0,0:14:00.19,0:14:04.80,Diary Entry,Sign,0000,0000,0000,,1. srpen\NIzumi-chan... byla úžasná \NMůj brouk byl také... úžasný
+Dialogue: 0,0:14:00.50,0:14:01.73,Main,Sei,0000,0000,0000,,Zapomeň na to!
+Dialogue: 0,0:14:01.73,0:14:04.23,Main,Sei,0000,0000,0000,,Prostě tam napiš, že ten nosorožík,\Nkterého jsem chytil, byl super.
+Dialogue: 0,0:14:05.38,0:14:08.07,Main,Sei,0000,0000,0000,,Ten roh vypadá jako něco úplně jinýho!
+Dialogue: 0,0:14:08.66,0:14:12.20,Main,Gin,0000,0000,0000,,V tom případě by se následující tejden\Nteoreticky vyvíjel nějak takhle.
+Dialogue: 0,0:14:11.85,0:14:13.43,Diary Entry,Sign,0000,0000,0000,,2. srpen\NDneska jsem se svým rohem sledoval celý \Nden na bílé  ̶k̶a̶l̶h̶o̶t̶k̶y̶ mraky.
+Dialogue: 0,0:14:14.07,0:14:15.35,Main,Sei,0000,0000,0000,,Nevytahuj to!
+Dialogue: 0,0:14:15.35,0:14:17.35,Main,Sei,0000,0000,0000,,Nevytahuj tu věc s kalhotkama!
+Dialogue: 0,0:14:15.72,0:14:18.08,Diary Entry,Sign,0000,0000,0000,,3. srpen\NDneska jsem se se svým rohem znovu díval celý \Nden na bílé kalhotky.
+Dialogue: 0,0:14:17.35,0:14:18.08,Main,Gin,0000,0000,0000,,Je to přirozený.
+Dialogue: 0,0:14:18.08,0:14:19.86,Main,Gin,0000,0000,0000,,Když se školákovi naskytne pohled na kalhotky,
+Dialogue: 0,0:14:19.19,0:14:23.15,Diary Entry,Sign,0000,0000,0000,,4. srpen \NKalhotky Kalhotky Kalhotky Kalhotky Kalhotky Kalhotky\NKalhotky Kalhotky Kalhotky Kalhotky Kalhotky Kalhotky
+Dialogue: 0,0:14:19.86,0:14:21.54,Main,Gin,0000,0000,0000,,pronásleduje ho to celej další tejden.
+Dialogue: 0,0:14:21.54,0:14:24.50,Main,Sei,0000,0000,0000,,Hodláš to připomínat celej tejden?!
+Dialogue: 0,0:14:23.15,0:14:25.80,Diary Entry,Sign,0000,0000,0000,,5. srpen \NKalhotky Kalhotky Kalhotky Kalhotky Kalhotky Kalhotky\NKalhotky Kalhotky Kalhotky Kalhotky Kalhotky Kalhotky
+Dialogue: 0,0:14:24.50,0:14:25.80,Main,Sei,0000,0000,0000,,Nejsem tak přecitlivělej!
+Dialogue: 0,0:14:25.80,0:14:28.83,Main,Gin,0000,0000,0000,,Ale přece se musíme s tím deníkem hnout co nejvíc dopředu.
+Dialogue: 0,0:14:28.83,0:14:29.85,Main,Sei,0000,0000,0000,,Nikam se to nehejbe!
+Dialogue: 0,0:14:29.85,0:14:31.24,Main,Sei,0000,0000,0000,,A kdyby, tak jen dozadu!
+Dialogue: 0,0:14:31.24,0:14:33.25,Main,Sei,0000,0000,0000,,A hlavně jsem nikdy žádný kalhotky neviděl!
+Dialogue: 0,0:14:33.25,0:14:35.22,Main,Kag,0000,0000,0000,,Seito, neboj.
+Dialogue: 0,0:14:35.22,0:14:37.65,Q,Sign,0000,0000,0000,,Příklad) Nakreslete, jak budou vypadat tyto larvy ve stádiu dospělosti.
+Dialogue: 0,0:14:35.59,0:14:37.65,Main,Kag,0000,0000,0000,,Jak nám říkají přírodní vědy,
+Dialogue: 0,0:14:38.36,0:14:40.01,Main,Kag,0000,0000,0000,,takhle to funguje v přírodě.
+Dialogue: 0,0:14:40.01,0:14:41.44,Main,Kag,0000,0000,0000,,Tohle znamená být dospělý.
+Dialogue: 0,0:14:41.44,0:14:43.47,Main,Sei,0000,0000,0000,,Proč se ze všech staly rohy?!
+Dialogue: 0,0:14:43.47,0:14:45.15,Main,Sei,0000,0000,0000,,Co je tohle za dospělost?!
+Dialogue: 0,0:14:45.65,0:14:49.28,Main,Shin,0000,0000,0000,,Seito-kun, ty si fakt myslíš, že dospěješ\Njen proto, žes zahlíd kalhotky?
+Dialogue: 0,0:14:49.28,0:14:51.18,Q2,Sign,0000,0000,0000,,Příklad) Pojmenujte následující sochu: \N _____ de Milo
+Dialogue: 0,0:14:49.86,0:14:52.02,Main,Shin,0000,0000,0000,,Podle mě je před tebou ještě dlouhá cesta.
+Dialogue: 0,0:14:52.18,0:14:58.87,Answer2,Sign,0000,0000,0000,,Moje oči!! Moje oči!!!
+Dialogue: 0,0:14:52.96,0:14:54.51,Main,Sei,0000,0000,0000,,Pořád přede vším zavíráš oči?
+Dialogue: 0,0:14:54.51,0:14:56.60,Main,Sei,0000,0000,0000,,Někdo, kdo odvrací oči od tak slabý zvrhlosti,
+Dialogue: 0,0:14:56.60,0:14:58.87,Main,Sei,0000,0000,0000,,je ten poslední, kdo může\Npoučovat o dospělosti!
+Dialogue: 0,0:14:59.33,0:15:00.74,Main,Gin,0000,0000,0000,,Měl by sis na něco vzpomenout,
+Dialogue: 0,0:15:00.74,0:15:02.79,Main,Gin,0000,0000,0000,,jinak budou celý tvoje prázdniny jen o kalhotkách.
+Dialogue: 0,0:15:02.79,0:15:03.54,Main,Sei,0000,0000,0000,,Moment...
+Dialogue: 0,0:15:03.54,0:15:04.92,Main,Sei,0000,0000,0000,,Vzpomínám si na něco ze 4. srpna!
+Dialogue: 0,0:15:05.78,0:15:07.38,Main,Sei,0000,0000,0000,,Ten den...
+Dialogue: 0,0:15:08.52,0:15:09.46,Main,Sei,0000,0000,0000,,Už vím!
+Dialogue: 0,0:15:09.46,0:15:12.51,Main,Sei,0000,0000,0000,,Ten den jsme se šli s mámou a\NTsukuyo-nee podívat na ohňostroj.
+Dialogue: 0,0:15:13.57,0:15:17.05,Main,Sei,0000,0000,0000,,Obě strávily celou věčnost v podzemí,
+Dialogue: 0,0:15:17.05,0:15:20.02,Main,Sei,0000,0000,0000,,takže jsem jim chtěl ukázat, jak krásně může ohňostroj ozdobit nebe.
+Dialogue: 0,0:15:21.10,0:15:25.49,Main,Sei,0000,0000,0000,,Jenomže ten den se objevil tajfun a ohňostroj se zrušil.
+Dialogue: 0,0:15:26.98,0:15:28.56,Main,Sei,0000,0000,0000,,Moc mě to mrzelo, ale potom...
+Dialogue: 0,0:15:30.03,0:15:33.16,Main,Sei,0000,0000,0000,,Tsukuyo-nee došla koupit prskavky.
+Dialogue: 0,0:15:36.08,0:15:37.01,Main,Sei,0000,0000,0000,,A nakonec
+Dialogue: 0,0:15:37.01,0:15:40.28,Main,Sei,0000,0000,0000,,jsme si pod mostem udělali malý ohňostroj jen pro nás tři,
+Dialogue: 0,0:15:40.28,0:15:41.80,Main,Sei,0000,0000,0000,,ale byla to zábava.
+Dialogue: 0,0:15:43.20,0:15:45.42,Main,Shin,0000,0000,0000,,Tak přece máš v rukávu nějaké\Nhezké příběhy, Seito-kun.
+Dialogue: 0,0:15:46.02,0:15:47.81,Main,Gin,0000,0000,0000,,Je to celkem dlouhý.
+Dialogue: 0,0:15:47.81,0:15:50.64,Main,Gin,0000,0000,0000,,Zkrátka přišla bouřka, když jste se dívali na nebe, ne?
+Dialogue: 0,0:15:50.64,0:15:52.93,Main,Gin,0000,0000,0000,,Měli bysme to trochu zestručnit.
+Dialogue: 0,0:15:52.65,0:15:56.43,Diary Entry,Sign,0000,0000,0000,,4. srpen\NTa bouřka... je dračí doupě! \NLaputa je blízko!
+Dialogue: 0,0:15:54.27,0:15:56.43,Main,Sei,0000,0000,0000,,Už jsem řekl, ať dáš s tou Laputou pokoj!
+Dialogue: 0,0:15:56.80,0:16:00.01,Main,Sei,0000,0000,0000,,Důležitý je, že jsme si společně užili ohňostroj.
+Dialogue: 0,0:16:00.01,0:16:01.18,Main,Sei,0000,0000,0000,,Mělo by to být nějak takhle!
+Dialogue: 0,0:16:01.89,0:16:04.55,Internal,Sei,0000,0000,0000,,Ohňostroj byl zrušen,
+Dialogue: 0,0:16:04.55,0:16:07.07,Internal,Sei,0000,0000,0000,,tak jsme si místo toho s mámou\Na Tsukuyo-nee zapálili prskavky.
+Dialogue: 0,0:16:07.07,0:16:08.36,Internal,Sei,0000,0000,0000,,Byla to legrace.
+Dialogue: 0,0:16:10.49,0:16:12.34,Main,Sei,0000,0000,0000,,Hm? Je něco špatně?
+Dialogue: 0,0:16:12.34,0:16:13.36,Main,Sei,0000,0000,0000,,Je to dobrý, ne?
+Dialogue: 0,0:16:14.07,0:16:17.59,Main,Shin,0000,0000,0000,,Je to tak zkrácený, že to\Npostrádá celej hlavní příběh.
+Dialogue: 0,0:16:17.59,0:16:23.12,Main,Shin,0000,0000,0000,,Vůbec jsi tam nezmínil, žes jim chtěl ukázat,\Njak vypadá ohňostroj na nebi.
+Dialogue: 0,0:16:23.73,0:16:26.93,Main,Kag,0000,0000,0000,,Nejlepší část je přece ta, že vám nevyšel ohňostroj,
+Dialogue: 0,0:16:26.93,0:16:31.43,Main,Kag,0000,0000,0000,,a tak jste si udělali společně\Nohňostroj ve svém srdci, ne?
+Dialogue: 0,0:16:31.43,0:16:32.50,Main,Kag,0000,0000,0000,,Ale hlavně,
+Dialogue: 0,0:16:32.50,0:16:36.05,Main,Kag,0000,0000,0000,,není tenhle příběh až moc výživnej na to, \Nabysme ho nacpali do jednoho dne?
+Dialogue: 0,0:16:36.86,0:16:38.92,Main,Kag,0000,0000,0000,,4. srpen...
+Dialogue: 0,0:16:39.33,0:16:42.08,Internal,Sei,0000,0000,0000,,Ohňostroj se kvůli tajfunu zrušil.
+Dialogue: 0,0:16:42.08,0:16:43.42,Internal,Sei,0000,0000,0000,,Byl jsem smutný.
+Dialogue: 0,0:16:43.42,0:16:44.70,Main,Kag,0000,0000,0000,,Tímhle to ukonči.
+Dialogue: 0,0:16:44.70,0:16:46.64,Main,Kag,0000,0000,0000,,Potom 5. srpen...
+Dialogue: 0,0:16:47.67,0:16:49.26,Internal,Sei,0000,0000,0000,,Pořád jsem byl smutný.
+Dialogue: 0,0:16:49.26,0:16:52.33,Internal,Sei,0000,0000,0000,,Opravdu jsem jim chtěl ukázat ohňostroj.
+Dialogue: 0,0:16:52.82,0:16:54.24,Main,Shin,0000,0000,0000,,Jasně, rozumím.
+Dialogue: 0,0:16:54.24,0:16:57.35,Main,Shin,0000,0000,0000,,Chceš vzpomínku z jednoho dne\Nroztahat mezi vícero dní, že?
+Dialogue: 0,0:16:59.21,0:17:00.73,Internal,Sei,0000,0000,0000,,6. srpen
+Dialogue: 0,0:17:00.73,0:17:04.31,Internal,Sei,0000,0000,0000,,Proč jsem jim chtěl ukázat ohňostroj?
+Dialogue: 0,0:17:04.31,0:17:07.06,Internal,Sei,0000,0000,0000,,To je na dlouho, takže si to nechám na zítra.
+Dialogue: 0,0:17:07.83,0:17:09.38,Main,Shin,0000,0000,0000,,Nějak moc to natahuješ, nezdá se ti?
+Dialogue: 0,0:17:10.41,0:17:11.76,Internal,Sei,0000,0000,0000,,7. srpen
+Dialogue: 0,0:17:11.76,0:17:12.69,Internal,Sei,0000,0000,0000,,Pro začátek—
+Dialogue: 0,0:17:13.11,0:17:15.42,Internal,Sei,0000,0000,0000,,Rozlil se mi sem inkoust, takže si to nechám na zítra.
+Dialogue: 0,0:17:15.42,0:17:16.34,Main,Shin,0000,0000,0000,,Um...
+Dialogue: 0,0:17:16.34,0:17:18.89,Main,Shin,0000,0000,0000,,Moc jsi ten příběh zředila, je to skoro jako voda!
+Dialogue: 0,0:17:18.89,0:17:19.45,Main,Shin,0000,0000,0000,,Už se dostaň k tématu.
+Dialogue: 0,0:17:20.11,0:17:21.37,Internal,Sei,0000,0000,0000,,8. srpen
+Dialogue: 0,0:17:21.84,0:17:23.74,Internal,Sei,0000,0000,0000,,Vlastně to není až tak zajímavé.
+Dialogue: 0,0:17:23.74,0:17:25.23,Internal,Sei,0000,0000,0000,,Vážně to chcete vědět?
+Dialogue: 0,0:17:25.23,0:17:26.51,Internal,Sei,0000,0000,0000,,Co bych měl dělat...
+Dialogue: 0,0:17:26.51,0:17:27.84,Main,Shin,0000,0000,0000,,Už toho nech!
+Dialogue: 0,0:17:27.84,0:17:29.56,Main,Shin,0000,0000,0000,,Ke komu vůbec mluvíš?
+Dialogue: 0,0:17:30.33,0:17:32.19,Internal,Sei,0000,0000,0000,,Chcete se to dozvědět? Otočte na 9. srpna.
+Dialogue: 0,0:17:32.50,0:17:34.47,Internal,Sei,0000,0000,0000,,Jestli ne, otočte na 10. srpna.
+Dialogue: 0,0:17:34.47,0:17:36.12,Main,Shin,0000,0000,0000,,Co dělá v deníku rozcestník?!
+Dialogue: 0,0:17:36.12,0:17:37.66,Main,Shin,0000,0000,0000,,Co je tohle za deník?!
+Dialogue: 0,0:17:39.60,0:17:40.87,Main,Sei,0000,0000,0000,,9. srpen
+Dialogue: 0,0:17:41.36,0:17:43.34,Internal,Sei,0000,0000,0000,,Pokud jste si zvolili 9. srpen,
+Dialogue: 0,0:17:43.34,0:17:46.11,Internal,Sei,0000,0000,0000,,musíte mít tendenci strkat nos do ciizích životů.
+Dialogue: 0,0:17:46.11,0:17:47.84,Internal,Sei,0000,0000,0000,,Sedlo by vám být detektivem.
+Dialogue: 0,0:17:47.84,0:17:51.21,Internal,Sei,0000,0000,0000,,Pokud budete více všímaví, \Nmožná si najdete nové přátele.
+Dialogue: 0,0:17:51.21,0:17:53.00,Internal,Sei,0000,0000,0000,,Šťastný předmět: Deník.
+Dialogue: 0,0:17:53.00,0:17:55.21,Main,Shin,0000,0000,0000,,Proč se z toho stala kniha horoskopů?!
+Dialogue: 0,0:17:55.21,0:17:57.84,Main,Shin,0000,0000,0000,,A co 10. srpen pro lidi, který to nezajímá?
+Dialogue: 0,0:17:59.00,0:18:00.22,Internal,Sei,0000,0000,0000,,10. srpen
+Dialogue: 0,0:18:00.22,0:18:02.48,Internal,Sei,0000,0000,0000,,Pokud vás nezajímají příběhy druhých,
+Dialogue: 0,0:18:02.48,0:18:04.94,Internal,Sei,0000,0000,0000,,proč se nevydat na dobrodružství, hrdino?
+Dialogue: 0,0:18:05.43,0:18:08.34,Internal,Sei,0000,0000,0000,,Legendární zámek v oblacích, nebo legendární kalhotky?
+Dialogue: 0,0:18:08.34,0:18:09.59,Internal,Sei,0000,0000,0000,,Co z toho bude vaše kořist?
+Dialogue: 0,0:18:10.00,0:18:12.62,Internal,Sei,0000,0000,0000,,Jestli to bude legendární zámek v oblacích,\Npřetočte na 11. srpna.
+Dialogue: 0,0:18:12.62,0:18:14.70,Internal,Sei,0000,0000,0000,,Jestli kalhotky, přetočte na 12. srpna.
+Dialogue: 0,0:18:14.70,0:18:16.67,Main,Shin,0000,0000,0000,,Teď je z toho kniha dobrodružství!
+Dialogue: 0,0:18:16.67,0:18:26.68,Direction,Sign,0000,0000,0000,,Západ       Východ
+Dialogue: 0,0:18:17.87,0:18:19.65,Internal,Sei,0000,0000,0000,,11. srpen
+Dialogue: 0,0:18:19.65,0:18:22.91,Internal,Sei,0000,0000,0000,,Pravé dobrodružství začíná.
+Dialogue: 0,0:18:22.91,0:18:25.19,Internal,Sei,0000,0000,0000,,Cesta se větví na východní a západní trasu.
+Dialogue: 0,0:18:25.19,0:18:26.28,Internal,Sei,0000,0000,0000,,Kterou si vyberete?
+Dialogue: 0,0:18:26.68,0:18:29.23,Internal,Sei,0000,0000,0000,,Pokud východní, přečtěte si One Piece.
+Dialogue: 0,0:18:29.23,0:18:31.24,Internal,Sei,0000,0000,0000,,Jesti západní, přečtěte si Naruta.
+Dialogue: 0,0:18:31.24,0:18:33.55,Main,Shin,0000,0000,0000,,Nenechávejte to všechno na ostatních mangách!
+Dialogue: 0,0:18:33.80,0:18:34.98,Main,Sei,0000,0000,0000,,Co to je?
+Dialogue: 0,0:18:34.98,0:18:36.55,Main,Sei,0000,0000,0000,,Od deníčku to má daleko!
+Dialogue: 0,0:18:36.55,0:18:39.09,Main,Sei,0000,0000,0000,,A co se stalo s příběhem o ohňostroji?!
+Dialogue: 0,0:18:39.09,0:18:42.12,Main,Kag,0000,0000,0000,,Čtení One Piece a Naruta to všechno pěkně zakoknčí.
+Dialogue: 0,0:18:42.12,0:18:43.28,Main,Shin,0000,0000,0000,,To určitě!
+Dialogue: 0,0:18:43.28,0:18:46.14,Main,Shin,0000,0000,0000,,Kde na světě jsou takhle dlouhý prázdniny?
+Dialogue: 0,0:18:46.74,0:18:48.02,Main,Sei,0000,0000,0000,,Zapomeňte na to.
+Dialogue: 0,0:18:48.02,0:18:51.37,Main,Sei,0000,0000,0000,,Stejně jsem vám neřekl celý ten příběh.
+Dialogue: 0,0:18:51.37,0:18:53.11,Main,Shin,0000,0000,0000,,Co? Je toho víc?
+Dialogue: 0,0:18:54.07,0:18:57.90,Main,Sei,0000,0000,0000,,Slyšel jsem, že bude ohňostroj i na festivalu Bon Odori,
+Dialogue: 0,0:18:58.20,0:19:01.94,Main,Sei,0000,0000,0000,,tak jsem myslel, že ho tentokrát \Nmámě a Tsukuyo-nee určitě ukážu.
+Dialogue: 0,0:19:02.66,0:19:05.40,Main,Sei,0000,0000,0000,,Ale Izumi-chan a ostatní mě pozvali, ať jdu s nimi.
+Dialogue: 0,0:19:05.40,0:19:06.59,Main,Sei,0000,0000,0000,,Máma a Tsukuyo-nee
+Dialogue: 0,0:19:06.59,0:19:10.67,Main,Sei,0000,0000,0000,,to špatně pochopily a řekly, že mi nechtějí kazit rande.
+Dialogue: 0,0:19:10.67,0:19:13.83,Main,Sei,0000,0000,0000,,Nakonec jsme se pohádali,
+Dialogue: 0,0:19:14.25,0:19:16.10,Main,Sei,0000,0000,0000,,takže jsem si ke známému došel pro radu.
+Dialogue: 0,0:19:16.92,0:19:20.97,Diary Entry,Sei,0000,0000,0000,,13. srpen\N"Vrať se s půlročním kapesným. \NPak si o tom možná promluvíme." Řekl a poslal mě pryč.
+Dialogue: 0,0:19:17.85,0:19:19.37,Internal,Sei,0000,0000,0000,,13. srpen
+Dialogue: 0,0:19:19.81,0:19:22.32,Internal,Sei,0000,0000,0000,,"Vrať se s půlročním kapesným.
+Dialogue: 0,0:19:22.32,0:19:24.09,Internal,Sei,0000,0000,0000,,Pak si o tom možná promluvíme."
+Dialogue: 0,0:19:24.09,0:19:25.85,Internal,Sei,0000,0000,0000,,Řekl a poslal mě pryč.
+Dialogue: 0,0:19:26.84,0:19:29.44,Main,Kag,0000,0000,0000,,Co to je za kudrnatou příšeru?
+Dialogue: 0,0:19:29.44,0:19:32.31,Main,Shin,0000,0000,0000,,Kdo by kdy vymáhal peníze po dítěti?
+Dialogue: 0,0:19:32.31,0:19:37.90,Diary Entry,Sei,0000,0000,0000,,14. srpen\NKdyž jsem mu přinesl své kapesné, řekl :"Skvělý načasování. \NVyměn ty peníze za žetony a pak  \Nmi je sem dones." a s těmito slovy mě poslal pryč.
+Dialogue: 0,0:19:33.30,0:19:34.68,Internal,Sei,0000,0000,0000,,14. srpen
+Dialogue: 0,0:19:35.09,0:19:36.81,Internal,Sei,0000,0000,0000,,Když jsem mu přinesl své kapesné, řekl:
+Dialogue: 0,0:19:36.81,0:19:38.33,Internal,Sei,0000,0000,0000,,"Skvělý načasování.
+Dialogue: 0,0:19:38.33,0:19:40.85,Internal,Sei,0000,0000,0000,,Vyměn ty peníze za žetony a pak  \Nmi je sem dones."
+Dialogue: 0,0:19:40.85,0:19:42.74,Internal,Sei,0000,0000,0000,, a s těmito slovy mě poslal pryč.
+Dialogue: 0,0:19:42.74,0:19:45.61,Main,Kag,0000,0000,0000,,To je příšernej člověk! Hraje pachiko!
+Dialogue: 0,0:19:45.61,0:19:47.75,Main,Shin,0000,0000,0000,,Vymáhá z dětí peníze a strká je do automatů?
+Dialogue: 0,0:19:47.75,0:19:48.83,Main,Shin,0000,0000,0000,,Taková troska.
+Dialogue: 0,0:19:48.83,0:19:58.46,Diary Entry,Sei,0000,0000,0000,,15. srpen\N"Dej už pokoj. Mám je na ten festival vytáhnout místo tebe, že? Ale i ty potřebuješ peníze na svoje rande, ne? Nech to na mně. Jen mi běž koupit nějaký sázecí lístky."
+Dialogue: 0,0:19:49.59,0:19:51.33,Internal,Sei,0000,0000,0000,,15. srpen
+Dialogue: 0,0:19:51.33,0:19:55.45,Internal,Gin,0000,0000,0000,,"Dej už pokoj. Mám je na ten\Nfestival vytáhnout místo tebe, že?
+Dialogue: 0,0:19:55.45,0:19:57.90,Internal,Gin,0000,0000,0000,,Ale i ty potřebuješ peníze na svoje rande, ne?
+Dialogue: 0,0:19:57.90,0:19:58.84,Internal,Gin,0000,0000,0000,,Nech to na mně.
+Dialogue: 0,0:19:58.84,0:20:00.68,Internal,Gin,0000,0000,0000,,Jen mi běž koupit nějaký sázecí lístky."
+Dialogue: 0,0:20:00.68,0:20:02.79,Main,Kag,0000,0000,0000,,Hej! Teď si pro změnu sází na dostizích!
+Dialogue: 0,0:20:02.79,0:20:04.89,Main,Kag,0000,0000,0000,,Jak smutnej má život?!
+Dialogue: 0,0:20:04.89,0:20:07.56,Main,Shin,0000,0000,0000,,Neudělala ti ta troska nic, Seito-kun?!
+Dialogue: 0,0:20:08.26,0:20:12.48,Diary Entry,Sei,0000,0000,0000,,16. srpen\N"Je to už zítra? No jo furt... \NTo teď stranou, slyšel jsi někdy o ruský ruletě?"
+Dialogue: 0,0:20:08.92,0:20:10.82,Internal,Sei,0000,0000,0000,,16. srpen
+Dialogue: 0,0:20:10.82,0:20:12.86,Internal,Sei,0000,0000,0000,,"Je to už zítra? No jo furt...
+Dialogue: 0,0:20:12.86,0:20:15.61,Internal,Sei,0000,0000,0000,,To teď stranou, slyšel jsi někdy o ruský ruletě?""
+Dialogue: 0,0:20:15.61,0:20:18.59,Main,Kag,0000,0000,0000,,Dokonce ho dokopal i k ruský ruletě!
+Dialogue: 0,0:20:18.59,0:20:20.93,Main,Kag,0000,0000,0000,,Jak nízko ten člověk ještě klesne?!
+Dialogue: 0,0:20:20.93,0:20:21.61,Main,Shin,0000,0000,0000,,Jsi v pořádku?!
+Dialogue: 0,0:20:21.61,0:20:23.11,Main,Shin,0000,0000,0000,,Vážně je všechno v pořádku, Seito-kun?!
+Dialogue: 0,0:20:23.11,0:20:27.91,Diary Entry,Sei,0000,0000,0000,,17. až 25. srpen\NDnes... celý den jsem pozoroval mraky.
+Dialogue: 0,0:20:23.89,0:20:26.59,Internal,Sei,0000,0000,0000,,17. až 25. srpen
+Dialogue: 0,0:20:26.59,0:20:27.79,Internal,Sei,0000,0000,0000,,Dnes...
+Dialogue: 0,0:20:29.70,0:20:30.83,Internal,Sei,0000,0000,0000,,celý den jsem pozoroval mraky.
+Dialogue: 0,0:20:30.83,0:20:31.89,Main,Shin,0000,0000,0000,,Úplně ho vysál!
+Dialogue: 0,0:20:31.89,0:20:34.00,Main,Shin,0000,0000,0000,,Vzal mu celej tejden!
+Dialogue: 0,0:20:34.53,0:20:38.98,Main,Sei,0000,0000,0000,,Nakonec festival Bon Odori stihl skončit, \Nzatímco jsme my hledali Zámek v oblacích.
+Dialogue: 0,0:20:39.69,0:20:41.63,Main,Sei,0000,0000,0000,,A nakonec byly moje prázdniny
+Dialogue: 0,0:20:42.44,0:20:45.01,Main,Sei,0000,0000,0000,,prázdné a o ničem.
+Dialogue: 0,0:20:45.82,0:20:48.18,Main,Shin,0000,0000,0000,,To není pravda, Seito-kun.
+Dialogue: 0,0:20:48.68,0:20:50.97,Main,Shin,0000,0000,0000,,Prázdniny ješte neskončily.
+Dialogue: 0,0:20:51.81,0:20:53.52,Main,Shin,0000,0000,0000,,Konec konců
+Dialogue: 0,0:20:54.36,0:20:57.30,Main,Shin,0000,0000,0000,,tvůj deníček ještě nemá vyplněnou dnešní stránku.
+Dialogue: 0,0:20:58.24,0:21:02.19,Main,Sei,0000,0000,0000,,A-Ale dneska jsem dělal jenom úkoly...
+Dialogue: 0,0:21:02.19,0:21:04.06,Main,Kag,0000,0000,0000,,Je to jen na tobě.
+Dialogue: 0,0:21:05.33,0:21:07.38,Main,Sei,0000,0000,0000,,26. srpen
+Dialogue: 0,0:21:05.33,0:21:11.43,Diary Entry,Sei,0000,0000,0000,,26. srpen\NDneska je poslední den prázdnin. Co jen budu dělat?
+Dialogue: 0,0:21:07.38,0:21:09.52,Main,Sei,0000,0000,0000,,Dneska je poslední den prázdnin.
+Dialogue: 0,0:21:09.52,0:21:11.06,Main,Sei,0000,0000,0000,,Co jen budu dělat?
+Dialogue: 0,0:21:12.18,0:21:18.42,Diary Entry,Sei,0000,0000,0000,,Jestli ho chcete strávit děláním úkolu, přetočte na 27.srpen. \NJestli chcete zapálit ohňostroj, přetočte na další stranu.
+Dialogue: 0,0:21:12.26,0:21:15.64,Main,Sei,0000,0000,0000,,Jestli ho chcete strávit děláním úkolu, přetočte na 27.srpen.
+Dialogue: 0,0:21:16.33,0:21:18.42,Main,Sei,0000,0000,0000,,Jestli chcete zapálit ohňostroj...
+Dialogue: 0,0:21:19.29,0:21:22.51,Main,Kag,0000,0000,0000,,Co si vybereš, Seito?
+Dialogue: 0,0:21:24.38,0:21:27.23,Main,Sei,0000,0000,0000,,Ale kde teď seženeme ohňostroj?
+Dialogue: 0,0:21:27.23,0:21:30.26,Main,Kag,0000,0000,0000,,Pospěš si a dojdi pro Tsukki a mámu.
+Dialogue: 0,0:21:32.07,0:21:33.75,Main,Shin,0000,0000,0000,,Nemůsíš se bát.
+Dialogue: 0,0:21:34.69,0:21:36.87,Main,Kag,0000,0000,0000,,Ohňostroj máme přímo tady.
+Dialogue: 0,0:21:39.56,0:21:41.33,Main,Kag,0000,0000,0000,,Nemám pravdu, kudrnko?
+Dialogue: 0,0:21:41.85,0:21:44.26,Main,Shin,0000,0000,0000,,Chtěl ses podívat na zámek v oblacích, viď?
+Dialogue: 0,0:21:46.32,0:21:47.94,Main,Gin,0000,0000,0000,,P-Počkejte chvilku!
+Dialogue: 0,0:21:47.94,0:21:48.99,Main,Gin,0000,0000,0000,,Vy jste na to přišli?
+Dialogue: 0,0:21:48.99,0:21:49.58,Main,Gin,0000,0000,0000,,Vy jste—
+Dialogue: 0,0:21:50.01,0:21:52.28,Main,Both,0000,0000,0000,,Tamaya!
+Dialogue: 0,0:21:55.01,0:21:56.79,Internal,Sei,0000,0000,0000,,26. srpen
+Dialogue: 0,0:21:57.24,0:22:00.09,Internal,Sei,0000,0000,0000,,Dnes jsme se všemi pozorovali ohňostroj.
+Dialogue: 0,0:22:01.34,0:22:04.49,Internal,Sei,0000,0000,0000,,Byl to sice chabý ohňostroj, ale byla to legrace!
+Dialogue: 0,0:22:10.41,0:22:14.89,Diary,Sign,0000,0000,0000,,Obrázkový deník
+Dialogue: 0,0:22:10.41,0:22:14.89,Seita,Sign,0000,0000,0000,,Seita
+Dialogue: 0,0:23:44.94,0:23:47.40,Preview,Sign,0000,0000,0000,,V příštím díle uvidíte
+Dialogue: 0,0:23:47.40,0:23:49.86,Ep Title,Title,0000,0000,0000,,{\fad(443,1)}Já Jsem Majonéza a On Je Cukr
+Dialogue: 0,0:23:49.86,0:23:55.78,Side Bar Top,text r,0000,0000,0000,,He? Počkat, co?
+Dialogue: 0,0:23:49.86,0:23:55.78,Side Bar Bottom,text l,0000,0000,0000,,Nehoda na silnici? To fakt?
+Dialogue: 0,0:23:55.78,0:24:00.75,Side Bar Top,text r,0000,0000,0000,,Je to pěkně nebezpečné.
+Dialogue: 0,0:23:55.78,0:24:00.75,Side Bar Bottom,text l,0000,0000,0000,,Měli bychom si dávat pozor.

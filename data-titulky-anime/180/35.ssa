@@ -1,0 +1,519 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: Nadesico - epizoda 11 (Kdy se ocitnete v "tuctové zápletce)
+Original Script: DVD
+Original Translation: Marek Ètrnáct
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 1024
+PlayResY: 768
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Dialog_Gray,Arial,48,12632256,65535,16777215,-2147483640,-1,0,1,3,4,2,30,30,30,0,238
+Style: Dialog_UP_Gray,Arial,48,12632256,65535,16777215,-2147483640,-1,0,1,3,4,6,30,30,30,0,238
+Style: Dialog_UP_White,Arial,48,16777215,16777215,16777215,-2147483640,-1,0,1,3,4,6,30,30,30,0,238
+Style: Dialog_UP_Yellow,Arial,48,65535,65535,65535,-2147483640,-1,0,1,3,4,6,30,30,30,0,238
+Style: Dialog_White,Arial,48,16777215,8454143,12632256,-2147483640,-1,0,1,3,4,2,30,30,30,0,238
+Style: Dialog_Yellow,Arial,48,65535,65535,65535,-2147483640,-1,0,1,3,4,2,30,30,30,0,238
+Style: Italic_Gray,Arial,48,12632256,12632256,12632256,-2147483640,-1,-1,1,3,4,2,30,30,30,0,238
+Style: Italic_UP_Gray,Arial,48,12632256,16777215,65535,-2147483640,-1,-1,1,3,4,6,30,30,30,0,238
+Style: Italic_UP_White,Arial,48,16777215,65535,12632256,-2147483640,-1,-1,1,3,4,6,30,30,30,0,238
+Style: Italic_UP_Yellow,Arial,48,65535,16777215,12632256,-2147483640,-1,-1,1,3,4,6,30,30,30,0,238
+Style: Italic_White,Arial,48,16777215,65535,12632256,-2147483640,-1,-1,1,3,4,2,30,30,30,0,238
+Style: Italic_Yellow,Arial,48,65535,16777215,12632256,-2147483640,-1,-1,1,3,4,2,30,30,30,0,238
+Style: Signs,Arial,60,16777215,16777215,16777215,-2147483640,-1,0,1,4,0,6,30,30,30,0,238
+Style: Signs_Black,Arial,60,0,0,0,16777215,-1,0,1,3,0,6,30,30,30,0,238
+Style: Signs_NoLine,Arial,48,16777215,16777215,16777215,-2147483640,-1,0,1,1,0,2,30,30,30,0,238
+Style: Signs_on_Black,Arial,60,16777215,16777215,16777215,0,-1,0,3,3,0,6,30,30,30,0,238
+Style: Signs_on_White,Arial,60,0,0,0,16777215,-1,0,3,3,0,6,30,30,30,0,238
+Style: Signs_on_Blue,Arial,60,16777215,65535,12632256,12615808,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_DBlue,Arial,60,16777215,65535,12632256,10485760,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Green,Arial,60,16777215,65535,12632256,8421376,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Magenta,Arial,60,16777215,65535,12632256,16711935,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Orange,Arial,60,16777215,65535,12632256,6730751,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Orche,Arial,60,16777215,65535,12632256,43176,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Pink,Arial,60,16777215,65535,12632256,8421631,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Pink2,Arial,56,0,65535,12632256,16744703,-1,0,3,3,0,6,30,30,30,0,238
+Style: Signs_on_Red,Arial,60,16777215,65535,12632256,255,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_DRed,Arial,48,16777215,65535,12632256,179,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Yellow,Arial,60,0,12632256,16777215,65535,-1,0,3,3,0,6,30,30,30,0,238
+Style: Signs_on_Gray,Arial,60,16777215,65535,0,12632256,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_Magenta,Arial,60,16777215,65535,12632256,16711935,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_OL_Blue,Arial,60,16777215,65535,12632256,16711680,-1,0,1,3,0,2,30,30,30,0,238
+Style: Signs_OL_Red,Arial,60,16777215,65535,0,255,-1,0,1,3,0,2,30,30,30,0,238
+Style: Signs_on_Violet,Arial,60,16777215,65535,12632256,8388672,-1,0,3,3,0,2,30,30,30,0,238
+Style: Signs_on_LtGreen,Arial,60,16777215,65535,12632256,6730675,-1,0,3,3,0,2,30,30,30,0,238
+Style: Title,Arial,90,16777215,16777215,16777215,-2147483640,-1,0,1,4,4,10,30,30,30,0,238
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:03.02,0:00:04.12,Dialog_Yellow,Dialog,0000,0000,0000,,Moøe!
+Dialogue: Marked=0,0:00:04.12,0:00:05.93,Dialog_Yellow,Dialog,0000,0000,0000,,Horkı ramen!
+Dialogue: Marked=0,0:00:05.93,0:00:08.80,Dialog_Yellow,Dialog,0000,0000,0000,,Blbi jsme a bavili se,\Nale nakonec...
+Dialogue: Marked=0,0:00:08.80,0:00:14.10,Dialog_Yellow,Dialog,0000,0000,0000,,...jsme skonèili s nìjakou \Npitomou operací,\Nco si vymyslela armáda.
+Dialogue: Marked=0,0:00:14.10,0:00:16.80,Dialog_Yellow,Dialog,0000,0000,0000,,Všichni z toho mají\Nbıt vystresovaní, ale...
+Dialogue: Marked=0,0:00:16.80,0:00:19.64,Dialog_Yellow,Dialog,0000,0000,0000,,...já nevím - buï jsou všichni tak\Nodolní nebo to prostì nechápou.
+Dialogue: Marked=0,0:01:52.00,0:01:54.33,Dialog_Yellow,Dialog,0000,0000,0000,,Prùmyslová oblast Kursk...
+Dialogue: Marked=0,0:01:54.33,0:01:58.04,Dialog_Yellow,Dialog,0000,0000,0000,,Dlouho pøedtím, ne\Njsme se narodili, to byl\Nprosperující vojenskı komplex...
+Dialogue: Marked=0,0:01:58.04,0:02:02.00,Dialog_Yellow,Dialog,0000,0000,0000,,...kterı se specializoval na vıvoj\Npozemních zbraòovıch systémù.
+Dialogue: Marked=0,0:02:06.41,0:02:10.85,Dialog_Yellow,Dialog,0000,0000,0000,,Nyní Kursk obsadili\NJovianští ještìøi.
+Dialogue: Marked=0,0:02:10.85,0:02:12.49,Dialog_Yellow,Dialog,0000,0000,0000,,A jako by to nestaèilo...
+Dialogue: Marked=0,0:02:12.49,0:02:14.99,Dialog_Yellow,Dialog,0000,0000,0000,,...ti parchanti vyvinuli\Nnovou zbraòovou platformu...
+Dialogue: Marked=0,0:02:14.99,0:02:17.62,Dialog_Yellow,Dialog,0000,0000,0000,,...se kterou jsme se\Nještì nikde nesetkali!
+Dialogue: Marked=0,0:02:17.62,0:02:21.42,Dialog_Yellow,Dialog,0000,0000,0000,,Take naše mise bude\Nznièit tuhle novou\Nnepøátelskou zbraò, e?
+Dialogue: Marked=0,0:02:25.31,0:02:30.71,Title,Title,0000,0000,0120,,{\a6}Kdy se ocitnete\Nv "tuctové zápletce"
+Dialogue: Marked=0,0:02:22.23,0:02:23.23,Dialog_Yellow,Dialog,0000,0000,0000,,Pøesnì tak.
+Dialogue: Marked=0,0:02:23.23,0:02:25.80,Dialog_Yellow,Dialog,0000,0000,0000,,Velitelství této operaci pøidìlilo\Nkódové oznaèení "Špacírka".
+Dialogue: Marked=0,0:02:25.80,0:02:28.90,Dialog_Yellow,Dialog,0000,0000,0000,,U tøikrát jsme tam poslali\Nzvláštní demolièní tımy...
+Dialogue: Marked=0,0:02:28.90,0:02:30.80,Dialog_Yellow,Dialog,0000,0000,0000,,...ale zatím se nikdo nevrátil ivı.
+Dialogue: Marked=0,0:02:30.80,0:02:33.07,Dialog_Yellow,Dialog,0000,0000,0000,,To je dost neekonomické.
+Dialogue: Marked=0,0:02:33.07,0:02:35.14,Dialog_Yellow,Dialog,0000,0000,0000,,A tady pøichází\Nna scénu Nadesico!
+Dialogue: Marked=0,0:02:35.14,0:02:37.41,Dialog_Yellow,Dialog,0000,0000,0000,,Gravitaèní kanón se o to postará!
+Dialogue: Marked=0,0:02:37.41,0:02:40.01,Dialog_Yellow,Dialog,0000,0000,0000,,Chápu. Úder na dálku.
+Dialogue: Marked=0,0:02:40.01,0:02:41.28,Dialog_Yellow,Dialog,0000,0000,0000,,Pøesnì tak!
+Dialogue: Marked=0,0:02:41.28,0:02:42.88,Dialog_Yellow,Dialog,0000,0000,0000,,Pøedpokládám,\Ne tak to bude nejbezpeènìjší.
+Dialogue: Marked=0,0:02:42.88,0:02:45.69,Dialog_Yellow,Dialog,0000,0000,0000,,Z ekonomického hlediska\Nplnì souhlasím.
+Dialogue: Marked=0,0:02:45.69,0:02:49.09,Dialog_Yellow,Dialog,0000,0000,0000,,Takhle nebudou útoku\Nvystavené ani Aestivalisy.
+Dialogue: Marked=0,0:02:49.09,0:02:51.36,Dialog_Yellow,Dialog,0000,0000,0000,,Ale Megumi, nechoï\Nkolem horké kaše.
+Dialogue: Marked=0,0:02:51.36,0:02:53.59,Dialog_Yellow,Dialog,0000,0000,0000,,Chtìla jsi øíct:\N"Akitovi nebude nic hrozit."
+Dialogue: Marked=0,0:02:53.59,0:02:55.20,Dialog_Yellow,Dialog,0000,0000,0000,,Asi jo.
+Dialogue: Marked=0,0:02:55.20,0:02:57.40,Dialog_Yellow,Dialog,0000,0000,0000,,Propána! Nejsme my\Nnìjak pøímoèarı?
+Dialogue: Marked=0,0:02:57.40,0:02:59.77,Dialog_Yellow,Dialog,0000,0000,0000,,Ihned zahájíme operaci!
+Dialogue: Marked=0,0:02:59.78,0:03:01.89,Signs_Black,Signs,0175,0000,0070,,{\fs36\c&H0&\a1}Vítejte. Prosíme, pouijte zvonku.
+Dialogue: Marked=0,0:02:59.77,0:03:02.04,Italic_Yellow,Gekigangar,0000,0000,0010,,Kdybys byl jenom spolehlivìjší...
+Dialogue: Marked=0,0:03:02.04,0:03:04.16,Italic_Yellow,Gekigangar,0000,0000,0000,,...ta mechanická\Nobluda by neunikla!
+Dialogue: Marked=0,0:03:05.57,0:03:08.51,Italic_Yellow,Gekigangar,0000,0000,0000,,U mì unavuje poslouchat\Nto tvoje kòourání!
+Dialogue: Marked=0,0:03:09.58,0:03:11.34,Italic_Yellow,Gekigangar,0000,0000,0000,,Ty parchante!
+Dialogue: Marked=0,0:03:11.34,0:03:14.15,Italic_UP_White,Gekigangar,0000,0000,0000,,Neper se, Kene! Nech toho, Joe!
+Dialogue: Marked=0,0:03:14.15,0:03:16.75,Italic_UP_White,Gekigangar,0000,0000,0000,,Rvaèka nic nevyøeší!\NMusíte pøestat!
+Dialogue: Marked=0,0:03:15.32,0:03:16.75,Dialog_Yellow,Dialog,0000,0000,0000,,Kámoši?
+Dialogue: Marked=0,0:03:17.15,0:03:20.25,Dialog_Yellow,Dialog,0000,0000,0000,,Osm minut a tøicet sekund\Ndo zahájení operace.
+Dialogue: Marked=0,0:03:20.25,0:03:23.72,Dialog_Yellow,Dialog,0000,0000,0000,,Pøipojuji energetickı pøevod\Nke gravitaènímu kanónu.
+Dialogue: Marked=0,0:03:23.72,0:03:25.73,Dialog_Yellow,Dialog,0000,0000,0000,,Jakmile bude gravitaèní\Núder pøipraven...
+Dialogue: Marked=0,0:03:25.73,0:03:27.69,Dialog_Yellow,Dialog,0000,0000,0000,,...vylete zpoza hory a palte!
+Dialogue: Marked=0,0:03:27.69,0:03:29.50,Dialog_Yellow,Dialog,0000,0000,0000,,A a to opravdu zapùsobí!
+Dialogue: Marked=0,0:03:29.50,0:03:31.93,Dialog_Yellow,Dialog,0000,0000,0000,,17000 do udaného bodu operace.
+Dialogue: Marked=0,0:03:33.70,0:03:36.17,Italic_Yellow,Gekigangar,0000,0000,0000,,Tvùj úder zanechal stopu.
+Dialogue: Marked=0,0:03:36.17,0:03:38.36,Italic_Yellow,Gekigangar,0000,0000,0000,,Tvùj také!
+Dialogue: Marked=0,0:03:40.57,0:03:42.11,Italic_Yellow,Gekigangar,0000,0000,0000,,Vy jste se udobøili!
+Dialogue: Marked=0,0:03:42.11,0:03:46.41,Italic_UP_White,Gekigangar,0000,0000,0000,,Nejlepší zpùsob, jak se udobøit,\Nje potøást si rukama! Potøeste si!
+Dialogue: Marked=0,0:03:42.34,0:03:46.41,Dialog_Yellow,Dialog,0000,0000,0000,,Ale ve skuteèném ivotì\Nrvaèka málokdy skonèí takhle.
+Dialogue: Marked=0,0:03:46.41,0:03:49.05,Dialog_Yellow,Dialog,0000,0000,0000,,Pohon fázového pøechodu,\Nvšechny systémy v zelené.
+Dialogue: Marked=0,0:03:49.05,0:03:51.99,Dialog_Yellow,Dialog,0000,0000,0000,,Distorzní pole oslabeno\No tøináct procent.
+Dialogue: Marked=0,0:03:51.99,0:03:53.35,Dialog_Yellow,Dialog,0000,0000,0000,,Poslední bezpeènostní\Nmechanismus uvolnìn.
+Dialogue: Marked=0,0:03:53.35,0:03:55.91,Dialog_Yellow,Dialog,0000,0000,0000,,1500 do udaného bodu operace.
+Dialogue: Marked=0,0:03:59.23,0:04:01.63,Dialog_Yellow,Dialog,0000,0000,0000,,800 do udaného bodu operace.
+Dialogue: Marked=0,0:04:05.60,0:04:07.79,Dialog_Yellow,Dialog,0000,0000,0000,,Zachycuji nepøátelskou salvu.
+Dialogue: Marked=0,0:04:12.94,0:04:14.37,Dialog_Yellow,Dialog,0000,0000,0000,,Trefilo nás nìco?!
+Dialogue: Marked=0,0:04:16.74,0:04:18.78,Dialog_Yellow,Dialog,0000,0000,0000,,Pøišli jsme o distorzní pole!
+Dialogue: Marked=0,0:04:18.78,0:04:21.11,Dialog_Yellow,Dialog,0000,0000,0000,,Ten zásah poškodil\Nvíc ne osmnáct blokù.
+Dialogue: Marked=0,0:04:21.11,0:04:23.08,Dialog_Yellow,Dialog,0000,0000,0000,,Pohon fázového\Npøechodu vysadil!
+Dialogue: Marked=0,0:04:23.78,0:04:26.78,Dialog_UP_White,Dialog,0000,0000,0000,,Špacírka musí bıt\Nsingularitovı emitor.
+Dialogue: Marked=0,0:04:27.42,0:04:29.59,Dialog_Yellow,Dialog,0000,0000,0000,,Ztrácíme kontrolu! Zøítíme se!
+Dialogue: Marked=0,0:04:27.52,0:04:30.72,Dialog_UP_White,Dialog,0000,0000,0000,,Vytváøí neuvìøitelnì\Ndobøe ovládanou\Nmikroskopickou èernou díru...
+Dialogue: Marked=0,0:04:29.59,0:04:31.12,Dialog_Yellow,Dialog,0000,0000,0000,,Plnı vıkon\Ndo pomocnıch motorù.
+Dialogue: Marked=0,0:04:30.72,0:04:33.39,Dialog_UP_White,Dialog,0000,0000,0000,,...tu potom urychlí a vystøelí!
+Dialogue: Marked=0,0:04:31.59,0:04:34.36,Dialog_Yellow,Dialog,0000,0000,0000,,Dìkujem, ale máme tady\Nteï dùleitìjší problémy!
+Dialogue: Marked=0,0:04:42.90,0:04:47.04,Dialog_White,Dialog,0000,0000,0000,,Je to silná zbraò, ale vytvoøení\Ndalší mikrodíry nìjakı èas trvá.
+Dialogue: Marked=0,0:04:47.04,0:04:49.24,Dialog_White,Dialog,0000,0000,0000,,Take myslím, e jsme\Nna chvíli v bezpeèí.
+Dialogue: Marked=0,0:04:49.24,0:04:51.51,Dialog_Yellow,Dialog,0000,0000,0000,,Dìkuju za uklidnìní.
+Dialogue: Marked=0,0:04:51.51,0:04:53.81,Dialog_Yellow,Dialog,0000,0000,0000,,Ale co teï budeme dìlat?
+Dialogue: Marked=0,0:04:56.26,0:05:04.91,Signs_on_White,Signs,0000,0150,0160,,{\fs48\a7}Jezero Špacírka
+Dialogue: Marked=0,0:04:56.26,0:05:04.91,Signs_on_White,Signs,0270,0000,0230,,{\fs48\a5}Úèinnı\Ndostøel
+Dialogue: Marked=0,0:04:56.26,0:05:04.91,Signs_on_White,Signs,0750,0000,0365,,{\fs40\a5}Rovina
+Dialogue: Marked=0,0:04:56.26,0:05:04.91,Signs_on_White,Signs,0785,0000,0240,,{\fs36\a1}ND-001:\NNadesico
+Dialogue: Marked=0,0:04:56.26,0:05:04.91,Signs_on_White,Signs,0000,0010,0140,,{\fs56\a3}Pohoøí
+Dialogue: Marked=0,0:04:53.81,0:04:56.48,Dialog_Yellow,Dialog,0000,0000,0000,,Hádám, e na øadì\Njsou teï Aestivalisy.
+Dialogue: Marked=0,0:04:56.48,0:04:58.28,Dialog_Yellow,Dialog,0000,0000,0000,,Systém protivzdušné obrany...
+Dialogue: Marked=0,0:04:58.28,0:05:01.72,Dialog_Yellow,Dialog,0000,0000,0000,,Právì tohle zastavilo všechny\Npøedešlé pokusy o infiltraci.
+Dialogue: Marked=0,0:05:01.72,0:05:05.06,Dialog_Yellow,Dialog,0000,0000,0000,,I tady nás dokáou zasáhnout.
+Dialogue: Marked=0,0:05:05.06,0:05:07.93,Dialog_Yellow,Dialog,0000,0000,0000,,Prosím vás, pøíštì nás \No tak dùleitıch vìcech\Ninformujte døív!
+Dialogue: Marked=0,0:05:07.93,0:05:09.90,Dialog_Yellow,Dialog,0000,0000,0000,,Coe? Já jsem se\No tom ještì nezmínil?
+Dialogue: Marked=0,0:05:09.90,0:05:13.97,Dialog_Yellow,Dialog,0000,0000,0000,,V tom pøípadì na tom Aestivalisy\Nnebudou o moc líp, jestli poletí.
+Dialogue: Marked=0,0:05:13.97,0:05:17.47,Dialog_Yellow,Dialog,0000,0000,0000,,Z myšlenek na ekonomickou\Nneefektivitu mì bolí hlava.
+Dialogue: Marked=0,0:05:17.47,0:05:19.84,Dialog_Yellow,Dialog,0000,0000,0000,,Piloti by na tom byli\Nještì o dost hùø ne vy.
+Dialogue: Marked=0,0:05:19.84,0:05:20.97,Dialog_Yellow,Dialog,0000,0000,0000,,To rozhodnì.
+Dialogue: Marked=0,0:05:21.71,0:05:23.54,Dialog_Yellow,Dialog,0000,0000,0000,,Pøístup ze vzduchu je pasé.
+Dialogue: Marked=0,0:05:23.54,0:05:26.78,Dialog_UP_White,Dialog,0000,0000,0000,,K vytvoøení èerné\Nmikrodíry potøebuje\NŠpacírka dvanáct hodin.
+Dialogue: Marked=0,0:05:26.78,0:05:29.95,Dialog_UP_White,Dialog,0000,0000,0000,,Zasáhla nás v 17:00, take další\Nvıstøel pøijde v 5:00 zítra ráno.
+Dialogue: Marked=0,0:05:29.95,0:05:32.89,Dialog_Yellow,Dialog,0000,0000,0000,,Ano, dìkuju za tak cennej názor!
+Dialogue: Marked=0,0:05:30.05,0:05:32.89,Dialog_UP_White,Dialog,0000,0000,0000,,Nemáme moc èasu.\NMusíme vyslat tım,\Njinak budou problémy.
+Dialogue: Marked=0,0:05:32.89,0:05:35.09,Dialog_Yellow,Dialog,0000,0000,0000,,Ano ano. Rozumíme.\NDíky za všechno.
+Dialogue: Marked=0,0:05:33.19,0:05:35.09,Dialog_UP_White,Dialog,0000,0000,0000,,Take se asi budeme\Nmuset pøiblíit po zemi.
+Dialogue: Marked=0,0:05:35.62,0:05:37.12,Dialog_Yellow,Dialog,0000,0000,0000,,A proto...
+Dialogue: Marked=0,0:05:37.12,0:05:39.29,Dialog_Yellow,Dialog,0000,0000,0000,,...se po zemi pøiblíí\NAestivalisy a znièí Špacírku.
+Dialogue: Marked=0,0:05:39.29,0:05:41.16,Dialog_Yellow,Dialog,0000,0000,0000,,Operace bude\Nzahájena za hodinu.
+Dialogue: Marked=0,0:05:40.57,0:05:45.72,Signs,Signs,0150,0000,0260,,{\fs48\a1}Tého dne, 18:00\NBriefing pilotù
+Dialogue: Marked=0,0:05:41.16,0:05:45.60,Dialog_Yellow,Dialog,0000,0000,0000,,Budeme mít dva v konfiguraci\N04 a tøi v konfiguraci 01.
+Dialogue: Marked=0,0:05:46.13,0:05:47.70,Dialog_Yellow,Dialog,0000,0000,0000,,Akatsuki bude taktickı velitel!
+Dialogue: Marked=0,0:05:47.70,0:05:48.70,Dialog_White,Dialog,0000,0000,0000,,Ano, pane!
+Dialogue: Marked=0,0:05:48.50,0:05:50.10,Dialog_Yellow,Dialog,0000,0000,0000,,Budete to mít na povel.
+Dialogue: Marked=0,0:05:50.10,0:05:51.47,Dialog_White,Dialog,0000,0000,0000,,Udìlám, co bude\Nv mıch silách, lidièky!
+Dialogue: Marked=0,0:05:51.47,0:05:53.91,Dialog_Yellow,Dialog,0000,0000,0000,,Budete operovat dost\Ndaleko od Nadesica...
+Dialogue: Marked=0,0:05:53.91,0:05:55.54,Dialog_Yellow,Dialog,0000,0000,0000,,...take se nebudete moci dobíjet.
+Dialogue: Marked=0,0:05:55.54,0:05:56.51,Dialog_Yellow,Dialog,0000,0000,0000,,Proto si tedy...
+Dialogue: Marked=0,0:05:56.51,0:05:58.71,Dialog_Yellow,Dialog,0000,0000,0000,,...vezmete tuhle externí baterii!
+Dialogue: Marked=0,0:05:58.71,0:06:02.05,Dialog_Yellow,Dialog,0000,0000,0000,,Ke kadému Aestivalisu\Nnakonfigurovanému\Nna pozemní boj pøipnete jednu!
+Dialogue: Marked=0,0:06:02.05,0:06:03.35,Dialog_Yellow,Dialog,0000,0000,0000,,Jasné?!
+Dialogue: Marked=0,0:06:04.82,0:06:08.15,Dialog_Yellow,Dialog,0000,0000,0000,,Pane Akatsuki, opravdu doufám,\Ne v téhle misi uspìjeme.
+Dialogue: Marked=0,0:06:08.15,0:06:11.36,Dialog_White,Dialog,0000,0000,0000,,Kdy budeme spolupracovat,\Nurèitì to zvládneme!
+Dialogue: Marked=0,0:06:11.36,0:06:13.99,Dialog_Yellow,Dialog,0000,0000,0000,,Jo! To jsem trefila!
+Dialogue: Marked=0,0:06:11.56,0:06:14.16,Dialog_Gray,Dialog,0000,0000,0000,,No SAMOZØEJMÌ, e budem...
+Dialogue: Marked=0,0:06:13.99,0:06:17.30,Dialog_Yellow,Dialog,0000,0000,0000,,Díky Bohu, u mi\Ndocházely kredity.
+Dialogue: Marked=0,0:06:14.16,0:06:15.80,Dialog_White,Dialog,0000,0000,0000,,Dìkuji vám.
+Dialogue: Marked=0,0:06:15.80,0:06:20.37,Dialog_White,Dialog,0000,0000,0000,,Základem úspìšné operace\Nje schopnı velitel!
+Dialogue: Marked=0,0:06:17.30,0:06:21.23,Dialog_Yellow,Dialog,0000,0000,0000,,Chtìl bys taky dus, Akito?\NCo takhle Maranská soda?
+Dialogue: Marked=0,0:06:20.37,0:06:21.67,Dialog_Gray,Dialog,0000,0000,0000,,To ale nestaèí!
+Dialogue: Marked=0,0:06:22.24,0:06:23.54,Dialog_Yellow,Dialog,0000,0000,0000,,Máš pravdu!
+Dialogue: Marked=0,0:06:23.54,0:06:26.17,Dialog_Yellow,Dialog,0000,0000,0000,,Velitel válku nevybojuje.
+Dialogue: Marked=0,0:06:26.17,0:06:29.51,Dialog_Yellow,Dialog,0000,0000,0000,,Je dùleitá i peèlivá pøíprava,\Nnapøíklad poctivı trénink.
+Dialogue: Marked=0,0:06:29.51,0:06:32.44,Dialog_Yellow,Dialog,0000,0000,0000,,Ne, tohle jsem nemyslel.
+Dialogue: Marked=0,0:06:33.48,0:06:35.41,Dialog_Yellow,Dialog,0000,0000,0000,,Tady! Tvùj dus, Akito!
+Dialogue: Marked=0,0:06:39.22,0:06:40.81,Dialog_Yellow,Dialog,0000,0000,0000,,Je potøeba tımová práce.
+Dialogue: Marked=0,0:06:45.09,0:06:46.59,Dialog_Yellow,Dialog,0000,0000,0000,,Co je?
+Dialogue: Marked=0,0:06:46.59,0:06:48.62,Dialog_Yellow,Dialog,0000,0000,0000,,Øekl jsem nìco špatnì?
+Dialogue: Marked=0,0:06:49.13,0:06:53.87,Dialog_Yellow,Dialog,0000,0000,0000,,To by náš starı kámoš\NAkito mohl rovnou bıt\Nproviantním dùstojníkem!
+Dialogue: Marked=0,0:06:53.87,0:06:55.37,Dialog_Yellow,Dialog,0000,0000,0000,,Perfektní!
+Dialogue: Marked=0,0:06:55.37,0:06:58.14,Dialog_Yellow,Dialog,0000,0000,0000,,Pøece jen je to pravı èlen tımu.
+Dialogue: Marked=0,0:06:58.14,0:06:59.64,Dialog_Yellow,Dialog,0000,0000,0000,,Co mìlo tohle znamenat?
+Dialogue: Marked=0,0:06:59.64,0:07:01.64,Dialog_Yellow,Dialog,0000,0000,0000,,Pøesnì tohle.
+Dialogue: Marked=0,0:07:01.64,0:07:03.14,Dialog_White,Dialog,0000,0000,0000,,Seš pitomá.
+Dialogue: Marked=0,0:07:02.44,0:07:04.94,Dialog_Yellow,Dialog,0000,0000,0000,,Akito je proviantní dùstojník!
+Dialogue: Marked=0,0:07:04.94,0:07:06.88,Dialog_Yellow,Dialog,0000,0000,0000,,Všechno, všecièko\Nto na nìj nalote!
+Dialogue: Marked=0,0:07:06.88,0:07:08.04,Dialog_Yellow,Dialog,0000,0000,0000,,Jasan!
+Dialogue: Marked=0,0:07:09.22,0:07:12.15,Dialog_Yellow,Dialog,0000,0000,0000,,No, hádám, e tady sotva\Nbudeme mít nìjaké kámoše.
+Dialogue: Marked=0,0:07:12.69,0:07:14.59,Dialog_White,Dialog,0000,0000,0000,,Patnáct minut\Ndo zahájení operace.
+Dialogue: Marked=0,0:07:14.59,0:07:17.79,Dialog_White,Dialog,0000,0000,0000,,Všem pilotùm\Na mechanikùm: zahajte\Nprosím závìreènou kontrolu.
+Dialogue: Marked=0,0:07:17.79,0:07:18.83,Dialog_Yellow,Dialog,0000,0000,0000,,Jo, jasnì.
+Dialogue: Marked=0,0:07:18.83,0:07:20.29,Dialog_White,Dialog,0000,0000,0000,,Akito...
+Dialogue: Marked=0,0:07:20.59,0:07:24.70,Dialog_White,Dialog,0000,0000,0000,,Neboj. Tohle je soukromá\Nlinka. Nikdo nás neslyší.
+Dialogue: Marked=0,0:07:24.70,0:07:25.69,Dialog_White,Dialog,0000,0000,0000,,Nevadí?
+Dialogue: Marked=0,0:07:27.53,0:07:31.40,Dialog_White,Dialog,0000,0000,0000,,Vím, e tentokrát je tvùj\Nprotivník strašlivá zbraò.
+Dialogue: Marked=0,0:07:28.30,0:07:32.41,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Hej, Akito? Jak je\Nvidìt pøes tu kameru?
+Dialogue: Marked=0,0:07:31.40,0:07:34.14,Dialog_White,Dialog,0000,0000,0000,,Take si... dìlám velké starosti.
+Dialogue: Marked=0,0:07:32.41,0:07:35.07,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Ale jo! Dobrı.
+Dialogue: Marked=0,0:07:34.14,0:07:36.60,Dialog_White,Dialog,0000,0000,0000,,Prosím, vra se v poøádku!
+Dialogue: Marked=0,0:07:35.07,0:07:36.60,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Akitùv Aestivalis - provìøeno!
+Dialogue: Marked=0,0:07:37.84,0:07:40.97,Dialog_White,Dialog,0000,0000,0000,,Vím, e si ze mì moná\Nbudeš za tohle dìlat legraci...
+Dialogue: Marked=0,0:07:42.22,0:07:45.02,Dialog_White,Dialog,0000,0000,0000,,...ale jestli se v poøádku vrátíš...
+Dialogue: Marked=0,0:07:45.02,0:07:47.65,Dialog_White,Dialog,0000,0000,0000,,...náš vztah urèitì\Npokroèí o moc dál!
+Dialogue: Marked=0,0:07:47.65,0:07:50.42,Dialog_Yellow,Dialog,0000,0000,0000,,Chvilièku, prosím tì.\NMám tu pøíchozí prioritní zprávu.
+Dialogue: Marked=0,0:07:51.09,0:07:52.56,Dialog_White,Dialog,0000,0000,0000,,Akito...
+Dialogue: Marked=0,0:07:51.79,0:07:53.13,Dialog_Yellow,Dialog,0000,0000,0000,,Yuriko!
+Dialogue: Marked=0,0:07:53.13,0:07:57.53,Dialog_White,Dialog,0000,0000,0000,,Neboj. Tohle je soukromá\Nlinka. Nikdo nás neslyší.
+Dialogue: Marked=0,0:07:57.53,0:07:58.50,Dialog_White,Dialog,0000,0000,0000,,Mìl bys chvilku?
+Dialogue: Marked=0,0:07:59.87,0:08:04.07,Dialog_White,Dialog,0000,0000,0000,,Vím, e tentokrát je tvùj\Nprotivník strašlivá zbraò.
+Dialogue: Marked=0,0:08:00.97,0:08:03.27,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Tenkawo! Akito!
+Dialogue: Marked=0,0:08:03.27,0:08:05.94,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Hej! Haló?!
+Dialogue: Marked=0,0:08:04.07,0:08:06.07,Dialog_White,Dialog,0000,0000,0000,,Take si... dìlám velké starosti.
+Dialogue: Marked=0,0:08:05.94,0:08:07.17,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Krucinál.
+Dialogue: Marked=0,0:08:06.07,0:08:07.17,Dialog_White,Dialog,0000,0000,0000,,Prosím, vra se v poøádku.
+Dialogue: Marked=0,0:08:07.17,0:08:09.81,Dialog_UP_Yellow,Dialog,0000,0000,0000,,Ví tu nìkdo,\Njak vysílat prioritní zprávy?
+Dialogue: Marked=0,0:08:09.81,0:08:12.80,Dialog_White,Dialog,0000,0000,0000,,Vím, e si ze mì moná\Nbudeš za tohle dìlat legraci...
+Dialogue: Marked=0,0:08:14.48,0:08:17.52,Dialog_White,Dialog,0000,0000,0000,,...ale jestli se v poøádku\Nvrátíš, náš vztah...
+Dialogue: Marked=0,0:08:17.52,0:08:19.28,Dialog_Yellow,Dialog,0000,0000,0000,,...urèitì pokroèí o moc dál,\Nmám pravdu?
+Dialogue: Marked=0,0:08:20.65,0:08:24.06,Dialog_White,Dialog,0000,0000,0000,,Já jsem tak šastná! Take ty\Nto cítíš stejnì jako já, Akito!
+Dialogue: Marked=0,0:08:24.06,0:08:26.56,Dialog_Yellow,Dialog,0000,0000,0000,,No, to není, co jsem...
+Dialogue: Marked=0,0:08:26.56,0:08:28.03,Dialog_Yellow,Dialog,0000,0000,0000,,Vydr chvilièku!
+Dialogue: Marked=0,0:08:29.96,0:08:32.99,Dialog_Yellow,Dialog,0000,0000,0000,,Propána, co budu dìlat?
+Dialogue: Marked=0,0:08:34.57,0:08:35.83,Dialog_White,Dialog,0000,0000,0000,,Tenkawo!
+Dialogue: Marked=0,0:08:36.37,0:08:37.87,Dialog_Yellow,Dialog,0000,0000,0000,,Je mi to líto, mılil jsem se!
+Dialogue: Marked=0,0:08:37.87,0:08:40.34,Dialog_Yellow,Dialog,0000,0000,0000,,Odteï u budu hodnej!\NFakt! Prosím, odpus mi!
+Dialogue: Marked=0,0:08:40.34,0:08:41.83,Dialog_White,Dialog,0000,0000,0000,,O èem to sakra mluvíš?
+Dialogue: Marked=0,0:08:42.51,0:08:45.44,Dialog_White,Dialog,0000,0000,0000,,Paní Howmei tì u\Nnìjakou chvíli volá.
+Dialogue: Marked=0,0:08:45.44,0:08:46.57,Dialog_White,Dialog,0000,0000,0000,,To sis nevšiml?
+Dialogue: Marked=0,0:08:47.45,0:08:48.55,Dialog_Yellow,Dialog,0000,0000,0000,,Tady jsi.
+Dialogue: Marked=0,0:08:48.55,0:08:49.75,Dialog_White,Dialog,0000,0000,0000,,Pitomec.
+Dialogue: Marked=0,0:08:49.75,0:08:51.55,Dialog_Yellow,Dialog,0000,0000,0000,,Øíkala jsem si, e obyèejné\Npøídìly jsou trochu moc\Nsuché a nevırazné...
+Dialogue: Marked=0,0:08:51.55,0:08:53.95,Dialog_Yellow,Dialog,0000,0000,0000,,...tak jsem do tvého Aestivalisu\Nnaloila spoustu jídla!
+Dialogue: Marked=0,0:08:53.95,0:08:56.44,Dialog_Yellow,Dialog,0000,0000,0000,,Ale to je mnohem víc,\Nne budeme kdy potøebovat!
+Dialogue: Marked=0,0:08:57.42,0:09:01.49,Dialog_Yellow,Dialog,0000,0000,0000,,Prvotøídní kuchaø musí bıt\Nschopnı pøipravit kadé jídlo,\No které ho poádají!
+Dialogue: Marked=0,0:09:01.49,0:09:04.06,Dialog_Yellow,Dialog,0000,0000,0000,,Akito, jsme kámoši, e jo?
+Dialogue: Marked=0,0:09:04.06,0:09:05.46,Dialog_White,Dialog,0000,0000,0000,,Spoléháme na tebe, Tenkawo.
+Dialogue: Marked=0,0:09:05.46,0:09:08.03,Dialog_White,Dialog,0000,0000,0000,,Nezapomeò na všechny ty holky,\Nkterı si na tebe myslej.
+Dialogue: Marked=0,0:09:08.03,0:09:09.70,Dialog_Yellow,Dialog,0000,0000,0000,,Ach Boe...
+Dialogue: Marked=0,0:09:09.70,0:09:11.20,Dialog_Yellow,Dialog,0000,0000,0000,,Lepší jsi to nikdy nemìl!
+Dialogue: Marked=0,0:09:11.20,0:09:15.31,Dialog_Yellow,Dialog,0000,0000,0000,,Á, já ti tak závidím,\NAkito Tenkawo!
+Dialogue: Marked=0,0:09:15.31,0:09:18.94,Dialog_Yellow,Dialog,0000,0000,0000,,Seš za vodou! Jsme zelenı\Nzávistí, Akito Tenkawo!
+Dialogue: Marked=0,0:09:19.65,0:09:22.72,Dialog_Yellow,Dialog,0000,0000,0000,,Všechno to jsou pitomci.\NDo posledního.
+Dialogue: Marked=0,0:09:22.72,0:09:23.92,Dialog_Yellow,Dialog,0000,0000,0000,,Salutujte!
+Dialogue: Marked=0,0:09:23.92,0:09:24.78,Dialog_Yellow,Dialog,0000,0000,0000,,Jé...
+Dialogue: Marked=0,0:09:26.25,0:09:27.79,Dialog_Yellow,Dialog,0000,0000,0000,,To je nová maškarní móda?
+Dialogue: Marked=0,0:09:27.79,0:09:30.22,Dialog_Yellow,Dialog,0000,0000,0000,,Pan Uribatake øíkal,\Ne kdy budeme mít tohle...
+Dialogue: Marked=0,0:09:30.22,0:09:33.86,Dialog_Yellow,Dialog,0000,0000,0000,,...budeme se cítit víc\Njako na velitelství operací.
+Dialogue: Marked=0,0:09:33.86,0:09:36.90,Dialog_Yellow,Dialog,0000,0000,0000,,Tak to vytáhl ze svojí sbírky.
+Dialogue: Marked=0,0:09:36.90,0:09:38.36,Dialog_Yellow,Dialog,0000,0000,0000,,Salutujte!
+Dialogue: Marked=0,0:09:39.67,0:09:41.07,Dialog_Yellow,Dialog,0000,0000,0000,,Jak vypadám?
+Dialogue: Marked=0,0:09:41.07,0:09:42.24,Dialog_Yellow,Dialog,0000,0000,0000,,Jé...
+Dialogue: Marked=0,0:09:42.24,0:09:44.37,Dialog_Yellow,Dialog,0000,0000,0000,,I my jsme zaèali s prací\Nna našem konci.
+Dialogue: Marked=0,0:09:44.37,0:09:48.17,Dialog_Yellow,Dialog,0000,0000,0000,,Doktorka analyzuje nejnovìjší\Ndata ze špionáních satelitù.
+Dialogue: Marked=0,0:09:50.14,0:09:52.55,Dialog_Yellow,Dialog,0000,0000,0000,,Brzy bychom mìli mít\Nk dispozici víc informací.
+Dialogue: Marked=0,0:09:52.55,0:09:56.78,Dialog_Yellow,Dialog,0000,0000,0000,,Jednotky Aestivalis se\Ndostaly mimo dosah\Nnašeho pøívodního systému.
+Dialogue: Marked=0,0:09:56.78,0:09:57.94,Dialog_Yellow,Dialog,0000,0000,0000,,Salutujte!
+Dialogue: Marked=0,0:09:58.48,0:10:00.72,Dialog_Yellow,Dialog,0000,0000,0000,,To jsou vánì samí pitomci.
+Dialogue: Marked=0,0:10:00.72,0:10:04.26,Dialog_Yellow,Dialog,0000,0000,0000,,No, moná e se ti tohle nelíbí?
+Dialogue: Marked=0,0:10:04.26,0:10:05.62,Dialog_Yellow,Dialog,0000,0000,0000,,Já nejsem dítì.
+Dialogue: Marked=0,0:10:05.70,0:10:09.41,Signs,Signs,0150,0000,0270,,{\fs48\a1}Tého dne, 20:10\NVesnice Glakanya
+Dialogue: Marked=0,0:10:07.60,0:10:09.31,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Raz, dva, tøi, ètyøi
+Dialogue: Marked=0,0:10:09.37,0:10:11.35,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Dva, dva, tøi, ètyøi
+Dialogue: Marked=0,0:10:11.41,0:10:15.39,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Šplháme pøes horu...
+Dialogue: Marked=0,0:10:15.44,0:10:18.86,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}...a pøitom si hvízdáme...
+Dialogue: Marked=0,0:10:15.54,0:10:19.46,Signs,Signs,0150,0000,0280,,{\fs48\a1}Tého dne, 20:45\NMost Subeinum
+Dialogue: Marked=0,0:10:18.95,0:10:23.40,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Natáhneme pae a budeme šplhat na hory...
+Dialogue: Marked=0,0:10:23.52,0:10:25.36,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Hej-hou! Hej-hou!
+Dialogue: Marked=0,0:10:25.32,0:10:29.20,Signs,Signs,0150,0000,0280,,{\fs48\a1}Tého dne, 20:10\NVrchol Kamoff
+Dialogue: Marked=0,0:10:25.49,0:10:29.44,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Sledujte naše Aestivalisy...
+Dialogue: Marked=0,0:10:29.56,0:10:31.40,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Raz dva tøi ètyøi
+Dialogue: Marked=0,0:10:31.53,0:10:33.44,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Dva, dva, tøi, ètyøi
+Dialogue: Marked=0,0:10:33.56,0:10:37.38,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Pøecházíme pøes øeky...
+Dialogue: Marked=0,0:10:37.07,0:10:40.95,Signs,Signs,0150,0000,0280,,{\fs48\a1}Tého dne, 21:30\NØeka Ihil
+Dialogue: Marked=0,0:10:37.47,0:10:40.85,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Natahujeme se k sobì...
+Dialogue: Marked=0,0:10:40.97,0:10:45.42,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Všichni spoleènì projdeme minovım polem...
+Dialogue: Marked=0,0:10:45.54,0:10:49.39,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Naše Aestivalisy jsou neporazitelné...
+Dialogue: Marked=0,0:10:48.81,0:10:53.39,Signs,Signs,0150,0000,0280,,{\fs48\a1}Tého dne, 21:30\NPole Moana
+Dialogue: Marked=0,0:10:49.45,0:10:53.39,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Všichni pùjdem spoleènì, kop, kop, kop, kop...
+Dialogue: Marked=0,0:10:53.48,0:10:57.33,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Naše Aestivalisy jsou neporazitelné...
+Dialogue: Marked=0,0:10:57.45,0:10:59.36,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Raz, dva, tøi, ètyøi
+Dialogue: Marked=0,0:10:59.49,0:11:01.37,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Dva, dva, tøi, ètyøi
+Dialogue: Marked=0,0:11:01.46,0:11:05.34,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Všichni si teï odpoèinem kolem ohníèku...
+Dialogue: Marked=0,0:11:05.43,0:11:09.37,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Jenom my kamarádi spolu kolem ohníèku...
+Dialogue: Marked=0,0:11:09.47,0:11:13.38,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Náš Aestivalis patøí do našeho tımu...
+Dialogue: Marked=0,0:11:13.50,0:11:15.94,Signs,Signs,0000,0000,0100,,{\fs48\c&HFFFF&\a2}Zpíváme spolu, jsme nejlepší kamarádi...
+Dialogue: Marked=0,0:11:16.06,0:11:17.86,Dialog_Yellow,Dialog,0000,0000,0000,,Hele, u ta veèeøe bude?
+Dialogue: Marked=0,0:11:17.86,0:11:19.53,Dialog_Yellow,Dialog,0000,0000,0000,,Jasnì, jasnì!
+Dialogue: Marked=0,0:11:19.53,0:11:22.83,Dialog_Yellow,Dialog,0000,0000,0000,,Páni, to miluju, jak dokáou\Nwoky rozvádìt teplo!
+Dialogue: Marked=0,0:11:23.47,0:11:24.44,Dialog_Yellow,Dialog,0000,0000,0000,,Pitomci?
+Dialogue: Marked=0,0:11:31.44,0:11:34.58,Dialog_Yellow,Dialog,0000,0000,0000,,Dobrá! Startujeme\Nza pìtaètyøicet minut!
+Dialogue: Marked=0,0:11:34.58,0:11:36.72,Dialog_Yellow,Dialog,0000,0000,0000,,Vyuijte toho a trochu se vys...
+Dialogue: Marked=0,0:11:36.72,0:11:38.78,Dialog_Yellow,Dialog,0000,0000,0000,,No páni, Izumi je pìknì napøed.
+Dialogue: Marked=0,0:11:39.85,0:11:42.59,Dialog_Yellow,Dialog,0000,0000,0000,,Jasnì! Já budu teï\Ntaky chvíli spát.
+Dialogue: Marked=0,0:11:42.59,0:11:43.82,Dialog_Yellow,Dialog,0000,0000,0000,,No jasnì, poslu si.
+Dialogue: Marked=0,0:11:43.82,0:11:44.85,Dialog_Yellow,Dialog,0000,0000,0000,,Prima!
+Dialogue: Marked=0,0:11:48.13,0:11:50.36,Dialog_Yellow,Dialog,0000,0000,0000,,Zdá se, e si uívají mládí.
+Dialogue: Marked=0,0:11:51.86,0:11:54.63,Dialog_Yellow,Dialog,0000,0000,0000,,Naše sny volají po zítøku...
+Dialogue: Marked=0,0:11:54.63,0:11:59.94,Dialog_Yellow,Dialog,0000,0000,0000,,Poslouchej, jak naše duše køièí,\NLet's go, passion...
+Dialogue: Marked=0,0:11:59.94,0:12:01.01,Dialog_Yellow,Dialog,0000,0000,0000,,Ehm!
+Dialogue: Marked=0,0:12:01.01,0:12:05.01,Dialog_Yellow,Dialog,0000,0000,0000,,Co se dìje, Ryoko?
+Dialogue: Marked=0,0:12:05.01,0:12:07.58,Dialog_Yellow,Dialog,0000,0000,0000,,Hele, Tenkawo,\Nty seš fakt tupec, co?
+Dialogue: Marked=0,0:12:07.58,0:12:09.45,Dialog_Yellow,Dialog,0000,0000,0000,,Co to má znamenat,\Ntakhle najednou?
+Dialogue: Marked=0,0:12:09.45,0:12:10.81,Dialog_Yellow,Dialog,0000,0000,0000,,Tady! Najez se!
+Dialogue: Marked=0,0:12:12.08,0:12:13.52,Dialog_Yellow,Dialog,0000,0000,0000,,Dìkuju.
+Dialogue: Marked=0,0:12:13.52,0:12:15.92,Dialog_Yellow,Dialog,0000,0000,0000,,Mìl jsi tolik práce, e ses\Nasi moc nenajed, co?
+Dialogue: Marked=0,0:12:15.92,0:12:16.98,Dialog_Yellow,Dialog,0000,0000,0000,,Tak jez!
+Dialogue: Marked=0,0:12:18.22,0:12:21.42,Dialog_Yellow,Dialog,0000,0000,0000,,U kdy se na tebe koukám,\Nleze mi to na nervy, víš?
+Dialogue: Marked=0,0:12:22.80,0:12:26.70,Dialog_Yellow,Dialog,0000,0000,0000,,To je fuk! Nedìlej si\Ns tím hlavu. Oukej?!
+Dialogue: Marked=0,0:12:27.53,0:12:29.09,Dialog_Yellow,Dialog,0000,0000,0000,,Kadopádnì se najez!
+Dialogue: Marked=0,0:12:31.44,0:12:32.67,Dialog_Yellow,Dialog,0000,0000,0000,,Hej, to vùbec nechutná špatnì!
+Dialogue: Marked=0,0:12:32.67,0:12:35.04,Dialog_Yellow,Dialog,0000,0000,0000,,Ty pitomèe. Vdy jsi to uvaøil ty.
+Dialogue: Marked=0,0:12:35.04,0:12:36.34,Dialog_Yellow,Dialog,0000,0000,0000,,No jo vlastnì.
+Dialogue: Marked=0,0:12:37.18,0:12:38.68,Dialog_Yellow,Dialog,0000,0000,0000,,Moulo!
+Dialogue: Marked=0,0:12:37.81,0:12:39.65,Dialog_White,Dialog,0000,0000,0000,,Hej, vy dva!
+Dialogue: Marked=0,0:12:39.65,0:12:42.35,Dialog_Yellow,Dialog,0000,0000,0000,,Vypadáte, jako byste ili \Nve filmu pro dospívající\Nmláde, ale musím vám øíct...
+Dialogue: Marked=0,0:12:42.35,0:12:45.25,Dialog_Yellow,Dialog,0000,0000,0000,,...e tohle je na mùj\Nvkus trochu nezdravé.
+Dialogue: Marked=0,0:12:45.25,0:12:48.92,Dialog_Yellow,Dialog,0000,0000,0000,,Myslím, e není dobrı nápad\Nnechat se jím ovlivòovat.
+Dialogue: Marked=0,0:12:48.92,0:12:50.22,Dialog_Yellow,Dialog,0000,0000,0000,,Co tímhle myslíš?
+Dialogue: Marked=0,0:12:50.22,0:12:52.83,Dialog_Yellow,Dialog,0000,0000,0000,,Víš, lidi jako ty,\Nco maj rádi anime a tak...
+Dialogue: Marked=0,0:12:52.83,0:12:54.26,Dialog_Yellow,Dialog,0000,0000,0000,,...rádi zakrıvají své nedostatky\Nv oblasti romantickıch vztahù...
+Dialogue: Marked=0,0:12:54.26,0:12:57.00,Dialog_Yellow,Dialog,0000,0000,0000,,...tím, e øíkají, e mají\Nzájem jen o platonickou lásku.
+Dialogue: Marked=0,0:12:57.00,0:13:01.03,Dialog_Yellow,Dialog,0000,0000,0000,,Bylo by nešastné,\Nkdybys padla do téhle pasti.
+Dialogue: Marked=0,0:13:01.03,0:13:02.97,Dialog_Yellow,Dialog,0000,0000,0000,,Musíš bıt víc otevøená!
+Dialogue: Marked=0,0:13:04.24,0:13:05.74,Dialog_Yellow,Dialog,0000,0000,0000,,Á, promiò.
+Dialogue: Marked=0,0:13:05.74,0:13:08.14,Dialog_Yellow,Dialog,0000,0000,0000,,Nemìl jsem naznaèovat, e nejsi\Ndobrı v romantickıch vztazích.
+Dialogue: Marked=0,0:13:08.14,0:13:12.21,Dialog_Yellow,Dialog,0000,0000,0000,,Kapitán i Megumi jsou\Nz tebe rozhodnì celé pryè.
+Dialogue: Marked=0,0:13:12.21,0:13:13.31,Dialog_Yellow,Dialog,0000,0000,0000,,Dovol, abych se opravil.
+Dialogue: Marked=0,0:13:13.31,0:13:14.58,Dialog_Yellow,Dialog,0000,0000,0000,,O to tady nejde!
+Dialogue: Marked=0,0:13:14.58,0:13:16.95,Dialog_Yellow,Dialog,0000,0000,0000,,Ale nelíbí se mi, kdy lidi\Nshazujou cizí koníèky!
+Dialogue: Marked=0,0:13:16.95,0:13:19.32,Dialog_Yellow,Dialog,0000,0000,0000,,Tak v tom pøípadì budu\Nmuset opravit svou opravu.
+Dialogue: Marked=0,0:13:19.32,0:13:21.39,Dialog_Yellow,Dialog,0000,0000,0000,,Já anime a podobné\Nvìci rád nemám.
+Dialogue: Marked=0,0:13:21.39,0:13:23.39,Dialog_Yellow,Dialog,0000,0000,0000,,Co jsem ti kdy udìlal?
+Dialogue: Marked=0,0:13:23.39,0:13:25.12,Dialog_Yellow,Dialog,0000,0000,0000,,Pøesnì to jsem chtìl øíct já.
+Dialogue: Marked=0,0:13:28.33,0:13:30.56,Dialog_Yellow,Dialog,0000,0000,0000,,Co to?
+Dialogue: Marked=0,0:13:30.56,0:13:32.03,Dialog_Yellow,Dialog,0000,0000,0000,,Asi budeme pod palbou.
+Dialogue: Marked=0,0:13:40.97,0:13:42.48,Dialog_Yellow,Dialog,0000,0000,0000,,e na vás útoèí?
+Dialogue: Marked=0,0:13:41.91,0:13:44.67,Dialog_White,Dialog,0000,0000,0000,,Ano! Pošleme vám obraz.
+Dialogue: Marked=0,0:13:47.08,0:13:50.08,Dialog_White,Dialog,0000,0000,0000,,Moc jsem pila... Natankovala se...
+Dialogue: Marked=0,0:13:50.08,0:13:51.52,Dialog_Yellow,Dialog,0000,0000,0000,,Tanky?
+Dialogue: Marked=0,0:13:51.52,0:13:53.49,Dialog_Yellow,Dialog,0000,0000,0000,,No, nepøekvapuje, e je neznáte.
+Dialogue: Marked=0,0:13:53.49,0:13:56.32,Dialog_Yellow,Dialog,0000,0000,0000,,Tanky byly primární\Nzbraní pro pozemní boj\Npøed dvìma generacemi.
+Dialogue: Marked=0,0:13:56.32,0:13:59.56,Dialog_UP_White,Dialog,0000,0000,0000,,Správnì! Správnej\Nargon pro nì je OBV!
+Dialogue: Marked=0,0:13:58.36,0:14:02.46,Dialog_Yellow,Dialog,0000,0000,0000,,Chápu. Pouít tanky\Nk ochranì pozemního pøístupu,\Nto je docela chytré.
+Dialogue: Marked=0,0:13:59.56,0:14:02.46,Dialog_UP_White,Dialog,0000,0000,0000,,Jinımi slovy,\NObrnìné Bojové Vozidlo.
+Dialogue: Marked=0,0:14:02.46,0:14:06.43,Dialog_UP_White,Dialog,0000,0000,0000,,Ještì skvìlejší název je\N"Sonderkraftfahrzeug"!
+Dialogue: Marked=0,0:14:02.66,0:14:04.86,Dialog_Yellow,Dialog,0000,0000,0000,,Improvizace s lokálnì\Ndostupnımi zdroji...
+Dialogue: Marked=0,0:14:04.86,0:14:07.40,Dialog_Yellow,Dialog,0000,0000,0000,,Rozdìlují své zdroje\Nvelmi ekonomicky.
+Dialogue: Marked=0,0:14:06.43,0:14:08.10,Dialog_UP_Gray,Dialog,0000,0000,0000,,To by staèilo, ty armádní pošuku!
+Dialogue: Marked=0,0:14:07.40,0:14:09.07,Dialog_Yellow,Dialog,0000,0000,0000,,Mìli bychom si na to\Ntaké dávat pozor.
+Dialogue: Marked=0,0:14:10.57,0:14:12.51,Dialog_Yellow,Dialog,0000,0000,0000,,Akito and Akatsuki,\Nbìte napøed!
+Dialogue: Marked=0,0:14:12.51,0:14:13.54,Dialog_Yellow,Dialog,0000,0000,0000,,Díky!
+Dialogue: Marked=0,0:14:13.54,0:14:14.63,Dialog_Yellow,Dialog,0000,0000,0000,,Zùstanu a budu bojovat!
+Dialogue: Marked=0,0:14:15.67,0:14:19.78,Dialog_Yellow,Dialog,0000,0000,0000,,Jsou moná zastaralé,\Nale v mnoství je poøád síla.
+Dialogue: Marked=0,0:14:19.78,0:14:21.51,Dialog_White,Dialog,0000,0000,0000,,Kapitáne, máme problém.
+Dialogue: Marked=0,0:14:21.51,0:14:23.02,Dialog_Yellow,Dialog,0000,0000,0000,,Ano?
+Dialogue: Marked=0,0:14:22.25,0:14:24.78,Dialog_White,Dialog,0000,0000,0000,,Nemám k dispozici všechna data,\Nale rozhodnì to je špatná zpráva.
+Dialogue: Marked=0,0:14:24.78,0:14:26.29,Dialog_Yellow,Dialog,0000,0000,0000,,Jak moc špatná?
+Dialogue: Marked=0,0:14:25.68,0:14:27.18,Dialog_White,Dialog,0000,0000,0000,,No, dost špatná.
+Dialogue: Marked=0,0:14:27.72,0:14:29.05,Dialog_Yellow,Dialog,0000,0000,0000,,Sakra!
+Dialogue: Marked=0,0:14:29.05,0:14:30.56,Dialog_White,Dialog,0000,0000,0000,,To staèí!
+Dialogue: Marked=0,0:14:29.86,0:14:31.06,Dialog_Yellow,Dialog,0000,0000,0000,,Proè jsi to udìlal?!
+Dialogue: Marked=0,0:14:31.06,0:14:32.96,Dialog_White,Dialog,0000,0000,0000,,Pøestaò plıtvat municí!
+Dialogue: Marked=0,0:14:32.96,0:14:36.20,Dialog_White,Dialog,0000,0000,0000,,Tahle tìké dìlostøelecké\Nšasi jsou všechno, co proti\NŠpacírce máme!
+Dialogue: Marked=0,0:14:36.20,0:14:37.76,Dialog_White,Dialog,0000,0000,0000,,O tohle a se postará\NRyoko a ostatní.
+Dialogue: Marked=0,0:14:37.76,0:14:39.16,Dialog_Yellow,Dialog,0000,0000,0000,,Take se máme jen dívat,\Njak do nich mlátìj?!
+Dialogue: Marked=0,0:14:41.40,0:14:42.87,Dialog_Yellow,Dialog,0000,0000,0000,,Sakra!
+Dialogue: Marked=0,0:14:44.94,0:14:46.04,Dialog_Yellow,Dialog,0000,0000,0000,,Baterie...
+Dialogue: Marked=0,0:14:46.04,0:14:47.47,Dialog_White,Dialog,0000,0000,0000,,Teï se koukni, co nám tu zbylo!
+Dialogue: Marked=0,0:14:47.47,0:14:48.70,Dialog_Yellow,Dialog,0000,0000,0000,,Dr sakra hubu!
+Dialogue: Marked=0,0:14:49.24,0:14:50.74,Dialog_White,Dialog,0000,0000,0000,,Nech toho!
+Dialogue: Marked=0,0:14:50.11,0:14:51.61,Dialog_Yellow,Dialog,0000,0000,0000,,Strè si to nìkam!
+Dialogue: Marked=0,0:14:50.74,0:14:53.98,Dialog_White,Dialog,0000,0000,0000,,Pøestaò, Akito Tenkawo!\NVychladni trochu!
+Dialogue: Marked=0,0:14:51.61,0:14:53.98,Dialog_Yellow,Dialog,0000,0000,0000,,Sakra! Sakra! Sakra!
+Dialogue: Marked=0,0:15:04.06,0:15:05.39,Dialog_White,Dialog,0000,0000,0000,,Tak co, teï u jsme spokojení?
+Dialogue: Marked=0,0:15:06.33,0:15:07.56,Dialog_White,Dialog,0000,0000,0000,,Mám špatné zprávy.
+Dialogue: Marked=0,0:15:07.56,0:15:08.99,Dialog_White,Dialog,0000,0000,0000,,Špacírka oívá.
+Dialogue: Marked=0,0:15:10.26,0:15:14.00,Dialog_White,Dialog,0000,0000,0000,,Nemám dost dat,\Nabych vám øekla, za jak\Ndlouho znovu vystøelí...
+Dialogue: Marked=0,0:15:14.00,0:15:17.94,Dialog_White,Dialog,0000,0000,0000,,...ale mùu øíct, e pøíští úder\Nnapáchá mnohem víc škody.
+Dialogue: Marked=0,0:15:17.94,0:15:19.24,Dialog_Yellow,Dialog,0000,0000,0000,,Co tím myslíte?
+Dialogue: Marked=0,0:15:19.24,0:15:23.64,Dialog_Yellow,Dialog,0000,0000,0000,,První èerná mikrodíra se vypaøila\Na po opuštìní atmosféry...
+Dialogue: Marked=0,0:15:23.64,0:15:25.48,Dialog_Yellow,Dialog,0000,0000,0000,,...take pøitom nenapáchala\Nvelké škody.
+Dialogue: Marked=0,0:15:25.48,0:15:29.05,Dialog_Yellow,Dialog,0000,0000,0000,,Jsem si ale jistá,\Ne ta pøíští se vypaøí v atmosféøe.
+Dialogue: Marked=0,0:15:29.05,0:15:31.15,Dialog_Yellow,Dialog,0000,0000,0000,,Proè si tím jste tak jistá?
+Dialogue: Marked=0,0:15:31.15,0:15:32.99,Dialog_Yellow,Dialog,0000,0000,0000,,Protoe nevìøím,\Ne naši nepøátelé jsou hlupáci.
+Dialogue: Marked=0,0:15:32.99,0:15:35.92,Dialog_Yellow,Dialog,0000,0000,0000,,A proto se to stane takhle.
+Dialogue: Marked=0,0:15:35.92,0:15:39.59,Dialog_Yellow,Dialog,0000,0000,0000,,Strašlivá vlna záøení dokáe\Nokamitì vypaøit celé mìsto.
+Dialogue: Marked=0,0:15:39.59,0:15:42.19,Dialog_Yellow,Dialog,0000,0000,0000,,To, co pøeije, bude zasaeno\Nmasívní dávkou paprskù gama.
+Dialogue: Marked=0,0:15:42.19,0:15:44.76,Dialog_Yellow,Dialog,0000,0000,0000,,Modifikujte operaèní\Nvzor z A na D.
+Dialogue: Marked=0,0:15:44.76,0:15:46.27,Dialog_Yellow,Dialog,0000,0000,0000,,Rozkaz!
+Dialogue: Marked=0,0:15:45.66,0:15:48.17,Dialog_White,Dialog,0000,0000,0000,,Hezky se bavte!
+Dialogue: Marked=0,0:15:48.17,0:15:49.67,Dialog_Yellow,Dialog,0000,0000,0000,,A vrate se, jasnı?!
+Dialogue: Marked=0,0:15:49.67,0:15:51.44,Dialog_Yellow,Dialog,0000,0000,0000,,Urèitì!
+Dialogue: Marked=0,0:15:51.44,0:15:53.07,Dialog_Yellow,Dialog,0000,0000,0000,,Radši a se vrátìj.
+Dialogue: Marked=0,0:15:53.07,0:15:57.11,Dialog_Yellow,Dialog,0000,0000,0000,,Jinak bychom byli\Nvánì v prùšvihu.\NNejsme schopnı pohybu.
+Dialogue: Marked=0,0:15:57.11,0:16:01.14,Dialog_Yellow,Dialog,0000,0000,0000,,Jo, to máš pravdu. Daly jsme\Njim všechny baterie, co zbyly.
+Dialogue: Marked=0,0:16:06.55,0:16:08.25,Dialog_Yellow,Dialog,0000,0000,0000,,Aj, tak to je prùser.
+Dialogue: Marked=0,0:16:10.16,0:16:12.22,Dialog_Yellow,Dialog,0000,0000,0000,,Dochází nám energie i munice.
+Dialogue: Marked=0,0:16:12.22,0:16:14.19,Dialog_Yellow,Dialog,0000,0000,0000,,Pokus se omezit svoje\Npøedvádìní na minimum.
+Dialogue: Marked=0,0:16:14.17,0:16:16.25,Signs_on_Black,Signs,0280,0000,0130,,{\c&HFF00&\a1}Pomocná\Nbaterie\Nv poøádku
+Dialogue: Marked=0,0:16:14.19,0:16:15.23,Dialog_Yellow,Dialog,0000,0000,0000,,Rozumíš?
+Dialogue: Marked=0,0:16:15.23,0:16:16.29,Dialog_Yellow,Dialog,0000,0000,0000,,Rozkaz.
+Dialogue: Marked=0,0:16:16.83,0:16:18.52,Dialog_Yellow,Dialog,0000,0000,0000,,Kdo si myslíš, e seš?
+Dialogue: Marked=0,0:16:22.40,0:16:23.43,Dialog_Yellow,Dialog,0000,0000,0000,,Co to sakra?!
+Dialogue: Marked=0,0:16:23.97,0:16:26.27,Dialog_Yellow,Dialog,0000,0000,0000,,Tohle vypadá trochu hùø\Nne ty hraèky pøedtím.
+Dialogue: Marked=0,0:16:26.38,0:16:27.43,Signs_on_Red,Signs,0100,0000,0075,,{\a5}Skenuji\Npøední pohled
+Dialogue: Marked=0,0:16:27.52,0:16:28.29,Signs_on_Red,Signs,0090,0000,0070,,{\a5}Zvìtšuji
+Dialogue: Marked=0,0:16:27.52,0:16:28.29,Signs_on_Red,Signs,0000,0075,0045,,{\a7}Zoom
+Dialogue: Marked=0,0:16:28.38,0:16:28.69,Signs_on_Red,Signs,0510,0000,0060,,{\fs54\a1}Mód infraèerveného\Nskenování
+Dialogue: Marked=0,0:16:30.21,0:16:31.38,Dialog_Yellow,Dialog,0000,0000,0000,,Sakra!
+Dialogue: Marked=0,0:16:31.38,0:16:34.01,Dialog_White,Dialog,0000,0000,0000,,Aestivalisy jsou vybavené\Npøísavnımi minami! Pouijte je!
+Dialogue: Marked=0,0:16:34.01,0:16:36.35,Dialog_Yellow,Dialog,0000,0000,0000,,Jo, jasnì! U jdem na to.
+Dialogue: Marked=0,0:16:40.12,0:16:41.59,Dialog_Yellow,Dialog,0000,0000,0000,,Tohle je k nièemu.
+Dialogue: Marked=0,0:16:41.59,0:16:43.42,Dialog_Yellow,Dialog,0000,0000,0000,,Hikaru, jak to vypadá\Ns tou minou?!
+Dialogue: Marked=0,0:16:43.42,0:16:45.32,Dialog_Yellow,Dialog,0000,0000,0000,,Chvilièku!
+Dialogue: Marked=0,0:16:48.86,0:16:50.52,Dialog_Yellow,Dialog,0000,0000,0000,,Dobrı, mám ji!
+Dialogue: Marked=0,0:16:52.43,0:16:53.90,Dialog_Yellow,Dialog,0000,0000,0000,,Ale né!
+Dialogue: Marked=0,0:16:56.67,0:16:59.30,Dialog_Yellow,Dialog,0000,0000,0000,,Á, chudáèek mùj Aestík!
+Dialogue: Marked=0,0:16:56.87,0:17:00.54,Dialog_UP_White,Dialog,0000,0000,0000,,Tanky mají vdycky\Nnejslabší pancíø vespodu!
+Dialogue: Marked=0,0:17:00.54,0:17:01.64,Dialog_Yellow,Dialog,0000,0000,0000,,Slyším!
+Dialogue: Marked=0,0:17:01.64,0:17:04.11,Dialog_UP_White,Dialog,0000,0000,0000,,Proto byste mìli útoèit\Nna spodek nebo na trup.
+Dialogue: Marked=0,0:17:04.11,0:17:08.07,Dialog_UP_White,Dialog,0000,0000,0000,,Mluvím-li ovšem o trupu,\Nmyslím trup tanku a ne lodi.
+Dialogue: Marked=0,0:17:06.08,0:17:08.07,Dialog_Yellow,Dialog,0000,0000,0000,,Chápu! Chápu!
+Dialogue: Marked=0,0:17:18.19,0:17:20.63,Dialog_Yellow,Dialog,0000,0000,0000,,Dokonalı polibek... Støed terèe...
+Dialogue: Marked=0,0:17:20.63,0:17:22.26,Dialog_Yellow,Dialog,0000,0000,0000,,Jo, jo, tak nìjak.
+Dialogue: Marked=0,0:17:22.26,0:17:23.70,Dialog_White,Dialog,0000,0000,0000,,To je ono, mí vojáci.
+Dialogue: Marked=0,0:17:23.70,0:17:27.30,Dialog_White,Dialog,0000,0000,0000,,Pokud zasáhnete jejich\Nslabé místo, a to tvrdì,\Nmohou staèit i pouhé ruce!
+Dialogue: Marked=0,0:17:27.30,0:17:29.43,Dialog_Yellow,Dialog,0000,0000,0000,,Ano, máte pravdu!\NNení to úasnı?
+Dialogue: Marked=0,0:17:29.97,0:17:31.44,Dialog_Yellow,Dialog,0000,0000,0000,,To bylo dobrı!
+Dialogue: Marked=0,0:17:32.04,0:17:34.34,Dialog_White,Dialog,0000,0000,0000,,Nouzovı poplach.\NIhned se evakuujte!
+Dialogue: Marked=0,0:17:34.34,0:17:37.28,Dialog_Yellow,Dialog,0000,0000,0000,,Jak se máme evakuovat,\Nkdy jsou naše Aestíky\Nneschopnı pohybu?
+Dialogue: Marked=0,0:17:37.28,0:17:38.51,Dialog_Yellow,Dialog,0000,0000,0000,,No, tedy...
+Dialogue: Marked=0,0:17:38.51,0:17:41.67,Dialog_Yellow,Dialog,0000,0000,0000,,Narazili jsme tady na dost\Nváné pøekáky a...
+Dialogue: Marked=0,0:17:44.38,0:17:45.38,Dialog_Yellow,Dialog,0000,0000,0000,,Sakra!
+Dialogue: Marked=0,0:17:45.38,0:17:46.92,Dialog_Yellow,Dialog,0000,0000,0000,,Poèkej! Buï trpìlivı!
+Dialogue: Marked=0,0:17:46.92,0:17:48.65,Dialog_Yellow,Dialog,0000,0000,0000,,Tak co teda máme sakra dìlat?!
+Dialogue: Marked=0,0:17:59.01,0:18:06.43,Signs_on_Red,Signs,0320,0000,0035,,{\fs40\a6}Varování\NŠpacírka
+Dialogue: Marked=0,0:17:59.01,0:18:06.43,Signs_on_Red,Signs,0320,0000,0120,,{\fs30\a6}Rychlı nárùst energie
+Dialogue: Marked=0,0:17:59.60,0:18:04.67,Dialog_White,Dialog,0000,0000,0000,,Zvyšuje se fluktuace\Ngravitaèních vln. Blíí se to!
+Dialogue: Marked=0,0:18:04.67,0:18:06.67,Dialog_White,Dialog,0000,0000,0000,,Opravy nebudou hotovı vèas!
+Dialogue: Marked=0,0:18:06.67,0:18:09.74,Dialog_Yellow,Dialog,0000,0000,0000,,Co budeme dìlat?!\NCo budeme dìlat?!
+Dialogue: Marked=0,0:18:09.74,0:18:12.71,Dialog_Yellow,Dialog,0000,0000,0000,,Co mám o tomhle\Nøíct velitelství?!
+Dialogue: Marked=0,0:18:12.71,0:18:13.84,Dialog_Yellow,Dialog,0000,0000,0000,,Mlète, prosím!
+Dialogue: Marked=0,0:18:15.71,0:18:17.68,Dialog_Yellow,Dialog,0000,0000,0000,,Dìkuji za všechnu vaši\Nspolupráci, admirále.
+Dialogue: Marked=0,0:18:17.68,0:18:18.68,Dialog_Yellow,Dialog,0000,0000,0000,,Salutujte!
+Dialogue: Marked=0,0:18:18.68,0:18:22.15,Dialog_Yellow,Dialog,0000,0000,0000,,Kapitán tedy ví,\Njak si udret chladnou hlavu.
+Dialogue: Marked=0,0:18:22.15,0:18:24.18,Dialog_Yellow,Dialog,0000,0000,0000,,To proto, e v nìj vìøíte, e?
+Dialogue: Marked=0,0:18:25.89,0:18:27.99,Dialog_Yellow,Dialog,0000,0000,0000,,Vyrazíme ke Špacírce.
+Dialogue: Marked=0,0:18:27.74,0:18:29.14,Signs,Signs,0100,0000,0355,,{\fs36\a5}Pomocná baterie v poøádku
+Dialogue: Marked=0,0:18:27.99,0:18:29.86,Dialog_Yellow,Dialog,0000,0000,0000,,Rozumíš, Tenkawo?
+Dialogue: Marked=0,0:18:29.86,0:18:31.00,Dialog_Yellow,Dialog,0000,0000,0000,,Rozumím.
+Dialogue: Marked=0,0:18:31.00,0:18:32.73,Dialog_Yellow,Dialog,0000,0000,0000,,Rozumím, ale...
+Dialogue: Marked=0,0:18:34.63,0:18:36.50,Dialog_Yellow,Dialog,0000,0000,0000,,Zdá se, e jste\Nna tom dost bídnì!
+Dialogue: Marked=0,0:18:36.50,0:18:37.50,Dialog_Yellow,Dialog,0000,0000,0000,,Ahój!
+Dialogue: Marked=0,0:18:37.50,0:18:38.70,Dialog_Yellow,Dialog,0000,0000,0000,,Jdete právì vèas.
+Dialogue: Marked=0,0:18:38.70,0:18:40.97,Dialog_White,Dialog,0000,0000,0000,,No, jsme pøece kámoši.
+Dialogue: Marked=0,0:18:40.97,0:18:42.74,Dialog_Yellow,Dialog,0000,0000,0000,,Hádám, e víme, co pøijde teï.
+Dialogue: Marked=0,0:18:42.74,0:18:44.14,Dialog_Yellow,Dialog,0000,0000,0000,,Co jako?
+Dialogue: Marked=0,0:18:44.14,0:18:46.48,Dialog_White,Dialog,0000,0000,0000,,Náš milı pan Tenkawa\Nto prostì nechápe.
+Dialogue: Marked=0,0:18:46.48,0:18:49.21,Dialog_White,Dialog,0000,0000,0000,,Tvım úkolem je jít po Špacírce!
+Dialogue: Marked=0,0:18:49.21,0:18:52.02,Dialog_White,Dialog,0000,0000,0000,,Naším úkolem je\Nzastavit tady ten tank.
+Dialogue: Marked=0,0:18:52.02,0:18:53.22,Dialog_White,Dialog,0000,0000,0000,,Taková je myšlenka!
+Dialogue: Marked=0,0:18:53.22,0:18:54.75,Dialog_Yellow,Dialog,0000,0000,0000,,Jaká e je ta myšlenka?
+Dialogue: Marked=0,0:18:54.75,0:18:58.12,Dialog_Yellow,Dialog,0000,0000,0000,,Ty se vydej ke Špacírce.\NMy pùjdeme po tanku!
+Dialogue: Marked=0,0:18:58.12,0:18:59.75,Dialog_Yellow,Dialog,0000,0000,0000,,Jedem!
+Dialogue: Marked=0,0:19:00.39,0:19:01.86,Dialog_Yellow,Dialog,0000,0000,0000,,Do toho!
+Dialogue: Marked=0,0:19:06.06,0:19:07.70,Dialog_Yellow,Dialog,0000,0000,0000,,Všichni se pevnì drte!
+Dialogue: Marked=0,0:19:07.70,0:19:09.07,Dialog_Yellow,Dialog,0000,0000,0000,,Co udìláš?
+Dialogue: Marked=0,0:19:09.07,0:19:10.27,Dialog_Yellow,Dialog,0000,0000,0000,,Nabourám ho!
+Dialogue: Marked=0,0:19:10.27,0:19:13.53,Dialog_Yellow,Dialog,0000,0000,0000,,Sakra, s tvojí osobností\Nu asi nezastavíš, co?!
+Dialogue: Marked=0,0:19:14.71,0:19:16.48,Dialog_Yellow,Dialog,0000,0000,0000,,Teï, ty dlouhovlasej vejtaho!
+Dialogue: Marked=0,0:19:16.48,0:19:17.64,Dialog_Yellow,Dialog,0000,0000,0000,,Mám tì!
+Dialogue: Marked=0,0:19:17.64,0:19:20.74,Dialog_Yellow,Dialog,0000,0000,0000,,Tak takhle se zbavíte\Nvelkého starého tanku!
+Dialogue: Marked=0,0:19:23.02,0:19:24.04,Dialog_Yellow,Dialog,0000,0000,0000,,Ale kdepak, to ne!
+Dialogue: Marked=0,0:19:28.35,0:19:29.82,Dialog_Yellow,Dialog,0000,0000,0000,,Jo!
+Dialogue: Marked=0,0:19:32.86,0:19:34.09,Dialog_Yellow,Dialog,0000,0000,0000,,Rychle!
+Dialogue: Marked=0,0:19:33.94,0:19:36.35,Signs_on_Red,Signs,0000,0430,0420,,{\fs66}Pomocná baterie
+Dialogue: Marked=0,0:19:33.94,0:19:36.35,Signs_on_Red,Signs,0000,0430,0220,,{\fs72}U ti nezbıvá moc šávy!
+Dialogue: Marked=0,0:19:34.09,0:19:36.36,Dialog_Yellow,Dialog,0000,0000,0000,,Ještì kousek. Ještì kousek!
+Dialogue: Marked=0,0:19:37.13,0:19:38.76,Dialog_Yellow,Dialog,0000,0000,0000,,Teï! Všechno odpálit!
+Dialogue: Marked=0,0:19:45.41,0:19:47.19,Signs_on_White,Signs,0445,0000,0090,,{\fs100\c&HFF&\a5}Varování!
+Dialogue: Marked=0,0:19:45.41,0:19:47.19,Signs_on_White,Signs,0445,0000,0230,,{\fs88\a5}Velice brzy\Nti dojde\Nmunice.
+Dialogue: Marked=0,0:19:47.27,0:19:49.71,Dialog_Yellow,Dialog,0000,0000,0000,,Kdybych ji tam jen nevyplıtval...
+Dialogue: Marked=0,0:19:51.04,0:19:52.37,Dialog_Yellow,Dialog,0000,0000,0000,,Ale sakra, já to vìdìl!
+Dialogue: Marked=0,0:19:54.41,0:19:57.31,Dialog_Yellow,Dialog,0000,0000,0000,,U chápeš, proè jsem øíkal,\Nabys neplıtval municí?
+Dialogue: Marked=0,0:20:02.46,0:20:07.38,Signs_on_Yellow,Signs,0080,0000,0280,,{\fs66\a1}Pomocná\Nbaterie\Nmimo provoz
+Dialogue: Marked=0,0:20:03.79,0:20:05.16,Dialog_Yellow,Dialog,0000,0000,0000,,Díky.
+Dialogue: Marked=0,0:20:05.16,0:20:07.56,Dialog_Yellow,Dialog,0000,0000,0000,,Skvìlá práce. Skvìlá práce.
+Dialogue: Marked=0,0:20:07.56,0:20:09.96,Dialog_Yellow,Dialog,0000,0000,0000,,Vzato kolem a kolem,\Nvedl sis skvìle!
+Dialogue: Marked=0,0:20:09.96,0:20:11.46,Dialog_Yellow,Dialog,0000,0000,0000,,Ahój!
+Dialogue: Marked=0,0:20:10.90,0:20:13.17,Dialog_White,Dialog,0000,0000,0000,,Tady Akatsuki.\NHlásím konec mise.
+Dialogue: Marked=0,0:20:13.17,0:20:15.20,Dialog_White,Dialog,0000,0000,0000,,Bylo by pìkné, kdybyste\Nnás pøijeli vyzvednout.
+Dialogue: Marked=0,0:20:15.20,0:20:16.67,Dialog_Yellow,Dialog,0000,0000,0000,,Rozumím.
+Dialogue: Marked=0,0:20:17.24,0:20:18.70,Dialog_Yellow,Dialog,0000,0000,0000,,Lidi!
+Dialogue: Marked=0,0:20:20.51,0:20:22.47,Dialog_Yellow,Dialog,0000,0000,0000,,Stalo se toho hodnì, ale...
+Dialogue: Marked=0,0:20:22.47,0:20:25.28,Dialog_Yellow,Dialog,0000,0000,0000,,Odvedls skvìlou práci,\NAkito Tenkawo.
+Dialogue: Marked=0,0:20:25.28,0:20:26.47,Dialog_Yellow,Dialog,0000,0000,0000,,Opravdu ses pøekonal.
+Dialogue: Marked=0,0:20:32.48,0:20:34.42,Dialog_Yellow,Dialog,0000,0000,0000,,Á, u letí.
+Dialogue: Marked=0,0:20:34.42,0:20:37.06,Dialog_Yellow,Dialog,0000,0000,0000,,Mám nápad na svoje\Npøíští doujinshi!
+Dialogue: Marked=0,0:20:37.06,0:20:39.05,Dialog_Yellow,Dialog,0000,0000,0000,,Kdy se pøátelství mezi\Nmui promìní v...
+Dialogue: Marked=0,0:21:45.06,0:21:47.43,Dialog_Yellow,Dialog,0000,0000,0000,,Coe? e chcete, abych\Nse zúèastnil hlasování\No popularitì postav?
+Dialogue: Marked=0,0:21:45.10,0:21:49.62,Signs,Signs,0000,0000,0070,,{\fs48}Kdysi velmi dávno...
+Dialogue: Marked=0,0:21:46.87,0:21:49.62,Signs,Signs,0000,0000,0360,,{\fs48}...se Omoikane zeptal...
+Dialogue: Marked=0,0:21:47.43,0:21:49.59,Dialog_Yellow,Dialog,0000,0000,0000,,Inu, je tu sleèna Minato\Ns rozkvetlım kouzlem dospìlosti.
+Dialogue: Marked=0,0:21:49.59,0:21:51.30,Dialog_Yellow,Dialog,0000,0000,0000,,Ale poèkat, Hikaru v tìch\Nbrılích taky vypadá dobøe.
+Dialogue: Marked=0,0:21:50.31,0:21:54.29,Signs,Signs,0000,0000,0070,,{\fs48}Jsem stroj?
+Dialogue: Marked=0,0:21:51.31,0:21:54.29,Signs,Signs,0000,0000,0360,,{\fs48}Jsem osoba?
+Dialogue: Marked=0,0:21:51.30,0:21:53.20,Dialog_Yellow,Dialog,0000,0000,0000,,Pak je tu kapitán a její òadra.
+Dialogue: Marked=0,0:21:53.20,0:21:55.63,Dialog_Yellow,Dialog,0000,0000,0000,,Ale hádám, e "Všichni\Njsou pitomci" je nejlepší.
+Dialogue: Marked=0,0:21:55.31,0:21:58.63,Signs,Signs,0000,0000,0130,,{\fs56}Vìèná otázka ve vesmírnıch animáèích...
+Dialogue: Marked=0,0:21:55.63,0:21:57.70,Dialog_Yellow,Dialog,0000,0000,0000,,Jasnì! Já hlasuji\Npro Ruri Hoshino!
+Dialogue: Marked=0,0:21:57.80,0:22:00.37,Dialog_Yellow,Dialog,0000,0000,0000,,Pøíští epizoda\NMartian Successor Nadesico:\N"Ty nezapomenutelné dny"
+Dialogue: Marked=0,0:22:00.37,0:22:03.98,Dialog_Yellow,Dialog,0000,0000,0000,,Je to epizoda dvì z tøídílné\Nságy Ruri Hoshino.
+Dialogue: Marked=0,0:22:03.98,0:22:06.14,Dialog_Yellow,Dialog,0000,0000,0000,,Scénáø: opìt Takeshi Shishido.
+Dialogue: Marked=0,0:22:06.14,0:22:07.58,Dialog_Yellow,Dialog,0000,0000,0000,,Tak nezapomeòte hlasovat...
+Dialogue: Marked=0,0:22:07.12,0:22:10.63,Signs,Signs,0000,0000,0130,,Pøíští epizoda
+Dialogue: Marked=0,0:22:07.12,0:22:10.63,Signs,Signs,0000,0000,0180,,{\a2}Ty nezapomenutelné dny
+Dialogue: Marked=0,0:22:07.58,0:22:10.21,Dialog_Yellow,Dialog,0000,0000,0000,,...chci øíct, dívat se\Nna pøíští epizodu Nadesica!

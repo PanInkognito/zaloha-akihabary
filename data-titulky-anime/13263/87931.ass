@@ -1,0 +1,417 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Warning,Open Sans Semibold,26,&H00ECC6FD,&H000000FF,&H003D0D57,&H0042105A,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: Warning - Copy,Open Sans Semibold,26,&H0068EE67,&H000000FF,&H00020004,&H000A020E,1,0,0,0,100,100,0,0,1,2,1,2,27,27,37,0
+Style: sign_3564_24_A_Mad_Hand_Appea,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H0021271D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,85,533,264,0
+Style: sign_10357_129_Popularity_Poll_,Open Sans Semibold,29,&H00101212,&H000000FF,&H00E8F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,13,13,99,0
+Style: sign_10759_134_Female_Hero_Send,Open Sans Semibold,35,&H000E120F,&H000000FF,&H00EBEDEB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,20,0
+Style: sign_10802_135_The_Two_Disappea,Open Sans Semibold,29,&H001E211F,&H000000FF,&H00CCCCCC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,65,267,69,0
+Style: sign_28705_341_Oedo_Dome,Open Sans Semibold,29,&H00082035,&H000000FF,&H0036ABF1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,60,325,64,0
+Style: sign_34163_377_Preview,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_2394_5_Oedo_Dome,Open Sans Semibold,26,&H00363535,&H000000FF,&H00FDF4EB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,71,83,203,0
+Style: Song,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.61,0:00:15.61,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:12.49,0:00:15.61,Slip Arc,OP Card,0000,0000,0000,,Porori ark
+Dialogue: 0,0:01:31.83,0:01:33.83,Default,,0,0,0,,Chabý překlad: Pazii
+Dialogue: 0,0:01:33.86,0:01:39.82,Ep Title,Title,0000,0000,0000,,{\fad(442,1)}Hvězdný Symbol Cti
+Dialogue: 0,0:01:39.82,0:01:41.33,sign_2394_5_Oedo_Dome,Sign,0000,0000,0000,,Oedo Dóm
+Dialogue: 0,0:01:43.65,0:01:47.45,Main,Tsuk,0000,0000,0000,,{\an8}S tímhle jdi k čertu. Jen samotné \Nsetkání s fanoušky je mi proti srsti.
+Dialogue: 0,0:01:43.70,0:01:50.52,Warning - Copy,Warning,0000,0000,0000,,{\fad(487,536)}SaD48 {\c&H8d3fe5&}žádájí!! Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV!!! ♥
+Dialogue: 0,0:01:47.45,0:01:51.05,Main,Tsuk,0000,0000,0000,,{\an8}Jestli to chceš uspořádat na záchodech,\Nklidně by se to dalo odbýt v Yoshiwaře.
+Dialogue: 0,0:01:51.05,0:01:52.59,Main,Shin,0000,0000,0000,,V tomhle vidíš problém, Tsukuyo-san?
+Dialogue: 0,0:01:52.59,0:01:55.68,Main,Sac,0000,0000,0000,,Mně nic nemusíte vysvětlovat. Už předtím \Njsem byla producentův záchod.
+Dialogue: 0,0:01:55.68,0:01:56.59,Main,Shin,0000,0000,0000,,Ty zavři zobák!
+Dialogue: 0,0:01:56.59,0:02:00.48,Main,Kyu,0000,0000,0000,,Idol neidol, jako samuraj se odmítám dotknout\Nněčeho tak špinavého.
+Dialogue: 0,0:02:00.48,0:02:03.49,Main,Kyu,0000,0000,0000,,Jediná věc, kterou by měl samuraj držet, je meč, vztahy s mocnými lidmi,
+Dialogue: 0,0:02:03.49,0:02:07.53,Main,Kyu,0000,0000,0000,,kontrola nad rodinou Yagyu s právem na \Njejí dědictví, akcie na trhu a rýžové kuličky.
+Dialogue: 0,0:02:07.53,0:02:10.40,Main,Shin,0000,0000,0000,,Nedělej rýžový kuličky rukama, co se \Ndotýkaly takovýho svinstva, samurajská celebrito!
+Dialogue: 0,0:02:10.93,0:02:14.72,Main,Tae,0000,0000,0000,,Mimoto je potřásání rukou na záchodě \Nvůči našim fanouškům hrubé.
+Dialogue: 0,0:02:14.72,0:02:17.53,Main,Tae,0000,0000,0000,,Chceme s našimi fanoušky zacházet lépe.
+Dialogue: 0,0:02:17.53,0:02:18.61,Main,Tae,0000,0000,0000,,A v tom případě
+Dialogue: 0,0:02:19.75,0:02:21.70,Main,Tae,0000,0000,0000,,ať pod toalety jdou namísto nás oni.
+Dialogue: 0,0:02:21.70,0:02:23.49,Main,Shin,0000,0000,0000,,Tak s nima i líp zacházej!
+Dialogue: 0,0:02:23.49,0:02:25.37,Main,Tae,0000,0000,0000,,A aby to bylo hygieničtější,
+Dialogue: 0,0:02:25.82,0:02:29.39,Main,Tae,0000,0000,0000,,můžou místo nás držet ve svých rukách Cliftův osud.
+Dialogue: 0,0:02:28.64,0:02:33.92,sign_3564_24_A_Mad_Hand_Appea,Sign,0000,0000,0000,,Objevila se\NBlátivá Ruka
+Dialogue: 0,0:02:29.39,0:02:31.09,Main,Shin,0000,0000,0000,,Nedělej z fanoušku Blátivý ruce z DQ!
+Dialogue: 0,0:02:31.09,0:02:33.92,Main,Shin,0000,0000,0000,,Přestaň už Clifta tahat za nohu! A ty nás svou \Nneschopností netahej za nos, Clifte!
+Dialogue: 0,0:02:33.92,0:02:35.63,Main,Tae,0000,0000,0000,,Pomiňme vše, co se stalo,
+Dialogue: 0,0:02:36.19,0:02:37.92,Main,Tae,0000,0000,0000,,a jedno spláchnutí to spraví.
+Dialogue: 0,0:02:37.92,0:02:38.77,Main,Shin,0000,0000,0000,,Nic se nespláchne!
+Dialogue: 0,0:02:38.77,0:02:41.39,Main,Shin,0000,0000,0000,,Ani velký tlačítko nad záchodem nespláchne \Ntvoje zlý skutky a Cliftovy city pryč!
+Dialogue: 0,0:02:41.39,0:02:44.14,Main,Tae,0000,0000,0000,,Funguje to na stejném principu jako {\i1}Gintama{\i0} filmy.
+Dialogue: 0,0:02:44.14,0:02:46.75,Main,Tae,0000,0000,0000,,Jakmile vtáhneme fanoušky dovnitř, máme vyhráno.
+Dialogue: 0,0:02:46.75,0:02:50.66,Main,Tae,0000,0000,0000,,Potom se k nám budou hrnout prachy, i když ten film nestojí ani za nic.
+Dialogue: 0,0:02:50.66,0:02:52.09,Main,Shin,0000,0000,0000,,Přestaň mlet blbosti!
+Dialogue: 0,0:02:52.09,0:02:55.02,Main,Shin,0000,0000,0000,,Neházej nás do stejnýho pytle s tím \Ntvým podvodnickým kabaretním klubem!
+Dialogue: 0,0:02:55.02,0:02:57.09,Main,G,0000,0000,0000,,H-Hej, co se tam vevnitř stalo?
+Dialogue: 0,0:02:57.09,0:02:58.65,Main,G,0000,0000,0000,,Um, myslím...
+Dialogue: 0,0:02:58.65,0:03:02.18,Main,G,0000,0000,0000,,že jsem se dotkl něčeho měkkého, co začíná na "kli."
+Dialogue: 0,0:03:02.18,0:03:03.87,Main,G,0000,0000,0000,,"Kli"? Něco měkkého?!
+Dialogue: 0,0:03:03.87,0:03:06.34,Main,G,0000,0000,0000,,A potom vystříkla voda...
+Dialogue: 0,0:03:06.34,0:03:08.25,Main,G,0000,0000,0000,,Vystříkla svěcená voda?!
+Dialogue: 0,0:03:08.25,0:03:11.17,Main,G,0000,0000,0000,,J-Jdu do řady k Otae-chan!
+Dialogue: 0,0:03:11.17,0:03:14.08,Main,G,0000,0000,0000,,Zdá se být smělá a uspořádaná, ale v reálu je\Npěkná divoška! Je nejlepší!
+Dialogue: 0,0:03:14.08,0:03:17.07,Main,Shin,0000,0000,0000,,Nějakým zázrakem se stalo nedorozumění a utvořila se řada!
+Dialogue: 0,0:03:17.07,0:03:18.03,Main,Tae,0000,0000,0000,,Notak, notak.
+Dialogue: 0,0:03:18.03,0:03:21.46,Main,Tae,0000,0000,0000,,Nespěchejte, kluci. Vstupujte dovnitř hezky po jednom, ano?
+Dialogue: 0,0:03:21.46,0:03:24.18,Main,Kag,0000,0000,0000,,No, když už se ta řada \Nutvořila, můžeme to tak nechat.
+Dialogue: 0,0:03:24.18,0:03:26.43,Main,Sac,0000,0000,0000,,Pff! Nechtějte mě rozesmát!
+Dialogue: 0,0:03:26.93,0:03:30.79,Main,Sac,0000,0000,0000,,Co na ní může bejt měkkýho?
+Dialogue: 0,0:03:30.79,0:03:35.81,Main,Sac,0000,0000,0000,,Jak můžete vidět, je jako Yetti \Ns hrudí jako strmý kamenný útes!
+Dialogue: 0,0:03:36.15,0:03:37.50,Main,Tae,0000,0000,0000,,Sacchan...
+Dialogue: 0,0:03:37.50,0:03:41.52,Main,Tae,0000,0000,0000,,Mohla bys přestat závidět, že nikdo nechodí k tobě na toaletu?
+Dialogue: 0,0:03:41.52,0:03:44.70,Main,Tae,0000,0000,0000,,Buď hodná opička a jezdi si na zádech někomu cizímu, ano?
+Dialogue: 0,0:03:44.70,0:03:46.21,Main,Sac,0000,0000,0000,,Otae...
+Dialogue: 0,0:03:46.21,0:03:51.51,Main,Sac,0000,0000,0000,,Opice na zádech je anglický idiom, který znamená, že \Nmá někdo problém, nikoliv doslovná opice.
+Dialogue: 0,0:03:51.51,0:03:53.71,Main,Sac,0000,0000,0000,,Tvůj mozek se už taky přeměnil v kamenný útes?
+Dialogue: 0,0:03:53.71,0:03:55.92,Main,Kag,0000,0000,0000,,Hej! Šéfko, Sacchan!
+Dialogue: 0,0:03:55.92,0:03:59.97,Main,Tae,0000,0000,0000,,A já říkám, že si na těhlech špinavých chlapech můžeš sama jezdit bez sedla.
+Dialogue: 0,0:03:59.97,0:04:02.69,Main,Sac,0000,0000,0000,,Slyšeli jste ji, kluci? \NPřesně taková Otae doopravdy je!
+Dialogue: 0,0:04:02.69,0:04:04.34,Main,Shin,0000,0000,0000,,S kým sakra válčíte?!
+Dialogue: 0,0:04:04.65,0:04:05.97,Main,Sac,0000,0000,0000,,Co to říkáš?
+Dialogue: 0,0:04:05.97,0:04:08.59,Main,Sac,0000,0000,0000,,Tohle je přece válka o nejlepší idol
+Dialogue: 0,0:04:08.59,0:04:10.70,Main,Sac,0000,0000,0000,,a o pozici šéfky Diamantového Vákua!
+Dialogue: 0,0:04:10.70,0:04:11.99,Main,Shin,0000,0000,0000,,Koho to sakra zajímá?!
+Dialogue: 0,0:04:11.99,0:04:13.77,Main,Sac,0000,0000,0000,,Nikdo krom mě nebude v čele.
+Dialogue: 0,0:04:13.77,0:04:17.48,Main,Sac,0000,0000,0000,,Spíš než tuhle nádheru byste si měli zvolit mě.
+Dialogue: 0,0:04:17.48,0:04:20.22,Main,Sac,0000,0000,0000,,Hej, nechtěli byste si potřást rukou se mnou?
+Dialogue: 0,0:04:20.22,0:04:22.99,Main,Sac,0000,0000,0000,,Mám dvě věci, které jsou mnohem měkčí, než ta její.
+Dialogue: 0,0:04:22.99,0:04:24.49,Main,Sac,0000,0000,0000,,Dívejte.
+Dialogue: 0,0:04:26.03,0:04:27.65,Main,G,0000,0000,0000,,Rozmyslel jsem se, jdu k Sacchan!
+Dialogue: 0,0:04:27.65,0:04:31.53,Main,G,0000,0000,0000,,Možná nosí brýle, ale jinak je to kus! Je nejlepší!
+Dialogue: 0,0:04:31.53,0:04:33.69,Main,Tae,0000,0000,0000,,Ty malá zatracená štětko!
+Dialogue: 0,0:04:35.41,0:04:36.71,Main,Sac,0000,0000,0000,,Já budu v čele!
+Dialogue: 0,0:04:36.71,0:04:40.47,Main,Sac,0000,0000,0000,,Ve vozíku si můžeš vystříkat tolik svěcený vody, \Nkolik jen chceš, Clifte!
+Dialogue: 0,0:04:42.43,0:04:44.72,Main,Sac,0000,0000,0000,,Ne... Musíš mě držet něžněji.
+Dialogue: 0,0:04:44.72,0:04:46.89,Main,Shin,0000,0000,0000,,Hej! Co tam děláte?!
+Dialogue: 0,0:04:46.89,0:04:50.45,Main,Sac,0000,0000,0000,,Když budeš tak moc třást, \Nrozdrtíš mi moje
+Dialogue: 0,0:04:50.45,0:04:52.77,Main,Sac,0000,0000,0000,,měkké koule!
+Dialogue: 0,0:04:53.26,0:04:55.77,Main,Tae,0000,0000,0000,,Jsou to jen Breyovy zlaté koule!
+Dialogue: 0,0:04:55.77,0:04:57.10,Main,Shin,0000,0000,0000,,Co sakra děláte?!
+Dialogue: 0,0:04:57.10,0:05:00.70,Main,Shin,0000,0000,0000,,Zvrtlo se to v setkání s Dragon Quest 48!
+Dialogue: 0,0:05:00.70,0:05:02.71,Main,Shin,0000,0000,0000,,Kde jste je vůbec našly?!
+Dialogue: 0,0:05:02.71,0:05:06.65,Main,Tae,0000,0000,0000,,Clift a Brey se před finální bitvou potřebovali zbavit svých starostí!
+Dialogue: 0,0:05:06.65,0:05:10.53,Main,Shin,0000,0000,0000,,Vy dvě jste Clift a Brey z SaD48!
+Dialogue: 0,0:05:11.67,0:05:12.93,Main,Gin,0000,0000,0000,,Přesně tak.
+Dialogue: 0,0:05:12.93,0:05:15.29,Main,Gin,0000,0000,0000,,Dobrá práce, Clifte, Brey.
+Dialogue: 0,0:05:16.07,0:05:18.88,Main,Gin,0000,0000,0000,,Zamysleme se nad Alinou a McRyanem z DQ48.
+Dialogue: 0,0:05:18.88,0:05:23.35,Main,Gin,0000,0000,0000,,Víte, proč si za bojovníka z těhlech dvou volí většina lidí zrovna Alinu?
+Dialogue: 0,0:05:23.35,0:05:28.14,Main,Gin,0000,0000,0000,,Protože narozdíl od McRyana, kterej je osamocenej jak kůl v plotě, má s sebou Alina Clifta a Breye.
+Dialogue: 0,0:05:28.14,0:05:29.11,Main,Shin,0000,0000,0000,,To snad...
+Dialogue: 0,0:05:29.71,0:05:32.85,Main,Gin,0000,0000,0000,,Jo. Jsou jako skupina idolů.
+Dialogue: 0,0:05:32.85,0:05:35.31,Main,Gin,0000,0000,0000,,Hvězda leaderky Aliny září nejjasněji v celý tý temnotě,
+Dialogue: 0,0:05:35.31,0:05:38.73,Main,Gin,0000,0000,0000,,ve který se schovává Clift a Brey.
+Dialogue: 0,0:05:38.73,0:05:39.44,Main,Gin,0000,0000,0000,,Což znamená...
+Dialogue: 0,0:05:39.44,0:05:41.32,Main,G,0000,0000,0000,,Vlastně je nejlepší Kyubei-chan!
+Dialogue: 0,0:05:41.32,0:05:44.04,Default,,0,0,0,,{\c&H80ffff&\an8}[Tomboy je dívka, která vykazuje vlastnosti většinou připisované klukům]
+Dialogue: 0,0:05:41.32,0:05:44.04,Main,G,0000,0000,0000,,Narozdíl od těch dvou štětek je ona čistý tomboy!
+Dialogue: 0,0:05:44.04,0:05:46.74,Main,G,0000,0000,0000,,Navíc má pásku přes oko a culíky na obou stranách!
+Dialogue: 0,0:05:46.74,0:05:49.45,Main,G,0000,0000,0000,,Klasika je nejlepší!
+Dialogue: 0,0:05:50.32,0:05:51.95,Main,Gin,0000,0000,0000,,Běž, Alino!
+Dialogue: 0,0:05:52.42,0:05:55.69,Main,Gin,0000,0000,0000,,Přejdi přes mrtvoly Clifta a Breye!
+Dialogue: 0,0:06:00.58,0:06:04.09,Internal,Gin,0000,0000,0000,,Zapoměl jsem, že Alina může podniknout kritický údery.
+Dialogue: 0,0:06:05.45,0:06:07.18,Main,Kyu,0000,0000,0000,,Nešahejte na mě!
+Dialogue: 0,0:06:07.18,0:06:10.73,Main,Kag,0000,0000,0000,,Ukazuje se, že v sobě Alina nosí tolik \Ntemnoty, že by se mohla rovnat s Psarem.
+Dialogue: 0,0:06:10.73,0:06:13.97,Main,Shin,0000,0000,0000,,Děláte si ze mě prdel?! \NKvůli čemu sem teda přišla?!
+Dialogue: 0,0:06:14.66,0:06:16.07,Main,Kyu,0000,0000,0000,,D-Dejte mi nějaký čas.
+Dialogue: 0,0:06:16.07,0:06:17.93,Main,Kyu,0000,0000,0000,,Postupně si začínám zvykat.
+Dialogue: 0,0:06:17.93,0:06:20.88,Main,Kyu,0000,0000,0000,,Myslím, že se přes to budu moci přenést, až jich vyřídím dalších 1500.
+Dialogue: 0,0:06:20.88,0:06:22.89,Main,Shin,0000,0000,0000,,Zničíš nám všechny fanoušky!
+Dialogue: 0,0:06:22.89,0:06:25.00,Main,Tae,0000,0000,0000,,Proč tedy 1500x nevyřídíš Clifta?
+Dialogue: 0,0:06:25.00,0:06:26.32,Main,Sac,0000,0000,0000,,A taky Breye.
+Dialogue: 0,0:06:26.70,0:06:28.51,Main,Shin,0000,0000,0000,,Nenaslouchej těm ďábelským hlasům!
+Dialogue: 0,0:06:28.51,0:06:30.61,Main,Shin,0000,0000,0000,,Už konečně ušetřete Clifta a Breye!
+Dialogue: 0,0:06:30.61,0:06:32.32,Main,Tsuk,0000,0000,0000,,Zastav, Kyubei.
+Dialogue: 0,0:06:32.32,0:06:33.65,Main,Tsuk,0000,0000,0000,,Netlač na sebe.
+Dialogue: 0,0:06:33.65,0:06:34.83,Main,Kyu,0000,0000,0000,,Tsukuyo-dono?
+Dialogue: 0,0:06:34.83,0:06:40.61,Main,Tsuk,0000,0000,0000,,Pokud nedokážeš držet ruce mužů, \Nvezmu to za tebe.
+Dialogue: 0,0:06:40.61,0:06:43.34,Main,Kyu,0000,0000,0000,,Ale já na tebe nemůžu přenést takové břemeno.
+Dialogue: 0,0:06:43.34,0:06:48.22,Main,Tsuk,0000,0000,0000,,Neměj obavy. Svou ženskost jsem před lety odhodila, ale pořád jsem žena z Yoshiwary.
+Dialogue: 0,0:06:48.57,0:06:51.72,Main,Tsuk,0000,0000,0000,,Jsem připravena čelit mužským touhám.
+Dialogue: 0,0:06:51.72,0:06:53.08,Main,Kyu,0000,0000,0000,,Jsi tak milá!
+Dialogue: 0,0:06:53.08,0:06:54.47,Main,Gin,0000,0000,0000,,Proč seš z toho tak mimo?!
+Dialogue: 0,0:06:54.47,0:06:59.23,Main,Shin,0000,0000,0000,,Stále máme ultimátní zbraň. Ženskou hrdinku, \Nkterá dělá Alinině skupince zálohu!
+Dialogue: 0,0:06:59.23,0:07:03.32,Main,G,0000,0000,0000,,Zdá se být jako chladná, rezervovaná kráska, \Nale je tak laskavá a stará se o ostatní!
+Dialogue: 0,0:07:03.32,0:07:05.28,Main,G,0000,0000,0000,,Tsukuyo-chan je nejlepší!
+Dialogue: 0,0:07:05.28,0:07:06.48,Main,Shin,0000,0000,0000,,Tohle je naše šance!
+Dialogue: 0,0:07:06.48,0:07:09.38,Main,Tae,0000,0000,0000,,Ale, není tady někdo populární, Tsukuyo-san?
+Dialogue: 0,0:07:09.38,0:07:11.15,Main,Shin,0000,0000,0000,,Vy dvě okamžitě padejte zpátky do vozíku!
+Dialogue: 0,0:07:11.15,0:07:15.74,Main,Sac,0000,0000,0000,,{\an8}Po žebříčku popularity chceš vyžrat i přední pozici v Diamantovém Vákuu?
+Dialogue: 0,0:07:11.97,0:07:21.50,sign_10357_129_Popularity_Poll_,Sign,0000,0000,0000,,{\fad(500,500)}Žebříček Popularity (Díly 182 - 184) Listopad 2009
+Dialogue: 0,0:07:15.74,0:07:18.70,Main,Sac,0000,0000,0000,,{\an8}No jistě, že bude žena z Yoshiwary \Ndobře obeznámena s castingama v posteli.
+Dialogue: 0,0:07:18.70,0:07:21.50,Main,Shin,0000,0000,0000,,{\an8}Už je to 8 let a vy jste se přes to furt nepřenesly?!
+Dialogue: 0,0:07:21.50,0:07:26.09,Main,Sac,0000,0000,0000,,Ale leaderka na sebe přitahuje většinu pozornosti.
+Dialogue: 0,0:07:26.09,0:07:30.50,Main,Sac,0000,0000,0000,,Takže jako zbytek tvojí kapely chceme, abys byla opatrnější.
+Dialogue: 0,0:07:28.71,0:07:30.50,sign_10759_134_Female_Hero_Send,Sign,0000,0000,0000,,Ženská Hrdinka Posílá Clifta Do Vozíku!!
+Dialogue: 0,0:07:30.50,0:07:31.97,sign_10802_135_The_Two_Disappea,Sign,0000,0000,0000,,Dvojice zmizela ve vozíku, \Nkde vyčkával Brey...
+Dialogue: 0,0:07:30.50,0:07:31.97,Main,Shin,0000,0000,0000,,Co je tohle dohajzlu za skandál?!
+Dialogue: 0,0:07:31.97,0:07:35.86,Main,Shin,0000,0000,0000,,Proč přibarvujete situace, abyste udupaly vlastní kámošku?!
+Dialogue: 0,0:07:35.86,0:07:37.89,Main,Sac,0000,0000,0000,,Jak za to hodláš převzít zodpovědnost?
+Dialogue: 0,0:07:37.89,0:07:41.97,Main,Tae,0000,0000,0000,,Vyhnání do vozíku Hakata není dostačující. Pojedeš do Indonesie!
+Dialogue: 0,0:07:41.97,0:07:44.99,Main,Shin,0000,0000,0000,,V Indonésii neexustuje vaše zasraná organizace!
+Dialogue: 0,0:07:45.52,0:07:46.83,Main,Tsuk,0000,0000,0000,,Na nic takového si nepamatuji,
+Dialogue: 0,0:07:46.83,0:07:50.06,Main,Tsuk,0000,0000,0000,,ale pokud mě to vytáhne z tohohle \Nstupidního bordelu, vezmu to.
+Dialogue: 0,0:07:50.06,0:07:51.11,Main,Shin,0000,0000,0000,,Mělo to na ní nulovej efekt!
+Dialogue: 0,0:07:51.11,0:07:54.10,Main,Sac,0000,0000,0000,,Ten tvůj laxní přístup k věcem mě pěkně vytáčí!
+Dialogue: 0,0:07:54.10,0:07:57.74,Default,,0,0,0,,{\c&H80ffff&\an8}[Kletba, která sesílá okamžitou smrt]
+Dialogue: 0,0:07:54.10,0:07:55.25,Main,Sac,0000,0000,0000,,Mám na tebe použít Zaraki?!
+Dialogue: 0,0:07:55.25,0:07:57.74,Main,Sac,0000,0000,0000,,Nelži! Taky chceš být leaderka a být středem pozornosti, ne?
+Dialogue: 0,0:07:57.74,0:08:00.68,Main,Tsuk,0000,0000,0000,,Podívej, jestli chceš hrát ve středu pole, nebo kdekoliv,
+Dialogue: 0,0:08:00.68,0:08:03.01,Main,Tsuk,0000,0000,0000,,prvně si sežeň lidi, co s tebou ten baseball budou hrát!
+Dialogue: 0,0:08:03.01,0:08:04.30,Main,Sac,0000,0000,0000,,Nehraj na mě blbou!
+Dialogue: 0,0:08:04.30,0:08:07.75,Main,Shin,0000,0000,0000,,Nechte toho! Vaše příšerná rivalita \Nodstrašuje fanoušky!
+Dialogue: 0,0:08:07.75,0:08:08.85,Main,Tae,0000,0000,0000,,Oh, počkejte!
+Dialogue: 0,0:08:08.85,0:08:11.01,Main,Sac,0000,0000,0000,,Dělaly jsme si srandu! To byl jen vtipný skeč!
+Dialogue: 0,0:08:11.01,0:08:12.55,Main,Sac,0000,0000,0000,,Vraťte se!
+Dialogue: 0,0:08:16.01,0:08:18.85,Main,Com,0000,0000,0000,,Um, promiňte. Mohl bych, no,
+Dialogue: 0,0:08:19.54,0:08:21.14,Main,Com,0000,0000,0000,,si dojít na velkou?
+Dialogue: 0,0:08:26.66,0:08:28.96,Main,Com,0000,0000,0000,,Wau! Začalo to vytékat!
+Dialogue: 0,0:08:28.96,0:08:30.03,Main,Shin,0000,0000,0000,,Tohle jsme vědět nepotřebovali!
+Dialogue: 0,0:08:30.03,0:08:33.77,Main,Com,0000,0000,0000,,Moje zbytky jsou stejně prohnilé, jako \Nmorálka Soplů a Diamantů 48!
+Dialogue: 0,0:08:33.77,0:08:35.98,Main,Com,0000,0000,0000,,Jejich chování ve sféře idolů tak vyčnívá,
+Dialogue: 0,0:08:35.98,0:08:38.30,Main,Com,0000,0000,0000,,že se jak fanoušci, tak i mé zbytky\Nrozlétli do prostoru!
+Dialogue: 0,0:08:38.30,0:08:40.29,Main,Shin,0000,0000,0000,,Přestaň nás pořád informovat o svým sraní!
+Dialogue: 0,0:08:40.29,0:08:46.29,Main,Com,0000,0000,0000,,Mezitím se Děvky Galaktického Království 48 \Nblíží čtyřcifernému číslu!
+Dialogue: 0,0:08:46.29,0:08:50.23,Main,Com,0000,0000,0000,,Těžko říci, co se odehrává za těmi čarovnými závěsy,
+Dialogue: 0,0:08:50.23,0:08:52.67,Main,Com,0000,0000,0000,,ale fanoušci jeden po jednom upadají!
+Dialogue: 0,0:08:53.85,0:08:57.55,Main,Bit,0000,0000,0000,,Je po všem, Soply a Diamanty 48.
+Dialogue: 0,0:08:58.69,0:09:02.05,Main,Gin,0000,0000,0000,,Nejspíš budem muset něco udělat s tím \Njejich záhadným setkáním s fanouškama.
+Dialogue: 0,0:09:02.05,0:09:03.56,Main,Shin,0000,0000,0000,,Ještě ne.
+Dialogue: 0,0:09:04.53,0:09:08.15,Main,Shin,0000,0000,0000,,Soply a Diamanty 48 ještě neskončily.
+Dialogue: 0,0:09:09.05,0:09:11.86,Main,Shin,0000,0000,0000,,Terakado Tsu ještě neskončila!
+Dialogue: 0,0:09:12.50,0:09:15.90,Main,Shin,0000,0000,0000,,Ne, dokud tu bude kapitán fanklubu Terakado Tsu,
+Dialogue: 0,0:09:15.90,0:09:17.86,Main,Shin,0000,0000,0000,,Shimura Shinpachi.
+Dialogue: 0,0:09:17.86,0:09:20.54,Main,Shin,0000,0000,0000,,Zastavím je.
+Dialogue: 0,0:09:20.54,0:09:24.83,Main,Shin,0000,0000,0000,,Takže Kaguro-chan, Otsu-chan, \Nzbytek závisí na vás.
+Dialogue: 0,0:09:27.34,0:09:31.21,Main,Bit,0000,0000,0000,,Kapitán fanklubu Terakado Tsu,\N Shimura Shinpachi.
+Dialogue: 0,0:09:31.21,0:09:35.09,Main,Bit,0000,0000,0000,,Vážně chceš okusit naše setkání s fanoušky?
+Dialogue: 0,0:09:35.42,0:09:40.60,Main,Bit,0000,0000,0000,,Zapomněl jsi, co se stalo, když to zkoušeli tvoji přátelé?
+Dialogue: 0,0:09:41.70,0:09:42.85,Main,Shin,0000,0000,0000,,Otsu-chan...
+Dialogue: 0,0:09:43.19,0:09:44.85,Main,Shin,0000,0000,0000,,Dokud budeš zpívat,
+Dialogue: 0,0:09:45.53,0:09:47.85,Main,Shin,0000,0000,0000,,tví fanoušci nikam neodejdou.
+Dialogue: 0,0:09:48.82,0:09:50.98,Main,Shin,0000,0000,0000,,Dokonce i v době, kdy jsi ještě neměla fanoušky,
+Dialogue: 0,0:09:50.98,0:09:54.81,Main,Shin,0000,0000,0000,,jsi měla radost ze zpívání na ulici.
+Dialogue: 0,0:09:55.51,0:10:00.46,Main,Shin,0000,0000,0000,,Někdo, koho jsi v tu dobu chytla za srdce, tu pořád je.
+Dialogue: 0,0:10:01.42,0:10:06.62,Main,Shin,0000,0000,0000,,Stejně, jako když jsi nás v našich těžkých\Nčasech podporovala svým hlasem,
+Dialogue: 0,0:10:07.11,0:10:13.30,Main,Shin,0000,0000,0000,,tu máš fanouška, který tě podpoří v tvém těžkém období.
+Dialogue: 0,0:10:13.88,0:10:17.90,Main,Shin,0000,0000,0000,,Pokud bys o všechno přišla, můžeš na tom místě začít odznovu.
+Dialogue: 0,0:10:18.66,0:10:21.89,Main,Shin,0000,0000,0000,,Pokud budeš zpívat, rád tě přijdu \Nkaždý den poslouchat...
+Dialogue: 0,0:10:22.49,0:10:24.65,Main,Shin,0000,0000,0000,,Do té koncertové haly jen pro nás dva.
+Dialogue: 0,0:10:26.07,0:10:28.23,Main,Shin,0000,0000,0000,,Ať se stane cokoliv,
+Dialogue: 0,0:10:28.59,0:10:31.98,Main,Shin,0000,0000,0000,,já budu první i poslední fanoušek Terakado Tsu.
+Dialogue: 0,0:10:31.98,0:10:33.92,Main,Bit,0000,0000,0000,,Vtipné.
+Dialogue: 0,0:10:33.92,0:10:36.39,Main,Bit,0000,0000,0000,,Tím, že přejdeš přes naše potřesení rukou,
+Dialogue: 0,0:10:36.39,0:10:40.44,Main,Bit,0000,0000,0000,,chceš motivovat tu zbabělou holku a nerozhodnuté fanoušky?
+Dialogue: 0,0:10:40.44,0:10:42.58,Main,Bit,0000,0000,0000,,No, uvidíme, jak se ti povede.
+Dialogue: 0,0:10:42.58,0:10:46.02,Main,Bit,0000,0000,0000,,Jak si přeješ, uděláme z tebe posledního fanouška Terakado Tsu
+Dialogue: 0,0:10:46.02,0:10:47.75,Main,Bit,0000,0000,0000,,zotročením tvého srdce!
+Dialogue: 0,0:10:48.11,0:10:50.16,Main,Shin,0000,0000,0000,,Bereš mi ty slova z úst.
+Dialogue: 0,0:10:50.16,0:10:53.54,Main,Shin,0000,0000,0000,,Jsem Shimura Shinpachi, kapitán \Nfanklubu Terakado Tsu.
+Dialogue: 0,0:10:53.54,0:10:54.59,Main,Shin,0000,0000,0000,,Jdu na to!
+Dialogue: 0,0:10:54.95,0:10:57.51,Main,Gin,0000,0000,0000,,Sh-Shinpachi!
+Dialogue: 0,0:10:59.65,0:11:00.93,Main,Gin,0000,0000,0000,,To bylo rychlý!
+Dialogue: 0,0:11:00.93,0:11:03.60,Main,Gin,0000,0000,0000,,Co s tebou je? Po všech těch kecech \Njsi mrknutím oka padnul jak moucha!
+Dialogue: 0,0:11:03.60,0:11:05.72,Main,Gin,0000,0000,0000,,Neuvěřitelne rychle ses svlíknul jen do trenek!
+Dialogue: 0,0:11:07.62,0:11:11.60,Main,Bit,0000,0000,0000,,Dokonce i její nejstarší fanoušek a rytíř ve zlaté zbroji\Nje jen ubohý panický šprt.
+Dialogue: 0,0:11:11.60,0:11:15.34,Main,Bit,0000,0000,0000,,Naše potřesení rukou dokáže ve chvíli \Nočarovat každého, bez ohledu na to, čí je fanoušek.
+Dialogue: 0,0:11:15.34,0:11:17.70,Main,Bit,0000,0000,0000,,Teď už Terakado Tsu nezbývá jediný fanoušek...
+Dialogue: 0,0:11:17.70,0:11:21.21,Main,Shin,0000,0000,0000,,Až se dostnu domů, vyhodím všechny svoje porno časáky.
+Dialogue: 0,0:11:22.10,0:11:25.13,Main,Shin,0000,0000,0000,,Ale ze svých CDček od Otsu-chan
+Dialogue: 0,0:11:25.61,0:11:27.86,Main,Shin,0000,0000,0000,,nehodlám dát ani jedno pryč.
+Dialogue: 0,0:11:28.34,0:11:31.19,Internal,Bit,0000,0000,0000,,Moje anténka? Kdy to...
+Dialogue: 0,0:11:32.99,0:11:35.57,Main,Com,0000,0000,0000,,Wau, Shimura předvedl úspěšný návrat!
+Dialogue: 0,0:11:37.21,0:11:39.78,Main,Com,0000,0000,0000,,A co se tady děje?
+Dialogue: 0,0:11:39.78,0:11:42.26,Main,Com,0000,0000,0000,,Slečna Kurvička se najednou začala svíjet v bolestech!
+Dialogue: 0,0:11:42.26,0:11:45.64,Main,Shin,0000,0000,0000,,Přišlo mi zvláštní, že může jediné potřesení rukou
+Dialogue: 0,0:11:46.01,0:11:49.27,Main,Shin,0000,0000,0000,,zfanatizovat každého ve vesmíru.
+Dialogue: 0,0:11:49.61,0:11:51.47,Main,Shin,0000,0000,0000,,Vaše práce je prodávání snů?
+Dialogue: 0,0:11:51.47,0:11:52.35,Main,Shin,0000,0000,0000,,Ne.
+Dialogue: 0,0:11:56.73,0:12:02.44,Main,Shin,0000,0000,0000,,To, co jste nám předváděly, byly jenom iluze, Děvky Galaktického Království 48!
+Dialogue: 0,0:12:02.44,0:12:04.53,Main,Bit,0000,0000,0000,,T-Ty hajzle!
+Dialogue: 0,0:12:04.53,0:12:08.85,Main,Com,0000,0000,0000,,Po ztrátě své anténky se Slečna Kurvička \Npřeměnila na úplně jinou osobu!
+Dialogue: 0,0:12:08.85,0:12:11.78,Main,Com,0000,0000,0000,,T-To není vše! Z čarovných závěsů
+Dialogue: 0,0:12:11.78,0:12:14.54,Main,Com,0000,0000,0000,,se ven sápají neznámé ošklivky!
+Dialogue: 0,0:12:14.54,0:12:17.25,Main,Taka,0000,0000,0000,,Shin-chan má pravdu.
+Dialogue: 0,0:12:17.69,0:12:20.01,Main,Taka,0000,0000,0000,,Nevím, jak u ostatních fanoušků,
+Dialogue: 0,0:12:20.01,0:12:23.05,Main,Taka,0000,0000,0000,,ale pokud vyzvete na souboj nás, všechno vaše štěstí skončí.
+Dialogue: 0,0:12:23.49,0:12:26.51,Main,Taka,0000,0000,0000,,Vaše vymývání mozku na nás nezafungovalo.
+Dialogue: 0,0:12:26.51,0:12:27.55,Main,Taka,0000,0000,0000,,Protože...
+Dialogue: 0,0:12:27.55,0:12:30.97,Main,Taka,0000,0000,0000,,Protože jsme nejlepší fanoušci nejlepšího idola ve vesmíru!
+Dialogue: 0,0:12:30.97,0:12:34.06,Main,Taka,0000,0000,0000,,Protože jsme fanklub Terakado \NTsu, dynamit!
+Dialogue: 0,0:12:34.77,0:12:36.56,Main,Shin,0000,0000,0000,,Taka-chine! Kluci!
+Dialogue: 0,0:12:36.56,0:12:41.44,Main,Com,0000,0000,0000,,J-Je toto možné? Fanklub Terakado \NTsu se znovu zrodil ze svého popela!
+Dialogue: 0,0:12:41.93,0:12:46.78,Main,Com,0000,0000,0000,,Díky své čisté lásce k Otsu-chan odhalili \Ntajemství jejich hypnotické techniky!
+Dialogue: 0,0:12:47.27,0:12:48.18,Main,G,0000,0000,0000,,To ne!
+Dialogue: 0,0:12:48.18,0:12:50.45,Main,G,0000,0000,0000,,Naše nejspanilejší hvězdy!
+Dialogue: 0,0:12:50.45,0:12:54.45,Main,G,0000,0000,0000,,Šokující pravda uvádí fanoušky Děvek \NGalaktického Království 48 do silných rozpaků!
+Dialogue: 0,0:12:54.45,0:12:57.08,Main,G,0000,0000,0000,,No počkat, číslo spadlo na nulu!
+Dialogue: 0,0:12:57.50,0:13:00.17,Main,G,0000,0000,0000,,Kvůli vymývání mozku je považováno za neplatné!
+Dialogue: 0,0:13:00.17,0:13:04.34,Main,G,0000,0000,0000,,Soply a Diamanty 48 na poslední chvíli zázrakem \Npředvedly skvělý comeback!
+Dialogue: 0,0:13:04.86,0:13:07.37,Main,G,0000,0000,0000,,Ať o tomhle uslyší v celém vesmíru, lidi.
+Dialogue: 0,0:13:07.86,0:13:13.35,Main,G,0000,0000,0000,,Ať ví, kdo je nejlepší idol s nejlepšíma fanouškama.
+Dialogue: 0,0:13:14.39,0:13:18.10,Main,G,0000,0000,0000,,Fanklube Soplů a Diamantů 48, jdeme!
+Dialogue: 0,0:13:18.42,0:13:21.48,Main,G,0000,0000,0000,,L-O-V-E Otsu!
+Dialogue: 0,0:13:21.48,0:13:24.50,Main,All,0000,0000,0000,,L-O-V-E Otsu!
+Dialogue: 0,0:13:24.50,0:13:27.37,Main,Shin,0000,0000,0000,,L-O-V-E Kagura!
+Dialogue: 0,0:13:27.37,0:13:30.83,Main,All,0000,0000,0000,,{\an8}L-O-V-E Kagura!
+Dialogue: 0,0:13:28.57,0:13:30.82,Main,G,0000,0000,0000,,Pojdmě fandit s nimi.
+Dialogue: 0,0:13:30.82,0:13:35.50,Main,Com,0000,0000,0000,,Skandování fanklubu Soplů a Diamantů 48\Nse rozeznívá po celé aréně.
+Dialogue: 0,0:13:35.85,0:13:37.50,Main,Com,0000,0000,0000,,Jejich ohromující vášeň
+Dialogue: 0,0:13:37.50,0:13:41.63,Main,Com,0000,0000,0000,,je předávána fanouškům Děvek Galaktického \NKrálovství 48, kteří otevřeli své oči!
+Dialogue: 0,0:13:43.35,0:13:46.13,Main,Com,0000,0000,0000,,C-Co je to za zvuk?!
+Dialogue: 0,0:13:49.17,0:13:54.16,Main,Bit,0000,0000,0000,,Jak se opovažujete odhalit ukrytou tvář \Nidolů, která nikdy nesmí spatřit světlo světa?!
+Dialogue: 0,0:13:54.16,0:14:00.15,Main,Bit,0000,0000,0000,,Děvky Galaktického Království 48 vysílají záhadné zvukové vlny.
+Dialogue: 0,0:14:00.15,0:14:05.85,Main,Bit,0000,0000,0000,,Protože jste na to přišli, musíme vám všem znovu vymýt mozky.
+Dialogue: 0,0:14:05.85,0:14:09.45,Main,Bit,0000,0000,0000,,Do konce života budete tančit v \Nté bublině fantazií, která pro vás znamená idoly...
+Dialogue: 0,0:14:10.82,0:14:12.83,Main,Bit,0000,0000,0000,,Oh, to je...
+Dialogue: 0,0:14:14.01,0:14:19.21,Main,Kag,0000,0000,0000,,Zdá se, že tohle je to potřesení rukou, který potřebuješ.
+Dialogue: 0,0:14:19.21,0:14:24.09,Main,Com,0000,0000,0000,,Kagura z Soplů a Diamantů 48\Nzastavila Slečnu Kurvičku!
+Dialogue: 0,0:14:24.09,0:14:27.22,Main,Com,0000,0000,0000,,V tomto finále ji tlačí do boje!
+Dialogue: 0,0:14:27.22,0:14:31.60,Main,Com,0000,0000,0000,,Co děláte, vy paka? \NPospěšte si a vymývejte...
+Dialogue: 0,0:14:32.54,0:14:34.43,Main,GKB,0000,0000,0000,,Co je to za příšerný kravál?
+Dialogue: 0,0:14:34.43,0:14:38.05,Main,Tae,0000,0000,0000,,Je na čase ukázat výsledek našeho tréninku.
+Dialogue: 0,0:14:38.05,0:14:39.10,Main,Com,0000,0000,0000,,T-To jsou...
+Dialogue: 0,0:14:39.10,0:14:42.15,Main,Tae,0000,0000,0000,,Kaguro-chan, podporu nech na nás!
+Dialogue: 0,0:14:42.15,0:14:44.52,Main,Sac,0000,0000,0000,,Vezmi si hvězdnou slávu vlastníma rukama!
+Dialogue: 0,0:14:44.52,0:14:46.11,Main,Com,0000,0000,0000,,Je to kapela!
+Dialogue: 0,0:14:46.11,0:14:51.11,Main,Com,0000,0000,0000,,Diamantové Vákuum neutralizuje záhadné \Nzvukové vlny svou příšernou disharmonií!
+Dialogue: 0,0:14:52.18,0:14:52.99,Main,Com,0000,0000,0000,,Utrápení fanoušci,
+Dialogue: 0,0:14:52.99,0:14:54.58,Main,Com,0000,0000,0000,,uřvaný fanklub
+Dialogue: 0,0:14:54.58,0:14:55.99,Main,Com,0000,0000,0000,,a uskuhraná kapela.
+Dialogue: 0,0:14:55.99,0:14:59.37,Main,Com,0000,0000,0000,,Jejich osud leží v rukou těch dvou!
+Dialogue: 0,0:14:59.37,0:15:02.11,Main,Com,0000,0000,0000,,Je toto opravdu setkání s fanoušky?
+Dialogue: 0,0:15:02.11,0:15:07.76,Main,Com,0000,0000,0000,,Ne! Hvězdy tu ve skutečnosti riskují své životy!
+Dialogue: 0,0:15:07.76,0:15:10.72,Main,Bit,0000,0000,0000,,Vážně si myslíš, že nás můžete zastavit?
+Dialogue: 0,0:15:11.13,0:15:15.74,Main,Bit,0000,0000,0000,,Iluze a vymývání mozku je něco, co dělá každý idol.
+Dialogue: 0,0:15:15.74,0:15:18.83,Main,Bit,0000,0000,0000,,Pod povrchem jsou i idolové ušpinění lidé.
+Dialogue: 0,0:15:18.83,0:15:23.14,Main,Bit,0000,0000,0000,,Tu špínu ukrývají pod líčením, plastickými operacemi a \Nukazují svou falešnou krásu.
+Dialogue: 0,0:15:23.14,0:15:28.09,Main,Bit,0000,0000,0000,,Ukrývají ji přehráváním a ukazováním falešné čistoty.
+Dialogue: 0,0:15:28.09,0:15:33.58,Main,Bit,0000,0000,0000,,Sny, které vy lidé máte, nejsou nic víc než iluze zabalené ve lži!
+Dialogue: 0,0:15:33.58,0:15:38.66,Main,Bit,0000,0000,0000,,My jsme tyto iluze akorát zdokonalily a udělaly je krásnějšími!
+Dialogue: 0,0:15:38.66,0:15:42.34,Main,Bit,0000,0000,0000,,A udělaly jsme to proto, abychom vám ukázaly sny, které {\i1}vy{\i0} chcete tak moc vidět!
+Dialogue: 0,0:15:42.34,0:15:46.54,Main,Gin,0000,0000,0000,,Tomu se pak nedá říkat sny,
+Dialogue: 0,0:15:47.53,0:15:49.05,Main,Gin,0000,0000,0000,,ale vzdaní se jich.
+Dialogue: 0,0:15:49.78,0:15:55.14,Main,Gin,0000,0000,0000,,Jo, idolové se taky šťourají v nose, \Nchoděj na záchod a š***jí.
+Dialogue: 0,0:15:55.14,0:15:58.43,Main,Gin,0000,0000,0000,,Občas způsoběj skandál a jsou z toho na dně.
+Dialogue: 0,0:15:59.38,0:16:04.56,Main,Gin,0000,0000,0000,,Ale aby jejich ubohý já mohlo hrdě stát v záři reflektorů,
+Dialogue: 0,0:16:04.56,0:16:09.57,Main,Gin,0000,0000,0000,,sami sebe disciplinujou, usilujou o zlepšení a bojujou, aby mohli stát na pódiu.
+Dialogue: 0,0:16:09.94,0:16:12.82,Main,Gin,0000,0000,0000,,A ty se tomu vysmíváš jen jako nějaký iluzi?
+Dialogue: 0,0:16:12.82,0:16:14.59,Main,Gin,0000,0000,0000,,No, mýlíš se.
+Dialogue: 0,0:16:15.57,0:16:18.79,Main,Gin,0000,0000,0000,,Není to iluze, ale ideál.
+Dialogue: 0,0:16:19.44,0:16:23.45,Main,Gin,0000,0000,0000,,Sen doplazit se ke svýmu ideálu.
+Dialogue: 0,0:16:23.45,0:16:25.58,Main,Gin,0000,0000,0000,,O tom všichni idolové jsou.
+Dialogue: 0,0:16:25.94,0:16:28.09,Main,Gin,0000,0000,0000,,Stejně, jako samurajové,
+Dialogue: 0,0:16:28.66,0:16:30.30,Main,Gin,0000,0000,0000,,si jdou pro svůj životní sen.
+Dialogue: 0,0:16:32.17,0:16:35.09,Main,Tsu,0000,0000,0000,,Promiňte mi mé zpoždění, mentol.
+Dialogue: 0,0:16:36.85,0:16:38.97,Main,Gin,0000,0000,0000,,A tihle idioti mají sen,
+Dialogue: 0,0:16:39.32,0:16:42.68,Main,Gin,0000,0000,0000,,pro který si se svýma idolama jdou.
+Dialogue: 0,0:16:42.68,0:16:45.59,Main,Bit,0000,0000,0000,,H-Hloupost. Co ona tu dělá?
+Dialogue: 0,0:16:45.59,0:16:48.47,Main,Kag,0000,0000,0000,,Pro idoly je fakt nejvýhodnější být ve skupině.
+Dialogue: 0,0:16:49.31,0:16:52.24,Main,Kag,0000,0000,0000,,Náš diamant teď díky obřím soplům
+Dialogue: 0,0:16:52.59,0:16:55.24,Main,Kag,0000,0000,0000,,září opravdu jasně.
+Dialogue: 0,0:16:56.73,0:17:00.80,Internal,Bit,0000,0000,0000,,Oni věřili, že sem jakonec přijde?
+Dialogue: 0,0:17:00.80,0:17:05.83,Internal,Bit,0000,0000,0000,,Byly jsme—ne, celá tahle událost a \Nvšechny ty škaredé bitky—
+Dialogue: 0,0:17:06.26,0:17:11.63,Internal,Bit,0000,0000,0000,,byly jen obří sopl, aby mohl diamant Otsu zářit jasněji?!
+Dialogue: 0,0:17:11.63,0:17:13.88,Main,Bit,0000,0000,0000,,Celou dobu jste nás využívali?!
+Dialogue: 0,0:17:13.88,0:17:16.06,Main,Tsu,0000,0000,0000,,Kaguro-chan! Lidi!
+Dialogue: 0,0:17:16.06,0:17:17.51,Main,Kag,0000,0000,0000,,Otsu.
+Dialogue: 0,0:17:17.51,0:17:21.86,Main,Kag,0000,0000,0000,,Nebylo to moc na dlouho, ale užívala jsem si, \Nže s tebou můžu na chvíli bejt idol.
+Dialogue: 0,0:17:22.73,0:17:27.27,Main,Kag,0000,0000,0000,,Ukaž jim to... Naši písničku Soplů a Diamantů 48.
+Dialogue: 0,0:17:27.79,0:17:31.78,Main,Kag,0000,0000,0000,,Písničku pravejch idolů, která vymaže \Nvšechny iluze a vymývání mozku!
+Dialogue: 0,0:17:31.78,0:17:34.15,Main,Bit,0000,0000,0000,,T-Ty malá!
+Dialogue: 0,0:17:34.75,0:17:38.41,Main,Kag,0000,0000,0000,,Lidi! Nenechte se ovládat nějakou iluzí!
+Dialogue: 0,0:17:38.41,0:17:40.66,Main,Kag,0000,0000,0000,,Vezměte si svoje sny zpátky!
+Dialogue: 0,0:17:41.32,0:17:43.76,Main,Kag,0000,0000,0000,,Poslechněte si naši písničku!
+Dialogue: 0,0:17:43.76,0:17:44.54,Main,Kag,0000,0000,0000,,A...
+Dialogue: 0,0:17:44.89,0:17:48.83,Main,Kag,0000,0000,0000,,Pokud nesnášíte Soply a Diamanty 48,
+Dialogue: 0,0:17:48.83,0:17:53.51,Main,Kag,0000,0000,0000,,nepřenášejte svou nenvist na Terakado Tsu!
+Dialogue: 0,0:18:01.13,0:18:02.26,Main,Tsu,0000,0000,0000,,Poslouchejte, prosím.
+Dialogue: 0,0:18:02.85,0:18:05.02,Main,Tsu,0000,0000,0000,,Členky kapely, které jste se mnou kráčely,
+Dialogue: 0,0:18:05.41,0:18:07.77,Main,Tsu,0000,0000,0000,,fanoušci, kteří jste mě podporovali
+Dialogue: 0,0:18:07.77,0:18:11.73,Main,Tsu,0000,0000,0000,,a protivníci, kteří jste se mnou soutěžili.
+Dialogue: 0,0:18:11.73,0:18:14.78,Main,Tsu,0000,0000,0000,,Všichni pro mě znamenáte podpůrný sloup.
+Dialogue: 0,0:18:15.49,0:18:19.24,Main,Tsu,0000,0000,0000,,Všichni jste součástí Soplů a Diamantů 48 \Na věnuji vám tuhle písničku.
+Dialogue: 0,0:18:19.89,0:18:21.78,Main,Tsu,0000,0000,0000,,Tohle je {\i1}Hvězdný Symbol Cti.{\i0}
+Dialogue: 0,0:18:21.78,0:18:27.66,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:18:27.66,0:18:33.50,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:18:33.50,0:18:39.26,Song,Song,0000,0000,0000,,Axel, kondor, prodáváme sny
+Dialogue: 0,0:18:39.26,0:18:42.29,Song,Song,0000,0000,0000,,Idol, idol, idling
+Dialogue: 0,0:18:42.29,0:18:47.98,Song,Song,0000,0000,0000,,Dokonce i na hraně útesu všchno zvládame levou zadní!
+Dialogue: 0,0:18:53.77,0:18:59.57,Song,Song,0000,0000,0000,,Ten skandál z dřívějška...
+Dialogue: 0,0:18:59.57,0:19:05.33,Song,Song,0000,0000,0000,,Summer sentence
+Dialogue: 0,0:19:05.33,0:19:10.21,Song,Song,0000,0000,0000,,Vím, že teď je to jen "udělej nemo umři"
+Dialogue: 0,0:19:10.67,0:19:16.09,Song,Song,0000,0000,0000,,Mohla bych skončit u prodeje s polštáři.
+Dialogue: 0,0:19:16.96,0:19:21.89,Song,Song,0000,0000,0000,,Dokonce i ten týden v měsící je bezpečný
+Dialogue: 0,0:19:22.64,0:19:31.44,Song,Song,0000,0000,0000,,Jasně červený, krvavě rudý hvězdný symbol cti
+Dialogue: 0,0:19:31.44,0:19:37.32,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:19:37.32,0:19:42.66,Song,Song,0000,0000,0000,,La la la, idol
+Dialogue: 0,0:19:42.99,0:19:48.33,Song,Song,0000,0000,0000,,Pěšák, kořist i loupež, prodavavač polštářů
+Dialogue: 0,0:19:48.76,0:19:51.41,Song,Song,0000,0000,0000,,Idol, idol, idling
+Dialogue: 0,0:19:51.41,0:19:56.67,Song,Song,0000,0000,0000,,Nemůžeme uniknout stárnutí!
+Dialogue: 0,0:19:57.23,0:20:00.17,sign_28705_341_Oedo_Dome,Sign,0000,0000,0000,,{\fad(567,1)}Oedo Dóm
+Dialogue: 0,0:20:04.14,0:20:05.93,Main,Bit,0000,0000,0000,,Jaká ironie,
+Dialogue: 0,0:20:05.93,0:20:09.49,Main,Bit,0000,0000,0000,,že pódium, na kterých stojí idolové, aby mohli lidem předat sny,
+Dialogue: 0,0:20:09.49,0:20:12.21,Main,Bit,0000,0000,0000,,je zbudované na zříceninách nespočtu jiných snů.
+Dialogue: 0,0:20:13.54,0:20:18.98,Main,Bit,0000,0000,0000,,Ale to je důvod, proč září tak jasně jako osamocená hvězda ve vesmíru.
+Dialogue: 0,0:20:19.82,0:20:23.20,Main,Bit,0000,0000,0000,,Přejde přes naše i sny svých přátel
+Dialogue: 0,0:20:23.20,0:20:26.58,Main,Bit,0000,0000,0000,,a pokračuje po cestě plné chaosu, které se říká kariéra.
+Dialogue: 0,0:20:28.03,0:20:32.75,Main,Bit,0000,0000,0000,,Nevím, jestli někdy budete schopny\Nnahradit to, co jste si právě nechaly proklouznout mezi prsty.
+Dialogue: 0,0:20:32.75,0:20:37.09,Main,Bit,0000,0000,0000,,Právě jsi pustila talent, který by mohl překonat Otsu.
+Dialogue: 0,0:20:37.09,0:20:40.52,Main,Bit,0000,0000,0000,,Má v sobě bezohlednost, což je mocná zbraň proti nepříteli,
+Dialogue: 0,0:20:40.52,0:20:44.55,Main,Bit,0000,0000,0000,,a je schopná obětovat samu sebe, aby pomohla svým pátelům.
+Dialogue: 0,0:20:44.55,0:20:49.39,Main,Bit,0000,0000,0000,,Diamant pokrytý soply s dvěma naprosto odlišnými tvářemi.
+Dialogue: 0,0:20:47.10,0:20:49.39,Main,Shin,0000,0000,0000,,{\an8}Gin-sane, Kaguro-chan!
+Dialogue: 0,0:20:49.39,0:20:53.34,Main,Shin,0000,0000,0000,,{\an8}Počkejte. Vy se nebudete dívat?
+Dialogue: 0,0:20:49.93,0:20:54.59,Main,OMom,0000,0000,0000,,Ano. Zeptala jsem si jí, jestli v tom chce pokračovat,
+Dialogue: 0,0:20:53.34,0:20:55.86,Main,Gin,0000,0000,0000,,{\an8}Do hajzlu, už z toho nebudou žádný prachy.
+Dialogue: 0,0:20:54.59,0:20:57.40,Main,OMom,0000,0000,0000,,ale odmítla se slovy, je už byla \Npředtím součástí skupiny idolů.
+Dialogue: 0,0:20:58.47,0:21:02.15,Main,OMom,0000,0000,0000,,Škoda, ale takhle jí bude lépe.
+Dialogue: 0,0:21:02.15,0:21:06.15,Main,OMom,0000,0000,0000,,Pravdou je, že v tamté skupině září mnohem jasněji.
+Dialogue: 0,0:21:10.62,0:21:14.58,Main,Song,0000,0000,0000,,Přes všechny ty cigarety, alkohol a oholené hlavy...
+Dialogue: 0,0:21:16.01,0:21:18.42,Main,Song,0000,0000,0000,,Ten, kdo mě znovu naplnil vášní...
+Dialogue: 0,0:21:18.42,0:21:24.65,Song,Song,0000,0000,0000,,Jsi ty, ty, ty.
+Dialogue: 0,0:21:28.14,0:21:29.05,Main,Tsu,0000,0000,0000,,Díky.
+Dialogue: 0,0:22:58.79,0:23:03.77,Song,TV,0000,0000,0000,,Dejte už pokoj
+Dialogue: 0,0:23:03.77,0:23:06.75,Main,G,0000,0000,0000,,Otsu-chan je vážně rozotmilá.
+Dialogue: 0,0:23:06.75,0:23:09.74,Main,G,0000,0000,0000,,Ale poslední dobou je s ní něco špatně.
+Dialogue: 0,0:23:09.74,0:23:13.74,Main,G,0000,0000,0000,,Podívej, co začala dělat, i přestože to je idol.
+Dialogue: 0,0:23:13.74,0:23:18.10,Main,G,0000,0000,0000,,Nejpíš se nechala ovlivnit skupinou, kterou má hodně ráda.
+Dialogue: 0,0:23:18.87,0:23:22.38,Main,G,0000,0000,0000,,Skupinou, která se rozpadala hned po svém debutu.
+Dialogue: 0,0:23:22.38,0:23:23.67,Main,G,0000,0000,0000,,Jak že se to jmenovalo?
+Dialogue: 0,0:23:23.67,0:23:26.12,Main,Kag,0000,0000,0000,,Soply a Diamanty 48.
+Dialogue: 0,0:23:26.12,0:23:31.18,Main,G,0000,0000,0000,,Přesně tahle! Ta neexistující skupina Sopy a Diamanty 48!
+Dialogue: 0,0:23:33.01,0:23:35.18,Main,Kag,0000,0000,0000,,Ale ona existuje.
+Dialogue: 0,0:23:35.89,0:23:38.68,Main,Kag,0000,0000,0000,,V mém srdci zůstává
+Dialogue: 0,0:23:39.22,0:23:41.23,Main,Kag,0000,0000,0000,,jako skupina snů!
+Dialogue: 0,0:23:44.86,0:23:50.32,sign_34163_377_Preview,Sign,0000,0000,0000,,Preview
+Dialogue: 0,0:23:45.35,0:23:47.44,Main,Tama,0000,0000,0000,,Just to let you know in advance,
+Dialogue: 0,0:23:47.44,0:23:50.95,Main,Tama,0000,0000,0000,,this isn't a sales promotion \Nfor our upcoming game.
+Dialogue: 0,0:23:50.32,0:23:53.82,Ep Title,Title,0000,0000,0000,,{\fad(484,1)}The Line Between Godlike Games and Shitty Games Is Paper-Thin
+Dialogue: 0,0:23:50.95,0:23:52.50,Main,Tama,0000,0000,0000,,We're just messing around.
+Dialogue: 0,0:23:53.82,0:23:59.20,Side Bar Top,TextR,0000,0000,0000,,There you have it,
+Dialogue: 0,0:23:53.82,0:23:59.20,Side Bar Bottom,TextL,0000,0000,0000,,so keep that in mind, all of you.
+Dialogue: 0,0:23:59.20,0:24:05.25,Side Bar Top,TextR,0000,0000,0000,,Next time, we're again \Ngoing with wave, wind,
+Dialogue: 0,0:23:59.20,0:24:05.25,Side Bar Bottom,TextL,0000,0000,0000,,and standing all the way!

@@ -1,0 +1,520 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: popdopdo,Open Sans Semibold,38,&H009D6DFF,&H000000FF,&H00020713,&H009C3210,-1,0,0,0,100,100,0,0,1,0.0,1.8,2,0,0,33,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Warning1,Open Sans Semibold,26,&H00FAFAFA,&H000000FF,&H00973E49,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,13,13,29,1
+Style: Preview,Open Sans Semibold,32,&H00E1FFDE,&H000000FF,&H0026922C,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Room,Open Sans Semibold,29,&H002A2E32,&H000000FF,&H00A5A6B7,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,173,0,40,0
+Style: Store1,Open Sans Semibold,35,&H005F440F,&H000000FF,&H00FCF0E6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,40,0
+Style: 3rd,Open Sans Semibold,35,&H00C8896C,&H000000FF,&H00FCF0E6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,40,0
+Style: Store2,Open Sans Semibold,35,&H00212B27,&H000000FF,&H0079ADB4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,40,0
+Style: 9th,Open Sans Semibold,35,&H00533ABD,&H000000FF,&H00A64C13,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,213,40,0
+Style: Dress,Open Sans Semibold,32,&H005FA7D6,&H000000FF,&H00236B89,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,133,40,0
+Style: Dojo,Open Sans Semibold,32,&H00435157,&H000000FF,&H009EB0B1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,520,0,40,0
+Style: Technique,Open Sans Semibold,35,&H00020202,&H000000FF,&H00F7F1EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Flash,Open Sans Semibold,35,&H00020202,&H000000FF,&H00F7F1EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,0,0,180,0
+Style: How To,Open Sans Semibold,32,&H00020202,&H000000FF,&H00F7F1EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,0,27,0
+Style: Punch,Open Sans Semibold,29,&H00020202,&H000000FF,&H00DAD3CD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,67,0,156,0
+Style: Pudding,Open Sans Semibold,29,&H00020202,&H000000FF,&H00DAD3CD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,0,156,0
+Style: Touch,Open Sans Semibold,29,&H00EDEEF1,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0,0,27,0
+Style: pozn,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.91,0:00:03.44,Main,Tae,0000,0000,0000,,Promiň, že tě tahám po nákupech, Shin-chane.
+Dialogue: 0,0:00:03.44,0:00:04.46,Main,Shin,0000,0000,0000,,V pohodě.
+Dialogue: 0,0:00:04.46,0:00:07.27,Main,Shin,0000,0000,0000,,Ale vážně tohle všechno unosíš?
+Dialogue: 0,0:00:07.60,0:00:09.61,Main,Tae,0000,0000,0000,,Všechno to je oblečení do klubu,
+Dialogue: 0,0:00:09.61,0:00:11.40,Main,Tae,0000,0000,0000,,takže mi ho proplatí.
+Dialogue: 0,0:00:13.02,0:00:15.91,Main,Shin,0000,0000,0000,,A já si musím vystačit s\Nkimonem s dvojitým proužkem.
+Dialogue: 0,0:00:16.42,0:00:17.92,Main,Shin,0000,0000,0000,,Není na mně nic moc zajímavého,
+Dialogue: 0,0:00:17.92,0:00:20.82,Main,Shin,0000,0000,0000,,tak se snažím nosit jen jedno\Noblečení, aby si mě lidi líp pamatovali.
+Dialogue: 0,0:00:20.82,0:00:22.68,Main,Tae,0000,0000,0000,,Ty tvrdíš tohle,
+Dialogue: 0,0:00:22.68,0:00:25.85,Main,Tae,0000,0000,0000,,ale nejsi jen šetrný k našemu\Nrozpočtu a animátorům?
+Dialogue: 0,0:00:25.85,0:00:27.25,Main,Shin,0000,0000,0000,,To s tím nemá co dělat.
+Dialogue: 0,0:00:27.61,0:00:28.51,Main,Tae,0000,0000,0000,,Už to mám!
+Dialogue: 0,0:00:28.51,0:00:30.46,Main,Tae,0000,0000,0000,,Dneska jsi se mnou přetrpěl nákupy,
+Dialogue: 0,0:00:30.85,0:00:32.64,Main,Tae,0000,0000,0000,,takže ti jako poděkování koupím kimono.
+Dialogue: 0,0:00:32.64,0:00:34.34,Main,Shin,0000,0000,0000,,To nemusíš.
+Dialogue: 0,0:00:34.34,0:00:35.30,Main,Tae,0000,0000,0000,,Proč by ne?
+Dialogue: 0,0:00:35.30,0:00:38.87,Main,Tae,0000,0000,0000,,Chceš celé mládí strávit obavami\No naše animátory a barevnou koordinaci?
+Dialogue: 0,0:00:38.87,0:00:41.57,Main,Shin,0000,0000,0000,,Gin-san přece taky pořád nosí jedno oblečení...
+Dialogue: 0,0:00:41.57,0:00:45.91,Main,Tae,0000,0000,0000,,Jsem si jistá, že ve skutečnosti si všichni\Ndávají se svým oblékáním záležet.
+Dialogue: 0,0:00:46.14,0:00:48.38,Main,Tae,0000,0000,0000,,Vidíš? My o vlku...
+Dialogue: 0,0:00:49.32,0:00:51.90,Main,Gin,0000,0000,0000,,Gin-san si jde koupit nový kimono?
+Dialogue: 0,0:00:51.90,0:00:55.24,Main,G,0000,0000,0000,,Perfektní načasování, Yorozuya šéfe.
+Dialogue: 0,0:00:55.57,0:00:58.90,Main,G,0000,0000,0000,,Právě dorazila nová kolekce, tak si ji omrkněte.
+Dialogue: 0,0:00:58.90,0:00:59.98,Main,Gin,0000,0000,0000,,To je fakt...
+Dialogue: 0,0:00:59.98,0:01:03.95,Main,Gin,0000,0000,0000,,Dneska startujeme třetí čtvrtrok,\Ntak bych mohl oživit šatník.
+Dialogue: 0,0:01:05.96,0:01:11.96,Ep Title,Title,0000,0000,0000,,{\fad(481,1)}Trend se Stává Zastaralým v Okamžiku, Kdy Ho Označíte Trendem
+Dialogue: 0,0:01:11.96,0:01:15.84,Main,G,0000,0000,0000,,{\an8}Tady tenhle kousek půjde co nevidět do módy. \NChcete ho vyzkoušet?
+Dialogue: 0,0:01:12.48,0:01:18.22,Warning1,Sign,0000,0000,0000,,{\fad(509,476)}Shimura Shinpachi doporučuje: Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV!
+Dialogue: 0,0:01:15.84,0:01:18.30,Main,Gin,0000,0000,0000,,{\an8}Jo, vypadá fakt dobře!
+Dialogue: 0,0:01:19.08,0:01:20.96,Main,Shin,0000,0000,0000,,Ségra, um...
+Dialogue: 0,0:01:20.96,0:01:21.93,Main,Shin,0000,0000,0000,,Co to je za obchod?
+Dialogue: 0,0:01:21.93,0:01:24.24,Main,Sis,0000,0000,0000,,Zřejmě obchod s kimony, ne?
+Dialogue: 0,0:01:24.24,0:01:28.06,Main,Shin,0000,0000,0000,,Všechny mi připadaj identický...
+Dialogue: 0,0:01:26.77,0:01:28.06,Room,Sign,0000,0000,0000,,Kabinka
+Dialogue: 0,0:01:28.69,0:01:29.73,Main,G,0000,0000,0000,,Líbí?
+Dialogue: 0,0:01:29.73,0:01:31.98,Main,G,0000,0000,0000,,Dám krk, že vám perfektně padne.
+Dialogue: 0,0:01:32.52,0:01:35.05,Main,Gin,0000,0000,0000,,Něco mi na něm nesedí.
+Dialogue: 0,0:01:35.05,0:01:37.57,Main,Shin,0000,0000,0000,,Co ti na něm nesedí?!\NVypadá, jak všechny ostatní!
+Dialogue: 0,0:01:37.57,0:01:40.49,Main,Gin,0000,0000,0000,,Připadá mi trochu moc odvážný.
+Dialogue: 0,0:01:40.49,0:01:43.28,Main,Gin,0000,0000,0000,,Nemáte něco, co by se víc\Npodobalo mýmu stylu?
+Dialogue: 0,0:01:43.28,0:01:44.55,Main,Shin,0000,0000,0000,,Jak tohle můžeš usoudit?!
+Dialogue: 0,0:01:44.55,0:01:46.25,Main,Shin,0000,0000,0000,,Nikdy jsi ani nevytáhl paty z domu!
+Dialogue: 0,0:01:46.25,0:01:50.02,Main,G,0000,0000,0000,,No, měli jsme tu kousek, který by se \Nvám nejspíš líbil, ale už jsme ho vyprodali.
+Dialogue: 0,0:01:50.02,0:01:51.40,Main,Shin,0000,0000,0000,,Já jich tu vidím milión!
+Dialogue: 0,0:01:51.40,0:01:53.84,Main,Shin,0000,0000,0000,,Kdo ještě krom Gin-sana navštěvuje tenhle obchod?
+Dialogue: 0,0:01:53.84,0:01:56.23,Main,G,0000,0000,0000,,Víte, je sezóna atletických festivalů,
+Dialogue: 0,0:01:56.23,0:01:59.07,Main,G,0000,0000,0000,,takže je Zunborani do jednoho odkoupili.
+Dialogue: 0,0:01:59.07,0:02:01.83,Main,G,0000,0000,0000,,Konec konců to jsou jejich školní sportovní dresy.
+Dialogue: 0,0:02:01.83,0:02:03.27,Main,Shin,0000,0000,0000,,Školní sportovní dresy?!
+Dialogue: 0,0:02:03.27,0:02:06.16,Main,Shin,0000,0000,0000,,Na nějaký škole nosej takovýhle dresy?!
+Dialogue: 0,0:02:03.27,0:02:09.23,Store1,Sign,0000,0000,0000,,Obchod s dresy pro Zunborany
+Dialogue: 0,0:02:06.16,0:02:09.23,Main,Shin,0000,0000,0000,,A on tohle celejch posledních devět let nosil?!
+Dialogue: 0,0:02:09.48,0:02:10.88,Main,Gin,0000,0000,0000,,Oh, už chápu.
+Dialogue: 0,0:02:10.88,0:02:12.51,Main,Gin,0000,0000,0000,,Věděl jsem, že je něco špatně.
+Dialogue: 0,0:02:12.51,0:02:14.36,Main,Gin,0000,0000,0000,,Tady se píše "třetí ročník".
+Dialogue: 0,0:02:14.36,0:02:19.82,3rd,Sign,0000,0000,0000,,3. ročník
+Dialogue: 0,0:02:14.82,0:02:18.55,Main,Gin,0000,0000,0000,,Já jsem přece devátej ročník. Mladší by se na\Nmě povyšovali, kdyby mě viděli v tomhle.
+Dialogue: 0,0:02:18.55,0:02:19.82,Main,Shin,0000,0000,0000,,V tomhle vidíš problém?!
+Dialogue: 0,0:02:19.82,0:02:21.86,Main,Gin,0000,0000,0000,,Co nadělám, stavím se tu jindy.
+Dialogue: 0,0:02:21.86,0:02:22.74,Main,G,0000,0000,0000,,Vy kdykoliv!
+Dialogue: 0,0:02:22.74,0:02:24.26,Main,Shin,0000,0000,0000,,Odcházíš pryč s tím, co sis zkusil!
+Dialogue: 0,0:02:24.26,0:02:26.75,Main,Shin,0000,0000,0000,,Nejste ani schopný to rozeznat!
+Dialogue: 0,0:02:27.10,0:02:32.00,Main,Shin,0000,0000,0000,,N-Neměl jsem tušení, že je Gin-sanovo oblečení \Nzároveň sportovní dres v Zumboranské škole.
+Dialogue: 0,0:02:32.00,0:02:35.90,Main,Tae,0000,0000,0000,,Shin-chane, lidé s módním cítěním \Ndovedou kterýkoliv outfit oživit něčím,
+Dialogue: 0,0:02:35.90,0:02:37.74,Main,Tae,0000,0000,0000,,čím si vytvoří vlastní osobitý styl.
+Dialogue: 0,0:02:37.74,0:02:40.26,Main,Shin,0000,0000,0000,,Jenže nikdo nenosí školní dresy mimo školu!
+Dialogue: 0,0:02:40.49,0:02:42.76,Main,Tae,0000,0000,0000,,Dívej, ani Kagura-chan není výjimkou.
+Dialogue: 0,0:02:44.09,0:02:45.11,Main,Gin,0000,0000,0000,,Co děláš, Kaguro?
+Dialogue: 0,0:02:45.11,0:02:46.52,Main,Gin,0000,0000,0000,,Našlas něco hezkýho?
+Dialogue: 0,0:02:46.52,0:02:50.14,Main,Kag,0000,0000,0000,,Jo. Rozhoduju se, jakou sponku do vlasů si vybrat,
+Dialogue: 0,0:02:50.14,0:02:52.24,Main,Kag,0000,0000,0000,,ale všechny jsou na mě velký.
+Dialogue: 0,0:02:52.24,0:02:53.98,Main,Shin,0000,0000,0000,,To nejsou doplňky do vlasů!
+Dialogue: 0,0:02:54.90,0:02:57.97,Main,Z,0000,0000,0000,,Je nám líto, Kaguro-chan. \NVaše oblíbená veikost se vyprodala.
+Dialogue: 0,0:02:57.97,0:03:00.24,Main,Z,0000,0000,0000,,Víte, nedávno se konala soutěž ve sborovém zpěvu,
+Dialogue: 0,0:03:00.24,0:03:04.29,Main,Z,0000,0000,0000,,takže Zumborané koupili všechny naše \Npokrývky na p***s jako svůj oděv.
+Dialogue: 0,0:03:04.29,0:03:05.87,Main,Shin,0000,0000,0000,,Zase Zunborani?!
+Dialogue: 0,0:03:06.17,0:03:07.75,Main,Shin,0000,0000,0000,,Kaguřiny sponky jsou ve skutečnosti
+Dialogue: 0,0:03:08.01,0:03:10.25,Main,Shin,0000,0000,0000,,chrániče na k*ule pro Zunborany?!
+Dialogue: 0,0:03:08.01,0:03:10.25,Store2,Sign,0000,0000,0000,,Obchod se suspenzory pro Zunborany
+Dialogue: 0,0:03:10.25,0:03:11.08,Main,Shin,0000,0000,0000,,Celých devět let
+Dialogue: 0,0:03:11.08,0:03:13.88,Main,Shin,0000,0000,0000,,nosila naše hrdinka na hlavě tenhle \Nkrám s rozzářeným xichtem?!
+Dialogue: 0,0:03:14.09,0:03:16.15,Main,Gin,0000,0000,0000,,Vratíme se, až začne novej školní rok.
+Dialogue: 0,0:03:16.15,0:03:17.42,Main,Kag,0000,0000,0000,,Jo.
+Dialogue: 0,0:03:17.42,0:03:19.09,Main,Gin,0000,0000,0000,,Táhni si koupit normální sponky!
+Dialogue: 0,0:03:19.34,0:03:22.64,Main,G,0000,0000,0000,,Oh, pokud chcete menší velikost,\Nmůžu vám nabídnout svůj—
+Dialogue: 0,0:03:24.91,0:03:26.64,Main,Shin,0000,0000,0000,,Co s váma dvěma je?
+Dialogue: 0,0:03:27.00,0:03:30.77,Main,Shin,0000,0000,0000,,Ségra, to oni by se měli zamyslet,\Ndo čeho se navlíkaj!
+Dialogue: 0,0:03:31.09,0:03:32.12,Main,Gin,0000,0000,0000,,Sklapni.
+Dialogue: 0,0:03:32.12,0:03:34.73,Main,Gin,0000,0000,0000,,Hadry nejsou o tom, kde je koupíš,\Nale jak je nosíš.
+Dialogue: 0,0:03:34.73,0:03:37.09,Main,Gin,0000,0000,0000,,Důležitá je přece osobnost, ne vzhled.
+Dialogue: 0,0:03:37.09,0:03:38.01,Main,Kag,0000,0000,0000,,To je fakt.
+Dialogue: 0,0:03:38.01,0:03:41.42,Main,Kag,0000,0000,0000,,Znáš snad nějaký další hrdinky, který by nosily\Nchrániče na kou*e tak dobře jako já?
+Dialogue: 0,0:03:41.42,0:03:43.95,Main,Shin,0000,0000,0000,,Přestalas být hrdinka ve chvíli, \Nco sis vlasy sepla suspenzorem!
+Dialogue: 0,0:03:44.23,0:03:45.84,Main,Tae,0000,0000,0000,,Ale tohle je dobrá příležitost.
+Dialogue: 0,0:03:45.84,0:03:48.20,Main,Tae,0000,0000,0000,,Nebyl sis jistý, jestli změnit svoje oblečení, ne?
+Dialogue: 0,0:03:48.58,0:03:51.25,Main,Tae,0000,0000,0000,,Teď si všichni tři můžete společně vybrat nový styl.
+Dialogue: 0,0:03:51.25,0:03:53.29,Main,Gin,0000,0000,0000,,Hele, odkdy tady tomu šéfuješ?
+Dialogue: 0,0:03:53.29,0:03:55.13,Main,Gin,0000,0000,0000,,Nemám čas na tyhle pitominy.
+Dialogue: 0,0:03:55.13,0:03:58.84,Main,Tae,0000,0000,0000,,Není nic špatného na tom, že budeš\Nmít v šatníku nějaké oblečení navíc.
+Dialogue: 0,0:03:58.84,0:04:02.92,Main,Tae,0000,0000,0000,,Přece není od věci mít jeden\Noutfit na léto a jeden na zimu, ne?
+Dialogue: 0,0:04:02.92,0:04:04.09,Main,Gin,0000,0000,0000,,Zimní outfit?
+Dialogue: 0,0:04:04.36,0:04:07.35,Main,Tae,0000,0000,0000,,No, víš, už nějakou tu dobu mě zajímá...
+Dialogue: 0,0:04:07.90,0:04:10.72,Main,Tae,0000,0000,0000,,Není ti v tomhle v zimě chladno?
+Dialogue: 0,0:04:12.21,0:04:13.81,Main,Kag,0000,0000,0000,,Když o tom tak mluvíme...
+Dialogue: 0,0:04:13.81,0:04:16.10,Main,Kag,0000,0000,0000,,Proč všude nosíš krátký rukávy?
+Dialogue: 0,0:04:16.10,0:04:18.23,Main,Kag,0000,0000,0000,,Proč máš jednu ruku venku?
+Dialogue: 0,0:04:18.47,0:04:20.33,Main,Gin,0000,0000,0000,,J-Jen tak...
+Dialogue: 0,0:04:20.33,0:04:21.50,Main,Kag,0000,0000,0000,,Proč to prostě nenosíš, jak se má?
+Dialogue: 0,0:04:21.50,0:04:24.20,Main,Kag,0000,0000,0000,,Ale hlavně, proč musíš mít jednu ruku venku?
+Dialogue: 0,0:04:24.20,0:04:25.36,Main,Kag,0000,0000,0000,,Není to otravný?
+Dialogue: 0,0:04:25.36,0:04:27.19,Main,Kag,0000,0000,0000,,Jak si to teda oblíkáš?
+Dialogue: 0,0:04:27.19,0:04:29.43,Main,Kag,0000,0000,0000,,Nasadíš si to dobře a pak vytáhneš ruku?
+Dialogue: 0,0:04:29.43,0:04:30.10,Main,Kag,0000,0000,0000,,Proč?
+Dialogue: 0,0:04:30.10,0:04:32.29,Main,Kag,0000,0000,0000,,Nasadíš si to dobře, \Nale pak sejdeš z cesty a vyvlíkneš ji?
+Dialogue: 0,0:04:32.29,0:04:33.29,Main,Kag,0000,0000,0000,,I když to je otrava?
+Dialogue: 0,0:04:33.29,0:04:35.25,Main,Kag,0000,0000,0000,,Proč zrovna takhle?
+Dialogue: 0,0:04:35.50,0:04:37.00,Main,Kag,0000,0000,0000,,Oh, promiň.
+Dialogue: 0,0:04:37.00,0:04:38.88,Main,Kag,0000,0000,0000,,Myslel sis, že to je cool,\Nnebo něco takovýho?
+Dialogue: 0,0:04:38.88,0:04:40.55,Main,Gin,0000,0000,0000,,Pořídím si něco s dlouhýma rukávama!
+Dialogue: 0,0:04:40.55,0:04:42.92,Main,Gin,0000,0000,0000,,Stejně se na tenhle styl nefixuju!
+Dialogue: 0,0:04:42.92,0:04:44.98,Main,Gin,0000,0000,0000,,Nikdy mě ani nenapadlo,\Nže to vypadá cool!
+Dialogue: 0,0:04:44.98,0:04:48.64,Main,Gin,0000,0000,0000,,Jen jsem myslel, že takhle\Nbude snažší hejbat s rukou!
+Dialogue: 0,0:04:48.64,0:04:50.81,Main,Kag,0000,0000,0000,,Jupí! Kupujou se zimní hadry!
+Dialogue: 0,0:04:50.81,0:04:52.77,Main,Gin,0000,0000,0000,,Nic takovýho jsem neřekl!
+Dialogue: 0,0:04:52.77,0:04:54.42,Main,Tae,0000,0000,0000,,Beru si tyhle dva.
+Dialogue: 0,0:04:54.42,0:04:56.60,Main,Gin,0000,0000,0000,,Ty ani nemáš s tímhle\Nrozhovorem co dělat!
+Dialogue: 0,0:04:56.60,0:04:57.91,Main,Shin,0000,0000,0000,,Zimní oblečení?
+Dialogue: 0,0:04:57.91,0:05:00.44,Main,Shin,0000,0000,0000,,Pravda, nejme moc sezónní.
+Dialogue: 0,0:05:00.44,0:05:03.09,Main,Gin,0000,0000,0000,,Zase kolem toho nemusíme tak šílet.
+Dialogue: 0,0:05:03.09,0:05:06.41,Main,Gin,0000,0000,0000,,Nechcem, aby se z tohohle\Nanime stal cíl modních kritiků.
+Dialogue: 0,0:05:06.41,0:05:07.62,Main,Tae,0000,0000,0000,,Máš pravdu.
+Dialogue: 0,0:05:07.62,0:05:09.55,Main,Tae,0000,0000,0000,,Takže potřebujeme slušivé zimní oblečení,
+Dialogue: 0,0:05:09.55,0:05:12.54,Main,Tae,0000,0000,0000,,co zároveň zachová váš styl.
+Dialogue: 0,0:05:12.54,0:05:14.53,Main,Tae,0000,0000,0000,,Co třeba tohle?
+Dialogue: 0,0:05:14.53,0:05:16.54,Main,Shin,0000,0000,0000,,Jo, to vypadá dobře.
+Dialogue: 0,0:05:17.44,0:05:19.70,Main,Gin,0000,0000,0000,,Vážně? Já nepociťuju rozdíl.
+Dialogue: 0,0:05:19.70,0:05:21.96,Main,Shin,0000,0000,0000,,Proč vytahuješ ruku i v \Ntriku s dlouhýma rukávama?!
+Dialogue: 0,0:05:21.96,0:05:24.27,Main,Gin,0000,0000,0000,,Cítím se debilně, když není venku.
+Dialogue: 0,0:05:24.27,0:05:26.97,Main,Shin,0000,0000,0000,,Tvoje posedlost vytahování ruky je debilní!
+Dialogue: 0,0:05:26.97,0:05:31.69,Main,Gin,0000,0000,0000,,Samuraj musí být připravenej \Ntasit meč svou dominantní rukou.
+Dialogue: 0,0:05:31.69,0:05:33.79,Main,Shin,0000,0000,0000,,Všichni tě budou mět za\Nsamurajskýho perverzáka!
+Dialogue: 0,0:05:33.79,0:05:35.72,Main,Shin,0000,0000,0000,,Zimní hadry dočista ztratily význam!
+Dialogue: 0,0:05:35.72,0:05:38.10,Main,Tae,0000,0000,0000,,Toho zlozvyku s rukou venku\Nse prostě nevzdáš, viď?
+Dialogue: 0,0:05:38.10,0:05:39.87,Main,Tae,0000,0000,0000,,Tak co kdybysme zůstali u krátkých rukávů
+Dialogue: 0,0:05:39.87,0:05:41.89,Main,Tae,0000,0000,0000,,a ty si přes to jen vzal přehoz?
+Dialogue: 0,0:05:42.49,0:05:44.56,Main,Gin,0000,0000,0000,,Pořád v tom nevidím rozdíl.
+Dialogue: 0,0:05:44.56,0:05:46.37,Main,Shin,0000,0000,0000,,Co to vystavuješ teď?!
+Dialogue: 0,0:05:46.83,0:05:50.37,Main,Gin,0000,0000,0000,,Vážně se cítím debilně,\Nkdyž nemám žádnou část těla venku.
+Dialogue: 0,0:05:50.37,0:05:52.31,Main,Shin,0000,0000,0000,,Tvůj vzhled je debilní!
+Dialogue: 0,0:05:52.31,0:05:56.41,Main,Gin,0000,0000,0000,,Samuraj musí být vždy připravenej \Ntasit meč svou dominantní rukou.
+Dialogue: 0,0:05:56.41,0:05:57.48,Main,Shin,0000,0000,0000,,A jakej meč máš v plánu tasit?!
+Dialogue: 0,0:05:57.48,0:05:58.58,Main,Tae,0000,0000,0000,,No, co naděláme.
+Dialogue: 0,0:05:58.97,0:06:03.29,Main,Tae,0000,0000,0000,,Zůstaneme u tvého stylu a teple se\Noblékneš jen na místech, kde to je potřeba.
+Dialogue: 0,0:06:03.29,0:06:04.55,Main,Shin,0000,0000,0000,,Co to k čertu je?
+Dialogue: 0,0:06:04.55,0:06:07.78,Main,Shin,0000,0000,0000,,Ani z dálky to nevypadá jako jeho styl\Na není to termo, ani trendy!
+Dialogue: 0,0:06:07.78,0:06:08.84,Main,Tae,0000,0000,0000,,Moc pěkné.
+Dialogue: 0,0:06:08.84,0:06:12.08,Main,Tae,0000,0000,0000,,Dokonce tam je i jeden módní prvek,\Nna kterém Gin-san trval.
+Dialogue: 0,0:06:08.84,0:06:16.06,9th,Sign,0000,0000,0000,,9. ročník
+Dialogue: 0,0:06:12.08,0:06:13.28,Main,Shin,0000,0000,0000,,Vypadá hrozně!
+Dialogue: 0,0:06:13.28,0:06:15.50,Main,Shin,0000,0000,0000,,Jakoby utekl z psychiny!
+Dialogue: 0,0:06:16.06,0:06:18.14,Main,Gin,0000,0000,0000,,Hej, dej s tím furt pokoj.
+Dialogue: 0,0:06:18.14,0:06:21.59,Main,Gin,0000,0000,0000,,Otae, chci být schopnej bleskově vytáhnout meč,
+Dialogue: 0,0:06:21.59,0:06:24.19,Main,Gin,0000,0000,0000,,ale v tomhle se mi akorát smrskne\Na já nebudu mít, co tasit.
+Dialogue: 0,0:06:25.46,0:06:27.35,Main,Gin,0000,0000,0000,,Můžu ho zahřát aspoň tímhle?
+Dialogue: 0,0:06:27.35,0:06:28.83,Main,Shin,0000,0000,0000,,O tomhle jsi celou dobu mluvil?!
+Dialogue: 0,0:06:28.83,0:06:31.95,Main,Kag,0000,0000,0000,,Co děláš, ty dobytku?!
+Dialogue: 0,0:06:31.95,0:06:33.30,Main,Tae,0000,0000,0000,,Klid, Kaguro-chan.
+Dialogue: 0,0:06:33.30,0:06:36.33,Main,Tae,0000,0000,0000,,Tvoje sponky se vrátily na místo, kam patří.
+Dialogue: 0,0:06:36.85,0:06:40.25,Main,Tae,0000,0000,0000,,Zkus nový styl bez vlasových doplňků.
+Dialogue: 0,0:06:38.48,0:06:40.25,Dress,Sign,0000,0000,0000,,Čínská móda
+Dialogue: 0,0:06:40.67,0:06:44.22,Main,Tae,0000,0000,0000,,S rozpuštěnými vlasy budeš vypadat o něco dospěleji.
+Dialogue: 0,0:06:44.64,0:06:45.37,Main,Tae,0000,0000,0000,,Vidíš?
+Dialogue: 0,0:06:46.26,0:06:49.61,Main,Tae,0000,0000,0000,,Ale na té hlavě pořád něco chybí.
+Dialogue: 0,0:06:49.61,0:06:51.97,Main,Shin,0000,0000,0000,,Co zkusit třeba čepku?
+Dialogue: 0,0:06:51.97,0:06:53.64,Main,Shin,0000,0000,0000,,Zkus si tuhle s kočičíma ouškama.
+Dialogue: 0,0:06:53.64,0:06:57.33,Main,Gin,0000,0000,0000,,Hej, přestaň si na ní plnit svoje děsivý touhy.
+Dialogue: 0,0:06:57.33,0:06:59.16,Main,Shin,0000,0000,0000,,T-Takhle to není!
+Dialogue: 0,0:06:59.16,0:07:01.15,Main,Shin,0000,0000,0000,,Jen mi to připadá roztomilý.
+Dialogue: 0,0:07:01.77,0:07:03.50,Main,Kag,0000,0000,0000,,Jako takhle?
+Dialogue: 0,0:07:04.07,0:07:06.02,Main,Shin,0000,0000,0000,,Narostly jí skandální uši!
+Dialogue: 0,0:07:06.02,0:07:07.75,Main,Shin,0000,0000,0000,,Kde se tam vzal chránič na ko*le?!
+Dialogue: 0,0:07:07.75,0:07:10.65,Main,Kag,0000,0000,0000,,Cítím se divně, když nic nemám na hlavě.
+Dialogue: 0,0:07:10.65,0:07:14.06,Main,Shin,0000,0000,0000,,A s chráničema na k*ule \Nna hlavě si divně nepřipadáš?!
+Dialogue: 0,0:07:14.06,0:07:16.21,Main,Kag,0000,0000,0000,,Naším cílem přece bylo oblíct mě dospěle.
+Dialogue: 0,0:07:16.21,0:07:17.60,Main,Shin,0000,0000,0000,,Jenomže ne {\i1}takhle{\i0} dospěle!
+Dialogue: 0,0:07:17.60,0:07:19.04,Main,Tae,0000,0000,0000,,Rozumím, Kaguro-chan.
+Dialogue: 0,0:07:19.25,0:07:22.25,Main,Tae,0000,0000,0000,,Zkus si svázat vlasy těmahle kuličkama.
+Dialogue: 0,0:07:22.68,0:07:24.39,Main,Kag,0000,0000,0000,,Takhle?
+Dialogue: 0,0:07:24.39,0:07:26.13,Main,Shin,0000,0000,0000,,To je ještě horší!
+Dialogue: 0,0:07:26.40,0:07:28.91,Main,Kag,0000,0000,0000,,Pořád mi přijde, že mojí hlavě něco chybí.
+Dialogue: 0,0:07:28.91,0:07:30.45,Main,Shin,0000,0000,0000,,Jo, chybí jí mozek!
+Dialogue: 0,0:07:30.89,0:07:32.09,Main,Gin,0000,0000,0000,,Dívejte...
+Dialogue: 0,0:07:32.09,0:07:35.33,Main,Gin,0000,0000,0000,,Některejch věcí se člověk jednoduše\Nnemůže vzdát, páč tvořej identitu.
+Dialogue: 0,0:07:35.33,0:07:38.45,Main,Gin,0000,0000,0000,,Tak, jako mám já krátký\Nrukávy, Kagura má svoje spínátka.
+Dialogue: 0,0:07:38.45,0:07:41.08,Main,Shin,0000,0000,0000,,Ty mlč! Postrádáš\Nvšechny svoje originální prvky!
+Dialogue: 0,0:07:41.08,0:07:43.94,Main,Gin,0000,0000,0000,,Musíme najít něco, co nahradí veškerý vlasový spínátka.
+Dialogue: 0,0:07:45.54,0:07:47.15,Main,Gin,0000,0000,0000,,Prostě jí na hlavu nasadíme kalhotky.
+Dialogue: 0,0:07:47.15,0:07:49.57,Main,Shin,0000,0000,0000,,Nakonec dopadla stejně jako ty!
+Dialogue: 0,0:07:49.94,0:07:52.21,Main,Tae,0000,0000,0000,,To jsou naši Gin-san a Kagura-chan.
+Dialogue: 0,0:07:52.21,0:07:54.70,Main,Tae,0000,0000,0000,,Perfektně jste si přivykli na svůj nový styl.
+Dialogue: 0,0:07:54.98,0:07:57.82,Main,Tae,0000,0000,0000,,Jakto, že oba\Nvyzařují takový pocit bezpečí?
+Dialogue: 0,0:07:57.82,0:07:59.51,Main,Shin,0000,0000,0000,,Myslíš? Já cítím jen pocit nebezpečí.
+Dialogue: 0,0:07:59.51,0:08:02.00,Main,Shin,0000,0000,0000,,Vypadaj jak nějakej podezřelej gang!
+Dialogue: 0,0:08:02.76,0:08:04.10,Main,Gin,0000,0000,0000,,Jak jsem říkal,
+Dialogue: 0,0:08:04.10,0:08:05.95,Main,Gin,0000,0000,0000,,důležitá je osobnost, ne vzhled.
+Dialogue: 0,0:08:05.95,0:08:08.80,Main,Gin,0000,0000,0000,,Styloví lidi budou vypadat dobře ve všem.
+Dialogue: 0,0:08:09.04,0:08:13.96,Main,Kag,0000,0000,0000,,Hadry jsou konec konců zrcadlo tvýho vnitřního já.
+Dialogue: 0,0:08:13.96,0:08:16.51,Main,Shin,0000,0000,0000,,Vy dva tím pádem zrcadlíte \Nněco společensky nepřijatelnýho!
+Dialogue: 0,0:08:16.76,0:08:18.72,Main,Shin,0000,0000,0000,,Vám není divný, že tu spousta věcí nehraje?!
+Dialogue: 0,0:08:18.72,0:08:19.82,Main,Shin,0000,0000,0000,,Vůbec se vám to nepodobá!
+Dialogue: 0,0:08:19.82,0:08:21.93,Main,Shin,0000,0000,0000,,Zašlo to příliš daleko!
+Dialogue: 0,0:08:21.93,0:08:25.40,Main,Shin,0000,0000,0000,,Až moc jste se fixovali na prázdný slova,\Njako jsou móda a trendy.
+Dialogue: 0,0:08:25.62,0:08:30.90,Main,Shin,0000,0000,0000,,Co je to potom za styl, když ty věci nosíte,\Njen abyste se líbili ostatním a ne sobě?
+Dialogue: 0,0:08:32.29,0:08:33.90,Main,Shin,0000,0000,0000,,Nezkusíte to ještě jednou?
+Dialogue: 0,0:08:34.30,0:08:35.66,Main,Shin,0000,0000,0000,,Tentokrát si vyberte něco
+Dialogue: 0,0:08:36.05,0:08:39.96,Main,Shin,0000,0000,0000,,v čem se cítíte dobře {\i1}vy{\i0} a nikdo jiný.
+Dialogue: 0,0:08:46.13,0:08:46.79,Main,Kag,0000,0000,0000,,Hm?
+Dialogue: 0,0:08:46.79,0:08:50.17,Main,Kag,0000,0000,0000,,Máš svý starý oblečení.
+Dialogue: 0,0:08:50.17,0:08:51.17,Main,Gin,0000,0000,0000,,Ty taky.
+Dialogue: 0,0:08:51.43,0:08:55.58,Main,Kag,0000,0000,0000,,Došla jsem k závěru, \Nže se nejlíp cítím v tomhle.
+Dialogue: 0,0:08:55.58,0:08:58.40,Main,Gin,0000,0000,0000,,Jo, je to otrava. Tohle stejně stačí.
+Dialogue: 0,0:09:00.18,0:09:04.10,Main,Tae,0000,0000,0000,,Promiňte, strkala jsem nos někam, kam nemám.
+Dialogue: 0,0:09:04.35,0:09:07.27,Main,Tae,0000,0000,0000,,Svoje nejlepší oblečení jste\Nměli celou dobu na sobě.
+Dialogue: 0,0:09:08.23,0:09:08.84,Main,Shin,0000,0000,0000,,Jo.
+Dialogue: 0,0:09:09.79,0:09:12.57,Main,Shin,0000,0000,0000,,Tohle na Yorozuyu sedí nejvíc.
+Dialogue: 0,0:09:15.07,0:09:17.13,Main,Gin,0000,0000,0000,,Proč jako jedinej nosíš jinačí hadry?!
+Dialogue: 0,0:09:17.13,0:09:20.09,Main,Kag,0000,0000,0000,,Uvědom se, krucinál! \NNic z toho na tebe nesedí!
+Dialogue: 0,0:09:20.09,0:09:21.88,Main,Kag,0000,0000,0000,,A sundej si z xichtu ten otravnej výraz!
+Dialogue: 0,0:09:21.88,0:09:24.60,Main,Shin,0000,0000,0000,,Držte huby! Mám plný zuby těch dvou proužků!
+Dialogue: 0,0:09:24.60,0:09:25.32,Main,Shin,0000,0000,0000,,Já...
+Dialogue: 0,0:09:25.32,0:09:29.33,Main,Shin,0000,0000,0000,,Já chci být taky trendy!
+Dialogue: 0,0:10:57.50,0:10:59.50,popdopdo,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:11:00.56,0:11:03.36,Main,Shin,0000,0000,0000,,Promiňte, nechal jsem se unýst.
+Dialogue: 0,0:11:03.36,0:11:06.39,Main,Shin,0000,0000,0000,,Příští týden se prosím vraťme ke dvěma proužkům.
+Dialogue: 0,0:11:08.08,0:11:10.31,Dojo,Sign,0000,0000,0000,,{\fad(713,1)}Kodokan\NDojo
+Dialogue: 0,0:11:10.31,0:11:11.51,Main,Shin,0000,0000,0000,,Víc!
+Dialogue: 0,0:11:12.47,0:11:14.34,Main,Shin,0000,0000,0000,,Ať to zní víc jak Nagabuchi!
+Dialogue: 0,0:11:17.01,0:11:19.57,Main,Shin,0000,0000,0000,,Jo, ať je to jen vaše!
+Dialogue: 0,0:11:19.57,0:11:20.81,Main,Shin,0000,0000,0000,,Poslouchejte!
+Dialogue: 0,0:11:20.81,0:11:24.08,Main,Shin,0000,0000,0000,,Když lidem chybí odhodlání, snadno sejdou z cesty.
+Dialogue: 0,0:11:24.08,0:11:28.10,Main,Shin,0000,0000,0000,,Bezmyšlenkové máchání klackem\Nvás silnějšími nikdy neudělá!
+Dialogue: 0,0:11:28.10,0:11:29.20,Main,Shin,0000,0000,0000,,Řekněte!
+Dialogue: 0,0:11:29.20,0:11:31.87,Main,Shin,0000,0000,0000,,Proč chcete být silnější?
+Dialogue: 0,0:11:31.87,0:11:34.13,Main,Shin,0000,0000,0000,,Proč se učíte v tomhle doju?
+Dialogue: 0,0:11:34.84,0:11:36.84,Main,Tae,0000,0000,0000,,Vidím, že se všichni opravdu snaží.
+Dialogue: 0,0:11:37.51,0:11:39.38,Main,Tae,0000,0000,0000,,Co takhle malou přestávku?
+Dialogue: 0,0:11:39.38,0:11:41.59,Main,Tae,0000,0000,0000,,Je čas na čokoládové oříšky macadamia.
+Dialogue: 0,0:11:43.14,0:11:44.42,Main,Tae,0000,0000,0000,,Notak, notak.
+Dialogue: 0,0:11:44.42,0:11:46.85,Main,Tae,0000,0000,0000,,Netlačte se. Utvořte řadu.
+Dialogue: 0,0:11:46.85,0:11:49.05,Main,G,0000,0000,0000,,Super! Mám svou čokoládku!
+Dialogue: 0,0:11:49.05,0:11:50.56,Main,G,0000,0000,0000,,Padáme.
+Dialogue: 0,0:11:50.82,0:11:54.83,Main,G,0000,0000,0000,,Jsme tu jen kvůli čokoládě. Nepotřebujem tě.
+Dialogue: 0,0:11:54.83,0:11:56.79,Main,G,0000,0000,0000,,Cítil ses fakt povýšeně a mocně, co?
+Dialogue: 0,0:11:56.79,0:11:59.52,Main,G,0000,0000,0000,,Držel jsem se, abych ti jednu nevlepil,\Nspratku jeden.
+Dialogue: 0,0:12:00.49,0:12:06.49,Ep Title,Title,0000,0000,0000,,{\fad(480,1)}Na Světě Jsou Dva Druhy Lidí: Ti, Co Vykřikují Názvy Svých Ultimátních Chvatů a Ti, Co Ne
+Dialogue: 0,0:12:07.19,0:12:09.64,Internal,Shin,0000,0000,0000,,Potom, co nás Hajime-nii tolik podpořil,
+Dialogue: 0,0:12:09.64,0:12:12.79,Internal,Shin,0000,0000,0000,,se nám podařilo dostat Kodokan Dojo zpátky do chodu.
+Dialogue: 0,0:12:14.75,0:12:17.04,Internal,Shin,0000,0000,0000,,Jenže našim studentům je šermování u zadku.
+Dialogue: 0,0:12:17.04,0:12:20.01,Internal,Shin,0000,0000,0000,,Jsou tu jen kvůli ořechům macademia.
+Dialogue: 0,0:12:20.73,0:12:25.26,Internal,Shin,0000,0000,0000,,Myslel jsem, že je to pořád lepší, než nic,\Npokud to znamená dál pokračovat v otcově doju.
+Dialogue: 0,0:12:25.26,0:12:26.36,Internal,Shin,0000,0000,0000,,Ale takhle...
+Dialogue: 0,0:12:27.11,0:12:29.89,Main,Gin,0000,0000,0000,,Fajn, všichni na svý místa a znova.
+Dialogue: 0,0:12:30.28,0:13:03.80,Main,All,0000,0000,0000,,{\an8}Kamehameha!
+Dialogue: 0,0:12:34.27,0:12:36.24,Main,Shin,0000,0000,0000,,Co sakra děláš?!
+Dialogue: 0,0:12:36.24,0:12:38.73,Main,Shin,0000,0000,0000,,Proč tady nacvičujou učení z Želví školy?!
+Dialogue: 0,0:12:39.16,0:12:41.46,Main,Tae,0000,0000,0000,,Požádala jsem ho o speciální kurz.
+Dialogue: 0,0:12:42.40,0:12:44.53,Main,Gin,0000,0000,0000,,Mám v plánu je naučit ultimátní techniku,
+Dialogue: 0,0:12:45.02,0:12:47.69,Main,Gin,0000,0000,0000,,aby se jim aspoň trochu zvedl zájem.
+Dialogue: 0,0:12:47.69,0:12:50.53,Main,Shin,0000,0000,0000,,Tahle ultimátní technika už nekomu patří!\NS šermováním to ani nemá co dělat!
+Dialogue: 0,0:12:50.53,0:12:52.20,Main,Shin,0000,0000,0000,,Beztak to ani sám neumíš!
+Dialogue: 0,0:12:52.20,0:12:53.72,Main,Kag,0000,0000,0000,,Instruktore Sakato!
+Dialogue: 0,0:12:53.72,0:12:55.73,Main,Kag,0000,0000,0000,,Mám pocit, že právě něco vyšlo.
+Dialogue: 0,0:12:55.73,0:12:57.40,Main,Gin,0000,0000,0000,,Jo, to rád slyším.
+Dialogue: 0,0:12:57.40,0:12:59.84,Main,Gin,0000,0000,0000,,V tom případě můžeš začít zkoušet Kaio-ken.
+Dialogue: 0,0:12:59.84,0:13:00.95,Main,Shin,0000,0000,0000,,To teda sakra nemůže!
+Dialogue: 0,0:13:00.95,0:13:02.92,Main,Shin,0000,0000,0000,,Běžte si chcípnout na planetu Kaio!
+Dialogue: 0,0:13:02.92,0:13:04.31,Main,Shin,0000,0000,0000,,Táhněte!
+Dialogue: 0,0:13:04.31,0:13:06.55,Main,Shin,0000,0000,0000,,Tohle není Kame House!
+Dialogue: 0,0:13:08.03,0:13:11.68,Main,Kag,0000,0000,0000,,Co máš za problém? \NVšichni do toho byli tak zapálený.
+Dialogue: 0,0:13:13.03,0:13:15.91,Main,Kyu,0000,0000,0000,,Zní to absurdně, ale nebyl\Nto úplně marný tah.
+Dialogue: 0,0:13:15.91,0:13:16.98,Main,Shin,0000,0000,0000,,Co máš na mysli?
+Dialogue: 0,0:13:17.31,0:13:18.65,Main,Kyu,0000,0000,0000,,Ultimátní techniku.
+Dialogue: 0,0:13:19.41,0:13:20.78,Main,Kyu,0000,0000,0000,,Pokud jim určíš cíl,
+Dialogue: 0,0:13:20.78,0:13:22.83,Main,Kyu,0000,0000,0000,,kterého dosáhnou jen\Nprostřednictvím této techniky,
+Dialogue: 0,0:13:22.83,0:13:24.65,Main,Kyu,0000,0000,0000,,možná to v nich s něčím pohne.
+Dialogue: 0,0:13:25.08,0:13:28.79,Main,Shin,0000,0000,0000,,Ale naše dojo žádnou ultimátní techniku neučí...
+Dialogue: 0,0:13:28.79,0:13:30.98,Main,Kon,0000,0000,0000,,Ne tak rychle.
+Dialogue: 0,0:13:32.34,0:13:35.00,Main,Kon,0000,0000,0000,,Prohledával jsem váš sklad a našel jsem tohle.
+Dialogue: 0,0:13:35.00,0:13:37.75,Main,Shin,0000,0000,0000,,Můžeš mi říct, kde ses tu vzal?
+Dialogue: 0,0:13:38.52,0:13:40.06,Main,Tae,0000,0000,0000,,Není to snad...
+Dialogue: 0,0:13:40.06,0:13:42.30,Main,Tae,0000,0000,0000,,Svitek Tendo Mushin Ryu s\Ntajnou ultimátní technikou?
+Dialogue: 0,0:13:42.30,0:13:43.80,Main,Shin,0000,0000,0000,,Tajnou ultimátní technikou?
+Dialogue: 0,0:13:43.80,0:13:47.37,Main,Tae,0000,0000,0000,,Otec ho ze svých posledních sil\Ndopsal na smrtelné posteli.
+Dialogue: 0,0:13:48.00,0:13:50.39,Main,Tae,0000,0000,0000,,Chtěl, aby se ti jednoho dne dostal do rukou.
+Dialogue: 0,0:13:50.39,0:13:54.87,Main,Kyu,0000,0000,0000,,T-Takže tenhle svitek Tendo Mushin Ryu obsahuje tajnou ultimátní techniku
+Dialogue: 0,0:13:54.87,0:13:57.02,Main,Kyu,0000,0000,0000,,sepsanou tvým tátou?
+Dialogue: 0,0:13:57.02,0:13:58.46,Main,Gin,0000,0000,0000,,Hele, Patsuan,
+Dialogue: 0,0:13:58.46,0:14:02.15,Main,Gin,0000,0000,0000,,nepřijde ti nefér, že já žádnou\Nultimátní techniku nemám a ty jo?
+Dialogue: 0,0:14:02.44,0:14:03.60,Main,Tae,0000,0000,0000,,Shin-chane,
+Dialogue: 0,0:14:03.60,0:14:07.90,Main,Tae,0000,0000,0000,,nadešel čas odhalit poslední techniku, \Nkterou nám náš otec zanechal.
+Dialogue: 0,0:14:08.46,0:14:10.49,Main,Tae,0000,0000,0000,,Tajná ultimátní technika\Nsvitku Tendo Mushin Ryu...
+Dialogue: 0,0:14:11.21,0:14:12.31,Main,Tae,0000,0000,0000,,Se jmenuje...
+Dialogue: 0,0:14:12.81,0:14:14.93,Main,Tae,0000,0000,0000,,Svatý Meč Ďáblův Flámování Celou Nocí
+Dialogue: 0,0:14:14.93,0:14:16.64,Main,Tae,0000,0000,0000,,Povstání Ultra Mimořádného Zázraku
+Dialogue: 0,0:14:16.64,0:14:18.60,Main,Tae,0000,0000,0000,,Super Mario Brothers Druhé Vydání
+Dialogue: 0,0:14:18.60,0:14:20.87,Main,Tae,0000,0000,0000,,Luigiho Protiútok Režie Klapka!
+Dialogue: 0,0:14:22.55,0:14:23.63,Main,Shin,0000,0000,0000,,Tati...
+Dialogue: 0,0:14:24.56,0:14:26.84,Main,Shin,0000,0000,0000,,Je to zatraceně dloooooooooooooouhý!
+Dialogue: 0,0:14:27.17,0:14:30.17,Main,Shin,0000,0000,0000,,Chápu, že do toho vložil myšlenku,\Nale tohle si prostě nejde pamatovat!
+Dialogue: 0,0:14:30.17,0:14:32.43,Main,Shin,0000,0000,0000,,A i kdybych si to nějakým\Nzázrakem zapamatoval...
+Dialogue: 0,0:14:33.03,0:14:35.29,Main,Shin,0000,0000,0000,,{\an8}Svatý Meč Ďáblův Flámování Celou Nocí
+Dialogue: 0,0:14:35.29,0:14:37.44,Main,Shin,0000,0000,0000,,{\an8}Povstání Ultra Mimořádného Zázraku—
+Dialogue: 0,0:14:37.44,0:14:39.81,Main,Shin,0000,0000,0000,,{\an8}dávno se budu válet v kaluži krve,\Nnež to stihnu doříct!
+Dialogue: 0,0:14:40.09,0:14:43.91,Main,Kag,0000,0000,0000,,Neexistuje žádný pravidlo,\Nže musíš vykřikovát jméno svý techniky.
+Dialogue: 0,0:14:43.91,0:14:47.23,Main,Kyu,0000,0000,0000,,Jenomže tenhle název sepsal tvůj otec na smrtelné posteli,
+Dialogue: 0,0:14:47.23,0:14:49.16,Main,Kyu,0000,0000,0000,,takže bys ho asi měl zvolat.
+Dialogue: 0,0:14:49.82,0:14:51.00,Main,Kyu,0000,0000,0000,,Co nejrychleji to dokážeš.
+Dialogue: 0,0:14:51.00,0:14:53.07,Main,Shin,0000,0000,0000,,Co je tohle za ultimátní techniku?!\NJe to jak šikana!
+Dialogue: 0,0:14:53.07,0:14:54.27,Main,Kyu,0000,0000,0000,,Nebo možná...
+Dialogue: 0,0:14:54.27,0:14:57.83,Main,Kyu,0000,0000,0000,,Moje rodiná má techniku,\Nkterá se nesmí říkat nahlas...
+Dialogue: 0,0:14:58.96,0:15:01.09,Main,Kyu,0000,0000,0000,,Man**kyou Tentsugan!
+Dialogue: 0,0:15:01.60,0:15:05.80,pozn,Sign,0000,0000,0000,,{\c&H80ffff&}[Paroduje "mangekyou sharingan" z Naruta, ale s vypípáním jde slyšet "manko", což znamená vagína]
+Dialogue: 0,0:15:01.93,0:15:02.81,Main,Sign,0000,0000,0000,,Tak používáme cenzuru.
+Dialogue: 0,0:15:02.81,0:15:03.97,Main,Shin,0000,0000,0000,,Kam jsi to pípnutí umístila?
+Dialogue: 0,0:15:03.97,0:15:05.80,Main,Shin,0000,0000,0000,,Mohlo by to způsobit nedorozumění!
+Dialogue: 0,0:15:06.05,0:15:08.11,Main,Kon,0000,0000,0000,,Naše ultimátní technika se jmenuje
+Dialogue: 0,0:15:08.11,0:15:11.61,Main,Kon,0000,0000,0000,,Kolosálně Ultimátní Eliminující technika,
+Dialogue: 0,0:15:07.82,0:15:12.55,Technique,Sign,0000,0000,0000,,Kolosálně Ultimátní Eliminující technika
+Dialogue: 0,0:15:11.61,0:15:12.55,Main,Kon,0000,0000,0000,,ale zkrátili jsme ji na
+Dialogue: 0,0:15:13.62,0:15:15.00,Main,Kon,0000,0000,0000,,KOULE.
+Dialogue: 0,0:15:15.00,0:15:17.35,Main,Shin,0000,0000,0000,,Ty byses měl celej zacenzurovat, ty prase!
+Dialogue: 0,0:15:17.35,0:15:19.98,Main,Gin,0000,0000,0000,,To je fajn nápad! Pojďme to zkrátit!
+Dialogue: 0,0:15:20.30,0:15:22.78,Main,Gin,0000,0000,0000,,{\an8}Je to fakt dlouhý, ale ve zkratce to znamená
+Dialogue: 0,0:15:22.62,0:15:29.38,Flash,Sign,0000,0000,0000,,{\fad(1,250)}Záblesk Brýlí Nebeských Výšin
+Dialogue: 0,0:15:22.78,0:15:24.85,Main,Gin,0000,0000,0000,,{\an8}Záblesk Brýlí Nebeských Výšin, nemám pravdu?
+Dialogue: 0,0:15:24.85,0:15:27.43,Main,Shin,0000,0000,0000,,{\an8}A na to jsi jak přišel?\NKdes vyšťoural záblesk brýlí?!
+Dialogue: 0,0:15:27.43,0:15:28.91,Main,Kag,0000,0000,0000,,{\an8}Tak tam vecpeme cenzuru
+Dialogue: 0,0:15:28.91,0:15:31.23,Main,Kag,0000,0000,0000,,{\an8}a bude z toho Záblesk ****** Nebeských Výšin.
+Dialogue: 0,0:15:29.38,0:15:34.62,Flash,Sign,0000,0000,0000,,{\fad(250,1)} Záblesk ****** Nebeských Výšin.
+Dialogue: 0,0:15:31.23,0:15:32.53,Main,Shin,0000,0000,0000,,{\an8}Jakej má smysl to vypípat?!
+Dialogue: 0,0:15:32.53,0:15:34.61,Main,Shin,0000,0000,0000,,{\an8}Vypadá to jak nějaká zlodějina!
+Dialogue: 0,0:15:35.13,0:15:36.53,Main,Tae,0000,0000,0000,,V tom případě to může být...
+Dialogue: 0,0:15:37.52,0:15:40.47,Main,Tae,0000,0000,0000,,******* ***********,
+Dialogue: 0,0:15:40.47,0:15:41.18,Main,Tae,0000,0000,0000,,co myslíte?
+Dialogue: 0,0:15:41.18,0:15:42.21,Main,Shin,0000,0000,0000,,Ségra!
+Dialogue: 0,0:15:42.21,0:15:45.75,Main,Shin,0000,0000,0000,,Vypadal bych jak úchyl, co vyřvává slova, \Nkterý se v telce cenzurujou!
+Dialogue: 0,0:15:46.57,0:15:49.63,Main,Tae,0000,0000,0000,,Na tohle teď není čas.
+Dialogue: 0,0:15:49.63,0:15:52.00,Main,Tae,0000,0000,0000,,Otázkou je, o jaký druh techniky se jedná
+Dialogue: 0,0:15:52.00,0:15:54.26,Main,Tae,0000,0000,0000,,a jak ji mistrně ovládnout.
+Dialogue: 0,0:15:54.76,0:15:56.69,Main,Gin,0000,0000,0000,,Čti dál, Pattsan.
+Dialogue: 0,0:15:58.83,0:16:00.07,Main,Shin,0000,0000,0000,,Takže...
+Dialogue: 0,0:16:00.93,0:16:04.84,Internal,F,0000,0000,0000,,Svatý Meč Ďáblův Flámování Celou Nocí (atd.) je...
+Dialogue: 0,0:16:04.84,0:16:07.82,Main,Shin,0000,0000,0000,,Když tě obtěžuje to napsat,\Nnedávej tomu tak složitej název!
+Dialogue: 0,0:16:08.23,0:16:11.94,Internal,F,0000,0000,0000,,...nejmocnější technika stylu Tendo Mushin Ryu,
+Dialogue: 0,0:16:11.94,0:16:14.07,Internal,F,0000,0000,0000,,kterou zvládne jenom právoplatný dědic.
+Dialogue: 0,0:16:14.63,0:16:18.03,Internal,F,0000,0000,0000,,Ať se stane cokoliv, nikomu\Nnesmíš o této technice říct!
+Dialogue: 0,0:16:18.03,0:16:19.94,Main,Shin,0000,0000,0000,,Promiň, už se stalo.
+Dialogue: 0,0:16:19.94,0:16:25.46,Internal,F,0000,0000,0000,,Protože její síla dosahuje takových rozměrů,\Nže by mohla do posledního slova přepsat zákony vesmíru!
+Dialogue: 0,0:16:25.76,0:16:28.67,Main,Shin,0000,0000,0000,,A-Až takhle silná?!
+Dialogue: 0,0:16:28.67,0:16:31.98,Internal,F,0000,0000,0000,,Zde ti napíšu instrukce, jak postupovat \Npři útoku.
+Dialogue: 0,0:16:32.22,0:16:40.52,How To,Sign,0000,0000,0000,,Jak provést ultimátní techniku-\NBlokuj nepřátelský útok a potom:
+Dialogue: 0,0:16:34.48,0:16:36.98,Main,Shin,0000,0000,0000,,Co je tohle za kód?
+Dialogue: 0,0:16:36.98,0:16:40.52,Main,Kon,0000,0000,0000,,Prvně zmáčkni tlačítka dolů a do strany\Na pak zmáčkni tlačítko s mečem.
+Dialogue: 0,0:16:40.82,0:16:43.32,Main,Shin,0000,0000,0000,,Je to jen návod k bojový hře!
+Dialogue: 0,0:16:43.32,0:16:45.44,Main,Shin,0000,0000,0000,,Tvůj syn nemá takový čudlíky!
+Dialogue: 0,0:16:45.67,0:16:48.57,Main,Gin,0000,0000,0000,,Tuším, že to takhle napsal\Npro snadnější pochopení.
+Dialogue: 0,0:16:49.17,0:16:51.75,Main,Gin,0000,0000,0000,,Pravděpodobně tím vysvětluje,
+Dialogue: 0,0:16:51.75,0:16:55.73,Main,Gin,0000,0000,0000,,že se máš pokrčit, zaujmout postoj a sáhnout pro meč
+Dialogue: 0,0:16:56.52,0:16:58.88,Main,Gin,0000,0000,0000,,a rychle ho vytáhnout.
+Dialogue: 0,0:16:59.66,0:17:02.46,Main,Gin,0000,0000,0000,,Tímhle způsobem\Nuhneš útoku od protivníka
+Dialogue: 0,0:17:02.46,0:17:04.63,Main,Gin,0000,0000,0000,,a dostaneš příležitost mu oplatit úder.
+Dialogue: 0,0:17:04.63,0:17:07.08,Main,Shin,0000,0000,0000,,Jak jsi tohle mohl vyčíst z tak debilních instrukcí?
+Dialogue: 0,0:17:07.33,0:17:08.79,Main,Gin,0000,0000,0000,,Protože moje tajná ultimátní tehnika
+Dialogue: 0,0:17:08.79,0:17:11.43,Main,Gin,0000,0000,0000,,"Noční Krádež Cizího Pudinku"
+Dialogue: 0,0:17:11.43,0:17:15.15,Main,Gin,0000,0000,0000,,je prakticky stejná, akorát\Nmá na konci čudlík "Punch".
+Dialogue: 0,0:17:12.61,0:17:18.22,Punch,Sign,0000,0000,0000,,Punch
+Dialogue: 0,0:17:15.15,0:17:18.22,Main,Shin,0000,0000,0000,,Jakto, že je tvá podělaná\Ntechnika tolik podobná mojí?!
+Dialogue: 0,0:17:18.22,0:17:20.72,Main,Kag,0000,0000,0000,,Moje tajná ultimátní technika Pudinkový Protiútok
+Dialogue: 0,0:17:24.72,0:17:27.29,Main,Kag,0000,0000,0000,,se zakládá na tlačítkách dolů do\Nstrany a čudlíku "pudink".
+Dialogue: 0,0:17:26.37,0:17:30.23,Pudding,Sign,0000,0000,0000,,Pudink
+Dialogue: 0,0:17:27.29,0:17:28.50,Main,Shin,0000,0000,0000,,Co je krucinál čudlík pudink?!
+Dialogue: 0,0:17:28.50,0:17:30.23,Main,Shin,0000,0000,0000,,Kolik funkcí má tlačítko "P"?!
+Dialogue: 0,0:17:30.56,0:17:32.96,Main,Kyu,0000,0000,0000,,Měl bys svou novou techniku ozkoušet.
+Dialogue: 0,0:17:32.96,0:17:36.49,Main,Kyu,0000,0000,0000,,Budu na tebe útočit, tak neváhej použít protiúder.
+Dialogue: 0,0:17:37.58,0:17:38.91,Main,G,0000,0000,0000,,První kolo!
+Dialogue: 0,0:17:39.48,0:17:40.21,Main,G,0000,0000,0000,,Boj!
+Dialogue: 0,0:17:40.21,0:17:41.53,Main,Shin,0000,0000,0000,,Proč to vypadá jako ve hře?
+Dialogue: 0,0:17:41.53,0:17:44.58,Main,Gin,0000,0000,0000,,Toho si nevšímej, Pattsan. \NProstě se pokrč a připrav si meč.
+Dialogue: 0,0:17:44.58,0:17:46.29,Main,Shin,0000,0000,0000,,T-Takhle?
+Dialogue: 0,0:17:47.32,0:17:49.11,Main,Gin,0000,0000,0000,,Hlídej si tu modrou čáru.
+Dialogue: 0,0:17:49.11,0:17:50.35,Main,Gin,0000,0000,0000,,To je čára brýlí.
+Dialogue: 0,0:17:50.35,0:17:52.01,Main,Shin,0000,0000,0000,,Co má znamenat čára brýlí?
+Dialogue: 0,0:17:52.01,0:17:54.38,Main,Gin,0000,0000,0000,,Dokud nebude plná,
+Dialogue: 0,0:17:54.38,0:17:57.01,Main,Gin,0000,0000,0000,,Pattsan nemá žádnou sílu, protože mu budou sklouzávat brejle.
+Dialogue: 0,0:17:57.01,0:17:57.46,Main,Gin,0000,0000,0000,,Zvládni to!
+Dialogue: 0,0:17:57.46,0:17:59.76,Main,Shin,0000,0000,0000,,Pattsan je úplně k ničemu!
+Dialogue: 0,0:17:59.76,0:18:02.20,Main,Kyu,0000,0000,0000,,Man**kyou Tentsugan!
+Dialogue: 0,0:18:02.84,0:18:05.31,Main,Kyu,0000,0000,0000,,Man**kyou Tentsugan!
+Dialogue: 0,0:18:05.31,0:18:08.28,Main,Shin,0000,0000,0000,,Man**kyou Tentsugan jsem\N si teda představoval trochu jinak!
+Dialogue: 0,0:18:08.28,0:18:10.70,Main,Shin,0000,0000,0000,,Je to chabý jako Zangiefova technika!
+Dialogue: 0,0:18:11.38,0:18:13.79,Main,Kyu,0000,0000,0000,,Man**kyou Tentsugan!
+Dialogue: 0,0:18:14.29,0:18:16.70,Main,Kyu,0000,0000,0000,,Man**kyou Tentsugan!
+Dialogue: 0,0:18:16.70,0:18:18.54,Main,Shin,0000,0000,0000,,Tohle byl taky Man**kyou Tentsugan?
+Dialogue: 0,0:18:18.98,0:18:23.52,Main,Kyu,0000,0000,0000,,Man**kyou Tentsugan probouzí mé\Nlevé ztracené oko Shingan
+Dialogue: 0,0:18:23.52,0:18:26.37,Main,Kyu,0000,0000,0000,,a díky tomu se stanou všechny moje techniky ultimátní.
+Dialogue: 0,0:18:26.37,0:18:27.54,Main,Shin,0000,0000,0000,,Podvádíš!
+Dialogue: 0,0:18:27.54,0:18:29.87,Main,Kyu,0000,0000,0000,,Podaří se ti blokovat moje údery?!
+Dialogue: 0,0:18:31.42,0:18:33.36,Main,Gin,0000,0000,0000,,Čára brýlí je plná, Shinpachi.
+Dialogue: 0,0:18:33.36,0:18:35.76,Main,Kag,0000,0000,0000,,Dělej! Ukaž jí svůj protiútok!
+Dialogue: 0,0:18:38.49,0:18:42.39,Touch,Sign,0000,0000,0000,,N...Nesahej na mě...
+Dialogue: 0,0:18:40.80,0:18:42.39,Main,Shin,0000,0000,0000,,Jakto?!
+Dialogue: 0,0:18:42.39,0:18:45.33,Main,Shin,0000,0000,0000,,Kašlu na nějakej protiútok!\NOna mě složila jedním dotykem!
+Dialogue: 0,0:18:45.33,0:18:46.83,Main,Kyu,0000,0000,0000,,P-Promiň...
+Dialogue: 0,0:18:46.83,0:18:49.46,Main,Kyu,0000,0000,0000,,Nevzala jsem v potaz možnost,\Nže by se mě mohl někdo dotknout.
+Dialogue: 0,0:18:49.46,0:18:52.52,Main,Shin,0000,0000,0000,,Teď víme, že je na ní náš ultimátní chvat krátkej!
+Dialogue: 0,0:18:52.90,0:18:56.62,Main,Kon,0000,0000,0000,,Shinpachi-kun, omezím se jen na pohyby,\Nkterý můžeš snadno vykrýt,
+Dialogue: 0,0:18:56.62,0:18:59.03,Main,Kon,0000,0000,0000,,takže na mě v klidu vyzkoušej svou techniku.
+Dialogue: 0,0:18:59.82,0:19:01.20,Main,G,0000,0000,0000,,Druhé kolo!
+Dialogue: 0,0:19:01.69,0:19:02.38,Main,G,0000,0000,0000,,Boj!
+Dialogue: 0,0:19:02.38,0:19:05.18,Main,Kon,0000,0000,0000,,KOULE!
+Dialogue: 0,0:19:05.18,0:19:07.91,Main,Shin,0000,0000,0000,,Tuhle oplzlou Dhalsimovu\Ntechniku si strč někam!
+Dialogue: 0,0:19:08.52,0:19:14.54,Touch,Sign,0000,0000,0000,,Vypadni
+Dialogue: 0,0:19:10.87,0:19:12.12,Main,Shin,0000,0000,0000,,Co to vyvádíte?
+Dialogue: 0,0:19:12.12,0:19:14.54,Main,Shin,0000,0000,0000,,Ješte jsem nic neudělal!
+Dialogue: 0,0:19:14.92,0:19:17.35,Main,Gin,0000,0000,0000,,Ty seš vážně případ...
+Dialogue: 0,0:19:17.35,0:19:18.46,Main,Gin,0000,0000,0000,,Padej na místo.
+Dialogue: 0,0:19:18.46,0:19:20.43,Main,Gin,0000,0000,0000,,Nebudu se tolik snažit.
+Dialogue: 0,0:19:20.43,0:19:21.84,Main,Shin,0000,0000,0000,,D-Dobře.
+Dialogue: 0,0:19:22.89,0:19:24.51,Main,N,0000,0000,0000,,Třetí kolo!
+Dialogue: 0,0:19:24.98,0:19:25.69,Main,N,0000,0000,0000,,Boj!
+Dialogue: 0,0:19:26.66,0:19:28.41,Main,Gin,0000,0000,0000,,To je ono, drž si to.
+Dialogue: 0,0:19:28.41,0:19:29.60,Main,Gin,0000,0000,0000,,Počkej si na příležitost.
+Dialogue: 0,0:19:30.38,0:19:31.56,Main,Gin,0000,0000,0000,,Teď máš šanci, pojď!
+Dialogue: 0,0:19:35.54,0:19:40.45,Touch,Sign,0000,0000,0000,,Dokud nepřemůžeš můj Svatý Meč Ďáblův Flámování\NCelou Nocí (atd.) nemáš nejmenší šanci!!
+Dialogue: 0,0:19:38.10,0:19:40.45,Main,Shin,0000,0000,0000,,Tys použil mou ultimátní techniku?!
+Dialogue: 0,0:19:40.45,0:19:43.13,Main,Shin,0000,0000,0000,,Jak ses ji mohl naučit tak rychle?!
+Dialogue: 0,0:19:43.13,0:19:44.16,Main,Gin,0000,0000,0000,,Je primitivní.
+Dialogue: 0,0:19:44.16,0:19:46.94,Main,Shin,0000,0000,0000,,Jenom právoplatnej dědic na ní má právo! \NTrochu respektu, sakra!
+Dialogue: 0,0:19:46.94,0:19:48.52,Main,Gin,0000,0000,0000,,Ostatní ji taky uměj.
+Dialogue: 0,0:19:48.52,0:19:51.46,Main,Gin,0000,0000,0000,,Zatímco ses tu flákal,\Nvšichni se ji naučili.
+Dialogue: 0,0:19:52.42,0:19:54.55,Main,Kag,0000,0000,0000,,Dokonce už víme, jak ji blokovat!
+Dialogue: 0,0:19:54.55,0:19:56.25,Main,Tae,0000,0000,0000,,Jdu další!
+Dialogue: 0,0:19:57.38,0:20:01.12,Main,Kyu,0000,0000,0000,,Dokonce jsme přišli na to, jak\Nblokovat blok, Shinpachi-kun.
+Dialogue: 0,0:20:02.21,0:20:06.26,Main,Tae,0000,0000,0000,,Už umíme blokovat blok\Nblokování, Shin-chane.
+Dialogue: 0,0:20:07.26,0:20:11.80,Main,Gin,0000,0000,0000,,Dokonce jde i blokovat blok blokování blokování, Pattsan.
+Dialogue: 0,0:20:14.69,0:20:19.00,Main,Kyu,0000,0000,0000,,Ale blokovat blok blokování blokování blokování
+Dialogue: 0,0:20:19.00,0:20:20.62,Main,Kyu,0000,0000,0000,,už nejde, Shinpachi-kun.
+Dialogue: 0,0:20:28.15,0:20:29.03,Internal,Shin,0000,0000,0000,,Otče.
+Dialogue: 0,0:20:30.33,0:20:33.26,Internal,Shin,0000,0000,0000,,Ultimátní techniku, jejímž vytvářením jsi strávil celý život,
+Dialogue: 0,0:20:33.73,0:20:35.91,Internal,Shin,0000,0000,0000,,může každý zřejmě zvládnout levou zadní.
+Dialogue: 0,0:20:37.45,0:20:39.17,Internal,Shin,0000,0000,0000,,Měla se dostat do rukou jenom mně,
+Dialogue: 0,0:20:39.17,0:20:41.73,Internal,Shin,0000,0000,0000,,ale všichni ji schroustali jak sušenku.
+Dialogue: 0,0:20:42.88,0:20:46.34,Internal,Shin,0000,0000,0000,,Proč jsi nevymyslel něco složitějšího?
+Dialogue: 0,0:20:47.34,0:20:49.49,Internal,Shin,0000,0000,0000,,Jestli naši ultimátní techniku zvládnou všichni,
+Dialogue: 0,0:20:49.49,0:20:51.55,Internal,Shin,0000,0000,0000,,dá se jí vůbec říkat ultimátní technika?
+Dialogue: 0,0:20:52.37,0:20:56.35,Internal,Shin,0000,0000,0000,,Myslel jsem, že to bude něco,\Nco můžu zvládnout jenom já...
+Dialogue: 0,0:20:56.61,0:21:00.32,Main,Shin,0000,0000,0000,,S takovou technikou nemůžu hájit naše dojo—
+Dialogue: 0,0:21:03.03,0:21:07.82,How To,Sign,0000,0000,0000,,Až se ji naučíš, \Nvydej se do vzdálených krajin.
+Dialogue: 0,0:21:03.34,0:21:07.82,Internal,F,0000,0000,0000,,Až se ji naučíš, vydej se do vzdálených krajin.
+Dialogue: 0,0:21:08.59,0:21:10.45,Internal,Shin,0000,0000,0000,,Pokračuje to?!
+Dialogue: 0,0:21:10.85,0:21:12.95,Internal,F,0000,0000,0000,,Bude to trnitá cesta.
+Dialogue: 0,0:21:13.37,0:21:15.96,Internal,F,0000,0000,0000,,Často tě bude srážet k zemi.
+Dialogue: 0,0:21:16.22,0:21:18.67,Internal,F,0000,0000,0000,,Často ani v dáli nezahlédneš světlo úspěchu.
+Dialogue: 0,0:21:19.33,0:21:25.41,Internal,F,0000,0000,0000,,Ale s touto technikou dokážeš\Npřekonat kteroukoliv obtíž.
+Dialogue: 0,0:21:25.93,0:21:29.68,Internal,F,0000,0000,0000,,A na konci své dlouhé cesty
+Dialogue: 0,0:21:29.68,0:21:32.18,Internal,F,0000,0000,0000,,určitě najdeš
+Dialogue: 0,0:21:32.39,0:21:34.90,Internal,F,0000,0000,0000,,dva rostlinné klíče k ultimátní technice:
+Dialogue: 0,0:21:36.17,0:21:38.42,Internal,F,0000,0000,0000,,kakao a ořechy macadamia.
+Dialogue: 0,0:21:39.10,0:21:41.69,Internal,F,0000,0000,0000,,Spojením těchto dvou surovin
+Dialogue: 0,0:21:41.93,0:21:45.70,Internal,F,0000,0000,0000,,docílíš chutě všem neodolatelné.
+Dialogue: 0,0:21:46.06,0:21:48.95,Internal,F,0000,0000,0000,,Použij ji jako návnadu a získej \Nvýhodu nad nepřítelem.
+Dialogue: 0,0:21:48.95,0:21:50.07,Internal,F,0000,0000,0000,,To je pravý...
+Dialogue: 0,0:21:51.32,0:21:53.75,Internal,F,0000,0000,0000,,Svatý Meč Ďáblův Flámování Celou Nocí
+Dialogue: 0,0:21:53.75,0:21:55.46,Internal,F,0000,0000,0000,,Povstání Ultra Mimořádného Zázraku
+Dialogue: 0,0:21:55.46,0:21:57.71,Internal,F,0000,0000,0000,,Super Mario Brothers Druhé Vydání
+Dialogue: 0,0:21:57.71,0:22:00.15,Internal,F,0000,0000,0000,,Luigiho Protiútok Režie Klapka!
+Dialogue: 0,0:22:02.16,0:22:04.45,Main,Shin,0000,0000,0000,,Čokoládu budeme mít i další týden,\Ntak se tu prosím zastavte.
+Dialogue: 0,0:22:09.54,0:22:11.00,Main,Gin,0000,0000,0000,,Jaký táta, takový syn.
+Dialogue: 0,0:23:42.02,0:23:50.07,Ep Title,Title,0000,0000,0000,,{\fad(527,1)}Dvě Opice
+Dialogue: 0,0:23:43.23,0:23:46.61,Main,Hij,0000,0000,0000,,Příští díl: "Dvě Opice."
+Dialogue: 0,0:23:50.07,0:23:55.20,Side Bar Top,text r,0000,0000,0000,,Gorilího stalkera Konda Isao
+Dialogue: 0,0:23:50.07,0:23:55.20,Side Bar Bottom,text l,0000,0000,0000,,si vezme pod svá křídla hledaný zločinec?\NI přestože je policista?
+Dialogue: 0,0:23:55.20,0:24:00.75,Side Bar Top,text r,0000,0000,0000,,Zatímco podstupuje zlodějský trénink, příběh\Nnabídne nečekaný zvrat!
+Dialogue: 0,0:23:55.20,0:24:00.75,Side Bar Bottom,text l,0000,0000,0000,,Jaká tajemství nám odkryje Kondova minulost,\No které neví ani Hijikata?

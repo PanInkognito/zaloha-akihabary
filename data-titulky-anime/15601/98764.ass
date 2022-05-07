@@ -1,0 +1,406 @@
+[Script Info]
+Title: [Danko] Czech
+
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: flashback italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: sign_12_1_Shinjuku_Station,Times New Roman,17,&H0079A151,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,7.98,1,0,0,2,0370,0130,0155,1
+Style: sign_2687_35_July_4th_Tuesday,Arial,20,&H00535454,&H000000FF,&H00E1EFE8,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+Style: sign_4587_60_Sano_Manjiro,Trebuchet MS,24,&H00050004,&H000000FF,&H00F5EFF4,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,2,0030,0030,0020,1
+Style: sign_9194_107_Push_Button_Type,Arial,20,&H00400C03,&H000000FF,&H004B311E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0030,0030,0020,1
+Style: sign_17110_178_Vice_Commander_R,Times New Roman,20,&H00170B95,&H000000FF,&H64D6CFCE,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,9,0030,0030,0020,1
+Style: sign_2278_2_Hasegawa,Verdana,14,&H00575959,&H000000FF,&H00CBD1CE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+Style: sign_4708_41_Man_Previously_A,Times New Roman,24,&H00F8F6F4,&H000000FF,&H00988F91,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+Style: sign_4708_42_Middle_School_St,Times New Roman,24,&H00CFD1CC,&H000000FF,&H00696B65,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,4,0030,0030,0020,1
+Style: sign_5437_53__Wed_,Arial,24,&H00BEBFBC,&H000000FF,&H00FCFCFA,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+Style: sign_5531_55__Wed_,Arial,26,&H00D6D7D9,&H000000FF,&H00B4854F,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,2,0030,0030,0020,1
+Style: sign_17930_208_First_Tokyo,Times New Roman,24,&H003C5855,&H000000FF,&H0019130F,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,0030,0030,0020,1
+Style: sign_26851_313_General_Hospital,Georgia,24,&H00CAA287,&H000000FF,&H00ECDEBB,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:20.04,0:01:29.99,main,Manager,0000,0000,0000,,Tokyo Revengers S01E05 - Releap\Npřeklad: Danko
+Dialogue: 0,0:01:32.47,0:01:34.99,main,Manager,0000,0000,0000,,Hanagaki Takemichi.
+Dialogue: 0,0:01:34.99,0:01:37.86,sign_2278_2_Hasegawa,Sign,0000,0000,0000,,{\pos(393,280)}Hasegawa
+Dialogue: 0,0:01:35.26,0:01:37.86,main,Manager,0000,0000,0000,,Máš padáka.
+Dialogue: 0,0:01:38.17,0:01:39.07,main,Takemichi,0000,0000,0000,,Co?
+Dialogue: 0,0:01:39.45,0:01:44.03,main,Manager,0000,0000,0000,,Ale no tak, přece tě to nepřekvapuje. \NZmizel jsi na dva týdny.
+Dialogue: 0,0:01:44.03,0:01:48.58,main,Manager,0000,0000,0000,,A zajímalo by mě kdo za to \Nponese zodpovědnost.
+Dialogue: 0,0:01:48.58,0:01:49.74,main,Takemichi,0000,0000,0000,,O-Omlouvá—
+Dialogue: 0,0:01:49.74,0:01:51.67,main,Manager,0000,0000,0000,,Padáka.
+Dialogue: 0,0:01:52.39,0:01:55.42,italics,Takemichi,0000,0000,0000,,Rozumím... Byly to dva týdny.
+Dialogue: 0,0:01:55.46,0:01:56.05,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\an8\fs16\bord0\pos(355,130)\fad(280,1)}Časová osa přítomnosti
+Dialogue: 0,0:01:55.46,0:01:58.43,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\fs16\pos(215,35)\bord0\fad(280,1)}Týden později
+Dialogue: 0,0:01:55.46,0:01:58.43,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\fs16\pos(485,35)\bord0\fad(280,1)}Dnes
+Dialogue: 0,0:01:55.46,0:02:00.80,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\fs16\bord0\an8\pos(350,290)\fad(280,639)}Časová osa minulosti
+Dialogue: 0,0:01:56.07,0:01:57.99,italics,Takemichi,0000,0000,0000,,Pokud utíká čas když jsem v minulosti,
+Dialogue: 0,0:01:57.99,0:02:00.36,italics,Takemichi,0000,0000,0000,,tak v přítomnosti běží také.
+Dialogue: 0,0:01:58.55,0:01:59.80,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\an8\fs16\bord0\pos(355,130)}Časová osa přítomnosti
+Dialogue: 0,0:01:58.80,0:01:59.22,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\fs16\pos(485,35)\bord0}Dnes
+Dialogue: 0,0:01:59.80,0:02:00.80,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\fs16\pos(485,35)\bord0\fad(1,639)}Dnes
+Dialogue: 0,0:02:01.37,0:02:03.15,main,Takemichi,0000,0000,0000,,Um, co můj plat...
+Dialogue: 0,0:02:03.15,0:02:04.85,main,Manager,0000,0000,0000,,Podívej se na účet.
+Dialogue: 0,0:02:09.17,0:02:10.77,main,Takemichi,0000,0000,0000,,Hele, Naoto...
+Dialogue: 0,0:02:10.77,0:02:15.32,main,Takemichi,0000,0000,0000,,Možná bych mohl Hině \Nz minulosti říct o budoucnosti?
+Dialogue: 0,0:02:15.32,0:02:16.74,main,Takemichi,0000,0000,0000,,Stejně jako s tebou —
+Dialogue: 0,0:02:16.74,0:02:18.03,main,Naoto,0000,0000,0000,,V žádném případě.
+Dialogue: 0,0:02:18.03,0:02:21.18,main,Naoto,0000,0000,0000,,Takemichi, snažíš se z toho vybruslit?
+Dialogue: 0,0:02:21.18,0:02:23.10,main,Takemichi,0000,0000,0000,,Ne, tak to není...
+Dialogue: 0,0:02:23.10,0:02:27.12,main,Takmeichi,0000,0000,0000,,Není to tak, že bych se z toho snažil vybruslit \Nkvůli problémům v životě nebo tak něco.
+Dialogue: 0,0:02:27.12,0:02:31.83,main,Naoto,0000,0000,0000,,Co když si moje sestra začne myslet, \Nže si blázen a přestane tě mít ráda?
+Dialogue: 0,0:02:33.20,0:02:36.03,main,Naoto,0000,0000,0000,,Tomuhle by za normálních \Nokolností nikdo neuvěřil.
+Dialogue: 0,0:02:36.03,0:02:37.34,main,Naoto,0000,0000,0000,,To jsi tak blbej?
+Dialogue: 0,0:02:38.13,0:02:42.72,main,Naoto,0000,0000,0000,,Já ti uvěřil jenom díky tomu, \Nže jsem se tehdy zajímal o nadpřirozeno.
+Dialogue: 0,0:02:43.05,0:02:46.14,main,Takemichi,0000,0000,0000,,Jo, {\i1}byl{\i0} si celkem bystrý. 
+Dialogue: 0,0:02:46.90,0:02:48.93,main,Takemichi,0000,0000,0000,,Počkej, ty si mi právě řekl, že jsem blbej?
+Dialogue: 0,0:02:48.93,0:02:52.66,main,Naoto,0000,0000,0000,,Sendo je mrtvý, \Ntakže Sana neuvidíme.
+Dialogue: 0,0:02:53.14,0:02:57.57,main,Naoto,0000,0000,0000,,Jediný způsob jak zachránit mou sestru je \Nvrátit se do minulosti a změnit Toman.
+Dialogue: 0,0:02:58.20,0:03:01.03,main,Takemichi,0000,0000,0000,,Takže jsme zpátky na začátku.
+Dialogue: 0,0:03:03.33,0:03:05.74,main,Takemichi,0000,0000,0000,,Kdyby jen Draken žil...
+Dialogue: 0,0:03:06.23,0:03:08.32,main,Naoto,0000,0000,0000,,To mluvíš o Ryuguji Kenovi?
+Dialogue: 0,0:03:08.32,0:03:11.58,main,Takemichi,0000,0000,0000,,Jo. Našel sis ho?
+Dialogue: 0,0:03:11.58,0:03:12.33,main,Naoto,0000,0000,0000,,Ano.
+Dialogue: 0,0:03:14.40,0:03:16.14,main,Naoto,0000,0000,0000,,Tady je článek z té doby.
+Dialogue: 0,0:03:16.34,0:03:29.93,sign_4708_41_Man_Previously_A,Sign,0000,0000,0000,,Muž zatčen za útěk bez zaplacení se vrátil do obchodu...\N{\c&Hd0d1cf&}Napadl zaměstnance
+Dialogue: 0,0:03:16.34,0:03:29.93,sign_4708_42_Middle_School_St,Sign,0000,0000,0000,,Student střední školy zapleten do rvačky zemřel.\N{\fscy75}Rvačka 50 členů motorkářského gangu
+Dialogue: 0,0:03:17.11,0:03:22.49,main,Naoto,0000,0000,0000,,3. Srpna, 2005, na parkovišti před \NMusašiho svatyní v Tokyjské šibuje,
+Dialogue: 0,0:03:22.49,0:03:25.10,main,Naoto,0000,0000,0000,,se porvalo 50 členů motorkářského gangu.
+Dialogue: 0,0:03:25.10,0:03:29.93,main,Naoto,0000,0000,0000,,Mladý muž ve třetím ročníku střední školy byl \Nzmlácen a pobodán do břicha,
+Dialogue: 0,0:03:29.93,0:03:31.64,sign_4708_41_Man_Previously_A,Sign,0000,0000,0000,,{\3c&H676762&\fs40}zapleten do bitky zemřel.
+Dialogue: 0,0:03:30.27,0:03:31.16,main,Naoto,0000,0000,0000,,a zemřel.
+Dialogue: 0,0:03:33.10,0:03:36.34,main,Naoto,0000,0000,0000,,Spousta článků ohledně tohoto incidentu \Njsou stále k dispozici.
+Dialogue: 0,0:03:36.92,0:03:38.07,main,Naoto,0000,0000,0000,,Podle nich...
+Dialogue: 0,0:03:38.41,0:03:42.14,main,Naoto,0000,0000,0000,,Kvůli vnitřnímu sporu mezi Mikeyho frakcí \Na Drakenovou frakcí Manji Gangu,
+Dialogue: 0,0:03:42.14,0:03:44.07,main,Naoto,0000,0000,0000,,Ryuguji zemřel.
+Dialogue: 0,0:03:44.76,0:03:46.74,main,Takemichi,0000,0000,0000,,Cože? Počkej chvilku!
+Dialogue: 0,0:03:46.74,0:03:50.37,sign_5437_53__Wed_,Sign,0000,0000,0000,,{\c&H7d7a79&}(Stř)
+Dialogue: 0,0:03:47.12,0:03:50.14,main,Takemichi,0000,0000,0000,,3. Srpna je už za dva týdny!
+Dialogue: 0,0:03:50.58,0:03:52.46,main,Naoto,0000,0000,0000,,Správně, ale před 12 lety.
+Dialogue: 0,0:03:50.66,0:03:50.70,sign_5531_55__Wed_,Sign,0000,0000,0000,,{\pos(615,310)\c&HD4D4D4&}(Stř)
+Dialogue: 0,0:03:50.70,0:03:50.75,sign_5531_55__Wed_,Sign,0000,0000,0000,,{\pos(555,265)\c&HE2E6E5&}(Stř)
+Dialogue: 0,0:03:50.75,0:03:50.79,sign_5531_55__Wed_,Sign,0000,0000,0000,,{\pos(515,240)\c&HF0E7CF&}(Stř)
+Dialogue: 0,0:03:50.79,0:03:50.83,sign_5531_55__Wed_,Sign,0000,0000,0000,,{\pos(490,220)\c&HF8EDE7&}(Stř)
+Dialogue: 0,0:03:50.83,0:03:52.46,sign_5531_55__Wed_,Sign,0000,0000,0000,,{\pos(485,215)\c&HFEF8F2&}(Stř)
+Dialogue: 0,0:03:52.46,0:03:56.59,main,Takemichi,0000,0000,0000,,Hádka mezi Mikeem a Drakenem? \NTo musí být nějaká chyba.
+Dialogue: 0,0:03:57.80,0:04:01.31,main,Takemichi,0000,0000,0000,,Draken chápe Mikeeho \Nvíc než kdokoliv jiný!
+Dialogue: 0,0:04:01.31,0:04:04.18,main,Takemichi,0000,0000,0000,,To prostě není možné!
+Dialogue: 0,0:04:04.61,0:04:06.14,main,Naoto,0000,0000,0000,,Takže myslíš, že je za tím něco víc?
+Dialogue: 0,0:04:06.43,0:04:08.70,main,Takemichi,0000,0000,0000,,Co? J-Já nevím...
+Dialogue: 0,0:04:08.70,0:04:11.23,main,Takemichi,0000,0000,0000,,Jen vím, že to není možný!
+Dialogue: 0,0:04:11.23,0:04:15.19,sign_4708_42_Middle_School_St,Sign,0000,0000,0000,,{\an2\move(315,100,310,92)\frz-6.07\fs30\t(1,3960,\fs32)\c&HF3F2EE&\3c&H7B7A76&}Student střední školy zapleten do rvačky zemřel.\N{\fscy75}Rvačka 50 členů motorkářského gangu
+Dialogue: 0,0:04:11.72,0:04:15.19,main,Naoto,0000,0000,0000,,Nicméně faktem zůstává, \Nže Ryuguji toho dne zemřel.
+Dialogue: 0,0:04:16.98,0:04:18.34,main,Naoto,0000,0000,0000,,Měli bychom se na to podívat více.
+Dialogue: 0,0:04:19.20,0:04:22.82,main,Naoto,0000,0000,0000,,Dnes je 19. Července. Máme dva týdny.
+Dialogue: 0,0:04:23.38,0:04:25.72,main,Naoto,0000,0000,0000,,Musíme přijít na to jak zemřel,
+Dialogue: 0,0:04:25.72,0:04:28.16,main,Naoto,0000,0000,0000,,a potom, 3. Srpna, \Nzachráníš Ryugujiho Kena.
+Dialogue: 0,0:04:28.88,0:04:31.12,main,Naoto,0000,0000,0000,,To bude tvůj úkol.
+Dialogue: 0,0:04:31.97,0:04:34.62,main,Naoto,0000,0000,0000,,Sano Manjiro se podle všeho změnil \Npo Ryugujiho smrti.
+Dialogue: 0,0:04:35.25,0:04:38.63,main,Naoto,0000,0000,0000,,Sendo Atsushi spáchal sebevraždu, \Nprotože se bál Kisakiho Tetta.
+Dialogue: 0,0:04:39.30,0:04:44.93,main,Naoto,0000,0000,0000,,A protože se z Tomanu stal zlý a brutální gang, \Nzabili Tachibanu Hinatu, mou sestru.
+Dialogue: 0,0:04:45.75,0:04:49.47,main,Naoto,0000,0000,0000,,Pokud se tenhle úkol povede, \Nměli bychom je všechny zachránit.
+Dialogue: 0,0:04:49.82,0:04:53.93,main,Takemichi,0000,0000,0000,,Draken, Akkun... a Hina.
+Dialogue: 0,0:04:54.27,0:04:55.00,main,Naoto,0000,0000,0000,,Ano.
+Dialogue: 0,0:04:55.39,0:04:57.60,sign_4587_60_Sano_Manjiro,Sign,0000,0000,0000,,{\move(438,50,440,0,2032,2210)}Sano Manjiro
+Dialogue: 0,0:04:55.69,0:04:57.85,main,Takemichi,0000,0000,0000,,V tom případě je to perfektní řešení!
+Dialogue: 0,0:04:59.48,0:05:02.02,main,Takemichi,0000,0000,0000,,Drakena zachráním ať se děje, co se děje!
+Dialogue: 0,0:05:03.10,0:05:04.61,main,Naoto,0000,0000,0000,,Spoléhám na tebe!
+Dialogue: 0,0:05:15.84,0:05:17.17,italics,Takemichi,0000,0000,0000,,Tma.
+Dialogue: 0,0:05:19.04,0:05:21.80,italics,Takemichi,0000,0000,0000,,Něco je strašně těžké...
+Dialogue: 0,0:05:26.04,0:05:27.76,main,Emma,0000,0000,0000,,Žádný líbání.
+Dialogue: 0,0:05:28.95,0:05:29.75,italics,Takemichi,0000,0000,0000,,Cože?!
+Dialogue: 0,0:05:30.52,0:05:33.18,italics,Takemichi,0000,0000,0000,,Co se to sakra děje?!
+Dialogue: 0,0:05:33.18,0:05:35.23,italics,Takemichi,0000,0000,0000,,Žádný líbání?!
+Dialogue: 0,0:05:35.64,0:05:38.64,italics,Takemichi,0000,0000,0000,,Co přesně je tedy na menu?!
+Dialogue: 0,0:05:47.97,0:05:51.20,main,Emma,0000,0000,0000,,Samozřejmě. Můžete přidat dalších 30 minut?
+Dialogue: 0,0:05:51.20,0:05:52.24,main,Emma,0000,0000,0000,,Chceš něco k pití?
+Dialogue: 0,0:05:53.81,0:05:54.68,main,Emma,0000,0000,0000,,Co?
+Dialogue: 0,0:05:57.57,0:06:00.04,italics,Takemichi,0000,0000,0000,,Co to sak—?! \NCo se to sakra děje?!
+Dialogue: 0,0:06:03.28,0:06:05.84,italics,Takemichi,0000,0000,0000,,Můj život v minulosti se změnil!
+Dialogue: 0,0:06:05.84,0:06:09.32,italics,Takemichi,0000,0000,0000,,Zoufalý panic jako já \Nnějak skončil s touhle kráskou?
+Dialogue: 0,0:06:10.18,0:06:12.60,main,Takemichi,0000,0000,0000,,Musím se ujistit, že se to Hina nikdy nedozví.
+Dialogue: 0,0:06:12.60,0:06:13.58,main,Hinata,0000,0000,0000,,Nedozví co?
+Dialogue: 0,0:06:16.72,0:06:19.40,main,Takemichi,0000,0000,0000,,Hino! C-C-Co tady děláš?!
+Dialogue: 0,0:06:19.40,0:06:20.99,main,Hinata,0000,0000,0000,,Jdu domů z doučka.
+Dialogue: 0,0:06:20.99,0:06:23.24,main,Hinata,0000,0000,0000,,Co tady děláš ty, Takemichi?
+Dialogue: 0,0:06:23.24,0:06:25.18,main,Takemichi,0000,0000,0000,,No, já byl jen...
+Dialogue: 0,0:06:29.35,0:06:32.24,main,Takemichi,0000,0000,0000,,C-Co? Mám něco na obličeji?
+Dialogue: 0,0:06:35.11,0:06:36.87,italics,Takemichi,0000,0000,0000,,N-Neříkej, že...
+Dialogue: 0,0:06:38.62,0:06:40.26,italics,Takemichi,0000,0000,0000,,Ona už to ví?!
+Dialogue: 0,0:06:40.79,0:06:44.51,main,Takemichi,0000,0000,0000,,N-No, taky si moc \Nnepamatuji, co se stalo.
+Dialogue: 0,0:06:44.51,0:06:46.26,main,Hinata,0000,0000,0000,,O čem to mluvíš?
+Dialogue: 0,0:06:48.06,0:06:50.97,main,Hinata,0000,0000,0000,,Takemichi, poslední dobou se chováš divně.
+Dialogue: 0,0:06:50.97,0:06:51.84,main,Takemichi,0000,0000,0000,,Co?
+Dialogue: 0,0:06:51.84,0:06:53.68,main,Hinata,0000,0000,0000,,Dnes jsi dospělý Takemichi.
+Dialogue: 0,0:06:55.22,0:06:58.06,main,Hinata,0000,0000,0000,,Tu noc, co jsme pozorovali \Nohňostroj z mé střechy,
+Dialogue: 0,0:06:58.06,0:06:59.92,main,Hinata,0000,0000,0000,,jsi beze slov spěchal domů.
+Dialogue: 0,0:06:59.92,0:07:02.65,main,Hinata,0000,0000,0000,,A ve škole ses ke mně choval bezcitně.
+Dialogue: 0,0:07:03.67,0:07:05.93,main,Hinata,0000,0000,0000,,Ale teď se chováš laskavě.
+Dialogue: 0,0:07:06.92,0:07:10.67,italics,Takemichi,0000,0000,0000,,Chápu. Kdykoliv se \Nvrátím do přítomnosti,
+Dialogue: 0,0:07:10.67,0:07:14.07,italics,Takemichi,0000,0000,0000,,moje já, které je tady, jsem já v minulosti \Na nemám tušení co se doopravdy děje.
+Dialogue: 0,0:07:18.06,0:07:20.21,flashback,Emma,0000,0000,0000,,Žádný líbání.
+Dialogue: 0,0:07:20.21,0:07:22.76,italics,Takemichi,0000,0000,0000,,Jak jsem se ale sakra \Ndostal do té situace?
+Dialogue: 0,0:07:22.76,0:07:24.79,italics,Takemichi,0000,0000,0000,,Jseš takovej blbec, já z minulosti!
+Dialogue: 0,0:07:25.28,0:07:27.56,main,Hinata,0000,0000,0000,,Takemichi, zvoní ti telefon
+Dialogue: 0,0:07:27.56,0:07:29.67,main,Takemichi,0000,0000,0000,,Co? Jo...
+Dialogue: 0,0:07:31.19,0:07:33.22,main,Takemichi,0000,0000,0000,,To je Draken.
+Dialogue: 0,0:07:33.70,0:07:34.99,main,Takemichi,0000,0000,0000,,Prosím?
+Dialogue: 0,0:07:34.99,0:07:37.68,italics,Draken,0000,0000,0000,,Takemitchy? Co právě teď děláš?
+Dialogue: 0,0:07:37.68,0:07:39.74,main,Takemichi,0000,0000,0000,,Co? No, jsem —
+Dialogue: 0,0:07:39.74,0:07:43.02,italics,Draken,0000,0000,0000,,Vydej se k Musašiho svatyni. \NVšichni se tam sejdeme.
+Dialogue: 0,0:07:43.02,0:07:45.50,main,Takemichi,0000,0000,0000,,Co? Teď není úplně vhodná —
+Dialogue: 0,0:07:47.49,0:07:51.03,main,Takemichi,0000,0000,0000,,Hino, omlouvám se. Draken mě chce vidět.
+Dialogue: 0,0:07:51.75,0:07:53.49,main,Hinata,0000,0000,0000,,V tom případě půjdu s tebou.
+Dialogue: 0,0:07:53.90,0:07:54.87,main,Takemichi,0000,0000,0000,,Vážně?
+Dialogue: 0,0:07:55.21,0:07:57.51,main,Hinata,0000,0000,0000,,No, je to tvůj kamarád.
+Dialogue: 0,0:08:03.80,0:08:05.06,main,Hinata,0000,0000,0000,,Takemichi...
+Dialogue: 0,0:08:06.93,0:08:10.34,main,Hinata,0000,0000,0000,,Co považuješ za důležité?
+Dialogue: 0,0:08:10.80,0:08:12.90,main,Takemichi,0000,0000,0000,,Co? Důležité?
+Dialogue: 0,0:08:15.84,0:08:20.15,main,Hinata,0000,0000,0000,,Pro mě jsou to chvíle jako tahle. \NNemusíme ani nic dělat.
+Dialogue: 0,0:08:20.87,0:08:22.73,main,Hinata,0000,0000,0000,,Jen my dva spolu na procházce.
+Dialogue: 0,0:08:23.10,0:08:27.98,main,Hinata,0000,0000,0000,,Bavit se o čemkoliv nepodstatném. \NJenom to, že můžu trávit čas s tebou.
+Dialogue: 0,0:08:30.07,0:08:32.69,main,Hinata,0000,0000,0000,,Doufám, že s tebou budu moct zažít \Nještě více takových chvílí!
+Dialogue: 0,0:08:33.08,0:08:35.86,italics,Takemichi,0000,0000,0000,,Čas... Správně.
+Dialogue: 0,0:08:35.86,0:08:38.95,italics,Takemichi,0000,0000,0000,,Pro mě je důležité zachránit Hinu.
+Dialogue: 0,0:08:38.95,0:08:42.02,italics,Takemichi,0000,0000,0000,,Zachránit Hinu, kterou zabije \NManji Gang v budoucnosti!
+Dialogue: 0,0:08:45.68,0:08:47.50,main,Hinata,0000,0000,0000,,Vy se scházíte tady?
+Dialogue: 0,0:08:47.50,0:08:48.57,main,Takemichi,0000,0000,0000,,Jo...
+Dialogue: 0,0:08:59.12,0:09:00.62,main,Hinata,0000,0000,0000,,Jsi si jistý, že je to tady?
+Dialogue: 0,0:09:00.62,0:09:01.97,main,Takemichi,0000,0000,0000,,J-Jo.
+Dialogue: 0,0:09:06.72,0:09:08.57,main,Hinata,0000,0000,0000,,Vypadají dost děsivě.
+Dialogue: 0,0:09:08.57,0:09:12.03,main,Takemichi,0000,0000,0000,,N-Neboj se. Jsem tady.
+Dialogue: 0,0:09:12.03,0:09:14.68,main,Takemichi,0000,0000,0000,,Jen se na ně nedívej.
+Dialogue: 0,0:09:15.32,0:09:18.78,main,Takemichi,0000,0000,0000,,Kdo se dneska obléká jako motorkář?\N A je jich tady tolik...
+Dialogue: 0,0:09:18.78,0:09:20.33,main,Guy,0000,0000,0000,,Hej!
+Dialogue: 0,0:09:21.00,0:09:24.62,main,Toman A,0000,0000,0000,,Na koho myslíš, že čumíš, co?! \NVypadni!
+Dialogue: 0,0:09:26.08,0:09:27.93,main,Toman A,0000,0000,0000,,Co máš sakra za problém?!
+Dialogue: 0,0:09:27.93,0:09:29.67,main,Toman B,0000,0000,0000,,Zabiju tě!
+Dialogue: 0,0:09:29.67,0:09:32.75,main,Takemichi,0000,0000,0000,,N-No, měl jsem tu mít s někým sraz, a —
+Dialogue: 0,0:09:32.75,0:09:36.27,main,Toman A,0000,0000,0000,,Cože?! Máš vůbec tušení \Nkde jsi, spratku?!
+Dialogue: 0,0:09:36.27,0:09:38.04,main,Takemichi,0000,0000,0000,,M-Musašiho Svatyně...
+Dialogue: 0,0:09:38.04,0:09:41.61,main,Toman B,0000,0000,0000,,Kdo by sakra zval takovou nulu \Nna shromáždění Tomanu, co?!
+Dialogue: 0,0:09:41.61,0:09:43.06,main,Hinata,0000,0000,0000,,Násilí je špatné!
+Dialogue: 0,0:09:45.98,0:09:49.48,sign_17110_178_Vice_Commander_R,Sign,0000,0000,0000,,{\an7\pos(90,230)\blur1}Kapitán 2. Divize \NMitsuya Takashi
+Dialogue: 0,0:09:47.09,0:09:49.48,main,Mitsuya,0000,0000,0000,,Počkej chvíli, ty jsi Takemitchy?
+Dialogue: 0,0:09:49.48,0:09:51.44,main,Takemichi,0000,0000,0000,,A-Ano...
+Dialogue: 0,0:09:52.21,0:09:54.53,main,Mitsuya,0000,0000,0000,,Proč jako děsíš \Nvelitelova hosta?
+Dialogue: 0,0:09:55.41,0:09:57.06,main,Toman A,0000,0000,0000,,M-Mrzí mě to, pane!
+Dialogue: 0,0:09:58.98,0:10:00.80,main,Hinata,0000,0000,0000,,Jsi v pořádku, Takemichi?
+Dialogue: 0,0:10:00.80,0:10:01.49,main,Takemichi,0000,0000,0000,,Jo.
+Dialogue: 0,0:10:02.23,0:10:03.49,main,Mitsuya,0000,0000,0000,,Pojď se mnou.
+Dialogue: 0,0:10:03.49,0:10:05.95,main,Takemichi,0000,0000,0000,,Co? Jo, jasně...
+Dialogue: 0,0:10:09.92,0:10:11.79,main,Mikey,0000,0000,0000,,Nazdárek, Takemitchy.
+Dialogue: 0,0:10:13.74,0:10:16.38,main,Mikey,0000,0000,0000,,Omlouvám se za to pozvání zničehonic.
+Dialogue: 0,0:10:16.38,0:10:19.34,main,Draken,0000,0000,0000,,Na co si sem bral svou ženušku?
+Dialogue: 0,0:10:19.34,0:10:23.61,main,Takemichi,0000,0000,0000,,Promiň. Vůbec jsem netušil, \Nže to bude takové.
+Dialogue: 0,0:10:24.24,0:10:25.43,main,Draken,0000,0000,0000,,Hino...
+Dialogue: 0,0:10:25.43,0:10:27.48,main,Draken,0000,0000,0000,,Omlouvám se, že jsem tě minule vyděsil.
+Dialogue: 0,0:10:27.48,0:10:30.40,main,Hinata,0000,0000,0000,,V pořádku. Nic si z toho nedělej.
+Dialogue: 0,0:10:30.40,0:10:33.71,main,Hinata,0000,0000,0000,,Také se omlouvám.
+Dialogue: 0,0:10:34.49,0:10:35.66,main,Draken,0000,0000,0000,,Hele, Emmo!
+Dialogue: 0,0:10:35.66,0:10:36.86,main,Emma,0000,0000,0000,,Jo?
+Dialogue: 0,0:10:36.86,0:10:40.38,main,Draken,0000,0000,0000,,Tohle je Takemitchyho ženuška, \Npostarej se o její bezpečnost.
+Dialogue: 0,0:10:43.48,0:10:45.29,main,Emma,0000,0000,0000,,Rozumím.
+Dialogue: 0,0:10:48.32,0:10:50.46,main,Emma,0000,0000,0000,,Ahojky, rošťáku.
+Dialogue: 0,0:10:51.77,0:10:54.58,main,Hinata,0000,0000,0000,,Proč ti říká "rošťáku"?
+Dialogue: 0,0:10:54.58,0:10:57.05,main,Draken,0000,0000,0000,,Cože? Ty znáš Emmu?
+Dialogue: 0,0:10:57.05,0:10:59.01,main,Takemichi,0000,0000,0000,,P-Pochopila si to špatně, Hino!
+Dialogue: 0,0:10:59.01,0:11:02.47,main,Takemichi,0000,0000,0000,,Drakene, na nic co se stalo si nepamatuji.
+Dialogue: 0,0:11:02.47,0:11:05.68,main,Emma,0000,0000,0000,,Povedlo se ti mě svléknout \Ndo spodního prádla a pak si utekl.
+Dialogue: 0,0:11:05.68,0:11:09.73,main,Hinata,0000,0000,0000,,Jo, vážně? Takže to se stalo?
+Dialogue: 0,0:11:09.73,0:11:14.81,main,Takemichi,0000,0000,0000,,Víš, nejsem si jistý. \NFakt si to nepamatuji!
+Dialogue: 0,0:11:15.32,0:11:17.19,main,Takemichi,0000,0000,0000,,Co?! Hino?!
+Dialogue: 0,0:11:21.62,0:11:23.66,main,Takemichi,0000,0000,0000,,Moc se omlouvám.
+Dialogue: 0,0:11:23.96,0:11:25.11,main,Hinata,0000,0000,0000,,Blbče!
+Dialogue: 0,0:11:25.83,0:11:27.34,main,Emma,0000,0000,0000,,Jejda...
+Dialogue: 0,0:11:27.34,0:11:30.40,main,Emma,0000,0000,0000,,Překvapuje mě, že jsi se mnou byl, \Nkdyž máš takovou holku.
+Dialogue: 0,0:11:30.40,0:11:32.59,main,Emma,0000,0000,0000,,Neber to nijak špatně nebo něco.
+Dialogue: 0,0:11:32.59,0:11:35.66,main,Emma,0000,0000,0000,,Nelíbíš se mi nebo tak něco.
+Dialogue: 0,0:11:35.66,0:11:36.46,main,Takemichi,0000,0000,0000,,Co?
+Dialogue: 0,0:11:36.94,0:11:40.62,main,Emma,0000,0000,0000,,Jen jsem chtěla rychleji dospět, nic víc.
+Dialogue: 0,0:11:42.12,0:11:44.75,main,Emma,0000,0000,0000,,Ani se na mě nepodívá.
+Dialogue: 0,0:11:44.75,0:11:47.60,main,Emma,0000,0000,0000,,Jediný co ho zajímá je \NMikey, motorky a bitky.
+Dialogue: 0,0:11:48.28,0:11:51.06,main,Emma,0000,0000,0000,,Myslela jsem, že se aspoň trošku naštve.
+Dialogue: 0,0:11:51.89,0:11:56.28,italics,Takemichi,0000,0000,0000,,Už chápu. Snažila se \Ndonutit Drakena žárlit.
+Dialogue: 0,0:11:56.77,0:12:00.36,italics,Takemichi,0000,0000,0000,,Jo, já vůbec holkám nerozumím.
+Dialogue: 0,0:12:00.36,0:12:01.59,main,Draken,0000,0000,0000,,Takemitchy!
+Dialogue: 0,0:12:02.07,0:12:03.50,main,Draken,0000,0000,0000,,Skončil si?
+Dialogue: 0,0:12:03.50,0:12:05.99,main,Takemichi,0000,0000,0000,,Omlouvám se, že vás nechávám čekat!
+Dialogue: 0,0:12:05.99,0:12:08.00,main,Draken,0000,0000,0000,,Dobrá, všichni sem!
+Dialogue: 0,0:12:08.00,0:12:09.53,main,Draken,0000,0000,0000,,Začínáme naší schůzi!
+Dialogue: 0,0:12:11.33,0:12:13.58,main,Gang,0000,0000,0000,,Dobrý večer, veliteli!
+Dialogue: 0,0:12:27.80,0:12:30.85,sign_17930_208_First_Tokyo,Sign,0000,0000,0000,,První\NTokyo
+Dialogue: 0,0:12:44.04,0:12:45.66,italics,Takemichi,0000,0000,0000,,Hustý...
+Dialogue: 0,0:12:45.66,0:12:49.69,italics,Takemichi,0000,0000,0000,,Atmosféra se úplně změnila, \Nkdyž si před ně stoupnul Mikey.
+Dialogue: 0,0:12:50.29,0:12:53.29,italics,Takemichi,0000,0000,0000,,Takže tohle je velitel Tomanu?
+Dialogue: 0,0:12:54.13,0:12:56.74,main,Mikey,0000,0000,0000,,Dnes jsme se sešli, \Nabychom mluvili o Moebiusu.
+Dialogue: 0,0:12:57.32,0:12:59.63,main,Mikey,0000,0000,0000,,Pokud půjdou proti nám, \Nstane se z toho velká šarvátka.
+Dialogue: 0,0:12:59.95,0:13:03.50,italics,Takemichi,0000,0000,0000,,Moebius? Co je to za šarvátku?
+Dialogue: 0,0:13:03.50,0:13:04.59,italics,Takemichi,0000,0000,0000,,O tom mi nikdo neřekl.
+Dialogue: 0,0:13:05.32,0:13:09.05,main,Mikey,0000,0000,0000,,Takže... všichni mi řekněte co si myslíte.
+Dialogue: 0,0:13:11.78,0:13:14.02,main,Takemichi,0000,0000,0000,,Au! O co —
+Dialogue: 0,0:13:17.35,0:13:19.08,main,Peh-yan,0000,0000,0000,,Máš problém?
+Dialogue: 0,0:13:19.08,0:13:20.98,main,Pah-chin,0000,0000,0000,,Ty jsi Hanagaki, nebo ne?
+Dialogue: 0,0:13:20.98,0:13:26.45,sign_17110_178_Vice_Commander_R,Sign,0000,0000,0000,,{\an7\blur1\pos(190,20)}Zástupce velitele 3. Divize\NPeh-yan
+Dialogue: 0,0:13:22.04,0:13:26.45,main,Peh-yan,0000,0000,0000,,Slyšeli jsem, že ses dobře postaral \No našeho známého Kiyomasu.
+Dialogue: 0,0:13:26.45,0:13:30.28,sign_17110_178_Vice_Commander_R,Sign,0000,0000,0000,,{\pos(540,15)\blur1}Kapitán 3. Divize \NPah-chin
+Dialogue: 0,0:13:27.52,0:13:30.28,main,Pah-chin,0000,0000,0000,,Jak za to zaplatíš, co?
+Dialogue: 0,0:13:30.56,0:13:32.83,main,Takemichi,0000,0000,0000,,Z-Zaplatím ?
+Dialogue: 0,0:13:32.83,0:13:34.33,main,Mitsuya,0000,0000,0000,,Kašli na to Pahu.
+Dialogue: 0,0:13:35.15,0:13:39.28,main,Mitsuya,0000,0000,0000,,Máme zapomenout na celou tu věc \Nohledně Kiyomasova malého klubu rváčů
+Dialogue: 0,0:13:39.28,0:13:42.43,main,,0000,0000,0000,,a ohánění se jménem Tomanu.
+Dialogue: 0,0:13:42.43,0:13:46.41,main,Pah-chin,0000,0000,0000,,Cože?! Jsem blbej, \Ntakže nevím co to vlastně znamená.
+Dialogue: 0,0:13:46.41,0:13:49.50,main,Peh-yan,0000,0000,0000,,Pah-chin má mozek jako vodní blecha!
+Dialogue: 0,0:13:49.50,0:13:51.55,main,Mitsuya,0000,0000,0000,,Jestli to nechápeš, \Nmáš držet hubu, kreténe!
+Dialogue: 0,0:13:51.55,0:13:53.32,main,Draken,0000,0000,0000,,Hele Pahu.
+Dialogue: 0,0:13:53.72,0:14:02.61,sign_17930_208_First_Tokyo,Sign,0000,0000,0000,,První
+Dialogue: 0,0:13:54.21,0:13:55.50,main,Draken,0000,0000,0000,,Drž hubu.
+Dialogue: 0,0:13:56.44,0:13:58.02,main,Peh-yan,0000,0000,0000,,Promiň mi to Drakene!
+Dialogue: 0,0:14:02.61,0:14:05.07,main,Draken,0000,0000,0000,,Neměj mu to za zlé, Takemitchy.
+Dialogue: 0,0:14:05.70,0:14:08.15,main,Draken,0000,0000,0000,,Pah je teď dost nasranej.
+Dialogue: 0,0:14:09.59,0:14:11.62,main,Takemichi,0000,0000,0000,,Trochu se utrhl z řetězu, co?
+Dialogue: 0,0:14:12.08,0:14:14.97,main,Mitsuya,0000,0000,0000,,Jeho kámoš se dostal do potyčky s Moebiusem.
+Dialogue: 0,0:14:15.62,0:14:17.58,main,Mitsuya,0000,0000,0000,,To započalo tuhle šarvátku.
+Dialogue: 0,0:14:17.58,0:14:19.75,main,Takemichi,0000,0000,0000,,Co? Co se stalo?
+Dialogue: 0,0:14:20.19,0:14:24.71,main,Mitsuya,0000,0000,0000,,Velitel Moebiusu, chlápek jménem Osanai \Nse s ním dostal do potyčky kvůli nějaký blbosti.
+Dialogue: 0,0:14:25.70,0:14:29.01,main,Mitsuya,0000,0000,0000,,Pahův kámoš dostal neskutečnou nakládačku,
+Dialogue: 0,0:14:29.67,0:14:32.04,main,Mitsuya,0000,0000,0000,,a potom mu znásilnili holku \Npřímo před jeho očima.
+Dialogue: 0,0:14:32.04,0:14:34.09,main,Mitsuya,0000,0000,0000,,A aby to dovršili, sebrali mu všechny peníze
+Dialogue: 0,0:14:34.09,0:14:36.63,main,Mitsuya,0000,0000,0000,,a později pověsili jeho rodiče a sourozence.
+Dialogue: 0,0:14:37.88,0:14:39.06,main,Takemichi,0000,0000,0000,,To je hrozný...
+Dialogue: 0,0:14:39.06,0:14:42.18,main,Mitsuya,0000,0000,0000,,Takhle prostě Moebius funguje.
+Dialogue: 0,0:14:42.60,0:14:45.88,main,Mitsuya,0000,0000,0000,,Jsou dvě generace nad \Nnaším gangem a řídí Shinjuku.
+Dialogue: 0,0:14:45.88,0:14:48.90,main,Takemichi,0000,0000,0000,,Co? Myslíš tím, že Toman neřídí celé město?
+Dialogue: 0,0:14:49.29,0:14:52.70,main,Mitsuya,0000,0000,0000,,Toman řídí Shibuyu. Shinjuku je oddělené.
+Dialogue: 0,0:14:52.70,0:14:55.37,main,Mitsuya,0000,0000,0000,,A náš gang je pořád docela nový.
+Dialogue: 0,0:14:55.71,0:15:00.34,italics,Takemichi,0000,0000,0000,,Chápu... Touhle dobou existoval gang \Nještě větší než je Toman.
+Dialogue: 0,0:15:02.44,0:15:04.60,main,Mikey,0000,0000,0000,,Tak co chceš teda dělat Pahu?
+Dialogue: 0,0:15:05.54,0:15:06.76,main,Mikey,0000,0000,0000,,Budeme bojovat?
+Dialogue: 0,0:15:08.24,0:15:10.46,main,Pah,0000,0000,0000,,Jsou dvě generace nad naším gangem.
+Dialogue: 0,0:15:13.03,0:15:16.10,main,Pah,0000,0000,0000,,Toman nevyvázne bez ztrát.
+Dialogue: 0,0:15:16.10,0:15:18.73,main,Pah,0000,0000,0000,,Nakonec bych vám všem způsobil problémy.
+Dialogue: 0,0:15:21.25,0:15:25.02,main,Pah,0000,0000,0000,,Ale jsem strašně nasranej, Mikey...
+Dialogue: 0,0:15:25.02,0:15:27.19,main,Mikey,0000,0000,0000,,Na to jsem se neptal.
+Dialogue: 0,0:15:27.83,0:15:31.45,main,Mikey,0000,0000,0000,,Budeme bojovat nebo co?
+Dialogue: 0,0:15:33.52,0:15:37.54,main,Pah,0000,0000,0000,,Chci bojovat! \NChci zabít všechny ty hajzly!
+Dialogue: 0,0:15:38.53,0:15:39.34,main,Mikey,0000,0000,0000,,Jo, to mi došlo.
+Dialogue: 0,0:15:39.34,0:15:40.07,main,Pah,0000,0000,0000,,Co?
+Dialogue: 0,0:15:44.53,0:15:47.37,main,Mikey,0000,0000,0000,,Je tu někdo, kdo si myslí, že to, \Nže Pahův kámoš dostal nakládačku
+Dialogue: 0,0:15:47.37,0:15:49.55,main,Mikey,0000,0000,0000,,je velký problém na vypořádání?
+Dialogue: 0,0:15:51.29,0:15:55.35,main,Mikey,0000,0000,0000,,Je tu někdo, kdo se bojí kvůli tomu, \Nže Pahův kámoš dostal na prdel?
+Dialogue: 0,0:15:56.81,0:15:58.26,main,Mikey,0000,0000,0000,,Vidíš? Nikdo takový tu není!
+Dialogue: 0,0:16:04.85,0:16:06.82,main,Mikey,0000,0000,0000,,Zničíme Moebius!
+Dialogue: 0,0:16:08.61,0:16:12.70,main,Mikey,0000,0000,0000,,3. Srpna! Na Musašiho festivalu \Nse to celý semele!
+Dialogue: 0,0:16:18.76,0:16:20.41,italics,Takemichi,0000,0000,0000,,3. Srpna...
+Dialogue: 0,0:16:21.52,0:16:24.89,flashback,Naoto,0000,0000,0000,,3. Srpna, zachráníš Ryugujiho Kena.
+Dialogue: 0,0:16:25.91,0:16:27.61,italics,Takemichi,0000,0000,0000,,To je den, kdy umře Draken!
+Dialogue: 0,0:16:29.41,0:16:33.95,italics,Takemichi,0000,0000,0000,,Naoto říkal, že 3. Srpna se \NMikeyho frakce a Drakenova frakce
+Dialogue: 0,0:16:33.95,0:16:36.05,italics,Takemichi,0000,0000,0000,,dostane do potyčky, kde Draken umře.
+Dialogue: 0,0:16:36.51,0:16:39.60,italics,Takemichi,0000,0000,0000,,Ale teď, když jsem se vrátil 12 let zpátky,
+Dialogue: 0,0:16:39.60,0:16:42.93,italics,,0000,0000,0000,,má dojít k šarvátce mezi \NTomanem a Moebiusem.
+Dialogue: 0,0:16:44.96,0:16:46.44,main,Takemichi,0000,0000,0000,,Což znamená...
+Dialogue: 0,0:16:47.01,0:16:49.65,main,Takemichi,0000,0000,0000,,Nejsem dost chytrý, \Nabych na tohle všechno přišel!
+Dialogue: 0,0:16:50.92,0:16:52.61,main,Takemichi,0000,0000,0000,,Mám to, Naoto!
+Dialogue: 0,0:16:53.70,0:16:57.19,main,Takemichi,0000,0000,0000,,Budu Drakenův bodyguard!
+Dialogue: 0,0:16:57.72,0:17:00.54,main,Takemichi,0000,0000,0000,,Jo, jsem génius.
+Dialogue: 0,0:17:00.97,0:17:03.33,main,Draken,0000,0000,0000,,Můj bodyguard? V žádném případě.
+Dialogue: 0,0:17:03.66,0:17:05.11,main,Takemichi,0000,0000,0000,,Díky!
+Dialogue: 0,0:17:05.88,0:17:07.46,main,Takemichi,0000,0000,0000,,Počkej, co?
+Dialogue: 0,0:17:07.46,0:17:10.20,main,Draken,0000,0000,0000,,Proč bych potřeboval něco tak \Nzbytečného jako je bodyguard?
+Dialogue: 0,0:17:10.20,0:17:12.35,main,Draken,0000,0000,0000,,K čemu by si vůbec byl?
+Dialogue: 0,0:17:12.35,0:17:13.84,main,Takemichi,0000,0000,0000,,Nemusel si to říkat zrovna takhle...
+Dialogue: 0,0:17:14.25,0:17:16.42,italics,Takemichi,0000,0000,0000,,Nemůžu uvěřit tomu, že už jsem selhal.
+Dialogue: 0,0:17:16.80,0:17:20.76,italics,Takemichi,0000,0000,0000,,Ale nevzdám se tak rychle!
+Dialogue: 0,0:17:20.76,0:17:22.77,italics,Takemichi,0000,0000,0000,,Čas na plán B: budu ho sledovat!
+Dialogue: 0,0:17:24.20,0:17:25.48,main,Mikey,0000,0000,0000,,Co to sakra chlape?!
+Dialogue: 0,0:17:26.80,0:17:27.77,italics,Takemichi,0000,0000,0000,,Bitka?
+Dialogue: 0,0:17:27.77,0:17:29.85,main,Mikey,0000,0000,0000,,Za to někdo zaplatí!
+Dialogue: 0,0:17:30.66,0:17:32.40,italics,Takemichi,0000,0000,0000,,Takhle začal ten vnitřní spor?
+Dialogue: 0,0:17:32.40,0:17:34.68,main,Mikey,0000,0000,0000,,Chybí vlaječka!
+Dialogue: 0,0:17:38.11,0:17:38.78,italics,Takemichi,0000,0000,0000,,Co?
+Dialogue: 0,0:17:39.15,0:17:42.70,main,Mikey,0000,0000,0000,,Dětské jídlo mě nadchne \Njenom když je v něm vlaječka!
+Dialogue: 0,0:17:42.70,0:17:44.67,main,Waiter,0000,0000,0000,,Moc se omlouvám. Jednu vám —
+Dialogue: 0,0:17:44.67,0:17:47.42,main,Draken,0000,0000,0000,,Tady máš, Mikey. Tvoje vlaječka.
+Dialogue: 0,0:17:48.82,0:17:50.38,main,Mikey,0000,0000,0000,,Tak se mi to líbí, Keníku!
+Dialogue: 0,0:17:51.54,0:17:53.09,italics,Takemichi,0000,0000,0000,,Odkud ji vzal?
+Dialogue: 0,0:17:56.05,0:17:57.61,main,Draken,0000,0000,0000,,A dost! Už jsem to měl!
+Dialogue: 0,0:17:57.61,0:18:00.01,italics,Takemichi,0000,0000,0000,,Teď co? Perou se?
+Dialogue: 0,0:18:03.78,0:18:04.68,italics,Takemichi,0000,0000,0000,,Spí?
+Dialogue: 0,0:18:04.68,0:18:08.14,main,Draken,0000,0000,0000,,Můžeš přestat usínat \Nhned po tom, co dojíš jídlo?
+Dialogue: 0,0:18:09.56,0:18:12.04,main,Draken,0000,0000,0000,,Bože, ty jsi beznadějný.
+Dialogue: 0,0:18:12.61,0:18:16.81,italics,Takemichi,0000,0000,0000,,Hádám, že takový prostě Mikey normálně je.
+Dialogue: 0,0:18:22.90,0:18:28.25,italics,Takemichi,0000,0000,0000,,Draken je fakt úžasný. \NPodporuje někoho jako je on každý den.
+Dialogue: 0,0:18:29.01,0:18:31.82,italics,Takemichi,0000,0000,0000,,Ale kdyby o něj měl někdy přijít...
+Dialogue: 0,0:18:34.56,0:18:36.57,main,Draken,0000,0000,0000,,Mikey, jsme tady.
+Dialogue: 0,0:18:38.09,0:18:40.30,main,Mikey,0000,0000,0000,,Co tady děláme?
+Dialogue: 0,0:18:39.88,0:18:43.51,sign_26851_313_General_Hospital,Sign,0000,0000,0000,,Hlavní Nemocnice
+Dialogue: 0,0:18:41.35,0:18:42.86,main,Draken,0000,0000,0000,,Uděláme menší návštěvu.
+Dialogue: 0,0:18:45.19,0:18:45.97,main,Mikey,0000,0000,0000,,Kdo to je?
+Dialogue: 0,0:18:47.14,0:18:48.87,main,Draken,0000,0000,0000,,Holka Pahova kámoše.
+Dialogue: 0,0:18:50.79,0:18:53.23,italics,Takemichi,0000,0000,0000,,Důvod proč tahle šarvátka s Moebiusem začala...
+Dialogue: 0,0:18:54.16,0:18:57.19,main,Draken,0000,0000,0000,,Je pátým dnem v bezvědomí.
+Dialogue: 0,0:18:59.81,0:19:02.16,main,Girl's father,0000,0000,0000,,Co tady sakra děláte?!
+Dialogue: 0,0:19:02.57,0:19:05.53,main,Girl's father,0000,0000,0000,,Jak se opovažujete tady ukazovat?! \NOdejděte, hned!
+Dialogue: 0,0:19:05.53,0:19:06.45,main,Girl's mother,0000,0000,0000,,Drahý...
+Dialogue: 0,0:19:09.33,0:19:10.94,main,Girl's father,0000,0000,0000,,Co si myslíte, že děláte?
+Dialogue: 0,0:19:10.94,0:19:14.35,main,Girl's father,0000,0000,0000,,Naše dcera málem umřela kvůli odpadu jako vy!
+Dialogue: 0,0:19:14.35,0:19:18.01,main,Mikey,0000,0000,0000,,Neklaň se mu, Keníku. \NNeudělali jsme nic špatně.
+Dialogue: 0,0:19:18.01,0:19:20.67,main,Mikey,0000,0000,0000,,Proč si to ten stařec snaží vybít na nás?
+Dialogue: 0,0:19:20.67,0:19:22.75,main,Girl's father,0000,0000,0000,,Taková verbež!
+Dialogue: 0,0:19:22.75,0:19:27.18,main,,0000,0000,0000,,Nejste nic než odpad! \NDěláte rozruch každičkou noc!
+Dialogue: 0,0:19:27.18,0:19:29.14,main,Girl's mother,0000,0000,0000,,Prosím přestaň drahý.
+Dialogue: 0,0:19:28.36,0:19:29.14,main,Mikey,0000,0000,0000,,Co?
+Dialogue: 0,0:19:29.14,0:19:32.14,main,Girl's father,0000,0000,0000,,Děláte problémy \Nvšem ostatním, ubližujete jim,
+Dialogue: 0,0:19:32.14,0:19:35.82,main,Girl's father,0000,0000,0000,,a myslíte si, že až dospějete budete \Nz toho venku, protože jste byli jen děti?!
+Dialogue: 0,0:19:35.82,0:19:37.61,main,Girl's father,0000,0000,0000,,To určitě, vy smradi!
+Dialogue: 0,0:19:38.72,0:19:40.78,main,Mikey,0000,0000,0000,,S kým si sakra myslíš, že mluvíš?
+Dialogue: 0,0:19:41.59,0:19:43.16,main,Mikey,0000,0000,0000,,Hej, co děláš?!
+Dialogue: 0,0:19:43.52,0:19:45.87,main,Draken,0000,0000,0000,,Tohle je bezpochyby naše zodpovědnost.
+Dialogue: 0,0:19:45.87,0:19:46.62,main,Mikey,0000,0000,0000,,Hej!
+Dialogue: 0,0:19:46.62,0:19:50.64,main,Girl's father,0000,0000,0000,,Myslíte si, že když se mi začnou klanět \Ndvě hovna, tak se mé dceři udělá lépe?!
+Dialogue: 0,0:19:50.64,0:19:51.58,main,Mikey,0000,0000,0000,,Cože?!
+Dialogue: 0,0:19:51.58,0:19:53.21,main,Draken,0000,0000,0000,,Drž hubu, Mikey!
+Dialogue: 0,0:19:53.91,0:19:58.17,italics,Takemichi,0000,0000,0000,,Mikey má ale pravdu. \NOni nic neudělali.
+Dialogue: 0,0:19:58.82,0:20:02.55,main,Girl's father,0000,0000,0000,,Má dcera je od té doby v kómatu.
+Dialogue: 0,0:20:04.76,0:20:11.02,main,Girl's father,0000,0000,0000,,Její obličej... a její tělo... \Nje celé pošramocené a potlučené.
+Dialogue: 0,0:20:15.40,0:20:20.39,main,Girl's father,0000,0000,0000,,Proč... Co vám kdy udělala?!
+Dialogue: 0,0:20:24.71,0:20:32.49,main,Girl's father,0000,0000,0000,,Moje krásná, sladká dcera... \Nbyla znetvořena.
+Dialogue: 0,0:20:35.49,0:20:40.63,main,Girl's father,0000,0000,0000,,Prosím odejděte. Už vás nikdy nechceme vidět.
+Dialogue: 0,0:20:47.14,0:20:49.34,main,Draken,0000,0000,0000,,Brzy budeme bojovat s Moebiusem.
+Dialogue: 0,0:20:50.18,0:20:53.96,main,Draken,0000,0000,0000,,Vyřešíme naše problémy v našem vlastním světě.
+Dialogue: 0,0:20:54.85,0:20:59.65,main,Draken,0000,0000,0000,,Všichni v naší partě mají rodinu \Na lidi na kterých jim záleží.
+Dialogue: 0,0:21:00.53,0:21:02.58,main,Draken,0000,0000,0000,,Nemůžeme dopustit, \Naby do toho byli zatahováni nevinní.
+Dialogue: 0,0:21:03.51,0:21:05.70,main,Draken,0000,0000,0000,,Nemůžeme nechat jejich přátele a rodinu truchlit.
+Dialogue: 0,0:21:06.80,0:21:09.10,main,Draken,0000,0000,0000,,Nemusíš sklápět hlavu.
+Dialogue: 0,0:21:10.23,0:21:12.10,main,Draken,0000,0000,0000,,Jen měj srdce, kterému záleží na ostatních.
+Dialogue: 0,0:21:15.43,0:21:17.42,main,Mikey,0000,0000,0000,,Jsi tak milý, Keníku.
+Dialogue: 0,0:21:18.40,0:21:20.54,main,Mikey,0000,0000,0000,,Omlouvám se, Keníku.
+Dialogue: 0,0:21:21.20,0:21:22.05,main,Mikey,0000,0000,0000,,Jsem...
+Dialogue: 0,0:21:23.67,0:21:26.14,main,Mikey,0000,0000,0000,,rád, že tě mám na své straně.
+Dialogue: 0,0:21:28.05,0:21:30.20,italics,Takemichi,0000,0000,0000,,Myslím, že teď už rozumím...
+Dialogue: 0,0:21:30.71,0:21:34.70,italics,Takemichi,0000,0000,0000,,proč se Mikey změnil potom co Draken umřel,
+Dialogue: 0,0:21:35.35,0:21:39.75,italics,Takemichi,0000,0000,0000,,a že se po dvanácti letech z \NTomanu stala tak špatná organizace.
+Dialogue: 0,0:21:41.23,0:21:43.94,flashback,Akkun,0000,0000,0000,,Neměl zemřít.
+Dialogue: 0,0:21:44.56,0:21:46.90,italics,Takemichi,0000,0000,0000,,Draken je Mikeeho srdce.
+Dialogue: 0,0:21:47.56,0:21:49.62,italics,Takemichi,0000,0000,0000,,Doplňuje to, co Mikeemu chybí.
+Dialogue: 0,0:21:50.73,0:21:54.32,main,Mikey,0000,0000,0000,,Káámo, mám docela hlad.
+Dialogue: 0,0:21:54.32,0:21:57.23,main,Draken,0000,0000,0000,,Cože? Před chvílí si jedl.
+Dialogue: 0,0:21:57.23,0:21:59.04,main,Mikey,0000,0000,0000,,Po šlofíku mám vždycky hlad.
+Dialogue: 0,0:21:59.31,0:22:01.06,main,Draken,0000,0000,0000,,Jak je to vůbec možný?
+Dialogue: 0,0:22:02.39,0:22:03.46,italics,Takemichi,0000,0000,0000,,Naoto...
+Dialogue: 0,0:22:04.93,0:22:09.69,italics,Takemichi,0000,0000,0000,,Věděl jsem to. Neexistuje možnost, \Nže by tyhle dva někdy bojovali proti sobě!

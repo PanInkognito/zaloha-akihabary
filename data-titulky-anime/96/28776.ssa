@@ -1,0 +1,218 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: Witch Hunter Robin 04
+Original Script: Totan Translations
+Original Translation: Leian
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 864
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: whr_credits,Times New Roman,36,14276814,14276814,14276814,13619151,-1,0,3,0,0,2,30,30,50,0,238
+Style: whr_horni,Times New Roman,42,15724527,8421631,15724527,8421631,0,0,1,1,0,6,30,30,30,0,238
+Style: whr_konec,President CE,60,7773419,8388863,8388863,-2147483640,-1,0,3,0,0,5,30,30,50,0,238
+Style: whr_konec_nazev,Courier New,95,14348798,65535,65535,8822777,-1,0,1,3,0,10,30,30,50,0,238
+Style: whr_nazev,Courier New,60,14347262,12771326,12771326,8822777,-1,0,1,2,0,2,30,30,50,0,238
+Style: whr_pisnicka,Unicorn,56,16777215,8454143,8454143,-2147483640,0,0,1,1,0,2,30,30,30,0,238
+Style: whr_titulek,Fujiyama2,55,16777215,16777215,16777215,64,-1,0,1,2,0,2,30,30,50,0,238
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:55.05,0:00:55.91,whr_titulek,,0000,0000,0000,,Pouívej je.
+Dialogue: Marked=0,0:00:56.75,0:00:58.52,whr_titulek,,0000,0000,0000,,Já mám oèi v poøádku.
+Dialogue: Marked=0,0:00:58.52,0:00:59.68,whr_titulek,,0000,0000,0000,,To se ještì uvidí.
+Dialogue: Marked=0,0:01:02.66,0:01:03.25,whr_titulek,,0000,0000,0000,,Hej...
+Dialogue: Marked=0,0:01:15.44,0:01:16.90,whr_titulek,,0000,0000,0000,,Mé oèi jsou v poøádku.
+Dialogue: Marked=0,0:01:31.32,0:01:40.46,whr_horni,,0000,0000,0000,Karaoke,{\k26}Hi{\k21}to{\k21}mi {\k16}wo {\k16}fu{\k46}se{\k21}ru {\k106}to {\k26}su{\k121}gu {\k31}ki{\k29}e{\k21}te {\k33}shi{\k36}ma{\k84}i{\k41}so{\k14}u{\k205}de
+Dialogue: Marked=0,0:01:31.32,0:01:40.46,whr_pisnicka,,0000,0000,0000,,Kdy zavøu své oèi, všechno okolo se rychle ztrácí.
+Dialogue: Marked=0,0:01:42.05,0:01:57.98,whr_horni,,0000,0000,0000,Karaoke,{\k45}Ha{\k20}ki{\k20}da{\k10}shi{\k15}te {\k25}shi{\k50}mat{\k120}ta {\k25}ko{\k110}do{\k30}ku {\k35}no {\k25}ke{\k25}ha{\k25}i {\k100}no {\k30}ka{\k25}zu {\k110}wo {\k30}ta{\k245}da {\k20}ka{\k25}zo{\k60}e{\k40}te{\k20}i{\k308}ta
+Dialogue: Marked=0,0:01:42.05,0:01:57.98,whr_pisnicka,,0000,0000,0000,,Poèítám ty tiché ivoty, co jsem svojí vùlí zadávila.
+Dialogue: Marked=0,0:01:58.02,0:02:03.69,whr_horni,,0000,0000,0000,Karaoke,{\k29}ka{\k29}wa{\k29}i{\k189}ta {\k34}ji{\k48}kan {\k89}no {\k24}na{\k29}ka{\k67}de
+Dialogue: Marked=0,0:01:58.02,0:02:03.69,whr_pisnicka,,0000,0000,0000,,A v takovıch chvílích...
+Dialogue: Marked=0,0:02:03.69,0:02:08.80,whr_horni,,0000,0000,0000,Karaoke,{\k36}O{\k29}bo{\k39}re{\k24}te{\k59}ru {\k34}mo{\k19}ga{\k31}i{\k49}te{\k39}ru {\k34}ko{\k19}ko{\k44}ro {\k55}wo
+Dialogue: Marked=0,0:02:03.69,0:02:08.80,whr_pisnicka,,0000,0000,0000,,...se snaím utopit, zadusit své svìdomí.
+Dialogue: Marked=0,0:02:08.82,0:02:14.76,whr_horni,,0000,0000,0000,Karaoke,{\k51}Me{\k21}ma{\k29}i {\k176}ga {\k36}su{\k26}ru{\k46}ku{\k31}ra{\k29}i {\k51}no {\k14}u{\k51}so {\k33}wo
+Dialogue: Marked=0,0:02:08.82,0:02:14.76,whr_pisnicka,,0000,0000,0000,,Chycená a trápená...
+Dialogue: Marked=0,0:02:14.78,0:02:24.21,whr_horni,,0000,0000,0000,Karaoke,{\k33}U{\k32}ke{\k22}to{\k27}me{\k47}te {\k22}hi{\k12}ki{\k27}sa{\k33}i{\k42}ta {\k32}so{\k80}shi{\k62}te {\k57}wa{\k27}ta{\k25}shi {\k363}ga
+Dialogue: Marked=0,0:02:14.78,0:02:24.21,whr_pisnicka,,0000,0000,0000,,ze všech tìch lí zmatená. Jsem teï...
+Dialogue: Marked=0,0:02:24.34,0:02:29.88,whr_horni,,0000,0000,0000,Karaoke,{\k47}Ma{\k17}yo{\k33}i {\k37}ko{\k17}mu{\k32}no {\k371}wa
+Dialogue: Marked=0,0:02:24.34,0:02:29.88,whr_pisnicka,,0000,0000,0000,,...ztracená...
+Dialogue: Marked=0,0:02:29.92,0:02:34.96,whr_horni,,0000,0000,0000,Karaoke,{\k33}U{\k22}su{\k27}ya{\k32}mi {\k22}no {\k42}se{\k232}ka{\k94}i
+Dialogue: Marked=0,0:02:29.92,0:02:34.96,whr_pisnicka,,0000,0000,0000,,...v temném svìtì lapená.
+Dialogue: Marked=0,0:01:34.49,0:01:37.37,whr_credits,,0000,0190,0465,,{\fad(406,417)}{\c&HD9E6E4&}pøeklad {\fs48}Leian
+Dialogue: Marked=0,0:01:37.83,0:01:41.79,whr_credits,,0103,0000,0215,,{\fad(625,417)}{\c&HCED9D9&\a5}editace {\fs48}Skullman
+Dialogue: Marked=0,0:01:42.98,0:01:47.18,whr_credits,,0000,0127,0348,,{\fad(667,542)}{\c&HEFEFEF&\a7}èasování {\fs48}Leian
+Dialogue: Marked=0,0:01:50.66,0:01:54.68,whr_credits,,0000,0176,0237,,{\fad(458,375)}{\c&HCBDCDB&\a6}typesetting {\fs48}JBr
+Dialogue: Marked=0,0:01:50.95,0:01:54.68,whr_credits,,0000,0130,0245,,{\fad(375,375)}{\a3}úvodní titulky {\fs48}JBr
+Dialogue: Marked=0,0:01:58.56,0:02:02.19,whr_credits,,0115,0000,0400,,{\fad(960,375)}{\a5}karaoke {\fs48}Skullman
+Dialogue: Marked=0,0:02:02.68,0:02:06.40,whr_credits,,0180,0000,0230,,{\fad(584,459)}{\a1}encoding {\fs48}Skullman
+Dialogue: Marked=0,0:02:35.97,0:02:38.60,whr_credits,,0000,0100,0480,,{\fad(292,417)}{\c&HEFEEDC&}lovec rawù {\fs48}Skullman
+Dialogue: Marked=0,0:03:06.45,0:03:09.97,whr_titulek,,0000,0000,0000,,Zeptala bych se tì, jestli chceš jít nahoru, ale...
+Dialogue: Marked=0,0:03:19.00,0:03:24.00,whr_nazev,,0200,0000,0450,,{\a5}Vynucená èistota
+Dialogue: Marked=0,0:03:38.45,0:03:39.41,whr_titulek,,0000,0000,0000,,Jsem doma.
+Dialogue: Marked=0,0:04:11.41,0:04:13.24,whr_titulek,,0000,0000,0000,,Ah, vítej zpìt.
+Dialogue: Marked=0,0:04:14.38,0:04:16.98,whr_titulek,,0000,0000,0000,,Hádám, e ty máš na svìdomí ten úklid.
+Dialogue: Marked=0,0:04:17.35,0:04:18.18,whr_titulek,,0000,0000,0000,,Ano.
+Dialogue: Marked=0,0:04:19.45,0:04:21.18,whr_titulek,,0000,0000,0000,,To máš tak ráda uklízení?
+Dialogue: Marked=0,0:04:22.89,0:04:26.59,whr_titulek,,0000,0000,0000,,Nejde o to, e bych to mìla ráda... Je to spíš zvyk.
+Dialogue: Marked=0,0:04:27.60,0:04:29.65,whr_titulek,,0000,0000,0000,,V klášteøe jsme musely uklízet kadı den.
+Dialogue: Marked=0,0:05:38.60,0:05:39.57,whr_titulek,,0000,0000,0000,,Vypadá to pìknì.
+Dialogue: Marked=0,0:05:45.01,0:05:46.47,whr_titulek,,0000,0000,0000,,Má to pìknou atmosféru.
+Dialogue: Marked=0,0:05:51.45,0:05:54.51,whr_titulek,,0000,0000,0000,,Vdy jsem chtìla vìdìt, co maluješ.
+Dialogue: Marked=0,0:05:55.75,0:05:56.81,whr_titulek,,0000,0000,0000,,Já také.
+Dialogue: Marked=0,0:05:58.99,0:06:03.52,whr_titulek,,0000,0000,0000,,Chtìla jsem vìdìt, proè sem kadé ráno chodíš.
+Dialogue: Marked=0,0:06:05.26,0:06:08.35,whr_titulek,,0000,0000,0000,,Chodím se modlit.
+Dialogue: Marked=0,0:06:08.70,0:06:12.33,whr_titulek,,0000,0000,0000,,Modlit? Take vìøíš v Boha?
+Dialogue: Marked=0,0:06:15.14,0:06:16.80,whr_titulek,,0000,0000,0000,,Je to spíš zvyk.
+Dialogue: Marked=0,0:06:18.51,0:06:25.54,whr_titulek,,0000,0000,0000,,Já také vìøím. Vìøím v Boha, kterı mne pøivedl na tento krásnı svìt.
+Dialogue: Marked=0,0:06:26.95,0:06:31.75,whr_titulek,,0000,0000,0000,,Maluji, abych tento svìt zachovala. Abych zachovala jeho krásu.
+Dialogue: Marked=0,0:06:34.86,0:06:36.22,whr_titulek,,0000,0000,0000,,Jmenuji se Sayoko.
+Dialogue: Marked=0,0:06:37.96,0:06:39.82,whr_titulek,,0000,0000,0000,,Oh, já jsem Robin.
+Dialogue: Marked=0,0:06:40.43,0:06:43.42,whr_titulek,,0000,0000,0000,,Robin? To je krásné jméno.
+Dialogue: Marked=0,0:06:54.74,0:06:55.88,whr_titulek,,0000,0000,0000,,Robin...
+Dialogue: Marked=0,0:06:55.88,0:06:56.78,whr_titulek,,0000,0000,0000,,Ano?
+Dialogue: Marked=0,0:06:57.18,0:07:03.68,whr_titulek,,0000,0000,0000,,Mám zprávu od Amona. Podívejte se na tyto záznamy a dobøe se je nauète.
+Dialogue: Marked=0,0:07:04.12,0:07:05.09,whr_titulek,,0000,0000,0000,,Záznamy?
+Dialogue: Marked=0,0:07:05.39,0:07:07.25,whr_titulek,,0000,0000,0000,,Kupa nevyøešenıch pøípadù.
+Dialogue: Marked=0,0:07:07.89,0:07:16.50,whr_titulek,,0000,0000,0000,,Je to souhrn pøípadù za poslední dva roky, avšak jen polovina nebo i ménì se opravdu mùe tıkat èarodìjnictví.
+Dialogue: Marked=0,0:07:19.57,0:07:23.83,whr_titulek,,0000,0000,0000,,Vısledky bìného vyšetøování by nám mìly napovìdìt.
+Dialogue: Marked=0,0:07:25.91,0:07:27.11,whr_titulek,,0000,0000,0000,,Kde je Amon?
+Dialogue: Marked=0,0:07:27.11,0:07:29.08,whr_titulek,,0000,0000,0000,,Odešel se Sakakim.
+Dialogue: Marked=0,0:07:29.38,0:07:30.54,whr_titulek,,0000,0000,0000,,Sakakim?
+Dialogue: Marked=0,0:07:30.98,0:07:33.28,whr_titulek,,0000,0000,0000,,Bylo by lepší, kdyby tì vzal sebou.
+Dialogue: Marked=0,0:07:34.12,0:07:38.18,whr_titulek,,0000,0000,0000,,To je pravda. Pøece jen, Robin mìla pùvodnì bıt jeho parák.
+Dialogue: Marked=0,0:07:38.59,0:07:43.39,whr_titulek,,0000,0000,0000,,Doujimo... A co jsi tady mìla pùvodnì dìlat ty?
+Dialogue: Marked=0,0:07:43.72,0:07:47.23,whr_titulek,,0000,0000,0000,,O èem to mluvíte? Jak sprosté!
+Dialogue: Marked=0,0:07:47.23,0:07:49.09,whr_titulek,,0000,0000,0000,,Dìlám svou práci.
+Dialogue: Marked=0,0:07:49.26,0:07:52.20,whr_titulek,,0000,0000,0000,,Tak co znamená ten èasopis?
+Dialogue: Marked=0,0:07:52.87,0:07:57.87,whr_titulek,,0000,0000,0000,,Vám to mùe pøipadat jako èasopis, ale jsou to údaje o pøípadu.
+Dialogue: Marked=0,0:07:58.51,0:08:01.07,whr_titulek,,0000,0000,0000,,Co? Vy mi nevìøíte!?
+Dialogue: Marked=0,0:08:18.26,0:08:20.56,whr_titulek,,0000,0000,0000,,Jsou to všechno hrozné vìci, co?
+Dialogue: Marked=0,0:08:20.93,0:08:22.95,whr_titulek,,0000,0000,0000,,Jsou viníci lidé nebo èarodìjnice?
+Dialogue: Marked=0,0:08:23.90,0:08:28.30,whr_titulek,,0000,0000,0000,,Jsou lidé, co jsou horší ne èarodìjnice.
+Dialogue: Marked=0,0:08:41.25,0:08:44.69,whr_titulek,,0000,0000,0000,,Jo to...  Série vrad v parku Yotsuga.
+Dialogue: Marked=0,0:08:45.69,0:08:50.28,whr_titulek,,0000,0000,0000,,Byly tøi obìti. Nenašlo se nic, co by je spojovalo, kromì toho,
+Dialogue: Marked=0,0:08:51.26,0:08:54.85,whr_titulek,,0000,0000,0000,,e všichni zemøeli na ztrátu krve díky mnoha zranìním.
+Dialogue: Marked=0,0:08:56.06,0:09:00.30,whr_titulek,,0000,0000,0000,,Po celém tìle byly trné rány, ale nezjistilo se, co byla vraedná zbraò.
+Dialogue: Marked=0,0:09:00.90,0:09:04.36,whr_titulek,,0000,0000,0000,,Jak byli zabiti a jaké byly okolnosti jejich smrtí, zùstalo nevyøešeno.
+Dialogue: Marked=0,0:09:05.17,0:09:09.63,whr_titulek,,0000,0000,0000,,Chodím tímto parkem kadı den domù z kostela.
+Dialogue: Marked=0,0:09:10.04,0:09:10.94,whr_titulek,,0000,0000,0000,,Fakt?
+Dialogue: Marked=0,0:09:12.05,0:09:15.41,whr_titulek,,0000,0000,0000,,Netušila jsem, e se tam nìco takového stalo.
+Dialogue: Marked=0,0:09:16.32,0:09:17.65,whr_titulek,,0000,0000,0000,,Jak bys mohla.
+Dialogue: Marked=0,0:09:19.19,0:09:22.99,whr_titulek,,0000,0000,0000,,Stalo se to pøed ètyømi mìsíci, pøed tím ne jsi pøišla.
+Dialogue: Marked=0,0:09:32.33,0:09:34.56,whr_titulek,,0000,0000,0000,,Vrah tam stále mùe bıt.
+Dialogue: Marked=0,0:09:36.27,0:09:38.64,whr_titulek,,0000,0000,0000,,Èarodìjnice nebo moná èlovìk...
+Dialogue: Marked=0,0:09:39.41,0:09:42.27,whr_titulek,,0000,0000,0000,,Chceš se tam jít podívat?
+Dialogue: Marked=0,0:09:44.75,0:09:46.61,whr_titulek,,0000,0000,0000,,Moná na nìco narazíme.
+Dialogue: Marked=0,0:09:50.25,0:09:53.78,whr_titulek,,0000,0000,0000,,U je trochu pozdì. Nedáme si nejdøív nìco k jídlu?
+Dialogue: Marked=0,0:10:23.05,0:10:23.91,whr_titulek,,0000,0000,0000,,Dìkujeme.
+Dialogue: Marked=0,0:10:41.14,0:10:42.40,whr_titulek,,0000,0000,0000,,Vy to mùete vycítit, e?
+Dialogue: Marked=0,0:10:45.74,0:10:47.50,whr_titulek,,0000,0000,0000,,Co si právì myslím...
+Dialogue: Marked=0,0:10:48.31,0:10:49.17,whr_titulek,,0000,0000,0000,,Kdo ví.
+Dialogue: Marked=0,0:10:50.98,0:10:52.00,whr_titulek,,0000,0000,0000,,Prosím...
+Dialogue: Marked=0,0:10:56.62,0:10:58.08,whr_titulek,,0000,0000,0000,,Zkuste pøeèíst mou mysl.
+Dialogue: Marked=0,0:11:14.77,0:11:18.90,whr_titulek,,0000,0000,0000,,Amon... Partner...
+Dialogue: Marked=0,0:11:20.44,0:11:21.70,whr_titulek,,0000,0000,0000,,Bıt opomíjená...
+Dialogue: Marked=0,0:11:23.11,0:11:24.58,whr_titulek,,0000,0000,0000,,Proè? Pokadé...
+Dialogue: Marked=0,0:11:28.95,0:11:31.18,whr_titulek,,0000,0000,0000,,To je úasné...
+Dialogue: Marked=0,0:11:31.62,0:11:33.95,whr_titulek,,0000,0000,0000,,Take vidíte do lidské mysli?
+Dialogue: Marked=0,0:11:40.56,0:11:42.32,whr_titulek,,0000,0000,0000,,Nepouila jsem ádné zvláštní schopnosti.
+Dialogue: Marked=0,0:11:44.63,0:11:47.62,whr_titulek,,0000,0000,0000,,Na tohle nemusím.
+Dialogue: Marked=0,0:11:53.11,0:11:57.74,whr_titulek,,0000,0000,0000,,Mohu èíst jen silné myšlenky usazené hluboko v lidech.
+Dialogue: Marked=0,0:11:58.88,0:12:01.25,whr_titulek,,0000,0000,0000,,Neumím jen tak èíst nìèí myšlenky.
+Dialogue: Marked=0,0:12:02.25,0:12:03.92,whr_titulek,,0000,0000,0000,,I kdy jste tøída S?
+Dialogue: Marked=0,0:12:03.92,0:12:08.91,whr_titulek,,0000,0000,0000,,Ale, takovı mistr jako jsi ty a stará se o dìlení schopností?
+Dialogue: Marked=0,0:12:09.26,0:12:10.92,whr_titulek,,0000,0000,0000,,Mnì na tom zase tak moc nezáleí.
+Dialogue: Marked=0,0:12:12.26,0:12:13.42,whr_titulek,,0000,0000,0000,,Ty jsi tøída A, e ano?
+Dialogue: Marked=0,0:12:15.56,0:12:21.59,whr_titulek,,0000,0000,0000,,Kdybys byla jen trochu víc pøesnìjší, mohla bys bıt snadno tøída S.
+Dialogue: Marked=0,0:12:22.44,0:12:23.90,whr_titulek,,0000,0000,0000,,Proè je nemùeš zasáhnout?
+Dialogue: Marked=0,0:12:26.81,0:12:27.67,whr_titulek,,0000,0000,0000,,Sama nevím.
+Dialogue: Marked=0,0:13:20.06,0:13:20.92,whr_titulek,,0000,0000,0000,,Tady to je.
+Dialogue: Marked=0,0:13:21.16,0:13:22.09,whr_titulek,,0000,0000,0000,,Díky.
+Dialogue: Marked=0,0:13:36.74,0:13:39.41,whr_titulek,,0000,0000,0000,,Kdyby nás šéf vidìl, utrhl by nám hlavy.
+Dialogue: Marked=0,0:13:45.89,0:13:47.75,whr_titulek,,0000,0000,0000,,Nechceš se u mì stavit na cestì zpìt?
+Dialogue: Marked=0,0:13:49.36,0:13:53.16,whr_titulek,,0000,0000,0000,,Je to blízko, chtìla bych si ještì promluvit.
+Dialogue: Marked=0,0:13:54.43,0:13:58.76,whr_titulek,,0000,0000,0000,,Pøátelit se mezi sebou mimo práci je proti pravidlùm.
+Dialogue: Marked=0,0:13:59.70,0:14:01.50,whr_titulek,,0000,0000,0000,,Co na tom.
+Dialogue: Marked=0,0:14:05.74,0:14:07.21,whr_titulek,,0000,0000,0000,,Asi máš pravdu.
+Dialogue: Marked=0,0:14:14.92,0:14:16.18,whr_titulek,,0000,0000,0000,,Je tu pìknì.
+Dialogue: Marked=0,0:14:17.38,0:14:19.88,whr_titulek,,0000,0000,0000,,Jeden by nevìøil, e se tady staly takové vìci.
+Dialogue: Marked=0,0:14:21.02,0:14:24.98,whr_titulek,,0000,0000,0000,,Tehdy z toho tisk udìlal velkı pøípad, ale nikoho to stejnì moc nezajímalo.
+Dialogue: Marked=0,0:14:26.16,0:14:29.89,whr_titulek,,0000,0000,0000,,Jsou to jen ètyøi mìsíce a je to, jako by se nic nestalo.
+Dialogue: Marked=0,0:14:43.51,0:14:44.65,whr_titulek,,0000,0000,0000,,Ty ji znáš?
+Dialogue: Marked=0,0:14:44.65,0:14:47.98,whr_titulek,,0000,0000,0000,,Ne. Ale jednou jsem s ní mluvila.
+Dialogue: Marked=0,0:15:01.80,0:15:03.39,whr_titulek,,0000,0000,0000,,Skonèili jsme s prázdnıma rukama.
+Dialogue: Marked=0,0:15:04.30,0:15:05.86,whr_titulek,,0000,0000,0000,,Asi mi upadnou nohy.
+Dialogue: Marked=0,0:15:10.60,0:15:17.04,whr_titulek,,0000,0000,0000,,Jestli hledáš Robin, tak šla s Karasumou prošetøit pøípad v parku Yotsuga.
+Dialogue: Marked=0,0:15:19.35,0:15:21.21,whr_titulek,,0000,0000,0000,,Park Yotsuga...
+Dialogue: Marked=0,0:15:23.65,0:15:24.41,whr_titulek,,0000,0000,0000,,A-Amone.
+Dialogue: Marked=0,0:15:38.97,0:15:45.03,whr_titulek,,0000,0000,0000,,Nic tu není. Ale to se dalo èekat poté, co se tu promenádovala policie.
+Dialogue: Marked=0,0:15:45.91,0:15:52.15,whr_titulek,,0000,0000,0000,,Co myslíte? Je ten vrah èlovìk nebo...
+Dialogue: Marked=0,0:15:52.15,0:15:54.14,whr_titulek,,0000,0000,0000,,Asi je to èarodìjnice.
+Dialogue: Marked=0,0:15:55.92,0:15:58.82,whr_titulek,,0000,0000,0000,,Ta zranìní nebyla zpùsobena a po smrti.
+Dialogue: Marked=0,0:15:59.22,0:16:02.52,whr_titulek,,0000,0000,0000,,Stalo se jim to ještì kdy byli iví.
+Dialogue: Marked=0,0:16:03.29,0:16:11.62,whr_titulek,,0000,0000,0000,,Ani stopy po tom, e by byli nadrogováni, svázání nebo kladli odpor.
+Dialogue: Marked=0,0:16:13.13,0:16:16.36,whr_titulek,,0000,0000,0000,,Nebo spíš to bylo jako by ani nemìli èas bojovat.
+Dialogue: Marked=0,0:16:17.20,0:16:20.44,whr_titulek,,0000,0000,0000,,Nedá se prostì vìøit, e by to byl normální pøípad.
+Dialogue: Marked=0,0:16:21.84,0:16:23.10,whr_titulek,,0000,0000,0000,,Ale to je jen mùj odhad.
+Dialogue: Marked=0,0:16:27.85,0:16:29.87,whr_titulek,,0000,0000,0000,,Vezmeme to ještì jednou dokola?
+Dialogue: Marked=0,0:16:30.38,0:16:33.38,whr_titulek,,0000,0000,0000,,Chtìla bych jít nìco zkontrolovat.
+Dialogue: Marked=0,0:16:34.66,0:16:38.82,whr_titulek,,0000,0000,0000,,Dobøe. Já se porozhlédnu tady.
+Dialogue: Marked=0,0:18:07.18,0:18:08.05,whr_titulek,,0000,0000,0000,,Vrány...
+Dialogue: Marked=0,0:18:24.06,0:18:26.00,whr_titulek,,0000,0000,0000,,To ne! To dìvèe...
+Dialogue: Marked=0,0:18:29.47,0:18:30.27,whr_titulek,,0000,0000,0000,,Robin!
+Dialogue: Marked=0,0:18:37.41,0:18:38.07,whr_titulek,,0000,0000,0000,,Pøestaò!
+Dialogue: Marked=0,0:19:06.64,0:19:09.63,whr_titulek,,0000,0000,0000,,Zašpinila jsi mì. Zašpinila jsi mì.  Zašpinila jsi mì.
+Dialogue: Marked=0,0:19:10.14,0:19:12.08,whr_titulek,,0000,0000,0000,,Zašpinila jsi mì. Zašpinila jsi mì.
+Dialogue: Marked=0,0:19:12.48,0:19:14.41,whr_titulek,,0000,0000,0000,,Zašpinila jsi mì. Zašpinila jsi mì.
+Dialogue: Marked=0,0:19:14.72,0:19:16.65,whr_titulek,,0000,0000,0000,,Zašpinila jsi mì. Zašpinila jsi mì.
+Dialogue: Marked=0,0:19:17.08,0:19:19.02,whr_titulek,,0000,0000,0000,,Zašpinila jsi mì. Zašpinila jsi mì.
+Dialogue: Marked=0,0:19:29.80,0:19:30.39,whr_titulek,,0000,0000,0000,,Robin!
+Dialogue: Marked=0,0:19:33.73,0:19:34.33,whr_titulek,,0000,0000,0000,,Robin!
+Dialogue: Marked=0,0:19:43.24,0:19:44.34,whr_titulek,,0000,0000,0000,,Dávej pozor! Kryj se!
+Dialogue: Marked=0,0:19:56.16,0:19:57.12,whr_titulek,,0000,0000,0000,,Neodpustitelné.
+Dialogue: Marked=0,0:19:57.59,0:20:01.39,whr_titulek,,0000,0000,0000,,Tìm, kteøí pošpiní mùj svìt, nebude odpuštìno!
+Dialogue: Marked=0,0:20:03.96,0:20:06.83,whr_titulek,,0000,0000,0000,,Orbo mì neubrání proti tak silné magii.
+Dialogue: Marked=0,0:21:28.55,0:21:31.85,whr_titulek,,0000,0000,0000,,Nenašli jsme v seznamu STN ádného jejího pøíbuzného.
+Dialogue: Marked=0,0:21:33.15,0:21:34.55,whr_titulek,,0000,0000,0000,,Vùbec nebyla v záznamech.
+Dialogue: Marked=0,0:21:35.02,0:21:38.79,whr_titulek,,0000,0000,0000,,Poèet lidí s geny èarodìjnic se zvyšuje.
+Dialogue: Marked=0,0:21:46.17,0:21:48.66,whr_titulek,,0000,0000,0000,,Je mi líto tìch obìtí.
+Dialogue: Marked=0,0:21:49.24,0:21:52.36,whr_titulek,,0000,0000,0000,,Zabila je jen kvùli tomu, e stáli v cestì jejímu malování.
+Dialogue: Marked=0,0:21:55.08,0:21:58.57,whr_titulek,,0000,0000,0000,,Èarodìjnice, která znièí ty, je pošpiní jejich svìt.
+Dialogue: Marked=0,0:21:59.25,0:22:02.77,whr_titulek,,0000,0000,0000,,Lovci, kteøí nièí èarodìjnice, je špiní svìt lidí.
+Dialogue: Marked=0,0:22:03.58,0:22:04.35,whr_titulek,,0000,0000,0000,,Co?
+Dialogue: Marked=0,0:22:14.56,0:22:17.12,whr_titulek,,0000,0000,0000,,Nevìdomky moná dìláme to co oni.
+Dialogue: Marked=0,0:22:38.92,0:22:45.56,whr_horni,,0000,0000,0000,,Tatoeba dokomade modoreba ii?
+Dialogue: Marked=0,0:22:38.92,0:22:45.56,whr_pisnicka,,0000,0000,0000,,Jak moc se musím vrátit zpìt?
+Dialogue: Marked=0,0:22:46.56,0:22:48.50,whr_horni,,0000,0000,0000,,Oshiete.
+Dialogue: Marked=0,0:22:46.56,0:22:48.50,whr_pisnicka,,0000,0000,0000,,Prosím, øekni mi.
+Dialogue: Marked=0,0:22:50.93,0:23:00.54,whr_horni,,0000,0000,0000,,Subete wa itami wo tomonau hodo azayaka.
+Dialogue: Marked=0,0:22:50.93,0:23:00.54,whr_pisnicka,,0000,0000,0000,,Vše je tak bolestnì jasné.
+Dialogue: Marked=0,0:23:02.55,0:23:10.35,whr_horni,,0000,0000,0000,,Hontou wa wakeaeru mono nante nai kara,
+Dialogue: Marked=0,0:23:02.55,0:23:10.35,whr_pisnicka,,0000,0000,0000,,Pravdou je, e si nemùeme rozumìt, a tak jsem odešla
+Dialogue: Marked=0,0:23:11.22,0:23:14.78,whr_horni,,0000,0000,0000,,furikaeranakatta.
+Dialogue: Marked=0,0:23:11.22,0:23:14.78,whr_pisnicka,,0000,0000,0000,,a neohlíela se zpìt.
+Dialogue: Marked=0,0:23:14.99,0:23:17.29,whr_horni,,0000,0000,0000,,FALLING INTO A LIGHT SLEEP,
+Dialogue: Marked=0,0:23:14.99,0:23:17.29,whr_pisnicka,,0000,0000,0000,,Upadla jem do døímoty,
+Dialogue: Marked=0,0:23:17.29,0:23:20.70,whr_horni,,0000,0000,0000,,watashi ni michiru
+Dialogue: Marked=0,0:23:17.29,0:23:20.70,whr_pisnicka,,0000,0000,0000,,která mì celou pohltila.
+Dialogue: Marked=0,0:23:20.70,0:23:26.70,whr_horni,,0000,0000,0000,,I DON'T CARRY OUT yakusoku wa yagate
+Dialogue: Marked=0,0:23:20.70,0:23:26.70,whr_pisnicka,,0000,0000,0000,,Nikdy jsem nesplnila své sliby.
+Dialogue: Marked=0,0:23:27.14,0:23:32.78,whr_horni,,0000,0000,0000,,itsuka no kagayaki suteta,
+Dialogue: Marked=0,0:23:27.14,0:23:32.78,whr_pisnicka,,0000,0000,0000,,Je to u dávno, kdy jsem se zøekla svého jasu.
+Dialogue: Marked=0,0:23:32.78,0:23:41.74,whr_horni,,0000,0000,0000,,kaerarenai asa no hikari no you.
+Dialogue: Marked=0,0:23:32.78,0:23:41.74,whr_pisnicka,,0000,0000,0000,,A ten se, jako svítání, zpìt nevrátí.
+Dialogue: Marked=0,0:24:03.64,0:24:17.72,whr_konec,,0100,0000,0160,,{\fad(750,750)}Tøi sta dvacet let uplynulo od dob, kdy se
+Dialogue: Marked=0,0:24:03.64,0:24:17.72,whr_konec,,0100,0000,0240,,{\fad(750,750)}èarodìjnickı kovent rozplynul v temnotách.
+Dialogue: Marked=0,0:24:08.22,0:24:17.72,whr_konec,,0245,0000,0339,,{\fad(250,750)}Ztracená krajina.
+Dialogue: Marked=0,0:24:10.22,0:24:17.72,whr_konec,,0500,0000,0427,,{\fad(250,750)}Vùnì vzpomínek.
+Dialogue: Marked=0,0:24:11.97,0:24:17.72,whr_konec,,0160,0000,0474,,{\fad(250,750)}Utiskované srdce.
+Dialogue: Marked=0,0:24:13.27,0:24:18.22,whr_konec,,0175,0000,0565,,{\fad(250,750)}Zbloudilé srdce slídí po mìstì
+Dialogue: Marked=0,0:24:14.77,0:24:19.72,whr_konec,,0438,0000,0640,,{\fad(250,750)}po své minulosti.
+Dialogue: Marked=0,0:24:18.23,0:24:21.62,whr_konec_nazev,,0000,0000,0000,,{\a10}Vùnì zbloudilého ducha

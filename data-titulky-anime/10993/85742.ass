@@ -1,0 +1,508 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H004D0701,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Warning1,Open Sans Semibold,26,&H0001010D,&H000000FF,&H00A6D0F5,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,13,13,29,1
+Style: Preview,Open Sans Semibold,32,&H00E1FFDE,&H000000FF,&H0026922C,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,53,0,93,0
+Style: Side Bar Top,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H002664F5,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H00FFFFFF,&H000102EF,&H00FF0000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,20,0
+Style: Police,Open Sans Semibold,26,&H0026393B,&H000000FF,&H007399A9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,0,67,40,1
+Style: Exam,Open Sans Semibold,26,&H0026393B,&H000000FF,&H00D5E0DA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,67,40,1
+Style: Exam2,Open Sans Semibold,32,&H0026393B,&H000000FF,&H00D5E0DA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,40,1
+Style: Saito,Open Sans Semibold,35,&H00000002,&H000000FF,&H00EAEAEA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,20,1
+Style: Wolf,Open Sans Semibold,29,&H0001010D,&H000000FF,&H00F4F2F1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,27,1
+Style: Odd,Open Sans Semibold,26,&H004A4F54,&H000000FF,&H00D4DFED,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,167,0,173,0
+Style: Snack,Open Sans Semibold,29,&H00243231,&H000000FF,&H00598CBB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,0,193,27,0
+Style: Sugar,Open Sans Semibold,26,&H004A4F54,&H000000FF,&H00CCD4D8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,67,0
+Style: Third,Open Sans Semibold,29,&H0012263C,&H000000FF,&H005182A5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,1
+Style: Toilet,Open Sans Semibold,35,&H0012263C,&H000000FF,&H005182A5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,0,187,40,1
+Style: Red,Open Sans Semibold,29,&H002244C9,&H000000FF,&H00EEFDFA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,0,27,1
+Style: Afuro,Open Sans Semibold,32,&H0001010D,&H000000FF,&H00F4FFFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+Style: Diary,Open Sans Semibold,26,&H0001010D,&H000000FF,&H00C8DCD9,&H00000000,1,0,0,0,100,100,0,0,1,3,0,4,40,0,27,1
+Style: Odd2,Open Sans Semibold,29,&H004A4F54,&H000000FF,&H00D4DFED,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,0,0,0,0
+Style: Application,Open Sans Semibold,29,&H00061E31,&H000000FF,&H007BD0EB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,0
+Style: Letter,Open Sans Semibold,26,&H0001010D,&H000000FF,&H00F2F2F2,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,27,27,27,1
+Style: Eliza,Open Sans Semibold,26,&H00171417,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,373,160,27,1
+Style: Schedule,Open Sans Semibold,26,&H0001010D,&H000000FF,&H00F2F2F2,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,213,267,27,1
+Style: Eliza2,Open Sans Semibold,26,&H00171417,&H000000FF,&H00969794,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,27,160,40,1
+Style: Tsuzuku,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0,0,40,0
+Style: Bigger Afuro,Open Sans Semibold,35,&H0001010D,&H000000FF,&H00F4FFFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,307,13,27,1
+Style: Side Bar Top2,Open Sans Semibold,38,&H00FFFFFF,&H004B31E3,&H003FAA52,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: podddddddddddddpissssss,Open Sans Semibold,38,&H00BF6DFF,&H000000FF,&H00BF6EFF,&H009D3010,-1,0,0,0,100,100,0,0,1,0.4,1.8,2,0,0,33,1
+Style: afuro na poznámku,Open Sans Semibold,32,&H0001010D,&H000000FF,&H00F4FFFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,13,13,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:28.00,0:01:30.00,podddddddddddddpissssss,,0,0,0,,Překlad: Pazii
+Dialogue: 0,0:01:30.34,0:01:37.22,Warning1,Sign,0000,0000,0000,,{\fad(417,1)}Saito Shimaru doporučuje, Z:  Sledujte Gintamu v dobře osvětlené místnosti a v dostatečné vzdálenosti od TV, Z.
+Dialogue: 0,0:01:30.92,0:01:34.74,Police,Sign,0000,0000,0000,,Zvláštní Policie\NShinsengumi
+Dialogue: 0,0:01:32.46,0:01:34.74,Main,G,0000,0000,0000,,{\an8}To je Třetí oddíl! Afro oddíl je zpátky!
+Dialogue: 0,0:01:35.19,0:01:36.24,Main,G,0000,0000,0000,,{\an8}V Kabukicho
+Dialogue: 0,0:01:36.45,0:01:40.53,Main,G,0000,0000,0000,,{\an8}se jim podařilo zadržet \N36 osob podezřelých z protivládní rebélie!
+Dialogue: 0,0:01:40.53,0:01:43.74,Main,G,0000,0000,0000,,{\an8}Kapitán Afuro to znovu dokázal!
+Dialogue: 0,0:01:44.62,0:01:47.27,Main,Kon,0000,0000,0000,,Naše eso se triumfálně vrací zpátky?
+Dialogue: 0,0:01:47.27,0:01:48.57,Main,Kon,0000,0000,0000,,Bože, bože...
+Dialogue: 0,0:01:48.57,0:01:52.46,Main,Kon,0000,0000,0000,,Pomysli i na nás, jak musíme vypadat.
+Dialogue: 0,0:01:52.46,0:01:56.01,Main,Kon,0000,0000,0000,,Všichni ztratíme tvář, když si nováček povede tak dobře.
+Dialogue: 0,0:01:56.01,0:01:56.97,Main,Kat,0000,0000,0000,,Veliteli.
+Dialogue: 0,0:01:58.09,0:02:00.29,Main,Hij,0000,0000,0000,,Tohle je minimum, co se od něj očekává.
+Dialogue: 0,0:02:00.29,0:02:02.31,Main,Hij,0000,0000,0000,,Aby ti to nestouplo do hlavy, Hashiro.
+Dialogue: 0,0:02:02.31,0:02:03.35,Main,Kat,0000,0000,0000,,Vice veliteli...
+Dialogue: 0,0:02:03.35,0:02:06.39,Main,Oki,0000,0000,0000,,Zase samá kritika, Hijikato-san.
+Dialogue: 0,0:02:06.39,0:02:09.83,Main,Oki,0000,0000,0000,,Víš, Hashirovo nadšení do práce \Nzvedá morálku.
+Dialogue: 0,0:02:09.83,0:02:10.86,Main,Kat,0000,0000,0000,,Okito-dono.
+Dialogue: 0,0:02:11.21,0:02:14.75,Main,Oki,0000,0000,0000,,Všichni naši lidi toužej být jako on.
+Dialogue: 0,0:02:14.75,0:02:18.86,Main,Oki,0000,0000,0000,,A některý z mých dokonce \Nchtěj přeřadit do Třetího oddílu.
+Dialogue: 0,0:02:18.86,0:02:20.00,Main,Kat,0000,0000,0000,,Ne.
+Dialogue: 0,0:02:20.00,0:02:22.38,Main,Kat,0000,0000,0000,,To vše jen díky veliteli,
+Dialogue: 0,0:02:22.38,0:02:25.62,Main,Kat,0000,0000,0000,,protože i nováčkovi jako mně\Ndal takovou příležitost.
+Dialogue: 0,0:02:25.62,0:02:28.72,Main,Kat,0000,0000,0000,,A také zásluhou mých spolehlivých přátel,\Ndíky kterým se nebojím
+Dialogue: 0,0:02:28.72,0:02:31.67,Main,Kat,0000,0000,0000,,se postavit žádnému protivníkovi.
+Dialogue: 0,0:02:32.47,0:02:33.88,Main,Kon,0000,0000,0000,,Hashiro-san!
+Dialogue: 0,0:02:33.88,0:02:37.51,Main,Kat,0000,0000,0000,,Pokračujme ve spolupráci a\Ndonesme světu lepší budoucnost.
+Dialogue: 0,0:02:39.23,0:02:42.18,Main,Kat,0000,0000,0000,,Možná jsme se všichni narodili v jiný den,
+Dialogue: 0,0:02:42.18,0:02:45.60,Main,Kat,0000,0000,0000,,ale jsme připraveni společne zemřít v den stejný!
+Dialogue: 0,0:02:45.60,0:02:47.80,Main,Kat,0000,0000,0000,,Jsme bratři spojení pouty cti a oddanosti!
+Dialogue: 0,0:02:47.80,0:02:49.81,Main,G,0000,0000,0000,,Ano!
+Dialogue: 0,0:02:50.12,0:02:51.82,Main,Kon,0000,0000,0000,,To je teprv osobnost...
+Dialogue: 0,0:02:50.68,0:03:01.07,Main,G,0000,0000,0000,,{\an8}Hashira! Hashira!
+Dialogue: 0,0:02:52.02,0:02:55.88,Main,Oki,0000,0000,0000,,Měli bychom si dávat pozor, ať\Nnezůstaneme pozadu, Hijikato-san.
+Dialogue: 0,0:03:04.36,0:03:06.41,Main,Kat,0000,0000,0000,,V Edu opět zavládl mír.
+Dialogue: 0,0:03:07.31,0:03:09.16,Main,Gin,0000,0000,0000,,Děláš si prdel?!
+Dialogue: 0,0:03:09.16,0:03:15.17,Ep Title,Title,0000,0000,0000,,Afuro a Afrovlk
+Dialogue: 0,0:03:15.69,0:03:19.42,Main,Gin,0000,0000,0000,,Co sakra děláš?! Myslel jsem,\Nžes s tou infiltrací seknul!
+Dialogue: 0,0:03:19.42,0:03:21.12,Main,Kat,0000,0000,0000,,Ne, má paruka!
+Dialogue: 0,0:03:19.42,0:03:21.96,Default,,0,0,0,,{\c&H80ffff&\an8}[Zura=paruka]
+Dialogue: 0,0:03:21.12,0:03:21.96,Main,Kag,0000,0000,0000,,Tady je tvá "zura."
+Dialogue: 0,0:03:21.96,0:03:23.43,Main,Kat,0000,0000,0000,,Nejsem Zura. Jsem Katsura!
+Dialogue: 0,0:03:23.43,0:03:26.89,Main,Shin,0000,0000,0000,,Jsou to tvoji nepřátelé! \NProč pro ně proboha pracuješ?!
+Dialogue: 0,0:03:26.89,0:03:30.07,Main,Shin,0000,0000,0000,,Proč všichni v Shinsengumi nosej afro?!
+Dialogue: 0,0:03:30.07,0:03:32.02,Main,Kat,0000,0000,0000,,Za účelem sjednocení organizace
+Dialogue: 0,0:03:32.02,0:03:33.72,Main,Kat,0000,0000,0000,,jsme sjednotili i naše účesy.
+Dialogue: 0,0:03:33.72,0:03:35.46,Main,Shin,0000,0000,0000,,Proč sakra posiluješ \Nnepřátelskou organizaci?
+Dialogue: 0,0:03:35.46,0:03:37.65,Main,Shin,0000,0000,0000,,Už ani nejsi Joi rebel!
+Dialogue: 0,0:03:37.65,0:03:41.64,Main,Kat,0000,0000,0000,,Skvělý vůdce skvělým vůdcem zůstane \Nnezávisle na tom, na jaké straně stojí.
+Dialogue: 0,0:03:42.34,0:03:45.54,Main,Kat,0000,0000,0000,,Čas od času mívám pocit, že mi to v\NShinsengumi jde možná o něco líp.
+Dialogue: 0,0:03:45.54,0:03:47.95,Main,Gin,0000,0000,0000,,Není divu, když sprostě \Nzaprodáváš svý kámoše!
+Dialogue: 0,0:03:47.95,0:03:51.51,Main,Kat,0000,0000,0000,,Jdu jenom po hanebných zločincích,\Nco se vydávají za Joi rebely!
+Dialogue: 0,0:03:51.51,0:03:54.96,Main,Kat,0000,0000,0000,,Nikdy bych neupustil od svého záměru!
+Dialogue: 0,0:03:55.21,0:03:57.41,Main,Kat,0000,0000,0000,,Aby se mi podařilo zničit Shinsengumi,
+Dialogue: 0,0:03:57.41,0:04:00.51,Main,Kat,0000,0000,0000,,bylo mým plánem převzít\Nvedení nad Třetím oddílem,
+Dialogue: 0,0:04:00.51,0:04:03.67,Main,Kat,0000,0000,0000,,ale Saito Shimaru se ukázal\Nbýt jako velká překážka.
+Dialogue: 0,0:04:03.67,0:04:05.41,Main,Kat,0000,0000,0000,,Ten člověk nedělá chyby,
+Dialogue: 0,0:04:05.41,0:04:07.59,Main,Kat,0000,0000,0000,,takže jsem musel překopat strategii.
+Dialogue: 0,0:04:07.59,0:04:10.22,Main,Kat,0000,0000,0000,,Nechal jsem se jmenovat druhým kapitánem
+Dialogue: 0,0:04:10.22,0:04:14.72,Main,Kat,0000,0000,0000,,a díky svým vůdčím schopnostem \Njsem získal veškerou jejich důvěru.
+Dialogue: 0,0:04:16.26,0:04:19.30,Main,Kat,0000,0000,0000,,Pomocí svého vlivu ho ušlapu do země
+Dialogue: 0,0:04:17.25,0:04:25.95,Afuro,Sign,0000,0000,0000,,Třetí oddíl
+Dialogue: 0,0:04:19.30,0:04:22.29,Main,Kat,0000,0000,0000,,a oficiálně se stanu kapitánem!
+Dialogue: 0,0:04:22.29,0:04:24.14,Main,Shin,0000,0000,0000,,Promíchaly s ti priority!
+Dialogue: 0,0:04:24.14,0:04:25.95,Main,Shin,0000,0000,0000,,Co plán na zničení Shinsengumi?
+Dialogue: 0,0:04:26.20,0:04:29.60,Main,Kat,0000,0000,0000,,Jeho odstranění je v mém žebříčku zájmů\Nmomentálně vysoko nad těmihle pitomostmi.
+Dialogue: 0,0:04:29.60,0:04:31.30,Main,Shin,0000,0000,0000,,Najednou mu to přijde jako pitomost!
+Dialogue: 0,0:04:31.30,0:04:34.25,Main,Kat,0000,0000,0000,,Během minulého měsíce jsem vše připravil.
+Dialogue: 0,0:04:34.50,0:04:37.75,Main,Kat,0000,0000,0000,,Využil jsem jeho stálé rezervovanosti
+Dialogue: 0,0:04:37.75,0:04:43.41,Main,Kat,0000,0000,0000,,a rozšířil jsem pomluvy ohledně jeho nedbalosti\Na zneužívání autority, abych ho měl z čeho obvninit.
+Dialogue: 0,0:04:44.63,0:04:49.01,Main,Kat,0000,0000,0000,,Zítra bude kapitán v souladu s kodexem popraven.
+Dialogue: 0,0:04:50.59,0:04:52.20,Main,Shin,0000,0000,0000,,Jak je to jen možný?
+Dialogue: 0,0:04:52.20,0:04:55.57,Main,Shin,0000,0000,0000,,Uběhl jen měsíc a Saito-san se nechal zahnat do kouta.
+Dialogue: 0,0:04:56.68,0:04:58.19,Main,Gin,0000,0000,0000,,Hej, kapitáne.
+Dialogue: 0,0:04:58.19,0:05:01.04,Main,Gin,0000,0000,0000,,Pokud zůstaneš zticha, bude tě to stát krk.
+Dialogue: 0,0:05:01.04,0:05:05.29,Main,Gin,0000,0000,0000,,Člověk, se kterým ses chtěl\Nkámošit, je neskutečnej parchant.
+Dialogue: 0,0:05:05.29,0:05:08.53,Main,Gin,0000,0000,0000,,Zneužil tvou neschopnost komunikovat, \Naby ti přišil falešný obvinění.
+Dialogue: 0,0:05:08.90,0:05:09.78,Main,Gin,0000,0000,0000,,Rozumíš?
+Dialogue: 0,0:05:13.13,0:05:15.79,Internal,Gin,0000,0000,0000,,Zura pro něj tolik znamenal?
+Dialogue: 0,0:05:16.36,0:05:17.97,Main,Gin,0000,0000,0000,,Chápu, jak se cítíš,
+Dialogue: 0,0:05:18.60,0:05:22.24,Main,Gin,0000,0000,0000,,jenže teď nemůžeš přemejšlet o přátelství.
+Dialogue: 0,0:05:23.16,0:05:26.33,Main,Gin,0000,0000,0000,,Přišel čas se sebrat a prolomit roky mlčenlivosti.
+Dialogue: 0,0:05:26.33,0:05:29.25,Main,Gin,0000,0000,0000,,Jen ty můžeš dokázat svou nevinu.
+Dialogue: 0,0:05:29.25,0:05:31.07,Main,Gin,0000,0000,0000,,Mluv, kapitáne!
+Dialogue: 0,0:05:31.91,0:05:32.75,Main,Gin,0000,0000,0000,,Zvládneš to, ne?
+Dialogue: 0,0:05:35.31,0:05:37.82,Main,Sai,0000,0000,0000,,Zzz...
+Dialogue: 0,0:05:38.85,0:05:41.20,Main,Gin,0000,0000,0000,,Nemůžu se dočkat zítřejší popravy.
+Dialogue: 0,0:05:41.20,0:05:42.57,Main,Shin,0000,0000,0000,,Gin-sane?!
+Dialogue: 0,0:05:46.34,0:05:49.32,Main,Kon,0000,0000,0000,,Nikdy by mě nenapadlo, že tenhle den přijde.
+Dialogue: 0,0:05:49.67,0:05:52.58,Main,Kon,0000,0000,0000,,Že by Shimaru porušil kodex...
+Dialogue: 0,0:05:52.99,0:05:56.65,Main,Oki,0000,0000,0000,,S Shimaruem-niisan může snadno \Ndojít k nedorozumění, protože nemluví.
+Dialogue: 0,0:05:56.65,0:05:59.15,Main,Oki,0000,0000,0000,,Víš jistě, žes ho jen špatně\Nnepochopil, Hashiro-san?
+Dialogue: 0,0:05:59.15,0:06:01.84,Main,Kat,0000,0000,0000,,Rád bych mu věřil,
+Dialogue: 0,0:06:01.84,0:06:04.38,Main,Kat,0000,0000,0000,,ale nemůžu překroutit pravdu.
+Dialogue: 0,0:06:04.96,0:06:08.84,Main,Kat,0000,0000,0000,,Navíc s vámi pracuje řádku let, ale\Nzná ho tady vůbec někdo?
+Dialogue: 0,0:06:09.10,0:06:11.66,Main,Kat,0000,0000,0000,,Promluvil někdy s někým?
+Dialogue: 0,0:06:11.66,0:06:16.33,Main,Hij,0000,0000,0000,,Neprohodili jsme spolu ani slovo, ale \Nvěřím, že dobře znám jeho povahu.
+Dialogue: 0,0:06:16.33,0:06:19.94,Main,Hij,0000,0000,0000,,Teď dostává příležitost mluvit.
+Dialogue: 0,0:06:19.94,0:06:22.36,Main,Oki,0000,0000,0000,,Poslouchal jsi vůbec, Hijikato-san?
+Dialogue: 0,0:06:22.36,0:06:23.98,Main,Oki,0000,0000,0000,,Shimaru-niisan nemlu—
+Dialogue: 0,0:06:23.98,0:06:24.96,Main,Sai,0000,0000,0000,,Um...
+Dialogue: 0,0:06:26.86,0:06:29.74,Main,Sai,0000,0000,0000,,Nechci se v tom šťourat,\Nale jste hotový?
+Dialogue: 0,0:06:29.74,0:06:32.19,Main,Sai,0000,0000,0000,,Celou dobu si mezi sebou něco mumláte.
+Dialogue: 0,0:06:32.19,0:06:33.87,Main,Sai,0000,0000,0000,,Proč to spolu neprobereme nahlas?
+Dialogue: 0,0:06:35.44,0:06:36.79,Main,G,0000,0000,0000,,Mluví!
+Dialogue: 0,0:06:36.79,0:06:39.83,Main,G,0000,0000,0000,,Kapitán Saito promluvil!
+Dialogue: 0,0:06:40.08,0:06:42.10,Main,Kon,0000,0000,0000,,C-Co to má znamenat, Shimaru?
+Dialogue: 0,0:06:42.10,0:06:43.38,Main,Sai,0000,0000,0000,,A co myslíte?
+Dialogue: 0,0:06:43.38,0:06:45.81,Main,Sai,0000,0000,0000,,Fakt jste si mysleli, že budu s \Nhlavou na špalku držet hubu?
+Dialogue: 0,0:06:45.81,0:06:47.01,Main,Sai,0000,0000,0000,,Jako vážně?
+Dialogue: 0,0:06:47.01,0:06:51.56,Main,Sai,0000,0000,0000,,Jsem u soudu. Má tajuplná tichá \Nosobnost se může jít vycpat.
+Dialogue: 0,0:06:51.56,0:06:53.29,Main,Sai,0000,0000,0000,,Tolik na svůj charakter fixovnej nejsem.
+Dialogue: 0,0:06:53.29,0:06:54.93,Main,Sai,0000,0000,0000,,Šéfe, jako fakt?
+Dialogue: 0,0:06:54.93,0:06:55.85,Main,Kon,0000,0000,0000,,Hej!
+Dialogue: 0,0:06:55.85,0:06:57.98,Main,Kon,0000,0000,0000,,Chrlí ze sebe slova, \Njako by se nechumelilo!
+Dialogue: 0,0:06:57.98,0:06:59.36,Main,Sai,0000,0000,0000,,Počkat, já nesmím mluvit?
+Dialogue: 0,0:06:59.36,0:07:00.55,Main,Sai,0000,0000,0000,,Můžu teda odejít?
+Dialogue: 0,0:07:00.55,0:07:02.80,Main,Sai,0000,0000,0000,,Moje trvalá už to nezvládá\Na potřebuje poupravit.
+Dialogue: 0,0:07:02.80,0:07:04.22,Main,Kon,0000,0000,0000,,Takže taková je jeho forma mluvení?
+Dialogue: 0,0:07:04.22,0:07:05.11,Main,Kon,0000,0000,0000,,Jsem v šoku!
+Dialogue: 0,0:07:05.37,0:07:06.42,Internal,Kat,0000,0000,0000,,Nemožné!
+Dialogue: 0,0:07:06.42,0:07:08.61,Internal,Kat,0000,0000,0000,,Zrovna teď se rozhodl promluvit?
+Dialogue: 0,0:07:08.61,0:07:12.87,Internal,Kat,0000,0000,0000,,Hanebně zahodil svou osobnost,\Naby si zachránil krk?
+Dialogue: 0,0:07:13.38,0:07:13.99,Flashback,Gin,0000,0000,0000,,{\i1}Poslouchej.{\i0}
+Dialogue: 0,0:07:14.30,0:07:16.62,Flashback,Gin,0000,0000,0000,,{\i1}Budu za tebe mluvit skrze tenhle reprák.{\i0}
+Dialogue: 0,0:07:16.91,0:07:18.26,Flashback,Gin,0000,0000,0000,,{\i1}Pokud nechceš umřít,{\i0}
+Dialogue: 0,0:07:18.26,0:07:21.62,Flashback,Gin,0000,0000,0000,,{\i1}otvírej pusu na to, co říkam a mávej rukama,\Naby to vypadalo, že gestikuliješ.{\i0}
+Dialogue: 0,0:07:21.96,0:07:22.86,Main,Shin,0000,0000,0000,,Gin-sane...
+Dialogue: 0,0:07:22.86,0:07:25.05,Main,Shin,0000,0000,0000,,Vážně mu tohle pomůže při soudu?
+Dialogue: 0,0:07:25.05,0:07:28.09,Main,Gin,0000,0000,0000,,Kdyby tady umřel, nedalo by mi to spát.
+Dialogue: 0,0:07:28.09,0:07:30.21,Main,Gin,0000,0000,0000,,Naštěstí má zakrytou pusu
+Dialogue: 0,0:07:30.21,0:07:32.43,Main,Gin,0000,0000,0000,,a sotva se najde někdo, kdo by kdy slyšel jeho hlas.
+Dialogue: 0,0:07:32.43,0:07:35.07,Main,Sai,0000,0000,0000,,Dokáže to Conan, dokážem to i my.
+Dialogue: 0,0:07:35.07,0:07:37.07,Main,Shin,0000,0000,0000,,Gin-sane, říkáš to do mikrofonu.
+Dialogue: 0,0:07:37.47,0:07:40.26,Main,Kat,0000,0000,0000,,Saito-dono, co jste to právě řekl?!
+Dialogue: 0,0:07:40.26,0:07:42.76,Main,Kat,0000,0000,0000,,Přesně, jak jsem myslel. Skrýváte něco zlého!
+Dialogue: 0,0:07:42.76,0:07:43.98,Main,Sai,0000,0000,0000,,N-Ne, ne!
+Dialogue: 0,0:07:44.37,0:07:47.21,Main,Sai,0000,0000,0000,,Mluvil jsem o pachatelech v Conanovi, 'kej?
+Dialogue: 0,0:07:47.21,0:07:49.86,Main,Sai,0000,0000,0000,,V každý epizodě jsou absolutně jasný, 'kej?
+Dialogue: 0,0:07:49.86,0:07:52.49,Main,Sai,0000,0000,0000,,Všichni pachatelé v Conanovi se chovaj podobně, 'kej?
+Dialogue: 0,0:07:52.49,0:07:53.93,Main,Kon,0000,0000,0000,,Co furt máš s tim "kej"?!
+Dialogue: 0,0:07:53.93,0:07:55.65,Main,Kon,0000,0000,0000,,Proč najednou mluvíš tak podivně?!
+Dialogue: 0,0:07:55.65,0:07:56.95,Main,Kat,0000,0000,0000,,Hej, Saito!
+Dialogue: 0,0:07:56.95,0:07:59.83,Main,Kat,0000,0000,0000,,Ty nám něco skrýváš, nemám pravdu?
+Dialogue: 0,0:07:59.83,0:08:01.69,Main,Sai,0000,0000,0000,,Oh, jste na omylu!
+Dialogue: 0,0:08:01.69,0:08:05.56,Main,Sai,0000,0000,0000,,Všem to tajila, ale ve skutečnosti já z cizina!
+Dialogue: 0,0:08:05.56,0:08:07.38,Main,Sai,0000,0000,0000,,Sushi, geisha, sumo!
+Dialogue: 0,0:08:07.38,0:08:08.87,Main,Sai,0000,0000,0000,,Japanimation úžasná!
+Dialogue: 0,0:08:08.87,0:08:09.96,Main,Sai,0000,0000,0000,,Conan úžasná!
+Dialogue: 0,0:08:09.96,0:08:12.04,Main,Kon,0000,0000,0000,,O-Opravdu?!
+Dialogue: 0,0:08:12.04,0:08:14.76,Main,Kon,0000,0000,0000,,Proto jsi nemluvil? \NNerozuměl jsi našemu jazyku?
+Dialogue: 0,0:08:14.76,0:08:17.60,Main,Hij,0000,0000,0000,,A nemluvil ještě před chvílí plynule japonsky?
+Dialogue: 0,0:08:17.60,0:08:18.90,Main,Shin,0000,0000,0000,,To bylo sakra o chlup!
+Dialogue: 0,0:08:18.90,0:08:21.24,Main,Shin,0000,0000,0000,,Ale teď musíme hrát cizince.
+Dialogue: 0,0:08:21.24,0:08:23.35,Main,Shin,0000,0000,0000,,Cos to zas udělala, Kaguro-chan?!
+Dialogue: 0,0:08:23.35,0:08:26.39,Main,Hij,0000,0000,0000,,A z jaký přesně země pocházíš?
+Dialogue: 0,0:08:26.98,0:08:29.72,Main,Gin,0000,0000,0000,,H-Hej! Jakou vyberem národnost?
+Dialogue: 0,0:08:29.72,0:08:32.74,Main,Gin,0000,0000,0000,,Klišé by prohlídli, ale nesmíme\Nto přepálit, aby nebyly problémy!
+Dialogue: 0,0:08:32.74,0:08:34.36,Main,Shin,0000,0000,0000,,Co to je za národnost?!
+Dialogue: 0,0:08:34.36,0:08:36.79,Main,Shin,0000,0000,0000,,Vypadá jako ztělesnění\Nprolínání kultur!
+Dialogue: 0,0:08:36.79,0:08:38.99,Main,Shin,0000,0000,0000,,To po vás nikdo nežádal, Saito-san!
+Dialogue: 0,0:08:39.20,0:08:40.97,Main,Sai,0000,0000,0000,,O-One more, please.
+Dialogue: 0,0:08:40.97,0:08:42.90,Main,Sai,0000,0000,0000,,Nerozumím.
+Dialogue: 0,0:08:42.90,0:08:45.25,Main,Hij,0000,0000,0000,,Najednou se mu zhoršil poslech.
+Dialogue: 0,0:08:45.25,0:08:47.25,Main,Hij,0000,0000,0000,,Ptám se, odkud seš.
+Dialogue: 0,0:08:47.25,0:08:49.43,Main,Sai,0000,0000,0000,,Nerozumím.
+Dialogue: 0,0:08:49.43,0:08:52.03,Main,Hij,0000,0000,0000,,Tvoje místo narození, do hajzlu!
+Dialogue: 0,0:08:52.03,0:08:54.23,Main,Sai,0000,0000,0000,,Nerozumím.
+Dialogue: 0,0:08:54.23,0:08:56.27,Main,Hij,0000,0000,0000,,Pokud tentokrát neodpovíš, ufiknem ti palici!
+Dialogue: 0,0:08:56.27,0:08:57.51,Main,Hij,0000,0000,0000,,Odkud seš?!
+Dialogue: 0,0:08:57.51,0:09:00.17,Main,Sai,0000,0000,0000,,Z Nerozumím republiky!
+Dialogue: 0,0:09:00.17,0:09:01.67,Main,Hij,0000,0000,0000,,To byl název země?!
+Dialogue: 0,0:09:01.67,0:09:04.73,Main,Hij,0000,0000,0000,,O takový republice jsem nikdy neslyšel!
+Dialogue: 0,0:09:04.73,0:09:08.07,Main,Sai,0000,0000,0000,,I když řekneme název naší země, \Nlidé stále netuší,
+Dialogue: 0,0:09:08.07,0:09:09.56,Main,Sai,0000,0000,0000,,takže je přirozené, že nerozumíte.
+Dialogue: 0,0:09:09.56,0:09:10.63,Main,Hij,0000,0000,0000,,To má co znamenat?
+Dialogue: 0,0:09:10.63,0:09:15.11,Main,Hij,0000,0000,0000,,Je to jméno, kterýmu nerozumím,\Nnebo jméno "Nerozumím"?
+Dialogue: 0,0:09:15.11,0:09:16.62,Main,Sai,0000,0000,0000,,Uklidněte se.
+Dialogue: 0,0:09:16.62,0:09:18.90,Main,Sai,0000,0000,0000,,Já nerozumím tobě, zasranej vice veliteli.
+Dialogue: 0,0:09:18.90,0:09:21.62,Main,Hij,0000,0000,0000,,Ve skutečnosti rozumíš \Ntomu, co říkáš, žejo?!
+Dialogue: 0,0:09:21.62,0:09:23.00,Main,Sai,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:09:23.00,0:09:26.71,Main,Sai,0000,0000,0000,,V mé zemi se slovním spojením "zasraný vice veliteli" ukončují věty.
+Dialogue: 0,0:09:26.71,0:09:27.97,Main,Sai,0000,0000,0000,,Tak klídek, zasraný vice veliteli.
+Dialogue: 0,0:09:27.97,0:09:29.88,Main,Hij,0000,0000,0000,,Ale já v tom vidím {\i1}jen{\i0} špatnost!
+Dialogue: 0,0:09:29.88,0:09:32.74,Main,Kon,0000,0000,0000,,V tom případě bysme se\Nměli připojit, zasraný vice veliteli.
+Dialogue: 0,0:09:32.74,0:09:34.60,Main,Hij,0000,0000,0000,,Nemusíte ho imitovat!
+Dialogue: 0,0:09:34.60,0:09:36.88,Main,Oki,0000,0000,0000,,Nemáme na výběr,
+Dialogue: 0,0:09:36.88,0:09:37.89,Main,Oki,0000,0000,0000,,zasraný vice veliteli.
+Dialogue: 0,0:09:37.89,0:09:41.14,Main,Hij,0000,0000,0000,,Tohle jsi ale sakra mířil na mě, nemám pravdu?!
+Dialogue: 0,0:09:41.14,0:09:43.03,Main,Kat,0000,0000,0000,,Nehrajte hlupáka, Saito-dono.
+Dialogue: 0,0:09:43.03,0:09:45.76,Main,Kat,0000,0000,0000,,Nejste cizinec, zasraný vice veliteli!
+Dialogue: 0,0:09:45.76,0:09:48.60,Main,Hij,0000,0000,0000,,Jestli to není cizinec, tak nemusíš \Npřidávat "zasraný vice veliteli"!
+Dialogue: 0,0:09:48.60,0:09:51.15,Main,Kat,0000,0000,0000,,Tenhle muž zneužíval své autority,
+Dialogue: 0,0:09:51.15,0:09:54.68,Main,Kat,0000,0000,0000,,aby se zbavil každého, kdo by ho \Nmohl nějakým způsobem ohrozit,
+Dialogue: 0,0:09:54.68,0:09:55.82,Main,Kat,0000,0000,0000,,zasraný vice veliteli!
+Dialogue: 0,0:09:55.82,0:09:58.45,Main,Hij,0000,0000,0000,,Chápu, takže všichni chcete zkrátit o hlavu?
+Dialogue: 0,0:09:58.70,0:10:00.84,Main,Kat,0000,0000,0000,,A já nejsem výjimka.
+Dialogue: 0,0:10:00.84,0:10:04.58,Main,Kat,0000,0000,0000,,Copak jste neviděli, jak se mě snažil \Nzabít, když jsem se k vám přidal?
+Dialogue: 0,0:10:04.93,0:10:07.43,Main,Kon,0000,0000,0000,,Pravda, z ničeho nic ho vyzval na souboj.
+Dialogue: 0,0:10:07.43,0:10:08.99,Main,Kon,0000,0000,0000,,Je to tak, Shimaru?
+Dialogue: 0,0:10:10.98,0:10:12.44,Main,Sai,0000,0000,0000,,Přesně, jak říkáte.
+Dialogue: 0,0:10:13.02,0:10:16.59,Main,Sai,0000,0000,0000,,Mám za úkol ničit zrádce,
+Dialogue: 0,0:10:17.28,0:10:21.01,Main,Sai,0000,0000,0000,,takže jsem nemohl nechat tuhle krysu proklouznout.
+Dialogue: 0,0:10:21.01,0:10:22.73,Main,Sai,0000,0000,0000,,Nemám pravdu, Katsuro-san?
+Dialogue: 0,0:10:22.73,0:10:24.97,Main,Kon,0000,0000,0000,,K-Katsura?!
+Dialogue: 0,0:10:25.14,0:10:27.45,Main,Kon,0000,0000,0000,,Všichni tu nosíme "katsuru." \NCo tím chceš říct?
+Dialogue: 0,0:10:27.45,0:10:28.73,Main,Shin,0000,0000,0000,,Ne takhle!
+Dialogue: 0,0:10:29.09,0:10:34.32,Main,Sai,0000,0000,0000,,Ten muž se jmenuje Katsura Kotaro a do \NShinsengumi se proplížil, aby nás mohl zničit!
+Dialogue: 0,0:10:34.32,0:10:36.19,Main,Oki,0000,0000,0000,,K-Katsura?!
+Dialogue: 0,0:10:36.32,0:10:37.76,Main,Oki,0000,0000,0000,,Shimaru-niisan.
+Dialogue: 0,0:10:36.32,0:10:46.20,Schedule,Sign,0000,0000,0000,,Hashira  Katsura
+Dialogue: 0,0:10:37.76,0:10:39.09,Main,Oki,0000,0000,0000,,Tohle se čte Katsura
+Dialogue: 0,0:10:39.09,0:10:40.51,Main,Oki,0000,0000,0000,,a tohle Hashira.
+Dialogue: 0,0:10:40.51,0:10:41.71,Main,Oki,0000,0000,0000,,Understand?
+Dialogue: 0,0:10:41.71,0:10:44.60,Main,Oki,0000,0000,0000,,A teď si to párkrát napíšeme.
+Dialogue: 0,0:10:44.60,0:10:46.20,Main,Sai,0000,0000,0000,,Oh, f**k you!
+Dialogue: 0,0:10:46.20,0:10:47.21,Main,Shin,0000,0000,0000,,Hej!
+Dialogue: 0,0:10:47.21,0:10:50.53,Main,Shin,0000,0000,0000,,Myslej si, že kvůli komedii s cizím \Njazykem špatně přečetl jeho jméno!
+Dialogue: 0,0:10:50.53,0:10:52.92,Main,Shin,0000,0000,0000,,Nemusíte to psát, Saito-san!
+Dialogue: 0,0:10:52.92,0:10:55.55,Main,Sai,0000,0000,0000,,Přestaňte mě podceňovat.
+Dialogue: 0,0:10:55.82,0:11:02.43,Default,,0,0,0,,{\c&H80ffff&\an8}[Odkaz na Tomoakiho Oguru, který nosí paruku ({\i1}jap. katsura{\i0})]
+Dialogue: 0,0:10:55.82,0:11:02.43,afuro na poznámku,Sign,0000,0000,0000,,Ogura        Katsura
+Dialogue: 0,0:10:56.09,0:10:58.14,Main,Sai,0000,0000,0000,,Je jednoduché je rozpoznat.
+Dialogue: 0,0:10:58.14,0:10:59.98,Main,Oki,0000,0000,0000,,Shimaru-niisan, tihle oba jsou katsurové.
+Dialogue: 0,0:10:59.98,0:11:02.43,Main,Shin,0000,0000,0000,,Co jsi to k čertu napsal?!
+Dialogue: 0,0:11:02.43,0:11:04.84,Main,Kon,0000,0000,0000,,Počkat, počkat. Oba se uklidněte.
+Dialogue: 0,0:11:04.84,0:11:08.34,Main,Kon,0000,0000,0000,,Vaše argumenty jsou příliš bizarní, \Nabych vás mohl rozsoudit.
+Dialogue: 0,0:11:08.34,0:11:10.81,Main,Hij,0000,0000,0000,,Máš důkaz, kterým bys prokázal svou nevinu?
+Dialogue: 0,0:11:11.03,0:11:14.98,Main,Sai,0000,0000,0000,,Mám důkazy ze svého interního vyšetřování.
+Dialogue: 0,0:11:14.98,0:11:19.99,Exam2,Sign,0000,0000,0000,,Vyšetřovací deník
+Dialogue: 0,0:11:15.28,0:11:16.89,Main,Sai,0000,0000,0000,,Můj vyšetřovací deník
+Dialogue: 0,0:11:16.89,0:11:19.99,Main,Sai,0000,0000,0000,,obsahuje záznamy mé každodenní práce.
+Dialogue: 0,0:11:20.32,0:11:22.74,Main,Gin,0000,0000,0000,,Například z tohoto dne...
+Dialogue: 0,0:11:23.90,0:11:25.50,Main,Sai,0000,0000,0000,,DD/MM.
+Dialogue: 0,0:11:25.50,0:11:28.66,Main,Sai,0000,0000,0000,,V noci jsem z jídelny uslyšel rámus \Na se šel podívat, co se děje, Z.
+Dialogue: 0,0:11:28.66,0:11:29.89,Main,Hij,0000,0000,0000,,Jaký zas Z?
+Dialogue: 0,0:11:29.89,0:11:31.85,Main,Hij,0000,0000,0000,,Jakou má sakra tvoje \Nvětná skladba povahu?
+Dialogue: 0,0:11:31.85,0:11:33.22,Main,Hij,0000,0000,0000,,Máš nestálej charakter!
+Dialogue: 0,0:11:34.17,0:11:38.50,Main,Sai,0000,0000,0000,,V té době pravidelně mizelo z jídlo lednice.
+Dialogue: 0,0:11:38.91,0:11:41.13,Main,Sai,0000,0000,0000,,Pachatel musí být očištěn, Z.
+Dialogue: 0,0:11:44.84,0:11:46.68,Main,Sai,0000,0000,0000,,Nic jsem neviděl, Z.
+Dialogue: 0,0:11:46.68,0:11:48.90,Main,Kon,0000,0000,0000,,Co se stalo?!
+Dialogue: 0,0:11:48.90,0:11:51.21,Main,Kon,0000,0000,0000,,Určitě jsi něco viděl! Pověz, co?
+Dialogue: 0,0:11:51.21,0:11:53.45,Main,Kon,0000,0000,0000,,Kdo porušoval pravidla?!
+Dialogue: 0,0:11:55.12,0:11:56.75,Main,Hij,0000,0000,0000,,T-To by stačilo.
+Dialogue: 0,0:11:56.75,0:11:59.16,Main,Hij,0000,0000,0000,,Je vidět, žes odvedl skvělou práci.
+Dialogue: 0,0:11:59.16,0:12:00.36,Main,Kon,0000,0000,0000,,Ne, to fakt neodvedl!
+Dialogue: 0,0:12:00.36,0:12:01.84,Main,Kon,0000,0000,0000,,Pachatel mu pláchnul!
+Dialogue: 0,0:12:02.25,0:12:03.64,Main,Sai,0000,0000,0000,,Vezmu jiný příklad...
+Dialogue: 0,0:12:03.64,0:12:04.91,Main,Hij,0000,0000,0000,,Říkám, že stačí!
+Dialogue: 0,0:12:05.76,0:12:07.18,Main,Sai,0000,0000,0000,,DD/MM.
+Dialogue: 0,0:12:07.18,0:12:09.36,Main,Sai,0000,0000,0000,,Z jídelny šel znovu nějaký rámus, Z.
+Dialogue: 0,0:12:09.36,0:12:12.57,Main,Sai,0000,0000,0000,,V posledních dnech měl vice\Nvelitel několikrát průjem.
+Dialogue: 0,0:12:12.57,0:12:14.92,Main,Kon,0000,0000,0000,,Hej, proč měl Toshi průjem?
+Dialogue: 0,0:12:14.92,0:12:17.95,Main,Sai,0000,0000,0000,,Tuším, že do té majonézy něco přimíchal, Z.
+Dialogue: 0,0:12:17.95,0:12:19.39,Main,Kon,0000,0000,0000,,Kdo tam co přimíchal?!
+Dialogue: 0,0:12:19.39,0:12:20.89,Main,Kon,0000,0000,0000,,Toshi, neříkej, že...
+Dialogue: 0,0:12:20.89,0:12:24.05,Main,Sai,0000,0000,0000,,Asi jsem měl tu majonézu vyhodit, Z.
+Dialogue: 0,0:12:26.50,0:12:28.29,Main,Sai,0000,0000,0000,,Nic jsem neviděl, Z.
+Dialogue: 0,0:12:28.29,0:12:30.47,Main,Kon,0000,0000,0000,,Ale co se krucinál stalo?!
+Dialogue: 0,0:12:30.69,0:12:32.07,Main,Oki,0000,0000,0000,,Shimaru-niisan,
+Dialogue: 0,0:12:32.07,0:12:33.27,Main,Oki,0000,0000,0000,,jsi nevinný.
+Dialogue: 0,0:12:33.27,0:12:35.15,Main,Hij,0000,0000,0000,,Zato ty vinný seš!
+Dialogue: 0,0:12:35.47,0:12:36.81,Main,Sai,0000,0000,0000,,Nedlouho na to...
+Dialogue: 0,0:12:37.57,0:12:39.01,Main,Sai,0000,0000,0000,,DD/MM.
+Dialogue: 0,0:12:39.01,0:12:41.05,Main,Sai,0000,0000,0000,,Z kuchyně se ozýval rámus, Z.
+Dialogue: 0,0:12:41.82,0:12:43.32,Main,Kon,0000,0000,0000,,Ehh...
+Dialogue: 0,0:12:43.54,0:12:46.32,Main,Kon,0000,0000,0000,,Měl bych to rozříznout tady...
+Dialogue: 0,0:12:46.57,0:12:48.10,Main,Kon,0000,0000,0000,,Ne, to nepůjde.
+Dialogue: 0,0:12:48.10,0:12:50.56,Main,Sai,0000,0000,0000,,Stál tam nahý velitel a něco vařil, Z.
+Dialogue: 0,0:12:52.04,0:12:57.50,Main,Sai,0000,0000,0000,,Další den nám v jídelně naservírovali \Nkonjak s podivným výřezem, Z.
+Dialogue: 0,0:12:57.50,0:12:59.67,Main,Sai,0000,0000,0000,,Ale všichni ho s chutí snědli—
+Dialogue: 0,0:12:59.67,0:13:01.38,Main,Kon,0000,0000,0000,,Tímto vznáším rozsudek.
+Dialogue: 0,0:13:02.20,0:13:04.01,Main,Kon,0000,0000,0000,,Saito Shimaru je nevinný.
+Dialogue: 0,0:13:04.40,0:13:05.88,Main,Kon,0000,0000,0000,,Slyšení je u konce!
+Dialogue: 0,0:13:05.88,0:13:07.55,Main,G,0000,0000,0000,,Děláte si srandu?!
+Dialogue: 0,0:13:07.96,0:13:10.43,Main,G,0000,0000,0000,,Šéfe, co jste do hajzlu dělal s tím konjakem?!
+Dialogue: 0,0:13:10.43,0:13:12.80,Main,G,0000,0000,0000,,Ani ve snu mi neříkejte, že ten konjak...
+Dialogue: 0,0:13:13.61,0:13:14.96,Internal,Kon,0000,0000,0000,,Zpropadený Afrovlk.
+Dialogue: 0,0:13:14.96,0:13:17.34,Internal,Kon,0000,0000,0000,,Nikdy by mě nenapadlo,\Nže vytáhne špínu na ostatní,
+Dialogue: 0,0:13:17.34,0:13:19.03,Internal,Kon,0000,0000,0000,,aby získal víc lidí na svou stanu.
+Dialogue: 0,0:13:19.03,0:13:22.53,Internal,Kon,0000,0000,0000,,Netušil jsem, jaký je to intrikář!
+Dialogue: 0,0:13:23.06,0:13:24.45,Main,Kat,0000,0000,0000,,Poslouchejte!
+Dialogue: 0,0:13:24.45,0:13:27.58,Main,Kat,0000,0000,0000,,To, co se právě stalo, dokazuje Saitovy zločiny!
+Dialogue: 0,0:13:27.58,0:13:30.96,Main,Kat,0000,0000,0000,,Pod zástěrkou interního \Nvyšetřování odhalil špínu na naše lidi,
+Dialogue: 0,0:13:30.96,0:13:34.04,Main,Kat,0000,0000,0000,,a dokonce zmanipuloval\Ni vysoce postavené důstojníky!
+Dialogue: 0,0:13:34.31,0:13:35.29,Main,Kat,0000,0000,0000,,Veliteli,
+Dialogue: 0,0:13:36.07,0:13:38.92,Main,Kat,0000,0000,0000,,připravte tomu zrádci očistu!
+Dialogue: 0,0:13:38.92,0:13:40.78,Main,Kon,0000,0000,0000,,U-Uklidni se, Hashiro-san.
+Dialogue: 0,0:13:40.78,0:13:41.95,Main,Kat,0000,0000,0000,,V téhle situaci?!
+Dialogue: 0,0:13:41.95,0:13:44.31,Main,Kon,0000,0000,0000,,Nevíme jistě, jestli je Shimaru zrádce.
+Dialogue: 0,0:13:44.31,0:13:46.60,Main,Hij,0000,0000,0000,,Tak dej oběma rozkaz...
+Dialogue: 0,0:13:49.36,0:13:51.60,Main,Hij,0000,0000,0000,,ať očistí zrádce.
+Dialogue: 0,0:13:51.60,0:13:52.42,Main,Kon,0000,0000,0000,,Toshi?
+Dialogue: 0,0:13:52.42,0:13:54.98,Main,Hij,0000,0000,0000,,Tohle dohadování mě nebaví poslouchat.
+Dialogue: 0,0:13:55.30,0:13:59.98,Main,Hij,0000,0000,0000,,Všichni tady jsou připravený žít a umřít mečem.
+Dialogue: 0,0:14:00.38,0:14:03.11,Main,Hij,0000,0000,0000,,Pokud chcete něco říct,\Nnechte mluvit svoje meče.
+Dialogue: 0,0:14:03.76,0:14:07.24,Main,Hij,0000,0000,0000,,Na tomhle se přece Shinsegumi zakládaj.
+Dialogue: 0,0:14:19.32,0:14:20.33,Main,Kat,0000,0000,0000,,Zajímavé.
+Dialogue: 0,0:14:20.59,0:14:24.46,Main,Kat,0000,0000,0000,,Konečně uzavřeme náš nedokončený souboj.
+Dialogue: 0,0:14:24.46,0:14:25.96,Main,Kon,0000,0000,0000,,P-Počkejte!
+Dialogue: 0,0:14:28.15,0:14:29.13,Main,Shin,0000,0000,0000,,To je zlý, Gin-sane.
+Dialogue: 0,0:14:29.13,0:14:31.51,Main,Shin,0000,0000,0000,,Saito-san se zaměřuje jen na obranu!
+Dialogue: 0,0:14:31.77,0:14:34.14,Main,Gin,0000,0000,0000,,Co sakra dělá?
+Dialogue: 0,0:14:34.35,0:14:38.70,Flashback,Sai,0000,0000,0000,,Ten, kdo by mohl být mým přítelem,\Nnení nikdo jiný než Hashira Afuro, Z.
+Dialogue: 0,0:14:39.83,0:14:41.13,Main,Gin,0000,0000,0000,,Ten idiot...
+Dialogue: 0,0:14:41.13,0:14:43.56,Main,Kag,0000,0000,0000,,Na co čekáš, Gin-chane? Dej to sem!
+Dialogue: 0,0:14:43.98,0:14:46.06,Main,Kag,0000,0000,0000,,Musíme mu něco poradit!
+Dialogue: 0,0:14:46.06,0:14:50.79,Main,Kag,0000,0000,0000,,Slíbil, že bude dělat přesně to,\Nco mu napovíme.
+Dialogue: 0,0:14:50.79,0:14:52.97,Main,Gin,0000,0000,0000,,Tak proto nedělá žádnej protiútok?
+Dialogue: 0,0:14:52.97,0:14:54.93,Main,Gin,0000,0000,0000,,On čeká na nás? Je debil?
+Dialogue: 0,0:14:54.93,0:14:55.95,Main,Kag,0000,0000,0000,,Prostě to sem naval!
+Dialogue: 0,0:14:56.19,0:14:59.96,Main,Kag,0000,0000,0000,,Muahaha, Hashiro, víc toho tvůj meč neumí?
+Dialogue: 0,0:14:59.96,0:15:01.97,Main,Kag,0000,0000,0000,,Je tak pomalej, že by na \Nněj sedla moucha, 'kej?
+Dialogue: 0,0:15:01.97,0:15:04.51,Main,Kag,0000,0000,0000,,S takovýma schopnostma nesejmeš\Nani tu mouchu, natož mě, kej?!
+Dialogue: 0,0:15:04.51,0:15:05.79,Main,Shin,0000,0000,0000,,Konečně se hnul!
+Dialogue: 0,0:15:05.79,0:15:08.32,Main,Sai,0000,0000,0000,,Sleduj, teď jsem na řadě já!
+Dialogue: 0,0:15:09.77,0:15:11.80,Main,Shin,0000,0000,0000,,Ale ne na řadě v sejmutí much!
+Dialogue: 0,0:15:11.80,0:15:14.09,Main,Shin,0000,0000,0000,,Pobral to jinak, než jak jsme myseli!
+Dialogue: 0,0:15:14.09,0:15:15.78,Main,Gin,0000,0000,0000,,Oh, omlouvám se.
+Dialogue: 0,0:15:15.78,0:15:17.77,Main,Gin,0000,0000,0000,,Spletl jsem si tě s velkou mouchou.
+Dialogue: 0,0:15:17.77,0:15:20.86,Main,Gin,0000,0000,0000,,V mých očích se od mouchy nijak nelišíš.
+Dialogue: 0,0:15:20.86,0:15:22.84,Main,Kat,0000,0000,0000,,Co si dovoluješ mě takhle sprostě urážet?!
+Dialogue: 0,0:15:22.84,0:15:25.29,Main,Sai,0000,0000,0000,,Připrav se. Teď je řada na tobě.
+Dialogue: 0,0:15:26.78,0:15:29.03,Main,Shin,0000,0000,0000,,Ale ne řada v zabíjení much!
+Dialogue: 0,0:15:29.27,0:15:32.05,Main,Shin,0000,0000,0000,,Proč se sakra do tý hry připojuješ?!
+Dialogue: 0,0:15:32.55,0:15:35.15,Main,Kat,0000,0000,0000,,Jsem vítěz. Sejmul jsem tři mouchy.
+Dialogue: 0,0:15:35.15,0:15:36.74,Main,Shin,0000,0000,0000,,V čem sakra soutěžíte?!
+Dialogue: 0,0:15:37.13,0:15:40.08,Main,Sai,0000,0000,0000,,A teď, když jsou ty otravné mouchy pryč,
+Dialogue: 0,0:15:40.61,0:15:42.24,Main,Sai,0000,0000,0000,,je čas to brát vážně
+Dialogue: 0,0:15:42.24,0:15:44.71,Main,Sai,0000,0000,0000,,a zbavit se špíny.
+Dialogue: 0,0:15:45.47,0:15:46.96,Main,Kat,0000,0000,0000,,Zakopejme to tady.
+Dialogue: 0,0:15:46.96,0:15:49.05,Main,Shin,0000,0000,0000,,Čeho se krucinál zbavujete?!
+Dialogue: 0,0:15:49.67,0:15:53.02,Main,Kat,0000,0000,0000,,Nikomu z nás by se během boje \Nnevyplatilo šlápnout na hovno.
+Dialogue: 0,0:15:53.02,0:15:55.35,Main,Kat,0000,0000,0000,,Ale ve skutečnosti jsi mi vpadl do pasti...
+Dialogue: 0,0:15:55.35,0:15:57.64,Main,Kat,0000,0000,0000,,Budeš mít pořádnou díru v zádech, Saito!
+Dialogue: 0,0:15:57.64,0:15:59.02,Main,Shin,0000,0000,0000,,Sakra! Skočil mu na to!
+Dialogue: 0,0:15:59.81,0:16:00.82,Main,Shin,0000,0000,0000,,Saito-san!
+Dialogue: 0,0:16:02.04,0:16:03.69,Main,Sai,0000,0000,0000,,Špatně.
+Dialogue: 0,0:16:03.69,0:16:06.09,Main,Sai,0000,0000,0000,,Ty tam budeš mít díru!
+Dialogue: 0,0:16:06.95,0:16:09.94,Main,Kat,0000,0000,0000,,Je pravda, že do větší díry půjde lépe zakopat.
+Dialogue: 0,0:16:09.94,0:16:11.88,Main,Shin,0000,0000,0000,,Díry jsou leda ve vašich mozcích!
+Dialogue: 0,0:16:12.32,0:16:15.87,Main,Shin,0000,0000,0000,,Jenže pod zemí skončíš ty, Saito!
+Dialogue: 0,0:16:15.87,0:16:17.24,Main,Kag,0000,0000,0000,,Teď má šanci!
+Dialogue: 0,0:16:17.62,0:16:19.49,Main,Sai,0000,0000,0000,,Nechal ses nachytat, Hashiro!
+Dialogue: 0,0:16:19.49,0:16:20.65,Main,Sai,0000,0000,0000,,Sežer si tohle...
+Dialogue: 0,0:16:20.65,0:16:23.86,Main,Sai,0000,0000,0000,,Ultimátní technika ve stylu afro, Zuřící Z!
+Dialogue: 0,0:16:21.02,0:16:24.74,Afuro,Sign,0000,0000,0000,,Ultimátní technika ve stylu afro\NZuřící Z
+Dialogue: 0,0:16:31.17,0:16:32.70,Main,Gin,0000,0000,0000,,Um, dívá se na nás.
+Dialogue: 0,0:16:32.70,0:16:35.85,Main,Gin,0000,0000,0000,,Asi neví, jak \Nse používá Zuřící Z.
+Dialogue: 0,0:16:35.85,0:16:38.36,Main,Kag,0000,0000,0000,,Sežer si tohle... Zuřící Z!
+Dialogue: 0,0:16:40.20,0:16:41.70,Main,Gin,0000,0000,0000,,Je ztracenej.
+Dialogue: 0,0:16:41.70,0:16:43.41,Main,Gin,0000,0000,0000,,A co znamená Zuřící Z?
+Dialogue: 0,0:16:43.41,0:16:45.09,Main,Gin,0000,0000,0000,,Mluvilas s ním o tom předem?
+Dialogue: 0,0:16:45.09,0:16:47.30,Main,Kag,0000,0000,0000,,Zuřící Z je prostě Zuřící Z.
+Dialogue: 0,0:16:47.30,0:16:50.13,Main,Gin,0000,0000,0000,,Musíš mu to specifikovat!
+Dialogue: 0,0:16:50.13,0:16:53.59,Main,Sai,0000,0000,0000,,Zuřící Z je technika, kdy moje meče \Npři švihnutí vytvoří písmeno Z.
+Dialogue: 0,0:16:53.59,0:16:56.80,Main,Sai,0000,0000,0000,,Dokážeš se tomu vyhnout? Zuřící Z!
+Dialogue: 0,0:16:56.80,0:16:58.31,Main,Gin,0000,0000,0000,,Ani to nemůže použít!
+Dialogue: 0,0:16:58.31,0:17:00.86,Main,Gin,0000,0000,0000,,Jeho protivník teď ví, na \Njakým principu jeho technika funguje!
+Dialogue: 0,0:17:00.86,0:17:02.63,Main,Sai,0000,0000,0000,,Sežer si tohle... Vlna Z!
+Dialogue: 0,0:17:02.63,0:17:04.16,Main,Gin,0000,0000,0000,,Co je zas Vlna Z?
+Dialogue: 0,0:17:04.16,0:17:06.32,Main,Sai,0000,0000,0000,,Tak si sežer tohle... Z Kai!
+Dialogue: 0,0:17:05.44,0:17:09.04,Afuro,Sign,0000,0000,0000,,Z Kai
+Dialogue: 0,0:17:06.32,0:17:09.04,Main,Gin,0000,0000,0000,,Už si něco vyber! Co je do háje Z Kai?!
+Dialogue: 0,0:17:09.04,0:17:13.74,Main,Sai,0000,0000,0000,,Z Kai je Z stav mysli, kde je člověk \Nosvobozen od všech tužeb světa!
+Dialogue: 0,0:17:12.85,0:17:36.28,Main,Sai,0000,0000,0000,,{\an8}Zzz...
+Dialogue: 0,0:17:13.74,0:17:15.55,Main,Shin,0000,0000,0000,,On už to praktikuje!
+Dialogue: 0,0:17:15.55,0:17:18.55,Main,Shin,0000,0000,0000,,Nesmysl s ultimátní technikou trval \Ntak dlouho, že vstoupil do Z Kai!
+Dialogue: 0,0:17:18.55,0:17:20.08,Main,Shin,0000,0000,0000,,Stojí tam jak prase na pořážku!
+Dialogue: 0,0:17:20.08,0:17:22.35,Main,Kat,0000,0000,0000,,T-Tohle je Z Kai?!
+Dialogue: 0,0:17:22.56,0:17:26.79,Main,Kat,0000,0000,0000,,Vypadá, že spí, ale ve skutečnosti zaujímá prázdný\Npostoj, který dovede absorbovat veškeré mé útoky?!
+Dialogue: 0,0:17:26.79,0:17:28.27,Main,Gin,0000,0000,0000,,Máš fakt bezednou představivost!
+Dialogue: 0,0:17:28.27,0:17:30.45,Main,Sai,0000,0000,0000,,Můžeš na mě zaútočit ze všech směrů.
+Dialogue: 0,0:17:30.45,0:17:32.52,Main,Sai,0000,0000,0000,,Ale i se zavřenýma očima
+Dialogue: 0,0:17:32.52,0:17:34.05,Main,Sai,0000,0000,0000,,předpovím tvé kroky.
+Dialogue: 0,0:17:34.05,0:17:36.28,Main,Shin,0000,0000,0000,,Hej, oni nám to fakt žerou!
+Dialogue: 0,0:17:36.28,0:17:39.66,Main,Kat,0000,0000,0000,,Jsem nahraný! Přitom se zdá, jakoby měl tolik\Nslabých míst, jenže žádné nemá!
+Dialogue: 0,0:17:39.66,0:17:41.47,Main,Gin,0000,0000,0000,,Má {\i1}jen{\i0} slabý místa!
+Dialogue: 0,0:17:41.47,0:17:42.54,Main,Kat,0000,0000,0000,,V tom případě
+Dialogue: 0,0:17:43.37,0:17:44.72,Main,Kat,0000,0000,0000,,je tohle má jediná možnost!
+Dialogue: 0,0:17:44.72,0:17:46.04,Main,Gin,0000,0000,0000,,Proč?!
+Dialogue: 0,0:17:46.04,0:17:48.10,Main,Gin,0000,0000,0000,,Proč i ty vstupuješ do Z Kai?!
+Dialogue: 0,0:17:48.10,0:17:50.41,Main,G,0000,0000,0000,,Tak takhle vypadá boj mezi profesionály?
+Dialogue: 0,0:17:50.41,0:17:52.44,Main,G,0000,0000,0000,,Jsou tak potichu, skoro jakoby oba spali.
+Dialogue: 0,0:17:52.44,0:17:54.50,Main,Gin,0000,0000,0000,,Jenže oni fakt jsou v říši snů!
+Dialogue: 0,0:17:54.50,0:17:56.84,Main,Gin,0000,0000,0000,,Jak chtěj vybrat vítěze?!
+Dialogue: 0,0:17:58.73,0:18:00.68,Main,Kat,0000,0000,0000,,To je zlé. Nejde mi usnout.
+Dialogue: 0,0:18:00.68,0:18:03.15,Main,Gin,0000,0000,0000,,No nekecej! Víš, seš veprostřed souboje!
+Dialogue: 0,0:18:03.15,0:18:05.31,Main,Kat,0000,0000,0000,,Hádám, že také budu muset udělat Z Kai.
+Dialogue: 0,0:18:04.24,0:18:05.70,Bigger Afuro,Sign,0000,0000,0000,,Z Kai
+Dialogue: 0,0:18:05.31,0:18:06.83,Main,Gin,0000,0000,0000,,Tvoje Z Kai znamená si sundat paruku?!
+Dialogue: 0,0:18:05.70,0:18:06.83,Bigger Afuro,Sign,0000,0000,0000,,Z Kai
+Dialogue: 0,0:18:07.88,0:18:11.14,Main,Kat,0000,0000,0000,,Výtečně. Nyní má mysl může dosáhnout stavu Z.
+Dialogue: 0,0:18:11.14,0:18:13.18,Main,Kat,0000,0000,0000,,Konečně můžu vypustit \Nněkolik rozkošných Zzz.
+Dialogue: 0,0:18:13.18,0:18:15.35,Main,Hij,0000,0000,0000,,Opravdu? To rád slyším.
+Dialogue: 0,0:18:16.36,0:18:19.70,Main,Hij,0000,0000,0000,,Proč teda nezůstaneš v Z Kai navždy...
+Dialogue: 0,0:18:20.10,0:18:21.70,Main,All,0000,0000,0000,,Zuro.
+Dialogue: 0,0:18:26.79,0:18:28.21,Main,Kat,0000,0000,0000,,Saito!
+Dialogue: 0,0:18:28.21,0:18:33.78,Main,Kat,0000,0000,0000,,Co si dovoluješ mě takhle sprostě odhalit, \Nkdyž jsem byl krůček od převzetí nadvlády nad policií?
+Dialogue: 0,0:18:33.78,0:18:36.34,Main,Gin,0000,0000,0000,,Za všechno si můžeš sám!
+Dialogue: 0,0:18:36.62,0:18:40.20,Main,Kat,0000,0000,0000,,Na takovou chvíli mám připravený plán B!
+Dialogue: 0,0:18:41.86,0:18:44.51,Main,Kat,0000,0000,0000,,Elizabeth by se nikdy nenechala \Nochočit chátrou, jako jste vy!
+Dialogue: 0,0:18:42.03,0:18:44.51,Eliza,Sign,0000,0000,0000,,Katsuro-san, \Nvše je připraveno.
+Dialogue: 0,0:18:45.06,0:18:47.16,Main,Kat,0000,0000,0000,,Zatímco jsem vaši pozornost strhl na sebe,
+Dialogue: 0,0:18:47.16,0:18:50.02,Main,Kat,0000,0000,0000,,nechal jsem po celé stanici rozmístit bomby!
+Dialogue: 0,0:18:50.02,0:18:52.09,Main,Kat,0000,0000,0000,,V momentě, co zmáčknu tlačítko,
+Dialogue: 0,0:18:52.09,0:18:55.40,Main,Kat,0000,0000,0000,,půjde veškerá vaše práce spolu se stanicí k zemi!
+Dialogue: 0,0:18:58.98,0:19:02.41,Main,Shin,0000,0000,0000,,Saito-san se pohnul sám od sebe!
+Dialogue: 0,0:19:04.40,0:19:08.62,Main,Gin,0000,0000,0000,,Zdá se, že už nejsme potřeba.
+Dialogue: 0,0:19:09.70,0:19:13.42,Main,Gin,0000,0000,0000,,Našel jsi slova, který mu chceš říct, kapitáne?
+Dialogue: 0,0:19:13.42,0:19:15.04,Main,Kat,0000,0000,0000,,Jdeme, Elizabeth.
+Dialogue: 0,0:19:15.04,0:19:17.55,Main,Hij,0000,0000,0000,,Shimaru, bomby nech na nás!
+Dialogue: 0,0:19:18.03,0:19:19.39,Main,Hij,0000,0000,0000,,Běž za ním!
+Dialogue: 0,0:19:19.39,0:19:20.68,Main,Hij,0000,0000,0000,,Dostaň zrádce!
+Dialogue: 0,0:19:21.12,0:19:23.60,Main,Hij,0000,0000,0000,,Jsi kapitán Třetího oddílu!
+Dialogue: 0,0:19:24.97,0:19:26.60,Internal,Sai,0000,0000,0000,,"Pro Yorozuyu.
+Dialogue: 0,0:19:27.53,0:19:34.10,Internal,Sai,0000,0000,0000,,Děkuji, že jste mi pomohli čelit problému,\Nkterý jsem celá léta nezvládal, Z.
+Dialogue: 0,0:19:35.50,0:19:37.67,Internal,Sai,0000,0000,0000,,Přestože jsem se snažil ze všech sil,
+Dialogue: 0,0:19:37.67,0:19:42.53,Internal,Sai,0000,0000,0000,,zřejmě nedokážu svobodně mluvit s ostatními.
+Dialogue: 0,0:19:43.25,0:19:49.25,Internal,Sai,0000,0000,0000,,Rozdílem je, že to už \Nnepovažuji za důvod ke smutku.
+Dialogue: 0,0:19:49.25,0:19:54.12,Internal,Sai,0000,0000,0000,,Velice ztěžka se najdou situace, \Nkdy jsem s někým promluvil,
+Dialogue: 0,0:19:54.12,0:19:58.65,Internal,Sai,0000,0000,0000,,ale s velkou spoustou lidí jsem skřížil svůj meč, Z.
+Dialogue: 0,0:19:59.20,0:20:02.21,Internal,Sai,0000,0000,0000,,Někdy s přáteli, někdy s nepřáteli...
+Dialogue: 0,0:20:02.21,0:20:07.09,Internal,Sai,0000,0000,0000,,Komunikoval jsem s nimi skrze meč,\Nkam jsem vložil všechny své emoce, Z.
+Dialogue: 0,0:20:08.17,0:20:11.60,Internal,Sai,0000,0000,0000,,Když se nad tím tak zamyslím,
+Dialogue: 0,0:20:11.60,0:20:16.86,Internal,Sai,0000,0000,0000,,obyčejné bojiště se mi jeví \Njako perfektní místo pro konverzaci, Z.
+Dialogue: 0,0:20:17.78,0:20:22.04,Internal,Sai,0000,0000,0000,,Takže jsem se rozhodl, že z bitev už utíkat nebudu, Z.
+Dialogue: 0,0:20:23.20,0:20:28.17,Internal,Sai,0000,0000,0000,,Ani kdybych musel tasit svůj meč proti\Npřátelům, kteří porušili kodex...
+Dialogue: 0,0:20:28.17,0:20:31.72,Internal,Sai,0000,0000,0000,,Ani kdybych musel tasit svůj meč proti \Nčlověku, o kterém si myslím,
+Dialogue: 0,0:20:31.10,0:20:33.25,Letter,Sign,0000,0000,0000,,Tu Du Tu Du Dů \NTu Du Tu Tů Dů\NTu Du Tu Du Dů \NTu Tu Dů \N- Znělka Prince z Cannocku
+Dialogue: 0,0:20:31.72,0:20:33.25,Internal,Sai,0000,0000,0000,,že by mohl být můj přítel.
+Dialogue: 0,0:20:34.66,0:20:40.51,Internal,Sai,0000,0000,0000,,Skřípot zkřížených mečů jsou jediná slova, která jim\Nmohu ze své strany nabídnout.
+Dialogue: 0,0:20:41.73,0:20:45.51,Internal,Sai,0000,0000,0000,,Jediná slova, která může kapitán \NTřetího oddílu
+Dialogue: 0,0:20:45.94,0:20:48.45,Internal,Sai,0000,0000,0000,,Saito Shimaru nabídnout."
+Dialogue: 0,0:20:55.20,0:20:57.77,Main,Kat,0000,0000,0000,,S tou nohou na mě nemůžeš.
+Dialogue: 0,0:20:58.16,0:21:02.78,Main,Kat,0000,0000,0000,,a můj plán očividně taky selhal.
+Dialogue: 0,0:21:03.64,0:21:05.80,Main,Kat,0000,0000,0000,,Další remíza...
+Dialogue: 0,0:21:10.08,0:21:11.40,Main,Hij,0000,0000,0000,,Hej, Shimaru.
+Dialogue: 0,0:21:11.40,0:21:14.80,Main,Hij,0000,0000,0000,,Zdá se, že jsi zabránil Katsurovi \Nodpálit bomby,
+Dialogue: 0,0:21:14.80,0:21:17.38,Main,Hij,0000,0000,0000,,ale furt tu běží jedna obří bomba na odpočet.
+Dialogue: 0,0:21:18.27,0:21:21.31,Main,Hij,0000,0000,0000,,Je tu hromada drátů a \Nnemáme ponětí, který přeříznout.
+Dialogue: 0,0:21:21.31,0:21:22.96,Main,Hij,0000,0000,0000,,Dostaň to z něj.
+Dialogue: 0,0:21:24.10,0:21:26.28,Main,Kat,0000,0000,0000,,Všechny kromě Z.
+Dialogue: 0,0:21:28.65,0:21:31.45,Main,Kat,0000,0000,0000,,O Z se totiž postarám já.
+Dialogue: 0,0:21:31.45,0:21:34.85,Main,Kat,0000,0000,0000,,Přísahám, že tě vlastnoručně zabiju!
+Dialogue: 0,0:21:36.09,0:21:39.22,Main,Kat,0000,0000,0000,,Do té doby se koukej pořádně starat o své afro!
+Dialogue: 0,0:21:39.22,0:21:40.11,Main,Kat,0000,0000,0000,,Sbohem!
+Dialogue: 0,0:21:40.93,0:21:41.81,Main,Hij,0000,0000,0000,,Hej, Shimaru!
+Dialogue: 0,0:21:41.81,0:21:43.34,Main,Hij,0000,0000,0000,,Pohni si, nemáme čas!
+Dialogue: 0,0:21:43.34,0:21:45.24,Main,Hij,0000,0000,0000,,Jsou tu dráty od A do Z. Kterej máme fiknout?
+Dialogue: 0,0:21:48.98,0:21:50.87,Main,Hij,0000,0000,0000,,Hej, Shimaru, posloucháš mě?!
+Dialogue: 0,0:21:52.41,0:21:54.05,Main,Sai,0000,0000,0000,,Zzz...
+Dialogue: 0,0:21:54.05,0:21:55.81,Main,Hij,0000,0000,0000,,Fajn! Přestříhněte Z!
+Dialogue: 0,0:22:03.29,0:22:07.26,Main,Hij,0000,0000,0000,,Skončili jsme s opravdovým afrem?!
+Dialogue: 0,0:22:09.76,0:22:14.54,Letter,Sign,0000,0000,0000,,{\fad(1,1800)}Jediná slova, která může Saito Shimaru nabídnout. \NHashira Afuro Z \NYorozuya, Z.
+Dialogue: 0,0:23:45.06,0:23:50.07,Ep Title,Title,0000,0000,0000,,Raději Nepodceňujte Charakter\NRole, Kterou Hrajete
+Dialogue: 0,0:23:45.81,0:23:49.47,Main,Kag,0000,0000,0000,,Další díl: "Raději nepodceňujte charakter\Nrole, kterou hrajete."
+Dialogue: 0,0:23:50.07,0:23:54.87,Side Bar Top,text r,0000,0000,0000,,Za chvíli tu bude podzim.
+Dialogue: 0,0:23:50.07,0:23:54.87,Side Bar Bottom,text l,0000,0000,0000,,Rána i večery začínají být chladnější.
+Dialogue: 0,0:23:54.87,0:24:00.75,Side Bar Top2,text r,0000,0000,0000,,Ale když se nad tím zamyslíte,\Nletošní léto bylo vážně k nevydržení.
+Dialogue: 0,0:23:54.87,0:24:00.75,Side Bar Bottom,text l,0000,0000,0000,,A to předpovídali, že nebude velké teplo.

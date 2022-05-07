@@ -1,0 +1,233 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+;
+; Note: This file was saved by Subresync.
+;
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Dialog,Arial,32,&Hffffff,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,20,20,20,0,1
+Style: Nadpis,Arial,40,&HD9F014 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,190,190,190,0,1
+Style: Podnadpis,Arial,40,&H14D9F0 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,80,80,80,0,1
+Style: Vysvet,Arial,40,&Hffaa00 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,190,190,190,0,1
+Style: Uvod,Arial,32,&H14DAEC ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,500,20,190,0,1
+Style: Jednic,Arial,32,&H54D436 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,20,20,20,0,1
+Style: Episod,Arial,45,&HEEF7C6 ,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,10,200,444,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:00.79,0:00:05.53,Podnadpis,,0000,0000,0000,,Pøeklad: Xellos\NKorektury: Hideki
+Dialogue: Marked=0,0:00:08.76,0:00:23.13,Uvod,,0000,0000,0000,,"Vdy doba\Ndeseti miliard let\Nje tak køehká,\Ntak prchavá...\NVyvolává\Nsladkohoøkou,\Nskoro srdceryvnou\Nnìnost"
+Dialogue: Marked=0,0:00:26.44,0:00:31.19,Podnadpis,,0000,0000,0000,,{\pos(276,478)}Zmizení v píseèné bouøi
+Dialogue: Marked=0,0:00:37.05,0:00:38.54,Dialog,,0000,0000,0000,,Pojï sem.
+Dialogue: Marked=0,0:00:39.88,0:00:41.21,Dialog,,0000,0000,0000,,Stùj.
+Dialogue: Marked=0,0:00:41.78,0:00:43.22,Dialog,,0000,0000,0000,,Díky.
+Dialogue: Marked=0,0:00:44.49,0:00:46.22,Dialog,,0000,0000,0000,,Uka...
+Dialogue: Marked=0,0:00:49.06,0:00:51.58,Dialog,,0000,0000,0000,,Nevypadáš nijak moc nanicovatì.
+Dialogue: Marked=0,0:00:51.99,0:00:54.05,Dialog,,0000,0000,0000,,Trošku vychrtlejší. 
+Dialogue: Marked=0,0:00:54.70,0:00:58.06,Dialog,,0000,0000,0000,,Podívej se támhle na stùl.
+Dialogue: Marked=0,0:00:58.27,0:01:01.43,Dialog,,0000,0000,0000,,Jednou jsem v bitvì zabil nejvíc muù ze všech.
+Dialogue: Marked=0,0:01:01.50,0:01:05.17,Dialog,,0000,0000,0000,,Proto mi paní Abelia dala tohle.
+Dialogue: Marked=0,0:01:05.24,0:01:08.94,Dialog,,0000,0000,0000,,Obsahuje to velmi vzácnou vodu.
+Dialogue: Marked=0,0:01:09.01,0:01:10.41,Dialog,,0000,0000,0000,,Chceš ochutnat?
+Dialogue: Marked=0,0:01:11.95,0:01:14.21,Dialog,,0000,0000,0000,,Trochu ti jí dám,\Na budeme hotovi.
+Dialogue: Marked=0,0:01:14.28,0:01:17.68,Dialog,,0000,0000,0000,,No, jsme tady abychom splnili\Nrozkaz krále Hamda.
+Dialogue: Marked=0,0:01:17.75,0:01:19.95,Dialog,,0000,0000,0000,,Sna se mít zdravé dítì, jo?
+Dialogue: Marked=0,0:01:20.02,0:01:23.01,Dialog,,0000,0000,0000,,Nemìl by to bıt problém vzhledem\Nk tomu, e otcem budu já.
+Dialogue: Marked=0,0:01:23.09,0:01:26.72,Dialog,,0000,0000,0000,,Vsadím se, e bude stejnì\Ndobrım vojákem jako jsem já.
+Dialogue: Marked=0,0:01:27.03,0:01:29.93,Dialog,,0000,0000,0000,,Hej, nestùj tam jen tak!
+Dialogue: Marked=0,0:01:33.60,0:01:37.90,Dialog,,0000,0000,0000,,Mrháš mım èasem.\NSundej si je koneènì.
+Dialogue: Marked=0,0:02:02.50,0:02:04.06,Dialog,,0000,0000,0000,,Ty zatracená...!
+Dialogue: Marked=0,0:06:51.41,0:07:03.09,Nadpis,,0000,0000,0000,,Now&Then, Here&There
+Dialogue: Marked=0,0:08:30.72,0:08:31.84,Dialog,,0000,0000,0000,,Hej!
+Dialogue: Marked=0,0:08:36.09,0:08:37.39,Dialog,,0000,0000,0000,,Co chceš?
+Dialogue: Marked=0,0:08:37.46,0:08:39.69,Dialog,,0000,0000,0000,,Omluv se Nabucovi.
+Dialogue: Marked=0,0:08:39.76,0:08:42.20,Dialog,,0000,0000,0000,,Nemám, za co bych se mu omlouval.
+Dialogue: Marked=0,0:08:42.26,0:08:44.75,Dialog,,0000,0000,0000,,Tak proè spolu nemluvíte?
+Dialogue: Marked=0,0:08:44.83,0:08:47.63,Dialog,,0000,0000,0000,,To on se mnou nechce mluvit.
+Dialogue: Marked=0,0:08:47.70,0:08:50.83,Dialog,,0000,0000,0000,,Hele, voják dokáe pøeít jedinì ve skupinì.
+Dialogue: Marked=0,0:08:50.91,0:08:55.71,Dialog,,0000,0000,0000,,Jestli budeš tvrdohlavı, nikdo ti\Nnepomùe, a to budeš potøebovat. 
+Dialogue: Marked=0,0:08:55.84,0:08:57.74,Dialog,,0000,0000,0000,,A to má bıt co? 
+Dialogue: Marked=0,0:08:57.81,0:08:59.87,Dialog,,0000,0000,0000,,Válka, co jiného? 
+Dialogue: Marked=0,0:08:59.95,0:09:02.08,Dialog,,0000,0000,0000,,Neboj se o mì.\NJá bojovat nebudu.
+Dialogue: Marked=0,0:09:02.15,0:09:05.52,Dialog,,0000,0000,0000,,Ale ty {\i1}musíš{\i0}.\NJsi voják.
+Dialogue: Marked=0,0:09:05.59,0:09:07.08,Dialog,,0000,0000,0000,,Nejsem.
+Dialogue: Marked=0,0:09:07.99,0:09:09.12,Dialog,,0000,0000,0000,,Jsi!
+Dialogue: Marked=0,0:09:11.49,0:09:14.12,Dialog,,0000,0000,0000,,Co to dìláš?\NTo je moje!
+Dialogue: Marked=0,0:09:16.46,0:09:18.69,Dialog,,0000,0000,0000,,Ale ty pøece nechceš bojovat?
+Dialogue: Marked=0,0:09:18.77,0:09:22.20,Dialog,,0000,0000,0000,,Voda je pro vojáky,\Nkteøí bojují.
+Dialogue: Marked=0,0:09:22.57,0:09:25.66,Dialog,,0000,0000,0000,,Coe? Máš nìjakı problém?
+Dialogue: Marked=0,0:09:26.61,0:09:30.17,Dialog,,0000,0000,0000,,Proè ho poøád otravuješ?
+Dialogue: Marked=0,0:09:30.65,0:09:32.41,Dialog,,0000,0000,0000,,Hleï si svıho..
+Dialogue: Marked=0,0:09:32.75,0:09:36.15,Dialog,,0000,0000,0000,,{\i1}Ty{\i0} si hleï svého.\NCo on dìlá tì nemusí... 
+Dialogue: Marked=0,0:09:36.22,0:09:40.21,Dialog,,0000,0000,0000,,Dr hubu! Bì za svım kamarádem Nabucou\Na buï jeho nohsledem. 
+Dialogue: Marked=0,0:09:40.29,0:09:42.92,Dialog,,0000,0000,0000,,Tohle škvrnì nesnáším!
+Dialogue: Marked=0,0:09:42.99,0:09:45.96,Dialog,,0000,0000,0000,,Nic se nedaøí od té doby,\Nco se ukázal.
+Dialogue: Marked=0,0:09:46.03,0:09:47.79,Dialog,,0000,0000,0000,,O èem to mluvíš?
+Dialogue: Marked=0,0:09:47.86,0:09:49.02,Dialog,,0000,0000,0000,,Nedìlej, e netušíš!
+Dialogue: Marked=0,0:09:49.10,0:09:52.69,Dialog,,0000,0000,0000,,Kdyby jsme mìli pøívìsek Lala Ru,\Nválka u mohla dávno skonèit! 
+Dialogue: Marked=0,0:09:52.83,0:09:57.10,Dialog,,0000,0000,0000,,To je blbost!\NVálka neskonèí kvùli malému pøívìsku!
+Dialogue: Marked=0,0:09:57.44,0:09:59.46,Dialog,,0000,0000,0000,,To u by staèilo!
+Dialogue: Marked=0,0:10:00.54,0:10:03.64,Dialog,,0000,0000,0000,,Klidnì plıtvejte enegií hádáním,...
+Dialogue: Marked=0,0:10:03.71,0:10:06.15,Dialog,,0000,0000,0000,,ale neobtìujte ostatní.
+Dialogue: Marked=0,0:10:12.29,0:10:13.88,Dialog,,0000,0000,0000,,Taboole.
+Dialogue: Marked=0,0:10:13.96,0:10:17.72,Dialog,,0000,0000,0000,,Nechci se opièit po Boo, ale chováš se\Nposlední dobou divnì.
+Dialogue: Marked=0,0:10:17.79,0:10:19.73,Dialog,,0000,0000,0000,,Proè jsi tak vznìtlivı?
+Dialogue: Marked=0,0:10:19.79,0:10:21.59,Dialog,,0000,0000,0000,,To tì nemusí zajímat.
+Dialogue: Marked=0,0:10:22.56,0:10:27.26,Dialog,,0000,0000,0000,,Kdy je to tak, bì mi z oèí...
+Dialogue: Marked=0,0:10:27.34,0:10:30.46,Dialog,,0000,0000,0000,,a zemøi jak nejdál ode mì mùeš.\NMnì to bude taky jedno.
+Dialogue: Marked=0,0:10:38.05,0:10:41.14,Dialog,,0000,0000,0000,,Napij se.\NJeštì tam trochu je.
+Dialogue: Marked=0,0:10:41.82,0:10:42.94,Dialog,,0000,0000,0000,,Díky.
+Dialogue: Marked=0,0:10:43.02,0:10:44.68,Dialog,,0000,0000,0000,,Nechápej mì špatnì.
+Dialogue: Marked=0,0:10:44.75,0:10:48.98,Dialog,,0000,0000,0000,,Nechci, abys nás brzdil a otravoval mì a pøijde èas.
+Dialogue: Marked=0,0:10:49.06,0:10:50.89,Dialog,,0000,0000,0000,,A pøijde èas...
+Dialogue: Marked=0,0:10:50.96,0:10:55.16,Dialog,,0000,0000,0000,,Ujasnìme si to. Ve skuteènosti\Nmám stejnı názor jako Tabool.
+Dialogue: Marked=0,0:10:55.23,0:10:58.89,Dialog,,0000,0000,0000,,Ti, kteøí nebojují, by nemìli dostávat jídlo ani vodu.
+Dialogue: Marked=0,0:10:58.97,0:11:02.16,Dialog,,0000,0000,0000,,Zkus nad tím popøemıšlet,\Na budeš pít.
+Dialogue: Marked=0,0:11:02.24,0:11:03.97,Dialog,,0000,0000,0000,,Dorazili jsme k vesnici.
+Dialogue: Marked=0,0:11:04.04,0:11:06.97,Dialog,,0000,0000,0000,,Zaútoèíme a skonèí píseèná bouøe.
+Dialogue: Marked=0,0:11:07.04,0:11:09.51,Dialog,,0000,0000,0000,,Dokonèete kontrolu vızbroje\Na buïte pøipraveni.
+Dialogue: Marked=0,0:11:09.58,0:11:10.67,Dialog,,0000,0000,0000,,Jdeme.
+Dialogue: Marked=0,0:11:11.48,0:11:12.61,Dialog,,0000,0000,0000,,U jdu!
+Dialogue: Marked=0,0:11:21.19,0:11:22.42,Dialog,,0000,0000,0000,,Jídlo.
+Dialogue: Marked=0,0:11:23.66,0:11:24.75,Dialog,,0000,0000,0000,,Snìz to.
+Dialogue: Marked=0,0:11:32.47,0:11:34.83,Dialog,,0000,0000,0000,,Nemám tì ráda.
+Dialogue: Marked=0,0:11:35.20,0:11:36.69,Dialog,,0000,0000,0000,,Hnusíš se mi.
+Dialogue: Marked=0,0:11:36.80,0:11:39.00,Dialog,,0000,0000,0000,,Pøála bych si, abys zmizela.
+Dialogue: Marked=0,0:11:40.54,0:11:44.64,Dialog,,0000,0000,0000,,Jsem zavázána plnit pøání\Nkrále Hamda,...
+Dialogue: Marked=0,0:11:44.71,0:11:50.24,Dialog,,0000,0000,0000,,ale kdykoliv tì vidím s ním,\Npopadne mì šílenı vztek.
+Dialogue: Marked=0,0:11:53.32,0:11:58.22,Dialog,,0000,0000,0000,,Øíká, e jsi posel z nebes,\Nkterı splní jeho pøání.
+Dialogue: Marked=0,0:11:58.29,0:12:03.70,Dialog,,0000,0000,0000,,Já jenom vidím Zubatou,\Nkterá chce znièit Hellywood.
+Dialogue: Marked=0,0:12:09.70,0:12:15.34,Dialog,,0000,0000,0000,,Nemám v úmyslu znièit vaši zemi.
+Dialogue: Marked=0,0:12:15.58,0:12:17.67,Dialog,,0000,0000,0000,,Vy si to myslíte,...
+Dialogue: Marked=0,0:12:17.75,0:12:22.31,Dialog,,0000,0000,0000,,protoe si odmítáte pøiznat,\Ne se vám rozpadá pod rukama.
+Dialogue: Marked=0,0:12:22.98,0:12:25.51,Dialog,,0000,0000,0000,,Øíkáš, e Hellywood padne?
+Dialogue: Marked=0,0:12:25.92,0:12:28.75,Dialog,,0000,0000,0000,,e nadìje krále Hamda jsou zbyteèné?
+Dialogue: Marked=0,0:12:33.66,0:12:36.79,Dialog,,0000,0000,0000,,Tím pádem tì u nebudu potøebovat.
+Dialogue: Marked=0,0:12:56.45,0:13:00.79,Dialog,,0000,0000,0000,,Abelio, dokonèil jsem plán\Nk vyhlazení Zari Bars. Pøijï sem.
+Dialogue: Marked=0,0:13:00.86,0:13:02.69,Dialog,,0000,0000,0000,,U jdu, pane.
+Dialogue: Marked=0,0:13:10.67,0:13:15.69,Dialog,,0000,0000,0000,,Snìz to. Vojáci by pro kousíèek\Ntoho jídla zabíjeli.
+Dialogue: Marked=0,0:13:20.54,0:13:23.17,Dialog,,0000,0000,0000,,Poslouchejte.\NZaujmìte pozice k pøesunu.
+Dialogue: Marked=0,0:13:23.24,0:13:25.54,Dialog,,0000,0000,0000,,Pøipravte vozidla k vıjezdu.
+Dialogue: Marked=0,0:13:26.58,0:13:29.78,Dialog,,0000,0000,0000,,Stùjte, dokud nedostanete\Ndalší rozkazy.
+Dialogue: Marked=0,0:13:33.89,0:13:34.95,Dialog,,0000,0000,0000,,Ty jsi...?
+Dialogue: Marked=0,0:13:35.02,0:13:38.05,Dialog,,0000,0000,0000,,Poøád nechci bojovat.
+Dialogue: Marked=0,0:13:38.13,0:13:41.32,Dialog,,0000,0000,0000,,Ale protoe jsem si od tebe\N{\i1}vzal{\i0} jídlo a vodu,...
+Dialogue: Marked=0,0:13:41.40,0:13:42.79,Dialog,,0000,0000,0000,,mìl bych aspoò pomoct.
+Dialogue: Marked=0,0:13:42.86,0:13:44.83,Dialog,,0000,0000,0000,,Co budeš dìlat?
+Dialogue: Marked=0,0:13:45.13,0:13:48.86,Dialog,,0000,0000,0000,,Kopat jámy a likvidovat odpadky.
+Dialogue: Marked=0,0:13:48.94,0:13:53.07,Dialog,,0000,0000,0000,,Neposlouchal jsi paní Abelii?
+Dialogue: Marked=0,0:13:53.14,0:13:54.13,Dialog,,0000,0000,0000,,Huh?
+Dialogue: Marked=0,0:13:54.21,0:13:57.58,Dialog,,0000,0000,0000,,Ty nevíš, co je tohle za vıpravu?
+Dialogue: Marked=0,0:13:57.65,0:13:59.27,Dialog,,0000,0000,0000,,Nebudou se tu kopat ádnì jámy.
+Dialogue: Marked=0,0:13:59.35,0:14:00.41,Dialog,,0000,0000,0000,,Ale já nemùu bojovat...
+Dialogue: Marked=0,0:14:00.48,0:14:02.01,Dialog,,0000,0000,0000,,Nebude se bojovat.
+Dialogue: Marked=0,0:14:04.29,0:14:05.91,Dialog,,0000,0000,0000,,Bude to ještì horší.
+Dialogue: Marked=0,0:14:06.35,0:14:07.84,Dialog,,0000,0000,0000,,Jdeme!
+Dialogue: Marked=0,0:14:29.58,0:14:31.44,Dialog,,0000,0000,0000,,Hellywood!
+Dialogue: Marked=0,0:14:32.38,0:14:35.35,Dialog,,0000,0000,0000,,Vezmìte eny a dìti pryè. Rychle! 
+Dialogue: Marked=0,0:14:38.29,0:14:40.05,Dialog,,0000,0000,0000,,Uteète co nejdál!
+Dialogue: Marked=0,0:14:40.32,0:14:41.85,Dialog,,0000,0000,0000,,Musíme je nìjak zastavit.
+Dialogue: Marked=0,0:14:49.80,0:14:51.63,Dialog,,0000,0000,0000,,Neodporujte.
+Dialogue: Marked=0,0:14:55.47,0:14:58.56,Dialog,,0000,0000,0000,,Jsme verbíøi z Hellywoodu.
+Dialogue: Marked=0,0:14:58.64,0:15:01.07,Dialog,,0000,0000,0000,,Nechceme zbyteènì bojovat.
+Dialogue: Marked=0,0:15:01.14,0:15:02.51,Dialog,,0000,0000,0000,,Dìti!
+Dialogue: Marked=0,0:15:02.58,0:15:06.14,Dialog,,0000,0000,0000,,Chtìli bysme s vámi v míru vyjednávat.
+Dialogue: Marked=0,0:15:06.21,0:15:08.01,Dialog,,0000,0000,0000,,Prosím odlote zbranì.
+Dialogue: Marked=0,0:15:09.82,0:15:12.62,Dialog,,0000,0000,0000,,Dobøe. Setkáme se s vámi.
+Dialogue: Marked=0,0:15:13.29,0:15:16.92,Dialog,,0000,0000,0000,,Náèelníku! eny a dìti jsou pryè.\NTeï jenom potøebujeme získat èas...
+Dialogue: Marked=0,0:15:20.26,0:15:25.03,Dialog,,0000,0000,0000,,Odlote zbranì. Jestli to neudìláme,\Ntak nás zabijí.
+Dialogue: Marked=0,0:15:28.87,0:15:30.34,Dialog,,0000,0000,0000,,U jsem slyšel,...
+Dialogue: Marked=0,0:15:30.40,0:15:36.31,Dialog,,0000,0000,0000,,jak Hellywood získává mue\Na zásoby z vesnic.
+Dialogue: Marked=0,0:15:36.38,0:15:38.54,Dialog,,0000,0000,0000,,Ale nikdy jsem tomu nevìøil.
+Dialogue: Marked=0,0:15:38.61,0:15:42.01,Dialog,,0000,0000,0000,,Nemyslel jsem si, e by nìkdo\Nmohl bıt tak ukrutnı.
+Dialogue: Marked=0,0:15:42.08,0:15:46.61,Dialog,,0000,0000,0000,,Abysme si rozumìli,\Nnechceme tu rabovat.
+Dialogue: Marked=0,0:15:46.69,0:15:49.71,Dialog,,0000,0000,0000,,Verbujeme v zájmu vyšších cílù.
+Dialogue: Marked=0,0:15:49.79,0:15:51.72,Dialog,,0000,0000,0000,,ádáme vás o pochopení a spolupráci.
+Dialogue: Marked=0,0:15:51.79,0:15:55.79,Dialog,,0000,0000,0000,,Jak vám mùeme porozumìt,\Nkdy nám míøíte na hlavy?
+Dialogue: Marked=0,0:15:55.86,0:15:59.99,Dialog,,0000,0000,0000,,Jestli chcete jídlo, vezmìte si,\Nkolik chcete a vypadnìte!
+Dialogue: Marked=0,0:16:00.07,0:16:04.27,Dialog,,0000,0000,0000,,Obávám se, e to nám staèit nebude.
+Dialogue: Marked=0,0:16:04.51,0:16:05.97,Dialog,,0000,0000,0000,,Potøebujeme eny a dìti.
+Dialogue: Marked=0,0:16:06.04,0:16:10.74,Dialog,,0000,0000,0000,,A hlavnì potøebujeme mue, kteøí by podpoøili plány\Nkrále Hamda a bojovali pro nì.
+Dialogue: Marked=0,0:16:10.88,0:16:12.61,Dialog,,0000,0000,0000,,Pojïte s námi.
+Dialogue: Marked=0,0:16:12.68,0:16:14.44,Dialog,,0000,0000,0000,,Jak se opovaujete?
+Dialogue: Marked=0,0:16:14.78,0:16:20.02,Dialog,,0000,0000,0000,,V této vesnici není nikdo, kdo by podporoval\Nplány toho proklatého diktátora!
+Dialogue: Marked=0,0:16:20.15,0:16:22.15,Dialog,,0000,0000,0000,,Take nechcete spolupracovat?
+Dialogue: Marked=0,0:16:22.22,0:16:24.56,Dialog,,0000,0000,0000,,Vezmìte si všechno jídlo, které chcete. 
+Dialogue: Marked=0,0:16:24.63,0:16:27.72,Dialog,,0000,0000,0000,,Ale nedám vám nikoho z mıch lidí!
+Dialogue: Marked=0,0:16:30.43,0:16:34.13,Dialog,,0000,0000,0000,,Potøebujeme odejít pøed další píseènou bouøí.
+Dialogue: Marked=0,0:16:37.07,0:16:39.54,Dialog,,0000,0000,0000,,Chceme vojáky.
+Dialogue: Marked=0,0:16:39.61,0:16:44.41,Dialog,,0000,0000,0000,,Nebojte se. A skonèí válka,\Nvrátíte se domù.
+Dialogue: Marked=0,0:16:44.48,0:16:45.67,Dialog,,0000,0000,0000,,Máte moje slovo.
+Dialogue: Marked=0,0:16:45.78,0:16:47.01,Dialog,,0000,0000,0000,,Tobì tak vìøíme!
+Dialogue: Marked=0,0:16:49.58,0:16:52.58,Dialog,,0000,0000,0000,,Nechci plıtvat svojí municí.
+Dialogue: Marked=0,0:16:54.49,0:16:56.92,Dialog,,0000,0000,0000,,Neumírej!\NNemùeš umøít!
+Dialogue: Marked=0,0:16:58.49,0:17:00.05,Dialog,,0000,0000,0000,,Co to dìláš?
+Dialogue: Marked=0,0:17:00.13,0:17:03.12,Dialog,,0000,0000,0000,,Proè... Proè jste je zabil?
+Dialogue: Marked=0,0:17:05.60,0:17:06.69,Dialog,,0000,0000,0000,,Hlupáku!
+Dialogue: Marked=0,0:17:06.90,0:17:08.70,Dialog,,0000,0000,0000,,Kdo je to?
+Dialogue: Marked=0,0:17:08.77,0:17:12.03,Dialog,,0000,0000,0000,,Odpuste mi, pane.\NJe to nováèek v mém oddílu.
+Dialogue: Marked=0,0:17:12.11,0:17:16.17,Dialog,,0000,0000,0000,,Odveïte ho pryè! Nièí naši kázeò!
+Dialogue: Marked=0,0:17:16.24,0:17:17.37,Dialog,,0000,0000,0000,,Ano, pane.
+Dialogue: Marked=0,0:17:17.45,0:17:19.21,Dialog,,0000,0000,0000,,Nech mì bıt!
+Dialogue: Marked=0,0:17:20.92,0:17:23.01,Dialog,,0000,0000,0000,,Prohledejte domy.
+Dialogue: Marked=0,0:17:23.08,0:17:25.81,Dialog,,0000,0000,0000,,- Choïte po dvou.\N- Je mrtvı? 
+Dialogue: Marked=0,0:17:26.22,0:17:27.69,Dialog,,0000,0000,0000,,Hlídej ho.
+Dialogue: Marked=0,0:17:27.76,0:17:28.74,Dialog,,0000,0000,0000,,OK.
+Dialogue: Marked=0,0:17:29.26,0:17:31.49,Dialog,,0000,0000,0000,,Leze mi na nervy!
+Dialogue: Marked=0,0:18:02.59,0:18:07.25,Dialog,,0000,0000,0000,,Nezabij mì. Nezabíjej mì...
+Dialogue: Marked=0,0:18:08.13,0:18:12.07,Dialog,,0000,0000,0000,,Nezabiju tì.\NBuï hodnı chlapec a vylez ven.
+Dialogue: Marked=0,0:18:12.13,0:18:15.19,Dialog,,0000,0000,0000,,Prosím...\Nnech mì jít.
+Dialogue: Marked=0,0:18:15.64,0:18:17.26,Dialog,,0000,0000,0000,,To nemùu.
+Dialogue: Marked=0,0:18:17.44,0:18:21.34,Dialog,,0000,0000,0000,,Pojï se mnou. Kdy pùjdeš,\Ntak tì aspoò nakrmí.
+Dialogue: Marked=0,0:18:21.74,0:18:26.11,Dialog,,0000,0000,0000,,Pokud pøeiješ,\Njednoho dne se vrátíš.
+Dialogue: Marked=0,0:18:26.18,0:18:30.21,Dialog,,0000,0000,0000,,Ale...\NJá {\i1}nikdy{\i} nechtìl zabíjet!
+Dialogue: Marked=0,0:18:31.82,0:18:35.31,Dialog,,0000,0000,0000,,Ani já ne.
+Dialogue: Marked=0,0:18:42.13,0:18:43.86,Dialog,,0000,0000,0000,,Hej! Stùj!
+Dialogue: Marked=0,0:18:45.23,0:18:46.60,Dialog,,0000,0000,0000,,Troubo!
+Dialogue: Marked=0,0:18:48.87,0:18:49.86,Dialog,,0000,0000,0000,,Utíkejte!
+Dialogue: Marked=0,0:18:50.40,0:18:51.87,Dialog,,0000,0000,0000,,Rychle!
+Dialogue: Marked=0,0:19:04.75,0:19:05.78,Dialog,,0000,0000,0000,,Dej mi to!
+Dialogue: Marked=0,0:19:14.40,0:19:16.73,Dialog,,0000,0000,0000,,To staèí!\NZbláznil ses?!?
+Dialogue: Marked=0,0:19:16.80,0:19:18.46,Dialog,,0000,0000,0000,,U toho nech!
+Dialogue: Marked=0,0:19:18.53,0:19:21.19,Dialog,,0000,0000,0000,,Tohle nemùete dìlat!\NTo není správné!
+Dialogue: Marked=0,0:19:21.27,0:19:24.90,Dialog,,0000,0000,0000,,Je mi jedno, jestli je to správné nebo ne,\Nje to rozkaz!
+Dialogue: Marked=0,0:19:25.17,0:19:27.07,Dialog,,0000,0000,0000,,Pøesnì tohle udìlali {\i1}nám{\i0}!
+Dialogue: Marked=0,0:19:27.14,0:19:30.20,Dialog,,0000,0000,0000,,A tyhle dìti unesou další dìti?
+Dialogue: Marked=0,0:19:31.95,0:19:35.91,Dialog,,0000,0000,0000,,Potom mi øekni...\NKdo to zastaví?
+Dialogue: Marked=0,0:19:59.57,0:20:01.67,Dialog,,0000,0000,0000,,- Co se stalo?\N- Dìti utekly.
+Dialogue: Marked=0,0:20:01.74,0:20:03.68,Dialog,,0000,0000,0000,,Tohle škvrnì dìlá opravdové problémy.
+Dialogue: Marked=0,0:20:03.74,0:20:06.74,Dialog,,0000,0000,0000,,Mìli bychom to oznámit,\Na se vrátíme. 
+Dialogue: Marked=0,0:20:06.95,0:20:08.35,Dialog,,0000,0000,0000,,Já vím.
+Dialogue: Marked=0,0:20:09.05,0:20:10.24,Dialog,,0000,0000,0000,,Co se tu dìje?
+Dialogue: Marked=0,0:20:11.15,0:20:16.05,Dialog,,0000,0000,0000,,Kapitáne, nováèek v mém oddíle\Nzdruje plnìní našeho úkolu.
+Dialogue: Marked=0,0:20:16.12,0:20:20.18,Dialog,,0000,0000,0000,,Proto si myslím, e bychom ho mìli dret na uzdì\Nne se vrátíme do Hellywoodu...
+Dialogue: Marked=0,0:20:20.26,0:20:22.09,Dialog,,0000,0000,0000,,a tam ho následnì postavit pøed vojenskı soud.
+Dialogue: Marked=0,0:20:22.16,0:20:23.39,Dialog,,0000,0000,0000,,Zdrování?
+Dialogue: Marked=0,0:20:23.46,0:20:27.99,Dialog,,0000,0000,0000,,Zastavte to. Nìco je s vámi špatnì.\NVšichni jste šílení!
+Dialogue: Marked=0,0:20:28.07,0:20:30.26,Dialog,,0000,0000,0000,,Tohle je šílené.
+Dialogue: Marked=0,0:20:30.44,0:20:34.20,Dialog,,0000,0000,0000,,Velmi dobøe.\NDobøe ho hlídejte.
+Dialogue: Marked=0,0:20:34.28,0:20:38.87,Dialog,,0000,0000,0000,,Pamatujte si, e jestli uteèe,\Ntak si to odskáèe celı oddíl.
+Dialogue: Marked=0,0:20:38.95,0:20:40.41,Dialog,,0000,0000,0000,,Rozumím, pane.
+Dialogue: Marked=0,0:21:18.85,0:21:20.95,Dialog,,0000,0000,0000,,Jsme v bezpeèné vzdálenosti, pane.
+Dialogue: Marked=0,0:21:21.79,0:21:23.35,Dialog,,0000,0000,0000,,Zaènìte.
+Dialogue: Marked=0,0:21:32.53,0:21:34.00,Dialog,,0000,0000,0000,,- Bombardování dokonèeno.\N- Dobøe.
+Dialogue: Marked=0,0:22:50.04,0:23:00.32,Dialog,,0000,0000,0000,,Vdy, po všechen èas,\Ntì budu opatrovat.
+Dialogue: Marked=0,0:23:00.39,0:23:11.96,Dialog,,0000,0000,0000,,Tak se upokoj\Na jdi spát.
+Dialogue: Marked=0,0:23:31.62,0:23:49.94,Dialog,,0000,0000,0000,,Tento svìt, kde jsme vyrostli\Nnavyklí ubliovat jeden druhému...
+Dialogue: Marked=0,0:23:52.51,0:24:04.71,Dialog,,0000,0000,0000,,Tady jsme se narodili a dospìli.
+Dialogue: Marked=0,0:24:38.64,0:24:43.27,Episod,,0000,0000,0000,,{\pos(233,220)}V pøíštím díle...
+Dialogue: Marked=0,0:24:39.92,0:24:43.19,Dialog,,0000,0000,0000,,Prosím, Lala Ru, povídej si se mnou. 
+Dialogue: Marked=0,0:24:43.26,0:24:46.56,Dialog,,0000,0000,0000,,Chci, abys mi øekla,\Njak mám zachránit svìt.
+Dialogue: Marked=0,0:24:46.63,0:24:50.86,Dialog,,0000,0000,0000,,Poslušnost je ctností kadé dívky.\NJe to její nejvìtší klad.
+Dialogue: Marked=0,0:24:51.20,0:24:52.83,Dialog,,0000,0000,0000,,Nechceš mi to prosím øíct?
+Dialogue: Marked=0,0:24:52.93,0:24:57.34,Dialog,,0000,0000,0000,,Øekni to! Øekni mi to,\Nty zatracanı spratku!
+Dialogue: Marked=0,0:24:53.15,0:24:58.66,Podnadpis,,0000,0000,0000,,{\pos(453,461)}Noc útìku

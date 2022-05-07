@@ -1,0 +1,520 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Internal,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,38,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,40,40,20,0
+Style: Gintama,Open Sans Semibold,38,&H00D3CDCA,&H000000FF,&H00070405,&H000A0707,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: Slip Arc,Open Sans Semibold,38,&H00060605,&H000000FF,&H00FFFFFD,&H00090B09,1,0,0,0,100,100,0,0,1,2,1,2,353,353,20,0
+Style: Side Bar Top,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,13,13,20,0
+Style: Side Bar Bottom,Open Sans Semibold,38,&H007310ED,&H004B31E3,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,13,13,20,0
+Style: Warning,Open Sans Semibold,26,&H00FFFFF6,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,196,196,27,0
+Style: Preview,Open Sans Semibold,35,&H00E5BAF8,&H000000FF,&H005E1CA1,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,27,580,93,0
+Style: sign_2985_16_missing,Open Sans Semibold,35,&H00394440,&H000000FF,&H00EAEEEB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_4872_42_Bandai_Namco,Open Sans Semibold,29,&H002E2B29,&H000000FF,&H00010200,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,255,111,27,0
+Style: sign_4914_43_Lab_A,Open Sans Semibold,24,&H0026200F,&H000000FF,&H00EAEAC9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,64,177,55,0
+Style: sign_5013_46_Unlocked,Open Sans Semibold,35,&H00506635,&H000000FF,&H005DFF53,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,29,27,163,0
+Style: sign_4986_45_missing,Open Sans Semibold,26,&H00F9FFFA,&H000000FF,&H00201505,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,109,100,159,0
+Style: sign_5808_60_Gintama_Rumble,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_7436_88_Tales_of_Rumble,Open Sans Semibold,35,&H002C00B4,&H000000FF,&H00FCFEF6,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_7580_91_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H004A504F,&H000000FF,&H00D1DBE5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: Text M,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,13,27,0
+Style: sign_10309_135_Gintoki_____Kagu,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,4,27,27,87,0
+Style: Text L,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,27,27,27,0
+Style: Rotten,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,27,320,45,0
+Style: sign_12520_171_Gintoki__Kagura_,Open Sans Semibold,26,&H0088D8E9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,1,613,27,67,0
+Style: sign_13576_189_Enquiry,Open Sans Semibold,26,&H00444644,&H000000FF,&H00F4FCFC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,105,113,133,0
+Style: Text M Red,Open Sans Semibold,29,&H008981E9,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,27,27,24,0
+Style: sign_15577_221_Odd_Jobs_Gin_cha,Open Sans Semibold,29,&H00464D4E,&H000000FF,&H00DDE3E5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,0
+Style: sign_16552_239_MADAO_Hazard,Open Sans Semibold,35,&H0000000D,&H000000FF,&H00FDFEFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_20612_296_Super_MADAO_Brot,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,0,0,0,100,100,0,0,1,2,1,1,381,13,167,0
+Style: sign_21360_305_Gintama_Rumble_P,Open Sans Semibold,32,&H00162033,&H000000FF,&H006885CA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,325,133,16,0
+Style: Bandai_Namco - Copy,Open Sans Semibold,26,&H00EFF0F8,&H000000FF,&H004E4629,&H003F4031,1,0,0,0,100,100,0,0,1,2,1,8,255,111,27,0
+Style: sign_22449_314_Zoff_s_Eyewear,Open Sans Semibold,32,&H00121B1E,&H000000FF,&H004A6C79,&H00394432,1,0,0,0,100,100,0,0,1,2,1,8,27,27,20,0
+Style: sign_24205_335_Guardian_Spirit,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H00342811,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,168,29,167,0
+Style: sign_24344_338_Guardian_spirits,Open Sans Semibold,26,&H00FFFFFF,&H000000FF,&H003B2711,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,27,27,27,0
+Style: sign_25442_356_One_word_and_you,Open Sans Semibold,32,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,60,27,27,0
+Style: Spirit R,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,467,47,27,0
+Style: Spirit Text L,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,7,27,27,27,0
+Style: Spirit Text R,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H003B2613,&H003B2711,0,0,0,0,100,100,0,0,1,4,0,9,27,64,40,0
+Style: sign_27989_394_Toilet,Open Sans Semibold,35,&H002F3B4E,&H000000FF,&H00D7DAD7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,0
+Style: sign_31309_455_Kabuki_District_,Open Sans Semibold,26,&H0000000D,&H000000FF,&H00FEFCF0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: sign_31513_456_Kabuki_District_,Open Sans Semibold,35,&H0000000D,&H000000FF,&H00FEFCF0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,20,0
+Style: TBC,Open Sans Semibold,38,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,33,0
+Style: sign_7580_91_Odd_Jobs_Gin_ Copy,Open Sans Semibold,26,&H00243439,&H000000FF,&H00637891,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,93,0
+Style: Text M2,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,13,307,141,0
+Style: Text M3,Open Sans Semibold,29,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,13,13,141,0
+Style: Text M4,Open Sans Semibold,35,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,13,13,216,0
+Style: Spirit L,Open Sans Semibold,24,&H00161617,&H000000FF,&H00EDEAEA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,47,467,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.61,0:00:15.61,Gintama,OP Card,0000,0000,0000,,Gintama
+Dialogue: 0,0:00:12.49,0:00:15.61,Slip Arc,OP Card,0000,0000,0000,,Porori ark
+Dialogue: 0,0:01:31.50,0:01:33.50,Default,,0,0,0,,Ubohý překlad: Pazii
+Dialogue: 0,0:01:34.67,0:01:36.07,Main,Gin,0000,0000,0000,,{\i1}Gintama Rumble{\i0}?
+Dialogue: 0,0:01:36.07,0:01:38.09,Main,Gin,0000,0000,0000,,{\an8}Co to sakra je?
+Dialogue: 0,0:01:37.09,0:01:44.10,Warning,Warning,0000,0000,0000,,{\fad(500,540)}Užijte si {\i1}Gintama Rumble{\i0} v dobře osvětlené místnosti a v dostatečné vzdálenosti o TV!!
+Dialogue: 0,0:01:38.09,0:01:41.88,Main,Shin,0000,0000,0000,,{\an8}Co myslíš? Je to hra, která má brzy vyjít.
+Dialogue: 0,0:01:41.88,0:01:47.46,Main,Shin,0000,0000,0000,,Po úspěchu ze hry {\i1}Gintama no Sugoroku{\i0} \Ntvoří Bandai Namco další.
+Dialogue: 0,0:01:47.46,0:01:51.57,Main,Kag,0000,0000,0000,,A tentokrát je to vážně akční hra, \Njak napovídá to "Rumble".
+Dialogue: 0,0:01:51.57,0:01:53.96,Main,Kag,0000,0000,0000,,Investovali do toho o tuny víc prachů, než do tý předešlý.
+Dialogue: 0,0:01:53.96,0:01:58.82,Main,Gin,0000,0000,0000,,Jakej má smysl tvořit akční hru, \Nkdyž nemáme žádný speciální útoky?
+Dialogue: 0,0:01:58.82,0:02:00.57,Main,Gin,0000,0000,0000,,Je to fakt dementní.
+Dialogue: 0,0:02:00.57,0:02:03.18,Main,Gin,0000,0000,0000,,To, že Sugorogu vytvořili v zoufalosti,\Nbylo aspoň roztomilý.
+Dialogue: 0,0:02:03.18,0:02:04.47,Main,Shin,0000,0000,0000,,Hej, přestaň si stěžovat.
+Dialogue: 0,0:02:04.47,0:02:08.73,Main,Gin,0000,0000,0000,,A kam se jako poděly práva? \NNení to trochu divný, Bamco?
+Dialogue: 0,0:02:04.47,0:02:14.48,sign_2985_16_missing,,0000,0000,0000,,Hladina Cukru
+Dialogue: 0,0:02:08.73,0:02:12.54,Main,Shin,0000,0000,0000,,Hlavní postava mluvící o naší \Nhře mi upřímně přijde divnější.
+Dialogue: 0,0:02:12.54,0:02:14.48,Main,Gin,0000,0000,0000,,To je fakt, nikdy předtím jsme o tom vlastně nemluvili.
+Dialogue: 0,0:02:14.48,0:02:19.94,Main,Gin,0000,0000,0000,,Nebylo důležitý, kdo o nás udělal \Nhru nebo jak špatná byla její prodej,
+Dialogue: 0,0:02:19.94,0:02:21.21,Main,Gin,0000,0000,0000,,tak jsme dělali, jakoby nic.
+Dialogue: 0,0:02:21.21,0:02:23.74,Main,Shin,0000,0000,0000,,Nebuď tak hrubej, jinak už nám žádnou další hru nevytvořej!
+Dialogue: 0,0:02:24.28,0:02:27.84,Main,Gin,0000,0000,0000,,Hry podle nějakýho námětu \Nbyly stejně vždycky na hovno.
+Dialogue: 0,0:02:27.84,0:02:30.25,Main,Shin,0000,0000,0000,,Nejsou na hovno! Jsou tvořeny s láskou!
+Dialogue: 0,0:02:30.25,0:02:37.69,Main,Gin,0000,0000,0000,,Ale pokud v blízký době nevytvoříme žádnej hit, \Nsponzoři by se mohli na celou Gintamu vybodnout.
+Dialogue: 0,0:02:37.69,0:02:40.89,Main,Gin,0000,0000,0000,,To by mohlo víst k úpadku propagace \Nv médiích a omezení merche,
+Dialogue: 0,0:02:40.89,0:02:42.82,Main,Gin,0000,0000,0000,,což by mohlo anime fatálně uškodit.
+Dialogue: 0,0:02:42.82,0:02:44.64,Main,Shin,0000,0000,0000,,Um, anime by mělo bejt naprosto v klidu.
+Dialogue: 0,0:02:45.06,0:02:49.43,Main,Gin,0000,0000,0000,,Za našimi zády si jen tak lehkomyslně\Nvytvořili akční hru.
+Dialogue: 0,0:02:49.43,0:02:52.02,Main,Gin,0000,0000,0000,,Bez pochyb její cena během \Nněkolika měsíců spadne na polovinu.
+Dialogue: 0,0:02:52.02,0:02:55.27,Main,Shin,0000,0000,0000,,Neodsuzuj tu hru ještě předtím, než vůbec vyjde! \NPůjde na dračku!
+Dialogue: 0,0:02:55.27,0:02:57.47,Main,Gin,0000,0000,0000,,Nevím, jak ostatní hlavní postavy v Jumpu,
+Dialogue: 0,0:02:57.47,0:03:01.54,Main,Gin,0000,0000,0000,,ale jako dospělý hodlám \Npoukázat na problém, pokud ho uvidím.
+Dialogue: 0,0:03:01.54,0:03:02.99,Main,Shin,0000,0000,0000,,Ty seš tady ten největší problém!
+Dialogue: 0,0:03:02.99,0:03:06.66,Main,Shin,0000,0000,0000,,V životě jsem neslyšel o hlavní postavě, co by \Nstrkala čumák do merche vlastního seriálu!
+Dialogue: 0,0:03:06.66,0:03:10.50,Main,Gin,0000,0000,0000,,Nemůžu jen tak sedět a dovolit,\Naby všechno udělali Bamco.
+Dialogue: 0,0:03:10.50,0:03:15.17,Main,Gin,0000,0000,0000,,V dnešní době musí každá dobrá \Npostava dohlížet na svůj merch.
+Dialogue: 0,0:03:15.69,0:03:17.17,Main,Gin,0000,0000,0000,,A v tom případě...
+Dialogue: 0,0:03:17.17,0:03:23.18,Ep Title,Title,0000,0000,0000,,{\fad(485,1)}Hranice Mezi Úžasnými a Ubohými Hrami Je Tenká Jako Papír.
+Dialogue: 0,0:03:23.18,0:03:24.93,sign_4872_42_Bandai_Namco,Sign,0000,0000,0000,,Bandai Namco
+Dialogue: 0,0:03:24.93,0:03:27.93,sign_4914_43_Lab_A,Sign,0000,0000,0000,,Laboratoř A
+Dialogue: 0,0:03:25.71,0:03:27.93,Main,Tama,0000,0000,0000,,Infiltrace do hlavního systému proběhla úspěšně.
+Dialogue: 0,0:03:27.93,0:03:29.06,sign_4986_45_missing,,0000,0000,0000,,Ověřování
+Dialogue: 0,0:03:29.06,0:03:30.29,sign_5013_46_Unlocked,Sign,0000,0000,0000,,{\fad(1,417)}Odemčeno
+Dialogue: 0,0:03:31.55,0:03:33.60,Main,Tama,0000,0000,0000,,Hackování dokončeno.
+Dialogue: 0,0:03:33.60,0:03:37.04,Main,Gin,0000,0000,0000,,Skvělý. Můžeme překopat {\i1}Gintama \NRumble{\i0} podle sebe.
+Dialogue: 0,0:03:37.04,0:03:39.44,Main,Shin,0000,0000,0000,,Hej! Co sakra tak krátce \Npřed premiérou děláš?!
+Dialogue: 0,0:03:39.95,0:03:43.42,Main,Gin,0000,0000,0000,,Uděláme, co se dá, a vytvoříme hru,\Nkterá se bude prodávat v miliónech kopií.
+Dialogue: 0,0:03:43.42,0:03:44.23,Main,Shin,0000,0000,0000,,Jo, to určitě!
+Dialogue: 0,0:03:44.23,0:03:47.33,Main,Shin,0000,0000,0000,,Fakt myslíš, že ti jen tak projde, \Nže ses sem proplížil a dělal tu blbosti?
+Dialogue: 0,0:03:47.33,0:03:50.01,Main,Shin,0000,0000,0000,,Skoro dokončili vážně suprovou hru!
+Dialogue: 0,0:03:47.33,0:03:52.96,sign_5808_60_Gintama_Rumble,,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:03:50.01,0:03:52.96,Main,Shin,0000,0000,0000,,Lidi, co maj s tímhle nulový zkušenosti, \Nby měli dát pracky pryč!
+Dialogue: 0,0:03:52.96,0:03:55.67,Main,Gin,0000,0000,0000,,Nebuď tak naivní.
+Dialogue: 0,0:03:55.67,0:03:57.95,Main,Gin,0000,0000,0000,,Jasně, možná to je fajn hra.
+Dialogue: 0,0:03:57.95,0:04:02.22,Main,Gin,0000,0000,0000,,Ale přemýšlím, jestli jsou fakt motivovaný k prodeji.
+Dialogue: 0,0:04:02.22,0:04:04.93,sign_5808_60_Gintama_Rumble,Sign,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:04:02.67,0:04:04.93,Main,Gin,0000,0000,0000,,Kdyby to brali opravdu vážně,
+Dialogue: 0,0:04:04.93,0:04:10.47,sign_5808_60_Gintama_Rumble,Sign,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:04:06.14,0:04:07.52,Main,Gin,0000,0000,0000,,vypadalo by to nějak takhle.
+Dialogue: 0,0:04:07.52,0:04:08.33,Main,Shin,0000,0000,0000,,Leda ve snu!
+Dialogue: 0,0:04:08.33,0:04:10.47,Main,Shin,0000,0000,0000,,Přestaň se plíst mezi známý a úspěšný série!
+Dialogue: 0,0:04:10.82,0:04:13.52,Main,Gin,0000,0000,0000,,Už teď jich je tolik, že si nikdo \Nnevšimne, když mezi ně proklouznem.
+Dialogue: 0,0:04:13.52,0:04:16.76,Main,Gin,0000,0000,0000,,Tales-of-ováním \Nnemůžeš nikdy nic zkazit.
+Dialogue: 0,0:04:16.76,0:04:19.15,Main,Shin,0000,0000,0000,,Co je do hajzlu "Tales-of-ování"? \NNějaký nový sloveso?
+Dialogue: 0,0:04:19.15,0:04:23.07,Main,Gin,0000,0000,0000,,Klidně můžem kašlat na naše původní materiály.
+Dialogue: 0,0:04:23.50,0:04:26.42,Main,Gin,0000,0000,0000,,Můžem je  z-Tales-of-ovat.
+Dialogue: 0,0:04:26.42,0:04:29.37,Main,Shin,0000,0000,0000,,Tohle je spíš Tales of \Nježdění na jejich zádech!
+Dialogue: 0,0:04:29.37,0:04:31.45,Main,Shin,0000,0000,0000,,Přestaň se věšet na ostatní!
+Dialogue: 0,0:04:31.83,0:04:33.58,Main,Tama,0000,0000,0000,,Rozumím.
+Dialogue: 0,0:04:33.58,0:04:35.40,Main,Tama,0000,0000,0000,,Chcete Tales-of-ovat.
+Dialogue: 0,0:04:35.40,0:04:36.62,Main,Shin,0000,0000,0000,,Hej, Tamo-san!
+Dialogue: 0,0:04:36.62,0:04:41.21,Main,Tama,0000,0000,0000,,Takže ji mám přeprogramovat na fantasy RPG?
+Dialogue: 0,0:04:41.21,0:04:44.33,Main,Shin,0000,0000,0000,,Tak moment! A co bude s tím "Rumble"?
+Dialogue: 0,0:04:41.21,0:04:52.60,sign_5808_60_Gintama_Rumble,Sign,0000,0000,0000,,Gintama Rumble
+Dialogue: 0,0:04:44.33,0:04:46.13,Main,Shin,0000,0000,0000,,V tom je přece kouzlo hry!
+Dialogue: 0,0:04:46.13,0:04:50.85,Main,Kag,0000,0000,0000,,S tím se v pohodě vypořádáme. \NRumble může bejt třeba jméno hlavní postavy, nebo něco.
+Dialogue: 0,0:04:50.85,0:04:52.60,Main,Shin,0000,0000,0000,,Koho?! Tohle {\i1}má{\i0} bejt hra {\i1}Gintamy{\i0}, ne?
+Dialogue: 0,0:04:52.94,0:04:58.65,Main,Gin,0000,0000,0000,,Skvělej nápad. Fakt nesnášim postavy, co zbytečně melou.
+Dialogue: 0,0:04:58.65,0:05:00.66,Main,Gin,0000,0000,0000,,A aby se hráč líp ponořil do hry,
+Dialogue: 0,0:05:00.66,0:05:04.01,Main,Gin,0000,0000,0000,,by mohl odpovídat jen\N"ano" a "ne," jako v Dragon Questu.
+Dialogue: 0,0:05:04.01,0:05:06.36,Main,Gin,0000,0000,0000,,Takže Gin-san nemusí být hlavní hrdina.
+Dialogue: 0,0:05:07.74,0:05:10.51,Main,Gin,0000,0000,0000,,Hrdina nemá osobnost, \Nmluví pouze, když je to potřeba
+Dialogue: 0,0:05:10.14,0:05:16.12,sign_7436_88_Tales_of_Rumble,Sign,0000,0000,0000,,Tales of Rumble
+Dialogue: 0,0:05:10.51,0:05:11.89,Main,Gin,0000,0000,0000,,a jmenuje se Tales of Rumble.
+Dialogue: 0,0:05:11.89,0:05:13.74,Main,Shin,0000,0000,0000,,Jenže z Rumbleho přímo sálá osobnost!
+Dialogue: 0,0:05:13.74,0:05:16.12,Main,Shin,0000,0000,0000,,Přestože nemluví, \Njeho záda prozraděj celej jeho příběh!
+Dialogue: 0,0:05:16.12,0:05:23.13,sign_7580_91_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:05:16.12,0:05:23.13,sign_7580_91_Odd_Jobs_Gin_ Copy,Sign,0000,0000,0000,,Otose Bar
+Dialogue: 0,0:05:17.63,0:05:20.24,Main,Gin,0000,0000,0000,,Příběh je takovej, že Rumble přijde do Eda,
+Dialogue: 0,0:05:20.24,0:05:23.13,Main,Gin,0000,0000,0000,,přidá se k Yorozuye a zachrání s náma unešenou princeznu.
+Dialogue: 0,0:05:23.13,0:05:26.21,Main,Shin,0000,0000,0000,,Kdo by chtěl sakra hrát za takovýho otrhanýho starýho dědka?
+Dialogue: 0,0:05:26.21,0:05:28.14,Main,Shin,0000,0000,0000,,Je to přesně ten typ, \Nco by tu princeznu unesl!
+Dialogue: 0,0:05:31.78,0:05:35.64,Text M,Sign,0000,0000,0000,,Ahoj, Rumble. Vítej v Yorozuye.
+Dialogue: 0,0:05:32.21,0:05:35.64,Main,Gin,0000,0000,0000,,Ahoj, Rumble. Vítej v Yorozuye.
+Dialogue: 0,0:05:36.08,0:05:47.57,Text M,Sign,0000,0000,0000,,Než se k nám připojíš, chtěl bych, abys nám ukázal svou náklonnost. Nevadí?
+Dialogue: 0,0:05:36.33,0:05:42.34,Main,Gin,0000,0000,0000,,Než se k nám připojíš, chtěl bych, abys nám ukázal svou náklonnost. Nevadí?
+Dialogue: 0,0:05:42.13,0:05:47.57,Text M2,Sign,0000,0000,0000,,Jsem S\NJsem M
+Dialogue: 0,0:05:43.79,0:05:45.65,Main,Shin,0000,0000,0000,,Co se stalo s "ano" a "ne"?!
+Dialogue: 0,0:05:45.65,0:05:47.57,Main,Shin,0000,0000,0000,,Na kolik věcí můžeš tímhle odpovídat?!
+Dialogue: 0,0:05:47.57,0:05:52.05,Main,Gin,0000,0000,0000,,Všichni RPG hrdinnové \Npotřebujou říct, jestli jsou S, nebo M.
+Dialogue: 0,0:05:52.05,0:05:54.81,Main,Gin,0000,0000,0000,,Podle toho si taky vybere brnění v obchodě.
+Dialogue: 0,0:05:52.30,0:05:55.54,Text M,,0000,0000,0000,,Jakou velikost brnění sháníte?
+Dialogue: 0,0:05:54.81,0:05:55.54,Text M3,Sign,0000,0000,0000,,Jsem M
+Dialogue: 0,0:05:56.50,0:05:58.16,Main,Gin,0000,0000,0000,,I když má Rumble velikost L.
+Dialogue: 0,0:05:58.16,0:06:01.17,Main,Shin,0000,0000,0000,,Jakej to má v teda smysl? Ta zbroj je na něj příliš těsná!
+Dialogue: 0,0:06:01.51,0:06:07.98,Main,Gin,0000,0000,0000,,A HP se namísto v hospodě doplňuje v Starbecksu, \Ncož dodá hře moderní nádech.
+Dialogue: 0,0:06:07.98,0:06:09.59,Main,Gin,0000,0000,0000,,I tady se ty 2 možnosti hoděj.
+Dialogue: 0,0:06:09.95,0:06:16.60,Text M,Sign,0000,0000,0000,,Chcete short, tall, nebo grande?
+Dialogue: 0,0:06:12.58,0:06:13.79,Main,Shin,0000,0000,0000,,Nemůže si nic objednat!
+Dialogue: 0,0:06:13.79,0:06:16.60,Main,Shin,0000,0000,0000,,Grande, short i tall jsou na něj příliš trendy!\NZačíná panikařit!
+Dialogue: 0,0:06:16.60,0:06:19.18,Main,Gin,0000,0000,0000,,Bez obav. S HP jsou možná potíže,
+Dialogue: 0,0:06:19.18,0:06:22.78,Main,Gin,0000,0000,0000,,ale koupě provazu a svíček z obchodu\Ns itemama ti obnoví MP.
+Dialogue: 0,0:06:22.96,0:06:27.07,Text M3,Sign,0000,0000,0000,,Jsem M
+Dialogue: 0,0:06:23.63,0:06:25.11,Main,Shin,0000,0000,0000,,To jsou Body Masochismu!
+Dialogue: 0,0:06:25.11,0:06:27.07,Main,Shin,0000,0000,0000,,Proč je "M" jediná volba,\Nkterou můžeš v týhle hře udělat?!
+Dialogue: 0,0:06:27.46,0:06:31.10,Main,Shin,0000,0000,0000,,Hej! Kdo by chtěl sakra hrát \Nza tak příšernou postavu?
+Dialogue: 0,0:06:31.10,0:06:35.43,Main,Gin,0000,0000,0000,,Klid. Vypadá to tak detailně, \Nprotože to je předtočená scéna.
+Dialogue: 0,0:06:38.66,0:06:40.36,Main,Gin,0000,0000,0000,,Většinu času bude mít takovejhle patvar.
+Dialogue: 0,0:06:40.36,0:06:42.42,Main,Shin,0000,0000,0000,,Hrdina je prakticky mrtvola?
+Dialogue: 0,0:06:42.83,0:06:46.00,Main,Gin,0000,0000,0000,,Dnešní hry se příliš zakládaj na vizuální stránce.
+Dialogue: 0,0:06:46.00,0:06:48.70,Main,Gin,0000,0000,0000,,Stačí, když bude grafika dobrá jen v předtočenejch scénkách.
+Dialogue: 0,0:06:48.70,0:06:52.43,Main,Gin,0000,0000,0000,,Po zbytek hry necháme grafický \Ndetaily na hráčově představivosti.
+Dialogue: 0,0:06:52.57,0:06:58.31,Text M,Sign,0000,0000,0000,,Shinpachi: "Máme problém, Gin-sane!"
+Dialogue: 0,0:06:53.23,0:06:55.06,Main,Shin,0000,0000,0000,,Co že to sakra necháváš na představivosti?!
+Dialogue: 0,0:06:55.06,0:06:58.31,Main,Shin,0000,0000,0000,,Co se jako stalo s tělem? \NTohle ti taky přijde jako plejtvání paměti na disku?!
+Dialogue: 0,0:06:58.66,0:07:03.44,Text M,Sign,0000,0000,0000,,Někdo unesl princeznu.
+Dialogue: 0,0:06:59.23,0:07:01.73,Main,Shin,0000,0000,0000,,Hej! Proč za sebou ty brejle táhnou rakev?!
+Dialogue: 0,0:07:01.73,0:07:03.44,Main,Shin,0000,0000,0000,,Znamená to to, co si myslím?!
+Dialogue: 0,0:07:03.44,0:07:05.77,Main,Kag,0000,0000,0000,,Teď máme plnou skupinku.
+Dialogue: 0,0:07:05.77,0:07:08.96,Main,Gin,0000,0000,0000,,Jo. Ti čtyři právě započali svoje dobrodružství.
+Dialogue: 0,0:07:09.95,0:07:14.26,sign_10309_135_Gintoki_____Kagu,Sign,0000,0000,0000,,Gintoki\N\N\NKagura\N\N\NRumble\N\N\NShinpachi
+Dialogue: 0,0:07:10.89,0:07:14.26,Main,Shin,0000,0000,0000,,Život jim visí na vlásku prakticky od samýho začátku!\NRychle je dotáhněte do kostela!
+Dialogue: 0,0:07:15.26,0:07:19.83,Text M3,Sign,0000,0000,0000,,Objevila se příšera.
+Dialogue: 0,0:07:15.58,0:07:17.01,Main,Kag,0000,0000,0000,,Dívejte, nepřítel.
+Dialogue: 0,0:07:16.85,0:07:19.83,Rotten,Sign,0000,0000,0000,,Prohnilé Sluneční brýle (38)\N\N\NÚTOK\NOBRANA\NPRÁCE
+Dialogue: 0,0:07:17.71,0:07:19.83,Main,Shin,0000,0000,0000,,Proč je každej v týhle hře mrtvola?!
+Dialogue: 0,0:07:20.23,0:07:22.61,Main,Shin,0000,0000,0000,,Proč je Hasegawa-san monstrum?!
+Dialogue: 0,0:07:22.61,0:07:25.90,Main,Gin,0000,0000,0000,,On není Hasegawa-san. \NAle Prohnilé Sluneční Brýle (38).
+Dialogue: 0,0:07:25.90,0:07:27.51,Main,Shin,0000,0000,0000,,Takže Hasegawa-san!
+Dialogue: 0,0:07:27.90,0:07:30.88,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle volají posilu...
+Dialogue: 0,0:07:30.90,0:07:32.72,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle volají posilu... \Nale pomoc nepřichází.
+Dialogue: 0,0:07:33.66,0:07:35.22,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle volají posilu...
+Dialogue: 0,0:07:35.24,0:07:37.10,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle volají posilu... \Nale pomoc nepřichází.
+Dialogue: 0,0:07:38.03,0:07:39.73,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle volají posilu...
+Dialogue: 0,0:07:39.74,0:07:44.02,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle volají posilu... \Nale žádná pomoc očividně nepřichází.
+Dialogue: 0,0:07:42.15,0:07:44.02,Main,Shin,0000,0000,0000,,Někdo mu pomožte!
+Dialogue: 0,0:07:45.67,0:07:50.26,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle byly poraženy.
+Dialogue: 0,0:07:47.37,0:07:51.11,Main,Shin,0000,0000,0000,,Proč se vůbec ukazoval? \NAkorát sám sebe ztrapnil!
+Dialogue: 0,0:07:51.92,0:07:59.75,Text M,Sign,0000,0000,0000,,Prohnilé Sluneční Brýle vstávájí a zírají na tebe, \Njakoby chtěly práci. Nebídneš jim ji?
+Dialogue: 0,0:07:53.98,0:07:55.59,Main,Shin,0000,0000,0000,,On chce práci? \NTohle to má znamenat?
+Dialogue: 0,0:07:55.59,0:07:58.85,Main,Shin,0000,0000,0000,,Počkat, on se připojí ke skupince? \NProhnilé Sluneční Brýle se dají zachránit?
+Dialogue: 0,0:07:59.75,0:08:02.12,Text M4,Sign,0000,0000,0000,,Jsem S
+Dialogue: 0,0:08:00.41,0:08:02.70,Main,Shin,0000,0000,0000,,Zachraňte ho někdo!
+Dialogue: 0,0:08:02.70,0:08:06.61,Main,Shin,0000,0000,0000,,Žádná možnost nenabízí záchranu\NProhnilých Slunečních Brýlí (38)!
+Dialogue: 0,0:08:06.61,0:08:10.63,Main,Gin,0000,0000,0000,,Hry jsou příliš chladný, \Nkdyž jde o zabíjení a rabování, že?
+Dialogue: 0,0:08:10.63,0:08:16.14,Main,Gin,0000,0000,0000,,Pro XP zabíjíš příšery a \Nkvůli předmětům otvíráš truhly v cizích domech.
+Dialogue: 0,0:08:16.55,0:08:19.38,Main,Gin,0000,0000,0000,,Tím, že v týhle situaci dáme hráčům na výběr,
+Dialogue: 0,0:08:19.38,0:08:22.37,Main,Gin,0000,0000,0000,,je chceme naučit, jak lidi den co den hřeší.
+Dialogue: 0,0:08:22.37,0:08:26.52,Main,Shin,0000,0000,0000,,Vážně dáme dětem do ruky hru, \Nkde dodělaj poloviční chcíplotinu?
+Dialogue: 0,0:08:26.52,0:08:29.96,Main,Gin,0000,0000,0000,,Naše životy jsou podporovány nespočtem smrtí.
+Dialogue: 0,0:08:29.96,0:08:32.69,Main,Gin,0000,0000,0000,,Tohle chceme těm děckám prostřednictvím hry ukázat.
+Dialogue: 0,0:08:32.69,0:08:36.21,Main,Gin,0000,0000,0000,,Takže čím víc Prohnilých Slunečních Brýlích zabiješ,\Ntím víc jich za sebou potáhneš.
+Dialogue: 0,0:08:36.21,0:08:38.54,Main,Shin,0000,0000,0000,,Nepotřebujem další mrtvoly!
+Dialogue: 0,0:08:39.54,0:08:42.16,Main,Shin,0000,0000,0000,,Je to tak depresivní, \Nže to ty lidi akorát odradí od hraní!
+Dialogue: 0,0:08:42.16,0:08:47.67,sign_12520_171_Gintoki__Kagura_,Sign,0000,0000,0000,,Gintoki\N\NKagura\N\NRumble\N\NShinpachi
+Dialogue: 0,0:08:43.13,0:08:45.12,Main,Kag,0000,0000,0000,,{\an8}Ztratili jsme HP.
+Dialogue: 0,0:08:45.12,0:08:46.30,Main,Kag,0000,0000,0000,,{\an8}Co bylo příčinou?
+Dialogue: 0,0:08:47.67,0:08:56.07,Text M,Sign,0000,0000,0000,,Gintoki\NPráce: NEET
+Dialogue: 0,0:08:48.41,0:08:52.68,Main,Gin,0000,0000,0000,,Zdá se, že jsem se při boji s Prohnilými Slunečními Brýlemi infikoval NEETovstvím.
+Dialogue: 0,0:08:52.68,0:08:55.07,Main,Sign,0000,0000,0000,,Proč má NEETovství tak negativní vliv na stav života?
+Dialogue: 0,0:08:55.70,0:09:00.42,Main,Gin,0000,0000,0000,,Sníží motivaci na nulu a zabraňuje\Nléčení a používání itemů.
+Dialogue: 0,0:08:56.07,0:09:03.93,Text L,Sign,0000,0000,0000,,{\an4}ÚTOK\NOBRANA\NMOTIVACE\NCHŮZE
+Dialogue: 0,0:09:00.42,0:09:03.93,Main,Gin,0000,0000,0000,,Ke všemu ztratíš možnost chodit,\Ntakže HP postupně spadne.
+Dialogue: 0,0:09:04.29,0:09:05.81,Main,Gin,0000,0000,0000,,A nakonec...
+Dialogue: 0,0:09:07.94,0:09:11.69,Text M Red,Sign,0000,0000,0000,,Skupinka zemřela.
+Dialogue: 0,0:09:09.73,0:09:11.69,Main,Shin,0000,0000,0000,,NEETovství je přespříliš děsivý!
+Dialogue: 0,0:09:11.69,0:09:15.57,Main,Gin,0000,0000,0000,,Jasně, že je. Být NEET je příšerný.
+Dialogue: 0,0:09:15.57,0:09:19.46,Main,Gin,0000,0000,0000,,Víš, kolik lidí se po dokončení studia fláká po světě?
+Dialogue: 0,0:09:19.46,0:09:22.64,Main,Gin,0000,0000,0000,,Chcem jim ukázat, jak je důležitá práce.
+Dialogue: 0,0:09:22.64,0:09:26.21,Main,Shin,0000,0000,0000,,Jediný, co ukazuješ, je absurdní\Nstrach z NEETovství!
+Dialogue: 0,0:09:26.21,0:09:40.74,sign_13576_189_Enquiry,Sign,0000,0000,0000,,Informace
+Dialogue: 0,0:09:26.52,0:09:31.45,Main,Gin,0000,0000,0000,,Klid. Ti, kdo mají vůli dál bojovat,\Ndostanou druhou šanci.
+Dialogue: 0,0:09:31.23,0:09:40.72,Text M,Sign,0000,0000,0000,,Vítejte na pracovním úřadě.\NMůžeme vás doporučit na pracovišti.
+Dialogue: 0,0:09:33.45,0:09:36.22,Main,Shin,0000,0000,0000,,Co? Zpátky k životu ho přivedli na pracáku? \NNe v kostele?
+Dialogue: 0,0:09:36.22,0:09:40.22,Main,Gin,0000,0000,0000,,Dokud se nevzdáš, můžeš opakovaně začít odznovu.
+Dialogue: 0,0:09:40.72,0:09:46.35,Text M,Sign,0000,0000,0000,,Zvolte si svou novou práci.
+Dialogue: 0,0:09:41.74,0:10:00.57,Text M3,Sign,0000,0000,0000,,S, prosím\NM, prosím
+Dialogue: 0,0:09:42.39,0:09:46.23,Main,Shin,0000,0000,0000,,Tak počkat! Dá se vybrat jen S nebo M!
+Dialogue: 0,0:09:46.37,0:09:49.54,Text M,Sign,0000,0000,0000,,Vybírejte rychle
+Dialogue: 0,0:09:49.54,0:09:54.92,Text M,Sign,0000,0000,0000,,Vybírejte rychle.\NMohl byste si pohnout?
+Dialogue: 0,0:09:50.76,0:09:53.56,Main,Gin,0000,0000,0000,,He? Zaměstnanci se chovají podivně.
+Dialogue: 0,0:09:54.92,0:09:57.01,Text M,Sign,0000,0000,0000,,Je jedno jakou.
+Dialogue: 0,0:09:57.01,0:09:58.38,Text M,Sign,0000,0000,0000,,Je jedno jakou.\NNotak...
+Dialogue: 0,0:09:58.38,0:10:00.57,Text M,Sign,0000,0000,0000,,Je jedno jakou.\NNotak...\NBože... To je otrava.
+Dialogue: 0,0:10:01.37,0:10:04.66,Text M Red,Sign,0000,0000,0000,,Pracovní úřad bylporažen.
+Dialogue: 0,0:10:02.53,0:10:04.66,Main,Shin,0000,0000,0000,,NEETovství je přespříliš děsivý!
+Dialogue: 0,0:10:04.66,0:10:08.14,Main,Shin,0000,0000,0000,,Proč to infikovalo i pracák?!
+Dialogue: 0,0:10:08.14,0:10:11.57,Main,Gin,0000,0000,0000,,Někdy ani lidi na pracáku nechtěj pracovat.
+Dialogue: 0,0:10:11.57,0:10:13.33,Main,Gin,0000,0000,0000,,Tohle jsem chtěl hráčům ukázat.
+Dialogue: 0,0:10:13.33,0:10:16.26,Main,Shin,0000,0000,0000,,Chceš teda, aby chodili do práce, nebo ne?
+Dialogue: 0,0:10:16.44,0:10:23.51,Text M Red,Sign,0000,0000,0000,,{\fad(843,1)}Edo je zničeno.
+Dialogue: 0,0:10:18.14,0:10:21.17,Main,Gin,0000,0000,0000,,V tomhle bodě musíš hru \Nrestartovat a začít znova.
+Dialogue: 0,0:10:21.17,0:10:23.51,Main,Shin,0000,0000,0000,,A kdo tady krucinál říkal, že můžeš začít \Nodznova, dokud to nevzdáš?!
+Dialogue: 0,0:10:23.51,0:10:24.70,Main,Gin,0000,0000,0000,,Sklapni!
+Dialogue: 0,0:10:24.70,0:10:29.14,Main,Gin,0000,0000,0000,,Myslíš si, že existuje nějaký automatický oživování,\Nkdyž je po tobě? Život není tak jednoduchej!
+Dialogue: 0,0:10:29.46,0:10:31.51,Main,Gin,0000,0000,0000,,Ti z nás, kteří vyrůstali na {\i1}Wizardry{\i0}
+Dialogue: 0,0:10:31.51,0:10:36.05,Main,Gin,0000,0000,0000,,museli vytvořit další skupinku, aby znova oživili tělo, se kterým předtím prohráli.
+Dialogue: 0,0:10:36.05,0:10:38.13,Main,Gin,0000,0000,0000,,Potom jsme ho museli vzít do chrámu,\Nkde by se znovu vzkřísil,
+Dialogue: 0,0:10:38.13,0:10:40.33,Main,Gin,0000,0000,0000,,ale občas se to podělalo\Na my ztratili svoje hrdiny navždy.
+Dialogue: 0,0:10:40.33,0:10:41.69,Main,Shin,0000,0000,0000,,Zavři hubu, ty pravěká fosílie!
+Dialogue: 0,0:10:41.69,0:10:45.16,Main,Shin,0000,0000,0000,,Dnešní děti nebudou takovej\Nmasochistickej základ podporovat!
+Dialogue: 0,0:10:46.23,0:10:49.67,Main,Kag,0000,0000,0000,,To je ono. Restartování hry \Nzachází příliš daleko.
+Dialogue: 0,0:10:49.67,0:10:52.60,sign_15577_221_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:10:49.67,0:10:52.60,sign_7580_91_Odd_Jobs_Gin_ Copy,Sign,0000,0000,0000,,Bar Otose
+Dialogue: 0,0:10:49.67,0:10:54.10,Main,Kag,0000,0000,0000,,Můžem jim dát příležitost založit novou skupinku, \Nkterá by zachránila NEETy.
+Dialogue: 0,0:10:54.81,0:10:59.42,Text M,Sign,0000,0000,0000,,Vítej v Kabukicho, Rumblee.
+Dialogue: 0,0:10:55.41,0:10:58.37,Main,Oto,0000,0000,0000,,Vítej v Kabukicho, Rumblee.
+Dialogue: 0,0:10:58.37,0:10:59.42,Main,Shin,0000,0000,0000,,Rumblee?!
+Dialogue: 0,0:11:00.11,0:11:02.02,Main,Kag,0000,0000,0000,,Rumble měl malou ségru.
+Dialogue: 0,0:11:02.02,0:11:04.67,Main,Kag,0000,0000,0000,,Do Kabukicha přišla, aby ho zachránila.
+Dialogue: 0,0:11:04.67,0:11:06.68,Main,Shin,0000,0000,0000,,Chápu! Hrdinové jsou sourozenci!
+Dialogue: 0,0:11:06.83,0:11:11.71,Text M,Sign,0000,0000,0000,,Jsem uchvácena tvým odhodláním zachránit svého NEETovského bratra.
+Dialogue: 0,0:11:07.30,0:11:11.71,Main,Oto,0000,0000,0000,,Jsem uchvácena tvým odhodláním zachránit svého NEETovského bratra.
+Dialogue: 0,0:11:11.71,0:11:16.23,Text M,Sign,0000,0000,0000,,Ale nyní je toto město přeplněné NEETy.
+Dialogue: 0,0:11:12.27,0:11:16.23,Main,Oto,0000,0000,0000,,Ale nyní je toto město přeplněné NEETy.
+Dialogue: 0,0:11:16.63,0:11:18.13,Text M,Sign,0000,0000,0000,,Rumblee,
+Dialogue: 0,0:11:16.75,0:11:19.75,Main,Oto,0000,0000,0000,,Rumblee, skutečně dokážeš...
+Dialogue: 0,0:11:18.13,0:11:20.95,Text M,Sign,0000,0000,0000,,Rumblee, skutečně dokážeš...
+Dialogue: 0,0:11:20.95,0:11:23.91,Text M,Sign,0000,0000,0000,,zachránit svého bratra?!
+Dialogue: 0,0:11:20.95,0:11:24.42,Main,Oto,0000,0000,0000,,zachránit svého bratra?!
+Dialogue: 0,0:11:30.35,0:11:36.09,sign_16552_239_MADAO_Hazard,Sign,0000,0000,0000,,{\fad(2000,1)}MADAO Hazard
+Dialogue: 0,0:11:30.75,0:11:33.29,Main,Voice,0000,0000,0000,,MADAO Hazard.
+Dialogue: 0,0:11:33.29,0:11:36.09,Main,Shin,0000,0000,0000,,Stala se z toho kompletně jiná hra!
+Dialogue: 0,0:11:36.09,0:11:39.21,Main,Kag,0000,0000,0000,,Druhý díl, Tales of Madao Hazard,
+Dialogue: 0,0:11:39.21,0:11:44.76,Main,Kag,0000,0000,0000,,je hororová hra o boji o přežití zasazena v Kabukicho, \Nkteré bylo ovládnuto NEETy.
+Dialogue: 0,0:11:45.29,0:11:48.10,Main,Shin,0000,0000,0000,,Proč se z NEETů staly živoucí chcíplotiny?!
+Dialogue: 0,0:11:50.07,0:11:53.22,Main,Kag,0000,0000,0000,,Hráč se musí dostat přes vlny a vlny NEETů.
+Dialogue: 0,0:11:53.22,0:11:55.63,Main,Shin,0000,0000,0000,,Co se stalo s tou holkou,\Nkterá sem přišla zachránit NEETa?!
+Dialogue: 0,0:11:56.18,0:11:59.82,Main,Kag,0000,0000,0000,,Cílem je dostat se k NEETovi Rumblemu!
+Dialogue: 0,0:12:01.49,0:12:04.57,Main,Shin,0000,0000,0000,,Z Rumbleho se stal poslední boss!
+Dialogue: 0,0:12:04.97,0:12:10.83,Text M,Sign,0000,0000,0000,,Oh, ne. Shinpachi byl kompletně pohlcen.
+Dialogue: 0,0:12:06.97,0:12:10.83,Main,Shin,0000,0000,0000,,Jak jako "pohlcen"? \NJak příšernej ten NEETovskej virus sakra je?
+Dialogue: 0,0:12:11.10,0:12:13.62,Text M,Sign,0000,0000,0000,,Shinpachi... Rumble...
+Dialogue: 0,0:12:11.39,0:12:13.96,Main,Kag,0000,0000,0000,,Shinpachi... Rumble...
+Dialogue: 0,0:12:13.64,0:12:21.47,Text M,Sign,0000,0000,0000,,Nevzdávej to! Musí tu být způsob,\Njak je přinutit chodit do práce!
+Dialogue: 0,0:12:13.96,0:12:15.22,Main,Gin,0000,0000,0000,,Nevzdávej to!
+Dialogue: 0,0:12:15.22,0:12:18.38,Main,Gin,0000,0000,0000,,Musí tu být způsob,\Njak je přinutit chodit do práce!
+Dialogue: 0,0:12:18.38,0:12:21.47,Main,Shin,0000,0000,0000,,Jakto, že vy dva jste se dostali do\Nskupinky s Rumblee a já ne?!
+Dialogue: 0,0:12:25.66,0:12:35.60,Text M,Sign,0000,0000,0000,,Napalte jim to do prdele.\NSilou nárazu doletí přímo na pracák..
+Dialogue: 0,0:12:26.25,0:12:29.20,Main,Mad,0000,0000,0000,,Napalte jim to do prdele.
+Dialogue: 0,0:12:29.20,0:12:31.29,Main,Mad,0000,0000,0000,,Silou nárazu doletí přímo na pracák.
+Dialogue: 0,0:12:31.29,0:12:35.60,Main,Shin,0000,0000,0000,,Hej! Proč se NEET, kterej tohle všechno způsobil, \Nnajednou objevil jako pomoc?!
+Dialogue: 0,0:12:35.75,0:12:39.15,Text M,Sign,0000,0000,0000,,Ale je volné pouze jedno pracovní místo.
+Dialogue: 0,0:12:36.31,0:12:39.68,Main,Mad,0000,0000,0000,,Ale je volné pouze jedno pracovní místo.
+Dialogue: 0,0:12:39.17,0:12:44.86,Text M,Sign,0000,0000,0000,,Naneštěstí musí být jeden z vás vymazán\Nspolečně s NEETovským virusem.
+Dialogue: 0,0:12:39.68,0:12:43.77,Main,Mad,0000,0000,0000,,Naneštěstí musí být jeden z vás vymazán\Nspolečně s NEETovským virusem.
+Dialogue: 0,0:12:43.77,0:12:44.86,Main,Shin,0000,0000,0000,,Co prosím?!
+Dialogue: 0,0:12:45.18,0:12:48.93,Text M,Sign,0000,0000,0000,,Zmáčkněte A pro Shinpachiho-kun.\NZmáčkněte B pro Rumbleho.
+Dialogue: 0,0:12:45.61,0:12:49.36,Main,Mad,0000,0000,0000,,Zmáčkněte A pro Shinpachiho-kun.\NZmáčkněte B pro Rumbleho.
+Dialogue: 0,0:12:48.93,0:12:53.37,Text M,Sign,0000,0000,0000,,Zmáčkněte A pro Shinpachiho-kun.\NZmáčkněte B pro Rumbleho.\NTak, vyberte si!
+Dialogue: 0,0:12:49.36,0:12:51.46,Main,Mad,0000,0000,0000,,Tak, vyberte si!
+Dialogue: 0,0:12:51.46,0:12:53.37,Main,Shin,0000,0000,0000,,J-Jak si máme vybr—
+Dialogue: 0,0:12:58.98,0:13:01.51,Text M3,Sign,0000,0000,0000,,Jsem S
+Dialogue: 0,0:12:59.91,0:13:01.51,Main,Shin,0000,0000,0000,,Ty taky?!
+Dialogue: 0,0:13:01.51,0:13:04.06,Main,Shin,0000,0000,0000,,Nakonec chcípli všichni tři NEETi!
+Dialogue: 0,0:13:04.06,0:13:06.50,Main,Shin,0000,0000,0000,,Oba ti sourozenci uměj říkat jen S nebo M?!
+Dialogue: 0,0:13:06.50,0:13:09.39,Main,Shin,0000,0000,0000,,Kdo je do hajzlu vychovával?!
+Dialogue: 0,0:13:09.81,0:13:11.27,Main,Kag,0000,0000,0000,,Nějak takhle.
+Dialogue: 0,0:13:11.70,0:13:13.53,Main,Gin,0000,0000,0000,,Vážně dobrý.
+Dialogue: 0,0:13:13.53,0:13:14.67,Main,Shin,0000,0000,0000,,No to určitě!
+Dialogue: 0,0:13:14.67,0:13:17.39,Main,Shin,0000,0000,0000,,Tahle hra nemá s {\i1}Gintamou{\i0} \Nnic společnýho!
+Dialogue: 0,0:13:17.39,0:13:20.25,Main,Shin,0000,0000,0000,,A kam se vlastně poděla ta unešená princezna?!
+Dialogue: 0,0:13:20.25,0:13:24.10,Main,Gin,0000,0000,0000,,Princezna už není. \NVšichni se přemenili v NEETy.
+Dialogue: 0,0:13:24.10,0:13:25.93,Main,Shin,0000,0000,0000,,Jak odfláklej tenhle příběh sakra je?!
+Dialogue: 0,0:13:28.09,0:13:29.45,Main,Tama,0000,0000,0000,,Shinpachi-sama...
+Dialogue: 0,0:13:29.45,0:13:33.05,Main,Tama,0000,0000,0000,,Zmizelá princezna, mrtvý Rumble a mrtví přátelé...
+Dialogue: 0,0:13:33.05,0:13:35.91,Main,Tama,0000,0000,0000,,Je tu jeden způsob, jak je všechny přivést k životu.
+Dialogue: 0,0:13:36.22,0:13:37.75,Main,Shin,0000,0000,0000,,Vážně, Tamo-san?
+Dialogue: 0,0:13:38.37,0:13:40.17,Main,Tama,0000,0000,0000,,Princezna je v pořádku.
+Dialogue: 0,0:13:40.64,0:13:44.92,Main,Tama,0000,0000,0000,,Zázrakem unikla NEETovské hrozbě, \Nprotože byla unešena.
+Dialogue: 0,0:13:45.34,0:13:48.94,Main,Tama,0000,0000,0000,, Děsivá mostra ji držela jako rukojmí
+Dialogue: 0,0:13:48.94,0:13:54.26,Main,Tama,0000,0000,0000,,ve světě, kam nikdy nesmí vkročit lidská noha.
+Dialogue: 0,0:13:58.10,0:13:59.94,Main,Shin,0000,0000,0000,,N-Neříkej, že...
+Dialogue: 0,0:14:00.63,0:14:06.23,Main,Tama,0000,0000,0000,,Ano. Aby získali vstupenku do posmrtného života a zachránili princeznu,
+Dialogue: 0,0:14:06.23,0:14:09.95,Main,Tama,0000,0000,0000,,riskovali Rumble a jeho skupinka \Nsvoje životy a oddělili své duše od těl.
+Dialogue: 0,0:14:10.51,0:14:15.81,Main,Tama,0000,0000,0000,,Časy, ve kterých žili jako MADAO,\Nna jejich nynější podobě nezanechaly žádné stopy.
+Dialogue: 0,0:14:16.53,0:14:19.42,Main,Tama,0000,0000,0000,,Do historie se zapsali jako...
+Dialogue: 0,0:14:19.69,0:14:25.21,sign_20612_296_Super_MADAO_Brot,Sign,0000,0000,0000,,{\fad(1376,1)}Super {\c&H4630EE&}MA{\c&H3FFD89&}DA{\c&H45FDFC&}O {\c&H0087C3&}Brothers
+Dialogue: 0,0:14:22.35,0:14:25.21,Main,Shin,0000,0000,0000,,{\an8}Radši zapomeňme na oživování!\NJe v tom akorát větší bordel!
+Dialogue: 0,0:14:25.21,0:14:28.15,Main,Shin,0000,0000,0000,,Vážně teď rozjíždíte třetí díl?
+Dialogue: 0,0:14:28.15,0:14:31.30,Main,Shin,0000,0000,0000,,Kolik cizích nápadů ještě hodláte znesvětit?!
+Dialogue: 0,0:14:31.30,0:14:36.03,Main,Tama,0000,0000,0000,,Ale nyní si našli práci jako instalatéři \Na princezna bude zachráněna.
+Dialogue: 0,0:14:36.03,0:14:37.46,Main,Tama,0000,0000,0000,,Všichni budou zachráněni.
+Dialogue: 0,0:14:37.46,0:14:39.26,Main,Shin,0000,0000,0000,,Bamco ne!
+Dialogue: 0,0:14:39.26,0:14:43.61,Main,Gin,0000,0000,0000,,Okej, fajn. Přejdeme k chlapovi, co se jmenuje Bamco Lord van Damme v roli hrdiny a—
+Dialogue: 0,0:14:43.61,0:14:45.61,Main,Shin,0000,0000,0000,,Dost!
+Dialogue: 0,0:14:47.77,0:14:53.05,Main,G,0000,0000,0000,,Buďto přijdeme s něčím takovým, \Nnebo vydáme tu akční hru, kterou jsem předtím ukazoval.
+Dialogue: 0,0:14:50.88,0:14:56.75,sign_21360_305_Gintama_Rumble_P,Sign,0000,0000,0000,,Představení Gintama Rumble
+Dialogue: 0,0:14:53.05,0:14:56.75,Main,G,0000,0000,0000,,Kterou máme vydat, pane?
+Dialogue: 0,0:14:59.12,0:15:00.69,Bandai_Namco - Copy,Sign,0000,0000,0000,,Bandai Namco
+Dialogue: 0,0:14:59.12,0:15:00.69,Main,Prez,0000,0000,0000,,Jsem S!
+Dialogue: 0,0:15:11.31,0:15:12.78,Main,Tae,0000,0000,0000,,Měj se.
+Dialogue: 0,0:15:27.62,0:15:30.28,Internal,Shin,0000,0000,0000,,Um, něco není v pořádku.
+Dialogue: 0,0:15:30.28,0:15:36.28,Ep Title,Title,0000,0000,0000,,{\fad(483,1)}Brýle Jsou Součástí Duše
+Dialogue: 0,0:15:36.28,0:15:38.75,sign_22449_314_Zoff_s_Eyewear,Sign,0000,0000,0000,,Údržba Brýlí
+Dialogue: 0,0:15:39.63,0:15:42.54,Main,Zo,0000,0000,0000,,Tak, jaký typ brýlí hledáte?
+Dialogue: 0,0:15:43.31,0:15:45.74,Main,Zo,0000,0000,0000,,Nějaké normání, jako tyhle.
+Dialogue: 0,0:15:45.74,0:15:47.55,Main,Zo,0000,0000,0000,,Rozbil jsem je, když jsem s nimi usnul.
+Dialogue: 0,0:15:48.05,0:15:52.55,Main,Zo,0000,0000,0000,,Všechny trendy obchody jsou až moc \Ndrah—počkat, nechápejte to špatně!
+Dialogue: 0,0:15:52.89,0:15:59.37,Main,Zo,0000,0000,0000,,V pořádku. Klademe větší důraz na kvalitu, než na vzhled.
+Dialogue: 0,0:16:00.74,0:16:04.31,Main,Zo,0000,0000,0000,,Brýle zastupují nositelovy oči, aby mohl vidět různé věci.
+Dialogue: 0,0:16:04.31,0:16:07.30,Main,Zo,0000,0000,0000,,Jsou jako druhý pár očí
+Dialogue: 0,0:16:09.57,0:16:12.24,Main,Zo,0000,0000,0000,,Proč si nezkusit tyto?
+Dialogue: 0,0:16:12.24,0:16:14.90,Main,Zo,0000,0000,0000,,Ale jsou laděny do takového rockového stylu.
+Dialogue: 0,0:16:14.90,0:16:16.75,Main,Shin,0000,0000,0000,,Um, je tohle fakt rockovej styl?
+Dialogue: 0,0:16:16.75,0:16:19.66,Main,Zo,0000,0000,0000,,Jmenují se Pro Kleté Brýle.
+Dialogue: 0,0:16:19.66,0:16:21.96,Main,Shin,0000,0000,0000,,Pro Kleté Brýle?
+Dialogue: 0,0:16:21.96,0:16:29.08,Main,Zo,0000,0000,0000,,Umožní vám čistě a zřetelně prohlédnout všechny pravdy světa.
+Dialogue: 0,0:16:29.08,0:16:30.70,Main,Shin,0000,0000,0000,,Čistě a zřetelně?
+Dialogue: 0,0:16:30.70,0:16:32.00,Main,Zo,0000,0000,0000,,Vskutu.
+Dialogue: 0,0:16:32.00,0:16:35.97,Main,Zo,0000,0000,0000,,Čistě a zřetelně vám bude vše odhaleno.
+Dialogue: 0,0:16:36.32,0:16:38.89,Internal,Shin,0000,0000,0000,,Um, tohle je trochu víc než čistě a zřetelně.
+Dialogue: 0,0:16:38.89,0:16:42.13,Internal,Shin,0000,0000,0000,,Čistě a zřetelně vidím věci, který bych vidět neměl.
+Dialogue: 0,0:16:42.13,0:16:44.46,Internal,Shin,0000,0000,0000,,"Pro Kleté Brýle"?
+Dialogue: 0,0:16:44.46,0:16:46.81,Internal,Shin,0000,0000,0000,,Jsou to jen prokletý brejle!
+Dialogue: 0,0:16:49.54,0:16:53.53,sign_24205_335_Guardian_Spirit,Sign,0000,0000,0000,,Strážný\NDuch
+Dialogue: 0,0:16:50.61,0:16:51.62,Main,Vo,0000,0000,0000,,Strážný duch.
+Dialogue: 0,0:16:51.62,0:16:53.53,Internal,Shin,0000,0000,0000,,Začalo to analyzovat věci!
+Dialogue: 0,0:16:55.34,0:16:57.55,sign_24344_338_Guardian_spirits,Sign,0000,0000,0000,,Strážní duchové jsou duchové,\Nkteří následují člověka či jinou entitu \Na ochraňují ji. \NJsou také známí jako patroni\Nnebo strážní andělé.
+Dialogue: 0,0:16:57.55,0:17:00.16,sign_24344_338_Guardian_spirits,Sign,0000,0000,0000,,Strážní duchové jsou duchové,\Nkteří následují člověka či jinou entitu \Na ochraňují ji. \NJsou také známí jako patroni\Nnebo strážní andělé.\N-Zdroj: Vikipedie
+Dialogue: 0,0:16:58.03,0:17:00.16,Internal,Shin,0000,0000,0000,,Je to jen zkopčený z Vikipedie?!
+Dialogue: 0,0:17:00.54,0:17:04.32,Internal,Shin,0000,0000,0000,,Proč vidím strážný duchy? \NTyhle brejle nepřináší nic dobrýho!
+Dialogue: 0,0:17:04.32,0:17:06.97,Internal,Shin,0000,0000,0000,,Dokonce si je ani nemůžu sundat!
+Dialogue: 0,0:17:07.88,0:17:09.70,Internal,Shin,0000,0000,0000,,Ten dědek!
+Dialogue: 0,0:17:09.70,0:17:11.47,Internal,Shin,0000,0000,0000,,Co si sakra myslí, že mi to prodal?!
+Dialogue: 0,0:17:11.47,0:17:13.01,Internal,Shin,0000,0000,0000,,Za tohle zaplatí!
+Dialogue: 0,0:17:14.78,0:17:16.87,Internal,Shin,0000,0000,0000,,O-Obchod je pryč...
+Dialogue: 0,0:17:19.58,0:17:21.21,Internal,Shin,0000,0000,0000,,Lži.
+Dialogue: 0,0:17:21.21,0:17:25.51,Internal,Shin,0000,0000,0000,,Byl ten obchod s optikou z jinýho světa?
+Dialogue: 0,0:17:25.51,0:17:26.97,Internal,Shin,0000,0000,0000,,Co mám dělat?
+Dialogue: 0,0:17:27.81,0:17:29.52,sign_15577_221_Odd_Jobs_Gin_cha,Sign,0000,0000,0000,,Yorozuya Gin-chan
+Dialogue: 0,0:17:28.45,0:17:29.84,Main,Shin,0000,0000,0000,,Gin-sane!
+Dialogue: 0,0:17:29.84,0:17:31.90,Main,Shin,0000,0000,0000,,Prosím, pomož mi!
+Dialogue: 0,0:17:32.38,0:17:33.80,Main,Gin,0000,0000,0000,,Co?
+Dialogue: 0,0:17:33.80,0:17:36.07,Main,Gin,0000,0000,0000,,Chlape, tolik kraválu po ránu fakt nedávám.
+Dialogue: 0,0:17:36.59,0:17:38.73,Main,Gin,0000,0000,0000,,Co je? Vidíš snad ducha, nebo co?
+Dialogue: 0,0:17:41.14,0:17:43.58,sign_25442_356_One_word_and_you,Sign,0000,0000,0000,,Jedno slovo a je po tobě.
+Dialogue: 0,0:17:44.19,0:17:47.58,Main,Shin,0000,0000,0000,,N-Ne, to nic.
+Dialogue: 0,0:17:47.58,0:17:50.09,Internal,Shin,0000,0000,0000,,Tady byl taky jeden obří!
+Dialogue: 0,0:17:50.09,0:17:53.29,Internal,Shin,0000,0000,0000,,Gin-san má šílenýho strážnýho ducha!
+Dialogue: 0,0:17:53.29,0:17:56.71,Main,Gin,0000,0000,0000,,Co s tebou je? \NMám tě zabít?
+Dialogue: 0,0:17:56.71,0:17:59.34,Main,Shin,0000,0000,0000,,O-Omlouvám se. Prosím, nezabíjej mě.
+Dialogue: 0,0:17:59.66,0:18:01.38,Main,Gin,0000,0000,0000,,Vážně, co to do tebe vjelo?
+Dialogue: 0,0:18:01.38,0:18:03.46,Internal,Shin,0000,0000,0000,,Žádnej duch! Je to příšera!
+Dialogue: 0,0:18:03.46,0:18:07.60,Internal,Shin,0000,0000,0000,,Tahle věc chodila za Gin-sanem celejch \N10 let od doby, co začalo tohle anime?
+Dialogue: 0,0:18:08.22,0:18:10.61,Main,Gin,0000,0000,0000,,Víš, tohle ráno mám fakt dost práce.
+Dialogue: 0,0:18:10.61,0:18:13.73,Main,Gin,0000,0000,0000,,Mám toho tolik, že by mi ani ruka navíc nestačila.
+Dialogue: 0,0:18:13.73,0:18:15.13,Internal,Shin,0000,0000,0000,,Ale ty jich máš 6 navíc!
+Dialogue: 0,0:18:15.13,0:18:17.61,Internal,Shin,0000,0000,0000,,Tvůj strážný duch ti pomáhá s tvou ranní hygienou!
+Dialogue: 0,0:18:18.66,0:18:20.79,Main,Gin,0000,0000,0000,,Taky by sis měl pospíšit a připravit se.
+Dialogue: 0,0:18:22.18,0:18:25.26,Main,Gin,0000,0000,0000,,Donutili nás se zúčastnit místního \Nsportovního utkání.
+Dialogue: 0,0:18:22.18,0:18:28.37,Spirit L,Sign,0000,0000,0000,,Pořádně kousej.
+Dialogue: 0,0:18:23.67,0:18:28.37,Spirit R,Sign,0000,0000,0000,,Co rýže?\NChceš normální, nebo velkou porci?
+Dialogue: 0,0:18:25.26,0:18:26.03,Internal,Shin,0000,0000,0000,,Co seš, jeho máma?!
+Dialogue: 0,0:18:26.03,0:18:28.37,Internal,Shin,0000,0000,0000,,A jak tohle vypadá bez brejlí?
+Dialogue: 0,0:18:29.47,0:18:31.08,Main,Gin,0000,0000,0000,,Oh, miska s miso se pohnula.
+Dialogue: 0,0:18:31.08,0:18:31.15,Default,,0,0,0,,
+Dialogue: 0,0:18:31.08,0:18:34.34,Internal,Shin,0000,0000,0000,,Za jevem hýbající se \Nmisky s miso stojí strážný duch?
+Dialogue: 0,0:18:35.26,0:18:36.76,Main,Gin,0000,0000,0000,,Potřebuju na záchod.
+Dialogue: 0,0:18:36.76,0:18:39.09,Internal,Shin,0000,0000,0000,,Takhle funguje ranní volání přírody?!
+Dialogue: 0,0:18:40.55,0:18:43.79,Main,Gin,0000,0000,0000,,Hm? Hej, kdo zapomněl spláchnout?!
+Dialogue: 0,0:18:45.41,0:18:48.60,Internal,Shin,0000,0000,0000,,Ty nespláchnutý zbytky patřej strážnýmu duchovi?!
+Dialogue: 0,0:18:49.17,0:18:50.85,Internal,Shin,0000,0000,0000,,N-Neměl jsem tušení,
+Dialogue: 0,0:18:51.45,0:18:54.61,Internal,Shin,0000,0000,0000,,že takhle podporovali naše životní styly.
+Dialogue: 0,0:18:54.98,0:18:57.86,Internal,Shin,0000,0000,0000,,Ale kdo ví, co by se stalo, \Nkdybych tohle odhalil?
+Dialogue: 0,0:18:58.31,0:19:02.38,Internal,Shin,0000,0000,0000,,Stejně nemůžu uvěřit, že má Gin-san tak drsnýho strážnýho ducha.
+Dialogue: 0,0:19:02.99,0:19:05.12,Internal,Shin,0000,0000,0000,,Nedivím se, že má tolik síly.
+Dialogue: 0,0:19:05.12,0:19:09.09,Internal,Shin,0000,0000,0000,,Je to jeho předek, nebo nějakej bůh, kterýho jeho rodina uctívala?
+Dialogue: 0,0:19:09.64,0:19:11.14,Text L,Sign,0000,0000,0000,,Strážný duch Asuraman.
+Dialogue: 0,0:19:09.64,0:19:11.67,Main,Voice,0000,0000,0000,,Strážný duch Asuraman.
+Dialogue: 0,0:19:11.14,0:19:14.84,Spirit Text L,Sign,0000,0000,0000,,Strážný duch Asuraman.\NStrážný duch Sakata Gintokiho.\NDuch gumy {\i1}Ginnikuman{\i0},\Nkterou si jako malý koupil v automatu.
+Dialogue: 0,0:19:12.75,0:19:14.84,Internal,Shin,0000,0000,0000,,Byl to duch Gingumy?!
+Dialogue: 0,0:19:14.84,0:19:16.93,Internal,Shin,0000,0000,0000,,Co má k čertu znamenat duch gumy?!
+Dialogue: 0,0:19:17.44,0:19:27.35,Spirit Text R,Sign,0000,0000,0000,,Vypadlo mu 7 Asuramanů, \Ntakže jich 6 vyhodil. \NMstivá zášť zbylých šesti \Nstvořila ducha, který plánuje  \Nvykonat pomstu na svém hostiteli, \Njakmile dostane šanci.
+Dialogue: 0,0:19:24.85,0:19:28.13,Internal,Shin,0000,0000,0000,,Tohle není strážný duch! \NJe to jen mstivej přízrak!
+Dialogue: 0,0:19:27.35,0:19:30.71,sign_27989_394_Toilet,Sign,0000,0000,0000,,Toaleta
+Dialogue: 0,0:19:28.13,0:19:30.71,Main,Gin,0000,0000,0000,,Hej, došel nám papít!
+Dialogue: 0,0:19:30.71,0:19:35.42,Spirit Text R,Sign,0000,0000,0000,,Speciální schopnost: \Ndokáže vygumovat\Nmenší věci.
+Dialogue: 0,0:19:32.66,0:19:34.90,Internal,Shin,0000,0000,0000,,To je fakt nicotná pomsta!
+Dialogue: 0,0:19:35.42,0:19:38.11,Main,Gin,0000,0000,0000,,Shinpachi! Dones mi papír!
+Dialogue: 0,0:19:37.36,0:19:39.36,Spirit R,Sign,0000,0000,0000,,Pokud ho doneseš, zabiju tě!!
+Dialogue: 0,0:19:38.11,0:19:40.01,Main,Gin,0000,0000,0000,,Seš tam, Shinpachi?!
+Dialogue: 0,0:19:40.01,0:19:42.38,Main,Gin,0000,0000,0000,,{\an8}Hej! Toaleťák!
+Dialogue: 0,0:19:40.75,0:19:44.78,Internal,Shin,0000,0000,0000,,Promiň, Gin-sane, ale tvůj strážný duch \Nnemá nejmenší úmysl te chránit.
+Dialogue: 0,0:19:42.38,0:19:44.78,Main,Gin,0000,0000,0000,,{\an8}Došel nám papír, Shinpachi!
+Dialogue: 0,0:19:45.18,0:19:46.51,Main,Gin,0000,0000,0000,,Vstávej, Kaguro!
+Dialogue: 0,0:19:46.51,0:19:48.29,Main,Gin,0000,0000,0000,,Dones mi toaleťák!
+Dialogue: 0,0:19:49.23,0:19:54.52,Main,AA,0000,0000,0000,,Zavři zobák. Na to zapomeň, dones mi chlast.
+Dialogue: 0,0:19:54.52,0:19:56.79,Internal,Shin,0000,0000,0000,,Co je sakra tohle za chlapa?!
+Dialogue: 0,0:19:57.79,0:19:59.19,Main,AA,0000,0000,0000,,Hup.
+Dialogue: 0,0:20:01.36,0:20:02.86,Spirit Text R,Sign,0000,0000,0000,,Strážný duch Alchu.
+Dialogue: 0,0:20:01.81,0:20:03.59,Main,Voice,0000,0000,0000,,Strážný duch Alchu.
+Dialogue: 0,0:20:02.86,0:20:05.89,Spirit Text R,Sign,0000,0000,0000,,Strážný duch Alchu.\NKaguřin strážný duch.\NDuch pok*mona,\Nkterý je populární u dětí.
+Dialogue: 0,0:20:03.59,0:20:05.89,Internal,Shin,0000,0000,0000,,Co má znamenat Alchu? \NJe tohle krádež?!
+Dialogue: 0,0:20:06.37,0:20:15.56,Spirit Text L,Sign,0000,0000,0000,,Zázračná příšera zrozena\Nze spojení\Nochlasty a plyšáka P***chua,\Nkterého vytvořila Kagura,\Nprotože chtěla být trendy.
+Dialogue: 0,0:20:11.25,0:20:13.53,Flashback,Kag,0000,0000,0000,,Ne! Můj P***chu!
+Dialogue: 0,0:20:13.53,0:20:15.56,Internal,Shin,0000,0000,0000,,Ten ochlasta vypadá povědomě!
+Dialogue: 0,0:20:15.56,0:20:18.38,Internal,Shin,0000,0000,0000,,A ten duch taky vypadá, jako on!
+Dialogue: 0,0:20:18.38,0:20:22.82,Spirit Text R,Sign,0000,0000,0000,,Přísahal absolutní oddanost\Nshochu, které mu dalo život. \NZůstává s ním a celou dobu\Nho chrání.
+Dialogue: 0,0:20:21.17,0:20:22.82,Main,Shin,0000,0000,0000,,Je to jen alkoholik!
+Dialogue: 0,0:20:22.82,0:20:25.67,Main,Gin,0000,0000,0000,,Kaguro! Papír!
+Dialogue: 0,0:20:24.85,0:20:26.37,Main,AA,0000,0000,0000,,Oh, drž hubu.
+Dialogue: 0,0:20:26.37,0:20:29.83,Main,AA,0000,0000,0000,,Dej mi chvilku. Půjdu zavolat svýho pána.
+Dialogue: 0,0:20:31.08,0:20:32.97,Default,,0,0,0,,{\c&H80ffff&\an8}[Shochu - japonský alkohol]
+Dialogue: 0,0:20:31.08,0:20:32.97,Main,AA,0000,0000,0000,,Pane, sklenku shochu.
+Dialogue: 0,0:20:32.97,0:20:34.46,Internal,Shin,0000,0000,0000,,Ne pana barmana!
+Dialogue: 0,0:20:35.79,0:20:37.54,Main,AA,0000,0000,0000,,Vstávej, má paní.
+Dialogue: 0,0:20:37.54,0:20:40.21,Main,AA,0000,0000,0000,,Došlo nám všchno shochu, paní.
+Dialogue: 0,0:20:41.87,0:20:43.42,Internal,Shin,0000,0000,0000,,Kdo takhle sakra někoho budí?!
+Dialogue: 0,0:20:43.42,0:20:45.03,Main,Kag,0000,0000,0000,,Fuj, něco tu smrdí.
+Dialogue: 0,0:20:45.03,0:20:47.89,Internal,Shin,0000,0000,0000,,Tohle je důvod, proč vždycky vstává s tak šptnou náladou?!
+Dialogue: 0,0:20:48.49,0:20:51.20,Main,AA,0000,0000,0000,,Paní, dejte mi sake.
+Dialogue: 0,0:20:51.20,0:20:53.52,Main,AA,0000,0000,0000,,Sake, sake. Sake, hej?
+Dialogue: 0,0:20:53.86,0:20:55.60,Main,AA,0000,0000,0000,,{\an8}Sake, Sakej...
+Dialogue: 0,0:20:54.37,0:20:55.60,Main,Kag,0000,0000,0000,,Chce se mi spát...
+Dialogue: 0,0:20:55.60,0:20:56.46,Main,AA,0000,0000,0000,,...kej.
+Dialogue: 0,0:20:56.46,0:20:57.74,Main,Kag,0000,0000,0000,,Potřebuju čůrat...
+Dialogue: 0,0:20:57.74,0:20:58.50,Main,AA,0000,0000,0000,,...kej.
+Dialogue: 0,0:20:58.50,0:20:59.77,Main,Kag,0000,0000,0000,,Jdu do koupelny...
+Dialogue: 0,0:20:58.58,0:21:02.24,Spirit Text R,Sign,0000,0000,0000,,Protože je alkohol hlavní zdroj jeho energie, \Nneustále od své paní vyžaduje sake.
+Dialogue: 0,0:20:59.77,0:21:00.21,Main,AA,0000,0000,0000,,...kej.
+Dialogue: 0,0:21:00.21,0:21:02.25,Internal,Shin,0000,0000,0000,,To "kej" jsi celou dobu říkal ty?!
+Dialogue: 0,0:21:02.25,0:21:05.61,Internal,Shin,0000,0000,0000,,Nebyla to její verbální porucha, \Nale jen bláboly nějakýho ochlasty?!
+Dialogue: 0,0:21:09.06,0:21:11.71,Main,Kag,0000,0000,0000,,Hej, je tam někdo? Ozvi se...
+Dialogue: 0,0:21:10.29,0:21:11.71,Main,AA,0000,0000,0000,,...kej.
+Dialogue: 0,0:21:11.71,0:21:13.32,Main,Kag,0000,0000,0000,,Co to sakra? Nikdo neodpovídá...
+Dialogue: 0,0:21:13.32,0:21:13.94,Main,AA,0000,0000,0000,,...kej.
+Dialogue: 0,0:21:13.94,0:21:16.04,Internal,Shin,0000,0000,0000,,Oh, zapomněl jsem na Gin-sana.
+Dialogue: 0,0:21:17.65,0:21:22.05,Spirit Text L,Sign,0000,0000,0000,,Strážný Duch Rytíře Toaletního Papíru
+Dialogue: 0,0:21:18.19,0:21:20.30,Main,Voice,0000,0000,0000,,Strážný duch rytíře toaletního papíru.
+Dialogue: 0,0:21:20.30,0:21:22.05,Main,,0000,0000,0000,,Proč se z tebe stal duch?!
+Dialogue: 0,0:21:22.48,0:21:28.80,Spirit Text R,Sign,0000,0000,0000,,Nenávist z nedostatku toaletního papíru a\Nneochoty ostatních ho přinést\Npřivádí každé ráno k životu ducha\NSakata Gintokiho.
+Dialogue: 0,0:21:24.98,0:21:28.80,Main,Shin,0000,0000,0000,,Kvůli nedostatku papíru se měníš v ducha? \NTuhle hovadinu provádíš každý ráno?!
+Dialogue: 0,0:21:30.91,0:21:36.37,Spirit Text R,Sign,0000,0000,0000,,Zatímco bloudí k Matsu**to Kiyoshi pro \Ntoaletní papír, zároveň venčí Sadaharua jako\Njeho provizorní strážný duch.
+Dialogue: 0,0:21:34.15,0:21:36.75,Internal,Shin,0000,0000,0000,,Tys vždycky venčil Sadaharua?!
+Dialogue: 0,0:21:38.10,0:21:40.01,Main,AA,0000,0000,0000,,Postarej se o něj.
+Dialogue: 0,0:21:40.01,0:21:44.33,Internal,Shin,0000,0000,0000,,S tímhle si naserte! Jste totálně k ničemu!
+Dialogue: 0,0:21:45.82,0:21:48.36,sign_31309_455_Kabuki_District_,Sign,0000,0000,0000,,Sportovní Utkání v Kabukicho
+Dialogue: 0,0:21:52.69,0:21:59.13,Main,Oto,0000,0000,0000,,Děkuji všem, že jste si dnes udělali \Nve vašich nabitých rozvrhách čas.
+Dialogue: 0,0:21:54.35,0:21:55.37,sign_31513_456_Kabuki_District_,Sign,0000,0000,0000,,Sportovní Utkání v Kabukicho
+Dialogue: 0,0:21:59.51,0:22:05.13,Main,Gin,0000,0000,0000,,Bože, proč spolu musej závodit \Nstaří dědci a holky z kabaretu?
+Dialogue: 0,0:22:06.17,0:22:08.63,Internal,Shin,0000,0000,0000,,Staří dědci a holky z kbaretu by byli jedna věc...
+Dialogue: 0,0:22:11.73,0:22:15.22,Internal,Shin,0000,0000,0000,,Ale já vidím jen obrovskou válku podsvětí!
+Dialogue: 0,0:22:16.89,0:22:18.81,TBC,Sign,0000,0000,0000,,Pokrčování Příště...
+Dialogue: 0,0:23:48.86,0:23:53.82,Ep Title,Title,0000,0000,0000,,{\fad(442,1)}Guardian Spirits Are Also\Na Part of the Soul
+Dialogue: 0,0:23:49.93,0:23:52.94,Main,Shin,0000,0000,0000,,You know, this isn't even the \Nright season for a sports meet!
+Dialogue: 0,0:23:53.82,0:23:58.91,Side Bar Top,TextR,0000,0000,0000,,Taking part in a big sports meet
+Dialogue: 0,0:23:53.82,0:23:58.91,Side Bar Bottom,TextL,0000,0000,0000,,while listening to Jingle Bells \Nhas its own charm.
+Dialogue: 0,0:23:58.91,0:24:05.25,Side Bar Top,TextR,0000,0000,0000,,But what becomes of Pachi-boy's glasses,
+Dialogue: 0,0:23:58.91,0:24:05.25,Side Bar Bottom,TextL,0000,0000,0000,,which have turned into \Nsomething quite bizarre?

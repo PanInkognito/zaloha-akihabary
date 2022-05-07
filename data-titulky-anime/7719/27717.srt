@@ -1,0 +1,563 @@
+﻿
+Title: Gosick - 06
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Collisions: Normal
+Last Style Storage: Default
+Video Aspect Ratio: 0
+Video Zoom Percent: 0.625000
+Video Position: 0
+Video Zoom: 6
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Stone Inf Sem OS ITC TT,48,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,23,1
+Style: Dialogue,Stone Inf Sem OS ITC TT Gosick,48,&H00FFFFFF,&H000032D0,&H00252528,&HB4000000,0,0,0,0,95,100,0,0,1,3.4,0,2,15,15,32,1
+Style: Dialogue-Alt,Stone Inf Sem OS ITC TT Gosick,48,&H00F8F7F7,&H000032D0,&H002F2C67,&H8C000000,0,0,0,0,95,100,0,0,1,3,0,2,15,15,22,1
+Style: Dialogue-Top,Stone Inf Sem OS ITC TT Gosick,48,&H00E9EDE7,&H000032D0,&H14253F18,&H8C000000,0,0,0,0,95,100,0,0,1,3.4,0,8,15,15,22,1
+Style: Sign-EpNumber,DFPMinchoP-W5-Gosick,34,&H02E0E0E0,&H000000FF,&H00000000,&H00000000,0,0,0,0,92,102,0,0,1,0,0,5,10,10,10,1
+Style: Sign-EpTitle,DFPMinchoP-W3-Gosick,52,&H02F0F0F0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,90,98,0,0,1,0,0,5,10,10,10,1
+Style: Sign-NextEpPreview,DFPMinchoP-W3-Gosick,34,&H02E0E0E0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,87,104,0,0,1,0,0,5,10,10,10,1
+Style: Sign-NextEpTitle,DFPMinchoP-W3-Gosick,56,&H02F0F0F0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,92,98,0,0,1,0,0,5,10,10,10,1
+Style: Sign-GothicTitle-L1,DFPGothicP-W5-Gosick,50,&H00363737,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,104,6,0,1,0,0,5,10,10,10,1
+Style: Sign-GothicTitle-L0,DFPGothicP-W5-Gosick,50,&HFFFFFFFF,&H000000FF,&H5AFFFFFF,&H00000000,0,0,0,0,120,104,6,0,1,8,0,5,10,10,10,1
+Style: Sign-Book,DFPHSMincho-W9,26,&H0028292A,&H000000FF,&H001C1A1D,&H00000000,0,0,0,0,90,100,0,0,1,0.7,0,6,10,10,10,1
+Style: Opening-Romaji-L1,Humana Serif Md ITC TT,46,&H00FFFFFF,&HFFFFFFFF,&H00374638,&H00000000,-1,0,0,0,90,100,2,0,1,2,0,8,10,10,13,1
+Style: Opening-Romaji-L0,Humana Serif Md ITC TT,46,&H0094A395,&H00FFFFFF,&H3C286B2D,&H00000000,-1,0,0,0,90,100,2,0,1,5.5,0,8,10,10,13,1
+Style: Opening-Kanji-L1,DFPHSMincho-W9,34,&H00FFFFFF,&HFFFFFFFF,&H00374638,&H00000000,0,0,0,0,87,92,0,0,1,2,0,8,10,10,73,128
+Style: Opening-Kanji-L0,DFPHSMincho-W9,34,&H0094A395,&H00FFFFFF,&H3C286B2D,&H00000000,0,0,0,0,87,92,0,0,1,5.5,0,8,10,10,73,128
+Style: Opening-English,Humana Serif Md ITC TT,46,&H00FFFFFF,&H00FFFFFF,&H28286B2D,&H00000000,-1,0,0,0,94,100,1,0,1,5,0,2,10,10,15,1
+Style: Ending-Romaji,Day Roman,41,&H00FFFFFF,&HFF0000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,20,20,18,1
+Style: Ending-Kanji,@DFPHSMincho-W9,28,&H00FFFFFF,&HFF0000FF,&H32000000,&H00000000,-1,0,0,0,96,98,0,270,1,2,0,7,48,20,95,128
+Style: Ending-English,Day Roman,41,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,98,100,0,0,1,2,0,2,20,20,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Signs - Episode 6
+Dialogue: 0,0:02:27.96,0:02:30.96,Sign-EpNumber,,0000,0000,0000,,{\pos(642,186)\fs32\fscy100}Episode 6
+Dialogue: 0,0:02:27.96,0:02:30.96,Sign-EpTitle,,0000,0000,0000,,{\pos(636,524)\fscy96\blur0.4}The Gray Wolf Gathers its Brethren
+Dialogue: 0,0:24:16.85,0:24:19.84,Sign-NextEpPreview,,0000,0000,0000,,{\pos(640,188)\blur0.4}Next Episode Preview
+Dialogue: 0,0:24:16.85,0:24:19.84,Sign-NextEpTitle,,0000,0000,0000,,{\pos(630,286)\blur0.3\fs46\fscx86\c&HE9E9E9&}A Prophecy is       Delivered at{夏至祭に神託はくだされる}
+Dialogue: 0,0:24:16.85,0:24:19.84,Sign-NextEpTitle,,0000,0000,0000,,{\pos(640,510)\blur0.3\fs46\fscx86\c&HE9E9E9&}the Summer Solstice Festival
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Logo
+Dialogue: 3,0:00:06.73,0:00:12.07,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\fad(401,0)\1a&H20&\blur0.4\c&H414243&\fs28\fsp0\fscx115}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:06.73,0:00:12.07,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\fad(401,0)\blur6\fs28\fsp0\fscx116}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:06.73,0:00:12.07,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\fad(401,0)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H414243&}[        ]
+Dialogue: 0,0:00:06.73,0:00:12.07,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\fad(401,0)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7}[        ]
+Dialogue: 3,0:00:12.07,0:00:12.11,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H414243&\fs28\fsp0\fscx115\iclip(m 544 232 b 567 209 580 173 593 157 l 408 161 408 235)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 3,0:00:12.07,0:00:12.11,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H3B22AF&\fs28\fsp0\fscx115\iclip(m 513 226 b 532 206 548 175 562 151 l 846 150 846 223)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:12.07,0:00:12.11,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116\iclip(m 507 235 b 522 214 559 161 566 142 l 592 159 b 562 210 544 237 532 251)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:12.07,0:00:12.11,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H414243&\iclip(m 544 232 b 567 209 580 173 593 157 l 408 161 408 235)}[        ]
+Dialogue: 1,0:00:12.07,0:00:12.11,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H3B22AF&\iclip(m 513 226 b 532 206 548 175 562 151 l 846 150 846 223)}[        ]
+Dialogue: 0,0:00:12.07,0:00:12.11,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 507 235 b 522 214 559 161 566 142 l 592 159 b 562 210 544 237 532 251)}[        ]
+Dialogue: 3,0:00:12.11,0:00:12.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H414243&\fs28\fsp0\fscx115\iclip(m 698 238 b 712 215 725 190 738 161 l 433 165 431 242)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 3,0:00:12.11,0:00:12.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H3B22AF&\fs28\fsp0\fscx115\iclip(m 669 235 b 682 215 697 185 710 157 l 852 157 852 229)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:12.11,0:00:12.15,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116\iclip(m 663 245 b 681 217 700 183 715 145 l 743 158 b 713 213 697 241 687 259)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:12.11,0:00:12.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H414243&\iclip(m 698 238 b 712 215 725 190 738 161 l 433 165 431 242)}[        ]
+Dialogue: 1,0:00:12.11,0:00:12.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H3B22AF&\iclip(m 668 232 b 681 212 699 180 710 156 l 850 156 850 228)}[        ]
+Dialogue: 0,0:00:12.11,0:00:12.15,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 662 244 b 681 216 698 175 714 144 l 742 157 b 713 212 696 240 686 258)}[        ]
+Dialogue: 3,0:00:12.15,0:00:12.19,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H3B22AF&\fs28\fsp0\fscx115}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:12.15,0:00:12.19,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:12.15,0:00:12.19,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H414243&\iclip(m 817 241 b 831 219 844 193 857 164 l 425 169 422 248)}[        ]
+Dialogue: 1,0:00:12.15,0:00:12.19,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H3B22AF&\iclip(m 786 238 b 799 218 817 186 828 162 l 968 162 968 234)}[        ]
+Dialogue: 0,0:00:12.15,0:00:12.19,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 783 249 b 799 219 818 183 833 147 l 860 157 b 831 215 817 244 807 262)}[        ]
+Dialogue: 3,0:00:12.19,0:00:12.69,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H3B22AF&\fs28\fsp0\fscx115}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:12.19,0:00:12.69,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:12.19,0:00:12.69,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H3B22AF&}[        ]
+Dialogue: 0,0:00:12.19,0:00:12.69,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7}[        ]
+Dialogue: 3,0:00:12.69,0:00:12.73,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&H3B22AF&\fs28\fsp0\fscx115\iclip(m 407 192 b 599 143 742 160 855 185 l 855 242 406 240)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 3,0:00:12.69,0:00:12.73,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HBCC664&\fs28\fsp0\fscx115\iclip(m 409 219 b 608 159 753 185 857 212 l 856 161 408 161)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:12.69,0:00:12.73,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116\iclip(m 409 219 b 604 161 729 184 857 212 l 857 186 b 741 148 521 152 410 192)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:12.69,0:00:12.73,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&H3B22AF&\iclip(m 407 192 b 599 143 742 160 855 185 l 855 242 406 240)}[        ]
+Dialogue: 1,0:00:12.69,0:00:12.73,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HBCC664&\iclip(m 409 219 b 608 159 753 185 857 212 l 856 161 408 161)}[        ]
+Dialogue: 0,0:00:12.69,0:00:12.73,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 409 219 b 604 161 729 184 857 212 l 857 186 b 741 148 521 152 410 192)}[        ]
+Dialogue: 3,0:00:12.73,0:00:13.23,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HBCC664&\fs28\fsp0\fscx115}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:12.73,0:00:13.23,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:12.73,0:00:13.23,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HBCC664&}[        ]
+Dialogue: 0,0:00:12.73,0:00:13.23,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7}[        ]
+Dialogue: 3,0:00:13.23,0:00:13.27,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HBCC664&\fs28\fsp0\fscx115\iclip(m 668 247 b 693 216 720 193 750 164 l 891 167 891 247)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 3,0:00:13.23,0:00:13.27,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HED8534&\fs28\fsp0\fscx115\iclip(m 707 252 b 731 221 759 197 788 169 l 431 172 426 254)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:13.23,0:00:13.27,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116\iclip(m 668 247 b 693 216 720 193 750 164 l 778 180 b 748 207 726 231 692 263)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:13.23,0:00:13.27,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HBCC664&\iclip(m 668 247 b 693 216 720 193 750 164 l 891 167 891 247)}[        ]
+Dialogue: 1,0:00:13.23,0:00:13.27,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HED8534&\iclip(m 707 252 b 731 221 759 197 788 169 l 431 172 426 254)}[        ]
+Dialogue: 0,0:00:13.23,0:00:13.27,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 668 247 b 693 216 720 193 750 164 l 778 180 b 748 207 726 231 692 263)}[        ]
+Dialogue: 3,0:00:13.27,0:00:13.32,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HBCC664&\fs28\fsp0\fscx115\iclip(m 557 244 b 578 216 601 185 626 158 l 860 159 859 243)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 3,0:00:13.27,0:00:13.32,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HED8534&\fs28\fsp0\fscx115\iclip(m 577 258 b 607 225 633 188 665 159 l 416 161 411 257)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:13.27,0:00:13.32,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116\iclip(m 564 228 b 585 202 621 160 641 143 l 666 159 b 636 193 614 214 588 245)}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:13.27,0:00:13.32,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HBCC664&\iclip(m 668 247 b 693 216 720 193 750 164 l 891 167 891 247)}[        ]
+Dialogue: 1,0:00:13.27,0:00:13.32,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HED8534&\iclip(m 577 258 b 607 225 633 188 665 159 l 416 161 411 257)}[        ]
+Dialogue: 0,0:00:13.27,0:00:13.32,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 564 228 b 585 202 621 160 641 143 l 666 159 b 636 193 614 214 588 245)}[        ]
+Dialogue: 3,0:00:13.32,0:00:13.36,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HED8534&\fs28\fsp0\fscx115}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:13.32,0:00:13.36,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:13.32,0:00:13.36,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HBCC664&\iclip(m 459 231 b 484 199 503 175 529 146 l 844 145 845 228)}[        ]
+Dialogue: 1,0:00:13.32,0:00:13.36,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HED8534&\iclip(m 479 252 b 505 219 535 185 564 154 l 404 152 402 252)}[        ]
+Dialogue: 0,0:00:13.32,0:00:13.36,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7\iclip(m 461 229 b 480 200 513 161 533 142 l 558 156 b 529 191 508 213 486 248)}[        ]
+Dialogue: 3,0:00:13.36,0:00:14.11,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(635,201)\1a&H20&\blur0.4\c&HED8534&\fs28\fsp0\fscx115}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 2,0:00:13.36,0:00:14.11,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(635,201)\blur6\fs28\fsp0\fscx116}VICTORIQUE\N{\fs18\fscx112\fsp2\fscy104}PRESENTS
+Dialogue: 1,0:00:13.36,0:00:14.11,Sign-GothicTitle-L1,,0000,0000,0000,,{\pos(643.75,198)\1a&H20&\blur0.4\fs30\fscx151\fscy109\fsp9.7\c&HED8534&}[        ]
+Dialogue: 0,0:00:13.36,0:00:14.11,Sign-GothicTitle-L0,,0000,0000,0000,,{\pos(642,198)\blur6\fs30\fscx151\fscy109\c&H3C3F3C&\fsp9.7}[        ]
+Dialogue: 0,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(132,-136)\frz-1\fay-0.05\fax0.04\blur1\c&HDDB673&\fscx71\fscy73\shad0\3a&H00&\ybord1.6\xbord1.4\1a&H00&\be1\3c&HD7AB5C&\p1}m 431 487 b 435 489 436 480 449 479 471 468 479 476 487 475 507 473 524 477 519 476 499 492 487 498 493 494 485 499 466 501 428 489{\p0}
+Dialogue: 0,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(80,-207)\fscx86\fscy85\shad0\3a&H10&\ybord2\xbord3\1a&H00&\be1\3c&HD8AA6C&\c&HD7AB5C&\p1}m 548 465 b 560 468 570 464 582 469 592 475 585 499 582 511 573 503 554 502 553 495 551 491 552 484 549 471{\p0}
+Dialogue: 1,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(162,-126)\fscx70\frz3\fscy73\p1\3a&H00&\ybord1.4\xbord1.6\1a&H18&\be2\c&HE1AB59&\3c&HC39970&}m 611 465 b 604 473 612 461 619 462 620 459 615 479 615 487 612 497 601 499 598 507 595 505 593 493 595 485 596 481 590 494 599 474{\p0\c&HD7A159&}
+Dialogue: 0,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(74,-221)\p1\3a&H00&\fscx88\fscy88\ybord2\xbord2\1a&H18&\be2\c&HDDA751&\3c&HB8A47A&}m 606 473 b 612 464 615 456 617 452 624 460 636 465 638 485 636 505 625 506 620 513 614 505 609 508 604 502 596 492 602 484 601 479{\p0}
+Dialogue: 0,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(150,-220)\fscx82\frz-4\fscy80\p1\3a&H10&\ybord3\xbord3\1a&H18&\be1\c&HDEAE59&\3c&HD8AA6C&}m 644 508 b 641 497 642 482 655 479 661 479 667 473 669 473 674 472 675 475 677 476 680 477 673 488 672 487 670 490 668 499 663 506{\p0}
+Dialogue: 1,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(84,-208)\fscx88\fscy85\3a&H30&\ybord3\xbord3\1a&H00&\be2\c&HE7B363&\3c&HCDA25A&\p1}m 673 507 b 675 501 672 503 672 492 677 464 687 463 718 463 726 465 735 466 735 469 716 493 712 517 680 507{\p0}
+Dialogue: 0,0:00:14.11,0:00:14.15,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(30,-208)\fscx102\fay0.04\fscy85\p1\3a&H00&\ybord2\xbord2\blur1\frx1\fry2\1a&H00&\3c&HC8AE7D&\c&HE1B667&}m 759 489 b 769 487 774 483 778 482 783 481 790 476 803 479 813 478 823 473 833 478 825 490 819 494 813 496 805 497 796 498 784 495 774 490 769 495 760 490{\p0}
+Dialogue: 0,0:00:14.15,0:00:14.24,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(890,17)\fscx86\fscy85\shad0\3a&H10&\ybord2\xbord3\1a&H00&\be1\3c&HD8AA6C&\p1\frx358\fry184\c&HE1B664&}m 548 465 b 560 468 570 464 582 469 592 475 585 499 582 511 573 503 554 502 553 495 551 491 552 484 549 471{\p0}
+Dialogue: 0,0:00:14.15,0:00:14.24,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(64,-111)\p1\3a&H00&\fscx88\fscy88\ybord2\xbord2\1a&H18&\be2\blur1\c&HDDA751&\3c&HB8A47A&\frx358\fry358}m 606 473 b 612 464 615 456 617 452 624 460 636 465 638 485 636 505 625 506 620 513 614 505 609 508 604 502 596 492 602 484 601 479{\p0}
+Dialogue: 0,0:00:14.15,0:00:14.24,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(150,-220)\fscx82\frz-4\fscy80\p1\3a&H10&\ybord3\xbord3\1a&H18&\be1\c&HDEAE59&\3c&HD8AA6C&}m 644 508 b 641 497 642 482 655 479 661 479 667 473 669 473 674 472 675 475 677 476 680 477 673 488 672 487 670 490 668 499 663 506{\p0}
+Dialogue: 1,0:00:14.15,0:00:14.24,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(414,88)\fscx88\fscy85\3a&H28&\ybord3\xbord3\1a&H00&\be2\blur1\p1\c&HDAAE5F&\3c&HCBAB82&}m 673 507 b 675 501 672 503 672 492 677 464 687 463 718 463 726 465 735 466 735 469 716 493 712 517 680 507{\p0}
+Dialogue: 0,0:00:14.15,0:00:14.24,Sign-GothicTitle-L1,,0000,0000,0000,,{\an7\pos(-100,-200)\fscx102\fay0.04\fscy85\p1\3a&H00&\ybord2\xbord2\blur1\1a&H00&\3c&HC8AE7D&\c&HE1B667&\frx23\fry8}m 759 489 b 769 487 774 483 778 482 783 481 790 476 803 479 813 478 823 473 833 478 825 490 819 494 813 496 805 497 796 498 784 495 774 490 769 495 760 490{\p0}
+Dialogue: 0,0:00:14.24,0:00:14.28,Sign-GothicTitle-L1,,0000,0000,0000,,{\an5\pos(-1250,87)\fscx146\fscy145\shad0\3a&H10&\ybord2\xbord3\1a&H00&\be1\3c&HD8AA6C&\p1\c&HE1B664&\frz31.007\frx359\fry351}m 548 465 b 560 468 570 464 582 469 592 475 585 499 582 511 573 503 554 502 553 495 551 491 552 484 549 471{\p0}
+Dialogue: 0,0:00:14.24,0:00:14.28,Sign-GothicTitle-L1,,0000,0000,0000,,{\an3\pos(-1064,-651)\p1\3a&H00&\fscx138\fscy158\ybord2\xbord2\1a&H18&\be2\blur1\c&HDDA751&\3c&HB8A47A&\frx-8\frz5\fry-13}m 606 473 b 612 464 615 456 617 452 624 460 636 465 638 485 636 505 625 506 620 513 614 505 609 508 604 502 596 492 602 484 601 479{\p0}
+Comment: 0,0:00:00.00,0:00:00.02,Default,,0000,0000,0000,,Opening / Destain Histoire
+Dialogue: 1,0:00:14.78,0:00:20.50,Opening-Romaji-L1,,0000,0000,0000,,{\fad(250,0)\be1}{\k25}{\k55}Zu{\k17}t{\k51}to {\k23}ma{\k50}e {\k22}ka{\k47}ra {\k9}{\k15}ki{\k47}ma{\k9}t{\k18}te{\k55}i{\k16}ta {\k54}yo{\k17}u{\k36}na
+Dialogue: 0,0:00:14.78,0:00:20.50,Opening-Romaji-L0,,0000,0000,0000,,{\fad(250,0)\be4\blur1.5}Zutto mae kara kimatteita youna
+Dialogue: 1,0:00:14.78,0:00:20.50,Opening-Kanji-L1,,0000,0000,0000,,{\fad(250,0)\be1\k25}{\k55}ず{\k17}っ{\k51}と{\k73}前{\k22}か{\k47}ら {\k9}{\k15}決{\k47}ま{\k9}っ{\k18}て{\k55}い{\k16}た{\k54}よ{\k17}う{\k36}な
+Dialogue: 0,0:00:14.78,0:00:20.50,Opening-Kanji-L0,,0000,0000,0000,,{\fad(250,0)\be4\blur1.5}ずっと前から 決まっていたような
+Dialogue: 0,0:00:14.78,0:00:20.50,Opening-English,,0000,0000,0000,,{\fad(250,0)\be4\blur1.5}It's like it was predestined
+Dialogue: 1,0:00:20.50,0:00:26.00,Opening-Romaji-L1,,0000,0000,0000,,{\fad(100,580)\be1}{\k10}{\k21}To{\k54}o{\k17}i {\k56}mu{\k13}ka{\k57}shi {\k22}ka{\k33}ra {\k20}{\k15}wa{\k25}ka{\k13}t{\k18}te{\k32}ta {\k24}yo{\k17}u{\k104}na
+Dialogue: 0,0:00:20.50,0:00:26.00,Opening-Romaji-L0,,0000,0000,0000,,{\fad(100,580)\be4\blur1.5}Tooi mukashi kara wakatteta youna
+Dialogue: 1,0:00:20.50,0:00:26.00,Opening-Kanji-L1,,0000,0000,0000,,{\fad(100,580)\be1\k10}{\k75}遠{\k17}い{\k56}昔{\k13}か{\k79}ら{\k33} {\k20}{\k15}わ{\k25}か{\k13}っ{\k18}て{\k32}た{\k24}よ{\k17}う{\k104}な
+Dialogue: 0,0:00:20.50,0:00:26.00,Opening-Kanji-L0,,0000,0000,0000,,{\fad(100,580)\be4\blur1.5}遠い昔から わかってたような
+Dialogue: 0,0:00:20.50,0:00:26.00,Opening-English,,0000,0000,0000,,{\fad(100,580)\be4\blur1.5}It's like I've known it since the distant past
+Dialogue: 1,0:00:26.57,0:00:32.05,Opening-Romaji-L1,,0000,0000,0000,,{\be1}{\k55}Mi{\k18}e{\k54}na{\k12}i {\k64}se{\k16}n {\k56}no {\k19}u{\k51}e {\k17}wo {\k55}ta{\k21}do{\k51}ru {\k12}yo{\k8}u{\k36}ni
+Dialogue: 0,0:00:26.57,0:00:32.05,Opening-Romaji-L0,,0000,0000,0000,,{\be4\blur1.5}Mienai sen no ue wo tadoru youni
+Dialogue: 1,0:00:26.57,0:00:32.05,Opening-Kanji-L1,,0000,0000,0000,,{\be1\k55}見{\k18}え{\k54}な{\k12}い{\k80}線{\k56}の {\k70}上{\k17}を{\k76}辿{\k51}る{\k12}よ{\k8}う{\k36}に
+Dialogue: 0,0:00:26.57,0:00:32.05,Opening-Kanji-L0,,0000,0000,0000,,{\be4\blur1.5}見えない線の 上を辿るように
+Dialogue: 0,0:00:26.57,0:00:32.05,Opening-English,,0000,0000,0000,,{\be4\blur1.5}Like following atop invisible wires,
+Dialogue: 1,0:00:32.05,0:00:37.93,Opening-Romaji-L1,,0000,0000,0000,,{\fad(140,390)\be1}{\k14}{\k18}Mi{\k56}chi{\k14}bi {\k58}ka{\k16}re {\k56}de{\k19}a{\k35}i {\k17}{\k20}ko{\k27}u{\k19}sa{\k46}su{\k26}ru {\k25}Sai{\k122}son
+Dialogue: 0,0:00:32.05,0:00:37.93,Opening-Romaji-L0,,0000,0000,0000,,{\fad(140,390)\be4\blur1.5}Michibi kare deai kousasuru Saison
+Dialogue: 1,0:00:32.05,0:00:37.93,Opening-Kanji-L1,,0000,0000,0000,,{\fad(140,390)\be1\k14}{\k88}導{\k58}か{\k16}れ {\k56}出{\k19}逢{\k35}い {\k17}{\k47}交{\k19}差{\k46}す{\k26}る {\k25}Sai{\k122}son
+Dialogue: 0,0:00:32.05,0:00:37.93,Opening-Kanji-L0,,0000,0000,0000,,{\fad(140,390)\be4\blur1.5}導かれ 出逢い 交差する Saison
+Dialogue: 0,0:00:32.05,0:00:37.93,Opening-English,,0000,0000,0000,,{\fad(140,390)\be4\blur1.5}we're guided to our meeting where the seasons intersect
+Dialogue: 1,0:00:37.93,0:00:43.68,Opening-Romaji-L1,,0000,0000,0000,,{\fad(0,80)\be1}{\k56}Se{\k22}na{\k46}ka{\k25}{\k16}a{\k28}wa{\k29}se {\k46}no {\k27}{\k16}hi{\k39}ka{\k17}ri {\k34}to {\k33}ka{\k42}ge {\k32}no {\k23}yo{\k20}u{\k27}ni
+Dialogue: 0,0:00:37.93,0:00:43.68,Opening-Romaji-L0,,0000,0000,0000,,{\fad(0,80)\be4\blur1.5}Senakaawase no hikari to kage no youni
+Dialogue: 1,0:00:37.93,0:00:43.68,Opening-Kanji-L1,,0000,0000,0000,,{\fad(0,80)\be1\k56}背{\k68}中{\k25}{\k16}合{\k28}わ{\k29}せ{\k46}の {\k27}{\k72}光{\k34}と{\k75}影{\k32}の{\k23}よ{\k20}う{\k27}に
+Dialogue: 0,0:00:37.93,0:00:43.68,Opening-Kanji-L0,,0000,0000,0000,,{\fad(0,80)\be4\blur1.5}背中合わせの 光と影のように
+Dialogue: 0,0:00:37.93,0:00:43.68,Opening-English,,0000,0000,0000,,{\fad(0,80)\be4\blur1.5}Like the co-existant light and shadow,
+Dialogue: 1,0:00:43.68,0:00:49.36,Opening-Romaji-L1,,0000,0000,0000,,{\fad(220,780)\be1}{\k22}{\k36}Tsu{\k20}yo{\k52}ku {\k26}{\k16}hi{\k38}ka{\k20}re{\k25}ru {\k25}{\k17}My{\k47}sti{\k22}fi{\k32}ca{\k41}ti{\k126}on
+Dialogue: 0,0:00:43.68,0:00:49.36,Opening-Romaji-L0,,0000,0000,0000,,{\fad(220,780)\be4\blur1.5}Tsuyoku hikareru Mystification
+Dialogue: 1,0:00:43.68,0:00:49.36,Opening-Kanji-L1,,0000,0000,0000,,{\fad(220,780)\be1\k22}{\k55}強{\k52}く{\k26}{\k16}引{\k38}か{\k20}れ{\k25}る {\k25}{\k17}My{\k47}sti{\k22}fi{\k32}ca{\k41}ti{\k126}on
+Dialogue: 0,0:00:43.68,0:00:49.36,Opening-Kanji-L0,,0000,0000,0000,,{\fad(220,780)\be4\blur1.5}強く引かれる Mystification
+Dialogue: 0,0:00:43.68,0:00:49.36,Opening-English,,0000,0000,0000,,{\fad(220,780)\be4\blur1.5}Mystification bewitches us
+Dialogue: 1,0:00:49.36,0:00:55.15,Opening-Romaji-L1,,0000,0000,0000,,{\fad(210,360)\be1}{\k21}{\k15}Mi{\k33}mi{\k23}mo{\k34}to {\k33}de {\k35}sa{\k40}sa{\k37}ya{\k37}ki {\k18}yo{\k35}bu {\k21}ko{\k37}e {\k32}ni {\k20}fu{\k14}ri{\k19}mu{\k19}ke{\k55}ba
+Dialogue: 0,0:00:49.36,0:00:55.15,Opening-Romaji-L0,,0000,0000,0000,,{\fad(210,360)}{\be4\blur1.5}Mimimoto de sasayaki yobu koe ni furimukeba
+Dialogue: 1,0:00:49.36,0:00:55.15,Opening-Kanji-L1,,0000,0000,0000,,{\fad(210,360)\be1\k21}{\k48}耳{\k57}元{\k33}で{\k112}囁{\k37}き {\k18}呼{\k35}ぶ{\k58}声{\k32}に{\k20}振{\k14}り{\k19}向{\k19}け{\k55}ば
+Dialogue: 0,0:00:49.36,0:00:55.15,Opening-Kanji-L0,,0000,0000,0000,,{\fad(210,360)}{\be4\blur1.5}耳元で囁き 呼ぶ声に振り向けば
+Dialogue: 0,0:00:49.36,0:00:55.15,Opening-English,,0000,0000,0000,,{\fad(210,360)}{\be4\blur1.5}When I turn to the voice whispering by my ear,
+Dialogue: 1,0:00:55.15,0:01:00.58,Opening-Romaji-L1,,0000,0000,0000,,{\fad(210,540)\be1}{\k21}{\k13}Ki{\k35}zu{\k22}ka{\k31}nu {\k37}u{\k37}chi {\k37}hi{\k35}ra{\k36}ka{\k18}re{\k37}te{\k18}ta {\k38}to{\k35}bi{\k94}ra
+Dialogue: 0,0:00:55.15,0:01:00.58,Opening-Romaji-L0,,0000,0000,0000,,{\fad(210,540)\be4\blur1.5}Kizukanu uchi hirakareteta tobira
+Dialogue: 1,0:00:55.15,0:01:00.58,Opening-Kanji-L1,,0000,0000,0000,,{\fad(210,540)\be1\k21}{\k13}気{\k35}づ{\k22}か{\k31}ぬ{\k37}う{\k37}ち{\k72}開{\k36}か{\k18}れ{\k37}て{\k18}た{\k167}扉
+Dialogue: 0,0:00:55.15,0:01:00.58,Opening-Kanji-L0,,0000,0000,0000,,{\fad(210,540)\be4\blur1.5}気づかぬうち開かれてた扉
+Dialogue: 0,0:00:55.15,0:01:00.58,Opening-English,,0000,0000,0000,,{\fad(210,540)\be4\blur1.5}the door had been opened by someone
+Dialogue: 0,0:01:00.91,0:01:06.74,Opening-Romaji-L0,,0000,0000,0000,,{\fad(110,100)}{\be4\blur1.5}Sukoshi no guuzen to hitsuzen wo tsunagu youni
+Dialogue: 1,0:01:00.91,0:01:06.74,Opening-Kanji-L1,,0000,0000,0000,,{\fad(110,100)\be1\k11}{\k52}少{\k24}し{\k35}の{\k73}偶{\k74}然{\k32}と{\k58}必{\k57}然{\k36}を{\k33}繋{\k22}ぐ{\k20}よ{\k17}う{\k30}に
+Dialogue: 0,0:01:00.91,0:01:06.74,Opening-Kanji-L0,,0000,0000,0000,,{\fad(110,100)}{\be4\blur1.5}少しの偶然と必然を繋ぐように
+Dialogue: 0,0:01:00.91,0:01:06.74,Opening-English,,0000,0000,0000,,{\fad(110,100)}{\be4\blur1.5}Like joining a little coincidence with inevitability
+Dialogue: 1,0:01:00.94,0:01:06.74,Opening-Romaji-L1,,0000,0000,0000,,{\fad(110,100)}{\k11\be1}{\k23}Su{\k29}ko{\k24}shi {\k35}no {\k38}gu{\k35}u{\k42}ze{\k32}n {\k32}to {\k25}hi{\k33}tsu{\k23}ze{\k34}n {\k36}wo {\k19}tsu{\k14}na{\k22}gu {\k20}yo{\k17}u{\k30}ni
+Dialogue: 1,0:01:06.81,0:01:12.33,Opening-Romaji-L1,,0000,0000,0000,,{\fad(100,540)\be1}{\k10}{\k16}U{\k38}go{\k13}ki{\k38}ha{\k35}ji{\k39}me{\k37}ta {\k35}fu{\k38}ta{\k16}tsu {\k36}no {\k12}Hi{\k38}s{\k43}to{\k90}ire
+Dialogue: 0,0:01:06.81,0:01:12.33,Opening-Romaji-L0,,0000,0000,0000,,{\fad(100,540)\be4\blur1.5}Ugokihajimeta futatsu no Histoire
+Dialogue: 1,0:01:06.81,0:01:12.33,Opening-Kanji-L1,,0000,0000,0000,,{\fad(100,540)\be1}{\k10}{\k54}動{\k13}き{\k73}始{\k39}め{\k37}た {\k73}２{\k16}つ{\k36}の {\k12}Hi{\k38}s{\k43}to{\k90}ire
+Dialogue: 0,0:01:06.81,0:01:12.33,Opening-Kanji-L0,,0000,0000,0000,,{\fad(100,540)\be4\blur1.5}動き始めた ２つの Histoire
+Dialogue: 0,0:01:06.81,0:01:12.33,Opening-English,,0000,0000,0000,,{\fad(100,540)\be4\blur1.5}Two stories commenced
+Dialogue: 1,0:01:18.64,0:01:24.44,Opening-Romaji-L1,,0000,0000,0000,,{\fad(0,880)\be1}{\k36}Zu{\k21}t{\k50}to {\k19}{\k17}ha{\k35}te{\k22}na{\k51}ku {\k23}{\k14}tsu{\k40}zu{\k18}i{\k37}te {\k35}yu{\k162}ku{\k0}...
+Dialogue: 0,0:01:18.64,0:01:24.44,Opening-Romaji-L0,,0000,0000,0000,,{\fad(0,880)\be4\blur1.5}Zutto hatenaku tsuzuite yuku...
+Dialogue: 1,0:01:18.64,0:01:24.44,Opening-Kanji-L1,,0000,0000,0000,,{\fad(0,880)\be1\k36}ず{\k21}っ{\k50}と{\k19}{\k17}果{\k35}て{\k22}な{\k51}く {\k23}{\k54}続{\k18}い{\k37}て{\k35}行{\k162}く・・・
+Dialogue: 0,0:01:18.64,0:01:24.44,Opening-Kanji-L0,,0000,0000,0000,,{\fad(0,880)\be4\blur1.5}ずっと果てなく 続いて行く・・・
+Dialogue: 0,0:01:18.64,0:01:24.44,Opening-English,,0000,0000,0000,,{\fad(0,880)\be4\blur1.5}And they'll go on forevermore...
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Ending / Resuscitated Hope
+Dialogue: 1,0:22:34.99,0:22:37.92,Ending-Romaji,,0000,0000,0000,,{\an2\fad(100,100)\blur2}{\kf35}Lo{\kf24}neli{\kf40}ness {\k26}{\kf48}find {\kf23}him {\kf34}back {\kf62}again
+Dialogue: 0,0:22:34.99,0:22:37.92,Ending-Romaji,,0000,0000,0000,,{\an2\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Loneliness find him back again
+Dialogue: 1,0:22:37.92,0:22:42.49,Ending-Romaji,,0000,0000,0000,,{\an2\fad(100,100)\blur2}{\kf10}It {\kf77}seems {\kf47}to {\kf73}be {\kf67}like {\kf39}it {\kf57}never {\kf85}ends
+Dialogue: 0,0:22:37.92,0:22:42.49,Ending-Romaji,,0000,0000,0000,,{\an2\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}It seems to be like it never ends
+Dialogue: 1,0:22:42.49,0:22:50.47,Ending-Romaji,,0000,0000,0000,,{\an2\fad(100,400)\blur2}{\kf27}Give {\kf21}us {\kf36}hope{\k28} {\kf46}through {\kf26}the {\kf118}labyrinth's {\kf63}emo{\kf57}tion{\kf171}al {\kf117}grie{\kf41}ving
+Dialogue: 0,0:22:42.49,0:22:50.47,Ending-Romaji,,0000,0000,0000,,{\an2\fad(100,400)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Give us hope through the labyrinth's emotional grieving
+Dialogue: 1,0:22:57.59,0:23:07.09,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k84}Tsu{\k60}yo{\k73}ku {\k53}fu{\k20}ri{\k25}ya{\k22}ma{\k46}nu {\k67}a{\k70}me {\k66}ni {\k48}e{\k26}ga{\k22}o {\k16}wa{\k29}su{\k23}re{\k67}ta {\k72}ma{\k61}ma
+Dialogue: 1,0:22:57.59,0:23:07.09,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k144}強{\k73}く{\k53}降{\k20}り{\k25}止{\k22}ま{\k46}ぬ{\k137}雨{\k66}に{\k48}笑{\k48}顔{\k45}忘{\k23}れ{\k67}た{\k72}ま{\k61}ま
+Dialogue: 1,0:22:57.59,0:23:07.09,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}While I stood in the heavy, never-ending rain, I forgot how to smile...
+Dialogue: 0,0:22:57.59,0:23:07.09,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Tsuyoku furiyamanu ame ni egao wasureta mama
+Dialogue: 0,0:22:57.59,0:23:07.09,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}強く降り止まぬ雨に笑顔忘れたまま
+Dialogue: 0,0:22:57.59,0:23:07.09,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}While I stood in the heavy, never-ending rain, I forgot how to smile...
+Dialogue: 1,0:23:07.64,0:23:12.40,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k21}Ku{\k16}ru{\k33}shi{\k14}mu {\k34}su{\k62}re{\k73}chi{\k25}ga{\k15}u {\k75}se{\k29}ka{\k67}i
+Dialogue: 1,0:23:07.64,0:23:12.40,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k37}苦{\k33}し{\k14}む{\k34}す{\k62}れ{\k98}違{\k15}う{\k75}世{\k96}界
+Dialogue: 1,0:23:07.64,0:23:12.40,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}and suffered in this world that doesn't understand me
+Dialogue: 0,0:23:07.64,0:23:12.40,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Kurushimu surechigau sekai
+Dialogue: 0,0:23:07.64,0:23:12.40,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}苦しむすれ違う世界
+Dialogue: 0,0:23:07.64,0:23:12.40,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}and suffered in this world that doesn't understand me
+Dialogue: 1,0:23:12.40,0:23:19.64,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k10}{\k70}A{\k53}ra{\k62}so{\k65}i {\k72}to {\k17}i{\k29}tsu{\k71}wa{\k71}ri {\k43}no {\k68}na{\k27}ka {\k65}de
+Dialogue: 1,0:23:12.40,0:23:19.64,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k10}{\k185}争{\k65}い{\k72}と{\k117}偽{\k71}り{\k43}の{\k95}中{\k65}で
+Dialogue: 1,0:23:12.40,0:23:19.64,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}And if, from the strife and lies,
+Dialogue: 0,0:23:12.40,0:23:19.64,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Arasoi to itsuwari no naka de
+Dialogue: 0,0:23:12.40,0:23:19.64,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}争いと偽りの中で
+Dialogue: 0,0:23:12.40,0:23:19.64,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}And if, from the strife and lies,
+Dialogue: 1,0:23:19.87,0:23:26.61,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k69}Ko{\k71}ko{\k94}ro {\k65}{\k26}ka{\k16}ra{\k31}su {\k161}no {\k24}na{\k117}ra
+Dialogue: 1,0:23:19.87,0:23:26.61,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k234}心{\k65}{\k26}枯{\k16}ら{\k31}す{\k161}の{\k24}な{\k117}ら
+Dialogue: 1,0:23:19.87,0:23:26.61,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}my heart turns to stone—
+Dialogue: 0,0:23:19.87,0:23:26.61,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Kokoro karasu no nara
+Dialogue: 0,0:23:19.87,0:23:26.61,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}心枯らすのなら
+Dialogue: 0,0:23:19.87,0:23:26.61,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}my heart turns to stone—
+Dialogue: 1,0:23:26.61,0:23:33.67,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k12}{\k33}A{\k20}re{\k68}ku{\k47}ru{\k23}u {\k25}na{\k26}mi {\k45}ni {\k21}{\k65}u{\k50}ka{\k64}bu {\k75}ha{\k48}na {\k20}no {\k17}yo{\k9}u {\k38}ni
+Dialogue: 1,0:23:26.61,0:23:33.67,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k12}{\k33}荒{\k20}れ{\k115}狂{\k23}う{\k51}波{\k45}に{\k21}{\k65}浮{\k50}か{\k64}ぶ{\k123}花{\k20}の{\k17}よ{\k9}う{\k38}に
+Dialogue: 1,0:23:26.61,0:23:33.67,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}Like a flower floating on the raging waves,
+Dialogue: 0,0:23:26.61,0:23:33.67,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Arekuruu nami ni ukabu hana no you ni
+Dialogue: 0,0:23:26.61,0:23:33.67,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}荒れ狂う波に浮かぶ花のように
+Dialogue: 0,0:23:26.61,0:23:33.67,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Like a flower floating on the raging waves,
+Dialogue: 1,0:23:34.12,0:23:41.24,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k30}Lead {\k22}the {\k46}way {\k27}{\k43}a{\k15}ra{\k30}shi {\k25}wo {\k70}no{\k65}ri{\k51}ko{\k180}e{\k95}te
+Dialogue: 1,0:23:34.12,0:23:41.24,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k125}{\k88}嵐{\k25}を{\k70}乗{\k65}り{\k51}越{\k180}え{\k95}て
+Dialogue: 1,0:23:34.12,0:23:41.24,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}I will rise above the storm and lead the way
+Dialogue: 0,0:23:34.12,0:23:41.24,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Lead the way arashi wo norikoete
+Dialogue: 0,0:23:34.12,0:23:41.24,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}嵐を乗り越えて
+Dialogue: 0,0:23:34.12,0:23:41.24,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}I will rise above the storm and lead the way
+Dialogue: 1,0:23:41.45,0:23:48.46,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k10}{\k28}Ka{\k20}re{\k66}yu{\k49}ku {\k26}da{\k16}i{\k29}chi {\k43}wo {\k25}{\k70}fu{\k33}mi{\k83}shi{\k68}me{\k48}ru {\k25}yo{\k21}u {\k41}ni
+Dialogue: 1,0:23:41.45,0:23:48.46,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k10}{\k28}涸{\k20}れ{\k66}行{\k49}く{\k42}大{\k29}地{\k43}を{\k25}{\k70}踏{\k33}み{\k83}し{\k68}め{\k48}る{\k25}よ{\k21}う{\k41}に
+Dialogue: 1,0:23:41.45,0:23:48.46,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}So that I can step firmly on the withering earth...
+Dialogue: 0,0:23:41.45,0:23:48.46,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Kareyuku daichi wo fumishimeru you ni
+Dialogue: 0,0:23:41.45,0:23:48.46,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}涸れ行く大地を踏みしめるように
+Dialogue: 0,0:23:41.45,0:23:48.46,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}So that I can step firmly on the withering earth...
+Dialogue: 1,0:23:48.91,0:23:59.33,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur2}{\k32}Go {\k18}a{\k46}head {\k25}{\k45}ma{\k12}s{\k36}su{\k19}gu {\k66}a{\k74}yu{\k47}mi{\k179}da{\k191}se{\k213}ru
+Dialogue: 1,0:23:48.91,0:23:59.33,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur2\k121}{\k45}ま{\k12}っ{\k36}す{\k19}ぐ{\k140}歩{\k47}み{\k179}だ{\k191}せ{\k213}る
+Dialogue: 1,0:23:48.91,0:23:59.33,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur2}Go ahead; I'll be able to walk upright
+Dialogue: 0,0:23:48.91,0:23:59.33,Ending-Romaji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Go ahead massugu ayumidaseru
+Dialogue: 0,0:23:48.91,0:23:59.33,Ending-Kanji,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}まっすぐ歩みだせる
+Dialogue: 0,0:23:48.91,0:23:59.33,Ending-English,,0000,0000,0000,,{\fad(100,100)\blur4\bord4\3c&HFFFFFF&\1a&HFF&}Go ahead; I'll be able to walk upright
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Dialogue
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Names: Kujō Kazuya, Victorica de Blois, Glaviel de Blois, Ms. Cecil, Avril Bradley
+Dialogue: 3,0:01:32.82,0:01:37.19,Dialogue,,0000,0000,0000,,Tak jsem slyšela, že Šedý vlk je \Nv knihovně v botanické zahradě!
+Dialogue: 3,0:01:38.21,0:01:39.70,Dialogue,,0000,0000,0000,,Šedý vlk?
+Dialogue: 3,0:01:39.96,0:01:41.70,Dialogue,,0000,0000,0000,,Ne Zlatá víla?
+Dialogue: 3,0:01:41.70,0:01:43.95,Dialogue,,0000,0000,0000,,Ten příběh je starý!
+Dialogue: 3,0:01:44.31,0:01:48.09,Dialogue,,0000,0000,0000,,Zdá se, že ten vlk je opravdu inteligentní a může mluvit lidskou řečí.
+Dialogue: 3,0:01:48.52,0:01:51.60,Dialogue,,0000,0000,0000,,Říká se, že se mu líbí věci, které se třpytí!
+Dialogue: 3,0:01:52.09,0:01:56.34,Dialogue,,0000,0000,0000,,No, Šedý vlk, kterého znám já, dává přednost spíš sladkému.
+Dialogue: 3,0:01:56.72,0:01:58.42,Dialogue,,0000,0000,0000,,Tak, Kujo-kun!
+Dialogue: 3,0:01:58.42,0:02:01.64,Dialogue,,0000,0000,0000,,Budeme hledat něco jiskřivého \Na nalákáme vlka ven!
+Dialogue: 3,0:02:04.89,0:02:09.03,Dialogue,,0000,0000,0000,,Avril už si zcela zvykla \Nna akademii i na město.
+Dialogue: 3,0:02:09.03,0:02:13.11,Dialogue,,0000,0000,0000,,Někde na cestách, se naučila o Akademii víc, \Nnež vím já.
+Dialogue: 3,0:02:13.47,0:02:16.07,Dialogue,,0000,0000,0000,,Má také mnohem více přátel než já.
+Dialogue: 3,0:02:17.20,0:02:21.62,Dialogue,,0000,0000,0000,,Ale já jsem stále jediný, kdo zná Victoricu.
+Dialogue: 3,0:02:22.07,0:02:24.38,Dialogue,,0000,0000,0000,,Huh? Zajímalo by mě, co se tam děje.
+Dialogue: 3,0:02:24.38,0:02:24.91,Dialogue,,0000,0000,0000,,Podívej.
+Dialogue: 3,0:03:03.20,0:03:05.27,Dialogue,,0000,0000,0000,,Ježíši, jak nudné.
+Dialogue: 3,0:03:05.27,0:03:06.31,Dialogue,,0000,0000,0000,,Pojď.
+Dialogue: 3,0:03:06.31,0:03:07.93,Dialogue,,0000,0000,0000,,Počkej, Avril!
+Dialogue: 3,0:03:09.21,0:03:11.46,Dialogue,,0000,0000,0000,,M-moje učebnice!
+Dialogue: 3,0:03:18.36,0:03:19.64,Dialogue,,0000,0000,0000,,Um...
+Dialogue: 3,0:03:24.65,0:03:25.72,Dialogue,,0000,0000,0000,,Vau.
+Dialogue: 3,0:03:26.29,0:03:28.23,Dialogue,,0000,0000,0000,,Ale moje učebnice...
+Dialogue: 3,0:03:28.23,0:03:29.56,Dialogue,,0000,0000,0000,,Kujo-kun!
+Dialogue: 3,0:03:30.24,0:03:32.23,Dialogue,,0000,0000,0000,,Počkej na mě!
+Dialogue: 3,0:03:33.90,0:03:35.66,Dialogue,,0000,0000,0000,,Co s tím kloboukem?
+Dialogue: 3,0:03:35.66,0:03:36.64,Dialogue,,0000,0000,0000,,Dlouhá historie.
+Dialogue: 3,0:03:37.32,0:03:40.79,Dialogue,,0000,0000,0000,,Avril, můžu si tvoji učebnici později zkopírovat?
+Dialogue: 3,0:03:40.79,0:03:41.47,Dialogue,,0000,0000,0000,,Heh?
+Dialogue: 3,0:03:41.93,0:03:44.60,Dialogue,,0000,0000,0000,,Vy dva, pojďte sem a podívejte se!
+Dialogue: 3,0:03:47.90,0:03:49.52,Dialogue,,0000,0000,0000,,Ano, ano!
+Dialogue: 3,0:03:51.06,0:03:53.02,Dialogue,,0000,0000,0000,,Voní po likéru.
+Dialogue: 3,0:03:56.75,0:03:58.96,Dialogue,,0000,0000,0000,,Jaký krásný talíř!
+Dialogue: 3,0:03:59.34,0:04:02.97,Dialogue,,0000,0000,0000,,Lady Víru zde přinesla tento drážďanský talíř.
+Dialogue: 3,0:04:02.97,0:04:05.18,Dialogue,,0000,0000,0000,,Očividně je za ním kus historie.
+Dialogue: 3,0:04:06.19,0:04:08.47,Dialogue,,0000,0000,0000,,Vypadá pěkně draze.
+Dialogue: 3,0:04:08.87,0:04:10.35,Dialogue,,0000,0000,0000,,Tak co tohle?
+Dialogue: 3,0:04:10.67,0:04:12.23,Dialogue,,0000,0000,0000,,Ach, hrací skříňka?
+Dialogue: 3,0:04:17.55,0:04:19.12,Dialogue,,0000,0000,0000,,Z-zase holubi?!
+Dialogue: 3,0:04:29.44,0:04:30.69,Dialogue,,0000,0000,0000,,Victorica!
+Dialogue: 3,0:04:31.12,0:04:32.79,Dialogue,,0000,0000,0000,,Victorica!
+Dialogue: 3,0:04:34.84,0:04:36.59,Dialogue,,0000,0000,0000,,Bože, Victorica!
+Dialogue: 3,0:04:36.59,0:04:38.21,Dialogue,,0000,0000,0000,,Tady je ale nepořádek!
+Dialogue: 3,0:04:42.50,0:04:44.11,Dialogue,,0000,0000,0000,,Jsi opravdu nepořádná.
+Dialogue: 3,0:04:45.85,0:04:48.09,Dialogue,,0000,0000,0000,,Musíš si po sobě uklízet.
+Dialogue: 3,0:04:49.93,0:04:51.10,Dialogue,,0000,0000,0000,,To je klobouk?
+Dialogue: 3,0:04:51.72,0:04:53.60,Dialogue,,0000,0000,0000,,Má to prazvláštní tvar.
+Dialogue: 3,0:04:54.02,0:04:56.24,Dialogue,,0000,0000,0000,,Ach, to je suvenýr pro te—
+Dialogue: 3,0:04:57.36,0:04:58.35,Dialogue,,0000,0000,0000,,Nudné.
+Dialogue: 3,0:04:58.35,0:05:01.30,Dialogue,,0000,0000,0000,,Podívej, klobouky nejsou na hraní.
+Dialogue: 3,0:05:01.30,0:05:02.81,Dialogue,,0000,0000,0000,,Nosí se.
+Dialogue: 3,0:05:03.61,0:05:05.76,Dialogue,,0000,0000,0000,,Nebuď znuděná ještě před tím, než si ho nasadíš.
+Dialogue: 3,0:05:05.76,0:05:06.62,Dialogue,,0000,0000,0000,,Ach, pravda!
+Dialogue: 3,0:05:07.30,0:05:10.07,Dialogue,,0000,0000,0000,,Na trhu, kde jsem dostal ten klobouk,
+Dialogue: 3,0:05:10.07,0:05:12.21,Dialogue,,0000,0000,0000,,došlo k zvláštnímu odcizení.
+Dialogue: 3,0:05:12.99,0:05:14.27,Dialogue,,0000,0000,0000,,Odcizení?
+Dialogue: 3,0:05:18.14,0:05:22.21,Dialogue,,0000,0000,0000,,Už jsem si myslel že, \Nta hrací skříňka vybouchla, ale najdenou z ní vyletěli holubi!
+Dialogue: 3,0:05:22.21,0:05:24.72,Dialogue,,0000,0000,0000,,Dnešek byl jistě Den holubů.
+Dialogue: 3,0:05:24.72,0:05:26.91,Dialogue,,0000,0000,0000,,Ale co je důležitější, ten talíř!
+Dialogue: 3,0:05:26.91,0:05:29.47,Dialogue,,0000,0000,0000,,Uprostřed toho zmatku se drážďanský talíř ztratil!
+Dialogue: 3,0:05:30.80,0:05:33.38,Dialogue,,0000,0000,0000,,Jaký jednoduchý kousek.
+Dialogue: 3,0:05:33.38,0:05:36.16,Dialogue,,0000,0000,0000,,To nemůžu ani nazvat Chaosem.
+Dialogue: 3,0:05:36.16,0:05:36.72,Dialogue,,0000,0000,0000,,Vážně?!
+Dialogue: 3,0:05:37.21,0:05:39.84,Dialogue,,0000,0000,0000,,Je to tak jednoduché, že bych mohla umřít.
+Dialogue: 3,0:05:39.84,0:05:41.98,Dialogue,,0000,0000,0000,,Tyhle maličkosti jsou vážně nudné.
+Dialogue: 3,0:05:41.98,0:05:44.28,Dialogue,,0000,0000,0000,,Tak proč si alespoň nevyzkoušíš ten klobouk?
+Dialogue: 3,0:05:45.39,0:05:46.11,Dialogue,,0000,0000,0000,,Dobře.
+Dialogue: 3,0:06:01.38,0:06:03.08,Dialogue,,0000,0000,0000,,Zdravím, Veverčí mládě!
+Dialogue: 3,0:06:03.08,0:06:04.94,Dialogue,,0000,0000,0000,,Jak jemný je váš kožíšek dnes?
+Dialogue: 3,0:06:13.47,0:06:15.72,Dialogue,,0000,0000,0000,,Cordelia... Gallová?!
+Dialogue: 3,0:06:19.44,0:06:21.23,Dialogue,,0000,0000,0000,,Co propána zrovna {\i1}vy{\i0\fscx150} {\r}děláte zde?!
+Dialogue: 3,0:06:21.92,0:06:22.97,Dialogue,,0000,0000,0000,,Cordelia?
+Dialogue: 3,0:06:23.46,0:06:25.24,Dialogue,,0000,0000,0000,,Špatně. To jsem já.
+Dialogue: 3,0:06:26.41,0:06:29.38,Dialogue,,0000,0000,0000,,D-dobře! Jak zavádějící!
+Dialogue: 3,0:06:29.38,0:06:31.24,Dialogue,,0000,0000,0000,,Kdo je Cordelia Gallová?
+Dialogue: 3,0:06:31.83,0:06:35.50,Dialogue,,0000,0000,0000,,Předpokládám, že jsi tady kvůli stejné věci, Grevil.
+Dialogue: 3,0:06:36.56,0:06:40.44,Dialogue,,0000,0000,0000,,Jeptiška je jediná osoba, která by mohla ukrást ten talíř.
+Dialogue: 3,0:06:40.44,0:06:43.46,Dialogue,,0000,0000,0000,,Alespoň, pokud je pravda to, co jsi mi řekl, Kujo.
+Dialogue: 3,0:06:44.46,0:06:48.88,Dialogue,,0000,0000,0000,,Hrací skříňka byla zřízena k explozi v okamžiku, kdy si ji někdo vezme.
+Dialogue: 3,0:06:48.88,0:06:53.20,Dialogue,,0000,0000,0000,,Aby odvedla pozornost lidí ještě více, \Nvypustila holuby z pod své sukně.
+Dialogue: 3,0:06:53.20,0:06:54.43,Dialogue,,0000,0000,0000,,S-sukně...?
+Dialogue: 3,0:06:54.92,0:07:01.06,Dialogue,,0000,0000,0000,,Řádná a skromná jeptiška by nikdy \Nneseděla s rozšířenýma nohama jako muž.
+Dialogue: 3,0:07:01.06,0:07:04.90,Dialogue,,0000,0000,0000,,Musela mezi nimi schovávat holuby.
+Dialogue: 3,0:07:06.02,0:07:09.03,Dialogue,,0000,0000,0000,,Potom, zatímco lidé byli zaneprázdněni zíráním na holuby,
+Dialogue: 3,0:07:09.03,0:07:11.85,Dialogue,,0000,0000,0000,,skryla talíř pod sukni.
+Dialogue: 3,0:07:11.85,0:07:15.29,Dialogue,,0000,0000,0000,,Poté začala křičet, že talíř je pryč.
+Dialogue: 3,0:07:16.88,0:07:18.18,Dialogue,,0000,0000,0000,,Jsem poražen.
+Dialogue: 3,0:07:18.18,0:07:18.79,Dialogue,,0000,0000,0000,,Heh?
+Dialogue: 3,0:07:19.26,0:07:19.79,Dialogue,,0000,0000,0000,,Nic.
+Dialogue: 3,0:07:19.79,0:07:23.45,Dialogue,,0000,0000,0000,,Och? Slyšel jsem, že Kookaburra cvrliká někde tady. \N(druh ledňáčka)
+Dialogue: 3,0:07:23.45,0:07:24.61,Dialogue,,0000,0000,0000,,Omluvtě mě.
+Dialogue: 3,0:07:28.54,0:07:30.20,Dialogue,,0000,0000,0000,,Bože, co to bylo?
+Dialogue: 3,0:07:31.10,0:07:32.08,Dialogue,,0000,0000,0000,,Ach, pravda.
+Dialogue: 3,0:07:32.08,0:07:33.05,Dialogue,,0000,0000,0000,,Pověz mi, Victorica.
+Dialogue: 3,0:07:33.45,0:07:36.63,Dialogue,,0000,0000,0000,,Ta... Cordelia...
+Dialogue: 3,0:07:38.19,0:07:39.56,Dialogue,,0000,0000,0000,,Ach jo.
+Dialogue: 3,0:07:43.20,0:07:45.65,Dialogue,,0000,0000,0000,,"Klobouk dolů před slavným inspektorem Bloisem!"
+Dialogue: 3,0:07:45.65,0:07:49.17,Dialogue,,0000,0000,0000,,"Chybějící Drážďanský talíř, \NMísto kde byl ukryt, stále neznámé", heh?
+Dialogue: 3,0:07:50.53,0:07:52.09,Dialogue,,0000,0000,0000,,To je zvláštní.
+Dialogue: 3,0:07:52.09,0:07:57.23,Dialogue,,0000,0000,0000,,Obvykle chytí viníka skoro ihned a noviny mu pějí samou chválu.
+Dialogue: 3,0:07:58.99,0:08:00.32,Dialogue,,0000,0000,0000,,Co je to ten článek?
+Dialogue: 3,0:08:00.77,0:08:03.21,Dialogue,,0000,0000,0000,,"Oznámení o potomcích Šedých vlků"...
+Dialogue: 3,0:08:03.76,0:08:07.71,Dialogue,,0000,0000,0000,,"Vítáme potomky na \Nnadcházejícím Festivalu letního slunovratu. "
+Dialogue: 3,0:08:09.27,0:08:11.45,Dialogue,,0000,0000,0000,,Píše se, že je to ve "Vesnici Šedých vlků".
+Dialogue: 3,0:08:11.45,0:08:13.47,Dialogue,,0000,0000,0000,,Zdá se, že se tam dá dostat z města zvaného Horovitz.
+Dialogue: 3,0:08:14.02,0:08:16.35,Dialogue,,0000,0000,0000,,Podívejte se, je tu i základní mapa!
+Dialogue: 3,0:08:18.41,0:08:21.10,Dialogue,,0000,0000,0000,,Nezní "Vesnice Šedých vlků" dost záhadně?
+Dialogue: 3,0:08:21.59,0:08:24.28,Dialogue,,0000,0000,0000,,Myslel jsem, že by to mohlo rozjasnit tvou fantazii,
+Dialogue: 3,0:08:24.28,0:08:26.42,Dialogue,,0000,0000,0000,,nebo ti pomoct odvrátit tvou nudu...
+Dialogue: 3,0:08:26.42,0:08:26.98,Dialogue,,0000,0000,0000,,Heh?
+Dialogue: 3,0:08:35.15,0:08:36.59,Dialogue,,0000,0000,0000,,Uch...
+Dialogue: 3,0:08:36.59,0:08:37.73,Dialogue,,0000,0000,0000,,Victorica?
+Dialogue: 3,0:08:38.34,0:08:39.11,Dialogue,,0000,0000,0000,,To bolí.
+Dialogue: 3,0:08:39.60,0:08:40.87,Dialogue,,0000,0000,0000,,Myslím.
+Dialogue: 3,0:08:40.87,0:08:42.60,Dialogue,,0000,0000,0000,,To byl teda zvuk, když jsi spadla na podlahu.
+Dialogue: 3,0:08:42.60,0:08:45.28,Dialogue,,0000,0000,0000,,Říkám, že to bolí!
+Dialogue: 3,0:08:45.28,0:08:47.02,Dialogue,,0000,0000,0000,,Chápu, ale...
+Dialogue: 3,0:08:49.15,0:08:52.21,Dialogue,,0000,0000,0000,,Bože, to je jen proto, že jsi nechala \Nten bonbón ležet na podlaze!
+Dialogue: 3,0:08:52.21,0:08:54.69,Dialogue,,0000,0000,0000,,Převezmi zodpovědnost a sněz ho!
+Dialogue: 3,0:08:59.48,0:09:00.76,Dialogue,,0000,0000,0000,,Sněz ho!
+Dialogue: 3,0:09:02.45,0:09:03.18,Dialogue,,0000,0000,0000,,Fajn, sním ho.
+Dialogue: 3,0:09:03.84,0:09:05.22,Dialogue,,0000,0000,0000,,A až s tím skončíš,
+Dialogue: 3,0:09:05.22,0:09:07.39,Dialogue,,0000,0000,0000,,přines mi knihu, která je v osmém patře,
+Dialogue: 3,0:09:07.39,0:09:11.47,Dialogue,,0000,0000,0000,,sedmý regál, třetí police shora, \N31. svazek zprava.
+Dialogue: 3,0:09:11.47,0:09:12.65,Dialogue,,0000,0000,0000,,Dobře...
+Dialogue: 3,0:09:13.80,0:09:17.82,Dialogue,,0000,0000,0000,,Před dávnými lety, existoval v Sauville, \Njeden zvláštní nadpřirozený příběh ...
+Dialogue: 3,0:09:17.82,0:09:20.57,Dialogue,,0000,0000,0000,,...vznikl hluboko v horách, který byl jeho vliv patrný.
+Dialogue: 3,0:09:20.57,0:09:22.92,Dialogue,,0000,0000,0000,,Byl o Šedých vlcích.
+Dialogue: 3,0:09:23.53,0:09:26.67,Dialogue,,0000,0000,0000,,Jistě, z velké části \Nje to jen legenda,
+Dialogue: 3,0:09:26.67,0:09:31.55,Dialogue,,0000,0000,0000,,ale v deníku napsaném v \N16. století anglickým cestovatelem,
+Dialogue: 3,0:09:32.03,0:09:35.54,Dialogue,,0000,0000,0000,,autor tvrdí, že se setkal \Ns vlky, kteří mohli mluvit lidskou řečí.
+Dialogue: 3,0:09:32.03,0:09:33.83,Dialogue-Top,,0000,0000,0000,,Dělá kvůli tomu takový povyk.
+Dialogue: 3,0:09:36.24,0:09:39.30,Dialogue,,0000,0000,0000,,Vlci byli inteligentní, stejně jako rozumní.
+Dialogue: 3,0:09:33.83,0:09:35.54,Dialogue-Top,,0000,0000,0000,,Neustále si tře tvář...
+Dialogue: 3,0:09:39.30,0:09:43.55,Dialogue,,0000,0000,0000,,Nicméně, zatímco oni byli jen vlci ...
+Dialogue: 3,0:09:36.24,0:09:39.30,Dialogue-Top,,0000,0000,0000,,Mohla by být Victorica zvlášť citlivá na bolest?
+Dialogue: 3,0:09:43.55,0:09:44.59,Dialogue,,0000,0000,0000,,Victorica...
+Dialogue: 3,0:09:56.11,0:09:58.03,Dialogue,,0000,0000,0000,,Překvapil jsem... tě?
+Dialogue: 3,0:09:59.46,0:10:00.04,Dialogue,,0000,0000,0000,,Heh?
+Dialogue: 3,0:10:04.11,0:10:06.26,Dialogue,,0000,0000,0000,,Všechno co jsem udělal bylo, že jsem tě trochu šťouchnul.
+Dialogue: 3,0:10:06.26,0:10:08.08,Dialogue,,0000,0000,0000,,Děláš nad věcmi takový povyk!
+Dialogue: 3,0:10:13.02,0:10:15.05,Dialogue,,0000,0000,0000,,Ehm... Victorica?
+Dialogue: 3,0:10:15.99,0:10:20.05,Dialogue,,0000,0000,0000,,Kujou... Nevěděla jsem, že jsi tenhle typ člověka.
+Dialogue: 3,0:10:20.05,0:10:21.60,Dialogue,,0000,0000,0000,,O-omlouvám se.
+Dialogue: 3,0:10:21.60,0:10:23.00,Dialogue,,0000,0000,0000,,Vážně jsem tě tak moc praštil?
+Dialogue: 3,0:10:23.00,0:10:23.88,Dialogue,,0000,0000,0000,,Počkej, myslím...
+Dialogue: 3,0:10:24.50,0:10:25.25,Dialogue,,0000,0000,0000,,Promiň.
+Dialogue: 3,0:10:26.54,0:10:28.75,Dialogue,,0000,0000,0000,,Už nikdy s tebou nebudu mluvit!
+Dialogue: 3,0:10:28.75,0:10:30.21,Dialogue,,0000,0000,0000,,Skončila jsem s tebou!
+Dialogue: 3,0:10:30.21,0:10:31.10,Dialogue,,0000,0000,0000,,T-ty jsi se mnou skončila?!
+Dialogue: 3,0:10:31.10,0:10:32.75,Dialogue,,0000,0000,0000,,No tak, Victorica.
+Dialogue: 3,0:10:32.75,0:10:35.52,Dialogue,,0000,0000,0000,,To snad trochu přeháníš! Kvůli něčemu takovému...
+Dialogue: 3,0:10:39.59,0:10:40.63,Dialogue,,0000,0000,0000,,Chápu to.
+Dialogue: 3,0:10:40.63,0:10:43.36,Dialogue,,0000,0000,0000,,Takže máš ráda knihy víc než mě?
+Dialogue: 3,0:10:44.20,0:10:46.56,Dialogue,,0000,0000,0000,,Fajn. Už tu nepřijdu.
+Dialogue: 3,0:10:51.77,0:10:55.17,Dialogue,,0000,0000,0000,,Já si tě vážně nepřeji ještě někdy vidět!
+Dialogue: 3,0:10:55.88,0:10:57.47,Dialogue,,0000,0000,0000,,Victorica, ty...
+Dialogue: 3,0:11:00.92,0:11:02.70,Dialogue,,0000,0000,0000,,Victorica, ty uplakánku!
+Dialogue: 3,0:11:11.14,0:11:13.11,Dialogue,,0000,0000,0000,,Vím, že mi řekla, že se mnou končí,
+Dialogue: 3,0:11:13.11,0:11:15.63,Dialogue,,0000,0000,0000,,ale zítra jí přinesu nějaké sladkosti,
+Dialogue: 3,0:11:15.63,0:11:17.86,Dialogue,,0000,0000,0000,,to jí pravděpodobně zlepší náladu.
+Dialogue: 3,0:11:24.17,0:11:27.00,Dialogue,,0000,0000,0000,,Jak dlouho mi bude trvat přepsat tuhle učebnici?
+Dialogue: 3,0:11:36.20,0:11:37.67,Dialogue,,0000,0000,0000,,Pohybující se kufr!
+Dialogue: 3,0:11:42.72,0:11:44.93,Dialogue,,0000,0000,0000,,Kam přesně se chystáš?
+Dialogue: 3,0:11:49.15,0:11:52.45,Dialogue,,0000,0000,0000,,Ty nesmíš opustit \Nakademii bez svolení, ne?
+Dialogue: 3,0:11:52.45,0:11:55.38,Dialogue,,0000,0000,0000,,Navíc, brána je zavřená.
+Dialogue: 3,0:11:56.37,0:11:57.65,Dialogue,,0000,0000,0000,,Neumíš mluvit?
+Dialogue: 3,0:11:59.03,0:12:00.86,Dialogue,,0000,0000,0000,,Ach, ty máš opuchlinu!
+Dialogue: 3,0:12:01.36,0:12:03.37,Dialogue,,0000,0000,0000,,To je proto, že chodíš spát hned po sladkém jídle.
+Dialogue: 3,0:12:03.37,0:12:05.56,Dialogue,,0000,0000,0000,,Podívej, tvoje pravá tvář je celá oteklá.
+Dialogue: 3,0:12:05.56,0:12:06.94,Dialogue,,0000,0000,0000,,Ach! Levá taky...
+Dialogue: 3,0:12:08.36,0:12:09.45,Dialogue,,0000,0000,0000,,Je to horší a horší!
+Dialogue: 3,0:12:09.91,0:12:12.84,Dialogue,,0000,0000,0000,,Ale nemusíš si k zubaři brát všechny tyto zavazadla.
+Dialogue: 3,0:12:15.54,0:12:16.71,Dialogue,,0000,0000,0000,,Co je to za věci?!
+Dialogue: 3,0:12:17.31,0:12:18.39,Dialogue,,0000,0000,0000,,Oblečení...
+Dialogue: 3,0:12:18.39,0:12:19.70,Dialogue,,0000,0000,0000,,Toaletní potřeby...
+Dialogue: 3,0:12:19.70,0:12:21.95,Dialogue,,0000,0000,0000,,Čajová souprava a talíře?!
+Dialogue: 3,0:12:21.95,0:12:23.89,Dialogue,,0000,0000,0000,,Plyšový medvěd a ...váza?
+Dialogue: 3,0:12:23.89,0:12:24.85,Dialogue,,0000,0000,0000,,Co?
+Dialogue: 3,0:12:25.09,0:12:27.60,Dialogue,,0000,0000,0000,,Tohle je... dětská postýlka?!
+Dialogue: 3,0:12:28.86,0:12:29.99,Dialogue,,0000,0000,0000,,Počkejte chvilku.
+Dialogue: 3,0:12:29.99,0:12:31.36,Dialogue,,0000,0000,0000,,Vezmu si svou peněženku.
+Dialogue: 3,0:12:31.36,0:12:33.04,Dialogue,,0000,0000,0000,,Ukážu ti tajnou chodbu odsud.
+Dialogue: 3,0:12:33.04,0:12:36.06,Dialogue,,0000,0000,0000,,Vlastně mi o ní řekla Avril.
+Dialogue: 3,0:12:36.06,0:12:37.84,Dialogue,,0000,0000,0000,,Vezmu tě k zubaři!
+Dialogue: 3,0:12:42.92,0:12:43.48,Dialogue,,0000,0000,0000,,Počkat...
+Dialogue: 3,0:12:43.85,0:12:46.87,Dialogue,,0000,0000,0000,,Co dělám ve vlaku?
+Dialogue: 3,0:12:49.11,0:12:50.49,Dialogue,,0000,0000,0000,,Řekni, Victorica...
+Dialogue: 3,0:12:53.07,0:12:56.15,Dialogue,,0000,0000,0000,,Myslel jsem, že Victorica chtěla jít k zubaři.
+Dialogue: 3,0:12:56.15,0:12:57.80,Dialogue,,0000,0000,0000,,Ale její cíl je ve skutečnosti...
+Dialogue: 3,0:12:59.09,0:13:00.43,Dialogue,,0000,0000,0000,,Horovitz.
+Dialogue: 3,0:13:02.35,0:13:03.93,Dialogue,,0000,0000,0000,,...Horovitz.
+Dialogue: 3,0:13:03.93,0:13:07.46,Dialogue,,0000,0000,0000,,To bylo jméno města v \Nté reklamě v novinách.
+Dialogue: 3,0:13:07.46,0:13:08.46,Dialogue,,0000,0000,0000,,Vskutku...
+Dialogue: 3,0:13:10.26,0:13:11.70,Dialogue,,0000,0000,0000,,Pověz mi, Victoric—
+Dialogue: 3,0:13:11.70,0:13:13.36,Dialogue,,0000,0000,0000,,Vadilo by, kdybych se k vám přidala?
+Dialogue: 3,0:13:13.71,0:13:14.62,Dialogue,,0000,0000,0000,,Vůbec ne.
+Dialogue: 3,0:13:16.35,0:13:18.23,Dialogue,,0000,0000,0000,,Hee... to jsi ty!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Part B
+Dialogue: 3,0:13:20.45,0:13:23.39,Dialogue,,0000,0000,0000,,Vidím, že míříme na stejné místo!
+Dialogue: 3,0:13:23.39,0:13:24.61,Dialogue,,0000,0000,0000,,Také jedu do města Horovitz.
+Dialogue: 3,0:13:24.61,0:13:27.05,Dialogue,,0000,0000,0000,,Ach. Horovitz, heh?
+Dialogue: 3,0:13:27.78,0:13:28.49,Dialogue,,0000,0000,0000,,Ehm...
+Dialogue: 3,0:13:28.94,0:13:30.57,Dialogue,,0000,0000,0000,,Jsem Mildred.
+Dialogue: 3,0:13:30.57,0:13:34.53,Dialogue,,0000,0000,0000,,Byla jsem ... eh ... povýšena v tomto městě.
+Dialogue: 3,0:13:34.53,0:13:35.51,Dialogue,,0000,0000,0000,,To je proč...
+Dialogue: 3,0:13:37.95,0:13:40.76,Dialogue,,0000,0000,0000,,Ach, to je pravda. Co se stalo potom?
+Dialogue: 3,0:13:40.76,0:13:42.12,Dialogue,,0000,0000,0000,,S tím ukradeným talířem...
+Dialogue: 3,0:13:43.19,0:13:44.65,Dialogue,,0000,0000,0000,,Kdo ví?
+Dialogue: 3,0:13:44.65,0:13:45.76,Dialogue,,0000,0000,0000,,To bylo naposledy co jsem ho viděla.
+Dialogue: 3,0:13:45.76,0:13:47.47,Dialogue,,0000,0000,0000,,Byla jsem seřvána, věřte mi.
+Dialogue: 3,0:13:48.97,0:13:50.11,Dialogue,,0000,0000,0000,,Ach, podívejte.
+Dialogue: 3,0:13:50.11,0:13:51.58,Dialogue,,0000,0000,0000,,Už jsme skoro tam.
+Dialogue: 3,0:14:00.64,0:14:02.36,Dialogue,,0000,0000,0000,,Dnes večer bude bouřka.
+Dialogue: 3,0:14:04.84,0:14:07.24,Dialogue,,0000,0000,0000,,V noci jako je tato, přicházejí vlci.
+Dialogue: 3,0:14:08.03,0:14:08.86,Dialogue,,0000,0000,0000,,Vlci?
+Dialogue: 3,0:14:09.45,0:14:11.34,Dialogue,,0000,0000,0000,,Šedí vlci.
+Dialogue: 3,0:14:11.34,0:14:15.65,Dialogue,,0000,0000,0000,,Hluboko v horách v této oblasti \Nje Vesnice Šedých vlků.
+Dialogue: 3,0:14:15.65,0:14:19.58,Dialogue,,0000,0000,0000,,Za nocí, kdy je silný vítr, \Nsestupují z hor na lov lidí.
+Dialogue: 3,0:14:22.11,0:14:27.06,Dialogue,,0000,0000,0000,,Ten mrtvý pták co visí venku, \N odhání Šedé vlky pryč.
+Dialogue: 3,0:14:27.90,0:14:31.05,Dialogue,,0000,0000,0000,,Vy dva jste sem přišli poté, co jste uviděli inzerát?
+Dialogue: 3,0:14:31.42,0:14:32.86,Dialogue,,0000,0000,0000,,Pak je tu více lidí?
+Dialogue: 3,0:14:32.86,0:14:37.18,Dialogue,,0000,0000,0000,,Jo, všichni jsou nadšeni \Nz jízdy autem do hor.
+Dialogue: 3,0:14:37.18,0:14:39.69,Dialogue,,0000,0000,0000,,Ale stoupání je příliš strmé, takže je to nemožné.
+Dialogue: 3,0:14:40.64,0:14:45.44,Dialogue,,0000,0000,0000,,Buďte opatrní, \Nna zuřivé Šedé vlky.
+Dialogue: 3,0:14:45.84,0:14:48.93,Dialogue,,0000,0000,0000,,Ehm, proč lidé zvýšují počet vlků v té vesnici?
+Dialogue: 3,0:14:48.93,0:14:51.95,Dialogue,,0000,0000,0000,,Ne! Oni jsou lidé.
+Dialogue: 3,0:14:53.07,0:14:56.60,Dialogue,,0000,0000,0000,,Se zvlněnými zlatými vlasy a růžovými tvářemi.
+Dialogue: 3,0:14:56.60,0:15:01.33,Dialogue,,0000,0000,0000,,Jsou malí a vypadají \Nvšichni stejně, bez výjimky.
+Dialogue: 3,0:15:04.09,0:15:06.09,Dialogue,,0000,0000,0000,,Ano, stejně jako...
+Dialogue: 3,0:15:06.61,0:15:08.26,Dialogue,,0000,0000,0000,,Stejně jako ona.
+Dialogue: 3,0:15:08.70,0:15:12.05,Dialogue,,0000,0000,0000,,Klidní a děsiví Šedí vlci...
+Dialogue: 3,0:15:13.27,0:15:14.63,Dialogue,,0000,0000,0000,,Victorica...
+Dialogue: 3,0:15:18.10,0:15:21.10,Dialogue,,0000,0000,0000,,Promiňte? Ráda bych další přikrývku.
+Dialogue: 3,0:15:21.64,0:15:26.04,Dialogue,,0000,0000,0000,,Ach, ochladí se, když příjde noc.
+Dialogue: 3,0:15:26.04,0:15:26.98,Dialogue,,0000,0000,0000,,Všimla jsem si.
+Dialogue: 3,0:15:27.67,0:15:30.06,Dialogue,,0000,0000,0000,,Můžu si půjčit váš telefon?
+Dialogue: 3,0:15:30.06,0:15:31.12,Dialogue,,0000,0000,0000,,Jistě.
+Dialogue: 3,0:15:32.05,0:15:32.71,Dialogue,,0000,0000,0000,,Heh?
+Dialogue: 3,0:15:33.19,0:15:35.33,Dialogue,,0000,0000,0000,,Řekla, že je z tohoto města...
+Dialogue: 3,0:15:35.33,0:15:36.97,Dialogue,,0000,0000,0000,,Neměli by se navzájem znát?
+Dialogue: 3,0:15:37.63,0:15:37.98,Dialogue,,0000,0000,0000,,Och!
+Dialogue: 3,0:15:38.56,0:15:39.94,Dialogue,,0000,0000,0000,,Počkej, odnesu ti zavazadla!
+Dialogue: 3,0:16:04.72,0:16:05.70,Dialogue,,0000,0000,0000,,Vlk...?
+Dialogue: 3,0:16:11.34,0:16:13.45,Dialogue,,0000,0000,0000,,Och, Victorica.
+Dialogue: 3,0:16:13.83,0:16:15.07,Dialogue,,0000,0000,0000,,Slyšela jsi taky to vytí?
+Dialogue: 3,0:16:15.72,0:16:19.69,Dialogue,,0000,0000,0000,,Dobře... veverka vylezla z klobouku.
+Dialogue: 3,0:16:20.17,0:16:21.88,Dialogue,,0000,0000,0000,,He? O čem to mluvíš?
+Dialogue: 3,0:16:22.28,0:16:24.97,Dialogue,,0000,0000,0000,,Zeptej se veverky.
+Dialogue: 3,0:16:24.97,0:16:26.37,Dialogue,,0000,0000,0000,,Veverčím jazykem...
+Dialogue: 3,0:16:26.75,0:16:27.96,Dialogue,,0000,0000,0000,,Ještě stále se probouzíš?
+Dialogue: 3,0:16:28.28,0:16:31.59,Dialogue,,0000,0000,0000,,I když, jsem rád, že se mnou zase mluvíš...
+Dialogue: 3,0:16:45.06,0:16:45.56,Dialogue,,0000,0000,0000,,Victorica!
+Dialogue: 3,0:16:51.99,0:16:52.49,Dialogue,,0000,0000,0000,,Počkej!
+Dialogue: 3,0:16:52.99,0:16:54.84,Dialogue,,0000,0000,0000,,Uklidni se, Victorica!
+Dialogue: 3,0:16:54.84,0:16:55.89,Dialogue,,0000,0000,0000,,Nech mě zeptat se na jednu věc!
+Dialogue: 3,0:16:56.36,0:16:58.12,Dialogue,,0000,0000,0000,,Proč jsi sem přišla?!
+Dialogue: 3,0:17:03.56,0:17:07.25,Dialogue,,0000,0000,0000,,Ty jsi ta, kdo mi řekla, že bychom \Nneměli opouštět akademii ...
+Dialogue: 3,0:17:08.32,0:17:10.44,Dialogue,,0000,0000,0000,,Ale tím, že jsi sem přišla, jsi to porušila.
+Dialogue: 3,0:17:10.94,0:17:12.32,Dialogue,,0000,0000,0000,,To je ten důvod, že?
+Dialogue: 3,0:17:13.89,0:17:15.51,Dialogue,,0000,0000,0000,,Nechceš mi to říct?
+Dialogue: 3,0:17:15.51,0:17:17.39,Dialogue,,0000,0000,0000,,To mě tak nenávidíš?
+Dialogue: 3,0:17:18.14,0:17:20.87,Dialogue,,0000,0000,0000,,Jednou jsem ti řekl, pamatuješ?
+Dialogue: 3,0:17:20.87,0:17:24.60,Dialogue,,0000,0000,0000,,Že jsi jedna z mála mých přátel...
+Dialogue: 3,0:17:40.02,0:17:42.37,Dialogue,,0000,0000,0000,,Budeš promočená, pokud si necháš okno otevřené.
+Dialogue: 3,0:17:44.22,0:17:45.37,Dialogue,,0000,0000,0000,,Jdu dovnitř.
+Dialogue: 3,0:17:46.00,0:17:47.33,Dialogue,,0000,0000,0000,,Prostě zavřu to okno.
+Dialogue: 3,0:17:52.61,0:17:54.00,Dialogue,,0000,0000,0000,,Já...
+Dialogue: 3,0:17:55.70,0:17:58.13,Dialogue,,0000,0000,0000,,Přišla jsem dokázat něčí nevinu.
+Dialogue: 3,0:18:02.68,0:18:04.47,Dialogue,,0000,0000,0000,,Victorica, proč ty—
+Dialogue: 3,0:18:03.39,0:18:04.47,Dialogue-Alt,,0000,0000,0000,,Počkej!
+Dialogue: 3,0:18:04.83,0:18:06.66,Dialogue,,0000,0000,0000,,P-počkat, co—
+Dialogue: 3,0:18:06.66,0:18:08.22,Dialogue,,0000,0000,0000,,Počkej! Počkej!
+Dialogue: 3,0:18:08.22,0:18:09.10,Dialogue,,0000,0000,0000,,Počkej!
+Dialogue: 3,0:18:09.85,0:18:11.22,Dialogue,,0000,0000,0000,,Nejsem pes!
+Dialogue: 3,0:18:18.97,0:18:22.51,Dialogue,,0000,0000,0000,,To jsi... ty?
+Dialogue: 3,0:18:25.44,0:18:27.35,Dialogue,,0000,0000,0000,,Cordelia Gallová.
+Dialogue: 3,0:18:27.35,0:18:28.71,Dialogue,,0000,0000,0000,,Moje matka.
+Dialogue: 3,0:18:32.10,0:18:33.82,Dialogue,,0000,0000,0000,,Moje matka byla tanečnice.
+Dialogue: 3,0:18:34.81,0:18:37.51,Dialogue,,0000,0000,0000,,Měla na sobě šaty z vlněné tkaniny a exotický make-up.
+Dialogue: 3,0:18:38.30,0:18:42.30,Dialogue,,0000,0000,0000,,A přišla do Vesnice Šedých vlků.
+Dialogue: 3,0:18:42.74,0:18:48.35,Dialogue,,0000,0000,0000,,Markýz de Blois jí řekl, že chce zavést jedinečnou schopnost Šedých vlků do své pokrevní linie.
+Dialogue: 3,0:18:48.89,0:18:52.46,Dialogue,,0000,0000,0000,,A tak udělal z Cordelie svou ženu.
+Dialogue: 3,0:18:52.46,0:18:54.45,Dialogue,,0000,0000,0000,,Já se narodila brzy po tom.
+Dialogue: 3,0:18:55.02,0:18:55.90,Dialogue,,0000,0000,0000,,Nicméně...
+Dialogue: 3,0:18:56.78,0:19:00.46,Dialogue,,0000,0000,0000,,Markýz se dozvěděl o tajemství mé matky.
+Dialogue: 3,0:19:02.70,0:19:03.62,Dialogue,,0000,0000,0000,,Tajemství?
+Dialogue: 3,0:19:04.34,0:19:06.24,Dialogue,,0000,0000,0000,,Moje matka byla zločinec.
+Dialogue: 3,0:19:07.11,0:19:08.37,Dialogue,,0000,0000,0000,,Zločinec?!
+Dialogue: 3,0:19:09.96,0:19:15.11,Dialogue,,0000,0000,0000,,Pracovala jako služka ve Vesnici Šedých vlků.
+Dialogue: 3,0:19:15.11,0:19:19.51,Dialogue,,0000,0000,0000,,Ale jedné noci spáchala hrozný zločin a byla vyhnána z vesnice.
+Dialogue: 3,0:19:20.12,0:19:22.79,Dialogue,,0000,0000,0000,,Když se Markýz de Blois dozvěděl pravdu,
+Dialogue: 3,0:19:22.79,0:19:26.51,Dialogue,,0000,0000,0000,,litoval zavádění naší prokleté krve do jeho pokrevní linie.
+Dialogue: 3,0:19:27.26,0:19:32.16,Dialogue,,0000,0000,0000,,Moje matka utekla a brzy padla v První světové válce, která zrovna začala.
+Dialogue: 3,0:19:32.89,0:19:36.48,Dialogue,,0000,0000,0000,,Pokud jde o mě, byla jsem omezena na život ve věži.
+Dialogue: 3,0:19:38.34,0:19:43.52,Dialogue,,0000,0000,0000,,Příčina toho všeho sahá až do noci, \Nkdy má matka spáchala ten hrozný zločin.
+Dialogue: 3,0:19:44.48,0:19:46.07,Dialogue,,0000,0000,0000,,Kdyby nebylo toho činu,
+Dialogue: 3,0:19:46.07,0:19:48.42,Dialogue,,0000,0000,0000,,nikdy by nebyla vypovězena z vesnice.
+Dialogue: 3,0:19:50.01,0:19:53.12,Dialogue,,0000,0000,0000,,A já bych se nikdy nenarodila.
+Dialogue: 3,0:19:54.17,0:19:55.25,Dialogue,,0000,0000,0000,,Tohle jsem nechtěl!
+Dialogue: 3,0:19:58.03,0:20:00.13,Dialogue,,0000,0000,0000,,Promiň. Já prostě...
+Dialogue: 3,0:20:01.86,0:20:02.89,Dialogue,,0000,0000,0000,,Ale...
+Dialogue: 3,0:20:06.70,0:20:08.54,Dialogue,,0000,0000,0000,,C-co?!
+Dialogue: 3,0:20:08.54,0:20:11.30,Dialogue,,0000,0000,0000,,Jsi zábavný, Kujou.
+Dialogue: 3,0:20:11.30,0:20:12.69,Dialogue,,0000,0000,0000,,Dobře, jsem rád, že jsem tě pobavil!
+Dialogue: 3,0:20:13.34,0:20:14.69,Dialogue,,0000,0000,0000,,Nech mě podívat se na tvé čelo.
+Dialogue: 3,0:20:16.91,0:20:18.33,Dialogue,,0000,0000,0000,,Au!
+Dialogue: 3,0:20:21.46,0:20:25.69,Dialogue,,0000,0000,0000,,Já nevěřím, že Cordelia skutečně spáchala trestný čin.
+Dialogue: 3,0:20:26.05,0:20:27.66,Dialogue,,0000,0000,0000,,Tohle je válka...
+Dialogue: 3,0:20:28.69,0:20:31.66,Dialogue,,0000,0000,0000,,Mezi Vesnicí Šedých vlků a jí.
+Dialogue: 3,0:20:33.83,0:20:37.81,Dialogue,,0000,0000,0000,,A já nepůjdu domů dokud Cordelia Gallová nevyhraje.
+Dialogue: 3,0:20:43.48,0:20:45.04,Dialogue,,0000,0000,0000,,Rád tě poznávám. Jsem Alan.
+Dialogue: 3,0:20:45.40,0:20:48.43,Dialogue,,0000,0000,0000,,Tohle je Raoul a támhle Derek.
+Dialogue: 3,0:20:48.43,0:20:50.03,Dialogue,,0000,0000,0000,,Z-zdravím.
+Dialogue: 3,0:20:50.03,0:20:53.94,Dialogue,,0000,0000,0000,,Hej, jsi si jistý, že ta vesnice \Nje na konci téhle horské stezky?
+Dialogue: 3,0:20:53.94,0:20:55.52,Dialogue,,0000,0000,0000,,A to říkali že je nemožné ji vyjet.
+Dialogue: 3,0:21:13.56,0:21:15.08,Dialogue,,0000,0000,0000,,Tak to je působivé.
+Dialogue: 3,0:21:21.54,0:21:24.36,Dialogue,,0000,0000,0000,,Vrátím se zítra večer, abych vás vyzvednul.
+Dialogue: 3,0:21:24.68,0:21:25.83,Dialogue,,0000,0000,0000,,Naschle.
+Dialogue: 3,0:21:25.83,0:21:27.50,Dialogue,,0000,0000,0000,,Ach! Počkejte chvilku!
+Dialogue: 3,0:21:42.07,0:21:43.63,Dialogue,,0000,0000,0000,,H-Hej...
+Dialogue: 3,0:21:43.63,0:21:46.06,Dialogue,,0000,0000,0000,,Co je to s tím vřelým přivítáním?!
+Dialogue: 3,0:21:47.34,0:21:49.07,Dialogue,,0000,0000,0000,,Cordeliina dcera.
+Dialogue: 3,0:21:49.07,0:21:50.38,Dialogue,,0000,0000,0000,,Její věrný obraz.
+Dialogue: 3,0:21:50.38,0:21:52.06,Dialogue,,0000,0000,0000,,Podívejte se na tu tvář!
+Dialogue: 3,0:21:52.06,0:21:52.91,Dialogue,,0000,0000,0000,,To je špatné znamení...
+Dialogue: 3,0:22:04.50,0:22:05.70,Dialogue,,0000,0000,0000,,Zadržte!
+Dialogue: 3,0:22:08.60,0:22:09.81,Dialogue,,0000,0000,0000,,Starší!
+Dialogue: 3,0:22:10.87,0:22:14.56,Dialogue,,0000,0000,0000,,Je to potomek, který četl naši zprávu a přišlel sem.
+Dialogue: 3,0:22:15.06,0:22:16.96,Dialogue,,0000,0000,0000,,Nemáme žádný důvod ji vyhánět.
+Dialogue: 3,0:22:18.28,0:22:21.64,Dialogue,,0000,0000,0000,,Ve skutečnosti, její příjezd je něco, co \Noslavíme na Festivalu letního slunovratu.
+Dialogue: 3,0:22:22.17,0:22:25.44,Dialogue,,0000,0000,0000,,I když je její matka Cordelia...
+Dialogue: 3,0:22:25.89,0:22:28.41,Dialogue,,0000,0000,0000,,...vražedkyně.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Preview
+Dialogue: 3,0:24:06.60,0:24:11.63,Dialogue,,0000,0000,0000,,Přišla jsem dokázat Cordeliinu nevinu.
+Dialogue: 3,0:24:12.82,0:24:16.10,Dialogue,,0000,0000,0000,,Byla jsem zde jednoduše zametena.

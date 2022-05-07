@@ -1,0 +1,820 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 0
+PlayResY: 0
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,16,&H00ffffff,&H0000ffff,&HA0000000,&HA0000000,-1,0,0,0,100,100,0,0.00,1,1,1,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:20.39,0:00:22.02,Default,,0000,0000,0000,,Tato osoba je jako vlk. 
+Dialogue: 0,0:00:22.52,0:00:24.51,Default,,0000,0000,0000,,Tato osoba je vlk.
+Dialogue: 0,0:00:24.59,0:00:28.29,Default,,0000,0000,0000,,Tudíž je to osoba, která byla vypovězena.{Sore yue ni tsuihousareta mono dearu.}
+Dialogue: 0,0:00:42.89,0:00:45.65,Default,,0000,0000,0000,,Desetiletí po velké porážce...
+Dialogue: 0,0:00:46.32,0:00:50.02,Default,,0000,0000,0000,,...náš národ konečně překonal\Nchaos...
+Dialogue: 0,0:00:50.09,0:00:52.95,Default,,0000,0000,0000,,...a zmatek\Nokupačního řádu.
+Dialogue: 0,0:00:53.02,0:00:57.25,Default,,0000,0000,0000,,Ač úspěšná, politika\Nagresivního ekonomického růstu...
+Dialogue: 0,0:00:57.32,0:01:01.41,Default,,0000,0000,0000,,...zaměřená na znovuobnovení národa\Na dohnání světa,...
+Dialogue: 0,0:01:01.41,0:01:05.37,Default,,0000,0000,0000,,...vedla rovněž k vážným sociálním nepokojům\Na mnoho obyvatel čelilo ekonomickým obtížím.
+Dialogue: 0,0:01:08.65,0:01:12.45,Default,,0000,0000,0000,,Obrovská nezaměstnanost a\N migrace do měst měly za následek...
+Dialogue: 0,0:01:12.51,0:01:15.41,Default,,0000,0000,0000,,...přeměnu velkých oblastí\Nuvnitř měst ve slumy,...
+Dialogue: 0,0:01:15.48,0:01:18.00,Default,,0000,0000,0000,,...živnou půdu\Ndivokého zločinu.
+Dialogue: 0,0:01:18.08,0:01:21.98,Default,,0000,0000,0000,,Ještě zlověstnější byl vzestup\Nozbrojených protivládních skupin...
+Dialogue: 0,0:01:22.04,0:01:23.87,Default,,0000,0000,0000,,...usilujících o násilnou\Nzměnu společnosti.
+Dialogue: 0,0:01:23.94,0:01:27.88,Default,,0000,0000,0000,,Tyto skupiny byly tak mocné,\Nže místní policejní úřady...
+Dialogue: 0,0:01:28.21,0:01:31.50,Default,,0000,0000,0000,,...jim nebyly schopné čelit, což\Nvyvolalo vážné obavy o veřejnou bezpečnost.
+Dialogue: 0,0:01:32.57,0:01:35.63,Default,,0000,0000,0000,,Aby se vyhnula porušení\Nnové ústavy,...
+Dialogue: 0,0:01:35.70,0:01:38.87,Default,,0000,0000,0000,,...která omezovala použití\Nsebeobranných sil...
+Dialogue: 0,0:01:38.93,0:01:41.40,Default,,0000,0000,0000,,...a aby zabránila místním policejním silám\N ve vytvoření celonárodní síly,...
+Dialogue: 0,0:01:41.47,0:01:44.63,Default,,0000,0000,0000,,...zvolila vláda\Nnáhradní cestu.
+Dialogue: 0,0:01:45.77,0:01:49.20,Default,,0000,0000,0000,,Svými aktivitami omezená\Nna hlavní město,...
+Dialogue: 0,0:01:49.26,0:01:52.39,Default,,0000,0000,0000,,...byla založena\Nnová polovojenská organizace...
+Dialogue: 0,0:01:52.46,0:01:56.23,Default,,0000,0000,0000,,...pod přímým velením\NNárodní bezpečnostní komise.
+Dialogue: 0,0:01:56.30,0:01:59.73,Default,,0000,0000,0000,,To byl zrod\NÚstřední policejní jednotky...
+Dialogue: 0,0:01:59.79,0:02:02.19,Default,,0000,0000,0000,,...neboli Ústřední policie.
+Dialogue: 0,0:02:03.66,0:02:07.32,Default,,0000,0000,0000,,Vysoce pohyblivá a těžce ozbrojená...
+Dialogue: 0,0:02:07.39,0:02:10.66,Default,,0000,0000,0000,,...Ústřední policie rychle\Nrozšířila svoji moc...
+Dialogue: 0,0:02:10.72,0:02:16.22,Default,,0000,0000,0000,,...a prohlásila se\Nochráncem veřejného pořádku.
+Dialogue: 0,0:02:17.22,0:02:21.02,Default,,0000,0000,0000,,Nicméně, pod tlakem zákazů a dalších\Nprávních omezení...
+Dialogue: 0,0:02:21.09,0:02:22.88,Default,,0000,0000,0000,,...byly nepřátelské protivládní síly...
+Dialogue: 0,0:02:22.95,0:02:26.12,Default,,0000,0000,0000,,...donuceny stáhnout se do podzemí,\Npřičemž se rozpadaly a znovu seskupovaly.
+Dialogue: 0,0:02:26.19,0:02:28.42,Default,,0000,0000,0000,,Nakonec...
+Dialogue: 0,0:02:28.49,0:02:32.01,Default,,0000,0000,0000,,...se vynořila jediná odbojová skupina,\Nznámá jako "Frakce",...
+Dialogue: 0,0:02:32.08,0:02:35.48,Default,,0000,0000,0000,,...a situace se\Ndramaticky změnila.
+Dialogue: 0,0:02:36.98,0:02:39.51,Default,,0000,0000,0000,,Stále násilnější střety\Nmezi Frakcí a...
+Dialogue: 0,0:02:39.58,0:02:43.18,Default,,0000,0000,0000,,..."Speciální jednotkou"\NÚstřední policie...
+Dialogue: 0,0:02:43.25,0:02:47.01,Default,,0000,0000,0000,,...často obrátily ulice\Nv městské válečné zóny.
+Dialogue: 0,0:02:47.78,0:02:50.27,Default,,0000,0000,0000,,To vedlo k odporu\Nrozlícené veřejnosti.
+Dialogue: 0,0:02:55.34,0:02:57.50,Default,,0000,0000,0000,,Zatímco společnost začala\Nhledět směrem k budoucnosti...
+Dialogue: 0,0:02:57.58,0:02:59.63,Default,,0000,0000,0000,,...a ekonomické prosperitě,\Nkterou jí slibovala,...
+Dialogue: 0,0:02:59.71,0:03:02.97,Default,,0000,0000,0000,,...Speciální jednotka a\Njejí nepřítel Frakce...
+Dialogue: 0,0:03:03.04,0:03:06.74,Default,,0000,0000,0000,,...stály více a více na okraji společnosti.
+Dialogue: 0,0:03:07.41,0:03:09.77,Default,,0000,0000,0000,,Speciální jednotka,\Nkdysi známá jako "Kerberos"...
+Dialogue: 0,0:03:09.84,0:03:11.90,Default,,0000,0000,0000,,...kvůli svým zbraním a pancéřovému brnění,...
+Dialogue: 0,0:03:11.97,0:03:16.07,Default,,0000,0000,0000,,...dlouze a neúnavně\Nbojovala pro národ.
+Dialogue: 0,0:03:16.57,0:03:19.26,Default,,0000,0000,0000,,Právě když byla na cestě stát se\Njen další stranou v knize historie...
+Dialogue: 0,0:03:19.33,0:03:21.63,Default,,0000,0000,0000,,...měnící se časy\Njí přinesly...
+Dialogue: 0,0:03:21.70,0:03:26.57,Default,,0000,0000,0000,,...nový a rozhodující úkol.
+Dialogue: 0,0:03:29.26,0:03:34.63,Default,,0000,0000,0000,,{\fn20\c&H130695&}Jin-Roh\NVlčí brigáda
+Dialogue: 0,0:03:48.47,0:03:50.49,Default,,0000,0000,0000,,Chcípněte, vy špinavý svině!
+Dialogue: 0,0:03:51.47,0:03:56.43,Default,,0000,0000,0000,,Tady policie.\NNeprodleně se rozejděte!
+Dialogue: 0,0:03:59.93,0:04:02.66,Default,,0000,0000,0000,,Vzdušná hlídková jednotka,\NHoishrech 12 podává hlášení.
+Dialogue: 0,0:04:02.73,0:04:05.36,Default,,0000,0000,0000,,Asi 3 000 demonstrantů\Nobsadilo křižovatku Akasaka číslo 4.
+Dialogue: 0,0:04:05.20,0:04:08.20,Default,,0000,0000,0000,,{\fn20\c&H130695&\an8}České titulky: shinji/www.manga.cz\Nverze z 19.7.2002
+Dialogue: 0,0:04:05.43,0:04:07.86,Default,,0000,0000,0000,,Probíhají nepokoje.\NPostupujte obezřetně.
+Dialogue: 0,0:04:07.93,0:04:08.86,Default,,0000,0000,0000,,Opakuji.
+Dialogue: 0,0:04:10.00,0:04:13.50,Default,,0000,0000,0000,,{\fn20\c&H130695&\an8}Korektury: Lišák, Viki, Watashi Riko, Roger
+Dialogue: 0,0:04:08.93,0:04:11.00,Default,,0000,0000,0000,,Asi 3 000 demonstrantů\Nobsadilo křížovatku Akasaka číslo 4.
+Dialogue: 0,0:04:11.20,0:04:13.00,Default,,0000,0000,0000,,Probíhají nepokoje.
+Dialogue: 0,0:05:18.07,0:05:19.40,Default,,0000,0000,0000,,Lékaře! Rychle!
+Dialogue: 0,0:05:20.07,0:05:21.47,Default,,0000,0000,0000,,Tohle není normální Molotov!
+Dialogue: 0,0:05:22.10,0:05:24.04,Default,,0000,0000,0000,,Jak k nim tady mohli přijít?
+Dialogue: 0,0:05:25.13,0:05:27.93,Default,,0000,0000,0000,,Co dělali, když to tu zabezpečovali?\NSpali?!
+Dialogue: 0,0:05:35.46,0:05:37.26,Default,,0000,0000,0000,,Speciální Molotovovy koktejly.
+Dialogue: 0,0:05:37.33,0:05:40.03,Default,,0000,0000,0000,,Máme jich spoustu.\NUkažte jim, jak vypadá peklo.
+Dialogue: 0,0:05:40.73,0:05:44.43,Default,,0000,0000,0000,,Právě jsem se dozvěděl, že skupina u Shibuye\Nse propracovává směrem k nám.
+Dialogue: 0,0:05:44.69,0:05:45.89,Default,,0000,0000,0000,,Buďte připraveni.
+Dialogue: 0,0:06:01.39,0:06:03.88,Default,,0000,0000,0000,,Dárek pro tvou babičku.\NVem si ho.
+Dialogue: 0,0:06:28.98,0:06:30.41,Default,,0000,0000,0000,,Stáhněte řadu zpátky!
+Dialogue: 0,0:06:30.48,0:06:32.38,Default,,0000,0000,0000,,Přesuňte vozy dopředu!
+Dialogue: 0,0:06:32.45,0:06:34.14,Default,,0000,0000,0000,,Pošlete tam vodní děla!
+Dialogue: 0,0:06:34.21,0:06:35.61,Default,,0000,0000,0000,,Nasměrujte proud vody tak,...
+Dialogue: 0,0:06:35.68,0:06:37.84,Default,,0000,0000,0000,,...aby je to udrželo\Nz dosahu!
+Dialogue: 0,0:06:38.04,0:06:41.94,Default,,0000,0000,0000,,Obdrželi jsme naléhavou zprávu\Nod Jednotky 2 na cestě k Shibuyi.
+Dialogue: 0,0:06:42.01,0:06:44.77,Default,,0000,0000,0000,,Asi 2 000 demonstrantů,\Nkteří mířili do parku Yoyogi...
+Dialogue: 0,0:06:44.84,0:06:48.14,Default,,0000,0000,0000,,...změnilo směr.\NTeď jdou k nám!
+Dialogue: 0,0:06:48.57,0:06:50.41,Default,,0000,0000,0000,,Nenechte je se spojit.
+Dialogue: 0,0:06:50.41,0:06:52.20,Default,,0000,0000,0000,,Rozestavte Prapor C\Na zabarikádujte...
+Dialogue: 0,0:06:52.27,0:06:54.24,Default,,0000,0000,0000,,...Trojcestí!
+Dialogue: 0,0:07:11.30,0:07:12.89,Default,,0000,0000,0000,,Je to jasný manévr na odvedení pozornosti.
+Dialogue: 0,0:07:12.96,0:07:14.96,Default,,0000,0000,0000,,Bez záložního praporu,...
+Dialogue: 0,0:07:15.03,0:07:16.96,Default,,0000,0000,0000,,...jakmile si protestující\Nprolomí cestu,...
+Dialogue: 0,0:07:17.03,0:07:18.46,Default,,0000,0000,0000,,...nezbyde jim nic jiného\Nnež se stáhnout.
+Dialogue: 0,0:07:19.23,0:07:22.72,Default,,0000,0000,0000,,A pokud se s nimi spojí těch 2 000\Nprotestujících?
+Dialogue: 0,0:07:22.79,0:07:24.46,Default,,0000,0000,0000,,To jen přileje olej do ohně.
+Dialogue: 0,0:07:24.66,0:07:25.46,Default,,0000,0000,0000,,Podívejte.
+Dialogue: 0,0:07:25.59,0:07:26.79,Default,,0000,0000,0000,,Sledujte, jak hoří.
+Dialogue: 0,0:07:26.86,0:07:30.46,Default,,0000,0000,0000,,V těch Molotovech je hořčíková nebo\Nnapalmová výbušnina.
+Dialogue: 0,0:07:30.99,0:07:33.15,Default,,0000,0000,0000,,Myslíte, že jsou to členové Frakce?
+Dialogue: 0,0:07:33.22,0:07:34.21,Default,,0000,0000,0000,,Je to možné.
+Dialogue: 0,0:07:34.29,0:07:36.55,Default,,0000,0000,0000,,Ale není to nic víc než jen dav.
+Dialogue: 0,0:07:36.62,0:07:39.25,Default,,0000,0000,0000,,Pokud začneme střílet, rozprchnou se\Npři prvním útoku.
+Dialogue: 0,0:07:39.32,0:07:42.79,Default,,0000,0000,0000,,Bylo by hezké, kdyby se jim podařilo\Nněkteré z nich chytnout.
+Dialogue: 0,0:07:42.79,0:07:46.22,Default,,0000,0000,0000,,Pokud si ale dají na čas,\Ntak přijdou o moment překvapení z prvního útoku.
+Dialogue: 0,0:07:46.75,0:07:47.65,Default,,0000,0000,0000,,Neměli bychom zakročit?
+Dialogue: 0,0:07:47.72,0:07:50.19,Default,,0000,0000,0000,,Naše dohoda\Ns místní policií...
+Dialogue: 0,0:07:50.25,0:07:52.15,Default,,0000,0000,0000,,...nám k tomu\Nnedává pravomoc.
+Dialogue: 0,0:07:52.92,0:07:54.85,Default,,0000,0000,0000,,Počkejme a prozatím jen pozorujme.
+Dialogue: 0,0:08:03.48,0:08:04.61,Default,,0000,0000,0000,,Tady je tvůj dárek.
+Dialogue: 0,0:08:04.68,0:08:06.65,Default,,0000,0000,0000,,Chovej se k němu jemně a použij ho dobře.
+Dialogue: 0,0:08:52.96,0:08:54.12,Default,,0000,0000,0000,,Lékaře! Rychle!
+Dialogue: 0,0:08:56.03,0:08:57.59,Default,,0000,0000,0000,,To byla brašna s náloží!
+Dialogue: 0,0:08:58.43,0:09:00.09,Default,,0000,0000,0000,,Zatkněte je všechny!
+Dialogue: 0,0:09:00.33,0:09:02.26,Default,,0000,0000,0000,,Vpřed!
+Dialogue: 0,0:09:13.96,0:09:15.98,Default,,0000,0000,0000,,Jsi zatčen!
+Dialogue: 0,0:09:46.41,0:09:48.31,Default,,0000,0000,0000,,Stáhněte se zpět o tři bloky.
+Dialogue: 0,0:09:48.38,0:09:49.35,Default,,0000,0000,0000,,Rychle.
+Dialogue: 0,0:10:06.71,0:10:08.04,Default,,0000,0000,0000,,Běž napřed.
+Dialogue: 0,0:10:08.11,0:10:10.13,Default,,0000,0000,0000,,Dostaň se na Trojcestí.
+Dialogue: 0,0:10:15.10,0:10:16.43,Default,,0000,0000,0000,,Pojďme.
+Dialogue: 0,0:12:00.17,0:12:02.03,Default,,0000,0000,0000,,Položte to a rychle nahoru.
+Dialogue: 0,0:12:34.94,0:12:37.67,Default,,0000,0000,0000,,Odhoďte zbraně\Na vzdejte se!
+Dialogue: 0,0:15:01.17,0:15:02.29,Default,,0000,0000,0000,,Nedělej to.
+Dialogue: 0,0:15:09.23,0:15:10.49,Default,,0000,0000,0000,,Proč?
+Dialogue: 0,0:15:14.32,0:15:17.22,Default,,0000,0000,0000,,Fuse, co to děláš?!\NStřílej!
+Dialogue: 0,0:15:47.53,0:15:48.79,Default,,0000,0000,0000,,Co...?
+Dialogue: 0,0:16:47.94,0:16:48.99,Default,,0000,0000,0000,,A...?
+Dialogue: 0,0:16:49.20,0:16:50.79,Default,,0000,0000,0000,,Jak těžce byl zraněn?
+Dialogue: 0,0:16:50.87,0:16:52.93,Default,,0000,0000,0000,,Vybuchlo to přímo před ním.
+Dialogue: 0,0:16:53.20,0:16:56.29,Default,,0000,0000,0000,,Myslel bych si, že bude přinejmenším\Nvážně zraněn.
+Dialogue: 0,0:16:56.36,0:16:59.92,Default,,0000,0000,0000,,Díky ochranné výstroji však měl jen\Nmodřiny a lehčí otřes mozku.
+Dialogue: 0,0:17:00.49,0:17:02.09,Default,,0000,0000,0000,,Tak to alespoň stálo ve zprávě.
+Dialogue: 0,0:17:03.79,0:17:05.99,Default,,0000,0000,0000,,Mimochodem, ta včerejší noc.
+Dialogue: 0,0:17:06.52,0:17:09.22,Default,,0000,0000,0000,,Přišel jsem ji s vámi projednat.
+Dialogue: 0,0:17:09.49,0:17:12.58,Default,,0000,0000,0000,,Další protest\Nod místní policie?
+Dialogue: 0,0:17:12.72,0:17:15.48,Default,,0000,0000,0000,,Rád bych vám připomenul\Nnaši dohodu s místní policií.
+Dialogue: 0,0:17:15.55,0:17:17.85,Default,,0000,0000,0000,,Tvrdí, že šlo\No její vážné porušení.
+Dialogue: 0,0:17:18.15,0:17:20.74,Default,,0000,0000,0000,,Proč jste je\Nnejdříve neupozornili?
+Dialogue: 0,0:17:21.44,0:17:23.91,Default,,0000,0000,0000,,A vzít na sebe riziko\Núniku informací?
+Dialogue: 0,0:17:23.98,0:17:26.07,Default,,0000,0000,0000,,Jednat takhle přímo\Npod jejich nosem...
+Dialogue: 0,0:17:26.14,0:17:28.84,Default,,0000,0000,0000,,...bez sebemešího ohledu na jejich\Njurisdikci, a pak tohle.
+Dialogue: 0,0:17:28.94,0:17:31.50,Default,,0000,0000,0000,,Není divu,\Nže jsou rozčilení.
+Dialogue: 0,0:17:32.14,0:17:33.66,Default,,0000,0000,0000,,Aniyo, poslouchejte.
+Dialogue: 0,0:17:33.73,0:17:37.40,Default,,0000,0000,0000,,Ukončeme tuhle\Nabsurdní dohodu.
+Dialogue: 0,0:17:37.97,0:17:40.46,Default,,0000,0000,0000,,Kromě toho, jsme \Njako olej a voda.
+Dialogue: 0,0:17:40.53,0:17:41.89,Default,,0000,0000,0000,,Dejte tyhle věci dohromady...
+Dialogue: 0,0:17:41.96,0:17:44.95,Default,,0000,0000,0000,,...a skončíme navrchu, plovoucí\Njako špinavá skvrna.
+Dialogue: 0,0:17:45.03,0:17:46.79,Default,,0000,0000,0000,,Pokud bychom to udělali...
+Dialogue: 0,0:17:46.86,0:17:50.39,Default,,0000,0000,0000,,...no, zamyslete se nad situací,\Nv níž teď jsme.
+Dialogue: 0,0:17:50.96,0:17:53.48,Default,,0000,0000,0000,,Jsou tady lidé, kteří\Nse nemohou dočkat, aby nás potopili.
+Dialogue: 0,0:17:53.55,0:17:57.01,Default,,0000,0000,0000,,Nemohli být více spokojeni, než\Nkdyž vaše Speciální jednotka tohle zpackala.
+Dialogue: 0,0:17:57.08,0:17:59.28,Default,,0000,0000,0000,,Teď jste pro ně\Ndokonalý cíl.
+Dialogue: 0,0:17:59.35,0:18:00.82,Default,,0000,0000,0000,,To je možné.
+Dialogue: 0,0:18:00.88,0:18:04.21,Default,,0000,0000,0000,,Ale v bitvě musíte být připraven,\Nže se věci mohou pokazit.
+Dialogue: 0,0:18:04.28,0:18:06.91,Default,,0000,0000,0000,,Oni to jistě vědí.\NJen dělají rámus.
+Dialogue: 0,0:18:06.98,0:18:11.54,Default,,0000,0000,0000,,Tak by se to dalo brát, pokud by exploze\Nbyla nevyhnutelná, nebo i způsobená nešťastnou náhodou.
+Dialogue: 0,0:18:12.11,0:18:14.30,Default,,0000,0000,0000,,Co tím chcete říci, Muroto?
+Dialogue: 0,0:18:14.81,0:18:19.67,Default,,0000,0000,0000,,Problémem není, že by Speciální\Njednotka jednala mimo svou pravomoc.
+Dialogue: 0,0:18:19.73,0:18:23.23,Default,,0000,0000,0000,,Hlavním příčinou je to, že jsme\Nnebyli schopni zvládnout situaci.
+Dialogue: 0,0:18:23.30,0:18:26.06,Default,,0000,0000,0000,,A dopustili jsme, aby\Nta teroristická bomba vybuchla.
+Dialogue: 0,0:18:26.53,0:18:28.09,Default,,0000,0000,0000,,Povězte mi, Hando...
+Dialogue: 0,0:18:28.16,0:18:29.65,Default,,0000,0000,0000,,Jakže se jmenuje?
+Dialogue: 0,0:18:31.46,0:18:33.72,Default,,0000,0000,0000,,Strážník Kazuki Fuse.
+Dialogue: 0,0:18:33.79,0:18:35.92,Default,,0000,0000,0000,,Po dokončení základního výcviku\Nbyl v září...
+Dialogue: 0,0:18:35.99,0:18:38.79,Default,,0000,0000,0000,,...přidělen k zásahové četě.
+Dialogue: 0,0:18:39.32,0:18:42.41,Default,,0000,0000,0000,,Možná to bylo víc,\Nnež může zelenáč zvládnout.
+Dialogue: 0,0:18:42.48,0:18:45.32,Default,,0000,0000,0000,,Ta osoba, která se\Nodpálila, nebyla plnoletá.
+Dialogue: 0,0:18:45.38,0:18:47.82,Default,,0000,0000,0000,,Navíc dívka.
+Dialogue: 0,0:18:48.75,0:18:52.77,Default,,0000,0000,0000,,To je jejich starý trik,\Npoužívat ženy a děti...
+Dialogue: 0,0:18:52.98,0:18:54.97,Default,,0000,0000,0000,,...na transport zbraní\Na výbušnin.
+Dialogue: 0,0:18:55.04,0:18:58.01,Default,,0000,0000,0000,,Neříká se jim u vás ve Zpravodajském oddělení\N"Červené karkulky"?
+Dialogue: 0,0:18:58.61,0:19:03.31,Default,,0000,0000,0000,,Skutečností je, že naším protivníkem\Nnejsou malí kriminálníci...
+Dialogue: 0,0:19:03.37,0:19:06.34,Default,,0000,0000,0000,,...nebo primitivní bandité\Njednající podle své brutality.
+Dialogue: 0,0:19:06.47,0:19:08.09,Default,,0000,0000,0000,,Lidé stojící proti nám\Njsou výjimečně oddaní...
+Dialogue: 0,0:19:08.17,0:19:10.90,Default,,0000,0000,0000,,...svojí věci a\Njsou schopni učinit...
+Dialogue: 0,0:19:10.96,0:19:13.06,Default,,0000,0000,0000,,...cokoliv bez ohledu, jak\Nkruté nebo nečestné to je.
+Dialogue: 0,0:19:13.13,0:19:17.26,Default,,0000,0000,0000,,A sami sebe nevidí jako\Nzločince, jimiž jsou.
+Dialogue: 0,0:19:17.33,0:19:19.05,Default,,0000,0000,0000,,S tím se musíme vypořádat.
+Dialogue: 0,0:19:19.12,0:19:20.89,Default,,0000,0000,0000,,To je bez pochyb.
+Dialogue: 0,0:19:25.32,0:19:27.22,Default,,0000,0000,0000,,Ať už to bylo jakkoli,...
+Dialogue: 0,0:19:27.28,0:19:30.85,Default,,0000,0000,0000,,...muž nevydržel tlak\Na musí nést odpovědnost.
+Dialogue: 0,0:19:31.12,0:19:32.58,Default,,0000,0000,0000,,Takže...
+Dialogue: 0,0:19:32.65,0:19:36.21,Default,,0000,0000,0000,,...podrobnosti tohoto případu\Na otázka trestu...
+Dialogue: 0,0:19:36.28,0:19:40.08,Default,,0000,0000,0000,,...jsou záležitostí, kterou by se měla\Nzabývat Vnitřní vyšetřovací komise.
+Dialogue: 0,0:19:40.67,0:19:41.94,Default,,0000,0000,0000,,Souhlasíte?
+Dialogue: 0,0:19:43.11,0:19:45.54,Default,,0000,0000,0000,,Jen se ubezpečte,\Nže vše půjde náležitým postupem..
+Dialogue: 0,0:19:46.17,0:19:47.23,Default,,0000,0000,0000,,Co tím myslíte?
+Dialogue: 0,0:19:47.87,0:19:51.03,Default,,0000,0000,0000,,Možná to nic není.\NAle slyšel jsem pověsti...
+Dialogue: 0,0:19:51.10,0:19:54.00,Default,,0000,0000,0000,,...o gaunerské organizaci\Nuvnitř Speciální jednotky.
+Dialogue: 0,0:19:55.23,0:19:57.03,Default,,0000,0000,0000,,Co je to za nesmysly?
+Dialogue: 0,0:19:58.40,0:20:00.36,Default,,0000,0000,0000,,"Vlčí brigáda"?
+Dialogue: 0,0:20:00.96,0:20:03.45,Default,,0000,0000,0000,,Dobrá. Jsem si jist,\Nže to není nic než fáma.
+Dialogue: 0,0:20:03.66,0:20:06.13,Default,,0000,0000,0000,,Měl byste si dávat větší\Npozor na to, co říkáte.
+Dialogue: 0,0:20:06.26,0:20:07.78,Default,,0000,0000,0000,,Aniyo.
+Dialogue: 0,0:20:08.29,0:20:09.38,Default,,0000,0000,0000,,V pořádku.
+Dialogue: 0,0:20:09.45,0:20:11.25,Default,,0000,0000,0000,,Nechám to na vás.
+Dialogue: 0,0:20:11.32,0:20:14.08,Default,,0000,0000,0000,,Sice jsme jim nedali předběžné\Nupozornění na naši akci,...
+Dialogue: 0,0:20:14.15,0:20:18.02,Default,,0000,0000,0000,,...ale budou schopni si uchovat\Ntvář, pokud někoho potrestáme.
+Dialogue: 0,0:20:18.21,0:20:20.84,Default,,0000,0000,0000,,Od této chvíle buďte obezřetnější.
+Dialogue: 0,0:20:22.11,0:20:23.37,Default,,0000,0000,0000,,Takže...
+Dialogue: 0,0:20:24.04,0:20:25.27,Default,,0000,0000,0000,,Někoho s vámi pošlu.
+Dialogue: 0,0:20:26.17,0:20:29.58,Default,,0000,0000,0000,,Dnes jsou všude teroristé.
+Dialogue: 0,0:20:32.87,0:20:34.80,Default,,0000,0000,0000,,Ne. Mě z toho vynechte.
+Dialogue: 0,0:20:35.43,0:20:38.89,Default,,0000,0000,0000,,S doprovodem Speciální jednotky\Nby vše bylo ještě nápadnější.
+Dialogue: 0,0:20:38.96,0:20:40.12,Default,,0000,0000,0000,,Pravděpodobně.
+Dialogue: 0,0:20:40.33,0:20:42.20,Default,,0000,0000,0000,,Můžete zařídit, aby mé auto\Npřistavili dozadu?
+Dialogue: 0,0:21:15.05,0:21:17.28,Default,,0000,0000,0000,,Oznamte své jméno a jednotku.
+Dialogue: 0,0:21:17.34,0:21:19.78,Default,,0000,0000,0000,,Seržant Kazuki Fuse...
+Dialogue: 0,0:21:19.84,0:21:23.24,Default,,0000,0000,0000,,...přidělen k 3. zásahové četě\NDruhé roty...
+Dialogue: 0,0:21:23.31,0:21:26.84,Default,,0000,0000,0000,,...Speciální obrněné brigády\NPrůzkumné divize.
+Dialogue: 0,0:21:27.84,0:21:32.51,Default,,0000,0000,0000,,Jaký byl charakter vašeho\Núkolu 9. února?
+Dialogue: 0,0:21:33.17,0:21:35.73,Default,,0000,0000,0000,,Na základě informací, že\Nteroristé...
+Dialogue: 0,0:21:35.81,0:21:38.04,Default,,0000,0000,0000,,...operují v podzemí\Ncentra města,...
+Dialogue: 0,0:21:38.11,0:21:41.20,Default,,0000,0000,0000,,...jsme obdrželi příkaz k rozmístění.
+Dialogue: 0,0:21:41.27,0:21:45.17,Default,,0000,0000,0000,,S námi byly 6. a 7. četa Druhé roty...
+Dialogue: 0,0:21:45.24,0:21:49.70,Default,,0000,0000,0000,,...společně se 1. a 2. zásahovou četou a 5. četou První roty.
+Dialogue: 0,0:21:50.34,0:21:54.64,Default,,0000,0000,0000,,Vstoupili jsme na rampu G–13 a\Npostupovali Dálkovou tratí 23.
+Dialogue: 0,0:21:55.90,0:21:57.34,Default,,0000,0000,0000,,Vzhledem k vašemu rozmístění,...
+Dialogue: 0,0:21:57.40,0:22:00.03,Default,,0000,0000,0000,,...jaké příkazy\Njste dostal od vašeho velitele?
+Dialogue: 0,0:22:00.10,0:22:04.13,Default,,0000,0000,0000,,Zabránit použití tunelů\Npro úschovu a přepravu...
+Dialogue: 0,0:22:04.20,0:22:05.93,Default,,0000,0000,0000,,...zbraní a munice.
+Dialogue: 0,0:22:06.00,0:22:08.09,Default,,0000,0000,0000,,Také jsme dostali příkaz, že pokud\Nnarazíme na nepřátelské síly,...
+Dialogue: 0,0:22:08.17,0:22:10.36,Default,,0000,0000,0000,,...tak je máme napadnout\Na zlikvidovat.
+Dialogue: 0,0:22:10.43,0:22:13.46,Default,,0000,0000,0000,,Jaká byla situace\Nv tunelu během úkolu?
+Dialogue: 0,0:22:14.07,0:22:16.83,Default,,0000,0000,0000,,Dvacet minut\Npo vstupu do tunelu...
+Dialogue: 0,0:22:16.90,0:22:19.09,Default,,0000,0000,0000,,...1. četa, která \Npostupovala před námi,...
+Dialogue: 0,0:22:19.16,0:22:21.32,Default,,0000,0000,0000,,...napadla nepřátelskou teroristickou jednotku.
+Dialogue: 0,0:22:21.40,0:22:25.13,Default,,0000,0000,0000,,Společně s 6. četou\Njsme jim spěchali poskytnout podporu.
+Dialogue: 0,0:22:25.76,0:22:29.89,Default,,0000,0000,0000,,Na koho jste\Npři svém postupu narazil?
+Dialogue: 0,0:22:56.86,0:22:58.02,Default,,0000,0000,0000,,Proč?
+Dialogue: 0,0:23:19.02,0:23:20.08,Default,,0000,0000,0000,,Proč?
+Dialogue: 0,0:23:20.28,0:23:22.25,Default,,0000,0000,0000,,Proč jste nestřílel?
+Dialogue: 0,0:23:25.48,0:23:26.85,Default,,0000,0000,0000,,Nevím.
+Dialogue: 0,0:23:28.85,0:23:30.78,Default,,0000,0000,0000,,Strážníku Fuse.
+Dialogue: 0,0:23:30.85,0:23:32.44,Default,,0000,0000,0000,,Budete uvolněn\Nze současného přiřazení...
+Dialogue: 0,0:23:32.51,0:23:36.71,Default,,0000,0000,0000,,...a budete se hlásit na Akademii\Npro přeškolení až do dalších rozkazů.
+Dialogue: 0,0:23:37.25,0:23:38.18,Default,,0000,0000,0000,,Odchod!
+Dialogue: 0,0:24:33.85,0:24:36.12,Default,,0000,0000,0000,,Hej, co takhle mah–jong dnes večer?
+Dialogue: 0,0:24:36.58,0:24:40.25,Default,,0000,0000,0000,,Znovu? Jsi si jistý,\N že ti zbyly nějaké peníze?
+Dialogue: 0,0:24:40.38,0:24:42.08,Default,,0000,0000,0000,,No tak.
+Dialogue: 0,0:24:43.45,0:24:45.61,Default,,0000,0000,0000,,Ale Kishida nemůže.
+Dialogue: 0,0:24:45.68,0:24:47.41,Default,,0000,0000,0000,,Budeme potřebovat jiného hráče.
+Dialogue: 0,0:24:52.65,0:24:55.41,Default,,0000,0000,0000,,No, můžeme se zeptat Murayamy.
+Dialogue: 0,0:24:55.81,0:24:57.21,Default,,0000,0000,0000,,Dobrá.
+Dialogue: 0,0:24:57.28,0:24:59.98,Default,,0000,0000,0000,,Ten, kdo prohraje,\Nplatí dnes večer účet v baru.
+Dialogue: 0,0:25:00.05,0:25:01.78,Default,,0000,0000,0000,,Myslím, že to budeš ty.
+Dialogue: 0,0:27:27.08,0:27:29.05,Default,,0000,0000,0000,,Jistě dobře víš,...
+Dialogue: 0,0:27:29.11,0:27:31.24,Default,,0000,0000,0000,,...že je nutné povolení od náčelníka, abych...
+Dialogue: 0,0:27:31.31,0:27:33.21,Default,,0000,0000,0000,,...mohl uvolnit jakýkoliv materiál\Nvztahující se k našim zjištěním,...
+Dialogue: 0,0:27:33.28,0:27:36.94,Default,,0000,0000,0000,,...a že náčelník Muroto je\Njeden z největších odpůrců Speciální jednotky.
+Dialogue: 0,0:27:37.34,0:27:39.64,Default,,0000,0000,0000,,Jenom setkání s tebou,\Ni na veřejném místě,...
+Dialogue: 0,0:27:39.71,0:27:42.27,Default,,0000,0000,0000,,...mě může přivést před\NVnitřní komisi.
+Dialogue: 0,0:27:42.67,0:27:43.57,Default,,0000,0000,0000,,Omlouvám se.
+Dialogue: 0,0:27:44.91,0:27:46.17,Default,,0000,0000,0000,,Nelam si s tím hlavu.
+Dialogue: 0,0:27:46.44,0:27:50.43,Default,,0000,0000,0000,,Už od Akademie jsem pro ně\Nprostě poskok Speciální jednotky.
+Dialogue: 0,0:27:50.64,0:27:53.44,Default,,0000,0000,0000,,Nemá smysl podlézat teď\NZpravodajskému oddělení.
+Dialogue: 0,0:27:53.51,0:27:55.87,Default,,0000,0000,0000,,Kromě toho, dělám to \Njako laskavost...
+Dialogue: 0,0:27:55.94,0:27:58.60,Default,,0000,0000,0000,,...svému jedinému pravému příteli z Akademie.
+Dialogue: 0,0:28:01.44,0:28:04.87,Default,,0000,0000,0000,,Jeden z té skupiny zůstal naživu a nám se\Npodařilo získat z něj nějaké informace.
+Dialogue: 0,0:28:04.94,0:28:08.43,Default,,0000,0000,0000,,Vypadá to, že jim identifikace té dívky\Ndala pořádně zabrat.
+Dialogue: 0,0:28:08.80,0:28:12.57,Default,,0000,0000,0000,,Z jejího těla nezůstalo moc, z čeho\Nby se dalo vyjít.
+Dialogue: 0,0:28:14.64,0:28:15.66,Default,,0000,0000,0000,,Takže...
+Dialogue: 0,0:28:15.73,0:28:18.07,Default,,0000,0000,0000,,...co chceš dělat?
+Dialogue: 0,0:28:23.37,0:28:25.70,Default,,0000,0000,0000,,Vyhodila se do vzduchu\Npřímo před tebou.
+Dialogue: 0,0:28:26.30,0:28:29.03,Default,,0000,0000,0000,,Ne, že bych nerozuměl tomu,\Njak se cítíš.
+Dialogue: 0,0:28:29.50,0:28:32.59,Default,,0000,0000,0000,,Ale je nesmyslné, aby ses vinil\Nz její smrti.
+Dialogue: 0,0:28:32.66,0:28:35.06,Default,,0000,0000,0000,,Není důvod, aby ses za ni cítil zodpovědný.
+Dialogue: 0,0:28:35.13,0:28:37.03,Default,,0000,0000,0000,,Logice, kterou se tito lidé řídí,...
+Dialogue: 0,0:28:37.10,0:28:39.76,Default,,0000,0000,0000,,...nikdy nebudeme schopni rozumět.
+Dialogue: 0,0:28:39.83,0:28:42.20,Default,,0000,0000,0000,,Vede je k takovým věcem\Njako zabíjení lidí...
+Dialogue: 0,0:28:42.26,0:28:44.63,Default,,0000,0000,0000,,...a někdy i k sebevraždě.
+Dialogue: 0,0:28:44.69,0:28:47.36,Default,,0000,0000,0000,,My prostě máme svoji vlastní logiku.
+Dialogue: 0,0:28:47.86,0:28:49.45,Default,,0000,0000,0000,,Kdyby byla situace\Ntrochu odlišná,...
+Dialogue: 0,0:28:49.53,0:28:53.33,Default,,0000,0000,0000,,...mohl jsi skončit na kousky ty.
+Dialogue: 0,0:28:54.63,0:28:56.03,Default,,0000,0000,0000,,Já jsem opravdu chtěl vystřelit.
+Dialogue: 0,0:28:59.29,0:29:01.52,Default,,0000,0000,0000,,Já jsem ji opravdu chtěl zastřelit.
+Dialogue: 0,0:29:01.59,0:29:03.25,Default,,0000,0000,0000,,Tak proč jsi nezmáčkl spoušť?
+Dialogue: 0,0:29:15.42,0:29:17.25,Default,,0000,0000,0000,,Zapomeň na to.
+Dialogue: 0,0:29:17.32,0:29:20.69,Default,,0000,0000,0000,,Pokud dopustíš, aby tě ovládly emoce,\Npak nebudeš moci dělat tuhle práci.
+Dialogue: 0,0:29:21.59,0:29:25.89,Default,,0000,0000,0000,,Poraněné zvíře bez naděje\Nna přežití je předem ztracené.
+Dialogue: 0,0:29:35.72,0:29:39.75,Default,,0000,0000,0000,,Jmenovala se Nanami Agawa,\Nkrycí jméno "Kurzes Haar".
+Dialogue: 0,0:29:40.32,0:29:44.56,Default,,0000,0000,0000,,Do Lidově-demokratického hnutí vstoupila\Nna střední škole.
+Dialogue: 0,0:29:44.62,0:29:47.32,Default,,0000,0000,0000,,Dvakrát ji podmíněně vyloučili, pak definitivně.
+Dialogue: 0,0:29:48.59,0:29:49.65,Default,,0000,0000,0000,,O šest měsíců později...
+Dialogue: 0,0:29:49.72,0:29:52.45,Default,,0000,0000,0000,,...vstoupila do Frakce přes\Nměstskou protiválečnou buňku...
+Dialogue: 0,0:29:52.52,0:29:54.75,Default,,0000,0000,0000,,...a byla přidělena\Nk jejich zásobovací jednotce...
+Dialogue: 0,0:29:54.82,0:29:56.45,Default,,0000,0000,0000,,...známé jako Jacobsonova organizace,...
+Dialogue: 0,0:29:56.52,0:29:59.08,Default,,0000,0000,0000,,...kde začala svoji teroristickou kariéru.
+Dialogue: 0,0:29:59.99,0:30:01.82,Default,,0000,0000,0000,,Devátého února...
+Dialogue: 0,0:30:02.42,0:30:05.88,Default,,0000,0000,0000,,...se zúčastnila se skupinou Anti–Lebensraum...
+Dialogue: 0,0:30:05.95,0:30:08.98,Default,,0000,0000,0000,,...bojů při protestech Spojené lidové fronty.
+Dialogue: 0,0:30:09.05,0:30:11.49,Default,,0000,0000,0000,,Byla zahnána do bezvýchodného postavení\NSpeciální jednotkou v Dálkové trati 23.
+Dialogue: 0,0:30:11.55,0:30:13.88,Default,,0000,0000,0000,,Odpálila brašnovou bombu,\Nkterou s sebou nesla,...
+Dialogue: 0,0:30:13.95,0:30:17.58,Default,,0000,0000,0000,,...a na místě zemřela.
+Dialogue: 0,0:30:18.55,0:30:20.24,Default,,0000,0000,0000,,Žádný trestní záznam.
+Dialogue: 0,0:30:51.44,0:30:54.84,Default,,0000,0000,0000,,Jestli jste z organizace,\Ntak prosím okamžitě odejděte.
+Dialogue: 0,0:30:55.51,0:30:59.31,Default,,0000,0000,0000,,Odešla z tohoto světa,\Na tak už vám žádným způsobem nemůže být užitečná.
+Dialogue: 0,0:30:59.57,0:31:02.13,Default,,0000,0000,0000,,Ne... Ne, já...
+Dialogue: 0,0:31:03.74,0:31:04.87,Default,,0000,0000,0000,,Mnohokrát děkuji.
+Dialogue: 0,0:31:05.17,0:31:06.16,Default,,0000,0000,0000,,To je v pořádku.
+Dialogue: 0,0:31:13.07,0:31:16.04,Default,,0000,0000,0000,,Rodina Agawa
+Dialogue: 0,0:31:36.30,0:31:38.27,Default,,0000,0000,0000,,Proč mi to nevyčítáte?
+Dialogue: 0,0:31:42.37,0:31:44.67,Default,,0000,0000,0000,,Oba jste dělali svou práci.
+Dialogue: 0,0:31:44.73,0:31:46.76,Default,,0000,0000,0000,,To nebyla vaše chyba.
+Dialogue: 0,0:31:48.27,0:31:51.73,Default,,0000,0000,0000,,Kromě toho říkají,\Nže jste nevystřelil.
+Dialogue: 0,0:31:57.43,0:31:59.90,Default,,0000,0000,0000,,Není to tak, že bych necítila zármutek.
+Dialogue: 0,0:32:01.16,0:32:03.72,Default,,0000,0000,0000,,Asi mi to prostě zatím doopravdy nedošlo.
+Dialogue: 0,0:32:04.90,0:32:07.99,Default,,0000,0000,0000,,Byla mou jedinou sestrou\Na vycházely jsme spolu dobře.
+Dialogue: 0,0:32:08.06,0:32:12.50,Default,,0000,0000,0000,,Myslím, že přesto jsme byly každá trochu jiná.
+Dialogue: 0,0:32:13.63,0:32:17.26,Default,,0000,0000,0000,,Byla nezkažená {pure - chtělo by to něco jiného než nezkažená - něco jako idealistka, ale to taky není ono}a\Nvelmi přímočará.
+Dialogue: 0,0:32:17.33,0:32:20.99,Default,,0000,0000,0000,,Byla hodně tvrdohlavá.\NNikdy nikoho neposlouchala.
+Dialogue: 0,0:32:22.23,0:32:27.26,Default,,0000,0000,0000,,Ale vždycky se mi zdálo, že ji matka\Nměla ráda mnohem víc než mě.
+Dialogue: 0,0:32:29.96,0:32:34.99,Default,,0000,0000,0000,,Měla jsem pocit, že být\Nstarší sestrou není spravedlivé.
+Dialogue: 0,0:33:00.55,0:33:03.49,Default,,0000,0000,0000,,Tohle jsem chtěla dát\Ndo schránky k jejímu popelu.
+Dialogue: 0,0:33:03.55,0:33:05.21,Default,,0000,0000,0000,,Místo toho to dám vám.
+Dialogue: 0,0:33:23.65,0:33:24.91,Default,,0000,0000,0000,,Proč mně?
+Dialogue: 0,0:33:25.71,0:33:27.27,Default,,0000,0000,0000,,Opravdu nevím.
+Dialogue: 0,0:33:27.35,0:33:29.84,Default,,0000,0000,0000,,Proč ne? Nechte si to.
+Dialogue: 0,0:33:31.31,0:33:31.94,Default,,0000,0000,0000,,Ale...
+Dialogue: 0,0:33:37.34,0:33:39.64,Default,,0000,0000,0000,,Vsadím se, že je to nádherný pocit.
+Dialogue: 0,0:33:41.44,0:33:44.44,Default,,0000,0000,0000,,Řeka teče do moře, že?
+Dialogue: 0,0:33:45.88,0:33:48.54,Default,,0000,0000,0000,,A moře se rozprostírá do daleka,\Nkde mizí v jiných mořích.
+Dialogue: 0,0:33:56.23,0:33:58.63,Default,,0000,0000,0000,,Brýle v pořádku.
+Dialogue: 0,0:33:58.69,0:34:00.89,Default,,0000,0000,0000,,Regulátor v pořádku.
+Dialogue: 0,0:34:01.79,0:34:03.73,Default,,0000,0000,0000,,To je divný pocit.
+Dialogue: 0,0:34:03.79,0:34:07.12,Default,,0000,0000,0000,,Jo. Tvoje tělo se zdá tak lehké,\Nale obraz, který vidíš, nemá žádné pozadí.
+Dialogue: 0,0:34:07.19,0:34:08.88,Default,,0000,0000,0000,,Jako potápěč v hlubokém moři.
+Dialogue: 0,0:34:08.96,0:34:10.72,Default,,0000,0000,0000,,Přestaňte žvanit!
+Dialogue: 0,0:34:11.42,0:34:12.95,Default,,0000,0000,0000,,Cvičení zahájeno!
+Dialogue: 0,0:34:43.52,0:34:46.31,Default,,0000,0000,0000,,„Bylo jednou jedno děvčátko,...
+Dialogue: 0,0:34:46.38,0:34:49.71,Default,,0000,0000,0000,,...které sedm let nevidělo svou maminku.“
+Dialogue: 0,0:34:50.65,0:34:53.51,Default,,0000,0000,0000,,„Muselo se obléknout\Nv železné šaty...
+Dialogue: 0,0:34:54.05,0:34:57.21,Default,,0000,0000,0000,,...a dovědělo se...
+Dialogue: 0,0:34:57.95,0:35:01.38,Default,,0000,0000,0000,,»Až obnosíš tyto šaty,\Npak se budeš moci vrátit ke svojí mamince.«“
+Dialogue: 0,0:35:02.94,0:35:04.94,Default,,0000,0000,0000,,„Děvčátko dřelo\Nsvými šaty o zeď...
+Dialogue: 0,0:35:05.01,0:35:08.10,Default,,0000,0000,0000,,...celé zoufalé snahou\Nje rozervat.“
+Dialogue: 0,0:35:10.74,0:35:13.21,Default,,0000,0000,0000,,„Když se konečně rozpadly...
+Dialogue: 0,0:35:13.28,0:35:14.90,Default,,0000,0000,0000,,...dostalo trochu mléka a chleba...
+Dialogue: 0,0:35:14.98,0:35:19.38,Default,,0000,0000,0000,,...jakož i malý kousek\Nsýra a másla...
+Dialogue: 0,0:35:19.44,0:35:22.97,Default,,0000,0000,0000,,...a vydalo se\Nk domu své maminky.“
+Dialogue: 0,0:35:23.77,0:35:27.80,Default,,0000,0000,0000,,„V lese potkalo vlka,...
+Dialogue: 0,0:35:27.87,0:35:31.17,Default,,0000,0000,0000,,...který se zeptal, co nese.“
+Dialogue: 0,0:35:37.94,0:35:39.37,Default,,0000,0000,0000,,„»Mléko a chléb...
+Dialogue: 0,0:35:39.44,0:35:44.20,Default,,0000,0000,0000,,...a malý kousek sýra a\Nmásla,« děvčátko odpovědělo.“
+Dialogue: 0,0:35:44.44,0:35:48.77,Default,,0000,0000,0000,,„Když vlk požádal o trochu jídla...
+Dialogue: 0,0:35:49.10,0:35:55.40,Default,,0000,0000,0000,,...děvčátko řeklo, že mu jej nemůže dát,\Nprotože je to dárek pro její maminku.“
+Dialogue: 0,0:36:09.83,0:36:14.46,Default,,0000,0000,0000,,„Vlk se tedy zeptal, jestli\Npůjde po cestě hřebíků...
+Dialogue: 0,0:36:14.53,0:36:17.66,Default,,0000,0000,0000,,...nebo po cestě jehel.“
+Dialogue: 0,0:36:17.73,0:36:22.13,Default,,0000,0000,0000,,„Když mu děvčátko řeklo,\Nže se vydá po cestě hřebíků,...
+Dialogue: 0,0:36:22.19,0:36:25.82,Default,,0000,0000,0000,,...tak se vlk rozloučil a rychle běžel\Ncestou jehel...
+Dialogue: 0,0:36:26.03,0:36:30.02,Default,,0000,0000,0000,,...a sežral maminku\Nmalého děvčátka.“
+Dialogue: 0,0:36:32.46,0:36:36.19,Default,,0000,0000,0000,,„Nakonec děvčátko dorazilo\Nk domu své maminky.“
+Dialogue: 0,0:36:37.39,0:36:40.62,Default,,0000,0000,0000,,„»Maminko, otevři dveře,«\Nzavolalo.“
+Dialogue: 0,0:36:41.26,0:36:45.06,Default,,0000,0000,0000,,„»Pojď dál.\NNení zamčeno«...
+Dialogue: 0,0:36:46.76,0:36:49.88,Default,,0000,0000,0000,,...odpověděl vlk.“
+Dialogue: 0,0:37:56.84,0:37:58.67,Default,,0000,0000,0000,,Cvičení skončeno.
+Dialogue: 0,0:37:59.37,0:38:03.14,Default,,0000,0000,0000,,Čtyři mrtví, dva vyřazení.
+Dialogue: 0,0:38:14.00,0:38:15.73,Default,,0000,0000,0000,,Ty kreténe!
+Dialogue: 0,0:38:17.30,0:38:20.00,Default,,0000,0000,0000,,Dopředu jste před tím byli varováni!
+Dialogue: 0,0:38:20.07,0:38:22.43,Default,,0000,0000,0000,,Všichni jste znali omezení\Nbrýlí na noční vidění!
+Dialogue: 0,0:38:22.50,0:38:24.20,Default,,0000,0000,0000,,Věděli jste, kde jste?!
+Dialogue: 0,0:38:24.27,0:38:26.86,Default,,0000,0000,0000,,Jaká situace byla v pokoji?!
+Dialogue: 0,0:38:26.93,0:38:29.53,Default,,0000,0000,0000,,Předvídali jste,\Nco mohlo být za dveřmi?!
+Dialogue: 0,0:38:29.60,0:38:32.69,Default,,0000,0000,0000,,Protože jste byli\Nnedbalí v zabezpečení oblasti...
+Dialogue: 0,0:38:32.77,0:38:35.33,Default,,0000,0000,0000,,...tak jste nebyli schopni\Nreagovat na náhlé změny!
+Dialogue: 0,0:38:36.33,0:38:37.89,Default,,0000,0000,0000,,Ty, támhle.
+Dialogue: 0,0:38:37.96,0:38:40.83,Default,,0000,0000,0000,,Vysvětli stručně\Npoužití ochranné výstroje.
+Dialogue: 0,0:38:45.76,0:38:47.39,Default,,0000,0000,0000,,Tak co třeba ty?!
+Dialogue: 0,0:38:48.86,0:38:50.92,Default,,0000,0000,0000,,Schopnosti...
+Dialogue: 0,0:38:51.00,0:38:53.59,Default,,0000,0000,0000,,...ochranné výstroje mohou být\Nplně využity, jedině když...
+Dialogue: 0,0:38:53.66,0:38:54.92,Default,,0000,0000,0000,,...každý zná\Njejí slepá místa...
+Dialogue: 0,0:38:55.00,0:38:58.76,Default,,0000,0000,0000,,...a je schopen účinně\Nkrýt ostatní v jednotce.
+Dialogue: 0,0:38:59.06,0:39:01.29,Default,,0000,0000,0000,,Jestliže to znáte,\Ntak co jste dělali?!
+Dialogue: 0,0:39:01.79,0:39:03.56,Default,,0000,0000,0000,,Jedna chyba kohokoliv z vás...
+Dialogue: 0,0:39:03.63,0:39:05.79,Default,,0000,0000,0000,,...může všechny zabít!
+Dialogue: 0,0:39:05.86,0:39:07.49,Default,,0000,0000,0000,,Nespoléhejte příliš\Nna své vybavení!
+Dialogue: 0,0:39:07.56,0:39:08.86,Default,,0000,0000,0000,,Používejte hlavu!
+Dialogue: 0,0:39:10.19,0:39:12.46,Default,,0000,0000,0000,,Takže? Co si myslíte?
+Dialogue: 0,0:39:12.59,0:39:13.85,Default,,0000,0000,0000,,O čem?
+Dialogue: 0,0:39:14.66,0:39:18.35,Default,,0000,0000,0000,,Co si myslíte o Fusovi?\NProč nestřílel?
+Dialogue: 0,0:39:24.79,0:39:28.02,Default,,0000,0000,0000,,Používáte tady gumové projektily\Nmísto obarvujících kulek.
+Dialogue: 0,0:39:28.35,0:39:32.38,Default,,0000,0000,0000,,To vede k situaci, kdy raději\Nstřílíš, než abys byl zasažen.
+Dialogue: 0,0:39:35.82,0:39:37.88,Default,,0000,0000,0000,,Chyby si tak pamatují...
+Dialogue: 0,0:39:37.95,0:39:40.78,Default,,0000,0000,0000,,...nejen svojí hlavou\Nale také tělem, že?
+Dialogue: 0,0:39:43.42,0:39:46.68,Default,,0000,0000,0000,,I s oblečenou výstrojí\Nse bolest prořízne do kosti.
+Dialogue: 0,0:39:47.55,0:39:51.85,Default,,0000,0000,0000,,Když jsem byl jimi poprvé zasažen,\Nnemohl jsem bolestí spát.
+Dialogue: 0,0:39:52.38,0:39:55.48,Default,,0000,0000,0000,,Není tohle důvod, proč\Njsi přestoupil do Zpravodajského oddělení?
+Dialogue: 0,0:40:03.08,0:40:06.57,Default,,0000,0000,0000,,Domnívám se, že to znamená,\Nže je nakonec také jen člověk.
+Dialogue: 0,0:40:08.35,0:40:09.61,Default,,0000,0000,0000,,Možná.
+Dialogue: 0,0:40:09.95,0:40:12.24,Default,,0000,0000,0000,,Bez ohledu na to, kolik bolesti\Nmusí snášet,...
+Dialogue: 0,0:40:12.31,0:40:17.01,Default,,0000,0000,0000,,...jsou tací, kteří nacházejí\Nútěchu v žití jako šelma.
+Dialogue: 0,0:40:17.18,0:40:18.61,Default,,0000,0000,0000,,Myslíte, že je takový?
+Dialogue: 0,0:40:19.41,0:40:22.54,Default,,0000,0000,0000,,No, budeme to zkoušet tak dlouho,\Ndokud to nezjistíme.
+Dialogue: 0,0:40:23.51,0:40:26.00,Default,,0000,0000,0000,,Ty jsi opravdu zvláštní,\NHenmi.
+Dialogue: 0,0:40:27.14,0:40:29.13,Default,,0000,0000,0000,,Vykašlal ses na své přátele\Nve Speciální jednotce...
+Dialogue: 0,0:40:29.21,0:40:31.14,Default,,0000,0000,0000,,...a odešel jsi do\NZpravodajského oddělení.
+Dialogue: 0,0:40:31.21,0:40:34.11,Default,,0000,0000,0000,,A přesto ses tady objevil znovu,\Nplný starostí o nějakého...
+Dialogue: 0,0:40:34.17,0:40:36.00,Default,,0000,0000,0000,,...ztroskotance ze Speciální jednotky.
+Dialogue: 0,0:40:36.21,0:40:39.07,Default,,0000,0000,0000,,Instruktor, který přijme takového chlápka...
+Dialogue: 0,0:40:39.14,0:40:42.51,Default,,0000,0000,0000,,...vypadá také docela podivně.
+Dialogue: 0,0:40:43.87,0:40:45.30,Default,,0000,0000,0000,,Myslíš, že je v tom dívka?
+Dialogue: 0,0:40:45.37,0:40:46.20,Default,,0000,0000,0000,,Cože?
+Dialogue: 0,0:40:47.04,0:40:48.40,Default,,0000,0000,0000,,Náš chlapec Fuse.
+Dialogue: 0,0:40:48.47,0:40:50.53,Default,,0000,0000,0000,,Poslední dobou\Nčasto chodí pryč.
+Dialogue: 0,0:40:51.57,0:40:53.43,Default,,0000,0000,0000,,Zaslechl jsi něco?
+Dialogue: 0,0:40:54.30,0:40:55.29,Default,,0000,0000,0000,,Ne.
+Dialogue: 0,0:41:04.00,0:41:05.90,Default,,0000,0000,0000,,V každém případě...
+Dialogue: 0,0:41:05.97,0:41:09.40,Default,,0000,0000,0000,,...pohádky o šelmách,\Nkteré se zapletou s lidmi...
+Dialogue: 0,0:41:09.47,0:41:12.49,Default,,0000,0000,0000,,...vždycky končí špatně.
+Dialogue: 0,0:41:14.07,0:41:17.80,Default,,0000,0000,0000,,Šelmy ale mají svoje vlastní příběhy.
+Dialogue: 0,0:41:19.53,0:41:22.47,Default,,0000,0000,0000,,Další cvičení v proniknutí do objektu\Nzačne za deset minut!
+Dialogue: 0,0:41:22.53,0:41:25.93,Default,,0000,0000,0000,,Budeme to cvičit tak dlouho,\Ndokud alespoň polovina z vás nepřežije!
+Dialogue: 0,0:41:45.00,0:41:47.09,Default,,0000,0000,0000,,Podívej. Vidíš ten roh?
+Dialogue: 0,0:41:48.43,0:41:51.56,Default,,0000,0000,0000,,Zkouším si vybavit,\Njak to tam vypadalo předtím.
+Dialogue: 0,0:41:51.76,0:41:52.96,Default,,0000,0000,0000,,Pamatuješ si to?
+Dialogue: 0,0:42:00.66,0:42:02.46,Default,,0000,0000,0000,,Myslím, že tak to prostě chodí.
+Dialogue: 0,0:42:02.70,0:42:04.99,Default,,0000,0000,0000,,Zapomenout nám netrvá dlouho.
+Dialogue: 0,0:42:06.39,0:42:09.69,Default,,0000,0000,0000,,Možná jsme si\Ntoho nikdy ani nevšimli.
+Dialogue: 0,0:42:14.19,0:42:16.16,Default,,0000,0000,0000,,Když může budova\Nběhem jediného dne zmizet,...
+Dialogue: 0,0:42:16.22,0:42:18.35,Default,,0000,0000,0000,,...je to, jako kdyby tady nikdy nebyla.
+Dialogue: 0,0:42:18.42,0:42:20.89,Default,,0000,0000,0000,,Je to trochu, jako když umře člověk.
+Dialogue: 0,0:42:22.29,0:42:23.88,Default,,0000,0000,0000,,Není to smutné?
+Dialogue: 0,0:42:46.95,0:42:49.15,Default,,0000,0000,0000,,Když jsem byla malá, často...
+Dialogue: 0,0:42:49.85,0:42:52.15,Default,,0000,0000,0000,,...jsem sem chodili.
+Dialogue: 0,0:42:52.35,0:42:55.58,Default,,0000,0000,0000,,Ale tehdy se mi to\Nzdálo mnohem větší.
+Dialogue: 0,0:42:56.22,0:42:57.44,Default,,0000,0000,0000,,Ach ano.
+Dialogue: 0,0:43:07.98,0:43:08.95,Default,,0000,0000,0000,,Pojď se mnou!
+Dialogue: 0,0:44:18.73,0:44:21.79,Default,,0000,0000,0000,,Podívej. Je tady vidět\Ndo velké dálky, že?
+Dialogue: 0,0:44:22.53,0:44:23.09,Default,,0000,0000,0000,,Ano.
+Dialogue: 0,0:44:24.36,0:44:28.13,Default,,0000,0000,0000,,Když tady stojím,\Nzačínám uvažovat, že jednoho dne...
+Dialogue: 0,0:44:28.43,0:44:31.26,Default,,0000,0000,0000,,...odejdu z tohoto města\Na už nikdy se nevrátím.
+Dialogue: 0,0:44:32.50,0:44:35.66,Default,,0000,0000,0000,,Půjdu tam,\Nkde mě nikdo nebude znát.
+Dialogue: 0,0:44:35.73,0:44:37.46,Default,,0000,0000,0000,,Stanu se někým jiným.
+Dialogue: 0,0:44:37.53,0:44:39.43,Default,,0000,0000,0000,,Někým jiným?
+Dialogue: 0,0:44:40.59,0:44:41.58,Default,,0000,0000,0000,,Ano.
+Dialogue: 0,0:44:41.66,0:44:44.39,Default,,0000,0000,0000,,Zapomenu na vše, co se stalo,...
+Dialogue: 0,0:44:44.46,0:44:46.15,Default,,0000,0000,0000,,...a budu úplně jinou osobou.
+Dialogue: 0,0:44:49.73,0:44:52.32,Default,,0000,0000,0000,,Proč ses přidal ke Speciální jednotce?
+Dialogue: 0,0:45:03.46,0:45:05.86,Default,,0000,0000,0000,,To je obtížné vysvětlit.
+Dialogue: 0,0:45:05.92,0:45:07.86,Default,,0000,0000,0000,,Ale bylo to, jako...
+Dialogue: 0,0:45:08.42,0:45:11.86,Default,,0000,0000,0000,,...kdybych konečně našel místo,\Nkam patřím.
+Dialogue: 0,0:45:12.79,0:45:14.45,Default,,0000,0000,0000,,Důležité místo?
+Dialogue: 0,0:45:15.99,0:45:17.35,Default,,0000,0000,0000,,Myslím si to.
+Dialogue: 0,0:45:18.92,0:45:21.94,Default,,0000,0000,0000,,Chápu. Takže jsi našel své místo.
+Dialogue: 0,0:45:32.68,0:45:34.55,Default,,0000,0000,0000,,Jsi v pořádku, chlapečku?
+Dialogue: 0,0:45:47.35,0:45:48.68,Default,,0000,0000,0000,,A je pryč.
+Dialogue: 0,0:45:50.81,0:45:52.34,Default,,0000,0000,0000,,Bolí tě něco?
+Dialogue: 0,0:45:56.71,0:45:58.68,Default,,0000,0000,0000,,Nemůžeš jít.
+Dialogue: 0,0:47:19.66,0:47:22.29,Default,,0000,0000,0000,,Počkej!\NChci se tě na něco zeptat!
+Dialogue: 0,0:47:30.39,0:47:32.38,Default,,0000,0000,0000,,Nemůžeš jít se mnou.
+Dialogue: 0,0:47:34.96,0:47:36.79,Default,,0000,0000,0000,,Víš, že to není dovoleno.
+Dialogue: 0,0:47:54.85,0:47:55.65,Default,,0000,0000,0000,,Hej!
+Dialogue: 0,0:48:06.08,0:48:07.52,Default,,0000,0000,0000,,Ne, nechte toho!
+Dialogue: 0,0:48:11.25,0:48:12.58,Default,,0000,0000,0000,,Ne!
+Dialogue: 0,0:48:55.21,0:48:57.54,Default,,0000,0000,0000,,Ne!
+Dialogue: 0,0:49:52.27,0:49:53.86,Default,,0000,0000,0000,,Haló?
+Dialogue: 0,0:49:56.24,0:49:57.46,Default,,0000,0000,0000,,Ano.
+Dialogue: 0,0:49:59.24,0:50:00.17,Default,,0000,0000,0000,,Ano.
+Dialogue: 0,0:50:21.13,0:50:21.65,Default,,0000,0000,0000,,Takže...
+Dialogue: 0,0:50:23.10,0:50:27.30,Default,,0000,0000,0000,,...co se přihodilo děvčátku,\Nkteré šlo domů cestou hřebíků?
+Dialogue: 0,0:50:28.86,0:50:35.67,Default,,0000,0000,0000,,»Pojď dál. Není zavřeno,« odpověděl vlk.“
+Dialogue: 0,0:50:37.06,0:50:39.36,Default,,0000,0000,0000,,„Ale dveře stále nešly otevřít.“
+Dialogue: 0,0:50:39.43,0:50:43.80,Default,,0000,0000,0000,,„A tak děvčátko vlezlo dovnitř skrz díru.“
+Dialogue: 0,0:50:45.96,0:50:49.09,Default,,0000,0000,0000,,„»Maminko, mám velký hlad,« řeklo.“
+Dialogue: 0,0:50:50.22,0:50:52.56,Default,,0000,0000,0000,,„»Vezmi si maso z kredence,« odpověděl vlk.“
+Dialogue: 0,0:50:53.96,0:50:58.55,Default,,0000,0000,0000,,„Bylo to maso z maminky zabité vlkem.“
+Dialogue: 0,0:51:00.49,0:51:04.12,Default,,0000,0000,0000,,„Velká kočka vyskočila na kredenc a zamňoukala...
+Dialogue: 0,0:51:05.95,0:51:08.75,Default,,0000,0000,0000,,»To, co jíš, je maso z tvé maminky.«“
+Dialogue: 0,0:51:10.19,0:51:11.55,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,0:51:11.62,0:51:14.59,Default,,0000,0000,0000,,...na kredenci je velká kočka...
+Dialogue: 0,0:51:14.65,0:51:18.09,Default,,0000,0000,0000,,...a říká, že jím tvé maso.«“
+Dialogue: 0,0:51:18.99,0:51:20.98,Default,,0000,0000,0000,,„»To je přirozeně lež.«“
+Dialogue: 0,0:51:21.55,0:51:25.08,Default,,0000,0000,0000,,„»Hoď po ní botou.«“
+Dialogue: 0,0:51:27.22,0:51:31.38,Default,,0000,0000,0000,,„Když děvčátko dojedlo, dostalo žízeň.“
+Dialogue: 0,0:51:32.52,0:51:36.82,Default,,0000,0000,0000,,„»Maminko, mám žízeň,« řeklo.“
+Dialogue: 0,0:51:38.28,0:51:41.37,Default,,0000,0000,0000,,„»Napij se vína z kotlíku,« odpověděl vlk.“
+Dialogue: 0,0:51:41.71,0:51:45.21,Default,,0000,0000,0000,,„Když se napilo, přiletěl ptáček...
+Dialogue: 0,0:51:45.28,0:51:47.47,Default,,0000,0000,0000,,...a usadil se na komínové římse.“
+Dialogue: 0,0:51:49.11,0:51:51.81,Default,,0000,0000,0000,,„»To, co piješ, je krev z tvé maminky.«“
+Dialogue: 0,0:51:52.34,0:51:54.71,Default,,0000,0000,0000,,„»Piješ krev své maminky,« zazpíval ptáček.“
+Dialogue: 0,0:51:56.41,0:52:00.78,Default,,0000,0000,0000,,„»Maminko, na kraji komína sedí ptáček...
+Dialogue: 0,0:52:00.84,0:52:04.51,Default,,0000,0000,0000,,...a říká, že piji tvou krev.«“
+Dialogue: 0,0:52:05.37,0:52:09.14,Default,,0000,0000,0000,,„»Hoď po něm svůj plášť.«“
+Dialogue: 0,0:52:45.87,0:52:50.03,Default,,0000,0000,0000,,„Když se najedlo masa a napilo krve...
+Dialogue: 0,0:52:50.10,0:52:52.59,Default,,0000,0000,0000,,...obrátilo se děvčátko k mamince a řeklo...
+Dialogue: 0,0:52:54.26,0:52:58.53,Default,,0000,0000,0000,,»Maminko, cítím se hrozně ospale.«“
+Dialogue: 0,0:53:01.76,0:53:04.96,Default,,0000,0000,0000,,„»Pojď sem{možná místo "sem" by bylo lepší "ke mně"} a trochu si odpočiň.«“
+Dialogue: 0,0:53:24.64,0:53:27.94,Default,,0000,0000,0000,,...Tak co?\NPřemýšlel jste o tom?
+Dialogue: 0,0:53:29.74,0:53:32.37,Default,,0000,0000,0000,,Jistě chápete, že tady\Npodstupujeme velké riziko.
+Dialogue: 0,0:53:33.01,0:53:35.41,Default,,0000,0000,0000,,Představitelé místní policie\Nna tajné schůzce...
+Dialogue: 0,0:53:35.47,0:53:38.31,Default,,0000,0000,0000,,...s lidmi z Ústřední policie.
+Dialogue: 0,0:53:38.37,0:53:40.20,Default,,0000,0000,0000,,To by zcela jistě nevypadalo dobře.
+Dialogue: 0,0:53:44.44,0:53:45.77,Default,,0000,0000,0000,,Přesto řeknu tohle.
+Dialogue: 0,0:53:45.84,0:53:48.27,Default,,0000,0000,0000,,Všichni, co jsme tady, máme odlišné názory...
+Dialogue: 0,0:53:48.34,0:53:50.14,Default,,0000,0000,0000,,...od lidí z velitelství,...
+Dialogue: 0,0:53:50.20,0:53:54.87,Default,,0000,0000,0000,,...kteří chtějí pohřbít celou Ústřední policii.
+Dialogue: 0,0:53:55.40,0:53:57.50,Default,,0000,0000,0000,,Pokud necháme stranou problémy\Nvztahující se k založení Ústřední policie,...
+Dialogue: 0,0:53:57.57,0:54:02.87,Default,,0000,0000,0000,,...musíme uznat, že v průběhu minulých let...
+Dialogue: 0,0:54:02.94,0:54:05.06,Default,,0000,0000,0000,,...efektivně vykonávala svou roli.
+Dialogue: 0,0:54:05.14,0:54:08.50,Default,,0000,0000,0000,,A uznáváme, že práce Zpravodajského oddělení,...
+Dialogue: 0,0:54:08.57,0:54:11.16,Default,,0000,0000,0000,,...které jste založil,\Nje v mnoha ohledech úspěšná.
+Dialogue: 0,0:54:11.33,0:54:14.20,Default,,0000,0000,0000,,Chci zdůraznit, že máme vysoké mínění...
+Dialogue: 0,0:54:14.27,0:54:16.03,Default,,0000,0000,0000,,...o Zpravodajském oddělení Ústřední policie.
+Dialogue: 0,0:54:18.43,0:54:22.27,Default,,0000,0000,0000,,Zatímco veřejný pořádek a klid\Nse v hlavním městě obnovují,...
+Dialogue: 0,0:54:22.33,0:54:26.06,Default,,0000,0000,0000,,...protivládní síly jsou stále příliš silné,\Nnež abychom je mohli ignorovat.
+Dialogue: 0,0:54:26.40,0:54:28.09,Default,,0000,0000,0000,,Skutečnost, že...
+Dialogue: 0,0:54:28.16,0:54:31.53,Default,,0000,0000,0000,,...byli schopni vybudovat značnou\Norganizovanou sílu,...
+Dialogue: 0,0:54:31.60,0:54:35.05,Default,,0000,0000,0000,,...je zřejmá z toho, jak rozšířený\Njejich terorismus je.
+Dialogue: 0,0:54:36.06,0:54:39.79,Default,,0000,0000,0000,,Čelíme prudce se měnící situaci.
+Dialogue: 0,0:54:40.53,0:54:42.50,Default,,0000,0000,0000,,Musíme se vyhnout ozbrojené konfrontaci...
+Dialogue: 0,0:54:42.56,0:54:44.39,Default,,0000,0000,0000,,...a rychle se zaměřit...
+Dialogue: 0,0:54:44.46,0:54:47.66,Default,,0000,0000,0000,,...na kontrarozvědnou činnost\Nk ochraně veřejného pořádku.
+Dialogue: 0,0:54:48.26,0:54:50.32,Default,,0000,0000,0000,,K tomu nutně potřebujeme ustavit...
+Dialogue: 0,0:54:50.39,0:54:53.99,Default,,0000,0000,0000,,...jednotnou organizaci s jednotnou\Nvelící strukturou.
+Dialogue: 0,0:54:55.09,0:54:58.08,Default,,0000,0000,0000,,Ti ve Vrchním velení, kteří myslí jen na zničení...
+Dialogue: 0,0:54:58.16,0:55:00.15,Default,,0000,0000,0000,,...Ústřední policie, tomu nerozumí!
+Dialogue: 0,0:55:01.82,0:55:05.31,Default,,0000,0000,0000,,Na velitelství není mnoho těch,\Nco to vidí jako my.
+Dialogue: 0,0:55:05.39,0:55:10.09,Default,,0000,0000,0000,,Nicméně naše síla leží v rostoucím počtu...
+Dialogue: 0,0:55:10.15,0:55:13.85,Default,,0000,0000,0000,,...důstojníků i vojáků, kteří\Nse rozhodli udržovat zákon a pořádek.
+Dialogue: 0,0:55:14.19,0:55:16.28,Default,,0000,0000,0000,,Takže s podporou\NZpravodajského oddělení...
+Dialogue: 0,0:55:16.35,0:55:19.95,Default,,0000,0000,0000,,...v kombinaci s politickými konexemi velitele Aniyi...
+Dialogue: 0,0:55:20.02,0:55:22.49,Default,,0000,0000,0000,,...se můžeme sloučit\Ns Ústřední policií,...
+Dialogue: 0,0:55:22.55,0:55:25.85,Default,,0000,0000,0000,,...a tak zcela zreformovat\Nnaši vnitřní strukturu.
+Dialogue: 0,0:55:26.05,0:55:27.45,Default,,0000,0000,0000,,Neoficiálně...
+Dialogue: 0,0:55:27.52,0:55:30.88,Default,,0000,0000,0000,,...máme také jakousi podporu\NNárodní bezpečnostní komise.
+Dialogue: 0,0:55:31.85,0:55:34.08,Default,,0000,0000,0000,,Ale pod jednou podmínkou.
+Dialogue: 0,0:55:36.58,0:55:38.28,Default,,0000,0000,0000,,Žádná Speciální jednotka?
+Dialogue: 0,0:55:55.71,0:55:57.14,Default,,0000,0000,0000,,Co si o tom myslíte?
+Dialogue: 0,0:55:57.41,0:55:59.94,Default,,0000,0000,0000,,Ubohá banda, která umí jen žvanit.
+Dialogue: 0,0:56:00.68,0:56:03.04,Default,,0000,0000,0000,,Jen na ně Vnitřní oddělení pohlédne...
+Dialogue: 0,0:56:03.11,0:56:05.87,Default,,0000,0000,0000,,...a stáhnou se strachy pryč\Ns staženým ocasem.
+Dialogue: 0,0:56:06.98,0:56:10.38,Default,,0000,0000,0000,,Národní bezpečnostní komise\Nnabídla svou podporu pravděpodobně...
+Dialogue: 0,0:56:10.44,0:56:12.77,Default,,0000,0000,0000,,...jen proto, aby udržela vedení Místní policie\Npod svou kontrolou.
+Dialogue: 0,0:56:12.87,0:56:14.74,Default,,0000,0000,0000,,Ano, můžete mít pravdu.
+Dialogue: 0,0:56:14.81,0:56:18.50,Default,,0000,0000,0000,,Ale musíte přiznat, že mají\Ndocela dobrý instinkt.
+Dialogue: 0,0:56:19.74,0:56:22.80,Default,,0000,0000,0000,,Ať je to, jak chce, nemůžete dát\Ndva psy různých plemen do jedné klece.
+Dialogue: 0,0:56:22.87,0:56:28.00,Default,,0000,0000,0000,,Ale pokud potřebujete rodovou linii obou...
+Dialogue: 0,0:56:28.07,0:56:30.80,Default,,0000,0000,0000,,...můžete je spářit.
+Dialogue: 0,0:56:31.67,0:56:34.26,Default,,0000,0000,0000,,Je to tak trochu hra, v níž nikdy\Nnemůžete říct, čí krev převládne.
+Dialogue: 0,0:56:36.40,0:56:38.63,Default,,0000,0000,0000,,Jakkoliv silná rodová linie...
+Dialogue: 0,0:56:38.70,0:56:43.14,Default,,0000,0000,0000,,...nakonec vymře,\Npokud pes není schopen ji předat dál.
+Dialogue: 0,0:56:44.27,0:56:46.10,Default,,0000,0000,0000,,Některá zvířata očividně...
+Dialogue: 0,0:56:46.17,0:56:48.26,Default,,0000,0000,0000,,...zabíjí všechny potomky jiných samců,
+Dialogue: 0,0:56:48.33,0:56:51.86,Default,,0000,0000,0000,,...když ovládají smečku.
+Dialogue: 0,0:56:52.57,0:56:55.16,Default,,0000,0000,0000,,Organizace někdy dělají totéž.
+Dialogue: 0,0:56:57.00,0:56:58.80,Default,,0000,0000,0000,,Zrazuješ svého dobrého přítele z Jednotky.
+Dialogue: 0,0:56:58.86,0:57:00.83,Default,,0000,0000,0000,,Netrápí tě to?
+Dialogue: 0,0:57:02.46,0:57:03.86,Default,,0000,0000,0000,,Kdo je ta dívka?
+Dialogue: 0,0:57:04.46,0:57:07.92,Default,,0000,0000,0000,,"Červená karkulka"\Nstejně jako ta, co zemřela.
+Dialogue: 0,0:57:08.00,0:57:11.83,Default,,0000,0000,0000,,Její jméno je Kei Amamiya,\Nkrycí jméno "Langes Haar".
+Dialogue: 0,0:57:12.03,0:57:13.72,Default,,0000,0000,0000,,Několikrát byla zatčena...
+Dialogue: 0,0:57:13.79,0:57:17.36,Default,,0000,0000,0000,,...ale nikdy se ji nepodařilo usvědčit.\NZarytá teroristka.
+Dialogue: 0,0:57:17.56,0:57:21.50,Default,,0000,0000,0000,,Sekce 1 ji předala nám, když se přiznala.
+Dialogue: 0,0:57:22.13,0:57:24.62,Default,,0000,0000,0000,,Proč jsi vybral právě ji?
+Dialogue: 0,0:57:25.43,0:57:27.33,Default,,0000,0000,0000,,Vzešla ze správného prostředí.
+Dialogue: 0,0:57:28.06,0:57:31.72,Default,,0000,0000,0000,,Ale především pro její zvláštní\Npodobnost s tamtou dívkou.
+Dialogue: 0,0:57:37.46,0:57:39.45,Default,,0000,0000,0000,,Zvol správný čas.{Pick your time - netusim, co to ma znamenat}
+Dialogue: 0,0:57:40.16,0:57:41.59,Default,,0000,0000,0000,,Mimochodem...
+Dialogue: 0,0:57:41.79,0:57:45.59,Default,,0000,0000,0000,,...slyšel jsi o skupině\Nzvané „Vlčí brigáda“?
+Dialogue: 0,0:57:46.09,0:57:47.21,Default,,0000,0000,0000,,Domnívám se,...
+Dialogue: 0,0:57:47.29,0:57:52.78,Default,,0000,0000,0000,,...že je to kontrarozvědná skupina,\Nkterou zřídil zástupce velitele Handa.
+Dialogue: 0,0:57:53.29,0:57:55.08,Default,,0000,0000,0000,,Bylo mi řečeno, že mají agenty...
+Dialogue: 0,0:57:55.15,0:57:59.25,Default,,0000,0000,0000,,...nejen ve Speciální jednotce,\Nale také ve Velitelství Ústřední policie.
+Dialogue: 0,0:58:00.85,0:58:03.84,Default,,0000,0000,0000,,Myslíte, že taková skupina\Ndoopravdy existuje?
+Dialogue: 0,0:58:04.75,0:58:06.34,Default,,0000,0000,0000,,To je těžké říct.
+Dialogue: 0,0:58:06.42,0:58:08.91,Default,,0000,0000,0000,,Ale během Okupace\NHanda vytvořil...
+Dialogue: 0,0:58:08.98,0:58:13.72,Default,,0000,0000,0000,,...nějakou kontrarozvědku\Npro G–2.
+Dialogue: 0,0:58:14.35,0:58:17.08,Default,,0000,0000,0000,,Nikdo nemůže přesně říct,\Nco si myslí.
+Dialogue: 0,0:58:17.45,0:58:19.92,Default,,0000,0000,0000,,Tak to měj na paměti\Na kryj si záda.
+Dialogue: 0,0:58:39.24,0:58:41.44,Default,,0000,0000,0000,,Zapovězená romance...
+Dialogue: 0,0:58:41.51,0:58:45.24,Default,,0000,0000,0000,,...mezi teroristkou a\Nčlenem Speciální jednotky.
+Dialogue: 0,0:58:46.17,0:58:49.61,Default,,0000,0000,0000,,Můj divizní šéf si\Nnepočíná příliš jemně, což?
+Dialogue: 0,0:58:50.91,0:58:55.24,Default,,0000,0000,0000,,Měl by to být pěkný skandál.\NSplní to svůj účel.
+Dialogue: 0,0:58:56.14,0:58:57.77,Default,,0000,0000,0000,,Na co myslíš?
+Dialogue: 0,0:58:59.27,0:59:04.23,Default,,0000,0000,0000,,V každém příběhu, v němž se vyskytuje,\Nje vlk vždy ten zlý.
+Dialogue: 0,0:59:05.47,0:59:08.50,Default,,0000,0000,0000,,Ne, nezrazuješ\Nlidskou bytost.
+Dialogue: 0,0:59:27.52,0:59:30.36,Default,,0000,0000,0000,,Vypadá to, že\Nse rozhodli jednat.
+Dialogue: 0,0:59:35.95,0:59:38.29,Default,,0000,0000,0000,,Jste si jistý, že mu můžeme důvěřovat?
+Dialogue: 0,0:59:42.69,0:59:46.35,Default,,0000,0000,0000,,Šelma zůstane šelmou.
+Dialogue: 0,1:00:46.21,1:00:50.47,Default,,0000,0000,0000,,„Děvčátko se svléklo a\Npřišlo k posteli,...
+Dialogue: 0,1:00:51.30,1:00:52.77,Default,,0000,0000,0000,,...v níž ležela její maminka...
+Dialogue: 0,1:00:52.84,1:00:58.30,Default,,0000,0000,0000,,...v podivné poloze\Ns kápí přes tvář.“
+Dialogue: 0,1:01:00.50,1:01:02.06,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:01:02.14,1:01:05.63,Default,,0000,0000,0000,,...jaké to máš velké uši,«\Nřeklo.“
+Dialogue: 0,1:01:05.70,1:01:09.00,Default,,0000,0000,0000,,„»To abych tě lépe slyšela,\Nmá milá.«“
+Dialogue: 0,1:01:10.20,1:01:11.33,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:01:11.87,1:01:14.17,Default,,0000,0000,0000,,...jaké to máš velké oči.«“
+Dialogue: 0,1:01:15.30,1:01:18.83,Default,,0000,0000,0000,,„»To abych tě lépe viděla,\Nmá milá.«“
+Dialogue: 0,1:01:20.40,1:01:21.76,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:01:22.10,1:01:24.40,Default,,0000,0000,0000,,...jaké to máš velké tlapy.«“
+Dialogue: 0,1:01:25.33,1:01:29.93,Default,,0000,0000,0000,,„»To abych tě mohla lépe držet,\Nmá milá.«“
+Dialogue: 0,1:01:32.10,1:01:33.36,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:01:34.16,1:01:36.79,Default,,0000,0000,0000,,...jaké to máš velké zuby.«“
+Dialogue: 0,1:01:47.73,1:01:49.22,Default,,0000,0000,0000,,Docela působivé.
+Dialogue: 0,1:01:50.53,1:01:53.12,Default,,0000,0000,0000,,Přesto to moc neznamená,\Npokud v rozhodujícím okamžiku...
+Dialogue: 0,1:01:53.19,1:01:54.75,Default,,0000,0000,0000,,...nedokážeš zmáčknout spoušť.
+Dialogue: 0,1:01:56.32,1:01:57.26,Default,,0000,0000,0000,,Je to tak?
+Dialogue: 0,1:01:59.42,1:02:01.98,Default,,0000,0000,0000,,Neznepokojuje tě Vnitřní komise?
+Dialogue: 0,1:02:03.32,1:02:05.15,Default,,0000,0000,0000,,Jsem na ni připraven.
+Dialogue: 0,1:02:07.02,1:02:08.05,Default,,0000,0000,0000,,Co se děje?
+Dialogue: 0,1:02:08.62,1:02:12.79,Default,,0000,0000,0000,,Tedy chci říct, tu naši rozmluvu\Njsme tehdy tak docela nedokončili.
+Dialogue: 0,1:02:12.85,1:02:16.72,Default,,0000,0000,0000,,Totiž chtěl jsem toho říct víc.
+Dialogue: 0,1:02:16.79,1:02:18.31,Default,,0000,0000,0000,,Ale nechám to plavat.
+Dialogue: 0,1:02:19.15,1:02:21.12,Default,,0000,0000,0000,,Týká se to mě?
+Dialogue: 0,1:02:26.08,1:02:28.88,Default,,0000,0000,0000,,Vypadá to, že tě někdo sleduje.
+Dialogue: 0,1:02:28.95,1:02:31.98,Default,,0000,0000,0000,,Ale neznám podrobnosti.
+Dialogue: 0,1:02:33.05,1:02:34.14,Default,,0000,0000,0000,,Mě?
+Dialogue: 0,1:02:34.38,1:02:37.11,Default,,0000,0000,0000,,Dobrá, zjistím o tom, co jen budu moci.
+Dialogue: 0,1:02:37.18,1:02:39.41,Default,,0000,0000,0000,,Jestli něco zpozoruješ, dej mi vědět.\NDomluveno?
+Dialogue: 0,1:02:39.48,1:02:42.18,Default,,0000,0000,0000,,Spolehni se.
+Dialogue: 0,1:02:47.58,1:02:48.74,Default,,0000,0000,0000,,Fuse...
+Dialogue: 0,1:02:51.91,1:02:53.14,Default,,0000,0000,0000,,Buď opatrný.
+Dialogue: 0,1:03:28.30,1:03:28.93,Default,,0000,0000,0000,,Haló?
+Dialogue: 0,1:03:29.00,1:03:29.93,Default,,0000,0000,0000,,To jsem já.
+Dialogue: 0,1:03:30.40,1:03:34.20,Default,,0000,0000,0000,,Nějací podivní lidé mě\Nsledují od včerejší noci.
+Dialogue: 0,1:03:34.27,1:03:37.23,Default,,0000,0000,0000,,Prosím, mohl by ses se mnou setkat?\NJsem v...
+Dialogue: 0,1:05:06.25,1:05:08.31,Default,,0000,0000,0000,,Nula jedna, k nula tři a nula čtyři.
+Dialogue: 0,1:05:08.38,1:05:10.85,Default,,0000,0000,0000,,Kořist se chytila na návnadu.
+Dialogue: 0,1:05:11.28,1:05:13.51,Default,,0000,0000,0000,,Nezabíjejte ho.\NPotřebujeme ho živého.
+Dialogue: 0,1:06:05.84,1:06:07.37,Default,,0000,0000,0000,,Je v prvním podlaží!
+Dialogue: 0,1:06:07.44,1:06:09.74,Default,,0000,0000,0000,,Zabezpečte předek!\NNenechte ho utéct!
+Dialogue: 0,1:06:52.60,1:06:54.07,Default,,0000,0000,0000,,Je tohle...?
+Dialogue: 0,1:06:57.30,1:07:01.07,Default,,0000,0000,0000,,Nevěřili mi natolik,\Naby mi dali opravdovou.
+Dialogue: 0,1:07:01.80,1:07:04.60,Default,,0000,0000,0000,,Ale musí se jim nechat, že noční muzeum ...
+Dialogue: 0,1:07:04.67,1:07:07.50,Default,,0000,0000,0000,,...jako jeviště předání bomby\Nzvolili dobře.
+Dialogue: 0,1:07:07.56,1:07:10.36,Default,,0000,0000,0000,,Pěkně dramatické, nemyslíš?
+Dialogue: 0,1:07:11.80,1:07:14.77,Default,,0000,0000,0000,,Pokud by byl jeden\Nze zatčených...
+Dialogue: 0,1:07:14.83,1:07:17.20,Default,,0000,0000,0000,,...příslušníkem Speciální jednotky,...
+Dialogue: 0,1:07:17.26,1:07:19.63,Default,,0000,0000,0000,,...tak by média kolem toho poletovala\Njako mouchy.
+Dialogue: 0,1:07:20.30,1:07:22.59,Default,,0000,0000,0000,,To Místní policie\Nuspořádala tohle divadélko.
+Dialogue: 0,1:07:22.66,1:07:25.79,Default,,0000,0000,0000,,Ale scénář napsalo\NZpravodajské oddělení Ústřední policie.
+Dialogue: 0,1:07:25.86,1:07:28.66,Default,,0000,0000,0000,,A režisér je Henmi?
+Dialogue: 0,1:07:30.09,1:07:32.93,Default,,0000,0000,0000,,Přišel jsi, přestože jsi to věděl?\NProč tedy?
+Dialogue: 0,1:07:35.19,1:07:36.06,Default,,0000,0000,0000,,Pojďme.
+Dialogue: 0,1:07:54.49,1:07:55.55,Default,,0000,0000,0000,,Tady jsou!
+Dialogue: 0,1:08:01.42,1:08:03.48,Default,,0000,0000,0000,,Varujte ty vpředu.
+Dialogue: 0,1:08:17.49,1:08:18.92,Default,,0000,0000,0000,,Jen vlez do auta.
+Dialogue: 0,1:08:35.45,1:08:36.61,Default,,0000,0000,0000,,To jsou oni!
+Dialogue: 0,1:08:42.08,1:08:43.21,Default,,0000,0000,0000,,Střílejte!
+Dialogue: 0,1:09:23.24,1:09:25.11,Default,,0000,0000,0000,,Vypadá to, že se dostali pryč.
+Dialogue: 0,1:09:26.94,1:09:28.34,Default,,0000,0000,0000,,Vzal si dívku...
+Dialogue: 0,1:09:28.41,1:09:30.71,Default,,0000,0000,0000,,...a ještě ukradl\Njedno z našich aut.
+Dialogue: 0,1:09:30.78,1:09:33.27,Default,,0000,0000,0000,,Současná poloha neznámá.
+Dialogue: 0,1:09:33.47,1:09:37.00,Default,,0000,0000,0000,,Celá Průzkumná divize Místní policie\Nbyla mobilizována.
+Dialogue: 0,1:09:37.07,1:09:39.54,Default,,0000,0000,0000,,Ale kdoví, jestli je chytnou.
+Dialogue: 0,1:09:40.34,1:09:43.87,Default,,0000,0000,0000,,Možná to na ně bylo příliš.
+Dialogue: 0,1:09:44.17,1:09:47.14,Default,,0000,0000,0000,,Neuvědomil jsem si, že je tak talentovaný.
+Dialogue: 0,1:09:47.21,1:09:49.07,Default,,0000,0000,0000,,Má emocionální problémy.
+Dialogue: 0,1:09:49.14,1:09:52.97,Default,,0000,0000,0000,,Ale ve střelbě, plížení, boji zblízka...
+Dialogue: 0,1:09:53.04,1:09:56.70,Default,,0000,0000,0000,,...a dalších technikách,\Nmá pozoruhodné schopnosti.
+Dialogue: 0,1:09:57.84,1:10:00.03,Default,,0000,0000,0000,,Jsem si jist, že jsem vám to říkal.
+Dialogue: 0,1:10:02.57,1:10:05.97,Default,,0000,0000,0000,,Vezmi si pár mužů z Taktické\Nútočné skupiny a dotáhněte to.
+Dialogue: 0,1:10:06.60,1:10:08.70,Default,,0000,0000,0000,,Dobře, že jsme si to trochu pojistili.
+Dialogue: 0,1:10:11.30,1:10:12.29,Default,,0000,0000,0000,,Henmi...
+Dialogue: 0,1:10:15.20,1:10:18.23,Default,,0000,0000,0000,,Co když je ten muž Vlk?
+Dialogue: 0,1:10:18.30,1:10:19.89,Default,,0000,0000,0000,,Zastřelím ho.
+Dialogue: 0,1:10:19.97,1:10:22.53,Default,,0000,0000,0000,,Dřív než bude mít příležitost\Nrozsápat mi hrdlo.
+Dialogue: 0,1:10:22.80,1:10:24.73,Default,,0000,0000,0000,,Nejsem ani trochu jako on.
+Dialogue: 0,1:10:38.02,1:10:41.04,Default,,0000,0000,0000,,Uprchlí jsou muž a žena.\NJsou ozbrojeni.
+Dialogue: 0,1:10:41.12,1:10:43.58,Default,,0000,0000,0000,,Střílejte bez váhání. Opakuji.
+Dialogue: 0,1:10:43.65,1:10:46.31,Default,,0000,0000,0000,,Uprchlí jsou muž a žena...
+Dialogue: 0,1:11:20.08,1:11:21.37,Default,,0000,0000,0000,,Nechceš utéct pryč?
+Dialogue: 0,1:11:41.57,1:11:42.90,Default,,0000,0000,0000,,Děkuji, pane.
+Dialogue: 0,1:11:45.01,1:11:47.67,Default,,0000,0000,0000,,Stále prověřujeme vozidla.\NZatím žádná známka jejich přítomnosti.
+Dialogue: 0,1:11:59.64,1:12:01.20,Default,,0000,0000,0000,,Řidičský průkaz, prosím.
+Dialogue: 0,1:12:15.53,1:12:17.56,Default,,0000,0000,0000,,Kam teď půjdeme?
+Dialogue: 0,1:12:19.40,1:12:21.13,Default,,0000,0000,0000,,Do temného lesa.
+Dialogue: 0,1:12:21.33,1:12:25.20,Default,,0000,0000,0000,,Kam půjdeme pak, až\Nprojdeme temným lesem?
+Dialogue: 0,1:12:25.53,1:12:27.73,Default,,0000,0000,0000,,Do domu, kde na nás někdo čeká.
+Dialogue: 0,1:12:28.77,1:12:30.46,Default,,0000,0000,0000,,Kdo?
+Dialogue: 0,1:12:32.93,1:12:34.56,Default,,0000,0000,0000,,Maminka?
+Dialogue: 0,1:12:35.50,1:12:36.76,Default,,0000,0000,0000,,Babička?
+Dialogue: 0,1:12:37.96,1:12:39.43,Default,,0000,0000,0000,,Nebo...?
+Dialogue: 0,1:12:44.43,1:12:48.59,Default,,0000,0000,0000,,Chci se znovu vrátit na to místo.
+Dialogue: 0,1:13:00.03,1:13:05.09,Default,,0000,0000,0000,,Co se tu děje?\NCo tu dělaj všichni ti poldové?
+Dialogue: 0,1:13:05.16,1:13:06.35,Default,,0000,0000,0000,,Hej. Pojď se mnou.
+Dialogue: 0,1:13:06.43,1:13:08.05,Default,,0000,0000,0000,,Hej! Co mi to ksakru děláte? !
+Dialogue: 0,1:13:08.13,1:13:11.03,Default,,0000,0000,0000,,Já platím daně!\NPusťte mě!
+Dialogue: 0,1:14:37.15,1:14:39.31,Default,,0000,0000,0000,,Ty se ani nezeptáš, co?
+Dialogue: 0,1:14:44.94,1:14:46.84,Default,,0000,0000,0000,,Od začátku to všechno byly lži.
+Dialogue: 0,1:14:48.64,1:14:51.44,Default,,0000,0000,0000,,Ta mrtvá dívka nebyla moje sestra.
+Dialogue: 0,1:14:51.94,1:14:54.71,Default,,0000,0000,0000,,Nepotkali jsme se náhodou.\NVšechno bylo naplánované.
+Dialogue: 0,1:14:57.01,1:15:00.10,Default,,0000,0000,0000,,Byla jsem Červená karkulka.\NJako ona.
+Dialogue: 0,1:15:02.24,1:15:03.77,Default,,0000,0000,0000,,Když mě zatkli...
+Dialogue: 0,1:15:03.84,1:15:06.40,Default,,0000,0000,0000,,...převezli mě do\NZpravodajského oddělení Ústřední policie.
+Dialogue: 0,1:15:07.81,1:15:12.00,Default,,0000,0000,0000,,Od té doby mi všechno bylo jedno.
+Dialogue: 0,1:15:13.91,1:15:16.57,Default,,0000,0000,0000,,Souhlasila jsem se vším, o co mě požádali.
+Dialogue: 0,1:15:16.64,1:15:19.13,Default,,0000,0000,0000,,Svým způsobem v tom byla jakási útěcha.
+Dialogue: 0,1:15:20.24,1:15:23.00,Default,,0000,0000,0000,,Muset myslet bylo tak nepříjemné.
+Dialogue: 0,1:15:24.37,1:15:27.00,Default,,0000,0000,0000,,Domnívala jsem se, že nejlepší\Nby bylo nepřemýšlet o ničem...
+Dialogue: 0,1:15:27.07,1:15:28.70,Default,,0000,0000,0000,,...nebo tak nějak jsem si říkala.
+Dialogue: 0,1:15:35.60,1:15:38.66,Default,,0000,0000,0000,,Ale teď, když jsem s tebou,...
+Dialogue: 0,1:15:38.74,1:15:41.70,Default,,0000,0000,0000,,...cítím se, jako bych\Npůsobila bolest sama sobě.
+Dialogue: 0,1:15:42.90,1:15:47.07,Default,,0000,0000,0000,,Když vidím stejný smutek\Nve tvých očích, začínám snít.
+Dialogue: 0,1:15:49.97,1:15:51.70,Default,,0000,0000,0000,,Ráda bych věděla proč.
+Dialogue: 0,1:16:01.43,1:16:02.69,Default,,0000,0000,0000,,Co kdybychom...
+Dialogue: 0,1:16:05.20,1:16:08.19,Default,,0000,0000,0000,,Ne.
+Dialogue: 0,1:16:10.06,1:16:13.76,Default,,0000,0000,0000,,Co kdybychom utekli?\NNěkam daleko, ty a já?
+Dialogue: 0,1:16:14.23,1:16:17.22,Default,,0000,0000,0000,,Na místo,\Nkde nás nikdo nebude znát.
+Dialogue: 0,1:16:17.70,1:16:20.10,Default,,0000,0000,0000,,Takže? Proč ne?\NProč?
+Dialogue: 0,1:16:23.89,1:16:25.62,Default,,0000,0000,0000,,Není to možné.
+Dialogue: 0,1:16:29.73,1:16:32.53,Default,,0000,0000,0000,,Jsou stále věci,\Nkteré tu musím udělat.
+Dialogue: 0,1:16:32.53,1:16:34.49,Default,,0000,0000,0000,,Ale pokud zůstaneme, tak...
+Dialogue: 0,1:16:37.33,1:16:38.38,Default,,0000,0000,0000,,Je mi líto.
+Dialogue: 0,1:17:06.05,1:17:07.92,Default,,0000,0000,0000,,Je mi zima.
+Dialogue: 0,1:21:26.42,1:21:31.09,Default,,0000,0000,0000,,Sledovali jsme Fuseho\Nod té doby,...
+Dialogue: 0,1:21:31.16,1:21:33.68,Default,,0000,0000,0000,,...kdy byl postaven\Npřed Vnitřní komisi.
+Dialogue: 0,1:21:34.89,1:21:37.52,Default,,0000,0000,0000,,Od chvíle, kdy ses\Ns ním poprvé setkala,...
+Dialogue: 0,1:21:37.59,1:21:40.75,Default,,0000,0000,0000,,...jsme zkoumali vše,\Nco se o tobě dalo zjistit.
+Dialogue: 0,1:21:41.59,1:21:43.02,Default,,0000,0000,0000,,Tak...
+Dialogue: 0,1:21:43.16,1:21:46.42,Default,,0000,0000,0000,,Nechali jsem tě jednat\Na nevměšovali jsme se.
+Dialogue: 0,1:21:49.39,1:21:51.69,Default,,0000,0000,0000,,To je princip kontrašpionáže.
+Dialogue: 0,1:21:52.09,1:21:56.49,Default,,0000,0000,0000,,Strana, která předvídá jednání druhé,\Na udeří první má výhodu.
+Dialogue: 0,1:21:57.19,1:22:00.25,Default,,0000,0000,0000,,Chtěli potopit\NSpeciální jednotku.
+Dialogue: 0,1:22:00.32,1:22:04.42,Default,,0000,0000,0000,,A jeho si vybrali\Njako obětního beránka.
+Dialogue: 0,1:22:04.72,1:22:08.59,Default,,0000,0000,0000,,Ale sami spadli\Ndo nastražené pasti.
+Dialogue: 0,1:22:09.72,1:22:13.88,Default,,0000,0000,0000,,To oni budou čelit skandálu,\Nkterý jim vybouchne pod rukama.
+Dialogue: 0,1:22:14.32,1:22:16.55,Default,,0000,0000,0000,,Oni se mají čeho bát.\NNe my.
+Dialogue: 0,1:22:16.88,1:22:20.28,Default,,0000,0000,0000,,Dokud zůstaneš\Njako trumf v našich rukách,...
+Dialogue: 0,1:22:20.35,1:22:22.94,Default,,0000,0000,0000,,...tak Zpravodajské oddělení\Nnebude moci...
+Dialogue: 0,1:22:23.02,1:22:26.71,Default,,0000,0000,0000,,...na Speciální jednotku vztáhnout ruku.\NAlespoň na chvíli.
+Dialogue: 0,1:22:44.68,1:22:47.98,Default,,0000,0000,0000,,Hádám, že kdybych byl na jejich místě,\Ntak bych se rovněž trochu pojistil.
+Dialogue: 0,1:22:49.25,1:22:50.34,Default,,0000,0000,0000,,Koneckonců...
+Dialogue: 0,1:22:50.41,1:22:54.31,Default,,0000,0000,0000,,...jsem to byl já,\Nkdo naučil Henmiho ten starý trik.
+Dialogue: 0,1:22:56.01,1:22:57.64,Default,,0000,0000,0000,,Tak teď to víš.
+Dialogue: 0,1:22:58.44,1:23:02.14,Default,,0000,0000,0000,,Nejen, že je tenhle muž\Nčlenem Speciální jednotky,...
+Dialogue: 0,1:23:02.21,1:23:05.30,Default,,0000,0000,0000,,...ale také patří\Ndo naší skupiny.
+Dialogue: 0,1:23:05.54,1:23:06.47,Default,,0000,0000,0000,,Tak.
+Dialogue: 0,1:23:06.54,1:23:10.34,Default,,0000,0000,0000,,Už od doby, kdy byl jako nováček\Nv Akademii, jsem ho trénoval.
+Dialogue: 0,1:23:13.24,1:23:15.71,Default,,0000,0000,0000,,Takže. Chcete říct, po celou tu dobu...
+Dialogue: 0,1:23:17.11,1:23:18.67,Default,,0000,0000,0000,,Je to pravda?
+Dialogue: 0,1:23:30.71,1:23:33.87,Default,,0000,0000,0000,,A teď jsi schopna\Nvidět pravého Fuseho.
+Dialogue: 0,1:23:35.07,1:23:38.34,Default,,0000,0000,0000,,Nejsme lidé přestrojení\Nza pouhé psy.
+Dialogue: 0,1:23:39.27,1:23:41.53,Default,,0000,0000,0000,,Jsme vlci...
+Dialogue: 0,1:23:41.60,1:23:43.23,Default,,0000,0000,0000,,...přestrojení za lidi.
+Dialogue: 0,1:23:44.47,1:23:45.87,Default,,0000,0000,0000,,Vlci...
+Dialogue: 0,1:23:45.94,1:23:47.66,Default,,0000,0000,0000,,Ne lidé...
+Dialogue: 0,1:24:00.80,1:24:02.57,Default,,0000,0000,0000,,V pořádku. Běžte!
+Dialogue: 0,1:24:30.50,1:24:33.56,Default,,0000,0000,0000,,Lovci nakonec zabijí vlky...
+Dialogue: 0,1:24:33.63,1:24:36.80,Default,,0000,0000,0000,,...jen v lidských příbězích.
+Dialogue: 0,1:24:47.26,1:24:49.53,Default,,0000,0000,0000,,Co jiného jsem mohla dělat?!
+Dialogue: 0,1:24:49.96,1:24:52.40,Default,,0000,0000,0000,,Jakou jinou volbu jsem měla?!
+Dialogue: 0,1:24:53.30,1:24:55.79,Default,,0000,0000,0000,,Víš, že jsem chtěla jít s tebou!
+Dialogue: 0,1:24:56.00,1:25:00.33,Default,,0000,0000,0000,,Víš to!\NAle ty jsi byl ten, kdo nemohl!
+Dialogue: 0,1:25:02.13,1:25:04.22,Default,,0000,0000,0000,,Kdybychom jen bývali mohli...
+Dialogue: 0,1:25:04.79,1:25:07.63,Default,,0000,0000,0000,,Kdybychom jen bývali mohli\Nzemřít společně...
+Dialogue: 0,1:25:08.66,1:25:10.59,Default,,0000,0000,0000,,...pak bychom...
+Dialogue: 0,1:25:12.79,1:25:16.69,Default,,0000,0000,0000,,Pak bychom mohli být spolu.
+Dialogue: 0,1:25:18.26,1:25:21.13,Default,,0000,0000,0000,,Alespoň vím, že jsem mohla mít...
+Dialogue: 0,1:25:21.19,1:25:24.22,Default,,0000,0000,0000,,...místo ve tvém srdci.
+Dialogue: 0,1:25:25.19,1:25:27.42,Default,,0000,0000,0000,,To je vše, co jsem chtěla.
+Dialogue: 0,1:25:31.72,1:25:33.25,Default,,0000,0000,0000,,Chtěla jsem,...
+Dialogue: 0,1:25:33.76,1:25:37.16,Default,,0000,0000,0000,,...aby na mě někdo vzpomínal.
+Dialogue: 0,1:25:50.32,1:25:52.18,Default,,0000,0000,0000,,Je to přepadení. Zpátky!
+Dialogue: 0,1:26:11.85,1:26:13.04,Default,,0000,0000,0000,,Tamhle jsou další!
+Dialogue: 0,1:26:13.12,1:26:14.08,Default,,0000,0000,0000,,Tudy!
+Dialogue: 0,1:26:42.84,1:26:44.18,Default,,0000,0000,0000,,Tudy.
+Dialogue: 0,1:27:49.23,1:27:51.86,Default,,0000,0000,0000,,Takže to byla pravda, Fuse.
+Dialogue: 0,1:27:53.73,1:27:57.22,Default,,0000,0000,0000,,Po celou dobu jsi věděl, co dělat...\Naniž by ti to někdo říkal.
+Dialogue: 0,1:28:30.99,1:28:32.62,Default,,0000,0000,0000,,Tu máš!{Take this!}
+Dialogue: 0,1:30:42.27,1:30:43.30,Default,,0000,0000,0000,,Proč?
+Dialogue: 0,1:30:44.47,1:30:46.41,Default,,0000,0000,0000,,Proč jsi...
+Dialogue: 0,1:30:46.47,1:30:48.60,Default,,0000,0000,0000,,...tehdy nevystřelil?
+Dialogue: 0,1:30:51.67,1:30:54.44,Default,,0000,0000,0000,,V čem je rozdíl?
+Dialogue: 0,1:30:54.87,1:30:57.17,Default,,0000,0000,0000,,Mezi tebou a mnou?
+Dialogue: 0,1:31:07.73,1:31:09.70,Default,,0000,0000,0000,,Nejsi nakonec...
+Dialogue: 0,1:31:10.20,1:31:12.36,Default,,0000,0000,0000,,...člověk?!
+Dialogue: 0,1:31:13.30,1:31:15.29,Default,,0000,0000,0000,,Fuse!
+Dialogue: 0,1:33:13.19,1:33:17.65,Default,,0000,0000,0000,,Není naším trumfem\Nproti Zpravodajskému oddělení?
+Dialogue: 0,1:33:18.96,1:33:20.39,Default,,0000,0000,0000,,Důležité je,...
+Dialogue: 0,1:33:20.46,1:33:25.12,Default,,0000,0000,0000,,...aby věřili, že je v našich rukách.
+Dialogue: 0,1:33:25.53,1:33:28.69,Default,,0000,0000,0000,,Takže na tom, jestli je nebo není naživu,\Nnezáleží.
+Dialogue: 0,1:33:29.19,1:33:30.59,Default,,0000,0000,0000,,Tak proč?
+Dialogue: 0,1:33:31.52,1:33:34.29,Default,,0000,0000,0000,,Je jenom jedna cesta, jak zajistit...
+Dialogue: 0,1:33:34.36,1:33:37.89,Default,,0000,0000,0000,,...aby ji druhá strana nikdy nezískala zpět...
+Dialogue: 0,1:33:37.96,1:33:40.55,Default,,0000,0000,0000,,...a aby nikdy nebyla schopna\Npotvrdit její smrt.
+Dialogue: 0,1:33:41.29,1:33:42.35,Default,,0000,0000,0000,,Poslyš.
+Dialogue: 0,1:33:42.66,1:33:46.56,Default,,0000,0000,0000,,Jediný způsob, jak může pro naše\Nzáměry zůstat naživu, je,...
+Dialogue: 0,1:33:46.62,1:33:49.35,Default,,0000,0000,0000,,...když zemře tady a teď.
+Dialogue: 0,1:33:49.46,1:33:52.72,Default,,0000,0000,0000,,Měla by to velmi dobře chápat...
+Dialogue: 0,1:33:52.79,1:33:55.42,Default,,0000,0000,0000,,...vzhledem ke společnosti,\Nv níž se pohybovala.
+Dialogue: 0,1:34:01.62,1:34:05.32,Default,,0000,0000,0000,,Chceš opustit smečku\Na žít mezi lidmi?
+Dialogue: 0,1:34:08.15,1:34:09.38,Default,,0000,0000,0000,,Ale měl bys vědět,...
+Dialogue: 0,1:34:10.49,1:34:14.79,Default,,0000,0000,0000,,...že i když se vlk převlékne\Nza člověka a žije mezi lidmi,...
+Dialogue: 0,1:34:15.45,1:34:17.92,Default,,0000,0000,0000,,...nikdy nemůže být člověkem.
+Dialogue: 0,1:34:18.82,1:34:21.22,Default,,0000,0000,0000,,Stejně jako zločiny téhle dívky,\Nkterá nosila bomby...
+Dialogue: 0,1:34:21.28,1:34:26.48,Default,,0000,0000,0000,,...a zabila tolik lidí,\Nnemohou být smazány.
+Dialogue: 0,1:34:29.48,1:34:31.01,Default,,0000,0000,0000,,Co bych měl...?
+Dialogue: 0,1:34:32.88,1:34:35.94,Default,,0000,0000,0000,,Chceš, abych ti řekl,\Nco bys měl udělat?
+Dialogue: 0,1:34:41.95,1:34:46.25,Default,,0000,0000,0000,,Tohle je místo, kde končí příběh\Nšelmy zapletené s lidmi.
+Dialogue: 0,1:34:48.95,1:34:51.74,Default,,0000,0000,0000,,Ukonči to všechno, dokud jsi ještě šelma.
+Dialogue: 0,1:35:06.11,1:35:10.51,Default,,0000,0000,0000,,„Děvčátko se vysvléklo\Na přišlo k posteli,...
+Dialogue: 0,1:35:11.58,1:35:12.63,Default,,0000,0000,0000,,...v níž ležela její maminka...
+Dialogue: 0,1:35:12.71,1:35:17.70,Default,,0000,0000,0000,,...v podivné poloze s kápí přes tvář.“
+Dialogue: 0,1:35:26.11,1:35:27.23,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:35:27.31,1:35:29.80,Default,,0000,0000,0000,,Jaké to máš velké uši,«\Nřeklo.“
+Dialogue: 0,1:35:30.24,1:35:31.43,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:35:31.50,1:35:33.60,Default,,0000,0000,0000,,Jaké to máš velké oči.«“
+Dialogue: 0,1:35:34.34,1:35:35.36,Default,,0000,0000,0000,,„»Maminko...
+Dialogue: 0,1:35:35.44,1:35:37.67,Default,,0000,0000,0000,,Jaké to máš velké tlapy.«“
+Dialogue: 0,1:35:38.27,1:35:39.36,Default,,0000,0000,0000,,„»Maminko!
+Dialogue: 0,1:35:39.44,1:35:41.87,Default,,0000,0000,0000,,Jaké to máš velké zuby!«“
+Dialogue: 0,1:36:36.76,1:36:39.20,Default,,0000,0000,0000,,A pak vlk...
+Dialogue: 0,1:36:39.26,1:36:41.92,Default,,0000,0000,0000,,...sežral Červenou karkulku.

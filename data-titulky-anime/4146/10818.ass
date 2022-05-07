@@ -1,0 +1,387 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Acko: Zero no Tsukaima
+Original Script: Shibetsudake Translations
+Original Translation: re5pect
+Original Timing: Bitch
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 848
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Arial,50,16777215,8421631,16777215,8404992,-1,-1,1,3,0,2,30,30,30,0,238
+Style: Pozadi,Arial,50,16777215,8421631,0,2645793,1,-1,1,3,0,6,30,30,30,0,238
+Style: Karaoke,Arial,50,16777215,9174748,65535,8421440,-1,-1,1,3,0,2,30,30,30,0,238
+Style: Karaoke_JP,Arial,50,16777215,65535,65535,128,1,-1,1,3,0,6,30,30,30,0,238
+Style: Acko,Papyrus,150,16777215,65535,65535,128,-1,-1,1,1,1,2,30,30,30,0,0
+Style: Becko,Papyrus,150,16777215,8421631,16777215,8404992,-1,-1,1,1,1,2,30,30,30,0,0
+Style: Translations_stred,Papyrus,300,14544383,16777215,8935592,9408399,-1,-1,1,4,2,10,30,30,30,0,0
+Style: Pozado,Arial,50,16777215,8421631,0,2645793,-1,-1,1,3,0,2,30,30,30,0,238
+
+[Events]
+Format: MarkKaraoke_JP, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:29.65,0:00:35.04,Default,,0000,0000,0000,,Poklady, zde ukryté... si teï vezme...
+Dialogue: 0,0:00:38.12,0:00:40.24,Default,,0000,0000,0000,,... Fouquet "Hlinìná pìst".
+Dialogue: 0,0:00:42.62,0:00:45.19,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}First kiss kara hajimaru...
+Dialogue: 0,0:00:45.55,0:00:48.76,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... futari no koi no history.
+Dialogue: 0,0:00:48.76,0:00:51.70,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Kono unmei ni mahou kaketa...
+Dialogue: 0,0:00:51.88,0:00:56.83,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... kimi ga totsuzen arawareta.
+Dialogue: 0,0:01:02.98,0:01:07.47,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Tsuki ha futatsu... kienai sora..
+Dialogue: 0,0:01:09.12,0:01:13.71,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... arienai koto da yo ne?
+Dialogue: 0,0:01:15.45,0:01:19.67,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Hajimate da you... konna kimochi...
+Dialogue: 0,0:01:20.49,0:01:25.81,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... yukeni koko ga kokochi yuko natte yuku.
+Dialogue: 0,0:01:26.27,0:01:32.87,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Moshi kimi ga tsuma zuite ochikon demo...
+Dialogue: 0,0:01:33.42,0:01:40.21,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... boku ga gyutto kimi wo zutto dakishimeteageru.
+Dialogue: 0,0:01:41.22,0:01:43.78,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Sweet kiss made samenai...
+Dialogue: 0,0:01:44.15,0:01:47.09,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... ano hi deaeta story.
+Dialogue: 0,0:01:47.09,0:01:50.02,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Hora kimi no mahou kakete...
+Dialogue: 0,0:01:50.11,0:01:53.05,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... negai wa kitto kanau kara.
+Dialogue: 0,0:01:53.50,0:01:55.98,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}First kiss kara hajimaru...
+Dialogue: 0,0:01:56.44,0:01:59.46,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... futarri no koi no history.
+Dialogue: 0,0:01:59.46,0:02:02.42,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Kono unmei ni mahou kaketa...
+Dialogue: 0,0:02:02.77,0:02:07.81,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... kimi ga totsuzen arawareta.
+Dialogue: 0,0:00:42.62,0:00:45.19,Karaoke,,0000,0000,0000,,{\fad(375,375)}Naši spoleènou lásku...
+Dialogue: 0,0:00:45.55,0:00:48.76,Karaoke,,0000,0000,0000,,{\fad(375,375)}... odstartoval neèekanı polibek.
+Dialogue: 0,0:00:48.76,0:00:51.70,Karaoke,,0000,0000,0000,,{\fad(375,375)}Do vìtru jsem vyøkla kouzelnou formuli...
+Dialogue: 0,0:00:51.88,0:00:56.83,Karaoke,,0000,0000,0000,,{\fad(375,375)}... a z nièeho nic jsi se objevil.
+Dialogue: 0,0:01:02.98,0:01:07.47,Karaoke,,0000,0000,0000,,{\fad(375,375)}Dva velké mìsíce... na noèní obloze...
+Dialogue: 0,0:01:09.12,0:01:13.71,Karaoke,,0000,0000,0000,,{\fad(375,375)}... nezní to neuvìøitelnì?
+Dialogue: 0,0:01:15.45,0:01:19.67,Karaoke,,0000,0000,0000,,{\fad(375,375)}Poprvé v ivotì...  mám pocit...
+Dialogue: 0,0:01:20.49,0:01:25.81,Karaoke,,0000,0000,0000,,{\fad(375,375)}... jako by èást mého já, která je zoufalá, náhle pookøála.
+Dialogue: 0,0:01:26.27,0:01:32.87,Karaoke,,0000,0000,0000,,{\fad(375,375)}Pokud se vydáš na cestu strastiplnou...
+Dialogue: 0,0:01:33.42,0:01:40.21,Karaoke,,0000,0000,0000,,{\fad(375,375)}... já vdy budu stát pøi tobì abych ti byla oporou.
+Dialogue: 0,0:01:41.22,0:01:43.78,Karaoke,,0000,0000,0000,,{\fad(375,375)}Den, kdy jsme se poprvé setkali...
+Dialogue: 0,0:01:44.15,0:01:47.09,Karaoke,,0000,0000,0000,,{\fad(375,375)}... byl jako sladkı sen.
+Dialogue: 0,0:01:47.09,0:01:50.02,Karaoke,,0000,0000,0000,,{\fad(375,375)}Já vyøkla ta kouzelná slova...
+Dialogue: 0,0:01:50.11,0:01:53.05,Karaoke,,0000,0000,0000,,{\fad(375,375)}... a místo snu, jsi tu doopravdy stál.
+Dialogue: 0,0:01:53.50,0:01:55.98,Karaoke,,0000,0000,0000,,{\fad(375,375)}Naši spoleènou lásku...
+Dialogue: 0,0:01:56.44,0:01:59.46,Karaoke,,0000,0000,0000,,{\fad(375,375)}... odstartoval neèekanı polibek.
+Dialogue: 0,0:01:59.46,0:02:02.42,Karaoke,,0000,0000,0000,,{\fad(375,375)}Do vìtru jsem vyøkla kouzelnou formuli...
+Dialogue: 0,0:02:02.77,0:02:07.81,Karaoke,,0000,0000,0000,,{\fad(375,375)}... a z nièeho nic jsi se objevil.
+Dialogue: 0,0:00:57.22,0:01:01.22,Acko,,0000,0000,0000,,{\fad(375,375)}{\pos(450,315)}Zero
+Dialogue: 0,0:00:57.22,0:01:01.22,Becko,,0000,0000,0000,,{\fad(375,375)}{\pos(775,415)}no Tsukaima
+Dialogue: 0,0:00:57.22,0:01:01.22,Acko,,0000,0000,0000,,{\fad(375,375)}{\pos(265,715)}Shibetsudake
+Dialogue: 0,0:00:57.22,0:01:01.22,Becko,,0000,0000,0000,,{\fad(375,375)}{\pos(810,760)}Translations
+Dialogue: 0,0:02:10.88,0:02:16.05,Acko,,0000,0000,0000,,{\fad(375,375)}{\pos(535,330)}Tristeinská
+Dialogue: 0,0:02:10.88,0:02:16.05,Becko,,0000,0000,0000,,{\fad(375,375)}{\pos(905,375)}princezna
+Dialogue: 0,0:02:10.88,0:02:16.05,Acko,,0000,0000,0000,,{\fad(375,375)}{\a3}05
+Dialogue: 0,0:02:10.88,0:02:16.05,Becko,,0000,0000,0000,,{\fad(375,375)}{\a7}05
+Dialogue: 0,0:02:10.88,0:02:16.05,Acko,,0000,0000,0000,,{\fad(375,375)}{\a5}05
+Dialogue: 0,0:02:10.88,0:02:16.05,Becko,,0000,0000,0000,,{\fad(375,375)}{\a1}05
+Dialogue: 0,0:02:16.98,0:02:18.94,Default,,0000,0000,0000,,Ty záda musíš narovnat!
+Dialogue: 0,0:02:19.05,0:02:20.49,Default,,0000,0000,0000,,T-Takhle?
+Dialogue: 0,0:02:22.15,0:02:24.89,Default,,0000,0000,0000,,Tvá pravá ruka a noha nejsou èasovì zesynchronizované!
+Dialogue: 0,0:02:26.31,0:02:29.27,Default,,0000,0000,0000,,P-Podle mì, je tohle docela pìkná blbost.
+Dialogue: 0,0:02:30.02,0:02:34.27,Default,,0000,0000,0000,,Øíká se, "Promiòte paní, ale \Nto co ádáte je nad mé síly".
+Dialogue: 0,0:02:36.36,0:02:40.31,Default,,0000,0000,0000,,Tohle nemá ádnı smysl... \Nvytøíbit tvé chování je zhola nemoné.
+Dialogue: 0,0:02:41.16,0:02:42.16,Default,,0000,0000,0000,,Co zas máš? 
+Dialogue: 0,0:02:42.28,0:02:44.28,Default,,0000,0000,0000,,Co to tu na mì zase šiješ?! 
+Dialogue: 0,0:02:44.28,0:02:46.05,Default,,0000,0000,0000,,Byla jsem zbyteènì roztritá.
+Dialogue: 0,0:02:46.10,0:02:48.50,Default,,0000,0000,0000,,Jak jsem jen mohla na tu pøehlídku zapomenout!?
+Dialogue: 0,0:02:48.91,0:02:50.08,Default,,0000,0000,0000,,Jakou pøehlídku?
+Dialogue: 0,0:02:50.25,0:02:53.58,Default,,0000,0000,0000,,Jedná se o pøehlídku poøádanou jednou za rok.
+Dialogue: 0,0:02:53.84,0:02:58.55,Default,,0000,0000,0000,,Všichni studenti na ní pøed publikem pøedstavují své sluebníky.
+Dialogue: 0,0:02:58.84,0:03:00.18,Default,,0000,0000,0000,,Tak takhle to je.
+Dialogue: 0,0:03:00.18,0:03:01.55,Default,,0000,0000,0000,,Tak proè se na to nevykašleš?
+Dialogue: 0,0:03:01.93,0:03:04.24,Default,,0000,0000,0000,,Všichni druháci to mají povinnì!
+Dialogue: 0,0:03:04.50,0:03:08.35,Default,,0000,0000,0000,,Navíc... jsem chtìla pøedejít zbyteènım øeèem.
+Dialogue: 0,0:03:08.35,0:03:13.90,Default,,0000,0000,0000,,Take jsem si myslela, e bys \Nmohl na jevišti pøedvést nìjaké vystoupení.
+Dialogue: 0,0:03:14.40,0:03:15.40,Default,,0000,0000,0000,,Jasnì.
+Dialogue: 0,0:03:15.50,0:03:17.03,Default,,0000,0000,0000,,Vím o nìèem co všechny uzemní.
+Dialogue: 0,0:03:17.50,0:03:18.38,Default,,0000,0000,0000,,Opravdu?
+Dialogue: 0,0:03:18.86,0:03:20.61,Default,,0000,0000,0000,,Praní kalhotek.
+Dialogue: 0,0:03:22.20,0:03:23.25,Default,,0000,0000,0000,,Chápej...
+Dialogue: 0,0:03:23.35,0:03:26.15,Default,,0000,0000,0000,,... v praní kalhotek nemám absolutnì ádnou konkurenci.
+Dialogue: 0,0:03:27.35,0:03:30.00,Default,,0000,0000,0000,,Och, má paní snad ertuje.
+Dialogue: 0,0:03:30.20,0:03:34.25,Default,,0000,0000,0000,,Pøestoe je lakomá jak cyp, nosí, opravdu, pøekrásné kalhotky.
+Dialogue: 0,0:03:34.33,0:03:37.88,Default,,0000,0000,0000,,Dovolte mi vám o nich... nì-co... øíct.
+Dialogue: 0,0:03:41.00,0:03:44.01,Default,,0000,0000,0000,,Tak o tomhle bys chtìl mluvit?
+Dialogue: 0,0:03:46.22,0:03:48.31,Default,,0000,0000,0000,,T-T-To byl jenom vtip!
+Dialogue: 0,0:03:51.60,0:03:52.60,Default,,0000,0000,0000,,Ovšem.
+Dialogue: 0,0:03:52.70,0:03:55.23,Default,,0000,0000,0000,,Vdy umíš zacházet s meèem, Saito.
+Dialogue: 0,0:03:55.80,0:03:58.20,Default,,0000,0000,0000,,Všem pøedvedeš svoje šermíøské umìní.
+Dialogue: 0,0:03:58.70,0:04:00.10,Default,,0000,0000,0000,,Och, poèkej, poèkej.
+Dialogue: 0,0:04:00.50,0:04:03.66,Default,,0000,0000,0000,,To u jsi zapomnìla, jak jsem to v domì hrabìte Motta projel?
+Dialogue: 0,0:04:12.10,0:04:15.04,Default,,0000,0000,0000,,Nepovedlo se ti ho ani škrábnut.
+Dialogue: 0,0:04:15.13,0:04:19.13,Default,,0000,0000,0000,,Ten souboj s Guichem byl úplnì o nìèem jinım.
+Dialogue: 0,0:04:19.21,0:04:23.73,Default,,0000,0000,0000,,No, ten souboj s hrabìtem Mottem jsi \Nsice prohrál, ale jinak jsi si vedl dobøe.
+Dialogue: 0,0:04:24.18,0:04:26.10,Default,,0000,0000,0000,,Pøesto tu nìco nehraje.
+Dialogue: 0,0:04:26.53,0:04:27.20,Default,,0000,0000,0000,,A co?
+Dialogue: 0,0:04:27.68,0:04:33.51,Default,,0000,0000,0000,,Kdy vezmu v úvahu co všechno jsi \Nnatropil, tak jsme z toho vyvázli docela snadno.
+Dialogue: 0,0:04:34.10,0:04:35.35,Default,,0000,0000,0000,,Je to divné.
+Dialogue: 0,0:04:35.94,0:04:38.11,Default,,0000,0000,0000,,Pøestaòme ztrácet zbyteènì èas.
+Dialogue: 0,0:04:38.11,0:04:42.38,Default,,0000,0000,0000,,Musíme vymyslet nìjaké vystoupení, \Nse kterım bys mohl pøedstoupit pøed mojí tøídou.
+Dialogue: 0,0:04:45.50,0:04:46.85,Default,,0000,0000,0000,,Fajn.
+Dialogue: 0,0:04:51.45,0:04:54.12,Default,,0000,0000,0000,,Co to má bıt? Nìjakı zvláštní tanec?
+Dialogue: 0,0:04:54.87,0:04:56.08,Default,,0000,0000,0000,,Je pìknì trapnej.
+Dialogue: 0,0:04:57.08,0:04:59.79,Default,,0000,0000,0000,,Za tak krátkou dobu se prostì nic nenauèím.
+Dialogue: 0,0:05:00.38,0:05:03.38,Default,,0000,0000,0000,,No, za pokus nic nedáš, brácho.
+Dialogue: 0,0:05:03.51,0:05:06.43,Default,,0000,0000,0000,,Hele, kdy u jsme u toho, Derfflingere...
+Dialogue: 0,0:05:06.43,0:05:10.10,Default,,0000,0000,0000,,... nevíš o nìèem, co by všechny lidi kolem totálnì uzemnilo?
+Dialogue: 0,0:05:10.32,0:05:11.42,Default,,0000,0000,0000,,Dìláš si prdel?
+Dialogue: 0,0:05:11.52,0:05:13.60,Default,,0000,0000,0000,,Jedinı co znám je boj na ivot a na smrt.
+Dialogue: 0,0:05:15.10,0:05:16.39,Default,,0000,0000,0000,,Jak jinak.
+Dialogue: 0,0:05:17.83,0:05:18.65,Default,,0000,0000,0000,,Saito?
+Dialogue: 0,0:05:19.95,0:05:21.15,Default,,0000,0000,0000,,Co to tu dìláš?
+Dialogue: 0,0:05:21.65,0:05:22.55,Default,,0000,0000,0000,,Siesto.
+Dialogue: 0,0:05:28.07,0:05:29.44,Default,,0000,0000,0000,,N-No, vlastnì...
+Dialogue: 0,0:05:29.82,0:05:32.33,Default,,0000,0000,0000,,Neøíkej, e trénuješ na pøehlídku.
+Dialogue: 0,0:05:32.95,0:05:34.12,Default,,0000,0000,0000,,Jo, jo, pøesnì tak.
+Dialogue: 0,0:05:34.25,0:05:35.58,Default,,0000,0000,0000,,Jak to víš?
+Dialogue: 0,0:05:36.33,0:05:40.46,Default,,0000,0000,0000,,Všichni studenti druhıch roèníkù se zabívají tím samım.
+Dialogue: 0,0:05:40.92,0:05:44.30,Default,,0000,0000,0000,,Letos to bude o to slavnostnìjší, e k nám pøijede Henrietta.
+Dialogue: 0,0:05:44.71,0:05:46.63,Default,,0000,0000,0000,,Henrietta?
+Dialogue: 0,0:05:48.10,0:05:50.10,Default,,0000,0000,0000,,Pøípravné práce jsou v plném proudu...
+Dialogue: 0,0:05:50.15,0:05:56.25,Default,,0000,0000,0000,,... zbıvá uklidit školní pozemky a postavit tribunu pro diváky.
+Dialogue: 0,0:05:56.35,0:06:00.81,Default,,0000,0000,0000,,Na všechno dohlíí, pan Corbel, \Naby se pøedešlo zbyteènım komplikacím.
+Dialogue: 0,0:06:01.69,0:06:04.48,Default,,0000,0000,0000,,Co se tıká pøedchozích problémù...
+Dialogue: 0,0:06:08.32,0:06:12.49,Default,,0000,0000,0000,,Uch, to bylo opravdu tìsné, Motsognire.
+Dialogue: 0,0:06:12.78,0:06:14.60,Default,,0000,0000,0000,,Tak co, jsou bílé?
+Dialogue: 0,0:06:15.70,0:06:17.70,Default,,0000,0000,0000,,Co? Ty jsi se nestihl podívat?
+Dialogue: 0,0:06:17.75,0:06:19.80,Default,,0000,0000,0000,,To je hrozné.
+Dialogue: 0,0:06:25.17,0:06:27.38,Default,,0000,0000,0000,,Takhle se zachází se starımi lidmi?!
+Dialogue: 0,0:06:28.30,0:06:32.68,Default,,0000,0000,0000,,Toto je, Plamínek... a jeho ohnivé vystoupení.
+Dialogue: 0,0:06:35.14,0:06:37.23,Default,,0000,0000,0000,,Och, jsi skvìlı, Plamínku.
+Dialogue: 0,0:06:43.27,0:06:46.36,Default,,0000,0000,0000,,Skvìlé, Kvasire.
+Dialogue: 0,0:06:49.45,0:06:52.20,Default,,0000,0000,0000,,Ta stuha je taková nevırazná.
+Dialogue: 0,0:06:55.62,0:07:02.63,Default,,0000,0000,0000,,Verdandi... princezna bude dozajista unesena tvou krásou.
+Dialogue: 0,0:07:06.88,0:07:08.51,Default,,0000,0000,0000,,Ty kráso.
+Dialogue: 0,0:07:08.97,0:07:11.26,Default,,0000,0000,0000,,Take, pøijede samotná princezna.
+Dialogue: 0,0:07:11.43,0:07:17.43,Default,,0000,0000,0000,,Po smrti našeho krále, je veškerá \Npozornost upøena na princeznu Henriettu.
+Dialogue: 0,0:07:19.23,0:07:20.19,Default,,0000,0000,0000,,To je tak oblíbená?
+Dialogue: 0,0:07:23.77,0:07:26.69,Default,,0000,0000,0000,,První cena je u teï moje.
+Dialogue: 0,0:07:26.07,0:07:27.19,Karaoke,,0000,0000,0000,,Kirché!
+Dialogue: 0,0:07:28.20,0:07:30.95,Default,,0000,0000,0000,,A uvidí místní vıkvìt, tak pùjde do kolen.
+Dialogue: 0,0:07:32.99,0:07:36.36,Default,,0000,0000,0000,,Kvùli jejímu pøíjezdu máme spoustu práce.
+Dialogue: 0,0:07:36.89,0:07:37.51,Default,,0000,0000,0000,,Zatím ahoj.
+Dialogue: 0,0:07:37.74,0:07:39.26,Default,,0000,0000,0000,,Jo, zatím.
+Dialogue: 0,0:07:44.14,0:07:46.59,Default,,0000,0000,0000,,Budu ti dret palce, Saito.
+Dialogue: 0,0:07:57.35,0:07:59.85,Default,,0000,0000,0000,,Zítra budete na strái u hlavní brány.
+Dialogue: 0,0:08:00.64,0:08:01.43,Default,,0000,0000,0000,,Rozkaz.
+Dialogue: 0,0:08:02.06,0:08:03.44,Default,,0000,0000,0000,,Pane Corbele?
+Dialogue: 0,0:08:03.98,0:08:07.35,Default,,0000,0000,0000,,Vy jste pøevelel stráe k hlavní bránì?
+Dialogue: 0,0:08:07.82,0:08:11.20,Default,,0000,0000,0000,,Ovšem, musíme se pøeci postarat o bezpeèí našeho hosta.
+Dialogue: 0,0:08:11.30,0:08:16.16,Default,,0000,0000,0000,,Ale co Fouquet a královskı poklad, po kterém jde?
+Dialogue: 0,0:08:16.28,0:08:23.42,Default,,0000,0000,0000,,No, pochybuji, e se sem nìjakı zlodìj odváí, kdy \Ntu bude princezna s celım svım doprovodem a stráemi.
+Dialogue: 0,0:08:23.75,0:08:28.96,Default,,0000,0000,0000,,Mimo to, ani terciální mág, by tyto \Ndveøe nedokázal by jen škrábnout.
+Dialogue: 0,0:08:30.38,0:08:35.76,Default,,0000,0000,0000,,Stráe potøebujeme k tomu, abysme zachovali \Ndekórum a sloili poklonu královskım hostùm.
+Dialogue: 0,0:08:36.39,0:08:37.64,Default,,0000,0000,0000,,To je pochopitelné.
+Dialogue: 0,0:08:39.85,0:08:45.95,Default,,0000,0000,0000,,Vládkynì Tristeinského království. \NJejí Vısost princezna Henrietta s doprovodem.
+Dialogue: 0,0:09:07.04,0:09:08.79,Default,,0000,0000,0000,,Jak spanilá.
+Dialogue: 0,0:09:09.42,0:09:15.43,Default,,0000,0000,0000,,Tohle, má bıt Tristeinská vládkynì? \NJsem o dost hezèí ne ona... nemyslíš?
+Dialogue: 0,0:09:15.70,0:09:16.55,Default,,0000,0000,0000,,Moná.
+Dialogue: 0,0:09:21.56,0:09:22.95,Default,,0000,0000,0000,,Hele, docela kus.
+Dialogue: 0,0:09:23.18,0:09:24.43,Default,,0000,0000,0000,,Koukej zklapnout!
+Dialogue: 0,0:09:24.43,0:09:26.02,Default,,0000,0000,0000,,Taková drzost z úst sluebníka!
+Dialogue: 0,0:09:26.83,0:09:28.32,Default,,0000,0000,0000,,No jo, no jo.
+Dialogue: 0,0:09:31.23,0:09:35.49,Default,,0000,0000,0000,,Omlouvám se, za tak náhlı pøíjezd, øediteli Osmonde.
+Dialogue: 0,0:09:35.65,0:09:37.65,Default,,0000,0000,0000,,Nic se nedìje.
+Dialogue: 0,0:09:37.75,0:09:41.20,Default,,0000,0000,0000,,Celá akademie je potìšena, e \Njí její Vısost poctila svou návštìvou.
+Dialogue: 0,0:09:41.49,0:09:45.12,Default,,0000,0000,0000,,Letos bych ráda osobnì poznala místní studenty.
+Dialogue: 0,0:09:45.12,0:09:46.71,Default,,0000,0000,0000,,Och, opravdu?
+Dialogue: 0,0:09:47.21,0:09:48.91,Default,,0000,0000,0000,,U se nemohu doèkat.
+Dialogue: 0,0:09:53.84,0:09:54.80,Default,,0000,0000,0000,,Dìlej, znova!
+Dialogue: 0,0:09:57.60,0:09:59.78,Default,,0000,0000,0000,,Na tohle mám bıt pøed všemi pyšná?!
+Dialogue: 0,0:10:00.18,0:10:01.78,Default,,0000,0000,0000,,Jsi úplnì tragickı!?
+Dialogue: 0,0:10:02.22,0:10:05.68,Default,,0000,0000,0000,,Za jeden den, se nìco poøádnıho nauèit prostì nedá!
+Dialogue: 0,0:10:06.54,0:10:07.27,Default,,0000,0000,0000,,Zbıvá jen jedno.
+Dialogue: 0,0:10:07.89,0:10:08.40,Default,,0000,0000,0000,,A co?
+Dialogue: 0,0:10:09.19,0:10:11.23,Default,,0000,0000,0000,,Pøednáška o praní kalhotek.
+Dialogue: 0,0:10:16.90,0:10:20.41,Default,,0000,0000,0000,,Poèkej, poèkej, poèkej, poèkej, poèkej! \NNic jsem neøek! Nic jsem neøek! Ano? Ano? Ano?
+Dialogue: 0,0:10:22.45,0:10:23.87,Default,,0000,0000,0000,,Návštìva, návštìva.
+Dialogue: 0,0:10:24.04,0:10:26.71,Default,,0000,0000,0000,,Kdo to jen mùe uprostøed noci bıt?
+Dialogue: 0,0:10:26.87,0:10:28.46,Default,,0000,0000,0000,,Ano, raète vstoupit.
+Dialogue: 0,0:10:32.25,0:10:34.00,Default,,0000,0000,0000,,Kdo jste?!
+Dialogue: 0,0:10:34.13,0:10:35.42,Default,,0000,0000,0000,,Dlouho jsme se nevidìli...
+Dialogue: 0,0:10:37.13,0:10:38.88,Default,,0000,0000,0000,,... Luiso Francoise.
+Dialogue: 0,0:10:41.43,0:10:43.06,Default,,0000,0000,0000,,Princezno!?!
+Dialogue: 0,0:10:46.00,0:10:50.56,Translations_stred,,0000,0000,0000,,{\q2\alpha&Hff&\fscx1000\fscy100\t(0,50,1,\3a&H5f&\4a&H9f&\1a&H00&)\t(20,80,1,\fscx80\fscy80)\t(4000,4350,1,\alpha&Hff&)\t(4250,4300,1,\fscx1000\fscy100)}Shibetsudake \NTranslations{\fad(375,375)}
+Dialogue: 0,0:10:52.06,0:10:54.36,Default,,0000,0000,0000,,Luiso, Luiso! Támhle je!
+Dialogue: 0,0:10:54.65,0:10:55.73,Default,,0000,0000,0000,,Stùùùj!
+Dialogue: 0,0:11:11.75,0:11:16.50,Default,,0000,0000,0000,,Jestli budeš nìkdy smutná a budeš \Npotøebovat mojí pomoct, tak za mnou kdykoliv pøijï.
+Dialogue: 0,0:11:17.67,0:11:20.09,Default,,0000,0000,0000,,Ráda ti s èímkoliv pomohu.
+Dialogue: 0,0:11:21.38,0:11:22.80,Default,,0000,0000,0000,,Dobrá, budu si to pamatovat.
+Dialogue: 0,0:11:23.18,0:11:26.20,Default,,0000,0000,0000,,A pokud budeš mít problém ty, také ti ráda pomohu.
+Dialogue: 0,0:11:30.93,0:11:33.66,Default,,0000,0000,0000,,Luiso, Luiso, má drahá Luiso.
+Dialogue: 0,0:11:35.32,0:11:36.90,Default,,0000,0000,0000,,Tohle nesmíte, Vaše Vısosti.
+Dialogue: 0,0:11:37.23,0:11:39.44,Default,,0000,0000,0000,,Nemùe jen tak pøijít na takové podøadné místo.
+Dialogue: 0,0:11:39.74,0:11:43.70,Default,,0000,0000,0000,,Pøestaò, prosím, takto mluvit, Luiso Francoise.
+Dialogue: 0,0:11:44.36,0:11:46.87,Default,,0000,0000,0000,,Jsme pøeci pøítelkynì z dìtství.
+Dialogue: 0,0:11:47.04,0:11:50.26,Default,,0000,0000,0000,,Je pro mì ctí, e ve mì vidíte pøítelkyni, princezno.
+Dialogue: 0,0:11:50.46,0:11:53.33,Default,,0000,0000,0000,,Hele... ty jí znáš?
+Dialogue: 0,0:11:53.93,0:11:58.55,Default,,0000,0000,0000,,Kdy byla princezna ještì \Nmalá, tak jsme si spolu hrávali.
+Dialogue: 0,0:11:59.05,0:12:00.92,Default,,0000,0000,0000,,Byli jsme velké pøítelkynì.
+Dialogue: 0,0:12:02.84,0:12:04.09,Default,,0000,0000,0000,,Dlouho jsme se nevidìli.
+Dialogue: 0,0:12:04.72,0:12:06.10,Default,,0000,0000,0000,,Princezno.
+Dialogue: 0,0:12:06.14,0:12:13.37,Default,,0000,0000,0000,,Omlouvám se... od smrti mého otce... \Nnebyl nikdo s kım bych si mohla promluvit.
+Dialogue: 0,0:12:14.16,0:12:17.98,Default,,0000,0000,0000,,Princezno... Váš dopis mi udìlal velikou radost.
+Dialogue: 0,0:12:19.11,0:12:24.03,Default,,0000,0000,0000,,Och, jo, tak... bylas na mì tak tvrdá, \Nprotoe jsi vìdìla, e princezna pøijede.
+Dialogue: 0,0:12:24.66,0:12:26.03,Default,,0000,0000,0000,,Koukej zklapnout!
+Dialogue: 0,0:12:26.24,0:12:29.54,Default,,0000,0000,0000,,A mazej trénovat a pøed \Nprinceznou nevypadáš jako úplnej blbec!
+Dialogue: 0,0:12:29.87,0:12:31.29,Default,,0000,0000,0000,,To je v poøádku.
+Dialogue: 0,0:12:32.37,0:12:34.92,Default,,0000,0000,0000,,Nic se nestalo.
+Dialogue: 0,0:12:35.38,0:12:37.92,Default,,0000,0000,0000,,J-Je nádherná.
+Dialogue: 0,0:12:39.34,0:12:41.52,Default,,0000,0000,0000,,U s tím zas zaèínáš?
+Dialogue: 0,0:12:41.62,0:12:44.55,Default,,0000,0000,0000,,Prosím, omluvte jeho vesnické chování.
+Dialogue: 0,0:12:44.88,0:12:48.22,Default,,0000,0000,0000,,To je ten sluebník co vyzval hrabìte Motta?
+Dialogue: 0,0:12:50.27,0:12:52.14,Default,,0000,0000,0000,,Ráda tì poznávám.
+Dialogue: 0,0:12:52.77,0:12:57.52,Default,,0000,0000,0000,,Èlovìk, kterı se dokáe postavit \Nšlechtici, aè sám je sluebník, mi imponuje.
+Dialogue: 0,0:12:58.65,0:12:59.44,Default,,0000,0000,0000,,Princezno?!
+Dialogue: 0,0:13:00.53,0:13:01.92,Default,,0000,0000,0000,,To je v poøádku, Luiso.
+Dialogue: 0,0:13:02.02,0:13:06.97,Default,,0000,0000,0000,,U dvora to vyvolalo docela \Npoprask, ale teï u je to urovnané.
+Dialogue: 0,0:13:07.42,0:13:09.24,Default,,0000,0000,0000,,Take... to Vy princezno?
+Dialogue: 0,0:13:09.70,0:13:10.70,Default,,0000,0000,0000,,Zapomnìla jsi?
+Dialogue: 0,0:13:10.80,0:13:16.50,Default,,0000,0000,0000,,Slíbila jsem ti, e kdy budeš mít \Njakıkoliv problém, pomohu ti ho vyøešit.
+Dialogue: 0,0:13:17.29,0:13:19.96,Default,,0000,0000,0000,,Jsem pøeci vládkyní této zemì.
+Dialogue: 0,0:13:21.55,0:13:22.96,Default,,0000,0000,0000,,Princezno.
+Dialogue: 0,0:13:24.09,0:13:25.68,Default,,0000,0000,0000,,Do smrti Vám to nebudu schopná splatit.
+Dialogue: 0,0:13:27.26,0:13:29.93,Default,,0000,0000,0000,,Máš dobrého sluebníka, Luiso.
+Dialogue: 0,0:13:30.26,0:13:35.14,Default,,0000,0000,0000,,Bohuel, ne! Je to sprostá, \Nneschopná a naprosto zvrhlá imitace lidského tvora.
+Dialogue: 0,0:13:36.10,0:13:39.11,Default,,0000,0000,0000,,Au, to bolí, to bolí! Nech toho!
+Dialogue: 0,0:13:39.15,0:13:41.11,Default,,0000,0000,0000,,Koukej se chovat slušnì!
+Dialogue: 0,0:13:44.06,0:13:47.49,Default,,0000,0000,0000,,Toto byl nejlepší moment, v mém \Nivotì, za nìkolik posledních nìkolik let.
+Dialogue: 0,0:13:48.91,0:13:51.58,Default,,0000,0000,0000,,Dìkuji, Luiso Francoise.
+Dialogue: 0,0:13:53.66,0:13:56.33,Default,,0000,0000,0000,,Potìšení je na mé stranì, princezno.
+Dialogue: 0,0:13:59.27,0:14:00.29,Default,,0000,0000,0000,,Pane sluebníku.
+Dialogue: 0,0:14:00.75,0:14:02.00,Default,,0000,0000,0000,,Kdo? Já?
+Dialogue: 0,0:14:02.50,0:14:04.48,Default,,0000,0000,0000,,Jsem si jistá, e zítra budete nejlepší.
+Dialogue: 0,0:14:07.72,0:14:09.47,Default,,0000,0000,0000,,No, tak na to se spolehnìte.
+Dialogue: 0,0:14:10.72,0:14:15.48,Default,,0000,0000,0000,,Ty... jak se opovauješ... flirtovat s princeznou?!?
+Dialogue: 0,0:14:15.48,0:14:16.07,Default,,0000,0000,0000,,Flirtovat?
+Dialogue: 0,0:14:16.48,0:14:19.56,Default,,0000,0000,0000,,No tak, zastav se!
+Dialogue: 0,0:14:19.56,0:14:23.07,Default,,0000,0000,0000,,Mì neuteèeš!
+Dialogue: 0,0:14:23.07,0:14:25.07,Default,,0000,0000,0000,,Zatav se, ty idiote!
+Dialogue: 0,0:14:25.11,0:14:28.48,Default,,0000,0000,0000,,Svoboda... je nejcennìjším pokladem lidského ivota.
+Dialogue: 0,0:14:30.32,0:14:31.51,Default,,0000,0000,0000,,Dobrou noc.
+Dialogue: 0,0:14:33.49,0:14:34.58,Default,,0000,0000,0000,,Princezno?
+Dialogue: 0,0:14:35.87,0:14:39.96,Default,,0000,0000,0000,,Kadoroèní pøehlídka sluebníkù právì zaèíná.
+Dialogue: 0,0:14:56.89,0:14:58.60,Default,,0000,0000,0000,,A to byl Tabithin Blizzard.
+Dialogue: 0,0:15:02.83,0:15:07.60,Default,,0000,0000,0000,,Poslouchej... prostì tam bì, ukloò se, nic nedìlej a zase se vratíme.
+Dialogue: 0,0:15:08.54,0:15:10.32,Default,,0000,0000,0000,,Potom všem, èím sem musel projí?!
+Dialogue: 0,0:15:10.61,0:15:14.24,Default,,0000,0000,0000,,To je teï jedno! \NU nemusíš dìlat dojem na princeznu!
+Dialogue: 0,0:15:14.34,0:15:18.54,Default,,0000,0000,0000,,Další na øadì je sleèna Luisa d´L Vallierová.
+Dialogue: 0,0:15:19.26,0:15:20.39,Default,,0000,0000,0000,,Tak pojï.
+Dialogue: 0,0:15:20.75,0:15:21.54,Default,,0000,0000,0000,,Fajn.
+Dialogue: 0,0:15:23.42,0:15:28.01,Default,,0000,0000,0000,,Dovolte mi vám pøedstavit, mého sluebníka, Hiraga Saita.
+Dialogue: 0,0:15:28.97,0:15:30.11,Default,,0000,0000,0000,,Specializace...
+Dialogue: 0,0:15:30.22,0:15:32.30,Default,,0000,0000,0000,,Do toho, Nulová Luiso.
+Dialogue: 0,0:15:39.89,0:15:43.65,Default,,0000,0000,0000,,Jeho specializace... domácí práce.
+Dialogue: 0,0:15:45.57,0:15:48.19,Default,,0000,0000,0000,,Domácí práce? To, e je nìjaká specializace?!
+Dialogue: 0,0:15:48.19,0:15:49.95,Default,,0000,0000,0000,,Jen tak dál, Nulová Luiso.
+Dialogue: 0,0:15:50.00,0:15:51.50,Default,,0000,0000,0000,,Dobrı vtip.
+Dialogue: 0,0:15:51.65,0:15:54.22,Default,,0000,0000,0000,,Drte huby... teï nìco uvidíte!!!
+Dialogue: 0,0:15:54.27,0:15:55.53,Default,,0000,0000,0000,,Jdeme na to, Derffle.
+Dialogue: 0,0:15:56.00,0:15:57.24,Default,,0000,0000,0000,,S-Saito?!
+Dialogue: 0,0:15:57.74,0:16:00.25,Default,,0000,0000,0000,,Co? Jako na pivo nebo kam?
+Dialogue: 0,0:16:04.38,0:16:06.92,Default,,0000,0000,0000,,Och, no tak, pøestaò dìlat blbosti.
+Dialogue: 0,0:16:07.05,0:16:10.12,Default,,0000,0000,0000,,Jakı blbosti? To, e tu jsme je tvoje vina.
+Dialogue: 0,0:16:11.61,0:16:15.26,Default,,0000,0000,0000,,Co je to za komedii? \NHádat se s vlastním meèem?
+Dialogue: 0,0:16:16.05,0:16:21.14,Default,,0000,0000,0000,,Och, miláèku, v tvém podání je všechno tak skvìlé a úasné.
+Dialogue: 0,0:16:22.73,0:16:24.77,Default,,0000,0000,0000,,No tak dìlej!
+Dialogue: 0,0:16:25.40,0:16:28.07,Default,,0000,0000,0000,,Ukáem všem pár trikù a zase pùjdem!
+Dialogue: 0,0:16:29.19,0:16:30.90,Default,,0000,0000,0000,,Au, to bolí!
+Dialogue: 0,0:16:31.20,0:16:32.36,Default,,0000,0000,0000,,To staèí.
+Dialogue: 0,0:16:32.65,0:16:35.92,Default,,0000,0000,0000,,To bolí, kurva, seš normální?!
+Dialogue: 0,0:16:45.00,0:16:47.64,Default,,0000,0000,0000,,Hrubá síla by na to mìla staèit...
+Dialogue: 0,0:16:48.05,0:16:49.00,Default,,0000,0000,0000,,... nicménì...
+Dialogue: 0,0:16:50.55,0:16:53.05,Default,,0000,0000,0000,,Dobrá, hlavní oslavy mohou zaèít.
+Dialogue: 0,0:16:53.38,0:16:54.63,Default,,0000,0000,0000,,... mì tlaèí èas.
+Dialogue: 0,0:17:16.95,0:17:19.62,Default,,0000,0000,0000,,Zabere to víc èasu ne jsem pøedpokládala.
+Dialogue: 0,0:17:19.62,0:17:21.83,Default,,0000,0000,0000,,Neøíkala jsem ti, abyses jenom poklonil?!
+Dialogue: 0,0:17:22.45,0:17:23.83,Default,,0000,0000,0000,,Ale já se ti snail pomoct.
+Dialogue: 0,0:17:24.21,0:17:26.35,Default,,0000,0000,0000,,Všem jsi byl jen pro smích.
+Dialogue: 0,0:17:29.03,0:17:30.65,Default,,0000,0000,0000,,G-Golem!
+Dialogue: 0,0:17:31.00,0:17:32.23,Default,,0000,0000,0000,,Co to je?
+Dialogue: 0,0:17:32.59,0:17:34.44,Default,,0000,0000,0000,,Nìjakej sluebník?
+Dialogue: 0,0:17:34.97,0:17:36.48,Default,,0000,0000,0000,,Ne tak docela... je to..
+Dialogue: 0,0:17:36.94,0:17:38.40,Default,,0000,0000,0000,,Naposledy se pomodlete.
+Dialogue: 0,0:17:40.91,0:17:41.60,Default,,0000,0000,0000,,Uhni!
+Dialogue: 0,0:17:43.85,0:17:45.70,Default,,0000,0000,0000,,Je mi ctí vám pøedstavit...
+Dialogue: 0,0:17:46.35,0:17:48.16,Default,,0000,0000,0000,,... letošního vítìze.
+Dialogue: 0,0:17:51.45,0:17:52.29,Default,,0000,0000,0000,,Saito!?!
+Dialogue: 0,0:17:52.65,0:17:54.19,Default,,0000,0000,0000,,Uteè, Luiso!
+Dialogue: 0,0:17:54.24,0:17:55.82,Default,,0000,0000,0000,,Bez tebe ne, Saito!
+Dialogue: 0,0:17:57.62,0:18:00.30,Default,,0000,0000,0000,,Co to dìláš? \NHonem odtud uteè!
+Dialogue: 0,0:18:00.65,0:18:02.09,Default,,0000,0000,0000,,Im Ecks...
+Dialogue: 0,0:18:02.99,0:18:04.04,Default,,0000,0000,0000,,Nech si zdát!
+Dialogue: 0,0:18:04.04,0:18:06.25,Default,,0000,0000,0000,,... Dega Flame.
+Dialogue: 0,0:18:07.37,0:18:08.79,Default,,0000,0000,0000,,Ohnivá koule.
+Dialogue: 0,0:18:13.58,0:18:15.76,Default,,0000,0000,0000,,Hele, co to bylo?
+Dialogue: 0,0:18:15.88,0:18:18.76,Default,,0000,0000,0000,,Nemohu slyšet, e jsem s Verdandi, nevyhrál.
+Dialogue: 0,0:18:19.22,0:18:21.43,Default,,0000,0000,0000,,Tipovala jsem Tabithu a Sylphida...
+Dialogue: 0,0:18:22.06,0:18:24.27,Default,,0000,0000,0000,,... a taky jsem se nemılila.
+Dialogue: 0,0:18:24.77,0:18:30.61,Default,,0000,0000,0000,,Tvùj sluebník je úasnı. \NMohla by jsi své vystoupení zopakovat?
+Dialogue: 0,0:18:32.86,0:18:34.79,Default,,0000,0000,0000,,S-Snaíš se mì zabít?!
+Dialogue: 0,0:18:35.82,0:18:39.11,Default,,0000,0000,0000,,Och, sklapni! \NDìlám co mùu!
+Dialogue: 0,0:18:39.11,0:18:41.59,Default,,0000,0000,0000,,Tohle mìlo bıt kouzlo s ohnivou koulí?
+Dialogue: 0,0:18:47.21,0:18:49.97,Default,,0000,0000,0000,,Co se to... to snad není...
+Dialogue: 0,0:18:50.04,0:18:51.96,Default,,0000,0000,0000,,H-Hned, Saita, pus!
+Dialogue: 0,0:18:52.59,0:18:55.81,Default,,0000,0000,0000,,S-Slyšíš mì?! \NNechtìj abych se naštvala!
+Dialogue: 0,0:18:55.88,0:18:57.47,Default,,0000,0000,0000,,Nech toho a uteè!
+Dialogue: 0,0:18:57.80,0:18:59.55,Default,,0000,0000,0000,,Toho bych mohla vyuit.
+Dialogue: 0,0:18:59.68,0:19:01.26,Default,,0000,0000,0000,,Bì, Goleme!
+Dialogue: 0,0:19:09.19,0:19:09.81,Default,,0000,0000,0000,,Co to...
+Dialogue: 0,0:19:09.98,0:19:11.81,Default,,0000,0000,0000,,Chraòte její Vısost!
+Dialogue: 0,0:19:17.45,0:19:18.29,Default,,0000,0000,0000,,Goleme.
+Dialogue: 0,0:19:21.32,0:19:22.91,Default,,0000,0000,0000,,Máš mé díky.
+Dialogue: 0,0:19:34.00,0:19:35.09,Default,,0000,0000,0000,,Saito!
+Dialogue: 0,0:19:46.31,0:19:52.19,Default,,0000,0000,0000,,Já, Fouquet "Hlinìná pìst", jsem ukradl Hùl zkázy.
+Dialogue: 0,0:19:53.27,0:19:54.43,Default,,0000,0000,0000,,Dokázal to.
+Dialogue: 0,0:19:55.75,0:19:57.79,Default,,0000,0000,0000,,Nedaøí se nám lokalizovat polohu zlodìje.
+Dialogue: 0,0:19:58.32,0:20:01.13,Default,,0000,0000,0000,,Všude jsou jen obrovské hromady hlíny.
+Dialogue: 0,0:20:03.07,0:20:04.99,Default,,0000,0000,0000,,To je hrozné.
+Dialogue: 0,0:20:09.18,0:20:12.35,Default,,0000,0000,0000,,Jak se mu to, proboha, povedlo?!
+Dialogue: 0,0:20:14.13,0:20:17.46,Default,,0000,0000,0000,,Docela mì pøekvapuje, e za tím stojí, Fouquet "Hlinìná pìst".
+Dialogue: 0,0:20:18.09,0:20:20.04,Default,,0000,0000,0000,,Hele, Tabitho, vidìla jsi jeho tváø?
+Dialogue: 0,0:20:20.40,0:20:21.95,Default,,0000,0000,0000,,Byl zahalen.
+Dialogue: 0,0:20:22.34,0:20:24.43,Default,,0000,0000,0000,,Coe? Taková škoda.
+Dialogue: 0,0:20:25.71,0:20:31.82,Default,,0000,0000,0000,,Na to aby mohl ovládat tak ohromného \NGolema, musel bıt pøinejmenším terciální kouzelník.
+Dialogue: 0,0:20:32.31,0:20:36.27,Default,,0000,0000,0000,,No, nakonec se nikomu nic nestalo, co je dobøe, ne?
+Dialogue: 0,0:20:36.61,0:20:38.02,Default,,0000,0000,0000,,Mohl bys to pøestat zlehèovat?!
+Dialogue: 0,0:20:42.11,0:20:44.32,Default,,0000,0000,0000,,Díky bohu, není vám nic?!
+Dialogue: 0,0:20:44.82,0:20:45.82,Default,,0000,0000,0000,,Princezno?!
+Dialogue: 0,0:20:46.00,0:20:48.94,Default,,0000,0000,0000,,Omlouvám se, e jsem \Nnezabránila krádei královskıch klenotù. 
+Dialogue: 0,0:20:50.14,0:20:53.26,Default,,0000,0000,0000,,Nemùeš za to, Luiso Francoise.
+Dialogue: 0,0:20:53.55,0:20:54.56,Default,,0000,0000,0000,,Pøesto...
+Dialogue: 0,0:20:54.92,0:20:56.60,Default,,0000,0000,0000,,Musíme si pospíšit, Vaše Vısosti.
+Dialogue: 0,0:20:58.00,0:21:07.30,Default,,0000,0000,0000,,Musím se vrátit do královského paláce. \NDoufám, e se brzy uvidíme, Luiso, pane Sluebníku.
+Dialogue: 0,0:21:10.72,0:21:14.23,Default,,0000,0000,0000,,Doufám, e mi to princezna odpustí.
+Dialogue: 0,0:21:15.15,0:21:19.10,Default,,0000,0000,0000,,Odpustí? Vdy sama øíkala, e za to nemùeš.
+Dialogue: 0,0:21:20.17,0:21:27.42,Default,,0000,0000,0000,,V paláci si bude muset vyslechnout spoustu \Nnepøíjemnıch vìcí a já pro ni nemohu nic udìlat.
+Dialogue: 0,0:21:28.91,0:21:31.39,Default,,0000,0000,0000,,Hele, Luiso... mùu se tì na nìco zeptat?
+Dialogue: 0,0:21:31.70,0:21:32.70,Default,,0000,0000,0000,,Na co?
+Dialogue: 0,0:21:33.14,0:21:36.53,Default,,0000,0000,0000,,Pøedtím, kdy jsem na tebe køièel, proè jsi neutekla?
+Dialogue: 0,0:21:38.54,0:21:39.50,Default,,0000,0000,0000,,Ty jsi fakt hloupı.
+Dialogue: 0,0:21:41.25,0:21:44.72,Default,,0000,0000,0000,,Pán,kterı opustí svého sluebníka, není pán.
+Dialogue: 0,0:22:02.61,0:22:05.89,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Ziazuna mahou ni...
+Dialogue: 0,0:22:07.86,0:22:11.64,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... kakatta mitai ni...
+Dialogue: 0,0:22:13.36,0:22:17.71,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... kono mune ni yakitsuita...
+Dialogue: 0,0:22:18.70,0:22:22.64,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... mabushii egao.
+Dialogue: 0,0:22:24.11,0:22:27.56,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Dakedo au tabi ni...
+Dialogue: 0,0:22:28.30,0:22:33.72,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... tsun tsun tsumetakushichau no.
+Dialogue: 0,0:22:33.96,0:22:39.22,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Nazedaze yozi ki ni nazu noni...
+Dialogue: 0,0:22:39.38,0:22:45.05,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... ijiwazu wo hichaun dazou?
+Dialogue: 0,0:22:47.59,0:22:51.94,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Hontou no kimochi...
+Dialogue: 0,0:22:52.68,0:22:57.11,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... setsunasa no kekeza ga...
+Dialogue: 0,0:22:58.10,0:23:02.94,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... kono kokozo no ichiban oku...
+Dialogue: 0,0:23:03.35,0:23:07.95,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}... kimi wo yondeizu yo.
+Dialogue: 0,0:23:08.69,0:23:14.19,Karaoke_JP,,0000,0000,0000,,{\fad(375,375)}Zezo kaza hajimazu hi wo.
+Dialogue: 0,0:22:02.61,0:22:05.89,Karaoke,,0000,0000,0000,,{\fad(375,375)}Pod vlivem nìjakého...
+Dialogue: 0,0:22:07.86,0:22:11.64,Karaoke,,0000,0000,0000,,{\fad(375,375)}... zvláštního kouzla...
+Dialogue: 0,0:22:13.36,0:22:17.71,Karaoke,,0000,0000,0000,,{\fad(375,375)}... mì tvùj milı úsmìv...
+Dialogue: 0,0:22:18.70,0:22:22.64,Karaoke,,0000,0000,0000,,{\fad(375,375)}... høeje u srdce.
+Dialogue: 0,0:22:24.11,0:22:27.56,Karaoke,,0000,0000,0000,,{\fad(375,375)}Ale pøi kadém setkání...
+Dialogue: 0,0:22:28.30,0:22:33.72,Karaoke,,0000,0000,0000,,{\fad(375,375)}... se na tebe rozhnìvám.
+Dialogue: 0,0:22:33.96,0:22:39.22,Karaoke,,0000,0000,0000,,{\fad(375,375)}Proè, kdy mi leíš tolik na srdci...
+Dialogue: 0,0:22:39.38,0:22:45.05,Karaoke,,0000,0000,0000,,{\fad(375,375)}... se k tobì chovám jak k zloèinci?
+Dialogue: 0,0:22:47.59,0:22:51.94,Karaoke,,0000,0000,0000,,{\fad(375,375)}Mé ryze èisté city...
+Dialogue: 0,0:22:52.68,0:22:57.11,Karaoke,,0000,0000,0000,,{\fad(375,375)}... které mi pùsobí bolest...
+Dialogue: 0,0:22:58.10,0:23:02.94,Karaoke,,0000,0000,0000,,{\fad(375,375)}... a jen skrıvám hluboko v srdci...
+Dialogue: 0,0:23:03.35,0:23:07.95,Karaoke,,0000,0000,0000,,{\fad(375,375)}... køièí jen tvé jméno.
+Dialogue: 0,0:23:08.69,0:23:14.19,Karaoke,,0000,0000,0000,,{\fad(375,375)}A tak èekám na den, kdy ti to budu moci øíct.
