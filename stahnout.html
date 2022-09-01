@@ -2,7 +2,7 @@
 <script>
     let searchParams = new URLSearchParams(location.search);
     var nazev = searchParams.get('nazev');
-    var odkaz = searchParams.get('odkaz');
+    var odkaz = searchParams.get('odkaz').replace("../data-titulky-dorama/", "./data-titulky-dorama/");
     var web = searchParams.get('web');
     if (odkaz !== null && nazev !== null) {
         new jsFileDownloader({
